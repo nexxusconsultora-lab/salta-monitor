@@ -15,7 +15,7 @@ on:
     # Los boletines oficiales salen una vez por día, no hace falta mirar
     # cada 5 minutos. GitHub usa hora UTC (Argentina = UTC-3):
     #   10:15 UTC = 07:15 hs | 14:15 UTC = 11:15 hs | 20:15 UTC = 17:15 hs
-    - cron: "15 10,14,20 * * *"
+       - cron: "15 * * * *"
   workflow_dispatch: {}
 
 permissions:
