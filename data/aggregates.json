@@ -1,6 +1,5777 @@
 {
-  "generated_at": null,
-  "by_politician": {},
-  "by_day": {},
-  "politicians": []
+  "generated_at": "2026-09-20T16:41:17.988430+00:00",
+  "by_politician": {
+    "gustavo-saenz": {
+      "total": 81,
+      "positivo": 4,
+      "negativo": 8,
+      "neutral": 69,
+      "score_sum": -6
+    },
+    "dip-lino-fernando-yonar": {
+      "total": 14,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 13,
+      "score_sum": 2
+    },
+    "dip-gustavo-orlando-orozco": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 8,
+      "score_sum": -4
+    },
+    "dip-rogelio-guaipo-segundo": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "dip-claudia-gloria-seco": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-martin-miguel-perez": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-carolina-rosana-ceaglio": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-fabio-enrique-lopez": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 0
+    },
+    "dip-antonio-sebastian-otero": {
+      "total": 1,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 1,
+      "score_sum": 0
+    },
+    "dip-nancy-liliana-jaime": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-gustavo-bernardo-dantur": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "dip-esteban-amat-lacroix": {
+      "total": 39,
+      "positivo": 2,
+      "negativo": 3,
+      "neutral": 34,
+      "score_sum": -2
+    },
+    "dip-roberto-angel-bonifacio": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-francisco-fabio-rodriguez": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 6,
+      "score_sum": -2
+    },
+    "dip-gustavo-javier-pantaleon": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "dip-ernesto-gerardo-guanca": {
+      "total": 3,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 3,
+      "score_sum": 0
+    },
+    "dip-jorge-miguel-restom": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "dip-matias-monteagudo": {
+      "total": 19,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 16,
+      "score_sum": -2
+    },
+    "dip-ana-laura-cordoba": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "dip-daniel-alejandro-segura-gimenez": {
+      "total": 6,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 5,
+      "score_sum": -2
+    },
+    "dip-german-dario-ralle": {
+      "total": 9,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 2
+    },
+    "dip-maria-del-socorro-lopez": {
+      "total": 5,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 3,
+      "score_sum": 4
+    },
+    "dip-gonzalo-caro-davalos": {
+      "total": 45,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 39,
+      "score_sum": -8
+    },
+    "dip-luis-fernando-albeza": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 7,
+      "score_sum": -4
+    },
+    "dip-maria-del-socorro-villamayor": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "dip-sofia-sierra": {
+      "total": 12,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 11,
+      "score_sum": 2
+    },
+    "dip-juan-esteban-romero": {
+      "total": 48,
+      "positivo": 3,
+      "negativo": 2,
+      "neutral": 43,
+      "score_sum": 2
+    },
+    "dip-maria-cristina-fiore-vinuales": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-omar-exeni-arminana": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "dip-roque-ramon-cornejo-avellaneda": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "dip-patricio-penalba-arias": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 0
+    },
+    "dip-alejandra-beatriz-navarro": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dip-marcela-del-valle-leguina": {
+      "total": 1,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 1,
+      "score_sum": 0
+    },
+    "sen-daniel-moreno-ovalle": {
+      "total": 19,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 18,
+      "score_sum": -2
+    },
+    "sen-luciano-elvira": {
+      "total": 12,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 11,
+      "score_sum": 2
+    },
+    "sen-hector-dauria": {
+      "total": 7,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "sen-edgardo-guaymas": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "sen-carlos-guitian": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "sen-jorge-soto": {
+      "total": 35,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 27,
+      "score_sum": 8
+    },
+    "sen-juan-cruz-cura": {
+      "total": 62,
+      "positivo": 7,
+      "negativo": 4,
+      "neutral": 51,
+      "score_sum": 8
+    },
+    "sen-jose-guaimas": {
+      "total": 1,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 1,
+      "score_sum": 0
+    },
+    "sen-carlos-lopez": {
+      "total": 53,
+      "positivo": 3,
+      "negativo": 3,
+      "neutral": 47,
+      "score_sum": 0
+    },
+    "sen-sergio-saldano": {
+      "total": 24,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 21,
+      "score_sum": -2
+    },
+    "sen-manuel-pailler": {
+      "total": 39,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 35,
+      "score_sum": 4
+    },
+    "sen-dani-nolasco": {
+      "total": 39,
+      "positivo": 3,
+      "negativo": 2,
+      "neutral": 34,
+      "score_sum": 4
+    },
+    "sen-alejandra-navarro": {
+      "total": 37,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 34,
+      "score_sum": -2
+    },
+    "sen-leonor-minetti": {
+      "total": 33,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 30,
+      "score_sum": 2
+    },
+    "sen-mashur-lapad": {
+      "total": 49,
+      "positivo": 4,
+      "negativo": 5,
+      "neutral": 40,
+      "score_sum": -2
+    },
+    "sen-esteban-dandrea-cornejo": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 0
+    },
+    "sen-walter-cruz": {
+      "total": 19,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 16,
+      "score_sum": -2
+    },
+    "sen-enrique-cornejo-saravia": {
+      "total": 11,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 11,
+      "score_sum": 0
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 28,
+      "positivo": 2,
+      "negativo": 5,
+      "neutral": 21,
+      "score_sum": -6
+    },
+    "sen-diego-cari": {
+      "total": 23,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 21,
+      "score_sum": 0
+    },
+    "sen-gonzalo-caro-davalos": {
+      "total": 47,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 39,
+      "score_sum": -4
+    },
+    "sen-manrique-burgos": {
+      "total": 16,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 14,
+      "score_sum": 0
+    },
+    "sen-luis-altamirano": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    }
+  },
+  "by_day": {
+    "Thu, 29 Ja": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 08 Ju": {
+      "dip-lino-fernando-yonar": {
+        "total": 2,
+        "score_sum": 2
+      }
+    },
+    "Sun, 24 No": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-martin-miguel-perez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roberto-angel-bonifacio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ernesto-gerardo-guanca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-cristina-fiore-vinuales": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 21 No": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-martin-miguel-perez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roberto-angel-bonifacio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ernesto-gerardo-guanca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-cristina-fiore-vinuales": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 02 Au": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 19 Ju": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 15 Ma": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Ja": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 20 Se": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Fe": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 21 Ju": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Ma": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 30 Ju": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 04 Ma": {
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 03 Ju": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dip-rogelio-guaipo-segundo": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dip-gustavo-bernardo-dantur": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-jose-guaimas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Mon, 02 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 25 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 14 Ap": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 23 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-rogelio-guaipo-segundo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-carolina-rosana-ceaglio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-antonio-sebastian-otero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-nancy-liliana-jaime": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 11 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Fri, 02 Ju": {
+      "dip-claudia-gloria-seco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 16 Au": {
+      "dip-claudia-gloria-seco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 24 Ma": {
+      "dip-carolina-rosana-ceaglio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 No": {
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 28 Ju": {
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 09 Fe": {
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 25 Ma": {
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Fri, 06 Ma": {
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 29 Ju": {
+      "dip-nancy-liliana-jaime": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 19 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 05 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 28 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 17 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 31 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 12 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 07 Fe": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 01 Se": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 06 Se": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 10 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sat, 24 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 22 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 25 Oc": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 26 De": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 14 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 10 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Tue, 11 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 17 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 22 Ju": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 19 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 04 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Sat, 10 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 08 Fe": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Ap": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 08 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 08 Ma": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 06 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Thu, 25 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 09 Fe": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 24 No": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 12 No": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 27 Ap": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 01 Au": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 05 Se": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 25 No": {
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Wed, 25 Ja": {
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 06 Ma": {
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 08 Se": {
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 25 Ma": {
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 31 Ju": {
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 24 Ap": {
+      "dip-ernesto-gerardo-guanca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 21 Ju": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 09 Ma": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 10 Au": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 25 Ma": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 03 Fe": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 22 Ap": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sun, 14 Ma": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 01 Ju": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 08 De": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 05 Ma": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 03 Au": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sun, 11 Fe": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 13 Ja": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 23 Se": {
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 06 Ma": {
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 Ja": {
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 03 Oc": {
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 08 Ma": {
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 05 De": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 28 Au": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 16 Fe": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 17 Fe": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 24 Ju": {
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 13 Oc": {
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 30 Ju": {
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 31 Ma": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 07 Se": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 08 Se": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 19 Fe": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Ma": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 28 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 24 No": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 16 De": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 03 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Tue, 07 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 5,
+        "score_sum": -4
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 5,
+        "score_sum": -4
+      }
+    },
+    "Fri, 11 No": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 13 No": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 14 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Mon, 06 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Thu, 02 Ma": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 07 No": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 08 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 08 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 03 Oc": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 10 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Mon, 14 Oc": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 09 De": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 14 Ma": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 20 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 09 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 24 Ma": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 10 Ju": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 26 Fe": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 15 Ap": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 14 Ja": {
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 04 Ap": {
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 18 Oc": {
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 No": {
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 No": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 17 No": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-marcela-del-valle-leguina": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 07 Ma": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-alejandra-beatriz-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 23 De": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 09 Au": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 01 Oc": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 03 Se": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 15 Au": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 19 Ma": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 22 Fe": {
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 11 De": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 27 No": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 11 Ju": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 26 Ju": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 05 Oc": {
+      "dip-juan-esteban-romero": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 29 Ap": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 29 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 27 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 06 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 19 Ju": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 27 Fe": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 28 Ja": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 31 Ja": {
+      "dip-juan-esteban-romero": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Wed, 27 No": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sun, 28 Fe": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 20 Ap": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 14 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 09 De": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 04 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 11 Au": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 15 Fe": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Fri, 10 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 12 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 26 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 12 Ju": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 11 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 23 Ap": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 15 No": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 01 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 01 Ma": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 19 No": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 30 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 17 Fe": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 10 No": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 Se": {
+      "dip-alejandra-beatriz-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 21 Ju": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 20 Ma": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 23 Ju": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 30 Ap": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 21 Ma": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 Fe": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 12 De": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Wed, 20 Au": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Wed, 06 Au": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 15 Ju": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Ju": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 17 De": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 05 Ju": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Mon, 15 De": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Thu, 04 Ju": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Mon, 16 Ma": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 06 Ja": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 28 Ma": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -4
+      }
+    },
+    "Thu, 15 Ju": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 21 Au": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 Ju": {
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 11 Ju": {
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 07 Ju": {
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 08 Ju": {
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 03 Ju": {
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 28 No": {
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 24 Au": {
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 15 Ap": {
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 28 Ju": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 09 Ap": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 19 De": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 26 Ma": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 14 Fe": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 06 De": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Fri, 17 Ap": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 25 Ap": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 03 Se": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 No": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 18 Se": {
+      "sen-jorge-soto": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 10,
+        "score_sum": 0
+      }
+    },
+    "Thu, 27 Ju": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 16 Ma": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 17 Se": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 5,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": -2
+      }
+    },
+    "Wed, 17 Ja": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 23 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Mon, 22 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 02 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 31 Ma": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 03 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 23 Oc": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 07 Ma": {
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 09 Se": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 07 Se": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 18 Ma": {
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": -2
+      }
+    },
+    "Fri, 31 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Sat, 27 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 28 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 12 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 24 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 11 Ma": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 24 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 Se": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 06 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 10 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 2,
+        "score_sum": 2
+      }
+    },
+    "Thu, 10 Oc": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 05 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 30 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "sen-dani-nolasco": {
+        "total": 2,
+        "score_sum": 4
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 16 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 23 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 15 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Mon, 31 Ma": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 04 No": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 25 Se": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 29 Au": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 30 Ju": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 26 Se": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 13 No": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 01 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 16 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Au": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Mon, 06 Fe": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 09 Ma": {
+      "sen-carlos-lopez": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 06 Fe": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 26 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Sat, 02 De": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 14 De": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 19 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Sat, 18 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sun, 11 Oc": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 03 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sun, 21 Au": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 15 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-mashur-lapad": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Tue, 09 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 06 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 15 Oc": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 13 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sat, 03 De": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 13 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 19 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 01 Au": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 05 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 01 Se": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 24 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 01 No": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 03 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 24 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 17 Ma": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 22 No": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 08 Au": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 25 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 11 Ap": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 06 Ju": {
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sat, 30 Ap": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 29 No": {
+      "sen-sergio-saldano": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 Ju": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Sun, 12 Ju": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 18 No": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 13 Au": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 24 No": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 31 Ja": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 17 Ap": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 23 Se": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 17 Ma": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 02 Au": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sat, 29 Au": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 02 Fe": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 09 Oc": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 25 Ap": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 15 De": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 24 Fe": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 24 Oc": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 09 Ap": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 02 Ju": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 4
+      }
+    },
+    "Sat, 28 Fe": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 29 Ap": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 02 Ma": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Tue, 08 Oc": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 29 Au": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 25 Au": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 22 Se": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 22 No": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 10 Au": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 15 Ju": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 30 Ma": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 21 No": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Thu, 25 Oc": {
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 25 Oc": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 29 Ma": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 05 Ma": {
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 21 No": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 31 Ju": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Se": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 20 No": {
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 06 Ap": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 07 Ma": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 12 Ma": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 29 Ma": {
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sat, 11 Ju": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 12 Fe": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 16 Ja": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 22 Ju": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 24 Fe": {
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sat, 09 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 20 Au": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sat, 21 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 06 Ju": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Fe": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 14 Se": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 08 Ju": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 17 Ju": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sun, 10 De": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 22 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 12 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 01 Au": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 10 No": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 20 Ju": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 17 Ap": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Thu, 29 Ap": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Fri, 08 No": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 Ap": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Sat, 16 Ma": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sun, 10 Au": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 23 Oc": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 11 Au": {
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 17 Ja": {
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 03 Ma": {
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 19 No": {
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 20 No": {
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 03 No": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 27 Au": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 23 Ma": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 06 Ma": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 26 Ma": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 26 Oc": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Thu, 11 De": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 29 Ju": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 Fe": {
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 24 Ju": {
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 26 Ju": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 25 Ju": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 14 No": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 04 Au": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 18 Fe": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 10 Fe": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Mon, 24 Ju": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 26 De": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 Ju": {
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 15 Ma": {
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 17 Ma": {
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 05 Oc": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Wed, 27 Ma": {
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 0
+      }
+    },
+    "Sat, 03 Ma": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 23 Ju": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 01 No": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 12 Ap": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 06 No": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 04 Ju": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 05 Ma": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Mon, 13 Oc": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Tue, 02 Ju": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Mon, 01 Ju": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Wed, 16 Se": {
+      "gustavo-saenz": {
+        "total": 10,
+        "score_sum": 0
+      }
+    },
+    "Sun, 20 Se": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 2
+      }
+    },
+    "Tue, 15 Se": {
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 0
+      }
+    },
+    "Mon, 14 Se": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Sat, 19 Se": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Sun, 13 Se": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    }
+  },
+  "politicians": [
+    {
+      "id": "gustavo-saenz",
+      "name": "Gustavo Sáenz",
+      "role": "Gobernador de Salta",
+      "chamber": "Ejecutivo",
+      "aliases": [
+        "Gustavo Sáenz",
+        "Sáenz"
+      ]
+    },
+    {
+      "id": "sen-luis-altamirano",
+      "name": "Luis Arnaldo Altamirano",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Santa Victoria",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Luis Altamirano",
+        "Luis Arnaldo Altamirano"
+      ]
+    },
+    {
+      "id": "sen-manrique-burgos",
+      "name": "Manrique Iván Burgos",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Cachi",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Manrique Burgos",
+        "Manrique Iván Burgos"
+      ]
+    },
+    {
+      "id": "sen-gonzalo-caro-davalos",
+      "name": "Gonzalo Caro Dávalos",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Cerrillos",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/05/3.-DIARIO-SESION-5-DE-MARZO-2026.pdf",
+      "aliases": [
+        "Gonzalo Caro Dávalos",
+        "Caro Dávalos"
+      ]
+    },
+    {
+      "id": "sen-diego-cari",
+      "name": "Diego Evaristo Cari",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Guachipas",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Diego Cari",
+        "Diego Evaristo Cari"
+      ]
+    },
+    {
+      "id": "sen-roque-cornejo-avellaneda",
+      "name": "Roque Ramón Cornejo Avellaneda",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Capital",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Cornejo Avellaneda",
+        "Roque Cornejo Avellaneda"
+      ]
+    },
+    {
+      "id": "sen-enrique-cornejo-saravia",
+      "name": "Enrique Antonio Cornejo Saravia",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "General Güemes",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Enrique Cornejo Saravia",
+        "Cornejo Saravia"
+      ]
+    },
+    {
+      "id": "sen-walter-cruz",
+      "name": "Walter Hernán Cruz",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Iruya",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Walter Cruz",
+        "Walter Hernán Cruz"
+      ]
+    },
+    {
+      "id": "sen-esteban-dandrea-cornejo",
+      "name": "Esteban D'Andrea Cornejo",
+      "role": "Presidente del Senado de Salta",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Esteban D'Andrea Cornejo",
+        "D'Andrea Cornejo"
+      ]
+    },
+    {
+      "id": "sen-mashur-lapad",
+      "name": "Mashur Lapad",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Rivadavia",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Mashur Lapad"
+      ]
+    },
+    {
+      "id": "sen-leonor-minetti",
+      "name": "Leonor Nieves Minetti",
+      "role": "Senadora provincial",
+      "chamber": "Senado",
+      "department": "Rosario de Lerma",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Leonor Minetti",
+        "Leonor Nieves Minetti"
+      ]
+    },
+    {
+      "id": "sen-alejandra-navarro",
+      "name": "Alejandra Beatriz Navarro",
+      "role": "Senadora provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Alejandra Navarro",
+        "Alejandra Beatriz Navarro"
+      ]
+    },
+    {
+      "id": "sen-dani-nolasco",
+      "name": "Dani Raúl Nolasco",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "La Poma",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Dani Nolasco",
+        "Dani Raúl Nolasco"
+      ]
+    },
+    {
+      "id": "sen-manuel-pailler",
+      "name": "Manuel Oscar Pailler",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "General San Martín",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Manuel Pailler",
+        "Manuel Oscar Pailler"
+      ]
+    },
+    {
+      "id": "sen-sergio-saldano",
+      "name": "Sergio Rodrigo Saldaño",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "Cafayate",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Sergio Saldaño",
+        "Sergio Rodrigo Saldaño"
+      ]
+    },
+    {
+      "id": "sen-carlos-lopez",
+      "name": "Carlos Fabián López",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "department": "La Candelaria",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Carlos López",
+        "Carlos Fabián López"
+      ]
+    },
+    {
+      "id": "sen-jose-guaimas",
+      "name": "José Rolando Guaimás",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "José Guaimás",
+        "José Rolando Guaimás"
+      ]
+    },
+    {
+      "id": "sen-juan-cruz-cura",
+      "name": "Juan Cruz Curá",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Juan Cruz Curá"
+      ]
+    },
+    {
+      "id": "sen-jorge-soto",
+      "name": "Jorge Pablo Soto",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Jorge Soto",
+        "Jorge Pablo Soto"
+      ]
+    },
+    {
+      "id": "sen-carlos-guitian",
+      "name": "Carlos Nicolás Guitián",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Carlos Guitián",
+        "Carlos Nicolás Guitián"
+      ]
+    },
+    {
+      "id": "sen-edgardo-guaymas",
+      "name": "Edgardo Gonzalo Federico Guaymás",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Edgardo Guaymás"
+      ]
+    },
+    {
+      "id": "sen-hector-dauria",
+      "name": "Héctor Daniel D'Auria",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Héctor D'Auria",
+        "Héctor Daniel D'Auria"
+      ]
+    },
+    {
+      "id": "sen-luciano-elvira",
+      "name": "Luciano José Elvira",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Luciano Elvira",
+        "Luciano José Elvira"
+      ]
+    },
+    {
+      "id": "sen-daniel-moreno-ovalle",
+      "name": "Daniel Roberto Moreno Ovalle",
+      "role": "Senador provincial",
+      "chamber": "Senado",
+      "source_url": "https://senadosalta.gob.ar/wp-content/uploads/2026/08/12.-DIARIO-SESION-21-DE-MAYO-2026.pdf",
+      "aliases": [
+        "Daniel Moreno Ovalle",
+        "Moreno Ovalle"
+      ]
+    },
+    {
+      "id": "concejal-pendiente",
+      "name": "AGREGÁ ACÁ CADA CONCEJAL",
+      "role": "Ver nota en README sobre nómina del Concejo Deliberante",
+      "chamber": "Concejo Deliberante",
+      "aliases": [
+        "Nombre y apellido real"
+      ]
+    },
+    {
+      "id": "dip-marcela-del-valle-leguina",
+      "name": "Marcela del Valle Leguina",
+      "role": "Diputado/a provincial por Anta (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Anta",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Marcela del Valle Leguina"
+      ]
+    },
+    {
+      "id": "dip-alejandra-beatriz-navarro",
+      "name": "Alejandra Beatriz Navarro",
+      "role": "Diputado/a provincial por Anta (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Anta",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Alejandra Beatriz Navarro"
+      ]
+    },
+    {
+      "id": "dip-hector-orlando-escobar",
+      "name": "Héctor Orlando Escobar",
+      "role": "Diputado/a provincial por Anta (mandato Wikipedia 2022-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Anta",
+      "term_start": "2022",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Héctor Orlando Escobar"
+      ]
+    },
+    {
+      "id": "dip-federico-miguel-canizares",
+      "name": "Federico Miguel Cañizares",
+      "role": "Diputado/a provincial por Cachi (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Cachi",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Federico Miguel Cañizares"
+      ]
+    },
+    {
+      "id": "dip-patricio-penalba-arias",
+      "name": "Patricio Peñalba Arias",
+      "role": "Diputado/a provincial por Cafayate (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Cafayate",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Patricio Peñalba Arias"
+      ]
+    },
+    {
+      "id": "dip-bernardo-jose-biella-calvet",
+      "name": "Bernardo José Biella Calvet",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Bernardo José Biella Calvet"
+      ]
+    },
+    {
+      "id": "dip-laura-deolinda-cartuccia",
+      "name": "Laura Deolinda Cartuccia",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Laura Deolinda Cartuccia"
+      ]
+    },
+    {
+      "id": "dip-roque-ramon-cornejo-avellaneda",
+      "name": "Roque Ramón Cornejo Avellaneda",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Roque Ramón Cornejo Avellaneda"
+      ]
+    },
+    {
+      "id": "dip-isabel-marcelina-de-vita",
+      "name": "Isabel Marcelina de Vita",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Isabel Marcelina de Vita"
+      ]
+    },
+    {
+      "id": "dip-omar-exeni-arminana",
+      "name": "Omar Exeni Armiñana",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Omar Exeni Armiñana"
+      ]
+    },
+    {
+      "id": "dip-maria-cristina-fiore-vinuales",
+      "name": "María Cristina Fiore Viñuales",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "María Cristina Fiore Viñuales"
+      ]
+    },
+    {
+      "id": "dip-maria-cristina-frisoli",
+      "name": "María Cristina Frísoli",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "María Cristina Frísoli"
+      ]
+    },
+    {
+      "id": "dip-monica-gabriela-juarez",
+      "name": "Mónica Gabriela Juárez",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Mónica Gabriela Juárez"
+      ]
+    },
+    {
+      "id": "dip-victor-manuel-vitin-lamberto",
+      "name": "Víctor Manuel \"Vitín\" Lamberto",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Víctor Manuel \"Vitín\" Lamberto"
+      ]
+    },
+    {
+      "id": "dip-david-jesus-leiva",
+      "name": "David Jesús Leiva",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "David Jesús Leiva"
+      ]
+    },
+    {
+      "id": "dip-julieta-estefania-perdigon-weber",
+      "name": "Julieta Estefanía Perdigón Weber",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Julieta Estefanía Perdigón Weber"
+      ]
+    },
+    {
+      "id": "dip-noelia-cecilia-rigo-barea",
+      "name": "Noelia Cecilia Rigó Barea",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Noelia Cecilia Rigó Barea"
+      ]
+    },
+    {
+      "id": "dip-juan-esteban-romero",
+      "name": "Juan Esteban Romero",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Juan Esteban Romero"
+      ]
+    },
+    {
+      "id": "dip-juan-carlos-francisco-roque-posse",
+      "name": "Juan Carlos Francisco Roque Posse",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Juan Carlos Francisco Roque Posse"
+      ]
+    },
+    {
+      "id": "dip-maria-victoria-saicha-ibanez",
+      "name": "María Victoria Saicha Ibáñez",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "María Victoria Saicha Ibáñez"
+      ]
+    },
+    {
+      "id": "dip-enrique-daniel-sansone",
+      "name": "Enrique Daniel Sansone",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Enrique Daniel Sansone"
+      ]
+    },
+    {
+      "id": "dip-sofia-sierra",
+      "name": "Sofía Sierra",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Sofía Sierra"
+      ]
+    },
+    {
+      "id": "dip-adrian-alfredo-valenzuela-giantomasi",
+      "name": "Adrián Alfredo Valenzuela Giantomasi",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Adrián Alfredo Valenzuela Giantomasi"
+      ]
+    },
+    {
+      "id": "dip-maria-del-socorro-villamayor",
+      "name": "María del Socorro Villamayor",
+      "role": "Diputado/a provincial por Capital (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Capital",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "María del Socorro Villamayor"
+      ]
+    },
+    {
+      "id": "dip-luis-fernando-albeza",
+      "name": "Luis Fernando Albeza",
+      "role": "Diputado/a provincial por Cerrillos (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Cerrillos",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Luis Fernando Albeza"
+      ]
+    },
+    {
+      "id": "dip-gonzalo-caro-davalos",
+      "name": "Gonzalo Caro Dávalos",
+      "role": "Diputado/a provincial por Cerrillos (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Cerrillos",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Gonzalo Caro Dávalos"
+      ]
+    },
+    {
+      "id": "dip-maria-del-socorro-lopez",
+      "name": "María Del Socorro López",
+      "role": "Diputado/a provincial por Chicoana (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Chicoana",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "María Del Socorro López"
+      ]
+    },
+    {
+      "id": "dip-german-dario-ralle",
+      "name": "Germán Darío Rallé",
+      "role": "Diputado/a provincial por General Güemes (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General Güemes",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Germán Darío Rallé"
+      ]
+    },
+    {
+      "id": "dip-daniel-alejandro-segura-gimenez",
+      "name": "Daniel Alejandro Segura Giménez",
+      "role": "Diputado/a provincial por General Güemes (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General Güemes",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Daniel Alejandro Segura Giménez"
+      ]
+    },
+    {
+      "id": "dip-ana-laura-cordoba",
+      "name": "Ana Laura Córdoba",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Ana Laura Córdoba"
+      ]
+    },
+    {
+      "id": "dip-franco-esteban-francisco-hernandez-berni",
+      "name": "Franco Estéban Francisco Hernández Berni",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Franco Estéban Francisco Hernández Berni"
+      ]
+    },
+    {
+      "id": "dip-matias-monteagudo",
+      "name": "Matías Monteagudo",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Matías Monteagudo"
+      ]
+    },
+    {
+      "id": "dip-gladys-lidia-paredes",
+      "name": "Gladys Lidia Paredes",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Gladys Lidia Paredes"
+      ]
+    },
+    {
+      "id": "dip-jorge-miguel-restom",
+      "name": "Jorge Miguel Restom",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Jorge Miguel Restom"
+      ]
+    },
+    {
+      "id": "dip-santiago-raul-vargas",
+      "name": "Santiago Raúl Vargas",
+      "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "General San Martín",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Santiago Raúl Vargas"
+      ]
+    },
+    {
+      "id": "dip-ernesto-gerardo-guanca",
+      "name": "Ernesto Gerardo Guanca",
+      "role": "Diputado/a provincial por Guachipas (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Guachipas",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Ernesto Gerardo Guanca"
+      ]
+    },
+    {
+      "id": "dip-ricardo-german-vargas",
+      "name": "Ricardo Germán Vargas",
+      "role": "Diputado/a provincial por Iruya (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Iruya",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Ricardo Germán Vargas"
+      ]
+    },
+    {
+      "id": "dip-gustavo-javier-pantaleon",
+      "name": "Gustavo Javier Pantaleón",
+      "role": "Diputado/a provincial por La Caldera (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "La Caldera",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Gustavo Javier Pantaleón"
+      ]
+    },
+    {
+      "id": "dip-francisco-fabio-rodriguez",
+      "name": "Francisco Fabio Rodríguez",
+      "role": "Diputado/a provincial por La Candelaria (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "La Candelaria",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Francisco Fabio Rodríguez"
+      ]
+    },
+    {
+      "id": "dip-roberto-angel-bonifacio",
+      "name": "Roberto Ángel Bonifacio",
+      "role": "Diputado/a provincial por La Poma (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "La Poma",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Roberto Ángel Bonifacio"
+      ]
+    },
+    {
+      "id": "dip-esteban-amat-lacroix",
+      "name": "Esteban Amat Lacroix",
+      "role": "Diputado/a provincial por La Viña (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "La Viña",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Esteban Amat Lacroix"
+      ]
+    },
+    {
+      "id": "dip-azucena-atanasia-salva",
+      "name": "Azucena Atanasia Salva",
+      "role": "Diputado/a provincial por Los Andes (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Los Andes",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Azucena Atanasia Salva"
+      ]
+    },
+    {
+      "id": "dip-gustavo-bernardo-dantur",
+      "name": "Gustavo Bernardo Dantur",
+      "role": "Diputado/a provincial por Metán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Metán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Gustavo Bernardo Dantur"
+      ]
+    },
+    {
+      "id": "dip-nancy-liliana-jaime",
+      "name": "Nancy Liliana Jaime",
+      "role": "Diputado/a provincial por Metán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Metán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Nancy Liliana Jaime"
+      ]
+    },
+    {
+      "id": "dip-antonio-sebastian-otero",
+      "name": "Antonio Sebastián Otero",
+      "role": "Diputado/a provincial por Metán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Metán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Antonio Sebastián Otero"
+      ]
+    },
+    {
+      "id": "dip-fabio-enrique-lopez",
+      "name": "Fabio Enrique López",
+      "role": "Diputado/a provincial por Molinos (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Molinos",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Fabio Enrique López"
+      ]
+    },
+    {
+      "id": "dip-carolina-rosana-ceaglio",
+      "name": "Carolina Rosana Ceaglio",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Carolina Rosana Ceaglio"
+      ]
+    },
+    {
+      "id": "dip-patricia-del-carmen-hucena",
+      "name": "Patricia del Carmen Hucena",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Patricia del Carmen Hucena"
+      ]
+    },
+    {
+      "id": "dip-jorgelina-silvana-juarez",
+      "name": "Jorgelina Silvana Juárez",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Jorgelina Silvana Juárez"
+      ]
+    },
+    {
+      "id": "dip-martin-miguel-perez",
+      "name": "Martín Miguel Pérez",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Martín Miguel Pérez"
+      ]
+    },
+    {
+      "id": "dip-teodora-ramona-riquelme",
+      "name": "Teodora Ramona Riquelme",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Teodora Ramona Riquelme"
+      ]
+    },
+    {
+      "id": "dip-claudia-gloria-seco",
+      "name": "Claudia Gloria Seco",
+      "role": "Diputado/a provincial por Orán (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Orán",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Claudia Gloria Seco"
+      ]
+    },
+    {
+      "id": "dip-moises-justiniano-balderrama",
+      "name": "Moisés Justiniano Balderrama",
+      "role": "Diputado/a provincial por Rivadavia (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rivadavia",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Moisés Justiniano Balderrama"
+      ]
+    },
+    {
+      "id": "dip-rogelio-guaipo-segundo",
+      "name": "Rogelio Guaipo Segundo",
+      "role": "Diputado/a provincial por Rivadavia (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rivadavia",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Rogelio Guaipo Segundo"
+      ]
+    },
+    {
+      "id": "dip-pablo-raul-alejandro-gomez",
+      "name": "Pablo Raúl Alejandro Gómez",
+      "role": "Diputado/a provincial por Rosario de la Frontera (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rosario de la Frontera",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Pablo Raúl Alejandro Gómez"
+      ]
+    },
+    {
+      "id": "dip-gustavo-orlando-orozco",
+      "name": "Gustavo Orlando Orozco",
+      "role": "Diputado/a provincial por Rosario de la Frontera (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rosario de la Frontera",
+      "term_start": "2021",
+      "term_end": "2025",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Gustavo Orlando Orozco"
+      ]
+    },
+    {
+      "id": "dip-lino-fernando-yonar",
+      "name": "Lino Fernando Yonar",
+      "role": "Diputado/a provincial por Rosario de Lerma (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rosario de Lerma",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Lino Fernando Yonar"
+      ]
+    },
+    {
+      "id": "dip-mabel-veronica-janeth-barboza",
+      "name": "Mabel Verónica Janeth Barboza",
+      "role": "Diputado/a provincial por Rosario de Lerma (mandato Wikipedia 2023-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Rosario de Lerma",
+      "term_start": "2023",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Mabel Verónica Janeth Barboza"
+      ]
+    },
+    {
+      "id": "dip-elena-nahir-diaz",
+      "name": "Elena Nahir Díaz",
+      "role": "Diputado/a provincial por San Carlos (mandato Wikipedia 2021-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "San Carlos",
+      "term_start": "2021",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Elena Nahir Díaz"
+      ]
+    },
+    {
+      "id": "dip-osvaldo-francisco-acosta",
+      "name": "Osvaldo Francisco Acosta",
+      "role": "Diputado/a provincial por Santa Victoria (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
+      "chamber": "Diputados",
+      "department": "Santa Victoria",
+      "term_start": "2019",
+      "term_end": "2023",
+      "source_url": "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Salta",
+      "aliases": [
+        "Osvaldo Francisco Acosta"
+      ]
+    }
+  ],
+  "trending_terms": [
+    {
+      "term": "tribuno",
+      "count": 462
+    },
+    {
+      "term": "informatesalta",
+      "count": 165
+    },
+    {
+      "term": "diputados",
+      "count": 100
+    },
+    {
+      "term": "senado",
+      "count": 96
+    },
+    {
+      "term": "sáenz",
+      "count": 70
+    },
+    {
+      "term": "electos",
+      "count": 68
+    },
+    {
+      "term": "argentina",
+      "count": 68
+    },
+    {
+      "term": "legisladores",
+      "count": 67
+    },
+    {
+      "term": "senadores",
+      "count": 64
+    },
+    {
+      "term": "nuevo",
+      "count": 57
+    },
+    {
+      "term": "diplomas",
+      "count": 43
+    },
+    {
+      "term": "diario",
+      "count": 43
+    },
+    {
+      "term": "rosario",
+      "count": 40
+    },
+    {
+      "term": "provinciales",
+      "count": 36
+    },
+    {
+      "term": "elecciones",
+      "count": 35
+    }
+  ],
+  "comentions": [
+    {
+      "a": "Gonzalo Caro Dávalos",
+      "b": "Gonzalo Caro Dávalos",
+      "count": 44
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Diego Evaristo Cari",
+      "count": 14
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Dani Raúl Nolasco",
+      "count": 12
+    },
+    {
+      "a": "Diego Evaristo Cari",
+      "b": "Leonor Nieves Minetti",
+      "count": 11
+    },
+    {
+      "a": "Diego Evaristo Cari",
+      "b": "Sergio Rodrigo Saldaño",
+      "count": 11
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Leonor Nieves Minetti",
+      "count": 10
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Sergio Rodrigo Saldaño",
+      "count": 10
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Leonor Nieves Minetti",
+      "count": 10
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Manuel Oscar Pailler",
+      "count": 10
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Mashur Lapad",
+      "count": 10
+    },
+    {
+      "a": "Leonor Nieves Minetti",
+      "b": "Sergio Rodrigo Saldaño",
+      "count": 9
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Jorge Pablo Soto",
+      "count": 9
+    },
+    {
+      "a": "Jorge Pablo Soto",
+      "b": "Mashur Lapad",
+      "count": 9
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Diego Evaristo Cari",
+      "count": 9
+    },
+    {
+      "a": "Alejandra Beatriz Navarro",
+      "b": "Mashur Lapad",
+      "count": 9
+    },
+    {
+      "a": "Diego Evaristo Cari",
+      "b": "Mashur Lapad",
+      "count": 9
+    },
+    {
+      "a": "Manuel Oscar Pailler",
+      "b": "Mashur Lapad",
+      "count": 9
+    },
+    {
+      "a": "Gonzalo Caro Dávalos",
+      "b": "Dani Raúl Nolasco",
+      "count": 8
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Gonzalo Caro Dávalos",
+      "count": 8
+    },
+    {
+      "a": "Gonzalo Caro Dávalos",
+      "b": "Mashur Lapad",
+      "count": 8
+    }
+  ]
 }
