@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-20T20:09:41.545466+00:00",
+  "generated_at": "2026-09-20T20:26:47.138256+00:00",
   "by_politician": {
+    "dip-juan-esteban-romero": {
+      "total": 54,
+      "positivo": 3,
+      "negativo": 3,
+      "neutral": 48,
+      "score_sum": 0
+    },
     "dip-gustavo-orlando-orozco": {
       "total": 10,
       "positivo": 0,
@@ -104,13 +111,6 @@
       "positivo": 1,
       "negativo": 0,
       "neutral": 9,
-      "score_sum": 2
-    },
-    "dip-juan-esteban-romero": {
-      "total": 50,
-      "positivo": 3,
-      "negativo": 2,
-      "neutral": 45,
       "score_sum": 2
     },
     "dip-patricio-penalba-arias": {
@@ -395,6 +395,74 @@
     }
   },
   "by_day": {
+    "Thu, 07 Au": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 29 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Wed, 11 Se": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 21 Au": {
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Thu, 15 Ma": {
       "dip-gustavo-orlando-orozco": {
         "total": 1,
@@ -455,12 +523,6 @@
         "score_sum": 0
       },
       "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 11 Se": {
-      "dip-sofia-sierra": {
         "total": 1,
         "score_sum": 0
       }
@@ -3281,48 +3343,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 21 Au": {
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Fri, 20 Ju": {
       "sen-hector-dauria": {
         "total": 1,
@@ -5801,7 +5821,7 @@
   "trending_terms": [
     {
       "term": "tribuno",
-      "count": 484
+      "count": 487
     },
     {
       "term": "informatesalta",

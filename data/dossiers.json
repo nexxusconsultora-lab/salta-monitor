@@ -8237,13 +8237,29 @@
     "id": "dip-juan-esteban-romero",
     "name": "Juan Esteban Romero",
     "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 50,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 2,
-      "neutral": 45
+      "negativo": 3,
+      "neutral": 48
     },
     "sentiment_by_day": {
+      "Thu, 07 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Mon, 29 Se": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Wed, 11 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Fri, 21 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 30 De": {
         "total": 1,
         "score_sum": 0
@@ -8436,11 +8452,11 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 23
+        "count": 26
       },
       {
         "term": "romero",
-        "count": 14
+        "count": 16
       },
       {
         "term": "informatesalta",
@@ -8448,11 +8464,11 @@
       },
       {
         "term": "juan",
-        "count": 8
+        "count": 10
       },
       {
         "term": "esteban",
-        "count": 6
+        "count": 8
       },
       {
         "term": "diputados",
@@ -8520,6 +8536,34 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Bettina Romero y Juan Esteban Romero tampoco juegan en octubre? - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYjBYaDJzVlpzNnpQcVZuUFpDckJCd1d4dWdocUJVTmUwcUJwNFdpSGx1S1h3NGQyaUp6M0RiRzNsNzhlZXRfSnllRmphclFWZHdySEZkMy1TTVdnaGI4d196ZXFRRzNoM2RfS0d1OC1ZbzR5ZzFXUFhuajZSNmNFZzNiT1VNTGdnOS1jVjhXOXRzLUJ6TE5EX1lYYjRJQQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Juan Esteban Romero renunció al bloque Salta tiene Futuro y conformó el monobloque Compromiso Republicano - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSGtDYkNxUWItYV9CT05oOF84d0JFVjBES0NLZGVvX3RDV0YxVTJxMFltSUNUZy1uZ2Y0SzFha3M1ZWZWWXJTbGY1Tks5X09KY2RCdDZYdG05OGJTeEI4ZEZrckdNOEFhcDlnZm5rRml4MU5nT2Q0VjJMUFpWODBQeUhFUld1VktGMUZBaUZOSHVWeE43NmVYaUY4bkZBQTg5cHlGRmVsUzZXMGZ0aVk5bkRTY3JRcnZ2aThPYUJPekppZHFUVUt5YzJtX3NxTjFNb2s4Y1FUc28za0xrbTZBRTJzU2RHQ3VQcjdF0gHwAUFVX3lxTFBRa2Jub0ZSSldhZHZpOGdJSFFKZXZwSGIxUDBNOGJOZ2Vyd3p5RDRnYndaNm5zTzAwbl9LdWVzU1doSWo5bF9YRWp3WEdmSm9WaHNSRzdpeUJoT1EtNWxOWlZuV2tUYURoMzBtTkltUE1JeVI5NTZWS3FVS0djMFpBNVdBNHhUV2tJblhBa0ItRGFFMklkQTBwQkZIRnVEZDllSWtRakI0QmZFeU02U3JwSVNoVkhHc0V2X1VodDZDM1lyeTM5MjItalRhZnp4bGlvYXg1ZDRUam52MlEzNURDMmZLRzFzbUxyUU1ZOEo5TA?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Doce años de emergencia por la violencia de género en Salta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb24xaHpMd3JqRk5ZVnRzUkhxdHFqRzg1VEhYb3ZyVTh3Y3pMc0d5cFNRakxOcGFaQXFlUFV4MEdXbHk0UllpYzVTVHp0ejVvVzNYSGhXNkltNXVodVFSYVB0Vmp3ZEZOUkFIQlBlNmUwTGZtTkdRNmJaWXVzT21vTzZDRDFzcnlwQWZCRGJzMGU4MU8wVFlFT1g1R3huRU0yWUFITjFPdDNJdTDSAbABQVVfeXFMT3oyYV9xMFNESzdjeDBXZDdpT0NEZTluZFlqem5ubUNzLXVTYmxwcVBZbEhhN0oyYkJOSUV6cDZIeXhRLV92ZjEyaFREUFRfUDVuUjJrU1RiNnNMSU1vYzFtWkhjQnlMVjNsWmI3NmpyanVocHh0Y2JDN3VOVnFUaVJKb0VfSkpkNmpZdFBrNDlIdC0tMWU4d1M4bmROTjdkQ3h6bE5qeklfT29yeU1PSGI?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 11 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "CARACCIOLO, Norberto Carlos. - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTi1wYVNkMEV1U3EzTEpNVWdudGpfRVZOT0RUTExVSklXOWYwbXJzYThRaGhaNG9pSW9ERXFsbEdOSm5fem0tTDVNZkppZkpGTzdzQlZsX01KMFk5TkNyQ3N1ZEFoU2VOOTA2cmhKeVB2YWoxN2NRLVRJM25uNjRoZjQ3SWc?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Por ser el \"primo de la Intendenta\", cobra más de cuarto millón de pesos todos los meses - HolaSalta Noticias",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMk1RMzVYRnZhQlpic0g0cGpuQVB5MmJBcHRwWDRlUm5BZk9rQ08yOFNTaThIcXhzdEtMdEgyLXg5TXhjTGJPcXU0bnpSelIxMHA0YUlXZ2tZOUJoX0F3UUY3dVVKWUJzOGJwRUdiaDg5VTJEY2xUd3NMTTJlVjZocDlBOEVqTEVYMEgzWV80R19HR09kczNfU185RkNDdFl2Wi1mNkVQSzRNMXdIQXpydkJxcw?oc=5",
@@ -8701,34 +8745,6 @@
         "source": "Radio Salta",
         "date": "Sat, 31 Jan 2026 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Cerca de 200 emprendedores en la celebración del Día del Proveedor Minero - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlg0b0pLUmtDY0c5M0ZlQWdNS0FLbXU1MlpQN0Zxdm1nUzFnS2MybUZiX25yUnFTb2ZHTmhNQjFfWFVrUm9GUUhHb1dpS2dhRWRDT01lZXROLTlXU1dkSUo3TU5MR3hNQnkySjZoS2JCUmh1ZkkzN0RmbURZVWhySHVoX3hEU0NpcktfSThaYXRxQlRqT0hVQVl6ZFNxVUttZ2lnRzk0WXNIRjROcm5tdTNjMlQyRFZFd3htTmFWUdIBxAFBVV95cUxOZkJhckJyaXdTQ0ZVQ2ZKSlotQmR2Y1lkU0xuRUhjQVdJanZLSHhfczFXRVJIYkY5cmV2VW5NWHBBMlVzbmFGMmthU2RpZGhIa0V4a1Q4SHlWbGNCRWQzY1ZPWDhIT3RXS2RBQXdhTHFZejBGbk54VjcybnJtMnk0R0NydVduWXdrMHJhc3NHQllVdzl5OUZTZjRfblhKWFZXUTYzLUUtY09GSEtieTlsS0lLV0NXQVZQak5rNUhDMjNXcHpI?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 29 May 2024 07:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Diputados aprobaron el tope a los aumentos en servicios y el cobro de impuestos en las boletas - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOR1RvbWNqMlpUNkhlc0FZRG92bmtWQ1FKbGVLZlZaZkxMUVNSYXNyYnFXSkw4TU5MNWZnRER4Yk1KS3U0alozc2dPYUszbEVLV0I1LVFQeXJxRUZLU1JTSTdEamNNN0NDRTl3T2pxTk1nbUZ2VGhZVVJOdnpOUWtrQ1NFTm9nVzVldy1nQVROZ0lDeW5aU3dTelNDdFUxelFsVU10a2U5STRYN0pseldtR1gzYTAyLXMxSnBSeFJpeWpFV3JHbzdBX19KVnBQRXdSR2NmVFVGOGxlSm5UQTZKOU05MU13dWdidVkzSE9ITHMyc0Ry0gGDAkFVX3lxTFB4bm80WFRjdi1NbmlfV0VIRjVqMGpPZUlJWE9nNjhlejdNdXRiSWdQbkRHUDVvOVVzYXhVdktqbjZKcUxXTFdOMVRTdWJrdGU3bFZ0MFlwbDJfM1hfajZUVkxrck5CdEZtSzlxeWliTVBZenlBY211djNBMDVBUDdzaG8yTHNDVFZ4UlVNaGhhNm5aMjl6eG5iRGhBWTAwVkxCa0c3QVBVLVVLUVREU3BuYlM0ekpreG5WY2NKUkFyYW5JaTJiR3Rqbk9PYWk1Nkc5b0RBcnhDLUFtZ1JjSUFBaVp0UUhJWDhfZ1pGNWo3V2JlTE9nZVdiaHB4Y2tqUFRIVWc?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Tue, 01 Oct 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Aulas virtuales públicas, una de las propuestas de Noelia Nieva para el Concejo Deliberante - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPenpRQm5RTTY5SklaYi1rVndBeW9XZHlRRl9SWHFKZkFfRWZhNFNtaWNDc2lka3R1MmtCbk56Y1JKWjBnTW1RTkl6NVY4MHE3dkhzVFJ3aUtlVU5iRDRObUZpUDUzOU5KcGtDMmI1ZWpHeHY3VmthNW1GTmN3aHhETjlGUjU0LVpyWUI2N3F3RElPdlB6TWpLRWNra05nWDdBaFNublNwX0ozTVh3cEtvek9kNGNlMUFidGljOXZ2Uk1DVHg5VW93TFAtOUUwYzdDZ2xnMzFGcG1aQXNydWJYcTh0aGxoYzlXRkxFcNIB-wFBVV95cUxPSU9tR3ZKeXBJenJFdTVOdU5GWnB2bWV4ZHhyd196bVVsSGR4b05PUElESTNQYkwyR1BrdlBqTlhIekhMeEJHNGlNd1N3b3RhbmFFbnUtMEtQUEo3QXY4WHVyXzR6LUl4Z3BRWXZLSUVwTU12dWNHVFdWTGVsNllaYTRIRkVsT29IeENwdnBHTVhCWVA1N3NTb3dZZmZnRGt0SkFmQ1R0aVM1R0Y0TlIwQ2tIZ3JLUDE5MTItaGluQnNFWEJRYTA4d21zemtDbGJJZG9KY2o5LTEtcnlmQ2lBM29DOGZsbjdvaGZ1UUlYemNWMTZNMDdGblB1aw?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Wed, 11 Aug 2021 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tajante rechazo al proyecto de los legisladores litigantes - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2p4WXhMR3N3V25OZ2dtOVdGOHB5YjBkZkFOVHJONHNtYjM5bHlhMGIyc3JZNkY5a2dDMVJlblZwV1hwb0o5R2xrelBDLVBManhIV2UyUXlnR0FoWUoxWldBcEt6MG8zakpMMC1uUmdyb2xwNV84TFhwOWs0U1BIV3lQaXpMby05djBwNklOQXRuUGJuOEdmM0tSZGw0QkVwVVBRN3doMHgwZ9IBrwFBVV95cUxNSVphX2UxY21zWnd5MVpCV01BWDI0eU95WUtFcm9oMGhYenJubmQzaDA5dGV5d1NFbjdOUlJ4TnU1aEt4Mk5SWkNQNnJqanhBUzh2cWYwdkJ1VWxVd1ZyOXdXNXkwU3hmOVpEc1VMY0pYY1BWR1k1cC1tSTktU1hmeUJDaFpwdGNMRTlrVjBMWW02TS1LY3BVNnl5cnRIV3ZrSUJsT2Jxal9YM2p0M1RV?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 29 May 2024 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
