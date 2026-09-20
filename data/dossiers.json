@@ -3,13 +3,37 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 81,
+    "total_mentions": 87,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 8,
-      "neutral": 69
+      "negativo": 10,
+      "neutral": 73
     },
     "sentiment_by_day": {
+      "Tue, 05 Ma": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "Sat, 03 Ma": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "Thu, 28 Ma": {
+        "total": 3,
+        "score_sum": -8
+      },
+      "Wed, 22 Ju": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "Wed, 16 Se": {
+        "total": 11,
+        "score_sum": 0
+      },
+      "Sun, 13 Se": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Thu, 29 Ja": {
         "total": 1,
         "score_sum": 0
@@ -26,10 +50,6 @@
         "total": 2,
         "score_sum": 0
       },
-      "Sat, 03 Ma": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Thu, 23 Ju": {
         "total": 2,
         "score_sum": 0
@@ -41,10 +61,6 @@
       "Mon, 15 De": {
         "total": 2,
         "score_sum": 0
-      },
-      "Thu, 28 Ma": {
-        "total": 2,
-        "score_sum": -4
       },
       "Wed, 12 Ap": {
         "total": 1,
@@ -94,21 +110,9 @@
         "total": 3,
         "score_sum": 0
       },
-      "Tue, 05 Ma": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "Wed, 22 Ju": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Wed, 06 Ma": {
         "total": 1,
         "score_sum": 2
-      },
-      "Wed, 16 Se": {
-        "total": 10,
-        "score_sum": 0
       },
       "Sun, 20 Se": {
         "total": 2,
@@ -133,20 +137,16 @@
       "Sat, 19 Se": {
         "total": 2,
         "score_sum": 0
-      },
-      "Sun, 13 Se": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 41
+        "count": 46
       },
       {
         "term": "tribuno",
-        "count": 27
+        "count": 28
       },
       {
         "term": "rosario",
@@ -158,7 +158,7 @@
       },
       {
         "term": "ruta",
-        "count": 19
+        "count": 20
       },
       {
         "term": "informatesalta",
@@ -166,10 +166,10 @@
       },
       {
         "term": "argentina",
-        "count": 13
+        "count": 14
       },
       {
-        "term": "metán",
+        "term": "obras",
         "count": 13
       }
     ],
@@ -261,6 +261,48 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Otro reclamo de Sáenz para que la Nación siga con las obras públicas - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ25CNDBNcGd6RnhnY1hUcmFwRzJOeE9KQlJoR1k0Z2FMcWZmRzBFMUxWeU1kaF9SMzhBVUd4eFlqeGxocG05eVZKUHRxaEttakw4YUhjaTVDSVFLeTlSQ2VRaS1tLWJuSzVtZlYxN0stR0xldXZSZTN3YjBVcHFjbExhaENyLTlJUENvREgtQzAxb3N2ZEJtNVlieEFncVppaTQxb1Nld2x5VTky?oc=5",
+        "source": "Página|12",
+        "date": "Tue, 05 May 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Tras gestiones del gobernador Sáenz, reiniciaron las obras de la autopista sobre la RN 9/34 - Gobierno de la Provincia de Salta, Argentina",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVFuRTFpWnVPcEhVb3pwaG15Z0pURW94eFc4UHk1UWNVdHZ3ZzNNcEtndDdFVVhncnBlRjRFLUZIc0V4TF9kRGdXUlpfcHkxMVhhVG9OSjJPbTRuQXlMWTZkQlZhWUktLWNkVDJTdW1NSjM1LTJlMFBCenkwS2ttbmxIX2hIRWxwelR2REpVd3NQbnIwdVdWX0l4RkRqT1dqaF9WSFUzMFk1NEJCeXQxb2VvZzdQZnZiT3RkQTQ0Vm9zMVEzU3E0ZUVFVkZKTk5BWGlj?oc=5",
+        "source": "Gobierno de la Provincia de Salta, Argentina",
+        "date": "Sat, 03 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Obras frenadas y crisis de gas: los reclamos de Sáenz a Caputo - Expresión del Sur",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbmJtZVRDQU5qeE1BWUtyOE1LWl83TUdTX1hwbGw4Q3RHU0NvUXV3bExRUTdYWkM5YUs0VVE5XzdTeEJpU1lkLVBDNi1LZDhaemNFX3FZU0NucXRZeE9YdlFaVGk5Z0Q3MEpDOVo3X1JkTGJpdWNvVk9BOGxIbDVjR0UzdUVoRXRrZDduSzJzZW0wNVN4dGRJMFpKNl9CcnJEYWJVbGJrcVY1cEJm?oc=5",
+        "source": "Expresión del Sur",
+        "date": "Thu, 28 May 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "El gobernador Sáenz tomó una decisión con la ruta de la muerte - defrentesalta.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9udVVQNG9mNUg4WVdMdmFJWVlvcW1OeXkxcVY1Zm1YV1FKSTI4dF9VRkxwc3hoQlJMU2hJSXJkMjdBX2ZZaEttbFNFWE5kNXpaRnRRUjZQdW9mRnZjSFhtMDhUdExUNk9CM0swN01iZUFHRE9XcGFNV0F2VQ?oc=5",
+        "source": "defrentesalta.com.ar",
+        "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "FOTOS. Las mejores postales del Milagro 2026: un recorrido completo de la emotiva procesión del Señor y de la - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZUtrNkVhcjFKbkNUM3c4RTFLZU1INkstc3Rnd1k4R0lIVjNkTE4wRGgydnByOTJHcXlXZm9EeVo1MXRTY3lVX1hBbVJJbG4xRk5YMTVXU3hLNGNrcmFNMWd5V0RFSEtpQ3hjcTNvekxBcHJuWXZ6N0Z3dTlJN0JuTnU0N2ltTmE0ZTk1X1F1SlNqaFotTkZFQTk4Wkh3ZFNRUEVCN0h1cWFxUW1YWXdaWmFaZERrcXJTbzlFQTFLaG44WjV0bkpiY1lqSUvSAdIBQVVfeXFMT1h1bDlUb1VtUGRJT0JRRWMtSEJQcUVNcjNWbko2MHRaVjY2dE50dEg4RTlKQWlIY0plMTd6dDlwRkdrRGNrVDVMNHp5c1c2bHhmQ2psNjFCTkxwbi1rdzVqNm9JSUI5OEQyZFppMWYxZ2hvdlZaRV84aUhJVVV1NU54WE5PbkFCTlBJVGstVkw5M285ME5vTVdFMnNjQVliZl9fd3lHNGR1bF9rU05oUmJrcy1nVS1wM28xVi1tSDc3LU54TlVIbTJXdEtWVnN1UEt3?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 16 Sep 2026 01:11:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz participó del primer día del Triduo del Señor y la Virgen del Milagro en la Catedral Basílica - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdUJLSFJTYlJjR3A1SmUyUzZETi1pa3Q5ZWY4U09LQm5wdTJQVnFkUE5DWXhDaWFFYm1uLVNLNklmZElSUnFSWk1LTFg3LWlRMWFoRG1RejlfQkFZQjgxSTJQRktjZ3U3SGVYTWZWeENReHdrZVlNSmZ4ZGpOOHhhTkRfLVVCbHdydEZrNWNwREx5NnNUZ1ZiWlN5OGc2S1hWQThKVWE1akYwN0ZhNWJnSFVQX29WSUIyTWROMVRubEE3elR2OTBwSExsSW5NVGtDeTZFYjB2c1lzbTlaZktYdUdLdk5aSExCc1RTRlgyNmp0X0lETWF0S2c5d3lnRFhGeTk4bDRkZXIteUMycnROMUtycjFrNEXSAZQCQVVfeXFMTUtkemxEU2NxMUhqOURwd3VsU3J0aHpXMDlyMFpGU2NQTGRla2hqS0k3VnNHeXg4Zk9rb0xBVndsMFlrUF85NU1sTURETEZJYVp1VXhoUW9JbXpGYWhfS3g5ODU1T1dDbE1yQ2VESzV5MHZ0aG1iWTJobmhMMjk0LWtYUXR4UWZuNjlYNGVOTzJLT2NUd2ZDOGxoWXF2T1o0QjJXeS1PMTYxY2prOUJCLXhzUFNkZ3g4Y1dtclBDYkRZU09CWmRGcHQzRzhQYWV0TzZpWlZlcXl5V1ExUzZCNkVrZVRaTFh2U1c0enpVd2JucUJHN2tjUExQQzNxYncyUjYzMGF6VWVCWDBYTU1Kdno1eHhq?oc=5",
+        "source": "Informate Salta",
+        "date": "Sun, 13 Sep 2026 21:34:31 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Obligatoriedad de exámenes toxicológicos: \"se está cumpliendo con lo que la gente demanda\", dijo Germán Rallé",
         "link": "https://www.eltribuno.com/politica/2026-1-29-18-19-0-obligatoriedad-de-examenes-toxicologicos-se-esta-cumpliendo-con-lo-que-la-gente-demanda-dijo-german-ralle",
@@ -428,48 +470,6 @@
         "source": "Que Pasa Salta",
         "date": "Tue, 02 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz anunció obras sobre la Ruta 34 y advirtió: \"Está destrozada\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0FkS0szN2Uwa0N5QzB0eTJJYlVyOFFKT0gtLXJ0cHN4S01QWWtpdnNJMURTZk1qMHp5RGxHMzFWZEtPUXJDSDd5VFoyTEkwNnlBRTZzd1l0ZVFOSGZtZnVvdEZvZGFzcEptTEt2TWs4ajFTdWthampoZk5QanpKUWRyM0w4YWZLMGV0dk1Ycw?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz anunció que financiarán el arreglo de la Ruta Nacional 9/34 con fondos provinciales - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclQ5dmhiWXdRRUZHR2pWRi1EMTFsZ0NyaDZST2hySWd5VmpKREJMT0ozWGdCS1pNWkVHMlNDZnkxVmstUURQRFJPOU03ejFmTm1wZWE0UHM5VU82Qjd6VkZFR0o5cGlvSEh4Qi16RTQ5VzdJRnJOaWExeTViRVV4OUFhZGZXdExFRWlJYXlVaEw3RTN6VlVqWE1DQ2pKMFB0aGloeS1ZY2EyWFpfWmVEb2Z2STJDU3V2dngwd1hYSW9sN3llaklzT2UySdIBywFBVV95cUxOclQ5dmhiWXdRRUZHR2pWRi1EMTFsZ0NyaDZST2hySWd5VmpKREJMT0ozWGdCS1pNWkVHMlNDZnkxVmstUURQRFJPOU03ejFmTm1wZWE0UHM5VU82Qjd6VkZFR0o5cGlvSEh4Qi16RTQ5VzdJRnJOaWExeTViRVV4OUFhZGZXdExFRWlJYXlVaEw3RTN6VlVqWE1DQ2pKMFB0aGloeS1ZY2EyWFpfWmVEb2Z2STJDU3V2dngwd1hYSW9sN3llaklzT2UySQ?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Provincia financiará con fondos propios la reparación urgente de la ruta nacional 9/34 en Metán–Rosario de la Frontera - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPY1Z4VXc4Vi0wUDJyTW1TUzJybEFhNEhGZW1RS29IQzA5ZGpvQjFoUGJjbUhwdE5QbWhNb25YZXB3eWpqa1pzTWNFWnlDME5ubF81eDJ1bXpUeXNnZkVLUW9rS1YycjRGZXFkbkxKUVRWRmtGb1hXcWg0N3NwN19ZNEwyTWVGdnVpdV82TDRCNWdQNDBUTkpFam1FOWZIRm4wcUp6aXhKdGhZZXY5VTFIOGJfZ3djczhQV3ZZVGhYMktsT1A5RzNUMTY0S3BsLXRpRVB1QjJkS1JkYWVxLXBBSDg5eGNjT3pzcWlLQXN0RExRcEJiSWVka3lORlRWbUpORS1uc28xaXpyeGZSclUweNIBnwJBVV95cUxNZU9lV0x5MG5GNS1FSDlWc3FTd3ZNWk1vUF9nOWExTl9YWWhxbG82U0lqT1ppOGFtR2pRbVdvdU1LTDBkQXdhRHBNM0F2NVZWT2JMRjJ4cXROcnhwekR0ZUVRVjJjbDBWempuYUlRLWRVUDZkbEF5ZXNlWVF6LWdGVGpXMzZXMTFjOWtaYmktUmVtUlJnUzZvY3c2aERiSHI5M20xeHRITF9RMTNiWnVGVlVsSGFHZnBsOEhhWjRUb01xWUFMQjhsQ1hqcjQ5aGF1NVFCSTBnbDl1YWxsOGlDejFPZnl2NzV3WlBsMUZldmlzaXF6N0Q0cHpRVmNuX2NaVm45U2ZUODNtSHp6VkJKUzBfb0xVaVo4a0R5ai13bw?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Provincia financiará obras en la RN 9/34: Sáenz firmó un convenio con la Nación para sostener las tareas en el tramo Metán – Rosario de la Frontera - Gobierno de la Provincia de Salta, Argentina",
-        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTG1RUFhWVzA1cnR3ZUc1MUl2Q1hHXzY4OFRZNHk5R2VVN2xjOXI0clVtc0xaR3VROWc3VG9POFlWUGhtQ1VoRmZzMFBRb1ktVlV5UERPTHU0TlRiWnFma3h0MGNQbU1ROW1neGpaUnZSS21nTGRnLVA0R2M1UkI3NW9uU2laRmUzc2Q1RlNQWkFUVml2WmlHZDNYb0JfelktS1d4LUdxMFRscUV4Zk9VUlVYeTVhQXRfblF5ZW5KOF9HdVFTODRnRUVZZkRUQVZsM2dLUVVuS3o1NzRBcDNCMlFNZEt2S3FoLU9Fdjh0aVNfa1VVMTVENG1rSFV4aksyV21HZDBfa29MVnVndjFZTDlTUEtkSE9mT09xVFRoRQ?oc=5",
-        "source": "Gobierno de la Provincia de Salta, Argentina",
-        "date": "Wed, 27 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz entregó departamentos y 48 familias recibieron las llaves de su nuevo hogar - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPamIwXzU0MnJwLTl1ZXlnWFZpQWtHT3JfSTNZSzhHMFNtRm1nVnN6bU9RSTRKV1Vuc2VKZmRtUGRReGtsZzZ0a2RPNG4wdmdPOEZaQS0xbms5RUV4NnpBODBQT2lfbXIxU1lDRWowa1ViQll1R3hOVmRQRmMzMTlkSjJIQzEtcHNkN25MNEZxZWdrYVRGZlJwUUI0SQ?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Mon, 01 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salta financiará obras en la RN 9/34: Sáenz firmó convenio con la Nación para mantener el tramo Metán-Rosario - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcnYzVTdmaWtSLWZwckhlZ1Y4bDU5bHBDcWZyRXN4U0stU3hrYUVkVmdYZ1BIeG5DRDZBeFB6QjlidG1yTnJLckRoUm82ZW5UTXR4NnpPT1AtUUpMNzhtX0dEUG9JV05WQlNhM0xtbW5DeXl3dTVQbnJmSVRISGtscGNUWXBoVERlMVNQVVZiVzRhMkZJb1B2c09rZi11UGNyYi0teDcxSUtHTkJnUlluc3hjdW0xRzVVNEl4YkJubHc5VDJJOGd0NXp0VjBUMUVEWDJ4b3VCN2VTdGxPOEdYQmRneUJQaTg4UTRfSWlpNkFmNy1WUXNuWTAwcFVyRXE3QnZv0gGIAkFVX3lxTFBjLTFjU0hyWGJtVVpGRjVxUldNM2M1ZHVLQXdPQVRLT3NSM1VGUlFwaWNwWVQ1TU1TX0pIb1ZPWWdlb0JiWDA3MUlENktLLWxhaEdDQVdQanBVN3lwVlM2MjBYeTFWTHlqbi1EbFZjZGp2MHcxZmp2eTBqWmhiVmY5WmVrT3BGVU1BeThVbmloazRDc3ZUREFmUVlxSUdPckZDNWNmMHpySDJWVmJuRXE1YU8zNHBlWHFhZF9jNkJpblhyUHZRNkgtT0Y4SDVHWW5QQUFOSkkxSUdFXzFGeUpvODNYRlRHSzB3VUtyeTBWaEJodDdxd0l6bGhzRDFoNnFCaVF0ZVhMSQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 27 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -600,13 +600,25 @@
     "id": "sen-manrique-burgos",
     "name": "Manrique Iván Burgos",
     "role": "Senador provincial",
-    "total_mentions": 16,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 1,
-      "neutral": 14
+      "neutral": 17
     },
     "sentiment_by_day": {
+      "Fri, 10 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 25 No": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Wed, 23 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 26 Ju": {
         "total": 1,
         "score_sum": 0
@@ -671,11 +683,15 @@
     "top_topics": [
       {
         "term": "cachi",
-        "count": 6
+        "count": 8
       },
       {
         "term": "tribuno",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "senadores",
+        "count": 3
       },
       {
         "term": "senado",
@@ -690,15 +706,11 @@
         "count": 3
       },
       {
-        "term": "gaceta",
+        "term": "nuevo",
         "count": 2
       },
       {
-        "term": "pueblos",
-        "count": 2
-      },
-      {
-        "term": "burgos",
+        "term": "diario",
         "count": 2
       }
     ],
@@ -712,6 +724,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Cachi: Declaran la emergencia para productores afectados por granizo en Palermo - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ19NNHJrNTJ1a1FIclgtd2wyTXFKTnZzaW0tYlZnMnFlZnZIV0lVbi1OeWgxR1BjM1FZaFU0a2d4VlpMY25yVnFfRnVBUWEwbGxtODk1MEVpb2JkbTNVakhBdkE0bnJkdmhqMVA4Wm9kVXRZbUI2SlU5Q0hQeWtSbjg1TGMxdWhSaHRXd3pqUDBTTVpocl9NRXR4ZF9rU1AtNU52NnV6UzBhenN2V2Vmc3hXNA?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Así quedaron conformadas las Cámaras de Senadores y Diputados en Salta - Gente de Salta",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbHV0bzV3NE90RTJMM2VHd2FrNnRZZWpaNmFjYUIyMEJJVWhKajBQUHczSGp1Q3RTdlBGMER0Sjc4Y0dFb2JjdjE3Ym9xeXE3VUhKN1pIWFFWbjBPMWoxZ2szckZjbVRlZmFXOVU2V3E1RHRNcTlRLWlJbVB3eEM0TEdMS0ZYVklfSWJhZHJQNjM0aHlBSTFQUDIwN1FXZEhCSFlkSNIBqgFBVV95cUxPbHhYdmZVcE1aUUt2UVRfRlZPSnMyUm1fOVI4dGpHU0pNdDVFVG1fRFpxQ2N6eUxCbllDRjZVa1RuLTZoSXI0RHJwdElJNDM4YzkxMi13U2VscEloNm5hYTcxazJqbmJJLWRzSUI2X3pBSkNhS0VFVkZvd3Y5VTBJSDVQYU1IWElYajMtaTdPNGtoLXA3ZGczTHlHVHFsZzM2TUM1S1VLR2p4QQ?oc=5",
+        "source": "Gente de Salta",
+        "date": "Tue, 25 Nov 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Elecciones en Salta: los candidatos de Cachi debatirán sus propuestas en Payogasta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVkRvOEN3NDhEclQxUHhqdlpPLTc0UnpRX1l5OVZuWnlBTVFHeDZrLXBHMTBVc1BTcWRJMG54Ul9TUlI5MG9mTENMQ0FBY2JhUDBMOHdHMjlBQ195Ym5Dd1VIUm5zLTJRYllOd2h2bWNISUcwNVFvVEF3VW9id3RKa3Q2NkxxQ21XNldZUGw5elB0MnNnc1luTk9OaWhpMVRxZXNfOHFKUmRteTdGNDNvUU1vbHBsVGc2T1l4d3l0UlFkM18zNXZza1BQX1dBTjY5NWc?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 23 Apr 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mirá qué capitán de un seleccionado argentino está de vacaciones en Cachi - Deportes | La Gaceta Salta - La Gaceta",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd01pd0FQSjFVVGFFSXBMQjU4VXRFZ25jLV9iYi0tRW5XX3k5ZlFfM3NHTS1FOXYwdmRQTEUzQUh1Vkp0UXNvdGMzNXBKUENyNmg5SDl2VFdrMEFzeDQ0SXF3c1JQUnJHdG9WQnYxbWhrV1pFd2p1dFgwYTRHQThZZjJ5UFd1bmV2NEtCVnkySTA4QVZIX0NEOGMzOWRKRDRRWDdKdV9NQTI3YkMxMnhwRzR6ZUl3Y1HSAbwBQVVfeXFMT1NWaXNNS0ZiTVFXLWJNeXhBSFZWeGZsWXZpbmNXSlVTa094Q0ZpRjdyalo4aFlwdU4ySWFBbmZkcXFpcUxOdDAwNFYtNi1rMHA4ZFhRRkkydFhwczdoSWpiSm54RktXclRYc1ZTVHotNHltRE8zR3NWR1R1SlVlQUE2MWUydkhVSXM0aEowWmdUNjhaRWQzRzZkaU9CU01NMnFITjE2UUJVUzIyWnlyUVdxZkRPM1Q4MDhqZUQ?oc=5",
@@ -830,13 +863,17 @@
     "id": "sen-gonzalo-caro-davalos",
     "name": "Gonzalo Caro Dávalos",
     "role": "Senador provincial",
-    "total_mentions": 47,
+    "total_mentions": 48,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 5,
-      "neutral": 39
+      "neutral": 40
     },
     "sentiment_by_day": {
+      "Tue, 31 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 02 Ju": {
         "total": 3,
         "score_sum": 4
@@ -993,7 +1030,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 26
+        "count": 27
       },
       {
         "term": "informatesalta",
@@ -1058,6 +1095,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Fondo de Reparación: la Bicameral definió las autoridades y comenzó el análisis de informes de la auditoría - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTDVDMmN6X3ZPTXpxdTlrUktYV0FNS3pJOHBJQWNwWE9YYUFVUFNwdUNyOEpaZFQyRW5uVUR1M2lLRFlEUUE3LXU2SnB6aGx2a0U1RjNzcnFPM1ZVeGN2aFVKeVp4c3pCdnVVWVY5Tkl3V0hlcXAtbHdLTnVpT3A2V2wxMmlEenJha21lRF9GYjhPSE95dGlqSVRQb2NGM0RmdG1Icl9qM0N0NjN1MDNZVEY3MnpwZHY2S0dLVVJXSlVxREpMbWt1OHRvdEdUWTBQUWZlb0dhRWFwWlJjNkhaVldxd0poVjRGTkVN0gHwAUFVX3lxTE9KWDhJZUE5ODdFQVRnNUlDTE9PZHRfWUFVb0xOOW5HaVcxbUI3T2c4bVR2OVR2N0ZxblhxZFZscXhtendBdzYzUjlDWER6M1Fua25qYWhPQVZOc2RiUndoOXVkWjlud2FjWFJYLTd4SXpwcmhOOE12amVaUHBWbDRaMVZkWnZ3QzUwMlQxUTlDR0dINThxZ193Q19MdVltRFkwR25rRkdOZkxBSkFydjljQ090MjJjbHpPN0lGOGZWbThOYVlnSWZYcUNXcXdCcDVBOEEyd0xONnVHOTJjcWp1RHhPMXlFNVYzTG5ad3o1YQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Senado salteño aprobó el pliego de Gaspar Solá Usandivaras como nuevo Asesor General de Incapaces - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUk5aTlFMUllpTHIycWJaUUl2cjdFUm5saS1aUmQxdFl5RFhjRGctaVE0UUtRdFUxY2psOEViSkNyVkZ3dTJuRVJnM2RiQUh4cGNXeUhRX2xJLUh1Y0E4QlljeTlacUtZTE0td25YUjVnUEtwUHk5TjVfTlgxcGtGck9oQzRsaUVkbWZYanhYbjdBUEVZay1rekpWbC1yREplSmlIa0RmMjctd0ZudEFMVnBJLV95cGc0eHQ5REY0WjAxOE94bEhudDdkc25wNVhlb2oyQVg5TENEaElNUjVKVDZERktpSWdKc2lxd0N30gHzAUFVX3lxTE1CMGVLRURpSkd2YVFocloxNEI0WTlkbGhEclh3UDBvRkEzcHQyeGRsYWhKQzhrWGQ0NUcyVnA5YlNjQk54YUZHZEVDLTVvb2JVNkZjWnl5Q3N2c2xTQUJqaTZKdjl4MlVLSFFNM3kxQm1wVGc3dUd5SzdnWlB6a2MxalJnOW9VdHc2bldyMVVJUVFjOTRlajRhSlBNb3U3X1dMbHE1ODFxQ0x3Zmdmdnp2TlZneVF6ZXloRnVRcHpwSmNaQWZHRk93TkE3c0E2dTFIdnVEREdYX1hkaEFJZ0FUZUx5aktWSW1oQWNBMkFQZGVuQQ?oc=5",
@@ -1259,13 +1303,6 @@
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE1DdU0zZW9hSmI5TzE2YmxicHlEWlpsR1NLMGdFNGNELXNaVFlWN2FnUl81WGVOWDZoT3BCNnpvQnRkdU5hT081NlV0eGV2eWwteDJZbHNZWWl2X3BLc2FwaDE3eG5QTjJOcWhXUTREX1NiMzljT2lmR3BQSVI2ak5QeF9USjhfMFBsYWlRb0V1QUJuc0NmQS1GbHJGOHFFNHFPZ3pfMThhRURsc3ZFRmEydVpWR3FGc1A40gHAAUFVX3lxTE85YUljMWFZdmFWYVVJbFFBM1RZY01ORERtMkkwZkpqbjh5RDhuT2RpUS1PY2xFbTI0N3VNVzlDWU5kcnl1ZjBTcl9pVXF2eEF1Xzd2R0lZVjhFOVdzM3BuQ3lqa2V1THRJcU1JR1lMNXRLOEs2Zmk5ZVI0UjVidzgzZFl0UU1FUmhCU1dlc3k2YTJjbnVlR1FDRmhOTHh5V0JGMUZJMm9BaVZaY180aVh6cEgxRXN3VnNfYkdiMFAwNA?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 16 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Obituario - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wT2JwUFA0ZkFlUklHZnJoTTVWZ3hvLUZUVm83N0F4cjdTYWZCRFNXQ0oyeTRRZlBGZ2tGcHlfQlJqMlZfUlpiQnNVcHhadDROblFRUlRSSUxxYmNHcGV4MVlTWXJsU0ZV?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 08 Jun 2013 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -1566,13 +1603,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador provincial",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 5,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "Mon, 18 Ma": {
+        "total": 3,
+        "score_sum": -2
+      },
       "Sun, 11 Ma": {
         "total": 3,
         "score_sum": 0
@@ -1645,10 +1686,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Mon, 18 Ma": {
-        "total": 2,
-        "score_sum": -2
-      },
       "Tue, 29 Ju": {
         "total": 1,
         "score_sum": 0
@@ -1702,6 +1739,12 @@
     ],
     "quotes": [
       {
+        "quote": "El sueño es que nuestros jóvenes puedan progresar y construir su futuro acá",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2lEYXo4ZmFCQlB6cHBaMi1xcDFXRHJJMWxXenlLTDZiTzh4Z2lGd2NDWmhvX0JUOF9CNzlObFpUZ05iVWt3UkNzSGVWdWpBVG5fV1hQUDBjTXJNdjBlamRrTUxFa1YzNDIwc1NTbWYtU0pvem1LR1ozS1p3dGUxd3VmSHdudXVzS2RJbllDWnRhUnlkclRwVjBESTltc0pFY3RqT2FSY0lDdlNCbm5rdVBfUTNoay1VSldHZGtoRE9KQkl5cTJJTnllcGJ0U19KS0xn0gHTAUFVX3lxTE4zaURhejhmYUJCUHpwcFoyLXFwMVdEckkxbFd6eUtMNmJPOHhnaUZ3Y0NaaG9fQlQ4X0I3OU5sWlRnTmJVa3dSQ3NIZVZ1akFUbl9XWFBQMGNNck12MGVqZGtNTEVrVjM0MjBzU1NtZi1TSm96bUtHWjNLWnd0ZTF3dWZId251dXNLZEluWUNadGFSeWRyVHBWMERJOW1zSkVjdGpPYVJjSUN2U0Jubmt1UF9RM2hrLVVKV0dka2hET0pCSXlxMklOeWVwYnRTX0pLTGc?oc=5",
+        "date": "Mon, 18 May 2026 07:00:00 GMT"
+      },
+      {
         "quote": "Ganamos nosotros, Karina ni apareció",
         "source": "La Política Online",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ISk91eDVoeThQc21kOC0wd19uYUxrQUxoODFuSGs5NWxKT1RBQXF2ckxzZEtvSFFka0lFNXl4Y0gzaVdONEtZa0hFY0tDMzZvYlJPRXFMamVraDRWenc?oc=5",
@@ -1723,6 +1766,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Juan Cruz Curá: \"El sueño es que nuestros jóvenes puedan progresar y construir su futuro acá\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2lEYXo4ZmFCQlB6cHBaMi1xcDFXRHJJMWxXenlLTDZiTzh4Z2lGd2NDWmhvX0JUOF9CNzlObFpUZ05iVWt3UkNzSGVWdWpBVG5fV1hQUDBjTXJNdjBlamRrTUxFa1YzNDIwc1NTbWYtU0pvem1LR1ozS1p3dGUxd3VmSHdudXVzS2RJbllDWnRhUnlkclRwVjBESTltc0pFY3RqT2FSY0lDdlNCbm5rdVBfUTNoay1VSldHZGtoRE9KQkl5cTJJTnllcGJ0U19KS0xn0gHTAUFVX3lxTE4zaURhejhmYUJCUHpwcFoyLXFwMVdEckkxbFd6eUtMNmJPOHhnaUZ3Y0NaaG9fQlQ4X0I3OU5sWlRnTmJVa3dSQ3NIZVZ1akFUbl9XWFBQMGNNck12MGVqZGtNTEVrVjM0MjBzU1NtZi1TSm96bUtHWjNLWnd0ZTF3dWZId251dXNLZEluWUNadGFSeWRyVHBWMERJOW1zSkVjdGpPYVJjSUN2U0Jubmt1UF9RM2hrLVVKV0dka2hET0pCSXlxMklOeWVwYnRTX0pLTGc?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 18 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Santiago Caputo eufórico por el triunfo en Salta capital: \"Ganamos nosotros, Karina ni apareció\" - La Política Online",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ISk91eDVoeThQc21kOC0wd19uYUxrQUxoODFuSGs5NWxKT1RBQXF2ckxzZEtvSFFka0lFNXl4Y0gzaVdONEtZa0hFY0tDMzZvYlJPRXFMamVraDRWenc?oc=5",
@@ -1925,19 +1975,23 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador provincial",
-    "total_mentions": 11,
+    "total_mentions": 13,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 11
+      "neutral": 13
     },
     "sentiment_by_day": {
-      "Tue, 25 Ma": {
+      "Tue, 14 Se": {
         "total": 1,
         "score_sum": 0
       },
       "Thu, 17 Se": {
-        "total": 2,
+        "total": 3,
+        "score_sum": 0
+      },
+      "Tue, 25 Ma": {
+        "total": 1,
         "score_sum": 0
       },
       "Tue, 25 No": {
@@ -1976,30 +2030,34 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 5
+        "count": 6
       },
       {
-        "term": "senadores",
+        "term": "fondo",
         "count": 2
       },
       {
-        "term": "diputados",
+        "term": "tabaco",
         "count": 2
       },
       {
-        "term": "gente",
+        "term": "productores",
         "count": 2
       },
       {
-        "term": "general",
+        "term": "salteños",
         "count": 2
       },
       {
-        "term": "güemes",
+        "term": "exigen",
         "count": 2
       },
       {
-        "term": "informatesalta",
+        "term": "controles",
+        "count": 2
+      },
+      {
+        "term": "industria",
         "count": 2
       }
     ],
@@ -2013,6 +2071,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Así será el recorrido de las imágenes peregrinas del Señor y la Virgen del Milagro - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcENrd1lnNkI5UFRWVFJvdkp5OElsWmJZS1R1Y25aX1JZR09OYTlscDZhaG90cVZxUXY5MXZtNkZTNFJxTFhVclZTQlNqbFdmSkZ5aHZJZmY2T0RLakE5MjNDTS0xOHBNS09vNVBhTnZIZUQ5U0JWbUN6ZnlRZzlGalpmaDZJQWVuRDFRX2NYSE9hb1lvallXb05JVnZwd256TERZTURaTWdXOUNWNjcwV3Q1NEM1b2xYcFVZWnFuLS1mdkFsSnNuaGxjQQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 14 Sep 2021 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Fondo del Tabaco: Productores salteños exigen controles a la industria cigarrera - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeFlJSUxmeDFtc3IwR1laSGFYbTY5NWQ4SjFLcFdyUWc0ZXpSZThxWGRxbVNHZV9TRUxWNmQybFhlNHNqeEJBd1U5S2xpQkNndFhHZ1NOaGN6S1l5TGNXT2JUdGh4azByMFlZX2UwVVVXLTJMN2g4R1FMblFRR0dQNFJhSWRMLUw3TUxWUUtnM01hWU5VZENBODBLZFc2WXI3Ul9EdVJfUi1ZQllyTHVsUkRjVkR1TzIzaGNiUDRFcWh1c0cxVnZEY09nM2VCdjc0RHYxcmxSYV8yaXNPU3fSAewBQVVfeXFMT2paNzBsQnVUd0dSeWZ6YkZNVVdQamFPd3oxYnpLSi1qdDVyNDlXelp0bXRfdDY0UFhtT0c4ZS1DLWxGRWI5UnZYc0JvZ2d5ZmpRQ0ZMdk1WbXBLY2VCWkpsZWU2TXNfbDJwM3NRWmZsWlFXMWc1VE9palQySlZvd1lYTE84OUR1XzBaaHF6S0lCYUN4NThSbDE4VXZWcnFqQmJBTUoydWlSZ0RjUkZtLUNSRDQtZzJ2MVlZckYtLUlfYVBYZDA2M1V3aHR2V3FBdlhQdnJsWjhhMFQtOFB6QTRCVEdOTmJNSXdWM0I?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 17 Sep 2026 11:06:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta: la lista completa de Gustavo Sáenz para el Senado provincial - Letra P",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdFFBekhmeVVoY3lGVXhGZTJNczhIZ19HeW1PWkVyZ2d4MFZFVnlGbEN4UFM4a1FKY0hQSVl5RnZQQVc4emp2eDhIMmhraXlSSV9UOXZBXzdPTnZXZERkLUYtQ1V2QnhJZ2tROTJOUzBVUktPUGhhVl9VaGlCMExaZ19OcVdqbF9MNDk0RmdDTGpYc0Y3QzZXWjFoSWhRSUg3dEdQR9IBqgFBVV95cUxOMTZHS1JycnREZ2JGcU1SOG1IQlVEdDhIM0tfOUlhc3JYaUFNSS1wa2hzWFY3T05UMy1OcHM3Q182THBVUWQ5QWNRakYwYlU1RzROLVdGMlgzYl9Lc3lxV3d0djBQek10YldoUnIyVFh5NjE4VTRucVdrQnNLSnl3Rm5ienRMbTdBUHlUcmI2U3RDd3dhOVhVd2hBLUV4b2tteXV2U3NmYnVIQQ?oc=5",
@@ -2518,13 +2590,21 @@
     "id": "sen-mashur-lapad",
     "name": "Mashur Lapad",
     "role": "Senador provincial",
-    "total_mentions": 49,
+    "total_mentions": 51,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 5,
-      "neutral": 40
+      "neutral": 42
     },
     "sentiment_by_day": {
+      "Tue, 21 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Fri, 28 Fe": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 09 Ma": {
         "total": 1,
         "score_sum": 0
@@ -2713,7 +2793,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 32
+        "count": 34
       },
       {
         "term": "lapad",
@@ -2728,11 +2808,11 @@
         "count": 6
       },
       {
-        "term": "mashur",
-        "count": 4
+        "term": "sáenz",
+        "count": 5
       },
       {
-        "term": "sáenz",
+        "term": "mashur",
         "count": 4
       },
       {
@@ -2773,6 +2853,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Anunciaron la construcción de un polo deportivo de primer nivel - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkF2WlgtSHNNbFFQTkpVajJSUGJscG1sS0lBRi1TTWg0ckR5REszc3hiTl9Pek1fNzh0SGJZN0kwVjEtZk5qQjdWZy1WSlNjTExybEJnMDNpNndpLXJLWkZGZmxmLVF4NE02MUtQeTlGS3ZYWDZieTVEaDdIc1JlSlVlUUY4TWctSzc3TFZfWFViOEFXSnk1NXZZWVRyNldkTk1IcGt5WlB3YThBUmRSZTNB?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 21 Mar 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El gobernador Sáenz dará el informe de gestión en la 127° Asamblea Legislativa - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTnYwemxOLU5GRUNwVXc2Z2tqOEFQbkVhSlFhUjNsUUhEWFh0QTlGNmJyZmRFSnQzWUVNOE0xSVlLdWI3RTdtXzV2bUhmQUN2TzBGQWdrb2tCVGdSVTlrY0ZYN2R4Si1weXBvZzA0VXdHZmNPMUZGZkhHel9SQXVETHo1dE9IbDJjdVJVMV9LdDJUaVJtblZNTndSd0ZpM0NlWUEyQVA5SWJzQXdQQWZMTU40d21MeDdreGZFTW1kUF9QX3NN0gHKAUFVX3lxTE9oU3psaWlud2dCcldseHFzaXI5cm1kN1FDRVNGdVZXTDhpZFlralBsdVd4cHN3amRoQ0JtQWF3aVF1aF8yampHT0oxZ2ZSUDhpS3lpeF9rbXg3WjFNdVEyYVF6cGJqblRrWm9xQTJybVVWS1RsMjEtUVVZVWZIN3RGLUdZNzFIMjJBTnhhUlBVelQxRWo3ek1RM3F5UW43aWxla29xQTFRS2xEMXlOU0tTZWpDUmY3cWJjQjI1WC1pY2JTUTlkeVk5SEE?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 28 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Expreso de Salta afirma que Morales vivirá en Orán, cerca de la frontera con Bolivia - Urgentebo",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeklSUVdvV3lRNng4SzdNa2lXWFBJM0pUUXdDNEFCWGVjN1lleWxQSXNfeEI5Z2Z2UzBmdHJFVHR2Z3lBVkVQWVRVQTVZYi1qZ2VPVF9OMWY1OXQzMklYNTUxdFI5a0RlLUEyQ3BFeDBLajk5UldwNWVqMi1XNHBPOFl6QWstNjE2QVdBUENRVHlaNHFxNnNZd0lfOUZfcXp3enBSYWw2RUpuOE45SThKUUVmWTZJdFpC?oc=5",
@@ -2967,20 +3061,6 @@
         "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPM01PNGZHbnRSU1M5UU1zdC1UZzFRd3dheDI3V2VrYmx3cmRsbjJBcXhtaUN2bnFTUGtHY3BDSHNqYVktU3BINjRvWFNZOU90ZFZuMDhVTzhvd0ZOVlRTZ1J0TFFXWlJRczg1YkFHWUN5Y2IxTVE5TDM1bTNEZTZWYlktdFRaVC1uYktpZjRvN2ozQWF6QlVpQ2p3ZkpCZzlKQkV1QXdhbTRSenJ2VUp3V2EzOTVxVl9Oa29CUHZ1eEV3X2Y1enhkRWtQeERDQnNDVVdhMUFhRXVRVFFELW8xNGJqaEw0aEt6V1FlQ0o5cG50SnVRNGx5Y2tSUV_SAYICQVVfeXFMTnllWldrNE9IZU9LRFc1TEFjUU9IWktQd1lXQlZvUEoySDNHeWJDRDRMNk5VQUJhM3ZjVXlGNzRiOHBBRkZSRDIzZ3M0d0hCaHF6d1hPeHdVRHdPcHZHOE1LQ2lKMVo2V29uVTVFNTd5VHJxUUdBcmEtOEtjWmo4UWpXbTdaRjItZHpkeU41RkJFQ0UxYlN3dmxSWHRZTFhfSUI4OUcyUUZoMGFOeUxERE9CSnZtZWVfZ2l0QzFlZ0Z3ZjU2R1lHVGdJclp1VWdNT1o2SlBkZHp3M2pILV9oeU9sdmR1c2JoQWZnRTVrUEFZaFZJT2hKS1JfWnY5bms4RzJB?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 01 Aug 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Deportes expuso su gestión 2024 ante los senadores provinciales - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTmhWWGJFWGVka2VlR0dnXzd2YTVnSzM5VnNqZUd0MGlrOWRHaHBPMmdvT2xLbTdvUFYwUWVINm1OMkhCT0ZISzVJOGRkdjF0T241a0YxYVVtOG84ZFlqMm5zel9tMU1ZQ0xNaWZFVXIxRnprLUtpTHNtMnMxUkhuSkU2LWthUlVsQlhXSHBiWWUyeF9ZUC1RdnFWUUpSc3dubzFYM3dfNC1XaWt6U3JPaDFkdElyazVZ?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 14 Oct 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El domingo Morillo elige intendente y ya anticipan un escenario de tercios - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMFR0cXNSY0c1d3JrQzlCS0FtaWh1NnJ6dUZ6alhXMmc2T2d5YVlJcWlBTmY4alkwNjB5NHByX2hCYldfTzNJZ2pWaDQ4MzhPYUNWeDRsVmY3WGZJejNpOHJDalU5ZTFNd0NuZDJma2E2R0ZDRW4xNWdWdGxObXV6WU04OFVNRUtvdHpodmNINkhOTGtXUVphdHR2aU5xcDJiUlh5RmxHWDExdlc5MUUyRk5EbmJQWmJpVTRRQmRwNzRkYlRuQlFpZ0VTNmpvWXl4Q0VhWWZHaWHSAecBQVVfeXFMT0NfRVUwdk5lXy1yal9tRURhdGtLMnVhR2ppdFUycERzNV9xcS00bWx3bWE2enktRlVjbDJDTlctbUpNT0dEUUFVVnJPM2hQWC1SUTJEeDBMeEpkQ0xNMGhCc2RRMTRGM0RudVBFR3hscVhfbFVhbkRmQUJpM0cwMHlDbEdDcEZjcUk4S2dDb0pETHRRX1dzQlZ0dDhJN2R6NWY0NGFFVE1kakctM0RFVjFQamF6VDF5bC16cEM5UGIzOXF4NHlPNUZ3ZHdnSDBXZ2hzVVJZaUpTV2dDTkZsRWtZR3BhRUx3?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Mon, 10 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -3813,13 +3893,17 @@
     "id": "sen-dani-nolasco",
     "name": "Dani Raúl Nolasco",
     "role": "Senador provincial",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 2,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "Thu, 06 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 27 Ma": {
         "total": 1,
         "score_sum": 0
@@ -3972,7 +4056,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 24
+        "count": 25
       },
       {
         "term": "senado",
@@ -3992,15 +4076,15 @@
       },
       {
         "term": "poma",
+        "count": 5
+      },
+      {
+        "term": "escuela",
         "count": 4
       },
       {
         "term": "electoral",
         "count": 4
-      },
-      {
-        "term": "escuela",
-        "count": 3
       }
     ],
     "quotes": [
@@ -4020,6 +4104,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Tragedia en La Poma: tres niños cayeron a un pozo ciego en una escuela y uno de ellos murió - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWZiSWFJaElOOFg4RmtCWktUTnRvSXJNNXNYdTVLNkdmNHRINkltUDR4eG9YUzZSWlVJS1FPOEFkRnlCU1VIQmc3VlFKaFBobzFmRlJ4SE5QU3BjV3BtaktHTzQtcExrYXRZbC1aRlJPSDE0VGJzLXBraS1PandudUs4YVFLUWdaQVUtam95N19Da2ZOWFRBRUlQb1dSWUlCeHQ2Mm5DZ2I3QnpuWGx0TWFWTG9rcVRaLW4yRTVrcFVKbkhUSUE?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 06 Jun 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Legisladores que quieren la intendencia y el modelo que se anota - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYVlHUlREYjRnWDVEdndETDRjV1U2RUlMUXlRdDVvZlVMVnhsRElfdk5pNUI2UUUyZ29FWXRTM24yR3JRS0tsYXJ6N05WZEVBdF81dGpneWxUZ0k3LW5ScDR0dExkWG1XUjFLdERVMVRISzd2bFFZaXYyZVowQnpMcjY0WnVHWnh6cEluSnVvV3lzSUdySmJJRXFFNnpIUGtBY2FYTjUxSkFpbFHSAaMBQVVfeXFMTnU3eFR2dnhRSWxCdmMtMlYyVDFNS1pwQ3ZqeFJId3NRU1BBNXZCQzVsTnZCZEluVFNkc3lsVjZsQkxxaVhkbmxFS0h0VDZnQWw1bXFKclA1Q3VHVUNOcDB5bU91U2V1TS1SMzBaeHVzTjh2ZklNS2pubndNSzUteldaZG05UmtYVkRqVl9uWEdYbG13aV9PWUY5YmluWTNXMHhrTQ?oc=5",
@@ -4221,13 +4312,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQlRBV0JtV1MtQjNSMGx1NmtoYThkMzBIXzZYU1JWdkhpVHNaNGw5S0duNnhjLTNlU2Jvbm5KVlNheFZxcmN6MGtDMHlfMTZSeklHLWIwRWlqbE5YRGNCU1dxNVFQRV9yUk9zTmxEWW9iN3NEQ3pGU2RpZWZvNWxnSEJuYjdHekQ5TXhGM3Itc3R4N1VjR0c4bDBjUjByb3ctN0htOUVDbDE5azZFY2FKVFdYY0oxZ2tOUWI3OHhwNHJwSU52MmxxQ0ZDVjhwMkJFWGfSAdcBQVVfeXFMTWktNXpqNmN6Zm1aSFd1N2R3TGt4WXZwZDllRmljYVVjb1ViV0Q3Y05LUzNQcV9DSm1FV0JxUFNhU3I0d2J6MjRUZVNvOFBBS0YxSk1MeS1nNHJVMXdhaXYyYkx2elJadjlSS2tOQ3lMOWp3ZHJuZUg4aXFSR2FSUGtlRHNMQ2xlTW5IOVNGOFVxRU4wVEhkemliT2s4aXBsV3lrV0ROWjhmQmNvWGJBcW5sOFp3LV91QU44OHdqOUZmOGtzWUZBblRsNWlUc05CLUl5VV91M2c?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 21 Nov 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Tribunal Electoral de la Provincia entregó diplomas a los legisladores electos - Radio Salta",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcG5hNlhfd2JSTnU0S2lrbDNCNnU2dWk4cWZfZ2laMTdWM2Nob19iWXZMVWYwVHBoLWQ5eFpKUzBjbnM1YWFOczlESE1RMjh4cnYyYV93ajVydTYwLUFwTUU1ZU5COGhqcnpGbXdXeG4xVHFaVlRXWEREX2diOE4yS0cyNk1veEpBN2hRdTA4Ukh4YTBWVlppOXVlNENxellQWkQ3dmcyT1VhRnhCdjF1U0VBNlBVVUNtdFFBZGlDUncxdmplZXUzcG54NDLSAdIBQVVfeXFMTWIyeXlMS1diMjAxZWtiNWZTamxyZDZsYTJQQlcxRGx5Q21iU25mQTc4YXZQckRSdHByczVyR0k5enZNZlZtZWRFVXJSejBTOXV0SGpGWEUzMFA2SFZzRUpkMy1ZUmJWVUpoN1NDb05TbTNNdk9BTUQzQWRvcEtxakx0M2ZmZm1ha2ZPV3ZnM3hnSjRrSWEwV3ZFWW1EbS1kTEoyaVpDc294YVlIaElfejRwb2pUNkcwdDh3RDJDSGxmcExRckpJWXF2MnFCTFB3VHZB?oc=5",
-        "source": "Radio Salta",
-        "date": "Thu, 03 Jul 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -4693,13 +4777,25 @@
     "id": "sen-sergio-saldano",
     "name": "Sergio Rodrigo Saldaño",
     "role": "Senador provincial",
-    "total_mentions": 24,
+    "total_mentions": 27,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 2,
-      "neutral": 21
+      "negativo": 3,
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "Mon, 24 Oc": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Fri, 30 Ja": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Thu, 16 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 30 Ap": {
         "total": 1,
         "score_sum": 0
@@ -4796,22 +4892,26 @@
     "top_topics": [
       {
         "term": "cafayate",
-        "count": 11
+        "count": 13
       },
       {
         "term": "tribuno",
         "count": 10
       },
       {
-        "term": "saldaño",
-        "count": 5
-      },
-      {
         "term": "nuevo",
-        "count": 5
+        "count": 8
       },
       {
         "term": "diario",
+        "count": 8
+      },
+      {
+        "term": "saldaño",
+        "count": 7
+      },
+      {
+        "term": "senador",
         "count": 5
       },
       {
@@ -4819,15 +4919,17 @@
         "count": 5
       },
       {
-        "term": "senador",
-        "count": 4
-      },
-      {
         "term": "senadores",
         "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Las cuotas del PV permiten proyectar más viviendas",
+        "source": "Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmhXUFNMMVd4NTRLSWJ1ZFVJVDJfaGNNZ0h6NUF4YlBnLWtnX1hXdGpPM3BBWnAtejYzZHpKb3lJRFNDang4RHVOM1czU0t3amNRVGpGNE9pb1hKNFAxRjNJd2gzOFVzQ3dwbUgyMUVYeHBSenp4bF80YU9YeFdZblNsNGQyWmw2Y2EycGRYTjQ5b3JH?oc=5",
+        "date": "Fri, 30 Jan 2026 08:00:00 GMT"
+      },
       {
         "quote": "FlechaBus no está cumpliendo con el servicio para el pueblo de Cafayate",
         "source": "Voces Criticas - Salta",
@@ -4849,6 +4951,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Denunciará al ministro de Salud por los millones faltantes en el Hospital de Cafayate - Nuevo Diario de Salta",
+        "source": "Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbTh4V3RJbElrZDEtM18zV2xCMm10cWI0dnZYZUhIcVVlTXI2RDVtYlBfelNLbjBRLWxlLTllU3JnaHFla0pBVlR1VWNsQWVJaDMxLWYxWEc3bDJSc29SYjFSbEUtNjVEUWlObVRvT3pNblVEV2N5eDUwLW91dDFYMmlVQ2FUeXFrT2VMU2Z3T0wzcUQ4UXBXamlVUHJCLWs0TkNkbWlVSTVHd1BpUU5UVkJXeFAxazBPZ0VwTQ?oc=5",
+        "date": "Mon, 24 Oct 2022 07:00:00 GMT"
+      },
+      {
         "title": "Denuncian un faltante millonario en el hospital Cafayate - Que Pasa Salta",
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRHdBenN4anhveDNVYm5ZaXZlY0x0aGxHVmJYYUFLVEpManBGLUMyTjk2UlpEdUpsTk9DQUh2RE4zdTRZWEdkYno5cVEycFNRcHE3aVVtdjhwcmN5YTJ5bE56T1dubVpmMEsxNVdOQ2J5MGNpTWIwc1o5akJJcWpBc2dtYUNxczRPZnZBRHBkREozTjVkVjR1bGN6MNIBmwFBVV95cUxQRHdBenN4anhveDNVYm5ZaXZlY0x0aGxHVmJYYUFLVEpManBGLUMyTjk2UlpEdUpsTk9DQUh2RE4zdTRZWEdkYno5cVEycFNRcHE3aVVtdjhwcmN5YTJ5bE56T1dubVpmMEsxNVdOQ2J5MGNpTWIwc1o5akJJcWpBc2dtYUNxczRPZnZBRHBkREozTjVkVjR1bGN6MA?oc=5",
@@ -4856,6 +4964,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Denunciará al ministro de Salud por los millones faltantes en el Hospital de Cafayate - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbTh4V3RJbElrZDEtM18zV2xCMm10cWI0dnZYZUhIcVVlTXI2RDVtYlBfelNLbjBRLWxlLTllU3JnaHFla0pBVlR1VWNsQWVJaDMxLWYxWEc3bDJSc29SYjFSbEUtNjVEUWlObVRvT3pNblVEV2N5eDUwLW91dDFYMmlVQ2FUeXFrT2VMU2Z3T0wzcUQ4UXBXamlVUHJCLWs0TkNkbWlVSTVHd1BpUU5UVkJXeFAxazBPZ0VwTQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 24 Oct 2022 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Saldaño: “Las cuotas del PV permiten proyectar más viviendas” - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmhXUFNMMVd4NTRLSWJ1ZFVJVDJfaGNNZ0h6NUF4YlBnLWtnX1hXdGpPM3BBWnAtejYzZHpKb3lJRFNDang4RHVOM1czU0t3amNRVGpGNE9pb1hKNFAxRjNJd2gzOFVzQ3dwbUgyMUVYeHBSenp4bF80YU9YeFdZblNsNGQyWmw2Y2EycGRYTjQ5b3JH?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El Senador Saldaño salió al cruce tras al pedido del Obispo de Cafayate sobre la escuela especial - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbk1heUw0VHRMWU14YUp6bzAwMzV4cENPZTdLMmMyS1JweEVGS3NTLTFPRC1DODUtRXBCVWdTdkoza3A0M29pWXkxTEhfa1kwMXJLTGFDRE55bWROdFlMSi1qdGFYZFpURkdWc0FQaW0zSl8zNzgtZkI3dWlYTlFVZkpFMUFPdGQwYmVnVHZfTExJeUJYVFN4cmFaZHU2aWZxQmV2SWlxWk9GeURlaGdTWXNxUjREcnhOcTBWYlJwSnFmcDRTS3ZWTVBfa0k?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 16 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sergio Saldaño: “FlechaBus no está cumpliendo con el servicio para el pueblo de Cafayate” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWkdXRHpoYzJXTDRsZHFvRmxOdzlPdHFiN05yR2xjNUNOcEdBUTg4T3plQlZaSXBqenV1Y0p6V1NTNmRQdS1Tc2ZRM1V3LXpla09Da2hmb2VuVDhMSzJUSWY3WDUxSlAxNmdUcjF5YnNzNjBJVHAwc2FjWTRXeGZ1Q2t4VGhGdGNBRkE2U0ZBMDlVNFZZamJWMkpYZFBKZThKY0lHSVE1cHYwaFBMSkxJQTBNcjhVSHpPSXhSUlV3REZfMkZXWXZuOXhHeG4zbzgwem1UOVNUaXhpQdIB3wFBVV95cUxNQ2EyMHVFeTBzNDBvMWlvTm1nZ2t1MXhjNFpkeHNpSUNKSEdlTDJaLUVkbWlxcDl3eVZIUkY0SzVrWmlCMS14eS1iZ2JiaGVDYXBXWU0zVVBZYm9RaEpwazBjanBibGQwUEp1QlVzVWE0bG5vZ3RmY09SN2Exa0haZTNYOWxHOVY3Z3kwUzRmZTZxb3dtQjVpVEp2UzRwSHJ3SnAyRjJxQjhKR1FqMjNYSDBoelBtR1p6RUhibmtzbDRxYUllUTZXYzRIMTlHVDVMbXNrQ3YwZHpHY1Q3SHdF?oc=5",
@@ -5030,15 +5159,15 @@
     "id": "sen-carlos-lopez",
     "name": "Carlos Fabián López",
     "role": "Senador provincial",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 3,
-      "neutral": 47
+      "neutral": 48
     },
     "sentiment_by_day": {
       "Mon, 26 Se": {
-        "total": 1,
+        "total": 2,
         "score_sum": 0
       },
       "Thu, 13 No": {
@@ -5253,7 +5382,7 @@
       },
       {
         "term": "lópez",
-        "count": 8
+        "count": 9
       },
       {
         "term": "pereyra",
@@ -5276,7 +5405,7 @@
         "count": 5
       },
       {
-        "term": "años",
+        "term": "carlos",
         "count": 4
       }
     ],
@@ -5387,6 +5516,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Carlos López Montagud suma su quinto triunfo del año en Italia - rfet.es",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQWV1Z0V3aWl2WTlwcGtselVFRXFlUVpEaWlLdHQyTVF1NTEzN1VybjhoOTJ2OTJUVGVicjdTQkhEQUExV21mWDJya3diYUE4cXhOWldoTkJqSHdNTTVsOGVOcHdPUVRTNzdYNm5zLVl1aUdpdEtlYlhlT08zVWFKTUJfdWthZDhKUXZlaTZZOFRXWWhXVHZEMA?oc=5",
+        "source": "rfet.es",
+        "date": "Mon, 26 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Carlos López Montagud suma su quinto triunfo del año en Italia - rfet.es",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FcEc2WGQyT0tld1YwX0dJZGd5elI2M2IzS2h0dFNBN1VpaUtfUVRKVDNrSmM5WWpXUmdyMnlOTVkxNkdTZDEycWFoWnczN3k0MC1tMHJMZw?oc=5",
@@ -5589,13 +5725,6 @@
         "source": "El Tribuno",
         "date": "Fri, 13 Mar 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "La caída de Bernardino Biella y la proscripción del peronismo - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWTZ0R3ZyLXRmeVN3MjJfSGRtZXFuXzd2eDV3c2h1czJKWllMTmV4WXZWaXhia2hPVG5PclhDNlBkeXBTa2gxWFNzX1pXd0NKNWkxdE5HTDFLZF9IQ093RnJtZWNZUFFlX25KbUd2S01ZMUxQcUNKSEVPZUtla2dEZDZHUkJuTlh6c2otSDZueGNFcThtTVdxc1ZZRGU3ZWdOcmV0TkN3SFpnTHBiWGc?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 03 Dec 2011 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -5632,13 +5761,25 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador provincial",
-    "total_mentions": 62,
+    "total_mentions": 65,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 4,
-      "neutral": 51
+      "neutral": 54
     },
     "sentiment_by_day": {
+      "Sat, 17 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Mon, 18 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 31 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 17 Ja": {
         "total": 1,
         "score_sum": 0
@@ -5851,11 +5992,11 @@
     "top_topics": [
       {
         "term": "curá",
-        "count": 28
+        "count": 29
       },
       {
         "term": "tribuno",
-        "count": 22
+        "count": 23
       },
       {
         "term": "informatesalta",
@@ -5867,11 +6008,11 @@
       },
       {
         "term": "juan",
-        "count": 13
+        "count": 14
       },
       {
         "term": "cruz",
-        "count": 13
+        "count": 14
       },
       {
         "term": "pasa",
@@ -5970,6 +6111,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Juan Cruz Curá visitó los campos que se quemaron en Salta - - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT0U1cjdVaVNWZWpudEk4dnhCRzdaSWZ6T3VTcjV2bVpNZjhOOUV5alFiWW01MU90TTFpaXR1UVBpMHhYVEFTYWZKdndBT09LcmJ4X2Y3UVppdG1ibDJaR01FOXh1N1BubzZPbFZmZ0JxVUVLbDh4VGI2MXJzVGhrVXlBdEt6OXNJVS1vYnNEOFp3Y0EtaWhB?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 17 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Salta define sus representantes: Quiénes buscan una banca en Diputados - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeng4Xy1aNEpQS2VOSHl2TnVScFE5OE1kTlhiMFd1N1lHN0I2bmN2Z0hULTA1bnFkdEVZS09DRWRlRmJEbmhKb2xPYThWZmVodVRrTmtidEg3S29ZN2F5ZE1ESHgwV2dkRDJ1Q3ZtQ29QTGsyWjZPTzJJTTZnVlVTdXhvTWRjbmxRVkxHS0lrMjdtdDBESlZtWFhEcWtzUElRc3l6cnpuaVRaVTA1a1p2akMyb3RxVWdLSnpRb3NyaVBiY0pESGlxU1ZlQmRtQS1QckFV0gHiAUFVX3lxTE9XQXdNQXJieEsyQm9BWkVhWGNXam4yd2lWbGdVZlRxb2dHNG91SVMtc0FGamplLUZfano3UkJSRTByRGJ2ZDU1R0RkVkVqald0ZEx5V3A0b3I0TlVNYnBIMW9PNTBFb2t1X0ZzcGp6aGtyM1BBX3lMNUxwTXFIOUpnRkpqc3czUEFRYlJaWElCNDRVSTZ5TURaU0JRdVRfTlNJMDJKS21maEJ5dU5qZmtkZWRnUWgybHdUTXhYVmNHaW1tX2VUbWs5TjdZck1sM0pEMXltcklfamt3T3d3MlNpMGc?oc=5",
+        "source": "Informate Salta",
+        "date": "Mon, 18 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Fondo de Reparación: la Bicameral definió las autoridades y comenzó el análisis de informes de la auditoría - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTDVDMmN6X3ZPTXpxdTlrUktYV0FNS3pJOHBJQWNwWE9YYUFVUFNwdUNyOEpaZFQyRW5uVUR1M2lLRFlEUUE3LXU2SnB6aGx2a0U1RjNzcnFPM1ZVeGN2aFVKeVp4c3pCdnVVWVY5Tkl3V0hlcXAtbHdLTnVpT3A2V2wxMmlEenJha21lRF9GYjhPSE95dGlqSVRQb2NGM0RmdG1Icl9qM0N0NjN1MDNZVEY3MnpwZHY2S0dLVVJXSlVxREpMbWt1OHRvdEdUWTBQUWZlb0dhRWFwWlJjNkhaVldxd0poVjRGTkVN0gHwAUFVX3lxTE9KWDhJZUE5ODdFQVRnNUlDTE9PZHRfWUFVb0xOOW5HaVcxbUI3T2c4bVR2OVR2N0ZxblhxZFZscXhtendBdzYzUjlDWER6M1Fua25qYWhPQVZOc2RiUndoOXVkWjlud2FjWFJYLTd4SXpwcmhOOE12amVaUHBWbDRaMVZkWnZ3QzUwMlQxUTlDR0dINThxZ193Q19MdVltRFkwR25rRkdOZkxBSkFydjljQ090MjJjbHpPN0lGOGZWbThOYVlnSWZYcUNXcXdCcDVBOEEyd0xONnVHOTJjcWp1RHhPMXlFNVYzTG5ad3o1YQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz se reunió con Baltasar Lara Gros y Juan Cruz Curá para abordar problemáticas de Orán - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN3Nwckl3VzJDRjJKXzhjc2ZodTRUYVktRVN6clFHVnY4OExOeTFRYk56NmNmN2pkdkJEMnE3amd1TWNmcG5FMGtBOHR4cGtiQ215b3dINWdHQUVCREtCSFpyYXFhMTFpX1I2UFl5UzNWZW10OWF6czFmU3h6VmxvT213UTJ3V1F1aE4tM1MtdXRjME1PSGNMZmI5UW8zbmlmNHcyUXZ4NkgxRi12VDBaQUdIU01zdU81MXZrWTdqSzJnaTZibmpiWjI1UnBzMVZub0xobmduSjNuQV91c2g0VjEyc2d6d1pzM1dV0gHwAUFVX3lxTE9HVk9iRkNuXzUzeUR6a0VSdUZHampGUndWdFBPYkRoa3dzcEoxMElQeHBVSGpUckJHUHBGUTBDYkwzZ3VocGxJblVJSnhDNWVBOXllQzV0MVVZT2lrcEp6ajdPWmVyNDh0WDltN2ozUTNBSTVhZEw4X1Q5OXRtaDRjUXJtc01saEZWSHZGeElVcV9VVXR0bkFIZFBxbDA5OHpfcnVNb0xPbURkRFlsVDFmOEdabFdNZUNRVHY1dkpDc1J3LUlHdTgzUTBGNDctTld3MGx0RzVnV3dKejk3dk1kN0o4S01kMEhVcmx4dG5DZQ?oc=5",
@@ -6158,27 +6320,6 @@
         "source": "El Tribuno",
         "date": "Mon, 09 Feb 2026 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones: Marcelo Lara Gros vuelve y es variada la propuesta en Orán - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNHNrRWpzUTdUb0Y4TUstUHFnSDBueDZzUUppeFc0Z3U4U1QyUS1QZHROYTNzcXVHRGlPZEdUdDhVQ3l0WERRY0RHVHRxd0pmTDliV2dzTXNMQzFMcFFpVWNHNkVaMlJ2TURZSC1RTEUtc0JrYks3TUhBVUZ4OGtrenpLV0FmVUR3ODRzcDBmdEIybzVCZ1l5ZGlyTmVjS1k0V05oR25DQzRqSjRsbTdvNHJTVDNYRGdlYWxBeGRQa9IBxAFBVV95cUxNTkNqMVJlM24tWGlrYWlIcXN6NnpXT3hZMTJleUhYQlBRNm9JYUppVGlnRExHU1JMdjJkTHpQbjdjSGI1cHNqMkRULU5fU0J5TTU5YTZNU1Q2YktCelJRMDFwbDZvdE01S3RiU3dDeHlzWUhreGlZb2VCeUNsS2Y1amRCeTZ1N1VJOEkxeHJ5V0NDTDlvRWlyNjRJcGlOMHJ6T1p3djE2dUt1Rjl5VklWWlAyMWxBU1ZUdjFQODYwMlZNZzlp?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 24 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Ciudad Judicial de Orán tiene un avance cercano al 40% - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSHMyc2Y3ZWhvN0pYTGJZM0xpckJnY2tQY2U4WjQwNDZWZVJ0blBoWjU1OHJLN1hrcjJyam1UamJvekFnTVVKZlptbG0xdU4xZXJoT05zN1oySHdwSGx2cEZ4U1NacHQ5YmNfQmNPdTNuQmRLMXlrNDhDeFgzNlcxeDVIeUFTdktNTmpVYU1xcE10eHNRODBSUjlqWDZQMjVEeFY1X05yaEZRU2dqR0p4WEhIQ3pGRDlBVjNlenRtUdIBzgFBVV95cUxQSG1qYUxMMmZpcEQ3eEd1dGNyVmtQTEd6ajA3Z2poS0xaVVpPRkZvYTc5SFRZMnFacUxmS285YWhWdGQ4aVNvQjdfR1REQkN6ZkJ2UjdBVFA2aFNFYzd2S2lhVlM1YktiS2Z3YkVRdEVmQ09wV1RKZ2dyMWxaVmplOWhMYnVCcXRYdnQzbVNjRk5teXNlWnRRZXJHZ0hMTllvd3BPZzluRUc3bkh0dUhYUTJhQm5FamRjdDcteTEzZ0pNMXF3STJ0N1NVWi0zUQ?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Mon, 08 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "PAMI: hay 180 médicos de cabecera y cada uno atiende unos 1000 afiliados - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUldxYm9sS3ZoM2h2U1BGVmVGdXV1T2hhb1B0QjE0N2U3MnY1c1Z5VjJuU3NubHVScnRDX3dGV0tvNUQ4TDJkdThCZlp1NW1wY21yb1RNT29aYjk2cnJRSVpxdjVpRHJCRmZ5SnFIOUlMT3ZaeG5qY0M3cVp1cWpmeXBqWGs0Y1RxNDF0ZHR2SnNrNlFfQW91SGQwbXV0NVJ2ekhoVWJZak41VENTU1lIM0R5T1hVNm5ITG840gHAAUFVX3lxTFBPSnJCMjBtTERhTXBZSjU1amhabUVRbkpmY2J3RXZmS0ZmV0J6UE92a2RaUndQdFM0WkZfaS03dWdzWnBPSi0xVUppVUVCUkVfbm1sdmZ1MHZyV1pSQU4xSVlVM215MjJNeHlQRmJXREZ0LTlBU0tyX19PdEpGWlBHM0hZU1BVWHltMUhVNGZfRk96ZU5YazVVcnNQTDBwMm1mZ0paOW9zM3pkMGsweWtTaHhaWWJ4Q0FzUUFJMTItQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 20 Sep 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6186,13 +6327,17 @@
     "id": "sen-jorge-soto",
     "name": "Jorge Pablo Soto",
     "role": "Senador provincial",
-    "total_mentions": 35,
+    "total_mentions": 36,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 2,
-      "neutral": 27
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "Sat, 26 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 02 Ju": {
         "total": 1,
         "score_sum": 0
@@ -6325,7 +6470,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 20
+        "count": 21
       },
       {
         "term": "informatesalta",
@@ -6344,15 +6489,15 @@
         "count": 4
       },
       {
+        "term": "contra",
+        "count": 3
+      },
+      {
         "term": "jury",
         "count": 3
       },
       {
         "term": "pedido",
-        "count": 3
-      },
-      {
-        "term": "tomar",
         "count": 3
       }
     ],
@@ -6379,6 +6524,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Avanzan los procesos contra los jueces Parisi y Oyarzú - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdjkwbVlZalMwb1lZVnZMb0lVOWx0UGJ2S2h2STU4NnFRck9WV1ltTzd1ZG5lVUJUdV9aVjZhR0NxZENSQ1ZKYVdscmVjdzc5dW8zcWRQeEtkRWo1NVRZNUVjSnVZb1FfN2t2cTVISDlnWHg0MmNtSjJZOWJEWjNRYW1XdUQ3enBUc2s5RUhWdERxTm54cWdrUnZnb3pIZm1ZalBvUHJR0gGrAUFVX3lxTE1LekM0QnlhN1haUGtYNmFjRjRucjBRQkxEeVBFRE1BVGtWYWhBcFB1d2lzdGl1d25wNHdwZVhOMEJpeVNFWHhrMzhnVFZfcng2djZvcmZOLTNnd1NydjNDUG9nYzFMX1hUalV5a0VTX2ZYRHJWRmM4S1JoSmN2NnVFeWJNQlU2Rm44QzROUkJ1dlFxa1o4dHRySHBPeFBTZndwRHF3QXliWlJUWQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Sat, 26 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta: por un voto el Senado aprobó la ley antipiquetes para desactivar las masivas protestas de docentes y salud - anred.org",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWWRvYklLRzZ1M3g2U1dSLXRVeU5odFRoeWFJbzJaTDNrd19WQ3prN043bEVHZkpZRGtQZldGZU5VLU5qcVpmTno3OHUwN2VYbEx0V1ZCVWMwOXU1dmctdHQ4UnhnX2NRXzBuVnZjZ09QMnUxd04wbzhwRXRmdGJuanUxblNnVGRLUkJNRWF4dDdHVUY3S21xWThJN3Bma0xJT0lZTnJ0VWxyMGtRRTl2cXNHanNOUEhWVXpwQWs4ZFEyUWxra0E0bEZRMGE?oc=5",
@@ -6581,13 +6733,6 @@
         "source": "informatesalta.com.ar",
         "date": "Mon, 29 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "NAVARRO TRINCA, Ana Laura - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNUZ0WHRrVThtblROZWFKZW03RVdEXzhQdFAyRFFfT1A0WVJSMlNoYVRZOVRFendNNHNFRDRyZURGTzB2cWt0T3VyZDF0YVBXempsbGhTRVpvWDF0Q2VyN0l6XzlScUIza0J1NFgyeGR2S3R0dHJpRkZjVk9HUnh6R1psdw?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 27 Jun 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6595,13 +6740,17 @@
     "id": "sen-carlos-guitian",
     "name": "Carlos Nicolás Guitián",
     "role": "Senador provincial",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Sun, 26 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 03 Ju": {
         "total": 3,
         "score_sum": 0
@@ -6630,7 +6779,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 4
+        "count": 5
       },
       {
         "term": "legisladores",
@@ -6639,6 +6788,14 @@
       {
         "term": "electos",
         "count": 3
+      },
+      {
+        "term": "tolar",
+        "count": 2
+      },
+      {
+        "term": "grande",
+        "count": 2
       },
       {
         "term": "diplomas",
@@ -6651,19 +6808,18 @@
       {
         "term": "diputados",
         "count": 2
-      },
-      {
-        "term": "gente",
-        "count": 2
-      },
-      {
-        "term": "proclamaron",
-        "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tolar Grande tuvo un radiante 25 de Mayo con la participación de los estudiantes - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRnNSREdJeDc4UXpRTFR3aWtjbVV4Ml94ODlzd0t1Mlg1SEp0ODNIMjZkREpMZ0VSV21xX1FCVkJpY3JBLWZrUHNEajBmQUQzZ2hsVWR5N2NSUE5kMmg2NTBlT3dfUGw1ZFlvekpBWVlXUXIweGFvTlVzRzNDNktRZWdRVkZ0UXluV3ZoWEptT0RsOEdvVXpjWjBUaVB5NmdMMVprcVhRNTFlbGsxWkcyaUdTSmNzcTdnangwMHdpU2lBNXRETk9RetIBzgFBVV95cUxNalBMM1k0Z3VtZkg2QmhOYVl1Uk5oNUViYzJiOGl1X2JnVU9PMFlGNmRMSlM2MnJjREhIZ2taNkl0WDBjcU5lVWdaaWpaaHhlWV9ZTm9vc2VqVmxEd18wWlkyN1dZYnZHcGJlemR5NGMzUGZ3WXptTEllT2ZiSzBGczhySTBValJ2YmVHZ3BPMXNwZ2t6TnhNVmVQTVJrTmVMT0ZtWUdydHNsZXhfcGt0aFZTcDlUeWN3ajM4QVp4VG9KejZIcHNyWFJnTk5LZw?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 26 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Tribunal Electoral de la Provincia entregó diplomas a los legisladores electos - Radio Salta",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcG5hNlhfd2JSTnU0S2lrbDNCNnU2dWk4cWZfZ2laMTdWM2Nob19iWXZMVWYwVHBoLWQ5eFpKUzBjbnM1YWFOczlESE1RMjh4cnYyYV93ajVydTYwLUFwTUU1ZU5COGhqcnpGbXdXeG4xVHFaVlRXWEREX2diOE4yS0cyNk1veEpBN2hRdTA4Ukh4YTBWVlppOXVlNENxellQWkQ3dmcyT1VhRnhCdjF1U0VBNlBVVUNtdFFBZGlDUncxdmplZXUzcG54NDLSAdIBQVVfeXFMTWIyeXlMS1diMjAxZWtiNWZTamxyZDZsYTJQQlcxRGx5Q21iU25mQTc4YXZQckRSdHByczVyR0k5enZNZlZtZWRFVXJSejBTOXV0SGpGWEUzMFA2SFZzRUpkMy1ZUmJWVUpoN1NDb05TbTNNdk9BTUQzQWRvcEtxakx0M2ZmZm1ha2ZPV3ZnM3hnSjRrSWEwV3ZFWW1EbS1kTEoyaVpDc294YVlIaElfejRwb2pUNkcwdDh3RDJDSGxmcExRckpJWXF2MnFCTFB3VHZB?oc=5",
@@ -6924,13 +7080,17 @@
     "id": "sen-luciano-elvira",
     "name": "Luciano José Elvira",
     "role": "Senador provincial",
-    "total_mentions": 12,
+    "total_mentions": 13,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 0,
       "neutral": 11
     },
     "sentiment_by_day": {
+      "Thu, 09 Ju": {
+        "total": 1,
+        "score_sum": 2
+      },
       "Wed, 17 De": {
         "total": 1,
         "score_sum": 0
@@ -6982,20 +7142,24 @@
     },
     "top_topics": [
       {
+        "term": "rosario",
+        "count": 5
+      },
+      {
+        "term": "frontera",
+        "count": 5
+      },
+      {
         "term": "nuevo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "senado",
         "count": 4
       },
       {
-        "term": "rosario",
-        "count": 4
-      },
-      {
-        "term": "frontera",
-        "count": 4
+        "term": "diario",
+        "count": 3
       },
       {
         "term": "javier",
@@ -7008,15 +7172,18 @@
       {
         "term": "ruta",
         "count": 3
-      },
-      {
-        "term": "expresión",
-        "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Iniciaron una nueva obra para mejorar el servicio de agua potable en Rosario de la Frontera - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnZJQ2pkTEsyV3BVWG1HalotRkVhYlVDb0J3Q0NmanFDc0FfMEwyLVNzV3kzVHI4amhlYjc4ekZ3b2ZsSElhdkFtdURPSXhqSk5oMk5mYndtUHA0WmxyN1RzdDlMYm9LZHozcDd0WU9pOHhSWUlnV3hWWW1hNU11djJSZVl4bldqQXRNRk53Qy0tR3Z0X3dEMG92aHdoWTI1STdaUVZfYVV6UHdkcGgzQ3ZKNHZrREpqSDU4OHVlaWFjLTct?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 09 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Cuál será la función de Javier Mónico como nuevo Secretario de Justicia de Salta - Expresión del Sur",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQUlQZElYZlZ6VzdmSFF4akw0T0xfLXN1ODVBbEFzQktUY1RlT0pMS2xyeGFmU3N5LUl6NENYWWlKa240SEVnSmpDa2pYZnZpY3hEWW9URGx0TXlXM3ZzcHdXck1lSnZZWlJnSnVQNUN4Y2NGTkpTempQZUpLTGtYOXhIVkU0aXhUZUVoWU9HSHFtUU1fbVVZczg0Z2daTVJfS2dEU2tGbGRGLS10TE5teFhpNVJIYXpPSVZuLWMxWTZzRHVDTWc?oc=5",
@@ -7489,13 +7656,17 @@
     "id": "dip-patricio-penalba-arias",
     "name": "Patricio Peñalba Arias",
     "role": "Diputado/a provincial por Cafayate (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Tue, 07 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 24 No": {
         "total": 1,
         "score_sum": 0
@@ -7519,6 +7690,10 @@
     },
     "top_topics": [
       {
+        "term": "diputados",
+        "count": 3
+      },
+      {
         "term": "legisladores",
         "count": 3
       },
@@ -7531,7 +7706,11 @@
         "count": 3
       },
       {
-        "term": "diputados",
+        "term": "tolerancia",
+        "count": 2
+      },
+      {
+        "term": "cero",
         "count": 2
       },
       {
@@ -7541,15 +7720,18 @@
       {
         "term": "diplomas",
         "count": 2
-      },
-      {
-        "term": "radio",
-        "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Concejales capitalinos en contra de diputados: buscan ratificar la tolerancia cero al volante - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPY3VuUDhidWdreTZ2TDJBdklBTW5LblhDd0tPSWw2OUpwSWczZXlrN0VzZnpWYnlsWVQ2OFdYaHU3TVJ0SHZsS3B3bEpHN3RnUzhQTklSMHZBUTNXblBGYzFwdGY5VnNQVjdCU0ZqZEFpMkpQNkR0QnNmdGZSWlpqOVNGNlQ1NHRubG5adEctRDhfaGNiRmVKQ05tU1lzQzF1dlpFSDhCZ2V5V24xU2cyMVNCNWE1ZzYwY2U4V2pfenhnTE16WTRZQ25OR2FUbHY1WWYwUm5WYmZLTVV1aURpdkJrZ0hlejlYN012UDMxeDM1V0XSAYICQVVfeXFMT2RMZVFpazh2UE1SQTdFR1VkRGpCbF9iX1hoUHBUaVNHb1QzYXp4b1hYeUpqNlI0MjB4bnhvOFB6TDJhNFBRRWtBX3cwTDY2RHRTc1JBeDBob3VtTnJaUTdfeFhNQmJvdTY0RG9lVC0waEVHWGhkOWJYTzVsUjFkWDEwNzBqZEgzQW5BcnpYTWdIUExZdXVVNmx5TDFrVk02djVkUzN3STNFZDVnVHFzTkJsS2ZOWGV3clU1QlR2ZVBYaTFsYnRWazhIYVRHTnU2R1JDVHMweGl1WVlBQ05peExWVHZYWmNvaFpwRFFSR21pcEpjWFhsM3ctWllRMHBxSHp3?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cambios en la Legislatura: quiénes dejan su banca y quiénes continúan en Diputados - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa2pscEEyczh3MGtuT3NkOE9JRi1jMDJ4YnJrcFptbElENUFVSmdUZm1KeWNrcEVjRjJsRUZvMEEzYnRiWXg0STFmSUdoRmZkTjhsem5iMW1adDhjQ1Vtd0VJV2JRbG4yUnhYWWYzc2dxTXhKYk9jR013ZlpvdlM4b2JkcUhidHQtVEt0VjVsUWtQU1RaYU92Ym16Y2JXNkZlM01NTFNHSFpkM1dFd1JVRDY5dFh0XzNtQkVwLTlyWWx6Z9IBugFBVV95cUxNU3JwdDZkclgteFF4LXczVUx5WFVJMFZ0aHE1Vkt3YjU3TUJDUHdPeHdDTWplQmlQeFFQNkQxdXRJRDNyemFabWw0UWdCR3M4Vll5ZXJRZTlOYWhZbDRMZjBqNmtGbjRIeXBXbm4tXzFGanQ1cVpqYmNRNUVWZUJKV2RRNFVwMUM2NTFGWnpMNXJsejY2WGpLU2F1eHljMkdjeVlQTHBoSVdERzh3aWlmaExUVGVueUd0UVE?oc=5",
@@ -8011,13 +8193,21 @@
     "id": "dip-juan-esteban-romero",
     "name": "Juan Esteban Romero",
     "role": "Diputado/a provincial por Capital (mandato Wikipedia 2021-2025 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 48,
+    "total_mentions": 50,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 2,
-      "neutral": 43
+      "neutral": 45
     },
     "sentiment_by_day": {
+      "Thu, 30 De": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Thu, 16 No": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 11 De": {
         "total": 1,
         "score_sum": 0
@@ -8206,7 +8396,7 @@
       },
       {
         "term": "romero",
-        "count": 13
+        "count": 14
       },
       {
         "term": "informatesalta",
@@ -8214,15 +8404,15 @@
       },
       {
         "term": "juan",
-        "count": 7
+        "count": 8
+      },
+      {
+        "term": "esteban",
+        "count": 6
       },
       {
         "term": "diputados",
         "count": 6
-      },
-      {
-        "term": "esteban",
-        "count": 5
       },
       {
         "term": "test",
@@ -8234,6 +8424,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "primo de la Intendenta",
+        "source": "HolaSalta Noticias",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMk1RMzVYRnZhQlpic0g0cGpuQVB5MmJBcHRwWDRlUm5BZk9rQ08yOFNTaThIcXhzdEtMdEgyLXg5TXhjTGJPcXU0bnpSelIxMHA0YUlXZ2tZOUJoX0F3UUY3dVVKWUJzOGJwRUdiaDg5VTJEY2xUd3NMTTJlVjZocDlBOEVqTEVYMEgzWV80R19HR09kczNfU185RkNDdFl2Wi1mNkVQSzRNMXdIQXpydkJxcw?oc=5",
+        "date": "Thu, 30 Dec 2021 08:00:00 GMT"
+      },
       {
         "quote": "predicar con el ejemplo",
         "source": "Nuevo Diario de Salta",
@@ -8280,6 +8476,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Por ser el \"primo de la Intendenta\", cobra más de cuarto millón de pesos todos los meses - HolaSalta Noticias",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMk1RMzVYRnZhQlpic0g0cGpuQVB5MmJBcHRwWDRlUm5BZk9rQ08yOFNTaThIcXhzdEtMdEgyLXg5TXhjTGJPcXU0bnpSelIxMHA0YUlXZ2tZOUJoX0F3UUY3dVVKWUJzOGJwRUdiaDg5VTJEY2xUd3NMTTJlVjZocDlBOEVqTEVYMEgzWV80R19HR09kczNfU185RkNDdFl2Wi1mNkVQSzRNMXdIQXpydkJxcw?oc=5",
+        "source": "HolaSalta Noticias",
+        "date": "Thu, 30 Dec 2021 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Los Romero quieren ganar de cualquier forma: Bettina con Massa, Juan Carlos y Juan Esteban con Milei - radiocafayate.com",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9odmtXMUtTX1hzTUZLTXJDX2JvelRVUHlXdl9qMjNKcERWNU02NENZYldwQzNGemhIYUdXR3NLU2ZrSFlxN1dJVlZmVFBSUQ?oc=5",
+        "source": "radiocafayate.com",
+        "date": "Thu, 16 Nov 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sebastián Otero se realizó un test antidrogas para “predicar con el ejemplo” - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTXg0cXdKVXRoa2RUakpFYUxtY2dUMFdsclBrSnZsLTlEM1JCbkRzOEtpbGQzRUliQnFDWWhCamlCSFU0T2lpMG5KejhnSU5lY3RlcnM2U0tkRmYxYmZycjJLR2hWQ2pDd25ucG9Ic01KS0dyVG8yRDZPLWducVJhcUtJYWlIa3czcXF5c0R0aUpTVkRLdFd6WExNNzFNaU00bmtGQUR0OGJEN1M2dGc?oc=5",
@@ -8475,20 +8685,6 @@
         "source": "El Tribuno",
         "date": "Wed, 29 May 2024 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Orán: Romero recorrió rutas del norte y habló con vecinos y productores - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSm9mb3hpYmY0c1VMLVBMVTNoLURwYWhNY1Vhblg5aGlZX1NmSEU4VUhCSE1DejVkMGU5b0ljb0U2VDFBWnJkR2NRUm9GQzd3MkdheEk0SGNvOHJpcWxYU1hvVTJmSTJJYTk5U01oTGM1cmFqWU02bGtCTGcyN1VROWhVYkhHQjkwbWhTcWZXTm54aDBYOVJ4YWkxMnA3T21fQnJhaGlwZzEtcC1pZGNSVVhBeUVnX2dEWC1EOXFBUXE?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 05 Oct 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Homenaje a Roberto Romero: destacaron su visión estratégica - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNzFDTFBlZ0FBRkxGbFBsWkRZUzVUWEZCelBQdkk4dEN1T043LTdFeERGd0xMeW9qcnlQN1pXb25YY2tqelp5blFKa3Zhell3OTZpMFR2QUotamc5bElLTlM4Ni10azRtOENQVDJ3OXJKZlkwdU1GR2F5OHZscG1uanY3dEZvRlN0OWw2aFA5WFhmUHdnVXo1dTRjNW5rU0E5Q2M5VGt5bXZrTGxx0gGyAUFVX3lxTE5pNm5fNDVLTUpqRlplY3kwdjZZXzlsTHZFOWZNMUdGTmEwVDBkMUhhQUtNMDlvdGdVemJocnhVM3VSVDd3dHVlR3BTNjAxUzdRZFdtLWlHZXZ0S0VYVVJDMXFFUGdhYWF0ejNHdWExTzRtbkk3cjlmT29IMWtHSnpacTRnN191eTRTRDJRTUJlSDZydjkyY0RHcl9UVWxaRU5xdmstWkRnVkhyT2R3bFQ5Znc?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 15 Feb 2025 08:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -9511,13 +9707,17 @@
     "id": "dip-german-dario-ralle",
     "name": "Germán Darío Rallé",
     "role": "Diputado/a provincial por General Güemes (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Tue, 20 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 21 No": {
         "total": 1,
         "score_sum": 0
@@ -9557,12 +9757,28 @@
     },
     "top_topics": [
       {
+        "term": "güemes",
+        "count": 5
+      },
+      {
         "term": "argentina",
         "count": 4
       },
       {
-        "term": "güemes",
-        "count": 4
+        "term": "investigan",
+        "count": 2
+      },
+      {
+        "term": "prostitución",
+        "count": 2
+      },
+      {
+        "term": "niñas",
+        "count": 2
+      },
+      {
+        "term": "general",
+        "count": 2
       },
       {
         "term": "electos",
@@ -9571,27 +9787,18 @@
       {
         "term": "comicios",
         "count": 2
-      },
-      {
-        "term": "gustavo",
-        "count": 2
-      },
-      {
-        "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "noticia",
-        "count": 2
-      },
-      {
-        "term": "diputados",
-        "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Investigan la prostitución de cinco niñas en General Güemes - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnpuSmtGVjlpNEpfRUtiRUxQQk5QZWMwYWxUTGkxaWl6YzY4c1V4X2NuSHdSM09Ka0FNTy1qVjQ3Q0I5b2hZV29OYnJlTVdzVEZIRl8zd0dCOVFuUnB6ZG1JcUZrZVp2RXdQTEsxUVNyU1ZDNjBWLVRfOXZ5d2dFaGw4MDRDaHpvX01hSTY5a0htNUY3UmFEdER1bw?oc=5",
+        "source": "Página|12",
+        "date": "Tue, 20 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Urtubey participó en la entrega de diplomas a los ciudadanos electos en los últimos comicios - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORDFEek1XT25WZGdUN1pTWG1wM2VSVWZyT1NKTWwtZjV6LXpMdUlmSnM3WjN1WVBzcjd1eWRPTERhYmktWVdYaTFzMXo5VllrbXN2a1VQZWQ1NmRCTWlMN3kwMmtBN2F4b043MnZDbll3NGVweHN0cmRCLXd2dkJuUlVscmdiSFNMZE0yUUJVcC1MRVYyWndQaE0wRU1peGtpRE1aSmJ4ZTd6OGNqQTMtUkhZNm9TTTVKRF9ncUZWck9lekFoaG9BeUIzaTJYeUM0d2JZOUVn?oc=5",
@@ -9943,13 +10150,21 @@
     "id": "dip-matias-monteagudo",
     "name": "Matías Monteagudo",
     "role": "Diputado/a provincial por General San Martín (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 19,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 2,
-      "neutral": 16
+      "negativo": 3,
+      "neutral": 17
     },
     "sentiment_by_day": {
+      "Sat, 20 No": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Fri, 13 Ja": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 21 Ju": {
         "total": 1,
         "score_sum": 0
@@ -10026,15 +10241,19 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 8
+        "count": 9
       },
       {
         "term": "tartagal",
-        "count": 7
+        "count": 8
       },
       {
         "term": "fmalba",
-        "count": 6
+        "count": 7
+      },
+      {
+        "term": "diputados",
+        "count": 3
       },
       {
         "term": "informatesalta",
@@ -10050,10 +10269,6 @@
       },
       {
         "term": "monteagudo",
-        "count": 2
-      },
-      {
-        "term": "cámara",
         "count": 2
       }
     ],
@@ -10085,6 +10300,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tartagal: Santiago Vargas presentó su nota de renuncia como Secretario de Gobierno - fmalba.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdzV5ZGtFRXhaMm9sQzNVcGxlWWk3cjRUaWd1Szh0VlZxY01DWnBZSlJFMnZRa05nVmE1dk85WUtMUUJrRzJxRHVoREp1Ql9ydkpJWUVueTRjNzBzUDRjUzF2OUVRNXZpeGZacFlBdndsN1BDYnVIRTNQUGI2bzRkdkU1djBlZHJacnBKeTFUQXpuSENGeVJJVTVTb29KZHYzRG1yTGk1dw?oc=5",
+        "source": "fmalba.com.ar",
+        "date": "Sat, 20 Nov 2021 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "San Martín y Orán renovarán la mitad de sus diputados - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1VaTFJKOEFVNXNHdXpfT0w5dWlIdGdBRFhuNmgzNllDSUVwQlYxZDB5UXFfX3V0MUJkLTd1aTkxdnpKV1VZRGlsLWFNcjBlZGp0dGF4ZjcwSXdIUmd6NWxVYXNOUFRWZU12MUZyeWEtZjZsY2FyOERldFhJV0tScWIzb3dOT0x1OXdhTjZFQS14SzFVWGZzaUdFMUF5c0psOHc?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 13 Jan 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Concejo Deliberante: Marta Juárez, ciudadana distinguida de Tartagal - fmalba.com.ar",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ1Zad1FnTWFrWnpNYzdJcnBlZmdFd19xN2VPeHJpakd3R3FuTTlKdjEyWWZnLTZaNmhFTFl6RXNjWnYyOHN0MEFrMWpYazJ5V3FyQ0ZjanJabXJLc0FGbUF3ekZ4RTd2RHdiajdDV0xqdFpLQVdYY250SjZ3bjgtSWpGZVFJUW1CV21GQlU0RQ?oc=5",
@@ -10685,13 +10914,21 @@
     "id": "dip-esteban-amat-lacroix",
     "name": "Esteban Amat Lacroix",
     "role": "Diputado/a provincial por La Viña (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 39,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 3,
-      "neutral": 34
+      "neutral": 36
     },
     "sentiment_by_day": {
+      "Sat, 26 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Sun, 01 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 19 Ma": {
         "total": 1,
         "score_sum": 0
@@ -10848,7 +11085,7 @@
     "top_topics": [
       {
         "term": "tribuno",
-        "count": 19
+        "count": 21
       },
       {
         "term": "diputados",
@@ -10867,15 +11104,15 @@
         "count": 4
       },
       {
+        "term": "contra",
+        "count": 3
+      },
+      {
         "term": "amat",
         "count": 3
       },
       {
         "term": "obituarios",
-        "count": 3
-      },
-      {
-        "term": "güemes",
         "count": 3
       }
     ],
@@ -10896,6 +11133,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Avanzan los procesos contra los jueces Parisi y Oyarzú - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdjkwbVlZalMwb1lZVnZMb0lVOWx0UGJ2S2h2STU4NnFRck9WV1ltTzd1ZG5lVUJUdV9aVjZhR0NxZENSQ1ZKYVdscmVjdzc5dW8zcWRQeEtkRWo1NVRZNUVjSnVZb1FfN2t2cTVISDlnWHg0MmNtSjJZOWJEWjNRYW1XdUQ3enBUc2s5RUhWdERxTm54cWdrUnZnb3pIZm1ZalBvUHJR0gGrAUFVX3lxTE1LekM0QnlhN1haUGtYNmFjRjRucjBRQkxEeVBFRE1BVGtWYWhBcFB1d2lzdGl1d25wNHdwZVhOMEJpeVNFWHhrMzhnVFZfcng2djZvcmZOLTNnd1NydjNDUG9nYzFMX1hUalV5a0VTX2ZYRHJWRmM4S1JoSmN2NnVFeWJNQlU2Rm44QzROUkJ1dlFxa1o4dHRySHBPeFBTZndwRHF3QXliWlJUWQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Sat, 26 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "ABELEIRA, Carlos - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YNWtvZi1wRFdvQjJhcmtyWkFmR3JlNDJiRTU0SVlpb0hqSkFyV2ZWRmdQaFdaVXoyYzV6dFRjTnlYRjRpZVgtcU5aSHJBQ1RPeGVyeWpET19rX0J3V1RDaGU2U1lFZnBoTXE5V0MtN1pXQW9ELXNz?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 01 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Qué temas tratará Diputados este martes: apuestas online, educación y obras públicas - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRE0zdnJPaFNpQWNFeDFJZDhDNnQzOFNOblpnd293RDBYa3BPMUx6Y1FEYUcwSTN4RFdtTjJSRjJ4V05UaTBLUU1nRUl0d0NQb0pJRWVOYjFaZ09LMnRja1dteHlKYUQycHNwNEhFTVVBbEJYRWRxVGh4VHZqdHJ3TmpJNktPd0ZMVXfSAYoBQVVfeXFMT0RNM3ZyT2hTaUFjRXgxSWQ4QzZ0MzhTTm5aZ3dvd0QwWGtwTzFMemNRRGFHMEkzeERXbU4yUkYyeFdOVGkwS1FNZ0VJdHdDUG9KSUVlTmIxWmdPSzJ0Y2tXbXh5SmFEMnBzcDRIRU1VQWxCWEVkcVRoeFR2anRyd05qSTZLT3dGTFV3?oc=5",
@@ -11091,20 +11342,6 @@
         "source": "informatesalta.com.ar",
         "date": "Wed, 08 May 2019 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Suspendieron y embargaron al juez Diez tras las denuncias por violencia de género - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSWxUYVZOb0d3NGp6cG80OG9QdHB0eW9hS2p5ZHd2RXJuTjRMZE43bFJjeU5KQU1uemt2S0EyVnlUQWM3NFBWQTdLLTRSSEVjOXVXdm9ZZGo3WUpidjNaTFdUMXVWMWhyM0VIMjhYWVZXSW5VcEVITmtvbU0yQVB5TjNUOHJ5OHcxNHJseUVWWndLRXVvYXBKWEhfV1lpaDFxMnE5TW5QX1NKQkpnSDhYZDQ2cmo2Vld2N1A4a1VkaUZIaXBManRObkpwQ2tLZjNUYngwNG56NTVvQndZSWVF?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Mon, 06 Aug 2018 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Ciudad Judicial de Orán: Sáenz firmó el reinicio de obras en el departamento - Radio Salta",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQ2tOenZNUm1ELS1XSWc1bVNHVS0xSDZ6RlptM0d2V0o2c195WmFSYklId3FxemIwZ1YwN2cxTDJWRi1OWmE4UkxsZkZLaUVIR0h3LURBZTB6VTVCdmlpMW4zWU9IYXNTdHhiQkFWb2tBaE0yRjllWkt3MjlpeDNvTVRoNjc4S0xBNGR4M1FjZ2ZBWjdEY1VtUjdfN1loOWc1Ni1BUVhZMFdra2ZFRjBlR0ZnVFg3dmlJa2xxM2RVVnU2cXBiUUow0gHMAUFVX3lxTE1lRks5RGt5aWdIbHpCYklrZVNJaTBjVF9JZFhCMnJIU1JIdVFhamRXZmJ4M19SMGVQc0F1YVpVS0xuWGtWcmNWWjZubmlDQjdoU1pfRlVVY3JOakdpdmpfRlJna0JrdXc5S2p6Tk44a1dDYWNUTVFpRF9MUTRuY3g4VXBxRGp4Nl92Q1VnRFBZVFpqRTAxREVicXg3SEUyME9aQVkzNmhQa25yT19RbDRRQllmMFFrZ3M5TjVJNVZkNUhkYVFTWk5VdE53Tw?oc=5",
-        "source": "Radio Salta",
-        "date": "Sat, 10 Aug 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -11272,13 +11509,17 @@
     "id": "dip-fabio-enrique-lopez",
     "name": "Fabio Enrique López",
     "role": "Diputado/a provincial por Molinos (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Tue, 07 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 27 No": {
         "total": 1,
         "score_sum": 0
@@ -11314,6 +11555,18 @@
         "count": 4
       },
       {
+        "term": "diputados",
+        "count": 3
+      },
+      {
+        "term": "tolerancia",
+        "count": 2
+      },
+      {
+        "term": "cero",
+        "count": 2
+      },
+      {
         "term": "noticia",
         "count": 2
       },
@@ -11326,25 +11579,20 @@
         "count": 2
       },
       {
-        "term": "diputados",
-        "count": 2
-      },
-      {
         "term": "electos",
-        "count": 2
-      },
-      {
-        "term": "comicios",
-        "count": 2
-      },
-      {
-        "term": "tribuno",
         "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Concejales capitalinos en contra de diputados: buscan ratificar la tolerancia cero al volante - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPY3VuUDhidWdreTZ2TDJBdklBTW5LblhDd0tPSWw2OUpwSWczZXlrN0VzZnpWYnlsWVQ2OFdYaHU3TVJ0SHZsS3B3bEpHN3RnUzhQTklSMHZBUTNXblBGYzFwdGY5VnNQVjdCU0ZqZEFpMkpQNkR0QnNmdGZSWlpqOVNGNlQ1NHRubG5adEctRDhfaGNiRmVKQ05tU1lzQzF1dlpFSDhCZ2V5V24xU2cyMVNCNWE1ZzYwY2U4V2pfenhnTE16WTRZQ25OR2FUbHY1WWYwUm5WYmZLTVV1aURpdkJrZ0hlejlYN012UDMxeDM1V0XSAYICQVVfeXFMT2RMZVFpazh2UE1SQTdFR1VkRGpCbF9iX1hoUHBUaVNHb1QzYXp4b1hYeUpqNlI0MjB4bnhvOFB6TDJhNFBRRWtBX3cwTDY2RHRTc1JBeDBob3VtTnJaUTdfeFhNQmJvdTY0RG9lVC0waEVHWGhkOWJYTzVsUjFkWDEwNzBqZEgzQW5BcnpYTWdIUExZdXVVNmx5TDFrVk02djVkUzN3STNFZDVnVHFzTkJsS2ZOWGV3clU1QlR2ZVBYaTFsYnRWazhIYVRHTnU2R1JDVHMweGl1WVlBQ05peExWVHZYWmNvaFpwRFFSR21pcEpjWFhsM3ctWllRMHBxSHp3?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Noticia: Gustavo Sáenz acompañó el acto de jura de los diputados provinciales - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWdKaUdMWVd3RjNnOEo5a2xGaEkyODRWWmNOQWhCQ0dTNUlIRnVFamVkQllYcld6RTJieGNWVTRPaTJUNXpVNElwQTZ6QVprdE5xOGlhRk04Uk50ckphNDFHWUIwMml5bW1RWVd1RHlxQVhxNWVEckQ4Mkh2dmNsYnItWURDU0hNeTRjUHNheEVKWVhUMUhpUDhIMUNDS3ZaNWpCeHo4cmo3alFSc0djRF93TTRKZVk?oc=5",
@@ -11848,13 +12096,17 @@
     "id": "dip-lino-fernando-yonar",
     "name": "Lino Fernando Yonar",
     "role": "Diputado/a provincial por Rosario de Lerma (mandato Wikipedia 2019-2023 — VERIFICAR vigencia actual, ver README)",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 0,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "Sun, 21 Ju": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Wed, 08 Ju": {
         "total": 2,
         "score_sum": 2
@@ -11891,10 +12143,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Sun, 21 Ju": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Thu, 05 Ma": {
         "total": 1,
         "score_sum": 0
@@ -11919,26 +12167,26 @@
       },
       {
         "term": "intendentes",
-        "count": 4
+        "count": 5
       },
       {
         "term": "años",
+        "count": 4
+      },
+      {
+        "term": "marcelo",
+        "count": 3
+      },
+      {
+        "term": "moisés",
+        "count": 3
+      },
+      {
+        "term": "foro",
         "count": 3
       },
       {
         "term": "electos",
-        "count": 3
-      },
-      {
-        "term": "argentina",
-        "count": 3
-      },
-      {
-        "term": "tribuno",
-        "count": 3
-      },
-      {
-        "term": "informatesalta",
         "count": 3
       }
     ],
@@ -11952,6 +12200,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Marcelo Moisés seguirá al frente del Foro de Intendentes de Salta por dos años más - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR1pHSnVfbGRnenp6Mmo4bnpsUEtUMDc1cXZzUlo1Sk5qcmJ4NDAzdTd0WGFwTkRzOTRzMHVucDJZXzQ0Z0RVZ1c2ZnRmdUpXRFJvb2hkS2NxajBiRkZ5a0I1VWpNcWQ5VkRzcnRRMC1OYkU1YWgzNG5aSW5LZ0t2TzV3?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Sun, 21 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Campo Quijano se prepara para celebrar sus 105 años y el 9 de Julio a puro folclore - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTnZmTmxKUkZTbTNnNWZVZE13d2VvdkcxQVZKRUlyQjFZTUdKc1ZUM1lLMWVTVHhCUmRSekhMRjI1N2xLY2RhRmRvbDF2RW9DOHVINEVhZGw4MERualE2RHZQdndIM2N5aDEzSV9KY1Qta2tPVGRwM0VfWGx1TllpQW44VTFfUzZHYWV1M0w0SWtqdmlYZjM4eDQ0ekVRbVFOT3R0eXRUS1c5NU92MGJwaUFpZ3ZfM2pwVXlmcUhjUEI3YXltN3Q0WE5XR0N0YW9xZjlYN1NUMNIB3AFBVV95cUxQSTQ5cDQ0VFJDdGZwdEt3NjVFaU9MN3JEVkEyaS1iSDFQVC1qbk1FczlBRXd6T1FMNmpvT1gtNnJfV2FSY3Bic0VkVVlURng0UDU0UEEyUnhTWWJXbTBqeFByVVVlSjhKdXpmODBoSm9RODNQeHRKNDVPWDkwcy04MFVxMVdTSTd2eFQzajlRT0dGWjNsYkdQZEFvem9wb21XVVdVQjJreF9XMVBBOWY5UnBmd0NxbWROMXk5M3BaNHVSTlFIeXRNX3NMUWZwN0VvbjN2UWVoQjBDWEp6?oc=5",
