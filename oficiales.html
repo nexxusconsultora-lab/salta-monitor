@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Publicaciones oficiales — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+    --positivo:#4C7A5D; --negativo:#8B3A3A; --neutral:#8A8072; --ambar:#A8741A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,h2,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:1000px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  .back-link{font-size:.85rem;color:var(--ink-soft);text-decoration:none;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin:1rem 0 1.25rem;}
+  header h1{font-size:clamp(1.7rem,4vw,2.3rem);margin:.25rem 0 0;}
+  .lede{max-width:68ch;color:var(--ink-soft);margin:.6rem 0 0;font-size:.95rem;}
+  .notice{background:var(--paper-raised);border:1px solid var(--line);border-left:4px solid var(--clay);padding:.8rem 1rem;font-size:.85rem;color:var(--ink-soft);margin-bottom:1.25rem;}
+  .notice strong{color:var(--ink);}
+
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:0 0 .5rem;padding-bottom:1rem;border-bottom:1px solid var(--line);}
+  .controls select,.controls input[type=search]{font-family:inherit;font-size:.85rem;padding:.5rem .6rem;border:1px solid var(--ink);background:var(--paper-raised);color:var(--ink);}
+  .controls input[type=search]{min-width:220px;flex:1;}
+  .controls label.check{font-size:.85rem;display:flex;align-items:center;gap:.35rem;cursor:pointer;}
+  .count-note{font-size:.82rem;color:var(--ink-soft);margin:.6rem 0 0;}
+
+  .day-divider{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);margin:1.75rem 0 .5rem;padding-bottom:.3rem;border-bottom:1px dashed var(--line);}
+  article.item{padding:.9rem 0;border-bottom:1px solid var(--line);}
+  .item-top{display:flex;justify-content:space-between;gap:.75rem;align-items:flex-start;}
+  .item-meta{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;font-size:.78rem;color:var(--ink-soft);margin-bottom:.3rem;}
+  .tag{display:inline-block;padding:.12rem .5rem;font-size:.7rem;font-weight:600;border-radius:2px;color:#fff;white-space:nowrap;}
+  .tag.Nación{background:var(--indigo);} .tag.Salta{background:var(--clay);}
+  .tag.Capital{background:var(--ambar);}
+  .tag.tipo{background:transparent;color:var(--ink);border:1px solid var(--ink);}
+  .tag.ok{background:var(--positivo);} .tag.bloqueada{background:var(--ambar);} .tag.error{background:var(--negativo);}
+  .tag.sin_resultados{background:var(--ambar);} .tag.desactivada{background:var(--neutral);}
+  .item-title{margin:0;font-size:1.02rem;font-weight:600;}
+  .item-title a{text-decoration:none;}
+  .item-title a:hover{text-decoration:underline;}
+  .item-summary{margin:.3rem 0 0;font-size:.88rem;color:var(--ink-soft);}
+  .people{margin-top:.5rem;}
+  .person-chip{display:inline-block;background:#FCE9C9;border:1px solid #C99A3A;padding:.15rem .6rem;margin:0 .35rem .25rem 0;font-size:.8rem;border-radius:2px;text-decoration:none;font-weight:500;}
+  .person-chip:hover{text-decoration:underline;}
+  .context{font-size:.8rem;color:var(--ink-soft);font-style:italic;margin:.3rem 0 0;border-left:3px solid var(--line);padding-left:.6rem;}
+  .empty-state{color:var(--ink-soft);font-size:.9rem;padding:2rem 0;}
+  .more-btn{font-family:inherit;font-size:.85rem;padding:.55rem 1rem;border:1px solid var(--ink);background:var(--paper-raised);cursor:pointer;margin-top:1.25rem;}
+  .star-btn{border:1px solid var(--line);background:var(--paper-raised);cursor:pointer;font-size:.9rem;line-height:1;padding:.15rem .45rem;border-radius:2px;flex-shrink:0;}
+  .star-btn.is-starred{background:#FCE9C9;border-color:#C99A3A;}
+
+  h2.divider{font-size:.9rem;text-transform:uppercase;letter-spacing:.05em;border-bottom:2px solid var(--ink);padding-bottom:.4rem;margin:3rem 0 1rem;font-family:'Inter',sans-serif;font-weight:600;}
+  .source-row{padding:.75rem 0;border-bottom:1px solid var(--line);font-size:.86rem;}
+  .source-row .name{font-weight:600;}
+  .source-row .msg{color:var(--ink-soft);margin:.2rem 0 0;}
+  .source-row a{color:var(--ink-soft);}
+  footer{color:var(--ink-soft);font-size:.78rem;border-top:1px solid var(--line);padding-top:1.25rem;margin-top:2.5rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./centro.html">← Volver al centro de control</a>
+  <header>
+    <h1>Publicaciones oficiales</h1>
+    <p class="lede">
+      Lo que publican los boletines oficiales y la justicia, leído directo de
+      sus páginas públicas. Cada publicación lleva el enlace al documento
+      original: esa es la fuente, no este panel.
+    </p>
+  </header>
+
+  <div class="notice">
+    <strong>Cómo leer los nombres marcados:</strong> el sistema busca el
+    nombre completo de cada persona de tu lista dentro del texto. Es una
+    <strong>coincidencia de texto, no una verificación de identidad</strong>:
+    puede haber homónimos. Por eso se muestra el fragmento donde apareció el
+    nombre. Confirmalo siempre abriendo el documento oficial.
+  </div>
+
+  <div class="controls">
+    <select id="f-fuente"><option value="">Todas las fuentes</option></select>
+    <select id="f-tipo"><option value="">Todos los tipos</option></select>
+    <input type="search" id="f-texto" placeholder="Buscar en títulos y resúmenes…" />
+    <label class="check"><input type="checkbox" id="f-personas" /> Solo las que nombran a alguien de mi lista</label>
+    <label class="check"><input type="checkbox" id="f-salta" /> Solo las que mencionan Salta</label>
+  </div>
+  <p class="count-note" id="count-note"></p>
+
+  <div id="list"><p class="empty-state">Cargando…</p></div>
+  <button class="more-btn" id="more-btn" style="display:none;">Mostrar más</button>
+
+  <h2 class="divider">Estado de las fuentes</h2>
+  <p class="count-note" style="margin:0 0 .5rem;">
+    Así le fue a cada fuente en la última corrida. Si una figura como
+    “bloqueada” o “error”, no es que no haya novedades: es que no se pudo
+    leer.
+  </p>
+  <div id="sources"><p class="empty-state">Cargando…</p></div>
+
+  <footer>
+    Última actualización: <span id="last-updated">—</span>. Los boletines
+    oficiales se consultan tres veces por día. Solo se lee el texto HTML de
+    las páginas públicas y se respeta el robots.txt de cada sitio; no se
+    leen PDF escaneados. Nada de esto reemplaza al documento oficial.
+  </footer>
+</div>
+
+<script src="./shared.js"></script>
+<script>
+const PAGE_SIZE = 100;
+let ITEMS = [], PEOPLE = {}, shown = PAGE_SIZE;
+
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function safeUrl(u){ return /^https?:\/\//i.test(u || '') ? u : '#'; }
+function fold(s){ return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+
+async function safeFetchJson(path, fallback){
+  try{ return await (await fetch(path + '?_=' + Date.now())).json(); }
+  catch(e){ return fallback; }
+}
+
+function effectiveDay(it){
+  return (it.fecha_publicacion || (it.first_seen || '').slice(0,10) || 'Sin fecha');
+}
+function fmtDay(iso){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso;
+  const [y,m,d] = iso.split('-');
+  return `${d}/${m}/${y}`;
+}
+
+function fillSelect(id, values){
+  const sel = document.getElementById(id);
+  [...new Set(values)].filter(Boolean).sort((a,b)=>a.localeCompare(b,'es')).forEach(v=>{
+    const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o);
+  });
+}
+
+function currentFiltered(){
+  const fuente = document.getElementById('f-fuente').value;
+  const tipo = document.getElementById('f-tipo').value;
+  const q = fold(document.getElementById('f-texto').value.trim());
+  const soloPersonas = document.getElementById('f-personas').checked;
+  const soloSalta = document.getElementById('f-salta').checked;
+  return ITEMS.filter(it =>
+    (!fuente || it.fuente === fuente) &&
+    (!tipo || it.tipo_acto === tipo) &&
+    (!soloPersonas || (it.personas && it.personas.length)) &&
+    (!soloSalta || it.menciona_salta || it.jurisdiccion === 'Salta' || it.jurisdiccion === 'Salta Capital') &&
+    (!q || fold((it.titulo||'') + ' ' + (it.resumen||'') + ' ' + (it.organismo||'')).includes(q))
+  );
+}
+
+function render(){
+  const list = currentFiltered();
+  const sorted = list.map((it,i)=>({it,i}))
+    .sort((a,b)=> effectiveDay(b.it).localeCompare(effectiveDay(a.it)) || a.i - b.i)
+    .map(x=>x.it);
+  const visible = sorted.slice(0, shown);
+
+  document.getElementById('count-note').textContent =
+    sorted.length ? `${sorted.length} publicaciones` + (sorted.length > visible.length ? ` (mostrando ${visible.length})` : '') : '';
+  document.getElementById('more-btn').style.display = sorted.length > visible.length ? 'inline-block' : 'none';
+
+  const el = document.getElementById('list');
+  if(!ITEMS.length){
+    el.innerHTML = '<p class="empty-state">Todavía no hay publicaciones guardadas. Andá a la pestaña Actions del repositorio y ejecutá “Fuentes oficiales - Salta y Nación” (Run workflow).</p>';
+    return;
+  }
+  if(!visible.length){
+    el.innerHTML = '<p class="empty-state">Ninguna publicación coincide con esos filtros.</p>';
+    return;
+  }
+
+  let html = '', lastDay = null;
+  visible.forEach(it => {
+    const day = effectiveDay(it);
+    if(day !== lastDay){ html += `<div class="day-divider">${esc(fmtDay(day))}</div>`; lastDay = day; }
+    const meta = { id: 'oficial-' + it.id, type: 'oficial', title: it.titulo, link: it.url, source: it.fuente, date: it.fecha_publicacion || (it.first_seen||'').slice(0,10) };
+    const people = (it.personas || []).map(pid =>
+      `<a class="person-chip" href="./politico.html?id=${encodeURIComponent(pid)}">${esc(PEOPLE[pid] || pid)}</a>`).join('');
+    html += `
+      <article class="item">
+        <div class="item-top">
+          <div style="min-width:0;">
+            <div class="item-meta">
+              <span class="tag ${esc(it.jurisdiccion)}">${esc(it.jurisdiccion || '—')}</span>
+              <span class="tag tipo">${esc(it.tipo_acto || 'Otro')}</span>
+              <span>${esc(it.organismo || it.fuente)}</span>
+              ${it.menciona_salta && it.jurisdiccion !== 'Salta' ? '<span>· menciona Salta</span>' : ''}
+            </div>
+            <p class="item-title"><a href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">${esc(it.titulo)}</a></p>
+            ${it.resumen ? `<p class="item-summary">${esc(it.resumen)}</p>` : ''}
+            ${people ? `<div class="people">Nombra a: ${people}</div>` : ''}
+            ${people && it.contexto ? `<p class="context">Apareció en: “${esc(it.contexto)}”</p>` : ''}
+          </div>
+          ${window.RadarDestacados.starButtonHtml(meta)}
+        </div>
+      </article>`;
+  });
+  el.innerHTML = html;
+}
+
+const STATE_LABEL = { ok:'funciona', bloqueada:'bloqueada', error:'error', sin_resultados:'sin resultados', desactivada:'apagada' };
+
+function renderSources(status){
+  const el = document.getElementById('sources');
+  const entries = Object.entries((status && status.sources) || {});
+  if(!entries.length){
+    el.innerHTML = '<p class="empty-state">Todavía no corrió el recolector.</p>';
+    return;
+  }
+  el.innerHTML = entries.map(([id, s]) => `
+    <div class="source-row">
+      <span class="tag ${esc(s.state)}">${esc(STATE_LABEL[s.state] || s.state)}</span>
+      <span class="name">${esc(s.name)}</span>
+      <p class="msg">${esc(s.message)} · <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">abrir la fuente</a>${s.checked_at ? ' · revisada ' + esc(new Date(s.checked_at).toLocaleString('es-AR')) : ''}</p>
+    </div>`).join('');
+}
+
+async function load(){
+  const [data, status, politicians] = await Promise.all([
+    safeFetchJson('./data/oficiales.json', { items: [] }),
+    safeFetchJson('./data/oficiales_status.json', { sources: {} }),
+    safeFetchJson('./data/politicians.json', []),
+  ]);
+  ITEMS = data.items || [];
+  (politicians || []).forEach(p => { PEOPLE[p.id] = p.name; });
+
+  fillSelect('f-fuente', ITEMS.map(i => i.fuente));
+  fillSelect('f-tipo', ITEMS.map(i => i.tipo_acto));
+  if(data.generated_at) document.getElementById('last-updated').textContent = new Date(data.generated_at).toLocaleString('es-AR');
+
+  ['f-fuente','f-tipo','f-personas','f-salta'].forEach(id => document.getElementById(id).addEventListener('change', () => { shown = PAGE_SIZE; render(); }));
+  document.getElementById('f-texto').addEventListener('input', () => { shown = PAGE_SIZE; render(); });
+  document.getElementById('more-btn').addEventListener('click', () => { shown += PAGE_SIZE; render(); });
+
+  render();
+  renderSources(status);
+}
+load();
+</script>
+</body>
+</html>

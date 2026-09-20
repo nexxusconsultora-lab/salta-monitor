@@ -44,6 +44,15 @@ modelo de IA entrenado.
   fuentes que probablemente hablan del mismo hecho (72hs de ventana, por
   palabras compartidas en el título) y muestra qué políticos y temas están
   conectados a cada uno. Ver la nota de abajo sobre sus límites.
+- **oficiales.html** — publicaciones de fuentes **oficiales**: boletines
+  oficiales (Nación y Municipalidad de Salta), la Corte Suprema, el Poder
+  Judicial de Salta, la Legislatura provincial (Senadores y Diputados), el
+  Concejo Deliberante de Salta capital, y contrataciones/licitaciones del
+  Ministerio de Economía y de la Municipalidad. Decretos, resoluciones,
+  acordadas, noticias y licitaciones, cada una con el enlace al documento
+  original, filtros, y las que nombran a alguien de tu lista. Abajo muestra
+  el estado de cada fuente (si funcionó, si está bloqueada o si falló). Ver
+  la sección "Fuentes oficiales" más abajo.
 
 ## Nómina de políticos: qué es real y qué falta
 
@@ -72,6 +81,23 @@ modelo de IA entrenado.
   no encontré una fuente confiable para esa nómina en esta sesión de
   búsqueda. Reemplazalo vos con datos del sitio oficial del municipio de
   Salta capital.
+
+**Actualización: encontré la nómina real de concejales.** Al revisar
+`cdsalta.gob.ar` (el sitio del Concejo Deliberante) para agregarlo como
+fuente oficial, esa misma página tiene la lista de los 21 concejales
+actuales de la Ciudad de Salta, con nombre y apellido
+(`cdsalta.gob.ar/index.php/concejales/`). La dejé lista para copiar en
+`data/concejales_cdsalta_2026.json` (21 bloques, mismo formato que
+`politicians.json`), pero **no la mezclé yo directamente en
+`politicians.json`** porque ese archivo no venía en lo que me compartiste
+esta vez y reescribirlo a ciegas corre el riesgo de borrarte registros que
+ya tenés ajustados a mano. Para terminarlo: abrí
+`data/politicians.json`, pegá los 21 bloques de
+`data/concejales_cdsalta_2026.json` adentro del arreglo, borrá el
+registro `concejal-pendiente`, y guardá. Ese archivo nuevo no lo lee
+ningún recolector automáticamente — es solo para copiar y pegar. No
+incluye el bloque político de cada concejal porque el sitio no lo muestra
+con claridad suficiente como para confirmarlo persona por persona.
 
 **Por qué no "arreglé" esto yo mismo buscando más**: en algún punto, seguir
 buscando sin una fuente oficial con nombres y fechas 2026 deja de ser
@@ -197,6 +223,137 @@ Podés cambiarla a `*/5 * * * *` para intentar cada 5 minutos. GitHub no
 garantiza exactitud en los horarios programados (puede demorar corridas en
 momentos de mucha carga en su infraestructura), así que tomalo como un "cada
 tantos minutos, aproximadamente".
+
+## Fuentes oficiales (boletines, justicia, legislatura, municipio)
+
+Además de los medios de prensa, el proyecto lee páginas **oficiales**:
+boletines oficiales, la Justicia, la Legislatura provincial, el Concejo
+Deliberante de Salta capital y las contrataciones/licitaciones del
+Ministerio de Economía y de la Municipalidad. Esto lo hace un segundo
+recolector, `scripts/oficiales.py`, con su propio
+workflow (`.github/workflows/oficiales.yml`) que corre **3 veces por día**
+(7:15, 11:15 y 17:15 hs de Argentina), porque los boletines salen una vez
+por día y no tiene sentido mirarlos cada 5 minutos. No hay que instalar
+nada extra ni crear cuentas: usa solo lo que trae Python.
+
+**Qué fuentes lee hoy** (todas configuradas en `data/fuentes_oficiales.json`):
+
+| Fuente | Qué trae | Qué esperar |
+|---|---|---|
+| Boletín Oficial de la Nación, 1ª sección | Leyes, decretos, resoluciones, disposiciones del día. Lee el texto de cada decreto/resolución para detectar nombres. | Debería funcionar |
+| Corte Suprema de Justicia de la Nación | Novedades de la portada (fallos, acuerdos, comunicados) | Debería funcionar — **dominio corregido**, ver abajo |
+| Poder Judicial de Salta | Noticias de prensa | Debería funcionar |
+| Boletín Oficial de la Provincia de Salta | Instrumentos publicados (decretos, resoluciones, acordadas de la Corte de Justicia de Salta) | **Probablemente bloqueada** (ver abajo) |
+| Ministerio de Economía y Servicios Públicos de Salta | Noticias y comunicados oficiales de la Provincia | Debería funcionar |
+| Municipalidad de Salta capital — Contrataciones | Llamados a licitación y a contratación | Debería funcionar |
+| Municipalidad de Salta capital — Boletín Oficial | Ediciones del Boletín Oficial Municipal | Debería funcionar |
+| Cámara de Senadores de Salta | Informe de sesión, Boletín de Asuntos Entrados, Orden del día, Versiones Taquigráficas | Debería funcionar (solo portada) |
+| Cámara de Diputados de Salta | Noticias de la Cámara | Debería funcionar (solo portada) |
+| Concejo Deliberante de Salta capital | Actividad legislativa (comisiones, dictámenes, sesiones) | Debería funcionar |
+
+**Importante: la primera corrida real es la prueba de verdad.** El código
+se probó contra copias de la estructura de estas páginas, pero no contra los
+sitios en vivo. Después de la primera corrida, abrí `oficiales.html` y mirá
+"Estado de las fuentes": ahí dice, fuente por fuente, si funcionó, cuántas
+publicaciones reconoció y cuántos documentos pudo leer. Si alguna dice
+"error" o "sin resultados", copiá ese mensaje y pedí que la ajusten: es lo
+esperable con sitios que cambian su diseño sin avisar.
+
+**Sobre el Boletín Oficial de Salta.** Al momento de armar esto, el sitio
+`boletinoficialsalta.gob.ar` no permite el acceso automático (lo indica en
+su archivo `robots.txt`). El recolector **respeta ese pedido**: si sigue
+bloqueado, no accede y lo informa como "bloqueada" en `oficiales.html`. No
+se intenta esquivar. Si querés esa fuente sí o sí, la vía correcta es
+pedirle al organismo un acceso autorizado (por ejemplo una API o un
+convenio de datos abiertos) o consultarlo a mano. Si algún día lo
+habilitan, empieza a funcionar sola sin tocar nada.
+
+**Sobre "Corte Suprema de Salta".** La máxima instancia judicial de Salta
+se llama **Corte de Justicia de Salta** (su sitio es
+`justiciasalta.gov.ar`). La página de "Acordadas" de ese sitio no publica el
+listado: lo deriva a un sistema interno. Por eso, las acordadas de la Corte
+de Justicia de Salta hoy solo se podrían obtener por el Boletín Oficial de
+Salta (ver punto anterior). Su portada (`justiciasalta.gov.ar/es/`) no se
+agregó aparte porque muestra las mismas noticias que ya lee la fuente
+"Poder Judicial de Salta", solo que menos.
+
+**Corrección: el dominio de la Corte Suprema de la Nación estaba mal.** La
+fuente que ya tenías cargada apuntaba a `csjn.gob.ar`, un dominio que no es
+el sitio oficial. El sitio real es **`csjn.gov.ar`** (con "v", no con "b").
+La corregí y ahora lee la sección "Novedades" de esa portada. Sus páginas de
+"Acordadas" y "Resoluciones" tienen un buscador por fecha que carga los
+resultados recién después de tocar "Buscar" (con JavaScript), así que no se
+pueden leer con este recolector tal como está armado; quedan afuera por
+ahora.
+
+**Sobre el Portal de Compras y Contrataciones de Salta
+(`compras.salta.gob.ar`).** Lo abrí y confirmé que es real: agrupa las
+licitaciones de todos los organismos provinciales (ministerios, hospitales,
+etc.). No lo agregué porque cada publicación de esa lista **no tiene un
+enlace propio** — es una tabla de texto con un botón para ver el pliego
+adjunto, sin una dirección individual por publicación que se pueda guardar
+como "el enlace al documento original". Este recolector solo sabe leer
+listas armadas con enlaces (`<a href="…">`); una fuente así necesitaría un
+lector hecho a medida para esa página en particular. Si te sirve igual,
+avisame y lo armamos aparte.
+
+**Sobre "Licitaciones" del Ministerio de Educación de la Nación
+(`argentina.gob.ar/educacion/licitaciones`).** También la revisé: la tabla
+de licitaciones de esa página se carga con JavaScript (queda vacía si se lee
+el HTML tal cual llega), y además es de alcance nacional, no de Salta
+capital ni de la provincia. La dejé afuera por las dos razones.
+
+### Cómo sumar otra página oficial
+
+1. Abrí `data/fuentes_oficiales.json` en GitHub y clic en el lápiz.
+2. Copiá un bloque `{ ... }` completo, pegalo al final (con una coma
+   entre bloques) y cambiá `id`, `name`, `url` y `link_pattern`.
+3. `link_pattern` es un fragmento del enlace que tienen en común las
+   publicaciones de esa página (por ejemplo `/prensa-detalle/`). Abrí la
+   página, pasá el mouse sobre dos o tres publicaciones y mirá qué parte de
+   la dirección se repite.
+4. Guardá (Commit changes). El workflow corre solo al cambiar este archivo.
+5. Mirá `oficiales.html`, sección "Estado de las fuentes": si dice
+   "sin resultados", el patrón no coincide o el sitio carga su contenido con
+   JavaScript (este recolector no ejecuta JavaScript).
+
+Solo agregá páginas que hayas abierto vos y confirmado que son oficiales.
+
+### Cómo se detecta un nombre (y por qué hay que confirmarlo)
+
+- Se busca el **nombre completo** (2 o más palabras) de cada persona de
+  `politicians.json`, y también el formato de decretos "Apellido, Nombre".
+  Un apellido suelto ("Sáenz") **no** se busca en documentos oficiales,
+  porque daría falsos positivos (Sáenz Peña, otras personas con ese
+  apellido).
+- Aun así es una **coincidencia de texto, no una verificación de
+  identidad**: puede haber homónimos. Por eso el panel muestra el fragmento
+  donde apareció el nombre y el enlace al documento oficial. Confirmalo
+  siempre ahí antes de afirmar algo.
+- Los nombres se buscan en el título y resumen de cada publicación y, para
+  el Boletín Oficial de la Nación, también dentro del texto de cada decreto,
+  resolución y disposición (hasta 80 documentos nuevos por corrida).
+- No se leen PDF escaneados ni imágenes (no hay OCR). Si un documento solo
+  está como imagen, no se lee su contenido.
+
+### Qué NO incluye esta versión, y por qué
+
+- **Instagram.** La API oficial de Meta está pensada para administrar tu
+  propia cuenta profesional, no para leer publicaciones y comentarios de
+  cualquier político. Las herramientas que raspan Instagram sin permiso
+  (como `instaloader`) violan sus términos de uso y pueden terminar en el
+  bloqueo de tu cuenta. Igual que antes, esto queda afuera.
+- **Base de datos vectorial (Supabase/pgvector) y consultas con IA
+  ("RAG").** Hoy no hacen falta: todo se guarda en archivos dentro del
+  repositorio y se muestra con filtros. Sumar una base de datos y una API
+  de IA agrega costos, cuentas, claves secretas y mucho más para mantener.
+  Tiene sentido recién cuando quieras hacer *preguntas en lenguaje natural*
+  sobre los documentos ("¿qué decretos firmó X en 2026?") y ya tengas
+  cargado un volumen grande de documentos. Una IA con documentos recuperados
+  reduce los errores, pero no los elimina: una respuesta generada siempre
+  debe confirmarse contra el documento oficial.
+- **PDF con OCR** de boletines provinciales, por lo mismo: hoy la fuente
+  provincial principal está bloqueada, y sin fuente no hay nada que leer.
 
 ## Mantenimiento
 

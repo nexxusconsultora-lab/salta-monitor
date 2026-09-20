@@ -1,0 +1,164 @@
+{
+  "_leeme": "Lista de fuentes oficiales que lee scripts/oficiales.py. Para sumar una fuente nueva, copiá un bloque completo, pegalo al final y cambiá url, id y link_pattern. Para apagar una, poné \"enabled\": false. Solo agregá páginas que hayas abierto vos y confirmado que son oficiales.",
+  "sources": [
+    {
+      "id": "bora-primera",
+      "name": "Boletín Oficial de la Nación — 1ª sección (Legislación y Avisos Oficiales)",
+      "jurisdiccion": "Nación",
+      "organismo": "Boletín Oficial de la República Argentina",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera",
+      "link_pattern": "/detalleAviso/primera/\\d+/\\d{8}$",
+      "skip_query": true,
+      "use_summary": false,
+      "fetch_detail": true,
+      "detalle_tipos": [
+        "Ley",
+        "Decreto",
+        "Decisión Administrativa",
+        "Resolución",
+        "Resolución sintetizada",
+        "Disposición"
+      ],
+      "detalle_excluir_secciones": [
+        "convenciones colectivas de trabajo"
+      ],
+      "enabled": true,
+      "nota": "Publica la edición del día. Los decretos y resoluciones que nombran a alguien se detectan leyendo el texto de cada uno."
+    },
+    {
+      "id": "csjn-buscador",
+      "name": "Corte Suprema de Justicia de la Nación — novedades",
+      "jurisdiccion": "Nación",
+      "organismo": "Corte Suprema de Justicia de la Nación",
+      "url": "https://www.csjn.gov.ar/",
+      "link_pattern": "/novedades/detalle/\\d+|/documentos/descargar\\?ID=\\d+",
+      "use_summary": false,
+      "fetch_detail": false,
+      "enabled": true,
+      "nota": "Corregido: el dominio que tenía cargado antes (csjn.gob.ar) no es el sitio oficial y no respondía. El sitio real de la Corte Suprema es csjn.gov.ar (con 'v', no con 'b'). Ahora lee la portada y su sección 'Novedades'. Las páginas de 'Acordadas' y 'Resoluciones' (con buscador por fecha) cargan los resultados con JavaScript después de tocar 'Buscar': este recolector no ejecuta JavaScript, así que esas dos quedan afuera por ahora."
+    },
+    {
+      "id": "justicia-salta-prensa",
+      "name": "Poder Judicial de Salta — noticias de prensa",
+      "jurisdiccion": "Salta",
+      "organismo": "Poder Judicial de Salta (Corte de Justicia)",
+      "url": "https://www.justiciasalta.gov.ar/es/prensa",
+      "link_pattern": "/es/prensa-detalle/",
+      "tipo_fijo": "Noticia",
+      "use_summary": false,
+      "fetch_detail": false,
+      "enabled": true,
+      "nota": "La página de Acordadas del Poder Judicial de Salta no publica el listado (lo deriva a un sistema interno), por eso no se lee. Las acordadas de la Corte de Justicia de Salta aparecen en el Boletín Oficial de Salta."
+    },
+    {
+      "id": "bo-salta",
+      "name": "Boletín Oficial de la Provincia de Salta",
+      "jurisdiccion": "Salta",
+      "organismo": "Boletín Oficial de la Provincia de Salta",
+      "url": "https://boletinoficialsalta.gob.ar/",
+      "link_pattern": "instrumento\\.php\\?",
+      "use_summary": false,
+      "fetch_detail": false,
+      "enabled": true,
+      "nota": "Este sitio, al momento de armar esto, rechazaba el acceso automático según su robots.txt. El script lo respeta: si sigue bloqueado, la fuente queda marcada como 'bloqueada' en el panel y NO se accede. Si un día lo habilitan, empieza a funcionar sola."
+    },
+    {
+      "id": "economiasalta-noticias",
+      "name": "Ministerio de Economía y Servicios Públicos de Salta — Noticias y comunicados",
+      "jurisdiccion": "Salta",
+      "organismo": "Ministerio de Economía y Servicios Públicos de la Provincia de Salta",
+      "url": "https://economiasalta.gob.ar/noticias/",
+      "link_pattern": "^https://economiasalta\\.gob\\.ar/[a-z0-9\\-]+/$",
+      "sections_include": [
+        "Noticias"
+      ],
+      "skip_query": false,
+      "use_summary": true,
+      "fetch_detail": false,
+      "tipo_fijo": "Comunicado oficial",
+      "enabled": true,
+      "nota": "Comunicados de prensa del Ministerio: licitaciones, cronogramas de pago, convenios, obras. El listado no muestra fecha por comunicado, así que estos ítems se ordenan por la fecha en que el recolector los vio por primera vez, no por su fecha real de publicación."
+    },
+    {
+      "id": "municipalidadsalta-contrataciones",
+      "name": "Municipalidad de la Ciudad de Salta — Contrataciones y licitaciones",
+      "jurisdiccion": "Salta Capital",
+      "organismo": "Municipalidad de la Ciudad de Salta",
+      "url": "https://municipalidadsalta.gob.ar/contrataciones/",
+      "link_pattern": "^https://municipalidadsalta\\.gob\\.ar/contrataciones/[a-z0-9\\-]+/$",
+      "skip_query": false,
+      "use_summary": true,
+      "fetch_detail": false,
+      "tipo_fijo": "Contratación municipal",
+      "enabled": true,
+      "nota": "Llamados a licitación pública y a contratación de adjudicación simple de la Municipalidad de Salta capital (compras de bienes, servicios y obras). Igual que la fuente anterior, sin fecha por ítem en el listado."
+    },
+    {
+      "id": "municipalidadsalta-boletin",
+      "name": "Municipalidad de la Ciudad de Salta — Boletín Oficial Municipal",
+      "jurisdiccion": "Salta Capital",
+      "organismo": "Municipalidad de la Ciudad de Salta",
+      "url": "https://municipalidadsalta.gob.ar/boletin-oficial/buscador/",
+      "link_pattern": "^https://municipalidadsalta\\.gob\\.ar/boletin/[a-z0-9\\-]+/$",
+      "skip_query": false,
+      "use_summary": false,
+      "fetch_detail": false,
+      "tipo_fijo": "Boletín Oficial Municipal",
+      "enabled": true,
+      "nota": "Distinto del Boletín Oficial de la Provincia de Salta (ese sigue bloqueado, ver la fuente 'bo-salta'). Cada edición trae varios decretos, ordenanzas y resoluciones municipales adentro de un mismo número de boletín; el recolector guarda el boletín como una sola publicación, no cada acto por separado."
+    },
+    {
+      "id": "senadosalta",
+      "name": "Cámara de Senadores de la Provincia de Salta",
+      "jurisdiccion": "Salta",
+      "organismo": "Cámara de Senadores de la Provincia de Salta",
+      "url": "https://senadosalta.gob.ar/",
+      "link_pattern": "^https://senadosalta\\.gob\\.ar/.+/$",
+      "sections_include": [
+        "Informe de Sesión",
+        "Boletín de Asuntos Entrados",
+        "Orden del día",
+        "Versiones Taquigráficas"
+      ],
+      "tipo_por_seccion": {
+        "Informe de Sesión": "Informe de sesión",
+        "Boletín de Asuntos Entrados": "Boletín de asuntos entrados",
+        "Orden del día": "Orden del día",
+        "Versiones Taquigráficas": "Versión taquigráfica"
+      },
+      "skip_query": false,
+      "use_summary": false,
+      "fetch_detail": false,
+      "enabled": true,
+      "nota": "La portada solo muestra las últimas 2 publicaciones de cada categoría. Si el Senado publica más de 2 cosas de la misma categoría entre una corrida y la siguiente (el recolector pasa 3 veces por día), alguna puede no quedar registrada. Para el historial completo de años anteriores hay que entrar a cada sección desde el sitio."
+    },
+    {
+      "id": "diputadosalta",
+      "name": "Cámara de Diputados de la Provincia de Salta — Noticias",
+      "jurisdiccion": "Salta",
+      "organismo": "Cámara de Diputados de la Provincia de Salta",
+      "url": "https://www.diputadosalta.gob.ar/",
+      "link_pattern": "noticia\\?id=\\d+",
+      "skip_query": false,
+      "use_summary": true,
+      "fetch_detail": false,
+      "tipo_fijo": "Noticia",
+      "enabled": true,
+      "nota": "Solo lee la portada (últimas noticias de la Cámara: actas de labor parlamentaria, sesiones, actividad institucional). No trae fecha en un formato que el recolector reconozca."
+    },
+    {
+      "id": "cdsalta",
+      "name": "Concejo Deliberante de la Ciudad de Salta — Actividad legislativa",
+      "jurisdiccion": "Salta Capital",
+      "organismo": "Concejo Deliberante de la Ciudad de Salta",
+      "url": "https://cdsalta.gob.ar/",
+      "link_pattern": "^https://cdsalta\\.gob\\.ar/index\\.php/20\\d\\d/\\d\\d/\\d\\d/[a-z0-9\\-]+/$",
+      "skip_query": false,
+      "use_summary": true,
+      "fetch_detail": false,
+      "tipo_fijo": "Noticia",
+      "enabled": true,
+      "nota": "Portada del Concejo Deliberante de Salta capital: reuniones de comisión, dictámenes, sesiones. Trae la fecha de publicación porque va codificada en la propia dirección de cada nota. Ojo: esto NO reemplaza tener a los 21 concejales cargados en politicians.json — ver README, sección 'Fuentes oficiales'."
+    }
+  ]
+}
