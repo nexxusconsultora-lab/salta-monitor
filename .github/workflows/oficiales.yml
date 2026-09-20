@@ -9,13 +9,17 @@ on:
     branches: [main]
     paths:
       - "scripts/oficiales.py"
+      - "scripts/alertar_telegram.py"
       - "data/fuentes_oficiales.json"
       - ".github/workflows/oficiales.yml"
   schedule:
-    # Los boletines oficiales salen una vez por día, no hace falta mirar
-    # cada 5 minutos. GitHub usa hora UTC (Argentina = UTC-3):
-    #   10:15 UTC = 07:15 hs | 14:15 UTC = 11:15 hs | 20:15 UTC = 17:15 hs
-    - cron: "15 10,14,20 * * *"
+    # Cada hora, en el minuto 15 (hora de GitHub = UTC). Los boletines
+    # oficiales salen una vez por día, así que correr más seguido no trae
+    # más contenido real: solo hace que el panel se actualice más rápido
+    # si algo nuevo aparece. GitHub no garantiza exactitud en los
+    # horarios programados en momentos de mucha carga en su
+    # infraestructura, así que tomalo como "cada hora, aproximadamente".
+    - cron: "15 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -43,11 +47,22 @@ jobs:
       - name: Ejecutar el recolector de fuentes oficiales
         run: python scripts/oficiales.py
 
+      - name: Avisar por Telegram si alguien de tu lista aparece
+        # Este paso es 100% opcional. Si no configuraste los Secrets
+        # TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID (Settings → Secrets and
+        # variables → Actions), el script no hace nada y no falla.
+        # Instrucciones completas en scripts/alertar_telegram.py.
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/alertar_telegram.py
+
       - name: Guardar los datos nuevos en el repositorio
         run: |
           git config user.name "radar-politico-bot"
           git config user.email "radar-politico-bot@users.noreply.github.com"
           git add data/oficiales.json data/oficiales_status.json
+          if [ -f data/oficiales_archivo.json ]; then git add data/oficiales_archivo.json; fi
           if git diff --cached --quiet; then
             echo "Sin cambios para guardar."
             exit 0
