@@ -55,6 +55,16 @@ FUENTES_PATH = DATA_DIR / "fuentes_oficiales.json"
 POLITICIANS_PATH = DATA_DIR / "politicians.json"
 ITEMS_PATH = DATA_DIR / "oficiales.json"
 STATUS_PATH = DATA_DIR / "oficiales_status.json"
+ARCHIVO_PATH = DATA_DIR / "oficiales_archivo.json"
+ALERTAS_PATH = DATA_DIR / "oficiales_nuevas_con_personas.json"
+
+# Cuando oficiales.json acumule más publicaciones que esto, las más
+# viejas (por fecha_publicacion o first_seen) se mueven a
+# oficiales_archivo.json en vez de perderse, para que la página no
+# tarde cada vez más en cargar. Con el volumen actual de estas fuentes
+# (decenas por corrida) esto puede tardar años en activarse, así que es
+# una protección a futuro, no algo urgente hoy.
+TOPE_ITEMS_ACTIVOS = 3000
 
 USER_AGENT = (
     "RadarPoliticoSaltaBot/1.0 "
@@ -250,9 +260,9 @@ def cargar_politicos():
     salida = []
     for p in personas:
         nombres = set()
-        nombre = (p.get("name") or "").strip()
-        if nombre:
-            nombres.add(nombre)
+        nombre_display = (p.get("name") or "").strip()
+        if nombre_display:
+            nombres.add(nombre_display)
         for alias in p.get("aliases") or []:
             alias = (alias or "").strip()
             if alias:
@@ -261,7 +271,11 @@ def cargar_politicos():
         # demasiados falsos positivos en documentos oficiales.
         nombres = {n for n in nombres if len(n.split()) >= 2}
         if nombres and p.get("id"):
-            salida.append({"id": p["id"], "nombres": nombres})
+            salida.append({
+                "id": p["id"],
+                "nombres": nombres,
+                "nombre_display": nombre_display or next(iter(nombres)),
+            })
     return salida
 
 
@@ -468,6 +482,29 @@ def procesar_fuente(fuente: dict, politicos, urls_ya_guardadas, presupuesto_deta
 
 
 # ---------------------------------------------------------------------------
+# Archivado: no perder historial, pero mantener el archivo activo liviano
+# ---------------------------------------------------------------------------
+
+def compactar_items(items: list, tope: int = TOPE_ITEMS_ACTIVOS):
+    """
+    Si hay más de `tope` publicaciones guardadas, mueve las más viejas
+    (por fecha_publicacion, o por first_seen si no hay fecha) a un
+    archivo aparte. Devuelve (items_activos, items_para_archivar).
+    Nunca borra nada: solo separa.
+    """
+    if len(items) <= tope:
+        return items, []
+
+    def clave_orden(it):
+        return it.get("fecha_publicacion") or (it.get("first_seen") or "")[:10] or "0000-00-00"
+
+    ordenados = sorted(items, key=clave_orden, reverse=True)  # más nuevo primero
+    activos = ordenados[:tope]
+    para_archivar = ordenados[tope:]
+    return activos, para_archivar
+
+
+# ---------------------------------------------------------------------------
 # Programa principal
 # ---------------------------------------------------------------------------
 
@@ -509,16 +546,42 @@ def main() -> int:
 
     items_finales = items_previos + todos_los_nuevos
 
+    activos, para_archivar = compactar_items(items_finales)
+    if para_archivar:
+        archivo_previo = cargar_json(ARCHIVO_PATH, {"items": []})
+        ids_en_archivo = {it.get("id") for it in archivo_previo.get("items", [])}
+        nuevos_en_archivo = [it for it in para_archivar if it.get("id") not in ids_en_archivo]
+        guardar_json(ARCHIVO_PATH, {
+            "generated_at": ahora_iso(),
+            "items": archivo_previo.get("items", []) + nuevos_en_archivo,
+        })
+        print(f"Se archivaron {len(nuevos_en_archivo)} publicación(es) vieja(s) en {ARCHIVO_PATH.name} "
+              f"(no se pierden, solo salen del archivo activo).")
+
     guardar_json(ITEMS_PATH, {
         "generated_at": ahora_iso(),
-        "items": items_finales,
+        "items": activos,
     })
     guardar_json(STATUS_PATH, {
         "generated_at": ahora_iso(),
         "sources": nuevos_status,
     })
 
-    print(f"\nListo: {len(todos_los_nuevos)} publicación(es) nueva(s), {len(items_finales)} en total.")
+    # Aviso opcional por Telegram: solo se arma este archivo si de verdad
+    # hay publicaciones nuevas que nombran a alguien de tu lista. Un paso
+    # aparte del workflow (scripts/alertar_telegram.py) lo lee y lo borra;
+    # si no configuraste Telegram, este archivo simplemente no se usa.
+    id_a_nombre = {p["id"]: p["nombre_display"] for p in politicos}
+    con_personas = [it for it in todos_los_nuevos if it.get("personas")]
+    if con_personas:
+        for it in con_personas:
+            it["personas_nombres"] = [id_a_nombre.get(pid, pid) for pid in it["personas"]]
+        guardar_json(ALERTAS_PATH, con_personas)
+    elif ALERTAS_PATH.exists():
+        ALERTAS_PATH.unlink()
+
+    print(f"\nListo: {len(todos_los_nuevos)} publicación(es) nueva(s), {len(activos)} activas "
+          f"({len(para_archivar)} archivadas en esta corrida).")
     return 0
 
 
