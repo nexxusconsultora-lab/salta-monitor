@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eventos — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,h2,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:1000px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  .back-link{font-size:.85rem;color:var(--ink-soft);text-decoration:none;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin:1rem 0 1.5rem;}
+  header h1{font-size:clamp(1.7rem,4vw,2.3rem);margin:.25rem 0 0;}
+  .lede{max-width:65ch;color:var(--ink-soft);margin:.6rem 0 0;font-size:.95rem;}
+  .lede strong{color:var(--ink);}
+  .event-card{border:1px solid var(--line);background:var(--paper-raised);padding:1.25rem 1.5rem;margin-bottom:1.25rem;}
+  .event-card h2{font-size:1.2rem;margin:0 0 .5rem;}
+  .event-meta{display:flex;gap:.5rem;flex-wrap:wrap;font-size:.78rem;color:var(--ink-soft);margin-bottom:.75rem;}
+  .pill{display:inline-block;background:#fff;border:1px solid var(--line);padding:.15rem .55rem;border-radius:2px;}
+  .pill.pol{border-color:var(--indigo);color:var(--indigo);}
+  .pill.topic{border-color:var(--clay);color:var(--clay);}
+  .event-items{margin:0;padding-left:1.1rem;font-size:.88rem;}
+  .event-items li{margin-bottom:.35rem;}
+  .event-items a{color:var(--ink);text-decoration:none;}
+  .event-items a:hover{text-decoration:underline;}
+  .empty-state{color:var(--ink-soft);font-size:.9rem;padding:2rem 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./centro.html">← Volver al centro de control</a>
+  <header>
+    <h1>Eventos detectados</h1>
+    <p class="lede">
+      Noticias de distintas fuentes que probablemente hablan del mismo
+      hecho, agrupadas automáticamente por palabras compartidas en un
+      plazo de 72 horas. <strong>Es agrupamiento por texto, no comprensión
+      real del contenido</strong> — puede juntar por error dos notas que no
+      están relacionadas. Revisá siempre los artículos originales.
+    </p>
+  </header>
+  <div id="list"><p class="empty-state">Cargando…</p></div>
+</div>
+<script>
+function escapeHtml(str){ const d=document.createElement('div'); d.textContent=str||''; return d.innerHTML; }
+
+async function load(){
+  let data;
+  try{
+    data = await (await fetch('./data/events.json?_=' + Date.now())).json();
+  }catch(e){
+    document.getElementById('list').innerHTML = '<p class="empty-state">Todavía no hay eventos detectados o el workflow no corrió aún.</p>';
+    return;
+  }
+  const events = data.events || [];
+  const el = document.getElementById('list');
+  if(!events.length){
+    el.innerHTML = '<p class="empty-state">Todavía no se detectaron eventos con varias fuentes en las últimas 72hs.</p>';
+    return;
+  }
+  el.innerHTML = events.map(ev => `
+    <div class="event-card">
+      <h2>${escapeHtml(ev.title)}</h2>
+      <div class="event-meta">
+        <span class="pill">${ev.items_count} notas</span>
+        <span class="pill">${ev.sources.length} medios: ${escapeHtml(ev.sources.join(', '))}</span>
+        ${ev.politicians.map(p => `<span class="pill pol">${escapeHtml(p)}</span>`).join('')}
+        ${ev.topics.map(t => `<span class="pill topic">${escapeHtml(t)}</span>`).join('')}
+      </div>
+      <ul class="event-items">
+        ${ev.items.map(it => `<li><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a> — ${escapeHtml(it.source)}</li>`).join('')}
+      </ul>
+    </div>`).join('');
+}
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Centro de Control — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+    --positivo:#4C7A5D; --negativo:#8B3A3A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,h2,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:1180px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin-bottom:2rem;}
+  .kicker{color:var(--clay);font-weight:600;font-size:.8rem;letter-spacing:.04em;margin:0 0 .35rem;}
+  header h1{font-size:clamp(1.9rem,4.5vw,2.8rem);margin:0;}
+  .lede{max-width:65ch;color:var(--ink-soft);margin:.75rem 0 0;font-size:.98rem;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin-bottom:2.5rem;}
+  .section-card{
+    display:block;text-decoration:none;color:var(--ink);
+    background:var(--paper-raised);border:1px solid var(--line);
+    padding:1.4rem 1.5rem;transition:border-color .15s ease;
+  }
+  .section-card:hover{border-color:var(--ink);}
+  .section-card .eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--clay);font-weight:600;}
+  .section-card h2{font-size:1.3rem;margin:.3rem 0 .5rem;}
+  .section-card p{font-size:.88rem;color:var(--ink-soft);margin:0 0 .9rem;}
+  .section-card .metric{font-family:'Newsreader',serif;font-size:1.6rem;font-weight:700;}
+  .section-card .metric-label{font-size:.75rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em;}
+
+  h3.divider{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;border-bottom:2px solid var(--ink);padding-bottom:.4rem;margin:0 0 1rem;}
+  .quicklist{margin-bottom:2.5rem;}
+  .quicklist .row{display:flex;justify-content:space-between;padding:.55rem 0;border-bottom:1px dashed var(--line);font-size:.9rem;}
+  .quicklist a{text-decoration:none;font-weight:500;}
+  .quicklist a:hover{text-decoration:underline;}
+  .empty-state{color:var(--ink-soft);font-size:.88rem;}
+  footer{color:var(--ink-soft);font-size:.78rem;border-top:1px solid var(--line);padding-top:1.25rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Centro de control</p>
+    <h1>Radar Político Salta</h1>
+    <p class="lede">
+      Todo el proyecto en un solo lugar: menciones de políticos, temas
+      puntuales, resumen nacional/provincial por horas y lo que vos mismo
+      hayas destacado.
+    </p>
+  </header>
+
+  <div class="grid">
+    <a class="section-card" href="./index.html">
+      <p class="eyebrow">Políticos</p>
+      <h2>Panel de menciones</h2>
+      <p>Menciones, tono, temas en tendencia y quién aparece mencionado con quién.</p>
+      <div class="metric" id="m-politicians">—</div>
+      <div class="metric-label">menciones guardadas</div>
+    </a>
+
+    <a class="section-card" href="./temas.html">
+      <p class="eyebrow">Temas</p>
+      <h2>Seguimiento temático</h2>
+      <p>Presupuestos, obras, causas judiciales — lo que quieras seguir más allá de una persona.</p>
+      <div class="metric" id="m-topics">—</div>
+      <div class="metric-label">temas configurados</div>
+    </a>
+
+    <a class="section-card" href="./briefing.html">
+      <p class="eyebrow">Nacional / Provincial</p>
+      <h2>Resumen por horas</h2>
+      <p>Qué pasó en las últimas 6, 12 o 24 horas, agrupado por medio y categoría.</p>
+      <div class="metric" id="m-general">—</div>
+      <div class="metric-label">noticias generales guardadas</div>
+    </a>
+
+    <a class="section-card" href="./destacados.html">
+      <p class="eyebrow">Personal</p>
+      <h2>Destacados</h2>
+      <p>Lo que marcaste con ☆ en cualquier sección (guardado solo en este navegador).</p>
+      <div class="metric" id="m-starred">—</div>
+      <div class="metric-label">elementos destacados acá</div>
+    </a>
+
+    <a class="section-card" href="./eventos.html">
+      <p class="eyebrow">El "cerebro"</p>
+      <h2>Eventos conectados</h2>
+      <p>Noticias de distintas fuentes que hablan del mismo hecho, agrupadas y vinculadas a políticos y temas.</p>
+      <div class="metric" id="m-events">—</div>
+      <div class="metric-label">eventos detectados</div>
+    </a>
+  </div>
+
+  <h3 class="divider">Políticos con más cobertura</h3>
+  <div class="quicklist" id="top-politicians"><p class="empty-state">Cargando…</p></div>
+
+  <h3 class="divider">Temas más activos</h3>
+  <div class="quicklist" id="top-topics-list"><p class="empty-state">Cargando…</p></div>
+
+  <footer>
+    Última actualización de datos: <span id="last-updated">—</span>. Todo el
+    contenido proviene de medios públicos digitales; el análisis de tono y
+    temas es heurístico, no un modelo de IA entrenado.
+  </footer>
+</div>
+
+<script src="./shared.js"></script>
+<script>
+function escapeHtml(str){ const d=document.createElement('div'); d.textContent=str||''; return d.innerHTML; }
+
+async function safeFetchJson(path, fallback){
+  try{ return await (await fetch(path + '?_=' + Date.now())).json(); }
+  catch(e){ return fallback; }
+}
+
+async function load(){
+  const [mentions, aggregates, topicsData, newsGeneral, eventsData] = await Promise.all([
+    safeFetchJson('./data/mentions.json', []),
+    safeFetchJson('./data/aggregates.json', null),
+    safeFetchJson('./data/topics_data.json', { topics: {} }),
+    safeFetchJson('./data/news_general.json', []),
+    safeFetchJson('./data/events.json', { events: [] }),
+  ]);
+
+  document.getElementById('m-politicians').textContent = mentions.length;
+  document.getElementById('m-topics').textContent = Object.keys(topicsData.topics || {}).length;
+  document.getElementById('m-general').textContent = newsGeneral.length;
+  document.getElementById('m-starred').textContent = window.RadarDestacados.getStars().length;
+  document.getElementById('m-events').textContent = (eventsData.events || []).length;
+
+  if(aggregates && aggregates.generated_at){
+    document.getElementById('last-updated').textContent = new Date(aggregates.generated_at).toLocaleString('es-AR');
+  }
+
+  const byPolitician = (aggregates && aggregates.by_politician) || {};
+  const politicians = (aggregates && aggregates.politicians) || [];
+  const topPoliticians = politicians
+    .map(p => ({ name: p.name, id: p.id, total: (byPolitician[p.id] || {}).total || 0 }))
+    .filter(p => p.total > 0)
+    .sort((a,b) => b.total - a.total)
+    .slice(0, 8);
+
+  const polEl = document.getElementById('top-politicians');
+  polEl.innerHTML = topPoliticians.length
+    ? topPoliticians.map(p => `<div class="row"><a href="./politico.html?id=${encodeURIComponent(p.id)}">${escapeHtml(p.name)}</a><span>${p.total} menciones</span></div>`).join('')
+    : '<p class="empty-state">Sin datos todavía — corré el workflow al menos una vez.</p>';
+
+  const topTopics = Object.values(topicsData.topics || {})
+    .sort((a,b) => b.total_mentions - a.total_mentions)
+    .slice(0, 8);
+  const topicsEl = document.getElementById('top-topics-list');
+  topicsEl.innerHTML = topTopics.length
+    ? topTopics.map(t => `<div class="row"><a href="./tema.html?id=${encodeURIComponent(t.id)}">${escapeHtml(t.name)}</a><span>${t.total_mentions} menciones</span></div>`).join('')
+    : '<p class="empty-state">No hay temas configurados todavía (data/topics.json).</p>';
+}
+load();
+</script>
+</body>
+</html>

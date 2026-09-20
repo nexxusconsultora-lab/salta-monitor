@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Temas — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+    --positivo:#4C7A5D; --negativo:#8B3A3A; --neutral:#8A8072;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:900px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  .back-link{font-size:.85rem;color:var(--ink-soft);text-decoration:none;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin:1rem 0 1.5rem;}
+  header h1{font-size:clamp(1.7rem,4vw,2.3rem);margin:.25rem 0 0;}
+  .lede{max-width:65ch;color:var(--ink-soft);margin:.6rem 0 0;font-size:.95rem;}
+  .topic-card{
+    display:block;border:1px solid var(--line);background:var(--paper-raised);
+    padding:1.1rem 1.25rem;margin-bottom:1rem;text-decoration:none;color:var(--ink);
+  }
+  .topic-card:hover{border-color:var(--ink);}
+  .topic-card h2{font-size:1.2rem;margin:0 0 .4rem;}
+  .topic-meta{display:flex;gap:1rem;flex-wrap:wrap;font-size:.82rem;color:var(--ink-soft);}
+  .empty-state{color:var(--ink-soft);font-size:.9rem;padding:2rem 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./centro.html">← Volver al centro de control</a>
+  <header>
+    <h1>Temas seguidos</h1>
+    <p class="lede">
+      Además de personas, este radar puede seguir temas puntuales (una obra,
+      un presupuesto, una causa judicial). Se configuran en
+      <code>data/topics.json</code>.
+    </p>
+  </header>
+  <div id="list"><p class="empty-state">Cargando…</p></div>
+</div>
+<script>
+function escapeHtml(str){ const d=document.createElement('div'); d.textContent=str||''; return d.innerHTML; }
+
+async function load(){
+  let data;
+  try{
+    data = await (await fetch('./data/topics_data.json?_=' + Date.now())).json();
+  }catch(e){
+    document.getElementById('list').innerHTML = '<p class="empty-state">Todavía no hay temas configurados o el workflow no corrió aún.</p>';
+    return;
+  }
+  const topics = Object.values(data.topics || {});
+  const el = document.getElementById('list');
+  if(!topics.length){
+    el.innerHTML = '<p class="empty-state">No hay temas configurados todavía. Editá data/topics.json.</p>';
+    return;
+  }
+  el.innerHTML = topics.map(t => `
+    <a class="topic-card" href="./tema.html?id=${encodeURIComponent(t.id)}">
+      <h2>${escapeHtml(t.name)}</h2>
+      <div class="topic-meta">
+        <span>${t.total_mentions} menciones</span>
+        <span>${t.sentiment_breakdown.positivo} positivas</span>
+        <span>${t.sentiment_breakdown.negativo} negativas</span>
+        <span>${t.politicians_involved.length} políticos involucrados</span>
+      </div>
+    </a>`).join('');
+}
+load();
+</script>
+</body>
+</html>

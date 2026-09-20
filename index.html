@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Radar Político Salta — menciones en medios digitales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper:#F3EEE2;
+    --paper-raised:#FBF8F1;
+    --ink:#211D1A;
+    --ink-soft:#5C554C;
+    --line:#D9D1BF;
+    --clay:#B1502E;
+    --indigo:#2B3A55;
+    --positivo:#4C7A5D;
+    --negativo:#8B3A3A;
+    --neutral:#8A8072;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    line-height:1.5;
+  }
+  h1,h2,h3,.serif{font-family:'Newsreader',Georgia,serif;}
+
+  header.masthead{
+    border-bottom:3px solid var(--ink);
+    padding:2rem 1.5rem 1.25rem;
+    max-width:1180px;
+    margin:0 auto;
+  }
+  .masthead-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+    gap:.5rem 1.5rem;
+  }
+  header.masthead h1{
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    font-weight:700;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .dateline{
+    font-size:.85rem;
+    color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;
+  }
+  .kicker{
+    color:var(--clay);
+    font-weight:600;
+    font-size:.8rem;
+    letter-spacing:.04em;
+    margin:0 0 .35rem;
+  }
+  .lede{
+    max-width:62ch;
+    color:var(--ink-soft);
+    margin:.75rem 0 0;
+    font-size:1rem;
+  }
+
+  main{
+    max-width:1180px;
+    margin:0 auto;
+    padding:1.75rem 1.5rem 4rem;
+    display:grid;
+    grid-template-columns:1.7fr 1fr;
+    gap:2.5rem;
+  }
+  @media (max-width:860px){
+    main{grid-template-columns:1fr;}
+  }
+
+  .controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.75rem;
+    margin-bottom:1.5rem;
+    padding-bottom:1.25rem;
+    border-bottom:1px solid var(--line);
+  }
+  .controls select, .controls input{
+    font-family:inherit;
+    font-size:.9rem;
+    padding:.55rem .7rem;
+    border:1px solid var(--ink);
+    background:var(--paper-raised);
+    color:var(--ink);
+  }
+  .controls input[type="search"]{
+    flex:1 1 220px;
+    min-width:180px;
+  }
+  .controls select{
+    min-width:170px;
+  }
+
+  section h2{
+    font-size:1.05rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    border-bottom:2px solid var(--ink);
+    padding-bottom:.4rem;
+    margin:0 0 1rem;
+  }
+
+  #feed article{
+    padding:1.1rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  #feed article:first-child{padding-top:0;}
+  .mention-meta{
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+    font-size:.8rem;
+    color:var(--ink-soft);
+    margin-bottom:.35rem;
+    flex-wrap:wrap;
+  }
+  .tag{
+    display:inline-block;
+    padding:.15rem .55rem;
+    font-size:.72rem;
+    font-weight:600;
+    border-radius:2px;
+    color:#fff;
+  }
+  .tag.positivo{background:var(--positivo);}
+  .tag.negativo{background:var(--negativo);}
+  .tag.neutral{background:var(--neutral);}
+  .mention-title{
+    margin:0;
+    font-size:1.15rem;
+    line-height:1.35;
+  }
+  .mention-title a{
+    color:var(--ink);
+    text-decoration:none;
+    background-image:linear-gradient(var(--clay),var(--clay));
+    background-size:0% 1px;
+    background-repeat:no-repeat;
+    background-position:0 100%;
+    transition:background-size .15s ease;
+  }
+  .mention-title a:hover{
+    background-size:100% 1px;
+  }
+  .politician-name{
+    font-weight:600;
+    color:var(--indigo);
+    text-decoration:none;
+  }
+  .politician-name:hover{text-decoration:underline;}
+
+  aside .panel{
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+    padding:1.25rem;
+    margin-bottom:1.5rem;
+  }
+  .panel canvas{max-width:100%;}
+  .stat-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:.88rem;
+    padding:.35rem 0;
+    border-bottom:1px dashed var(--line);
+  }
+  .stat-row:last-child{border-bottom:none;}
+  .stat-name{font-weight:500;}
+  .stat-balance{font-variant-numeric:tabular-nums;}
+  .empty-state{
+    color:var(--ink-soft);
+    font-size:.9rem;
+    padding:1.5rem 0;
+  }
+  .star-btn{border:1px solid var(--line);background:var(--paper-raised);cursor:pointer;font-size:.95rem;line-height:1;padding:.15rem .45rem;border-radius:2px;}
+  .star-btn.is-starred{background:#FCE9C9;border-color:#C99A3A;}
+  footer{
+    max-width:1180px;
+    margin:0 auto;
+    padding:1.5rem;
+    color:var(--ink-soft);
+    font-size:.8rem;
+    border-top:1px solid var(--line);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <p class="kicker">Monitoreo automático de medios digitales</p>
+  <div class="masthead-top">
+    <h1>Radar Político Salta</h1>
+    <span class="dateline" id="last-updated">Cargando última actualización…</span>
+  </div>
+  <p class="lede">
+    Menciones de figuras políticas salteñas en El Tribuno, Salta12, InformateSalta,
+    El Intransigente y Nuevo Diario de Salta, con una lectura de tono automática y
+    orientativa. No sustituye la lectura de la nota original.
+  </p>
+  <p class="lede"><a href="./briefing.html" style="color:var(--clay);font-weight:600;">→ Ver resumen Nacional / Provincial por horas</a>
+  &nbsp;·&nbsp; <a href="./temas.html" style="color:var(--clay);font-weight:600;">→ Temas seguidos</a>
+  &nbsp;·&nbsp; <a href="./destacados.html" style="color:var(--clay);font-weight:600;">→ Destacados</a>
+  &nbsp;·&nbsp; <a href="./centro.html" style="color:var(--indigo);font-weight:600;">← Centro de control</a></p>
+</header>
+
+<main>
+  <section>
+    <div class="controls">
+      <select id="filter-politician">
+        <option value="">Todos los políticos</option>
+      </select>
+      <select id="filter-sentiment">
+        <option value="">Cualquier tono</option>
+        <option value="positivo">Positivo</option>
+        <option value="neutral">Neutral</option>
+        <option value="negativo">Negativo</option>
+      </select>
+      <input type="search" id="filter-keyword" placeholder="Buscar por palabra clave…" />
+    </div>
+    <h2>Últimas menciones</h2>
+    <div id="feed"><p class="empty-state">Cargando menciones…</p></div>
+  </section>
+
+  <aside>
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.5rem;">Buscador libre (en vivo)</h2>
+      <p style="font-size:.82rem;color:var(--ink-soft);margin:0 0 .75rem;">
+        Busca cualquier palabra en Google News, no solo entre los políticos
+        configurados. Requiere activar un proxy gratuito propio (ver README,
+        sección "Buscador libre") — si no lo activaste, este cuadro queda
+        desactivado.
+      </p>
+      <div style="display:flex;gap:.5rem;">
+        <input type="search" id="free-search-input" placeholder="Cualquier palabra o tema…" style="flex:1;font-family:inherit;padding:.5rem .6rem;border:1px solid var(--ink);background:var(--paper-raised);" />
+        <button id="free-search-btn" style="font-family:inherit;padding:.5rem .8rem;border:1px solid var(--ink);background:var(--indigo);color:#fff;cursor:pointer;">Buscar</button>
+      </div>
+      <div id="free-search-results" style="margin-top:.75rem;"></div>
+    </div>
+
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.75rem;">Volumen por día</h2>
+      <canvas id="chart-volume" height="180"></canvas>
+    </div>
+
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.75rem;">Balance de tono por político</h2>
+      <div id="balance-list"><p class="empty-state">Cargando…</p></div>
+    </div>
+
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.5rem;">Temas en tendencia</h2>
+      <p style="font-size:.78rem;color:var(--ink-soft);margin:0 0 .6rem;">
+        Palabras que más se repiten en los títulos de las últimas 48hs.
+      </p>
+      <div id="trending-list"><p class="empty-state">Cargando…</p></div>
+    </div>
+
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.5rem;">Menciones cruzadas</h2>
+      <p style="font-size:.78rem;color:var(--ink-soft);margin:0 0 .6rem;">
+        Políticos que aparecen juntos en la misma noticia.
+      </p>
+      <div id="comentions-list"><p class="empty-state">Cargando…</p></div>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  Datos recolectados automáticamente desde RSS públicos. El análisis de tono es
+  heurístico (basado en palabras clave), no un modelo de lenguaje entrenado:
+  usalo como una primera señal, no como verdad definitiva.
+</footer>
+
+<script src="./shared.js"></script>
+<script>
+// Pegá acá la URL de tu Cloudflare Worker (ver README, sección
+// "Buscador libre") para activar el buscador en vivo. Si lo dejás
+// vacío, ese cuadro queda desactivado sin romper el resto del panel.
+const SEARCH_PROXY_URL = "";
+
+const state = { mentions: [], aggregates: null, politician: "", sentiment: "", keyword: "" };
+let volumeChart = null;
+let dataLoadAttempts = 0;
+
+async function loadData(){
+  dataLoadAttempts++;
+  try{
+    const [mentionsRes, aggRes] = await Promise.all([
+      fetch('./data/mentions.json?_=' + Date.now()),
+      fetch('./data/aggregates.json?_=' + Date.now())
+    ]);
+    state.mentions = await mentionsRes.json();
+    state.aggregates = await aggRes.json();
+  }catch(e){
+    showWaitingState();
+    setTimeout(loadData, 15000); // reintenta solo, sin que el usuario haga nada
+    return;
+  }
+
+  const hasData = state.mentions.length > 0;
+  if(!hasData && dataLoadAttempts < 20){
+    showWaitingState();
+    setTimeout(loadData, 15000);
+    return;
+  }
+
+  populatePoliticianFilter();
+  renderAll();
+}
+
+function showWaitingState(){
+  document.getElementById('feed').innerHTML =
+    `<p class="empty-state">Todavía no hay menciones guardadas. Si acabás de subir el
+    proyecto, la primera corrida puede tardar 1-2 minutos en aparecer — esta
+    página se está fijando sola cada 15 segundos, no hace falta que refresques.
+    Si pasan varios minutos sin cambios, revisá la pestaña <strong>Actions</strong>
+    de tu repositorio para ver si la corrida terminó en verde.</p>`;
+}
+
+function populatePoliticianFilter(){
+  const select = document.getElementById('filter-politician');
+  const politicians = (state.aggregates && state.aggregates.politicians) || [];
+  politicians.forEach(p=>{
+    const opt = document.createElement('option');
+    opt.value = p.id;
+    opt.textContent = p.name;
+    select.appendChild(opt);
+  });
+}
+
+function renderAll(){
+  const updated = state.aggregates ? new Date(state.aggregates.generated_at) : null;
+  document.getElementById('last-updated').textContent = updated
+    ? 'Última actualización: ' + updated.toLocaleString('es-AR')
+    : '';
+  renderFeed();
+  renderVolumeChart();
+  renderBalanceList();
+  renderTrendingTerms();
+  renderComentions();
+}
+
+function renderTrendingTerms(){
+  const terms = (state.aggregates && state.aggregates.trending_terms) || [];
+  const el = document.getElementById('trending-list');
+  if(!terms.length){
+    el.innerHTML = '<p class="empty-state">Todavía no hay suficientes datos.</p>';
+    return;
+  }
+  el.innerHTML = terms.map(t=>
+    `<div class="stat-row"><span class="stat-name">${escapeHtml(t.term)}</span><span class="stat-balance">${t.count}</span></div>`
+  ).join('');
+}
+
+function renderComentions(){
+  const pairs = (state.aggregates && state.aggregates.comentions) || [];
+  const el = document.getElementById('comentions-list');
+  if(!pairs.length){
+    el.innerHTML = '<p class="empty-state">Todavía no hay cruces detectados.</p>';
+    return;
+  }
+  el.innerHTML = pairs.map(p=>
+    `<div class="stat-row"><span class="stat-name">${escapeHtml(p.a)} + ${escapeHtml(p.b)}</span><span class="stat-balance">${p.count}</span></div>`
+  ).join('');
+}
+
+async function runFreeSearch(){
+  const input = document.getElementById('free-search-input');
+  const resultsEl = document.getElementById('free-search-results');
+  const q = input.value.trim();
+
+  if(!SEARCH_PROXY_URL){
+    resultsEl.innerHTML = '<p class="empty-state">Buscador no activado. Configurá SEARCH_PROXY_URL en index.html (ver README).</p>';
+    return;
+  }
+  if(!q){
+    return;
+  }
+  resultsEl.innerHTML = '<p class="empty-state">Buscando…</p>';
+  try{
+    const resp = await fetch(SEARCH_PROXY_URL + '?q=' + encodeURIComponent(q));
+    const xmlText = await resp.text();
+    const xml = new DOMParser().parseFromString(xmlText, 'application/xml');
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 15);
+    if(!items.length){
+      resultsEl.innerHTML = '<p class="empty-state">Sin resultados.</p>';
+      return;
+    }
+    resultsEl.innerHTML = items.map(item=>{
+      const title = item.querySelector('title')?.textContent || '';
+      const link = item.querySelector('link')?.textContent || '#';
+      return `<p style="font-size:.88rem;margin:.5rem 0;"><a href="${link}" target="_blank" rel="noopener" style="color:var(--ink);">${escapeHtml(title)}</a></p>`;
+    }).join('');
+  }catch(e){
+    resultsEl.innerHTML = '<p class="empty-state">No se pudo consultar el buscador (revisá la URL del proxy).</p>';
+  }
+}
+
+function filteredMentions(){
+  return state.mentions.filter(m=>{
+    if(state.politician && m.politician_id !== state.politician) return false;
+    if(state.sentiment && m.sentiment_label !== state.sentiment) return false;
+    if(state.keyword){
+      const k = state.keyword.toLowerCase();
+      if(!m.title.toLowerCase().includes(k)) return false;
+    }
+    return true;
+  });
+}
+
+function renderFeed(){
+  const feed = document.getElementById('feed');
+  const items = filteredMentions().slice(0, 80);
+  if(items.length === 0){
+    feed.innerHTML = '<p class="empty-state">No hay menciones que coincidan con el filtro.</p>';
+    return;
+  }
+  feed.innerHTML = items.map(m=>{
+    const date = m.published ? new Date(m.published) : null;
+    const dateStr = date && !isNaN(date) ? date.toLocaleString('es-AR') : '';
+    const starMeta = { id: m.id, type: 'mencion', title: m.title, link: m.link, source: m.source, date: m.published };
+    return `<article>
+      <div class="mention-meta">
+        <span class="tag ${m.sentiment_label}">${m.sentiment_label}</span>
+        <a href="./politico.html?id=${encodeURIComponent(m.politician_id)}" class="politician-name">${escapeHtml(m.politician_name)}</a>
+        <span>· ${escapeHtml(m.source || '')}</span>
+        <span>· ${dateStr}</span>
+        ${window.RadarDestacados.starButtonHtml(starMeta)}
+      </div>
+      <p class="mention-title"><a href="${m.link}" target="_blank" rel="noopener">${escapeHtml(m.title)}</a></p>
+    </article>`;
+  }).join('');
+}
+
+function renderVolumeChart(){
+  const byDay = (state.aggregates && state.aggregates.by_day) || {};
+  const days = Object.keys(byDay).sort().slice(-14);
+  const totals = days.map(d=>{
+    return Object.values(byDay[d]).reduce((sum, v)=> sum + v.total, 0);
+  });
+  const ctx = document.getElementById('chart-volume');
+  if(volumeChart) volumeChart.destroy();
+  volumeChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: days,
+      datasets: [{
+        label: 'Menciones',
+        data: totals,
+        borderColor: '#B1502E',
+        backgroundColor: 'rgba(177,80,46,0.15)',
+        fill: true,
+        tension: 0.25,
+        pointRadius: 2,
+      }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+    }
+  });
+}
+
+function renderBalanceList(){
+  const byPolitician = (state.aggregates && state.aggregates.by_politician) || {};
+  const politicians = (state.aggregates && state.aggregates.politicians) || [];
+  const container = document.getElementById('balance-list');
+  const rows = politicians.map(p=>{
+    const stats = byPolitician[p.id];
+    if(!stats || stats.total === 0) return null;
+    const avg = (stats.score_sum / stats.total).toFixed(2);
+    const color = avg > 0 ? 'var(--positivo)' : (avg < 0 ? 'var(--negativo)' : 'var(--neutral)');
+    return `<div class="stat-row">
+      <span class="stat-name"><a href="./politico.html?id=${encodeURIComponent(p.id)}">${escapeHtml(p.name)}</a></span>
+      <span class="stat-balance" style="color:${color}">${avg} · ${stats.total} menc.</span>
+    </div>`;
+  }).filter(Boolean);
+  container.innerHTML = rows.length ? rows.join('') : '<p class="empty-state">Sin datos todavía.</p>';
+}
+
+function escapeHtml(str){
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+document.getElementById('filter-politician').addEventListener('change', e=>{
+  state.politician = e.target.value; renderFeed();
+});
+document.getElementById('filter-sentiment').addEventListener('change', e=>{
+  state.sentiment = e.target.value; renderFeed();
+});
+document.getElementById('filter-keyword').addEventListener('input', e=>{
+  state.keyword = e.target.value; renderFeed();
+});
+
+document.getElementById('free-search-btn').addEventListener('click', runFreeSearch);
+document.getElementById('free-search-input').addEventListener('keydown', e=>{
+  if(e.key === 'Enter') runFreeSearch();
+});
+
+loadData();
+</script>
+</body>
+</html>

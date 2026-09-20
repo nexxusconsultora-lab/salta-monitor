@@ -1,0 +1,52 @@
+name: Monitor de medios - Salta
+
+on:
+  # Corre automáticamente apenas subís o modificás el proyecto, para que
+  # el panel tenga datos sin tener que esperar el cron ni tocar nada.
+  # "paths-ignore" evita que el propio commit de datos vuelva a disparar
+  # este workflow en bucle.
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+  schedule:
+    # 5 minutos es el mínimo real que permite GitHub Actions (no existe
+    # "cada 1 minuto" en este servicio, ni pagando). Además, en momentos
+    # de mucha carga en la infraestructura de GitHub la corrida programada
+    # puede demorarse; es normal y no indica que algo esté roto.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor-salta
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install feedparser
+
+      - name: Ejecutar el monitor
+        run: python scripts/monitor.py
+
+      - name: Guardar los datos nuevos en el repositorio
+        run: |
+          git config user.name "radar-politico-bot"
+          git config user.email "radar-politico-bot@users.noreply.github.com"
+          git add data/mentions.json data/aggregates.json data/dossiers.json data/news_general.json data/topic_mentions.json data/topics_data.json data/events.json
+          git diff --cached --quiet || git commit -m "Actualización automática de menciones"
+          git pull --rebase origin main || true
+          git push

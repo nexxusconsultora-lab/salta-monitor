@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ficha pública — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+    --positivo:#4C7A5D; --negativo:#8B3A3A; --neutral:#8A8072;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,h2,h3,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:900px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  .back-link{font-size:.85rem;color:var(--ink-soft);text-decoration:none;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin:1rem 0 1.5rem;}
+  header h1{font-size:clamp(1.7rem,4vw,2.3rem);margin:.25rem 0 0;}
+  .role{color:var(--indigo);font-weight:600;}
+  .stats-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem;}
+  .stat-box{background:var(--paper-raised);border:1px solid var(--line);padding:.75rem 1rem;min-width:110px;}
+  .stat-box .n{font-size:1.4rem;font-weight:700;font-family:'Newsreader',serif;}
+  .stat-box .l{font-size:.75rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em;}
+  section{margin-bottom:2rem;}
+  section h2{font-size:1rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;border-bottom:2px solid var(--ink);padding-bottom:.4rem;margin:0 0 1rem;}
+  .quote-card{border-left:3px solid var(--clay);padding:.4rem 0 .4rem 1rem;margin-bottom:1rem;}
+  .quote-text{font-family:'Newsreader',serif;font-size:1.15rem;font-style:italic;margin:0 0 .3rem;}
+  .quote-meta{font-size:.8rem;color:var(--ink-soft);}
+  .quote-meta a{text-decoration:underline;}
+  .topic-pill{display:inline-block;background:var(--paper-raised);border:1px solid var(--line);padding:.25rem .65rem;margin:0 .35rem .35rem 0;font-size:.82rem;border-radius:2px;}
+  .article-row{padding:.7rem 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem;align-items:baseline;flex-wrap:wrap;}
+  .article-row a{text-decoration:none;font-weight:500;}
+  .article-row a:hover{text-decoration:underline;}
+  .tag{display:inline-block;padding:.1rem .5rem;font-size:.7rem;font-weight:600;border-radius:2px;color:#fff;white-space:nowrap;}
+  .tag.positivo{background:var(--positivo);} .tag.negativo{background:var(--negativo);} .tag.neutral{background:var(--neutral);}
+  .empty-state{color:var(--ink-soft);font-size:.9rem;}
+  .disclaimer{font-size:.78rem;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:1rem;margin-top:2rem;}
+  .star-btn{border:1px solid var(--line);background:var(--paper-raised);cursor:pointer;font-size:1rem;line-height:1;padding:.2rem .5rem;border-radius:2px;flex-shrink:0;}
+  .star-btn.is-starred{background:#FCE9C9;border-color:#C99A3A;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./centro.html">← Volver al centro de control</a>
+  <header>
+    <p class="role" id="p-role"></p>
+    <h1 id="p-name">Cargando…</h1>
+    <div class="stats-row" id="p-stats"></div>
+  </header>
+
+  <section>
+    <h2>Tono en el tiempo</h2>
+    <canvas id="chart-sentiment" height="140"></canvas>
+  </section>
+
+  <section>
+    <h2>Temas asociados (últimos 7 días)</h2>
+    <div id="p-topics"><p class="empty-state">Sin datos todavía.</p></div>
+  </section>
+
+  <section id="legal-section" style="display:none;">
+    <h2 style="color:var(--negativo);border-color:var(--negativo);">Menciones con vocabulario judicial en prensa</h2>
+    <p style="font-size:.82rem;color:var(--ink-soft);margin:-.5rem 0 1rem;">
+      <strong>Esto NO es una acusación ni una verificación legal.</strong> Son
+      notas de prensa cuyo título usa palabras como "denuncia", "imputado",
+      "causa judicial", etc. Pueden referirse a la persona, a un tercero
+      mencionado en la misma nota, o incluso a una desmentida. Siempre leé
+      la nota original antes de sacar conclusiones.
+    </p>
+    <div id="p-legal"></div>
+  </section>
+
+  <section>
+    <h2>Declaraciones citadas por los medios</h2>
+    <div id="p-quotes"><p class="empty-state">Todavía no se detectaron citas textuales.</p></div>
+  </section>
+
+  <section>
+    <h2>Artículos recientes</h2>
+    <div id="p-articles"><p class="empty-state">Cargando…</p></div>
+  </section>
+
+  <p class="disclaimer">
+    Esta ficha se arma automáticamente a partir de títulos y copetes de notas
+    públicas. Las citas son extracción textual entre comillas, no una
+    verificación periodística — siempre revisá la nota original antes de
+    tomar algo como una atribución confirmada. No incluye contradicciones ni
+    verificación de propuestas: eso requiere lectura semántica, no solo
+    conteo de palabras.
+  </p>
+</div>
+
+<script src="./shared.js"></script>
+<script>
+function escapeHtml(str){
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+async function load(){
+  const params = new URLSearchParams(location.search);
+  const id = params.get('id');
+  if(!id){
+    document.getElementById('p-name').textContent = 'Falta indicar qué político mostrar (?id=...)';
+    return;
+  }
+  let dossiers;
+  try{
+    dossiers = await (await fetch('./data/dossiers.json?_=' + Date.now())).json();
+  }catch(e){
+    document.getElementById('p-name').textContent = 'No se pudo cargar la ficha.';
+    return;
+  }
+  const d = dossiers[id];
+  if(!d){
+    document.getElementById('p-name').textContent = 'Todavía no hay datos para este político.';
+    return;
+  }
+
+  document.title = d.name + ' — Radar Político Salta';
+  document.getElementById('p-role').textContent = d.role || '';
+  document.getElementById('p-name').textContent = d.name;
+  document.getElementById('p-stats').innerHTML = `
+    <div class="stat-box"><div class="n">${d.total_mentions}</div><div class="l">Menciones</div></div>
+    <div class="stat-box"><div class="n">${d.sentiment_breakdown.positivo}</div><div class="l">Positivas</div></div>
+    <div class="stat-box"><div class="n">${d.sentiment_breakdown.negativo}</div><div class="l">Negativas</div></div>
+    <div class="stat-box"><div class="n">${d.sentiment_breakdown.neutral}</div><div class="l">Neutras</div></div>
+  `;
+
+  const days = Object.keys(d.sentiment_by_day).sort();
+  new Chart(document.getElementById('chart-sentiment'), {
+    type: 'bar',
+    data: {
+      labels: days,
+      datasets: [{
+        label: 'Balance de tono',
+        data: days.map(day => d.sentiment_by_day[day].score_sum),
+        backgroundColor: days.map(day => d.sentiment_by_day[day].score_sum >= 0 ? '#4C7A5D' : '#8B3A3A'),
+      }]
+    },
+    options: { plugins: { legend: { display: false } } }
+  });
+
+  const topicsEl = document.getElementById('p-topics');
+  topicsEl.innerHTML = d.top_topics.length
+    ? d.top_topics.map(t => `<span class="topic-pill">${escapeHtml(t.term)} · ${t.count}</span>`).join('')
+    : '<p class="empty-state">Sin datos todavía.</p>';
+
+  if(d.legal_mentions && d.legal_mentions.length){
+    document.getElementById('legal-section').style.display = 'block';
+    document.getElementById('p-legal').innerHTML = d.legal_mentions.map(lm => {
+      const meta = { id: lm.link, type: 'senal_legal', title: lm.title, link: lm.link, source: lm.source, date: lm.date };
+      return `<div class="article-row">
+        <a href="${lm.link}" target="_blank" rel="noopener">${escapeHtml(lm.title)}</a>
+        <span style="display:flex;align-items:center;gap:.5rem;">${escapeHtml(lm.source)} ${window.RadarDestacados.starButtonHtml(meta)}</span>
+      </div>`;
+    }).join('');
+  }
+
+  const quotesEl = document.getElementById('p-quotes');
+  quotesEl.innerHTML = d.quotes.length
+    ? d.quotes.map((q, i) => {
+        const meta = { id: 'politico-quote-' + id + '-' + i, type: 'cita', title: q.quote, link: q.link, source: q.source, date: q.date };
+        return `
+        <div class="quote-card" style="display:flex;justify-content:space-between;gap:.75rem;">
+          <div>
+            <p class="quote-text">"${escapeHtml(q.quote)}"</p>
+            <p class="quote-meta">${escapeHtml(q.source)} · <a href="${q.link}" target="_blank" rel="noopener">ver nota original</a></p>
+          </div>
+          ${window.RadarDestacados.starButtonHtml(meta)}
+        </div>`;
+      }).join('')
+    : '<p class="empty-state">Todavía no se detectaron citas textuales.</p>';
+
+  const articlesEl = document.getElementById('p-articles');
+  articlesEl.innerHTML = d.recent_articles.length
+    ? d.recent_articles.map(a => {
+        const meta = { id: a.link, type: 'articulo', title: a.title, link: a.link, source: a.source, date: a.date };
+        return `
+        <div class="article-row">
+          <a href="${a.link}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
+          <span style="display:flex;align-items:center;gap:.5rem;"><span class="tag ${a.sentiment_label}">${a.sentiment_label}</span> ${escapeHtml(a.source)} ${window.RadarDestacados.starButtonHtml(meta)}</span>
+        </div>`;
+      }).join('')
+    : '<p class="empty-state">Sin artículos todavía.</p>';
+}
+
+load();
+</script>
+</body>
+</html>

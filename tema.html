@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ficha de tema — Radar Político Salta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper:#F3EEE2; --paper-raised:#FBF8F1; --ink:#211D1A; --ink-soft:#5C554C;
+    --line:#D9D1BF; --clay:#B1502E; --indigo:#2B3A55;
+    --positivo:#4C7A5D; --negativo:#8B3A3A; --neutral:#8A8072;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.5;}
+  h1,h2,.serif{font-family:'Newsreader',Georgia,serif;}
+  a{color:inherit;}
+  .wrap{max-width:900px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+  .back-link{font-size:.85rem;color:var(--ink-soft);text-decoration:none;}
+  header{border-bottom:3px solid var(--ink);padding-bottom:1.25rem;margin:1rem 0 1.5rem;}
+  header h1{font-size:clamp(1.7rem,4vw,2.3rem);margin:.25rem 0 0;}
+  .stats-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem;}
+  .stat-box{background:var(--paper-raised);border:1px solid var(--line);padding:.75rem 1rem;min-width:110px;}
+  .stat-box .n{font-size:1.4rem;font-weight:700;font-family:'Newsreader',serif;}
+  .stat-box .l{font-size:.75rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em;}
+  section{margin-bottom:2rem;}
+  section h2{font-size:1rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;border-bottom:2px solid var(--ink);padding-bottom:.4rem;margin:0 0 1rem;}
+  .quote-card{border-left:3px solid var(--clay);padding:.4rem 0 .4rem 1rem;margin-bottom:1rem;display:flex;justify-content:space-between;gap:.75rem;}
+  .quote-text{font-family:'Newsreader',serif;font-size:1.15rem;font-style:italic;margin:0 0 .3rem;}
+  .quote-meta{font-size:.8rem;color:var(--ink-soft);}
+  .involved-pill{display:inline-block;background:var(--paper-raised);border:1px solid var(--line);padding:.25rem .65rem;margin:0 .35rem .35rem 0;font-size:.82rem;border-radius:2px;}
+  .article-row{padding:.7rem 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem;align-items:baseline;flex-wrap:wrap;}
+  .article-row a{text-decoration:none;font-weight:500;}
+  .article-row a:hover{text-decoration:underline;}
+  .tag{display:inline-block;padding:.1rem .5rem;font-size:.7rem;font-weight:600;border-radius:2px;color:#fff;white-space:nowrap;}
+  .tag.positivo{background:var(--positivo);} .tag.negativo{background:var(--negativo);} .tag.neutral{background:var(--neutral);}
+  .empty-state{color:var(--ink-soft);font-size:.9rem;}
+  .star-btn{border:1px solid var(--line);background:var(--paper-raised);cursor:pointer;font-size:1rem;line-height:1;padding:.2rem .5rem;border-radius:2px;flex-shrink:0;}
+  .star-btn.is-starred{background:#FCE9C9;border-color:#C99A3A;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./temas.html">← Volver a temas</a>
+  <header>
+    <h1 id="t-name">Cargando…</h1>
+    <div class="stats-row" id="t-stats"></div>
+  </header>
+
+  <section>
+    <h2>Tono en el tiempo</h2>
+    <canvas id="chart-sentiment" height="140"></canvas>
+  </section>
+
+  <section>
+    <h2>Políticos involucrados en este tema</h2>
+    <div id="t-involved"><p class="empty-state">Sin datos todavía.</p></div>
+  </section>
+
+  <section>
+    <h2>Declaraciones citadas</h2>
+    <div id="t-quotes"><p class="empty-state">Todavía no se detectaron citas textuales.</p></div>
+  </section>
+
+  <section>
+    <h2>Artículos recientes</h2>
+    <div id="t-articles"><p class="empty-state">Cargando…</p></div>
+  </section>
+</div>
+
+<script src="./shared.js"></script>
+<script>
+function escapeHtml(str){ const d=document.createElement('div'); d.textContent=str||''; return d.innerHTML; }
+
+async function load(){
+  const id = new URLSearchParams(location.search).get('id');
+  if(!id){ document.getElementById('t-name').textContent = 'Falta indicar qué tema mostrar (?id=...)'; return; }
+  let data;
+  try{
+    data = await (await fetch('./data/topics_data.json?_=' + Date.now())).json();
+  }catch(e){
+    document.getElementById('t-name').textContent = 'No se pudo cargar la ficha.';
+    return;
+  }
+  const t = (data.topics || {})[id];
+  if(!t){ document.getElementById('t-name').textContent = 'Todavía no hay datos para este tema.'; return; }
+
+  document.title = t.name + ' — Radar Político Salta';
+  document.getElementById('t-name').textContent = t.name;
+  document.getElementById('t-stats').innerHTML = `
+    <div class="stat-box"><div class="n">${t.total_mentions}</div><div class="l">Menciones</div></div>
+    <div class="stat-box"><div class="n">${t.sentiment_breakdown.positivo}</div><div class="l">Positivas</div></div>
+    <div class="stat-box"><div class="n">${t.sentiment_breakdown.negativo}</div><div class="l">Negativas</div></div>
+    <div class="stat-box"><div class="n">${t.sentiment_breakdown.neutral}</div><div class="l">Neutras</div></div>
+  `;
+
+  const days = Object.keys(t.sentiment_by_day).sort();
+  new Chart(document.getElementById('chart-sentiment'), {
+    type: 'bar',
+    data: { labels: days, datasets: [{
+      label: 'Balance de tono', data: days.map(d => t.sentiment_by_day[d].score_sum),
+      backgroundColor: days.map(d => t.sentiment_by_day[d].score_sum >= 0 ? '#4C7A5D' : '#8B3A3A'),
+    }]},
+    options: { plugins: { legend: { display: false } } }
+  });
+
+  document.getElementById('t-involved').innerHTML = t.politicians_involved.length
+    ? t.politicians_involved.map(p => `<span class="involved-pill">${escapeHtml(p.name)} · ${p.count}</span>`).join('')
+    : '<p class="empty-state">Sin políticos identificados todavía.</p>';
+
+  document.getElementById('t-quotes').innerHTML = t.quotes.length
+    ? t.quotes.map((q, i) => {
+        const meta = { id: 'tema-quote-' + id + '-' + i, type: 'cita', title: q.quote, link: q.link, source: q.source, date: q.date };
+        return `<div class="quote-card">
+          <div><p class="quote-text">"${escapeHtml(q.quote)}"</p>
+          <p class="quote-meta">${escapeHtml(q.source)} · <a href="${q.link}" target="_blank" rel="noopener">ver nota original</a></p></div>
+          ${window.RadarDestacados.starButtonHtml(meta)}
+        </div>`;
+      }).join('')
+    : '<p class="empty-state">Todavía no se detectaron citas textuales.</p>';
+
+  document.getElementById('t-articles').innerHTML = t.recent_articles.length
+    ? t.recent_articles.map(a => {
+        const meta = { id: a.link, type: 'articulo', title: a.title, link: a.link, source: a.source, date: a.date };
+        return `<div class="article-row">
+          <a href="${a.link}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
+          <span style="display:flex;align-items:center;gap:.5rem;"><span class="tag ${a.sentiment_label}">${a.sentiment_label}</span> ${escapeHtml(a.source)} ${window.RadarDestacados.starButtonHtml(meta)}</span>
+        </div>`;
+      }).join('')
+    : '<p class="empty-state">Sin artículos todavía.</p>';
+}
+load();
+</script>
+</body>
+</html>
