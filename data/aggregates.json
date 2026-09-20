@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-20T20:26:47.138256+00:00",
+  "generated_at": "2026-09-20T20:49:23.931005+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 91,
+      "positivo": 4,
+      "negativo": 11,
+      "neutral": 76,
+      "score_sum": -14
+    },
     "dip-juan-esteban-romero": {
       "total": 54,
       "positivo": 3,
@@ -77,13 +84,6 @@
       "negativo": 1,
       "neutral": 18,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 89,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 75,
-      "score_sum": -12
     },
     "dip-lino-fernando-yonar": {
       "total": 15,
@@ -395,6 +395,20 @@
     }
   },
   "by_day": {
+    "Fri, 18 Se": {
+      "gustavo-saenz": {
+        "total": 13,
+        "score_sum": -2
+      },
+      "sen-jorge-soto": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
     "Thu, 07 Au": {
       "dip-juan-esteban-romero": {
         "total": 1,
@@ -712,20 +726,6 @@
       },
       "sen-diego-cari": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "Fri, 18 Se": {
-      "gustavo-saenz": {
-        "total": 11,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 3,
         "score_sum": 0
       }
     },
@@ -5821,7 +5821,7 @@
   "trending_terms": [
     {
       "term": "tribuno",
-      "count": 487
+      "count": 489
     },
     {
       "term": "informatesalta",
