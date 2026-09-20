@@ -70,9 +70,12 @@ jobs:
           git commit -m "Actualización automática de fuentes oficiales"
           # El monitor de medios también guarda en este repositorio:
           # si justo hubo otro cambio, reintentamos hasta 3 veces.
-          for intento in 1 2 3; do
-            git pull --rebase origin main && git push && exit 0
+            for intento in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
             echo "Reintentando ($intento/3)..."
+            git rebase --abort || true
             sleep 5
           done
           echo "No se pudo guardar tras 3 intentos."
