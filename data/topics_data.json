@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-21T19:30:10.397181+00:00",
+  "generated_at": "2026-09-21T22:48:48.561236+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 47,
+      "total_mentions": 48,
       "sentiment_breakdown": {
         "positivo": 3,
-        "negativo": 3,
+        "negativo": 4,
         "neutral": 41
       },
       "sentiment_by_day": {
+        "Mon, 21 Se": {
+          "total": 2,
+          "score_sum": -2
+        },
         "Fri, 18 Se": {
           "total": 10,
           "score_sum": -2
-        },
-        "Mon, 21 Se": {
-          "total": 1,
-          "score_sum": 0
         },
         "Sun, 20 Se": {
           "total": 3,
@@ -52,7 +52,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 31
+          "count": 32
         },
         {
           "term": "tribuno",
@@ -63,11 +63,11 @@
           "count": 16
         },
         {
-          "term": "obras",
-          "count": 7
+          "term": "discapacidad",
+          "count": 8
         },
         {
-          "term": "discapacidad",
+          "term": "obras",
           "count": 7
         },
         {
@@ -116,6 +116,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Renunció Alejandro Vilches como secretario de Discapacidad en plena tensión por el Presupuesto 2027 - eltribuno.com",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcUtZMEE0T2JsOXFZS3hFQjR2c3lieDVJQ2p3azdIZTFkMVE2VHBqZFZSaVVfOHRmY203cENDNVV3bE9QYUZjcURGQnJJeE4tSVVPaGtYZlpud2o3Wlg5Uy1ULUQzVzItSGduTDRWdWNlVWhxRGE5ZWxWSGQ3MVJ4VDFYVlN0QnM4bVlxTVVWaUdrRjFiREJQcW9zdzd2Q0FXTUhITlBGUTBoUnBvMjR3M1p3ZkpCVEd6RDJhWEpuZGFFaUIyTmxoSW9DNjNSZzVsVlg0QXdhTWh6LTY5cnJ5MVFvY3drLWp40gHuAUFVX3lxTE4wbG1OU09DbzM0NkNRam4xRHoxUk8xbzhFMEduSWpOVHFNSjRzYVZ5Wm1JY01oVzZ1SG8xZHJyUjR1cE5BSWZpaHBuSGQ2RWp6RmNzWEdRU0dSRFhqRDlpR2VqNmVBTE5mX044RzkxaGtYZnp3a05ucU9ObThtaG1IdWdqVllsWFoyZ0tGRkZtN1dFRVBmQkNVWDRKNHZEamY3dzdFWU1QUW1VTUc2UGhiTm1MU0pOWFMtOVhhZkZWQWl0ODF1dDZETnN3MGRhbl9mLWNjVmRXa3NjTEdqN0JpbWJra2N2V0xFVXVMaUE?oc=5",
+          "source": "eltribuno.com",
+          "date": "Mon, 21 Sep 2026 20:00:00 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Presupuesto nacional 2027: el Gobierno de Gustavo Sáenz reclama más fondos para obras en Salta y advierte que - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdXZNOTBTM1hIYzllcEdQOGRIM0NmQ3ZUZUJRcUR4Q2V5aVEwR3l5RWV5cXp6dExrY0VDM29PbGZtT2tmZE9mS2duWC1jeFViS0pxaWxiY0d6czNpYVBMaFhXdVZzUEpONl85bTZJS0pjUVBST3NydmpNRnh5WEd2anZDNTdKS19zN2JLZ1pIZTdSeTJCZ0RjVVV3eVRBZDFsdnB3U0RJekY2Tmg4TkEtTWVUMll5Szg1S2k2YklPM0x3R3Z3T1pQTFRxTmFSOEVTeks5bzBQZ3VHbTjSAeABQVVfeXFMTnJjdDRRYVFtNDc3azZCNmFWdTZrN1J2TGt1aHYzTGVmUGhMTWExREtPTlRPM0dOVWdzanhIZjhzQU51UjU3OFoydFZ4R24wZFhOU2M3ZVliTFh1a2FTdjdMMmxzMnJZWHEtRXo3bm5xQXJqalBZNUtjQ0hqYzg5Q1lwWUZmUUdoQnhFUHhFenBnXy1FTjRUUm5lay03V054WTdnSGJwU0ota3ZCRm9fUWZVLXN0bDV6Q0ljRHBnQkxJbnhWMzdENHRFNGVrSnJxZHVhd0FKbGFYWnBTNE5rbmM?oc=5",
@@ -317,13 +324,6 @@
           "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU0otNlR6c3o4V09UWGlFWjJiN3NfaUJpVHpQQzV4T0ZfcTdyYmNoUUhrUlBkSndpYWhoV09GR01HdkFPeWV2ZDU0a2J6cmNpXzJHSHQtaUI1UWFYbDIyNnJZczJjOVNiZHFUUGRmeEdPZGFHSEVLdkRDUDdiWV8yOEdTeUUzZXRQOFMtT2dPS2Iwb01CY0ZhbWhIcWNpcEplTFJ5MzFUdWczeW1lc0pHRFV0UmU4WG9EeHhMVUhUQkI0X09lQm1fOVhNQzluSDNKTVktbmVGcmlnNEhNQnlZRmNiMnhtbWxES1l3aNIB-wFBVV95cUxQSVlLU21FTkJGZ251OENWeUxNRzhTSlBjd2FiNWVOR3g0QVJjNHU5TUpPd05kWDd4TlBkN0dMSE5wenNaa1ZKRUdHWWg0Tm1uSklHZmczb2JCSk5JQlllZm80WVVia3I0cUx1YTRFYm5TLVNDY1hyMU1LSG9Pb19YdFFsd19pVDUyODQ2QUk0Y2liMXZYVjVoZnhuZ2FlM01ka3BaU1dJRHpJNEtxa3BIRTNvU00wOXZ1VUZCSmJ3OG1aYndaZ3BIX0xMdG1FRGtERHRPOS1zTERiZnJFRG93TEI1Q0g1TnpjSEMxV0FteV9YbHpYeVJVX2VmTQ?oc=5",
           "source": "informatesalta.com.ar",
           "date": "Thu, 17 Sep 2026 10:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno propone eliminar la movilidad automática de la AUH y otras asignaciones - informatesalta.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYWRsRXVwTjlabTVfSVVmdGFteXo2anNPUlZvSzltT19waFg4V09hamVKeUVjU2hDZnU0aEc3QUVOcmNDVi0tUUxjN1dnTFEyeHhxTkxFd0dOLUdJMnR6YkJMVUZ1MmxTMVhWR1RMOG44dDlYd0NmRW9wT0l6TTVYaXFsXzFEdmROTFFKY1U5djE4VlhRdmVGODJfR1VXaDhBNWU1VnNneExQdTZscS1EcTBRZEpxdzU0WlpDLUZyOXJJQ0JqOHlZNU1yR1lxd085dEJaQzV4YU1GR3ZxWG11R09UQTBPM1dPc2s3cFMtVTBwSjFDTy1OQXdR0gGIAkFVX3lxTFB0RjFjSjc0bzJUN2p4eDY4RkRGZkl4WjBaY0l0WWdoSFBRQllCWGFod21Dc2g3dlZCblpNem5EOUlFRUYtMVN3R2c1cFZWY0xvc3NXS3owdmhXR3Fsb0lhVXBoZ3FEWFR2OFIwbVVvVkEzaXF3M2RUMDlzVmdSQ05LSXVaeFdwYUh6QU5nNjhUazVpd282QURQMW55TWE0Rlo5aUFSZDFSZ2I4T1RrcGtURGtycW1hSVdEaHBCcWhjTkluNml3Q2NtV3dYdGRFdnVJZVp6YmUxRmR5eHpja1hKdm03QzJ1NURBRy1VeGVGNFhyMFNHUXhmU0VPNHNTVUpJb1A3MDI2UQ?oc=5",
-          "source": "informatesalta.com.ar",
-          "date": "Thu, 17 Sep 2026 02:36:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
