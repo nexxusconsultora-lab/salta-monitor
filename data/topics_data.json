@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-09-21T14:10:18.829946+00:00",
+  "generated_at": "2026-09-21T19:30:10.397181+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 45,
+      "total_mentions": 47,
       "sentiment_breakdown": {
         "positivo": 3,
         "negativo": 3,
-        "neutral": 39
+        "neutral": 41
       },
       "sentiment_by_day": {
+        "Fri, 18 Se": {
+          "total": 10,
+          "score_sum": -2
+        },
+        "Mon, 21 Se": {
+          "total": 1,
+          "score_sum": 0
+        },
         "Sun, 20 Se": {
           "total": 3,
           "score_sum": 0
@@ -25,10 +33,6 @@
           "score_sum": -2
         },
         "Thu, 17 Se": {
-          "total": 9,
-          "score_sum": -2
-        },
-        "Fri, 18 Se": {
           "total": 9,
           "score_sum": -2
         },
@@ -48,11 +52,11 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 29
+          "count": 31
         },
         {
           "term": "tribuno",
-          "count": 21
+          "count": 22
         },
         {
           "term": "informatesalta",
@@ -60,29 +64,29 @@
         },
         {
           "term": "obras",
-          "count": 6
+          "count": 7
         },
         {
           "term": "discapacidad",
+          "count": 7
+        },
+        {
+          "term": "nacional",
           "count": 6
+        },
+        {
+          "term": "sáenz",
+          "count": 5
         },
         {
           "term": "intransigente",
           "count": 5
-        },
-        {
-          "term": "nacional",
-          "count": 5
-        },
-        {
-          "term": "milei",
-          "count": 4
         }
       ],
       "politicians_involved": [
         {
           "name": "Gustavo Sáenz",
-          "count": 4
+          "count": 5
         }
       ],
       "quotes": [
@@ -112,6 +116,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Presupuesto nacional 2027: el Gobierno de Gustavo Sáenz reclama más fondos para obras en Salta y advierte que - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdXZNOTBTM1hIYzllcEdQOGRIM0NmQ3ZUZUJRcUR4Q2V5aVEwR3l5RWV5cXp6dExrY0VDM29PbGZtT2tmZE9mS2duWC1jeFViS0pxaWxiY0d6czNpYVBMaFhXdVZzUEpONl85bTZJS0pjUVBST3NydmpNRnh5WEd2anZDNTdKS19zN2JLZ1pIZTdSeTJCZ0RjVVV3eVRBZDFsdnB3U0RJekY2Tmg4TkEtTWVUMll5Szg1S2k2YklPM0x3R3Z3T1pQTFRxTmFSOEVTeks5bzBQZ3VHbTjSAeABQVVfeXFMTnJjdDRRYVFtNDc3azZCNmFWdTZrN1J2TGt1aHYzTGVmUGhMTWExREtPTlRPM0dOVWdzanhIZjhzQU51UjU3OFoydFZ4R24wZFhOU2M3ZVliTFh1a2FTdjdMMmxzMnJZWHEtRXo3bm5xQXJqalBZNUtjQ0hqYzg5Q1lwWUZmUUdoQnhFUHhFenBnXy1FTjRUUm5lay03V054WTdnSGJwU0ota3ZCRm9fUWZVLXN0bDV6Q0ljRHBnQkxJbnhWMzdENHRFNGVrSnJxZHVhd0FKbGFYWnBTNE5rbmM?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 18 Sep 2026 19:19:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Discapacidad: Alertan que el Presupuesto 2027 podría dejar sin cobertura a quienes no puedan pagar - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbFRqRzJicGYtd2U3eHR3cUs1d3VMczZsa2g2NjN5UHVkZXU4MjFiR09kcXB4cFp2MERfNUIyVmFZSXhZWE9aR1JGSHNUVVpEZEg1Q2F1elp6OGlhdE55MndYTm1rZlFtS1JNNjlVZ3JRMHFOTTA0T0xmeGw5Z1U2aklDd0lMTW9hek1TRTdlbnJkQTNJNTd6WjNlaFg0RmxacUdsZ1JKcFJTTDktWHoyeGkxMkJKX3lqU0xSTU9rMkFOWkczY21LdjZEdDU5WXJEalBuRGdrTkxPQTlLMXZYVUZNN3hzWTJFN2pJRU5jWVRPdWx2MUHSAYQCQVVfeXFMTk5EcDJ5VUZVSHVJcl9faWlzUmVoRHVyTkJrVzZ3bEhYSV9GOVVNV1lkUzhNRHZXSlViZUsxZHMtdXVTbTNjS3RhZ0tJd3VJdno4OEQzeUFtYWs4dW5CR0JEcWplQ3RpMWZmd0p5akRfWjRObnB2SFE4dzJlUnZVZlc0Um9xeV9haDJfbFdlSzAzVmdBeVg4Rk5US1NKSmFsUlNfaVdNdjI1UWJSaWFLazc0Y1JpbV9jMWo2QWd0QUxSbGtkelZ4TjR4eG1UNkJTZU5ieFU4bFdwSmRrcXNfQWhkbl9vb05Vc2dmbGxZMVdrdlBNRGstRllDUElEUHg0V1NHdUY?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 21 Sep 2026 13:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Presupuesto 2027: las diez obras públicas más caras suman $585.000 millones - elintransigente.com",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSjNsWmxRVEExM3RZbklCTTFWUXBGVTZmeGdDYUR6b2lQbVdhSjhDUUZYVVdaRmRDYXpxc1hxTF93OXdCTVBlbXJHNU0zaXdvYlJ4c1pDTW5KT1VKZ054NmhUV1VELU82YndFck9VRDZGWjhqblREXzJuSUMwQXFmQ0NsZEU?oc=5",
@@ -306,20 +324,6 @@
           "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYWRsRXVwTjlabTVfSVVmdGFteXo2anNPUlZvSzltT19waFg4V09hamVKeUVjU2hDZnU0aEc3QUVOcmNDVi0tUUxjN1dnTFEyeHhxTkxFd0dOLUdJMnR6YkJMVUZ1MmxTMVhWR1RMOG44dDlYd0NmRW9wT0l6TTVYaXFsXzFEdmROTFFKY1U5djE4VlhRdmVGODJfR1VXaDhBNWU1VnNneExQdTZscS1EcTBRZEpxdzU0WlpDLUZyOXJJQ0JqOHlZNU1yR1lxd085dEJaQzV4YU1GR3ZxWG11R09UQTBPM1dPc2s3cFMtVTBwSjFDTy1OQXdR0gGIAkFVX3lxTFB0RjFjSjc0bzJUN2p4eDY4RkRGZkl4WjBaY0l0WWdoSFBRQllCWGFod21Dc2g3dlZCblpNem5EOUlFRUYtMVN3R2c1cFZWY0xvc3NXS3owdmhXR3Fsb0lhVXBoZ3FEWFR2OFIwbVVvVkEzaXF3M2RUMDlzVmdSQ05LSXVaeFdwYUh6QU5nNjhUazVpd282QURQMW55TWE0Rlo5aUFSZDFSZ2I4T1RrcGtURGtycW1hSVdEaHBCcWhjTkluNml3Q2NtV3dYdGRFdnVJZVp6YmUxRmR5eHpja1hKdm03QzJ1NURBRy1VeGVGNFhyMFNHUXhmU0VPNHNTVUpJb1A3MDI2UQ?oc=5",
           "source": "informatesalta.com.ar",
           "date": "Thu, 17 Sep 2026 02:36:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027 y Malvinas: el Gobierno define este lunes dos iniciativas para el Congreso - informatesalta.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZlQwb2RVMmk0ME9JV0UwTExHb0NGYTEwT29ueF95WnZweUhodUlOZ2lYc3NYcGNUci1nZEVNdkVINm83bEpCanBxNnIxY2RxNTBPN3FKd3ZRX1k3RmFoc3RKVGdOWlBUOVZvY0JlWGZXWFJ2eDlGRTFWb2lidHRkWGFsTU1ReEFUT3JiTTJWQVFITUdWMWdHWlZSQnVmLTVzQ1VFZFd3R3UwY24waVBEY2YyYW9hclNqWFRLQUNxQ3NQLXFjZHRsLURzZno3M1pZMVBOUjNYZVU5bEJidDVPVXZ2MjJ5MDVWY3pOedIB-wFBVV95cUxORm40eXc0WTJKZklpdFZwNjdVdGRVTjA2N042RFNrWlh3TDZaVnpuUUFpaUIzZGFSR0ttOFFCVHptel94ckxaLUlMWjZYYzlQZ0ZaWmlyTVFPSXZ1cldHaU1ESHhydV95WHRBVW1kRS0zSmVzNXZXVmJfOGFKZkwxODFYNWhmMnA1TGVpN1NtMHhpblBDQUNJdFB0bTZ1ODdTMVlhTThBNUF6ZS1WQk1qYVgzbzJ6Ynl6REF5cVZLVHBPZEZwb0NUN2QxcWduNUxoUzBDVzlFUTk0blcxaDJoaTlzc01NUjV6VG1PeHZLbURPTVI0cXRlcXdvRQ?oc=5",
-          "source": "informatesalta.com.ar",
-          "date": "Sun, 13 Sep 2026 22:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "La minería en Salta tiene lugar en el presupuesto 2027: se buscará uranio - informatesalta.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ2ZBWklvMEJLV29qNm0tRzhvOVQwYzVlemxHN3dFYi1VX1JRV3RsTDB6U1JxS05JMWM4cUsyYWN0QWlTNmxwUEN1SU1PZ2NubXdRVGRNVlVsZ2hrVDkxeEdTWVZsWWQtWUdTSmdTYUgwcGpYVjdVczJfbVhfOVBtb1dmWHA4UWwzNmtfQi1FTmtnRzhXTnV6NHFISzJMR0FPeU9pUkVCTnhkWDVIRGRQUE0yY3NhUWhjOFptd3FfVWF4eU9PRk9TUGxiZVV3LWZUbkln0gHiAUFVX3lxTE1OaU1nNGdFYnVTUDIxLS1MN0NranpOaVVVcE1nOFF6V2RZZDVQOUpLbzBLelJpcURHZW1ZMlVsZk11RDZYbEVHR1dxeGd1b1ZhLVdDUWVQWXVnckNydjRiLUdNV01ub2ZUZTNoZXNocklkUGtyRnBuZUNvZFI0TGYzcDdWU0hKNURrT2JOa0gtYTBqNjNSU1pCenJPZ2hGSkFqSWFQQmJyUTdCME5icU1JbHhuQnhQSWZNcXlXZUdvYk5lWEllaG1CM3dNT3BCVHp6MEhlQm96UUFzV3V3TllnRGc?oc=5",
-          "source": "informatesalta.com.ar",
-          "date": "Thu, 17 Sep 2026 00:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
