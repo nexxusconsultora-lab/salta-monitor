@@ -1,0 +1,61 @@
+name: Nómina de legisladores - Salta
+
+on:
+  # Se ejecuta apenas subís o cambiás el script, para que la lista se
+  # actualice sin esperar al horario programado.
+  push:
+    branches: [main]
+    paths:
+      - "scripts/nomina.py"
+      - ".github/workflows/nomina.yml"
+  schedule:
+    # Una vez por día, 09:30 UTC (06:30 de Argentina). Las nóminas
+    # cambian muy de vez en cuando (renuncias, licencias, nuevos
+    # legisladores), así que más seguido no aporta nada.
+    - cron: "30 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Grupo propio para que no se cancele con el monitor ni con oficiales.
+concurrency:
+  group: nomina-salta
+  cancel-in-progress: false
+
+jobs:
+  nomina:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No hay "pip install": el script usa solo lo que trae Python.
+      - name: Actualizar la nómina desde los sitios oficiales
+        run: python scripts/nomina.py
+
+      - name: Guardar los datos nuevos en el repositorio
+        run: |
+          git config user.name "radar-politico-bot"
+          git config user.email "radar-politico-bot@users.noreply.github.com"
+          git add data/politicians.json data/nomina_status.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios para guardar."
+            exit 0
+          fi
+          git commit -m "Actualización automática de la nómina de legisladores"
+          for intento in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
+            echo "Reintentando ($intento/3)..."
+            git rebase --abort || true
+            sleep 5
+          done
+          echo "No se pudo guardar tras 3 intentos."
+          exit 1
