@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 125,
+    "total_mentions": 126,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 13,
-      "neutral": 106
+      "neutral": 107
     },
     "sentiment_by_day": {
+      "Tue, 22 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 15 Se": {
         "total": 8,
         "score_sum": 0
@@ -154,7 +158,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 63
+        "count": 64
       },
       {
         "term": "tribuno",
@@ -279,6 +283,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Javier Milei lo lleva de viaje a Gustavo Sáenz: qué agenda tendrán en París - Informate Salta - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeW9GbzUtdVZJdmd5Y1dYYWVXb0taXzBmbmFTSTJ3bXAwZWc4bWhLZElaRlpmN2NtLVV3VER5Q2dPLVcycngwdkVVUjV3OGlmS3FZMnBFWVNYVnRKS3pSanRwcU5YZkpGMG9zSVFKc2hJMml6WE9LSkp6X25kYWV3Q3ZwZERwdFN1anEtMGE4emRGNmxLNl8zM0twWXJ0RTFTckVELWFJTUMyNGY2c2ZVbGh6M29xNVdCd2ZFOFB0S0ZSSy1TQmxZazNYd0ZpUW5EQnFjS0RBZ1JJVzVEZXpoOFhodVlOaVNEd3UxV1R3?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 22 Sep 2026 00:41:50 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz y Victoria Villaruel encabezan la misa estacional en honor al Señor de Milagro - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaU42STJTZ0o4Tzl4NTZYdl9fcUlqd2J6cHZsYzRreEJXb1hZOEg1UVltanhCbXV5SUtTbGQ0SVhzbm1LZW12WjVlaVR3RFhoVFNRRFcxdTVUeVBpSk5DZmFkQnc2RlRSN09SWEdjZEtKZXQxQzZNamNCdmZGeFM1RFdzRkRUZDRtaGtVUXZvT0F1YmJfQWRVTjF6TDI4UQ?oc=5",
@@ -481,13 +492,6 @@
         "source": "El Tribuno",
         "date": "Sun, 20 Sep 2026 20:24:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Salta será sede de un encuentro científico sobre volcanología y geotermia - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVG1NVklPdkdYZXZqZnl0Sjdwb09xNXc1WmpfRUNYSkdWUXQ0V3ZPc2RHLUVqbWtJRm9vV0RDVUswTzVxRW9lbjV4Uk1tOEF2alVyemZoeXAyZ1pZaUFMeGpNd0o5M0lmb0NtMzNSSnVtcjVsZ2dldU41Z2F1aFJFY3JYLVJuZEVROUF4RlhkS0dhY1VMQzZkZ0NrOWUwZDJPQWh2cjRKMVZ0NUQyQ3BuVkp2dTF0d295aXlDOVVraWXSAcYBQVVfeXFMT3JpQkpKNnJoOW9DM0NkbnpxVWxPcTMyVEJKaHZQMHRGdC12ZVhSZEt3REw4bTE2MEQ4QXo3SjRxLXRWM2RqOFBOam1EZjhTV0llN3hqRXAzRUZpRTk4dFczNng2ZHpMaDZsV3BUV1FGUU1HNWFJN3VfT0JibHFMbDNOYTN0ckEtbGpKT3RWZURZNTBtOGMza1NZcl9Rem16VksycmhhazVvbGs2MzdBUm5tek5uVGNvWXVwbDI4UzZxRnlBaXZn?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 21 Sep 2026 00:49:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -19693,13 +19697,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 2
+      "neutral": 3
     },
     "sentiment_by_day": {
+      "Fri, 08 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 12 Ma": {
         "total": 1,
         "score_sum": 0
@@ -19709,10 +19717,29 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
-    "quotes": [],
+    "top_topics": [
+      {
+        "term": "defrentesalta",
+        "count": 2
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Rodrigo Quinteros es un ñoqui del Congreso, cobra $1,6 millones y quiere asumir como concejal",
+        "source": "Defrentesalta",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXhieVFLVkJ3UUxQbEFpcTZvZWlLSGdHTXd3YmdHU290SDNrNGNhMC1GdGNESDRNMDg0MURkWDlTYkZBdGtUZXpJUW1aT1ByRTk2Q3h1SXhWNE5ub3FJUGdCMjdEYnFrenUwb0pFZks5VXo3WEZjRUtwQWFBX29TT0dEMms2N1hqbDd0SEJoa2s1bGNWUXl4cVRFUkdUTTdrSlp5ODh6WVFnS0diYmxURUNXMWpjSzUwZnRCR0k3bTl4MVE?oc=5",
+        "date": "Fri, 08 Aug 2025 07:00:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Daniel Murillo: \"Rodrigo Quinteros es un ñoqui del Congreso, cobra $1,6 millones y quiere asumir como concejal” - Defrentesalta",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXhieVFLVkJ3UUxQbEFpcTZvZWlLSGdHTXd3YmdHU290SDNrNGNhMC1GdGNESDRNMDg0MURkWDlTYkZBdGtUZXpJUW1aT1ByRTk2Q3h1SXhWNE5ub3FJUGdCMjdEYnFrenUwb0pFZks5VXo3WEZjRUtwQWFBX29TT0dEMms2N1hqbDd0SEJoa2s1bGNWUXl4cVRFUkdUTTdrSlp5ODh6WVFnS0diYmxURUNXMWpjSzUwZnRCR0k3bTl4MVE?oc=5",
+        "source": "Defrentesalta",
+        "date": "Fri, 08 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Estos son los 11 concejales electos por Salta Capital - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3B6M0syeFdUanlGcHdobE5jY3prTkpUSnlBem1pbG94aXdjaERqUHlQd2I0Q0h5QV80VDloZDNlOWxaQXR0ZndiOV84bVdMT3lSMFFmbnVTY242VF9uaHVMY2Mza2RHazhEZWpfU21mcGduakJQRXZxdGdJWldMRTFkLVdSU3pQTC1Vbzc1WTVFNGdIWWtIMjYzREc3em8?oc=5",
@@ -21550,22 +21577,42 @@
     "id": "dnac-yolanda-vega",
     "name": "Yolanda Vega",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 1,
+    "total_mentions": 2,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 0,
-      "neutral": 0
+      "neutral": 1
     },
     "sentiment_by_day": {
+      "Wed, 04 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 01 Ju": {
         "total": 1,
         "score_sum": 2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "yolanda",
+        "count": 2
+      },
+      {
+        "term": "vega",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Yolanda Vega, la diputada que más utilizó los viajes en avión del Congreso - nuevodiariodesalta.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHoyRVNtczZZNENzVmdUQUxVLTI5RDhwemRuUXJXdmxCT29qUlljNHJuYkZxZ0pUWTlCN0oyYXhDR3c1TERqd2U3SG8xcDRnOE1Udi1lRWdrMmRCek5naHRWZ3NWZUJOMmpyc1F2dGZJdF95MGFlbkR6VkFyb1NRUGl5M2M1OEJFMzc0ckVzT2VOQUNxR1VRd2NCY0lWNXpEVmxMZGNEOF9rd0pF?oc=5",
+        "source": "nuevodiariodesalta.com.ar",
+        "date": "Wed, 04 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Impulsan a Yolanda Vega para candidata a vicegobernadora de Sáenz - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVNTWDdOejBFcTY3TENoSUtYaXVQNWJIbEZoREJHQ0FlZjBlS095TkY3UXA3MGlzVXR0QUhPRl9fSTRkVGdib0lRd3J4VElwVjZ4NFdOVzNKdzFkeXVBZ1Y3TkpXbGlybk5ya0lNNjdxeWVab2Q3X2kweWVpclRJTkRiQ0N1VUJ2TkN3dFdjUC0zcHVhS0ZqUlNHOHFnNGRfR1E?oc=5",
