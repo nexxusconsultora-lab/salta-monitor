@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-09-22T01:18:52.884855+00:00",
+  "generated_at": "2026-09-22T06:24:10.129541+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 70,
+      "total_mentions": 73,
       "sentiment_breakdown": {
-        "positivo": 4,
-        "negativo": 6,
+        "positivo": 5,
+        "negativo": 8,
         "neutral": 60
       },
       "sentiment_by_day": {
+        "Mon, 21 Se": {
+          "total": 6,
+          "score_sum": -2
+        },
+        "Tue, 22 Se": {
+          "total": 1,
+          "score_sum": -2
+        },
         "Wed, 16 Se": {
           "total": 10,
           "score_sum": 2
@@ -27,10 +35,6 @@
         "Sat, 19 Se": {
           "total": 17,
           "score_sum": 0
-        },
-        "Mon, 21 Se": {
-          "total": 4,
-          "score_sum": -2
         },
         "Sun, 20 Se": {
           "total": 6,
@@ -52,7 +56,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 50
+          "count": 51
         },
         {
           "term": "tribuno",
@@ -64,23 +68,23 @@
         },
         {
           "term": "discapacidad",
-          "count": 12
+          "count": 14
         },
         {
           "term": "pasa",
-          "count": 12
+          "count": 14
         },
         {
           "term": "obras",
           "count": 11
         },
         {
-          "term": "elintra",
-          "count": 7
+          "term": "cambios",
+          "count": 9
         },
         {
-          "term": "cambios",
-          "count": 7
+          "term": "nacional",
+          "count": 8
         }
       ],
       "politicians_involved": [
@@ -90,6 +94,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Como está hoy hay que repensarlo",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjBVM0ZIQmZQVWthX3BWaW1BdWpVV1dCeE9WSHdvS3JONlkzMUFRR01wdDNxSE1ldENZQm5OOXItcEtlN1VoWHlpNmh1MkcwMFZwdEtJeDF3c2JFUDlJanVDc0dubWVQejRmRktvZVhpd25LQzVPZDJWSjVldDRLdVlPWnAtdGE1LWstYVE4d3BhSG1GVzJVSTVkYXl0UFY5WWFjX0twYmx1UjY1Z0V3SkttQ2tTckJQR0g3WnlkcExTbGVU?oc=5",
+          "date": "Tue, 22 Sep 2026 01:04:18 GMT"
+        },
         {
           "quote": "Presupuesto 2027",
           "source": "Elintra.com.ar",
@@ -140,6 +150,27 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Alerta entre familias salteñas por los cambios en discapacidad que impulsa el Gobierno nacional - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPekZCcTNObnNfbkZONEp4VlB2aEhhaUNnVUdkSUxqcnJIOEhwZVVxSy01Y1JvV25zbzdmX2lfZENlYS1STmVPdTBFVGJoMVo5UnhrYXVIOEZTNEVXOFpjQlFjaVc1Y256QmhWQm5uRlNXeVo5Q0E3TVo0aWhnRHpOdzdyNHFHTm9EUnU2WTV1ZXFMajVaWFotcmVDSlQ?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Mon, 21 Sep 2026 14:14:14 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Renunció Alejandro Vilches, funcionario de Discapacidad: el desgaste que marcó su salida - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUNSZk8zOWllYURibzhmckVPVlFEekZjVHBvSktNUVNBdW1aN1RYaUZKREZHWHBjRTM1RWdBQmFnTTVkd2liOU5QYkpJU0gxYzZ6b1BTTkEweUNva295aHp2NkRxOWVCM0tTWmRGdGlKWFVWTkF5Sjd5Sm54NFVaSWQ2SG5vcXF3elZ1WndzYjZxUEpKU2hF?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Mon, 21 Sep 2026 20:05:04 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Carlos Sadir rechazó el Presupuesto 2027 y pidió cambios: “Como está hoy hay que repensarlo” - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjBVM0ZIQmZQVWthX3BWaW1BdWpVV1dCeE9WSHdvS3JONlkzMUFRR01wdDNxSE1ldENZQm5OOXItcEtlN1VoWHlpNmh1MkcwMFZwdEtJeDF3c2JFUDlJanVDc0dubWVQejRmRktvZVhpd25LQzVPZDJWSjVldDRLdVlPWnAtdGE1LWstYVE4d3BhSG1GVzJVSTVkYXl0UFY5WWFjX0twYmx1UjY1Z0V3SkttQ2tTckJQR0g3WnlkcExTbGVU?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 22 Sep 2026 01:04:18 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "All posts tagged \"Presupuesto 2027\" - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKejhxS2FUUFczYnNNWmNTb1huQkhrZG5SbU1SMFVkTm1WbXEwel9WRzA1bjJvQzdrU19kOENpWHdQcWNJTW5qYnExcFh2akhTZFNJVGd5OA?oc=5",
@@ -327,27 +358,6 @@
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWW1iNTBoQTVRLW9OSG1MeWVnTE1FSWlYNDlzZ053WmZpR3hFTHFhR19kaEJvS1h2ZmsyZVdsVkNPZmttTVhXQ0xZd1lPZmFRYzdBMTFkVmxtdi1hOUozQ0ZPS2tFOWYwWVhnMTBPRTJ0TmpybXc0VUJWMmZLUHp4RzJmcDZiakZ0YTVUZ0lxM0pHUFRJZDN4aEs4TDhmY1JranJaV1B4SGxITzIxRWVwcUlWUzgxXzVxQ1JaR1RWM0JkQ1hVN0VQcVFR?oc=5",
           "source": "El Intransigente",
           "date": "Sun, 20 Sep 2026 16:43:33 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno busca eliminar los aumentos automáticos de las asignaciones familiares y la AUH - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWl9Fc0FueEtQMmFOSXlRSVVqZlhmOHlpcEZYMGlfVDJFekFlWG0tbm5mN0swM0FDY2pTNFl0aVNpWHpnT2dhYVlBOXpmUTFCZHNnMU9vR05PQWxpaFRVNkp0X2liYkdPVnNGaHhyeVF5TkNHZjJjMmFSdlpRZE05VE16U3dPRUJFZHh5TlVjZ2NkXzRrY1FkQjRkcmtUeVpOZlAxX3FjNko2Qklmdmtwc3c4akZlRWZkWmJQUFJScV9TRkVKNExGMFFsTmFma3JZME5TSk45R184ZTRZcmkw0gHkAUFVX3lxTFBpZGQ5djRiQlhBcUprVnp1ZWs4ZWpaNFg3RzhJSHJ3U1RtcElvYlp0WmxBN3luUUQ3N050a0xYQUQwZkZKbi1wUGgzeHEtdFI1dzNxeDRnaDdBZjR0VnllNVJHbjI1WFBFN2RHd2FXNW5yTkxzNVpPSDVSS2ZDN2MzXzJvZEp4QkdDczMyWWtxVF9ya2J1OUZUMmxBMy1ENHpndWdOS0xZMm92aW9aaXpEa2NZdUlzWDVJbU5meXBhemJXR1hjTFhiSlp5M1ZSTWY0ZDFwOXNvd0t5Z3kyTEpGN1RVQQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 16 Sep 2026 16:17:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta participó en la III Reunión del Consejo de Seguridad Interior en San Juan - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT21LYzhmWmRVY1NkdXkzWDRMWWpCVmN2THItLWwxUmtmb1BoXzBob21RWUkzeXZkTHp5QXVfUTRDbHVGN2VTYTZvZUxUZ0Uxa2ZTYVZYSlBrSmktT2NTc194RmNHVXBhUWdWTUk1QUlhVjhBRk13bTZWd1JkUnZ0czFSeW9qaThiM2FaWlBtRlFKbUoxd0VlSW9BOU43OEtkaWFsLTA0cnFjbW5SUG1JbzRsLVVYRFE4V1JJSzB0bjQzMVNxclB0SXdOOXo2STdDWTJnVDlVcldnNWNo0gHrAUFVX3lxTE1URU5tSl9DTHBsVVJIcXZJWTNVbWZkUU5sZTlER1FxZUY2aVJEMWpZLV81dEh6SmtaOG1qLVhyamliNlRyYlRhTzVYalNwR3J3UEswQmo0OGNyYzRUNFBBMmxtTlZMZFJFRjVnd2VKMkE2VEVnVEdSb3JpQ0YyM0pLTXpTX3V4T2t5MElvYXA1MHFpWExYUWdDaWhIQmNnX2JHUC1Ockg2WTNfM1N5UzlVR004bWpFREkycmJwU2FRdFlNc0VHd25Cbk5Ja1lFLURfNGJfTE9oRGcyRnk2TW92OW1rS21pb29ET1U?oc=5",
-          "source": "Informate Salta",
-          "date": "Sat, 19 Sep 2026 22:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto Nacional 2027: Salta, la segunda provincia con más obra pública proyectada - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0VmQVZhWTlJMC1SV095NXUzN3QxSkdpNWRuTU1EeVFkYnFaV1B5bndGZURURFdCVkpVQ3lOdGpmUWQzT1F1WkE0dXJIbVA4RVpwdkNFelZ2MkZyYTVpNmNqNndEUF8tUjN2bHN3UEhEQ3BCS1V5VWlFbGl2WEdocEVrQURkX2hWckt5YTdOLUpXVkU2eHhBOTRmcVBfbXZPS2ZqaVpTUW9tRlhPSkFpN19PUVNTRkRBSzFrbEdDNndHTjBVQ05QOUlQX1k1OFZJMXJLZzNEeEFPcnUtcEdXMHk3bERYQdIB9AFBVV95cUxPTDV6eHlGZm1yNzh0YTI2eGNzaVZrWWZKdWp4RDBzSHVnX1NBbkhLak53bVlLTjRUVUh1VUhLQ2VieHVmSVQ3VlFiRmEzV0E5SlViNy1NQ3VmM3lHWDdFRzRtUm1lbjJnbFFYMGNxUUY5ZHptc1h2c1hpSTNpWGlHSm9LbjZpNy1lUXMzSkdyLUZ0M3hZeWd2TlFPSUltbUNHcUx0LVRzeGFZWVFkLWg4SVNkT3ItajdldE9sbDBNbHYtQXNGOTJXVVdONlVybXkzOFI5a1ptckU0UlM2SlFRYjFiNTV5RHBnU3Y0MV9yRGVUQ1VP?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 17 Sep 2026 11:45:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-09-22T01:18:51.885168+00:00",
+  "generated_at": "2026-09-22T06:24:09.229036+00:00",
   "by_politician": {
     "snac-emilia-orozco": {
-      "total": 26,
+      "total": 28,
       "positivo": 1,
       "negativo": 5,
-      "neutral": 20,
+      "neutral": 22,
       "score_sum": -10
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 0
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 128,
+      "positivo": 6,
+      "negativo": 13,
+      "neutral": 109,
+      "score_sum": -14
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 6,
@@ -35,13 +56,6 @@
       "negativo": 0,
       "neutral": 3,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 126,
-      "positivo": 6,
-      "negativo": 13,
-      "neutral": 107,
-      "score_sum": -14
     },
     "dip-eduardo-jose-virgili": {
       "total": 6,
@@ -329,20 +343,6 @@
       "negativo": 2,
       "neutral": 3,
       "score_sum": -6
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 0
-    },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 7,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 7,
-      "score_sum": 0
     },
     "dip-patricio-penalba-arias": {
       "total": 10,
@@ -780,6 +780,62 @@
     }
   },
   "by_day": {
+    "Sun, 13 Au": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 17 Au": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 10 Ap": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 20 Oc": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 05 Oc": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 19 Ju": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Mon, 07 Ap": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -2136,24 +2192,6 @@
         "score_sum": 0
       },
       "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Sun, 17 Au": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
         "total": 1,
         "score_sum": 0
       }
@@ -4576,16 +4614,6 @@
     },
     "Mon, 12 Ap": {
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 05 Oc": {
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
         "total": 1,
         "score_sum": 0
       }
@@ -11572,7 +11600,7 @@
   "trending_terms": [
     {
       "term": "tribuno",
-      "count": 599
+      "count": 600
     },
     {
       "term": "informate",
@@ -11588,7 +11616,7 @@
     },
     {
       "term": "elintra",
-      "count": 150
+      "count": 151
     },
     {
       "term": "diputados",
@@ -11596,7 +11624,7 @@
     },
     {
       "term": "nuevo",
-      "count": 129
+      "count": 130
     },
     {
       "term": "senado",
@@ -11604,11 +11632,11 @@
     },
     {
       "term": "diario",
-      "count": 111
+      "count": 112
     },
     {
       "term": "sáenz",
-      "count": 105
+      "count": 107
     },
     {
       "term": "senadores",
@@ -11619,12 +11647,12 @@
       "count": 93
     },
     {
-      "term": "electos",
+      "term": "argentina",
       "count": 90
     },
     {
-      "term": "argentina",
-      "count": 89
+      "term": "electos",
+      "count": 90
     },
     {
       "term": "contra",

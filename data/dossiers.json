@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 126,
+    "total_mentions": 128,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 13,
-      "neutral": 107
+      "neutral": 109
     },
     "sentiment_by_day": {
+      "Wed, 05 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 19 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 22 Se": {
         "total": 1,
         "score_sum": 0
@@ -158,7 +166,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 64
+        "count": 66
       },
       {
         "term": "tribuno",
@@ -166,11 +174,11 @@
       },
       {
         "term": "rosario",
-        "count": 24
+        "count": 25
       },
       {
         "term": "frontera",
-        "count": 23
+        "count": 24
       },
       {
         "term": "ruta",
@@ -181,12 +189,12 @@
         "count": 19
       },
       {
-        "term": "argentina",
-        "count": 17
+        "term": "obras",
+        "count": 18
       },
       {
-        "term": "obras",
-        "count": 16
+        "term": "argentina",
+        "count": 18
       }
     ],
     "quotes": [
@@ -283,6 +291,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El gobernador Sáenz recorrió obras importantes para los vecinos de Rosario de la Frontera - Agroempresario",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTl4cmFudTd1T0JYWVJ6YUx6TDlGS19fb2Z4TjRoSkFxMjJjR2ctRDdVY2kxQTZxODBZREJIX211NHFQSmI2ODlQajZwemozUWd3a0lFcW51WWdxZW0tZ2RZbHpNNUpHSmNpOWEzOEVGcEw2c3RxZWJDN1RhekwwSVZLNGw5NzNvSTZQSFBuRmxkblhjM1BFZGFoSl9fRkl6WVQ2aGJjVEJUb0RKdDJyS1B3V1FYY203NUlnQUdHTGI0WGJWbThqRG4yVHZkSUJr?oc=5",
+        "source": "Agroempresario",
+        "date": "Wed, 05 Oct 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El gobernador Sáenz y el presidente Fernández lanzaron el inicio de obras de la autopista 9/34 - Gobierno de la Provincia de Salta, Argentina",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQazVoX1h6bnZQRkFlaUM0UUpGYklnTHpOUHdiV05JS0d2dHNQaTkyQ0dzYkxvQTJsel8ya1A4bFdQT25CcXVZYUFPdDJFRkYyZDJ5Qm1EanNIeDU1U2NnVUUxWkZIRFFkOEltcjZqR3FueDkyam54T1FOOE13bi1UVXZ6ZkYxQkU3SXVrYndNQlZVMW5CNHlxXzg0REZiV2NqemJaM1BpVHJrRDFwWW5OU1lXa2ZEX3lMak5scVpBbm5JWTA0Z0p6TEtwNTFKMlJNLURfNjdpdw?oc=5",
+        "source": "Gobierno de la Provincia de Salta, Argentina",
+        "date": "Tue, 19 Jul 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Javier Milei lo lleva de viaje a Gustavo Sáenz: qué agenda tendrán en París - Informate Salta - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeW9GbzUtdVZJdmd5Y1dYYWVXb0taXzBmbmFTSTJ3bXAwZWc4bWhLZElaRlpmN2NtLVV3VER5Q2dPLVcycngwdkVVUjV3OGlmS3FZMnBFWVNYVnRKS3pSanRwcU5YZkpGMG9zSVFKc2hJMml6WE9LSkp6X25kYWV3Q3ZwZERwdFN1anEtMGE4emRGNmxLNl8zM0twWXJ0RTFTckVELWFJTUMyNGY2c2ZVbGh6M29xNVdCd2ZFOFB0S0ZSSy1TQmxZazNYd0ZpUW5EQnFjS0RBZ1JJVzVEZXpoOFhodVlOaVNEd3UxV1R3?oc=5",
@@ -478,20 +500,6 @@
         "source": "eltribuno.com",
         "date": "Sun, 20 Sep 2026 23:22:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"Hoy tengo miedo, por mí y por mi hijo preso\", dijo Walter Lasi - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDBQMWNwdXVkSmRpMGxodUxET2xtWl9Ba0pIVFBBMEZ6QjlZNTlwVHdyV1hWRHpTQXFYbG8tQ0xndUpLVXhfRGtZYlh6VXI0eklaRGZqSnc5WWVoME5oaWRUWHU2SHJDTlJSMG1Db1FTZUdPOHRyT2FmcXFoWHRjemhpVFE0RXpjeWJGMG1wMUJrdURFMU1XYk43MmNBSzFTb09JNElLZmV4aTFxM3ktSG5B0gG3AUFVX3lxTE1sR1VRcWtUUHAweVF4QzFGeFM4UlRJYzlGeG5lYVd2aXB4Ump0Q3Q0NHZvSWFfWTNrRVBucWxsRGhrSlJCOGNpUGNFeFV1cHdibjYzX3U0ZlBWU1JfeWptZFQ0Vy1lTWs5eE5TQW1RTGNnRUJ5bWVHQTA0YkpZZmtuMGJ1S2dOLTBBQlNDY2R1bUxST3A2TklnM1pkUGZaMVZxa1NMeWhfQmcwMjRUY2hQLW9SdWpmbw?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 20 Sep 2026 04:12:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"La droga avanzó como una peste\", los duros testimonios en San Javier y San Benito - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNnVwYkJHRGpoTnktanRSTzducGtzdmdlTXhyenR3SF9uU0hMWkZDR0x4bVhtQ19tcElHck9SeEt2Zi0yWUtwdWhZTEZjLXFmdnNNSkFnenRFZVZEb2lVS0lRZ2RIamRwSmtIRDAzVEM3azk0XzNrM0wzOU4yWFlQcUhXWnNnc19kZWFJU0IwREV6YXQ4a1pTSTMxaXRPSFFnVXF1bnFWTjlIZk1JVXRYUnhmQU9vTlpwZTBFeDlyWkQzTTFjcGJDbtIBzgFBVV95cUxQWGIzSndmMHZGZ3lqbzgyX3hDS19qZzIxR2stejlKaHZORU1TcjZEcnZDb1lIM2dQSnNmN0c5aEdkWnRRdjNxbmlpU0pMUzg0SkZyRmFZZjhsYjU4Qy1yWDdQRFZMdF8tNFQtYzBXczdKcVBvSzUwaDlJZUlmX3RfVUs3VkNvRUpYeFZOQW91OGc2bnRvQkY0TVliamNULTVWSEx3N3BTNnpadUIwVVpBbVdKSEhHVVQ2VllzTl82RmZBVmlTbkNzaTVsWF9SQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 20 Sep 2026 20:24:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -8558,13 +8566,17 @@
     "id": "dip-laura-deolinda-cartuccia",
     "name": "Laura Deolinda Cartuccia",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Fri, 20 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 25 Ju": {
         "total": 1,
         "score_sum": 0
@@ -8597,15 +8609,19 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 7
+        "count": 8
       },
       {
         "term": "cartuccia",
-        "count": 7
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "mucha",
+        "count": 2
       },
       {
         "term": "tribuno",
@@ -8634,6 +8650,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Laura Cartuccia: «Tenemos mucha fe de que vamos a entrar en un balotaje» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVRzRDdjc2dPYWMwVkFsSDRHdHdTTVNWNzc4cDIybktBdExlN0RuQjFBamdGUVk1Z0psZUZ6RmZQbzZ1X2hmbXdrS3NoT1dqbTY5WXNtYmdBQ0VIWmVyRVRqTGE1bWFlLVBMWTNzUzY2MEwtdDZzYkhPekkyRUtCZkFvM3d0ZHd2U3hTMmVrVzdiUHFacWtYY0NTQ0VsUmhPY3RsWGprZw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 20 Oct 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La diputada multipartido Laura Cartuccia afirmó que Güemes “sentiría mucha vergüenza” de la Legislatura actual - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzFSLUtqZFRqQ0x6OGdNVWZWOFZfaFEwMUpUNHViMklLekRNazA0SDJ2dzFuWjJmTUlsVmx3WjBBTlJudEdUVlNyYU02QkhrQ3hfbll3M1Q2RFdsNjJCRDJSdTlVbVkwdmhtMWZ4NHNLREoyYlFDd0RESG1iWnhQa0JCR0x5UEpTNUdLbWN3ZVJpandnVVUxcFo0TTdzZURhZ2tnUmpHTkkxcXpQN00zUkhUWFFVWFBaVXZndmNoemw2Q3ZTYkZUYXgzZ0lrQnZkODBwQ0NfUjM0dG8?oc=5",
@@ -9301,13 +9324,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Mon, 10 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 16 De": {
         "total": 1,
         "score_sum": 0
@@ -9344,11 +9371,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 8
+        "count": 9
       },
       {
         "term": "juárez",
-        "count": 8
+        "count": 9
       },
       {
         "term": "elintra",
@@ -9357,6 +9384,10 @@
       {
         "term": "informate",
         "count": 3
+      },
+      {
+        "term": "diario",
+        "count": 2
       },
       {
         "term": "diputada",
@@ -9395,6 +9426,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez quiere un Currículum Vitae que genere igualdad de condiciones - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHdVRGhtcGNNd1g1X0FJNG9kbGhmb3Fob1U1eG50Vm53RWJ6a25EOTM4MURZaE9zXzJucEJqaXJGZWthYlNEYUFaU09IZTVZYnJ1X2pud0hWTThEbW9uc3BGTXdwbklpUGd2TjV2X2lyNHVSNXIxYlB0X194WUhSemRNSFFURzdPRFlDNW03MDVQY2dSVV8xQUk3MS1WU2czMG82cThsS0luYk1iUmdF?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 10 Apr 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Escandaloso y preocupante: Mónica Juárez reveló que un diputado la acosaba: “fue feo” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWZuRGM1TlZyanpnR0tCeTc4azRLTUJodWNnUF9Sa3gtREZvaG1hRkg2SlZ6RjA2SjJvOGxLTVFtV0QzenNnMDhfZGF6M1NnTTF2UGhfS2pXUG5Pdzd4N1RreWh1R2JRa2hCSVBhR1ptUnRzQm9icDMyOFlhYzlQcmRxdndxUW9KaU1rRWYtbzlFX2pici0yUHZseFd3ZllmTktWRGpCUHBzbU1SU2pGaXpjRzdxbE0?oc=5",
@@ -20366,13 +20404,21 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 26,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 20
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "Sun, 13 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Sun, 17 Au": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Mon, 07 Ap": {
         "total": 1,
         "score_sum": 0
@@ -20433,10 +20479,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Sun, 17 Au": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Sat, 16 Ma": {
         "total": 1,
         "score_sum": 0
@@ -20481,38 +20523,44 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 26
+        "count": 28
       },
       {
         "term": "orozco",
-        "count": 26
+        "count": 28
       },
       {
         "term": "tribuno",
-        "count": 10
+        "count": 11
+      },
+      {
+        "term": "libertad",
+        "count": 6
+      },
+      {
+        "term": "avanza",
+        "count": 6
       },
       {
         "term": "elintra",
         "count": 6
       },
       {
+        "term": "senadora",
+        "count": 5
+      },
+      {
         "term": "nuevo",
         "count": 5
-      },
-      {
-        "term": "libertad",
-        "count": 5
-      },
-      {
-        "term": "avanza",
-        "count": 5
-      },
-      {
-        "term": "senadora",
-        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Para mí, es un día inolvidable",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUdIBZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUQ?oc=5",
+        "date": "Sun, 13 Aug 2023 07:00:00 GMT"
+      },
       {
         "quote": "Lo único que trajo Emilia Orozco a Salta fue un Tik Tok al lado del puente Vaqueros",
         "source": "Elintra.com.ar",
@@ -20571,6 +20619,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco fue a votar con Coco, su perrito: \"Para mí, es un día inolvidable\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUdIBZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Sun, 13 Aug 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Elecciones legislativas 2025: Emilia Orozco es la candidata a senadora por La Libertad Avanza - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQ1VpTEREMzRYc1NVZm1ZLXRfcEI4Qzl5WWhrdWxacFUzNk5SaTAtU0dwX1J2U3dRR1pZbzA0YUZBVVJkYWo2UEY2bk80emdONWtabEktUEwzajdUVlBGR1FIVElNa1c0bVAzNG1lc1Z3aXEzc1B6NDRVdzBaZDNiRmhRcWdPajl6SkotZDBMa1N6RTdJb0lfbXo2bUJuQ1R6Y2h3N3p1SGItVzktY1ZoNzljQWg5Zjk2bWJGdjJRS2RyRjZlY1VSUXBSWnZkZXAwVEV3ZlBuUFY2UdIB3wFBVV95cUxNWkhBanRxYjRwYzJPaGpONGlRYkw1cXdoSTlIeXROSDFnSWZ3ODktSjQ5Tkhhak5uUlUwVkppS1VHQzJicGVPX3dEeVZ6RElXMmp2NnlWU1phdkN0U2FQYUpPaE5DeGtxLUFocXY1SFdWMlJTNlE2NVpfd1BKUmpJSHBBYzlJMEdUMGZHMUs1TzRsYVJIN1VVZkpaaFNuX0RoOXhhQUJON0hvZ1FlNmpYYlViQlRKQTNyMklYMGp6SnZQdEpiNDNXc0U4VXlzZ2w3a0FkOVRSNW5ka0xlcHhr?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 17 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Apuntan contra Emilia Orozco por bajar a una candidata de Olmedo en Pichanal - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHN5dUE0bUhLNHZiZ1lPNDF6a2lfSHhaWGZsUkZoX2xYZTNJZ2tpZkFITjRRRTN5ZTBtVFdfOWMtTE1lUERiSWYteERyd0RlSUVSX2ZsaF9HMDctMXFxUHpkdk1CUUJyeUlTS0h6OTRJQ0tKZUE2N1VPbUE4c0Qtc2dXVlRkc1BoZHZwTXpBNE0zSnljbER5YjBBRURnb3BMbHhFNHhVQkpMLVVhU2ZtTg?oc=5",
