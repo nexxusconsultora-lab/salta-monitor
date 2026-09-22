@@ -36,6 +36,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ALERTAS_PATH = ROOT / "data" / "oficiales_nuevas_con_personas.json"
+CANDIDATOS_PATH = ROOT / "data" / "candidatos.json"
+CANDIDATOS_AVISADOS_PATH = ROOT / "data" / "candidatos_avisados.json"
 
 
 def enviar_mensaje(token: str, chat_id: str, texto: str) -> None:
@@ -58,21 +60,17 @@ def main() -> int:
         print("Alertas de Telegram no configuradas (faltan los Secrets). Se omite este paso.")
         return 0
 
-    if not ALERTAS_PATH.exists():
-        print("No hay publicaciones nuevas con personas para avisar en esta corrida.")
-        return 0
+    enviados, fallidos = 0, 0
 
-    try:
-        pendientes = json.loads(ALERTAS_PATH.read_text(encoding="utf-8"))
-    except Exception as e:
-        print(f"No se pudo leer {ALERTAS_PATH}: {e}")
-        return 0
+    pendientes = []
+    if ALERTAS_PATH.exists():
+        try:
+            pendientes = json.loads(ALERTAS_PATH.read_text(encoding="utf-8")) or []
+        except Exception as e:
+            print(f"No se pudo leer {ALERTAS_PATH}: {e}")
 
     if not pendientes:
-        print("No hay publicaciones nuevas con personas para avisar en esta corrida.")
-        return 0
-
-    enviados, fallidos = 0, 0
+        print("No hay publicaciones oficiales nuevas con personas para avisar en esta corrida.")
     for item in pendientes:
         nombres = ", ".join(item.get("personas_nombres") or item.get("personas") or [])
         texto = (
@@ -87,6 +85,36 @@ def main() -> int:
         except Exception as e:
             fallidos += 1
             print(f"No se pudo enviar el aviso de '{item.get('titulo', '')[:60]}': {e}")
+
+    # Aviso aparte, una sola vez por nombre nuevo detectado (scripts/monitor.py).
+    avisados = set(json.loads(CANDIDATOS_AVISADOS_PATH.read_text(encoding="utf-8"))) \
+        if CANDIDATOS_AVISADOS_PATH.exists() else set()
+    try:
+        candidatos = json.loads(CANDIDATOS_PATH.read_text(encoding="utf-8")).get("items", [])
+    except Exception:
+        candidatos = []
+
+    nuevos = [c for c in candidatos if c["name"] not in avisados and c.get("count", 0) >= 2]
+    for c in nuevos:
+        ejemplo = (c.get("examples") or [{}])[0]
+        texto = (
+            f"🆕 <b>Nombre nuevo detectado</b>\n"
+            f"{c['name']} — mencionado como \"{c.get('cargo_texto', '')}\" ({c.get('count', 0)} veces)\n"
+            f"No está en tu lista de politicians.json. Revisalo y agregalo si corresponde.\n"
+            f"{ejemplo.get('title', '')}\n{ejemplo.get('link', '')}"
+        )
+        try:
+            enviar_mensaje(token, chat_id, texto)
+            avisados.add(c["name"])
+            enviados += 1
+        except Exception as e:
+            fallidos += 1
+            print(f"No se pudo enviar el aviso de nombre nuevo '{c['name']}': {e}")
+
+    if nuevos:
+        CANDIDATOS_AVISADOS_PATH.write_text(
+            json.dumps(sorted(avisados), ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
 
     print(f"Avisos de Telegram: {enviados} enviado(s), {fallidos} con error.")
     return 0
