@@ -186,6 +186,15 @@
     font-size:.9rem;
     padding:1.5rem 0;
   }
+  .controls label.check{font-size:.85rem;display:flex;align-items:center;gap:.35rem;cursor:pointer;}
+  .count-note{font-size:.82rem;color:var(--ink-soft);margin:0 0 .75rem;}
+  .cargo-tag{display:inline-block;padding:.1rem .45rem;font-size:.7rem;font-weight:600;border:1px solid var(--indigo);color:var(--indigo);border-radius:2px;white-space:nowrap;}
+  .cargo-tag.ex{border-color:var(--negativo);color:var(--negativo);}
+  .when{font-variant-numeric:tabular-nums;}
+  .when b{color:var(--ink);font-weight:600;}
+  .more-btn{font-family:inherit;font-size:.85rem;padding:.55rem 1rem;border:1px solid var(--ink);background:var(--paper-raised);cursor:pointer;margin-top:1.25rem;}
+  .dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;margin-right:.4rem;background:var(--neutral);}
+  .dot.ok{background:var(--positivo);} .dot.error{background:var(--negativo);} .dot.sin_feed,.dot.sin_resultados{background:#A8741A;}
   .star-btn{border:1px solid var(--line);background:var(--paper-raised);cursor:pointer;font-size:.95rem;line-height:1;padding:.15rem .45rem;border-radius:2px;}
   .star-btn.is-starred{background:#FCE9C9;border-color:#C99A3A;}
   footer{
@@ -207,9 +216,10 @@
     <span class="dateline" id="last-updated">Cargando última actualización…</span>
   </div>
   <p class="lede">
-    Menciones de figuras políticas salteñas en El Tribuno, Salta12, InformateSalta,
-    El Intransigente y Nuevo Diario de Salta, con una lectura de tono automática y
-    orientativa. No sustituye la lectura de la nota original.
+    Menciones de figuras políticas salteñas en El Tribuno, Qué Pasa Salta, El Intra,
+    Informate Salta, El Intransigente, Salta12 y otros medios, ordenadas por fecha
+    de publicación, con una lectura de tono automática y orientativa. No sustituye
+    la lectura de la nota original.
   </p>
   <p class="lede"><a href="./briefing.html" style="color:var(--clay);font-weight:600;">→ Ver resumen Nacional / Provincial por horas</a>
   &nbsp;·&nbsp; <a href="./temas.html" style="color:var(--clay);font-weight:600;">→ Temas seguidos</a>
@@ -231,8 +241,30 @@
       </select>
       <input type="search" id="filter-keyword" placeholder="Buscar por palabra clave…" />
     </div>
+    <div class="controls">
+      <select id="filter-period">
+        <option value="">Cualquier fecha</option>
+        <option value="3">Últimas 3 horas</option>
+        <option value="24">Últimas 24 horas</option>
+        <option value="72">Últimos 3 días</option>
+        <option value="168">Últimos 7 días</option>
+        <option value="720">Últimos 30 días</option>
+      </select>
+      <select id="filter-cargo">
+        <option value="">Todos los cargos</option>
+        <option value="Diputados">Diputados provinciales</option>
+        <option value="Senado">Senadores provinciales</option>
+        <option value="Concejo Deliberante">Concejales</option>
+        <option value="Ejecutivo">Poder Ejecutivo</option>
+      </select>
+      <select id="filter-distrito"><option value="">Todos los distritos</option></select>
+      <select id="filter-source"><option value="">Todos los medios</option></select>
+      <label class="check"><input type="checkbox" id="filter-ex" /> Incluir ex funcionarios</label>
+    </div>
+    <p class="count-note" id="feed-count"></p>
     <h2>Últimas menciones</h2>
     <div id="feed"><p class="empty-state">Cargando menciones…</p></div>
+    <button class="more-btn" id="more-btn" style="display:none;">Mostrar más</button>
   </section>
 
   <aside>
@@ -270,6 +302,20 @@
     </div>
 
     <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.5rem;">Nombres nuevos detectados</h2>
+      <p style="font-size:.78rem;color:var(--ink-soft);margin:0 0 .6rem;">
+        Aparecen en titulares con un cargo (“el diputado…”, “la concejal…”) pero no
+        están en tu lista. Es una detección por texto: puede haber errores.
+      </p>
+      <div id="candidates-list"><p class="empty-state">Cargando…</p></div>
+    </div>
+
+    <div class="panel">
+      <h2 style="border:none;padding:0;margin-bottom:.5rem;">Estado de medios y nóminas</h2>
+      <div id="status-list"><p class="empty-state">Cargando…</p></div>
+    </div>
+
+    <div class="panel">
       <h2 style="border:none;padding:0;margin-bottom:.5rem;">Menciones cruzadas</h2>
       <p style="font-size:.78rem;color:var(--ink-soft);margin:0 0 .6rem;">
         Políticos que aparecen juntos en la misma noticia.
@@ -292,7 +338,12 @@
 // vacío, ese cuadro queda desactivado sin romper el resto del panel.
 const SEARCH_PROXY_URL = "";
 
-const state = { mentions: [], aggregates: null, politician: "", sentiment: "", keyword: "" };
+const PAGE_SIZE = 80;
+const state = {
+  mentions: [], aggregates: null, politician: "", sentiment: "", keyword: "",
+  period: "", cargo: "", distrito: "", source: "", incluirEx: false, shown: PAGE_SIZE,
+  polById: {}, candidates: [], mediaStatus: {}, nominaStatus: {},
+};
 let volumeChart = null;
 let dataLoadAttempts = 0;
 
@@ -305,6 +356,18 @@ async function loadData(){
     ]);
     state.mentions = await mentionsRes.json();
     state.aggregates = await aggRes.json();
+    // Datos opcionales: si todavía no existen, el panel funciona igual.
+    const opt = async (path, fallback) => {
+      try{ return await (await fetch(path + '?_=' + Date.now())).json(); }catch(e){ return fallback; }
+    };
+    const [cand, media, nomina] = await Promise.all([
+      opt('./data/candidatos.json', { items: [] }),
+      opt('./data/medios_status.json', { media: {} }),
+      opt('./data/nomina_status.json', { sources: {} }),
+    ]);
+    state.candidates = cand.items || [];
+    state.mediaStatus = media.media || {};
+    state.nominaStatus = nomina.sources || {};
   }catch(e){
     showWaitingState();
     setTimeout(loadData, 15000); // reintenta solo, sin que el usuario haga nada
@@ -318,6 +381,8 @@ async function loadData(){
     return;
   }
 
+  ((state.aggregates && state.aggregates.politicians) || []).forEach(p => { state.polById[p.id] = p; });
+  populateStaticFilters();
   populatePoliticianFilter();
   renderAll();
 }
@@ -331,15 +396,48 @@ function showWaitingState(){
     de tu repositorio para ver si la corrida terminó en verde.</p>`;
 }
 
+function isActivePol(p){
+  if(!p) return false;
+  if(p.vigencia) return p.vigencia !== 'ex';
+  const fin = parseInt(p.term_end, 10);
+  return !(fin && fin < new Date().getFullYear());
+}
+
+function cargoLabel(p){
+  if(!p) return '';
+  const base = p.cargo || p.role || '';
+  return base.length > 40 ? (p.chamber || base) : base;
+}
+
+function populateStaticFilters(){
+  const dist = new Set(), src = new Set();
+  Object.values(state.polById).forEach(p => { if(p.distrito) dist.add(p.distrito); });
+  state.mentions.forEach(m => { if(m.source) src.add(m.source); });
+  const fill = (id, vals) => {
+    const sel = document.getElementById(id);
+    [...vals].sort((a,b)=>a.localeCompare(b,'es')).forEach(v=>{
+      const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o);
+    });
+  };
+  fill('filter-distrito', dist);
+  fill('filter-source', src);
+}
+
 function populatePoliticianFilter(){
   const select = document.getElementById('filter-politician');
-  const politicians = (state.aggregates && state.aggregates.politicians) || [];
+  const keep = select.value;
+  select.innerHTML = '<option value="">Todos los políticos</option>';
+  const politicians = ((state.aggregates && state.aggregates.politicians) || [])
+    .filter(p => state.incluirEx || isActivePol(p))
+    .slice().sort((a,b)=>a.name.localeCompare(b.name,'es'));
   politicians.forEach(p=>{
     const opt = document.createElement('option');
     opt.value = p.id;
-    opt.textContent = p.name;
+    const extra = [cargoLabel(p), p.distrito].filter(Boolean).join(' · ');
+    opt.textContent = p.name + (extra ? ' — ' + extra : '') + (isActivePol(p) ? '' : ' (ex)');
     select.appendChild(opt);
   });
+  if(keep && politicians.some(p=>p.id === keep)) select.value = keep; else state.politician = '';
 }
 
 function renderAll(){
@@ -348,10 +446,58 @@ function renderAll(){
     ? 'Última actualización: ' + updated.toLocaleString('es-AR')
     : '';
   renderFeed();
+  renderCandidates();
+  renderStatus();
   renderVolumeChart();
   renderBalanceList();
   renderTrendingTerms();
   renderComentions();
+}
+
+function mentionDate(m){
+  const raw = m.published_iso || m.published;
+  const d = raw ? new Date(raw) : null;
+  return d && !isNaN(d) ? d : null;
+}
+
+function relTime(d){
+  const sec = (Date.now() - d.getTime()) / 1000;
+  if(sec < 0) return 'ahora';
+  if(sec < 3600) return `hace ${Math.max(1, Math.round(sec/60))} min`;
+  if(sec < 86400) return `hace ${Math.round(sec/3600)} h`;
+  if(sec < 86400*7) return `hace ${Math.round(sec/86400)} d`;
+  return d.toLocaleDateString('es-AR', { day:'numeric', month:'short', year:'numeric' });
+}
+
+function renderCandidates(){
+  const el = document.getElementById('candidates-list');
+  const items = (state.candidates || []).slice(0, 10);
+  if(!items.length){
+    el.innerHTML = '<p class="empty-state">Ninguno por ahora.</p>';
+    return;
+  }
+  el.innerHTML = items.map(c=>{
+    const ex = (c.examples || [])[0];
+    const link = ex ? `<a href="${escapeHtml(ex.link)}" target="_blank" rel="noopener" style="color:var(--ink-soft);font-size:.78rem;">${escapeHtml(ex.title)}</a>` : '';
+    return `<div style="padding:.4rem 0;border-bottom:1px dashed var(--line);">
+      <div class="stat-row" style="border:none;padding:0;"><span class="stat-name">${escapeHtml(c.name)} <span class="cargo-tag">${escapeHtml(c.cargo_texto)}</span></span><span class="stat-balance">${c.count}×</span></div>
+      ${link}
+    </div>`;
+  }).join('');
+}
+
+function renderStatus(){
+  const el = document.getElementById('status-list');
+  const rows = [];
+  Object.entries(state.mediaStatus || {}).forEach(([name, s])=>{
+    const when = s.latest_published ? ' · última nota ' + relTime(new Date(s.latest_published)) : '';
+    const msg = s.state === 'ok' ? 'funciona' + when : (s.message || s.state);
+    rows.push(`<div class="stat-row"><span class="stat-name"><span class="dot ${escapeHtml(s.state)}"></span>${escapeHtml(name)}</span><span class="stat-balance" style="font-size:.75rem;text-align:right;max-width:55%;">${escapeHtml(msg)}</span></div>`);
+  });
+  Object.values(state.nominaStatus || {}).forEach(s=>{
+    rows.push(`<div class="stat-row"><span class="stat-name"><span class="dot ${escapeHtml(s.state)}"></span>${escapeHtml(s.name)}</span><span class="stat-balance" style="font-size:.75rem;text-align:right;max-width:55%;">${escapeHtml(s.message)}</span></div>`);
+  });
+  el.innerHTML = rows.length ? rows.join('') : '<p class="empty-state">Todavía no hay datos de estado.</p>';
 }
 
 function renderTrendingTerms(){
@@ -411,37 +557,62 @@ async function runFreeSearch(){
 }
 
 function filteredMentions(){
-  return state.mentions.filter(m=>{
+  const now = Date.now();
+  const maxAge = state.period ? parseInt(state.period, 10) * 3600 * 1000 : 0;
+  const list = state.mentions.filter(m=>{
+    const p = state.polById[m.politician_id];
+    if(!state.incluirEx && !isActivePol(p)) return false;
     if(state.politician && m.politician_id !== state.politician) return false;
+    if(state.cargo && (!p || p.chamber !== state.cargo)) return false;
+    if(state.distrito && (!p || p.distrito !== state.distrito)) return false;
+    if(state.source && m.source !== state.source) return false;
     if(state.sentiment && m.sentiment_label !== state.sentiment) return false;
+    if(maxAge){
+      const d = mentionDate(m);
+      if(!d || now - d.getTime() > maxAge) return false;
+    }
     if(state.keyword){
       const k = state.keyword.toLowerCase();
       if(!m.title.toLowerCase().includes(k)) return false;
     }
     return true;
   });
+  // Más recientes primero, según la fecha REAL de publicación.
+  // Las notas sin fecha quedan al final.
+  return list.map(m => ({ m, t: (mentionDate(m) || new Date(0)).getTime() }))
+    .sort((a,b) => b.t - a.t)
+    .map(x => x.m);
 }
 
 function renderFeed(){
   const feed = document.getElementById('feed');
-  const items = filteredMentions().slice(0, 80);
+  const all = filteredMentions();
+  const items = all.slice(0, state.shown);
+  document.getElementById('feed-count').textContent =
+    all.length ? `${all.length} menciones` + (all.length > items.length ? ` (mostrando ${items.length})` : '') : '';
+  document.getElementById('more-btn').style.display = all.length > items.length ? 'inline-block' : 'none';
   if(items.length === 0){
     feed.innerHTML = '<p class="empty-state">No hay menciones que coincidan con el filtro.</p>';
     return;
   }
   feed.innerHTML = items.map(m=>{
-    const date = m.published ? new Date(m.published) : null;
-    const dateStr = date && !isNaN(date) ? date.toLocaleString('es-AR') : '';
-    const starMeta = { id: m.id, type: 'mencion', title: m.title, link: m.link, source: m.source, date: m.published };
+    const date = mentionDate(m);
+    const p = state.polById[m.politician_id];
+    const when = date
+      ? `<span class="when" title="${escapeHtml(date.toLocaleString('es-AR'))}"><b>${escapeHtml(relTime(date))}</b> · ${escapeHtml(date.toLocaleString('es-AR', { dateStyle:'short', timeStyle:'short' }))}</span>`
+      : '<span class="when">sin fecha</span>';
+    const cargo = p ? `<span class="cargo-tag ${isActivePol(p) ? '' : 'ex'}">${escapeHtml(isActivePol(p) ? cargoLabel(p) : 'Ex ' + (cargoLabel(p) || ''))}${p.distrito ? ' · ' + escapeHtml(p.distrito) : ''}</span>` : '';
+    const starMeta = { id: m.id, type: 'mencion', title: m.title, link: m.link, source: m.source, date: (date ? date.toISOString() : m.published) };
     return `<article>
       <div class="mention-meta">
         <span class="tag ${m.sentiment_label}">${m.sentiment_label}</span>
         <a href="./politico.html?id=${encodeURIComponent(m.politician_id)}" class="politician-name">${escapeHtml(m.politician_name)}</a>
+        ${cargo}
         <span>· ${escapeHtml(m.source || '')}</span>
-        <span>· ${dateStr}</span>
+        <span>· </span>${when}
         ${window.RadarDestacados.starButtonHtml(starMeta)}
       </div>
-      <p class="mention-title"><a href="${m.link}" target="_blank" rel="noopener">${escapeHtml(m.title)}</a></p>
+      <p class="mention-title"><a href="${escapeHtml(m.link)}" target="_blank" rel="noopener">${escapeHtml(m.title)}</a></p>
     </article>`;
   }).join('');
 }
@@ -480,6 +651,7 @@ function renderBalanceList(){
   const politicians = (state.aggregates && state.aggregates.politicians) || [];
   const container = document.getElementById('balance-list');
   const rows = politicians.map(p=>{
+    if(!state.incluirEx && !isActivePol(p)) return null;
     const stats = byPolitician[p.id];
     if(!stats || stats.total === 0) return null;
     const avg = (stats.score_sum / stats.total).toFixed(2);
@@ -498,14 +670,24 @@ function escapeHtml(str){
   return div.innerHTML;
 }
 
-document.getElementById('filter-politician').addEventListener('change', e=>{
-  state.politician = e.target.value; renderFeed();
+function bindFilter(id, key, evt){
+  document.getElementById(id).addEventListener(evt || 'change', e=>{
+    state[key] = e.target.value; state.shown = PAGE_SIZE; renderFeed();
+  });
+}
+bindFilter('filter-politician', 'politician');
+bindFilter('filter-sentiment', 'sentiment');
+bindFilter('filter-keyword', 'keyword', 'input');
+bindFilter('filter-period', 'period');
+bindFilter('filter-cargo', 'cargo');
+bindFilter('filter-distrito', 'distrito');
+bindFilter('filter-source', 'source');
+document.getElementById('filter-ex').addEventListener('change', e=>{
+  state.incluirEx = e.target.checked; state.shown = PAGE_SIZE;
+  populatePoliticianFilter(); renderFeed(); renderBalanceList();
 });
-document.getElementById('filter-sentiment').addEventListener('change', e=>{
-  state.sentiment = e.target.value; renderFeed();
-});
-document.getElementById('filter-keyword').addEventListener('input', e=>{
-  state.keyword = e.target.value; renderFeed();
+document.getElementById('more-btn').addEventListener('click', ()=>{
+  state.shown += PAGE_SIZE; renderFeed();
 });
 
 document.getElementById('free-search-btn').addEventListener('click', runFreeSearch);
