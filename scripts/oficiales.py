@@ -258,7 +258,14 @@ def cargar_politicos():
     if not isinstance(personas, list):
         return []
     salida = []
+    anio = datetime.now(timezone.utc).year
     for p in personas:
+        # Quien ya no está en funciones no se marca en documentos nuevos
+        # (evita mostrar "Nombra a: <ex diputado>" como si estuviera en actividad).
+        vig = p.get("vigencia")
+        fin = str(p.get("term_end") or "").strip()
+        if vig == "ex" or (not vig and fin.isdigit() and int(fin) < anio):
+            continue
         nombres = set()
         nombre_display = (p.get("name") or "").strip()
         if nombre_display:
@@ -275,6 +282,14 @@ def cargar_politicos():
                 "id": p["id"],
                 "nombres": nombres,
                 "nombre_display": nombre_display or next(iter(nombres)),
+                # Palabra completa y sin tildes: "Diego Cari" NO coincide
+                # dentro de "Diego Carina".
+                "patrones": [
+                    (n, re.compile(r"(?<![a-z0-9])"
+                                   + r"\s+".join(re.escape(t) for t in re.findall(r"[a-z0-9']+", fold(n).replace("’", "'")))
+                                   + r"(?![a-z0-9])"))
+                    for n in nombres
+                ],
             })
     return salida
 
@@ -284,15 +299,15 @@ def detectar_personas(texto: str, politicos):
         return [], None
     encontrados = []
     contexto = None
-    texto_plegado = fold(texto)
+    texto_plegado = fold(texto).replace("’", "'")
     for persona in politicos:
-        for nombre in persona["nombres"]:
-            pos = texto_plegado.find(fold(nombre))
-            if pos != -1:
+        for nombre, patron in persona["patrones"]:
+            m = patron.search(texto_plegado)
+            if m:
                 encontrados.append(persona["id"])
                 if contexto is None:
-                    ini = max(0, pos - 50)
-                    fin = min(len(texto), pos + len(nombre) + 50)
+                    ini = max(0, m.start() - 50)
+                    fin = min(len(texto), m.end() + 50)
                     contexto = texto[ini:fin].strip()
                 break
     return encontrados, contexto
