@@ -20,7 +20,10 @@ Este script está pensado para correr repetidamente (por ejemplo cada
 import os
 import re
 import json
+import time
 import hashlib
+import calendar
+import urllib.request
 from collections import defaultdict
 from itertools import combinations
 from datetime import datetime, timezone
@@ -38,6 +41,8 @@ AGGREGATES_FILE = os.path.join(DATA_DIR, "aggregates.json")
 DOSSIERS_FILE = os.path.join(DATA_DIR, "dossiers.json")
 EVENTS_FILE = os.path.join(DATA_DIR, "events.json")
 NEWS_GENERAL_FILE = os.path.join(DATA_DIR, "news_general.json")
+CANDIDATES_FILE = os.path.join(DATA_DIR, "candidatos.json")
+MEDIA_STATUS_FILE = os.path.join(DATA_DIR, "medios_status.json")
 
 # Medios nacionales de alcance amplio, para la sección de noticias
 # generales (no atada a políticos puntuales). Usamos Google News en vez
@@ -55,6 +60,8 @@ MAX_GENERAL_ITEMS_PER_FEED = 60
 # solo agregá dominios que hayas confirmado vos mismo que existen.
 SOURCE_SITES = [
     "eltribuno.com",
+    "quepasasalta.com.ar",
+    "elintra.com.ar",
     "salta12.com.ar",
     "informatesalta.com.ar",
     "elintransigente.com",
@@ -80,6 +87,27 @@ DIRECT_FEEDS = [
     ("El Tribuno - Salta", "https://www.eltribuno.com/rss-new/salta.rss"),
     ("El Tribuno - Municipios", "https://www.eltribuno.com/rss-new/municipios.rss"),
 ]
+
+# Medios locales que se leen DIRECTO (no solo a través de Google News).
+# El script descubre solo la dirección del RSS de cada uno (busca la
+# etiqueta <link rel="alternate" type="application/rss+xml"> en la portada
+# y, si no hay, prueba /feed/, /rss, etc.) y anota el resultado en
+# data/medios_status.json para que puedas ver cuáles funcionan.
+# Para sumar otro medio, agregá una línea (nombre, portada).
+MEDIA_HOMEPAGES = [
+    ("Qué Pasa Salta", "https://www.quepasasalta.com.ar/"),
+    ("El Intra", "https://elintra.com.ar/"),
+    ("Informate Salta", "https://www.informatesalta.com.ar/"),
+    ("El Intransigente", "https://www.elintransigente.com/"),
+    ("Salta12", "https://www.salta12.com.ar/"),
+    ("Nuevo Diario de Salta", "https://www.nuevodiariosalta.com.ar/"),
+    ("Radio Salta", "https://www.radiosalta.com.ar/"),
+]
+FEED_RETRY_HOURS = 6
+FEED_FALLBACK_PATHS = ["feed/", "rss", "feed", "rss.xml", "feed.xml", "rss/"]
+HTTP_USER_AGENT = "Mozilla/5.0 (compatible; RadarPoliticoSalta/1.0; lector de RSS)"
+MAX_CANDIDATES_STORED = 200
+CANDIDATE_KEEP_DAYS = 45
 
 # Palabras a ignorar al calcular "temas en tendencia" (muy comunes en
 # español y en el lenguaje periodístico, no aportan información).
@@ -140,6 +168,249 @@ def sentiment_score(text):
     return score, label
 
 
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def entry_published_iso(entry):
+    """Fecha REAL de publicación en ISO 8601 (UTC), tomada de la fuente.
+    Devuelve None si la fuente no la trae (en ese caso el panel muestra
+    'sin fecha' en vez de inventar una)."""
+    for key in ("published_parsed", "updated_parsed"):
+        tm = entry.get(key)
+        if tm:
+            try:
+                ts = calendar.timegm(tm)
+            except (TypeError, ValueError, OverflowError):
+                continue
+            # Una fecha en el futuro lejano es un error de la fuente.
+            if ts > time.time() + 2 * 86400:
+                continue
+            return datetime.fromtimestamp(ts, timezone.utc).isoformat()
+    return None
+
+
+def is_active(p):
+    """¿Esta persona está hoy en funciones?
+    - data/politicians.json trae 'vigencia' (lo mantiene scripts/nomina.py).
+    - Si no la trae, se deduce del año de fin de mandato."""
+    vig = p.get("vigencia")
+    if vig == "ex":
+        return False
+    if vig == "vigente":
+        return True
+    fin = str(p.get("term_end") or "").strip()
+    if fin.isdigit() and int(fin) < datetime.now(timezone.utc).year:
+        return False
+    return True
+
+
+def http_get(url, timeout=15):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": HTTP_USER_AGENT,
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.5",
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def parse_feed_bytes(raw):
+    feed = feedparser.parse(raw)
+    return feed if feed.entries else None
+
+
+def discover_feed(homepage):
+    """Devuelve (url_del_feed, feed_parseado) o (None, None)."""
+    candidates = []
+    try:
+        html = http_get(homepage).decode("utf-8", errors="replace")
+        for tag in re.findall(r"<link[^>]+>", html, flags=re.I):
+            if re.search(r"type=[\"'](application/(rss|atom)\+xml)[\"']", tag, flags=re.I):
+                m = re.search(r"href=[\"']([^\"']+)[\"']", tag, flags=re.I)
+                if m:
+                    href = m.group(1).replace("&amp;", "&")
+                    if href.startswith("//"):
+                        href = "https:" + href
+                    elif href.startswith("/"):
+                        href = homepage.rstrip("/") + href
+                    candidates.append(href)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[aviso] no se pudo leer la portada {homepage}: {exc}")
+    candidates += [homepage.rstrip("/") + "/" + path for path in FEED_FALLBACK_PATHS]
+    seen = set()
+    for url in candidates:
+        if url in seen:
+            continue
+        seen.add(url)
+        try:
+            feed = parse_feed_bytes(http_get(url))
+        except Exception:  # noqa: BLE001
+            continue
+        if feed:
+            return url, feed
+    return None, None
+
+
+def fetch_media_batches():
+    """Lee todos los feeds directos (los fijos de El Tribuno + los medios
+    descubiertos). Devuelve una lista de {name, entries} y escribe el
+    estado de cada medio en data/medios_status.json."""
+    previous = load_json(MEDIA_STATUS_FILE, {}).get("media", {})
+    batches, status = [], {}
+
+    for name, url in DIRECT_FEEDS:
+        raw_feed = None
+        try:
+            raw_feed = parse_feed_bytes(http_get(url))
+        except Exception as exc:  # noqa: BLE001
+            status[name] = {"state": "error", "feed_url": url, "message": str(exc)[:160], "checked_at": now_iso()}
+            continue
+        if raw_feed:
+            batches.append({"name": name, "entries": raw_feed.entries[:MAX_ITEMS_PER_FEED]})
+            status[name] = {"state": "ok", "feed_url": url, "items": len(raw_feed.entries), "checked_at": now_iso()}
+        else:
+            status[name] = {"state": "sin_resultados", "feed_url": url, "message": "El feed respondió vacío.", "checked_at": now_iso()}
+
+    for name, homepage in MEDIA_HOMEPAGES:
+        prev = previous.get(name, {})
+        # Si ya se probó hace poco y no había RSS, no se vuelve a probar en
+        # cada corrida (corre cada 5 min): se reintenta cada 6 horas.
+        if prev.get("state") == "sin_feed" and prev.get("checked_at"):
+            try:
+                age = time.time() - datetime.fromisoformat(prev["checked_at"]).timestamp()
+            except ValueError:
+                age = 1e9
+            if age < FEED_RETRY_HOURS * 3600:
+                status[name] = prev
+                continue
+        feed, feed_url = None, prev.get("feed_url")
+        if feed_url:  # ya lo habíamos descubierto: se reutiliza
+            try:
+                feed = parse_feed_bytes(http_get(feed_url))
+            except Exception:  # noqa: BLE001
+                feed = None
+        if not feed:
+            feed_url, feed = discover_feed(homepage)
+        if not feed:
+            status[name] = {"state": "sin_feed", "homepage": homepage, "checked_at": now_iso(),
+                            "message": "No se encontró un RSS que funcione. Se sigue cubriendo a través de Google News."}
+            continue
+        entries = feed.entries[:MAX_ITEMS_PER_FEED]
+        latest = max((entry_published_iso(e) or "" for e in entries), default="")
+        batches.append({"name": name, "entries": entries})
+        status[name] = {"state": "ok", "homepage": homepage, "feed_url": feed_url,
+                        "items": len(feed.entries), "latest_published": latest or None, "checked_at": now_iso()}
+
+    save_json(MEDIA_STATUS_FILE, {"generated_at": now_iso(), "media": status})
+    return batches
+
+
+# Cargos que, si aparecen pegados a un nombre en un titular, indican
+# que alguien está ejerciendo (o ejerció) un cargo público.
+CARGO_RE = (
+    r"(?i:(?P<cargo>diputad[oa]s?|senador(?:a|es)?|concejal(?:a|es)?|intendente|"
+    r"ministr[oa]|secretari[oa]|legislador(?:a|es)?|vicegobernador(?:a)?|"
+    r"presidente del concejo|interventor(?:a)?))"
+)
+NAME_RE = (
+    r"(?P<nombre>[A-ZÁÉÍÓÚÑ][\wáéíóúñü'’]+"
+    r"(?:\s+(?:(?:de la|del|de|da|di)\s+)?[A-ZÁÉÍÓÚÑ][\wáéíóúñü'’]+){0,3})"
+)
+CANDIDATE_PATTERN = re.compile(
+    CARGO_RE + r"(?:\s+(?i:provincial|nacional|municipal|electo|electa|saliente))?\s+" + NAME_RE
+)
+CANDIDATE_STOP = {
+    "salta", "nacional", "provincial", "municipal", "camara", "cámara", "concejo", "deliberante",
+    "gobierno", "ley", "senado", "diputados", "argentina", "ciudad", "capital", "de", "la",
+    "lunes", "martes", "miércoles", "miercoles", "jueves", "viernes", "sábado", "sabado", "domingo",
+    "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre",
+    "octubre", "noviembre", "diciembre", "presidente", "gobernador", "libertad", "avanza",
+    "justicia", "fiscal", "juez", "policía", "policia", "ministerio", "secretaría", "secretaria",
+    "hospital", "escuela", "universidad", "banco", "sesión", "sesion", "proyecto", "comisión", "comision",
+}
+
+
+def _fold(s):
+    import unicodedata
+    s = unicodedata.normalize("NFD", str(s or ""))
+    return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
+
+
+def known_surnames(politicians):
+    """Apellidos (última palabra de nombre y alias) de TODA la nómina,
+    incluidos los ex: sirven para no marcar como 'nuevo' a alguien que
+    ya conocemos."""
+    out = set()
+    for p in politicians:
+        for n in [p.get("name", "")] + list(p.get("aliases") or []):
+            toks = re.findall(r"[a-z0-9]+", _fold(n))
+            if toks:
+                out.add(toks[-1])          # apellido
+                if len(toks) >= 3:
+                    out.add(toks[-2])      # apellido compuesto ("Cuellar Garnica")
+    return out
+
+
+def detect_candidates(batches, politicians):
+    """Recorre TODOS los titulares de los medios y detecta nombres que
+    aparecen con un cargo público ('el diputado X', 'la concejal Y') y
+    que no están en tu lista. Es una heurística de texto: puede marcar
+    falsos positivos, por eso solo genera una lista para revisar; no
+    agrega a nadie automáticamente."""
+    known = known_surnames(politicians)
+    found = {}
+    for batch in batches:
+        for entry in batch["entries"]:
+            title = entry.get("title", "")
+            text = f"{title}. {entry.get('summary', '')}"
+            text = re.sub(r"<[^>]+>", " ", text)
+            for m in CANDIDATE_PATTERN.finditer(text):
+                nombre = m.group("nombre").strip()
+                toks = re.findall(r"[a-z0-9]+", _fold(nombre))
+                if not toks or toks[0] in CANDIDATE_STOP or any(t in CANDIDATE_STOP for t in toks[:1]):
+                    continue
+                if toks[-1] in known:
+                    continue
+                key = " ".join(toks)
+                cargo = m.group("cargo").lower()
+                rec = found.setdefault(key, {
+                    "name": nombre, "cargo_texto": cargo, "count": 0, "examples": [],
+                })
+                rec["count"] += 1
+                if len(nombre) > len(rec["name"]):
+                    rec["name"] = nombre
+                link = entry.get("link", "")
+                if link and all(ex["link"] != link for ex in rec["examples"]) and len(rec["examples"]) < 3:
+                    rec["examples"].append({
+                        "title": title, "link": link, "source": batch["name"],
+                        "published_iso": entry_published_iso(entry),
+                    })
+    return found
+
+
+def update_candidates_file(found):
+    old = load_json(CANDIDATES_FILE, {}).get("items", [])
+    merged = {" ".join(re.findall(r"[a-z0-9]+", _fold(i["name"]))): i for i in old}
+    now = now_iso()
+    for key, rec in found.items():
+        if key in merged:
+            cur = merged[key]
+            cur["count"] = cur.get("count", 0) + rec["count"]
+            cur["last_seen"] = now
+            links = {e["link"] for e in cur.get("examples", [])}
+            for ex in rec["examples"]:
+                if ex["link"] not in links and len(cur["examples"]) < 3:
+                    cur["examples"].append(ex)
+        else:
+            merged[key] = {**rec, "first_seen": now, "last_seen": now}
+    cutoff = time.time() - CANDIDATE_KEEP_DAYS * 86400
+    items = [i for i in merged.values()
+             if datetime.fromisoformat(i["last_seen"]).timestamp() >= cutoff]
+    items.sort(key=lambda i: (i.get("count", 0), i["last_seen"]), reverse=True)
+    save_json(CANDIDATES_FILE, {"generated_at": now, "items": items[:MAX_CANDIDATES_STORED]})
+    return len(found)
+
+
 def build_national_query_url():
     sites = " OR ".join(f"site:{s}" for s in NATIONAL_SITES)
     return google_news_url(f"política Argentina ({sites})")
@@ -185,6 +456,7 @@ def collect_general_news():
                 "link": link,
                 "source": source,
                 "published": published,
+                "published_iso": entry_published_iso(entry),
                 "collected_at": datetime.now(timezone.utc).isoformat(),
                 "sentiment_label": label,
             })
@@ -240,15 +512,152 @@ def entry_source_name(entry, fallback):
     return fallback
 
 
-def match_politicians(text, politicians):
-    text_low = text.lower()
-    matched = []
-    for p in politicians:
-        for alias in p["aliases"]:
-            if alias.lower() in text_low:
-                matched.append(p["id"])
-                break
-    return matched
+def norm(s):
+    """Minúsculas, sin tildes, apóstrofes unificados y espacios colapsados."""
+    import unicodedata
+    s = unicodedata.normalize("NFD", str(s or ""))
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
+    s = re.sub(r"[’‘´`]", "'", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+# Palabras que indican que el texto habla de política/cargos. Se exigen
+# cuando el nombre es corto y por lo tanto ambiguo (homónimos).
+CARGO_CONTEXT_RE = re.compile(
+    r"(?<![a-z0-9])(diputad[oa]s?|senador(?:a|es)?|concejal(?:a|es)?|legislador(?:a|es)?|"
+    r"gobernador(?:a)?|intendente|legislatura|concejo|camara de (?:diputados|senadores)|"
+    r"bloque|oficialismo|oposicion|ministr[oa]|libertad avanza|todos por salta|por salta)(?![a-z0-9])"
+)
+
+# Medios de Salta: dentro de ellos un nombre de dos palabras casi seguro
+# es la persona local, por eso ahí no se exige contexto adicional.
+LOCAL_SOURCE_KEYS = (
+    "tribuno", "que pasa salta", "quepasasalta", "intra", "informate", "intransigente",
+    "salta12", "salta 12", "nuevo diario", "radio salta", "salta4400", "salta 4400",
+    "aries", "punto uno", "todo salta", "data salta", "gente de salta", "de frente salta",
+)
+
+
+def is_local_source(name):
+    n = norm(name)
+    return any(k in n for k in LOCAL_SOURCE_KEYS)
+
+
+TOKEN_RE = re.compile(r"[^\W_]+(?:['’][^\W_]+)*", re.UNICODE)
+
+# Palabras que suelen empezar oración con mayúscula: no cuentan como
+# "otro nombre propio" pegado al nombre buscado.
+STARTERS = {
+    "el", "la", "los", "las", "un", "una", "segun", "para", "por", "con", "sin", "ante", "tras",
+    "desde", "hasta", "en", "de", "del", "al", "y", "o", "que", "si", "no", "hoy", "ayer", "sobre",
+    "entre", "como", "cuando", "donde", "mientras", "aunque", "tambien", "ademas", "luego", "pero",
+    "dijo", "afirmo", "aseguro", "senalo", "advirtio", "anuncio", "presento", "pidio", "critico",
+}
+
+_PATTERN_CACHE = {}
+
+
+def _alias_tokens(p):
+    key = (p.get("id"), p.get("name"), tuple(p.get("aliases") or []))
+    hit = _PATTERN_CACHE.get(key)
+    if hit:
+        return hit
+    strong, weak, seen = [], [], set()
+    for name in [p.get("name", "")] + list(p.get("aliases") or []):
+        toks = tuple(norm(m.group()) for m in TOKEN_RE.finditer(norm(name)))
+        if not toks or toks in seen:
+            continue
+        seen.add(toks)
+        (strong if len(toks) >= 3 else weak).append(toks)
+    _PATTERN_CACHE[key] = (strong, weak)
+    return strong, weak
+
+
+def _find(seq, alias):
+    n = len(alias)
+    return [i for i in range(len(seq) - n + 1) if tuple(seq[i:i + n]) == alias]
+
+
+def _es_nombre_propio_pegado(matches, i, n, cargo_words):
+    """¿Hay otro nombre propio pegado al nombre encontrado?
+    'Juan Esteban Romero' contiene 'Juan Esteban', pero es otra persona."""
+    a, b = matches[i], matches[i + n - 1]
+    # palabra siguiente, pegada (solo espacios de por medio) y con mayúscula
+    if i + n < len(matches):
+        nxt = matches[i + n]
+        if (not text_between(a, b, nxt) and nxt.group()[0].isupper()
+                and norm(nxt.group()) not in STARTERS):
+            return True
+    # palabra anterior, pegada, con mayúscula, que no sea cargo ni inicio de oración
+    if i > 0:
+        prv = matches[i - 1]
+        if (not text_between(a, b, prv, before=True) and prv.group()[0].isupper()
+                and norm(prv.group()) not in STARTERS and norm(prv.group()) not in cargo_words):
+            return True
+    return False
+
+
+def text_between(first, last, other, before=False):
+    """Texto entre el nombre encontrado y la palabra vecina; vacío = pegadas."""
+    src = first.string
+    gap = src[other.end():first.start()] if before else src[last.end():other.start()]
+    return gap.strip()
+
+
+CARGO_WORDS = {
+    "diputado", "diputada", "diputados", "senador", "senadora", "senadores", "concejal", "concejala",
+    "concejales", "legislador", "legisladora", "gobernador", "gobernadora", "intendente", "ministro",
+    "ministra", "presidente", "presidenta", "vicegobernador", "vicegobernadora", "doctor", "doctora",
+    "dr", "dra", "sr", "sra", "don", "dona", "ing", "lic", "cr", "cra",
+}
+
+
+def person_match(text, p, lenient=False):
+    """¿El texto nombra a esta persona?
+
+    - Nombre de 3 o más palabras ("Claudio José Cansino"): coincidencia directa.
+    - Nombre de 1 o 2 palabras ("Enzo Alabi", "Sáenz"): puede ser un
+      homónimo, así que además tiene que haber contexto político
+      (diputado, senador, bloque...) en el texto. Excepción: en un medio de
+      Salta (lenient=True) alcanza con el nombre de 2 palabras.
+    - Se busca palabra completa y sin importar tildes ("Cari" no coincide
+      dentro de "Carina").
+    - Si el nombre corto viene pegado a otro nombre propio ("Juan Esteban
+      Romero" cuando buscamos a "Juan Esteban"), es otra persona: se descarta.
+    """
+    text = str(text or "")
+    matches = list(TOKEN_RE.finditer(text))
+    if not matches:
+        return False
+    seq = [norm(m.group()) for m in matches]
+    strong, weak = _alias_tokens(p)
+    for alias in strong:
+        if _find(seq, alias):
+            return True
+    hits = []
+    for alias in weak:
+        for i in _find(seq, alias):
+            if not _es_nombre_propio_pegado(matches, i, len(alias), CARGO_WORDS):
+                hits.append(len(alias))
+    if not hits:
+        return False
+    if CARGO_CONTEXT_RE.search(norm(text)):
+        return True
+    return bool(lenient and (max(hits) >= 2 or p.get("chamber") == "Ejecutivo"))
+
+
+def match_politicians(text, politicians, lenient=False):
+    return [p["id"] for p in politicians if person_match(text, p, lenient=lenient)]
+
+
+# Evita repetir la misma nota (mismo título) para la misma persona cuando
+# llega por dos caminos (feed directo y Google News).
+SEEN_TITLES = set()
+
+
+def title_key(title):
+    t = re.sub(r"\s+[-–—|]\s+[^-–—|]{2,40}$", "", str(title or ""))
+    return " ".join(re.findall(r"[a-z0-9]+", norm(t)))
 
 
 LEGAL_KEYWORDS = [
@@ -282,9 +691,14 @@ def extract_quote(text):
 
 
 def add_mention(mentions, existing_ids, *, mid, politician, title, link,
-                 source, published, sentiment_score_value, sentiment_label):
+                 source, published, sentiment_score_value, sentiment_label,
+                 published_iso=None):
     if mid in existing_ids or not link:
         return False
+    tkey = (politician["id"], title_key(title))
+    if tkey[1] and tkey in SEEN_TITLES:
+        return False
+    SEEN_TITLES.add(tkey)
     mentions.append({
         "id": mid,
         "politician_id": politician["id"],
@@ -295,6 +709,7 @@ def add_mention(mentions, existing_ids, *, mid, politician, title, link,
         "link": link,
         "source": source,
         "published": published,
+        "published_iso": published_iso,
         "collected_at": datetime.now(timezone.utc).isoformat(),
         "sentiment_score": sentiment_score_value,
         "sentiment_label": sentiment_label,
@@ -317,13 +732,19 @@ def _collect_from_url(url, p, mentions, existing_ids):
         # cada una -y extract_comentions() puede detectar el cruce-, en
         # vez de que la segunda persona quede descartada como "duplicado".
         mid = make_id(f"{link}|{p['id']}")
-        score, label = sentiment_score(f"{title} {summary}")
         source = entry_source_name(entry, "Google News")
+        # Google News a veces devuelve notas que no nombran a la persona
+        # (o nombran a un homónimo): se descartan.
+        clean_summary = re.sub(r"<[^>]+>", " ", summary)
+        if not person_match(f"{title}. {clean_summary}", p, lenient=is_local_source(source)):
+            continue
+        score, label = sentiment_score(f"{title} {summary}")
         published = entry.get("published", datetime.now(timezone.utc).isoformat())
         if add_mention(
             mentions, existing_ids, mid=mid, politician=p, title=title,
             link=link, source=source, published=published,
             sentiment_score_value=score, sentiment_label=label,
+            published_iso=entry_published_iso(entry),
         ):
             new_count += 1
     return new_count
@@ -340,32 +761,68 @@ def collect_by_politician(politicians, mentions, existing_ids):
     return new_count
 
 
-def collect_from_direct_feeds(politicians, mentions, existing_ids):
+def collect_from_direct_feeds(politicians, mentions, existing_ids, batches):
+    """Cruza cada titular de cada medio leído directo contra la lista de
+    políticos EN FUNCIONES (los 'ex' no generan menciones nuevas)."""
     new_count = 0
     by_id = {p["id"]: p for p in politicians}
-    for feed_name, url in DIRECT_FEEDS:
-        feed = fetch_feed(url)
-        if not feed:
-            continue
-        for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
+    for batch in batches:
+        feed_name = batch["name"]
+        for entry in batch["entries"]:
             link = entry.get("link", "")
             title = entry.get("title", "")
             summary = entry.get("summary", "")
             full_text = f"{title} {summary}"
-            matched_ids = match_politicians(full_text, politicians)
+            matched_ids = match_politicians(re.sub(r"<[^>]+>", " ", full_text), politicians, lenient=True)
             if not matched_ids:
                 continue
             score, label = sentiment_score(full_text)
             published = entry.get("published", datetime.now(timezone.utc).isoformat())
+            published_iso = entry_published_iso(entry)
             for pid in matched_ids:
                 mid = make_id(f"{link}|{pid}")
                 if add_mention(
                     mentions, existing_ids, mid=mid, politician=by_id[pid],
                     title=title, link=link, source=feed_name,
                     published=published, sentiment_score_value=score,
-                    sentiment_label=label,
+                    sentiment_label=label, published_iso=published_iso,
                 ):
                     new_count += 1
+    return new_count
+
+
+def collect_media_general(batches):
+    """Los titulares de los medios locales leídos directo también van a
+    la sección de noticias generales (Provincial), con su fecha real."""
+    existing = load_json(NEWS_GENERAL_FILE, [])
+    existing_ids = {n["id"] for n in existing}
+    new_count = 0
+    for batch in batches:
+        for entry in batch["entries"]:
+            link = entry.get("link", "")
+            title = entry.get("title", "")
+            if not link or not title:
+                continue
+            mid = make_id(f"Provincial|{link}")
+            if mid in existing_ids:
+                continue
+            score, label = sentiment_score(f"{title} {entry.get('summary', '')}")
+            existing.append({
+                "id": mid,
+                "category": "Provincial",
+                "title": title,
+                "quote": extract_quote(title),
+                "link": link,
+                "source": batch["name"],
+                "published": entry.get("published", datetime.now(timezone.utc).isoformat()),
+                "published_iso": entry_published_iso(entry),
+                "collected_at": datetime.now(timezone.utc).isoformat(),
+                "sentiment_label": label,
+            })
+            existing_ids.add(mid)
+            new_count += 1
+    existing.sort(key=lambda n: n.get("collected_at", ""), reverse=True)
+    save_json(NEWS_GENERAL_FILE, existing[:MAX_GENERAL_ITEMS_STORED])
     return new_count
 
 
@@ -455,6 +912,7 @@ def collect_by_topic(topics, topic_mentions, existing_ids, politicians):
                 "link": link,
                 "source": source,
                 "published": published,
+                "published_iso": entry_published_iso(entry),
                 "collected_at": datetime.now(timezone.utc).isoformat(),
                 "sentiment_score": score,
                 "sentiment_label": label,
@@ -730,12 +1188,28 @@ def main():
         print("No hay políticos ni temas configurados.")
         return
 
+    # Solo se buscan noticias nuevas sobre quien está EN FUNCIONES. Los
+    # "ex" quedan en la lista (historial) pero no generan menciones nuevas.
+    active = [p for p in politicians if is_active(p)]
+    print(f"Políticos en funciones: {len(active)} de {len(politicians)} en la lista.")
+
+    # Medios locales leídos directo (RSS descubierto solo) — una sola vez
+    # por corrida, se reutiliza abajo.
+    media_batches = fetch_media_batches()
+    print(f"Medios leídos directo: {len(media_batches)}")
+    print(f"Nombres nuevos con cargo detectados en titulares: "
+          f"{update_candidates_file(detect_candidates(media_batches, politicians))}")
+
     if politicians:
         mentions = load_json(MENTIONS_FILE, [])
         existing_ids = {m["id"] for m in mentions}
 
-        new_by_search = collect_by_politician(politicians, mentions, existing_ids)
-        new_by_feeds = collect_from_direct_feeds(politicians, mentions, existing_ids)
+        SEEN_TITLES.clear()
+        SEEN_TITLES.update((m["politician_id"], title_key(m.get("title", ""))) for m in mentions)
+        # Primero los feeds directos (traen el enlace real de la nota) y
+        # después Google News (cuyos enlaces son redirecciones).
+        new_by_feeds = collect_from_direct_feeds(active, mentions, existing_ids, media_batches)
+        new_by_search = collect_by_politician(active, mentions, existing_ids)
 
         mentions.sort(key=lambda m: m.get("collected_at", ""), reverse=True)
         mentions = mentions[:MAX_MENTIONS_STORED]
@@ -753,7 +1227,7 @@ def main():
     if topics:
         topic_mentions = load_json(TOPIC_MENTIONS_FILE, [])
         existing_topic_ids = {m["id"] for m in topic_mentions}
-        new_topic_count = collect_by_topic(topics, topic_mentions, existing_topic_ids, politicians)
+        new_topic_count = collect_by_topic(topics, topic_mentions, existing_topic_ids, active)
 
         topic_mentions.sort(key=lambda m: m.get("collected_at", ""), reverse=True)
         topic_mentions = topic_mentions[:MAX_MENTIONS_STORED]
@@ -762,9 +1236,9 @@ def main():
         save_json(TOPIC_DATA_FILE, build_topics_data(topic_mentions, topics, politicians))
         print(f"Menciones de temas nuevas: {new_topic_count}")
 
-    new_general = collect_general_news()
+    new_general = collect_general_news() + collect_media_general(media_batches)
     general_news = load_json(NEWS_GENERAL_FILE, [])
-    print(f"Noticias generales nuevas (nacional + provincial): {new_general}")
+    print(f"Noticias generales nuevas (nacional + provincial + medios directos): {new_general}")
 
     topic_mentions_for_events = load_json(TOPIC_MENTIONS_FILE, []) if topics else []
     events_data = build_events(mentions, topic_mentions_for_events, general_news, politicians, topics)
