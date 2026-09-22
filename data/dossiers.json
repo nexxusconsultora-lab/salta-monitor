@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 129,
+    "total_mentions": 133,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 13,
-      "neutral": 110
+      "negativo": 15,
+      "neutral": 112
     },
     "sentiment_by_day": {
+      "Tue, 22 Se": {
+        "total": 5,
+        "score_sum": -4
+      },
       "Thu, 06 No": {
         "total": 2,
         "score_sum": -2
@@ -19,10 +23,6 @@
         "score_sum": 0
       },
       "Tue, 19 Ju": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "Tue, 22 Se": {
         "total": 1,
         "score_sum": 0
       },
@@ -166,7 +166,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 67
+        "count": 71
       },
       {
         "term": "tribuno",
@@ -291,6 +291,34 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz y el Día del Estudiante: un mensaje que suena a chiste en medio de la polémica por las escuelas fantasmas",
+        "link": "https://elintra.com.ar/2026/09/21/saenz-dia-estudiante-escuelas-fantasma/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 02:39:00 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "¿Qué va a buscar Gustavo Sáenz a París y qué pendientes deja en Salta?",
+        "link": "https://elintra.com.ar/2026/09/22/paris-gustavo-saenz-inversiones/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 10:41:00 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Diego Santilli elige a Sáenz y reprende a Olmedo",
+        "link": "https://elintra.com.ar/2026/09/22/diego-santilli-olmedo-saenz/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 14:33:16 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "«Dicen por ahí»: un millonario suelto en las encuestas, Sáenz se lamenta por Royón, el llamado nervioso del princeso Durand y Martín Grande piensa insistir",
+        "link": "https://elintra.com.ar/2026/09/22/dicen-por-ahi-un-millonario-suelto-en-las-encuestas-saenz-se-lamenta-por-royon-el-llamado-nervioso-del-princeso-durand-y-martin-grande-piensa-insistir/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 16:44:11 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz pide con urgencia una ley de derribo - Gente de Salta",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUhKYVFoaDNfdk1ueWpuZW55Y2U1SldUZzM2TVg4TWRPU0hEbTNTZnBwbEpHaHhrRTBROUlQS3cxMk03RDRtRHp3cldoNFdEaUE1NkQwQXFhNDFkalE0ZXNZTWZxRlRFSGRQTWdoVGVVSWFheXBSUUpUWGtPT1k1Rm1hOWxLZ2c4UU45N3djYnLSAZYBQVVfeXFMUGtCOTA5VDZTSzBiZ1lDS0puM3hpc0RJTW9pWE83SlFTQ1M3TzE4UjhENGJzUDlONERIb3hyQnUzM2FXdUFXekxWbmNwbjlubVJQUWVMdERhYXRjZzhENXgzXzVhMF9oRThLWmZMMmhGb2U5TTRGZVRaOVp0TS1LRVJKb2luV0N1UWlsczl6cHROWVZQS1dR?oc=5",
@@ -471,34 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB5SjNQbXNsRkJRY2dGQnRjTFkwcTlnWktXb0tmRFBDdHREUGpEeV95YjA3S29IN0tlMDRwYlVnQ1NBRDI2?oc=5",
         "source": "Informate Salta",
         "date": "Sun, 18 Sep 2016 00:42:52 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Empresas de Saeta reducen frecuencias y advierten que la crisis puede agravarse - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQVFkVmNKZHFlYmNKRkFOaEk2ODRYMFdsaGlnSkpiWXUtSXVVZGpJaWIzSjBSazNyVld6TmppbVpZOGZPTmVraTl0RW5uNG8xeW5JUnVKQ3B1UnNyX1JkU3RfUjRMREdNVjR1YmNoMXAwRWgyRzE1VlVCaEFQX1BRZ3d2WlVhZGR0enhkNy1XRVlKMUhYN2d4bUE0amtEX3ZyT3kzS3dHQU85YTVYRkE4NWFJaV9yNkFhbUY5NEVjRHFPRnNyMmfSAcsBQVVfeXFMUDNwU0dXRWx6Vld5QXVta1oxaVh3Um9zMkFqZWVjWUdxNF9PMnVvUzc5VHNEUThjVXRMS3N5YXJQV2xYelhSTHhrLTJHTE0xemg0dURBbkNFUlpuQkpadXN2OVFPTWNESXRwSkdydW1OM2ZTRlFkb0p1NnJtSEdUalhfUUx2Y0JVaFEtMTRKWXhMWGdpVG1ubklCSmRObTg4MlBzR3dsVlJDZEl3UmVzS0U5SWFPSnVfaTVWX2w3MTltek9GTnJSZ2hjLXc?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 21 Sep 2026 03:23:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Fuerte polémica por la emergencia en Discapacidad - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnl6QVlRXzlzN2RsSlgtUlJIT0ozalVSSHBKNExZQ1EzdUxzbElOcE5yV1l4RUdyZGlWNk1wRTJaSzkzbFEzeWd5c2J5djZBaFRzelFFdDFZR1BTUTBvWjFUNFRpUk5wOWZBR3hiblBIM0JjcXFrSXQxNU5TNDBZT0V2cTBzZ1BuS3lPRjdsSFdHWGg1YjNnXzNFbDdicHk4VEJQM9IBqgFBVV95cUxQOGl4TTBoZGZ4VEw4WmFhcC13Q08yVVVCUHJWSGhST3B2c3F5elM2TVV4YTJRZDJJaUl0aVRXaTRYeWN1aUdaTVVHUGllVlU4bXZ2bmdDTC1USGp6U054OTFFUGdiQlA2bXBmZ3REUDFnd3lRWUdHbnZkejdpRmg1X1lRZm5EM3F0R28wVkdvTmFMYnFZRVhEUzB5R296RFRGSFRnUDM2cVY0UQ?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 17 Sep 2026 04:35:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Javier Milei defendió la estrategia del Gobierno sobre las Islas Malvinas y negó que sea una maniobra electora - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT1BpaHdWelNnX01ESVNRRDZCR1pGcG1JTDhqamtScWlsSzl5cG94bnVfaUNfNDgtSTdmNXZUSUYycXd0c2lhTXJkeFl3X2RsZTBXVGNaOTBlMjYwem96SFQ1UjhLbE50VUMtZjg0NUN6eG9UV2FmbU5kb0JJR1Nhc204dmlaeGhHTUhBUC1JQ0tYTXhaZzdCcUxLZDhYSTdwMHVoekZFWjJiMnJLdDlod0pLeC1SQ3BGRWhXVEcwb295UGNFeWQ1aW5QVmpIWlhlMXVlSzNtYzFuaXJHZUpfQzdScTRXQnI1Tlg0VtIB8gFBVV95cUxQc0ZKVnJIc2hsMzJzc2w4NHB6WkVPYkh3ci0yd1ZaVGdIZjBsMHBYVGZhMndrSGUxMllCRFpNLVpsSndSamFEcTFQYmFRWXNUQ3ZHSnZpUzNUUlUycXNHRXBMM0hPR3ZFZVJMSEUxYk9URmprcmU4WXN2dVNaU2dwYXFUUHFlYTBQV0VwZFRmbXE1NTAwYlV3ZVBEYk1kZmdEMTRSanZPM3hyM2ZGdFRydE5qRWwyNVpKOUdaOTNqd1hiNWlLaFBDeXZpdEtlRDA5bGNSU3BYMTN1aEg5ZnJ4M0V3cVZVV2ktb2hhdjkyQUdIUQ?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 16 Sep 2026 22:24:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La bandera de las islas que mostraron los jugadores llegó a Malvinas - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlBKamNUUmNBMGJCbkR5N2hiaEVadFVEeVBocFg4ZzlhLVl6bXlSU01rNmJoN0FVZUE1dTJpUjhYa0ZRUXhRT2xjX0x4endabUxwOUtvMWtsM2F4VHFDSzJsM1RlM21EV3VweXNVVzZTMjRWY244bDFLNXozOXNYY3REbTlST1ViOU80eUF5S0NlVW1lZ1U5Q0hmT0JRZFlKTlEyMjdlc1BzUE9xUHNSaEVtelc3RGEtQzlIM01LTF_SAcYBQVVfeXFMTW1VTmFKc29MWkY1cXMyQk9mbFB3aDl2SjlZUDZpSkx4S09TTnJCTWFSX3JoOTN3X2ItZlhSYlhXM0RRUlY5Zm41N2p0VlpON3BkQWFRRmVCaFZFQVZzbUh3S2lxWTA4ZG1UeHdCZXhQWHdmS25ITHZfNllWdlFSTGV1N3ByM1JyWkVpTFVVTGxHS1ZTa01LeWwtcWNKdFowTkxmamRiX3VKU3J4OHU3XzhsSXVJTjQwRmxqaEUxWU52SnBwaXBR?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 20 Sep 2026 14:21:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -2149,13 +2149,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 24,
+    "total_mentions": 25,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 2,
+      "negativo": 3,
       "neutral": 21
     },
     "sentiment_by_day": {
+      "Tue, 22 Se": {
+        "total": 1,
+        "score_sum": -5
+      },
       "Tue, 16 Ma": {
         "total": 1,
         "score_sum": 0
@@ -2240,11 +2244,11 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 10
+        "count": 11
       },
       {
         "term": "cornejo",
-        "count": 10
+        "count": 11
       },
       {
         "term": "tribuno",
@@ -2305,6 +2309,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Enrique Cornejo se saltó la burocracia local y llevó el reclamo de los tabacaleros a la Nación",
+        "link": "https://elintra.com.ar/2026/09/22/fondo-especial-reclamo-tabacaleros/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 14:48:51 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Enrique Cornejo: “Continuar con la gestión de Carlos Rosso no será tarea sencilla” - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZElxV0tYSm45cGxZMGxqdjd0WnN2MDJ3YXhNYUt4SVk3UDFFVmItbTRGdnFoSGJ4UDZHN3FINWxtaUEzcHFTYVBWWVVNdUxFanUxejdCc29BdFB5V01NTDFnZVVUZTFvRUNYaHBKVXRpVl8tbEtWOXVyTll0MXlzX05zYzJwUDJEYkhONFlnOHJxcFJ3NXBrQVNpb3FTaXJBeV9kcjVJbkEtQ3BKYXdzNm14NUw?oc=5",
@@ -8866,13 +8877,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "Wed, 08 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 25 No": {
         "total": 1,
         "score_sum": 0
@@ -8977,15 +8992,15 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 22
+        "count": 23
       },
       {
         "term": "exeni",
-        "count": 22
+        "count": 23
       },
       {
         "term": "tribuno",
-        "count": 8
+        "count": 9
       },
       {
         "term": "diputado",
@@ -9078,6 +9093,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Omar Exeni - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LeVNVd0kzMDdPNC1PNlQwaElqS3NTVzVHRFBlbWRRM0FNODVDbEItSUxpRGsya3R6UUFoNllHbVUzZG83NWswSEg2QkxSZTJhYm9F?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 08 May 2024 08:00:41 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Omar Exeni busca sancionar a padres por casos de bullying en Salta - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUpSc3pHWFJmaFZrMnhPTnpPLUJDOEcwUjd1WDBwSkdibG1lbzRPWm91cTRxR1NENXhxWWJBeEtyT1M5NFowNEJFTjdaRzBsM2M1X3B1SFJuUXJUYjhDeEw1SHBMVkQ0TlV6YVJrZzZVTlNVQnpTOXlsVkFad2VuNWQtSjJvLUt4LWZuN3BzOUJoaHpvMkJFTGpqekVrNVdSaVBTcFNVWHhnUDVzU182OGU2ajFPSmhP0gG-AUFVX3lxTE10QUU0czU3NWx6MDJxNUp6cHBGSEFiLXVuY3hZdVJ2TmhWd3dPdDB6SVJHVnlnblZNV2RjS1VJRkRtQ2EzLWY0YUppZzNGWUR4MGRTVEdjNnF6THZQRFJES2ZHTVRWcmpRTG5LM3oxY0l6cFYyRVVHRXl5ODZGNnBoWFY0ejZYZkdkMnYybGRzV2JDMDNucnc4b09MVVNyZThUOW9jaWE0Q1d1V095SEJLRkhzVEpFZGVYSEdxQmc?oc=5",
@@ -9324,13 +9346,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 9
     },
     "sentiment_by_day": {
+      "Sun, 02 Ma": {
+        "total": 1,
+        "score_sum": 2
+      },
       "Mon, 10 Ap": {
         "total": 1,
         "score_sum": 0
@@ -9371,11 +9397,19 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 9
+        "count": 10
       },
       {
         "term": "juárez",
-        "count": 9
+        "count": 10
+      },
+      {
+        "term": "diputada",
+        "count": 3
+      },
+      {
+        "term": "diario",
+        "count": 3
       },
       {
         "term": "elintra",
@@ -9386,15 +9420,11 @@
         "count": 3
       },
       {
-        "term": "diario",
+        "term": "proyecto",
         "count": 2
       },
       {
-        "term": "diputada",
-        "count": 2
-      },
-      {
-        "term": "ahora",
+        "term": "nuevo",
         "count": 2
       }
     ],
@@ -9426,6 +9456,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La diputada Mónica Juárez impulsa un proyecto clave en la lucha contra el Alzheimer - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZGtLaWdqbDRQelFvNHVsbWtRYXpQbG02aHlaT1d2NTdvY0h6ODFWeFc5VlBsbGYtQU9nV3ppSDJUMDlPbUdhZ0I0b1YydXp6TVNXVzVNc1lPODZ1TmJVR04yX0FDaW1IdGtGS1JnSnNOa3RhR2RVM1Atb1pKbjFfNEsyaGI4a1NUQm5lNmVrbkVjdkJkSi11WjFQVl9Bb0tOM3dmVnB2U2FyUmYzaTNFMFR4WldwT3luZUE?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Sun, 02 Mar 2025 08:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez quiere un Currículum Vitae que genere igualdad de condiciones - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHdVRGhtcGNNd1g1X0FJNG9kbGhmb3Fob1U1eG50Vm53RWJ6a25EOTM4MURZaE9zXzJucEJqaXJGZWthYlNEYUFaU09IZTVZYnJ1X2pud0hWTThEbW9uc3BGTXdwbklpUGd2TjV2X2lyNHVSNXIxYlB0X194WUhSemRNSFFURzdPRFlDNW03MDVQY2dSVV8xQUk3MS1WU2czMG82cThsS0luYk1iUmdF?oc=5",
@@ -14462,13 +14499,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 29,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 25
+      "neutral": 26
     },
     "sentiment_by_day": {
+      "Thu, 28 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 17 Ma": {
         "total": 1,
         "score_sum": -2
@@ -14569,11 +14610,11 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 14
+        "count": 15
       },
       {
         "term": "álvarez",
-        "count": 14
+        "count": 15
       },
       {
         "term": "eltribuno",
@@ -14581,7 +14622,7 @@
       },
       {
         "term": "elintra",
-        "count": 8
+        "count": 9
       },
       {
         "term": "concejo",
@@ -14634,6 +14675,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Por su amistad con Durand y Sáenz, Agustina Álvarez no cree que Del Frari pueda ser buen Defensor del Pueblo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdWtZWEZvUjFORjF0ckdIWXRwNnU0cjZSNVlVQ2dEdi1Ta0RhNXoxWjhJejExUWoyeU1STWxHc01YcTRYVGVMMUprdmwzUmlJdUp4Yk5TQ0NnM0szRUJMX1BFeFRsWWJudkJnSE9OaXRlelhweUkyOWtFWXAydlY1Mk51NS1YcWlJN01ZdmVSZmk2aEFKOVkzdF9ad3JPN1NDWkJHWnRqRTN1VlI0UTktZHNZSlZOT3RITUVOeGxWTjRZV21oM1NhR3BGV0lPQWVhRzZUNl9wSnlIdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 28 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez criticó a La Libertad Avanza por no querer conformar una alianza opositora en Salta - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUEUzaUtPOXZtbkE0V2ZFdEpkeFNJQWFLS3JFM3FxMnFQanVzY1VEU3pzVy13VWs0STBwNE56N0ctTFJ5cTc2MF96WWxwRS1ZWGk2Z19KeldYSEFIMEhXQlctQjgtLXU0bk1jMlRvTnZJc0NYYXFJM2JuOFlvcUhPSERuQVNySDYtZF9EdldvaG13OUQ5N1pjNzVuRUVUWk1zRVNRY2kzcXJkNUp2QWZRZDlIY2lyOUk2YTdiZVdyd0EtZC1Tbklrbnp0cDY?oc=5",
@@ -19780,13 +19828,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "Tue, 22 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 08 Au": {
         "total": 1,
         "score_sum": 0
@@ -19802,6 +19854,14 @@
     },
     "top_topics": [
       {
+        "term": "rodrigo",
+        "count": 2
+      },
+      {
+        "term": "quinteros",
+        "count": 2
+      },
+      {
         "term": "defrentesalta",
         "count": 2
       }
@@ -19816,6 +19876,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros cada vez más alejado de la dirigencia local: su postal en solitario en la Casa Rosada",
+        "link": "https://elintra.com.ar/2026/09/22/rodrigo-quinteros-cada-vez-mas-alejado-de-la-dirigencia-local-su-postal-en-solitario-en-la-casa-rosada/",
+        "source": "El Intra",
+        "date": "Tue, 22 Sep 2026 14:20:01 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Daniel Murillo: \"Rodrigo Quinteros es un ñoqui del Congreso, cobra $1,6 millones y quiere asumir como concejal” - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXhieVFLVkJ3UUxQbEFpcTZvZWlLSGdHTXd3YmdHU290SDNrNGNhMC1GdGNESDRNMDg0MURkWDlTYkZBdGtUZXpJUW1aT1ByRTk2Q3h1SXhWNE5ub3FJUGdCMjdEYnFrenUwb0pFZks5VXo3WEZjRUtwQWFBX29TT0dEMms2N1hqbDd0SEJoa2s1bGNWUXl4cVRFUkdUTTdrSlp5ODh6WVFnS0diYmxURUNXMWpjSzUwZnRCR0k3bTl4MVE?oc=5",
@@ -21612,13 +21679,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 4,
+    "total_mentions": 5,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 4
+      "neutral": 5
     },
     "sentiment_by_day": {
+      "Tue, 13 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 27 Ma": {
         "total": 1,
         "score_sum": 0
@@ -21635,15 +21706,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "outes",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "emiliano",
@@ -21668,6 +21739,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pablo Outes se ubica como el gran candidato para diputado nacional - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRml6VjhWYnpRbHdnWW12MFhJdTV1WU1qeXdNQWs1SDdFN19YcVpHT0FJT2F3WUFQSTh5TWFNWTdrV0l2Z1o4MTk5VjZ6anNBVDJkTXhuTF95ZjlBRFQ2X1VYSk83WnBnZ08wOXdIZ3AzUHNjX01ZMDhpclV4ckFITlpuQVl6eXg4MWJJS0VBTUUyZy1ZdDFkUVNwaGZISUgtc29j?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 13 Jun 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Pablo Outes defendió los cambios en zonas frías y apuntó a subsidiar a quienes usan garrafa - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbEpGUTVPSDQ5NnRzUS11Q2J5V25UQ3c4WE03TGhXSU1JTWg0Wk00cFBvRnBsVEVpTVFHSEQ5YlJJc0h1RjNyTVEtMWtvZTFYQmlMX0o5UGNMb0YyZmdqdmQzQ0JwTk9XNEV6ME1HVTlQekl6WHpYSE5UZ05PYVZWTjVwYUMwcmlYejQxcUFFSS1KcVlLNllNRHVLUnIzQU9xWWstZDYwOVROTkRpY0JoR0UwbGxGS2NOV25EQWticVU1OG1J?oc=5",

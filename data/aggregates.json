@@ -1,26 +1,61 @@
 {
-  "generated_at": "2026-09-22T11:58:46.130225+00:00",
+  "generated_at": "2026-09-22T16:49:27.619387+00:00",
   "by_politician": {
+    "dnac-pablo-outes": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 30,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 26,
+      "score_sum": -8
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 10,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 2
+    },
+    "dip-omar-exeni-arminana": {
+      "total": 26,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 25,
+      "score_sum": -2
+    },
+    "gustavo-saenz": {
+      "total": 133,
+      "positivo": 6,
+      "negativo": 15,
+      "neutral": 112,
+      "score_sum": -18
+    },
+    "concejal-rodrigo-alfredo-perez-quinteros": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "sen-enrique-cornejo-saravia": {
+      "total": 25,
+      "positivo": 1,
+      "negativo": 3,
+      "neutral": 21,
+      "score_sum": -7
+    },
     "snac-emilia-orozco": {
       "total": 29,
       "positivo": 1,
       "negativo": 5,
       "neutral": 23,
       "score_sum": -10
-    },
-    "gustavo-saenz": {
-      "total": 129,
-      "positivo": 6,
-      "negativo": 13,
-      "neutral": 110,
-      "score_sum": -14
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 9,
-      "score_sum": 0
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 8,
@@ -36,26 +71,12 @@
       "neutral": 6,
       "score_sum": 0
     },
-    "dip-omar-exeni-arminana": {
-      "total": 25,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 24,
-      "score_sum": -2
-    },
     "dnac-yolanda-vega": {
       "total": 2,
       "positivo": 1,
       "negativo": 0,
       "neutral": 1,
       "score_sum": 2
-    },
-    "concejal-rodrigo-alfredo-perez-quinteros": {
-      "total": 3,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 3,
-      "score_sum": 0
     },
     "dip-eduardo-jose-virgili": {
       "total": 6,
@@ -204,13 +225,6 @@
       "neutral": 1,
       "score_sum": 0
     },
-    "dnac-pablo-outes": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
-    },
     "dnac-bernardo-biella": {
       "total": 6,
       "positivo": 0,
@@ -288,13 +302,6 @@
       "neutral": 0,
       "score_sum": -4
     },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 29,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 25,
-      "score_sum": -8
-    },
     "dip-gustavo-orlando-orozco": {
       "total": 26,
       "positivo": 1,
@@ -364,13 +371,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 0
-    },
-    "sen-enrique-cornejo-saravia": {
-      "total": 24,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 21,
-      "score_sum": -2
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 35,
@@ -780,6 +780,68 @@
     }
   },
   "by_day": {
+    "Tue, 13 Ju": {
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 28 Au": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 02 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 08 Ma": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 22 Se": {
+      "gustavo-saenz": {
+        "total": 5,
+        "score_sum": -4
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -5
+      }
+    },
     "Mon, 27 Oc": {
       "snac-emilia-orozco": {
         "total": 2,
@@ -980,12 +1042,6 @@
         "score_sum": 0
       },
       "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Tue, 22 Se": {
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
@@ -2960,32 +3016,6 @@
     },
     "Mon, 21 Ju": {
       "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 08 Ma": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -11599,64 +11629,64 @@
   ],
   "trending_terms": [
     {
-      "term": "tribuno",
-      "count": 600
-    },
-    {
       "term": "informate",
-      "count": 178
+      "count": 177
     },
     {
       "term": "eltribuno",
       "count": 170
     },
     {
-      "term": "informatesalta",
-      "count": 165
-    },
-    {
       "term": "elintra",
-      "count": 152
+      "count": 148
     },
     {
-      "term": "diputados",
-      "count": 142
-    },
-    {
-      "term": "nuevo",
-      "count": 130
-    },
-    {
-      "term": "senado",
-      "count": 115
-    },
-    {
-      "term": "diario",
-      "count": 112
-    },
-    {
-      "term": "sáenz",
-      "count": 108
-    },
-    {
-      "term": "senadores",
-      "count": 96
+      "term": "tribuno",
+      "count": 139
     },
     {
       "term": "concejo",
-      "count": 93
-    },
-    {
-      "term": "argentina",
       "count": 90
     },
     {
-      "term": "electos",
-      "count": 90
+      "term": "nuevo",
+      "count": 74
+    },
+    {
+      "term": "diario",
+      "count": 70
+    },
+    {
+      "term": "orozco",
+      "count": 59
     },
     {
       "term": "contra",
-      "count": 77
+      "count": 57
+    },
+    {
+      "term": "deliberante",
+      "count": 54
+    },
+    {
+      "term": "josé",
+      "count": 48
+    },
+    {
+      "term": "sáenz",
+      "count": 43
+    },
+    {
+      "term": "diputados",
+      "count": 42
+    },
+    {
+      "term": "gustavo",
+      "count": 39
+    },
+    {
+      "term": "elintransigente",
+      "count": 38
     }
   ],
   "comentions": [
