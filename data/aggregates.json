@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-09-22T06:24:09.229036+00:00",
+  "generated_at": "2026-09-22T11:58:46.130225+00:00",
   "by_politician": {
     "snac-emilia-orozco": {
-      "total": 28,
+      "total": 29,
       "positivo": 1,
       "negativo": 5,
-      "neutral": 22,
+      "neutral": 23,
       "score_sum": -10
+    },
+    "gustavo-saenz": {
+      "total": 129,
+      "positivo": 6,
+      "negativo": 13,
+      "neutral": 110,
+      "score_sum": -14
     },
     "dip-monica-gabriela-juarez": {
       "total": 9,
@@ -21,13 +28,6 @@
       "negativo": 0,
       "neutral": 8,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 128,
-      "positivo": 6,
-      "negativo": 13,
-      "neutral": 109,
-      "score_sum": -14
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 6,
@@ -780,6 +780,26 @@
     }
   },
   "by_day": {
+    "Mon, 27 Oc": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 06 No": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -2
+      }
+    },
     "Sun, 13 Au": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -2448,20 +2468,6 @@
     },
     "Wed, 29 Oc": {
       "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Mon, 27 Oc": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
         "total": 1,
         "score_sum": 0
       },
@@ -8600,12 +8606,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 06 No": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "Fri, 04 Ju": {
       "gustavo-saenz": {
         "total": 1,
@@ -11616,7 +11616,7 @@
     },
     {
       "term": "elintra",
-      "count": 151
+      "count": 152
     },
     {
       "term": "diputados",
@@ -11636,7 +11636,7 @@
     },
     {
       "term": "sáenz",
-      "count": 107
+      "count": 108
     },
     {
       "term": "senadores",

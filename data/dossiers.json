@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 128,
+    "total_mentions": 129,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 13,
-      "neutral": 109
+      "neutral": 110
     },
     "sentiment_by_day": {
+      "Thu, 06 No": {
+        "total": 2,
+        "score_sum": -2
+      },
       "Wed, 05 Oc": {
         "total": 1,
         "score_sum": 0
@@ -114,10 +118,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Thu, 06 No": {
-        "total": 1,
-        "score_sum": -2
-      },
       "Fri, 04 Ju": {
         "total": 1,
         "score_sum": 0
@@ -166,7 +166,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 66
+        "count": 67
       },
       {
         "term": "tribuno",
@@ -291,6 +291,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz pide con urgencia una ley de derribo - Gente de Salta",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUhKYVFoaDNfdk1ueWpuZW55Y2U1SldUZzM2TVg4TWRPU0hEbTNTZnBwbEpHaHhrRTBROUlQS3cxMk03RDRtRHp3cldoNFdEaUE1NkQwQXFhNDFkalE0ZXNZTWZxRlRFSGRQTWdoVGVVSWFheXBSUUpUWGtPT1k1Rm1hOWxLZ2c4UU45N3djYnLSAZYBQVVfeXFMUGtCOTA5VDZTSzBiZ1lDS0puM3hpc0RJTW9pWE83SlFTQ1M3TzE4UjhENGJzUDlONERIb3hyQnUzM2FXdUFXekxWbmNwbjlubVJQUWVMdERhYXRjZzhENXgzXzVhMF9oRThLWmZMMmhGb2U5TTRGZVRaOVp0TS1LRVJKb2luV0N1UWlsczl6cHROWVZQS1dR?oc=5",
+        "source": "Gente de Salta",
+        "date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El gobernador Sáenz recorrió obras importantes para los vecinos de Rosario de la Frontera - Agroempresario",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTl4cmFudTd1T0JYWVJ6YUx6TDlGS19fb2Z4TjRoSkFxMjJjR2ctRDdVY2kxQTZxODBZREJIX211NHFQSmI2ODlQajZwemozUWd3a0lFcW51WWdxZW0tZ2RZbHpNNUpHSmNpOWEzOEVGcEw2c3RxZWJDN1RhekwwSVZLNGw5NzNvSTZQSFBuRmxkblhjM1BFZGFoSl9fRkl6WVQ2aGJjVEJUb0RKdDJyS1B3V1FYY203NUlnQUdHTGI0WGJWbThqRG4yVHZkSUJr?oc=5",
@@ -492,13 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlBKamNUUmNBMGJCbkR5N2hiaEVadFVEeVBocFg4ZzlhLVl6bXlSU01rNmJoN0FVZUE1dTJpUjhYa0ZRUXhRT2xjX0x4endabUxwOUtvMWtsM2F4VHFDSzJsM1RlM21EV3VweXNVVzZTMjRWY244bDFLNXozOXNYY3REbTlST1ViOU80eUF5S0NlVW1lZ1U5Q0hmT0JRZFlKTlEyMjdlc1BzUE9xUHNSaEVtelc3RGEtQzlIM01LTF_SAcYBQVVfeXFMTW1VTmFKc29MWkY1cXMyQk9mbFB3aDl2SjlZUDZpSkx4S09TTnJCTWFSX3JoOTN3X2ItZlhSYlhXM0RRUlY5Zm41N2p0VlpON3BkQWFRRmVCaFZFQVZzbUh3S2lxWTA4ZG1UeHdCZXhQWHdmS25ITHZfNllWdlFSTGV1N3ByM1JyWkVpTFVVTGxHS1ZTa01LeWwtcWNKdFowTkxmamRiX3VKU3J4OHU3XzhsSXVJTjQwRmxqaEUxWU52SnBwaXBR?oc=5",
         "source": "eltribuno.com",
         "date": "Sun, 20 Sep 2026 14:21:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Martín Gil habla de todo: la llegada de No Te Va Gustar a Salta, la muerte de Rubén Rada y el orgullo de ser p - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPZjl0UlRveWdORlFXOFY0LWFEb0RkZGRXRFJMUlh4SXBiMU5IeDFNREdfMC12LVlvY01NMTZ3Z0NRU3lOcjViSXhtT2VUSzkzR1NnMUFkTk9PVG1keTJpeG1QbWxwczZ1Qm9TX1psaHVyY1k4Z0RGQXh4VHVuYXdFaldDbm5zeW1vWHhnX2Z6dVctNDNFSmg3aF8zd0N1Q0NHVWw2VHdOb1dCcG41Ykhoc3ozVHI0bkpYV0ljTXI0OG92aS03NWh4aFlYQWUtMGJhMGpHNDIzeENfUDhfY2llNVJETWtNdDdxZ09JcTk1OVlvUjRmUUQ1cV9wZUJMallndHFGYXdMTXJDdHMtbWNMQmMtQmNtUdIBmwJBVV95cUxPbFdzY1JvYUJRaGhIR2lzNnJWN0tNOVFWTnFEWkZCOEZtZXh3Z01rRmZXQVhaazRZRGM3NGg2MVlkWk1uM0JrSjlYS0JUcFFPLTlxNTE4LVpXRVY3SGd3MEZVeGlRS0tOekdXQ1RnYm5DbmFFMFZiYWtPcGhuRmZ3NWhfaUVjRTlzWV8tcHM5U2t0c2VlX285NVhFRmVlQzJhQ0czYlN4WmdiSGlYX1RjMnZNRVhOVmRQZ21wd0Z5VGNkdUl5RnNnc0djaVFLcXhrR1dKTjE2U1FCWW1COG41TC10cjJHNEctS1VnQTZVRllqUGFFV05uUjJDei1rcWZCZjdVTk8zTWpVWTByQ2lBXy13TkFXWDBvdi0w?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 20 Sep 2026 23:22:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20404,13 +20404,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "Mon, 27 Oc": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Sun, 13 Au": {
         "total": 1,
         "score_sum": 0
@@ -20456,10 +20460,6 @@
         "score_sum": 0
       },
       "Wed, 21 Ja": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "Mon, 27 Oc": {
         "total": 1,
         "score_sum": 0
       },
@@ -20523,15 +20523,19 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 28
+        "count": 29
       },
       {
         "term": "orozco",
-        "count": 28
+        "count": 29
       },
       {
         "term": "tribuno",
         "count": 11
+      },
+      {
+        "term": "elintra",
+        "count": 7
       },
       {
         "term": "libertad",
@@ -20539,10 +20543,6 @@
       },
       {
         "term": "avanza",
-        "count": 6
-      },
-      {
-        "term": "elintra",
         "count": 6
       },
       {
@@ -20619,6 +20619,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Eliana Bruno reemplazará a Emilia Orozco como diputada nacional - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFVnY2FLMld0X20yQ21zUE00Sm5IQkszLWQ4bHczV1pucDZJNWZ1a05fWlBXODBLa3dFeUxyQ1BwWXRHaWduM0pOQzM4SmRWWFA3dHdkYmlVVkFjNW5tejY3ZWxVRVc1R2Q4WTMtZ0g3RHZYSVpoVW1RVmVBckxIcWxBUXdBbWlhTmZZUEdGejdRd3BOQktOOUhMTXlMT0E?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco fue a votar con Coco, su perrito: \"Para mí, es un día inolvidable\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUdIBZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUQ?oc=5",
