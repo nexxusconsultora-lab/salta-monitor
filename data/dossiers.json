@@ -3,15 +3,35 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 113,
+    "total_mentions": 125,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 13,
-      "neutral": 94
+      "neutral": 106
     },
     "sentiment_by_day": {
+      "Tue, 15 Se": {
+        "total": 8,
+        "score_sum": 0
+      },
+      "Fri, 18 Se": {
+        "total": 16,
+        "score_sum": -2
+      },
+      "Wed, 16 Se": {
+        "total": 15,
+        "score_sum": 0
+      },
+      "Sun, 20 Se": {
+        "total": 12,
+        "score_sum": 6
+      },
+      "Thu, 17 Se": {
+        "total": 8,
+        "score_sum": -4
+      },
       "Mon, 21 Se": {
-        "total": 6,
+        "total": 9,
         "score_sum": -2
       },
       "Sat, 03 Ma": {
@@ -22,33 +42,13 @@
         "total": 4,
         "score_sum": 0
       },
-      "Wed, 16 Se": {
-        "total": 13,
-        "score_sum": 0
-      },
-      "Sun, 20 Se": {
-        "total": 10,
-        "score_sum": 6
-      },
       "Sun, 18 Se": {
         "total": 1,
-        "score_sum": 0
-      },
-      "Thu, 17 Se": {
-        "total": 7,
-        "score_sum": -4
-      },
-      "Tue, 15 Se": {
-        "total": 7,
         "score_sum": 0
       },
       "Wed, 25 Oc": {
         "total": 1,
         "score_sum": 0
-      },
-      "Fri, 18 Se": {
-        "total": 13,
-        "score_sum": -2
       },
       "Tue, 05 Ma": {
         "total": 2,
@@ -154,7 +154,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 51
+        "count": 63
       },
       {
         "term": "tribuno",
@@ -178,14 +178,26 @@
       },
       {
         "term": "argentina",
-        "count": 16
+        "count": 17
       },
       {
         "term": "obras",
-        "count": 15
+        "count": 16
       }
     ],
     "quotes": [
+      {
+        "quote": "La paciencia se va agotando",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSjc0UGJnZk9vVEhVM2h5UkRKc1FsQ1hfemljZXRiS3FER3pteTIxM2hhMG1Cd2V1SFJpMjVPakI4TmlNa0ctOWstUFFOeS1IVUt4dEo2WXNoMXJaQ2pnVWkzMVJiTWo4YnVDSURyNS1qdkRpMFc2MUR3RmRDNmdYMzRDbHVMUQ?oc=5",
+        "date": "Thu, 17 Sep 2026 11:34:40 GMT"
+      },
+      {
+        "quote": "Vayan detrás de lo que sueñan",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEFYS3VnX1NxU1Q2LS1mRXM4TWdlM2xhM05oaVItQUt6X2VoRXljY094TkpfSjNZX3FUQ1daT2ZJVTVseFhaM0t1UU5BUzVhc2cyWkVmVmFSUlNfTXhYQ1A0LU82NTVjeUg3amtTYWh1RHIxblRMdG40RDN2OHk0dllURXE5eXF1N1NKOENnLVZ3MWNhcFVZUjVvRlMzS0R3dmVLU2FyTUMtMWFhRWFLS0h0MEJxX1c5?oc=5",
+        "date": "Mon, 21 Sep 2026 15:28:41 GMT"
+      },
       {
         "quote": "La paciencia se va acabando",
         "source": "Informate Salta",
@@ -263,22 +275,94 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWEJ4RjVaa1hoQXpZU3pnbUExWkF6RFotRV9fWHFNYUNDT254R3NRcEZpOU1UZFZWZjhUVi1iTzdDaHA2WlZFbXRDRG9PTTNwS2MzU1VYQTJ2UXlHenBoZTl2N3FBMWRNcE11MUROYTB1SlBwdWMxZUdCNERwTU1pWFJ6SlRTSWo3c29Vc2p4Slk0ZE1qTkZycmd0RWNfZ19LemZETUhGVmlTVGpTWHJkbW94X0VLekYwWnfSAb8BQVVfeXFMTlFXajJqaWxtX1ctTFFSYl9lRDFjeVc0bURaUUpiRlJrTVQ4OXI3Y1poVGNmRm0yQzBjTlZmMmlNcnVLZjZvSE5VU09QVjdmRzdSTDBNLTdaQzJiTTdkRGNvOTU5QmdJMXlhS1Q1YVJxeFdIV21YUFJRbnZHaFN4NGdKX1R6SmUwc2pCN0VrNzFneURXaFRmTm5iR0ozWWs2MXBoNDdxVWptSEI4M0tYMUNqbHFLSDVhaGFBNlVxVFk?oc=5",
         "date": "Thu, 17 Sep 2026 04:35:00 GMT"
-      },
-      {
-        "quote": "No tengo cintura, pero estoy buenísima",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNFdtRW9EbkFLakp0UlRNdExiUVp4RDYzNnhFSXpWN2paUi0xX1R2UmNIRFJtWUVVZExCX293eExrRTNxMnRrVTJHZEpKWFpjOHVFc1hueGY0Nnc2NE1qRTN0MU1iN0NNbnBiNlFCMzRqei1FMVppQ2RtOF9kS241SlRkYW1BSVN4TkwtUzBUbUtMQ3pzaHlCckhjUTd2LW40V3dLZzhycjlUMEZyWExlUUhSTFAwUjhndjlfZzlQZEZRb1dPSjVDbGdjLVlwaUt6SmFrOVF4T0x0Yi02YU1oMW1oWG5aYUt1dndhMXVBVW3SAfYBQVVfeXFMUDVyNHdYWUxQUHFBWDZTcjVRMGlGVVJGQ3VTSEhIY0xRc1puelhpZkY4U3FBUnFkSWZZdnotNi1qd2MxZXQzRENYWlA2RUdiQ0QtWjFFcGdqV243Zks5NEdDSndfYTBOVFZJQ1NBNWNsd28wZzBmc0diaVdKa3MtcDJjZm1sVUthcDh2cllyZVBGdWRLUmlOaWRpRnZpWS1LaEVNTkRSVEhMLXU0Uko4bDFlWDlEb3JkNU1lQTdpbnlUVVlVMnZPYVBwRmQ4Z2FyS1NQVlV6Vm5EN2JkZzdUT3RzMzJHb0pXTTNfUzF6blRiTEZHbHBB?oc=5",
-        "date": "Fri, 18 Sep 2026 15:59:00 GMT"
-      },
-      {
-        "quote": "Dios no abandona al pueblo cuando tiembla la tierra ni la vida",
-        "source": "informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdFp5amVPOTItbWNmOE5WTkgxLWdZdWJhVDNJMnFjdXBrbjBlMmhSQWxCOWN1V0JPcE9qR1F2M1N0SmxCbFpNdEMxcWdaeVN0RVBKbkpvRHZmLVZIZjR0SEFieEJSM3hENVQwYWhST3FxSXRTRzFVY2tzVGNDXzNta3owXzQ5X3VrOTI1SUdzTldtQUt6b2tLNm9KQ1RIWVlWdGNSaHJTSWNTV2p5ZXJGZzhfWW1TX2hJQi1EcWFXZm1kNURmTFlha2tBR3ZjRzBPaVJEYjdIMERuUmZLclBhZFBsSVo5bUhhMTZ5c2RsQdIB_gFBVV95cUxPdFM0anhNN3dhWW5SRmpzV1pRZlBMcjRaVUdxTXNYRG1aOXFwOTZXdWduVkNEb1VwMnJLZmZCOS1qU0tKOFc0eEh1cjBMX3RCa2M2N0VOMEIzd1FKeGZlQk9LTDJ5T0dSV0ctVDJRZkpWdEZDYjg4ejVQRVpkX2NjZlhSRFU1SVdCa0w4WHRKdG1PTkFmVkhYODQtdVQ0ZFR5MlFYSHlWOXpISUJZQlNib29wUWNhWFdNTFF4TkwwM3NqTGR6Q2U4ZHJ6WC12Q194SlRlUDJBOEdid0RLYWNteFVOb3plcnZLMjU5LUNsYXgwdDgxenY1S3B3bFhLdw?oc=5",
-        "date": "Mon, 14 Sep 2026 16:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz y Victoria Villaruel encabezan la misa estacional en honor al Señor de Milagro - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaU42STJTZ0o4Tzl4NTZYdl9fcUlqd2J6cHZsYzRreEJXb1hZOEg1UVltanhCbXV5SUtTbGQ0SVhzbm1LZW12WjVlaVR3RFhoVFNRRFcxdTVUeVBpSk5DZmFkQnc2RlRSN09SWEdjZEtKZXQxQzZNamNCdmZGeFM1RFdzRkRUZDRtaGtVUXZvT0F1YmJfQWRVTjF6TDI4UQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 15 Sep 2026 13:17:12 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Franco Hernández Berni sueña con una reelección de Sáenz que lo coloque como candidato a vicegobernador - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Z2lNNlJYOFIyTnVnNzc1NWtIV0tOV1l2RXpmaTlmbERDOXVod0RJQjd1cUpxdmZTeC1LRkljTE5OOHNtRzJVNnRXdFpaMmhYd1RqMTE0T0RSRFE5Sm1pYkJ4bHF5YUJwNzVkTThBZmtUWWU4cU03NDh2RWtOMzA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 18 Sep 2026 21:26:05 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Santilli recibe a Sáenz y otros gobernadores para negociar el Presupuesto 2027 - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHA2TEFLMTVqNURCSFJ3WmZiUmlEekRfWnBIZ1E5bkp2b1hmODJtYWdCRkYzMG8xYzVSTHRjNnJmU19Nckk1b3R6a2FMN1puSks3WUhuSDAyMXdJRlFjQ25kdUNrYkROaGdiNElRY05lQk5GMzh5Q2FkekxPT0twemVlQ0lUVXNaSkpiWmw1bS1Kd0hPZTBiMlRnYUU5dGtWZ1ZV?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 16 Sep 2026 16:47:59 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "¿Quién representa mejor a Gustavo Sáenz? Jarsún supera a Royón y Emiliano Durand - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxbWN4dkVfeElvWmNhWG0wTUdpcW1WZjA5TUdLWXV5X01IeEpoVFhodDNWUjdZX2MtbTZoWXUzOUNpdE4zMXp6cUtTZnItbWlKby1lZjhXWXRxS2xDaGtwZ1lEd0JxNVMxNF9ibUZFRjRSN3lwcTRGNQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 20 Sep 2026 21:15:59 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Presupuesto 2027: Sáenz recorrerá Salta para definir qué obras necesita cada municipio - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkRscjM2UTlpVm5jcHppYlQ1NldUX21hc0JJeDZiRVhUTGpPS2IyajFXNFBndzRwMU9Sc2lpdFRyWmdmM0Z1UTVWRDNqeDF0bkpDWUhqMzJqRDVXcTh3VTFvUHcwUDNiR1YwTjUzenEtZGdJMFlKelhBWVhCSTFCQXhxMUstcjFQdXNjYnpZNksyenlQdUhQM0ZLa0ppLUk?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Sun, 20 Sep 2026 15:15:27 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz le puso un límite a Nación y advirtió: \"La paciencia se va agotando\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSjc0UGJnZk9vVEhVM2h5UkRKc1FsQ1hfemljZXRiS3FER3pteTIxM2hhMG1Cd2V1SFJpMjVPakI4TmlNa0ctOWstUFFOeS1IVUt4dEo2WXNoMXJaQ2pnVWkzMVJiTWo4YnVDSURyNS1qdkRpMFc2MUR3RmRDNmdYMzRDbHVMUQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Thu, 17 Sep 2026 11:34:40 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El mensaje de Sáenz por el Día del Estudiante: \"Vayan detrás de lo que sueñan\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEFYS3VnX1NxU1Q2LS1mRXM4TWdlM2xhM05oaVItQUt6X2VoRXljY094TkpfSjNZX3FUQ1daT2ZJVTVseFhaM0t1UU5BUzVhc2cyWkVmVmFSUlNfTXhYQ1A0LU82NTVjeUg3amtTYWh1RHIxblRMdG40RDN2OHk0dllURXE5eXF1N1NKOENnLVZ3MWNhcFVZUjVvRlMzS0R3dmVLU2FyTUMtMWFhRWFLS0h0MEJxX1c5?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 21 Sep 2026 15:28:41 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz recibió $7.000 millones en ATN en medio de negociaciones clave - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxWUhhTVJKOHd3N2dyWkhEZ3FjZkFrT3dMZkdkSFVDS1V3ampjQ3UxNmFfRUh3bWdBR2pkdkNnWXlkbGY3R1JnOTd2N2t5OE5fTzM5aERBUUd2Z0l5LWNPZml6aUxZTXZFUHc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 16 Sep 2026 22:15:04 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz, la re reelección, los posibles vices y una semana cargada de operetas - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY25ZQ216NGpfQjRJS25xcUJUR1lyRG1GRG9yeFFINXhRUGhOZ0oxVk9uS1Z3cUtOSy1VQ3ZNLVhlVDExWlNkQjdVZEhYamxBVENLamk5YVVrT181WEZFZThXZEV2QWx5aVlMdmhWbjZtWE1wNFJrSGh4aE5TS1lxSFlqTQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 21 Sep 2026 03:02:49 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "La sucesión de Gustavo Sáenz: traiciones, candidatos y lealtades de ocasión - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQXzJTelpSblpwV3AxX1RKMFFkQi12U21aNG84NHNXVGx4akxpcUtVN3RHRkZMbFFfLW5WU0tYa3pyS2xoTERMRzZtRjBxV1pLTHNvU1EzZmx6cmZMckEwdnQxcU1uTWlrV2FxVC1kZ0VuNDJqWTNfeVptSUMtejJncFR2TXFQVXBveVpwY2Rrb3lFSUlhaUtFOGJaYWR2OXA2dklNQmZPMmhnVW1F?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 18 Sep 2026 21:09:35 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El arte de la reciprocidad: Gustavo Sáenz y la lenta gestación del poder norteño - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFFxSWp2Vk5VT0c2a2tvcjVpT3VZSFl0enU4QjkxZEE3bE9YbHZoYkg4a0U2a3ZuUVg4YVAtTnZ0WHp6dElrMDFnZ3VvTFhCekllNUY5a3ZSOFQtc0FvZVNwNE1kbVg3QWlIS1cwcGVsOGJaR0RTcFMtTEhkOF9PQVlZLXVvMTBDb0JMQWNwXzFJVDl4V2J6cklUbmNNYk9aTk53Mi1xMDNoYmFnajctcmVrQjk?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 18 Sep 2026 21:26:05 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz y Javier Milei volverán a viajar juntos a París para la Argentina Week",
+        "link": "https://elintra.com.ar/2026/09/21/virgen-valle-saenz-milei-paris/",
+        "source": "El Intra",
+        "date": "Mon, 21 Sep 2026 20:40:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¡Drones, robótica y mucho más! Lanzan la 2° edición del Campus Tech en Salta - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUUY5ZTlhb0RTX3B3NWxUOEY4LVRsb2dIY2xzVnpydVdGQTByczJlZzI1eFpZMnJIYURFNDlQc2VqMFV2YURELW1PeFBZM2FydE5HNFRIdGhSeG96c1htbV9jN2k4algtcWQyb3l2dEFqSS1aOVZ6dUJFOXZFSndvR3dsLUpqTGF2cWN1RnFfNnYzWExVV1lVT1d3dlhvQnNENk5XQTEzbHpfekpQVjhHaFZRM2g5QjZWNmswbkRsamRpS3h1S0tzVXEwanJvTHpqLUsyZ3hZN0lhMDV3SkljX9IB7wFBVV95cUxPazhyTEZrMk9lZWJOaG1sM2dTR1kxbmlqNkp0YlMxSTlTOU9tYXBTS19wNjJqTUloMmxyVVMwenNWOXdQeVZ1VzRKRFZBZTFlUTE0am5vSXp6VThvU2dvN2o2aVdvX2Z0aktDZkZfcjV3ekhQcEZhVUpPamw0NTE5Q3JTQmphZDh3N1k3MFJxQVpkbFlrM0pZa1NoMlNPRUVVTUFBLWg1ZmtYY0IzR3NjVllYVk1QQWU4ZEwzT3BsQzFOd1RZeWpOZ3lCMlFYYVItNTlYZHlIRUgyZEJmNFBibmZPMGhvMU9HOW9jNm42VQ?oc=5",
@@ -403,90 +487,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVG1NVklPdkdYZXZqZnl0Sjdwb09xNXc1WmpfRUNYSkdWUXQ0V3ZPc2RHLUVqbWtJRm9vV0RDVUswTzVxRW9lbjV4Uk1tOEF2alVyemZoeXAyZ1pZaUFMeGpNd0o5M0lmb0NtMzNSSnVtcjVsZ2dldU41Z2F1aFJFY3JYLVJuZEVROUF4RlhkS0dhY1VMQzZkZ0NrOWUwZDJPQWh2cjRKMVZ0NUQyQ3BuVkp2dTF0d295aXlDOVVraWXSAcYBQVVfeXFMT3JpQkpKNnJoOW9DM0NkbnpxVWxPcTMyVEJKaHZQMHRGdC12ZVhSZEt3REw4bTE2MEQ4QXo3SjRxLXRWM2RqOFBOam1EZjhTV0llN3hqRXAzRUZpRTk4dFczNng2ZHpMaDZsV3BUV1FGUU1HNWFJN3VfT0JibHFMbDNOYTN0ckEtbGpKT3RWZURZNTBtOGMza1NZcl9Rem16VksycmhhazVvbGs2MzdBUm5tek5uVGNvWXVwbDI4UzZxRnlBaXZn?oc=5",
         "source": "El Tribuno",
         "date": "Mon, 21 Sep 2026 00:49:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Javier Milei lo lleva de viaje a Gustavo Sáenz: qué agenda tendrán en París - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSkRjWE92dXRyQktVUGd4U1QwUlB5bmFNZzVHaWdBbjhhYXpsbVljRTFraG9GT3M4ZnVCM3BmMU9mTW9LMDYxQ0N2ZlBiTGVGZGQzSzVaWEJnRnRkS05SaUF2VFRKLUZsVmdNc3FGWDc0OWFTNENGZjhYcjNDNmowLWpKSGZOTjVHMzlnSGtvdS1LdTdaSFEwZk51XzBoTkh3UWpqU1lwMVpYbUpQQlZuUUpMNlQwS3lqUUp1OE8wU0hUY3lvX21XajJpRk5CRk1oMTJHQVJzMjJ4Nmdaa3hQTHB2Z1RJZ9IB5gFBVV95cUxQSkRjWE92dXRyQktVUGd4U1QwUlB5bmFNZzVHaWdBbjhhYXpsbVljRTFraG9GT3M4ZnVCM3BmMU9mTW9LMDYxQ0N2ZlBiTGVGZGQzSzVaWEJnRnRkS05SaUF2VFRKLUZsVmdNc3FGWDc0OWFTNENGZjhYcjNDNmowLWpKSGZOTjVHMzlnSGtvdS1LdTdaSFEwZk51XzBoTkh3UWpqU1lwMVpYbUpQQlZuUUpMNlQwS3lqUUp1OE8wU0hUY3lvX21XajJpRk5CRk1oMTJHQVJzMjJ4Nmdaa3hQTHB2Z1RJZw?oc=5",
-        "source": "Informate Salta",
-        "date": "Sun, 20 Sep 2026 19:31:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Feliz Milagro 2026: Cargnello pidió “decir basta” al narcotráfico, y alertó sobre la mentira que destruye los - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPYVdRZHIwZnlONG82bTZiWjkwdUZnbWhpRURQbEpxcFNDeWpkalRIS2c2NV9tV05MdVlId0ZYZkltVjR6OHZNb25PdnNaeGFnUGlCOGtVMzVQZjRvR09CcmwxaWF6N2VLV0pKb2c5VjdVdlJ1cF91bmhwN0JuRmkwekU3ZjBGWU1jUUhkQWd1ZTdERC1UWDFzMjVMeDc3aEhnangxU2tzRjV5ajRtTTQ2aGh4SktaU0dlN0Vsb3FqZTB3cUV6cW1wUjhFdWVTUUJQYzV4X20zVmRTczFBZ3Fxa2I0WlBtcU41eHF1SEYySEdZNTVhcVU3a1E1OHh1SHBC0gGGAkFVX3lxTE5uaWQ5NUdYOVNKZkpsUTBwZUxvV01FYjJwcGJ6dmltbXNmY2lpbExfeUxFWDJoYV9QaEhMVzlocEtVT2dBeDBDTV9zVnpOc3M4LVVLRzcyRWxoM1ZuZlBRbnh1YzJFOTFTdEVfclRJLWR4Y2I0UVlhel9acWU2enF1ek5IOUJVcTFqYkstUnF4OHZvdVhqc0xuTXZSTTRhaTRLOWQ5NUZOS0J5VGNhOVRFTGJJV2NPMFBHZUkwZkx0Wk1URmxoYnpMUUFiZEtPZUpoZUVnUzdXUEpWYU1SSTJLbkxCWDFqWFdsZ2pmYkpOeWt6cGp3NmxPSTQwcDZvWHRyaTJST2c?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 15 Sep 2026 21:39:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Javier Milei llevará a Gustavo Sáenz y 11 gobernadores más a París para mostrar apoyo político - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRXVEYUZrUzZhcjVKWHpKUk50d0M4VzM2TzVZUUFsMWF0ZmJnbFpEUTFjeTE2OUtWVmhtT0lNSnhQUTBXT2oyVXhRX2F2X1N2VU1DcUFEa0h4V1dndzRONFVpejkzNlhUR0otLVUtSGxLVzE1dkloZU1IUUJERHJFX05MemliSnU1ZmxzdkZpeHNKc0ROTWlwdncwbzRoanNnX2RpQTZsZmNBOFpvVWdGWkxFLXEwcHBfa0syTXE2Qk1ZbXlQR0w1TUNleGpqMjBkMUJYeE96NG9PTDVQc0hYdtIB5gFBVV95cUxPQ09PaDhZYUFWSldwUEVRakViYlBpaG81ZlluZGZ4akIwWmUwNUUyTWxsVWJPLVJwdldkWlNpOExwS1lhV1p6bHR5VWNxeTN4bXNTWFNLZ2JPd3pXdUJXQS16M0YtSFZvanVEVm9SalpXaG1mcmZ1M1NXSm5ncHNWaEV3V3BteGFPSmpOck1EZ0NaNk9LdE9wMGpaeWZZR3hDSnZnTXdBU1QxT216bDQzaUxkbEI2aTlvd3B2VXd5NFlSeTdrc3lydUlBbWU2dmp4UGtSUWRjN1VKaXluZEExWWhHRmJJZw?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 20 Sep 2026 20:49:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "El Tribuno, noticias de Salta, Argentina y el Mundo - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB6Mk82SHBuT2g1ckFkbk9lV1VPUmg0dkZxN2ptZDlVZjVKT3A4eFJWYUdkZnp2UW4tcDZoOU5kQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 25 Oct 2017 01:09:49 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Rompieron la vidriera de un local de ropa en pleno centro de Salta y la dueña denunció falta de seguridad - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTkxsOVkyYVNwSWRFMzQxZkdUcDlqS3d5cWlVUnB3aWxPV1lTdkdDQndQT2MyZ3o5Z2dUN1BfRjZ1enpiUnd0WVUwV2N1UkFyMFh1c2pYNHZyRmVBLXhyejFfb09uOG4xWTlFenhWV1JUWFJMaGtKbFdMbUlCOFA3d2NjNHg4SE90b0Y1YXlFS3JhYjF0MFF5MDhaUjdzcXVyb2Y0d2M5UmFSZlN4azVmZHpMSllITlM2TWNtYlMxRWUtYVg4TDdDUDJEN0VEV2tuMFZudjZqaUZlRFR0UUJydXlPUHdmOEFmM0HSAe8BQVVfeXFMTkFCWTFxNmpFQVdSN0ExbXoza0NETjBjSDZvei1NNC1LR21oa29qLW5iNU9EOVNUelN2eVg0RFVpM1dHSGlWTWlJdFZwM01QaWRveUVUd1hYZmpoVldmazlCaExlR3BhRlVJc3JySlVVdFlFMEJzd0dtOVRaSHRrZnFlUWRSMVo3OWY4SVFFOENOUGJtRlNqZkMzRjdfcUYzRTU1X1QtbVZLSXpSeGRGUkMxQll6N2hjN25MZHRCeXFLa3d0NkdVbk5vU0h6aklBU0I5dTQtU1QwNXBINUxqUUpPQWhhaHlpYzcyVXZndDQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 18 Sep 2026 12:32:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Fue detenido el sospechoso del robo a un local de ropa tras romper la vidriera en pleno centro de Salta - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWDhrSlBWbFhmNDFKTXRvS0pfVXNlNzBPVzFsUDJwcDhjX1BUTWhaM3pnR2hEeGlYYURDOXZHWkhvbE5zTm5MQ0lUQkZnQ2xTOVptT0pVdDdpMnFsazZEa29vZ05OMnlQd2p0YUQ1ZGlETi05Vk5wdEhOcXpnbk9EQWhRblJvbzJpX1RBRmtYNmJiM2lCZ2pnU0kxenl0dFBWX2J6ZU9MMm4tNDZXWXFjdS0zWDg1OF9SSXhlNENmRUItM3hwX0wtUTVybHFnSlRienBuZ1RyY0pOTDZnUGMxWVNXZ1ByckRJd2QxbWswWdIB9AFBVV95cUxOeEUyYVk1UmNaWTVlWEhuRmg3NE5MMlM4REhhcW04S0xBN0NZbkVraTRLMXJVSU1faTVmTVVWNjgxYjlNSUYtYzdiUUxYWDZFamdWWk83WXBwWTVxT2Z3Ynl0eDg3eVZkYlRRWTVDNkJYdlRXZGNEUzdGdG5jUlZjUnkySThpTW9QeHVyZ0ZVN2praXdLcnFMMTVidXJYWmVuSjItSUl5WTNxMVpuV01PYl96ZUJEeWE1MkFyYkFtLU55MGJGM3c1akJXRHhKVG5pSG1JMXBBYzZJRWJVVm9PMG05NzhzLTdxQ2E1UkFnM0RNVFBJ?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 18 Sep 2026 16:51:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Javier Milei habló del video de Patricia Bullrich con Lali Espósito y sorprendió con una confesión - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNUlAyTUtkaWRETTFHeG0xRW9mS3U3OUJ3UjZXQUxycDIzVEc1cnRrTmJDSFBoX2MxTFZJVVFTOE8zZjVfR09lblZGRTNwcG52Wjk0RkJyUUc0SUxacHVYYXJXTmdrQnhsTHpSQ0EtRjZHcnZuZ2RudEQ2d2JPLU9KLU5MM3l6QTFac04xNjFPX2M5OGlnZEdzSEdKTFVKN3lXSHAwamhGQUVqWmpfRmdLX3QyWjF5NnJldFFYWHhfRkpDdTliSGJoUVRQdDItakVvM2pQWTZzQnJ5WkNMQTYzZXpuZnhqT1VucmFRR2VubFJQWDhWWXBzS3VPTHdtbFJDZFNKQtIBigJBVV95cUxNYkZHY1dZN2xxd3RKczBRaXpnRUZZZmpNblNNa3VkOHVSYW5YWjhVYXlsOHctbUZCdWdRRFdCTC11bVBfY3JhWlpBSS1ubGs2V0VnQlNiNzh2ejlkMExxRTJncTJsT2FMN0c5UV9OVVR6SmZrUnM5X2trYmIweWFwa3pRekJTcVNjX0JPMEgwT2RQRk1hOEI2dTBJTDEwNXB2ZFl2N1Vyand5eElDSjlHUWZJOUhleGxxRDA3YmlTM2xYNFV1SDhsMXlSaC1nUU5ydFd6Si1wN3RxNFZlcVRBbDBhZEYyRFQ2NlhvR2JqcmRtcHcwQ1J2Vkcxb3ZmZU9NdElsYkFCNnNEdw?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 18 Sep 2026 21:38:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Javier Milei lo lleva de viaje a Gustavo Sáenz: qué agenda tendrán en París - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMEtkazdmLWhleWtqWlFNc2xRZklLVmFZZF81SjZsUVJSdDF4dFdzV1NoM3ROSy0yb1lTV3RjRjB3NmdpQXEzRmliYktncUt2UkJKcVRlXy1rZURIMXZIUlNPTFRheWZHM3Vvb3RBdHVaZDY5N0NlTi1fcGRpb0FTTnE0OWtLRS1JbjhKNGFvVm9Vd2s3Qkk0Zl9MRnNNVUY5NjhJa2dDRzZDVkg1SVhuQW1EQmI0ejBtWUQ3UUtTaWNoR0FzSHF2dVlrV3dqaVdwQkFVSE9KMNIB5gFBVV95cUxQSkRjWE92dXRyQktVUGd4U1QwUlB5bmFNZzVHaWdBbjhhYXpsbVljRTFraG9GT3M4ZnVCM3BmMU9mTW9LMDYxQ0N2ZlBiTGVGZGQzSzVaWEJnRnRkS05SaUF2VFRKLUZsVmdNc3FGWDc0OWFTNENGZjhYcjNDNmowLWpKSGZOTjVHMzlnSGtvdS1LdTdaSFEwZk51XzBoTkh3UWpqU1lwMVpYbUpQQlZuUUpMNlQwS3lqUUp1OE8wU0hUY3lvX21XajJpRk5CRk1oMTJHQVJzMjJ4Nmdaa3hQTHB2Z1RJZw?oc=5",
-        "source": "Informate Salta",
-        "date": "Sun, 20 Sep 2026 19:31:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Otro reclamo de Sáenz para que la Nación siga con las obras públicas - Página|12",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ25CNDBNcGd6RnhnY1hUcmFwRzJOeE9KQlJoR1k0Z2FMcWZmRzBFMUxWeU1kaF9SMzhBVUd4eFlqeGxocG05eVZKUHRxaEttakw4YUhjaTVDSVFLeTlSQ2VRaS1tLWJuSzVtZlYxN0stR0xldXZSZTN3YjBVcHFjbExhaENyLTlJUENvREgtQzAxb3N2ZEJtNVlieEFncVppaTQxb1Nld2x5VTky?oc=5",
-        "source": "Página|12",
-        "date": "Tue, 05 May 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Tras gestiones del gobernador Sáenz, reiniciaron las obras de la autopista sobre la RN 9/34 - Gobierno de la Provincia de Salta, Argentina",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVFuRTFpWnVPcEhVb3pwaG15Z0pURW94eFc4UHk1UWNVdHZ3ZzNNcEtndDdFVVhncnBlRjRFLUZIc0V4TF9kRGdXUlpfcHkxMVhhVG9OSjJPbTRuQXlMWTZkQlZhWUktLWNkVDJTdW1NSjM1LTJlMFBCenkwS2ttbmxIX2hIRWxwelR2REpVd3NQbnIwdVdWX0l4RkRqT1dqaF9WSFUzMFk1NEJCeXQxb2VvZzdQZnZiT3RkQTQ0Vm9zMVEzU3E0ZUVFVkZKTk5BWGlj?oc=5",
-        "source": "Gobierno de la Provincia de Salta, Argentina",
-        "date": "Sat, 03 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Obras frenadas y crisis de gas: los reclamos de Sáenz a Caputo - Expresión del Sur",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbmJtZVRDQU5qeE1BWUtyOE1LWl83TUdTX1hwbGw4Q3RHU0NvUXV3bExRUTdYWkM5YUs0VVE5XzdTeEJpU1lkLVBDNi1LZDhaemNFX3FZU0NucXRZeE9YdlFaVGk5Z0Q3MEpDOVo3X1JkTGJpdWNvVk9BOGxIbDVjR0UzdUVoRXRrZDduSzJzZW0wNVN4dGRJMFpKNl9CcnJEYWJVbGJrcVY1cEJm?oc=5",
-        "source": "Expresión del Sur",
-        "date": "Thu, 28 May 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "El gobernador Sáenz tomó una decisión con la ruta de la muerte - defrentesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9udVVQNG9mNUg4WVdMdmFJWVlvcW1OeXkxcVY1Zm1YV1FKSTI4dF9VRkxwc3hoQlJMU2hJSXJkMjdBX2ZZaEttbFNFWE5kNXpaRnRRUjZQdW9mRnZjSFhtMDhUdExUNk9CM0swN01iZUFHRE9XcGFNV0F2VQ?oc=5",
-        "source": "defrentesalta.com.ar",
-        "date": "Wed, 22 Jul 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -944,13 +944,17 @@
     "id": "sen-gonzalo-caro-davalos",
     "name": "Gonzalo Caro Dávalos",
     "role": "Senador provincial",
-    "total_mentions": 50,
+    "total_mentions": 51,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 5,
-      "neutral": 42
+      "neutral": 43
     },
     "sentiment_by_day": {
+      "Tue, 05 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 09 Ma": {
         "total": 1,
         "score_sum": 0
@@ -1130,11 +1134,15 @@
         "count": 8
       },
       {
+        "term": "caro",
+        "count": 7
+      },
+      {
         "term": "cerrillos",
         "count": 7
       },
       {
-        "term": "caro",
+        "term": "dávalos",
         "count": 6
       },
       {
@@ -1143,10 +1151,6 @@
       },
       {
         "term": "nuevo",
-        "count": 5
-      },
-      {
-        "term": "dávalos",
         "count": 5
       }
     ],
@@ -1184,6 +1188,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Últimas noticias de Gonzalo Caro Dávalos hoy - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YRTVPaE1kX3Q3ZmYtWUtiZWZ0dms2bkpyTXE4VEpoczNFNUs5UTVLblF4NVVxNnd2S092ZHhtcXB0ZmVWUmg2SzMtRmxLYWx2NWdqeVUzcW1kTlpHSkJ5Ri0xeXRuZHpEenJGUDByYw?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 05 May 2020 14:00:41 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ley de Transporte: Senadores y funcionarios trataron el proyecto de modificación de la Ley 7126 - eltribuno.com",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVHQ1U0VnRkNoNXR5bDNUbkVYMHdfUFJ5ZldjZkNZR1FQemtwZUZibkNTSlBTeXRwTFdob0NmYUlVbFdmelNpM01sLW1TUGJkcnNmaThLMTFkSU1pZmRnY3g0UmFWWTNFUjUwd1g4OFNDVzdRa2R1dWt3S29XQnBKOWtKczlNczkxd0hvcE81TW1pdUJWandmUFhPYmItb2hfUmJnV0VydTVib0VFQjdtbG5LZXpBRmhRLVFhRWFaVms0SDcwSTJ2UWhnLVlXbkg1TE9TLTFmWXpZSHM?oc=5",
@@ -1386,13 +1397,6 @@
         "source": "El Tribuno",
         "date": "Fri, 07 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Senado aprobó el pliego y Solá Usandivaras será el Asesor General de Incapaces de la Provincia - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbzIwZUgxQjJjbjNuVFdZNW9Gc1FkTFRONndLWHE1dExGUlRqVjZ5NDBjdzFfMEVCbmJwNEVJc3FORGl4djFrMVpYVG5PVXJzWFVOQjRnQWNMUWJwTVkxMnIydEFwOS1BNXpnclhrT0V2bUZYSDV1RVhhSEplVGRISEMtMGlDbTg3Yk1mNDU2OGtBUDVfc3Y5UzBBeEFURHZrQ2RYRTRWWnJ1cTdqbnpWMkczQVFpVjVfQUFfUjJyd282Q3VyWWpsc01TUzlpNnZ4eGp0V1l3VkNudXNFQkRJc0wzWktrdXJUVTgxeVh0RkRjUmNT0gGDAkFVX3lxTFB5Z0kzbGxHY2hGblNCdzlfSFd1NGt6RnlCUEJiVXdDbDJEVDVhZXlRV3RNOXpJNTVMYlh3S25rYTVXQlVyYUtWR2VrNHJONnNnaXU3LW1NNzF1bmJLMnU5dVBWaWNYWF9XMGhoaDJlWWh1MHhSc0pYcEJSTFJScVRqaTVZOUxBemdpY0k2QWZzbHlJMlB3ZHMyR29xUjI1ZTZtWnNGMlZMWkY1Wm5WN1hENXZBbHRGYk02TGlRd3VySDlocEl0dkhuUFNQSFJLMTVRcEQ4SHNWV1gyd0s1UTk2a0VDTTlHN1JvVnI0MTFUVFY4Vk9rY1JRN09hQ0VfWV9NVHc?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Thu, 02 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -13536,13 +13540,29 @@
     "id": "concejal-ines-bennassar",
     "name": "Inés Bennassar",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 18,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 14
+      "neutral": 18
     },
     "sentiment_by_day": {
+      "Sat, 09 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Mon, 11 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Thu, 23 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Thu, 24 No": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 04 Ma": {
         "total": 1,
         "score_sum": 0
@@ -13618,6 +13638,18 @@
         "count": 13
       },
       {
+        "term": "bennassar",
+        "count": 7
+      },
+      {
+        "term": "inés",
+        "count": 6
+      },
+      {
+        "term": "elintra",
+        "count": 6
+      },
+      {
         "term": "concejo",
         "count": 5
       },
@@ -13626,24 +13658,12 @@
         "count": 5
       },
       {
-        "term": "bennassar",
-        "count": 3
-      },
-      {
         "term": "contra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "casasola",
         "count": 3
-      },
-      {
-        "term": "informate",
-        "count": 3
-      },
-      {
-        "term": "inés",
-        "count": 2
       }
     ],
     "quotes": [
@@ -13699,6 +13719,34 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Acusaron a Inés Bennassar y a Paula Medici de maltratos contra una fundación - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU21KSVIyWnRkeVRjYkNET2QyV2lsWm94SnlBVHlGZURyOEN0cEYyUVROT01CLWlwVWh5M0dSR1l3ZUl6NVdMeThOVXNwY19NbEYza1hqZElNbG5UWU1zQmtuelhjMkwzVGdpM0w1ZjBYeEJ1cE5sb0hHU1dEeDNtT1Nzdi1lYlZLTkYzLVJieG53WXdoT0VHQmllaUx6cXFWZXNmeXJMSjJGV0ZtUnZmYw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 09 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Hirpace reveló cómo fue el maltrato de Inés Bennassar y Paula Medici - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUmpmOWZXdEctdEJxMERUeEk2Q3VCTHBPSUZ0SmIxa0NyYmpyOFV5YUxEZzdSUXEyTGVHU19PR1N1dERJZUhRVFRRdzlLMzZlTnRZSWN2dEtPZ0U4NlpDa3V0ekxiWmVma01NMTE0Qm1JWHNEQmNDSnNPRDlHWlhES196aC1pQnJteU55VHhSak54cC1JYkhpNVdtUVQ0TVVUSHRJZFNR?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 11 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Inés Bennassar defendió el Plan Remediar - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVXpENXlJZXRKY29xM3pWbDdBU1BZZGNPZFdIRWtST2pWTlZKVmxBWGZ6LUlSTDdudnh6ZUY0dlJPNHlORG4wLWdiaENFclN4Y2ZMTjh4Zl9KRVJBaWR5Y1pTMlJsUXR4M1RYVUxTdW1aSmJ1dG9oaUR4eTFESzlNdQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 23 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Inés Bennassar y su proyecto para frenar el bullying - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOEwtV3hQWWsyZVp4VWp0a05GYzNoUHpyUGtHaW5ONmZpalE4OWNkVHduRmg4U01rRjVYcFlGd1JwVFNxcHFMekdsZzBSZG5GYS00MEFpT3hma2w2bkxCeUN1bXFtQTctTEZQQlVYTFk3My1QM3Jvb3VRV0pxZS15a3FVR1JBV2gzbzhUeTZ3Mms?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 24 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Inés Bennassar se reunió con Daniel Scioli para potenciar a los clubes de barrios - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbndieEVMbE5uSmx0dnpGQ25EOGJqQXlHOFdPWGU5Qlc1dWx1V2p1SHh6ZEVVREd5Q2swR21pcUhZb1RkRTJhNDJ2dDdqUVhTRlQ1ZzJQUFFJaHMxb3A1SGlYX3ZQSzVVdWFXemViZzhNdkNNdVdWQjRJTDNxTnh1bGlwbmNneDhORXB5ZmNPSmNTUl9vNU1ra1BKSE1xcF9RejlCZm5CUlRzZmlyY1ZnY1pPblRWVFE?oc=5",
@@ -13944,13 +13992,17 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 49,
+    "total_mentions": 50,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 10,
-      "neutral": 37
+      "neutral": 38
     },
     "sentiment_by_day": {
+      "Sat, 23 De": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 26 Au": {
         "total": 2,
         "score_sum": -4
@@ -14150,12 +14202,16 @@
         "count": 16
       },
       {
+        "term": "farquharson",
+        "count": 8
+      },
+      {
         "term": "ciudad",
         "count": 8
       },
       {
-        "term": "farquharson",
-        "count": 7
+        "term": "gustavo",
+        "count": 6
       },
       {
         "term": "concejo",
@@ -14166,11 +14222,7 @@
         "count": 6
       },
       {
-        "term": "gustavo",
-        "count": 5
-      },
-      {
-        "term": "concejales",
+        "term": "elintra",
         "count": 5
       }
     ],
@@ -14281,6 +14333,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Farquharson tras la eliminación del INADI: «Me preocupa mucho» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOek1wa1dqbUlyNkNFY2h4SnNjOXpjNGpTS3R4YmNtRHBZa2ZSQmlwdzUtZlhwblEtdzBnQUJwNngxaTNteWphYjFwRjRsTkFKM2w4SDBjSVJuS09GLUViby14ckF3cFFsWjVFRFBiOUdRQjB2RHhXOWFLT2RmRVVCdDlLS21qMlZrOTItU0FQcURlc2EwOEJ6SzlHTENtZXhvQzlJ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 23 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o?oc=5",
@@ -14483,13 +14542,6 @@
         "source": "eltribuno.com",
         "date": "Mon, 02 Sep 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mercado San Miguel: Muratore quiere seguir y concejales salieron al cruce - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS3ZFNEo5MHZqQmFfV3JrUEE2RXo1MlZ6YjA5V2g2eGZ3VkdmTzJ2S09IZElFYmpISEtIcDh5LXpLTFA4MmdxM3ozMWlYNnNjekx0eDRDRDVQYmZSazRBVG9GVkFYeTFDZFF0QlRVb19TNGgtYnRERTJpeWFYZ0JrNWdXbDJJQUFWX2M1UTlKSFJ1UTZUOVFpZ0ZFbHRxTW4tekpjSmFrUEF0VUEwR0RDbVlsSk9YOE91ZGxjMm9n0gHDAUFVX3lxTE01dnRRRkUtcHZ6cC15WC0xdzlkcEtZOVJ3d1hJal9Yc2xsNUhfZjZyTHF6UlB1SGhYRHNQdTJLc056REVleVJWU3RCSHlpZWVLTWpONDQwT1lnZVJTY1pPVHNZaVlxcWhOb3dJM3JTd0VWQ3FLLWJabGhMVEFSMjk5U0RiNXNWOWRmUkU2TmV2RkozOUNhWE9ZWmJaSTVMMS01eHF1bzVIQ2tRNDNtX244RFdRSWt4UG1tUk50Sk9sMU9VQQ?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 18 Dec 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -14537,13 +14589,17 @@
     "id": "concejal-laura-garcia",
     "name": "Laura García",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 57,
+    "total_mentions": 58,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 6,
-      "neutral": 51
+      "neutral": 52
     },
     "sentiment_by_day": {
+      "Thu, 19 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 06 Ju": {
         "total": 1,
         "score_sum": 0
@@ -14767,7 +14823,7 @@
         "count": 4
       },
       {
-        "term": "mauro",
+        "term": "garcía",
         "count": 3
       }
     ],
@@ -14830,6 +14886,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Concejala Laura García solicitó auditar las obras de la gestión de Bettina Romero - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa1ZNMFNkSmFKRnlVbjFjckwwazlfQUNIODFSVllKYUtGQ3gwZzBPOXk1Tm9yZk5vWTZuNDN4Z2pmcUF5a181SkNCNWNUODZNd0NXWHJZMGhLdGlLbkR6N0xuTE9oR2ZKTTVNdE1pRTVDRGlHNGNfODZ5QTl5U1JuZVFfYlFRQnJnU2dLT1Bxc1pEakFUdWtxVXdLVGUyRDZPdXVMWHE5cjNEYWfSAasBQVVfeXFMT2tWTTBTZEphSkZ5VW4xY3JMMGs5X0FDSDgxUlZZSmFLRkN4MGcwTzl5NU5vcmZOb1k2bjQzeGdqZnFBeWtfNUpDQjVjVDg2TXdDV1hyWTBoS3RpS25EejdMbkxPaEdmSk01TXRNaUU1Q0RpRzRjXzg2eUE5eVNSbmVRX2JRUUJyZ1NnS09QcXNaRGpBVHVrcVV3S1RlMkQ2T3V1TFhxOXIzRGFn?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Thu, 19 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "«El payaso sos vos»: Yanina Latorre le respondió a Mauro Icardi - El Intransigente",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdUZVLW0xX3dLRXd6eUFXS2hMakNYOHNUcEN6YXU4UEFNQ1hLV3ZkOWFMREEtVEdnRkxSczFPTTNqbGlHQmpia1BVeTJ0dDZZdXFqVEtiYnV6c09jQVAwUFpWa091dXlBcDdndW1fdm51UXlhZnJiNzhRRDdlTmJ1Mw?oc=5",
@@ -15032,13 +15095,6 @@
         "source": "elintransigente.com",
         "date": "Thu, 10 Sep 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "«Nos costó salir»: la angustia de Wanda Nara tras el robo en Milán - elintransigente.com",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82ZDVtQzd0Z3RSQUFER3MxakJPZkx2WXBjRjY2dE8ySGtOQUtrV2ZDbXFjWmJFUDdaaEZyOXZNNy1ZTDBSTFpucmt0b0U0QWEwVlZfOV9hWFRfdVd2NEVuOXRnT1MxY3RvZlMxNUljQS1aNXd6ZUdj?oc=5",
-        "source": "elintransigente.com",
-        "date": "Mon, 03 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -15046,13 +15102,25 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 34,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 7,
-      "neutral": 24
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "Thu, 23 Ap": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "Thu, 25 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 20 De": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 26 Au": {
         "total": 2,
         "score_sum": -4
@@ -15169,10 +15237,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Thu, 23 Ap": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Fri, 17 Ap": {
         "total": 1,
         "score_sum": -2
@@ -15196,31 +15260,37 @@
         "count": 12
       },
       {
+        "term": "malvina",
+        "count": 11
+      },
+      {
+        "term": "gareca",
+        "count": 11
+      },
+      {
         "term": "concejo",
         "count": 10
       },
       {
-        "term": "malvina",
-        "count": 8
-      },
-      {
-        "term": "gareca",
-        "count": 8
+        "term": "contra",
+        "count": 7
       },
       {
         "term": "deliberante",
         "count": 7
       },
       {
-        "term": "contra",
-        "count": 5
-      },
-      {
-        "term": "casasola",
-        "count": 4
+        "term": "elintra",
+        "count": 6
       }
     ],
     "quotes": [
+      {
+        "quote": "De menstruación si se habla",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdENMM0lxa1ZwNVpFY0xLQkZnNmJCc1ZBSEJ6RUYwMk12dVdvVUVmaDY2ak1qWFljNjJ4dlV3QXBQcFl5cXFFU2p3X0p2NmQ3T1V5VmpaV3lpanY5QnZtVkxFa0M2ZHpmakNpYlh2U0x6RHhsc0ZmVWl5cEdEdkI3eTVCTQ?oc=5",
+        "date": "Tue, 20 Dec 2022 08:00:00 GMT"
+      },
       {
         "quote": "estar en el Concejo me posibilitó poner en agenda a las mujeres",
         "source": "Voces Criticas - Salta",
@@ -15291,6 +15361,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Malvina Gareca contra Emilia Orozco: «Los argentinos tienen malos días todos los días» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVXgwaE9TYlctRUw0UUd2cjgzMmlQdnRlRy13bGJUUVZFZUIxakJNc0htQnRqUXNncTk4bjdlOEF6RWpKR3VfdEdtLW41RGpPZnBwcDJ5WDFZNEJFc0Z2cnZRcWpEQkVGcjNxYWcxVDZtaGlPel96R09aaW14OG85Szc0emFqcEtsRmwxNW1mbGw0V2lJYXBRQWszMlR0TENleXo1aDF5ejdhYjJoTjlfdTQxTUJtWFhQbVE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 23 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Malvina Gareca, dura contra Emilia Orozco: «No sé con qué cara va pidiendo votos» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVhhclo1MG8wQXJlLURxWXNpN2RXcUp3UHlHcHNxUnZsVUN2RS1QaE5WeHVrY1ZnajFNYzJteXl2M1VSa3B5MUZoTnd4MHo0Z1RTYnNiSDJ4V1pqenhTV29aSkRhN0UtVWZfQmRyVW1DYUpwN0NSVlRxVHlabWxDd05FdG1tOUttMnVWUTRNQzF4VUZyYXJOU1F6ckRfMVdmNkhjRkVOMzFIWGlOYlp2cnNR?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 25 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Malvina Gareca: “De menstruación si se habla” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdENMM0lxa1ZwNVpFY0xLQkZnNmJCc1ZBSEJ6RUYwMk12dVdvVUVmaDY2ak1qWFljNjJ4dlV3QXBQcFl5cXFFU2p3X0p2NmQ3T1V5VmpaV3lpanY5QnZtVkxFa0M2ZHpmakNpYlh2U0x6RHhsc0ZmVWl5cEdEdkI3eTVCTQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 20 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o?oc=5",
@@ -15479,27 +15570,6 @@
         "source": "eltribuno.com",
         "date": "Mon, 15 Jan 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Ferias, marchas y un recital a favor de la legalización del aborto - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOGN6cmhLUldBc29rdVcybkh1SXBCbDE0Q1JmSWRCSHRBdS13QXgzSkh6OEZYLWhncWVDOV82VGN5bjhPdmZfSHdSSjdacmtsSExUcWxISVZJTUkzNk9QOGR2ZzlzRWRJaWhIUkJIcXlNaC1CbjEzZFBPcHN5QXhhMFMxa3htS3hSdUE5bXJhVHByTkJZckxzTC1nNWlJSk1UMTVhVVo5YzIzUzBoNkpjdjVkcEJURzJwNk4ycE1NMHd3YWFRckNPSzRnTdIB2gFBVV95cUxPYnJCWnlfdnktU2w0a0hnQVlhdFEtWlNmZDNkaHR1ZXdqWEttbWlOUUg1Yk5GYWc4T1EtNk5SdjVuTThHOU0xOG5GUlFBU1cwak9vWDAyb2JUNm9iUXcxZ2E1b1hoaEY0N01jU2s1Z29mSmJEOEpXT1lEbXlSeTlzTnQta1FaWEhwV3lhUWQzbmhzMFdHMGlidzlLZFItS3dZM3BzMWNrQ3NpZGZuZG55Rm9UcFBJTkFFN1VuV3Z6N2lwaXdGcEl2Wm10YXd1dWtrZDVyRGt5bGcxdw?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 03 Aug 2018 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Estos serán los 21 nuevos concejales por la Capital - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSGhTTzFkT3B4QlZBLTZNeHFYYlJuWXpwamlkQjhBT0FldWdMQllwaHJySUI3Z3BLUlNMUFdLYmNrMVpGajREMjdlenRhMVNmNHJJUnFvMjhURjhJaEZ2am9pa1RXOV9GZ01VQlhORFE3RUduaVpuZ1ljSFk2c3VEaFhGcVJDT3lVczV5c0lMTUhya3g3cXlicURUek5GbW04UXRKcVd2NHctZUpXdzlqQWhwTFkzZXPSAcYBQVVfeXFMT2pRVVo1bTNXRFNSSkhBS2RaZHhfWlo2T0pmMC1LWHNjS1d6QUJfNm5ZQnFlQXMybWFoc05uYnhqa3JZQ3l4VEdDWnhZSF9LamFwUzJfNDVVOUw3bzBsc2plRERKX0E1Rko0WjBTTlVQM3VfdzNESDYtYVFBWmlzQlhkbk5mcGs0UXd3dTJyd1JQY3l4N0p5eTczSjFMY3RuX24zeGpNYTFCYVpndWtQT080d2RnTXo5T2ZIVTd0dnpaWXVLNXlR?oc=5",
-        "source": "Informate Salta",
-        "date": "Sun, 15 Aug 2021 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Día de la mujer: \"Lo que necesitamos es que nos apoyen y cuiden\" - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd3VrTmNPaDdXRVZ2ekZuTnlqR1NrcEZ6MkgtX1NvV3diQUFjblV0SGpRM3hlLUtyU3UwcVlEdkJ3aEY2cnA0a0k1aFdlVEp0R2xGV0pXVEg2dHZxQkRPQTJaOWNEUHJlbm5IODZ1OHZJR3hNYVhnT1RIRmpoMWthUGlGOFdQbmhoMEN6ZFN4cXlqQjZJTXo2WWRrdUFFMFNOd21RalRHTG9DZ0F3c2liLWxHYllMRzRhZFIyMnlfLUlLRUo1UlhzUtIB1wFBVV95cUxPcS1SQlBsU3pWNXhZU0l3c2VDT0o3ZTlqd1FFRlJVLWtZYXVfVy1GbWZRRHBUU1E4T1dVNXJOMmg3aUVMSktnNl82S1BkUzEzek5hMElzMHFZd3NUdGZQUXNXamxEUHV3TU9RLWhyRmVoTWJGZVB5SDA1Wk5Qc2g2TnRRMmlkUXpuQ29hd1k3MllxVUxhME93S2ljaEFQVldVSkJ6RjVzS2xrbmZrUS1PWldsNkVPSG0tSjRENzlOZkFEcHFLcm5JcGdxdTMtcHdNcWZEOS1ibw?oc=5",
-        "source": "Informate Salta",
-        "date": "Mon, 06 Mar 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -15507,13 +15577,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 26,
+    "total_mentions": 27,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 10,
-      "neutral": 16
+      "neutral": 17
     },
     "sentiment_by_day": {
+      "Mon, 18 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 06 Ma": {
         "total": 2,
         "score_sum": 0
@@ -15625,19 +15699,19 @@
         "count": 6
       },
       {
-        "term": "josé",
-        "count": 4
-      },
-      {
-        "term": "garcía",
-        "count": 4
-      },
-      {
         "term": "laura",
-        "count": 4
+        "count": 5
       },
       {
         "term": "jorge",
+        "count": 5
+      },
+      {
+        "term": "saravia",
+        "count": 5
+      },
+      {
+        "term": "elintra",
         "count": 4
       }
     ],
@@ -15688,6 +15762,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Jorge Saravia archivos - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BTHVpeGRFQjVUM0duaU5HMmkzNXVTX1kwOGFXVVVRNkZTT0tiOEdmRzM2QlAzenhSaDhZUXFzaUZCTC0wZEowOW1QdnMwNDlUZ3BPVkdnVnZvSFE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 18 Mar 2024 19:36:57 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez aseguró que ahora es libertaria por “coherencia” - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXpNT1M2QmtwRHZLbVd4RmoyNHVCSzZIX0ZvU2VkMHhGQlRCYWJDZnJ5SHpXaEc5aXB5UmFFaGNpVGxqemlsWGF4VFgtZ1oxVzJvQU8yS1kydGIyelc5aW5Ha3JDeXFYdERySXdvZW1mdmxKeFlwUUJ6eWoyaFZ2dkZ2UUdXUV80T1RCYmJPekVKMTZQTERzTXN2c1NtTlJYVWxudzZpcjJlNXZsOC1RUzNDZFhJbVFuWFFFRVNIUHEzWV9CcGVvbF930gHYAUFVX3lxTE5OblhsTDg3N3R5T3hqVUdSam9EeVJtU1VDY3RicENpWXk3Z1BQay1Ec2I1SmpNaFN3QXZ2c0gxeGFnMFpHay1oNmdBV29vYndNQ0IwVFVPZFNtUVFCMG9NR3drelh4eTU3TDZpc2lwY3N4WmJqV1ZnNDNzRHlnaFczVWZaWEpSMURsY2Y5YU1qVmhpdEFkX1l0MzdOTGhaTDRnVGs1ampINmtIQVhMVnVUNURRYVZhaVVZU1RiSXVhWFlxMGwtNW1icTRfMDdpalp0QWNuOHpnYw?oc=5",
@@ -15905,13 +15986,17 @@
     "id": "concejal-maria-florencia-leon",
     "name": "María Florencia León",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "Tue, 09 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 12 Ma": {
         "total": 1,
         "score_sum": 0
@@ -15935,9 +16020,23 @@
         "count": 2
       }
     ],
-    "quotes": [],
+    "quotes": [
+      {
+        "quote": "Hay medios que reciben más de 10 millones al mes",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG4wWGpVUUxESWxCQXozYVN1V0podVdHZC1yS2c4VkNfWVRNaklVNkQxeXFpdHpnUG8xMkZSQy1kQlhCd1VTZVlEMG11aWtHUnJVSl9NbjUzZmFEUjRQd05xZEg3M0t1Qm5DVElXMUdyRXczMXNYWG1lMzVjcVdwenVHVXp6Nm9tV01WVGZOSWRHQlhkS3p4X1lWWkU4Z1Z2Y28wZk9EYw?oc=5",
+        "date": "Tue, 09 Jun 2026 07:00:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "María Florencia León: “Hay medios que reciben más de 10 millones al mes” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG4wWGpVUUxESWxCQXozYVN1V0podVdHZC1yS2c4VkNfWVRNaklVNkQxeXFpdHpnUG8xMkZSQy1kQlhCd1VTZVlEMG11aWtHUnJVSl9NbjUzZmFEUjRQd05xZEg3M0t1Qm5DVElXMUdyRXczMXNYWG1lMzVjcVdwenVHVXp6Nm9tV01WVGZOSWRHQlhkS3p4X1lWWkU4Z1Z2Y28wZk9EYw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 09 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Estos son los 11 concejales electos por Salta Capital - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3B6M0syeFdUanlGcHdobE5jY3prTkpUSnlBem1pbG94aXdjaERqUHlQd2I0Q0h5QV80VDloZDNlOWxaQXR0ZndiOV84bVdMT3lSMFFmbnVTY242VF9uaHVMY2Mza2RHazhEZWpfU21mcGduakJQRXZxdGdJWldMRTFkLVdSU3pQTC1Vbzc1WTVFNGdIWWtIMjYzREc3em8?oc=5",
@@ -16888,13 +16987,17 @@
     "id": "concejal-gonzalo-nieva",
     "name": "Gonzalo Nieva",
     "role": "Concejal/a de la Ciudad de Salta (Concejo Deliberante) — mandato vigente en septiembre de 2026",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 8,
-      "neutral": 38
+      "neutral": 39
     },
     "sentiment_by_day": {
+      "Mon, 18 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 19 No": {
         "total": 1,
         "score_sum": 0
@@ -17084,6 +17187,12 @@
     ],
     "quotes": [
       {
+        "quote": "Gonzalo Nieva",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5R3RGSXZfVnh2d211UjF3ZlJYWml4VFJQMGRBUGwzaExBUDhXNUpwWVlCVUpFQkFpczFWSnNDQllGQzdCSmdGR0pxYjVEZElKU1pJ?oc=5",
+        "date": "Mon, 18 Mar 2024 19:39:41 GMT"
+      },
+      {
         "quote": "generan situaciones de extorsión",
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQM2hoRXYwc3FGWmlscThWX3hqVFJIaG44QmRRQlQtcnBPcGR2OF9GTkV6aXh6ZHMwd2lqb2Zia1F5Q2NVeFZldnh2N3pBM0FfYmhEZDBuY0Zhek9HMUFPR1JBYm5EVkdZVUdsa3l5NDdObHRNLUk5bExjcHBSOWJIeEFHc0tuU1pDWU95NVVYN3p4cXZyQXpPYkxnbGpQTFNKY1d2Ni1BbUtBbzdJWDk4ekJzUDFCVnVjZ0FkYl9RNDdSSHdORVFrSXR5QnVnTGloQ1lQT1B5dXduYjlx0gHrAUFVX3lxTE1tbTVkdks1UE5UT0YxeUR6Q0w4TmRrb1dyaVh4V2FERHpMVTJYX2lMOVBKRzhKZW5SemJBc3JDclVsNms3bWIyRXlJLTBwTEtJa0UwVlNKREpiel9Db0VSNGwwV0VhYWsxaTFDV0g4UUItVGx5dW42dXhYY09FYUU2dU1zUkhqMVlyMTRwcTNiMmJZeHlmbkxXQlJqbE1uLV9pdWFCY29Yc3JjeUlyU1VZMENLMVpwZ05yck5uNnN2eVJUT0RPYTRJZWFULWlUWEpkX1RYUzduOG0yWjNaOGRHVWtJN3RhdmZFRHc?oc=5",
@@ -17153,6 +17262,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "All posts tagged \"Gonzalo Nieva\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5R3RGSXZfVnh2d211UjF3ZlJYWml4VFJQMGRBUGwzaExBUDhXNUpwWVlCVUpFQkFpczFWSnNDQllGQzdCSmdGR0pxYjVEZElKU1pJ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 18 Mar 2024 19:39:41 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta Hoy - Radio Salta",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51TFU2emdnemhhTVpOam0wb29uaElsY3owc1RZc3hHOGI5UHJBcDBRS2xCaHRDcXJfMEp1azR5R3Q0aU5kS18xYXFEbi1vQ3hjWUZWZ2M1R1lDUUlmanViWg?oc=5",
@@ -17355,13 +17471,6 @@
         "source": "eltribuno.com",
         "date": "Mon, 15 Jan 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o0gHKAUFVX3lxTE4wS3d0Tlg2NjhZT3ctbkQ3N3hfVlkzMDZtN1gxTUd3cTlXQjEtR0xja3lCYlFjMDZJeThabGswM0pkTHV1WXROa1R1Y3ZQN2VBUndsVWhPYnI3MFA0RFpEMWtBWGhNUHNuclhGUzNpRTdaX3JXVnB1ZEg1dV9ZQ3VjM1phN0tLbk44eTVUUXhsNi1uSDEyRjByTVp3ek9rb0dwM2Y0Xy1OYXpPYVl6WU9EWkh4bkhZelZKTjVkdnhLdi1IVEV4OTQyLXc?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
