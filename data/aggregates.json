@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-09-23T06:05:03.759799+00:00",
+  "generated_at": "2026-09-23T11:30:37.990935+00:00",
   "by_politician": {
+    "dnac-pablo-outes": {
+      "total": 6,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 6,
+      "score_sum": 0
+    },
+    "sen-luciano-elvira": {
+      "total": 15,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 13,
+      "score_sum": 4
+    },
+    "dip-juan-jose-esteban": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 4,
+      "score_sum": -2
+    },
+    "concejal-dario-madile": {
+      "total": 62,
+      "positivo": 4,
+      "negativo": 6,
+      "neutral": 52,
+      "score_sum": -6
+    },
+    "sen-enrique-cornejo-saravia": {
+      "total": 26,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": -8
+    },
     "dnac-carlos-raul-zapata": {
       "total": 13,
       "positivo": 0,
@@ -57,26 +92,12 @@
       "neutral": 27,
       "score_sum": -8
     },
-    "dnac-pablo-outes": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 5,
-      "score_sum": 0
-    },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 4,
       "positivo": 0,
       "negativo": 0,
       "neutral": 4,
       "score_sum": 0
-    },
-    "sen-enrique-cornejo-saravia": {
-      "total": 25,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 21,
-      "score_sum": -7
     },
     "snac-emilia-orozco": {
       "total": 29,
@@ -198,13 +219,6 @@
       "score_sum": 0
     },
     "dip-gaston-guillermo-galindez": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
-    },
-    "dip-juan-jose-esteban": {
       "total": 4,
       "positivo": 0,
       "negativo": 0,
@@ -435,13 +449,6 @@
       "neutral": 34,
       "score_sum": -20
     },
-    "concejal-dario-madile": {
-      "total": 61,
-      "positivo": 4,
-      "negativo": 6,
-      "neutral": 51,
-      "score_sum": -6
-    },
     "dip-juan-esteban-romero": {
       "total": 61,
       "positivo": 4,
@@ -553,13 +560,6 @@
       "negativo": 0,
       "neutral": 9,
       "score_sum": 0
-    },
-    "sen-luciano-elvira": {
-      "total": 14,
-      "positivo": 2,
-      "negativo": 0,
-      "neutral": 12,
-      "score_sum": 4
     },
     "sen-carlos-guitian": {
       "total": 10,
@@ -780,6 +780,40 @@
     }
   },
   "by_day": {
+    "Thu, 25 Ja": {
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 07 Ja": {
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 23 Se": {
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 5
+      }
+    },
     "Tue, 03 Se": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
@@ -810,16 +844,6 @@
       "dip-gustavo-orlando-orozco": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "Wed, 23 Se": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 5
       }
     },
     "Sun, 10 No": {
@@ -11680,35 +11704,35 @@
     },
     {
       "term": "tribuno",
-      "count": 92
+      "count": 88
     },
     {
       "term": "nuevo",
-      "count": 64
-    },
-    {
-      "term": "diario",
-      "count": 58
+      "count": 60
     },
     {
       "term": "orozco",
-      "count": 57
+      "count": 56
+    },
+    {
+      "term": "diario",
+      "count": 55
     },
     {
       "term": "informate",
-      "count": 48
-    },
-    {
-      "term": "emilia",
-      "count": 36
+      "count": 45
     },
     {
       "term": "diputados",
-      "count": 34
+      "count": 35
+    },
+    {
+      "term": "emilia",
+      "count": 35
     },
     {
       "term": "gustavo",
-      "count": 32
+      "count": 31
     },
     {
       "term": "sáenz",
@@ -11723,16 +11747,16 @@
       "count": 28
     },
     {
-      "term": "diputado",
-      "count": 27
-    },
-    {
       "term": "contra",
       "count": 27
     },
     {
-      "term": "senadores",
-      "count": 26
+      "term": "diputado",
+      "count": 27
+    },
+    {
+      "term": "omar",
+      "count": 23
     }
   ],
   "comentions": [
