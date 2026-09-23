@@ -1,26 +1,47 @@
 {
-  "generated_at": "2026-09-23T19:16:12.231873+00:00",
+  "generated_at": "2026-09-23T22:23:53.339704+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 28,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 23,
+      "score_sum": -6
+    },
+    "sen-jorge-soto": {
+      "total": 41,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 33,
+      "score_sum": 8
+    },
+    "gustavo-saenz": {
+      "total": 141,
+      "positivo": 9,
+      "negativo": 17,
+      "neutral": 115,
+      "score_sum": -15
+    },
+    "dip-nestor-eduardo-parra-ruiz-de-los-llanos": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 1,
+      "score_sum": -2
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 33,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 28,
+      "score_sum": -7
+    },
     "dnac-maria-gabriela-flores": {
       "total": 12,
       "positivo": 1,
       "negativo": 1,
       "neutral": 10,
       "score_sum": 0
-    },
-    "snac-flavia-royon": {
-      "total": 27,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 22,
-      "score_sum": -6
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 32,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 28,
-      "score_sum": -8
     },
     "dip-gustavo-orlando-orozco": {
       "total": 28,
@@ -49,13 +70,6 @@
       "negativo": 10,
       "neutral": 40,
       "score_sum": -15
-    },
-    "gustavo-saenz": {
-      "total": 138,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 113,
-      "score_sum": -14
     },
     "dnac-pablo-outes": {
       "total": 6,
@@ -189,13 +203,6 @@
       "negativo": 0,
       "neutral": 1,
       "score_sum": 0
-    },
-    "dip-nestor-eduardo-parra-ruiz-de-los-llanos": {
-      "total": 1,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 0,
-      "score_sum": -2
     },
     "dip-luis-gerardo-mendana": {
       "total": 3,
@@ -462,13 +469,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 0
-    },
-    "sen-jorge-soto": {
-      "total": 40,
-      "positivo": 6,
-      "negativo": 2,
-      "neutral": 32,
-      "score_sum": 8
     },
     "sen-sergio-saldano": {
       "total": 30,
@@ -780,6 +780,54 @@
     }
   },
   "by_day": {
+    "Mon, 01 Au": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 23 Se": {
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 7
+      },
+      "dip-nestor-eduardo-parra-ruiz-de-los-llanos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "Thu, 04 Se": {
       "dnac-maria-gabriela-flores": {
         "total": 1,
@@ -894,32 +942,6 @@
         "score_sum": 0
       },
       "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
-    "Wed, 23 Se": {
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 8
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "dnac-bernardo-biella": {
         "total": 1,
         "score_sum": -2
       }
@@ -8256,12 +8278,6 @@
         "score_sum": 0
       }
     },
-    "Mon, 01 Au": {
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 01 Se": {
       "sen-carlos-lopez": {
         "total": 1,
@@ -11748,7 +11764,7 @@
     },
     {
       "term": "tribuno",
-      "count": 79
+      "count": 72
     },
     {
       "term": "orozco",
@@ -11756,23 +11772,23 @@
     },
     {
       "term": "nuevo",
-      "count": 52
+      "count": 46
     },
     {
       "term": "diario",
-      "count": 48
+      "count": 43
     },
     {
       "term": "informate",
-      "count": 41
+      "count": 38
+    },
+    {
+      "term": "gustavo",
+      "count": 35
     },
     {
       "term": "emilia",
       "count": 35
-    },
-    {
-      "term": "gustavo",
-      "count": 33
     },
     {
       "term": "sáenz",
@@ -11780,11 +11796,11 @@
     },
     {
       "term": "royón",
-      "count": 31
+      "count": 32
     },
     {
       "term": "flavia",
-      "count": 29
+      "count": 30
     },
     {
       "term": "diputado",
