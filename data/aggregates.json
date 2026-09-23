@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-22T22:53:43.049663+00:00",
+  "generated_at": "2026-09-23T01:14:32.643864+00:00",
   "by_politician": {
+    "dip-monica-gabriela-juarez": {
+      "total": 12,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 10,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 136,
+      "positivo": 7,
+      "negativo": 16,
+      "neutral": 113,
+      "score_sum": -17
+    },
     "dip-griselda-edith-galleguillos": {
       "total": 12,
       "positivo": 1,
@@ -14,20 +28,6 @@
       "negativo": 4,
       "neutral": 27,
       "score_sum": -8
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 11,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 9,
-      "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 134,
-      "positivo": 6,
-      "negativo": 16,
-      "neutral": 112,
-      "score_sum": -22
     },
     "dnac-pablo-outes": {
       "total": 5,
@@ -780,6 +780,36 @@
     }
   },
   "by_day": {
+    "Sun, 10 No": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 22 Se": {
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": -8
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -5
+      }
+    },
+    "Wed, 23 Se": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 5
+      }
+    },
     "Wed, 27 Au": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -836,20 +866,6 @@
       "sen-gonzalo-caro-davalos": {
         "total": 5,
         "score_sum": -4
-      }
-    },
-    "Tue, 22 Se": {
-      "gustavo-saenz": {
-        "total": 6,
-        "score_sum": -8
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": -5
       }
     },
     "Tue, 13 Ju": {
@@ -7762,12 +7778,6 @@
         "score_sum": 0
       }
     },
-    "Sun, 10 No": {
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Wed, 29 Se": {
       "dip-alejandra-beatriz-navarro": {
         "total": 1,
@@ -11646,7 +11656,7 @@
     },
     {
       "term": "tribuno",
-      "count": 109
+      "count": 101
     },
     {
       "term": "nuevo",
@@ -11662,7 +11672,7 @@
     },
     {
       "term": "informate",
-      "count": 52
+      "count": 51
     },
     {
       "term": "emilia",
@@ -11670,7 +11680,11 @@
     },
     {
       "term": "diputados",
-      "count": 33
+      "count": 34
+    },
+    {
+      "term": "sáenz",
+      "count": 32
     },
     {
       "term": "gustavo",
@@ -11681,16 +11695,8 @@
       "count": 31
     },
     {
-      "term": "sáenz",
-      "count": 30
-    },
-    {
       "term": "royón",
       "count": 30
-    },
-    {
-      "term": "josé",
-      "count": 29
     },
     {
       "term": "flavia",
@@ -11699,6 +11705,10 @@
     {
       "term": "contra",
       "count": 27
+    },
+    {
+      "term": "diputado",
+      "count": 25
     }
   ],
   "comentions": [
