@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-09-23T16:55:49+00:00",
+  "generated_at": "2026-09-23T20:21:30+00:00",
   "sources": {
     "bora-primera": {
       "name": "Boletín Oficial de la Nación — 1ª sección (Legislación y Avisos Oficiales)",
       "url": "https://www.boletinoficial.gob.ar/seccion/primera",
-      "checked_at": "2026-09-23T16:54:57+00:00",
+      "checked_at": "2026-09-23T20:19:48+00:00",
       "state": "ok",
       "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "csjn-buscador": {
       "name": "Corte Suprema de Justicia de la Nación — novedades",
       "url": "https://www.csjn.gov.ar/",
-      "checked_at": "2026-09-23T16:55:20+00:00",
+      "checked_at": "2026-09-23T20:20:26+00:00",
       "state": "ok",
       "message": "1 publicación(es) nueva(s) en esta corrida."
     },
     "justicia-salta-prensa": {
       "name": "Poder Judicial de Salta — noticias de prensa",
       "url": "https://www.justiciasalta.gov.ar/es/prensa",
-      "checked_at": "2026-09-23T16:55:22+00:00",
+      "checked_at": "2026-09-23T20:20:28+00:00",
       "state": "ok",
-      "message": "10 publicación(es) nueva(s) en esta corrida."
+      "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "bo-salta": {
       "name": "Boletín Oficial de la Provincia de Salta",
       "url": "https://boletinoficialsalta.gob.ar/",
-      "checked_at": "2026-09-23T16:55:25+00:00",
+      "checked_at": "2026-09-23T20:20:32+00:00",
       "state": "sin_resultados",
       "message": "Se pudo leer la página pero no se encontró ningún enlace que coincida con el patrón configurado. Puede que el sitio haya cambiado de diseño, o que arme su listado con JavaScript."
     },
     "economiasalta-noticias": {
       "name": "Ministerio de Economía y Servicios Públicos de Salta — Noticias y comunicados",
       "url": "https://economiasalta.gob.ar/noticias/",
-      "checked_at": "2026-09-23T16:55:30+00:00",
-      "state": "ok",
-      "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
+      "checked_at": "2026-09-23T20:20:35+00:00",
+      "state": "error",
+      "message": "No se pudo descargar la página (URLError: <urlopen error timed out>)."
     },
     "municipalidadsalta-contrataciones": {
       "name": "Municipalidad de la Ciudad de Salta — Contrataciones y licitaciones",
       "url": "https://municipalidadsalta.gob.ar/contrataciones/",
-      "checked_at": "2026-09-23T16:55:34+00:00",
+      "checked_at": "2026-09-23T20:21:15+00:00",
       "state": "ok",
-      "message": "1 publicación(es) nueva(s) en esta corrida."
+      "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "municipalidadsalta-boletin": {
       "name": "Municipalidad de la Ciudad de Salta — Boletín Oficial Municipal",
       "url": "https://municipalidadsalta.gob.ar/boletin-oficial/buscador/",
-      "checked_at": "2026-09-23T16:55:36+00:00",
+      "checked_at": "2026-09-23T20:21:17+00:00",
       "state": "ok",
-      "message": "1 publicación(es) nueva(s) en esta corrida."
+      "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "senadosalta": {
       "name": "Cámara de Senadores de la Provincia de Salta",
       "url": "https://senadosalta.gob.ar/",
-      "checked_at": "2026-09-23T16:55:38+00:00",
+      "checked_at": "2026-09-23T20:21:19+00:00",
       "state": "ok",
-      "message": "1 publicación(es) nueva(s) en esta corrida."
+      "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "diputadosalta": {
       "name": "Cámara de Diputados de la Provincia de Salta — Noticias",
       "url": "https://www.diputadosalta.gob.ar/",
-      "checked_at": "2026-09-23T16:55:43+00:00",
+      "checked_at": "2026-09-23T20:21:24+00:00",
       "state": "ok",
       "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     },
     "cdsalta": {
       "name": "Concejo Deliberante de la Ciudad de Salta — Actividad legislativa",
       "url": "https://cdsalta.gob.ar/",
-      "checked_at": "2026-09-23T16:55:47+00:00",
+      "checked_at": "2026-09-23T20:21:28+00:00",
       "state": "ok",
       "message": "Sin publicaciones nuevas desde la última corrida (no es un error)."
     }
