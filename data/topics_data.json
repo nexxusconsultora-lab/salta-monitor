@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-23T01:14:33.646297+00:00",
+  "generated_at": "2026-09-23T06:05:04.609289+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 80,
+      "total_mentions": 81,
       "sentiment_breakdown": {
         "positivo": 5,
-        "negativo": 8,
+        "negativo": 9,
         "neutral": 67
       },
       "sentiment_by_day": {
+        "Wed, 23 Se": {
+          "total": 1,
+          "score_sum": -2
+        },
         "Tue, 22 Se": {
           "total": 8,
           "score_sum": -2
@@ -64,11 +68,11 @@
         },
         {
           "term": "discapacidad",
-          "count": 19
+          "count": 20
         },
         {
           "term": "informatesalta",
-          "count": 16
+          "count": 17
         },
         {
           "term": "pasa",
@@ -168,6 +172,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Tras la polémica, el Gobierno presentó un nuevo proyecto sobre Discapacidad que mantiene gran parte del sistema vigente - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPajhqbVl2T25iNE15a2xULUVNbDhXOVNwamhXajFsRWliYnU3bGE0UGFFYVFRbHpNek5YV2VaWFlMbVE3enh3bUVoU253R1Q1dHNoUlZ5a0FnNC14RnJWZXc4VW4zVEFYa1VpQ0dEY0JCQ2JzSVhES0pyYi1pX0wwcEEwc1JNVlhjTS1abnBMRWdLakNZb1ZSRXI5NE9jOVhlNnUwLTc3Q0RHTzJyd2gzem5md0FPa1lxaHVnZTBhRXB3dXYxVV9Bek5fdk9mRkNRM0RyUENxNmdFX25BcHNHZ043b2FpVXQ1RVNnblhkSkhBQVJuVDJnZldTODlUekUzZVh0RnJ5aTNOVDBRZUlNenFn?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Wed, 23 Sep 2026 01:51:00 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Mesa Política: el Gobierno Nacional aclaró las diferencias sobre el Presupuesto 2027 y busca avanzar con su agenda - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwX0U5TXhsZVJic0dISDlXbmRmWjdhclhjUEowaU45TVVZX1c3LW9RSFJGVmhtZ3ZzcklmNUpqbVd0YnJoaW84dGIzQ2ZVSFpnQjFBam82MlM1YXN5eDV4OENtWWJDaWJIb1pFdFkxSEMyNGl6SUE?oc=5",
@@ -369,13 +380,6 @@
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkRscjM2UTlpVm5jcHppYlQ1NldUX21hc0JJeDZiRVhUTGpPS2IyajFXNFBndzRwMU9Sc2lpdFRyWmdmM0Z1UTVWRDNqeDF0bkpDWUhqMzJqRDVXcTh3VTFvUHcwUDNiR1YwTjUzenEtZGdJMFlKelhBWVhCSTFCQXhxMUstcjFQdXNjYnpZNksyenlQdUhQM0ZLa0ppLUk?oc=5",
           "source": "Que Pasa Salta",
           "date": "Sun, 20 Sep 2026 15:15:27 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: qué cambios en discapacidad preocupan a las instituciones salteñas - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVprYzB0bm0wekdvd1dVWWRNLTd6eUFhVjM1aDFKdHNQUkY1WmhvS3ZrSjRIQXZRc3BqRV8wZDVmaWNfNlNibF82ZXFWODNGbGRwblh5QVNEajczelNPYVZUcWlNM1ZlNVlDdE1oVldOSEcwZVFURHlnSklKOEdQX3RGbDI0U1pDVzVKcnN4M2twMjVDdURodUk4RG5wcUk4SHpkUg?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sun, 20 Sep 2026 13:40:58 GMT",
           "sentiment_label": "neutral"
         }
       ]
