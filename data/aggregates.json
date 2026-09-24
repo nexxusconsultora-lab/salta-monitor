@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-24T00:43:43.237962+00:00",
+  "generated_at": "2026-09-24T05:31:44.255625+00:00",
   "by_politician": {
+    "concejal-malvina-gareca": {
+      "total": 39,
+      "positivo": 4,
+      "negativo": 7,
+      "neutral": 28,
+      "score_sum": -8
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 14,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 11,
+      "score_sum": -2
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 5,
       "positivo": 0,
@@ -78,13 +92,6 @@
       "neutral": 23,
       "score_sum": -10
     },
-    "concejal-malvina-gareca": {
-      "total": 38,
-      "positivo": 4,
-      "negativo": 7,
-      "neutral": 27,
-      "score_sum": -8
-    },
     "concejal-laura-garcia": {
       "total": 59,
       "positivo": 0,
@@ -140,13 +147,6 @@
       "negativo": 2,
       "neutral": 11,
       "score_sum": -6
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 13,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 10,
-      "score_sum": -2
     },
     "dip-omar-exeni-arminana": {
       "total": 27,
@@ -780,6 +780,26 @@
     }
   },
   "by_day": {
+    "Wed, 23 Ju": {
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 30 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "Wed, 08 Ma": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -3848,20 +3868,6 @@
       "concejal-gustavo-farquharson": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Mon, 30 Ma": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "Thu, 04 Ma": {
@@ -11776,31 +11782,39 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 17
+      "count": 16
     },
     {
       "term": "elintra",
-      "count": 13
+      "count": 12
     },
     {
       "term": "tribuno",
-      "count": 10
+      "count": 9
     },
     {
       "term": "gustavo",
-      "count": 8
+      "count": 7
     },
     {
-      "term": "orozco",
-      "count": 7
+      "term": "mónica",
+      "count": 6
+    },
+    {
+      "term": "juárez",
+      "count": 6
     },
     {
       "term": "nuevo",
-      "count": 7
+      "count": 6
+    },
+    {
+      "term": "orozco",
+      "count": 6
     },
     {
       "term": "diario",
-      "count": 6
+      "count": 5
     },
     {
       "term": "obras",
@@ -11808,14 +11822,6 @@
     },
     {
       "term": "plan",
-      "count": 5
-    },
-    {
-      "term": "mónica",
-      "count": 5
-    },
-    {
-      "term": "juárez",
       "count": 5
     },
     {
