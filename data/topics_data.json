@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-23T22:23:54.394066+00:00",
+  "generated_at": "2026-09-24T00:43:43.986979+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 85,
+      "total_mentions": 86,
       "sentiment_breakdown": {
         "positivo": 5,
         "negativo": 9,
-        "neutral": 71
+        "neutral": 72
       },
       "sentiment_by_day": {
+        "Tue, 22 Se": {
+          "total": 9,
+          "score_sum": -2
+        },
         "Sat, 19 Se": {
           "total": 18,
           "score_sum": 0
@@ -22,10 +26,6 @@
         },
         "Wed, 23 Se": {
           "total": 3,
-          "score_sum": -2
-        },
-        "Tue, 22 Se": {
-          "total": 8,
           "score_sum": -2
         },
         "Mon, 21 Se": {
@@ -64,11 +64,11 @@
         },
         {
           "term": "tribuno",
-          "count": 24
+          "count": 25
         },
         {
           "term": "discapacidad",
-          "count": 21
+          "count": 22
         },
         {
           "term": "informatesalta",
@@ -172,6 +172,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Quién es Pablo Di Liscia, el nuevo secretario de Discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQODRmenlBMUY1SzFWWmpCTHlnXy1uLVhiWjlGMngydTNxSkRwQnl0cDR1NEpRWVhfZ2RoVzdJLW4zSmRvWnNoMlJKd0RmWV90QlB2TUcybzU4SlFEWGpxaE40VFd2a1BVQ0t3WHVWYTY0U0tvTGpDTFBScExNdjk3ODg4RnVpbHdMZnFCd195YlludjVOSXZ6VlJDLWw2SGRJbkdLYjdqZEZMcFQwSmpNN0MwODIwd9IBuwFBVV95cUxObkZObmFCb01KcFBiNHhvVDdjckxQOXE4SS1fb042MVpaMmNjNGYzUXNmNExFVFA1eEItTTE3NkJodnNaVVJNUVBtY2VyVUN3Tld4V2pJWDJabmNQY1NKZEI0QUxhMVRDZzZUVThud0xtdWw4M0dmZGVvYklYdG9hYzlabmhpRGU4Rll5dno4LVFmNldsenVKLXZsNURqR252MkFBOWRORE1EZWVraGRhak9NREcwcU9YQ1JN?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 22 Sep 2026 23:12:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "La cláusula que permitiría a Nación interrumpir transferencias a las universidades - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJIRkhyRWtZUUdkaUNDTzdGWGdQQ1NqTXZMWUFoZW9oYjdaMlF6a2VmTWxQdXRTQ3ZxVkhvbWk3UHNuSHY0bVJDdV9UZ2JZdUhVNjd4MHFndzluMGYtNjVFbFZTUjlVOEZDdFBOUXh5UGF4Qk9EUTZQcWxiZEtqUGlPTWxsUQ?oc=5",
@@ -373,13 +380,6 @@
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVmliUjRuQW5ITUc1UkRybEItZUNOUkRWUFpKSkdWME9lSmVoajl2QWVLNkg4V2JGMUJDTDc0NVVoc3dWcTJnN0hDcGhYNUNwWUJ5N0I3ZVNXdEplNFNtYzFwMU9FNjVueGdDVU4xeXNEcTg0OWRXRmhoMHhEeUdJSzZFbFpGZw?oc=5",
           "source": "Que Pasa Salta",
           "date": "Fri, 18 Sep 2026 12:38:36 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno provincial comenzaría a reunirse con municipios en octubre - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOGJ4QWp4NDc5RC0zdWVCblpvS1dkLVNiQ0ZaMm5iUlhkanduMGN1RThfT3lVZUpwZ21iYzFmSWdVdHFOTGx1WEZZOEYwbElvaFNpRUd3eDREVnFKS0Q2ckJTU2x0SHFKRzJCTUVnbGkxRlE1WlpXbElhSThoREVLSTZKbExHbTBrZEE1ZHdxMVJpeExxSk1xNnpEOFVhaklrYTJZbm5hc24xcVVqS3M0ZTVOdVZCQlBXVW5EYzdBVQ?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Sat, 19 Sep 2026 03:06:44 GMT",
           "sentiment_label": "neutral"
         }
       ]

@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-23T22:23:53.339704+00:00",
+  "generated_at": "2026-09-24T00:43:43.237962+00:00",
   "by_politician": {
+    "dip-gaston-guillermo-galindez": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "dnac-bernardo-biella": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 6,
+      "score_sum": -4
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 20,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 11,
+      "score_sum": -20
+    },
+    "dip-german-dario-ralle": {
+      "total": 15,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 14,
+      "score_sum": 2
+    },
     "snac-flavia-royon": {
       "total": 28,
       "positivo": 1,
@@ -126,13 +154,6 @@
       "negativo": 1,
       "neutral": 26,
       "score_sum": -2
-    },
-    "dnac-bernardo-biella": {
-      "total": 7,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 5,
-      "score_sum": -4
     },
     "dip-griselda-edith-galleguillos": {
       "total": 12,
@@ -260,13 +281,6 @@
       "neutral": 1,
       "score_sum": 0
     },
-    "dip-gaston-guillermo-galindez": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
-    },
     "dip-alejandro-jesus-esper": {
       "total": 2,
       "positivo": 0,
@@ -315,13 +329,6 @@
       "negativo": 2,
       "neutral": 7,
       "score_sum": -4
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 19,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 10,
-      "score_sum": -20
     },
     "concejal-victor-manuel-lamberto": {
       "total": 2,
@@ -378,13 +385,6 @@
       "negativo": 4,
       "neutral": 6,
       "score_sum": -8
-    },
-    "dip-german-dario-ralle": {
-      "total": 14,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 13,
-      "score_sum": 2
     },
     "dip-adrian-alfredo-valenzuela-giantomasi": {
       "total": 5,
@@ -780,6 +780,70 @@
     }
   },
   "by_day": {
+    "Wed, 08 Ma": {
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 29 Se": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Thu, 23 Ma": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 29 Ja": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Mon, 01 Au": {
       "snac-flavia-royon": {
         "total": 1,
@@ -1088,36 +1152,6 @@
       "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "Wed, 08 Ma": {
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "Mon, 27 Oc": {
@@ -6528,12 +6562,6 @@
         "score_sum": 0
       }
     },
-    "Mon, 29 Se": {
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "Wed, 11 Se": {
       "dip-juan-esteban-romero": {
         "total": 1,
@@ -6811,12 +6839,6 @@
     "Sun, 13 Se": {
       "gustavo-saenz": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "Thu, 29 Ja": {
-      "gustavo-saenz": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -8678,12 +8700,6 @@
     },
     "Mon, 19 No": {
       "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Thu, 23 Ma": {
-      "sen-enrique-cornejo-saravia": {
         "total": 1,
         "score_sum": 0
       }
@@ -11759,64 +11775,64 @@
   ],
   "trending_terms": [
     {
+      "term": "sáenz",
+      "count": 17
+    },
+    {
       "term": "elintra",
-      "count": 132
+      "count": 13
     },
     {
       "term": "tribuno",
-      "count": 72
-    },
-    {
-      "term": "orozco",
-      "count": 57
-    },
-    {
-      "term": "nuevo",
-      "count": 46
-    },
-    {
-      "term": "diario",
-      "count": 43
-    },
-    {
-      "term": "informate",
-      "count": 38
+      "count": 10
     },
     {
       "term": "gustavo",
-      "count": 35
+      "count": 8
     },
     {
-      "term": "emilia",
-      "count": 35
+      "term": "orozco",
+      "count": 7
     },
     {
-      "term": "sáenz",
-      "count": 33
+      "term": "nuevo",
+      "count": 7
     },
     {
-      "term": "royón",
-      "count": 32
+      "term": "diario",
+      "count": 6
     },
     {
-      "term": "flavia",
-      "count": 30
+      "term": "obras",
+      "count": 5
     },
     {
-      "term": "diputado",
-      "count": 26
+      "term": "plan",
+      "count": 5
     },
     {
-      "term": "contra",
-      "count": 24
+      "term": "mónica",
+      "count": 5
     },
     {
-      "term": "omar",
-      "count": 23
+      "term": "juárez",
+      "count": 5
     },
     {
-      "term": "exeni",
-      "count": 23
+      "term": "nacional",
+      "count": 4
+    },
+    {
+      "term": "álvarez",
+      "count": 4
+    },
+    {
+      "term": "gabriela",
+      "count": 4
+    },
+    {
+      "term": "flores",
+      "count": 4
     }
   ],
   "comentions": [
