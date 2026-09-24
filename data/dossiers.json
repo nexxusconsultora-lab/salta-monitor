@@ -3,20 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 150,
+    "total_mentions": 152,
     "sentiment_breakdown": {
-      "positivo": 10,
+      "positivo": 11,
       "negativo": 18,
-      "neutral": 122
+      "neutral": 123
     },
     "sentiment_by_day": {
+      "Thu, 24 Se": {
+        "total": 10,
+        "score_sum": 3
+      },
       "Tue, 03 Ma": {
         "total": 1,
         "score_sum": 0
-      },
-      "Thu, 24 Se": {
-        "total": 8,
-        "score_sum": 2
       },
       "Wed, 23 Se": {
         "total": 6,
@@ -178,7 +178,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 86
+        "count": 88
       },
       {
         "term": "tribuno",
@@ -194,7 +194,7 @@
       },
       {
         "term": "gustavo",
-        "count": 23
+        "count": 24
       },
       {
         "term": "ruta",
@@ -210,6 +210,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "no hay objeción constitucional",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYmtFWWt1UVhKM0hqQWNsNFdjUmVEWnd4SER2NnBuV056ME9ld3JMVEI2bG9FOE52OHczOXRHUG5vbHdvVWxQQ2VXNU9mYXhHajc2eVNJbENhc1RhYUFlbks3eUhQV3EyaG5kX0tkMmtNMVB1VVQwTnBldzFsdFd2aHg1djVTUjdhV2w5Xzc4bTNjeXFWQVpLTmp2cDJ2d0ZLREZra0hXY2lucVppVWxpRk1ENzdkZVRuaUZCb08wU0RVbmlUSmlhRG5yU082cFk0YUE1OEZFLWQtbTJua3J5eUozdjhoWVZFVGxDR1JveFJuaHNnYzQ3dEludnl2OXNj?oc=5",
+        "date": "Thu, 24 Sep 2026 19:57:50 GMT"
+      },
       {
         "quote": "Hoy pueden hacerlo realidad",
         "source": "El Intra",
@@ -293,16 +299,24 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRUFlQ1liMF9VTWlKSFdUVlBfYjNUTzQ3d3EyTTZxODJ4aWRuVDVyZ0FWdUpsYjBXbGVHdHZXSzAzbzl1TVRFZmU0NTNIN2lEQlV5OGFyMGV0bXA1YkdyaFloZkZZc19hOW90Zjk4c0gxWEVWTDlkSEZteUFGaHJfcjc0SlFTeHRKVXlrQkk0eVdfYl95eTBGaEc1T1UwZHlOdzZDYURiQ3Rra0pJNVJxLXFWdVJHQQ?oc=5",
         "date": "Tue, 02 Jun 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Está destrozada",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0FkS0szN2Uwa0N5QzB0eTJJYlVyOFFKT0gtLXJ0cHN4S01QWWtpdnNJMURTZk1qMHp5RGxHMzFWZEtPUXJDSDd5VFoyTEkwNnlBRTZzd1l0ZVFOSGZtZnVvdEZvZGFzcEptTEt2TWs4ajFTdWthampoZk5QanpKUWRyM0w4YWZLMGV0dk1Ycw?oc=5",
-        "date": "Wed, 17 Jun 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Escudero aseguró que “no hay objeción constitucional” para la reelección de Gustavo Sáenz - Informate Salta - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYmtFWWt1UVhKM0hqQWNsNFdjUmVEWnd4SER2NnBuV056ME9ld3JMVEI2bG9FOE52OHczOXRHUG5vbHdvVWxQQ2VXNU9mYXhHajc2eVNJbENhc1RhYUFlbks3eUhQV3EyaG5kX0tkMmtNMVB1VVQwTnBldzFsdFd2aHg1djVTUjdhV2w5Xzc4bTNjeXFWQVpLTmp2cDJ2d0ZLREZra0hXY2lucVppVWxpRk1ENzdkZVRuaUZCb08wU0RVbmlUSmlhRG5yU082cFk0YUE1OEZFLWQtbTJua3J5eUozdjhoWVZFVGxDR1JveFJuaHNnYzQ3dEludnl2OXNj?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 24 Sep 2026 19:57:50 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz instó a los senadores nacionales a solicitar tarifas diferenciadas para Salta",
+        "link": "https://informatesalta.com.ar/legislativa/saenz-insto-a-los-senadores-nacionales-a-solicitar-tarifas-diferenciadas-para-salta_a6ab573d6f24c6ff37983d01a",
+        "source": "Informate Salta",
+        "date": "Thu, 24 Sep 2026 19:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Noticia: El gobernador Sáenz informó que se preadjudicó la ruta 9/34 Rosario de la Frontera-Metán - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNjJzNWlXTkRLMTlndDBuUDNNSVlQT0Q1NHJiYUZKTFB2dTFuN1NPM210ejVhTWhIQTJQRF9YcXdPR01nSGwyX0VWTld0ZVZnWVozd2NpZTRxM1dEcXVEdUZzaWRYbE5xamlEV0dJZ1oxLTdFTzlnUi1BUWhQU3hzQnoyR010WWtsMUxqUFVvV3B4OTlUVWJZbmJzcVRxWVUyQUtPN3UwSGt6NXVRZnNSU2pwcUxLcVUyaE5fcGxOcVdXSml6QlRRdmhXbVBWcnM?oc=5",
@@ -497,20 +511,6 @@
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHA2TEFLMTVqNURCSFJ3WmZiUmlEekRfWnBIZ1E5bkp2b1hmODJtYWdCRkYzMG8xYzVSTHRjNnJmU19Nckk1b3R6a2FMN1puSks3WUhuSDAyMXdJRlFjQ25kdUNrYkROaGdiNElRY05lQk5GMzh5Q2FkekxPT0twemVlQ0lUVXNaSkpiWmw1bS1Kd0hPZTBiMlRnYUU5dGtWZ1ZV?oc=5",
         "source": "Que Pasa Salta",
         "date": "Wed, 16 Sep 2026 16:47:59 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Quién representa mejor a Gustavo Sáenz? Jarsún supera a Royón y Emiliano Durand - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxbWN4dkVfeElvWmNhWG0wTUdpcW1WZjA5TUdLWXV5X01IeEpoVFhodDNWUjdZX2MtbTZoWXUzOUNpdE4zMXp6cUtTZnItbWlKby1lZjhXWXRxS2xDaGtwZ1lEd0JxNVMxNF9ibUZFRjRSN3lwcTRGNQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sun, 20 Sep 2026 21:15:59 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Presupuesto 2027: Sáenz recorrerá Salta para definir qué obras necesita cada municipio - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkRscjM2UTlpVm5jcHppYlQ1NldUX21hc0JJeDZiRVhUTGpPS2IyajFXNFBndzRwMU9Sc2lpdFRyWmdmM0Z1UTVWRDNqeDF0bkpDWUhqMzJqRDVXcTh3VTFvUHcwUDNiR1YwTjUzenEtZGdJMFlKelhBWVhCSTFCQXhxMUstcjFQdXNjYnpZNksyenlQdUhQM0ZLa0ppLUk?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Sun, 20 Sep 2026 15:15:27 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15814,16 +15814,16 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 55,
+    "total_mentions": 56,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 11,
+      "negativo": 12,
       "neutral": 41
     },
     "sentiment_by_day": {
       "Thu, 24 Se": {
-        "total": 1,
-        "score_sum": -4
+        "total": 2,
+        "score_sum": -6
       },
       "Mon, 02 Se": {
         "total": 3,
@@ -16041,11 +16041,11 @@
       },
       {
         "term": "farquharson",
-        "count": 11
+        "count": 12
       },
       {
         "term": "gustavo",
-        "count": 9
+        "count": 10
       },
       {
         "term": "elintra",
@@ -16060,7 +16060,7 @@
         "count": 7
       },
       {
-        "term": "contra",
+        "term": "concejales",
         "count": 6
       }
     ],
@@ -16183,6 +16183,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Farquharson cuestionó a concejales de La Libertad Avanza por rechazar el plan de asistencia por El Niño",
+        "link": "https://elintra.com.ar/2026/09/24/gustavo-farquharson-cuestiono-a-concejales-de-la-libertad-avanza-por-rechazar-el-plan-de-asistencia-por-el-nino/",
+        "source": "El Intra",
+        "date": "Thu, 24 Sep 2026 21:07:16 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "“Si Salta se inunda, fue porque LLA votó para que no lleguen los recursos y obras\"",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-si-salta-se-inunda--fue-porque-lla-voto-para-que-no-lleguen-los-recursos-y-obras-_a6ab53639f24c6ff37972c00e",
@@ -16384,13 +16391,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTXA4c1pmMTk5ckpORThURkhNZXo0d3V5ODF3bTZqbjdMZ0FqMTZhTkxzU3dJaWMtZDR1TVFnTnNhMXVWYk4wTTFtUzR2S2ZPMG9xejR0VHpLQ1FmMXk3Q2tQTkFaZzFLV3Ribmdha3NGZjM3VVlYZjR3OVNVb1NLNlY2aFB4SkFuaGZIX0VaSWREaWZrTU9NQXlzamxrcGVYZHVJLWJGcEtmSjJJOHdOUTVOUk0xYWNCekg3bDFZUTZ0MGRELWRna0E1a0NMNWdESXfSAdcBQVVfeXFMTVpMSi1LcEo4X2Q5SzJlMzlQUzNjWTB6RlZRaThRRGZ4aElEYW43eHZfb1VyYnBtX2x0WWFJVnFnVGhfNnVyRDBSa1QycGl3MGI3Ukw1aGNjNzdfSTdqLTdSVkJCUG51V0Q1dFZXZ1FBR3oyYTFyTzI3TzBzSmlIYUVLOWtDSXpWVWV4ZjZiSDVQaUV6WWVxRFVtaHhHNXVWN0E2RlJuOXdVMnQ3NDAxVzd5ZnJEalFHTDBkR1NhbXZNZTM4Ty1KbmNyODROX2RLaTNFRjREb0k?oc=5",
         "source": "eltribuno.com",
         "date": "Tue, 26 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Vivir alejados de los vecinos - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb21vNDlJWTRYYWxVWVJFNlR1VHBlRHJXQWwyT2IzVG1pVkVlOWU1REphQnUwNWhTZjhCdjVDeWdQLTA2UlBNRDJSemZrQ2ZNWDNDcHNrY0JrZTBCNjh2Si1SdVVpVmM5ZHFEczQzYlZPMjVJblRFdUZoUTVvRDdNaTFsSGszUXNX?oc=5",
-        "source": "eltribuno.com",
-        "date": "Tue, 02 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20377,13 +20377,21 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 28,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 23
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "Thu, 06 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Thu, 24 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 01 Au": {
         "total": 1,
         "score_sum": 0
@@ -20492,34 +20500,34 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 28
+        "count": 29
       },
       {
         "term": "royón",
-        "count": 28
+        "count": 29
       },
       {
         "term": "tribuno",
-        "count": 12
+        "count": 13
       },
       {
         "term": "elintra",
         "count": 10
       },
       {
+        "term": "senado",
+        "count": 4
+      },
+      {
         "term": "nación",
         "count": 3
       },
       {
-        "term": "senado",
-        "count": 3
-      },
-      {
-        "term": "minería",
+        "term": "momento",
         "count": 2
       },
       {
-        "term": "diputados",
+        "term": "debatir",
         "count": 2
       }
     ],
@@ -20594,6 +20602,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón anticipó que no acompañará la Ley de Propiedad Privada - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY3NXVEFUdlNWNTdzY3UzSTJSSkU3ZFZ5NVJ4OTZkNF9Hd0J2V29ybFZva0xEcGJsOEhoMmJsdWVEUmJaeHp4ZUlWYVJZMTB1SWd4RGFxUllCYUJnTnU0c2lXUjBreGMycDZrcGJRejh3SklHTHJRUWhwb1pWVTNqT3h4R3JoZEo4clZKS0t0U2ZyMmtxSkpJMjl3MUZwNFFXMnhmZzhidWt4SXMwclAxS0NGR0xtLVNTZDJnVDhB0gHDAUFVX3lxTE1pNDJTLW1tdWlXSURER0tuWUdaMzhWd0t2Rm5VenVTQ2xQcUR5SXpiU2s4Y0NUYVFHdTRqaFhLUWw2dnRkTHBFNVJOTVpwdEdGR1M1QXRFZVUteWNYMmxPeEdIVTJ6QmVnQjlTRW1ROWVLNzBTZzZOdVllbVlMc3NKLWp6bTVXTzl4alZ0Ujd2cW9NbUI1eU5Nd0lJbWcxY1BHdURtcXZ0LWdTUjFOLVlxRGg3ZU1Uek1iUWFXbFg4MWM5Yw?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El kirchnerismo se fue del Senado al momento de debatir Zonas Frías",
+        "link": "https://informatesalta.com.ar/legislativa/el-kirchnerismo-se-fue-del-senado-al-momento-de-debatir-zonas-frias_a6ab590eff24c6ff3798b60a0",
+        "source": "Informate Salta",
+        "date": "Thu, 24 Sep 2026 22:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Suena fuerte Flavia Royón para Minería de la Nación - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlpsSW1ycE1MMWlTMWFfa09NMTBoSEFnMVFyaFVfTy0tNHowUjNZWW1CU0lJVDg2dGFmZlJhUkQ0T2hfSlhMZTdiMGxFc1dsRl95NHVJYld1Y3A1TEFmdlB1RFR4T0ZQeThRSzZsMURoSTFyUWVFTGVaYWFfYzJVMTBvVWNXZnBkQVowMC1qd2NWbjZwZW5yRjN3NHltZw?oc=5",
@@ -23210,13 +23232,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 11
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "Mon, 05 Fe": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 15 Ma": {
         "total": 1,
         "score_sum": 0
@@ -23265,15 +23291,15 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 11
+        "count": 12
       },
       {
         "term": "elintra",
-        "count": 8
+        "count": 9
       },
       {
         "term": "gauffín",
-        "count": 7
+        "count": 8
       },
       {
         "term": "gauffin",
@@ -23310,6 +23336,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffín cargó contra Rubén Correa: dijo que tiene un «estilo poco académico» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQazA1N19FVGpVd2c4OUtucG9ERDl2dlBjUXVBVFZiSmlCVVNZNUs3Sl9jWUVUblNiTnk4NWpZd3ppRzFPVlJkUmJtWnoxUi1aaUZxcXJQeGU1ZFhIaUtFZGxLM1J3Sm5IVGpKN216cU5aSVowQUw3YWc3VTNPNmxBQ3JtTDRGeXp3QXNoNm5qckJnMmt5VGljX2gxU2VYa1RwRnVycjRSTmdwemo5cU9WQWVlNA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 05 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "José Gauffín se presentó como candidato a concejal por Juntos por el Cambio + - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWG1YRVEtUVFKRHNPZ096S2NVVlNmNGRIMU5hVlU3ZW05cWNJMkFUeFlNNFF6Z1IwS0VOTEFVWGtlblpMczhiU0d4dnBJdi1icl9sYkk0Uk9PaDNkTDVwdWFiOV83SDlTbUVKRWhNenhMN0dULVRHQWpIRHh1WHNQVUhfUWlvZExVRVdKTkFxdmJVSk1MNEp4LVhWa2lqRm9GREhlcGVkT2dQb3hGOEZtc1VFYkFZTTBpYnV6MlJ2aVBES1RNdjlDZk91M0XSAdIBQVVfeXFMUFkxQmJZSTJQQU5LblUtLUVkS1N1Zk9KSUQyYTdUMU0wNk1TYW5Za1JCT2c3LVNaRnB6SF9OQ0t1QVE1WW96dTNZZ3NTUVg4NXJBZnhpdnJJa3lVc2VZTVh3cTRmMzJEclJKNnFjaWQ5cTFkY1RVYzR1UlJ1WUNUcG55MXlVYmJlU2lsaDhfTkFVOEZydThmQzFHM0I2RGR5MDVZUTVUSEYtUHBpZEhLQ0NTOEFBUzdSeWtwd29fbzJYbVhJRHc2UXdOVkRNUDdKTS1B?oc=5",

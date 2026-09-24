@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-24T19:30:56.341579+00:00",
+  "generated_at": "2026-09-24T22:44:28.172824+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 90,
+      "total_mentions": 92,
       "sentiment_breakdown": {
-        "positivo": 5,
+        "positivo": 6,
         "negativo": 9,
-        "neutral": 76
+        "neutral": 77
       },
       "sentiment_by_day": {
+        "Thu, 24 Se": {
+          "total": 4,
+          "score_sum": 2
+        },
         "Tue, 22 Se": {
           "total": 10,
           "score_sum": -2
@@ -19,10 +23,6 @@
         "Fri, 18 Se": {
           "total": 14,
           "score_sum": -2
-        },
-        "Thu, 24 Se": {
-          "total": 2,
-          "score_sum": 0
         },
         "Sat, 19 Se": {
           "total": 18,
@@ -64,15 +64,15 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 61
+          "count": 62
+        },
+        {
+          "term": "discapacidad",
+          "count": 25
         },
         {
           "term": "tribuno",
           "count": 25
-        },
-        {
-          "term": "discapacidad",
-          "count": 24
         },
         {
           "term": "informatesalta",
@@ -84,7 +84,7 @@
         },
         {
           "term": "informate",
-          "count": 12
+          "count": 14
         },
         {
           "term": "obras",
@@ -182,6 +182,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Prestadores de discapacidad reclamaron a Nación por fondos, aranceles y pensiones - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONGYzd0JXVDZfTXNoM3FpMHNjeDFEV0FnNi1LcjRYMjRVelhJNUJoUklhaHpJVzZMblI2NUgwZG15U0pFbEoyREZYbEU5QzBIcDNaZjNGNXREbFM0Y05SbTRfVDhFQ2liQjEtM0JsbUZOWXdBNi1ZeFZrLXNZOGZWek5KVUg2WkcwVGtrUFZZTDB0NWRueWEzNmI1MVRySFQ5ZTdnODVCeFZtMEZQLVVYRFJkSzhpNkZVRV83OWRZdEl2WWFiMHh1djEtT1lUZW9iU3NVWFNHdjFmXzTSAeoBQVVfeXFMUDQxUkNUSE1GRHZKc1NqdjdwV2dxYkoxczg2Tkw4ZmM2N3hNb2kyVk54VWl2Ylo3dzhfUDdQU05wQkhpOUlNUk5xTlBrajYteHNHVk1odWM4cmV2bTdoZFRqNktKcTBIMHQyS3VHaFlEbThpbGQ1andyNlM4cTFkMWFWRDJMWmZYdkpKczJrazgtUnFDX2RxSVdrTGhmdXh6aVZRQnZQM2J3MU55b1JZR1ZscmhSUFlNMGJHVjc3UTMyT21ETVhZU3pRTVp4bGVRRWRDTTEyWS1zN0N0V3BIbDl0WkY5NVJTemd3?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 24 Sep 2026 18:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Buscan destinar fondos del Presupuesto 2027 para mejorar el hospital de Tartagal - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNS0JNR1NrM25TWWh4OFNqX21EdGU1Q1VYaXEtVjdFMVJ0Mld5OU1HY3VUQ2NNOHMzbmRLREZDR1dDSmZicTN3ZjFiMkhwWU44c0VFUHl5MEFjTTNsMjRfd1BINHFIQUIwWUJhcUZiRjJDUGotU3FjRjgwQ0hacWw0ZHFSd1dTWVZSNF8tVG9ubjRIOVJ3Z19WbmtzQmFRZEFqR0ZrZk54TjFRNmFnSTBSbUxfVEptMzRNeHVmVGIzOFliT2lkenVSSEpvWHBEV3IzaUlvdl8yVkxJZW9zLXRFbVM0VDI4d2c5VU5sUzVCWDnSAfABQVVfeXFMTUtCTUdTazNuU1loeDhTal9tRHRlNUNVWGlxLVY3RTFSdDJXeTlNR2N1VENjTThzM25kS0RGQ0dXQ0pmYnEzd2YxYjJIcFlOOHNFRVB5eTBBY00zbDI0X3dQSDRxSEFCMFlCYXFGYkYyQ1BqLVNxY0Y4MENIWnFsNGRxUndXU1lWUjRfLVRvbm40SDlSd2dfVm5rc0JhUWRBakdGa2ZOeE4xUTZhZ0kwUm1MX1RKbTM0TXh1ZlRiMzhZYk9pZHp1UkhKb1hwRFdyM2lJb3ZfMlZMSWVvcy10RW1TNFQyOHdnOVVObFM1Qlg5?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 24 Sep 2026 18:00:00 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Millones para la política, Salta no está mal: ¿Cuánto cuesta cada legislador? - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa0Z6NmpTSEtxSnBJS2lIalM2QTA4SU5kNFFTamxNSF80c3kyOE81YTNLV3BVTmI2MThwZDRFSWVvQUtZNWVkbi1ycGRJc180Wk1SQnJBZkQ0bUQtVkVHeFpsWVpoMmFtSnFicWpSeWhjR0JkVjZPb0FDZVlITDlOaHc4U2I4OXF6SW9EYnJEUUZmOVJjTGZLaDRFRnJiUmw0Z08yMmJ4RFh5YnEwNTlIUjZORjZCbFZkRDY5cmQ0bXB3SnBWdURhak5TTVBiSHE5R3VGZFRZRkZBUlHSAeoBQVVfeXFMT0xKcmMtcktUd3FoTmhEanhZMDBjc0Z4NnFxUlN5azJMUVZUWmVBM3BKUGllT1IzZXVQeERqbmhfaHE1eHhRcEtIZDNFTWV5U2x6VUFrWDRiMEt6TEdSYUpuMThYUHlfSmFXd3BYbXFUYjEtMHBWdzRfT0cyc3N2Wmk1ZjFPLTBwSU52cEZSb08xRjJob29XX1BnMWNGWHFPRGdCSWt6dERzNmV6VnZJdXRXYXN3elppUDNkSkZIOXFhU04zelRFWUZBMGJHem5FWWhrLXg4NTY2NllrZnhxdm5sQWxQdmpBT25B?oc=5",
@@ -376,20 +390,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzg3ZTdEVEFNWmJtanBIUzVVTzZDMkx0MjFpX1NQdVh3dmRWWDdTaEFCVHBsbHJqU0dGS29pZmFBc3hGQ3E4dUF3UVFxWlV1RVMyWjdzVDIyRnBacGxacXhwZGp6LU5uLVNSbEdRMW80WFVfcmw1VXhYZHpPdVVDZjFuUUxCSXc1dkVzaklneTQ2VFhzUjZRNHRTM1JJVzNKQVpaQ3FRSUJFRDdFY2FaeXl3NmxJZU55UGs1eG55QUtCNEwzVm1PWGVqaXBWS25zZEtQcDdJcW3SAdgBQVVfeXFMTUc4N2U3RFRBTVpibWpwSFM1VU82QzJMdDIxaV9TUHVYd3ZkVlg3U2hBQlRwbGxyalNHRktvaWZhQXN4RkNxOHVBd1FRcVpVdUVTMlo3c1QyMkZwWnBsWnF4cGRqei1Obi1TUmxHUTFvNFhVX3JsNVV4WGR6T3VVQ2YxblFMQkl3NXZFc2pJZ3k0NlRYc1I2UTR0UzNSSVczSkFaWkNxUUlCRUQ3RWNhWnl5dzZsSWVOeVBrNXhueUFLQjRMM1ZtT1hlamlwVktuc2RLUHA3SXFt?oc=5",
           "source": "El Tribuno",
           "date": "Sat, 19 Sep 2026 12:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"No van a poder trabajar\": la advertencia por los cambios en las pensiones por discapacidad - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU8?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 21 Sep 2026 16:13:18 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: Nación dio a conocer el monto proyectado para obras en Salta - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEppOTFnLVgyaDg3YjNFYTBlUVRPSzFVUjZTMnJqMXZoZkFiMUVRbkcyWUZGb3pPM184enpfNWlYbllkcDBkSFFtTzRVSGpTUXhQZkNMNkJQdEVMYU90TjVIUVdGaGEwZW9VYy1qWXB0MHlBWWV5bS1reUNwaVJsNFBSMjdPSnRYVnNEQmY4V1RPaVg5QVFobFRkSlBmUWhQOFF1QkR0ZzVlVzhhLXRTZmtn?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Wed, 16 Sep 2026 22:54:57 GMT",
           "sentiment_label": "neutral"
         }
       ]
