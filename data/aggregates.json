@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-24T05:31:44.255625+00:00",
+  "generated_at": "2026-09-24T10:30:35.782403+00:00",
   "by_politician": {
+    "dnac-pablo-outes": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 0
+    },
+    "concejal-gustavo-farquharson": {
+      "total": 54,
+      "positivo": 3,
+      "negativo": 10,
+      "neutral": 41,
+      "score_sum": -15
+    },
+    "dip-omar-exeni-arminana": {
+      "total": 28,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 27,
+      "score_sum": -2
+    },
     "concejal-malvina-gareca": {
       "total": 39,
       "positivo": 4,
@@ -99,20 +120,6 @@
       "neutral": 53,
       "score_sum": -14
     },
-    "concejal-gustavo-farquharson": {
-      "total": 53,
-      "positivo": 3,
-      "negativo": 10,
-      "neutral": 40,
-      "score_sum": -15
-    },
-    "dnac-pablo-outes": {
-      "total": 6,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 6,
-      "score_sum": 0
-    },
     "sen-luciano-elvira": {
       "total": 15,
       "positivo": 2,
@@ -147,13 +154,6 @@
       "negativo": 2,
       "neutral": 11,
       "score_sum": -6
-    },
-    "dip-omar-exeni-arminana": {
-      "total": 27,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 26,
-      "score_sum": -2
     },
     "dip-griselda-edith-galleguillos": {
       "total": 12,
@@ -780,6 +780,26 @@
     }
   },
   "by_day": {
+    "Wed, 19 Ju": {
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 02 Se": {
+      "concejal-gustavo-farquharson": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
     "Wed, 23 Ju": {
       "concejal-malvina-gareca": {
         "total": 1,
@@ -6340,12 +6360,6 @@
         "score_sum": 0
       }
     },
-    "Mon, 02 Se": {
-      "concejal-gustavo-farquharson": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "Fri, 23 Au": {
       "concejal-gustavo-farquharson": {
         "total": 1,
@@ -8298,12 +8312,6 @@
       "sen-carlos-lopez": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "Wed, 19 Ju": {
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "Thu, 01 Se": {
@@ -11782,7 +11790,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 16
+      "count": 14
     },
     {
       "term": "elintra",
@@ -11794,35 +11802,31 @@
     },
     {
       "term": "gustavo",
-      "count": 7
+      "count": 8
     },
     {
       "term": "mónica",
-      "count": 6
-    },
-    {
-      "term": "juárez",
-      "count": 6
-    },
-    {
-      "term": "nuevo",
-      "count": 6
-    },
-    {
-      "term": "orozco",
-      "count": 6
-    },
-    {
-      "term": "diario",
       "count": 5
     },
     {
-      "term": "obras",
+      "term": "juárez",
+      "count": 5
+    },
+    {
+      "term": "nuevo",
       "count": 5
     },
     {
       "term": "plan",
       "count": 5
+    },
+    {
+      "term": "pablo",
+      "count": 4
+    },
+    {
+      "term": "diario",
+      "count": 4
     },
     {
       "term": "nacional",
@@ -11838,6 +11842,10 @@
     },
     {
       "term": "flores",
+      "count": 4
+    },
+    {
+      "term": "orozco",
       "count": 4
     }
   ],
