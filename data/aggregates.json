@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-09-25T15:58:34.368036+00:00",
+  "generated_at": "2026-09-25T20:00:46.858259+00:00",
   "by_politician": {
+    "dip-marianela-ibarra-afranllie": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "dnac-maria-gabriela-flores": {
+      "total": 14,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 12,
+      "score_sum": 0
+    },
+    "snac-flavia-royon": {
+      "total": 34,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 26,
+      "score_sum": 4
+    },
     "snac-emilia-orozco": {
-      "total": 32,
+      "total": 33,
       "positivo": 2,
       "negativo": 5,
-      "neutral": 25,
+      "neutral": 26,
       "score_sum": -7
     },
     "concejal-jose-garcia-alcazar": {
@@ -85,13 +106,6 @@
       "neutral": 8,
       "score_sum": 0
     },
-    "snac-flavia-royon": {
-      "total": 33,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 25,
-      "score_sum": 4
-    },
     "dip-jose-miguel-gauffin": {
       "total": 12,
       "positivo": 0,
@@ -154,13 +168,6 @@
       "negativo": 2,
       "neutral": 38,
       "score_sum": -2
-    },
-    "dnac-maria-gabriela-flores": {
-      "total": 13,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 11,
-      "score_sum": 0
     },
     "dnac-pablo-outes": {
       "total": 7,
@@ -314,13 +321,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 5,
-      "score_sum": 0
-    },
-    "dip-marianela-ibarra-afranllie": {
-      "total": 1,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 1,
       "score_sum": 0
     },
     "dip-rodrigo-javier-garcia": {
@@ -780,6 +780,90 @@
     }
   },
   "by_day": {
+    "Tue, 29 Ju": {
+      "dip-marianela-ibarra-afranllie": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 22 Ma": {
+      "dnac-maria-gabriela-flores": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 10 Fe": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 25 Se": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 3
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "concejal-angel-ortiz": {
+        "total": 2,
+        "score_sum": -3
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 8
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 2,
+        "score_sum": 5
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 5
+      }
+    },
     "Thu, 16 Oc": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -840,52 +924,6 @@
       "sen-juan-cruz-cura": {
         "total": 2,
         "score_sum": 0
-      }
-    },
-    "Fri, 25 Se": {
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "dip-luis-gerardo-mendana": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "concejal-angel-ortiz": {
-        "total": 2,
-        "score_sum": -3
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 8
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 2,
-        "score_sum": 5
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 5
       }
     },
     "Wed, 01 Ju": {
@@ -2630,20 +2668,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 22 Ma": {
-      "dip-guillermo-mario-durand-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Wed, 08 Ap": {
       "dip-edgar-gonzalo-dominguez": {
         "total": 1,
@@ -3508,20 +3532,6 @@
     },
     "Mon, 23 Se": {
       "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Tue, 29 Ju": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": 0
       }
@@ -11948,19 +11958,15 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 17
+      "count": 18
     },
     {
       "term": "tribuno",
-      "count": 11
+      "count": 12
     },
     {
       "term": "gustavo",
       "count": 11
-    },
-    {
-      "term": "elintra",
-      "count": 9
     },
     {
       "term": "zonas",
@@ -11983,7 +11989,15 @@
       "count": 6
     },
     {
+      "term": "nación",
+      "count": 5
+    },
+    {
       "term": "legisladores",
+      "count": 5
+    },
+    {
+      "term": "elintra",
       "count": 5
     },
     {
@@ -11991,19 +12005,15 @@
       "count": 5
     },
     {
-      "term": "gabriela",
-      "count": 5
-    },
-    {
-      "term": "flores",
-      "count": 5
-    },
-    {
-      "term": "orozco",
+      "term": "senado",
       "count": 4
     },
     {
-      "term": "josé",
+      "term": "pasa",
+      "count": 4
+    },
+    {
+      "term": "milei",
       "count": 4
     }
   ],
