@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-25T06:01:32.352403+00:00",
+  "generated_at": "2026-09-25T11:45:23.106210+00:00",
   "by_politician": {
+    "dip-juan-jose-esteban": {
+      "total": 6,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 5,
+      "score_sum": -2
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 36,
+      "positivo": 2,
+      "negativo": 5,
+      "neutral": 29,
+      "score_sum": -6
+    },
     "snac-emilia-orozco": {
       "total": 31,
       "positivo": 2,
@@ -203,13 +217,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 4
-    },
-    "dip-juan-jose-esteban": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 4,
-      "score_sum": -2
     },
     "dnac-carlos-raul-zapata": {
       "total": 13,
@@ -441,13 +448,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 0
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 35,
-      "positivo": 2,
-      "negativo": 5,
-      "neutral": 28,
-      "score_sum": -6
     },
     "concejal-gonzalo-nieva": {
       "total": 47,
@@ -780,6 +780,62 @@
     }
   },
   "by_day": {
+    "Wed, 01 Ju": {
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Fri, 25 Se": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 2,
+        "score_sum": 5
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 5
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 3
+      }
+    },
     "Sun, 19 No": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -828,28 +884,6 @@
       "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Fri, 25 Se": {
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 2,
-        "score_sum": 5
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 5
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 3
       }
     },
     "Thu, 24 Se": {
@@ -1192,32 +1226,6 @@
       "dip-francisco-fabio-rodriguez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Wed, 01 Ju": {
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "Thu, 25 Ja": {
@@ -11912,15 +11920,15 @@
     },
     {
       "term": "gustavo",
-      "count": 12
-    },
-    {
-      "term": "tribuno",
       "count": 11
     },
     {
-      "term": "elintra",
+      "term": "tribuno",
       "count": 9
+    },
+    {
+      "term": "elintra",
+      "count": 8
     },
     {
       "term": "zonas",
@@ -11943,10 +11951,6 @@
       "count": 6
     },
     {
-      "term": "legisladores",
-      "count": 5
-    },
-    {
       "term": "senadores",
       "count": 5
     },
@@ -11959,11 +11963,15 @@
       "count": 5
     },
     {
-      "term": "orozco",
+      "term": "legisladores",
       "count": 4
     },
     {
-      "term": "mónica",
+      "term": "escudero",
+      "count": 4
+    },
+    {
+      "term": "reelección",
       "count": 4
     }
   ],

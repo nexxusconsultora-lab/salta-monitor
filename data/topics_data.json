@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-25T06:01:33.279889+00:00",
+  "generated_at": "2026-09-25T11:45:24.099216+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 93,
+      "total_mentions": 94,
       "sentiment_breakdown": {
-        "positivo": 7,
+        "positivo": 8,
         "negativo": 9,
         "neutral": 77
       },
       "sentiment_by_day": {
+        "Fri, 25 Se": {
+          "total": 1,
+          "score_sum": 2
+        },
         "Thu, 24 Se": {
           "total": 5,
           "score_sum": 4
@@ -64,7 +68,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 63
+          "count": 64
         },
         {
           "term": "discapacidad",
@@ -91,8 +95,8 @@
           "count": 12
         },
         {
-          "term": "fondos",
-          "count": 10
+          "term": "intransigente",
+          "count": 11
         }
       ],
       "politicians_involved": [
@@ -182,6 +186,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Diego Santilli y Leandro Zdero se reunieron en Casa Rosada para coordinar apoyos al Presupuesto 2027 y la suspensión de las PASO - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZk9rUDFXZVVfVDAxdFNBNkRKb3I5MU0zSy1NY2dzMW9Yc3NiamZoMmhxTGZITlhSQlVqYVhmZEw2a3lwbkVzemtTMUdaOGszY2lPX2trWUdFWTdIeC1BQk5ZbVhSX0V1T3pUU24zekdPbDNwVHFqNm9DQTh6eEhmRGlyc0xBbzRzNGhVdVlieW1QSURtVGkzWnNKMEt4blIwSUJVYUF5M0FCdHFMOWNFYXhYeFpDZmhybGlrTWlHbmV6Y0J2aE1tRW9Wck83SVBqWnZZRnYzM05oTmhJQ040YmtvN3FoRVY2WDlWYTJDZ2lIMmJLdHd4YQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 25 Sep 2026 00:23:22 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Buscan destinar fondos del Presupuesto 2027 para mejorar el hospital de Tartagal - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVGVvdHpVaVNxZVZpbUVUZGFnWFh1d25xUE0xQ3djOFNlOFFxNFBpTGlhV1EwNEw3Y0dLRVRESUkzWTRvcF96UlRya3JyRmRGX1M5UTFzVjNYSG0wVUtfZEpuTEFPMDNjRC1JbmRCTnRrOWlPYmxvVlVQY2d5SkpZTzFmOUg5c251UTI4SFAyNjNpSTVxcUNneDlzVUVYQ1hVNF96elhpSThBaG5SeThxcFYyMmliVHBIejg0cUxlSWgtbk13djVpbTQ0MWJHWWtnRzhKS0ZOR3lJclZXZnAteG9B0gHwAUFVX3lxTE1LQk1HU2szblNZaHg4U2pfbUR0ZTVDVVhpcS1WN0UxUnQyV3k5TUdjdVRDY004czNuZEtERkNHV0NKZmJxM3dmMWIySHBZTjhzRUVQeXkwQWNNM2wyNF93UEg0cUhBQjBZQmFxRmJGMkNQai1TcWNGODBDSFpxbDRkcVJ3V1NZVlI0Xy1Ub25uNEg5UndnX1Zua3NCYVFkQWpHRmtmTnhOMVE2YWdJMFJtTF9USm0zNE14dWZUYjM4WWJPaWR6dVJISm9YcERXcjNpSW92XzJWTEllb3MtdEVtUzRUMjh3ZzlVTmxTNUJYOQ?oc=5",
@@ -383,13 +394,6 @@
           "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQc1phMVg4SmF4VjYzaEdFUC1zU2lWUndjelgxOTNkNjJZbXdvRFpsbERkSDl5UU94eWpHeEFqaTFhT3VITkNKVk0tUmV5ZlVaMTlReG1qWnVtNWpkT3NzOWxDM25neHB1cThiRTVKc3hVZmtwOUc3OUtnanJFTklYWmtpS0RmdjRqOXlSQzVPTjlieEphWEVDM1ZlYmxaZHMtdVBUTDVhQ0NBQVREUUdkdW9taDJCeGNvS05RY1pjeFphc0hZOVhVVEQwbnJyTnhHR2R2YmswT3FMR1VJZ3FISHl3TVp3NkFJQVdvaThhNnZlWl9tTUVpaGJvVkpBNEctbWM40gGDAkFVX3lxTFBzWmExWDhKYXhWNjNoR0VQLXNTaVZSd2N6WDE5M2Q2Mlltd29EWmxsRGRIOXlRT3h5akd4QWppMWFPdUhOQ0pWTS1SZXlmVVoxOVF4bWpadW01amRPc3M5bEMzbmd4cHVxOGJFNUpzeFVma3A5Rzc5S2dqckVOSVhaa2lLRGZ2NGo5eVJDNU9OOWJ4SmFYRUMzVmVibFpkcy11UFRMNWFDQ0FBVERRR2R1b21oMkJ4Y29LTlFjWmN4WmFzSFk5WFVURDBucnJOeEdHZHZiazBPcUxHVUlncUhIeXdNWnc2QUlBV29pOGE2dmVaX21NRWloYm9WSkE0Ry1tYzg?oc=5",
           "source": "Informate Salta",
           "date": "Sat, 19 Sep 2026 00:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: menos Educación y más Defensa - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSkIyQUQ4OWYydXdRYXlKVzJtbHpDaTRTODlhMWxDUDBLM2VhbF94ZldVa3cyN05TMUItT09PMnRNSGhEVDljN1cyNkIyQ3RLVXljUzNrSnNFZ052ZHUyd1lINEljYlJuaC1aNmJ0Y0NNTk1DckdkRHlBZTBXR0tObW9waFNWSnlzd29sWnRuM0RVM09BdE16Wl90d292SFUyMlkxYVFn0gGmAUFVX3lxTE1KQjJBRDg5ZjJ1d1FheUpXMm1sekNpNFM4OWExbENQMEszZWFsX3hmV1VrdzI3TlMxQi1PT08ydE1IaERUOWM3VzI2QjJDdEtVeWNTM2tKc0VnTnZkdTJ3WUg0SWNiUm5oLVo2YnRjQ01OTUNyR2REeUFlMFdHS05tb3BoU1ZKeXN3b2xadG4zRFUzT0F0TXpaX3R3b3ZIVTIyWTFhUWc?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 19 Sep 2026 04:27:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
