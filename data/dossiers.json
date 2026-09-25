@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 154,
+    "total_mentions": 155,
     "sentiment_breakdown": {
-      "positivo": 12,
+      "positivo": 13,
       "negativo": 18,
       "neutral": 124
     },
     "sentiment_by_day": {
       "Fri, 25 Se": {
-        "total": 2,
-        "score_sum": 3
+        "total": 3,
+        "score_sum": 8
       },
       "Thu, 24 Se": {
         "total": 10,
@@ -182,7 +182,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 89
+        "count": 90
       },
       {
         "term": "tribuno",
@@ -193,12 +193,12 @@
         "count": 26
       },
       {
-        "term": "frontera",
+        "term": "gustavo",
         "count": 25
       },
       {
-        "term": "gustavo",
-        "count": 24
+        "term": "frontera",
+        "count": 25
       },
       {
         "term": "ruta",
@@ -307,6 +307,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tras el pedido de Gustavo Sáenz, el Senado aprobó la quita de subsidios al gas del sur",
+        "link": "https://elintra.com.ar/2026/09/25/salta-pierde-subsidios-gas/",
+        "source": "El Intra",
+        "date": "Fri, 25 Sep 2026 12:25:00 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Reforma de zonas frías ¿cómo votaron los legisladores salteños?",
         "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
@@ -508,13 +515,6 @@
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeW9GbzUtdVZJdmd5Y1dYYWVXb0taXzBmbmFTSTJ3bXAwZWc4bWhLZElaRlpmN2NtLVV3VER5Q2dPLVcycngwdkVVUjV3OGlmS3FZMnBFWVNYVnRKS3pSanRwcU5YZkpGMG9zSVFKc2hJMml6WE9LSkp6X25kYWV3Q3ZwZERwdFN1anEtMGE4emRGNmxLNl8zM0twWXJ0RTFTckVELWFJTUMyNGY2c2ZVbGh6M29xNVdCd2ZFOFB0S0ZSSy1TQmxZazNYd0ZpUW5EQnFjS0RBZ1JJVzVEZXpoOFhodVlOaVNEd3UxV1R3?oc=5",
         "source": "Informate Salta",
         "date": "Tue, 22 Sep 2026 00:41:50 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz y Victoria Villaruel encabezan la misa estacional en honor al Señor de Milagro - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaU42STJTZ0o4Tzl4NTZYdl9fcUlqd2J6cHZsYzRreEJXb1hZOEg1UVltanhCbXV5SUtTbGQ0SVhzbm1LZW12WjVlaVR3RFhoVFNRRFcxdTVUeVBpSk5DZmFkQnc2RlRSN09SWEdjZEtKZXQxQzZNamNCdmZGeFM1RFdzRkRUZDRtaGtVUXZvT0F1YmJfQWRVTjF6TDI4UQ?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 15 Sep 2026 13:17:12 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -2180,13 +2180,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "Fri, 25 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 24 Se": {
         "total": 2,
         "score_sum": -1
@@ -2283,30 +2287,30 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 11
+        "count": 12
       },
       {
         "term": "cornejo",
-        "count": 11
+        "count": 12
+      },
+      {
+        "term": "nuevo",
+        "count": 6
+      },
+      {
+        "term": "diario",
+        "count": 6
       },
       {
         "term": "tribuno",
         "count": 6
       },
       {
-        "term": "nuevo",
-        "count": 5
-      },
-      {
-        "term": "diario",
+        "term": "güemes",
         "count": 5
       },
       {
         "term": "tabaco",
-        "count": 4
-      },
-      {
-        "term": "güemes",
         "count": 4
       },
       {
@@ -2348,6 +2352,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Enrique Cornejo pidió a los tres intendentes de Güemes definir las obras prioritarias para 2027 - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVTFqYTZ3elNTS2xlekY2eTJ6ekEzWTdxN0RqenJxTndUSTBRQ0pCbVMtdXJGX0R5a3V4MGQyN2hQaGxrRGI0S0g5Z1R5UGZ5M1lwMGxzSU5BcGpBcGtqR1ZiaGs2NTUxOENzUHpuU3Q2VHdUOWN0SzdzZG0tMGhMQUNJWHNnc0c0bm4xM215ZGhUQjN0YnpWeVZVUDZSYS00RVdYWW5JdmZkRFFSS244NFZsWjNYcEkyaUxOM2tObEhiVHlPZnFXUzln?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 25 Sep 2026 13:32:55 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tabaco: Estiman que Salta pierde US$ 25 millones al año por el mercado ilegal",
         "link": "https://informatesalta.com.ar/economia/tabaco--estiman-que-salta-pierde-us--25-millones-al-ano-por-el-mercado-ilegal_a6ab52592f24c6ff3796db17d",
@@ -14725,13 +14736,21 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 35,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 5,
-      "neutral": 28
+      "negativo": 6,
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "Fri, 24 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Fri, 25 Se": {
+        "total": 1,
+        "score_sum": -4
+      },
       "Thu, 24 Se": {
         "total": 2,
         "score_sum": -2
@@ -14852,19 +14871,19 @@
     "top_topics": [
       {
         "term": "álvarez",
-        "count": 18
+        "count": 20
       },
       {
         "term": "agustina",
-        "count": 17
+        "count": 19
+      },
+      {
+        "term": "elintra",
+        "count": 11
       },
       {
         "term": "eltribuno",
         "count": 11
-      },
-      {
-        "term": "elintra",
-        "count": 10
       },
       {
         "term": "informate",
@@ -14941,6 +14960,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Agustina Álvarez descartó que Sáenz sea aliado de Milei - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFV5ODFNSGlnN2dMQUhGX2hGaDFGd2tsdHdReUk1Z0dNWXgyd3B1QkdHUFllbkxobGlaR3YwWW1wRjJPcDlITU1oRUJkazExa0JUcGdWeG54eHZWeUlCckM4VEJUQVdZNUY4VXV3cFJHZGFzQ3BXZkZNU0IxdDBKZko0QV9BWXlQc1l1TVVhN3hWNk9I?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Agustina Álvarez defendió a Nación por la asistencia ante El Niño y cuestionó al oficialismo",
+        "link": "https://elintra.com.ar/2026/09/25/agustina-alvarez-defendio-a-nacion-por-la-asistencia-ante-el-nino-y-cuestiono-al-oficialismo/",
+        "source": "El Intra",
+        "date": "Fri, 25 Sep 2026 14:00:04 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "“Si Salta se inunda, fue porque LLA votó para que no lleguen los recursos y obras\"",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-si-salta-se-inunda--fue-porque-lla-voto-para-que-no-lleguen-los-recursos-y-obras-_a6ab53639f24c6ff37972c00e",
@@ -15135,20 +15168,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSE1aQ2pMRVAxVGhMMDAzd3A3MjE2eXVVQ0x5bDFiZFNNZElsbnptaXA2YXk2TXRxSU94d1RzaUJvZG1OcFpYSnpjME01YkhDUUFyNFpHT2hrRE1fRWsxVE1jaDFRQlRacXB1YzR2UVhCSWxmclAySlVlMTY3YXZLQU5peFJvVFl4YWlkbjB1VGk1TEdTVS13YUVSeElnUWFrei1hMWstR2dvZmFoUWJSZnlCZWpoMmJ5N29RaHR6cFk0NWhqOXY1eUN3?oc=5",
         "source": "eltribuno.com",
         "date": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Invitan a salteños a un programa de liderazgos - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1FtZ0VaNmpqQ3NmZnpoWEpnc2JUZklKV0RWUTdpT1dYWnRITlp6UUU3cTgtTVp0Zlk3YmVCdTlRanB3ZGp4T2dtZDdjbFpzc1pHcU1mNW9pbUVtRktRQTd2VkpYY1JkSWQzN3pzTl9pa1B5czcxUURsWE1HMjB0ZGRMcHdITWJUSEdrVDU0N2hsY3pneW1IY3hR0gGfAUFVX3lxTE44dFdNZFE1VnlISXptRUVrejd4QmtuRDdsaG45R2ZfREp5N3FYY1RWbVFLODczMGJXcGZQMGJBOWhnNnI3QTRrYlN0R0JVWlVDc280RHN4Z3hJcE8yUURYbDVOeTVMQWhZRmlaTjFpNktYMV9Cb1R4YlhtOGVjcHE0S2otU29rZXM0NEVxUFBfZlBNNXo4X1NSVktxZ2pIbw?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Defensor del Pueblo: los concejales volvieron a analizar los candidatos - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQlo1Tm9fb25NaERib0hrbmFtdzlzODJhMk9zU3U1YW54ZVFRMFZTMmVTRi1TWVBlMW5LZzBpWTJVdFphaUlVenBIU1FZb1VKVDBqVjJPbVJoYzdsLUFoaVdpQWVUNUFxZXFJV3V5OTB3Wmt0OWxfdWszdlhVbDdDUkJySHVfRlhycEdJWEJCdlFyUGZtbkNGTlIwOUVCUkJOaUZkYzAycTB3RU9hVmFUUExsYU5fZkVERzdyRkdOdm5RZ29JRnN2RkFtdk9zNjU5b1JBc3lac9IB5gFBVV95cUxOOWMwaGlmaHVCalVEQ0FhRGVIVmV1UDB1SUR6ZmxPVHpwR1VERnR1UTdadnpXdjFrOF90MS04MTFib0JnaW5PcTZ6MmZiclpacHp3X0lDR1pnSm5ELUJwcDM0VXJta29KNWlnQTFkNVBBY2Y3OTduMmlheGtseEJPeGpwOXNXM016N21qTW1sMElFTDgtNWp4T1NFcEpkT1JEVFFLNDBzZkVORjhHM3RQU0ZHY3czY0dBX1dBV1BXd0s3WW1IVGROTHlKaC1uZUpJOEVFZV83c29FNWRoSFJJUXRWaUQwUQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Sat, 23 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -16425,13 +16444,21 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 7,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 3,
-      "neutral": 4
+      "negativo": 4,
+      "neutral": 5
     },
     "sentiment_by_day": {
+      "Wed, 08 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Fri, 25 Se": {
+        "total": 1,
+        "score_sum": -4
+      },
       "Mon, 29 Ma": {
         "total": 1,
         "score_sum": -2
@@ -16460,11 +16487,15 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 5
+        "count": 7
       },
       {
         "term": "garcía",
-        "count": 5
+        "count": 7
+      },
+      {
+        "term": "tribuno",
+        "count": 3
       },
       {
         "term": "comisión",
@@ -16485,13 +16516,15 @@
       {
         "term": "concejal",
         "count": 2
-      },
-      {
-        "term": "juicio",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "No somos mafia",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/carlos-godoy-cruzo-a-jose-garcia-y-le-exigio-que-se-retracte---no-somos-mafia-_a6ab6879aa5276c9dc3cfbd71",
+        "date": "Fri, 25 Sep 2026 14:58:00 GMT"
+      },
       {
         "quote": "Nadie me apadrinó ni invirtió en mí",
         "source": "La Nación",
@@ -16514,6 +16547,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "José García - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94RW45aUUwNHR6bzAzWUMwSFdfQWlfYlZIQjZJdF9kR2FlX1RxZHNvM3U4VFd2d080bHBIM3hsbjVnWkh5TUh2UWlnQ0IwTnhsUE5MWg?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 08 May 2024 12:28:45 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Carlos Godoy cruzó a José García y le exigió que se retracte: “No somos mafia”",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/carlos-godoy-cruzo-a-jose-garcia-y-le-exigio-que-se-retracte---no-somos-mafia-_a6ab6879aa5276c9dc3cfbd71",
+        "source": "Informate Salta",
+        "date": "Fri, 25 Sep 2026 14:58:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Escándalo con José García Alcazar en Salta: de ganar Operación Triunfo a ser concejal y cobrar casi $1.000.000 - Vía País",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTBBN2J1cTdCVmpONEw2TFQtU2w4Nncwb0pLeE9RM3BkVmJKbmFwYmptU0x2VWZJVnlWVklUSlVER2NnYkZGY1ZZV0hRYTAyR2ljZkRvS1R2VHE2SkxRV2hvczcyNkl0QzFqWHNMZU81QjdrOGVkTklMYkNvblh4V2Q4SGFWa0hWZDBqRmhoZl9UWGhEUzh0S1lfeGtrNVYyQTJ4Y3VKUUVpa0YyVHREWm11WmZXTjg2R0NuUXQ4WHlXMUFjZTNMTGFmQ3JVQzVzamc?oc=5",
@@ -19624,16 +19671,16 @@
     "id": "concejal-angel-ortiz",
     "name": "Ángel Ortiz",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 11,
+      "negativo": 12,
       "neutral": 34
     },
     "sentiment_by_day": {
       "Fri, 25 Se": {
-        "total": 1,
-        "score_sum": -1
+        "total": 2,
+        "score_sum": -3
       },
       "Tue, 15 Se": {
         "total": 1,
@@ -19786,11 +19833,11 @@
         "count": 25
       },
       {
-        "term": "elintransigente",
-        "count": 8
+        "term": "comercio",
+        "count": 9
       },
       {
-        "term": "comercio",
+        "term": "elintransigente",
         "count": 8
       },
       {
@@ -19798,12 +19845,12 @@
         "count": 8
       },
       {
-        "term": "concejo",
+        "term": "crisis",
         "count": 6
       },
       {
-        "term": "crisis",
-        "count": 5
+        "term": "concejo",
+        "count": 6
       },
       {
         "term": "deliberante",
@@ -19815,6 +19862,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Estamos emocionalmente fastidiados, no entran clientes",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/comercio-en-crisis---estamos-emocionalmente-fastidiados--no-entran-clientes-_a6ab687d8a5276c9dc3cfcce4",
+        "date": "Fri, 25 Sep 2026 15:45:00 GMT"
+      },
       {
         "quote": "La crisis ya no es un relato",
         "source": "Informate Salta",
@@ -19898,12 +19951,6 @@
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS1BkSF9TeWdfUGs3SU9CUThYWHF1VXA0aDdmTDVUcUZNTnU0bXA4dm1kVy14UldCcUIybUpVMnRfc3ZuNUl6d21XYzZZYVViNE5kOTczVE81dWdwUTRNb2phTHNuSmhfY3k5Rkg0QVRwb1F1MHNtQmt5Z21QUlYtY3dCSXUwSFRjdkhQemRSajQ1bmxXMFMta3BvWk9HdkFPQm5zMG9nQWhKekZ2aWtzLWp2N3Ytc2tKQmxmR2ZBdUYxRTN2SVNiLUVFV20tNkt1VHFtSmNzb0tieDVIMGNaclU3enNDVlRYZTVlcHJn0gH8AUFVX3lxTE40bGFHSV85U1BOcmhQOXQ5ZjFhWUJ1Y0VQQnVYTGtMZE9XajlkUktVNTlpVGR6REo2Smc3RVRMRGxWM3RkM0w1TWVLOTZKUWZkVUNyWWZJY2s1UlFNd3JqNUVjVGZwSllTYnVyVjlBLTdtbGpZZWNLcFE0akppT2I1c3FMSzRXYXhnV1J5VHJ0RHVxUjZmOEhMazBLUF95bm8xNEVrNFIwUm9SM3BhSDBwWXQyanZia1BsaTlZZ0dNS3dtZERSWmNsVFU5MkpwMWhUTTRmc1RjTVhTU2ZJelBHT0RKMXhFM0FZQW5jWVFNSmxNNUM0djlSNF9GMg?oc=5",
         "date": "Thu, 10 Sep 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Estamos viendo despidos todos los días",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWWU2VDlVTGFYODNUZ3pJb25KRVdGV24zNVpUZ045VDNZQ3dyWG1KZlhLTnpGSUhidXI3WTlNN2NsR2JsUm9ybW1CYWRUYkV4UkFiTXZDSmRiR0lFM0lFSnlRc0daOGhqcnJiUlRPcGhoY2p6S2pNQlBlWW1CMGlKOHJ4NWtwV2ROOHpfaEZ5eE5lRm01YXZVRktTUXQ5NUhmSnQxenU4bHlDUUNBN2RGVnp2bVlHTjN4YUlZcGNsc1VqWWZyQV95SG1XTDdtU0M0TjVZWGlJb9IB5gFBVV95cUxQVEdadjF4LUo1S2VEY2xlMUgxTGRwd0gtQWdBVkFidVNuMlVjWVRRTjR5Skp5TGhYdGNIYjhoV2hQSmlaR3B4b3o3bG54cDJiOGRROEM0TDlZeURCc3hMUUhlUkRyQzJYVnVLN2Y4amljcVZfYVh0MUcyejNJVF9Rdk5fOGhLZnpUUnJxN2dicFJkd2xHcXFIc09rcFRRNF9CSmtaX2RXRU9TSGRRTFFyYjdWeFlxOTlpcVNIcUh5U3NKWnh1akFnZ3QwQktmbHB6ejRNaFBjX2xyRWNuLXJ1WTliMlNMUQ?oc=5",
-        "date": "Fri, 18 Sep 2026 11:15:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -19945,6 +19992,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Comercio en crisis: “Estamos emocionalmente fastidiados, no entran clientes”",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/comercio-en-crisis---estamos-emocionalmente-fastidiados--no-entran-clientes-_a6ab687d8a5276c9dc3cfcce4",
+        "source": "Informate Salta",
+        "date": "Fri, 25 Sep 2026 15:45:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "“La crisis ya no es un relato”: comercios de Salta cierran, se mudan o despiden empleados",
         "link": "https://informatesalta.com.ar/sociedad/-la-crisis-ya-no-es-un-relato---comercios-de-salta-cierran--se-mudan-o-despiden-empleados_a6ab5a1e8f24c6ff379900625",
@@ -20147,13 +20201,6 @@
         "source": "Informate Salta",
         "date": "Mon, 13 Jul 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o0gHKAUFVX3lxTE4wS3d0Tlg2NjhZT3ctbkQ3N3hfVlkzMDZtN1gxTUd3cTlXQjEtR0xja3lCYlFjMDZJeThabGswM0pkTHV1WXROa1R1Y3ZQN2VBUndsVWhPYnI3MFA0RFpEMWtBWGhNUHNuclhGUzNpRTdaX3JXVnB1ZEg1dV9ZQ3VjM1phN0tLbk44eTVUUXhsNi1uSDEyRjByTVp3ek9rb0dwM2Y0Xy1OYXpPYVl6WU9EWkh4bkhZelZKTjVkdnhLdi1IVEV4OTQyLXc?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20858,13 +20905,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 5,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "Thu, 16 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sun, 19 No": {
         "total": 1,
         "score_sum": 0
@@ -20985,15 +21036,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 30
+        "count": 31
       },
       {
         "term": "orozco",
-        "count": 30
+        "count": 31
       },
       {
         "term": "tribuno",
-        "count": 12
+        "count": 13
       },
       {
         "term": "elintra",
@@ -21017,6 +21068,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Milei necesita legisladores que lo acompañen para seguir cambiando la Argentina",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVmNYQlo0WHdFZTRLUndtTGFqQUYwTFFYRExIX3dKRVlvdzJacGtueTBITm5zX3U4b2NrZ2l1V2VRNVpiekczenZiek1zX2dOcmx5UU9WZUlfTzRCWDBRNUpzdDVWZnk3OUc3UEpQbVFhaDFudXkxRTZsSHZUSVdWNndiMmNuQTlmU2tTSXQ1Z2liaXVNWGdqOTBtMnBGVGNxVDZWd3JibnQ0c29rWnlFSVZNU1NkYWptZUpqQkpzM0hSMGtKcmJ4UEdNSVZzWGRWQlhtd0NIRG9Xd3NCNlBOMGlIU2RwaU9qbEZIZ9IB8gFBVV95cUxNYUVJU2ZtWm9qX3cxVFI5ZFo2UkpWWXlZeWZ2b2xFVHl1aDBoTkVXTEo1ZUdXa0gzNlpOV09hNFo4cGdEam9KZWxwTjJqcXRuRlNGX3R4RkNZUkozel9YcURVYi00YXh6YVFVcExscDA5aU9ZblZidHNFajNXNkVwQzF6UW9xOXFURzVRQWdTclVhZEE1S2dwdzJHQnlFeXNJeVNvRHNhTkdQQVZ3dkRvUldQQXJSLTBSeVJTaUhaZVowRmF0c3pvS1pQWDJmVzdpZjRBQm1qaG9SMEtseVEwNGViTzZ3MW5QTFIzQjNIMXJnZw?oc=5",
+        "date": "Thu, 16 Oct 2025 07:00:00 GMT"
+      },
       {
         "quote": "Si no trabajamos en conjunto las soluciones no van a llegar",
         "source": "El Tribuno",
@@ -21087,6 +21144,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "VIDEO: “Milei necesita legisladores que lo acompañen para seguir cambiando la Argentina”, afirmó Emilia Orozco - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVmNYQlo0WHdFZTRLUndtTGFqQUYwTFFYRExIX3dKRVlvdzJacGtueTBITm5zX3U4b2NrZ2l1V2VRNVpiekczenZiek1zX2dOcmx5UU9WZUlfTzRCWDBRNUpzdDVWZnk3OUc3UEpQbVFhaDFudXkxRTZsSHZUSVdWNndiMmNuQTlmU2tTSXQ1Z2liaXVNWGdqOTBtMnBGVGNxVDZWd3JibnQ0c29rWnlFSVZNU1NkYWptZUpqQkpzM0hSMGtKcmJ4UEdNSVZzWGRWQlhtd0NIRG9Xd3NCNlBOMGlIU2RwaU9qbEZIZ9IB8gFBVV95cUxNYUVJU2ZtWm9qX3cxVFI5ZFo2UkpWWXlZeWZ2b2xFVHl1aDBoTkVXTEo1ZUdXa0gzNlpOV09hNFo4cGdEam9KZWxwTjJqcXRuRlNGX3R4RkNZUkozel9YcURVYi00YXh6YVFVcExscDA5aU9ZblZidHNFajNXNkVwQzF6UW9xOXFURzVRQWdTclVhZEE1S2dwdzJHQnlFeXNJeVNvRHNhTkdQQVZ3dkRvUldQQXJSLTBSeVJTaUhaZVowRmF0c3pvS1pQWDJmVzdpZjRBQm1qaG9SMEtseVEwNGViTzZ3MW5QTFIzQjNIMXJnZw?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 16 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "VIDEO. Emilia Orozco: \"Si no trabajamos en conjunto las soluciones no van a llegar\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZU1GU2hmUkUzSmFPSUJ0RVNoandKZmYyTVVLYndHOTdNVkJacXJKRVRINTJzbmRvZjBOR1NDVzNfaElCamZSc211LV82TjdBazlYdkttakY1eXBTbXdiV3pFUWg0RGNaT19MTUVkLXI1VE80cVhPdHdBWWhCakxrVjQ0eGI2NkNJN1NkeFQtbDB1c1RMd09JQ2JrQzNRSk03UGJpMGFyTVFsUTVFZjN1bDNYSm96MnVKQW9INm52WUtVVG1pWHJBTA?oc=5",
@@ -21289,13 +21353,6 @@
         "source": "El Tribuno",
         "date": "Sat, 26 Apr 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "VIDEO. Emilia Orozco: \"Estos gremios le hicieron muchísimo daño a la Argentina\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUEJqVWxCODNqU3draUlpWXRhZmJfQ2tMQjdfbXJQc19oMHVwaHhxckhodDlELUdPdm1mcXNzTTB0cUl5QmV6UFlQOWIxUmVqcXJEN0Y2RXR1eUljQzgxdko2MG90bnpIOEZuWTNZd0dVMk1GS0pVOUhud20yT1VTb1AtMkpaY3RWaWRBT0ttWEMwa0JUYzl4Q1QtZzlwWDhyT1d0SDRBLWJDRVpmRnh5VE14QWhIQ1lLcnfSAb8BQVVfeXFMTXZZZGlDTW1DYXNJLU84ckY2RDFLODA1Mm9GOGpULW5COXBsVnpHOThoYVJGYnd1VXNYeXE3NmdDNjVkMkU4NmxWQ0padTVWTjJwaVNzcm1GOG9JM2tPcksxU3VaOUtPQ0VkdGJBdkR1SklkaWVMdkRBSTFIU3BwSzQ0V1Q4SjdYS0xQdVhTMWRPRnB2bXlmOHFTVlBMRHQ3UFBXMXdCeXczRDF4VHZvU2JVdlAzLWRFV2R3MkJNVTQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 23 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -22097,13 +22154,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 2,
       "neutral": 7
     },
     "sentiment_by_day": {
+      "Fri, 25 Se": {
+        "total": 1,
+        "score_sum": 3
+      },
       "Wed, 19 Ma": {
         "total": 1,
         "score_sum": 0
@@ -22155,6 +22216,14 @@
         "count": 3
       },
       {
+        "term": "proyecto",
+        "count": 2
+      },
+      {
+        "term": "discapacidad",
+        "count": 2
+      },
+      {
         "term": "tribuno",
         "count": 2
       },
@@ -22168,6 +22237,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Es superadora porque deja de ser de emergencia",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/proyecto-para-una-nueva-ley-de-discapacidad---es-superadora-porque-deja-de-ser-de-emergencia-_a6ab67adaa5276c9dc3cc0d7c",
+        "date": "Fri, 25 Sep 2026 13:45:00 GMT"
+      },
       {
         "quote": "Los salteños deben hacer sentir su voz en el Congreso Nacional",
         "source": "El Tribuno",
@@ -22195,6 +22270,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Proyecto para una nueva ley de discapacidad: “Es superadora porque deja de ser de emergencia”",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/proyecto-para-una-nueva-ley-de-discapacidad---es-superadora-porque-deja-de-ser-de-emergencia-_a6ab67adaa5276c9dc3cc0d7c",
+        "source": "Informate Salta",
+        "date": "Fri, 25 Sep 2026 13:45:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Bernardo Biella será candidato a senador por la capital - El Tintero de Salta",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0EzNDFKNEhNNDhCWm9INXdkaWRpd21ISzZCbWdiTUhvQzBadi01XzlzLVVrSTg3eWhyVWI2d1RiWGtDNlQySkFaTDF3bTZ4WExhMHB4WXJMQllDSFRIODNxWDZwWjFuUjNLZ0NTbmNWTTVySFJJOUlpZHJucGdMdGU1UGZ2TWF1TEkwUHZIalVHS0liRzVJR3lsalFMS2hY?oc=5",
@@ -23927,13 +24009,17 @@
     "id": "dip-luis-gerardo-mendana",
     "name": "Luis Gerardo Mendaña",
     "role": "Diputado/a provincial por La Caldera",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 1,
+      "negativo": 2,
       "neutral": 2
     },
     "sentiment_by_day": {
+      "Fri, 25 Se": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Wed, 26 Au": {
         "total": 1,
         "score_sum": 0
@@ -23988,6 +24074,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Desde La Caldera solicitan defensas y controles para los ríos por la época estival",
+        "link": "https://informatesalta.com.ar/interior/desde-la-caldera-solicitan-defensas-y-controles-para-los-rios-por-la-epoca-estival_a6ab6763ca5276c9dc3caa000",
+        "source": "Informate Salta",
+        "date": "Fri, 25 Sep 2026 14:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Luis Mendaña apuntó contra los libertarios tras la visita de Pettovello: “Te da la palmada y después te clava” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdkZ0TE9wS3lsQ0w2SVNFNkZqb1c2X2lCUUZYaW8ySTRCRkVJNzZZbHZoNjhQQmJnNTlzUEYzVlM4MXR1czlwX2RmN2R2TTZiWU9hSVRxUHhOR2cybzVLWkFtdG9QeVBPQWpSd3VSUGg1cVBQcXJSX2poRmZfWWoxeTA4UjBuTjJRdEkyUjlQZnplN3ZFclNYU05DNnEtYUJmY2p1OHpJLWVIcThEQkFIX0RTd2hfQWVHZmctZGZDVldSZ2wwazdJVmY3RE56a1pnR3hScEhILW5ndw?oc=5",

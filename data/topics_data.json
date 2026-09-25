@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-25T11:45:24.099216+00:00",
+  "generated_at": "2026-09-25T15:58:35.377198+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 94,
+      "total_mentions": 95,
       "sentiment_breakdown": {
         "positivo": 8,
         "negativo": 9,
-        "neutral": 77
+        "neutral": 78
       },
       "sentiment_by_day": {
+        "Wed, 23 Se": {
+          "total": 4,
+          "score_sum": -2
+        },
         "Fri, 25 Se": {
           "total": 1,
           "score_sum": 2
@@ -31,10 +35,6 @@
         "Sat, 19 Se": {
           "total": 18,
           "score_sum": 0
-        },
-        "Wed, 23 Se": {
-          "total": 3,
-          "score_sum": -2
         },
         "Mon, 21 Se": {
           "total": 6,
@@ -83,12 +83,12 @@
           "count": 17
         },
         {
-          "term": "pasa",
+          "term": "informate",
           "count": 16
         },
         {
-          "term": "informate",
-          "count": 15
+          "term": "pasa",
+          "count": 16
         },
         {
           "term": "obras",
@@ -186,6 +186,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Hidrotec compensa su huella de carbono desde hace 5 años - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR0pYUzVSckdLUC01aDdaQWh4bThqVjAxOEZIMm03VWcxVC1MWW5nVEIwOEZSQXZKVzk1YlVBNUd6OE5rZXRUdDc1cGdCSkY4cDNZRzctMlU4djdqbEM4RzVoUEN4TW1lSEdOMmN3TktWMjh5SDZBVDRFOXFEU1IzWUc2SUJiV2tTLXlKUFctVjdQckIyTGxGLTNoelRFTTd1R0lYTUhOcEVTQ2Y2SFNMYlVNYXBFSzNYU0JPc9IBywFBVV95cUxNWnhSQkppSV9lRmc0Y2hyUVIwUjF2YTF3MWhWN1phdmNXZWktV1ZBbExhV21ueDd3TTMtVlg2VXZEM1RNbDJ6U0hKSmdzem1objJrSndJbDVBaGJZbUl3alVXMGJMZFczajBtdG5scmFfRHdIdng2eV9tWDY4R3o1c042bWJlTlcxdUdVZWJiU1lMbXdoOXluZDlSNjItVFY1dnJaR3llcE9iWFF0N2dnQkluNEQtTnJCTGhPQWJrLUpZLVM1MUc1MWoySQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Wed, 23 Sep 2026 15:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Diego Santilli y Leandro Zdero se reunieron en Casa Rosada para coordinar apoyos al Presupuesto 2027 y la suspensión de las PASO - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZk9rUDFXZVVfVDAxdFNBNkRKb3I5MU0zSy1NY2dzMW9Yc3NiamZoMmhxTGZITlhSQlVqYVhmZEw2a3lwbkVzemtTMUdaOGszY2lPX2trWUdFWTdIeC1BQk5ZbVhSX0V1T3pUU24zekdPbDNwVHFqNm9DQTh6eEhmRGlyc0xBbzRzNGhVdVlieW1QSURtVGkzWnNKMEt4blIwSUJVYUF5M0FCdHFMOWNFYXhYeFpDZmhybGlrTWlHbmV6Y0J2aE1tRW9Wck83SVBqWnZZRnYzM05oTmhJQ040YmtvN3FoRVY2WDlWYTJDZ2lIMmJLdHd4YQ?oc=5",
@@ -387,13 +394,6 @@
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNV09sUFFCQk9oTnhlaW9XWEh2eUZ2a0htUm1mVzFSeXdjWjkydXRCRDQxZDl0aGJYUXpva2tiSE9MTGtmY0JiTjU1eDFDTEFSZEdITE1IMV9BcXg0UmpvZnU5N3Y0M1I1VHFCVzJ4Uk5Uc19ZMkc0Qkh3?oc=5",
           "source": "Elintra.com.ar",
           "date": "Fri, 18 Sep 2026 05:27:17 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Emergencia en Discapacidad: preocupación en Salta por los cambios que propone el Presupuesto 2027 - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQc1phMVg4SmF4VjYzaEdFUC1zU2lWUndjelgxOTNkNjJZbXdvRFpsbERkSDl5UU94eWpHeEFqaTFhT3VITkNKVk0tUmV5ZlVaMTlReG1qWnVtNWpkT3NzOWxDM25neHB1cThiRTVKc3hVZmtwOUc3OUtnanJFTklYWmtpS0RmdjRqOXlSQzVPTjlieEphWEVDM1ZlYmxaZHMtdVBUTDVhQ0NBQVREUUdkdW9taDJCeGNvS05RY1pjeFphc0hZOVhVVEQwbnJyTnhHR2R2YmswT3FMR1VJZ3FISHl3TVp3NkFJQVdvaThhNnZlWl9tTUVpaGJvVkpBNEctbWM40gGDAkFVX3lxTFBzWmExWDhKYXhWNjNoR0VQLXNTaVZSd2N6WDE5M2Q2Mlltd29EWmxsRGRIOXlRT3h5akd4QWppMWFPdUhOQ0pWTS1SZXlmVVoxOVF4bWpadW01amRPc3M5bEMzbmd4cHVxOGJFNUpzeFVma3A5Rzc5S2dqckVOSVhaa2lLRGZ2NGo5eVJDNU9OOWJ4SmFYRUMzVmVibFpkcy11UFRMNWFDQ0FBVERRR2R1b21oMkJ4Y29LTlFjWmN4WmFzSFk5WFVURDBucnJOeEdHZHZiazBPcUxHVUlncUhIeXdNWnc2QUlBV29pOGE2dmVaX21NRWloYm9WSkE0Ry1tYzg?oc=5",
-          "source": "Informate Salta",
-          "date": "Sat, 19 Sep 2026 00:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
