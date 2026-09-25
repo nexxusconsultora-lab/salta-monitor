@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-25T20:00:46.858259+00:00",
+  "generated_at": "2026-09-25T23:16:54.765742+00:00",
   "by_politician": {
+    "dip-gustavo-orlando-orozco": {
+      "total": 30,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 25,
+      "score_sum": -10
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 17,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 14,
+      "score_sum": -2
+    },
+    "gustavo-saenz": {
+      "total": 156,
+      "positivo": 13,
+      "negativo": 18,
+      "neutral": 125,
+      "score_sum": -4
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 14,
+      "positivo": 3,
+      "negativo": 3,
+      "neutral": 8,
+      "score_sum": 1
+    },
     "dip-marianela-ibarra-afranllie": {
       "total": 2,
       "positivo": 0,
@@ -71,13 +99,6 @@
       "neutral": 34,
       "score_sum": -23
     },
-    "gustavo-saenz": {
-      "total": 155,
-      "positivo": 13,
-      "negativo": 18,
-      "neutral": 124,
-      "score_sum": -4
-    },
     "dip-juan-jose-esteban": {
       "total": 6,
       "positivo": 0,
@@ -91,20 +112,6 @@
       "negativo": 5,
       "neutral": 29,
       "score_sum": -6
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 16,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 13,
-      "score_sum": -2
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 13,
-      "positivo": 2,
-      "negativo": 3,
-      "neutral": 8,
-      "score_sum": 0
     },
     "dip-jose-miguel-gauffin": {
       "total": 12,
@@ -217,13 +224,6 @@
       "negativo": 2,
       "neutral": 33,
       "score_sum": 8
-    },
-    "dip-gustavo-orlando-orozco": {
-      "total": 28,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 23,
-      "score_sum": -10
     },
     "concejal-laura-garcia": {
       "total": 59,
@@ -780,6 +780,74 @@
     }
   },
   "by_day": {
+    "Thu, 29 Au": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 05 Ju": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 11 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 25 Se": {
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": 8
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 3,
+        "score_sum": 6
+      },
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 3
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "concejal-angel-ortiz": {
+        "total": 2,
+        "score_sum": -3
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 5
+      }
+    },
     "Tue, 29 Ju": {
       "dip-marianela-ibarra-afranllie": {
         "total": 1,
@@ -816,52 +884,6 @@
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Fri, 25 Se": {
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": 3
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "dip-luis-gerardo-mendana": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "concejal-angel-ortiz": {
-        "total": 2,
-        "score_sum": -3
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 8
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 2,
-        "score_sum": 5
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 5
       }
     },
     "Thu, 16 Oc": {
@@ -1346,16 +1368,6 @@
       "sen-manuel-pailler": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Tue, 05 Ju": {
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "Sun, 10 No": {
@@ -11958,7 +11970,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 18
+      "count": 16
     },
     {
       "term": "tribuno",
@@ -11981,6 +11993,10 @@
       "count": 7
     },
     {
+      "term": "elintra",
+      "count": 6
+    },
+    {
       "term": "reforma",
       "count": 6
     },
@@ -11989,7 +12005,15 @@
       "count": 6
     },
     {
-      "term": "nación",
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "pasa",
+      "count": 5
+    },
+    {
+      "term": "defendió",
       "count": 5
     },
     {
@@ -11997,23 +12021,11 @@
       "count": 5
     },
     {
-      "term": "elintra",
-      "count": 5
-    },
-    {
       "term": "senadores",
       "count": 5
     },
     {
-      "term": "senado",
-      "count": 4
-    },
-    {
-      "term": "pasa",
-      "count": 4
-    },
-    {
-      "term": "milei",
+      "term": "mónica",
       "count": 4
     }
   ],
