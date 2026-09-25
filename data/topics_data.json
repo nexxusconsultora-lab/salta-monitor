@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-24T22:44:28.172824+00:00",
+  "generated_at": "2026-09-25T00:57:00.217762+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 92,
+      "total_mentions": 93,
       "sentiment_breakdown": {
-        "positivo": 6,
+        "positivo": 7,
         "negativo": 9,
         "neutral": 77
       },
       "sentiment_by_day": {
         "Thu, 24 Se": {
-          "total": 4,
-          "score_sum": 2
+          "total": 5,
+          "score_sum": 4
         },
         "Tue, 22 Se": {
           "total": 10,
@@ -64,7 +64,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 62
+          "count": 63
         },
         {
           "term": "discapacidad",
@@ -84,14 +84,14 @@
         },
         {
           "term": "informate",
-          "count": 14
+          "count": 15
         },
         {
           "term": "obras",
           "count": 12
         },
         {
-          "term": "intransigente",
+          "term": "fondos",
           "count": 10
         }
       ],
@@ -182,6 +182,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Buscan destinar fondos del Presupuesto 2027 para mejorar el hospital de Tartagal - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVGVvdHpVaVNxZVZpbUVUZGFnWFh1d25xUE0xQ3djOFNlOFFxNFBpTGlhV1EwNEw3Y0dLRVRESUkzWTRvcF96UlRya3JyRmRGX1M5UTFzVjNYSG0wVUtfZEpuTEFPMDNjRC1JbmRCTnRrOWlPYmxvVlVQY2d5SkpZTzFmOUg5c251UTI4SFAyNjNpSTVxcUNneDlzVUVYQ1hVNF96elhpSThBaG5SeThxcFYyMmliVHBIejg0cUxlSWgtbk13djVpbTQ0MWJHWWtnRzhKS0ZOR3lJclZXZnAteG9B0gHwAUFVX3lxTE1LQk1HU2szblNZaHg4U2pfbUR0ZTVDVVhpcS1WN0UxUnQyV3k5TUdjdVRDY004czNuZEtERkNHV0NKZmJxM3dmMWIySHBZTjhzRUVQeXkwQWNNM2wyNF93UEg0cUhBQjBZQmFxRmJGMkNQai1TcWNGODBDSFpxbDRkcVJ3V1NZVlI0Xy1Ub25uNEg5UndnX1Zua3NCYVFkQWpHRmtmTnhOMVE2YWdJMFJtTF9USm0zNE14dWZUYjM4WWJPaWR6dVJISm9YcERXcjNpSW92XzJWTEllb3MtdEVtUzRUMjh3ZzlVTmxTNUJYOQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 24 Sep 2026 18:00:00 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Prestadores de discapacidad reclamaron a Nación por fondos, aranceles y pensiones - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONGYzd0JXVDZfTXNoM3FpMHNjeDFEV0FnNi1LcjRYMjRVelhJNUJoUklhaHpJVzZMblI2NUgwZG15U0pFbEoyREZYbEU5QzBIcDNaZjNGNXREbFM0Y05SbTRfVDhFQ2liQjEtM0JsbUZOWXdBNi1ZeFZrLXNZOGZWek5KVUg2WkcwVGtrUFZZTDB0NWRueWEzNmI1MVRySFQ5ZTdnODVCeFZtMEZQLVVYRFJkSzhpNkZVRV83OWRZdEl2WWFiMHh1djEtT1lUZW9iU3NVWFNHdjFmXzTSAeoBQVVfeXFMUDQxUkNUSE1GRHZKc1NqdjdwV2dxYkoxczg2Tkw4ZmM2N3hNb2kyVk54VWl2Ylo3dzhfUDdQU05wQkhpOUlNUk5xTlBrajYteHNHVk1odWM4cmV2bTdoZFRqNktKcTBIMHQyS3VHaFlEbThpbGQ1andyNlM4cTFkMWFWRDJMWmZYdkpKczJrazgtUnFDX2RxSVdrTGhmdXh6aVZRQnZQM2J3MU55b1JZR1ZscmhSUFlNMGJHVjc3UTMyT21ETVhZU3pRTVp4bGVRRWRDTTEyWS1zN0N0V3BIbDl0WkY5NVJTemd3?oc=5",
@@ -383,13 +390,6 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSkIyQUQ4OWYydXdRYXlKVzJtbHpDaTRTODlhMWxDUDBLM2VhbF94ZldVa3cyN05TMUItT09PMnRNSGhEVDljN1cyNkIyQ3RLVXljUzNrSnNFZ052ZHUyd1lINEljYlJuaC1aNmJ0Y0NNTk1DckdkRHlBZTBXR0tObW9waFNWSnlzd29sWnRuM0RVM09BdE16Wl90d292SFUyMlkxYVFn0gGmAUFVX3lxTE1KQjJBRDg5ZjJ1d1FheUpXMm1sekNpNFM4OWExbENQMEszZWFsX3hmV1VrdzI3TlMxQi1PT08ydE1IaERUOWM3VzI2QjJDdEtVeWNTM2tKc0VnTnZkdTJ3WUg0SWNiUm5oLVo2YnRjQ01OTUNyR2REeUFlMFdHS05tb3BoU1ZKeXN3b2xadG4zRFUzT0F0TXpaX3R3b3ZIVTIyWTFhUWc?oc=5",
           "source": "El Tribuno",
           "date": "Sat, 19 Sep 2026 04:27:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: cuáles son los cambios que impactan a las PyMEs y cómo las afectan - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzg3ZTdEVEFNWmJtanBIUzVVTzZDMkx0MjFpX1NQdVh3dmRWWDdTaEFCVHBsbHJqU0dGS29pZmFBc3hGQ3E4dUF3UVFxWlV1RVMyWjdzVDIyRnBacGxacXhwZGp6LU5uLVNSbEdRMW80WFVfcmw1VXhYZHpPdVVDZjFuUUxCSXc1dkVzaklneTQ2VFhzUjZRNHRTM1JJVzNKQVpaQ3FRSUJFRDdFY2FaeXl3NmxJZU55UGs1eG55QUtCNEwzVm1PWGVqaXBWS25zZEtQcDdJcW3SAdgBQVVfeXFMTUc4N2U3RFRBTVpibWpwSFM1VU82QzJMdDIxaV9TUHVYd3ZkVlg3U2hBQlRwbGxyalNHRktvaWZhQXN4RkNxOHVBd1FRcVpVdUVTMlo3c1QyMkZwWnBsWnF4cGRqei1Obi1TUmxHUTFvNFhVX3JsNVV4WGR6T3VVQ2YxblFMQkl3NXZFc2pJZ3k0NlRYc1I2UTR0UzNSSVczSkFaWkNxUUlCRUQ3RWNhWnl5dzZsSWVOeVBrNXhueUFLQjRMM1ZtT1hlamlwVktuc2RLUHA3SXFt?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 19 Sep 2026 12:30:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

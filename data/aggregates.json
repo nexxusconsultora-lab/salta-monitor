@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-24T22:44:26.839546+00:00",
+  "generated_at": "2026-09-25T00:56:59.054833+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 31,
+      "positivo": 2,
+      "negativo": 4,
+      "neutral": 25,
+      "score_sum": -1
+    },
     "dip-jose-miguel-gauffin": {
       "total": 12,
       "positivo": 0,
       "negativo": 0,
       "neutral": 12,
       "score_sum": 0
-    },
-    "snac-flavia-royon": {
-      "total": 30,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 25,
-      "score_sum": -6
     },
     "gustavo-saenz": {
       "total": 152,
@@ -780,30 +780,14 @@
     }
   },
   "by_day": {
-    "Mon, 05 Fe": {
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Thu, 06 Au": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 24 Se": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 5
+      },
       "gustavo-saenz": {
         "total": 10,
         "score_sum": 3
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
       },
       "concejal-gustavo-farquharson": {
         "total": 2,
@@ -842,6 +826,22 @@
         "score_sum": 0
       },
       "dnac-maria-gabriela-flores": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 05 Fe": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 06 Au": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
         "total": 1,
         "score_sum": 0
       }
@@ -11876,7 +11876,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 18
+      "count": 17
     },
     {
       "term": "gustavo",
@@ -11888,7 +11888,7 @@
     },
     {
       "term": "elintra",
-      "count": 10
+      "count": 8
     },
     {
       "term": "plan",
@@ -11919,10 +11919,6 @@
       "count": 4
     },
     {
-      "term": "defendió",
-      "count": 4
-    },
-    {
       "term": "pidió",
       "count": 4
     },
@@ -11931,8 +11927,12 @@
       "count": 4
     },
     {
-      "term": "mónica",
+      "term": "meta",
       "count": 4
+    },
+    {
+      "term": "zonas",
+      "count": 3
     }
   ],
   "comentions": [
