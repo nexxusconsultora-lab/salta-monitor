@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 158,
+    "total_mentions": 159,
     "sentiment_breakdown": {
       "positivo": 14,
-      "negativo": 18,
+      "negativo": 19,
       "neutral": 126
     },
     "sentiment_by_day": {
       "Sat, 26 Se": {
-        "total": 2,
-        "score_sum": 2
+        "total": 3,
+        "score_sum": -1
       },
       "Fri, 25 Se": {
         "total": 4,
@@ -186,7 +186,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 93
+        "count": 94
       },
       {
         "term": "tribuno",
@@ -311,6 +311,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La interna radical en Salta se reaviva: Natalio Iglesias cuestionó a Farfán por «ser orgánica a Sáenz»",
+        "link": "https://elintra.com.ar/2026/09/26/la-interna-radical-en-salta-se-reaviva-natalio-iglesias-cuestiono-a-farfan-por-ser-organica-a-saenz/",
+        "source": "El Intra",
+        "date": "Sat, 26 Sep 2026 13:05:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Pese al parate nacional, Sáenz inauguró la ampliación del Colegio América Latina",
         "link": "https://elintra.com.ar/2026/09/26/saenz-colegio-america-latina/",
@@ -512,13 +519,6 @@
         "link": "https://elintra.com.ar/2026/09/22/dicen-por-ahi-un-millonario-suelto-en-las-encuestas-saenz-se-lamenta-por-royon-el-llamado-nervioso-del-princeso-durand-y-martin-grande-piensa-insistir/",
         "source": "El Intra",
         "date": "Tue, 22 Sep 2026 16:44:11 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz pide con urgencia una ley de derribo - Gente de Salta",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUhKYVFoaDNfdk1ueWpuZW55Y2U1SldUZzM2TVg4TWRPU0hEbTNTZnBwbEpHaHhrRTBROUlQS3cxMk03RDRtRHp3cldoNFdEaUE1NkQwQXFhNDFkalE0ZXNZTWZxRlRFSGRQTWdoVGVVSWFheXBSUUpUWGtPT1k1Rm1hOWxLZ2c4UU45N3djYnLSAZYBQVVfeXFMUGtCOTA5VDZTSzBiZ1lDS0puM3hpc0RJTW9pWE83SlFTQ1M3TzE4UjhENGJzUDlONERIb3hyQnUzM2FXdUFXekxWbmNwbjlubVJQUWVMdERhYXRjZzhENXgzXzVhMF9oRThLWmZMMmhGb2U5TTRGZVRaOVp0TS1LRVJKb2luV0N1UWlsczl6cHROWVZQS1dR?oc=5",
-        "source": "Gente de Salta",
-        "date": "Thu, 06 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -22163,13 +22163,17 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 11
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "Wed, 31 Ja": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 03 Se": {
         "total": 1,
         "score_sum": 0
@@ -22226,11 +22230,15 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 13
+        "count": 14
       },
       {
         "term": "zapata",
-        "count": 13
+        "count": 14
+      },
+      {
+        "term": "tribuno",
+        "count": 3
       },
       {
         "term": "elintra",
@@ -22251,13 +22259,15 @@
       {
         "term": "habladurías",
         "count": 2
-      },
-      {
-        "term": "contra",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Hay que acabar con el gobierno 7D",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFJOLVJneHRYNEVaNkgtYkswV3MzTG14UEpPNXhTZml3aGNLOFdDcF8xc2t0TF9hN1RqZmFhdG5ncmd5MWRwY0h1OWdPb2hpLS1ibjFvY0I2eEtwaU1mcGV1NzFVTWt6czh6OHFDVXpNWWMwUlVlVGRVSlplSjkwckFwbDgzOTdWNkpPdFFOaVUyT0FfQmdkSVlfOUFodDVmbFJTUg?oc=5",
+        "date": "Wed, 31 Jan 2024 08:00:00 GMT"
+      },
       {
         "quote": "Habladurías",
         "source": "Elintra.com.ar",
@@ -22304,6 +22314,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Carlos Zapata: \"Hay que acabar con el gobierno 7D\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFJOLVJneHRYNEVaNkgtYkswV3MzTG14UEpPNXhTZml3aGNLOFdDcF8xc2t0TF9hN1RqZmFhdG5ncmd5MWRwY0h1OWdPb2hpLS1ibjFvY0I2eEtwaU1mcGV1NzFVTWt6czh6OHFDVXpNWWMwUlVlVGRVSlplSjkwckFwbDgzOTdWNkpPdFFOaVUyT0FfQmdkSVlfOUFodDVmbFJTUg?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 31 Jan 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Habladurías\": enérgico festejo de Carlos Zapata tras un fallo judicial a su favor por el Capítulo Tabacalero - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONm5Ic2UydzZ3N1NVSUY1cElZS29UU09nLU90Zkg4VzVQdThmbFhlWlJIQ1dHWWRYME9CdG93OVhTcC1ZX3hCVE91OVBIUXktX0tuRnBpR2JFdTRYV0FHbDFMN2R2N2p5U3BWRlRUWlJXRVUzOTQ2R3djZ29HdURIWk5Rd3pNRVNpc2VIQUh0VEd5ck1iRjRUSHQxY0Z5dmIxU1hxNmxoQ29Hd2RndlpnMVF2TUhlQm5nM2xaSHlmZFJkYzdZMklwSldtTU9rNXNMS1FRaG91ZXM?oc=5",
