@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-09-26T01:42:50.767454+00:00",
+  "generated_at": "2026-09-26T06:41:47.764664+00:00",
   "by_politician": {
+    "dip-marianela-ibarra-afranllie": {
+      "total": 3,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 3,
+      "score_sum": 0
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 21,
+      "positivo": 0,
+      "negativo": 10,
+      "neutral": 11,
+      "score_sum": -22
+    },
+    "concejal-jose-garcia-alcazar": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 6,
+      "score_sum": -10
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 19,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 15,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 157,
+      "positivo": 14,
+      "negativo": 18,
+      "neutral": 125,
+      "score_sum": -2
+    },
     "dip-eduardo-jose-virgili": {
       "total": 7,
       "positivo": 0,
@@ -36,33 +71,12 @@
       "neutral": 25,
       "score_sum": -10
     },
-    "dip-monica-gabriela-juarez": {
-      "total": 17,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 14,
-      "score_sum": -2
-    },
-    "gustavo-saenz": {
-      "total": 156,
-      "positivo": 13,
-      "negativo": 18,
-      "neutral": 125,
-      "score_sum": -4
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 14,
       "positivo": 3,
       "negativo": 3,
       "neutral": 8,
       "score_sum": 1
-    },
-    "dip-marianela-ibarra-afranllie": {
-      "total": 2,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 2,
-      "score_sum": 0
     },
     "dnac-maria-gabriela-flores": {
       "total": 14,
@@ -84,13 +98,6 @@
       "negativo": 5,
       "neutral": 26,
       "score_sum": -7
-    },
-    "concejal-jose-garcia-alcazar": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 5,
-      "score_sum": -10
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 37,
@@ -231,13 +238,6 @@
       "negativo": 0,
       "neutral": 5,
       "score_sum": 0
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 20,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 11,
-      "score_sum": -20
     },
     "dip-german-dario-ralle": {
       "total": 15,
@@ -787,6 +787,90 @@
     }
   },
   "by_day": {
+    "Fri, 31 Ju": {
+      "dip-marianela-ibarra-afranllie": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 18 Ju": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 5,
+        "score_sum": -12
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Mon, 29 Ma": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 2,
+        "score_sum": -2
+      }
+    },
+    "Fri, 05 Ju": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Wed, 11 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 26 Se": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "Fri, 02 De": {
       "dip-eduardo-jose-virgili": {
         "total": 1,
@@ -2475,24 +2559,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 31 Ju": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "Wed, 17 De": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -3177,32 +3243,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 05 Ju": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-edgardo-guaymas": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "Wed, 11 Fe": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -3561,16 +3601,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 18 Ju": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 4,
-        "score_sum": -10
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "Mon, 23 Se": {
       "concejal-pablo-emanuel-lopez": {
         "total": 1,
@@ -3613,12 +3643,6 @@
       "dip-omar-exeni-arminana": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Mon, 29 Ma": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "Mon, 19 Ju": {
@@ -4221,12 +4245,6 @@
       "dip-omar-exeni-arminana": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "Wed, 11 Ma": {
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "Mon, 01 Ju": {
@@ -11999,31 +12017,31 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 16
+      "count": 17
+    },
+    {
+      "term": "tribuno",
+      "count": 11
     },
     {
       "term": "gustavo",
       "count": 11
     },
     {
-      "term": "tribuno",
-      "count": 9
+      "term": "zonas",
+      "count": 8
+    },
+    {
+      "term": "frías",
+      "count": 8
+    },
+    {
+      "term": "josé",
+      "count": 7
     },
     {
       "term": "elintra",
       "count": 7
-    },
-    {
-      "term": "zonas",
-      "count": 7
-    },
-    {
-      "term": "frías",
-      "count": 7
-    },
-    {
-      "term": "josé",
-      "count": 6
     },
     {
       "term": "reforma",
@@ -12038,6 +12056,14 @@
       "count": 6
     },
     {
+      "term": "mónica",
+      "count": 5
+    },
+    {
+      "term": "juárez",
+      "count": 5
+    },
+    {
       "term": "nuevo",
       "count": 5
     },
@@ -12047,14 +12073,6 @@
     },
     {
       "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "pasa",
-      "count": 5
-    },
-    {
-      "term": "defendió",
       "count": 5
     }
   ],

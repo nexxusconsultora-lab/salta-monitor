@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-09-26T01:42:51.793831+00:00",
+  "generated_at": "2026-09-26T06:41:48.681816+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 100,
+      "total_mentions": 103,
       "sentiment_breakdown": {
         "positivo": 8,
-        "negativo": 9,
-        "neutral": 83
+        "negativo": 10,
+        "neutral": 85
       },
       "sentiment_by_day": {
         "Tue, 22 Se": {
-          "total": 11,
+          "total": 12,
           "score_sum": -2
+        },
+        "Sat, 19 Se": {
+          "total": 19,
+          "score_sum": 0
+        },
+        "Fri, 25 Se": {
+          "total": 4,
+          "score_sum": 0
         },
         "Wed, 23 Se": {
           "total": 5,
           "score_sum": -2
-        },
-        "Fri, 25 Se": {
-          "total": 3,
-          "score_sum": 2
         },
         "Sun, 20 Se": {
           "total": 7,
@@ -35,10 +39,6 @@
         "Fri, 18 Se": {
           "total": 14,
           "score_sum": -2
-        },
-        "Sat, 19 Se": {
-          "total": 18,
-          "score_sum": 0
         },
         "Mon, 21 Se": {
           "total": 6,
@@ -72,7 +72,7 @@
         },
         {
           "term": "discapacidad",
-          "count": 27
+          "count": 30
         },
         {
           "term": "tribuno",
@@ -80,7 +80,7 @@
         },
         {
           "term": "informate",
-          "count": 19
+          "count": 20
         },
         {
           "term": "informatesalta",
@@ -91,12 +91,12 @@
           "count": 17
         },
         {
-          "term": "obras",
-          "count": 12
+          "term": "intransigente",
+          "count": 13
         },
         {
-          "term": "intransigente",
-          "count": 11
+          "term": "obras",
+          "count": 12
         }
       ],
       "politicians_involved": [
@@ -106,6 +106,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "motivo de canje",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWi1qWEFqWnhhWWhMdG82cFNGRm5xdDdoMloxTWRtN0FXMGtlNnVGU2phWm5LbVlyM2pJUkNFVmd3REIwQjZ0Q0k0bzA1TXJNZXhLZDRpYTE1NFZLcnRLcVF0d3BrWVcwMVRWTEVhWXBuM3NLWWNPUlFDZGwyb0FpNEZUSWQ4Si1pTnNJTFp1aHNZY2Z4MGF6R1NmcHZaS1dhaVNGVE0xMGpXNVZ4ZGpMTDRwYzJMdks0cnVXRzh1TUxOSV9XaXFNRw?oc=5",
+          "date": "Sat, 19 Sep 2026 19:21:47 GMT"
+        },
         {
           "quote": "empeoran las condiciones de vida",
           "source": "Informate Salta",
@@ -189,15 +195,30 @@
           "source": "informatesalta.com.ar",
           "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQYmJmSjdLeFVnNS1aQU13czMzZUppZW16ZkRpRE1pOFlaUUU3Z2RPRU10dmh4bVd3RkdIeDBSN21jRU8xV1Q2TmZFQWhLdmptU3ZSU2pkRWdtODI2N1FJWGxIOXMtNTBPZVYyeTVxQ1E4Mjdhc18tMmJjeUNjTU9YRTlsQTk1YXphWC0zenp0RkVrRU1qVHdJSWFNZ0F6YV9nQV9ZX01LQzhibUxQUDZTYUNhUXUtR3NucU16VXRHSWFTclBYQW4wdWh0djF6bFhNLXowcVRXNGhsZUJ0NTNDM2t3RV9KYl9SYVFoSnZlVGUxQ3VrOHNwNzFLeVVqbkIzczNsVFB30gGUAkFVX3lxTE9fWlVDekVKVXpENGFSTzVlYWZnZFpHNE9SZ2ROMVoxS1o2U1o2UkNORDdzUWQzU0VfR1dLM3FNbG9WWlhfUVZCcHFnX0hnRkRfeWpDSVYtUHF2VTF1X0tlNnZROFJQRjNOaWJaWVhldGRvTmJKUS1nVXhYcGV0RVBlbG5JSV9McWR2ZGN5SGpTenZmTlNVMFNyenFKUll2ZkdNUElibXZpTTIyVWF0NkNWdHp3RXREMmpHTWRhZnl1NGo2N2ExQlZJR19EZkxUTC1ZWG9Qd1NwaXFlOEEzUUxjcDIzUTRWSnNSMEZoSW5uX0JiU19IR2ktODBPZmN2aV9LZjNCOTU2VUp0QTBVODJtTk9CYg?oc=5",
           "date": "Fri, 18 Sep 2026 16:30:00 GMT"
-        },
-        {
-          "quote": "Dejen de mentir",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZkVBbngtcVRRNEpheVhrZWd6UE9MU0dOQUJiZW44T3dtak1HbnNfVjgzbFdUd2RjZi0tRm5nQ1lJSzhDa2gwQTBVa2hRV09mNl9xY0hzcG5nWElHdmtZMGNDUnNKY3hPRV9tcXFQX2xBcjZEa3dkcXNTNHh1SUJyNFhHN2hMMDVwNU9qdW1Gczl6TkZrZklVaXBJLU9mb0Rtb0ZWRVRaTFdscDBibnRPYU9TZ0lxenMwdF8xT0h3?oc=5",
-          "date": "Fri, 18 Sep 2026 17:00:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Pablo Di Liscia, será el nuevo secretario de Discapacidad de la Nación - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLThSd3VGdGpKUF9nSzNqN1ZVQnRnMWd2b2ZuOFg0cHppV1htVlVfdmpuc3NVUjIxQS16UmZnWjRsZmFPOGJoN0FPbjFBc1NIdEpTU190T0RNR012ay1WaHl4VGNEOFR1bmtGek5RcXRlQTA5c1FzeGRidTJmNC1lTHVKRjRQQU1BbjliRUhwN09YQmtnSXF1eXNrSDNZNk9tYzBWY2tXME1xZ0hMQ0tOYnA4THlxOWVHNUx4OXpGNzBTSGtTS2lodHRuRjFrX1Q00gHfAUFVX3lxTE1HN1R3WWxYOFVpS3BLQ0JrclJLZWxuN2F3Ymhpa2g0VmhGOVJ6eTVEUFVqTklwTHVpQ0pvcUhKcFZRcFoxRVdqUzdwRDYwUkRrT0c5SFk0TUdvU1FFb2l4OU4xTkl5MHBhN3gtZ1RvX2l5TjluRHN4LTloOTlxRG94VDRuV201MUpXSTJ4aUNaWlJwcWxmUk1qWlFURWdmN0xFeDVIeTV3amZMdVRVaDJISUIwa1lvb1Zra2Yxa0RKX1FkZVM4cXJHRkxIUFdJeE5jUmN6ZEl6OEhDbVk1Yzg?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 22 Sep 2026 21:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Luis Juez se quejó de los cambios en discapacidad y pidió que el área no sea \"motivo de canje\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWi1qWEFqWnhhWWhMdG82cFNGRm5xdDdoMloxTWRtN0FXMGtlNnVGU2phWm5LbVlyM2pJUkNFVmd3REIwQjZ0Q0k0bzA1TXJNZXhLZDRpYTE1NFZLcnRLcVF0d3BrWVcwMVRWTEVhWXBuM3NLWWNPUlFDZGwyb0FpNEZUSWQ4Si1pTnNJTFp1aHNZY2Z4MGF6R1NmcHZaS1dhaVNGVE0xMGpXNVZ4ZGpMTDRwYzJMdks0cnVXRzh1TUxOSV9XaXFNRw?oc=5",
+          "source": "El Intransigente",
+          "date": "Sat, 19 Sep 2026 19:21:47 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Gobierno Nacional cuestionó el dictamen de Discapacidad y busca modificarlo - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdkpDZHFQX2RaUXhZVHBEb3BKNHduelU1VVRFdG9qX21pbXZ2LURoM0RBemMxMC1WekYxVUJVb014Nk5UTkVaMnlUWHhTejIxQVRqVlZ5alJVWDhLVFJQUU5JNWdibEE3ZzQyZjhDY040V0ZRbjd4OEZzWmkyZUN1V0Z3?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 25 Sep 2026 22:01:57 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Milei echa a Vilches un día después de que La Nación revelara un faltante de 150 mil millones en la ANDIS - informatesalta.com.ar",
           "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOQU1vSEFfS0VzRWRtaTFXbjRMWXdCalJDQURtVHh4WEJwd09sMWdIaUdDQjRwWUd6ZWdWbmplcmkzQW1pWVppalQ1UTF2YzY1cGxLbE9iLVhOazhsdGlQWFFIeTd1NG10clh4X2d1RHAyZjF0dzg5SklHWE9FM1BybGhBOUEyQmFWNjlCLUpXcjY2M0RzV2xROUwtNnZldS1BNTJjSkhUZG5FUlBRVXRxU25kTDZHYWpCV2tNZnlKSnlERDhibDY0ZHk5enBCZFIxU1B6cmx3YXotTFY0Ny0wbEFZeEhLRmZHb1NpZVZHeHRST1UtM25wdUN4QU5QMDDSAY4CQVVfeXFMTzlCd3hlS1lmdktfUEU2b19iMGk5TVdwVW9VeUQwNTM4dzhwLUg5Nkl3cWZwdnVvaDZvdEdqQ2tJRkNaTGhIMy1IcWdKNTh6c2xJZ2V2RTJzNGkzWFNEUU95bUJvenlCTExKT2VUVWFGaE9CTENILTl4ZDdLVWxnQnhDSVRwRWljRzd1QXY1S0kzWXZzNmIwSTBIcWJmdW1wUWk0SXhWaEtfQ3EtVEZNc1pTVWxGdmx4QTQ3SHI1aEh3T2RUM0paT1ZXRVRDcm53bXYtRGxFY3k3VWoyU0NvSDEycWFkSmY1SjZId0dFcVpiMUYyS21yRTk5eUpEV2hQVUFtM29DMGxtWkdfUUtn?oc=5",
@@ -386,27 +407,6 @@
           "source": "Informate Salta",
           "date": "Tue, 22 Sep 2026 09:45:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Alerta entre familias salteñas por los cambios en discapacidad que impulsa el Gobierno nacional - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPekZCcTNObnNfbkZONEp4VlB2aEhhaUNnVUdkSUxqcnJIOEhwZVVxSy01Y1JvV25zbzdmX2lfZENlYS1STmVPdTBFVGJoMVo5UnhrYXVIOEZTNEVXOFpjQlFjaVc1Y256QmhWQm5uRlNXeVo5Q0E3TVo0aWhnRHpOdzdyNHFHTm9EUnU2WTV1ZXFMajVaWFotcmVDSlQ?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 21 Sep 2026 14:14:14 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Renunció Alejandro Vilches, funcionario de Discapacidad: el desgaste que marcó su salida - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUNSZk8zOWllYURibzhmckVPVlFEekZjVHBvSktNUVNBdW1aN1RYaUZKREZHWHBjRTM1RWdBQmFnTTVkd2liOU5QYkpJU0gxYzZ6b1BTTkEweUNva295aHp2NkRxOWVCM0tTWmRGdGlKWFVWTkF5Sjd5Sm54NFVaSWQ2SG5vcXF3elZ1WndzYjZxUEpKU2hF?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 21 Sep 2026 20:05:04 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Carlos Sadir rechazó el Presupuesto 2027 y pidió cambios: “Como está hoy hay que repensarlo” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjBVM0ZIQmZQVWthX3BWaW1BdWpVV1dCeE9WSHdvS3JONlkzMUFRR01wdDNxSE1ldENZQm5OOXItcEtlN1VoWHlpNmh1MkcwMFZwdEtJeDF3c2JFUDlJanVDc0dubWVQejRmRktvZVhpd25LQzVPZDJWSjVldDRLdVlPWnAtdGE1LWstYVE4d3BhSG1GVzJVSTVkYXl0UFY5WWFjX0twYmx1UjY1Z0V3SkttQ2tTckJQR0g3WnlkcExTbGVU?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 22 Sep 2026 01:04:18 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },
