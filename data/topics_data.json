@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-25T23:16:55.553552+00:00",
+  "generated_at": "2026-09-26T01:42:51.793831+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 99,
+      "total_mentions": 100,
       "sentiment_breakdown": {
         "positivo": 8,
         "negativo": 9,
-        "neutral": 82
+        "neutral": 83
       },
       "sentiment_by_day": {
+        "Tue, 22 Se": {
+          "total": 11,
+          "score_sum": -2
+        },
         "Wed, 23 Se": {
           "total": 5,
           "score_sum": -2
@@ -27,10 +31,6 @@
         "Thu, 24 Se": {
           "total": 5,
           "score_sum": 4
-        },
-        "Tue, 22 Se": {
-          "total": 10,
-          "score_sum": -2
         },
         "Fri, 18 Se": {
           "total": 14,
@@ -83,11 +83,11 @@
           "count": 19
         },
         {
-          "term": "pasa",
-          "count": 17
+          "term": "informatesalta",
+          "count": 18
         },
         {
-          "term": "informatesalta",
+          "term": "pasa",
           "count": 17
         },
         {
@@ -198,6 +198,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Milei echa a Vilches un día después de que La Nación revelara un faltante de 150 mil millones en la ANDIS - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOQU1vSEFfS0VzRWRtaTFXbjRMWXdCalJDQURtVHh4WEJwd09sMWdIaUdDQjRwWUd6ZWdWbmplcmkzQW1pWVppalQ1UTF2YzY1cGxLbE9iLVhOazhsdGlQWFFIeTd1NG10clh4X2d1RHAyZjF0dzg5SklHWE9FM1BybGhBOUEyQmFWNjlCLUpXcjY2M0RzV2xROUwtNnZldS1BNTJjSkhUZG5FUlBRVXRxU25kTDZHYWpCV2tNZnlKSnlERDhibDY0ZHk5enBCZFIxU1B6cmx3YXotTFY0Ny0wbEFZeEhLRmZHb1NpZVZHeHRST1UtM25wdUN4QU5QMDDSAY4CQVVfeXFMTzlCd3hlS1lmdktfUEU2b19iMGk5TVdwVW9VeUQwNTM4dzhwLUg5Nkl3cWZwdnVvaDZvdEdqQ2tJRkNaTGhIMy1IcWdKNTh6c2xJZ2V2RTJzNGkzWFNEUU95bUJvenlCTExKT2VUVWFGaE9CTENILTl4ZDdLVWxnQnhDSVRwRWljRzd1QXY1S0kzWXZzNmIwSTBIcWJmdW1wUWk0SXhWaEtfQ3EtVEZNc1pTVWxGdmx4QTQ3SHI1aEh3T2RUM0paT1ZXRVRDcm53bXYtRGxFY3k3VWoyU0NvSDEycWFkSmY1SjZId0dFcVpiMUYyS21yRTk5eUpEV2hQVUFtM29DMGxtWkdfUUtn?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Tue, 22 Sep 2026 00:37:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Diputados se pronunciaron en contra de los recortes en discapacidad: “empeoran las condiciones de vida” - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOcmg0QWllTXlCSzVpZWlsTE9OVHVqWlZ6RnJGSlR2OTFCeFkwVDROMW9ya0ZZbDhwT0dSaTFVTHVUeXVPMDZOa0pNVWtzM2g5amJybjhrNk5Tb2tBVXRHcUVTN3cyelhzNmFhLUJLQ3ZqVVhERnpjSHBaVjVqZEN5Qlo3dUVVdzZKSHhONEZLVWtBUFFXU2Y5WlN1R2xyR1hpbkFJUTZwaV81akE4bzdGdGs4VmVwVlN5aThwcWhQc2xDV0RDcXppMDFKRFpxTE9fdjZZWkRxUlNIM2YzWmlzdGh2Q25hZ0h1ZjRSeUhmN2xHYVhVTEd5ZUwyNmxHMzE50gGPAkFVX3lxTE9GcnlENGJVcDJVZEMxVUQxRDY4WnpRWVRCbFMtaXNpWFJDamY1VFRSSEMxeDNsTWo1clFUQXplYWN0WmtvcFpCSTY2RmFmbnF1QlNOV0VMVFNzV0FrbnFaRDU1amdYczNTektDUVhyMTNzRzlRQ1hJM2JaYzExZzhjSHhHWGtUcW8zdUFDWkhuX09VMnFNeHR0YzRLZG9tMHhISzBKNURQWnplTkJUd1lFRjc0eWRnenZYSGFDbTh2SVJTU2ZaYklrLU91ZGpabkhuaElyS3hPNE1QNWVxOXc5UFFvY0haQ1Y2d21IdkV5enRlU3RZbFFTUWl3Q3NMcGZIZ3BOMmVCN3RNX3dQRXc?oc=5",
@@ -400,13 +407,6 @@
           "source": "El Intransigente",
           "date": "Tue, 22 Sep 2026 01:04:18 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "All posts tagged \"Presupuesto 2027\" - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKejhxS2FUUFczYnNNWmNTb1huQkhrZG5SbU1SMFVkTm1WbXEwel9WRzA1bjJvQzdrU19kOENpWHdQcWNJTW5qYnExcFh2akhTZFNJVGd5OA?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Wed, 16 Sep 2026 16:57:29 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
