@@ -16537,13 +16537,21 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 10,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 4,
-      "neutral": 6
+      "negativo": 5,
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "Fri, 07 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Wed, 18 De": {
+        "total": 1,
+        "score_sum": -4
+      },
       "Mon, 29 Ma": {
         "total": 2,
         "score_sum": -2
@@ -16580,15 +16588,19 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 8
+        "count": 10
       },
       {
         "term": "garcía",
-        "count": 8
+        "count": 10
       },
       {
         "term": "tribuno",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "concejal",
+        "count": 3
       },
       {
         "term": "comisión",
@@ -16599,19 +16611,21 @@
         "count": 3
       },
       {
+        "term": "escándalo",
+        "count": 2
+      },
+      {
         "term": "operación",
-        "count": 2
-      },
-      {
-        "term": "triunfo",
-        "count": 2
-      },
-      {
-        "term": "concejal",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "José García amenazó con bajarme los dientes y me dijo gil",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTEh0b3c3UVZUUHE0TlprRWtCd0FvTXRCWUd1X1ZSOS10a3FPTDllaGZ2QmRkMDZBVk8xSXlkS1k0T1hrdFNjbEtQMTlfZWtGMk9fWldBUGxDNlFZYW9MQm1Ed0JRWi1DSldIdHVEUWdIQng3anhCV0VWYmd3RDZiYW5NeGpRRExMQ3ZYMDRSU0EwekZVcTZMNVo1V2ktdFJLRFR3SkdJcW9BNXJ0c0xqQzd4cGpuVXRZZlVLb01wUGQ5MWpDbFBXUk1ObF85Zm5adGxsZTVJcDhEdnR0cUxnNGxFUm9rUURFZWZxUGhwUFZXa1pPcHdxWnZhZGJsRXM0dmfSAYcCQVVfeXFMUHI4ejhmTXR6V2t0T3F0cGpsS1NjS1FWWTBOdGUxcjVtSVZ6M2taVTR6VXFhdzNWTlpoMjlVWkYzRFJpbi1YaEluMUdqc3drbmdSTG11TWs0ZjVZMXhjTElCYXNrVl9hSGZ2c1Nmb1FwNi1jeno5b2dlWi1NSjUzUzl5R25JbWVxekZDU1c5djU0aGlRemYzZHNLZkRlcG11OWVrMTZQUzdobG9ZZ1BFSDRpQmtOV0txeUZQeEVPN2Vac1pIWkQ5c0pSYnBaQlFLTGNCUTdIbGgtMWFJQVpMTWctRXM1N01vVDg3U2p5Si14QUVHVTNwVzVIbGJwTy01b2tSNE9WLUU?oc=5",
+        "date": "Wed, 18 Dec 2024 08:00:00 GMT"
+      },
       {
         "quote": "No somos mafia",
         "source": "Informate Salta",
@@ -16640,6 +16654,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "José García, el concejal salteño más laburador, ¡se fue de vacaciones antes de tiempo, papá! - Agencia NOVA",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQU3lucTAwOW4zRGJTalRHemhPRzlDbVVBZkc3SFRQLVFUNlgwejJ4dEpoMHEwNmJQRlhJbjkzWXRYa3RDak0xcDdWZXh1WW15YkZZN3pSVV85SzhNYzZuRUc0b1RRdHRha1ZyM2RHRnJRZUhxOXFFZ1ljcXN4c0syMDVKWkhPbHoySHNwenc3WXVqTXYzQVVqWFd6X0pvWnZ2LWxvc0FGS0huVGZoMjBvWHlPQS1lc3VlUXBzRHRPalQweWZKZU5QbndDOE5FeDZqNEVCeWFMQ3dOTDBXUWhUU1ZjdEMyNG8?oc=5",
+        "source": "Agencia NOVA",
+        "date": "Fri, 07 Jul 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Escándalo en el Concejo: \"José García amenazó con bajarme los dientes y me dijo gil\", denunció el ed - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTEh0b3c3UVZUUHE0TlprRWtCd0FvTXRCWUd1X1ZSOS10a3FPTDllaGZ2QmRkMDZBVk8xSXlkS1k0T1hrdFNjbEtQMTlfZWtGMk9fWldBUGxDNlFZYW9MQm1Ed0JRWi1DSldIdHVEUWdIQng3anhCV0VWYmd3RDZiYW5NeGpRRExMQ3ZYMDRSU0EwekZVcTZMNVo1V2ktdFJLRFR3SkdJcW9BNXJ0c0xqQzd4cGpuVXRZZlVLb01wUGQ5MWpDbFBXUk1ObF85Zm5adGxsZTVJcDhEdnR0cUxnNGxFUm9rUURFZWZxUGhwUFZXa1pPcHdxWnZhZGJsRXM0dmfSAYcCQVVfeXFMUHI4ejhmTXR6V2t0T3F0cGpsS1NjS1FWWTBOdGUxcjVtSVZ6M2taVTR6VXFhdzNWTlpoMjlVWkYzRFJpbi1YaEluMUdqc3drbmdSTG11TWs0ZjVZMXhjTElCYXNrVl9hSGZ2c1Nmb1FwNi1jeno5b2dlWi1NSjUzUzl5R25JbWVxekZDU1c5djU0aGlRemYzZHNLZkRlcG11OWVrMTZQUzdobG9ZZ1BFSDRpQmtOV0txeUZQeEVPN2Vac1pIWkQ5c0pSYnBaQlFLTGNCUTdIbGgtMWFJQVpMTWctRXM1N01vVDg3U2p5Si14QUVHVTNwVzVIbGJwTy01b2tSNE9WLUU?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 18 Dec 2024 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Repercusiones en Mosconi por el sueldo de José García - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSlRIRVFFd0FyeTJUVEFlZkJMQ2xYUkRPcGEtZUQ1SWY0Z0duUjJVWXJYbnVMdF9QNFBHMW9xd3lIZXo2OUp2OThUZ0tsdUMtdV96em9EX0Q0TGZySlZMc0JMejFNbkxRWHVWV0wyRGIzdkRKQWZpSlBvbndtcmdXNGc1bEhPanl6OC10ZzVTQ2VQblU3N3VTQWxGVnZGWEl5N0E?oc=5",
@@ -21028,13 +21056,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 5,
-      "neutral": 26
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "Tue, 16 Ja": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 25 Se": {
         "total": 2,
         "score_sum": 3
@@ -21159,15 +21191,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 32
+        "count": 33
       },
       {
         "term": "orozco",
-        "count": 32
+        "count": 33
       },
       {
         "term": "tribuno",
-        "count": 13
+        "count": 14
       },
       {
         "term": "elintra",
@@ -21191,6 +21223,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Sé que el caso Ledesma fue un ajuste de cuentas",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVktrSER1TEMxaG41UmF5Z3U0aDQxbW5PRVE5cExMLU1OLWNqbnFtalBmaWxSeGl2aFh5SENxRk4xdE9LcmNxVjFuQTF6UWNxeTFMTFRTb0xEd2hvYjNzTlhZNmJYaDlaM004Q2tTNWNoSk41NEIwRkljOUZQc0p5clVlMmtHLWUyZm5xa2F4TnRUZUJ4QnJ2SWNibWZFVnduWHhQZENUS0tWbklvbDNuN2EzMnlUNXNBaDhBTzctRkJsZ9IBxwFBVV95cUxNZVR6X0lPVG9GWTJ2dm1HYzg4RUVtZ0ZES010a2pvNDVUMnRfOHlEd0M0U0JNNWd4N1dyYmx5U3Z4R2E1RHBwTm1YZ3h4Qkg0dUxzUEZHbHp2UnpxM0NsQWRhanoxVFdhMlU1cWl6MFpuX0o1U1ZQN2ZwZ1lVU1FUS01zb0txSHFGOG9CWHhXR3JPLTVBYzRIYnpqRXJ4anFLSjRVR2J0R1VIZWlHNmNXU0F4czNfcDA1Mm1ReE1hQzlydVZSNGVR?oc=5",
+        "date": "Tue, 16 Jan 2024 08:00:00 GMT"
+      },
       {
         "quote": "Milei necesita legisladores que lo acompañen para seguir cambiando la Argentina",
         "source": "El Tribuno",
@@ -21267,6 +21305,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco, al procurador: \"Sé que el caso Ledesma fue un ajuste de cuentas\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVktrSER1TEMxaG41UmF5Z3U0aDQxbW5PRVE5cExMLU1OLWNqbnFtalBmaWxSeGl2aFh5SENxRk4xdE9LcmNxVjFuQTF6UWNxeTFMTFRTb0xEd2hvYjNzTlhZNmJYaDlaM004Q2tTNWNoSk41NEIwRkljOUZQc0p5clVlMmtHLWUyZm5xa2F4TnRUZUJ4QnJ2SWNibWZFVnduWHhQZENUS0tWbklvbDNuN2EzMnlUNXNBaDhBTzctRkJsZ9IBxwFBVV95cUxNZVR6X0lPVG9GWTJ2dm1HYzg4RUVtZ0ZES010a2pvNDVUMnRfOHlEd0M0U0JNNWd4N1dyYmx5U3Z4R2E1RHBwTm1YZ3h4Qkg0dUxzUEZHbHp2UnpxM0NsQWRhanoxVFdhMlU1cWl6MFpuX0o1U1ZQN2ZwZ1lVU1FUS01zb0txSHFGOG9CWHhXR3JPLTVBYzRIYnpqRXJ4anFLSjRVR2J0R1VIZWlHNmNXU0F4czNfcDA1Mm1ReE1hQzlydVZSNGVR?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 16 Jan 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Habló Emilia Orozco tras su foto con Karina Milei: «Nos dio fuerzas»",
         "link": "https://elintra.com.ar/2026/09/25/hablo-emilia-orozco-tras-su-foto-con-karina-milei-nos-dio-fuerzas/",
@@ -21468,13 +21513,6 @@
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeGtfY3gwRWN5SmFoOU1fX2NmQ3NCOHNsVUdIWWczaG04blFVcldZVHBXNU9IakdhRkVlMlUwQXFZWWNQT0FrM3lXenhyOExoT29yc0lVQXlWdW9lQXRLWlB0OXJqTjhFRmFYQmNCVHF5U25KNVRDdFBobE03QmZGc0ZVYlE1blhid210aDhsYmd5VFd2Z2s0S3dkczNJQVlVNnVscUxteTBTN3ZxOG42ZjhhQzZwS1dpc2FFcmg0NUtHcWlsMjRFSFJPZDluVHZUWkpic1JTN3JXV0xxZDJWQWxFYWwwbkczckRTN2dCUjY2Ym5pQUHSAYQCQVVfeXFMTjVPVHBHS2ozR29xd2xuYU54VlB0V0luRXpZV1NhdzdjTEg4XzZ6WVZtTW9LYm1zc3NXekJ2bF90QzVSdDB0RlhtYU12cnljV1NXTWRNaFBHSzVZeG9aYXVIN1E0d1BlRVVXV1lQTW5lYTk1RGRpc0ZTS05WQkZDUTQ3Yms3U2tRN2k4bXRiY0Z1NWhoelV1OTlHdk5SeDFoX0ktMWNLN3p3Y3JFRXR3N1Nkb0Nac2JqVE5aR3FPWEpkOEZQQjJoa0o5MlItd2p3NERzT0pTbDBYUkR3Nnh4d1dkTUZJUGoyTlNpeWp0VGdOWmh4OE5OeEh3SHhfUFF0Tm00ZDM?oc=5",
         "source": "Informate Salta",
         "date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XSXVzRGxBdE5NT0xqUmZodWZHeUlaWUJRbjZGTHB5VzI3NzluYnVoY3ZQQ0tPRU1ITUdsWVNfSktlX1QzMXBGWklYaXkyWkRjMTBPbzV5Zw?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 07 May 2024 21:06:13 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21811,13 +21849,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 1,
-      "neutral": 12
+      "neutral": 13
     },
     "sentiment_by_day": {
+      "Sun, 26 Oc": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Fri, 22 Ma": {
         "total": 2,
         "score_sum": 0
@@ -21854,10 +21896,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Sun, 26 Oc": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Wed, 08 Oc": {
         "total": 1,
         "score_sum": 2
@@ -21874,22 +21912,22 @@
     "top_topics": [
       {
         "term": "gabriela",
-        "count": 14
+        "count": 15
       },
       {
         "term": "flores",
-        "count": 14
+        "count": 15
       },
       {
         "term": "elintra",
         "count": 5
       },
       {
-        "term": "informate",
-        "count": 3
+        "term": "tribuno",
+        "count": 4
       },
       {
-        "term": "tribuno",
+        "term": "informate",
         "count": 3
       },
       {
@@ -21933,6 +21971,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Elecciones 2025: Carlos Zapata renueva su banca y Gabriela Flores y Bernardo Biella se suman a la Cámara de Di - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVUtxem1PajRaLWM3VVdTR29HVXIxY2N3Rms0cWx3d3RNN1Uxb2NhanVfaXJuakQycmR6NE9keTVHQnFhOTh0QWZZenZHZDhWQTR3bTJMSV9ubGxzMlltX2JXaS1nSktPYXVMMjg5ekdjMTBRLVhHcjNJakU2U2tuTl8yQ1h1RXlwbDkzNTI4aFlsX21qWUNuQ2lDNzZGR0NRdU05MkxpbnhveUlRcjcwYThjazFSUnlvOGw0UnhkaEZqdl82Vy13S0dwUHY4bDh1R0djQWQ0dFA2NllYQXdLSUlKQkJpcFFabG9RLdIB8gFBVV95cUxOa0paUC16ZmJVejJiRGpDM2Jpd1ZZTVkxSXRuOGlPRU9hU2Z1ZllwTVozdUo3UDNmYlRDV0U3c19YUjVSZHRGUlBMMGFNZEpDUlpxZ0hqZ2VLblJUYXlDZ0JEWHlHdmZ3UHNQaGNsNVJWMWVDQnkyM216NVBVa3JJak1sOFZhUmFmNkpLTkFyNHdGcWVwT09Cel90aFljVzZfNFZOM01jTkxDZTNMNi1uNl9IOWZZRXRtd0dHbHl0TERVSnRFMWVxeXRnamdhbmVXaG9qSG56aHJqc1BRUWNYMk9vNWF2RUV1Q2xWZGFYLXBCZw?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 26 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Qué es verdad y qué es mentira de lo que dijo Gabriela Flores sobre Zona Fría - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeEdBdm4yVlJqSncwaUVPc2ZpaVRTSEhPcy1qdTFmMllYR2ptR25sZVRtemZaeG44cVprRGxSdV9ZdVNiYjUyM09FenF4b21qVTdJY1Q3cUJIY0FQXzlyTGpYc0hXc0R5VnJLZGptbkpfQ0xkZi1aRGhpY1g1MGtONHVpdVRhUFZvUlFVa1k2YlpuSHg2RGd4bEtrWFdZVnM?oc=5",
