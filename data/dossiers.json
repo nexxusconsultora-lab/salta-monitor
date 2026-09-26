@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 159,
+    "total_mentions": 160,
     "sentiment_breakdown": {
-      "positivo": 14,
+      "positivo": 15,
       "negativo": 19,
       "neutral": 126
     },
     "sentiment_by_day": {
       "Sat, 26 Se": {
-        "total": 3,
-        "score_sum": -1
+        "total": 4,
+        "score_sum": 3
       },
       "Fri, 25 Se": {
         "total": 4,
@@ -312,6 +312,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Gobernadores buscan una tercera opción para 2027: ni Milei ni el peronismo",
+        "link": "https://informatesalta.com.ar/politica/gobernadores-buscan-una-tercera-opcion-para-2027--ni-milei-ni-el-peronismo_a6ab839c7b8f40c68c1733020",
+        "source": "Informate Salta",
+        "date": "Sat, 26 Sep 2026 21:23:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "La interna radical en Salta se reaviva: Natalio Iglesias cuestionó a Farfán por «ser orgánica a Sáenz»",
         "link": "https://elintra.com.ar/2026/09/26/la-interna-radical-en-salta-se-reaviva-natalio-iglesias-cuestiono-a-farfan-por-ser-organica-a-saenz/",
         "source": "El Intra",
@@ -513,13 +520,6 @@
         "source": "El Intra",
         "date": "Tue, 22 Sep 2026 14:33:16 +0000",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "«Dicen por ahí»: un millonario suelto en las encuestas, Sáenz se lamenta por Royón, el llamado nervioso del princeso Durand y Martín Grande piensa insistir",
-        "link": "https://elintra.com.ar/2026/09/22/dicen-por-ahi-un-millonario-suelto-en-las-encuestas-saenz-se-lamenta-por-royon-el-llamado-nervioso-del-princeso-durand-y-martin-grande-piensa-insistir/",
-        "source": "El Intra",
-        "date": "Tue, 22 Sep 2026 16:44:11 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -14130,13 +14130,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 30,
+    "total_mentions": 31,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "Thu, 16 Ma": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Thu, 29 Au": {
         "total": 1,
         "score_sum": 0
@@ -14249,15 +14253,15 @@
     "top_topics": [
       {
         "term": "orozco",
-        "count": 23
+        "count": 24
       },
       {
         "term": "gustavo",
-        "count": 21
+        "count": 22
       },
       {
         "term": "diputado",
-        "count": 7
+        "count": 8
       },
       {
         "term": "diario",
@@ -14268,16 +14272,16 @@
         "count": 7
       },
       {
+        "term": "tribuno",
+        "count": 6
+      },
+      {
         "term": "elintra",
         "count": 6
       },
       {
         "term": "nuevo",
         "count": 6
-      },
-      {
-        "term": "tribuno",
-        "count": 5
       }
     ],
     "quotes": [
@@ -14314,6 +14318,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Otra denuncia contra el diputado Gustavo Orozco - El Tribuno",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzU1ZG1tR3VIYkNxN3QzRF9KLU1XQldfcl9BYU03VTlDSjBFR2Zuc1V2X09OUnRiWjl6dEdWcFAwOV9lclBqOFotc3A4VEg5NVdjTUZMaGVGY0E3c2ZRZmg0STkyQjR6THBsMWdFVm1SU05fd2pERGdKOFc5d29MRTQtUEdpR0VjRlY3NGN4RXMwSHFhMFBBdVV30gGfAUFVX3lxTE1PdGxCOU5zV3RIZHRSNFE0YzFPa0hWa0swSjZXem1McFB0ZkJCOEFVRTVBWFNYMEZ0RHMzaVAzRDBFUjl2SHVxajI1R2dvWDluc0JnY1ZHODVCdEZ0ekx2SlBlZ0h0ZE5pczFBeXVlYXRlaDc5SDhwMHI2WENMZmZLNUtrRGJnazFVaHlyWmFvVWdxSmxtNXNoNUdBNVg5dw?oc=5",
+        "date": "Thu, 16 Mar 2023 07:00:00 GMT"
+      },
+      {
         "title": "Gustavo Orozco criticó la corrupción que hay en la provincia - Salta 4400",
         "source": "Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZlhZU0FCOGJ4T0dPdWRHYTVneWRHLW5fVzNLbGJlNXI4LVpweGNZZ0xVd3UtUlZvUjF3T0ZnX2s2OUcxU2w2dHc2RU9OMzBTYzNOMzktTjVVMFNCUklKbkdOZlY3UGROSTlzUVlMV1ZFaFBleHBzUmQ2cUktSEVzR1ViVTRTdVVaOWdZcmVUSVFBNDc2VUxiLUhRaGVIalYwMEM1RzBB0gGrAUFVX3lxTE9LQWFLV3BwX21hMlZ3UjIzVjJabFlvaXBzdjMxaFlMWmJWMThqTERWY1o5QlNEU0FjeHVVejlSVHhtZEl5cm80OU1hZm1lUEd1M3VFdzRvSVJYcmFBcXljMjdCWFQ5d1hETnhYWGFiY1lMZElGNlhBUzJXdVNiTzZLTm9KZlNsZV9uMjhXNTBucDlYZG1hZnBvVjhfYTFaWFlzVURiekJJaVJTZw?oc=5",
@@ -14339,6 +14349,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Otra denuncia contra el diputado Gustavo Orozco - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzU1ZG1tR3VIYkNxN3QzRF9KLU1XQldfcl9BYU03VTlDSjBFR2Zuc1V2X09OUnRiWjl6dEdWcFAwOV9lclBqOFotc3A4VEg5NVdjTUZMaGVGY0E3c2ZRZmg0STkyQjR6THBsMWdFVm1SU05fd2pERGdKOFc5d29MRTQtUEdpR0VjRlY3NGN4RXMwSHFhMFBBdVV30gGfAUFVX3lxTE1PdGxCOU5zV3RIZHRSNFE0YzFPa0hWa0swSjZXem1McFB0ZkJCOEFVRTVBWFNYMEZ0RHMzaVAzRDBFUjl2SHVxajI1R2dvWDluc0JnY1ZHODVCdEZ0ekx2SlBlZ0h0ZE5pczFBeXVlYXRlaDc5SDhwMHI2WENMZmZLNUtrRGJnazFVaHlyWmFvVWdxSmxtNXNoNUdBNVg5dw?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 16 Mar 2023 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gustavo Orozco propuso garantizar el baño para varones, mujeres “y el de otro género” - elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON0ptdjVqOVRqbER3YWlLWVpZU3hJdTk2YmlwS01pdnpxWVh6czg5SnBBWUx4NDVxalh6VC1xVXdqd09nM0xJTTZILWdNS3lkM0drVzZNcER6NS1nZVZJVWtLblVHTXVlVlhIOEZFRzd3SWp0Y19QSTl3ZHowTW1NbUtzajIzUkpDamk3Qlg4RnFXMzdYZllnY2tULWtPaGhjSEZPWUNweExFS2pGcm9zcG1NRXgxZU10?oc=5",
@@ -14539,13 +14556,6 @@
         "title": "Proclamaron a los legisladores electos en Salta: 11 senadores y 30 diputados recibieron sus diplomas - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN2ZSRnpWM2hBcDUtZlE1aUJOeEg4ekZvaWNmY0VMbmZjdEdOXzFnRFc1TDhMTlFyeGtITUhMMkFta1VhcjFmOTFfTlVBNnJnSTF6d2NXdzAxOHo5T2tVN2hsbDczbTlxVW1nVWplS1VMT1RCcWw2dTY3QUh1VEp2SFJwTXJPb3dpc1c3NjhKcEZLVkRvU1FtR3lSX0YtLWFNQV9NbnNNM3Q0ZnllbVpzb1d1Q3VfV2ZmNlhGSm9HUEpJLUd0dDBadENhV19FWUpCOTZpTGFMZjYyTk01Y05WcTNR0gHnAUFVX3lxTE5DQkVsRFdXYlludVJMWDE2MTdFUWpueEpHN3Jub0wtZl9Zem5ySk5aY0tUdFEwMEZNQ25OSmZjY1c3TXlmYWpER2gtdFNBc0UxeHRYU3dkMGhuM0hxcmRidF9TWmFPZUJNY09LYUdXUDFvTjEzajdRMV96QlJhckgzS3JrVVEwVTRvbUx5aGlHOFhnY1ExWU1lQ2J3ckk2VzFFMmlxNVlHcTF2ck95Q1BTeUoyM0NhNjlXME00NGhTYzdQZmV5Tl9qbDlpSmdaODNuNFBNWHJacmF2YTBJOXZwZWZQNnhIRQ?oc=5",
         "source": "El Tribuno",
-        "date": "Thu, 03 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Tribunal Electoral de la Provincia entregó diplomas a los legisladores electos - Radio Salta",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcG5hNlhfd2JSTnU0S2lrbDNCNnU2dWk4cWZfZ2laMTdWM2Nob19iWXZMVWYwVHBoLWQ5eFpKUzBjbnM1YWFOczlESE1RMjh4cnYyYV93ajVydTYwLUFwTUU1ZU5COGhqcnpGbXdXeG4xVHFaVlRXWEREX2diOE4yS0cyNk1veEpBN2hRdTA4Ukh4YTBWVlppOXVlNENxellQWkQ3dmcyT1VhRnhCdjF1U0VBNlBVVUNtdFFBZGlDUncxdmplZXUzcG54NDLSAdIBQVVfeXFMTWIyeXlMS1diMjAxZWtiNWZTamxyZDZsYTJQQlcxRGx5Q21iU25mQTc4YXZQckRSdHByczVyR0k5enZNZlZtZWRFVXJSejBTOXV0SGpGWEUzMFA2SFZzRUpkMy1ZUmJWVUpoN1NDb05TbTNNdk9BTUQzQWRvcEtxakx0M2ZmZm1ha2ZPV3ZnM3hnSjRrSWEwV3ZFWW1EbS1kTEoyaVpDc294YVlIaElfejRwb2pUNkcwdDh3RDJDSGxmcExRckpJWXF2MnFCTFB3VHZB?oc=5",
-        "source": "Radio Salta",
         "date": "Thu, 03 Jul 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
@@ -21867,18 +21877,18 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 5
+      "neutral": 6
     },
     "sentiment_by_day": {
-      "Thu, 04 De": {
-        "total": 1,
+      "Wed, 29 Oc": {
+        "total": 2,
         "score_sum": 0
       },
-      "Wed, 29 Oc": {
+      "Thu, 04 De": {
         "total": 1,
         "score_sum": 0
       },
@@ -21898,11 +21908,11 @@
     "top_topics": [
       {
         "term": "eliana",
-        "count": 5
+        "count": 6
       },
       {
         "term": "bruno",
-        "count": 5
+        "count": 6
       },
       {
         "term": "asumirá",
@@ -21931,6 +21941,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Eliana Bruno y su plan en Diputados: seguridad, caminos y desarrollo regional - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMzRXN25UVV9PcmV6Vms1dEppV3lldjRDWU1FdnRPWTlpYldKN0E3S3JON0xOVTdVUEhGcGcyMUNLMjNyQjcyV1FHbnV4U0xyaDhpTmJMUEVFZGVpYlNDbnd2WTlIcGhtLTcwcjRzbjh2dFlSa240VF9FSkFvTFB3ZFVnMWpfdFZmd3pJQ1kxVTlEMzFDWF9oUVVhYzJqZmlGTGVTNEVfRGxtaG1EN2RqUkVjNFY0c21abGJrVHR4d2l2OTNWV3ZWMjIzM2fSAdIBQVVfeXFMTXJpNXJUTkJtTkxpSWxBUTdQRXpJZjB2elpheVFWTTNwTm00T3NNQVRyaG1Vc2ZoMFhoRE1RcTNDME5lT3MyVnJaRUM3YUcxZWpwNzlqQkp5WlVYVnNkN2F4OVBmYTZ0dnQ1dGlVWjZDQUE3T19lcWk1YXRGaEVNY0s0dTVSQmhvblExdzJJNUhkcURaTFRtLXd6ajRKUUJ1c0FhdG9jc0k5Z0d2Y2o5NF91V1pRQUF6NkFCNXhmeVVHQ3g5NC1tRFc2TElScWRGWHNn?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cambios en ANSES Orán tras la salida de Eliana Bruno - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFhzeEdSUmFOWndEYzU0d3I0dUJqOVFwVGcybFdDbnZDRHB4ZEp0Sk5zS2puX1FFWVI0alhPbU94Mm1leThOOTlZOVhKaUlaUjZ2dkJFbklHLVMzTWtOQW9XX3d2M2N6aVJIQjIycnViR0ZhaVZLWHdYYS03NXIyQ0llNVpoMjlvU2drRWpyY3k?oc=5",
@@ -23324,13 +23341,17 @@
     "id": "dip-juan-jose-esteban",
     "name": "Juan José Esteban",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 5
+      "neutral": 6
     },
     "sentiment_by_day": {
+      "Sun, 11 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 01 Ju": {
         "total": 1,
         "score_sum": 0
@@ -23359,22 +23380,28 @@
     "top_topics": [
       {
         "term": "juan",
-        "count": 5
+        "count": 6
       },
       {
         "term": "esteban",
-        "count": 5
+        "count": 6
       },
       {
         "term": "josé",
-        "count": 4
+        "count": 5
       },
       {
         "term": "tribuno",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "La gente está muy poco interesada",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQnQzNjJLckFidFp4bGdaZnAyOFJwd294YjdSUEttZG44V1V5NDdoNURlejE3LU11cjIzVzFRMjEzcU1Pa1d6TU1HWWU5NEE0OVBVcm9POUd2LVMzZ0hpNk03NHpOaHFyaWpDNUNNV3l3SnZDVzFOUHdEb2U2QURRUVB4azlPZk01b2RQa3d2TThBb1RSdzl1elRGVHFFWGZqQUHSAacBQVVfeXFMTThEbTNaeVhZVzdXaVNrZ0Vkd0s5ajZORUhIM1hSeWszM2V3cnZ0STA2YjFoaF9iQXJsakZzWjRQNlh4V0plMHZhWkE1ZDJkME15Mkh1cUp1YTZLQTh0UExZcGRydUtlMERqRHA2WHQzUjFiRGlRWUhqU3oyNG9XM3hRb0FKTXh4Tk5JVmhvVWd3WlFid29CY0VndzU1a3BkZFYtSUFRcEE?oc=5",
+        "date": "Sun, 11 May 2025 07:00:00 GMT"
+      },
       {
         "quote": "empeoran las condiciones de vida",
         "source": "Informate Salta",
@@ -23384,6 +23411,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Juan José Esteban: \"La gente está muy poco interesada\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQnQzNjJLckFidFp4bGdaZnAyOFJwd294YjdSUEttZG44V1V5NDdoNURlejE3LU11cjIzVzFRMjEzcU1Pa1d6TU1HWWU5NEE0OVBVcm9POUd2LVMzZ0hpNk03NHpOaHFyaWpDNUNNV3l3SnZDVzFOUHdEb2U2QURRUVB4azlPZk01b2RQa3d2TThBb1RSdzl1elRGVHFFWGZqQUHSAacBQVVfeXFMTThEbTNaeVhZVzdXaVNrZ0Vkd0s5ajZORUhIM1hSeWszM2V3cnZ0STA2YjFoaF9iQXJsakZzWjRQNlh4V0plMHZhWkE1ZDJkME15Mkh1cUp1YTZLQTh0UExZcGRydUtlMERqRHA2WHQzUjFiRGlRWUhqU3oyNG9XM3hRb0FKTXh4Tk5JVmhvVWd3WlFid29CY0VndzU1a3BkZFYtSUFRcEE?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 11 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La coronita de Juan José Esteban en el Gobierno de Salta - Agencia NOVA",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZnVqVzRZTjRwSzR4QzN1UTc2V1hRTTdFMzZ1NzVLTW1VWm9BZHVXM05jVkVObTJhNEZOMVByQ0x4eVBQbEtucnAwdEJsU1VVRE5Yd2VtNG4tZlR6MGJ6RkViaDlZZkxjeS1EemZqYklKMkdPaTlHN241TEVqUFBWSmVrNGFIZWZUV2U5c0w1NDVnTVdaajdLb1B4Z2dMTzFHUTVrbktWSVBmQ0pmbHRpdGZn?oc=5",

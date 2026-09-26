@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-26T21:38:35.878499+00:00",
+  "generated_at": "2026-09-26T23:56:56.536564+00:00",
   "by_politician": {
+    "dip-juan-jose-esteban": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 6,
+      "score_sum": -2
+    },
+    "dnac-eliana-bruno": {
+      "total": 6,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 6,
+      "score_sum": 0
+    },
+    "dip-gustavo-orlando-orozco": {
+      "total": 31,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 25,
+      "score_sum": -12
+    },
+    "gustavo-saenz": {
+      "total": 160,
+      "positivo": 15,
+      "negativo": 19,
+      "neutral": 126,
+      "score_sum": -1
+    },
     "dnac-bernardo-biella": {
       "total": 11,
       "positivo": 1,
@@ -63,13 +91,6 @@
       "negativo": 2,
       "neutral": 13,
       "score_sum": -6
-    },
-    "gustavo-saenz": {
-      "total": 159,
-      "positivo": 14,
-      "negativo": 19,
-      "neutral": 126,
-      "score_sum": -5
     },
     "concejal-ines-bennassar": {
       "total": 23,
@@ -148,13 +169,6 @@
       "neutral": 19,
       "score_sum": 2
     },
-    "dip-gustavo-orlando-orozco": {
-      "total": 30,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 25,
-      "score_sum": -10
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 14,
       "positivo": 3,
@@ -182,13 +196,6 @@
       "negativo": 12,
       "neutral": 34,
       "score_sum": -23
-    },
-    "dip-juan-jose-esteban": {
-      "total": 6,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 5,
-      "score_sum": -2
     },
     "dip-jose-miguel-gauffin": {
       "total": 12,
@@ -412,13 +419,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 1,
-      "score_sum": 0
-    },
-    "dnac-eliana-bruno": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 5,
       "score_sum": 0
     },
     "concejal-victor-manuel-lamberto": {
@@ -795,6 +795,10 @@
   },
   "by_day": {
     "Sun, 11 Ma": {
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
       "dnac-bernardo-biella": {
         "total": 1,
         "score_sum": 0
@@ -854,6 +858,52 @@
       "dip-jorge-miguel-restom": {
         "total": 1,
         "score_sum": 0
+      }
+    },
+    "Wed, 29 Oc": {
+      "dnac-eliana-bruno": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 16 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 26 Se": {
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": 3
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": -3
       }
     },
     "Tue, 21 Ju": {
@@ -1042,28 +1092,6 @@
       "sen-carlos-guitian": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Sat, 26 Se": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": -1
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": -3
       }
     },
     "Wed, 31 Ja": {
@@ -3346,16 +3374,6 @@
     },
     "Thu, 04 De": {
       "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 29 Oc": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
         "total": 1,
         "score_sum": 0
       }
@@ -7838,16 +7856,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 16 Ma": {
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 16 De": {
       "dip-gonzalo-caro-davalos": {
         "total": 1,
@@ -12121,12 +12129,8 @@
   ],
   "trending_terms": [
     {
-      "term": "sáenz",
-      "count": 12
-    },
-    {
       "term": "tribuno",
-      "count": 12
+      "count": 13
     },
     {
       "term": "josé",
@@ -12137,15 +12141,11 @@
       "count": 10
     },
     {
-      "term": "elintra",
-      "count": 8
+      "term": "sáenz",
+      "count": 10
     },
     {
-      "term": "flavia",
-      "count": 7
-    },
-    {
-      "term": "royón",
+      "term": "orozco",
       "count": 7
     },
     {
@@ -12153,19 +12153,23 @@
       "count": 7
     },
     {
-      "term": "zonas",
+      "term": "elintra",
       "count": 7
     },
     {
-      "term": "frías",
-      "count": 7
-    },
-    {
-      "term": "orozco",
+      "term": "flavia",
       "count": 6
     },
     {
-      "term": "gustavo",
+      "term": "royón",
+      "count": 6
+    },
+    {
+      "term": "zonas",
+      "count": 6
+    },
+    {
+      "term": "frías",
       "count": 6
     },
     {
@@ -12177,7 +12181,11 @@
       "count": 6
     },
     {
-      "term": "senado",
+      "term": "gustavo",
+      "count": 5
+    },
+    {
+      "term": "milei",
       "count": 5
     }
   ],
