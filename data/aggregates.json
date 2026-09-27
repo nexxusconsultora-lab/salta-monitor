@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-27T19:01:56.111519+00:00",
+  "generated_at": "2026-09-27T22:05:24.901800+00:00",
   "by_politician": {
+    "dip-monica-gabriela-juarez": {
+      "total": 22,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 18,
+      "score_sum": 0
+    },
     "dip-sergio-gerardo-oliva": {
       "total": 1,
       "positivo": 0,
@@ -77,13 +84,6 @@
       "negativo": 8,
       "neutral": 53,
       "score_sum": -9
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 21,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 17,
-      "score_sum": 0
     },
     "sen-mashur-lapad": {
       "total": 59,
@@ -801,6 +801,12 @@
     }
   },
   "by_day": {
+    "Wed, 13 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Sun, 17 Ma": {
       "dip-sergio-gerardo-oliva": {
         "total": 1,
@@ -12215,7 +12221,7 @@
   "trending_terms": [
     {
       "term": "tribuno",
-      "count": 19
+      "count": 18
     },
     {
       "term": "josé",
@@ -12226,7 +12232,7 @@
       "count": 10
     },
     {
-      "term": "sáenz",
+      "term": "elintra",
       "count": 7
     },
     {
@@ -12234,36 +12240,32 @@
       "count": 7
     },
     {
-      "term": "flavia",
-      "count": 7
-    },
-    {
-      "term": "royón",
-      "count": 7
-    },
-    {
-      "term": "elintra",
+      "term": "mónica",
       "count": 6
     },
     {
-      "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "mónica",
-      "count": 5
-    },
-    {
       "term": "juárez",
-      "count": 5
+      "count": 6
     },
     {
-      "term": "informate",
-      "count": 5
+      "term": "sáenz",
+      "count": 6
     },
     {
-      "term": "orozco",
-      "count": 5
+      "term": "flavia",
+      "count": 6
+    },
+    {
+      "term": "royón",
+      "count": 6
+    },
+    {
+      "term": "contra",
+      "count": 4
+    },
+    {
+      "term": "gustavo",
+      "count": 4
     },
     {
       "term": "nuevo",
@@ -12271,6 +12273,10 @@
     },
     {
       "term": "voces",
+      "count": 4
+    },
+    {
+      "term": "criticas",
       "count": 4
     }
   ],
