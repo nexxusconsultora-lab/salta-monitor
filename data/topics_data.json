@@ -1,20 +1,28 @@
 {
-  "generated_at": "2026-09-27T15:13:14.822382+00:00",
+  "generated_at": "2026-09-27T19:01:57.181953+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 114,
+      "total_mentions": 120,
       "sentiment_breakdown": {
-        "positivo": 9,
-        "negativo": 12,
-        "neutral": 93
+        "positivo": 10,
+        "negativo": 13,
+        "neutral": 97
       },
       "sentiment_by_day": {
         "Wed, 23 Se": {
-          "total": 8,
+          "total": 10,
           "score_sum": -4
+        },
+        "Fri, 25 Se": {
+          "total": 6,
+          "score_sum": -4
+        },
+        "Thu, 24 Se": {
+          "total": 7,
+          "score_sum": 6
         },
         "Sun, 27 Se": {
           "total": 1,
@@ -39,14 +47,6 @@
         "Sat, 19 Se": {
           "total": 19,
           "score_sum": 0
-        },
-        "Fri, 25 Se": {
-          "total": 4,
-          "score_sum": 0
-        },
-        "Thu, 24 Se": {
-          "total": 5,
-          "score_sum": 4
         },
         "Fri, 18 Se": {
           "total": 14,
@@ -80,31 +80,31 @@
         },
         {
           "term": "discapacidad",
-          "count": 34
+          "count": 36
         },
         {
           "term": "tribuno",
-          "count": 27
+          "count": 29
         },
         {
           "term": "pasa",
-          "count": 21
+          "count": 22
         },
         {
           "term": "informate",
-          "count": 21
+          "count": 22
+        },
+        {
+          "term": "intransigente",
+          "count": 18
         },
         {
           "term": "informatesalta",
           "count": 18
         },
         {
-          "term": "intransigente",
-          "count": 16
-        },
-        {
           "term": "obras",
-          "count": 13
+          "count": 14
         }
       ],
       "politicians_involved": [
@@ -114,6 +114,18 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Ponele el pecho",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW52cHVCbXhrRGNIRk1nUjgxMHdTWEdtRFlhajVpV2J6NTJXNWxyV3dqUkZzTXBEdTB5Yld5dUlMY2xkTWJZLWs1eHA4VjhGQ0pPb3VJZUtQNm1faXUxemRfQVdHVFZpeEZzOWFxbkdsUXJJTzROUjJsWjVLVzRENXd1eDl6WWZUa2xwaTJyRTc3bTJwNTcwSGRVbl9PYVA4c2JJYXdlOUlVZURveUhwbXlhZmdwZ0hKTzk2NkhzZEZsRk8zTHdkcHdJYjZjTmlVbGswck9NMVRRcVNlMVhn?oc=5",
+          "date": "Fri, 25 Sep 2026 22:01:57 GMT"
+        },
+        {
+          "quote": "Si Salta se inunda, fue porque LLA votó para que no lleguen los recursos y obras",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMnctOHFfTG1QN1pmUWpxc1V4elVKRlhYSmJZTkhxLTV5M05XRlBaS0dyUzJEdklFTHFJNmZ3TV9rM1VWV21PdkhrdG0zanB5bmRVYUFzOUtESzhSOHFPT09SamY4a0l0UlpRVWo4Z1VhMmpvdy1TVkVPd05JRVhLTkE5d3NIcGhSdlV6eEEzU1F5a3lkbndGZkhoVC1Yc1NVb2xTQUV2Nk5xelpDQlhKeXI4cmMwMFBtLVZoVk9iNUJFX3M3WUhnYWlYdDg0dk5OeGpicXRzSjlIYmwyR2djVnZpYzcxV2xh0gH3AUFVX3lxTE9uajVMTHQ2MWlhMVhuMloxeEFMX0V6Qzg0MFBRMjdMaFVxUXUzWHV6MWVfWXhPREdtcl91cVRXQWtmSzdQdzQ1QldQeEozcjJyd2FSdFZmTUJZU1FMTFBQWGt1UmNocXUxazk2cmpaNFA5QTBqNFlJWFB4dVZXU2tLd1ZvVGQ5Zm45Mi1CQ2xoT3hzQmpLekpSeTNuRkhtdHJjQXkzcHBrblJncVBUV18xbjlTTDl3OWxaYlFRTDV3UXNaSkxTNzBFc3hZWXE2djNCaGZwaUlGWWY2UVJUS0t2eGxOd09HUUFRWEpwcU5wOHZxTE1oUU0?oc=5",
+          "date": "Thu, 24 Sep 2026 16:00:00 GMT"
+        },
         {
           "quote": "Trabajar o mantener la pensión",
           "source": "Que Pasa Salta",
@@ -191,21 +203,51 @@
           "source": "Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU8?oc=5",
           "date": "Mon, 21 Sep 2026 16:13:18 GMT"
-        },
-        {
-          "quote": "Es muy mezquino para la provincia de Salta",
-          "source": "Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdFcybUVDVFpJdVRSRjVMR3R2UkZIT05kMnQ2cnEwZGl3WW5DRXVSbl8xSF9fR0hsSE9NR0poOThlYkNYWEdGRVN5U0kyT0R6N0kxaGZRd3ZNbkRtc2ZqRXpPMTc4UFhXRl8wX3F3SEp2WkV0RGQyNWxjTQ?oc=5",
-          "date": "Thu, 17 Sep 2026 13:58:11 GMT"
-        },
-        {
-          "quote": "Tienen poco futuro",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWW1iNTBoQTVRLW9OSG1MeWVnTE1FSWlYNDlzZ053WmZpR3hFTHFhR19kaEJvS1h2ZmsyZVdsVkNPZmttTVhXQ0xZd1lPZmFRYzdBMTFkVmxtdi1hOUozQ0ZPS2tFOWYwWVhnMTBPRTJ0TmpybXc0VUJWMmZLUHp4RzJmcDZiakZ0YTVUZ0lxM0pHUFRJZDN4aEs4TDhmY1JranJaV1B4SGxITzIxRWVwcUlWUzgxXzVxQ1JaR1RWM0JkQ1hVN0VQcVFR?oc=5",
-          "date": "Sun, 20 Sep 2026 16:43:33 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Biella busca que los derechos en discapacidad no dependan de una emergencia - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ3piajdxdURudmpWTlJKUlBnbTJBRnYtakh3R0ZRVy1LTVEtbDNULUVGaTd6Yjc2UTF6ZjhpeWNxX1lLZWR5UVZNenN4X1lkVVFFdnhoQ0Z4MHVXR0xuZ19NdUR0SEhaSzVvWmFtWGFOODQzVWNCUkRFeUFYaVF2U0N6LTZISmJOQVdGTkRVbVhIOEx6SmFITUUxa2ZKTjRPckN5ZlAwUDY0WXJQME9yQ3hWaEk2eWpa?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Wed, 23 Sep 2026 13:24:45 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Equilibrio fiscal y nuevos créditos: Dib Ashur detalló el plan económico de Salta para 2027 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNG4wWlNzeGhyX3VVZXZFcHNmeEJabFN6Tlk2T09fUW5ZcmtoRC1mMktoZEhyRnJUaHBLdU1RVWVpN1d5V2tIcU9PcFJVazhpRWdrekt5Ni15UzhIb3I0VTViREJ3cUEyVDUzQ2lXdTUyT0Zpb3o1WUdtbEUzck1BV1JqM3dLQ3ZoSVFYWWNTOERvTzhvbjhlQWtIelJWQXlfaGtaRHBOclpWVDRmMk5mYW01M2NUTVRqME1OMXlrd0NOX0w4eERMTW1LTUR5ZHF2SDhITERRUF9UbXhw0gHcAUFVX3lxTE80bjBaU3N4aHJfdVVldkVwc2Z4QlpsU3pOWTZPT19Rbllya2hELWYyS2hkSHJGclRocEt1TVFVZWk3V3lXa0hxT09wUlVrOGlFZ2t6S3k2LXlTOEhvcjRVNWJEQndxQTJUNTNDaVd1NTJPRmlvejVZR21sRTNyTUFXUmozd0tDdmhJUVhZY1M4RG9POG9uOGVBa0h6UlZBeV9oa1pEcE5yWlZUNGYyTmZhbTUzY1RNVGowTU4xeWt3Q05fTDh4RExNbUtNRHlkcXZIOEhMRFFQX1RteHA?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 25 Sep 2026 16:34:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Rubén 'Pollo' Sobrero criticó a Kicillof por su viaje a Nueva York durante el conflicto en FATE: \"Ponele el pecho\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW52cHVCbXhrRGNIRk1nUjgxMHdTWEdtRFlhajVpV2J6NTJXNWxyV3dqUkZzTXBEdTB5Yld5dUlMY2xkTWJZLWs1eHA4VjhGQ0pPb3VJZUtQNm1faXUxemRfQVdHVFZpeEZzOWFxbkdsUXJJTzROUjJsWjVLVzRENXd1eDl6WWZUa2xwaTJyRTc3bTJwNTcwSGRVbl9PYVA4c2JJYXdlOUlVZURveUhwbXlhZmdwZ0hKTzk2NkhzZEZsRk8zTHdkcHdJYjZjTmlVbGswck9NMVRRcVNlMVhn?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 25 Sep 2026 22:01:57 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Volantazo de LLA: cede en casi todo con su proyecto sobre Discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU1lhdnA2NEMwRXRsWnhaQU1weUxjY0ZRTi12b1hBYW5CcUlGUDV0R3dMMmpPRWRqd1lvcWNlV1Y4VUVfbzlZb0hUZGxHQV9XQ1oxMl9PMDhSdE1oa1k3YlVMTXFLM1hObGxKRDNQQXFXVDBDVTJEYW5YRHk4c294WlZfN0VJdzhnZmFKaHJ0eEtDeFdrWTQtMWFLd1V2WFhrNXZJUVVtMXBnUjBhZWxWeE1WRXZaMGpxZHNSTndlT1LSAcYBQVVfeXFMTUJaZVBVRnR3dzE1QUxtZkJtZGR4d1FRYy1YN09KNy1ERnRLd2tnQmhGWmRPdlZxZTZTQjd1YUtxOGFYV3Y3bEtnTUJNUUtMYkxFVENHdUNYczMyQm1qYVR1YUUydnZvZHlzMXduOFZPemt4OUpPX0lOZ0JKT1cxT0VBNDdqTGN3NnhPbDFnS3R3aHZoRHlIRGw2NFlDZm9NTWVMTU03WXFyRV9RRnVnY1hoaDk3eHdrbEhiM0pJMWt5elRKRXRB?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 23 Sep 2026 05:04:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Zonas Frías: El Senado aprobó cambios que recortan el subsidio de gas - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VSlhUTmZZeDlDZFZGV0ZIMk5UdTU5YUR2THVxLWVZWV9kQV92aEVsQUlIVGdMcDFtemloenV2ck5MNVE5bXVmSEpZUkJ3d2hjY1RJekhuVHByLW9nVjY0LWZuaHBNZkhSVE50OV9INjdfd0FUbXdEMg?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 24 Sep 2026 22:42:44 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "“Si Salta se inunda, fue porque LLA votó para que no lleguen los recursos y obras\" - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMnctOHFfTG1QN1pmUWpxc1V4elVKRlhYSmJZTkhxLTV5M05XRlBaS0dyUzJEdklFTHFJNmZ3TV9rM1VWV21PdkhrdG0zanB5bmRVYUFzOUtESzhSOHFPT09SamY4a0l0UlpRVWo4Z1VhMmpvdy1TVkVPd05JRVhLTkE5d3NIcGhSdlV6eEEzU1F5a3lkbndGZkhoVC1Yc1NVb2xTQUV2Nk5xelpDQlhKeXI4cmMwMFBtLVZoVk9iNUJFX3M3WUhnYWlYdDg0dk5OeGpicXRzSjlIYmwyR2djVnZpYzcxV2xh0gH3AUFVX3lxTE9uajVMTHQ2MWlhMVhuMloxeEFMX0V6Qzg0MFBRMjdMaFVxUXUzWHV6MWVfWXhPREdtcl91cVRXQWtmSzdQdzQ1QldQeEozcjJyd2FSdFZmTUJZU1FMTFBQWGt1UmNocXUxazk2cmpaNFA5QTBqNFlJWFB4dVZXU2tLd1ZvVGQ5Zm45Mi1CQ2xoT3hzQmpLekpSeTNuRkhtdHJjQXkzcHBrblJncVBUV18xbjlTTDl3OWxaYlFRTDV3UXNaSkxTNzBFc3hZWXE2djNCaGZwaUlGWWY2UVJUS0t2eGxOd09HUUFRWEpwcU5wOHZxTE1oUU0?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 24 Sep 2026 16:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Interna Libertaria: Patricia Bullrich cuestionó ante la Mesa política el Presupuesto 2027 - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yN2tqTzhXS191Y3UzUVAzOWFPMlVmWWRWc18zbXRnNU9mMmtra2ktUUs1dnV3STlkOGhkNnhGTzBTY0V5VHBfbTFtQl9yYXF6WHRmZWQ3UHdaY0pkbzd0QUdWaDVOUkZUV29TS2hPcDNVaXBKUmxUYXZ0NA?oc=5",
@@ -373,48 +415,6 @@
           "source": "Informate Salta",
           "date": "Thu, 24 Sep 2026 18:00:00 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "Millones para la política, Salta no está mal: ¿Cuánto cuesta cada legislador? - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa0Z6NmpTSEtxSnBJS2lIalM2QTA4SU5kNFFTamxNSF80c3kyOE81YTNLV3BVTmI2MThwZDRFSWVvQUtZNWVkbi1ycGRJc180Wk1SQnJBZkQ0bUQtVkVHeFpsWVpoMmFtSnFicWpSeWhjR0JkVjZPb0FDZVlITDlOaHc4U2I4OXF6SW9EYnJEUUZmOVJjTGZLaDRFRnJiUmw0Z08yMmJ4RFh5YnEwNTlIUjZORjZCbFZkRDY5cmQ0bXB3SnBWdURhak5TTVBiSHE5R3VGZFRZRkZBUlHSAeoBQVVfeXFMT0xKcmMtcktUd3FoTmhEanhZMDBjc0Z4NnFxUlN5azJMUVZUWmVBM3BKUGllT1IzZXVQeERqbmhfaHE1eHhRcEtIZDNFTWV5U2x6VUFrWDRiMEt6TEdSYUpuMThYUHlfSmFXd3BYbXFUYjEtMHBWdzRfT0cyc3N2Wmk1ZjFPLTBwSU52cEZSb08xRjJob29XX1BnMWNGWHFPRGdCSWt6dERzNmV6VnZJdXRXYXN3elppUDNkSkZIOXFhU04zelRFWUZBMGJHem5FWWhrLXg4NTY2NllrZnhxdm5sQWxQdmpBT25B?oc=5",
-          "source": "Informate Salta",
-          "date": "Tue, 22 Sep 2026 10:46:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "“Es austero”: Nicolás Dujovne analizó el Presupuesto 2027 y advirtió sobre los salarios estatales - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFdBbFk1NVpubnBZRWF2R1AxVU9SMTVGR19jWmJ3aHVBUVlNR2Q0NDZvXzc4clc0dWZ5Z1ZGR3FvNzZLbUVPYXNiYzFoNmF6YUdzb29ZSG16V1lWYWxYSGp1SkZoeHFOaktZMm9XZFkwa0o5c2EwUWplZzVKWlBoM3U4NVVyTzc3UUJtSGFrMExwbC1VamFXYjJVM0MwSEhRZkpKc3VRZHZscGw0WEdlQ0VYSERlMVBPY1dXLVdyXzBoaVNnOXRUdEhUYw?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 18 Sep 2026 02:58:39 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Fernando de Andreis estalló contra el Gobierno por el ajuste en discapacidad que propone el Presupuesto 2027 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONEhtSjVvZEsxNWZuZ3czajFUNThsLV8yeURtZUsxM09LYS1WVnFwMm0weHlDNTl1SmFJRDByR093YUY0cDVRMzE0MmNzRXh4Yk5xeVNmendEWktwcERVdUlvcjFWdjdqSElFSnFfZmpCcjJkOFRzMmpZU1BQUHVaaWJuVkFKY1hLeG9QZ1pXU1NRb1JGSzJWc2tERWtuZTM5SDZWUkMtbE5EbFlRYmhycW9JN1hOVVBnc3F2VEFZTG5VR1Z6clVMQjJsYXNLRE5wUldTSkUwcnJYVllnblE?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 24 Sep 2026 00:41:15 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Discapacidad: el Gobierno Nacional incorporó las quejas de los aliados y modificó el Presupuesto 2027 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00OUlhTWE4TktqZ25NaTZON0FvZlo3ZGJVa29FRFlsQURuSURmbmdaWGNZQkV0T09naHR2MTlCR2VtQnFWX29BemJLQ3dGU2pkeGN3Szd4bmpiRkxVV2VKai1vT1ZoZ1k3bXVvSTdiY08wRkFjbDJFZGNXR01fMHc?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 24 Sep 2026 03:00:56 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Quién es Pablo Di Liscia, el nuevo secretario de Discapacidad - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQODRmenlBMUY1SzFWWmpCTHlnXy1uLVhiWjlGMngydTNxSkRwQnl0cDR1NEpRWVhfZ2RoVzdJLW4zSmRvWnNoMlJKd0RmWV90QlB2TUcybzU4SlFEWGpxaE40VFd2a1BVQ0t3WHVWYTY0U0tvTGpDTFBScExNdjk3ODg4RnVpbHdMZnFCd195YlludjVOSXZ6VlJDLWw2SGRJbkdLYjdqZEZMcFQwSmpNN0MwODIwd9IBuwFBVV95cUxObkZObmFCb01KcFBiNHhvVDdjckxQOXE4SS1fb042MVpaMmNjNGYzUXNmNExFVFA1eEItTTE3NkJodnNaVVJNUVBtY2VyVUN3Tld4V2pJWDJabmNQY1NKZEI0QUxhMVRDZzZUVThud0xtdWw4M0dmZGVvYklYdG9hYzlabmhpRGU4Rll5dno4LVFmNldsenVKLXZsNURqR252MkFBOWRORE1EZWVraGRhak9NREcwcU9YQ1JN?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 22 Sep 2026 23:12:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "La cláusula que permitiría a Nación interrumpir transferencias a las universidades - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJIRkhyRWtZUUdkaUNDTzdGWGdQQ1NqTXZMWUFoZW9oYjdaMlF6a2VmTWxQdXRTQ3ZxVkhvbWk3UHNuSHY0bVJDdV9UZ2JZdUhVNjd4MHFndzluMGYtNjVFbFZTUjlVOEZDdFBOUXh5UGF4Qk9EUTZQcWxiZEtqUGlPTWxsUQ?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sat, 19 Sep 2026 20:24:30 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
