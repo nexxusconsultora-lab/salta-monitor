@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-28T05:56:47.420494+00:00",
+  "generated_at": "2026-09-28T13:22:52.488076+00:00",
   "by_politician": {
+    "sen-enrique-cornejo-saravia": {
+      "total": 30,
+      "positivo": 1,
+      "negativo": 6,
+      "neutral": 23,
+      "score_sum": -11
+    },
+    "gustavo-saenz": {
+      "total": 162,
+      "positivo": 15,
+      "negativo": 19,
+      "neutral": 128,
+      "score_sum": -1
+    },
+    "concejal-angel-ortiz": {
+      "total": 49,
+      "positivo": 3,
+      "negativo": 12,
+      "neutral": 34,
+      "score_sum": -15
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 7,
       "positivo": 0,
@@ -56,13 +77,6 @@
       "negativo": 3,
       "neutral": 27,
       "score_sum": -4
-    },
-    "concejal-angel-ortiz": {
-      "total": 48,
-      "positivo": 2,
-      "negativo": 12,
-      "neutral": 34,
-      "score_sum": -18
     },
     "snac-flavia-royon": {
       "total": 40,
@@ -126,13 +140,6 @@
       "negativo": 5,
       "neutral": 25,
       "score_sum": -12
-    },
-    "gustavo-saenz": {
-      "total": 160,
-      "positivo": 15,
-      "negativo": 19,
-      "neutral": 126,
-      "score_sum": -1
     },
     "dnac-julio-moreno-ovalle": {
       "total": 1,
@@ -231,13 +238,6 @@
       "negativo": 2,
       "neutral": 19,
       "score_sum": 2
-    },
-    "sen-enrique-cornejo-saravia": {
-      "total": 29,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 23,
-      "score_sum": -9
     },
     "dip-luis-gerardo-mendana": {
       "total": 4,
@@ -801,6 +801,26 @@
     }
   },
   "by_day": {
+    "Thu, 05 Se": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 28 Se": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
     "Mon, 02 Oc": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -8995,12 +9015,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 05 Se": {
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Sun, 06 Ap": {
       "sen-leonor-minetti": {
         "total": 1,
@@ -12231,19 +12245,15 @@
   "trending_terms": [
     {
       "term": "tribuno",
-      "count": 18
+      "count": 14
     },
     {
       "term": "eltribuno",
       "count": 10
     },
     {
-      "term": "josé",
-      "count": 8
-    },
-    {
-      "term": "garcía",
-      "count": 7
+      "term": "sáenz",
+      "count": 6
     },
     {
       "term": "flavia",
@@ -12258,35 +12268,39 @@
       "count": 5
     },
     {
-      "term": "mónica",
+      "term": "josé",
       "count": 5
+    },
+    {
+      "term": "garcía",
+      "count": 4
+    },
+    {
+      "term": "gustavo",
+      "count": 3
+    },
+    {
+      "term": "mónica",
+      "count": 3
     },
     {
       "term": "juárez",
-      "count": 5
+      "count": 3
     },
     {
-      "term": "sáenz",
-      "count": 5
+      "term": "plan",
+      "count": 3
+    },
+    {
+      "term": "voces",
+      "count": 3
+    },
+    {
+      "term": "criticas",
+      "count": 3
     },
     {
       "term": "concejal",
-      "count": 4
-    },
-    {
-      "term": "informate",
-      "count": 4
-    },
-    {
-      "term": "orozco",
-      "count": 3
-    },
-    {
-      "term": "denunció",
-      "count": 3
-    },
-    {
-      "term": "contra",
       "count": 3
     }
   ],
