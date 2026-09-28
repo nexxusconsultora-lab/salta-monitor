@@ -1,27 +1,35 @@
 {
-  "generated_at": "2026-09-28T13:22:53.491823+00:00",
+  "generated_at": "2026-09-28T20:12:54.542930+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 123,
+      "total_mentions": 129,
       "sentiment_breakdown": {
         "positivo": 10,
-        "negativo": 13,
-        "neutral": 100
+        "negativo": 14,
+        "neutral": 105
       },
       "sentiment_by_day": {
+        "Mon, 21 Se": {
+          "total": 10,
+          "score_sum": -2
+        },
+        "Wed, 23 Se": {
+          "total": 13,
+          "score_sum": -6
+        },
+        "Sat, 26 Se": {
+          "total": 4,
+          "score_sum": 0
+        },
         "Mon, 28 Se": {
           "total": 1,
           "score_sum": 0
         },
         "Fri, 25 Se": {
           "total": 8,
-          "score_sum": -4
-        },
-        "Wed, 23 Se": {
-          "total": 10,
           "score_sum": -4
         },
         "Thu, 24 Se": {
@@ -34,14 +42,6 @@
         },
         "Sun, 20 Se": {
           "total": 8,
-          "score_sum": 0
-        },
-        "Mon, 21 Se": {
-          "total": 9,
-          "score_sum": -2
-        },
-        "Sat, 26 Se": {
-          "total": 2,
           "score_sum": 0
         },
         "Tue, 22 Se": {
@@ -84,23 +84,23 @@
         },
         {
           "term": "discapacidad",
-          "count": 36
+          "count": 37
         },
         {
           "term": "tribuno",
-          "count": 30
+          "count": 32
+        },
+        {
+          "term": "informate",
+          "count": 24
         },
         {
           "term": "pasa",
           "count": 23
         },
         {
-          "term": "informate",
-          "count": 22
-        },
-        {
           "term": "intransigente",
-          "count": 19
+          "count": 21
         },
         {
           "term": "informatesalta",
@@ -118,6 +118,18 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Me indigna",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONm9YY053d3lSVER4dTk1eTdSMXdSUVQ2OW1KYm4wYmF6SkRpdVNHelhMekg2cy05bXVJN0k0QVFZVGFycHlPR2g1NUdCYlphbDJVbGIzRTVPcERPbWxUSFV0WlIydHAzS00tSG81VjZuTGYyZXVHT05QSmJyY2p6eDdZRQ?oc=5",
+          "date": "Wed, 23 Sep 2026 04:43:00 GMT"
+        },
+        {
+          "quote": "Le dije a Milei que tenemos que armar equipo",
+          "source": "El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFEtOHE3amNyQTFvN0Z0V0VVRV9oVEZ4aE1sQnE4ekNjMHNDVXN1b2NPZk56eGI0WFZBSzVYOS1ieWlERm9wdFNTY20yTjN2eF9LUHZ3VzBIa1ZuR21JZ0VGUnpVM1JDb2ZLal82eUloSERJLUxPREdUZGloVUQtMjhFYkxQdjcyN25nS3pUc2ZNaXBFOVM1OC01cGhnNDI0RkVnTnJn0gGrAUFVX3lxTFA3OGdOck5uRVl2VFRKSkxuc1NISUNGUFIwVWRfanl3TnNpaVdZOUgzQjZMbEF4STl3Q2Z4a2ZhTFFYNUdUblNibC0wZlNOVW03ek9mckFrQ1VhWGtlRmp4RnBPZWVRSFhocGk1NzVWMDlXLXdHREtKc0pQNFBwRndqNHBjbTRtTnpQWUFCbkJiZjI0Tkk1eWVkSnBwcjVfNmFGZVBpUmhyaGpxMA?oc=5",
+          "date": "Sat, 26 Sep 2026 05:04:00 GMT"
+        },
         {
           "quote": "Ponele el pecho",
           "source": "El Intransigente",
@@ -195,21 +207,51 @@
           "source": "Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKejhxS2FUUFczYnNNWmNTb1huQkhrZG5SbU1SMFVkTm1WbXEwel9WRzA1bjJvQzdrU19kOENpWHdQcWNJTW5qYnExcFh2akhTZFNJVGd5OA?oc=5",
           "date": "Wed, 16 Sep 2026 16:57:29 GMT"
-        },
-        {
-          "quote": "Es muy mezquino para Salta",
-          "source": "Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YamJ1SHJGdUNNV29lT2REbF9XY0dWNEQzTmdhS19WaXFBd3VGWTg1RWZkdHZxa0FycG0waVZDX0VjQnY4RWNlbmZlWHRsY3lFM1VZRFRfMG9UNzZ1Sno2UnhjN0k5ZDdobjFKenViOXRSdw?oc=5",
-          "date": "Thu, 17 Sep 2026 23:18:37 GMT"
-        },
-        {
-          "quote": "No van a poder trabajar",
-          "source": "Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU8?oc=5",
-          "date": "Mon, 21 Sep 2026 16:13:18 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Salta espera más gas tras un invierno con restricciones - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVUZQTjlkbWpsU1B3VDZrNlZHM3pkWXhXdXhsOC1aTEtWRFA2UTVKMEh0MEo2UU9XMW55ckd1WTgyTGVNdWpCZjZyTzJRWngzbDhjZXdpVzNEQnN1SEc2bGUwaW1qLWxsYVdhNEtJOHFoUnFSSG5FUUxTRDlzcXVJOFpTNDB6MDZKQy05YldjSTBFZnBpbV9FdHdNZDhaVl9ILWxyQlotRDJCSmU5cVlHSlZnS1BYa0V0MWpqR9IBywFBVV95cUxNWG9VWVRTSF9TZndCVGNrYlo1ZTRJdl83QkRpTDNQQllxS2dCa0RPM0VUYW1kVVNkVzUtOG9XOUdyaGNYbi1SQktjMHhtUVl5TjRPME9vdVdmbHYxbks4MUU1WWNFUGpSaHluS0I3Ny1Zc08wV1NEekRxRUFxdnJXMENJMmxjLTZQUEZQRXFETjN2U0ZNbWlzel9pdFdrdHQzY0lQUHVvYkJMakRla3U5X3R2Z3JoVDB0ZTJEc3U3MHY4V0JRMVFvc25YVQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 21 Sep 2026 20:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Alejandra Monteoliva cuestionó los fallos que frenaron el régimen penal juvenil: \"Me indigna\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONm9YY053d3lSVER4dTk1eTdSMXdSUVQ2OW1KYm4wYmF6SkRpdVNHelhMekg2cy05bXVJN0k0QVFZVGFycHlPR2g1NUdCYlphbDJVbGIzRTVPcERPbWxUSFV0WlIydHAzS00tSG81VjZuTGYyZXVHT05QSmJyY2p6eDdZRQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 23 Sep 2026 04:43:00 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Macri: \"Le dije a Milei que tenemos que armar equipo\" - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFEtOHE3amNyQTFvN0Z0V0VVRV9oVEZ4aE1sQnE4ekNjMHNDVXN1b2NPZk56eGI0WFZBSzVYOS1ieWlERm9wdFNTY20yTjN2eF9LUHZ3VzBIa1ZuR21JZ0VGUnpVM1JDb2ZLal82eUloSERJLUxPREdUZGloVUQtMjhFYkxQdjcyN25nS3pUc2ZNaXBFOVM1OC01cGhnNDI0RkVnTnJn0gGrAUFVX3lxTFA3OGdOck5uRVl2VFRKSkxuc1NISUNGUFIwVWRfanl3TnNpaVdZOUgzQjZMbEF4STl3Q2Z4a2ZhTFFYNUdUblNibC0wZlNOVW03ek9mckFrQ1VhWGtlRmp4RnBPZWVRSFhocGk1NzVWMDlXLXdHREtKc0pQNFBwRndqNHBjbTRtTnpQWUFCbkJiZjI0Tkk1eWVkSnBwcjVfNmFGZVBpUmhyaGpxMA?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 26 Sep 2026 05:04:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Malvinas: así es el proyecto que Diputados empieza a debatir esta semana - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQlZBdHhhNm1NTmlDeWtMTTVpTUdxdHdJU1gzYTVaMVRpemVlVkIzNWgtZnpoMHVNYXZsTEJ2VjM0akUwaG1PcXZQRW16ZHFob1ptOTZHdlVUb3o5NVNwcklsZVczNkFZcTV4UEZaZmFtbTdXWENkQU1Ra2dEeDgzZHFGX1Q5dXplQW9qRHpNWUx0RnU1d3psaGFrUDlWVDA4dDRLMGxyTDhPNDdBcVVLdTdRZlg2aUlKMFJZYlZQQ3BxbDVGUjhTYVhYeDZORkhnWlNN0gHiAUFVX3lxTE9USEFCWWd6VXRWZVBnTTZLb2htR3Z6RFdWQktENXJlVXF1OWJaUTVXbTZMWHJnNkhHUmltSnBWMkNPZDBldlc2elZEQXZ6VXY1TDVBSThaWTVCdTYzaUtVVmI1VUQ3Y2tpMHlhdm8tLXpnR0p0NXYzbm53NEx2T2VmbmlWcEFBMkVyTm1XbTRrTmsyRjQwN0NPa1JtSFI4QVhEM3pmekpHbjlzTWltcFlwTklIWXQzUGt2RWdQcXBXc1p3WkRWN1UydEZqaXpOeGNUUWNvNG9McjBNSTM1dlpLcXc?oc=5",
+          "source": "Informate Salta",
+          "date": "Sat, 26 Sep 2026 19:01:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Diputados nacionales de La Libertad Avanza visitaron la Casa de la Libertad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOallsdl9SaWRIUkE0YS1FdzR1VkdiOGphTkQ3SWJuZWEyTUY1N2lTakNpWGtzYWVZQ3lSZllhTnZmM1VUc05CZjFXVzVmV2pDNUVxMm9iWkpnM05CWERRVnFnSjJKd1VTeHFkQkRIZzhWaGZxV2VSeTBuWHFlSDh4eENzbjhIMmFFSDRwbS1RUXY0Wlo3Q0preVpyZ096TTZBRGw4eEJBbW1kNndQWmRPbzdlREpnZEdKMzZkT3VwN3FxZ9IBxwFBVV95cUxQLWhiNy1VNXVici1laDBudGVrbzJza1VnNy1nMW9xWE9KN1M3LUpYX2lJZlcwcUR0bklJc1BjdzJBelNYY21lTU82aTJqNnFUQUZ4am50TWN4U0hxeHV4ZEVQdXBwNXd3eWJyMENWWG5qSjdwRUc0eEFSdDRfMVlwMi1hZmUwTllvS3ljeE1LMHJQa0VvTkttOURwY0FRRlNpT002WlUxd1lwLTFRR0lEOXpkbnF1cXlNZjd4eHhHRGZqVHB1RUFn?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 23 Sep 2026 10:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Fuerte mensaje del PRO contra el Gobierno de Javier Milei por discapacidad: «Se equivocó» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS215b1ZybzZKd2R4dWhaazJVNTRtZS16RkxmMDJYQ2RYVlBqMmktR3VVRnlic2thdjJPNmMyQUIzYnp6aFVXWDVoczQtUktXV3JTTjByRkVza01vUzJwT2Vkem1KVFFQcnR2aWxBMHdZTFFsV2R1QkdNOVFFTjRSVHFUaVpRSUpmUS1pSzB5VTE5WElJV1IzdzRDSTFqT3NtZ1VYcVVtdFA2Qi1aamJIcDJ4a3cwdDU3amZXZUwwRS0?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 23 Sep 2026 19:38:28 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Sáenz acompañará a Milei en París: Salta a un paso de conseguir grandes inversiones - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fZUVtUVBlZ3FXckZYWHQzS3RwaTV3ejdLTWFKckVoU3FGVXFHV08tLTFodGNhYUZBaGJCMktkaDV1NV8weUhxaVNxZ1ljRDJ0QUtFcjltV19jazUyM0llei1lV1JvNV9FZW9ONkpjclRTQ1NQc3NB?oc=5",
@@ -377,48 +419,6 @@
           "source": "informatesalta.com.ar",
           "date": "Tue, 22 Sep 2026 00:37:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Diputados se pronunciaron en contra de los recortes en discapacidad: “empeoran las condiciones de vida” - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOcmg0QWllTXlCSzVpZWlsTE9OVHVqWlZ6RnJGSlR2OTFCeFkwVDROMW9ya0ZZbDhwT0dSaTFVTHVUeXVPMDZOa0pNVWtzM2g5amJybjhrNk5Tb2tBVXRHcUVTN3cyelhzNmFhLUJLQ3ZqVVhERnpjSHBaVjVqZEN5Qlo3dUVVdzZKSHhONEZLVWtBUFFXU2Y5WlN1R2xyR1hpbkFJUTZwaV81akE4bzdGdGs4VmVwVlN5aThwcWhQc2xDV0RDcXppMDFKRFpxTE9fdjZZWkRxUlNIM2YzWmlzdGh2Q25hZ0h1ZjRSeUhmN2xHYVhVTEd5ZUwyNmxHMzE50gGPAkFVX3lxTE9GcnlENGJVcDJVZEMxVUQxRDY4WnpRWVRCbFMtaXNpWFJDamY1VFRSSEMxeDNsTWo1clFUQXplYWN0WmtvcFpCSTY2RmFmbnF1QlNOV0VMVFNzV0FrbnFaRDU1amdYczNTektDUVhyMTNzRzlRQ1hJM2JaYzExZzhjSHhHWGtUcW8zdUFDWkhuX09VMnFNeHR0YzRLZG9tMHhISzBKNURQWnplTkJUd1lFRjc0eWRnenZYSGFDbTh2SVJTU2ZaYklrLU91ZGpabkhuaElyS3hPNE1QNWVxOXc5UFFvY0haQ1Y2d21IdkV5enRlU3RZbFFTUWl3Q3NMcGZIZ3BOMmVCN3RNX3dQRXc?oc=5",
-          "source": "Informate Salta",
-          "date": "Wed, 23 Sep 2026 10:15:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Milei empezó a mover fichas para 2027: invitó a Sáenz a una cumbre clave en París - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQelZTNkNlVkhmOXYzQUppXzlLNjc5c25RTXhRUFJidWU1YVdINjBBMFRnQnJyejEyZFhUbjI3ZUI3NGYyaEJCYlNTM3JkY2k1VXNrcDJLNG1YRU9kSGIteDFZXzJaSUhkeThBMnBDSnZMZUtVVU1ZZnBoVjFKSndmbFNIeDVaR21VclFabFZpd1pwZGZkWjNFRHlB?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Fri, 25 Sep 2026 17:08:59 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Javier Milei lo lleva de viaje a Gustavo Sáenz: qué agenda tendrán en París - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMEtkazdmLWhleWtqWlFNc2xRZklLVmFZZF81SjZsUVJSdDF4dFdzV1NoM3ROSy0yb1lTV3RjRjB3NmdpQXEzRmliYktncUt2UkJKcVRlXy1rZURIMXZIUlNPTFRheWZHM3Vvb3RBdHVaZDY5N0NlTi1fcGRpb0FTTnE0OWtLRS1JbjhKNGFvVm9Vd2s3Qkk0Zl9MRnNNVUY5NjhJa2dDRzZDVkg1SVhuQW1EQmI0ejBtWUQ3UUtTaWNoR0FzSHF2dVlrV3dqaVdwQkFVSE9KMNIB5gFBVV95cUxQSkRjWE92dXRyQktVUGd4U1QwUlB5bmFNZzVHaWdBbjhhYXpsbVljRTFraG9GT3M4ZnVCM3BmMU9mTW9LMDYxQ0N2ZlBiTGVGZGQzSzVaWEJnRnRkS05SaUF2VFRKLUZsVmdNc3FGWDc0OWFTNENGZjhYcjNDNmowLWpKSGZOTjVHMzlnSGtvdS1LdTdaSFEwZk51XzBoTkh3UWpqU1lwMVpYbUpQQlZuUUpMNlQwS3lqUUp1OE8wU0hUY3lvX21XajJpRk5CRk1oMTJHQVJzMjJ4Nmdaa3hQTHB2Z1RJZw?oc=5",
-          "source": "Informate Salta",
-          "date": "Sun, 20 Sep 2026 22:20:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Proyecto para una nueva ley de discapacidad: “Es superadora porque deja de ser de emergencia” - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeTJLX0N4REtueEc5TXREU28wYUxKeFlXRmNPU3dGdXd5Ni0zbVY5UWRRcGhieWVxXzAtZEJILUdybUZveThGRS00NW1FaklMUnlQNVBkM0dNWkVtMUVUazA5Ul9hdUpnRFc1bWNsVlU0SkNSd21QWmpvRVIxc1Q3bExfOVRjQnBwWVBLYkdmaTlRNjByOUxSdGU5VUxPSThtNFZPUlNXYWVmQ1pOTFlGYVpTU2p0MEZpWnJRdUZKc3lZM0R5TTgyUjZTYVR5aXhEZjItYU5yemRpbWw3dEYzWmF5UjB4MEF2N0ZER280TlZvWDBOcktF0gGGAkFVX3lxTE84RVY3T0I3SExXQ0psWTBuZlZSZ0k4Y2VtZzZ6azZHZW5CcHJVREN6eWp5VWVzTGpySUFFSFpsSnA2WENMQ3BGZ1hLeEVhczE1dlk3cHRSTjY2QVE3ZHgzbWsyendRRWo1UUNTdlJVNHNUTVZDZktmUDJtMTVHR0dKYzRXaTN6OGRMOFVYYzh6NXJLcWhjVG9jOWVDckJfT240N2F0ckNHTnEwclAyMU56ZmhZdEZseXVPTWU0V1Yxd01wNjltb2NoWTU4WU1FYTYyT29oVTNZTGpOeEhyNzZSb18wRHB1M081Y2dEc0d0ekw5V1lZaHMySGkzeTlUMEZWLTlrS0E?oc=5",
-          "source": "Informate Salta",
-          "date": "Fri, 25 Sep 2026 13:45:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Hidrotec compensa su huella de carbono desde hace 5 años - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR0pYUzVSckdLUC01aDdaQWh4bThqVjAxOEZIMm03VWcxVC1MWW5nVEIwOEZSQXZKVzk1YlVBNUd6OE5rZXRUdDc1cGdCSkY4cDNZRzctMlU4djdqbEM4RzVoUEN4TW1lSEdOMmN3TktWMjh5SDZBVDRFOXFEU1IzWUc2SUJiV2tTLXlKUFctVjdQckIyTGxGLTNoelRFTTd1R0lYTUhOcEVTQ2Y2SFNMYlVNYXBFSzNYU0JPc9IBywFBVV95cUxNWnhSQkppSV9lRmc0Y2hyUVIwUjF2YTF3MWhWN1phdmNXZWktV1ZBbExhV21ueDd3TTMtVlg2VXZEM1RNbDJ6U0hKSmdzem1objJrSndJbDVBaGJZbUl3alVXMGJMZFczajBtdG5scmFfRHdIdng2eV9tWDY4R3o1c042bWJlTlcxdUdVZWJiU1lMbXdoOXluZDlSNjItVFY1dnJaR3llcE9iWFF0N2dnQkluNEQtTnJCTGhPQWJrLUpZLVM1MUc1MWoySQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Wed, 23 Sep 2026 15:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Diego Santilli y Leandro Zdero se reunieron en Casa Rosada para coordinar apoyos al Presupuesto 2027 y la suspensión de las PASO - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZk9rUDFXZVVfVDAxdFNBNkRKb3I5MU0zSy1NY2dzMW9Yc3NiamZoMmhxTGZITlhSQlVqYVhmZEw2a3lwbkVzemtTMUdaOGszY2lPX2trWUdFWTdIeC1BQk5ZbVhSX0V1T3pUU24zekdPbDNwVHFqNm9DQTh6eEhmRGlyc0xBbzRzNGhVdVlieW1QSURtVGkzWnNKMEt4blIwSUJVYUF5M0FCdHFMOWNFYXhYeFpDZmhybGlrTWlHbmV6Y0J2aE1tRW9Wck83SVBqWnZZRnYzM05oTmhJQ040YmtvN3FoRVY2WDlWYTJDZ2lIMmJLdHd4YQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 25 Sep 2026 00:23:22 GMT",
-          "sentiment_label": "positivo"
         }
       ]
     },
