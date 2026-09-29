@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026-09-29T06:01:49.269430+00:00",
+  "generated_at": "2026-09-29T12:44:43.748596+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 134,
+      "total_mentions": 137,
       "sentiment_breakdown": {
         "positivo": 10,
         "negativo": 14,
-        "neutral": 110
+        "neutral": 113
       },
       "sentiment_by_day": {
-        "Mon, 28 Se": {
-          "total": 4,
+        "Sun, 27 Se": {
+          "total": 2,
           "score_sum": 0
         },
         "Tue, 22 Se": {
-          "total": 14,
+          "total": 15,
           "score_sum": -2
+        },
+        "Wed, 23 Se": {
+          "total": 14,
+          "score_sum": -6
+        },
+        "Mon, 28 Se": {
+          "total": 4,
+          "score_sum": 0
         },
         "Fri, 25 Se": {
           "total": 9,
@@ -28,10 +36,6 @@
           "total": 10,
           "score_sum": -2
         },
-        "Wed, 23 Se": {
-          "total": 13,
-          "score_sum": -6
-        },
         "Sat, 26 Se": {
           "total": 4,
           "score_sum": 0
@@ -39,10 +43,6 @@
         "Thu, 24 Se": {
           "total": 7,
           "score_sum": 6
-        },
-        "Sun, 27 Se": {
-          "total": 1,
-          "score_sum": 0
         },
         "Sun, 20 Se": {
           "total": 8,
@@ -99,12 +99,12 @@
           "count": 23
         },
         {
-          "term": "intransigente",
-          "count": 21
+          "term": "informatesalta",
+          "count": 22
         },
         {
-          "term": "informatesalta",
-          "count": 19
+          "term": "intransigente",
+          "count": 21
         },
         {
           "term": "obras",
@@ -118,6 +118,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "máquina de chocar",
+          "source": "informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR3hYcXdSTXh2VjR0bGtaQnFJR2RJQWt2OThfdjVjSDFFUWIyS1o3eGctbzlVbjhHNDUyMlBUdUZFX3hBWjktbE9NR0dpWnh4Q0ZkQ0dKRWV4REFHZHVvcW4tUEN2Q0xHSzVuUERhcEQ2TUplZDFRUjJvOWZPT2tJaG5uVzQxWE9ocERlSUo1MV9ndFoyNktaSFlPb3o1R3FKYjNnY3ZSMHByLTNhTFh4SVc0ZndWcUNvQVJQX0FWUUhXcE5HRUJHdmJCRENZRnl3QzhZbWpVbnFGOVB3VGdzZmYzQVVkR19KSjdrVEYydFF0eUViVENtYdIBhwJBVV95cUxPN1BsM3M1akRSNHJHWjVTNjZfenF5NFZFa1N5S3BCd1ZsUG9pTW5nZk5xZ3dOc2pNTklkZllxcWlwdUtaRUxGdWQzNldxUVdBR0ZYRnNhdTVldGNEZVR4LVZWMU1Bc3MyTE9UTDhpUTR2ZDF0Wl9oWWhwUjFrYnlFVjd3anRQMGJGNWVRQXhtQTUxZXYwYzhFQnhDRkdkbmRGUS11b3BQUWZuX1BCbl9OVkVQamxuMDJzMDdVbkpWT1o4UTlFTGE0MnZMVGNOblNCUldFcGp0NnFyQUdLZk12bzdtSExoNy1ieWdnQm1CaVpNa0REN0gtNmdwN2R4ZTNYWFlrMFJtTQ?oc=5",
+          "date": "Sun, 27 Sep 2026 13:53:41 GMT"
+        },
         {
           "quote": "tenemos un año complicado hacia adelante",
           "source": "El Tribuno",
@@ -201,15 +207,30 @@
           "source": "Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdEpRZkpwWG5aeFBIeV81YlpraENrbnBsci1acVJOLTBVWVNYMklTZDNPM2djQWRUcGUwSkRWM2JILWZsakpEMUxCSE1hZXNTMXYzQ1h5YmpNVXZRdEVJX2U1X3RRbmRhNTJ2dzdOYXhPRUJ0ODkwaVhkYXoteVZ5SGxBbGFhZmtvbzdSQjdnUUpQU0ZRRlJQbWZ5bE9uVjd0a2tzSWdvUm90eXBCZmpMQXpUSHNzLVBwNThWc3VPSHA4NFNpN3JDV1BIbTd1SXJyX0J4Q1dwNTZNTkXSAeoBQVVfeXFMUHlVNXc2YlZET2FETjlGNHJWcEFqdTZPMU11YzJKQkFCTHpDNWlKSEl2bTVMNVQ0dGxNYndwZmNWSzJXVFIycThpRFM3c1d2V2xlMUQtTGxFX0dRODRaQVhWUVd1RXc5dHE5cUxERzlybUZrX3pVVUNySTBJRjg1bzYyR1NhS0lDM1F4SVpkbE9Gc1NSZ1Rjc0JEVjZqZnRzX2thb3dTM3Vtc1A0SGVwWHJyVlhFakhlNERTVUNQTW9zajhRSDk4bDdlTGtlak50dkZvZnhKZmVYeHExanlqNFFhMEVQRGh6cUd3?oc=5",
           "date": "Tue, 22 Sep 2026 17:00:00 GMT"
-        },
-        {
-          "quote": "Como está hoy hay que repensarlo",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjBVM0ZIQmZQVWthX3BWaW1BdWpVV1dCeE9WSHdvS3JONlkzMUFRR01wdDNxSE1ldENZQm5OOXItcEtlN1VoWHlpNmh1MkcwMFZwdEtJeDF3c2JFUDlJanVDc0dubWVQejRmRktvZVhpd25LQzVPZDJWSjVldDRLdVlPWnAtdGE1LWstYVE4d3BhSG1GVzJVSTVkYXl0UFY5WWFjX0twYmx1UjY1Z0V3SkttQ2tTckJQR0g3WnlkcExTbGVU?oc=5",
-          "date": "Tue, 22 Sep 2026 01:04:18 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "La \"máquina de chocar\": aceleración de los cortocircuitos entre Bullrich y el núcleo duro libertario - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR3hYcXdSTXh2VjR0bGtaQnFJR2RJQWt2OThfdjVjSDFFUWIyS1o3eGctbzlVbjhHNDUyMlBUdUZFX3hBWjktbE9NR0dpWnh4Q0ZkQ0dKRWV4REFHZHVvcW4tUEN2Q0xHSzVuUERhcEQ2TUplZDFRUjJvOWZPT2tJaG5uVzQxWE9ocERlSUo1MV9ndFoyNktaSFlPb3o1R3FKYjNnY3ZSMHByLTNhTFh4SVc0ZndWcUNvQVJQX0FWUUhXcE5HRUJHdmJCRENZRnl3QzhZbWpVbnFGOVB3VGdzZmYzQVVkR19KSjdrVEYydFF0eUViVENtYdIBhwJBVV95cUxPN1BsM3M1akRSNHJHWjVTNjZfenF5NFZFa1N5S3BCd1ZsUG9pTW5nZk5xZ3dOc2pNTklkZllxcWlwdUtaRUxGdWQzNldxUVdBR0ZYRnNhdTVldGNEZVR4LVZWMU1Bc3MyTE9UTDhpUTR2ZDF0Wl9oWWhwUjFrYnlFVjd3anRQMGJGNWVRQXhtQTUxZXYwYzhFQnhDRkdkbmRGUS11b3BQUWZuX1BCbl9OVkVQamxuMDJzMDdVbkpWT1o4UTlFTGE0MnZMVGNOblNCUldFcGp0NnFyQUdLZk12bzdtSExoNy1ieWdnQm1CaVpNa0REN0gtNmdwN2R4ZTNYWFlrMFJtTQ?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Sun, 27 Sep 2026 13:53:41 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La baja natalidad en Salta estaría ligada a un contexto socioeconómico - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbE4ydWRNOGNkVUFsWmNXVTJyaVZvMjBIUUoyVEdWdVBQVlpEczRocUFxakphUHB2Sm4zbVh0LVBpMkNMaTMzUEZvTi1halJyeU8zbTV2d3I3WVdRQ1RtZWx0anQ2dWFwTGxIZ21DV21wUWNzZWhfUkpqRnotYW82OW9tSEFvN2JMVnd6aE9XR1pGSFZCVXFXd2Jwa2llWHpsRkQyQngwVnhOUVhlM2JlZW43Nkl3c2FPc1JvTzZRUHhVS0c0SC1GS2hKUmZCYjlTNzd0LXNpeEvSAecBQVVfeXFMTk5Gelp3Wkg2Y0NBVkN0Q3NHek1HTzlUOE1YWENzNS1jUFc1dXlockozMnJWWE5VWXNoTmgtdlk2UUh3S2NtZDZqdEpubnZlaG8xZ3huVi1JWDFCY1Y4OVBaWUEtcVBsQjNHUlpralNCbkl5bzVFRjRWZ2ZkTjFvZjkxYVdjcnNRRW9mdHd4NngySXA3eEN2eTIwenNjZnZob3hCTGlNNWlIMWJBeEZKanNoQnpKaFNnMGdrNHk5ZjZLQ1hUV2k5M1I4bXBmckhRTEhHNUVFZXJEcnYtUEtJRzh1Y2hZQVJZ?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Tue, 22 Sep 2026 16:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Inscripciones: Educación analiza un sistema de turnos electrónicos - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3dhbVl6a2pLZzVYbnRJcDB2MU9tVFNqeHBGMjF5UHRiWlR2U19OOTNROE9wbFZ1U2JZYkFSeUtyaGtjRk9Pa0dyTGVWMmNuNnd1WWp5NjhnaEQxb1lDWTl5LTU0eDA0bnIxWDVhN1N1OHkzdWRmMEE5cExORi1HcERUb19tbnR0WVR4S3JtX1RtUGV2bTRrTnRlb29HYjNNa1Y3TFdDTVBrZ2ptXzFDYVVPWE5nMXVlX1B2dlE1RmxwQ2NaM1RBZnJUSnJwVm9VT0w4Z9IB4wFBVV95cUxPdVRnUkQycWxub3E1LTlPQUZORzk5OF8xbWRMWUY1cmtWNy1rSGlUOTQ1YlhqeTN4aHR2aGlzNDFwNGdJRXJlWFFtUkE2MHFIS1FQTHVLMm9lRTBXZGxpOS1jbXhGTklpbjRaclpXbUtTb1gyV004YVFRbzdxOUFhZks3d2JybEI4UmNSMjZoVUVjUHF0a1Q3emlrdlJVTExRYWR3T0V0M0h0cTB6UGZTWUY2bDg0LVdhSEtDVjloNlhldEM2R1RpSldkaThYQWJ3RGthR1d5eEhaYXVCSTZPT3lwQQ?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Wed, 23 Sep 2026 13:15:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Gobierno extendió hasta 2049 la concesión de Aeropuertos Argentina - informatesalta.com.ar",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUXppZ05IbkZuUmlrRVNmU29vaFc1TjRpVFVkSU44VEh6d3VpeXQ4dU1DdXRFaTd1M29kajdSZXJmTE1LZFNWV3ZxR25FY3pReGNtNTZhQ0lLbENJQlVvbHdqLWRWcGRuank0cDA1UzktTjczb1ZuekhtNnVwMnZKUUN3SzFLWlhxM3d2UDFXc0VSTXExYkYtRU5kYXowY3l6c1MtNTI4T2JrbmNlaE5BVDZDSVhfamwtZlphU1hBcWhVdU03bjVCbGJWazdBTnPSAd4BQVVfeXFMT1NZVlpiQm8zNjNBc3pLZHNRYlYwRXhmeDFZTXBSbjFzWUVBUGRfdGcta0ZvWUNVTFZxYm1Lb0tHdldCMUJVaU9TQW5kRnhTeGlFU3kxYTdCTUhNWHBHNXU4UWFOa3B5Ymk4UThLX05nV0U0R3JIZ2xuak4zTXpScHZsQk95MHR1TWhpWHphNjNxZ2JuVGRpVFlPLWVYb2RGdFhkWDFILVFnanVoWFQzYjZpeDY5ckJSZkRRNzd0YXRiREp6YktUbDc4UENWbzFodXY5bEFnaWJoc29mcy13?oc=5",
@@ -397,27 +418,6 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYUYyREFyZVBmS1loeDlFTUtEUVZwblpvNHdaR3JEamlybVpUemc5cnVWUFVWV1UtcTdPaHh1a1FJNTNtdFQxd1JvY2FBaTljazJTYV9VU0pHMUtOalpkMWtRaXlpUFA1YzZkTldnSzhZN3VsemItQzZwMVZ0ek9Vc29DcXQxN1NtQnF0XzJhV3FudkdvLTI2MHVnS2o?oc=5",
           "source": "Que Pasa Salta",
           "date": "Sat, 26 Sep 2026 16:28:51 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "presupuesto 2027 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdzBsWnU2bzdncEI2MFFKSm1XTENwUjJ0eVJ3X2p5LVpxT0F3M0JNWFFxWXVCN1hfeGhKWVRxQjBOM1FSVWhWTkRfVnB5dV9yV0syM0QxM25GYlY4Unc?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 26 Sep 2026 16:38:49 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Renunció el secretario de Discapacidad y Victoria Tolosa Paz salió al cruce: “Justo cuando había que explicar” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYmhJbnhDT2c1SFlhUk95cVU0LTMwbzBKN0tYQTdVWU5ScDdwN3B2TW5pMGhwZXNnR2gzYTRzREk0UlJENE1NNVRORkx0bFA5cXVpZWx1VDN2MWtnRUUwd1dTRXM0TzF1ZGJvUnV1NU9QQ0NqZnVSN0dBeS1IdGJjNUlUNzFhNlpwM2x4NFlqVW1TeTU0ZnV5WVc4WXFMMnFzeVJVV0V4SXV4c0EwQ3c4bG1FRS1ib3FOTnN4R051amFtbGV0RHJudFpwV1F2SGF1dnVJbENwejBEeTVu?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 21 Sep 2026 23:03:26 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Alejandro Vilches - eltribuno.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QTk5WRjhkUDZVWWd3R0xOZ0k3NW5QeGJLd01fdm5EcWd2Mlh6UjZnaUZsV2xKSVZNdkpsTDR2bk51bjlsSUctY3p2OXBlUzFTLVdUdEUxX2hoemlo?oc=5",
-          "source": "eltribuno.com",
-          "date": "Mon, 21 Sep 2026 21:19:49 GMT",
           "sentiment_label": "neutral"
         }
       ]
