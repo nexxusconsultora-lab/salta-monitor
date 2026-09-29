@@ -1,17 +1,29 @@
 {
-  "generated_at": "2026-09-28T20:12:54.542930+00:00",
+  "generated_at": "2026-09-29T00:25:54.362394+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 129,
+      "total_mentions": 133,
       "sentiment_breakdown": {
         "positivo": 10,
         "negativo": 14,
-        "neutral": 105
+        "neutral": 109
       },
       "sentiment_by_day": {
+        "Tue, 22 Se": {
+          "total": 14,
+          "score_sum": -2
+        },
+        "Fri, 25 Se": {
+          "total": 9,
+          "score_sum": -4
+        },
+        "Mon, 28 Se": {
+          "total": 3,
+          "score_sum": 0
+        },
         "Mon, 21 Se": {
           "total": 10,
           "score_sum": -2
@@ -24,14 +36,6 @@
           "total": 4,
           "score_sum": 0
         },
-        "Mon, 28 Se": {
-          "total": 1,
-          "score_sum": 0
-        },
-        "Fri, 25 Se": {
-          "total": 8,
-          "score_sum": -4
-        },
         "Thu, 24 Se": {
           "total": 7,
           "score_sum": 6
@@ -43,10 +47,6 @@
         "Sun, 20 Se": {
           "total": 8,
           "score_sum": 0
-        },
-        "Tue, 22 Se": {
-          "total": 13,
-          "score_sum": -2
         },
         "Sat, 19 Se": {
           "total": 19,
@@ -84,15 +84,15 @@
         },
         {
           "term": "discapacidad",
-          "count": 37
+          "count": 38
         },
         {
           "term": "tribuno",
-          "count": 32
+          "count": 34
         },
         {
           "term": "informate",
-          "count": 24
+          "count": 26
         },
         {
           "term": "pasa",
@@ -118,6 +118,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "tenemos un año complicado hacia adelante",
+          "source": "El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQ3dURGJaVnAxZlpCZk5sX1dRWUE1ZXJPMkx5N3FOVWRYYVd5MkVDRUdQZ2dSOU01OXBxeDNvTkFXWTVTb3BOLWNJOURCMURWWmhCZUYxcm1nTDZVVTRMd0dOb1E1b05Qci02OFVqSWRuMVgxRkkzaGFzYWxFdnhvUkpmcEhzeWd4bUgxX05mQk85UnQzN2pFR3RLMXJZVVBEeHlWTHg5SlI0TjFPTkZVYzl1Sl9jOE1aOEhqWWhvYkxEN2o4TnBzOFlubG40ZWlYajJ5Y1hHNnFfSXZvc1R0Q1NqQ3NMeW5mR2t1Ujh3?oc=5",
+          "date": "Fri, 25 Sep 2026 19:07:00 GMT"
+        },
         {
           "quote": "Me indigna",
           "source": "El Intransigente",
@@ -201,15 +207,37 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjBVM0ZIQmZQVWthX3BWaW1BdWpVV1dCeE9WSHdvS3JONlkzMUFRR01wdDNxSE1ldENZQm5OOXItcEtlN1VoWHlpNmh1MkcwMFZwdEtJeDF3c2JFUDlJanVDc0dubWVQejRmRktvZVhpd25LQzVPZDJWSjVldDRLdVlPWnAtdGE1LWstYVE4d3BhSG1GVzJVSTVkYXl0UFY5WWFjX0twYmx1UjY1Z0V3SkttQ2tTckJQR0g3WnlkcExTbGVU?oc=5",
           "date": "Tue, 22 Sep 2026 01:04:18 GMT"
-        },
-        {
-          "quote": "Presupuesto 2027",
-          "source": "Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKejhxS2FUUFczYnNNWmNTb1huQkhrZG5SbU1SMFVkTm1WbXEwel9WRzA1bjJvQzdrU19kOENpWHdQcWNJTW5qYnExcFh2akhTZFNJVGd5OA?oc=5",
-          "date": "Wed, 16 Sep 2026 16:57:29 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "El Gobierno cede y avanza con un proyecto \"superador\" sobre la emergencia en Discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNemdqTDFoWFZ5cG9FQUJyMWhIelVsUmlSS1dpS0ZYeHF0RDNyemdvMVRvb3BLeWwxc0E1MURyaURFTWhpcFdoeDg3dkw3Smotc1NTckpKWDNuWUhhaS1WOW4xd1A4akJQd0xOZEhzaFJMY056amdrcG5uX0I2cHRKNzBZUDE0N2t5MnRyMXhCSWF1ZGNVdk1wNGtRQ3dtSnltRG9nd3pwOWtNajhvU08waUM2N2RXQl90WXNfdDlBeGM3S0dOSDVpanNtUTBYM1BrOG5qSHhYTGpMUdIB3wFBVV95cUxQMm0wdmU1clQ1M0h0eXlXUEFESW5PRkhLSjJZVUpoNWtkRTJBNnJ0bWcwbVlWZERNNzRJRUdGbHlXNTllaVpJaDdoeGVwT083TTd0M2RBS1hIUlFzZVJHaGJmQXcyakFmcno1OU1TLVdzWERVcG55Ny00Y1I2Sm9wdFlDbXVScjVmQW1GeVRjR1pvWU5lSkMtSUlvdGV1aTJfcG9LS052b0oxdkNPUjNnNmZaT3R0QVlZN0tDREg4VUdZNk80Q3NEQk5kbi0tRzVKUHJ1WFF1QWo1OGpMdjBN?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 22 Sep 2026 22:36:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "VIDEO. Dib Ashur advirtió que “tenemos un año complicado hacia adelante” y pidió \"eficiencia\" en los sistemas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQ3dURGJaVnAxZlpCZk5sX1dRWUE1ZXJPMkx5N3FOVWRYYVd5MkVDRUdQZ2dSOU01OXBxeDNvTkFXWTVTb3BOLWNJOURCMURWWmhCZUYxcm1nTDZVVTRMd0dOb1E1b05Qci02OFVqSWRuMVgxRkkzaGFzYWxFdnhvUkpmcEhzeWd4bUgxX05mQk85UnQzN2pFR3RLMXJZVVBEeHlWTHg5SlI0TjFPTkZVYzl1Sl9jOE1aOEhqWWhvYkxEN2o4TnBzOFlubG40ZWlYajJ5Y1hHNnFfSXZvc1R0Q1NqQ3NMeW5mR2t1Ujh3?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 25 Sep 2026 19:07:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Sáenz acompaña a Milei a París: Minería e inversiones, en el centro de la agenda - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQk80MVFFRGt5LWJTSmZydlR1X0I5dHpNUmJTbFE3SXBsd0ZXNS1JRWNGQm05U25zUi1RYXhMeHI1R0o1eEg2TndIQ2YxZXJvYWthSXg1YXp1enZNUi12S3h6MHp0RDZ3eHFjUzd1a01yQm5NOV9LUEhtdWh3OHoyem5oY1FSOVprWnluYnBscDY5RjJHMUM4RHlmSXR2VGI5b3ZucGxmdEtET2h1eERLY042MzEyR1AwZUhROHNncW1VZFdVQzl4bjg1Mk1lN2QxSUFvVFVNSExKMXduQkHSAewBQVVfeXFMUERaN1NhX0RsaU1SUUV4ZUt6MXpPVXBiQVVwTXl4VjRac0xnUC1xOUNkbEZPZ2hlZmM2MzJDUUFab0tlYV9Ta21lR3Q0SUQzVS14Q19jb1lEN3AzLWl5NTdGZDdxOThadG9mLVcxbWpMNXJJZkFMLWFnUGlpWGNZUlF0ZFNKbGx6V19COFZyUXVSQjg1N3RMb3VJWjhRM0swaXh4U2gxQWJzcTFUcjB1dHVSWVdwajBQNHJWbTdDTmp4eWpMczNtVnVwRlI1Yi1wYUxGYlpRck9GVWdwRVJKOXRBVXJMMlo5NGEzcjI?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 28 Sep 2026 17:04:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta se prepara para El Niño y reforzará recursos ante la falta de asistencia nacional - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbXFpRHd4YWV3bEZWMUFXSWVZZHJ4S29ydjVOVUhvejVWNm9RSnhhcGZjeG1SUmozVzNjWWNrSEh2cUxzMXJxT0xwX19kejd6dHVqd3QxMDZCTlktVkpibnlzaEdpaEZHaHFLcWpVdEtSOUpEZWMyY1c5aVRpM0xPN3ROSDJMZjlycUNPVms0RmRjeml4Q0RIOVhFRjR2UVgtX25JQzU1bDVrUXhYdDRySnY0SFRUTHpTYzlPRzdDUUlzNDNwS2hyaDFWYW5aV20tdm42Q1k0aDFqaEtlYzc3YlBPTdIB8gFBVV95cUxQNXJwa25tQ3F5b1RZWlFuZDVzR3hOdTJadUdBT0l6eXM1ZFBvVE1zSm45S1I2WjBoUUVfai1YZ1FtYnRSTU9FYURNbFdURFMzX0YtS0ZXOUtHb1NPd0NHeGkxYTF2ZEx4S2k2Y3NDNHJ0dDctcm1fYkJvQ0ZHVklPZkI1ZlBSeDRJMkZOUGxMX2FyYkx1NldBS3UzQWg4RlVHZmhmNnN4cHl6U2RHZGpLSmdTNHBwbzEza1huLWlTTi1hcW94Y2JzV0JYMksyMVdZcmV0N3hXZFNaYnFSbHpzcDhfZHRZdWs3ZjFuNFlTUFZQQQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 28 Sep 2026 16:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Salta espera más gas tras un invierno con restricciones - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVUZQTjlkbWpsU1B3VDZrNlZHM3pkWXhXdXhsOC1aTEtWRFA2UTVKMEh0MEo2UU9XMW55ckd1WTgyTGVNdWpCZjZyTzJRWngzbDhjZXdpVzNEQnN1SEc2bGUwaW1qLWxsYVdhNEtJOHFoUnFSSG5FUUxTRDlzcXVJOFpTNDB6MDZKQy05YldjSTBFZnBpbV9FdHdNZDhaVl9ILWxyQlotRDJCSmU5cVlHSlZnS1BYa0V0MWpqR9IBywFBVV95cUxNWG9VWVRTSF9TZndCVGNrYlo1ZTRJdl83QkRpTDNQQllxS2dCa0RPM0VUYW1kVVNkVzUtOG9XOUdyaGNYbi1SQktjMHhtUVl5TjRPME9vdVdmbHYxbks4MUU1WWNFUGpSaHluS0I3Ny1Zc08wV1NEekRxRUFxdnJXMENJMmxjLTZQUEZQRXFETjN2U0ZNbWlzel9pdFdrdHQzY0lQUHVvYkJMakRla3U5X3R2Z3JoVDB0ZTJEc3U3MHY4V0JRMVFvc25YVQ?oc=5",
@@ -390,34 +418,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQTI0MFQtNHJSeE9UMzdnWDM4cllXVnhBXzlYMUJZUGdULTh3NjM4M1haSXpiVmdpdTBnbEx2SjZkeGY5akZyZ1Zzc2c0VFhpMGtBMl93Qi0wcUdRZXg3QlU1a3dwM1BqUGpBVW52YVRDWWhWNzdBZFVxUzJZLS0zc1VkYl96OU54dnJWUHVNM3RGUlV0S1E?oc=5",
           "source": "Que Pasa Salta",
           "date": "Tue, 22 Sep 2026 11:15:42 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Pablo Di Liscia, será el nuevo secretario de Discapacidad de la Nación - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLThSd3VGdGpKUF9nSzNqN1ZVQnRnMWd2b2ZuOFg0cHppV1htVlVfdmpuc3NVUjIxQS16UmZnWjRsZmFPOGJoN0FPbjFBc1NIdEpTU190T0RNR012ay1WaHl4VGNEOFR1bmtGek5RcXRlQTA5c1FzeGRidTJmNC1lTHVKRjRQQU1BbjliRUhwN09YQmtnSXF1eXNrSDNZNk9tYzBWY2tXME1xZ0hMQ0tOYnA4THlxOWVHNUx4OXpGNzBTSGtTS2lodHRuRjFrX1Q00gHfAUFVX3lxTE1HN1R3WWxYOFVpS3BLQ0JrclJLZWxuN2F3Ymhpa2g0VmhGOVJ6eTVEUFVqTklwTHVpQ0pvcUhKcFZRcFoxRVdqUzdwRDYwUkRrT0c5SFk0TUdvU1FFb2l4OU4xTkl5MHBhN3gtZ1RvX2l5TjluRHN4LTloOTlxRG94VDRuV201MUpXSTJ4aUNaWlJwcWxmUk1qWlFURWdmN0xFeDVIeTV3amZMdVRVaDJISUIwa1lvb1Zra2Yxa0RKX1FkZVM4cXJHRkxIUFdJeE5jUmN6ZEl6OEhDbVk1Yzg?oc=5",
-          "source": "Informate Salta",
-          "date": "Tue, 22 Sep 2026 21:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Luis Juez se quejó de los cambios en discapacidad y pidió que el área no sea \"motivo de canje\" - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWi1qWEFqWnhhWWhMdG82cFNGRm5xdDdoMloxTWRtN0FXMGtlNnVGU2phWm5LbVlyM2pJUkNFVmd3REIwQjZ0Q0k0bzA1TXJNZXhLZDRpYTE1NFZLcnRLcVF0d3BrWVcwMVRWTEVhWXBuM3NLWWNPUlFDZGwyb0FpNEZUSWQ4Si1pTnNJTFp1aHNZY2Z4MGF6R1NmcHZaS1dhaVNGVE0xMGpXNVZ4ZGpMTDRwYzJMdks0cnVXRzh1TUxOSV9XaXFNRw?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 19 Sep 2026 19:21:47 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Gobierno Nacional cuestionó el dictamen de Discapacidad y busca modificarlo - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdkpDZHFQX2RaUXhZVHBEb3BKNHduelU1VVRFdG9qX21pbXZ2LURoM0RBemMxMC1WekYxVUJVb014Nk5UTkVaMnlUWHhTejIxQVRqVlZ5alJVWDhLVFJQUU5JNWdibEE3ZzQyZjhDY040V0ZRbjd4OEZzWmkyZUN1V0Z3?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 25 Sep 2026 22:01:57 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Milei echa a Vilches un día después de que La Nación revelara un faltante de 150 mil millones en la ANDIS - informatesalta.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOQU1vSEFfS0VzRWRtaTFXbjRMWXdCalJDQURtVHh4WEJwd09sMWdIaUdDQjRwWUd6ZWdWbmplcmkzQW1pWVppalQ1UTF2YzY1cGxLbE9iLVhOazhsdGlQWFFIeTd1NG10clh4X2d1RHAyZjF0dzg5SklHWE9FM1BybGhBOUEyQmFWNjlCLUpXcjY2M0RzV2xROUwtNnZldS1BNTJjSkhUZG5FUlBRVXRxU25kTDZHYWpCV2tNZnlKSnlERDhibDY0ZHk5enBCZFIxU1B6cmx3YXotTFY0Ny0wbEFZeEhLRmZHb1NpZVZHeHRST1UtM25wdUN4QU5QMDDSAY4CQVVfeXFMTzlCd3hlS1lmdktfUEU2b19iMGk5TVdwVW9VeUQwNTM4dzhwLUg5Nkl3cWZwdnVvaDZvdEdqQ2tJRkNaTGhIMy1IcWdKNTh6c2xJZ2V2RTJzNGkzWFNEUU95bUJvenlCTExKT2VUVWFGaE9CTENILTl4ZDdLVWxnQnhDSVRwRWljRzd1QXY1S0kzWXZzNmIwSTBIcWJmdW1wUWk0SXhWaEtfQ3EtVEZNc1pTVWxGdmx4QTQ3SHI1aEh3T2RUM0paT1ZXRVRDcm53bXYtRGxFY3k3VWoyU0NvSDEycWFkSmY1SjZId0dFcVpiMUYyS21yRTk5eUpEV2hQVUFtM29DMGxtWkdfUUtn?oc=5",
-          "source": "informatesalta.com.ar",
-          "date": "Tue, 22 Sep 2026 00:37:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
