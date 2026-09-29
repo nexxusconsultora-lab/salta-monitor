@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-09-29T00:25:54.362394+00:00",
+  "generated_at": "2026-09-29T06:01:49.269430+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 133,
+      "total_mentions": 134,
       "sentiment_breakdown": {
         "positivo": 10,
         "negativo": 14,
-        "neutral": 109
+        "neutral": 110
       },
       "sentiment_by_day": {
+        "Mon, 28 Se": {
+          "total": 4,
+          "score_sum": 0
+        },
         "Tue, 22 Se": {
           "total": 14,
           "score_sum": -2
@@ -19,10 +23,6 @@
         "Fri, 25 Se": {
           "total": 9,
           "score_sum": -4
-        },
-        "Mon, 28 Se": {
-          "total": 3,
-          "score_sum": 0
         },
         "Mon, 21 Se": {
           "total": 10,
@@ -104,7 +104,7 @@
         },
         {
           "term": "informatesalta",
-          "count": 18
+          "count": 19
         },
         {
           "term": "obras",
@@ -210,6 +210,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "El Gobierno extendió hasta 2049 la concesión de Aeropuertos Argentina - informatesalta.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUXppZ05IbkZuUmlrRVNmU29vaFc1TjRpVFVkSU44VEh6d3VpeXQ4dU1DdXRFaTd1M29kajdSZXJmTE1LZFNWV3ZxR25FY3pReGNtNTZhQ0lLbENJQlVvbHdqLWRWcGRuank0cDA1UzktTjczb1ZuekhtNnVwMnZKUUN3SzFLWlhxM3d2UDFXc0VSTXExYkYtRU5kYXowY3l6c1MtNTI4T2JrbmNlaE5BVDZDSVhfamwtZlphU1hBcWhVdU03bjVCbGJWazdBTnPSAd4BQVVfeXFMT1NZVlpiQm8zNjNBc3pLZHNRYlYwRXhmeDFZTXBSbjFzWUVBUGRfdGcta0ZvWUNVTFZxYm1Lb0tHdldCMUJVaU9TQW5kRnhTeGlFU3kxYTdCTUhNWHBHNXU4UWFOa3B5Ymk4UThLX05nV0U0R3JIZ2xuak4zTXpScHZsQk95MHR1TWhpWHphNjNxZ2JuVGRpVFlPLWVYb2RGdFhkWDFILVFnanVoWFQzYjZpeDY5ckJSZkRRNzd0YXRiREp6YktUbDc4UENWbzFodXY5bEFnaWJoc29mcy13?oc=5",
+          "source": "informatesalta.com.ar",
+          "date": "Mon, 28 Sep 2026 22:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Gobierno cede y avanza con un proyecto \"superador\" sobre la emergencia en Discapacidad - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNemdqTDFoWFZ5cG9FQUJyMWhIelVsUmlSS1dpS0ZYeHF0RDNyemdvMVRvb3BLeWwxc0E1MURyaURFTWhpcFdoeDg3dkw3Smotc1NTckpKWDNuWUhhaS1WOW4xd1A4akJQd0xOZEhzaFJMY056amdrcG5uX0I2cHRKNzBZUDE0N2t5MnRyMXhCSWF1ZGNVdk1wNGtRQ3dtSnltRG9nd3pwOWtNajhvU08waUM2N2RXQl90WXNfdDlBeGM3S0dOSDVpanNtUTBYM1BrOG5qSHhYTGpMUdIB3wFBVV95cUxQMm0wdmU1clQ1M0h0eXlXUEFESW5PRkhLSjJZVUpoNWtkRTJBNnJ0bWcwbVlWZERNNzRJRUdGbHlXNTllaVpJaDdoeGVwT083TTd0M2RBS1hIUlFzZVJHaGJmQXcyakFmcno1OU1TLVdzWERVcG55Ny00Y1I2Sm9wdFlDbXVScjVmQW1GeVRjR1pvWU5lSkMtSUlvdGV1aTJfcG9LS052b0oxdkNPUjNnNmZaT3R0QVlZN0tDREg4VUdZNk80Q3NEQk5kbi0tRzVKUHJ1WFF1QWo1OGpMdjBN?oc=5",
@@ -411,13 +418,6 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QTk5WRjhkUDZVWWd3R0xOZ0k3NW5QeGJLd01fdm5EcWd2Mlh6UjZnaUZsV2xKSVZNdkpsTDR2bk51bjlsSUctY3p2OXBlUzFTLVdUdEUxX2hoemlo?oc=5",
           "source": "eltribuno.com",
           "date": "Mon, 21 Sep 2026 21:19:49 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Más de 80 mil familias esperan una respuesta por pensiones por discapacidad - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQTI0MFQtNHJSeE9UMzdnWDM4cllXVnhBXzlYMUJZUGdULTh3NjM4M1haSXpiVmdpdTBnbEx2SjZkeGY5akZyZ1Zzc2c0VFhpMGtBMl93Qi0wcUdRZXg3QlU1a3dwM1BqUGpBVW52YVRDWWhWNzdBZFVxUzJZLS0zc1VkYl96OU54dnJWUHVNM3RGUlV0S1E?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Tue, 22 Sep 2026 11:15:42 GMT",
           "sentiment_label": "neutral"
         }
       ]
