@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 170,
+    "total_mentions": 171,
     "sentiment_breakdown": {
       "positivo": 17,
       "negativo": 19,
-      "neutral": 134
+      "neutral": 135
     },
     "sentiment_by_day": {
+      "Mon, 24 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 29 Se": {
         "total": 3,
         "score_sum": 0
@@ -194,7 +198,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 31
+        "count": 32
       },
       {
         "term": "gustavo",
@@ -209,16 +213,16 @@
         "count": 5
       },
       {
+        "term": "gobernador",
+        "count": 4
+      },
+      {
         "term": "plan",
         "count": 4
       },
       {
         "term": "meta",
         "count": 4
-      },
-      {
-        "term": "gobernador",
-        "count": 3
       },
       {
         "term": "parís",
@@ -319,6 +323,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "VIDEO. Tensión en Campo Quijano entre Sáenz y Roque Cornejo, Pettovello salió en defensa del gobernador - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVklfQjBTTlFQYm9MUnB6OXJVd2NUMk9KMnpHWU1YYkdiV3JsbkdhT3RURlN0eHcwV1JrdFFETVRuX0xpYzVZdzY0dDlTMlVmT3lfZjctZE1VVGlRZlZ4eW5NX1Q0NW5jbEJJQmFURHk1LVpUTGwtenRoR0JFYWp1b1Njb0dxaFFyZkV4R0hYR1NLeWRwNkZqUC1RNHNjdHBmQk1JWGNCUGVXVWZ1OVctTUt2SVlFZ1VBakc0ZWw1NldOMU1UQ3JuOHJuUzBTdlVKUF9oMWxjc0dOSllleG4yZ3lUY0jSAeoBQVVfeXFMTmdidFI5cjhmd3ZydWd0Z2ZVV2IxT1lrUmd4WlM0eDBvRzZ3Tkt2aU5JeEpqbUl6dE1oTV9TYktBbmV0RmRiVEhCRnZOVDRfZXBGNDI5T19jOVgtdnZrTHhQam1YZFJvdnJ6RVFFbTl0V3JHM3VlUDhjcjFYUmdQVXc2dFdyYzFyQld1WExFS21ZY3JaUFNZc1NEUGw2a1RNbzdvQnUxMUNTallYTk9iLWhpNktTN2c3M2F5cm95azlpUjZOSTNxNnRGV09JME9Ha2lxQ0x1aUxTWUVqZUVUaTlWUVBwdkE0YWlB?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz se reunió con gobernadores para construir una alternativa electoral - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXA3S2l2d3VsQnBXd0lhejZHN19tbEJaMF96VWZtT01GZDVxamlySnlWRmM1bWp2TTdXNnJyV3RYWTIySEwwaGRKOTdnNzF2QkF4M2dIODVySHAtelRDa0d2R2xEOVRRY1VSdkp4U2d0S21QYnRuVFNaYnBIQTNIeA?oc=5",
@@ -520,13 +531,6 @@
         "link": "https://elintra.com.ar/2026/09/24/gustavo-saenz-reeleccion-salta/",
         "source": "El Intra",
         "date": "Thu, 24 Sep 2026 15:06:31 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Escudero aseguró que “no hay objeción constitucional” para la reelección de Gustavo Sáenz",
-        "link": "https://informatesalta.com.ar/politica/escudero-aseguro-que--no-hay-objecion-constitucional--para-la-reeleccion-de-gustavo-saenz_a6ab433ec67dbc0c38dfb2fdd",
-        "source": "Informate Salta",
-        "date": "Wed, 23 Sep 2026 20:30:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15194,16 +15198,16 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 16,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 6,
+      "negativo": 7,
       "neutral": 10
     },
     "sentiment_by_day": {
       "Thu, 15 Ma": {
-        "total": 1,
-        "score_sum": 0
+        "total": 2,
+        "score_sum": -2
       },
       "Tue, 16 Se": {
         "total": 1,
@@ -15260,39 +15264,45 @@
     },
     "top_topics": [
       {
+        "term": "garcía",
+        "count": 10
+      },
+      {
         "term": "josé",
         "count": 9
       },
       {
-        "term": "garcía",
-        "count": 9
-      },
-      {
         "term": "concejal",
-        "count": 3
+        "count": 4
       },
       {
         "term": "tribuno",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "amigos",
+        "count": 2
+      },
+      {
+        "term": "golpean",
+        "count": 2
+      },
+      {
+        "term": "ellos",
+        "count": 2
       },
       {
         "term": "concejo",
         "count": 2
-      },
-      {
-        "term": "salteño",
-        "count": 2
-      },
-      {
-        "term": "agencia",
-        "count": 2
-      },
-      {
-        "term": "nova",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Amigos son los huevos y se golpean entre ellos",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUllDWlR3UC1mdE5CNGdpWExJRERPOGVfUlVsU1pUSW1DbGd6WEdkaVh5Ujk0N3QtYmlQY1U1NVowaUxBRTQ3c01kRUJHSC1Uc3ZsTENSZzZSdURNNmZZUEFTNXBLYWRDU0ktOWUtdmw2N1hIVmJ2cjk3RXc2dEJybldlekNrbjFvOGhOcjAyN3F1bEFSNzdpLTVFQW5nWXFyZXRMMnliamppRGJlYmFxYWZnTUVJa3B1cVIwQ1pvOTQ1NkQwNVA5U3BMUU9NZ0FZUlRhTnN3OUfSAd4BQVVfeXFMTjMyaUNIQW41M0dMSmE1bWhzYTVsZDVEVzJDNHJpN1p2a3p2MVFfZWUxbkxWWkoxVzg4S1BGaS1GclFqTEtXWmNPWkd3dTVUVFRQX0l2R0VZd2FSRXBPZTRzUkZhNy1pd0lsMC1nTDRiVWhIS0JNdXFqUXB3ZDR4SkRTQWVpNVpIVzFaRVJzelQyY1VsWTlIeVJ5TFVzVjFocEZJZEVRT0o3RkdTTGpUQnJzTjlSZFlyV2RVc2xuMDMzS1NTdEFGZHg2SmZIQlUtSUJSNFdaUVphVER0c2l3?oc=5",
+        "date": "Thu, 15 May 2025 07:00:00 GMT"
+      },
       {
         "quote": "Amigos son los huev@s y se golpean entre ellos",
         "source": "saltacomparativa.com.ar",
@@ -15339,6 +15349,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El concejal Jose García en una nueva polémica : \"Amigos son los huevos y se golpean entre ellos\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUllDWlR3UC1mdE5CNGdpWExJRERPOGVfUlVsU1pUSW1DbGd6WEdkaVh5Ujk0N3QtYmlQY1U1NVowaUxBRTQ3c01kRUJHSC1Uc3ZsTENSZzZSdURNNmZZUEFTNXBLYWRDU0ktOWUtdmw2N1hIVmJ2cjk3RXc2dEJybldlekNrbjFvOGhOcjAyN3F1bEFSNzdpLTVFQW5nWXFyZXRMMnliamppRGJlYmFxYWZnTUVJa3B1cVIwQ1pvOTQ1NkQwNVA5U3BMUU9NZ0FZUlRhTnN3OUfSAd4BQVVfeXFMTjMyaUNIQW41M0dMSmE1bWhzYTVsZDVEVzJDNHJpN1p2a3p2MVFfZWUxbkxWWkoxVzg4S1BGaS1GclFqTEtXWmNPWkd3dTVUVFRQX0l2R0VZd2FSRXBPZTRzUkZhNy1pd0lsMC1nTDRiVWhIS0JNdXFqUXB3ZDR4SkRTQWVpNVpIVzFaRVJzelQyY1VsWTlIeVJ5TFVzVjFocEZJZEVRT0o3RkdTTGpUQnJzTjlSZFlyV2RVc2xuMDMzS1NTdEFGZHg2SmZIQlUtSUJSNFdaUVphVER0c2l3?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 15 May 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "\"Amigos son los huev@s y se golpean entre ellos\": el nuevo exabrupto de José García en el Concejo - saltacomparativa.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNR19FOGRMaXByOUNJMUlPc2VFLXJmRk5Nc0c3dmk3R0RRalNhZjkwV3hVdzcxSFdmeFlzSVh0anM4WDlwMVZEUUJNTmtod1doUFpmNnQ1eEpibFdrR0VLdmdqNnluM2tNcW1VaXp6OE11UVhGZEtlQlpibmFGQlJnTVJGcDVoSmFsb2Q5dk5odDRPWUp5bmhQQWM3Mkp4MFRaUFUtX1FhV0FEX1E2aW5iaFg4WExtNnAtdmk0bW5SYmd5OEp3SHRzVG5NTlpPZ2FQSHRjNzc4MjFhMkQtZGo4d0hfdEpuUlA3TUJQNUM4RERZRXZ0SkVsMGRB?oc=5",
@@ -17295,13 +17312,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 65,
+    "total_mentions": 66,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 8,
+      "negativo": 9,
       "neutral": 53
     },
     "sentiment_by_day": {
+      "Tue, 29 Se": {
+        "total": 1,
+        "score_sum": -4
+      },
       "Sat, 26 Se": {
         "total": 2,
         "score_sum": -3
@@ -17542,10 +17563,18 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 2
+        "count": 3
       },
       {
         "term": "madile",
+        "count": 3
+      },
+      {
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
         "count": 2
       }
     ],
@@ -17674,6 +17703,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile cuestionó a La Libertad Avanza y apuntó contra Alfredo Olmedo",
+        "link": "https://elintra.com.ar/2026/09/29/dario-madile-cuestiono-a-la-libertad-avanza-y-apunto-contra-alfredo-olmedo/",
+        "source": "El Intra",
+        "date": "Tue, 29 Sep 2026 20:41:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "|VOCES CRÍTICAS TV| Darío Madile: “La Libertad Avanza se negó a que Salta sea incluida en el plan” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN3A1TzZ2TzBpR0p0b0tid3dicDlCT09XbDZqN2pFV3MzelFuRnFEczZpalRjbkRpakJqMDJReFRpMVJNN1Jvdm52eFpsX1V2UUMzMDZ3bzNzMFgxOFJzUHRlVWhJMmRUcHZWTGVLSmFYakt6UThubHdsN25XU2FkUVJ5ZFhSM194SllWYk9KRjlYY1RnbmVYcHlOQklPam9KTHo3dmlpZ2Z4V1lwN2d0VGZCZTRFU1JtbkV6SWp0MFJYbnNUUHBzdDhLbjFoOF9YWUxpSU5ScllPZ0U0X19HanN0QdIB6AFBVV95cUxPYWRiZXpFRkxQV2RPWVR0RVpUWTNKNnJQT3FtcmpQSHpHdlVoNUowWEtjbUJQdEY4TDktR2tIaUhTZFVxdXlJdG1ydHczWW5qVUYxaGxkZDAydlczblh5Z29NNGdkQnF2UndMVXFJUDFWU1NyZU1RdndIeGk4ektCbWQ1ZGE2d3NQX3VjMzJTVVRwYTBSWXI3RGVvM3dzYVg4R0pzX0xPN3doS2hUTGpaaHVSdlZoTUtGRThUb055bjdzemhUbGFONV9HNlQ2RkxIaFJxN2pxZGszbFNkZnhza2hSZ1pzZmVn?oc=5",
@@ -17875,13 +17911,6 @@
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdTkxa1RqRko4Zm9aLTB5S1VEeEFFcTJaS0pkMTNZblhBdnlNcFhLQnhabkNBUVdabU1TUnV5b0tzS2czUlAwTkNXU05XT3hsZlRKNEFjNkhqX3dudncyRGJBUEZHdDdlTTZYTVo2akRfZ3MwOWdOMGhLNDJzQk9DUzlreEVYb1BDVm42UURYdXNUczJVMVB2Ni16eG5McDBFdldSVEMtSDQ0ZjIweWVub2ViNGs4d0ZKNmtkbkhuRU1qdGdZZndRbVBZSzJpZFBfVDBWemlXZEs0bGxqTUhNNTBIQdIB6AFBVV95cUxOTkpmQmdfcnRtR0VXSTVfVEJSanFMUzlPeXlNZVM5NkpGbDROb09Vb1FCSzNkMEtpUzFPOHN4cU9Uc0RKa1psZmd6NWhNTld2OHpMekpoWjlIcmllUHZtU2Q5WmFUU1I4NWVIYVN3b0c5WnRwZjRiSnEyWWxMM3hpWjlhU2RRbkwyWXh5N0FFdDdzLVkzNTlXUXJJcjRDMUF2ekZSbFZpYmNCV2ZWTDlUODVNOHh5bHlVX3NCOXNEY0YyRzZkZ0FfeVFDSzNobldJb0w1MGZhOUVQZmZqNWVJLVprUDVxaFBu?oc=5",
         "source": "eltribuno.com",
         "date": "Tue, 29 Oct 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Analizan nuevos espacios para trasladar las recibidas: las opciones para las promos - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWXFId2lzc0tEdXhNUFNxOEtlM29VY2ZUZ3R5SExNcWVmLVBPbHZfRlhtM194QTh2bS1IdWFaajVxWlNESjFBZG5zMF9rQ0pPWlM3cHhBUVZjVkhpU1E0SER6Sy1XTVpWNVVsVmphYlVYM000dTlEcTFvVnYxZzdjRnZZVk8zVUpNTTRTUEhReFg3cG1aMlQ2N1pOVVd0aFgwc0s0NWZkWnd3aDUyTFQ2NHUwTWl4NHVOdnJEWFBNclZiYl9JOG1ESEZyd1ZrcDJ0aFk1cXdBRzBrY0QwTnRlS0thVVdyT2xfZFHSAfgBQVVfeXFMUFFKWktidTE4c3ZxUUtzaUM3Qkl1Z3h4bU1fck9TcmY1dm1SVmNIUEVWZ3RNT0x1TlcyQmZiNDV0TW9GcEhoR3U4U0Rib3pncEFfM0gxTWRESmpSeUYza2Q4SGxpeU1tQ1ZzZTRYYlg5T2hTeHdyX1RmVGdRcExxREprRE4xREZqOTRFWDhSQjdCYlJOcWJRX3M3V1A5UVRhSnQ2RVlybkhDTGFUcFlXR3JHbWFjZkx6elI3Z2hXeWZ5dDYzczI4b2lnQWVzT3FCMXNLRkI0bmJ3WVd1ZXBod3lYTldlbmdxeFhXZlAtd3B1TndYbHhqdkU?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 14 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20069,13 +20098,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 4,
       "neutral": 8
     },
     "sentiment_by_day": {
+      "Tue, 29 Se": {
+        "total": 1,
+        "score_sum": 1
+      },
       "Thu, 19 Ma": {
         "total": 2,
         "score_sum": -4
@@ -20131,6 +20164,10 @@
         "count": 4
       },
       {
+        "term": "salteños",
+        "count": 3
+      },
+      {
         "term": "gonzalo",
         "count": 3
       },
@@ -20143,19 +20180,15 @@
         "count": 3
       },
       {
+        "term": "senadores",
+        "count": 2
+      },
+      {
         "term": "zona",
         "count": 2
       },
       {
         "term": "fría",
-        "count": 2
-      },
-      {
-        "term": "reforma",
-        "count": 2
-      },
-      {
-        "term": "votaron",
         "count": 2
       }
     ],
@@ -20188,6 +20221,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Senadores salteños despidieron al libertario Carlos Pagotto",
+        "link": "https://informatesalta.com.ar/sociedad/senadores-saltenos-despidieron-al-libertario-carlos-pagotto_a6abc259448f74caaff152524",
+        "source": "Informate Salta",
+        "date": "Tue, 29 Sep 2026 22:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Un medio denunció interferencias: vinculan a la hermana de Gonzalo Guzmán Coraita - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNUxheWhEZ1k5UkdEaXVEUVhwb29WU29HQzFfWHEtcGpEVFM0X3UtVjk2dVNEc3hVb3hrY3AzSEVZYnU5ajdTenVNa29mX21RNE9xZ0VkYklETjhIMVc2TC1FS05lQWZKVWVCYnBUSUQtSFVGaTNQdEhZNm13dEdtZlZvVWVBX0QwWWcyQm1YVGM4M19vR0NlaFozRllzVWdsRDREVmU0bUc5Qmx6UzFvMmJ2QmN2Zw?oc=5",
