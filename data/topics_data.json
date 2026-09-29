@@ -1,17 +1,29 @@
 {
-  "generated_at": "2026-09-29T12:44:43.748596+00:00",
+  "generated_at": "2026-09-29T18:21:34.346013+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 137,
+      "total_mentions": 141,
       "sentiment_breakdown": {
-        "positivo": 10,
+        "positivo": 11,
         "negativo": 14,
-        "neutral": 113
+        "neutral": 116
       },
       "sentiment_by_day": {
+        "Fri, 25 Se": {
+          "total": 11,
+          "score_sum": -2
+        },
+        "Thu, 24 Se": {
+          "total": 8,
+          "score_sum": 6
+        },
+        "Mon, 28 Se": {
+          "total": 5,
+          "score_sum": 0
+        },
         "Sun, 27 Se": {
           "total": 2,
           "score_sum": 0
@@ -24,14 +36,6 @@
           "total": 14,
           "score_sum": -6
         },
-        "Mon, 28 Se": {
-          "total": 4,
-          "score_sum": 0
-        },
-        "Fri, 25 Se": {
-          "total": 9,
-          "score_sum": -4
-        },
         "Mon, 21 Se": {
           "total": 10,
           "score_sum": -2
@@ -39,10 +43,6 @@
         "Sat, 26 Se": {
           "total": 4,
           "score_sum": 0
-        },
-        "Thu, 24 Se": {
-          "total": 7,
-          "score_sum": 6
         },
         "Sun, 20 Se": {
           "total": 8,
@@ -92,7 +92,11 @@
         },
         {
           "term": "informate",
-          "count": 26
+          "count": 27
+        },
+        {
+          "term": "intransigente",
+          "count": 24
         },
         {
           "term": "pasa",
@@ -103,11 +107,7 @@
           "count": 22
         },
         {
-          "term": "intransigente",
-          "count": 21
-        },
-        {
-          "term": "obras",
+          "term": "milei",
           "count": 14
         }
       ],
@@ -118,6 +118,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "armar equipo",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pLUY3OEU2RXNqc1RXT1ltSTR2Y29hdjJabzh3NkJjbWVFb19aVkN6cXdxbktTS20xb2VESUd4a0dJVGdyNUlvZkp1VXQyWjZ4b1dIWnlROEUwTWVNeW1aVW9McUJfM0xLUjdVQXRB?oc=5",
+          "date": "Fri, 25 Sep 2026 23:19:40 GMT"
+        },
         {
           "quote": "máquina de chocar",
           "source": "informatesalta.com.ar",
@@ -201,15 +207,37 @@
           "source": "Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUNsZVdOdVg0QnNMN3BCeHBmUVdJbVZRUWlqb3J1OG9aaGtDbm9ycktjWEloOS1UV1hIamdSVVRaUkFrRkM1MGdCQkp2QWpnNFpHMjZmdVNNUi1DWnBVYUFZbXhtd1RUdWl5cGpNVUdtbDg1ZGxvNDJwMXpWRFRYMDZBU0Q5Z3lSQXdfUUo0UFlraEduMEcya3p5eTBZVUJDYWVBbl9TOS1aN2lLUUxWMFRCNGloMDIwejl1cXBrdVNOeWpUaXhLT09BN1Q1U01TRUJmRHRnZFpuQUpabEHSAewBQVVfeXFMT0NZZHhLM0N5LVVuMmFmR0tpUFA3bGdIaXJFSHcwZzY3UUZWbnZWWjFwOHNNT1RoLWZJUWg2OXZtNUpnX2c3Rm5rNXd4ZUR5VUk4VnRfN3FVNWVPNWlBVXhpeU02WGVydDItdVM4SE1DMnZab3RzcEk3bkdrZXpxUjlvQXdiaHNoUXFRd21oRngwb0xpLXlSNWNjOW10YnlQYU5Ock5ZRHBHcmFZeGx1YmlqYXNTR3RVRGd1MnJfaTVjTDVYTE5DakhJU09tMFJWaHdFUjBDQUhtRFJ1ZFNncDVTQ3NHQWowdXJOMFE?oc=5",
           "date": "Tue, 22 Sep 2026 14:15:00 GMT"
-        },
-        {
-          "quote": "Es un nuevo desguace silencioso de Nación a la discapacidad",
-          "source": "Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdEpRZkpwWG5aeFBIeV81YlpraENrbnBsci1acVJOLTBVWVNYMklTZDNPM2djQWRUcGUwSkRWM2JILWZsakpEMUxCSE1hZXNTMXYzQ1h5YmpNVXZRdEVJX2U1X3RRbmRhNTJ2dzdOYXhPRUJ0ODkwaVhkYXoteVZ5SGxBbGFhZmtvbzdSQjdnUUpQU0ZRRlJQbWZ5bE9uVjd0a2tzSWdvUm90eXBCZmpMQXpUSHNzLVBwNThWc3VPSHA4NFNpN3JDV1BIbTd1SXJyX0J4Q1dwNTZNTkXSAeoBQVVfeXFMUHlVNXc2YlZET2FETjlGNHJWcEFqdTZPMU11YzJKQkFCTHpDNWlKSEl2bTVMNVQ0dGxNYndwZmNWSzJXVFIycThpRFM3c1d2V2xlMUQtTGxFX0dRODRaQVhWUVd1RXc5dHE5cUxERzlybUZrX3pVVUNySTBJRjg1bzYyR1NhS0lDM1F4SVpkbE9Gc1NSZ1Rjc0JEVjZqZnRzX2thb3dTM3Vtc1A0SGVwWHJyVlhFakhlNERTVUNQTW9zajhRSDk4bDdlTGtlak50dkZvZnhKZmVYeHExanlqNFFhMEVQRGh6cUd3?oc=5",
-          "date": "Tue, 22 Sep 2026 17:00:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Fernando De Andreis pidió que el PRO pase de acompañar a construir en Jujuy - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90ZFYxQTlVMHRBdEFUNEFNNlZGTHBEbGlicThZWUVuQWxIUlI2bDRSZERmOUpoUFQ0d1l3cFpwb0tuQnVpMnJ0UlgzbGw1MmxlU04wMnQzdVQ4ZEN1OWgzanJaRFBUaEJFMDBPV1Q2TFpJeEw2?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 25 Sep 2026 23:35:28 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Mauricio Macri pidió “armar equipo” con Milei y puso en duda logros del Gobierno - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pLUY3OEU2RXNqc1RXT1ltSTR2Y29hdjJabzh3NkJjbWVFb19aVkN6cXdxbktTS20xb2VESUd4a0dJVGdyNUlvZkp1VXQyWjZ4b1dIWnlROEUwTWVNeW1aVW9McUJfM0xLUjdVQXRB?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 25 Sep 2026 23:19:40 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Javier Milei mantuvo una reunión bilateral con Netanyahu en la sede de la ONU en Nueva York - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaHBoc1VSbUZuVFlwUGhQYmtzQVp0WURwRVE3Wm9yYnJ3alJpZEFtLXpZeGNEd1Ata05BMGdjWTVnUHB6RWdTTUZlcGtpZjlNSHBMTlNucEZsZkRpOFpNZi1tOWY2aWlUX2F6bVR4eW1Pdi03ZGZhNGc1c0p3S2lYUndGMFFmSWRzenAzOHBxWFlwWVhKNXd5Z2lvNm9nU3dfaFdqbW9jRlhha0VSSHJraXFwZzdWVFREVDBtbHRScHdGZWJTU19n?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 24 Sep 2026 23:54:37 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Heladas en Cafayate: Viñateros elevan a Nación propuestas para aliviar las pérdidas - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeF8zQUVDd1NVaHFtUFBKYmt6N1ktaWg2LTF4TURQTjdFUWtEZUozVW9zQlZtR1NHTTQ4WXY0bVcteVVvUVJuemViWXpOd2ktNXdLS3VDWUZTLWFzX0pFOVBuSWJkWFpWcmIycWVJbjBzS2FMbXdrNmxNUDl6V1VBSnUyek5SN21US2Y4RHhOTWR1ODN3S2ZOUnljWTMzaEVUSFUyRlFONTRiUFhNeW1YaDBVNXpiUC00T1V1UFNQLXhkNnUycHN5eEIwNmExa2I3TWVlYTNiS3pDVGh0dTE1VtIB7wFBVV95cUxQU005emQ3TDc4OW43cUNjSnlpRDlieE91alVKdlFlMXZMTVRETjZhcFQxN0h2YnRtMy1wQ0xfZ29PZTRqdEtRNmpZbkJuODk2eENSN2lrR0pSdXdNMmRKZS1FVHAxNWVydlREeGNRNkl1Y29mLUluU0dJTncxQlJPaVJROWt5N2pzSklnUGRnd1IxVXJPY1dIUWtNTWtxYjNLM1ZmYzJpQ0U0ODhBelhkOC1DZ1ZVekhnRmNtcVZqM09UY1Q2dnhKdnRWRU8tbXBMbVZXWHBkeEFHSWtabHpITUdYblYtSjlGTDUzMUw1Zw?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 28 Sep 2026 20:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "La \"máquina de chocar\": aceleración de los cortocircuitos entre Bullrich y el núcleo duro libertario - informatesalta.com.ar",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR3hYcXdSTXh2VjR0bGtaQnFJR2RJQWt2OThfdjVjSDFFUWIyS1o3eGctbzlVbjhHNDUyMlBUdUZFX3hBWjktbE9NR0dpWnh4Q0ZkQ0dKRWV4REFHZHVvcW4tUEN2Q0xHSzVuUERhcEQ2TUplZDFRUjJvOWZPT2tJaG5uVzQxWE9ocERlSUo1MV9ndFoyNktaSFlPb3o1R3FKYjNnY3ZSMHByLTNhTFh4SVc0ZndWcUNvQVJQX0FWUUhXcE5HRUJHdmJCRENZRnl3QzhZbWpVbnFGOVB3VGdzZmYzQVVkR19KSjdrVEYydFF0eUViVENtYdIBhwJBVV95cUxPN1BsM3M1akRSNHJHWjVTNjZfenF5NFZFa1N5S3BCd1ZsUG9pTW5nZk5xZ3dOc2pNTklkZllxcWlwdUtaRUxGdWQzNldxUVdBR0ZYRnNhdTVldGNEZVR4LVZWMU1Bc3MyTE9UTDhpUTR2ZDF0Wl9oWWhwUjFrYnlFVjd3anRQMGJGNWVRQXhtQTUxZXYwYzhFQnhDRkdkbmRGUS11b3BQUWZuX1BCbl9OVkVQamxuMDJzMDdVbkpWT1o4UTlFTGE0MnZMVGNOblNCUldFcGp0NnFyQUdLZk12bzdtSExoNy1ieWdnQm1CaVpNa0REN0gtNmdwN2R4ZTNYWFlrMFJtTQ?oc=5",
@@ -390,34 +418,6 @@
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNHExYU5HUGhuV1pHN242X1NKTWVJMVlRbFkwRVhZZDZxdlhzWWYtdGlfdnByNEFxdHdLSThrTHlOY1RPcVFYZHdTMzU3cHFxaGotZ2w5WmNZNTdnOHUzdnUtOVJXal9tMmxod1c5bHJSMHIwWlFfQ2xIMzNGNHZuMld5N2k3R2hoc0xISUYzM3VIS2t1QmRCSG9WZWZpeHdjYmdiX1R0TXZORjlTZ1VNSWdIWFNyZUpHT3Q2Nnp0RQ?oc=5",
           "source": "Que Pasa Salta",
           "date": "Wed, 23 Sep 2026 11:08:08 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Video: el incómodo momento que pasó Martín Menem durante su participación en La Noche de Mirtha - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdkJEWW5VTG9acVVhRDRIMWl1M0dEWWJKd1lTQzJNSlhkTWpTcWdDSGszMUZhRl9fWmt0TlJReFFjRC1QWUdNTVRqUmlCcjdTOEQyREVET1NNMzEybWgwMnJCNkNYdVZ1R0RCc1habTZtRDF6RS1OTnUtSU9NZWR5dGFKZDNxTk52dWptSGMwNEFQMnRPenFROGpMLWxhQ1FzRS1pcHR2ZmpyeEh0UXY4Um5HVmNsdjRSdWcyMGpGMFoxSkwzNGZaOUNJUQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Sun, 20 Sep 2026 15:25:45 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Dib Ashur destacó la ejecución de 2.700 obras con equilibrio fiscal en Salta - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWHpmYUtpZTlXZ0RDZ2ttZzNRelJzdHR3dlVrSGZOT0t5eHZOLXFiVnNVNFlMajE2TGt2bm56eGFrZlEyNXhObEhZbDhTN3BwN1ZQeGd1NXJLN1NHSFJkVExiWms5TXlLQXZKT1l4dVZnYVpiUkNYUlZrS2l0d1VrMHBoMm1UVEpvS1NEZ1o3S1JuRl82UFNONEJCRkp5V2NMVzVBeWNMYVpGLXFLM2NaWkhoVV9CTnduR1pLc1EzRVRmcmRCQVVzaXVuTkxtSGpGUzNaSmpSdkbSAecBQVVfeXFMT2c5WGZDWVVzaWlDR2RPQUU4dHd3OWdjM2hZSWwxdmY2UEp6Y2dqQW1uNHNyZzR3UHN1MlZNd3lpbWkyaU9oOGVOYWJoS0o2VmI0eXlUMGoxQnI4MXdpYmtmclhubEJZRzEwWVRhR3Uxc2psQ09kUW1HUHA1eDI2eXRaN2VZaUNFY1FhQjBQQmdCU25oWUJwaHV5aXNDS29xRVQ5US1JMnRoLTRoU1JKWDFOTGVfYUFwekNzTzljdTVkVGlOcXFhV1BreG1zckxDTTVsaUV0TmZXa2xuSGFIeFcyc1VfRUl3?oc=5",
-          "source": "Informate Salta",
-          "date": "Mon, 21 Sep 2026 14:00:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "\"Trabajar o mantener la pensión\": el cambio que preocupa a miles de personas con discapacidad - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Wed, 23 Sep 2026 13:34:52 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El 28% de los salteños pide a Milei que los jubilados sean prioridad en el Presupuesto 2027 - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYUYyREFyZVBmS1loeDlFTUtEUVZwblpvNHdaR3JEamlybVpUemc5cnVWUFVWV1UtcTdPaHh1a1FJNTNtdFQxd1JvY2FBaTljazJTYV9VU0pHMUtOalpkMWtRaXlpUFA1YzZkTldnSzhZN3VsemItQzZwMVZ0ek9Vc29DcXQxN1NtQnF0XzJhV3FudkdvLTI2MHVnS2o?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sat, 26 Sep 2026 16:28:51 GMT",
           "sentiment_label": "neutral"
         }
       ]

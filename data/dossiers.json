@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 169,
+    "total_mentions": 170,
     "sentiment_breakdown": {
       "positivo": 17,
       "negativo": 19,
-      "neutral": 133
+      "neutral": 134
     },
     "sentiment_by_day": {
       "Tue, 29 Se": {
-        "total": 2,
+        "total": 3,
         "score_sum": 0
       },
       "Mon, 28 Se": {
@@ -194,7 +194,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 34
+        "count": 31
       },
       {
         "term": "gustavo",
@@ -209,10 +209,6 @@
         "count": 5
       },
       {
-        "term": "parís",
-        "count": 4
-      },
-      {
         "term": "plan",
         "count": 4
       },
@@ -221,7 +217,11 @@
         "count": 4
       },
       {
-        "term": "durand",
+        "term": "gobernador",
+        "count": 3
+      },
+      {
+        "term": "parís",
         "count": 3
       }
     ],
@@ -319,6 +319,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunió con gobernadores para construir una alternativa electoral - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXA3S2l2d3VsQnBXd0lhejZHN19tbEJaMF96VWZtT01GZDVxamlySnlWRmM1bWp2TTdXNnJyV3RYWTIySEwwaGRKOTdnNzF2QkF4M2dIODVySHAtelRDa0d2R2xEOVRRY1VSdkp4U2d0S21QYnRuVFNaYnBIQTNIeA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 29 Sep 2026 14:55:40 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "«Dicen por ahí»: el asado de Sáenz que generó ruido, todos miran los likes del Princeso Durand, Jarsún ya hace campaña para Gobernador y la ministra fuera de cuadro",
         "link": "https://elintra.com.ar/2026/09/29/dicen-por-ahi-el-asado-de-saenz-que-genero-ruido-todos-miran-los-likes-del-princeso-durand-jarsun-ya-hace-campana-para-gobernador-y-la-ministra-fuera-de-cuadro/",
@@ -521,13 +528,6 @@
         "source": "Informate Salta",
         "date": "Wed, 23 Sep 2026 20:30:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "«No son libertarios, son socios»: la frase con la que Urtubey ubicó a Sáenz dentro del esquema de Milei",
-        "link": "https://elintra.com.ar/2026/09/23/no-son-libertarios-son-socios-la-frase-con-la-que-urtubey-ubico-a-saenz-dentro-del-esquema-de-milei/",
-        "source": "El Intra",
-        "date": "Wed, 23 Sep 2026 19:40:23 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -2142,18 +2142,14 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "tabaco",
-        "count": 2
-      },
-      {
-        "term": "nación",
         "count": 2
       },
       {
@@ -8407,15 +8403,15 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 5
+        "count": 4
       },
       {
         "term": "exeni",
-        "count": 5
+        "count": 4
       },
       {
         "term": "tribuno",
-        "count": 5
+        "count": 4
       }
     ],
     "quotes": [
@@ -8869,26 +8865,26 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 17
+        "count": 16
       },
       {
         "term": "juárez",
-        "count": 17
+        "count": 16
       },
       {
         "term": "nuevo",
-        "count": 6
+        "count": 5
       },
       {
         "term": "diario",
-        "count": 6
-      },
-      {
-        "term": "diputada",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
+        "count": 3
+      },
+      {
+        "term": "diputada",
         "count": 3
       },
       {
@@ -13561,13 +13557,21 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 38,
+    "total_mentions": 40,
     "sentiment_breakdown": {
-      "positivo": 2,
+      "positivo": 3,
       "negativo": 6,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "Mon, 03 Au": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "Tue, 29 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 19 Au": {
         "total": 1,
         "score_sum": 0
@@ -13723,15 +13727,17 @@
         "count": 2
       },
       {
-        "term": "sáenz",
-        "count": 2
-      },
-      {
         "term": "nación",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Están vendiendo humo",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTjdBaVdsZXBUdTgxMmtseTJuNzM2b25kT2R5TVBDbnZwaVkxZnRWcEpkMFdsZVZsUC1zRTNmRzJxREhaV3h0YXkxbElhT04wZk5qdVlZSXdyemlHalhyOHA1cklDVDczb05EWWFuNE9aalA4M1pjdlMzeVhiR3hXQjJnOW03UkstSmQ1OFhrVE9ERDhkTTIySDY5Z1BRWnpXYXEzaDBQX295LXhsMm1UcGo3WVNvYWpvZFFTa0k1aVJlMU1feFVncEtpX3hDZHVD?oc=5",
+        "date": "Mon, 03 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "Si Salta se inunda, fue porque LLA votó para que no lleguen los recursos y obras",
         "source": "Informate Salta",
@@ -13789,6 +13795,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "\"Están vendiendo humo\": fuerte cruce por el proyecto de Bienestar Animal impulsado por Agustina Álvarez - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTjdBaVdsZXBUdTgxMmtseTJuNzM2b25kT2R5TVBDbnZwaVkxZnRWcEpkMFdsZVZsUC1zRTNmRzJxREhaV3h0YXkxbElhT04wZk5qdVlZSXdyemlHalhyOHA1cklDVDczb05EWWFuNE9aalA4M1pjdlMzeVhiR3hXQjJnOW03UkstSmQ1OFhrVE9ERDhkTTIySDY5Z1BRWnpXYXEzaDBQX295LXhsMm1UcGo3WVNvYWpvZFFTa0k1aVJlMU1feFVncEtpX3hDZHVD?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 03 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Emiliano Durand y su Concejo Deliberante a tono: archivaron el pedido para retirar un cartel con su imagen",
+        "link": "https://elintra.com.ar/2026/09/29/emiliano-durand-y-su-concejo-deliberante-a-tono-archivaron-el-pedido-para-retirar-un-cartel-con-su-imagen/",
+        "source": "El Intra",
+        "date": "Tue, 29 Sep 2026 16:48:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez se enojó porque el PRO Salta no participará de las elecciones - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVHNhRHVBVTczQ0F1SDlXZGhUd1doQWZqeUtVYTdOTlQxQXZtUVFfeVltVHZpNjZfaG5uNEV4Z2F1WU0yVDFDa3hCN0RUWlhRNHZRNjVwMzdNNkhQTEp4RWFLLW9mVXJJbWlCSTRJajBEbU5IZ2hyTThQOVpjUDhhYl94TUlwc0RKMF84bl9nVW50ZHo4SmRvWjNBR0h6VU9xNlBpcEdOSk1iaFBXWXdPZ0U1Zw?oc=5",
@@ -13983,20 +14003,6 @@
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMnlIYnhMN0ozZjZ5cF85SjM2dXFKbUtWYXVHTm9nUnMtcWF3RUNieXhBMVVXS3NxT2dYeEVvYmN6MVF0aG9nUG9tamRYZGt0TDFVUjgySVMyejQxQXlDNkkxcEcyWFMyRDM2Vmd2WnU1RW8xSWJfYXpDWmZnSW9UWllvanhEemZfV2wtNjdxLTVCcWRTeHBqZXdMUHQ0N2NCOEhwMVF6ZGJRdDVUUWszQ3poT3lBLVUwQXpUM0FaV2RqUnZiMlIzQzZERlR1dGMtQWVNYXVGdEhhYkVB0gHiAUFVX3lxTE9HM3ByTklaYjU4M3hjTUJ3WklpN0NaT2lIUmFjQVhDNXNRZWNTTTY0LVNYaXk3WGVTVmltR0haUjFMbW43NVVkUUEyTjhwRmNMQ3AwVlFyaEE1X2FDTXB4eWdjQmp6d3FsMjc4enB5N09QMWlnZ2l2Rkg5RmpWQTBwQmJudEVEWF9DUmFyOXFCLThzN21LUlFkZnFfVG05elVqcUpZOUxTM0FybE9tZzJyNTZNeE1veEk1UjJteGUtUW9RZXdwM0I0eGR0QW1SeFVVenpJeGZWczZoLXQ3ZGVRdEE?oc=5",
         "source": "eltribuno.com",
         "date": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Renovación Urbana: el Concejo debate un régimen con exenciones de hasta el 100% - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPREZjbXB4MDJxSE1qdjVabkEyQWp4cHUyOExJeWRELUZrbkxOSEpGdmhZeHRTdGhiVWNXVUVpLUJWaHlrQlBIbEhIbDR2MktqMWcwWG9BN2tvWGUwdmxPczZiTmlVZlFQd3JFTzRFWFpwU1FBS0lMS2pZZWN0VjhtRW1ZcWM3TExwRGRUZXJPb0EtT1ZYc3dDblI4UGJlV1htMUpxbEV5RkFvQ3lZT3B1QXJpSm94YUlBQ3dLcFJrQ3M0VTY4WWZtUkk1S2liOXl4NzZBaVFMVFVURVlDU0HSAewBQVVfeXFMUGEtQkN1SV9UckFEWXFjaE5Oajl4dllMRVAtWlE2UThQb2liay10aHVxNFl5c2plWE9HZUtNenNCNkVPMWlZNzIzc05RRVo5ZVlBTVRZMnFNQVVMZzcwSW91LVVnY3VrU0ZyckJsZjJFbURYR0V1MmVsS2Y1M2VKUkhVTUY0UHhiQzB2b1hlUWQ3aTIyMWZpUHlDdHRzZHNsSV9va2NJYjFaQ01jUXlZWXZLZHZrM1RndWRQV3Y1ZDBWVlBjcXRDT0R3WU1zRWVNMlptWlo1NXNfeTI3RUI4anh2YXNMUU5HcjZYb2c?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 11 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Convocan a líderes emergentes salteños para participar de la segunda cohorte 2026 de Potencia Argentina - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaGh4UEhjUXlJUlk1QXM5Q1hlXzFTU2F4cVd2MkVyZ2p1MnB0MTE1MG9RblJvNFlRal9jM0VkMWVDWldtUjJFbG9pV0lCMVkwLUl5eGJRYVdTS0lNbkFfa2NOV0Q3b2hxR2NuMjU3Y3REMVNhV3ZfbG55US1tXzdORXRhN1lyNjBqcHpqZnZoc0pmeks0VGs4SGRCVExjcVlPYTg5dk5aUDUzc01JZHF0NUphOWFUV1doSzJsdHlycFZldVBqTE0tTFpUQ0JFcnlvZUpaQW4waVp3ODliU2JQaDVrUWFheTJ20gHuAUFVX3lxTFBOanZxajBZNXVXNjlCTzA5dGdqOTB1NnE3Y3pIc1Y1VHQtRlgzSDlKTm00dmFVenk2emZOQkU1c3FiamFaU1hlUU5RSmFSNk11Y3REdmtxQXQyV3RuOVpINUQ4ek5VWFZIN1RYYllYcXd0SmROd016N0VOMHFoVWRhSnZIV2xrUmoyaHRoU1pBUEctOWRpNUxDNkdvOWNnZm8yVGxTUnB0WUhndllGQ1k1NGVQdmZkWW5NcjBTSDJNMGx6bVRjYThCTWhnaDdKRk9lWEQ3bWNSVl9qU1k0bnJIdGxYZFQ3ellOZ2dsc0E?oc=5",
-        "source": "eltribuno.com",
-        "date": "Mon, 29 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -19081,13 +19087,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 4,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "Fri, 07 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 29 Se": {
         "total": 1,
         "score_sum": 0
@@ -19244,11 +19254,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 13
+        "count": 14
       },
       {
         "term": "royón",
-        "count": 13
+        "count": 14
       },
       {
         "term": "eltribuno",
@@ -19358,6 +19368,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón, la única salteña que votó contra la Ley de Inviolabilidad de la Propiedad Privada - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2VQQmtYZnFtV0dmNXdRNnVBQmhQaGNNRVlmalYxVE1VWms4aTZNQmxGcmozTFNsOUkyRG5vWmNaZDlLVlg5VUFBRk13NmU2UWh1c29VV21LakJhT0hZSHhjYW5TSmZoUUJNNG1MSjZoaUR4dXZmRGl4aVRoYk82U0NEY203blQxUmxHZFJySVhhdzVrZEU5LVR0UnFtSW5SQkZ5M0NrWTI3dmZ3dUx6d2pqWk9ESnNGZk1XOHVpbWhCYVEtZ2ZlYQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 07 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón contó cómo se salvó Atucha gracias al ingenio argentino - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUFlR3MtVmFRQjlsNXdjUU00X29nVUU3dDZiMnl3OU50QXdvZHRKem1PcFh1OV9jLVdjZFI1MDhqaXZaRFpRajI5YWsxdGpzdFlkSU4zS2xkSS1oWlJqV0RHbnh4WVJ5NEIwVDN6Z0lnZVVaSDg0bEM3WVV0UUFvY2I5LWdhUFRGWFkwZHI4d1QzLTJBeXlJQ0Y2Rk41dDZuc3NseFdR?oc=5",
@@ -19560,13 +19577,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Tue, 28 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "“Esta reforma fortalece el federalismo ambiental”, dijo Flavia Royón sobre la Ley de Glaciares - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVjBOS1hMUTdGQmFPOWlHLWVuWVhIWEtrUDA3QXVHZmdOQjU0dzFsekR3bDNaaVFfRktZQzdUdjFwZUVsTmdMQjRBZlloaUZEajlHV3NyRkNhODA1WDZyblpKR0d3TUJzTDNuRy1uLXpGNnRCZHljendaQXc5dmFtYURReFprXy1GTGtDTDg3Rm1tcUlMZk8tc2xlZHBjR0xtWjhZcHkwcDJkbFFoa1k3NW5qSWVHbnk3SnZZODZkekpwNkRKbi1RX3F3NVhraHY0bmlzS0VlUjM?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -19574,13 +19584,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 5,
       "neutral": 28
     },
     "sentiment_by_day": {
+      "Tue, 29 Se": {
+        "total": 1,
+        "score_sum": 1
+      },
       "Mon, 28 Se": {
         "total": 1,
         "score_sum": 1
@@ -19728,6 +19742,14 @@
         "count": 4
       },
       {
+        "term": "bruno",
+        "count": 2
+      },
+      {
+        "term": "conducción",
+        "count": 2
+      },
+      {
         "term": "milei",
         "count": 2
       },
@@ -19737,6 +19759,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Está todo roto",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/politica/interna-en-lla-salta---esta-todo-roto---dijo-bruno-al-dejar-la-conduccion-local_a6abbc09348f74caafff88581",
+        "date": "Tue, 29 Sep 2026 15:35:00 GMT"
+      },
       {
         "quote": "Hay una gran responsabilidad de equilibrar el poder",
         "source": "El Tribuno",
@@ -19825,6 +19853,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Interna en LLA Salta: “Está todo roto”, dijo Bruno al dejar la conducción local",
+        "link": "https://informatesalta.com.ar/politica/interna-en-lla-salta---esta-todo-roto---dijo-bruno-al-dejar-la-conduccion-local_a6abbc09348f74caafff88581",
+        "source": "Informate Salta",
+        "date": "Tue, 29 Sep 2026 15:35:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Eliana Bruno rompió con la conducción de LLA Salta",
         "link": "https://elintra.com.ar/2026/09/28/eliana-bruno-rompio-con-la-conduccion-de-lla-salta/",
@@ -20026,13 +20061,6 @@
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSWhtVjFQdUtlOWJfbnpGYWhpLWVUQmtRcDJLMnI5UTRZWHdHV3VFTjVBaWZ5TGZwTWpZWHYxazZxUnc2N3hJbkc3aEhxUmpmcDk2ZGt2c01jbUlZbzd1cGs1NGlQNzJzNjJWMnF5TklUU3dZTkdqbTNOTExpaTNFZmNFYWZpZnBxbFBvLWNWbk12c3hONW9nNkxRUl9feUtwZjZHMkZSQVMtQlVBZzhleS1kVkttMUxORW1ZWnZod1VVWVFfM25KRHNlNFRJSFBrd2REUUlnennSAd4BQVVfeXFMUGhpZTVhU0JhZl9Qbm9QRFdqQWtiNXQxbVNYN1VGZFd2UEVuMmI0R1NwRE5pY2hnd21tcG9TTmNkUUNfZHVzZ0dtWkF2MFcwTm9rc1NfTFN3NnU1WlRwRGxxVG1GcVB6QzdUYjR2ekYwdFFWbmdTZGxVdk9XenJmZUQ4REU1bjVDaF9QNnZhS1hmTmdYNGt4M1BTNldBY1R4NGU2SVRMTHhoX1BuQkNLY3Z6MVg4M3BGSlg1TXNWQi15ZEc2UGpGWHJRRk5sNW9fX0RLd3VFVUJ5aVdlYnRR?oc=5",
         "source": "El Tribuno",
         "date": "Wed, 29 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco sufrió un desmayo antes de la sesión por la \"Ficha Limpia\" en Diputados - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOenp1a1RVWmtfMDdERTRjaVJfaUlIWjc4Ym5OWGxTVDF2blVfTy1pOFhtZTJyMHFPU1RyVTNTLXVOcUhiX016eXpsb1hTSzJscjJlZ2dxNTIteTRVT1FOcGdJanVHd1hHTU5LX2ZybHJGVmZ1S09UcUYwRVNOQXBvczNfZUFMR1ZYUk9KejV2U3NOV1QtckRiQmJvTnhtaEFER2NiTF83ZDh5enYyZnhWanpsck1KdngxVnZMTDhUTTR0ZGRCZWtoaEhNTHhkT2VpeEcxVDJR?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 28 Nov 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20271,16 +20299,16 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 1,
       "neutral": 6
     },
     "sentiment_by_day": {
       "Tue, 29 Se": {
-        "total": 1,
-        "score_sum": -1
+        "total": 2,
+        "score_sum": 0
       },
       "Mon, 28 Se": {
         "total": 1,
@@ -20309,19 +20337,29 @@
     },
     "top_topics": [
       {
+        "term": "bruno",
+        "count": 3
+      },
+      {
+        "term": "conducción",
+        "count": 2
+      },
+      {
         "term": "diputados",
         "count": 2
       },
       {
         "term": "eliana",
         "count": 2
-      },
-      {
-        "term": "bruno",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Está todo roto",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/politica/interna-en-lla-salta---esta-todo-roto---dijo-bruno-al-dejar-la-conduccion-local_a6abbc09348f74caafff88581",
+        "date": "Tue, 29 Sep 2026 15:35:00 GMT"
+      },
       {
         "quote": "Quieren hacer del partido, una Pyme",
         "source": "Elintra.com.ar",
@@ -20331,6 +20369,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Interna en LLA Salta: “Está todo roto”, dijo Bruno al dejar la conducción local",
+        "link": "https://informatesalta.com.ar/politica/interna-en-lla-salta---esta-todo-roto---dijo-bruno-al-dejar-la-conduccion-local_a6abbc09348f74caafff88581",
+        "source": "Informate Salta",
+        "date": "Tue, 29 Sep 2026 15:35:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "El patrimonio de los diputados salteños: Quiénes declararon más bienes y quién quedó con saldo negativo",
         "link": "https://informatesalta.com.ar/nacional/el-patrimonio-de-los-diputados-saltenos--quienes-declararon-mas-bienes-y-quien-quedo-con-saldo-negativo_a6abba01348f74caaffefa9f2",
@@ -20925,16 +20970,16 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
-      "positivo": 2,
+      "positivo": 3,
       "negativo": 3,
       "neutral": 9
     },
     "sentiment_by_day": {
       "Tue, 29 Se": {
-        "total": 2,
-        "score_sum": 1
+        "total": 3,
+        "score_sum": 2
       },
       "Tue, 21 Oc": {
         "total": 1,
@@ -20991,12 +21036,12 @@
         "count": 5
       },
       {
-        "term": "bernardo",
+        "term": "discapacidad",
         "count": 4
       },
       {
-        "term": "discapacidad",
-        "count": 3
+        "term": "bernardo",
+        "count": 4
       },
       {
         "term": "salteños",
@@ -21055,6 +21100,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta fijó postura frente a la ley de discapacidad y advirtió que no aceptará recortes",
+        "link": "https://elintra.com.ar/2026/09/29/salta-ley-discapacidad-recortes/",
+        "source": "El Intra",
+        "date": "Tue, 29 Sep 2026 10:56:00 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Discapacidad: Biella se reunió con Mangione y referentes del sector",
         "link": "https://informatesalta.com.ar/sociedad/discapacidad--biella-se-reunio-con-mangione-y-referentes-del-sector_a6abafbc75660902efa638089",
@@ -21198,11 +21250,11 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "outes",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -21920,13 +21972,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Mon, 25 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 02 Oc": {
         "total": 1,
         "score_sum": 0
@@ -21959,11 +22015,11 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 3
+        "count": 4
       },
       {
         "term": "galíndez",
-        "count": 3
+        "count": 4
       },
       {
         "term": "aries",
@@ -21990,6 +22046,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Para Gastón Galíndez, Milei «brega por una sociedad violenta, burlona» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2JqckZ5a0xuaktudEVKc24zWC1VQ2ZzcW1Ca3RhaUpoeDhicklJSDhRYUVxZkJNS2kxY0ZvMkQ5ZFo1ZEdwa0UydHlLeHNHUjNLZTByaDZrcWZaU3VnUk1WNWVPLWgzcTlaV3hTQXdSUnJtR0hXdHF0bzFqQnl4VmVxTWc4M2JBdmoyT0dTZERpTDFFdUNPWGZKbEdwaTNRMVc0?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 25 Mar 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gastón Galíndez: “Es fácil militarlo a Massa” - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeS1zeEFyaHdzQlhQamVyQXExbFRCdlNRaUhLQy1CalM4MG03UnlLQ01MM2huSkhhbmNCMVcteFBwWlphWl9iQ09FZ0NSbHI4cFR2eFg1ZHZqa3lmWmx2ZndkNlhjeWV3QlV1bUNhVDlqYWxtQ0pkY042UnFUNVpQMl9Fa2d5NlBpY0ZWekd5NNIBhwFBVV95cUxOT1BoZDZPSVNQUDVMWkNyQ1lIU2Q1LURVZm1KN2J4Yk9NcUQzN1dTUDJWd19YdVo2UEpKSjNGemdsRXdRZEZZZlE1MWpCcFFRNWZ2NGFkcTNQZXM1dG9vZVFDVVd6NXBKWEtmUk1EbWxpREk1SHJqSlc3LXVIUVRLVm5PdFB0OU0?oc=5",
@@ -22528,13 +22591,21 @@
     "id": "dip-guillermo-alejandro-kripper",
     "name": "Guillermo Alejandro Kripper",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 5,
+    "total_mentions": 7,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 5
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "Wed, 26 No": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 15 No": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 10 Ma": {
         "total": 1,
         "score_sum": 0
@@ -22556,7 +22627,20 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "asumió",
+        "count": 2
+      },
+      {
+        "term": "guillermo",
+        "count": 2
+      },
+      {
+        "term": "kripper",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "La próxima vez me subo a un banquito",
@@ -22573,6 +22657,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Movimientos en el Concejo Deliberante: asumió Camila Lobo y reemplaza a Guillermo Kripper - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUU1eEpHTmR4N3VGM2xDSWpuWTJ2cTBZT2VNclRncldiQXNuVFlBOGpXRGdIZUZGWVpINFJ1QzltUDN5Wk5TMHZWdlQyUHFIZkVsMTkwNDFmLThsMlhDZ1Y4R3YtR1JxczByZzhtQkQySFJqX1RnMXJkVUVFVGJDbGNXY1JjcHJvYURzQ1gzaWQxcVloa0tScG9OQ09FODZYS3JQamdsR2VfLUZVS01Oa3dGQmpmN2k0Q28zeVViRzZNX0ZLSFQza1l5cUdCSDkxQnRCQWlETGFXWHh1QWfSAeMBQVVfeXFMT3ZISFoyT3c5cVhBY0dGYkpTaWtjQlcydXVtZ0pxWTh4U19fLURiQ2dod29kUHhWNEE0Xzc0NERTZkRnb3ZkWFFKQmhoY19kaVNPcWFmNC1Zeldid2FHN0tDcjZCNVpvX3hjcGtVUk1SaElLYVVKMGZRVS1ad1c4ZUgyOVYzM0loT0FyMm1nbDZ3eWgxLXhaRkZ6SUE5eEg0Sk1FdzVWSWMwZHRpZ1ZTd3ctbXFxOE82VTluTElWUTExWlNkUGVReUt4Q0NPbEhjVEdudklhMGlOQWFjX1A2OUVPSjQ?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El compromiso que asumió Guillermo Kripper para ayudar a los salteños - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYzBiYzlEaUtjd1BZd3h0Vm9mTUh1bFN6WkFSNUlRWGZTQ1dVU2dmSDJlaHNubTdRNlZlMEttZnB4bGVMQXpBV0RtX05UZ2pFS0F1cm43Tzc1V0NNNEV4OFZJVFBaUTlyaFFCOGFWa1BtMDU0YlJzSDRLQXdNOVBhNkNPR1RKLXhCcmlLemJOSEVJUjVNZW96SmNFTUdKOVFKdlJpUXZfbw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 15 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "País generoso: Guillermo Kripper y Víctor Lamberto, de la política a la comedia, sin escalas - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUTI1czNLU1ZfeEZ2UTVkS0p6YS1mdHd0SFdpY21MM3RMZzJTOEp0SFRReXFWRjJOTGlVNlhwTjVXN3N4dXlBRjI4ZldBNHRWMl83Sk53d282MkpJWG41d0xOd1duU2NYbmpvaWEyM0JzVUFkSk1Ta3kyXy1fTWUxOUMyNk9meDVVQlhiblowaUlPOHdyOU9mbkhDNFBiRnhLUnVGQzRaWWY2QVlhWWF5UFJFNklFakV5RjRkRTV5SkUzUQ?oc=5",
