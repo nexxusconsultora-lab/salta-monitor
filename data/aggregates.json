@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-09-29T22:29:04.176540+00:00",
+  "generated_at": "2026-09-30T01:30:29.743425+00:00",
   "by_politician": {
+    "concejal-agustina-alvarez-eichele": {
+      "total": 41,
+      "positivo": 3,
+      "negativo": 6,
+      "neutral": 32,
+      "score_sum": -11
+    },
+    "gustavo-saenz": {
+      "total": 172,
+      "positivo": 17,
+      "negativo": 19,
+      "neutral": 136,
+      "score_sum": 5
+    },
     "concejal-jose-garcia-alcazar": {
       "total": 17,
       "positivo": 0,
       "negativo": 7,
       "neutral": 10,
       "score_sum": -18
-    },
-    "gustavo-saenz": {
-      "total": 171,
-      "positivo": 17,
-      "negativo": 19,
-      "neutral": 135,
-      "score_sum": 5
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 16,
@@ -49,13 +56,6 @@
       "negativo": 4,
       "neutral": 35,
       "score_sum": 6
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 40,
-      "positivo": 3,
-      "negativo": 6,
-      "neutral": 31,
-      "score_sum": -11
     },
     "dnac-eliana-bruno": {
       "total": 9,
@@ -801,6 +801,26 @@
     }
   },
   "by_day": {
+    "Mon, 31 Oc": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 24 Ju": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "Thu, 15 Ma": {
       "concejal-jose-garcia-alcazar": {
         "total": 2,
@@ -1908,16 +1928,6 @@
       },
       "sen-sergio-saldano": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Fri, 24 Ju": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -12369,14 +12379,14 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 11
-    },
-    {
-      "term": "salteños",
-      "count": 9
+      "count": 12
     },
     {
       "term": "elintra",
+      "count": 9
+    },
+    {
+      "term": "salteños",
       "count": 9
     },
     {
@@ -12416,15 +12426,15 @@
       "count": 6
     },
     {
+      "term": "tribuno",
+      "count": 5
+    },
+    {
       "term": "gustavo",
       "count": 5
     },
     {
       "term": "mónica",
-      "count": 5
-    },
-    {
-      "term": "juárez",
       "count": 5
     }
   ],
