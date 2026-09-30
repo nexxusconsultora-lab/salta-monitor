@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-09-30T01:30:29.743425+00:00",
+  "generated_at": "2026-09-30T07:20:39.642804+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 45,
+      "positivo": 5,
+      "negativo": 4,
+      "neutral": 36,
+      "score_sum": 6
+    },
+    "concejal-laura-jorge-saravia": {
+      "total": 32,
+      "positivo": 0,
+      "negativo": 10,
+      "neutral": 22,
+      "score_sum": -22
+    },
+    "concejal-laura-garcia": {
+      "total": 60,
+      "positivo": 0,
+      "negativo": 6,
+      "neutral": 54,
+      "score_sum": -14
+    },
+    "concejal-eliana-del-valle-chuchuy": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
+    "concejal-ines-bennassar": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 20,
+      "score_sum": -10
+    },
+    "dip-gustavo-orlando-orozco": {
+      "total": 33,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 27,
+      "score_sum": -12
+    },
     "concejal-agustina-alvarez-eichele": {
       "total": 41,
       "positivo": 3,
@@ -50,13 +92,6 @@
       "neutral": 8,
       "score_sum": 0
     },
-    "snac-flavia-royon": {
-      "total": 44,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 35,
-      "score_sum": 6
-    },
     "dnac-eliana-bruno": {
       "total": 9,
       "positivo": 2,
@@ -77,13 +112,6 @@
       "negativo": 3,
       "neutral": 9,
       "score_sum": 1
-    },
-    "dip-gustavo-orlando-orozco": {
-      "total": 32,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 26,
-      "score_sum": -12
     },
     "dnac-yolanda-vega": {
       "total": 6,
@@ -140,13 +168,6 @@
       "negativo": 2,
       "neutral": 6,
       "score_sum": -3
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 31,
-      "positivo": 0,
-      "negativo": 10,
-      "neutral": 21,
-      "score_sum": -22
     },
     "dip-alejandro-fabian-valenzuela-perez": {
       "total": 2,
@@ -224,13 +245,6 @@
       "negativo": 5,
       "neutral": 30,
       "score_sum": -6
-    },
-    "concejal-ines-bennassar": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 19,
-      "score_sum": -10
     },
     "concejal-maria-florencia-leon": {
       "total": 5,
@@ -350,13 +364,6 @@
       "negativo": 2,
       "neutral": 33,
       "score_sum": 8
-    },
-    "concejal-laura-garcia": {
-      "total": 59,
-      "positivo": 0,
-      "negativo": 6,
-      "neutral": 53,
-      "score_sum": -14
     },
     "sen-luciano-elvira": {
       "total": 15,
@@ -645,13 +652,6 @@
       "neutral": 7,
       "score_sum": -2
     },
-    "concejal-eliana-del-valle-chuchuy": {
-      "total": 1,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 1,
-      "score_sum": 0
-    },
     "concejal-carlos-maximiliano-casasola": {
       "total": 3,
       "positivo": 0,
@@ -801,6 +801,90 @@
     }
   },
   "by_day": {
+    "Fri, 03 Ju": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "Tue, 05 Ma": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Wed, 11 Ma": {
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 09 Ap": {
+      "concejal-eliana-del-valle-chuchuy": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 01 Ma": {
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 06 Ju": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Mon, 31 Oc": {
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
@@ -1781,16 +1865,6 @@
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "Wed, 11 Ma": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "Fri, 02 De": {
@@ -4905,24 +4979,6 @@
         "score_sum": 0
       }
     },
-    "Tue, 05 Ma": {
-      "sen-esteban-dandrea-cornejo": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "sen-alejandra-navarro": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "Tue, 16 Ma": {
       "sen-enrique-cornejo-saravia": {
         "total": 1,
@@ -5343,28 +5399,6 @@
       "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "Fri, 03 Ju": {
-      "sen-juan-cruz-cura": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 3,
-        "score_sum": 0
       }
     },
     "Sun, 07 Ju": {
@@ -8669,12 +8703,6 @@
     },
     "Mon, 15 Ap": {
       "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 09 Ap": {
-      "sen-jorge-soto": {
         "total": 1,
         "score_sum": 0
       }
@@ -12383,11 +12411,15 @@
     },
     {
       "term": "elintra",
-      "count": 9
+      "count": 11
     },
     {
       "term": "salteños",
       "count": 9
+    },
+    {
+      "term": "quedó",
+      "count": 7
     },
     {
       "term": "diputados",
@@ -12396,6 +12428,10 @@
     {
       "term": "quiénes",
       "count": 7
+    },
+    {
+      "term": "gustavo",
+      "count": 6
     },
     {
       "term": "patrimonio",
@@ -12414,10 +12450,6 @@
       "count": 6
     },
     {
-      "term": "quedó",
-      "count": 6
-    },
-    {
       "term": "saldo",
       "count": 6
     },
@@ -12426,15 +12458,11 @@
       "count": 6
     },
     {
-      "term": "tribuno",
+      "term": "flavia",
       "count": 5
     },
     {
-      "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "mónica",
+      "term": "royón",
       "count": 5
     }
   ],

@@ -8411,15 +8411,15 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 4
+        "count": 3
       },
       {
         "term": "exeni",
-        "count": 4
+        "count": 3
       },
       {
         "term": "tribuno",
-        "count": 4
+        "count": 3
       }
     ],
     "quotes": [
@@ -8873,11 +8873,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 14
+        "count": 13
       },
       {
         "term": "juárez",
-        "count": 14
+        "count": 13
       },
       {
         "term": "nuevo",
@@ -12912,13 +12912,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 26
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "Wed, 06 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 26 Ju": {
         "total": 1,
         "score_sum": 0
@@ -13046,8 +13050,12 @@
         "count": 6
       },
       {
+        "term": "contra",
+        "count": 2
+      },
+      {
         "term": "diputado",
-        "count": 3
+        "count": 2
       },
       {
         "term": "tribuno",
@@ -13119,6 +13127,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Orozco se quedó sin fueros y apuntó contra el Gobierno Provincial: «Me siento un perseguido» - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLUdOZDBoMm9uNk02Vy12M1IxQ05BVG9NNTFCY1NPSDFiREp1NkpxVnpMZFd1ZlpabjBpcVY4VzhEb0lhRVhyYldBRXE0TEYxeEd0dGtSUjFmUmtVYVQtNVhjWlBlanNkSnV5ZzZTZzI3TG1GZHJiVnBZVEo5a2JXaEpKVEwwNjZ2SUJqT3YySnhLTHBCY3lBcUExMEt1cmZ6VlpOMXlDMzVkTElEd0Vvd0NYOXIyS004X092TFlUU29yd0xNNEt3TWo4Qlp1TE1DdFhJdVI2Y9IB3AFBVV95cUxNdS00aERJU2ktaWJkOGNDN2t5OUtUelpaWkJzeVVxQnNQYXRVVVFQQTBrTW9tNDYwRVh5SVY2SlBWeHRTV0o1NDIzZzZJakpRdjFJaUdnLW04WUE2cUhWbXc5cUk3RDZZREg5NGdkZklNY2U1Vkd4Q1k0ZERvSXY2MGNHcFpqd3I3UnE0SFVnYzZOLWtsOGk4NmJHd08zbTJwNXFGMzFxMzlDUzN3RS1POTRfTlFYQmhMZnI1VnZxN2piQklpTHJTUGlibExoREphSzQ0dWxHVnFoOVd3?oc=5",
+        "source": "Salta 4400",
+        "date": "Wed, 06 Jul 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Orozco: «El gobierno de Gustavo Sáenz tiene a los traidores dentro de sus finales» - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWmY4UGxFaEE3NGljQnZRbVhKZ1R4Sll3WW0tVlU1YmZwZzlURUdrVWpueE52X0hhb25VSGpnY3ZwX0ZackdKTEcyQkhnd1E2NzZ2ZXkxbTl3N0pQZE5Qd1l3bHlLdXVvTndCN2JRNTZkVUtkVXhGS1pfV2hmX0Z3N1JKazU5TDU5a2RHM3N2d2NDd01WSFc2ZUM1bW9QdC1qelV5bjJEU29zZTc0cDdqN0JiMGtVek0zT2FKVXdNUkRsSHl1UzFYYWxB0gHPAUFVX3lxTE9FVTRlSEpCOGZGeEJwNHNna2tuLUl3UkFsNUluWVZ1NkEwbGFZOTdtcnJUVXJNV1lBb0E2eGtmVHBia3BSQTRpSGR5RFpCYW1VSHlWa3ZYdVZfclFWQkxCUG5pS3h4NDFzbUNsTVc2Nk81OWpXdGp6MTdpYjMzaXMzdHctNTRvUWpKbktRODVmQzRCNXV3NUVqV012TjVEQjhsZy1XeXlVN0lZZVRrZHgtX2toRGNkMTNuWHlDcmlXTDRvMWQxeDBubGNHUHRaOA?oc=5",
@@ -13320,13 +13335,6 @@
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT2V4dWpLSmpJWW55ZUZMRXRZMWtQSHE0U2pqRmNISkxhZXlXaDBLaWVfY1lnQ0lTYzhLU0xZaXd5b2ZBb2t1bks2N1IyMExtbjd0WU5wLTE3Z0ROTDd0eG5USGJUZV9XNEZFUXVZdTJ5VDJoelpxS1VJbWJGQkF3TlgtcncwYUpETk9aVEltTkJHdjNDb2YzX005dmo0V2JjQ2lfb1pMeVRaaVh5eHd1QXluQm94ZDVmRUZoeEpmNHJySEJNT2MtUA?oc=5",
         "source": "El Tribuno",
         "date": "Sun, 23 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Resultados elecciones legislativas Salta 2025: quiénes son los nuevos diputados que ingresarán a la Legislatura - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZUxnaVh0TFdqaXJZRlFIaklPZUJrc0hlTVJ0TEI4R3Vzb2ZsWTlBZnFEYU96SG9zZV92d0dKQkZkNU5CQUhBSGhBVHNIMFJrOWY4ZzJmTXFwMFlqQVhidmRZMGpDM1VCSGV6ZXVsa2tUV2g3VklGRnhWdVM0OXFib3Nha3dVUkZlMHJ4WmlNVW1WU0NjelZjX2ZFdWltNlZtdmVYZVk3aDI2bkJ1MTcwdHN3bWpnNzhFS3FNYy1MaHlPMkV4cU54cV9UaVNPeDhEMjJrdm1OYzBod0JYQ0lJVnVmTUJFM3JDYnlBb050WG0?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 11 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -14183,13 +14191,17 @@
     "id": "concejal-ines-bennassar",
     "name": "Inés Bennassar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 19
+      "neutral": 20
     },
     "sentiment_by_day": {
+      "Sat, 01 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 19 Ju": {
         "total": 1,
         "score_sum": 0
@@ -14279,8 +14291,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "inés",
+        "count": 2
+      },
+      {
+        "term": "bennassar",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Uno de los temas muy importantes a debatir es Uber",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OTmdHZVNIOVFOZmRobV9xZEhVWXUwZ0ktV1BXdDVDVVFXUEFnVnNsNWFzajBDV3NGS0xsS0J3a2JhNk9MOVh3SS1SY0pQaWo3X1oyZU9JR2hFM05j0gFcQVVfeXFMTk5OZ0dlU0g5UU5mZGhtX3FkSFVZdTBnSS1XUFd0NUNVUVdQQWdWc2w1YXNqMENXc0ZLTGxLQndrYmE2T0w5WHdJLVJjSlBpajdfWjJlT0lHaEUzTmM?oc=5",
+        "date": "Sat, 01 Mar 2025 08:00:00 GMT"
+      },
       {
         "quote": "Inés Bennassar",
         "source": "Elintra.com.ar",
@@ -14339,6 +14366,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Inés Bennassar: \"Uno de los temas muy importantes a debatir es Uber\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OTmdHZVNIOVFOZmRobV9xZEhVWXUwZ0ktV1BXdDVDVVFXUEFnVnNsNWFzajBDV3NGS0xsS0J3a2JhNk9MOVh3SS1SY0pQaWo3X1oyZU9JR2hFM05j0gFcQVVfeXFMTk5OZ0dlU0g5UU5mZGhtX3FkSFVZdTBnSS1XUFd0NUNVUVdQQWdWc2w1YXNqMENXc0ZLTGxLQndrYmE2T0w5WHdJLVJjSlBpajdfWjJlT0lHaEUzTmM?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Sat, 01 Mar 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "All posts tagged \"Inés Bennassar\" - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81N01YeVMtWTh1a3FLcV9QVTBoQUYxSkk2UW1hczdWQWF3bE1XS2k4OTA5RGE5Z2lXQl9WeWtLZDhUVnRqT3U4ZUZycy00NnM5cHdrOQ?oc=5",
@@ -14604,22 +14638,40 @@
     "id": "concejal-eliana-del-valle-chuchuy",
     "name": "Eliana del Valle Chuchuy",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 1,
+    "total_mentions": 2,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 1
+      "neutral": 2
     },
     "sentiment_by_day": {
+      "Wed, 09 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 12 Ma": {
         "total": 1,
         "score_sum": 0
       }
     },
     "top_topics": [],
-    "quotes": [],
+    "quotes": [
+      {
+        "quote": "Estamos sacando de la clandestinidad a quienes se ganan el pan día a día",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYtIByAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYg?oc=5",
+        "date": "Wed, 09 Apr 2025 07:00:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Eliana Chuchuy: \"Estamos sacando de la clandestinidad a quienes se ganan el pan día a día\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYtIByAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYg?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 09 Apr 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Estos son los 11 concejales electos por Salta Capital - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3B6M0syeFdUanlGcHdobE5jY3prTkpUSnlBem1pbG94aXdjaERqUHlQd2I0Q0h5QV80VDloZDNlOWxaQXR0ZndiOV84bVdMT3lSMFFmbnVTY242VF9uaHVMY2Mza2RHazhEZWpfU21mcGduakJQRXZxdGdJWldMRTFkLVdSU3pQTC1Vbzc1WTVFNGdIWWtIMjYzREc3em8?oc=5",
@@ -15478,13 +15530,17 @@
     "id": "concejal-laura-garcia",
     "name": "Laura García",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 59,
+    "total_mentions": 60,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 6,
-      "neutral": 53
+      "neutral": 54
     },
     "sentiment_by_day": {
+      "Wed, 11 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 01 Ju": {
         "total": 1,
         "score_sum": 0
@@ -15686,8 +15742,23 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "laura",
+        "count": 2
+      },
+      {
+        "term": "garcía",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "No se puede ser tan maldito",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmViUEpWbndRYkd0WEN6cTQ1clhWcTBENHpJaWU0SEt6UTF3eHctZUVkeG1ockFtcVBmRVFLcXJHbWlJeWpYU2RmWEtuYmtaTHpYc3ZicnNPdFZPdElqYVdDMGh6QUJCQnYzWC1mdUtheDJDTVo4NlJ0SHppa09PN21VWQ?oc=5",
+        "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+      },
       {
         "quote": "Es horrible pasar por eso",
         "source": "elintransigente.com",
@@ -15746,6 +15817,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura García arremetió contra Cornejo por los subsidios: \"No se puede ser tan maldito\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmViUEpWbndRYkd0WEN6cTQ1clhWcTBENHpJaWU0SEt6UTF3eHctZUVkeG1ockFtcVBmRVFLcXJHbWlJeWpYU2RmWEtuYmtaTHpYc3ZicnNPdFZPdElqYVdDMGh6QUJCQnYzWC1mdUtheDJDTVo4NlJ0SHppa09PN21VWQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La concejala Laura García pidió auditar las obras de la gestión Romero - HolaSalta Noticias",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUw4c3VTdTVUcnZUb0MzVHU1QzZJc3BhOUhvUGs2UThuUHVNaG5sRXVfNHlOWGE0bXNzOFlDVTVHMGdvRHZSQkJwZkI3SEtHa1ZqQWFpQThkLXhxR25VTXhkTkNHemlSM3Ric0FCZmxveTZNcF9PNFJlbWthcWFsNE44Yk1CSlhaTTZpWFp0dUxzMVZaa290X082bGdMWm8?oc=5",
@@ -15948,13 +16026,6 @@
         "source": "elintransigente.com",
         "date": "Sat, 11 Mar 2023 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "100 minutos: la comedia negra de Guillermo Francella ya está en Disney+ - elintransigente.com",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GZENkTWFsYUZIY25NYTZRS3ZxXzQwa0lTTmdObXpHTWNFMHNRdE5vNFpiamVWUXVucUxPS2lVeGpVbjd0Y1NTV3NHM3R6MUltYXNabGI1bFZ1SjcwXzQ4TVZINTBrSlI2bmxYRzlreGpvclZEV2tnX1owRQ?oc=5",
-        "source": "elintransigente.com",
-        "date": "Sat, 01 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -16427,13 +16498,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 10,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "Tue, 05 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 01 Au": {
         "total": 1,
         "score_sum": 0
@@ -16543,7 +16618,24 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "laura",
+        "count": 2
+      },
+      {
+        "term": "jorge",
+        "count": 2
+      },
+      {
+        "term": "saravia",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Mis convicciones siguen intactas",
@@ -16597,6 +16689,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Jorge Saravia insiste en que se conozca la pauta publicitaria del municipio - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSTNiNkEwM184eVY5c1pIeURLM0xab1dRYW1nRnFEakhvZ0pib2xQWl9vWjZIX3gzVzRtQWVvMTJ2R0JwNmFnZ0NVQ2N0LXBlcENrRy0zc25fNE5aZGw3N005WldlRERDdV9hdUlTZ1o0dFNmUmpZMFVncTRneVlGVnhiWEJOQTY3UWtYZEhYaVMwNVVRazN3aUJvc1AtaXBqUFpKZldWdk5CenJlSU1MQnRPelQyM28?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 05 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Laura Jorge Saravia sobre el futuro de Pablo López: «Parece que quieren ver sangre» - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR0VmbnB5eFhZUTYtSDhYdnFMV1pqdGR5THczUkZTeEhOTmJQX2hLeUNhTTV4MDRpY2JaYUE3b3EtZDVQVFBhY0xXTkNXOFB4MFNSVHl3WVIyejRDR2Q2V2VBRHh2S3d4WkMyWjhSb0FiSFF2NEhaT2RYeTVFSS1xUVVSQlZlZTBJT1pqTmh4WGdtdVNvSHdMcGNxaUYyMGFNNmtreEtVRUFNalFLR3I2YlY4MXJoQQ?oc=5",
@@ -16798,13 +16897,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUjJoQTF3N3ZrWnZKYjVkWlg2V1JZT3o4cm94T3FNbFd4WmRkbzNkTVRlbWxLRWZLaHZEX0hFQTJ0T1Vrc201LTBZcFJod1BkREFxUTM3MGRpT3NqSnJZcVlDN2k5NU1OMTZyU3FkZE91UVduLXVNcEtUU0lzUVZXazQ1U3BxUzE5aFlqZERNN2xDYUdyakEwSVp6cTIxZEI5M2FSTm1pUDJZd09tVGFYNUxYd1EtU0owX2JjRUlEb0QzOTjSAcgBQVVfeXFMTXM5ZmFKNExsS0Z3amVRcG9IZmZSMUhkNHF6ZWxHdERYZUhMN01kZ0diRG9NaERXOGZiZkoycTJfNmVyZDNiaGlOTTFBSG9SQnMtcUN5NEtYeWpINVpqd0NoN0ZDUVpSbHJFUE85UmxpSDItV0FqekdJOHoxMU0tNzNjaXRTTDFnSVpoTFZLc014N3FmcEtVSFVBVjdZSkZybUUycHpBZ2NxOVhiUzdNYXFJVUQxTG4td0xweHhxb19MclQwS2FjSjk?oc=5",
         "source": "eltribuno.com",
         "date": "Thu, 04 Jul 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La mayoría de concejales en afinidad con la Intendencia - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWHlWaVJDMlk3cnhMN0NhMTE4a094Z2d6NTRWRi1FZ2ZhRTBaeklEWTRKU1Z4N1Bsc3NZT3E4SkRtR2V6NkFLM0xDeUJfbXRCeUdYejhKLXNJcU1oZkN3aVViTVRPelNJUThGQnZhSDBFN2o0NWhjYURPaHN6aXlIYVdFQ1JHalBMOGpqcmNWQXlpTDJHOUVJbmptZ21FaDFxdU5XZ2F30gGrAUFVX3lxTE5XckE4dS1YR0FOV2xjWE1nbzJYUS1nbWk5TUJmQ1M5TWlOa2hfODIzX2wxMy1iS09xeXd4QTZ4MDlNYzZCOHlmNTRpb3NLTVFHTjgwa01mZm90cmZHM2hWTWFIeHlyNFpEbnFJRzdqc0dsUkJRYTk5SW1yYW9rTTZDdXEzczZqVzMzWDRhczlhdjdRamQ2azdjYkNVZFNySFNwbDBVb2FUZkEzVQ?oc=5",
-        "source": "eltribuno.com",
-        "date": "Mon, 15 Jan 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -19120,13 +19212,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 44,
+    "total_mentions": 45,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 4,
-      "neutral": 35
+      "neutral": 36
     },
     "sentiment_by_day": {
+      "Fri, 03 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 07 Au": {
         "total": 1,
         "score_sum": 0
@@ -19287,34 +19383,34 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 14
+        "count": 15
       },
       {
         "term": "royón",
-        "count": 14
+        "count": 15
       },
       {
         "term": "eltribuno",
         "count": 5
       },
       {
-        "term": "tribuno",
+        "term": "zonas",
+        "count": 4
+      },
+      {
+        "term": "frías",
         "count": 4
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "tribuno",
+        "count": 4
       },
       {
         "term": "minería",
-        "count": 3
-      },
-      {
-        "term": "senado",
-        "count": 3
-      },
-      {
-        "term": "zonas",
         "count": 3
       }
     ],
@@ -19401,6 +19497,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Qué hará Flavia Royón con el polémico proyecto de Zonas Frías? - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRi15ZnBiTERrWC0zVm5uQjFfV2RreWZGWGpTOXNIT2VfMWJ4cDRzeUVwODIwa3ZUU3FIYVNCRzhpM1dwVXFVNVVGQmliUUFWaWtsZjUydDlQVUJyTlpFaWhCazZtSVFvbG4zZ0pyLUZZZlhYNFQ2WHFOWnMwb191OUVCSGVtb2VJWkZCVURLMVZ4NW94ZnltMGJUb0Q?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón, la única salteña que votó contra la Ley de Inviolabilidad de la Propiedad Privada - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2VQQmtYZnFtV0dmNXdRNnVBQmhQaGNNRVlmalYxVE1VWms4aTZNQmxGcmozTFNsOUkyRG5vWmNaZDlLVlg5VUFBRk13NmU2UWh1c29VV21LakJhT0hZSHhjYW5TSmZoUUJNNG1MSjZoaUR4dXZmRGl4aVRoYk82U0NEY203blQxUmxHZFJySVhhdzVrZEU5LVR0UnFtSW5SQkZ5M0NrWTI3dmZ3dUx6d2pqWk9ESnNGZk1XOHVpbWhCYVEtZ2ZlYQ?oc=5",
@@ -19603,13 +19706,6 @@
         "source": "Elintra.com.ar",
         "date": "Sat, 13 Jun 2026 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Flavia Royón: “El mensaje quedó claro, los pueblos no vuelven atrás” - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdnBmMEs3b1otRHd6OXl2S0NaUE56UnQ5dGMzQWRvMFJWWnVkRGJfdjN4akJwUGtmY2tTamJ3TmhTWWh0NHp1QmkxRG9MdGxlVTk4LVVZckNhdjd1aEV5NFdSY3owT251WWQzLUMxZlp5LXlTZmdtT2FIdEJRdjZRcGxLckN4aWFvZzlJLURvUjdnZExMZjh1QmVsdklsLVdh?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -20833,14 +20929,6 @@
       {
         "term": "diputados",
         "count": 2
-      },
-      {
-        "term": "carlos",
-        "count": 2
-      },
-      {
-        "term": "zapata",
-        "count": 2
       }
     ],
     "quotes": [
@@ -21080,12 +21168,12 @@
         "count": 5
       },
       {
-        "term": "discapacidad",
+        "term": "bernardo",
         "count": 4
       },
       {
-        "term": "bernardo",
-        "count": 4
+        "term": "discapacidad",
+        "count": 3
       },
       {
         "term": "salteños",
@@ -21097,10 +21185,6 @@
       },
       {
         "term": "tribuno",
-        "count": 2
-      },
-      {
-        "term": "proyecto",
         "count": 2
       }
     ],
