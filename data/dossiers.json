@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 174,
+    "total_mentions": 175,
     "sentiment_breakdown": {
-      "positivo": 18,
+      "positivo": 19,
       "negativo": 19,
       "neutral": 137
     },
     "sentiment_by_day": {
       "Wed, 30 Se": {
-        "total": 2,
-        "score_sum": 2
+        "total": 3,
+        "score_sum": 4
       },
       "Fri, 24 Ju": {
         "total": 1,
@@ -206,7 +206,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 30
+        "count": 29
       },
       {
         "term": "gustavo",
@@ -217,12 +217,12 @@
         "count": 6
       },
       {
-        "term": "pasa",
+        "term": "parís",
         "count": 5
       },
       {
-        "term": "parís",
-        "count": 4
+        "term": "pasa",
+        "count": 5
       },
       {
         "term": "gobernador",
@@ -331,6 +331,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Javier Milei busca acuerdos en París y Gustavo Sáenz está presente en la comitiva - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55NUFrUjdaMzZSQ1ItM3BIbFROd0N5bVNRV3E3SUdvRjh2aGNVZWUtaHlhZDVRTzBfWk9ENl9tcVBpOFdZV3lIREdpQnNWZEJMSFF2cjIwQVNLMm1kRl9Xa0ZDcDVWOVNMYkZIei1R?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 30 Sep 2026 20:06:18 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "La agenda de Sáenz con Milei en París: comienza esta noche",
         "link": "https://informatesalta.com.ar/nacional/la-agenda-de-saenz-con-milei-en-paris--comienza-esta-noche_a6abd150b488955bbb77640ac",
@@ -533,13 +540,6 @@
         "source": "Que Pasa Salta",
         "date": "Thu, 24 Sep 2026 14:59:56 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Zonas frías se debate en el Senado ¿Cuáles son los departamentos de Salta que quedarían afuera?",
-        "link": "https://informatesalta.com.ar/legislativa/zonas-frias-se-debate-en-el-senado--cuales-son-los-departamentos-de-salta-que-quedarian-afuera--_a6ab44aba1d439acb89d24f33",
-        "source": "Informate Salta",
-        "date": "Thu, 24 Sep 2026 10:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -8795,13 +8795,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 26,
+    "total_mentions": 27,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 2,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "Wed, 30 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 09 Ma": {
         "total": 1,
         "score_sum": 0
@@ -8898,19 +8902,23 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 13
+        "count": 14
       },
       {
         "term": "juárez",
-        "count": 13
+        "count": 14
       },
       {
         "term": "nuevo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "diario",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "campaña",
+        "count": 3
       },
       {
         "term": "elintra",
@@ -8921,11 +8929,7 @@
         "count": 3
       },
       {
-        "term": "ariesonline",
-        "count": 2
-      },
-      {
-        "term": "campaña",
+        "term": "lanzó",
         "count": 2
       }
     ],
@@ -8981,6 +8985,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez lanzó un concurso destinado a jóvenes para que conozcan cómo se planifica una campaña - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzMyRGRiTXU2UVl5RE9iYkQ0NU13b2s0b2dYa0tlSjY5aGxCZjNWTTBJYU9GTmlTN1Q2ZjRaZlo0U0hOX3hZekxEcXdJM1p1M3hYODd5RnJOd1JsX1J5eGpNZVpNd1dCUVowTWxfeXFQNEhjZElSdHlSYTdYVEtqR1c3ZFhCbTVoVEttYmszZzM4QndncGxaem1hSzdIeGt5YlJhWHhBb2NLV1ZoR3NWdTNlVFE0dnNsMGp4ZF9JcVR6VHFsa1ZLekE0WXBKMDg?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Wed, 30 Sep 2026 20:32:44 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mónica Juárez: \"Trabajar con Bettina me resultó imposible\" - ariesonline.com.ar",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnVva3VFUHV4dTR4dkNLd1VYZ3hSZFdadlk2UnRfZGRqZ3Zra0JhOHdQUU1mTlFsUzdBUHJGTFFpU1d6SkhWRjhUOVBHdmZ2OUlZdGRmTVRaMDV3am13dW1iUTcwbGpIaWFiZHBwTW9oLWJibkh1ZmFlUTV2UEJHaDUxOElDNk5fTVNhcHZ0YUF2RU1xMERhRm54elF6VDJS0gGYAUFVX3lxTE9Qd2pycVdTeG15Tmw3SU1vUkxfa1JpWjNUcDd1emoyWWRJSXJFTnN3V2VMeHZ1RkVIaldyMG9HbnpPLUtnSVcxMHJtVU0xUTZNT2dTRWw3VDNMLTJQVTNGbTdvNndYaVNvU0ZmRWRHeXZSTzJ6TDBMSS16cldFTkg4aHNJcENsS2FZTTNPOGxfOGZTQzN1OGtt?oc=5",
@@ -9959,13 +9970,17 @@
     "id": "dip-adrian-alfredo-valenzuela-giantomasi",
     "name": "Adrián Alfredo Valenzuela Giantomasi",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "Tue, 11 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 19 Ma": {
         "total": 3,
         "score_sum": -6
@@ -9990,6 +10005,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Adrián Valenzuela buscará que jóvenes profesionales accedan a la primer casa - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTTIwMDBvUFExTG5zUjVPclUtMEdvWGNLOHJ4ZjdGZ2J3d1pGZFZYZXlTaHk2cWRHV0FrQV9QdUpXRlRXWjdWOXJDSnpnb3pGMUw1cGFjRmhOTmZEUGIxeFQ3SHBQalFDNjRTQ0t3SUtZMHBzdnVmUHBZQnZia29rMVF2bVJVcjloUjdWNzAtTXZ2Y0Q1Y0VJQUhBU0EtVDUzQkhXOEVMY0tkdXBfd1lUMGdScU9lSFAtbzFUWWsySXMtZ2VSdlduTDZ0UE5VSUpjc2tBanZOQWLSAecBQVVfeXFMT0luZmJMTE9qM3dSNDc3WlhGMkdvcmt6ckZ6VVdNbm9Iam1SOEM0NXJ3RlZ6RTlXS3A4eHZXMFVzeDZHUHNZTmtFRkxmLXFGV21JS3NNYzZ5VllvX1IzOHFpVW16TWo3T3hKZF9qdy0xR184clYzMGE0VzZTYUNkRDU4Y2xsYmJxcWt0S1I3QXJDNWpwZkYwTEhJQ1BkT0pFWGVPYmd4WjFkc0Rvc19RSWFIb1BwNU1XQnJuZWJzUGtuZzVSaUp5MkgzRGtkX2pJLVBtREsxRlIxbmJ5NEFfNTRnRkdRR0hj?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 11 Apr 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Adrián Valenzuela denunció amenazas por la donación de tierras de Las Costas - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdWVtMVJhQ0VHejY1Q2d1R1JJQWVSc1p5cGthLXJpZ3g0NUlMNmJsalRiTWhYQ2NaTXBUZWRCLTF4T2xKQ1FfWDRQVWtyREgzSFFfM3RKNkxTNEZJSVZBN3VudUk4VnRtbm9kbnAxSk1aRzJZTXJLNTUwSXRwS2VhOWtybGtHYjAxQ1lRTWp5MVprTVVxamVmdENoYjk3SUZSRGZDOHBBa0ZjTjM1M2NDaw?oc=5",
@@ -13072,11 +13094,11 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 6
+        "count": 5
       },
       {
         "term": "orozco",
-        "count": 6
+        "count": 5
       },
       {
         "term": "contra",
@@ -13752,20 +13774,16 @@
     },
     "top_topics": [
       {
-        "term": "álvarez",
-        "count": 7
+        "term": "agustina",
+        "count": 5
       },
       {
-        "term": "agustina",
-        "count": 6
+        "term": "álvarez",
+        "count": 5
       },
       {
         "term": "elintra",
         "count": 4
-      },
-      {
-        "term": "niño",
-        "count": 3
       },
       {
         "term": "porque",
@@ -13773,6 +13791,10 @@
       },
       {
         "term": "nación",
+        "count": 2
+      },
+      {
+        "term": "niño",
         "count": 2
       }
     ],
@@ -14714,13 +14736,17 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 57,
+    "total_mentions": 58,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 12,
+      "negativo": 13,
       "neutral": 42
     },
     "sentiment_by_day": {
+      "Wed, 30 Se": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Thu, 07 Ma": {
         "total": 2,
         "score_sum": 0
@@ -14938,9 +14964,19 @@
       {
         "term": "farquharson",
         "count": 3
+      },
+      {
+        "term": "concejales",
+        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Ambiente Sonoro Protegido",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/legislativa/-ambiente-sonoro-protegido---concejales-buscan-ponerle-un-freno-a-la-publicidad-aerea-en-salta_a6abd85ec488955bbb79650b9",
+        "date": "Wed, 30 Sep 2026 22:11:00 GMT"
+      },
       {
         "quote": "importantes",
         "source": "Gente de Salta",
@@ -15024,12 +15060,6 @@
         "source": "eltribuno.com",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUjJoQTF3N3ZrWnZKYjVkWlg2V1JZT3o4cm94T3FNbFd4WmRkbzNkTVRlbWxLRWZLaHZEX0hFQTJ0T1Vrc201LTBZcFJod1BkREFxUTM3MGRpT3NqSnJZcVlDN2k5NU1OMTZyU3FkZE91UVduLXVNcEtUU0lzUVZXazQ1U3BxUzE5aFlqZERNN2xDYUdyakEwSVp6cTIxZEI5M2FSTm1pUDJZd09tVGFYNUxYd1EtU0owX2JjRUlEb0QzOTjSAcgBQVVfeXFMTXM5ZmFKNExsS0Z3amVRcG9IZmZSMUhkNHF6ZWxHdERYZUhMN01kZ0diRG9NaERXOGZiZkoycTJfNmVyZDNiaGlOTTFBSG9SQnMtcUN5NEtYeWpINVpqd0NoN0ZDUVpSbHJFUE85UmxpSDItV0FqekdJOHoxMU0tNzNjaXRTTDFnSVpoTFZLc014N3FmcEtVSFVBVjdZSkZybUUycHpBZ2NxOVhiUzdNYXFJVUQxTG4td0xweHhxb19MclQwS2FjSjk?oc=5",
         "date": "Thu, 04 Jul 2024 07:00:00 GMT"
-      },
-      {
-        "quote": "Macacha Güemes",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaW9mVmpxSElSeEZyUGkyWWFyeFl4YWJXMVRjek94dzhIejloc3owQnp6UzlYbXhOb0JvSm9mS1BoUEF5b1BBejJOVXlGUjhBRDJVUEI5MHRwa3R5a1NVeDNlLTBQXzVrbVRxT2RTb2dXWXJZaWhoNGRJT18tUENPM0dIUGRhSkpNOTQzOHZ2c1NobWZ6MHdaLW81Ti1iZ1VBXzg4c1lVREZxZFBIUVVGQVM1MUx1U2lSLXV6STU1SUpzVXJxVk1jatIB1wFBVV95cUxORTNLWGtYQm9YYVRJbzQ3eGRIb0NDYzIzd3ZIZG4wM0FaRWJxbHdlM2FPR0VaT1F3aTd4OGRDVHBhWktrUXB3T0trRVBPLVo2Sk42aGV3dVQ4eDR3VlhuZFVNMnhZVUxCbUJmN0toMzZfM1JGeEhkSkh3Y3RISERUbzRmMV9HeXFZVWxpYndsMGZYTHR4NjJEMnBaWjlLdzdzLU1yMUxXTDRRTGpZYnM0ZTV3XzR5LTZwU3FEbDEtUXdfcGEtb3JsRl9PZDJlSUxEZWR4VXNqOA?oc=5",
-        "date": "Sat, 08 Mar 2025 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -15059,6 +15089,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "“Ambiente Sonoro Protegido”: Concejales buscan ponerle un freno a la publicidad aérea en Salta",
+        "link": "https://informatesalta.com.ar/legislativa/-ambiente-sonoro-protegido---concejales-buscan-ponerle-un-freno-a-la-publicidad-aerea-en-salta_a6abd85ec488955bbb79650b9",
+        "source": "Informate Salta",
+        "date": "Wed, 30 Sep 2026 22:11:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "De taxis rosas a cerveza sin alcohol: la seguidilla de \"importantes\" proyectos de Gustavo Farquharson para Salta - Gente de Salta",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOUtHMUlBUk5fanRlQ3gtODlqbFRaT1VZMTBFUUp1WTFFVnZuUDVHOUl1cVcza3psTWE0T2ZGSzJMd2lMb1ZxYkNRQjF3M0UwWDNQVnpmOVVFVEtVVWV5SnBYVkExS3hfSVJtRk85Ni02a3pXajZWb3cwaDI2SHQwSGFiSDJxWEpKR1NVbFpmNURTUDh0YU1PREIzLXJ6am5hR0xlWXp0a0lWcng5S05adlpqSDM1dnVieEtwamY4MWZGa1ZPc0k4ZzloTXRsZ9IB0wFBVV95cUxPcDVLWERwM1dKM21mU2o0R1REVlQ2cnFVTjdtNkVuV1FYU0NyTVlFcDNWT000YjhSRkZ5VUV6NFNONmVyc0huMnBKazdvRU9ZMnlDcEN3Z3k4VG1xZ0ZVU1BGVXlCQy0xQjd5Y3NQYlVZU2JJWUFqMzJWanBKWEs1NUxuTUtTRkFVMHZzVXRrSnAxWU81Z2dYN0xjTVM0MkZRVTlFQ2lTY3RxYnltZUhVTzg3TWt0QzQ1S3V0UEgzZnVrUEVnRERzQS1kX2NTeXZZSXBZ?oc=5",
@@ -15261,13 +15298,6 @@
         "source": "eltribuno.com",
         "date": "Sun, 06 Mar 2022 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Renovación Urbana: el Concejo debate un régimen con exenciones de hasta el 100% - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPREZjbXB4MDJxSE1qdjVabkEyQWp4cHUyOExJeWRELUZrbkxOSEpGdmhZeHRTdGhiVWNXVUVpLUJWaHlrQlBIbEhIbDR2MktqMWcwWG9BN2tvWGUwdmxPczZiTmlVZlFQd3JFTzRFWFpwU1FBS0lMS2pZZWN0VjhtRW1ZcWM3TExwRGRUZXJPb0EtT1ZYc3dDblI4UGJlV1htMUpxbEV5RkFvQ3lZT3B1QXJpSm94YUlBQ3dLcFJrQ3M0VTY4WWZtUkk1S2liOXl4NzZBaVFMVFVURVlDU0HSAewBQVVfeXFMUGEtQkN1SV9UckFEWXFjaE5Oajl4dllMRVAtWlE2UThQb2liay10aHVxNFl5c2plWE9HZUtNenNCNkVPMWlZNzIzc05RRVo5ZVlBTVRZMnFNQVVMZzcwSW91LVVnY3VrU0ZyckJsZjJFbURYR0V1MmVsS2Y1M2VKUkhVTUY0UHhiQzB2b1hlUWQ3aTIyMWZpUHlDdHRzZHNsSV9va2NJYjFaQ01jUXlZWXZLZHZrM1RndWRQV3Y1ZDBWVlBjcXRDT0R3WU1zRWVNMlptWlo1NXNfeTI3RUI4anh2YXNMUU5HcjZYb2c?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 11 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -19223,13 +19253,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 4,
-      "neutral": 36
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "Fri, 29 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 03 Ju": {
         "total": 1,
         "score_sum": 0
@@ -19394,15 +19428,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 14
       },
       {
         "term": "royón",
-        "count": 15
-      },
-      {
-        "term": "eltribuno",
-        "count": 5
+        "count": 14
       },
       {
         "term": "zonas",
@@ -19417,15 +19447,25 @@
         "count": 4
       },
       {
-        "term": "tribuno",
+        "term": "eltribuno",
         "count": 4
       },
       {
-        "term": "minería",
+        "term": "tribuno",
+        "count": 3
+      },
+      {
+        "term": "senado",
         "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Vamos a trabajar en conjunto en el Congreso",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX1ZjOGFMeHZBWDc2Q2xiaGlUenJTREJoMnZPTHdsWnFBY09hb003YVBFY3dTaFhqbm1jaWtmdGxpcmVQbmVudEgtT3RBcXU4TF95cWdQcEpXOWc1WkRPc0p1dXB1QlE4a2poQ2thM1A2MTJZU3dUQjVZd2ZuV0dIVWdSVnEzb3VyYjlLVkE4b0sycUtuSmpzUER1dFljRzTSAZ8BQVVfeXFMUF9WYzhhTHh2QVg3NkNsYmhpVHpyU0RCaDJ2T0x3bFpxQWNPYW9NN2FQRWN3U2hYam5tY2lrZnRsaXJlUG5lbnRILU90QXF1OExfeXFnUHBKVzlnNVpET3NKdXVwdUJROGtqaENrYTNQNjEyWVN3VEI1WXdmbldHSFVnUlZxM291cmI5S1ZBOG9LMnFLbkpqc1BEdXRZY0c0?oc=5",
+        "date": "Fri, 29 Aug 2025 07:00:00 GMT"
+      },
       {
         "quote": "Están reteniendo fondos para sostener un superávit que termina siendo ficticio",
         "source": "eltribuno.com",
@@ -19508,6 +19548,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón: \"Vamos a trabajar en conjunto en el Congreso\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX1ZjOGFMeHZBWDc2Q2xiaGlUenJTREJoMnZPTHdsWnFBY09hb003YVBFY3dTaFhqbm1jaWtmdGxpcmVQbmVudEgtT3RBcXU4TF95cWdQcEpXOWc1WkRPc0p1dXB1QlE4a2poQ2thM1A2MTJZU3dUQjVZd2ZuV0dIVWdSVnEzb3VyYjlLVkE4b0sycUtuSmpzUER1dFljRzTSAZ8BQVVfeXFMUF9WYzhhTHh2QVg3NkNsYmhpVHpyU0RCaDJ2T0x3bFpxQWNPYW9NN2FQRWN3U2hYam5tY2lrZnRsaXJlUG5lbnRILU90QXF1OExfeXFnUHBKVzlnNVpET3NKdXVwdUJROGtqaENrYTNQNjEyWVN3VEI1WXdmbldHSFVnUlZxM291cmI5S1ZBOG9LMnFLbkpqc1BEdXRZY0c0?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 29 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Qué hará Flavia Royón con el polémico proyecto de Zonas Frías? - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRi15ZnBiTERrWC0zVm5uQjFfV2RreWZGWGpTOXNIT2VfMWJ4cDRzeUVwODIwa3ZUU3FIYVNCRzhpM1dwVXFVNVVGQmliUUFWaWtsZjUydDlQVUJyTlpFaWhCazZtSVFvbG4zZ0pyLUZZZlhYNFQ2WHFOWnMwb191OUVCSGVtb2VJWkZCVURLMVZ4NW94ZnltMGJUb0Q?oc=5",
@@ -19710,13 +19757,6 @@
         "source": "Radio Ciudad Oran",
         "date": "Thu, 09 Oct 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Flavia Royón: más responsabilidades y menos recursos para Salta, pero respaldo a Nación - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc3J3N25VSmhOSUZYVUNvWGlaVzJsYk9XN2l4azd4Sk9TaUdxZFJJZGtXUE9LXzIzd1lreG90ckdhRlZGWm5DblpYS1RZUXpOb2ZSMm9DWUR5NEZWaGpXXy1SS0RBUEtBQXVnZXljQjNjN29BRUpTTGYtTF9IM1Z5N2NsN1VCYVlaY3l6RGQ2Rl9KR2M2Z29EZW43Z2tBekFIMzczWlJDTkJXOVdIeGdWNS1hcTNSQlFXM3pfSg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 13 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -20670,23 +20710,11 @@
     "top_topics": [
       {
         "term": "gabriela",
-        "count": 8
-      },
-      {
-        "term": "flores",
-        "count": 8
-      },
-      {
-        "term": "elintra",
         "count": 4
       },
       {
-        "term": "libertad",
-        "count": 2
-      },
-      {
-        "term": "avanza",
-        "count": 2
+        "term": "flores",
+        "count": 4
       }
     ],
     "quotes": [
@@ -20878,13 +20906,17 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 16,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 3,
+      "negativo": 4,
       "neutral": 13
     },
     "sentiment_by_day": {
+      "Wed, 30 Se": {
+        "total": 1,
+        "score_sum": -1
+      },
       "Tue, 29 Se": {
         "total": 1,
         "score_sum": -1
@@ -20952,11 +20984,25 @@
     },
     "top_topics": [
       {
+        "term": "malvinas",
+        "count": 2
+      },
+      {
+        "term": "zapata",
+        "count": 2
+      },
+      {
         "term": "diputados",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "vende patria",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/nacional/-cagon----vende-patria----tontita---viejo-facho---el-debate-sobre-malvinas-con-escandalo-entre-grabois--zapata-y-otros_a6abd7355488955bbb7910fa1",
+        "date": "Wed, 30 Sep 2026 20:54:32 GMT"
+      },
       {
         "quote": "Hay que acabar con el gobierno 7D",
         "source": "El Tribuno",
@@ -21009,6 +21055,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "“Cagón”, “vende patria”, “tontita”, viejo facho”: el debate sobre Malvinas con escándalo entre Grabois, Zapata y otros",
+        "link": "https://informatesalta.com.ar/nacional/-cagon----vende-patria----tontita---viejo-facho---el-debate-sobre-malvinas-con-escandalo-entre-grabois--zapata-y-otros_a6abd7355488955bbb7910fa1",
+        "source": "Informate Salta",
+        "date": "Wed, 30 Sep 2026 20:54:32 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "El patrimonio de los diputados salteños: Quiénes declararon más bienes y quién quedó con saldo negativo",
         "link": "https://informatesalta.com.ar/nacional/el-patrimonio-de-los-diputados-saltenos--quienes-declararon-mas-bienes-y-quien-quedo-con-saldo-negativo_a6abba01348f74caaffefa9f2",
