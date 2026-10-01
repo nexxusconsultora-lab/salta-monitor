@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 175,
+    "total_mentions": 179,
     "sentiment_breakdown": {
-      "positivo": 19,
+      "positivo": 22,
       "negativo": 19,
-      "neutral": 137
+      "neutral": 138
     },
     "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 4,
+        "score_sum": 9
+      },
       "Wed, 30 Se": {
         "total": 3,
         "score_sum": 4
@@ -206,23 +210,19 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 29
+        "count": 27
       },
       {
         "term": "gustavo",
-        "count": 11
+        "count": 10
       },
       {
         "term": "milei",
-        "count": 6
+        "count": 9
       },
       {
         "term": "parís",
-        "count": 5
-      },
-      {
-        "term": "pasa",
-        "count": 5
+        "count": 7
       },
       {
         "term": "gobernador",
@@ -230,14 +230,30 @@
       },
       {
         "term": "inversiones",
+        "count": 4
+      },
+      {
+        "term": "gobernadores",
         "count": 3
       },
       {
-        "term": "inauguró",
+        "term": "pasa",
         "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Salta ofrece confianza y grandes oportunidades",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-en-la-argentina-week---salta-ofrece-confianza-y-grandes-oportunidades-_a6abe446c06fa52caf4486603",
+        "date": "Thu, 01 Oct 2026 11:37:00 GMT"
+      },
+      {
+        "quote": "Desde Salta, tenemos mucho para aportar",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/frente-a-milei--saenz-puso-sobre-la-mesa-el-federalismo---desde-salta--tenemos-mucho-para-aportar-_a6abe6f7b06fa52caf454b92f",
+        "date": "Thu, 01 Oct 2026 14:37:00 GMT"
+      },
       {
         "quote": "Emiliano y Sáenz son parte del mismo equipo; van juntos como candidatos",
         "source": "Que Pasa Salta",
@@ -315,22 +331,38 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNnVwYkJHRGpoTnktanRSTzducGtzdmdlTXhyenR3SF9uU0hMWkZDR0x4bVhtQ19tcElHck9SeEt2Zi0yWUtwdWhZTEZjLXFmdnNNSkFnenRFZVZEb2lVS0lRZ2RIamRwSmtIRDAzVEM3azk0XzNrM0wzOU4yWFlQcUhXWnNnc19kZWFJU0IwREV6YXQ4a1pTSTMxaXRPSFFnVXF1bnFWTjlIZk1JVXRYUnhmQU9vTlpwZTBFeDlyWkQzTTFjcGJDbtIBzgFBVV95cUxQWGIzSndmMHZGZ3lqbzgyX3hDS19qZzIxR2stejlKaHZORU1TcjZEcnZDb1lIM2dQSnNmN0c5aEdkWnRRdjNxbmlpU0pMUzg0SkZyRmFZZjhsYjU4Qy1yWDdQRFZMdF8tNFQtYzBXczdKcVBvSzUwaDlJZUlmX3RfVUs3VkNvRUpYeFZOQW91OGc2bnRvQkY0TVliamNULTVWSEx3N3BTNnpadUIwVVpBbVdKSEhHVVQ2VllzTl82RmZBVmlTbkNzaTVsWF9SQQ?oc=5",
         "date": "Sun, 20 Sep 2026 20:24:00 GMT"
-      },
-      {
-        "quote": "decir basta",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPYVdRZHIwZnlONG82bTZiWjkwdUZnbWhpRURQbEpxcFNDeWpkalRIS2c2NV9tV05MdVlId0ZYZkltVjR6OHZNb25PdnNaeGFnUGlCOGtVMzVQZjRvR09CcmwxaWF6N2VLV0pKb2c5VjdVdlJ1cF91bmhwN0JuRmkwekU3ZjBGWU1jUUhkQWd1ZTdERC1UWDFzMjVMeDc3aEhnangxU2tzRjV5ajRtTTQ2aGh4SktaU0dlN0Vsb3FqZTB3cUV6cW1wUjhFdWVTUUJQYzV4X20zVmRTczFBZ3Fxa2I0WlBtcU41eHF1SEYySEdZNTVhcVU3a1E1OHh1SHBC0gGGAkFVX3lxTE5uaWQ5NUdYOVNKZkpsUTBwZUxvV01FYjJwcGJ6dmltbXNmY2lpbExfeUxFWDJoYV9QaEhMVzlocEtVT2dBeDBDTV9zVnpOc3M4LVVLRzcyRWxoM1ZuZlBRbnh1YzJFOTFTdEVfclRJLWR4Y2I0UVlhel9acWU2enF1ek5IOUJVcTFqYkstUnF4OHZvdVhqc0xuTXZSTTRhaTRLOWQ5NUZOS0J5VGNhOVRFTGJJV2NPMFBHZUkwZkx0Wk1URmxoYnpMUUFiZEtPZUpoZUVnUzdXUEpWYU1SSTJLbkxCWDFqWFdsZ2pmYkpOeWt6cGp3NmxPSTQwcDZvWHRyaTJST2c?oc=5",
-        "date": "Tue, 15 Sep 2026 21:39:00 GMT"
-      },
-      {
-        "quote": "se está cumpliendo con lo que la gente demanda",
-        "source": "El Tribuno - Política",
-        "link": "https://www.eltribuno.com/politica/2026-1-29-18-19-0-obligatoriedad-de-examenes-toxicologicos-se-esta-cumpliendo-con-lo-que-la-gente-demanda-dijo-german-ralle",
-        "date": "Thu, 29 Jan 2026 21:19:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz en la Argentina Week: “Salta ofrece confianza y grandes oportunidades”",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-en-la-argentina-week---salta-ofrece-confianza-y-grandes-oportunidades-_a6abe446c06fa52caf4486603",
+        "source": "Informate Salta",
+        "date": "Thu, 01 Oct 2026 11:37:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Frente a Milei, Sáenz puso sobre la mesa el federalismo: “Desde Salta, tenemos mucho para aportar”",
+        "link": "https://informatesalta.com.ar/gobierno/frente-a-milei--saenz-puso-sobre-la-mesa-el-federalismo---desde-salta--tenemos-mucho-para-aportar-_a6abe6f7b06fa52caf454b92f",
+        "source": "Informate Salta",
+        "date": "Thu, 01 Oct 2026 14:37:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz y Javier Milei, juntos en París: el gobernador destacó el diálogo con Nación",
+        "link": "https://elintra.com.ar/2026/10/01/gustavo-saenz-y-javier-milei-juntos-en-paris-el-gobernador-destaco-el-dialogo-con-nacion/",
+        "source": "El Intra",
+        "date": "Thu, 01 Oct 2026 15:43:48 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "VIDEO. Milei reunió en París a los gobernadores para hablar de economía e inversiones",
+        "link": "https://www.eltribuno.com/nacionales/2026-10-1-10-26-0-video-milei-reunio-en-paris-a-los-gobernadores-para-hablar-de-economia-e-inversiones",
+        "source": "El Tribuno - Política",
+        "date": "Thu, 01 Oct 2026 13:26:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Javier Milei busca acuerdos en París y Gustavo Sáenz está presente en la comitiva - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55NUFrUjdaMzZSQ1ItM3BIbFROd0N5bVNRV3E3SUdvRjh2aGNVZWUtaHlhZDVRTzBfWk9ENl9tcVBpOFdZV3lIREdpQnNWZEJMSFF2cjIwQVNLMm1kRl9Xa0ZDcDVWOVNMYkZIei1R?oc=5",
@@ -511,34 +543,6 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNjJzNWlXTkRLMTlndDBuUDNNSVlQT0Q1NHJiYUZKTFB2dTFuN1NPM210ejVhTWhIQTJQRF9YcXdPR01nSGwyX0VWTld0ZVZnWVozd2NpZTRxM1dEcXVEdUZzaWRYbE5xamlEV0dJZ1oxLTdFTzlnUi1BUWhQU3hzQnoyR010WWtsMUxqUFVvV3B4OTlUVWJZbmJzcVRxWVUyQUtPN3UwSGt6NXVRZnNSU2pwcUxLcVUyaE5fcGxOcVdXSml6QlRRdmhXbVBWcnM?oc=5",
         "source": "Gobierno de la Provincia de Salta, Argentina",
         "date": "Tue, 03 May 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz presionó a los senadores por los subsidios energéticos: “Hoy pueden hacerlo realidad”",
-        "link": "https://elintra.com.ar/2026/09/24/gustavo-saenz-presiono-a-los-senadores-por-los-subsidios-energeticos-hoy-pueden-hacerlo-realidad/",
-        "source": "El Intra",
-        "date": "Thu, 24 Sep 2026 16:24:01 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz advirtió que “el clima social va a ser mucho más duro” si no se reactiva la economía",
-        "link": "https://elintra.com.ar/2026/09/24/gustavo-saenz-advirtio-que-el-clima-social-va-a-ser-mucho-mas-duro-si-no-se-reactiva-la-economia/",
-        "source": "El Intra",
-        "date": "Thu, 24 Sep 2026 16:33:50 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Sáenz podría volver a ser candidato en 2027: qué dice la Constitución de Salta - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQnR2VVNGb28zM3NKTThxZUo5THhXWnA2QzhHMko1LWIzYUZ2SURubXVYLVRLQVREMTY2czBKLXJoN18yd0dyZEs1ODVmQ3o4ZC1qTjlYdXFHS0lWcXU5WWg3WkJrTnhBMTZZWHZEcXlXUWlwWm42WmstMFFkUXY3eXJOSmNXZw?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Thu, 24 Sep 2026 12:28:26 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Bajará la factura de luz? Sáenz pidió a los senadores que voten a favor de Salta - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY2pSdjdjN1FmNlpteTM1OGVpc2JQS3pWRTJCN1JzdndRWjVSQ25qUzVJMDFVbnVWQjFwRDJ6UGFmRlVmWGt4MDZSamxrY3BBZEU1N3V5R0h1d1NsaFZPR3VaRXNnSXVOZzdtYTYxem9lelJHc0ZmTHFnMGlOeWdCbl9GZ2ZBbUJkREw2ajFETnFzQTJyZTljVXMzVHowVnpnM2c?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Thu, 24 Sep 2026 14:59:56 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -2047,13 +2051,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 7,
+      "negativo": 8,
       "neutral": 24
     },
     "sentiment_by_day": {
+      "Thu, 04 Ap": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Mon, 28 Ap": {
         "total": 1,
         "score_sum": 0
@@ -2162,18 +2170,14 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 4
+        "count": 5
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "güemes",
-        "count": 2
-      },
-      {
-        "term": "tabaco",
         "count": 2
       },
       {
@@ -2225,6 +2229,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tabacaleras: Enrique Cornejo denunció penalmente al diputado Carlos zapata por supuestos ilícitos - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORnRIanptSk5wMEVIVi1BMGdxbzdzbURVNFprRlktTC1NcVdYRnJGaUMta3N0MmZwSks0cFFFMHdqRHZfUDMyZHB0MFRDUnVZMFZJYW41TnVYR0xheExrMFo0X2t1WW9UYVlMaDlydjRTclVSUzFsQ0hVUGpnZjVGd0RhNVYyclowUkdEM2g3dy1GTUhtZE00S3djQktxNjZBZzZDd04wc2RpMW16ZzNKOThuak5URkQwaFhXcG9hVERmNF9yRW8zdzFEd3ZGVVkzaXhJTHUxNEw4WG1BVmxjRjBESWhWTEpl0gHuAUFVX3lxTE01ZG96cnF3aHdETWRadld3eXZsOGk4dm1GVDRKV0JoR3QzZVdYblMwNjBsQ0tlSFhXSi1nNWUxdFdienBlaXRtSDZBV2Q0RTBQOVhpN04zakkteWRLa3FXZlJaS3E5bFJDX0x3Z1NmVzBINVJlQk5XdE5VSzNXNnBRVjNzenJPQU5tR09oc0p1d0l5V25MVEhvLUZmUkRFNm5hTVBWOEt0RldndlpZd1laMlNqWm1jczJpbHFxS1lRSnBqYWJjYmVoNnpLYmYtRGl2MWdoQV9Zc1Z4SzMwOTZiY3BocHhhYVVXWUFQeGc?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 04 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Enrique Cornejo, candidato a senador por Güemes: \"La salud, la educación y la seguridad son nuestras prioridades\" - vocescriticas.com",
         "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNLWZXeEFFaVktdVZ4VjhYQmNsWUExWFZaQkFIb1REck15YldWWTRveFgzaUJfc0F1OWNpSWFYdGFVVkVwMzIzZlp3MWFqZ25sTC1XeXJaZzY2SHhoMno2eEZvdUdyQ1ZkR05UQWJwUUNFZWw1eVJuT3pzaF9FTzlWNU1TbVZiQ09WUFc0S3JNdzFDa3B0RVpQUzhmcXdXMzcyd2FUbU9wbXc5d2w2b092Q1o0NENoZm5ZV1JUUFRlLWM2MzRyZ05EdWdON3J4MF9HTkZqQWgwcGV3T29DYkYxdW5ON01TQk5va0RHaVlJdExmWUlZRGVz0gH8AUFVX3lxTE1oRHphSmwxb0pQS3BrdDZmQmhWeWVNLWwzRC1PMGxia2RpSGRvU3czM3NCUFFnakNfOXBEQXZvdllLUVJkVEtaUnpEWEhKYVVqMmpoeEFEdHc3a1JfNDU3aVZ5QjVPSzVsT1VhcS1oTW12UXJvZjRJSkFjU0s5X2psdUU5Q1dsdW5qeVotbWNKNDl0MWNOSnloSnhBaTNVLW9MTXNic2NYY3lVMGZSSzd3TU0xMm4xd0RDbkdubktLd0NRYTR1VG52bW81YXc2SlNPTUhWTmp2Y3hZMnB0dUIyUVRRM0JzUENKOWwya2wzY1o0VXVTVnhlRl9wbw?oc=5",
@@ -2426,13 +2437,6 @@
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYldLd1ZuSzlydmZpUFJpOFZDNXItM0h0bkpiR0NHYXhpYnE5Rll5czFJcWVXQ3hxM0poM2tERW1KbGpoUF8zSHVudlJLSVVzWk00YWdJeTd3QTRxYTVuRl84OHFSc1lBeEdzZUcwdzZGZzNCd20zVWRMQTNfRG5udU5HNWpJbzRVNDNSUVRUU19fZEpoOXFaLUpOUGN5UFFDczFmM0toZEYzUUtDNlZIbtIBvwFBVV95cUxQSWptd2JIT0JIcnozTzlkaG1UMU9PN0N2TDlaczJWOU9RZzQ3RFVtUDczbWY0SUZfQ3RxdWJ6dUFucHdSekpIRmpEbFNWM0dDMnN6Nk0yQVMyVkZOSEozeVJJeXZhNnN2UjRUTFhuRzJzY2dTeXFvQTB0SERBM3ZvbGIwOGZBWGljNmhuOTZFT2gxV0pmajhQczIxam5IcmlieFhxRTE0aG9MUGR2UVE2R2VaQXJJczUwVG4zNUlaaw?oc=5",
         "source": "informatesalta.com.ar",
         "date": "Sat, 27 Jul 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Multas de hasta $840 mil por comercializar cigarrillos ilegales - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3FZV3EtRzBBUkRnYkFJa01nRVRadExVUU8yWlJuZnRGd19QblBtMTdjcUxOczlWc3I5NzVBQnZuS0UycFphTlZJLTFfeVI5MWZVYldxUENzRXBCTWwzUXBkOU5ja0d6MXdKY0oySDFWYno5d0d4YVREa2FialV2Wjh3elZfdmhmNWhJRmM5MlpLUlk0eFFJSzI0VFg2S29rVUVLclhMOVZTWmFrNXc?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 27 Aug 2020 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -6004,13 +6008,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 80,
+    "total_mentions": 81,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 6,
-      "neutral": 66
+      "neutral": 67
     },
     "sentiment_by_day": {
+      "Thu, 13 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sun, 23 No": {
         "total": 1,
         "score_sum": 0
@@ -6380,6 +6388,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Juan Cruz Curá aseguró que sufrieron faltas de respeto del ministro de Salud en el Senado - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdWIwckhYYTdDRzh1Z0pRdzhjYW5FM2lrdHVFZVVfbXEwZmdxR0Yyb2tJcWljLU1rZzlmV1VoZFdNSHdKUGE4QVpLYjFSZS0wZXVsWmRWQlp3OU1uY056QWdHeEpJdl83dFdONnNZaDc4M3pMVnNuT01qQkpDS1pVbURWYTdnOXAwXzFQa1dHZ3FPcGVXZ01vZ1VTZGc2V1FYdHB6ekJqbXZSbS1WTDl3ZGZPUGk3am5BRlVhbTkyYWJUZ3BhNUdSTWVFQWFmbVVHV1RPN29XYzZISWw1bFB2ckN6ZmZxU3I1RjhETE130gH8AUFVX3lxTE9MSjh5WjhDWE1DakpRTzVFVzhJLXNsUDNYcTVYQlhCNk5WTDAxR19GRmxacUJHLWtpeHFuQ29KNmxWLVZyQkNacXA1b212TnhoUjBjRkV0dmFKVy1tcVhvamdidVJyQ0tQNEhCQkowY09WWDBuTG1XcVBxOFRHTUJtYmxlMXF5aVBRa1U0bDJ1VThFenpoYXg2VDczQ09VVGlXejdha3FHNnZYV0Z4djdPR0hmRkV2NHJteTVaNW4zT3lOcEpzMVZhS3VMdkZfU3pwQ0R5RjJTUm5VenlaQmY2RlVGS0tEWHRGV0pUSjg4bGpYTFVKMVB1ZmpoTA?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 13 Oct 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Orán: La Convención Municipal avanza con la carta orgánica - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMUJQN25zOFFYTmhEZ0o4QWw1Zl9RYzdMNzRNWXBvMS15ejdjS254a1NlalNsMmFNY3JJc1FsLUU4M0Y0UVlIODczRnZPcG12aF94b3BfVTJwcFdnSXZtTURxbjlHZjZRbEx5WC1ma0dreUZjVXlBNFhHc0I4RFpHYU9DdnVLbGRCNHNFeXFzNE9GRTNqZTlITl94bC0xb2N3QUpYRDFhczFsdUhPUG91dw?oc=5",
         "source": "El Tribuno",
@@ -6581,13 +6596,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Thu, 23 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Juan Cruz Curá reclamó en el Senado por el deficiente servicio eléctrico en el norte de Salta - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPby1xanllRW0wNnRXQmVWUEhqRjE2QnZmMWRvSUh0N1llaHVJU1h2VG0wdkZqOE1ZcTFGb0VwRWlWUVdYcjRieHM5blR6S3M3V2Ixd2ZkWmdNSVZjNDloa3pCRWd4QWR2bExBYl9WbmMxa1lEbF9MZk9DcEJMeWFhQ3V0dmVZQnMtbjJkZ2hGSVloSElWbGl6M1M2d21zLW9CQ3NYYjZJWkJBeWhfYnd2MUQwTnlra0NUdFlYR0JoOXdCWjlabFRj?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 07 Mar 2025 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -8455,15 +8463,15 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 3
+        "count": 2
       },
       {
         "term": "exeni",
-        "count": 3
+        "count": 2
       },
       {
         "term": "tribuno",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -8820,13 +8828,25 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 27,
+    "total_mentions": 30,
     "sentiment_breakdown": {
-      "positivo": 2,
+      "positivo": 3,
       "negativo": 2,
-      "neutral": 23
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "Thu, 14 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "Tue, 12 De": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "Thu, 01 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 30 Se": {
         "total": 1,
         "score_sum": 0
@@ -8927,11 +8947,15 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 13
+        "count": 16
       },
       {
         "term": "juárez",
-        "count": 13
+        "count": 16
+      },
+      {
+        "term": "elintra",
+        "count": 5
       },
       {
         "term": "nuevo",
@@ -8946,19 +8970,21 @@
         "count": 3
       },
       {
-        "term": "elintra",
-        "count": 3
+        "term": "bettina",
+        "count": 2
       },
       {
         "term": "lanzó",
         "count": 2
-      },
-      {
-        "term": "concurso",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "sabe escuchar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkNXV0ZNWkZJR2JYRktkZmFyOVlLOFVDbEdTYVNkQmNBdG4zNlplQ2txSU5wVXB3RmV4c0Qwal9FaXdqS2ZuRS1aLWUyVmFkWU12M3VkNkFuN2xEVkhaNkRCdURPR214T1pwMktXdHZGQzR5S2QxSGNDM1pPaEd2WUhBRXI5QXVjSkpaLUsxUUh3VTYzaHpjU2tfdmZEWkVSTHU2azdxMHhPQWpDVmQtQWctTWJzZVRSU1ZFblVWZjRNR2JuenNn?oc=5",
+        "date": "Tue, 12 Dec 2023 08:00:00 GMT"
+      },
       {
         "quote": "Trabajar con Bettina me resultó imposible",
         "source": "ariesonline.com.ar",
@@ -9010,6 +9036,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "¿Vous parlez français? Mónica Juárez se reunió con el cónsul de Francia - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1RtM0JGUExQVjRrUVNZMlY4Z3g1aG8xWXFoVmV3b3VDTGlfWjRmZ2gwRlY2VnI5ZEhCNktsdXZWQkJrMFVTSmJFdVVPcGdRNmZIZTd6Rl9SYVNUcnFOVHBady1IdnN4TGVZZnBMZENDVE5kU3VubVl4UnhPOS14bXZVRVpzRENxSkJvWGFPT0xhR2dXSUFaS1BHVllGeVUxc1BsWVZSTQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 14 Jul 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "¿Palo para Bettina Romero?: Mónica Juárez destacó que el equipo de Emiliano Durand \"sabe escuchar\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkNXV0ZNWkZJR2JYRktkZmFyOVlLOFVDbEdTYVNkQmNBdG4zNlplQ2txSU5wVXB3RmV4c0Qwal9FaXdqS2ZuRS1aLWUyVmFkWU12M3VkNkFuN2xEVkhaNkRCdURPR214T1pwMktXdHZGQzR5S2QxSGNDM1pPaEd2WUhBRXI5QXVjSkpaLUsxUUh3VTYzaHpjU2tfdmZEWkVSTHU2azdxMHhPQWpDVmQtQWctTWJzZVRSU1ZFblVWZjRNR2JuenNn?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 12 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "El estudiante crónico vs. “La señora”: Franco Lastra se enfrentó con Mónica Juárez",
+        "link": "https://elintra.com.ar/2026/10/01/monica-juarez-cruce-diputados/",
+        "source": "El Intra",
+        "date": "Thu, 01 Oct 2026 14:51:46 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mónica Juárez lanzó un concurso destinado a jóvenes para que conozcan cómo se planifica una campaña - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzMyRGRiTXU2UVl5RE9iYkQ0NU13b2s0b2dYa0tlSjY5aGxCZjNWTTBJYU9GTmlTN1Q2ZjRaZlo0U0hOX3hZekxEcXdJM1p1M3hYODd5RnJOd1JsX1J5eGpNZVpNd1dCUVowTWxfeXFQNEhjZElSdHlSYTdYVEtqR1c3ZFhCbTVoVEttYmszZzM4QndncGxaem1hSzdIeGt5YlJhWHhBb2NLV1ZoR3NWdTNlVFE0dnNsMGp4ZF9JcVR6VHFsa1ZLekE0WXBKMDg?oc=5",
@@ -13813,14 +13860,6 @@
       {
         "term": "porque",
         "count": 2
-      },
-      {
-        "term": "nación",
-        "count": 2
-      },
-      {
-        "term": "niño",
-        "count": 2
       }
     ],
     "quotes": [
@@ -14988,15 +15027,11 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "farquharson",
-        "count": 4
-      },
-      {
-        "term": "elintra",
-        "count": 2
+        "count": 3
       },
       {
         "term": "concejales",
@@ -16108,13 +16143,17 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 7,
-      "neutral": 28
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "Wed, 30 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 23 Ju": {
         "total": 1,
         "score_sum": 0
@@ -16267,6 +16306,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "Levantan la bandera de las Malvinas cuando les conviene",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KbHBteXZUdkJBNzJ6MEtVWkZDT2xuQVdhakZxY2JPVXN2RFVsaGxNSkNKTXdSUE55and4M1VFSWV6cmxRUWc1YzJRY3ZZRVh0b3B1UDVDM3lRdTdNR05vNmVRSkU3c1Z6b2MxMklxNFRBVTI1S09FcU13?oc=5",
+        "date": "Wed, 30 Sep 2026 07:00:00 GMT"
+      },
+      {
         "quote": "Se intentó proteger al victimario",
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWI2ZnNyQW9LUFVKMjkta0l1ZlNBWXJ6ZkZ1czBySnJRR1A0Um5BUUI0WEpZRzNNc3ktR05PVTVLLXh3eHFKWkhPZ29QV3NrWmxTUjM2cGlDU09UczE3d29KSHJpUmJINUlDendvZ3hqR3d6TFc2WUpIOXA5REFuSGJSelpHUVpFd29xN2d6eEdEeDM1?oc=5",
@@ -16348,6 +16393,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Malvina Gareca: “Levantan la bandera de las Malvinas cuando les conviene” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KbHBteXZUdkJBNzJ6MEtVWkZDT2xuQVdhakZxY2JPVXN2RFVsaGxNSkNKTXdSUE55and4M1VFSWV6cmxRUWc1YzJRY3ZZRVh0b3B1UDVDM3lRdTdNR05vNmVRSkU3c1Z6b2MxMklxNFRBVTI1S09FcU13?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Malvina Gareca salió al cruce de los libertarios: \"Se intentó proteger al victimario\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWI2ZnNyQW9LUFVKMjkta0l1ZlNBWXJ6ZkZ1czBySnJRR1A0Um5BUUI0WEpZRzNNc3ktR05PVTVLLXh3eHFKWkhPZ29QV3NrWmxTUjM2cGlDU09UczE3d29KSHJpUmJINUlDendvZ3hqR3d6TFc2WUpIOXA5REFuSGJSelpHUVpFd29xN2d6eEdEeDM1?oc=5",
@@ -16549,13 +16601,6 @@
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDBzRlFDTk44bkM0dl8ydkNwWll1SXM5TnlveHVVZlBoNGJ4RnhJeWN1bDEzLTZjUURGUWNBbWZiUm91Q04wZkJjTnZRM1hTV0xwc3d4cmF5bHJVLVh1MVZtbzh5VGZVR3VrRE1mNG9fb0NlSGJSZ1ZYNkVTVC1xMHA1NVByZ3JkQnltbzRWRnp3UHQ5XzVwUFc4cEVlV1lMVWI2ak9Yaks2cVh4UU5keXJMMEFsV3FIUkNtb3REbHVPSF9iSENVOEpuYlhPV1RTanlVcUR30gHkAUFVX3lxTE02VFVsb09vcUpvQkJ1dHZyR1gxcmlVbElYMGpXalYyNFZERlVVVkkzYkFQM0FpVGtfbENBb2pDTllBQ2VDWEp5d0JSdTM3OG42X0w5N1JXR1dQOW5nckI2Q0FXYks5WjBGWHJrSFd4X2tLWHh1cm10dDRlTUhndHN3WERvNzZTSHF2ODljNFN2cmtmZ1lyRDdGeFFrYk82NGl6eEF5ZU1wdklSbVFrWlNFMmFTYlM1bWkwbDlkRGNRdG9ZT3hOeE5jRG1hMWVuZHAtZlFjb2pXcEkweFc2Y1drSUVBZQ?oc=5",
         "source": "Informate Salta",
         "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "La denunciante del libertario Casasola dará su versión ante el Concejo Deliberante - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeEp0OUFBbEFDVVZ3RUx0WWdwVUFsdnRCNXBWVmt0WkJKSk9HSldZdVdNX1JyMU1NZEdUNENkWlIxVHVsdEhpd3JRaE1peFkzYXdwTjFVblotaFRURGZLRTBrU0t6ZTZSQTAxRFptYXNCRXNId1k5djA4YlRLSFdueTk0cHRVOUdmelhPczZZcGdfUW0xaE1pSzUybEprZzExSXo2ZFRET2xEclgydDlHcENtMnhvekc5Qy1QX2hLM1gtWnkxT2wzcW9iMVhrcGpKUmdya01LMU5oQk1fX2VjVXVDdXnSAfMBQVVfeXFMTWRVYnFaOVlrWkg1RTN4cDl2OWs0M1lLVVNzbHZYMEtCcWdMUWI5X0lSUjQzcEhLbEQwM1NacXBjUU0xS3M0cW9FbER3LW5yOXlIcDJDM1hFSU5KdnRST051M2NXMllYaDlMUkMxZjNtZ0FUOVJUcV9uYThjNmN3M1ljcXZtZEVTb1AwUE9xenNjTTdSOTdnQ1ZjTk9zdW84MjZQTUFzRXl6ZjlVelNIckNXczVxWFNzWnZGN003RkFhWHh0X2tTMTE3Ukc4dTJ2Rkl5Qjh6OEFxZjQwXzNEeDdKcGt2UGEwTFJVRjM0WGlFYmdZ?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -17474,13 +17519,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 67,
+    "total_mentions": 68,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 9,
+      "negativo": 10,
       "neutral": 54
     },
     "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Sun, 15 Au": {
         "total": 2,
         "score_sum": 0
@@ -17725,11 +17774,19 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 4
+        "count": 5
       },
       {
         "term": "madile",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "apuntó",
+        "count": 2
+      },
+      {
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "voces",
@@ -17873,6 +17930,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile apuntó contra LLA por oponerse a medidas preventivas frente a El Niño",
+        "link": "https://elintra.com.ar/2026/10/01/salta-prevencion-climatica-lla/",
+        "source": "El Intra",
+        "date": "Thu, 01 Oct 2026 15:23:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Emitió su voto el candidato a concejal Darío Madile - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTItNWNqV3NTNFh4bElXbDQxQ3VCaW0wVmwwb2lyWUNUSkJqU05pZnFEZDBfTEFxY3REVFl3d2k4ZWIwbmlYdFUyclZ0dHk4UGg0LUNPa1c3RWJTRC1QRVVub2VRTVh0dlVpR2w3VHZXMmFlYmhiR0ktTHNpOHN3ME96eDNKUktaVHRiLWxaNkRvSjRZOHlrbnJEc2NaOW1wb3hoS0ZFNkljMDjSAbABQVVfeXFMUExzclExQkpJTndNY05CRWZqbTRqYnJ2aTN2Zk45WWYzVEhOVGhJYWh2QnBtRDhadTNSQVY3NDI5NG9UQnlmNjVmbTdKWUgyUG9QVVdkLUxhaW1hZFRBMEdRVnBOeWpESTNjNS1ndEYwakNsTVNGWUFpT1VuaERJTzZhXzFNaUVDTlZHS1lJQXJTd0hxMHJORkd2UmpKend5RGZJbVoxU2E3TXhIQ0hGQUQ?oc=5",
@@ -18075,13 +18139,6 @@
         "source": "Informate Salta",
         "date": "Thu, 16 Apr 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Con banderas en alto y desfile patrio, Salta celebró el Bicentenario de la Independencia de Bolivia - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYWxsQm9ub1paYUI1V1NrOXByblRoYkJfVE05X2JBaGI0OHZpdDBJdEFtdENGRzktWF8tVTRMQVpaVlB4ZVN0OVg5ZGE1N1NoaDVFS25jbk92RW1MTXctMkJYa21nN3l6WGFpTG9QNVUtQ0QxaW1fNkdQc3ZnOEFKOW92dzBONTk2NGtsaXRKMlUwbTkxT28za0ZvNkRHQmduZ2ltNmhTNzlwUXR6TExZLXZ2UHFUMi1WNGpzczcxWXNnaVNVb3fSAcsBQVVfeXFMTnFNaHBndEpwUW1mYnYyY25pRGtTa1c5dkxieWo1ZXNQczN3TnRteEhEZHZwbUZCQWduZXhnUElrMXVpRzBmUl8yUlJzOVNoWW1Ec3JQcmpXM0FjUDVSdmZYVFlxLWpCRW4xX3YwS1Q5Z01mdlBRcS05X0ZEZWlfU3haeThRdG04Q2ZOa0JrTldHMGlEekpHUlNlamcxUUt0bmM5SjRWaWhKT3BKNWhpcG9Sa3JzNU1yN25TVU50MmVtWEtUd0s1N2RVSms?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 06 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -20389,10 +20446,6 @@
     },
     "top_topics": [
       {
-        "term": "guzmán",
-        "count": 4
-      },
-      {
         "term": "salteños",
         "count": 3
       },
@@ -20401,15 +20454,19 @@
         "count": 3
       },
       {
-        "term": "coraita",
-        "count": 3
-      },
-      {
-        "term": "defendió",
+        "term": "guzmán",
         "count": 3
       },
       {
         "term": "senadores",
+        "count": 2
+      },
+      {
+        "term": "coraita",
+        "count": 2
+      },
+      {
+        "term": "defendió",
         "count": 2
       },
       {
@@ -20774,11 +20831,11 @@
     "top_topics": [
       {
         "term": "gabriela",
-        "count": 4
+        "count": 3
       },
       {
         "term": "flores",
-        "count": 4
+        "count": 3
       }
     ],
     "quotes": [
@@ -21469,13 +21526,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Thu, 19 Fe": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 29 Se": {
         "total": 1,
         "score_sum": -1
@@ -21508,6 +21569,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "El modelo de Milei está fracasando",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWm11VlpuVGVqXzVhTVliUnFYak1nX3ZtVFllLU0yRERKMUhXamtkNzlveU5XQlVxNzRzVzhHbDRaZEpCVFduYzlJWjJVRkFNcE1PMnV0b185a2VIRnpJTWlQV21MY0MtVFpsSi12dk0xVEZMNE9HbnFhZXo2YUhqRVRoSGg1eGNF?oc=5",
+        "date": "Thu, 19 Feb 2026 08:00:00 GMT"
+      },
+      {
         "quote": "está con Urtubey",
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XekVxUWIzUFhRc2J3MFBxek9KOTd1eWVuMjlKQWxBSXEzX05zSldabElYYmR4YkRoekdCUjBaSzVJVHpGY3JvT004dXJpVFNEYi1rcWY3RlBFRTRKTjRxX0ZCOXJxeEJGVmczOXdn?oc=5",
@@ -21516,6 +21583,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pablo Outes: “El modelo de Milei está fracasando” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWm11VlpuVGVqXzVhTVliUnFYak1nX3ZtVFllLU0yRERKMUhXamtkNzlveU5XQlVxNzRzVzhHbDRaZEpCVFduYzlJWjJVRkFNcE1PMnV0b185a2VIRnpJTWlQV21MY0MtVFpsSi12dk0xVEZMNE9HbnFhZXo2YUhqRVRoSGg1eGNF?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 19 Feb 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El patrimonio de los diputados salteños: Quiénes declararon más bienes y quién quedó con saldo negativo",
         "link": "https://informatesalta.com.ar/nacional/el-patrimonio-de-los-diputados-saltenos--quienes-declararon-mas-bienes-y-quien-quedo-con-saldo-negativo_a6abba01348f74caaffefa9f2",
@@ -21613,11 +21687,11 @@
     "top_topics": [
       {
         "term": "yolanda",
-        "count": 3
+        "count": 2
       },
       {
         "term": "vega",
-        "count": 3
+        "count": 2
       },
       {
         "term": "tribuno",
@@ -22840,13 +22914,17 @@
     "id": "dip-marianela-ibarra-afranllie",
     "name": "Marianela Ibarra Afranllie",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "Tue, 17 De": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 31 Ju": {
         "total": 1,
         "score_sum": 0
@@ -22863,15 +22941,15 @@
     "top_topics": [
       {
         "term": "marianela",
-        "count": 2
+        "count": 3
       },
       {
         "term": "ibarra",
-        "count": 2
+        "count": 3
       },
       {
         "term": "informate",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -22884,6 +22962,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "COPAIPA: Marianela Ibarra renovó su mandato como presidenta - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZy1TMGsyNl8zZ1NDN0F2OEpGWm1rRS1MS3dIWjZLQmRhaGdIVkpBOG5fNHZFd2VmTTlfTWo0REkycjFWcjhjcVZGbFRfaWx6VWVsXzZBSlBDNGtrRzB1dDRldi1yS3NFNHhwSW1yR05fdzRZLVdjZnIwUkNHNHNRRUx5Z0todlFLLXRHRDJ4dTMwV29XUFhIRGwtZ1FjR3I5QmVnc2NwQXh6eHIyMEE5RU9YZi1qQWY5UU1FTHhRX01TZ9IB0AFBVV95cUxObmIxLTg4OC15NDZUdUFLRWxyVlh4XzVYNVlZMkRuU0pxV2xYbTFQeTZET3NmU25Ic1YySlZDQ0xoWGF4VmhzRDBuQ3VZck5BdGU1WDhSOEtqeC13QjNMT1JTRHFhN29BQmtRQUhZdnB4WlI3VFRUTkNHWmZEMy1KbFFPbDZFcGRBVzhJamRaSnpQV21FSnoxemlyZFRPenpnRF95Z2xCeWtBSmlsLUtnSUpoclgwcm15dHVoYmt0aDlyRHc5MGlscmI1QUZ2djIt?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 17 Dec 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Marianela Ibarra: “La formación es la única manera para que la gente acceda a la minería” - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY3FsdWU5RkpCMDZKNV9nNTdHN0VUVHVISEhtaXNmOXlVZWdrbDhfcG5IcmxDLXB5ZmUwWGE4eTdJTHNJZnVLOG1kbGVFd0Z0UWZZcmN2Wl8tdFFRYURrRjZWMnhXRHF6MUJEU2ttT2VkcWpUNF9fWENBNGRsdXR5QnhDVEgya2JGWFAzNDU2bWxOUnhEaWRaa3BxREt4VFBLYmNDZUQ4TUNUMmUtcmk1SEljUHdqd2JyWVd4amZYTDZqNGl6SzhxSmhUemh4LThSUEtYRXlncDEwcEwwdnIwNVpucmN4Z2Fn0gH3AUFVX3lxTE51Z0s5NU1pQTl4LUlWVjgtWmtZVzY2OVV5THUtRU5fR0szVTd5aWxLTHhHY00ybjdhWnhfSWtzWFUtTEdtT21STTJ3YzYzTUNtTWFDdmlGREl4TWFKRDlMN2VkcTk1alVGaDdxZ0t0RXVheWJLeF9qYjltREFRcEs1TTZVOTVvTkpBRVFaaERIUlNpSENoZ3lzUVJPcUs2SnVTWVV0YTRkXzdaTnRJWlN3Y05xS2FQZThHeWdQZjVTQXp0VGJadmhsNzJ6UVc4VFBzV3BnamV4VDN6UFRnRnhlREw4OEJrOFRTcUliTGo0RXRnRUZwTHc?oc=5",
@@ -22911,17 +22996,30 @@
     "id": "dip-carlos-ignacio-jorge-de-la-zerda",
     "name": "Carlos Ignacio Jorge de la Zerda",
     "role": "Diputado/a provincial por Cerrillos",
-    "total_mentions": 0,
+    "total_mentions": 1,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 0
+      "neutral": 1
     },
-    "sentiment_by_day": {},
+    "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "top_topics": [],
     "quotes": [],
     "legal_mentions": [],
-    "recent_articles": []
+    "recent_articles": [
+      {
+        "title": "DE CAMPOS, Carlos Jorge - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbkhxNUFPbmlDWmhuOUJZRnUzbEFWaG12RjllWWlLX1NVYl82cWh0TThuY2c0S2ZzekctNng2Q09nLXdhR2NOYUNvbVo4em51X0hSQ1RTdll5V2U4bWd6OWtUTFZUTFRPSS1EV19GQ0NKT0xIUDd3LXRZQldBUmpCZHE5dGwyUQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 01 Oct 2026 13:04:33 GMT",
+        "sentiment_label": "neutral"
+      }
+    ]
   },
   "dip-guillermo-alejandro-kripper": {
     "id": "dip-guillermo-alejandro-kripper",
@@ -23064,13 +23162,17 @@
     "id": "dip-franco-agustin-lastra",
     "name": "Franco Agustín Lastra",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 2
+      "neutral": 3
     },
     "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 30 Se": {
         "total": 1,
         "score_sum": 0
@@ -23080,10 +23182,26 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "franco",
+        "count": 2
+      },
+      {
+        "term": "lastra",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El estudiante crónico vs. “La señora”: Franco Lastra se enfrentó con Mónica Juárez",
+        "link": "https://elintra.com.ar/2026/10/01/monica-juarez-cruce-diputados/",
+        "source": "El Intra",
+        "date": "Thu, 01 Oct 2026 14:51:46 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Franco Lastra - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00RjBlS3JqYW5zc0pTV0cwSkN1RFNKSFU4bHBUcTFPQ0tnSTZWQV9ZOXhVcUQ0VUdtUFJGMlFlZEUzVlI0cWhYRjNQVlEzMnFzNTNpTzdfcw?oc=5",
