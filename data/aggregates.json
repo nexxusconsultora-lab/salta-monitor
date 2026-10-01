@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-01T02:05:12.829171+00:00",
+  "generated_at": "2026-10-01T08:51:04.370769+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 47,
+      "positivo": 5,
+      "negativo": 4,
+      "neutral": 38,
+      "score_sum": 6
+    },
+    "sen-luciano-elvira": {
+      "total": 16,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 14,
+      "score_sum": 4
+    },
     "dip-jose-miguel-gauffin": {
       "total": 16,
       "positivo": 0,
@@ -42,13 +56,6 @@
       "negativo": 5,
       "neutral": 31,
       "score_sum": -6
-    },
-    "snac-flavia-royon": {
-      "total": 46,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 37,
-      "score_sum": 6
     },
     "dip-adrian-alfredo-valenzuela-giantomasi": {
       "total": 6,
@@ -399,13 +406,6 @@
       "negativo": 2,
       "neutral": 33,
       "score_sum": 8
-    },
-    "sen-luciano-elvira": {
-      "total": 15,
-      "positivo": 2,
-      "negativo": 0,
-      "neutral": 13,
-      "score_sum": 4
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 4,
@@ -801,6 +801,38 @@
     }
   },
   "by_day": {
+    "Wed, 11 Fe": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 15 De": {
+      "sen-luciano-elvira": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "Fri, 11 Oc": {
       "dip-jose-miguel-gauffin": {
         "total": 1,
@@ -3597,28 +3629,6 @@
         "score_sum": 0
       }
     },
-    "Mon, 15 De": {
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "Sat, 27 Au": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -4052,12 +4062,6 @@
       }
     },
     "Thu, 12 Fe": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 11 Fe": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
         "score_sum": 0
@@ -12512,24 +12516,20 @@
       "count": 14
     },
     {
-      "term": "diputados",
-      "count": 10
-    },
-    {
       "term": "pasa",
       "count": 9
     },
     {
-      "term": "sáenz",
+      "term": "diputados",
       "count": 9
+    },
+    {
+      "term": "sáenz",
+      "count": 8
     },
     {
       "term": "salteños",
       "count": 8
-    },
-    {
-      "term": "gustavo",
-      "count": 7
     },
     {
       "term": "quedó",
@@ -12540,11 +12540,7 @@
       "count": 6
     },
     {
-      "term": "juárez",
-      "count": 6
-    },
-    {
-      "term": "contra",
+      "term": "gustavo",
       "count": 6
     },
     {
@@ -12565,6 +12561,14 @@
     },
     {
       "term": "quién",
+      "count": 6
+    },
+    {
+      "term": "saldo",
+      "count": 6
+    },
+    {
+      "term": "negativo",
       "count": 6
     }
   ],
