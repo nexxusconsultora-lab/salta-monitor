@@ -1,19 +1,31 @@
 {
-  "generated_at": "2026-10-01T15:50:28.468241+00:00",
+  "generated_at": "2026-10-01T20:38:37.003496+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 153,
+      "total_mentions": 157,
       "sentiment_breakdown": {
         "positivo": 12,
         "negativo": 14,
-        "neutral": 127
+        "neutral": 131
       },
       "sentiment_by_day": {
+        "Thu, 19 De": {
+          "total": 1,
+          "score_sum": 0
+        },
+        "Tue, 07 Ma": {
+          "total": 1,
+          "score_sum": 0
+        },
+        "Tue, 14 Ja": {
+          "total": 1,
+          "score_sum": 0
+        },
         "Thu, 01 Oc": {
-          "total": 3,
+          "total": 4,
           "score_sum": 0
         },
         "Tue, 29 Se": {
@@ -92,15 +104,15 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 72
-        },
-        {
-          "term": "discapacidad",
-          "count": 39
+          "count": 73
         },
         {
           "term": "tribuno",
-          "count": 37
+          "count": 41
+        },
+        {
+          "term": "discapacidad",
+          "count": 41
         },
         {
           "term": "informate",
@@ -222,6 +234,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "En la Legislatura de Salta se gastarán $53 mil millones en sueldos - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlQyc056ekJYUko3ZkszaWZ1RHhmU1E0Rl9NUzIyem1yVzhkeDVQaDJwb1N4MXV6WmxaRUJjQkJjU2pIWGR3R2RZcWRvOGhMQUNSZGZRVFBOWFRCTzgtUEpDU3pHZElxdlY5R0ttdGJWdzVsT1kxMHBDVU5RazRVdGVFWl92bXhDZ1dFVFdJYmV1RkVPc3g1bnhlVDRBTklMcjBSb0NDNlNUaEtRMjVGU3RzMU4?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 19 Dec 2024 08:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15OXBwLVpxOHNULXRVWE9nU2hFSUlYNTZsQ3ZMUFVEaEZVMmxOc09UbzduNU9OY3RCS3hBZENYcUFwVmtwVFB0T1FyR05EV1lzMVFPTXd3?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 07 May 2024 22:12:02 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Educación, seguridad y salud son las áreas prioritarias del presupuesto con $ 1,9 billones - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMGl6SGhYaUYyQWZjOTg3SnZXRjI4T3hqZkdxT3ZtMFk0VUxvaE9xV3p3RkJoVXhNSThLVk1RdVpwaUZmWVlPOHMxa2Y3NDcybnA1N1BOM1BTc1dKaVRpVHhGa1RqdXZTMEVTTld4ZEVwVzg2Y1J6OXhibGZRclBqTnZoLW0tS2VEUWpYV3RaY181Tm9adWFCRjRISGlEanYyRjdIdEFSbWtlYVBya3hzenE3Y3JlVEFSYUVpTmJWOFlrTU03T1UyWTBJOEZxeGFL0gHWAUFVX3lxTE5OUVRNQ2ozd0JqN2ZmUXk5UGktcW1iZW5BVDQxNEJ4SXVVVzFKRXE0eHUwUmZHQmhLUUM5TGFBeUR3LWNyS1B0eWkxQ19VTmh1WUZyVjJacTNzYVU4eUlfV3psa2VGU3JwTTl0bGx1a0tIakI5U2Y1d0t6Y25wWHJXSExITjQ3QmVLakpTMW1Zbl94MmxyQVBCUHpWalFnNXJWckZXeHlxa3JZdkRDa2JYZ3JFblM2ZDk1Wk1TZmV5YU5RMjdVYkRZNGJSM0NDdTFzS2t1bGc?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 14 Jan 2025 08:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La oposición convocó a Diputados por el DNU, las deudas y la discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU2Q1anM4c3J0S2dpWXhld2ktVHAxMVpvQVZKS1Z3RTBMNUlkR0llTFZVRi1lLUVhSTlobG1Ea0ltNkNGU0puZEJYbTNXRHBuNXgxVmVWbEIweWFZSEw5NVRSODQtdnRlT1M3TnEtb2xMRl9DTVJxU09KQzEtOG9YVXVWaVcwUG9Ua2U3TXNHdi1ucWRSMWVzUjNVWDdfX3FXUFFwUlJHY1ZOXzBEREpsMGkxSmhTQnItQ2FJaFRpaGZfbm1I0gHKAUFVX3lxTFBkR3Bjd0lSTGNxM2F4c3FKRklhMWo5QWU3V3F0Q2tjbXh5b0tuZVFFTFZNa3hXNUR6emhnRFZMR1VTNl84TkJDenE3a0VQZEljSi1NTEd4M1hCeTVWeWJ3QmgtcnFrX2FmOXVvZ25JWjJqbWdQbXlwWnh0NDVBQk9GS0dRTXl4a3ZkazhNZHk0WWVQSUNOWE1hZExHMXQyYVhGSnp0cTZwTm1BUmtIWmJ0WFVEQV9zTXF2Ynk2UVpFdG9LWDhLLVEzYlE?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 01 Oct 2026 19:05:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Con Gustavo Sáenz en la comitiva, Nación reúne a gobernadores en París para discutir el Presupuesto - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiLUVtODFtOW9MUWZJR3FmWWVvdWxtUjc4TTZRcms1VC1zbnFlSzZFd3hxR2tmVmMwRUw0ZVV5bXlYNXNGc2dtWk1VWGhjc2YtdHVtREktbmZWNjViSzVybFFjU3ZnZUkyWlZxVDZzRFZOaHc?oc=5",
@@ -403,34 +443,6 @@
           "source": "El Intransigente",
           "date": "Wed, 23 Sep 2026 04:43:00 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "Macri: \"Le dije a Milei que tenemos que armar equipo\" - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFEtOHE3amNyQTFvN0Z0V0VVRV9oVEZ4aE1sQnE4ekNjMHNDVXN1b2NPZk56eGI0WFZBSzVYOS1ieWlERm9wdFNTY20yTjN2eF9LUHZ3VzBIa1ZuR21JZ0VGUnpVM1JDb2ZLal82eUloSERJLUxPREdUZGloVUQtMjhFYkxQdjcyN25nS3pUc2ZNaXBFOVM1OC01cGhnNDI0RkVnTnJn0gGrAUFVX3lxTFA3OGdOck5uRVl2VFRKSkxuc1NISUNGUFIwVWRfanl3TnNpaVdZOUgzQjZMbEF4STl3Q2Z4a2ZhTFFYNUdUblNibC0wZlNOVW03ek9mckFrQ1VhWGtlRmp4RnBPZWVRSFhocGk1NzVWMDlXLXdHREtKc0pQNFBwRndqNHBjbTRtTnpQWUFCbkJiZjI0Tkk1eWVkSnBwcjVfNmFGZVBpUmhyaGpxMA?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 26 Sep 2026 05:04:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Malvinas: así es el proyecto que Diputados empieza a debatir esta semana - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQlZBdHhhNm1NTmlDeWtMTTVpTUdxdHdJU1gzYTVaMVRpemVlVkIzNWgtZnpoMHVNYXZsTEJ2VjM0akUwaG1PcXZQRW16ZHFob1ptOTZHdlVUb3o5NVNwcklsZVczNkFZcTV4UEZaZmFtbTdXWENkQU1Ra2dEeDgzZHFGX1Q5dXplQW9qRHpNWUx0RnU1d3psaGFrUDlWVDA4dDRLMGxyTDhPNDdBcVVLdTdRZlg2aUlKMFJZYlZQQ3BxbDVGUjhTYVhYeDZORkhnWlNN0gHiAUFVX3lxTE9USEFCWWd6VXRWZVBnTTZLb2htR3Z6RFdWQktENXJlVXF1OWJaUTVXbTZMWHJnNkhHUmltSnBWMkNPZDBldlc2elZEQXZ6VXY1TDVBSThaWTVCdTYzaUtVVmI1VUQ3Y2tpMHlhdm8tLXpnR0p0NXYzbm53NEx2T2VmbmlWcEFBMkVyTm1XbTRrTmsyRjQwN0NPa1JtSFI4QVhEM3pmekpHbjlzTWltcFlwTklIWXQzUGt2RWdQcXBXc1p3WkRWN1UydEZqaXpOeGNUUWNvNG9McjBNSTM1dlpLcXc?oc=5",
-          "source": "Informate Salta",
-          "date": "Sat, 26 Sep 2026 19:01:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Diputados nacionales de La Libertad Avanza visitaron la Casa de la Libertad - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOallsdl9SaWRIUkE0YS1FdzR1VkdiOGphTkQ3SWJuZWEyTUY1N2lTakNpWGtzYWVZQ3lSZllhTnZmM1VUc05CZjFXVzVmV2pDNUVxMm9iWkpnM05CWERRVnFnSjJKd1VTeHFkQkRIZzhWaGZxV2VSeTBuWHFlSDh4eENzbjhIMmFFSDRwbS1RUXY0Wlo3Q0preVpyZ096TTZBRGw4eEJBbW1kNndQWmRPbzdlREpnZEdKMzZkT3VwN3FxZ9IBxwFBVV95cUxQLWhiNy1VNXVici1laDBudGVrbzJza1VnNy1nMW9xWE9KN1M3LUpYX2lJZlcwcUR0bklJc1BjdzJBelNYY21lTU82aTJqNnFUQUZ4am50TWN4U0hxeHV4ZEVQdXBwNXd3eWJyMENWWG5qSjdwRUc0eEFSdDRfMVlwMi1hZmUwTllvS3ljeE1LMHJQa0VvTkttOURwY0FRRlNpT002WlUxd1lwLTFRR0lEOXpkbnF1cXlNZjd4eHhHRGZqVHB1RUFn?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 23 Sep 2026 10:45:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Fuerte mensaje del PRO contra el Gobierno de Javier Milei por discapacidad: «Se equivocó» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS215b1ZybzZKd2R4dWhaazJVNTRtZS16RkxmMDJYQ2RYVlBqMmktR3VVRnlic2thdjJPNmMyQUIzYnp6aFVXWDVoczQtUktXV3JTTjByRkVza01vUzJwT2Vkem1KVFFQcnR2aWxBMHdZTFFsV2R1QkdNOVFFTjRSVHFUaVpRSUpmUS1pSzB5VTE5WElJV1IzdzRDSTFqT3NtZ1VYcVVtdFA2Qi1aamJIcDJ4a3cwdDU3amZXZUwwRS0?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 23 Sep 2026 19:38:28 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
