@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 184,
+    "total_mentions": 187,
     "sentiment_breakdown": {
-      "positivo": 24,
-      "negativo": 19,
-      "neutral": 141
+      "positivo": 25,
+      "negativo": 20,
+      "neutral": 142
     },
     "sentiment_by_day": {
       "Fri, 02 Oc": {
-        "total": 1,
+        "total": 4,
         "score_sum": 0
       },
       "Thu, 01 Oc": {
@@ -214,19 +214,19 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 25
+        "count": 27
       },
       {
         "term": "milei",
-        "count": 11
-      },
-      {
-        "term": "gustavo",
-        "count": 8
+        "count": 13
       },
       {
         "term": "parís",
-        "count": 8
+        "count": 10
+      },
+      {
+        "term": "gustavo",
+        "count": 7
       },
       {
         "term": "inversiones",
@@ -339,6 +339,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros pide reconfigurar La Libertad Avanza Salta tras la foto de Milei y Sáenz",
+        "link": "https://elintra.com.ar/2026/10/02/salta-reconfigurar-libertad-avanza/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 12:27:00 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "El pacto de París que puede bajar a Emilia Orozco: Karina Milei no competiría contra Sáenz",
+        "link": "https://elintra.com.ar/2026/10/02/el-pacto-de-paris-que-puede-bajar-a-emilia-orozco-karina-milei-no-competiria-contra-saenz/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 15:05:00 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz confirmó en París la inversión de Rio Tinto para producir 50.000 toneladas de litio en Salta",
+        "link": "https://www.eltribuno.com/salta/2026-10-2-10-54-0-saenz-confirmo-en-paris-la-inversion-de-rio-tinto-para-producir-50-000-toneladas-de-litio-en-salta",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 02 Oct 2026 13:54:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Salta también desdobla sus elecciones: Sólo una provincia irá junto a Nación el 2027",
         "link": "https://informatesalta.com.ar/politica/salta-tambien-desdobla-sus-elecciones--solo-una-provincia-ira-junto-a-nacion-el-2027_a6abeeb2706fa52caf474b843",
@@ -527,27 +548,6 @@
         "source": "El Intra",
         "date": "Sat, 26 Sep 2026 14:37:33 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El rol clave de Sáenz por zonas frías y la espera por la energía",
-        "link": "https://www.eltribuno.com/salta/2026-9-26-1-0-0-el-rol-clave-de-saenz-por-zonas-frias-y-la-espera-por-la-energia",
-        "source": "El Tribuno - Salta",
-        "date": "Sat, 26 Sep 2026 04:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Milei empezó a mover fichas para 2027: invitó a Sáenz a una cumbre clave en París - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQelZTNkNlVkhmOXYzQUppXzlLNjc5c25RTXhRUFJidWU1YVdINjBBMFRnQnJyejEyZFhUbjI3ZUI3NGYyaEJCYlNTM3JkY2k1VXNrcDJLNG1YRU9kSGIteDFZXzJaSUhkeThBMnBDSnZMZUtVVU1ZZnBoVjFKSndmbFNIeDVaR21VclFabFZpd1pwZGZkWjNFRHlB?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Fri, 25 Sep 2026 17:08:59 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tras el pedido de Gustavo Sáenz, el Senado aprobó la quita de subsidios al gas del sur",
-        "link": "https://elintra.com.ar/2026/09/25/salta-pierde-subsidios-gas/",
-        "source": "El Intra",
-        "date": "Fri, 25 Sep 2026 12:25:00 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -2189,23 +2189,11 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 5
+        "count": 4
       },
       {
         "term": "cornejo",
-        "count": 5
-      },
-      {
-        "term": "güemes",
-        "count": 2
-      },
-      {
-        "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "diario",
-        "count": 2
+        "count": 4
       }
     ],
     "quotes": [
@@ -14030,22 +14018,18 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 8
-      },
-      {
-        "term": "álvarez",
-        "count": 7
-      },
-      {
-        "term": "elintra",
         "count": 6
       },
       {
-        "term": "municipio",
-        "count": 2
+        "term": "elintra",
+        "count": 5
       },
       {
-        "term": "cuestionó",
+        "term": "álvarez",
+        "count": 5
+      },
+      {
+        "term": "municipio",
         "count": 2
       }
     ],
@@ -15629,11 +15613,11 @@
     "top_topics": [
       {
         "term": "garcía",
-        "count": 10
+        "count": 8
       },
       {
         "term": "josé",
-        "count": 9
+        "count": 7
       },
       {
         "term": "concejal",
@@ -15641,7 +15625,7 @@
       },
       {
         "term": "tribuno",
-        "count": 4
+        "count": 3
       },
       {
         "term": "amigos",
@@ -17712,13 +17696,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 68,
+    "total_mentions": 69,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 10,
-      "neutral": 54
+      "neutral": 55
     },
     "sentiment_by_day": {
+      "Fri, 02 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 01 Oc": {
         "total": 1,
         "score_sum": -2
@@ -17967,11 +17955,11 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 5
+        "count": 6
       },
       {
         "term": "madile",
-        "count": 5
+        "count": 6
       },
       {
         "term": "apuntó",
@@ -18123,6 +18111,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Por qué mintió Darío Madile sobre la publicidad de casinos online?",
+        "link": "https://elintra.com.ar/2026/10/02/concejo-deliberante-publicidad-casinos/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 14:23:24 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Darío Madile apuntó contra LLA por oponerse a medidas preventivas frente a El Niño",
         "link": "https://elintra.com.ar/2026/10/01/salta-prevencion-climatica-lla/",
@@ -18324,13 +18319,6 @@
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUllPZ3lUd2FCXzVaSXVzWUNxQ2FFOHI5dXNRZEtCY3VsNVkzTVhhZTZFYVllVUZjQVVEc0hNVnNOQTlBSy1SLU9hWVIzV0o2cmtiQkw0V3dNSlZLSkZBbUFPaWlpTWNCX2Z4T1pFZmxMT1NyLWdxTWliei0zSXBuM1ZDNVR3bkVzVGhJRW1ENDRqVXp3d3lJZXZNT21Sdmxyd25vVFRDMDFZSkhIWV9yTndmdGRZd2UtekRvczJDclhzTTNnV1V1c1FjbFRwQdIB0wFBVV95cUxQR1laUnRXRjlNM0ZIZmpQcDduZzJHUEl1MFFsT3VvRTI0cHdyZDMtX1p0N0s1QUt5aWV2cDRWbHBkaVNxU1EtdllHU2tmdS0ybTR6NnJubEdqWl9HTXFDMS1CVnNFcDVfWlBXN0diemNGMDVOU3BWR3FHSjJHb0RhZF9Zd2hyUms1R3RVZXlCaVVZT2l2ckxtQUV0bjVfMHpYbTdDVWNfdEhmd3l4cnU3cDEyX1p3WTJ6VnBpWWl3RnpqSmR5VjI4UFVRVXJpUkJ6OTR3?oc=5",
         "source": "eltribuno.com",
         "date": "Sun, 01 Mar 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Comisión de Juicio Político se reúne para tratar el caso del concejal Casasola - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOai1EMVQweE1iZlJGc0k0WmtjZWp6eEVfd1pscU9KNHFOZW5sVllZa01zbWF0ZEVIRXpkZ1lJX1RxbzVIZHhaandwRHEzZmFzT0hqUFpJeGdFRndob2pfcXdoQ2FrSmI2d2pYY1Y1SXhfSkg3WF9GYkRoMzB3Ym9Qcl9VWXdMZENOV1Jxd0FrMElRMnNMdUx1bGZNcHg2VVU3UjZPNzY1cTQ3ZjZxR0gweE43YjNzTk04RkE1YkEtdmpFdHlGakNnelZUMU9HSVNIZGtjdnJzYlNVS2lCTFdIc9IB7wFBVV95cUxORTJQcDEwWkVWYUdETjJjZkxtTXoySmRpaDc4aldNMi14RFNNc2kzNndsMEl0ZUNtNllicXFSMTd6SHRUSTVFQVdsTEI2cGNiVldZSHRtVVFVdXdzMWFfazAxQ1BkeGFjZ2NPMFR3NkgzWXpIWDBPcWgwQlJ3U3c3VExmTTdZTE9CaGg5RVA0ZWxqX24tdjhhVkhTaDZCM2I0eFdKVjNkVUNjTFBBTUtzd1ZMbGVDdmozVjNiRFYtN1ZNTzhhek1ORjBiTW9EQktVbkFBYlBTT2ZEMkstOW1kN05UeHVUTHBtVUcxclI0Zw?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 16 Apr 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -18982,10 +18970,6 @@
       {
         "term": "quiénes",
         "count": 2
-      },
-      {
-        "term": "comercio",
-        "count": 2
       }
     ],
     "quotes": [
@@ -19335,13 +19319,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 4,
+    "total_mentions": 5,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 4
     },
     "sentiment_by_day": {
+      "Fri, 02 Oc": {
+        "total": 1,
+        "score_sum": -1
+      },
       "Tue, 22 Se": {
         "total": 1,
         "score_sum": 0
@@ -19370,6 +19358,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros pide reconfigurar La Libertad Avanza Salta tras la foto de Milei y Sáenz",
+        "link": "https://elintra.com.ar/2026/10/02/salta-reconfigurar-libertad-avanza/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 12:27:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Rodrigo Quinteros cada vez más alejado de la dirigencia local: su postal en solitario en la Casa Rosada",
         "link": "https://elintra.com.ar/2026/09/22/rodrigo-quinteros-cada-vez-mas-alejado-de-la-dirigencia-local-su-postal-en-solitario-en-la-casa-rosada/",
@@ -19552,13 +19547,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 48,
+    "total_mentions": 49,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 5,
-      "neutral": 38
+      "neutral": 39
     },
     "sentiment_by_day": {
+      "Fri, 26 De": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 16 Ju": {
         "total": 1,
         "score_sum": -2
@@ -19735,19 +19734,23 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 16
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 16
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
       },
       {
         "term": "eltribuno",
         "count": 4
+      },
+      {
+        "term": "senado",
+        "count": 3
       },
       {
         "term": "tribuno",
@@ -19759,10 +19762,6 @@
       },
       {
         "term": "ingenio",
-        "count": 2
-      },
-      {
-        "term": "porque",
         "count": 2
       }
     ],
@@ -19861,6 +19860,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Hoy se vota el Presupuesto 2026 en el Senado: ¿de qué lado estará Flavia Royón? - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkFRMndWb0ZKeHdoRDFOQjJmVHNDc0xIODhjbTBTZlJHOHdqYzNFelItcXRFaU9MY29NSnZmNkw3SjdJMGFWaDJ1cjZfYVBhT3hHZFdjblZqdEdLNDJZRWxnTG95ak53cDVTYjRaTzZpWXBwcmh0bENoNVNER0M1RW5HTlJSLUg0MFVaX3BVOUxya2czb3NqMTFpUS01akVFSmNZNGNtOXQxSXJHSXVQdQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 26 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón pidió la renuncia de Adorni - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFlFZ1J6eUFzLTBIS2lXUFBWelVIUE9DTTgxSjFFZVpVUEpVOUlVYWdWRjA2Y3BmODNhMUY0ZlJBbkV3a3cxY3c1aEQ3VEoyNHNlWUdLV3M4N2dhT3RJWnI3X0M5WTZFSE0tSmJ3UUpuYTdNLVBocU10LXdRUWhndg?oc=5",
@@ -20063,13 +20069,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 02 Apr 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Flavia Royón propuso seguir apostando por la industria salteña - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONG44S0ZId2tiUXNiZWlCZkJ6amRoMWpIQXEtYTNqV0VKSjhLUHN3c0txbFFWN2VBY0JxNm91TlgwOU9Rd2gxVzhoZkI0MjhGWVllMDhfOUg2dk9YbU40S0JNcHl0ZFR4U1hscVZ0Qm9HUVp6dG9ZWmVtbV9kSlE3WXNHYUdIRXprV3UxaDVvZjF2ckxUaFM3VExOel9wdw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 13 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -20077,13 +20076,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 40,
+    "total_mentions": 42,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 6,
-      "neutral": 30
+      "negativo": 7,
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "Fri, 02 Oc": {
+        "total": 2,
+        "score_sum": -1
+      },
       "Thu, 06 Au": {
         "total": 1,
         "score_sum": -2
@@ -20243,8 +20246,20 @@
         "count": 7
       },
       {
-        "term": "tribuno",
+        "term": "milei",
         "count": 3
+      },
+      {
+        "term": "foto",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
+        "count": 2
+      },
+      {
+        "term": "karina",
+        "count": 2
       },
       {
         "term": "elintra",
@@ -20252,14 +20267,6 @@
       },
       {
         "term": "bruno",
-        "count": 2
-      },
-      {
-        "term": "conducción",
-        "count": 2
-      },
-      {
-        "term": "milei",
         "count": 2
       }
     ],
@@ -20364,6 +20371,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros pide reconfigurar La Libertad Avanza Salta tras la foto de Milei y Sáenz",
+        "link": "https://elintra.com.ar/2026/10/02/salta-reconfigurar-libertad-avanza/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 12:27:00 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "El pacto de París que puede bajar a Emilia Orozco: Karina Milei no competiría contra Sáenz",
+        "link": "https://elintra.com.ar/2026/10/02/el-pacto-de-paris-que-puede-bajar-a-emilia-orozco-karina-milei-no-competiria-contra-saenz/",
+        "source": "El Intra",
+        "date": "Fri, 02 Oct 2026 15:05:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco denunció amenazas de un asesor de Victoria Villarruel - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNG9fbEU5ZVlLQk1vUDFjb1NyQ0JTVG5NTGRoMTBSQXUzbEFCUm5JQjZESzFkT0tVaUQ0OHRWdjhXRWo5UkV2VjBaOEg0dUtaU3NGMzZLQ0JrZjFCVlh2T2puX3ZNa1QtZTlEc0FvWUFJYVZIZGo4VENJNHhmbEhJaA?oc=5",
@@ -20559,20 +20580,6 @@
         "source": "Elintra.com.ar",
         "date": "Wed, 22 Jul 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Triunfo de la Libertad Avanza en Salta: Emilia Orozco y Gonzalo Guzmán Coraita van al Senado nacional - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWU9EMUNDNHE5UW1yMkxqTW5zUVhzZDZEZDU5bW1PNGtLQno1MTB6VDVLZjItcUdpTXp0Sjl0ckF5aXNCVU04SXVFYnp4UVNwLW9XU2tkZy1zNVhPbHlYNXU2UWlyd001U3pDZnhXTmxsMXNjQlBmQ25mOTZYb2FJWlN6eVM4LUoyMTEtdUpsQjNTdk53VW1Vb3VpSUo2bGFlQVI3a240VWR1Unl2S3JEZVo1MkZFZEYteHVGSG92dnhzUkdrNUFUa2ZrME5vbG56RnFiZTdoQXBHd9IB3wFBVV95cUxPXzZhWkhYdkRVa2xkOE02TkNiT0o4MjdmWG8zX25JeTlqclZsSU1HdURZTlVQWE1EZHVJVmt5eWJ5N1E2OEhYNFgwLUN4Qm56aVRreWtLZmNLTTdWRzRyVmZLWHNQeE43Q0hIVnROZnY0NnlsUWhOSWhUSHpEX1BXSlBWd2VuR2tSWFlhSERyZURGanJjc0d5QmlIdU1pTjJYUTdIT3JTTlNlcmVuU0RWdjhwb1dZemRiLWc2ZXQwUXlXaDkyVzlNLW9xMHdFSXZKUElFWUhYMHJlSWNfam93?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 26 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco será candidata a senadora por La Libertad Avanza en Salta - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2hCSzhLSnM0M0ZGbk00R1F1SnhhWlhaa1hOOHpVdGxpRVk4d1ZWbmxCOE51WGpHNGlZZVR1dXZDV0stZXdlbnBWZHVnbzRCT0xYWEpwSDQzd0NhVE5QRnVrUTVJV0ZUemIxa2dpeExiY1hTVUVMczlGc3dQU2p0RzczbjFKN0p4c1A5UVYtdWJ6OEctWmxLUElISWxzN1hKN1JqWFdIMWc0Q3dtckt5UkxOeGVNR3gzZDdyQ1ZCcS1Ic2l2VFdWRlBGbTlnUklmeFHSAeABQVVfeXFMTWJ2NTdINkQ5b2hPS3dZV0xEMzJhTUtjX3ZqdDNDMVAySUl5ZWM3dHg5YVMzOXowckxpNGFoMUItZkxVS1Njb3UxWjRvSDllWnpjb04tWmtRZ1h2cDVQSWtWcUhyaHZ0dVZjZEhtUVpHcTA2bV9ZTGFkMGZaYjB1RUlRVUpKa1EzUEhYdEZIZVhGNkdyNlVsU3d3T1lRNTZ5anp2anlYUHNLRjNXcDJ5alRSLWpwUXlic2N2MXl6bTh0QVlyMFQ5elh2ekw3RURBX3NzVDMzV0llM3MyX2VMczI?oc=5",
-        "source": "Informate Salta",
-        "date": "Sun, 17 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -20580,13 +20587,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 16,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Mon, 10 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 29 Se": {
         "total": 1,
         "score_sum": 1
@@ -20643,10 +20654,14 @@
     "top_topics": [
       {
         "term": "gonzalo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "guzmán",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -20679,6 +20694,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gonzalo Guzmán valoró la media sanción del proyecto oficialista en el Senado - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkMyRFJMaFpCWnlfcXNDZ3gwWEp1T0JDazJFbUZKZkNBWExTdFJYSXEzTTM3VmRSRlFPaUZiOHQwd2ZEeGVIaEZjRlFHZlphMW40aVJ6ZXY4d25ndGoydy1tSjJXd2d6elJtaXRHcXJtNmZvN1p5TjBNbzVGN0pJbmFQNlB0amlwczMtM0hFdUJGSGozMFpRMFJkWTJZVzlCckt0WjBhUjJ0UFhFUUNnOQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 10 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Senadores salteños despidieron al libertario Carlos Pagotto",
         "link": "https://informatesalta.com.ar/sociedad/senadores-saltenos-despidieron-al-libertario-carlos-pagotto_a6abc259448f74caaff152524",
@@ -21210,13 +21232,17 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 19,
+    "total_mentions": 20,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 5,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "Tue, 30 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 28 Ma": {
         "total": 1,
         "score_sum": -2
@@ -21297,11 +21323,15 @@
     "top_topics": [
       {
         "term": "zapata",
-        "count": 4
+        "count": 5
       },
       {
         "term": "carlos",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "grabois",
@@ -21317,6 +21347,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "El que aportó, tendrá aportes y el que no, tendrá PUAM",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2ZUc1pCZ1VDZUE1QW9ZY3FJTHAzdjFlNm1sSEN3S25YT1dkeFRuMWVTTU9aUzZXM1MwRXFCUi1McHBoLTJRVmwxeXQ1UUdmWnVBY2txbm1oSEE0RktjLS0yNWoxM3UzS1BhY1JwNWVUUHVKbnpUVzV1M24wY1pFUDVsUWVaUjJKZ0NlcnFOZ01reG5mVHdkZkxuWHg4MzFpQjB1LWxRYVZrNDhLMERCSG1n?oc=5",
+        "date": "Tue, 30 Apr 2024 07:00:00 GMT"
+      },
       {
         "quote": "vende patria",
         "source": "Informate Salta",
@@ -21381,6 +21417,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Carlos Zapata, categórico: “El que aportó, tendrá aportes y el que no, tendrá PUAM” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2ZUc1pCZ1VDZUE1QW9ZY3FJTHAzdjFlNm1sSEN3S25YT1dkeFRuMWVTTU9aUzZXM1MwRXFCUi1McHBoLTJRVmwxeXQ1UUdmWnVBY2txbm1oSEE0RktjLS0yNWoxM3UzS1BhY1JwNWVUUHVKbnpUVzV1M24wY1pFUDVsUWVaUjJKZ0NlcnFOZ01reG5mVHdkZkxuWHg4MzFpQjB1LWxRYVZrNDhLMERCSG1n?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 30 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Carlos Zapata confirmó que aportará pruebas en la causa donde fue imputado - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1RPYTJoMHp4QTZ4SUo2QS1ZRVUxOEtaanlLclJVOFlBSy04VFF2WDh6SHRocGgtOERsdkY5c0M3cHd2Nm9DQ09sbWJaUW5Xdng1dWV4b3lqN19HcFIyemF0Tmd0MjZnenlTSUkxanVrMzFOTEVRcFBCQzNOV0c2LTNXQXFZSzdaT3Q2Rzl5QmxWUXNGNVVmZEQ3dDdWS3ZkaFV0eTFYTTk?oc=5",
@@ -21582,12 +21625,12 @@
     },
     "top_topics": [
       {
-        "term": "discapacidad",
+        "term": "biella",
         "count": 3
       },
       {
-        "term": "biella",
-        "count": 3
+        "term": "discapacidad",
+        "count": 2
       },
       {
         "term": "bernardo",
@@ -22063,22 +22106,49 @@
     "id": "dip-claudio-jose-cansino",
     "name": "Claudio José Cansino",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 1,
+    "total_mentions": 2,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 1
+      "neutral": 2
     },
     "sentiment_by_day": {
+      "Thu, 20 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sun, 11 Ma": {
         "total": 1,
         "score_sum": 0
       }
     },
-    "top_topics": [],
-    "quotes": [],
+    "top_topics": [
+      {
+        "term": "claudio",
+        "count": 2
+      },
+      {
+        "term": "cansino",
+        "count": 2
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Tengo la convicción de que se pueden hacer cambios genuinos",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWmNwWlRUeDZKdzBqNmNjM2lNTjJONmJGRUctZXBJNTQ2enJsV3NoQmF0SHJQdi1JN2NmbXBmUXFoUUFsVVNNdm5jb3hBUEM1VG5PWHdpVnJSZEs4c2ZINU5KZE81M2NOSDJYblJieFIwSmZpN01IN01hY2tGQzZjLVkySGZPLUM4bjlXQzdBMWkzelZZQW1rV2VqbEVtajVOVmJIRWpGMXJvTmRjT3NHYVhYYnhVT1NWRWkyY1YzWXlDQUNlb2hLWkNxSnJoOE1rcUQ1RGROaDFuOC1lclHSAewBQVVfeXFMUDZicmJ4SU9TZVVpcnFXLVIySjNCQllFQ3NGSlczSWcta0laNEctV0gyVFFxTTZxbDgyZm9GWGRLcGJSaFV6cVdWRGZIVGxQam4wbWduN243WW9KdkRaQVN6OVF0V01vUHo0bGV4ZlR2eWxTeG5QYjdmc3FLb21OS1V1elF4R21TRVhNWWVsRXk1bnVsZTdPLUZfd2c2YjBvekpVOEpxTFdxMThFaC1UcGloZGFuN2Q2OHF0alBDY3BoVU11VkZSZ2JNNDdWMFJCWjl4TEVjSGI0Mmc1dHNoVzJSdTYxaG8yWjBtLW8?oc=5",
+        "date": "Thu, 20 Apr 2023 07:00:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Claudio Cansino: \"Tengo la convicción de que se pueden hacer cambios genuinos\" - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWmNwWlRUeDZKdzBqNmNjM2lNTjJONmJGRUctZXBJNTQ2enJsV3NoQmF0SHJQdi1JN2NmbXBmUXFoUUFsVVNNdm5jb3hBUEM1VG5PWHdpVnJSZEs4c2ZINU5KZE81M2NOSDJYblJieFIwSmZpN01IN01hY2tGQzZjLVkySGZPLUM4bjlXQzdBMWkzelZZQW1rV2VqbEVtajVOVmJIRWpGMXJvTmRjT3NHYVhYYnhVT1NWRWkyY1YzWXlDQUNlb2hLWkNxSnJoOE1rcUQ1RGROaDFuOC1lclHSAewBQVVfeXFMUDZicmJ4SU9TZVVpcnFXLVIySjNCQllFQ3NGSlczSWcta0laNEctV0gyVFFxTTZxbDgyZm9GWGRLcGJSaFV6cVdWRGZIVGxQam4wbWduN243WW9KdkRaQVN6OVF0V01vUHo0bGV4ZlR2eWxTeG5QYjdmc3FLb21OS1V1elF4R21TRVhNWWVsRXk1bnVsZTdPLUZfd2c2YjBvekpVOEpxTFdxMThFaC1UcGloZGFuN2Q2OHF0alBDY3BoVU11VkZSZ2JNNDdWMFJCWjl4TEVjSGI0Mmc1dHNoVzJSdTYxaG8yWjBtLW8?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 20 Apr 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Elecciones en Salta: Claudio José Cansino fue el diputado más votado en Capital - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONlptMTRRd0JjcEtHY2Z6OEdHbkt0eUtqOXNCS3o5dE9jal9HRnA2ZENBNmZxYlhjWVNIanktREE5S1gtZmIwb2tLUkRnc2NrcUlKbTg0cWlvbFhNS0I2MzluRC01cDB3OVpYR1duaWlWbk4zSXdlcXpsT2haX2hYY1VQbHNVUVhYUGdRdEJFVWZQN3h0UUN3T1YydUltWUQtVlpuU25jMG1ZRTFSa2lUS3FKS202X3NyTTZfWVdCNjVJNHFtSHY1N0hxR1QyNkly0gHWAUFVX3lxTE9lU2dLT1IwdEdOdWswLTZVOFJZendyanM4LUM3Vnc4anlBOFNGTTZpd0VYcS1jWGVDYUVMV29ZcG9maTZOX2lLNjFYR2RMczhPTGxtVjA0Rkd1TV95ZVBpYzM1TUp3MjJ0OG93cWFyOHBvclRUTEN1d19IanNzMmtNczlQdlJtS1B2dkFPMm1iTGo0OUxyajBZQkxfMDRVZmFTWFVtVnJLV19PdUhSNkhRY042dlptcHJTeHdtcEQ4a0JPVVU2VGpMZmlDS2l3N1NXNV9Lcmc?oc=5",
