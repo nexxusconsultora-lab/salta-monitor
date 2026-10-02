@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 183,
+    "total_mentions": 184,
     "sentiment_breakdown": {
       "positivo": 24,
       "negativo": 19,
-      "neutral": 140
+      "neutral": 141
     },
     "sentiment_by_day": {
+      "Fri, 02 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 01 Oc": {
         "total": 8,
         "score_sum": 13
@@ -336,6 +340,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Salta también desdobla sus elecciones: Sólo una provincia irá junto a Nación el 2027",
+        "link": "https://informatesalta.com.ar/politica/salta-tambien-desdobla-sus-elecciones--solo-una-provincia-ira-junto-a-nacion-el-2027_a6abeeb2706fa52caf474b843",
+        "source": "Informate Salta",
+        "date": "Fri, 02 Oct 2026 00:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Gustavo Sáenz se reunió con el presidente de Francia, Emanuel Macron",
         "link": "https://informatesalta.com.ar/politica/gustavo-saenz-se-reunio-con-el-presidente-de-francia--emanuel-macron_a6abed81d06fa52caf46fdb80",
         "source": "Informate Salta",
@@ -536,13 +547,6 @@
         "link": "https://elintra.com.ar/2026/09/25/salta-pierde-subsidios-gas/",
         "source": "El Intra",
         "date": "Fri, 25 Sep 2026 12:25:00 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Reforma de zonas frías ¿cómo votaron los legisladores salteños?",
-        "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
-        "source": "Informate Salta",
-        "date": "Fri, 25 Sep 2026 00:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -5075,13 +5079,17 @@
     "id": "sen-sergio-saldano",
     "name": "Sergio Rodrigo Saldaño",
     "role": "Senador/a provincial por Cafayate",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 3,
-      "neutral": 27
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "Sun, 24 No": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 30 No": {
         "total": 1,
         "score_sum": 0
@@ -5199,7 +5207,20 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "sergio",
+        "count": 2
+      },
+      {
+        "term": "saldaño",
+        "count": 2
+      },
+      {
+        "term": "cafayate",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Las cuotas del PV permiten proyectar más viviendas",
@@ -5241,6 +5262,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Sergio Saldaño: «Mi próximo objetivo es presentarme como candidato a intendente» - Radio Cafayate",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4X0J2WHZVSFA2REI5QUk1dm9tMG1MQnlCZHY0Rjgzck15RW9rSy1HVWM0VlJha3FwMDh1My1NdUQ4Ym5XR2tyTGJFQnFfUQ?oc=5",
+        "source": "Radio Cafayate",
+        "date": "Sun, 24 Nov 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tras el intenso temporal, el senador Sergio Saldaño exige que se implemente el Plan de Mínima en Cafayate - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTWFOS3o2cnYxX1dNUTFlZHI4SVZhSkNoLWZPdzBNN3ZRY3hIaTk2NUNmX0FxaTMzbnVBbEJPQnc4eGhGdUh4S3lzaTRxY01jZ0xra1Uyc1drelgtYWdmdUZicTF2cVNia1lZLVh1Q0xBNFhlMklwWUx0bC0zRVR0dy1GeG50emppRUJBenZnNFl4bXJFSVFNWXU2Yi0zM3EtTnhlUmJKVFkzYklTYzF3aUhrQVBaU3Z6SG9RemNtQjFidmV4ZjBmU29aSFQ4NlE1c3lqcm9QbUNBWVlUQTl5dlNvN0xNdnpaQUhBTXBKZXZ4bnPSAfgBQVVfeXFMTjI0al94Sy1lcHhZUV9reE1rd05LMUxrZFIyNnNwb3poU1NHdTJrU2w0V2hTYXBVX2lRT3JiRk1DWDhNQlRKZXNjbEZ5RnZDM1pDWjRyUVVzejNBY2o5REZfMnVNY1NrUDgzX1dDNFdkRWZ2OFhwZzNOOEdGY01QWEYycGV6cEU0VDZsRk9leV9GRzZLX3ZCRi1QcFZlUzNzODRSYXItb2NUUFNNV05oaGptMFVjMXp6Wk93c1BGRFoxb1hxbEJUNW9iZzFBMTJtV0lWTkNhZWUtdF96MnMtQVh3VlNSSjF3VFFOT2JkbGtpYkRZR3pUdm4?oc=5",
@@ -5443,13 +5471,6 @@
         "source": "El Tribuno",
         "date": "Tue, 28 Jul 2026 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "El Senado convocará a legisladores nacionales - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSU42OW10eGZpaGF0dURsVGx3VWYwai1EbU5uTlpGU2ZVYnBfTzJwVVltRENtcXAxSDdtTHo0NThLWGJEcmEyUkRyamtCbk5VR21CNXdwYl9ua2VObzM2UUhNLW1DdUQxVVhBdFhpbXlwRTZEdWVvYjdycUlneXdSdXlYU3hoczU3ZGRQa09Dc0EtajRheUg2UNIBngFBVV95cUxNbUJZaDdpNml5X1BOSEU4dDlQNHdzQ2RvLXVSVXp5bmM3MkpqRTNHUEZvSFE3QVRGS25aeXlRRGRMS0lYYVhZdGluN04ycWFsREd3dFo1R2NFM3AzTTlVZHd6UGQ5MU05Wmw5bFdPby0tS3RzRVdiVHBuNFdINk5wSFRLYzNxUTR4NTJRbnZiS2ROMl92eXY3bUp1VHQwQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 25 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -8109,13 +8130,17 @@
     "id": "dip-laura-deolinda-cartuccia",
     "name": "Laura Deolinda Cartuccia",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 9
     },
     "sentiment_by_day": {
+      "Sun, 16 Fe": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Fri, 24 Ju": {
         "total": 1,
         "score_sum": 0
@@ -8153,8 +8178,27 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "laura",
+        "count": 2
+      },
+      {
+        "term": "cartuccia",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Una señora con las causas y condenas que tiene, no nos puede representar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQU9wMkJYMG0za1FJYUxRUzhnSEZ4VTlNSFhmOVF5WWFta3Z1TXVDRDR2ZVpodndvRnVSOGkzaGdqVmJNbmtERmpjVXZ5MzNoRHhuQkk2U3pBQnd2TlZVc0dwUm54MTEydTlqLVB0Mi1ROGNYVTRWQW94Ylp3WFk1RHB5VnhSVjdCQ3RBelJZWkFoQXFFZVVZSlBSLUlXUm5Cakpxa1ZsMnBtQk5udWVWQ2dZTWktajR3cWVEcWFRaEFGbTBQOEp3Q1VlUUk?oc=5",
+        "date": "Sun, 16 Feb 2025 08:00:00 GMT"
+      },
       {
         "quote": "sentiría mucha vergüenza",
         "source": "Elintra.com.ar",
@@ -8174,8 +8218,22 @@
         "date": "Tue, 16 Jul 2024 07:00:00 GMT"
       }
     ],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Laura Cartuccia sobre CFK: “Una señora con las causas y condenas que tiene, no nos puede representar” - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQU9wMkJYMG0za1FJYUxRUzhnSEZ4VTlNSFhmOVF5WWFta3Z1TXVDRDR2ZVpodndvRnVSOGkzaGdqVmJNbmtERmpjVXZ5MzNoRHhuQkk2U3pBQnd2TlZVc0dwUm54MTEydTlqLVB0Mi1ROGNYVTRWQW94Ylp3WFk1RHB5VnhSVjdCQ3RBelJZWkFoQXFFZVVZSlBSLUlXUm5Cakpxa1ZsMnBtQk5udWVWQ2dZTWktajR3cWVEcWFRaEFGbTBQOEp3Q1VlUUk?oc=5",
+        "date": "Sun, 16 Feb 2025 08:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Laura Cartuccia sobre CFK: “Una señora con las causas y condenas que tiene, no nos puede representar” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQU9wMkJYMG0za1FJYUxRUzhnSEZ4VTlNSFhmOVF5WWFta3Z1TXVDRDR2ZVpodndvRnVSOGkzaGdqVmJNbmtERmpjVXZ5MzNoRHhuQkk2U3pBQnd2TlZVc0dwUm54MTEydTlqLVB0Mi1ROGNYVTRWQW94Ylp3WFk1RHB5VnhSVjdCQ3RBelJZWkFoQXFFZVVZSlBSLUlXUm5Cakpxa1ZsMnBtQk5udWVWQ2dZTWktajR3cWVEcWFRaEFGbTBQOEp3Q1VlUUk?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 16 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Laura Cartuccia cree que Orozco saldrá sin La Libertad Avanza - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUTROQ0NHdVJmSERVQnhIOUZTUGVrUHZma3NIVWpLSFFKbENaNlQ0VkZBb21MNVFXUkdtUTdiTjFuelFyX2FWM1RtdUFyNk5jTHduenYtVlFGNlVDUG9NLU9tck5WdmtabFBKLTRIaTliZmNBSmZOdUkwb2xVbTBEUUlielcwOTR5dDJQY0NfRGh4QnBhT0ZmSko0ZHI?oc=5",
@@ -13744,13 +13802,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 7,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
+      "Tue, 17 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sat, 06 Au": {
         "total": 1,
         "score_sum": 0
@@ -13903,7 +13965,7 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 7
+        "count": 8
       },
       {
         "term": "álvarez",
@@ -13911,7 +13973,11 @@
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "municipio",
+        "count": 2
       },
       {
         "term": "cuestionó",
@@ -13988,6 +14054,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La nueva influencer del municipio es la «opositora» Agustina Alvarez - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPckVqZTcyR3FMLWRBbEpINWxLSGR4bFFFYjlWdmo0VkNQX2dFVnlMWWpsQ1Y5aGdhOEl1WVhDcXhVeFJVcFo3UE1WbVdmVjA0UjdCd2JHMFBjQ2pjd0xkaWpvTGJoa2RONGZQSWxpOHhGSmFKWE5fNjNPWUw1RFNWcHpJcm1QR2RseWl1b2dDam1RTjFReUJ3bmZYRTRUc0hYTFpr?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez no dudó en mostrar su fanatismo por Viviana Canosa - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVHd2NWZmMG1XbzNtVnVhdFpUQUVNYlhES1BSdGZuRHVtN0d4ck4tRndhNEpHLS01N3h4R0xRcnR4TnhGRzlKbUNIY2xtQ0c5XzdKYjRuTi15ZDNyT0N0TGpXWUo2SlBNb1pMYWxPNnlxaUdoczRnaEZCdHN3cXdsVWNpMFJMbnNpQmZIMWNqSnRpbGk2Rzl0QXBWX3BCZ19LYnBONw?oc=5",
@@ -14189,13 +14262,6 @@
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOTRQVFY5XzhpbEdMNHM2cENua2oyNF8tMHlNY3FZNFhJT3NGUGZyeHBGaFdLN3JMYmpZQWdGVG1mc3d4TzhCekZlQTNFWUhaU1lvYjE3YWlwY1lMaXZuVEJHaDc4dDFJNkgzSUxrTHBYTFJVcmZBTjNQOXdWaUJqeElQbE84cDQ2SGJNeG5zUmxMSGwxSW53VFF1NlRfWW1MWDdoSC1ycGU5dWlrbmV3TmdR0gG3AUFVX3lxTFBnUk1YdEhHZFF4SldFSF9JcjB6RzBFdnNQOUJ4Y1l2b1dnTU5heWpYdm8wRlJrcmRxQk1qYkNVQmMwQmRpLUpkT3hIN2V5RzlIT2llRFNYTWVpSzR2X21ybUx0dDdNelc4bEt6LXNkN0JtbmlRdTBtTl9OWnEwWjBLY3o1bDBzSTNwRFNsdUh3NGhUSWUwTm5BVzUyMjI5em5GUUE0cFpSN3JuNTVsby1HZ01nZ1RQdw?oc=5",
         "source": "eltribuno.com",
         "date": "Thu, 28 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "LLA se quedó con otra figura del PRO: Agustina Álvarez ahora es libertaria - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMHpyZTFHNVMta09oQXVMbFp6S0Rfbk9NNHdEXzlGWnpMU2E5YnhfVmJuZkV6WlhxN1pGRUN0Y0lKWElLamtGUTlIaEh4WVBpd3FVam5ueHdjWmE2UEJ1QjF4bkZNWnphUEFCemtuRDN0eFVvODgtN3ZFS2tTY3ZzaENzREFNT2dZc0pxTUtwblBoRkZpYm9hbzlJVjA3UGNJQ0VGS1YwcFVkZ1NHWjBiQzZ0Q19xSVZlZEd0eWtlNDR5YXI2ZkVlRmFXRDhsVlAtcUNWZ1dVONIB5gFBVV95cUxQMFpVQ094bTczbmNkbldic1htNlh6VmRBMkR4WmluY1ltOVFnWWNTMWtzSTVWYXc3U2Q0SFhiVW1pN0dfZXI1MWdSMUxzNmdSVlA2Rk5fNkNpZk8tN3RuM3p3NjVhTk1weEQwZXRtSkFRLTNmajRXQUR6cWlJTVJ4V2dhc2I5SDU3UHRYMXdGaU1QT1FqNGtPMFE3MUV1RGJXUlNXaHJpU1VnUE5RWVJHN3pzeEYtNGlDMjN6ZlNsYzBrR0U1a29WVXlwdmVlMGpOS3BnbTExRndKYkVLS3Q5R21kdXRFUQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 06 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -19429,13 +19495,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 47,
+    "total_mentions": 48,
     "sentiment_breakdown": {
       "positivo": 5,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 38
     },
     "sentiment_by_day": {
+      "Tue, 16 Ju": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Wed, 11 Fe": {
         "total": 1,
         "score_sum": 0
@@ -19608,35 +19678,35 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 14
+        "count": 15
       },
       {
         "term": "royón",
-        "count": 14
+        "count": 15
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
       },
       {
         "term": "eltribuno",
         "count": 4
       },
       {
-        "term": "reforma",
-        "count": 3
-      },
-      {
         "term": "tribuno",
         "count": 3
       },
       {
+        "term": "reforma",
+        "count": 2
+      },
+      {
         "term": "zonas",
-        "count": 3
+        "count": 2
       },
       {
         "term": "frías",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -19734,6 +19804,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón pidió la renuncia de Adorni - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFlFZ1J6eUFzLTBIS2lXUFBWelVIUE9DTTgxSjFFZVpVUEpVOUlVYWdWRjA2Y3BmODNhMUY0ZlJBbkV3a3cxY3c1aEQ3VEoyNHNlWUdLV3M4N2dhT3RJWnI3X0M5WTZFSE0tSmJ3UUpuYTdNLVBocU10LXdRUWhndg?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Flavia Royón: \"El empleo no se crea ni se destruye solamente por una reforma laboral\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeWdRVnhnSnNsdW14WV8wSDNkdC1Rb3dvdGhiZVhPMUZaQjNyN0MyaWNBYkZSdVJscXJxMy0wSDhlOEFHR1F6YW10REx1M3VVQWg3YWRnVVVnSlg4WEtsSncwbW1pR0dmWHBhSVhZZm80VDYzNmM2ZzVOZTBYeGJHV0Q1NEN6ZlJCRk5sN3JqVkhEOUNFYmtTOUloenRpX2t0R3ZxQ3R0YWVSMkRnY1NrWlhCTDZTV0ljNTFYRFlrUGswQnhPdHdISEotWjVSaTRmVHc?oc=5",
@@ -19936,13 +20013,6 @@
         "source": "Elintra.com.ar",
         "date": "Mon, 13 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Denuncian a Flavia Royón por supuestos vínculos con una minera: la senadora lo negó y desafió a que presenten - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQazJKWlQ2UThsYkEwaE5uQWxvM25LeTFPRGZCRHEtUThOTmhOeG53eVR0WXhOWkl5TzF5R3ZEVmFxQWg1STlGd1JKYmdjMHBhWkcyNV94RWZOeDJ2UC1XeWNqaEt5VXRadlZhNW10Sk96eDNQWGFKSW5Kcm5Yc2tHV1BpdTJmbFdNMEROV1hPclFNczVNRnA5aUEzSHJkZHR6eDJSU21VbnR0MlNQT090S3NJNHQ1NzBac2tBZjNLQ3JwMTFsbkVTS3dhd05Na2g1djA3djF1Yk14M2VqUFZjdWNBOU9xVnl6QVJEZmZHeThNVDh0WW52dWJ30gH_AUFVX3lxTE16SkE3UWVXQkM3TkNEeXF6REJqbnh5a1d0dVJBdlVUU2dsZ3c3Tm9lUThrb2lvNFpUaHNweVlpa1VoNHdLdzB4Ym92M04zdzJqc0tLRmZiQXBlMVhpOHBLZEkxTXI1VFotdWphVG16Qk9YQXcyNkYxclJJeV9UaTYyU2lLUF9MOGk5MFZ5cjllWUgtTUROc2Frb0t4VDhvWVVEQ0FsdTFNS1Fvb0prVGRIeHZncGtQZEYzdlAyQ19kUGlIRlJqb21SdFBUbGo3Q3U1dy1UUEloSDJQdXhZS0EtNVAtTVp4Sy1CaHVvbnRkVGtKYms0QW1nRXo5a2RNZw?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20694,13 +20764,17 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 1,
-      "neutral": 6
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "Thu, 20 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 29 Se": {
         "total": 2,
         "score_sum": 0
@@ -20733,6 +20807,10 @@
     "top_topics": [
       {
         "term": "bruno",
+        "count": 4
+      },
+      {
+        "term": "eliana",
         "count": 3
       },
       {
@@ -20741,10 +20819,6 @@
       },
       {
         "term": "diputados",
-        "count": 2
-      },
-      {
-        "term": "eliana",
         "count": 2
       }
     ],
@@ -20764,6 +20838,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "¿Lejos de LLA? Eliana Bruno profundiza su acercamiento a dirigentes de Sáenz - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORDBRWmlmVjRHLW1HMGc5N2F2RWxvMDBXdGNJb25qOTNoOGNfU1cxaVRoRkdlS1VXSl90VTNQRDFGeUxKVlgxbkdSaU1Famw4SDJTTFRnNlBheXl6NWpBQ1hTVDltcjdGM0RTR2VKdVh4OFF0YThLOGlVWDMxY3RpXzJiUk9rOXVKdnVFRjlYNXFrZlY4cElWVHVia3oycU02WGMtajh5ak5vQUtHU0R5TWt4bzNHbWNhNVMwdFRvYVhWeXRidXd2cGs3VnZsUmk1eDljaFoxQlfSAecBQVVfeXFMT01JLUtyazlqcnhXWEhVUlFwcndVQTVTLWtrZ0Q2ZW5qOEZUZGpVUTVzVjhWZGpVYnBPNTV6NTJMSjNHM2IyREFnYWR4VTNlNVVVZlNrOFBZOWFTVm51X3BzYlBoYVJ6cXFOUnB0NEw0WWc1SVl2c3ZIMWZDRTB3VWVwYVFzenJoQ1pzZXlSUF9ITzJiU1hBbktrOTNKcUV3b1pBenBNT2xoQ1hheE1kYmJhRXQwOHhfYW1BbENmYnd4TXBkVXpjRXRmZlE0eFotR3dVSTVqNm4wMGRMUzRfdFc5UjFoa1FZ?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Interna en LLA Salta: “Está todo roto”, dijo Bruno al dejar la conducción local",
         "link": "https://informatesalta.com.ar/politica/interna-en-lla-salta---esta-todo-roto---dijo-bruno-al-dejar-la-conduccion-local_a6abbc09348f74caafff88581",
@@ -22237,13 +22318,17 @@
     "id": "dip-juan-jose-esteban",
     "name": "Juan José Esteban",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 6
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "Tue, 23 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 29 Se": {
         "total": 1,
         "score_sum": -1
@@ -22280,15 +22365,15 @@
     "top_topics": [
       {
         "term": "juan",
-        "count": 3
+        "count": 4
       },
       {
         "term": "josé",
-        "count": 3
+        "count": 4
       },
       {
         "term": "esteban",
-        "count": 3
+        "count": 4
       }
     ],
     "quotes": [
@@ -22307,6 +22392,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "De \"negociar\" por su hija a homenajearla: el impresentable cinismo del diputado Juan José Esteban - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU0wwU21MNXUwd1pHTUtUS18yZTlQTFJrZUFGeHRMUWZyN1FaaGU5TmY4VGFjUmo1alJRVDRlU01pbXBrY3daV2M0aXVxZEtxUThBT3RFLUpHWF9DdE5DQVdxR2NhLUI4WW5VeklGRjVUS3ZyNjRoQjlrQWpaRFllQ1hMbktacjU5My1CNlNJZHZOVlIzR0xrV1BrZVFsV01kblJzRUwxMnhlOHV4SThlTl9sSDNqa3I3SkN0QnFKZW5jd2VuVi0wWQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Juan José Esteban contra Federico Mangione por los suicidios en Salta",
         "link": "https://elintra.com.ar/2026/09/29/esteban-suicidios-salta/",
@@ -23916,13 +24008,17 @@
     "id": "dip-eduardo-jose-virgili",
     "name": "Eduardo José Virgili",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Tue, 12 No": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 02 De": {
         "total": 1,
         "score_sum": 0
@@ -23952,8 +24048,27 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "eduardo",
+        "count": 2
+      },
+      {
+        "term": "virgili",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Javier Milei está haciendo una transformación de mentalidad profunda",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVAxaVA3a1ZqN0FQUzlEQ2kxOWgyU2V1NzVQN2tZQW15ZFZfV2dXUzRNV1I3ck5FdElzR3ZGMmVsN0FTVWhJVHZFSlo1VzZPb2lTTXlDbkR6YTA2WjVEM0U4MTBsYlgyUlppYzhNemJUWkpaUzJhMTNMbHJaTXdHNUloRXoxZm1rYVRmaHJycFV4NWdNUEFIQTI3VExrdDJrNUVuT3UxLVhINFpOQ3VQZXgtUlFUZGEzZHlabjlhUF9JQQ?oc=5",
+        "date": "Tue, 12 Nov 2024 08:00:00 GMT"
+      },
       {
         "quote": "estafa piramidal",
         "source": "Gente de Salta",
@@ -23969,6 +24084,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Para Eduardo Virgili, “Javier Milei está haciendo una transformación de mentalidad profunda” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVAxaVA3a1ZqN0FQUzlEQ2kxOWgyU2V1NzVQN2tZQW15ZFZfV2dXUzRNV1I3ck5FdElzR3ZGMmVsN0FTVWhJVHZFSlo1VzZPb2lTTXlDbkR6YTA2WjVEM0U4MTBsYlgyUlppYzhNemJUWkpaUzJhMTNMbHJaTXdHNUloRXoxZm1rYVRmaHJycFV4NWdNUEFIQTI3VExrdDJrNUVuT3UxLVhINFpOQ3VQZXgtUlFUZGEzZHlabjlhUF9JQQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 12 Nov 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "«¡Viva la Patria!» La emoción de Eduardo Virgili en el Concejo Deliberante - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObzZZc1FRX2JDci1hWDNPWTd3dUlnMHowRmYtbVdCTXRZOXRUQnpsREhpRUd2QXJ2cS1YQjFuTi1jei04NnROUmZ4MVpNQTlTSWJBS1V1TTBrOUxFS3IwM0RqUWhkdHpDS0RSTjJXeXZzSHFsZHFraHZnN3I4Qm1DaExNa3NjWk5HY1p4LXMwQU0teGFnMXdZOE85MVgtZm5kYlJJUld1aFo?oc=5",

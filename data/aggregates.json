@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-10-02T00:16:06.694283+00:00",
+  "generated_at": "2026-10-02T05:53:42.723524+00:00",
   "by_politician": {
+    "dip-eduardo-jose-virgili": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "dip-juan-jose-esteban": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 7,
+      "score_sum": -3
+    },
+    "dnac-eliana-bruno": {
+      "total": 10,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 7,
+      "score_sum": 1
+    },
+    "snac-flavia-royon": {
+      "total": 48,
+      "positivo": 5,
+      "negativo": 5,
+      "neutral": 38,
+      "score_sum": 4
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 44,
+      "positivo": 3,
+      "negativo": 7,
+      "neutral": 34,
+      "score_sum": -14
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": -2
+    },
+    "sen-sergio-saldano": {
+      "total": 32,
+      "positivo": 1,
+      "negativo": 3,
+      "neutral": 28,
+      "score_sum": -4
+    },
+    "gustavo-saenz": {
+      "total": 184,
+      "positivo": 24,
+      "negativo": 19,
+      "neutral": 141,
+      "score_sum": 22
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 9,
       "positivo": 0,
@@ -14,13 +70,6 @@
       "negativo": 6,
       "neutral": 67,
       "score_sum": 7
-    },
-    "gustavo-saenz": {
-      "total": 183,
-      "positivo": 24,
-      "negativo": 19,
-      "neutral": 140,
-      "score_sum": 22
     },
     "dip-jose-miguel-gauffin": {
       "total": 17,
@@ -56,13 +105,6 @@
       "negativo": 10,
       "neutral": 23,
       "score_sum": -22
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 43,
-      "positivo": 3,
-      "negativo": 7,
-      "neutral": 33,
-      "score_sum": -14
     },
     "dip-monica-gabriela-juarez": {
       "total": 31,
@@ -162,13 +204,6 @@
       "neutral": 54,
       "score_sum": -15
     },
-    "snac-flavia-royon": {
-      "total": 47,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 38,
-      "score_sum": 6
-    },
     "sen-luciano-elvira": {
       "total": 16,
       "positivo": 2,
@@ -224,13 +259,6 @@
       "negativo": 4,
       "neutral": 9,
       "score_sum": -5
-    },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 9,
-      "score_sum": 0
     },
     "dip-omar-exeni-arminana": {
       "total": 31,
@@ -295,13 +323,6 @@
       "neutral": 7,
       "score_sum": 0
     },
-    "dnac-eliana-bruno": {
-      "total": 9,
-      "positivo": 2,
-      "negativo": 1,
-      "neutral": 6,
-      "score_sum": 1
-    },
     "dnac-bernardo-biella": {
       "total": 15,
       "positivo": 3,
@@ -323,13 +344,6 @@
       "neutral": 7,
       "score_sum": -2
     },
-    "dip-juan-jose-esteban": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 6,
-      "score_sum": -3
-    },
     "dip-alejandro-fabian-valenzuela-perez": {
       "total": 2,
       "positivo": 1,
@@ -350,13 +364,6 @@
       "negativo": 0,
       "neutral": 1,
       "score_sum": 0
-    },
-    "sen-sergio-saldano": {
-      "total": 31,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 27,
-      "score_sum": -4
     },
     "sen-mashur-lapad": {
       "total": 59,
@@ -385,13 +392,6 @@
       "negativo": 1,
       "neutral": 4,
       "score_sum": -3
-    },
-    "dip-eduardo-jose-virgili": {
-      "total": 7,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 7,
-      "score_sum": 0
     },
     "dip-claudio-jose-cansino": {
       "total": 1,
@@ -808,6 +808,138 @@
     }
   },
   "by_day": {
+    "Tue, 12 No": {
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 23 Ju": {
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 20 Au": {
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Tue, 16 Ju": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 17 Ma": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 16 Fe": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Sun, 24 No": {
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-martin-miguel-perez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roberto-angel-bonifacio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ernesto-gerardo-guanca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-cristina-fiore-vinuales": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 02 Oc": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Wed, 22 Ap": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -5254,16 +5386,6 @@
         "score_sum": 0
       }
     },
-    "Tue, 16 Ju": {
-      "dip-laura-deolinda-cartuccia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Sat, 19 Se": {
       "dip-laura-deolinda-cartuccia": {
         "total": 1,
@@ -6160,72 +6282,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Sun, 24 No": {
-      "sen-hector-dauria": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-lino-fernando-yonar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-martin-miguel-perez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-fabio-enrique-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-roberto-angel-bonifacio": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-francisco-fabio-rodriguez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-javier-pantaleon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-ernesto-gerardo-guanca": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-ana-laura-cordoba": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-german-dario-ralle": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-luis-fernando-albeza": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-del-socorro-villamayor": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-cristina-fiore-vinuales": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
         "total": 1,
         "score_sum": 0
       }
@@ -8194,12 +8250,6 @@
         "score_sum": 0
       }
     },
-    "Tue, 12 No": {
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Wed, 25 Ja": {
       "dip-francisco-fabio-rodriguez": {
         "total": 1,
@@ -8886,12 +8936,6 @@
         "score_sum": 0
       }
     },
-    "Tue, 23 Ju": {
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Tue, 30 Ap": {
       "sen-daniel-moreno-ovalle": {
         "total": 1,
@@ -9456,12 +9500,6 @@
       "sen-mashur-lapad": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Thu, 20 Au": {
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "Sat, 21 Ma": {
@@ -12642,11 +12680,15 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 19
+      "count": 23
     },
     {
       "term": "sáenz",
       "count": 12
+    },
+    {
+      "term": "milei",
+      "count": 9
     },
     {
       "term": "juárez",
@@ -12654,10 +12696,6 @@
     },
     {
       "term": "pasa",
-      "count": 9
-    },
-    {
-      "term": "milei",
       "count": 8
     },
     {
@@ -12681,6 +12719,14 @@
       "count": 6
     },
     {
+      "term": "informate",
+      "count": 5
+    },
+    {
+      "term": "laura",
+      "count": 5
+    },
+    {
       "term": "intendentes",
       "count": 5
     },
@@ -12690,14 +12736,6 @@
     },
     {
       "term": "valle",
-      "count": 5
-    },
-    {
-      "term": "lerma",
-      "count": 5
-    },
-    {
-      "term": "reunieron",
       "count": 5
     }
   ],
