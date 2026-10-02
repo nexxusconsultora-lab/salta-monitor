@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-10-01T20:38:37.003496+00:00",
+  "generated_at": "2026-10-02T00:16:07.737910+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 157,
+      "total_mentions": 159,
       "sentiment_breakdown": {
         "positivo": 12,
         "negativo": 14,
-        "neutral": 131
+        "neutral": 133
       },
       "sentiment_by_day": {
+        "Thu, 01 Oc": {
+          "total": 5,
+          "score_sum": 0
+        },
+        "Wed, 30 Se": {
+          "total": 6,
+          "score_sum": 2
+        },
         "Thu, 19 De": {
           "total": 1,
           "score_sum": 0
@@ -24,17 +32,9 @@
           "total": 1,
           "score_sum": 0
         },
-        "Thu, 01 Oc": {
-          "total": 4,
-          "score_sum": 0
-        },
         "Tue, 29 Se": {
           "total": 2,
           "score_sum": 0
-        },
-        "Wed, 30 Se": {
-          "total": 5,
-          "score_sum": 2
         },
         "Sun, 27 Se": {
           "total": 3,
@@ -116,11 +116,11 @@
         },
         {
           "term": "informate",
-          "count": 31
+          "count": 32
         },
         {
           "term": "intransigente",
-          "count": 28
+          "count": 29
         },
         {
           "term": "pasa",
@@ -132,7 +132,7 @@
         },
         {
           "term": "obras",
-          "count": 15
+          "count": 16
         }
       ],
       "politicians_involved": [
@@ -234,6 +234,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "La decisión final de Racing con Marcos Rojo ante la última oferta de Estudiantes - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92TXJoeDJYOWp3S1VCOERUN1hkaVpENW5OcVBmQzlDQVBjNUxVTkVBdS1GbW91d3ZBU1VRLU9WYi00R1dKS25WR254VTRYN2IxTmlmRWc1Y0EwTTdjT3YwcWdRTkRlOS1BVHZicXRTaDBwVWttRklLYQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 01 Oct 2026 19:33:10 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Se terminan las obras, pero el IPV seguirá construyendo viviendas: Qué prepara Salta - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcWJGX0pwX2k0UWtyYy1ZbFNqbjkwXzBfeUloa2JaMFpRTDdqRWt6YUZIQlh4amtvS1FrWUdyRXV1VHB3MU1XNzhpZ3IzMDZxRWRWdERfNmVxYmNlcGVpUXlQek5kalNFRlNwdGY2aklkRi1jU1QyNmk4T1ZIdEo5dk1xaG5yY0gxai1ZZWNSUm1CcGZmRTFfUFQ1YXRuR1dnWHNoa3pLR0U0YjFIMkNubjNZN2JRODJzM3VqRFo5dERTVlVVUGtwVk1BalNGNzI5WWZrZ2xnS01WekxTSDRFWUp6Sl9zdGl3NU1vZVdRUTM5Z9IB8gFBVV95cUxNcWJGX0pwX2k0UWtyYy1ZbFNqbjkwXzBfeUloa2JaMFpRTDdqRWt6YUZIQlh4amtvS1FrWUdyRXV1VHB3MU1XNzhpZ3IzMDZxRWRWdERfNmVxYmNlcGVpUXlQek5kalNFRlNwdGY2aklkRi1jU1QyNmk4T1ZIdEo5dk1xaG5yY0gxai1ZZWNSUm1CcGZmRTFfUFQ1YXRuR1dnWHNoa3pLR0U0YjFIMkNubjNZN2JRODJzM3VqRFo5dERTVlVVUGtwVk1BalNGNzI5WWZrZ2xnS01WekxTSDRFWUp6Sl9zdGl3NU1vZVdRUTM5Zw?oc=5",
+          "source": "Informate Salta",
+          "date": "Wed, 30 Sep 2026 14:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "En la Legislatura de Salta se gastarán $53 mil millones en sueldos - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlQyc056ekJYUko3ZkszaWZ1RHhmU1E0Rl9NUzIyem1yVzhkeDVQaDJwb1N4MXV6WmxaRUJjQkJjU2pIWGR3R2RZcWRvOGhMQUNSZGZRVFBOWFRCTzgtUEpDU3pHZElxdlY5R0ttdGJWdzVsT1kxMHBDVU5RazRVdGVFWl92bXhDZ1dFVFdJYmV1RkVPc3g1bnhlVDRBTklMcjBSb0NDNlNUaEtRMjVGU3RzMU4?oc=5",
@@ -429,20 +443,6 @@
           "source": "Informate Salta",
           "date": "Mon, 28 Sep 2026 16:30:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta espera más gas tras un invierno con restricciones - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVUZQTjlkbWpsU1B3VDZrNlZHM3pkWXhXdXhsOC1aTEtWRFA2UTVKMEh0MEo2UU9XMW55ckd1WTgyTGVNdWpCZjZyTzJRWngzbDhjZXdpVzNEQnN1SEc2bGUwaW1qLWxsYVdhNEtJOHFoUnFSSG5FUUxTRDlzcXVJOFpTNDB6MDZKQy05YldjSTBFZnBpbV9FdHdNZDhaVl9ILWxyQlotRDJCSmU5cVlHSlZnS1BYa0V0MWpqR9IBywFBVV95cUxNWG9VWVRTSF9TZndCVGNrYlo1ZTRJdl83QkRpTDNQQllxS2dCa0RPM0VUYW1kVVNkVzUtOG9XOUdyaGNYbi1SQktjMHhtUVl5TjRPME9vdVdmbHYxbks4MUU1WWNFUGpSaHluS0I3Ny1Zc08wV1NEekRxRUFxdnJXMENJMmxjLTZQUEZQRXFETjN2U0ZNbWlzel9pdFdrdHQzY0lQUHVvYkJMakRla3U5X3R2Z3JoVDB0ZTJEc3U3MHY4V0JRMVFvc25YVQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Mon, 21 Sep 2026 20:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Alejandra Monteoliva cuestionó los fallos que frenaron el régimen penal juvenil: \"Me indigna\" - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONm9YY053d3lSVER4dTk1eTdSMXdSUVQ2OW1KYm4wYmF6SkRpdVNHelhMekg2cy05bXVJN0k0QVFZVGFycHlPR2g1NUdCYlphbDJVbGIzRTVPcERPbWxUSFV0WlIydHAzS00tSG81VjZuTGYyZXVHT05QSmJyY2p6eDdZRQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 23 Sep 2026 04:43:00 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },

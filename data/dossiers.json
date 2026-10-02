@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 180,
+    "total_mentions": 183,
     "sentiment_breakdown": {
-      "positivo": 22,
+      "positivo": 24,
       "negativo": 19,
-      "neutral": 139
+      "neutral": 140
     },
     "sentiment_by_day": {
       "Thu, 01 Oc": {
-        "total": 5,
-        "score_sum": 9
+        "total": 8,
+        "score_sum": 13
       },
       "Wed, 30 Se": {
         "total": 3,
@@ -210,23 +210,27 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 25
+        "count": 26
       },
       {
         "term": "milei",
-        "count": 10
-      },
-      {
-        "term": "parís",
-        "count": 8
+        "count": 11
       },
       {
         "term": "gustavo",
         "count": 8
       },
       {
+        "term": "parís",
+        "count": 8
+      },
+      {
         "term": "inversiones",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "reunió",
+        "count": 3
       },
       {
         "term": "gobernador",
@@ -234,10 +238,6 @@
       },
       {
         "term": "gobernadores",
-        "count": 3
-      },
-      {
-        "term": "pasa",
         "count": 3
       }
     ],
@@ -335,6 +335,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunió con el presidente de Francia, Emanuel Macron",
+        "link": "https://informatesalta.com.ar/politica/gustavo-saenz-se-reunio-con-el-presidente-de-francia--emanuel-macron_a6abed81d06fa52caf46fdb80",
+        "source": "Informate Salta",
+        "date": "Thu, 01 Oct 2026 22:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Ya está a la venta: ¿Cuánto sale el libro que Sáenz escribió y le regaló a Milei?",
+        "link": "https://informatesalta.com.ar/gobierno/ya-esta-a-la-venta---cuanto-sale-el-libro-que-saenz-escribio-y-le-regalo-a-milei-_a6abeb75606fa52caf46806ec",
+        "source": "Informate Salta",
+        "date": "Thu, 01 Oct 2026 23:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz participó del encuentro con Macron para impulsar inversiones",
+        "link": "https://www.eltribuno.com/salta/2026-10-1-19-13-0-saenz-participo-del-encuentro-con-macron-para-impulsar-inversiones",
+        "source": "El Tribuno - Salta",
+        "date": "Thu, 01 Oct 2026 22:13:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "En París, Sáenz le entregó a Milei su libro sobre federalismo y desarrollo",
         "link": "https://www.eltribuno.com/salta/2026-10-1-15-43-0-en-paris-saenz-le-entrego-a-milei-su-libro-sobre-federalismo-y-desarrollo",
@@ -522,27 +543,6 @@
         "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
         "source": "Informate Salta",
         "date": "Fri, 25 Sep 2026 00:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz inauguró la ampliación de un colegio en Villa Lavalle",
-        "link": "https://www.eltribuno.com/salta/2026-9-25-0-3-0-saenz-inauguro-la-ampliacion-de-un-colegio-en-villa-lavalle",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 25 Sep 2026 04:50:59 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Escudero aseguró que “no hay objeción constitucional” para la reelección de Gustavo Sáenz - Informate Salta - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYmtFWWt1UVhKM0hqQWNsNFdjUmVEWnd4SER2NnBuV056ME9ld3JMVEI2bG9FOE52OHczOXRHUG5vbHdvVWxQQ2VXNU9mYXhHajc2eVNJbENhc1RhYUFlbks3eUhQV3EyaG5kX0tkMmtNMVB1VVQwTnBldzFsdFd2aHg1djVTUjdhV2w5Xzc4bTNjeXFWQVpLTmp2cDJ2d0ZLREZra0hXY2lucVppVWxpRk1ENzdkZVRuaUZCb08wU0RVbmlUSmlhRG5yU082cFk0YUE1OEZFLWQtbTJua3J5eUozdjhoWVZFVGxDR1JveFJuaHNnYzQ3dEludnl2OXNj?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 24 Sep 2026 19:57:50 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz instó a los senadores nacionales a solicitar tarifas diferenciadas para Salta",
-        "link": "https://informatesalta.com.ar/legislativa/saenz-insto-a-los-senadores-nacionales-a-solicitar-tarifas-diferenciadas-para-salta_a6ab573d6f24c6ff37983d01a",
-        "source": "Informate Salta",
-        "date": "Thu, 24 Sep 2026 19:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -6038,13 +6038,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 81,
+    "total_mentions": 82,
     "sentiment_breakdown": {
-      "positivo": 8,
+      "positivo": 9,
       "negativo": 6,
       "neutral": 67
     },
     "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 1,
+        "score_sum": 1
+      },
       "Thu, 13 Oc": {
         "total": 1,
         "score_sum": 0
@@ -6418,6 +6422,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Orán inaugura una nueva etapa institucional con la jura de la nueva carta municipal",
+        "link": "https://informatesalta.com.ar/interior/oran-inaugura-una-nueva-etapa-institucional-con-la-jura-de-la-nueva-carta-municipal_a6abec71b06fa52caf46bc495",
+        "source": "Informate Salta",
+        "date": "Thu, 01 Oct 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "Juan Cruz Curá aseguró que sufrieron faltas de respeto del ministro de Salud en el Senado - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdWIwckhYYTdDRzh1Z0pRdzhjYW5FM2lrdHVFZVVfbXEwZmdxR0Yyb2tJcWljLU1rZzlmV1VoZFdNSHdKUGE4QVpLYjFSZS0wZXVsWmRWQlp3OU1uY056QWdHeEpJdl83dFdONnNZaDc4M3pMVnNuT01qQkpDS1pVbURWYTdnOXAwXzFQa1dHZ3FPcGVXZ01vZ1VTZGc2V1FYdHB6ekJqbXZSbS1WTDl3ZGZPUGk3am5BRlVhbTkyYWJUZ3BhNUdSTWVFQWFmbVVHV1RPN29XYzZISWw1bFB2ckN6ZmZxU3I1RjhETE130gH8AUFVX3lxTE9MSjh5WjhDWE1DakpRTzVFVzhJLXNsUDNYcTVYQlhCNk5WTDAxR19GRmxacUJHLWtpeHFuQ29KNmxWLVZyQkNacXA1b212TnhoUjBjRkV0dmFKVy1tcVhvamdidVJyQ0tQNEhCQkowY09WWDBuTG1XcVBxOFRHTUJtYmxlMXF5aVBRa1U0bDJ1VThFenpoYXg2VDczQ09VVGlXejdha3FHNnZYV0Z4djdPR0hmRkV2NHJteTVaNW4zT3lOcEpzMVZhS3VMdkZfU3pwQ0R5RjJTUm5VenlaQmY2RlVGS0tEWHRGV0pUSjg4bGpYTFVKMVB1ZmpoTA?oc=5",
         "source": "Informate Salta",
@@ -6618,13 +6629,6 @@
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONVNDOFRWR2Y5bWpvZzRlQzRGanFUTzY5OEpxWTRDbF96UElrSXRLTlZJWlkxbHhiUWZyNkcwV3YtSGFNdlNqdFhrZ3A4VkhBQ19oaWY4VlFxZlRkNkJMMmZKRGk5RTZlSzJQb3ZFUFpjUXFWT2ZMUDdCaVZ0VGxJZlVmYTdrZGRDcVVKRkxMZXhZNHFDS2xYTTNCZ3RmYUFCdjh2c2lUVDE?oc=5",
         "source": "Nuevo Diario de Salta",
         "date": "Fri, 23 Aug 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Juan Cruz Curá: “Llevamos un mensaje claro: que se discutan los temas de Salta” - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQW05V0ljaEstSGUzNmpiTWg5UHUxb1ZMdkZ5YjJ4czZHMnh3V2N2NGJXTFBQMGxXZEJKQVhNenNjNTY1MG9UQl9UZVh0VHhLT2pLZ1VpSlRhQWJqUXkxQ0F2WTRnQUF4ZnJTcTQ2QnFPUllVN1J1UkZWay1WR0RJVktJeWdRMUViTmtFUzVXRmh1Tm03U08zUG5VR1pXX2NSbWR3TnIyNHJ3Ul9EWk1r?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Thu, 23 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15085,14 +15089,10 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "farquharson",
-        "count": 3
-      },
-      {
-        "term": "concejales",
         "count": 2
       }
     ],
@@ -19608,23 +19608,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 14
       },
       {
         "term": "royón",
-        "count": 15
-      },
-      {
-        "term": "tribuno",
-        "count": 4
-      },
-      {
-        "term": "zonas",
-        "count": 4
-      },
-      {
-        "term": "frías",
-        "count": 4
+        "count": 14
       },
       {
         "term": "elintra",
@@ -19636,6 +19624,18 @@
       },
       {
         "term": "reforma",
+        "count": 3
+      },
+      {
+        "term": "tribuno",
+        "count": 3
+      },
+      {
+        "term": "zonas",
+        "count": 3
+      },
+      {
+        "term": "frías",
         "count": 3
       }
     ],
@@ -22401,13 +22401,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Wed, 22 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 25 Ma": {
         "total": 1,
         "score_sum": 0
@@ -22444,11 +22448,19 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 3
+        "count": 4
       },
       {
         "term": "galíndez",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "sáenz",
+        "count": 2
+      },
+      {
+        "term": "candidato",
+        "count": 2
       },
       {
         "term": "aries",
@@ -22460,6 +22472,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "La reforma de la Ley no beneficia a Sáenz, el candidato que más votos tenga será el gobernador",
+        "source": "El Expreso de Salta",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVWRZVlVabDNQOTBvYlRNZEZXSDg0aEx6MnlVWk1ydGFvNXpHRmI4OTR4bXFjRmVlMWF6bG8wVDNkc1N6MnIzdDVlWE9IVV9XRHRWMjU3YVhoZ0dTTzRSdllHMm9pV1JTY1pYa3RMc0hiWWxQQmhXQWxvRkV1Wk1WbGpJTHRfWFFfUlJtMlJhQkJCQkxodXVjZTJ1MWM1MUlvYzRZSDJLdTRVWVpRN2FPdHdvSnByNklLMkZpVHFLNENoMmhJSmxn?oc=5",
+        "date": "Wed, 22 Apr 2026 14:59:24 GMT"
+      },
       {
         "quote": "Es fácil militarlo a Massa",
         "source": "Aries On Line",
@@ -22475,6 +22493,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gastón Galíndez: “La reforma de la Ley no beneficia a Sáenz, el candidato que más votos tenga será el gobernador” - El Expreso de Salta",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVWRZVlVabDNQOTBvYlRNZEZXSDg0aEx6MnlVWk1ydGFvNXpHRmI4OTR4bXFjRmVlMWF6bG8wVDNkc1N6MnIzdDVlWE9IVV9XRHRWMjU3YVhoZ0dTTzRSdllHMm9pV1JTY1pYa3RMc0hiWWxQQmhXQWxvRkV1Wk1WbGpJTHRfWFFfUlJtMlJhQkJCQkxodXVjZTJ1MWM1MUlvYzRZSDJLdTRVWVpRN2FPdHdvSnByNklLMkZpVHFLNENoMmhJSmxn?oc=5",
+        "source": "El Expreso de Salta",
+        "date": "Wed, 22 Apr 2026 14:59:24 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Para Gastón Galíndez, Milei «brega por una sociedad violenta, burlona» - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2JqckZ5a0xuaktudEVKc24zWC1VQ2ZzcW1Ca3RhaUpoeDhicklJSDhRYUVxZkJNS2kxY0ZvMkQ5ZFo1ZEdwa0UydHlLeHNHUjNLZTByaDZrcWZaU3VnUk1WNWVPLWgzcTlaV3hTQXdSUnJtR0hXdHF0bzFqQnl4VmVxTWc4M2JBdmoyT0dTZERpTDFFdUNPWGZKbEdwaTNRMVc0?oc=5",
@@ -22853,7 +22878,7 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 4
+        "count": 3
       },
       {
         "term": "gauffin",
@@ -22861,14 +22886,6 @@
       },
       {
         "term": "elintra",
-        "count": 3
-      },
-      {
-        "term": "contra",
-        "count": 2
-      },
-      {
-        "term": "tiene",
         "count": 2
       }
     ],
