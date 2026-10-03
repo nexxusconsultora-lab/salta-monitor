@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-03T05:43:26.663468+00:00",
+  "generated_at": "2026-10-03T10:41:51.443410+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 164,
+      "total_mentions": 165,
       "sentiment_breakdown": {
         "positivo": 12,
         "negativo": 14,
-        "neutral": 138
+        "neutral": 139
       },
       "sentiment_by_day": {
+        "Wed, 30 Se": {
+          "total": 7,
+          "score_sum": 2
+        },
         "Sun, 30 No": {
           "total": 1,
           "score_sum": 0
@@ -27,10 +31,6 @@
         "Fri, 02 Oc": {
           "total": 2,
           "score_sum": 0
-        },
-        "Wed, 30 Se": {
-          "total": 6,
-          "score_sum": 2
         },
         "Thu, 19 De": {
           "total": 1,
@@ -128,7 +128,7 @@
         },
         {
           "term": "intransigente",
-          "count": 29
+          "count": 30
         },
         {
           "term": "pasa",
@@ -139,7 +139,7 @@
           "count": 22
         },
         {
-          "term": "obras",
+          "term": "milei",
           "count": 16
         }
       ],
@@ -242,6 +242,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Javier Milei defendió su modelo económico en el Coloquio de IDEA: «Hay que ser paciente» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yUU9ZM2VEZ2JWc2x2alpZMVFLYWRVRzJ1NVZjMjFVUDJ3aXB4WjZnYmJ2YkloaXFqZ21KZnhsM2d6b1hSQVZDTGVDOHRJS2tYZWpoUU1RNFkwVndYMmZTUjBBUjRoRnB2VFozZURvbHg?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 30 Sep 2026 22:53:08 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Los ejes de la minería del Presupuesto provincial 2026: cuánto recibirán los municipios - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPREF1dmxLZjBENFRiVlFDWkl3eDBGS1VZRl9ubkdOa3l0SnNtWnR5UUpCYmpMamtZU0pJMTdiNENQa05xRDh0WVVYWDRjUXAwWVpITGh1TmZhbkppT2dXa3dubEFJRTVCemdycjNnSkhPVWFWT0k4Nl9ZY2ZNY3lPeVZ4R05MdDdpOW1IVzRTR19HR3VwTWlMQUZDTUlWZzZEaVljTmZB?oc=5",
@@ -443,13 +450,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbE4ydWRNOGNkVUFsWmNXVTJyaVZvMjBIUUoyVEdWdVBQVlpEczRocUFxakphUHB2Sm4zbVh0LVBpMkNMaTMzUEZvTi1halJyeU8zbTV2d3I3WVdRQ1RtZWx0anQ2dWFwTGxIZ21DV21wUWNzZWhfUkpqRnotYW82OW9tSEFvN2JMVnd6aE9XR1pGSFZCVXFXd2Jwa2llWHpsRkQyQngwVnhOUVhlM2JlZW43Nkl3c2FPc1JvTzZRUHhVS0c0SC1GS2hKUmZCYjlTNzd0LXNpeEvSAecBQVVfeXFMTk5Gelp3Wkg2Y0NBVkN0Q3NHek1HTzlUOE1YWENzNS1jUFc1dXlockozMnJWWE5VWXNoTmgtdlk2UUh3S2NtZDZqdEpubnZlaG8xZ3huVi1JWDFCY1Y4OVBaWUEtcVBsQjNHUlpralNCbkl5bzVFRjRWZ2ZkTjFvZjkxYVdjcnNRRW9mdHd4NngySXA3eEN2eTIwenNjZnZob3hCTGlNNWlIMWJBeEZKanNoQnpKaFNnMGdrNHk5ZjZLQ1hUV2k5M1I4bXBmckhRTEhHNUVFZXJEcnYtUEtJRzh1Y2hZQVJZ?oc=5",
           "source": "informatesalta.com.ar",
           "date": "Tue, 22 Sep 2026 16:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Inscripciones: Educación analiza un sistema de turnos electrónicos - informatesalta.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3dhbVl6a2pLZzVYbnRJcDB2MU9tVFNqeHBGMjF5UHRiWlR2U19OOTNROE9wbFZ1U2JZYkFSeUtyaGtjRk9Pa0dyTGVWMmNuNnd1WWp5NjhnaEQxb1lDWTl5LTU0eDA0bnIxWDVhN1N1OHkzdWRmMEE5cExORi1HcERUb19tbnR0WVR4S3JtX1RtUGV2bTRrTnRlb29HYjNNa1Y3TFdDTVBrZ2ptXzFDYVVPWE5nMXVlX1B2dlE1RmxwQ2NaM1RBZnJUSnJwVm9VT0w4Z9IB4wFBVV95cUxPdVRnUkQycWxub3E1LTlPQUZORzk5OF8xbWRMWUY1cmtWNy1rSGlUOTQ1YlhqeTN4aHR2aGlzNDFwNGdJRXJlWFFtUkE2MHFIS1FQTHVLMm9lRTBXZGxpOS1jbXhGTklpbjRaclpXbUtTb1gyV004YVFRbzdxOUFhZks3d2JybEI4UmNSMjZoVUVjUHF0a1Q3emlrdlJVTExRYWR3T0V0M0h0cTB6UGZTWUY2bDg0LVdhSEtDVjloNlhldEM2R1RpSldkaThYQWJ3RGthR1d5eEhaYXVCSTZPT3lwQQ?oc=5",
-          "source": "informatesalta.com.ar",
-          "date": "Wed, 23 Sep 2026 13:15:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-10-03T05:43:25.701622+00:00",
+  "generated_at": "2026-10-03T10:41:50.566584+00:00",
   "by_politician": {
+    "dip-guillermo-alejandro-kripper": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 0
+    },
+    "concejal-camila-lobo": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 8,
+      "score_sum": -2
+    },
+    "concejal-gustavo-farquharson": {
+      "total": 60,
+      "positivo": 3,
+      "negativo": 13,
+      "neutral": 44,
+      "score_sum": -23
+    },
+    "dip-daniel-alejandro-segura-gimenez": {
+      "total": 11,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 7,
+      "score_sum": -8
+    },
+    "dip-adrian-alfredo-valenzuela-giantomasi": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 5,
+      "score_sum": -6
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 34,
+      "positivo": 4,
+      "negativo": 2,
+      "neutral": 28,
+      "score_sum": 3
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 39,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 31,
+      "score_sum": -4
+    },
     "dip-jose-miguel-gauffin": {
       "total": 18,
       "positivo": 0,
@@ -49,13 +98,6 @@
       "negativo": 1,
       "neutral": 8,
       "score_sum": -4
-    },
-    "dip-guillermo-alejandro-kripper": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 0
     },
     "dnac-carlos-raul-zapata": {
       "total": 21,
@@ -126,13 +168,6 @@
       "negativo": 0,
       "neutral": 15,
       "score_sum": 2
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 33,
-      "positivo": 4,
-      "negativo": 2,
-      "neutral": 27,
-      "score_sum": 3
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 12,
@@ -280,27 +315,6 @@
       "negativo": 8,
       "neutral": 41,
       "score_sum": -18
-    },
-    "concejal-gustavo-farquharson": {
-      "total": 59,
-      "positivo": 3,
-      "negativo": 13,
-      "neutral": 43,
-      "score_sum": -23
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 38,
-      "positivo": 2,
-      "negativo": 5,
-      "neutral": 31,
-      "score_sum": -6
-    },
-    "dip-adrian-alfredo-valenzuela-giantomasi": {
-      "total": 6,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 4,
-      "score_sum": -6
     },
     "dip-sergio-mauricio-lopez": {
       "total": 10,
@@ -547,13 +561,6 @@
       "neutral": 18,
       "score_sum": -4
     },
-    "dip-daniel-alejandro-segura-gimenez": {
-      "total": 10,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 6,
-      "score_sum": -8
-    },
     "dip-patricio-penalba-arias": {
       "total": 10,
       "positivo": 0,
@@ -651,13 +658,6 @@
       "negativo": 1,
       "neutral": 6,
       "score_sum": 0
-    },
-    "concejal-camila-lobo": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 7,
-      "score_sum": -2
     },
     "concejal-carlos-maximiliano-casasola": {
       "total": 3,
@@ -808,6 +808,74 @@
     }
   },
   "by_day": {
+    "Wed, 26 No": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-camila-lobo": {
+        "total": 2,
+        "score_sum": -2
+      }
+    },
+    "Thu, 06 Au": {
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 19 Ma": {
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 16 Se": {
+      "dip-adrian-alfredo-valenzuela-giantomasi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 22 Ma": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 27 Ma": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Wed, 06 De": {
       "dip-jose-miguel-gauffin": {
         "total": 1,
@@ -1546,20 +1614,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 06 Au": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 24 Ju": {
       "concejal-gonzalo-nieva": {
         "total": 1,
@@ -1898,16 +1952,6 @@
       "dip-juan-jose-esteban": {
         "total": 1,
         "score_sum": -1
-      }
-    },
-    "Wed, 26 No": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "Tue, 15 No": {
@@ -2998,16 +3042,6 @@
         "score_sum": 0
       },
       "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 19 Ma": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-sofia-sierra": {
         "total": 1,
         "score_sum": 0
       }
@@ -8980,16 +9014,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 27 Ma": {
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 19 Ju": {
       "dip-juan-esteban-romero": {
         "total": 1,
@@ -12818,7 +12842,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 34
+      "count": 36
     },
     {
       "term": "sáenz",
@@ -12833,16 +12857,20 @@
       "count": 11
     },
     {
+      "term": "informate",
+      "count": 9
+    },
+    {
       "term": "gustavo",
-      "count": 8
+      "count": 9
     },
     {
       "term": "mónica",
-      "count": 7
+      "count": 8
     },
     {
       "term": "juárez",
-      "count": 7
+      "count": 8
     },
     {
       "term": "laura",
@@ -12853,19 +12881,11 @@
       "count": 6
     },
     {
-      "term": "informate",
-      "count": 6
-    },
-    {
       "term": "niño",
       "count": 6
     },
     {
-      "term": "flavia",
-      "count": 5
-    },
-    {
-      "term": "royón",
+      "term": "contra",
       "count": 5
     },
     {
@@ -12874,6 +12894,10 @@
     },
     {
       "term": "zapata",
+      "count": 5
+    },
+    {
+      "term": "reunió",
       "count": 5
     }
   ],
