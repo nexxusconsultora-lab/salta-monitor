@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-03T00:32:15.213587+00:00",
+  "generated_at": "2026-10-03T05:43:25.701622+00:00",
   "by_politician": {
+    "dip-jose-miguel-gauffin": {
+      "total": 18,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 15,
+      "score_sum": -4
+    },
+    "snac-flavia-royon": {
+      "total": 51,
+      "positivo": 6,
+      "negativo": 5,
+      "neutral": 40,
+      "score_sum": 6
+    },
+    "concejal-laura-jorge-saravia": {
+      "total": 34,
+      "positivo": 0,
+      "negativo": 10,
+      "neutral": 24,
+      "score_sum": -22
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 12,
       "positivo": 0,
@@ -77,13 +98,6 @@
       "negativo": 0,
       "neutral": 2,
       "score_sum": 0
-    },
-    "snac-flavia-royon": {
-      "total": 49,
-      "positivo": 5,
-      "negativo": 5,
-      "neutral": 39,
-      "score_sum": 4
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 5,
@@ -162,13 +176,6 @@
       "neutral": 67,
       "score_sum": 7
     },
-    "dip-jose-miguel-gauffin": {
-      "total": 17,
-      "positivo": 0,
-      "negativo": 3,
-      "neutral": 14,
-      "score_sum": -4
-    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 4,
       "positivo": 0,
@@ -189,13 +196,6 @@
       "negativo": 2,
       "neutral": 8,
       "score_sum": -2
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 33,
-      "positivo": 0,
-      "negativo": 10,
-      "neutral": 23,
-      "score_sum": -22
     },
     "sen-jorge-soto": {
       "total": 42,
@@ -808,6 +808,30 @@
     }
   },
   "by_day": {
+    "Wed, 06 De": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 09 Ja": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "Mon, 17 Au": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 14 Au": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Thu, 27 Fe": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -12794,7 +12818,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 33
+      "count": 34
     },
     {
       "term": "sáenz",
@@ -12810,7 +12834,7 @@
     },
     {
       "term": "gustavo",
-      "count": 9
+      "count": 8
     },
     {
       "term": "mónica",
@@ -12819,6 +12843,10 @@
     {
       "term": "juárez",
       "count": 7
+    },
+    {
+      "term": "laura",
+      "count": 6
     },
     {
       "term": "carlos",
@@ -12833,23 +12861,19 @@
       "count": 6
     },
     {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "royón",
+      "count": 5
+    },
+    {
       "term": "puede",
       "count": 5
     },
     {
       "term": "zapata",
-      "count": 5
-    },
-    {
-      "term": "reunió",
-      "count": 5
-    },
-    {
-      "term": "emilia",
-      "count": 5
-    },
-    {
-      "term": "orozco",
       "count": 5
     }
   ],
