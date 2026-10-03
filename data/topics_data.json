@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-02T21:09:50.627226+00:00",
+  "generated_at": "2026-10-03T00:32:16.140951+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 162,
+      "total_mentions": 163,
       "sentiment_breakdown": {
         "positivo": 12,
         "negativo": 14,
-        "neutral": 136
+        "neutral": 137
       },
       "sentiment_by_day": {
+        "Thu, 01 Oc": {
+          "total": 6,
+          "score_sum": 0
+        },
         "Sat, 26 Se": {
           "total": 5,
           "score_sum": 0
         },
         "Fri, 02 Oc": {
           "total": 2,
-          "score_sum": 0
-        },
-        "Thu, 01 Oc": {
-          "total": 5,
           "score_sum": 0
         },
         "Wed, 30 Se": {
@@ -120,7 +120,7 @@
         },
         {
           "term": "informate",
-          "count": 32
+          "count": 33
         },
         {
           "term": "intransigente",
@@ -146,6 +146,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Salta ofrece confianza y grandes oportunidades",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUFlR3FsMWtKLTV3YzQ0MXNwcTlINU9CMzBiWDliUldzN1o3MmNfV2p1YWlGU0M2cE9ISzNkOGdiZkFYTXZfNUVwQV83dE42VG5EcTJPWmF3ck02QW5HanczWXBWb0xEUzlZbW92UVp5ZmJZWFhObUR0dWtXY05NMENkR0xzWjcyc2NiRGN2ZDV3bFJBaFNYRkR3ZklzaXV6NkpmYTA2LWlQT1lWUnRTVzl4WVVxY1A3Vk5qRS16MHJLdThiS0hRV3pZRk8tZklfS0dYRlFSSDQ?oc=5",
+          "date": "Thu, 01 Oct 2026 11:37:00 GMT"
+        },
         {
           "quote": "Salta ofrece confianza y grandes oportunidades",
           "source": "Informate Salta",
@@ -229,15 +235,16 @@
           "source": "Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOcmg0QWllTXlCSzVpZWlsTE9OVHVqWlZ6RnJGSlR2OTFCeFkwVDROMW9ya0ZZbDhwT0dSaTFVTHVUeXVPMDZOa0pNVWtzM2g5amJybjhrNk5Tb2tBVXRHcUVTN3cyelhzNmFhLUJLQ3ZqVVhERnpjSHBaVjVqZEN5Qlo3dUVVdzZKSHhONEZLVWtBUFFXU2Y5WlN1R2xyR1hpbkFJUTZwaV81akE4bzdGdGs4VmVwVlN5aThwcWhQc2xDV0RDcXppMDFKRFpxTE9fdjZZWkRxUlNIM2YzWmlzdGh2Q25hZ0h1ZjRSeUhmN2xHYVhVTEd5ZUwyNmxHMzE50gGPAkFVX3lxTE9GcnlENGJVcDJVZEMxVUQxRDY4WnpRWVRCbFMtaXNpWFJDamY1VFRSSEMxeDNsTWo1clFUQXplYWN0WmtvcFpCSTY2RmFmbnF1QlNOV0VMVFNzV0FrbnFaRDU1amdYczNTektDUVhyMTNzRzlRQ1hJM2JaYzExZzhjSHhHWGtUcW8zdUFDWkhuX09VMnFNeHR0YzRLZG9tMHhISzBKNURQWnplTkJUd1lFRjc0eWRnenZYSGFDbTh2SVJTU2ZaYklrLU91ZGpabkhuaElyS3hPNE1QNWVxOXc5UFFvY0haQ1Y2d21IdkV5enRlU3RZbFFTUWl3Q3NMcGZIZ3BOMmVCN3RNX3dQRXc?oc=5",
           "date": "Wed, 23 Sep 2026 10:15:00 GMT"
-        },
-        {
-          "quote": "Es superadora porque deja de ser de emergencia",
-          "source": "Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeTJLX0N4REtueEc5TXREU28wYUxKeFlXRmNPU3dGdXd5Ni0zbVY5UWRRcGhieWVxXzAtZEJILUdybUZveThGRS00NW1FaklMUnlQNVBkM0dNWkVtMUVUazA5Ul9hdUpnRFc1bWNsVlU0SkNSd21QWmpvRVIxc1Q3bExfOVRjQnBwWVBLYkdmaTlRNjByOUxSdGU5VUxPSThtNFZPUlNXYWVmQ1pOTFlGYVpTU2p0MEZpWnJRdUZKc3lZM0R5TTgyUjZTYVR5aXhEZjItYU5yemRpbWw3dEYzWmF5UjB4MEF2N0ZER280TlZvWDBOcktF0gGGAkFVX3lxTE84RVY3T0I3SExXQ0psWTBuZlZSZ0k4Y2VtZzZ6azZHZW5CcHJVREN6eWp5VWVzTGpySUFFSFpsSnA2WENMQ3BGZ1hLeEVhczE1dlk3cHRSTjY2QVE3ZHgzbWsyendRRWo1UUNTdlJVNHNUTVZDZktmUDJtMTVHR0dKYzRXaTN6OGRMOFVYYzh6NXJLcWhjVG9jOWVDckJfT240N2F0ckNHTnEwclAyMU56ZmhZdEZseXVPTWU0V1Yxd01wNjltb2NoWTU4WU1FYTYyT29oVTNZTGpOeEhyNzZSb18wRHB1M081Y2dEc0d0ekw5V1lZaHMySGkzeTlUMEZWLTlrS0E?oc=5",
-          "date": "Fri, 25 Sep 2026 13:45:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Sáenz en la Argentina Week: “Salta ofrece confianza y grandes oportunidades” - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUFlR3FsMWtKLTV3YzQ0MXNwcTlINU9CMzBiWDliUldzN1o3MmNfV2p1YWlGU0M2cE9ISzNkOGdiZkFYTXZfNUVwQV83dE42VG5EcTJPWmF3ck02QW5HanczWXBWb0xEUzlZbW92UVp5ZmJZWFhObUR0dWtXY05NMENkR0xzWjcyc2NiRGN2ZDV3bFJBaFNYRkR3ZklzaXV6NkpmYTA2LWlQT1lWUnRTVzl4WVVxY1A3Vk5qRS16MHJLdThiS0hRV3pZRk8tZklfS0dYRlFSSDQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 01 Oct 2026 11:37:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "No le encuentran la vuelta: la economía cayó 2,9% en julio y preocupa el rumbo - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdy1XVTBNdDVDVjBoRkF2STVDMl9nODZXa2RvbVBRLVB0MlJtQWVtSDZwajJXcDFfa21KZXZROTI1TlhycDVsRTJ3SUNRd2xLNDF3RFRiTUtOdFROc2UxZFZHaWoySGlUMEVwYV80Z0dJdUdxb3RZVWpFQVlTdDBibWlB?oc=5",
@@ -439,13 +446,6 @@
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUXppZ05IbkZuUmlrRVNmU29vaFc1TjRpVFVkSU44VEh6d3VpeXQ4dU1DdXRFaTd1M29kajdSZXJmTE1LZFNWV3ZxR25FY3pReGNtNTZhQ0lLbENJQlVvbHdqLWRWcGRuank0cDA1UzktTjczb1ZuekhtNnVwMnZKUUN3SzFLWlhxM3d2UDFXc0VSTXExYkYtRU5kYXowY3l6c1MtNTI4T2JrbmNlaE5BVDZDSVhfamwtZlphU1hBcWhVdU03bjVCbGJWazdBTnPSAd4BQVVfeXFMT1NZVlpiQm8zNjNBc3pLZHNRYlYwRXhmeDFZTXBSbjFzWUVBUGRfdGcta0ZvWUNVTFZxYm1Lb0tHdldCMUJVaU9TQW5kRnhTeGlFU3kxYTdCTUhNWHBHNXU4UWFOa3B5Ymk4UThLX05nV0U0R3JIZ2xuak4zTXpScHZsQk95MHR1TWhpWHphNjNxZ2JuVGRpVFlPLWVYb2RGdFhkWDFILVFnanVoWFQzYjZpeDY5ckJSZkRRNzd0YXRiREp6YktUbDc4UENWbzFodXY5bEFnaWJoc29mcy13?oc=5",
           "source": "informatesalta.com.ar",
           "date": "Mon, 28 Sep 2026 22:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno cede y avanza con un proyecto \"superador\" sobre la emergencia en Discapacidad - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNemdqTDFoWFZ5cG9FQUJyMWhIelVsUmlSS1dpS0ZYeHF0RDNyemdvMVRvb3BLeWwxc0E1MURyaURFTWhpcFdoeDg3dkw3Smotc1NTckpKWDNuWUhhaS1WOW4xd1A4akJQd0xOZEhzaFJMY056amdrcG5uX0I2cHRKNzBZUDE0N2t5MnRyMXhCSWF1ZGNVdk1wNGtRQ3dtSnltRG9nd3pwOWtNajhvU08waUM2N2RXQl90WXNfdDlBeGM3S0dOSDVpanNtUTBYM1BrOG5qSHhYTGpMUdIB3wFBVV95cUxQMm0wdmU1clQ1M0h0eXlXUEFESW5PRkhLSjJZVUpoNWtkRTJBNnJ0bWcwbVlWZERNNzRJRUdGbHlXNTllaVpJaDdoeGVwT083TTd0M2RBS1hIUlFzZVJHaGJmQXcyakFmcno1OU1TLVdzWERVcG55Ny00Y1I2Sm9wdFlDbXVScjVmQW1GeVRjR1pvWU5lSkMtSUlvdGV1aTJfcG9LS052b0oxdkNPUjNnNmZaT3R0QVlZN0tDREg4VUdZNk80Q3NEQk5kbi0tRzVKUHJ1WFF1QWo1OGpMdjBN?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 22 Sep 2026 22:36:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

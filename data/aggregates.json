@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-02T21:09:49.754316+00:00",
+  "generated_at": "2026-10-03T00:32:15.213587+00:00",
   "by_politician": {
+    "dip-gaston-guillermo-galindez": {
+      "total": 12,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 12,
+      "score_sum": 0
+    },
+    "sen-manuel-pailler": {
+      "total": 49,
+      "positivo": 4,
+      "negativo": 1,
+      "neutral": 44,
+      "score_sum": 7
+    },
+    "gustavo-saenz": {
+      "total": 199,
+      "positivo": 30,
+      "negativo": 22,
+      "neutral": 147,
+      "score_sum": 36
+    },
     "dip-eduardo-jose-virgili": {
       "total": 9,
       "positivo": 0,
@@ -13,13 +34,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 8,
-      "score_sum": 0
-    },
-    "dip-gaston-guillermo-galindez": {
-      "total": 11,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 11,
       "score_sum": 0
     },
     "dnac-carlos-raul-zapata": {
@@ -42,13 +56,6 @@
       "negativo": 7,
       "neutral": 30,
       "score_sum": -8
-    },
-    "gustavo-saenz": {
-      "total": 197,
-      "positivo": 29,
-      "negativo": 22,
-      "neutral": 146,
-      "score_sum": 30
     },
     "sen-daniel-moreno-ovalle": {
       "total": 27,
@@ -442,13 +449,6 @@
       "neutral": 2,
       "score_sum": -4
     },
-    "sen-manuel-pailler": {
-      "total": 48,
-      "positivo": 4,
-      "negativo": 1,
-      "neutral": 43,
-      "score_sum": 7
-    },
     "dip-nestor-eduardo-parra-ruiz-de-los-llanos": {
       "total": 3,
       "positivo": 0,
@@ -808,14 +808,36 @@
     }
   },
   "by_day": {
+    "Thu, 27 Fe": {
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 17 Ma": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 03 Oc": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 6
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "Fri, 02 Oc": {
+      "gustavo-saenz": {
+        "total": 15,
+        "score_sum": 8
+      },
       "dip-eduardo-jose-virgili": {
         "total": 1,
         "score_sum": -4
-      },
-      "gustavo-saenz": {
-        "total": 14,
-        "score_sum": 8
       },
       "sen-daniel-moreno-ovalle": {
         "total": 1,
@@ -7026,12 +7048,6 @@
         "score_sum": 0
       }
     },
-    "Sat, 03 Oc": {
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "Tue, 26 Fe": {
       "concejal-dario-madile": {
         "total": 1,
@@ -12786,26 +12802,22 @@
     },
     {
       "term": "milei",
-      "count": 15
+      "count": 14
     },
     {
       "term": "parís",
-      "count": 12
+      "count": 11
     },
     {
       "term": "gustavo",
-      "count": 10
+      "count": 9
     },
     {
       "term": "mónica",
-      "count": 8
+      "count": 7
     },
     {
       "term": "juárez",
-      "count": 8
-    },
-    {
-      "term": "informate",
       "count": 7
     },
     {
@@ -12813,7 +12825,7 @@
       "count": 6
     },
     {
-      "term": "zapata",
+      "term": "informate",
       "count": 6
     },
     {
@@ -12821,7 +12833,11 @@
       "count": 6
     },
     {
-      "term": "pasa",
+      "term": "puede",
+      "count": 5
+    },
+    {
+      "term": "zapata",
       "count": 5
     },
     {
