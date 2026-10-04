@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-04T19:55:08.938359+00:00",
+  "generated_at": "2026-10-04T22:49:40.915223+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 45,
+      "positivo": 5,
+      "negativo": 8,
+      "neutral": 32,
+      "score_sum": -5
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 41,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 33,
+      "score_sum": -4
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 14,
       "positivo": 0,
@@ -113,26 +127,12 @@
       "neutral": 68,
       "score_sum": 7
     },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 40,
-      "positivo": 3,
-      "negativo": 5,
-      "neutral": 32,
-      "score_sum": -4
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 19,
       "positivo": 4,
       "negativo": 4,
       "neutral": 11,
       "score_sum": 0
-    },
-    "snac-emilia-orozco": {
-      "total": 44,
-      "positivo": 5,
-      "negativo": 8,
-      "neutral": 31,
-      "score_sum": -5
     },
     "dip-luis-fernando-albeza": {
       "total": 13,
@@ -808,6 +808,22 @@
     }
   },
   "by_day": {
+    "Thu, 03 Au": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 12 De": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Wed, 05 Oc": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -1492,12 +1508,6 @@
     },
     "Wed, 21 Ma": {
       "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Thu, 03 Au": {
-      "dnac-carlos-raul-zapata": {
         "total": 1,
         "score_sum": 0
       }
@@ -13030,15 +13040,19 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 34
-    },
-    {
-      "term": "sáenz",
-      "count": 17
+      "count": 31
     },
     {
       "term": "gustavo",
-      "count": 15
+      "count": 10
+    },
+    {
+      "term": "sáenz",
+      "count": 8
+    },
+    {
+      "term": "informate",
+      "count": 7
     },
     {
       "term": "flavia",
@@ -13049,20 +13063,12 @@
       "count": 7
     },
     {
-      "term": "informate",
-      "count": 7
+      "term": "orozco",
+      "count": 6
     },
     {
-      "term": "parís",
-      "count": 7
-    },
-    {
-      "term": "pasa",
-      "count": 7
-    },
-    {
-      "term": "tribuno",
-      "count": 7
+      "term": "contra",
+      "count": 6
     },
     {
       "term": "agustina",
@@ -13073,20 +13079,24 @@
       "count": 6
     },
     {
-      "term": "orozco",
-      "count": 6
-    },
-    {
-      "term": "millones",
-      "count": 6
-    },
-    {
-      "term": "diario",
+      "term": "tribuno",
       "count": 5
     },
     {
-      "term": "padre",
-      "count": 5
+      "term": "cornejo",
+      "count": 4
+    },
+    {
+      "term": "mónica",
+      "count": 4
+    },
+    {
+      "term": "juárez",
+      "count": 4
+    },
+    {
+      "term": "nuevo",
+      "count": 4
     }
   ],
   "comentions": [
