@@ -1,19 +1,40 @@
 {
-  "generated_at": "2026-10-03T21:49:44.684111+00:00",
+  "generated_at": "2026-10-04T00:11:16.217919+00:00",
   "by_politician": {
+    "dip-guillermo-mario-durand-cornejo": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 0
+    },
+    "concejal-gustavo-farquharson": {
+      "total": 61,
+      "positivo": 3,
+      "negativo": 13,
+      "neutral": 45,
+      "score_sum": -23
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 48,
+      "positivo": 4,
+      "negativo": 8,
+      "neutral": 36,
+      "score_sum": -14
+    },
+    "sen-juan-cruz-cura": {
+      "total": 83,
+      "positivo": 9,
+      "negativo": 6,
+      "neutral": 68,
+      "score_sum": 7
+    },
     "snac-flavia-royon": {
       "total": 54,
       "positivo": 6,
       "negativo": 5,
       "neutral": 43,
       "score_sum": 6
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 46,
-      "positivo": 3,
-      "negativo": 7,
-      "neutral": 36,
-      "score_sum": -14
     },
     "dip-gustavo-orlando-orozco": {
       "total": 34,
@@ -127,13 +148,6 @@
       "neutral": 8,
       "score_sum": -2
     },
-    "concejal-gustavo-farquharson": {
-      "total": 60,
-      "positivo": 3,
-      "negativo": 13,
-      "neutral": 44,
-      "score_sum": -23
-    },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 11,
       "positivo": 0,
@@ -231,20 +245,6 @@
       "negativo": 3,
       "neutral": 28,
       "score_sum": -4
-    },
-    "sen-juan-cruz-cura": {
-      "total": 82,
-      "positivo": 9,
-      "negativo": 6,
-      "neutral": 67,
-      "score_sum": 7
-    },
-    "dip-guillermo-mario-durand-cornejo": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
     },
     "dnac-yolanda-vega": {
       "total": 7,
@@ -808,6 +808,88 @@
     }
   },
   "by_day": {
+    "Thu, 19 Oc": {
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 14 Au": {
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 27 Ma": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 17 Ma": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 17 Ap": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Sun, 17 Au": {
       "snac-flavia-royon": {
         "total": 1,
@@ -5218,16 +5300,6 @@
         "score_sum": -2
       }
     },
-    "Mon, 17 Ma": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Wed, 10 Ju": {
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
@@ -6980,44 +7052,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 17 Ap": {
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-ines-bennassar": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Tue, 28 Ju": {
       "concejal-angel-ortiz": {
         "total": 1,
@@ -8258,20 +8292,6 @@
     },
     "Thu, 05 Fe": {
       "dip-lino-fernando-yonar": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Mon, 27 Ma": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-del-socorro-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
       }
@@ -12938,19 +12958,19 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 36
+      "count": 39
     },
     {
       "term": "sáenz",
-      "count": 25
+      "count": 26
     },
     {
       "term": "gustavo",
-      "count": 12
+      "count": 13
     },
     {
       "term": "milei",
-      "count": 11
+      "count": 12
     },
     {
       "term": "parís",
@@ -12973,6 +12993,10 @@
       "count": 7
     },
     {
+      "term": "pasa",
+      "count": 6
+    },
+    {
       "term": "tribuno",
       "count": 6
     },
@@ -12989,11 +13013,7 @@
       "count": 6
     },
     {
-      "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "diputados",
+      "term": "agustina",
       "count": 5
     }
   ],

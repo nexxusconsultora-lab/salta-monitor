@@ -230,7 +230,7 @@
       },
       {
         "term": "milei",
-        "count": 14
+        "count": 13
       },
       {
         "term": "inversiones",
@@ -241,11 +241,11 @@
         "count": 5
       },
       {
-        "term": "gobernadores",
+        "term": "pasa",
         "count": 5
       },
       {
-        "term": "pasa",
+        "term": "reunió",
         "count": 5
       }
     ],
@@ -6082,13 +6082,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 82,
+    "total_mentions": 83,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 6,
-      "neutral": 67
+      "neutral": 68
     },
     "sentiment_by_day": {
+      "Fri, 17 Ap": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 01 Oc": {
         "total": 1,
         "score_sum": 1
@@ -6370,7 +6374,24 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "juan",
+        "count": 2
+      },
+      {
+        "term": "cruz",
+        "count": 2
+      },
+      {
+        "term": "curá",
+        "count": 2
+      },
+      {
+        "term": "salud",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "El análisis del Fondo de Reparación debería estar a cargo de legisladores de departamentos afectados",
@@ -6465,6 +6486,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El senador Juan Cruz Curá profundiza el trabajo territorial con operativos de salud en Aguas Blancas - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYzRGeFktMWo1M2ROSWc3aElrU2FvUnoxZlNfZzcxTkxld0NqN0FsUF9NX2JjeE1nSHdJOHVCSjVsMHB2ZHBWT3g5NHVFZEhkeWJVaXlya096MEV6S3NVd2lNbVlSbEpIclZpMlZabXY3d2U0NzRYWlBMbXIwaFMyUEMtUHZkTUg0RzM5enJ4b29sQ1YyV05ZTWpTNDRQVl9YaFg1X2R4bmpJQW5BTUNpQXF1VzVUTXB1MS1HRURNbGN5cXFDamRtY09mSkVQY3NyLTdudFZsdlVBdjN4OU41WA?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 17 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Orán inaugura una nueva etapa institucional con la jura de la nueva carta municipal",
         "link": "https://informatesalta.com.ar/interior/oran-inaugura-una-nueva-etapa-institucional-con-la-jura-de-la-nueva-carta-municipal_a6abec71b06fa52caf46bc495",
@@ -6666,13 +6694,6 @@
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2c2N0R4OXdMc0tVNkVJZXdLVEtabkFxRDFzNEJsbDNMMWV1MmhLTGRHOTVNUHU2M21XUXNIVHN6UUVLY1FySk5uRmVaYnZzMnhjNFJJcUtRT0hsekxibDVueGdZb3RPZnBEaGFRNDVQVjdmcGxmZldlc1ZSdGRtUFVHLTd4Vk5ydS1taTAzZWN1aHpGd0xpVWpRRHZ0VHVGNU9lSkNfMFRXYlhz0gGsAUFVX3lxTFBTZzY3RHg5d0xzS1U2RUlld0tUS1puQXFEMXM0QmxsM0wxZXUyaEtMZEc5NU1QdTYzbVdRc0hUc3pRRUtjUXJKTm5GZVpidnMyeGM0UklxS1FPSGx6TGJsNW54Z1lvdE9mcERoYVE0NVBWN2ZwbGZmV2VzVlJ0ZG1QVUctN3hWTnJ1LW1pMDNlY3VoekZ3TGlValFEdnRUdUY1T2VKQ18wVFdiWHM?oc=5",
         "source": "Que Pasa Salta",
         "date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Solicitan informe por la presunta contaminación en la zona del Tabacal - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONVNDOFRWR2Y5bWpvZzRlQzRGanFUTzY5OEpxWTRDbF96UElrSXRLTlZJWlkxbHhiUWZyNkcwV3YtSGFNdlNqdFhrZ3A4VkhBQ19oaWY4VlFxZlRkNkJMMmZKRGk5RTZlSzJQb3ZFUFpjUXFWT2ZMUDdCaVZ0VGxJZlVmYTdrZGRDcVVKRkxMZXhZNHFDS2xYTTNCZ3RmYUFCdjh2c2lUVDE?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Fri, 23 Aug 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -13521,15 +13542,11 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "orozco",
-        "count": 4
-      },
-      {
-        "term": "contra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -14049,13 +14066,21 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 46,
+    "total_mentions": 48,
     "sentiment_breakdown": {
-      "positivo": 3,
-      "negativo": 7,
+      "positivo": 4,
+      "negativo": 8,
       "neutral": 36
     },
     "sentiment_by_day": {
+      "Mon, 27 Ma": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "Mon, 17 Ma": {
+        "total": 2,
+        "score_sum": -4
+      },
       "Sat, 10 Se": {
         "total": 1,
         "score_sum": 0
@@ -14119,10 +14144,6 @@
       "Thu, 28 Au": {
         "total": 1,
         "score_sum": 0
-      },
-      "Mon, 17 Ma": {
-        "total": 1,
-        "score_sum": -2
       },
       "Wed, 10 Ju": {
         "total": 1,
@@ -14220,15 +14241,23 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 7
+        "count": 9
       },
       {
         "term": "álvarez",
-        "count": 6
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 7
+      },
+      {
+        "term": "opositora",
+        "count": 2
+      },
+      {
+        "term": "pasa",
+        "count": 2
       },
       {
         "term": "nueva",
@@ -14240,6 +14269,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "gran ejemplo",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkNmeFdQZmZkalNiUHRtWC1KUVoyUlFWMkN3ckRkN1B3Z1ZyMVJhUjJoc2VhTVc3UWo1QzJXVHRoajB5eHBjWDZmOXk1V3paQS1JRTJIbG9ESnhsV2lYQlBsTHZUbWxTZVlkazd2M3R1MzRiSnVaNHBMcVVla2lXTndEOEpXVGxxaksyVXRxenpHMk1Sckt5R1l3ZnpDRFFVWFlzd0lmM0xWMWVGczJIV3dzRUVEbWlrLVlZ?oc=5",
+        "date": "Mon, 27 Mar 2023 07:00:00 GMT"
+      },
       {
         "quote": "Mejor política",
         "source": "Elintra.com.ar",
@@ -14315,6 +14350,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Agustina Álvarez celebró la decisión de Mauricio Macri y dijo que es un “gran ejemplo” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkNmeFdQZmZkalNiUHRtWC1KUVoyUlFWMkN3ckRkN1B3Z1ZyMVJhUjJoc2VhTVc3UWo1QzJXVHRoajB5eHBjWDZmOXk1V3paQS1JRTJIbG9ESnhsV2lYQlBsTHZUbWxTZVlkazd2M3R1MzRiSnVaNHBMcVVla2lXTndEOEpXVGxxaksyVXRxenpHMk1Sckt5R1l3ZnpDRFFVWFlzd0lmM0xWMWVGczJIV3dzRUVEbWlrLVlZ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 27 Mar 2023 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Agustina Álvarez criticó a La Libertad Avanza por no querer crear una alianza opositora en Salta - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObVo4cjAzb2Y0N0JteWsta3ZwTGFEU3JrOXpUQlM3NGJPQ0JSYURmSzBYZGdNaUl4ZHdhMm5mTEEtbHQwTXRwQ3VOcjJGRy04Z3hjNEJkRWpzZDFWR2VHUkY1SGdNTDZSSWJ3SjZNZWZ2MkZwdVBHYVdXaW42M2VyVDNUSjQ2YTc5RF9Gb3FxcVowNi1SS191Wkptdi1rQ0xlRW9YV2NSNklPcmlFUWxDVlQ2QTJqN3JaZFM2ZElNTnRTWXFBd3NEYjdWX0xqMXFhQ01BUA?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 17 Mar 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Agustina Álvarez prefiere a las mujeres: “Mejor política” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ0pEVWpkRmo3bHBQQnllbE8teDVEMWlpSUxWV21MZ25pMDZtaXptWUxGbVVuUlVNemVzbmxYOHo1czBHTFlyU1VEaUthY0pmRzQ4TERmMnV1TnIzMEtTX1JrWnl1RkZDRDFQdmxLWlVaUzgzNU9NTU11WTJjN21rVnUyVmZLd0V2MnRZSmZWdDFteTQ?oc=5",
@@ -14510,20 +14559,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 25 Oct 2022 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Agustina Álvarez aseguró que ahora es libertaria por “coherencia” - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXpNT1M2QmtwRHZLbVd4RmoyNHVCSzZIX0ZvU2VkMHhGQlRCYWJDZnJ5SHpXaEc5aXB5UmFFaGNpVGxqemlsWGF4VFgtZ1oxVzJvQU8yS1kydGIyelc5aW5Ha3JDeXFYdERySXdvZW1mdmxKeFlwUUJ6eWoyaFZ2dkZ2UUdXUV80T1RCYmJPekVKMTZQTERzTXN2c1NtTlJYVWxudzZpcjJlNXZsOC1RUzNDZFhJbVFuWFFFRVNIUHEzWV9CcGVvbF930gHYAUFVX3lxTE5OblhsTDg3N3R5T3hqVUdSam9EeVJtU1VDY3RicENpWXk3Z1BQay1Ec2I1SmpNaFN3QXZ2c0gxeGFnMFpHay1oNmdBV29vYndNQ0IwVFVPZFNtUVFCMG9NR3drelh4eTU3TDZpc2lwY3N4WmJqV1ZnNDNzRHlnaFczVWZaWEpSMURsY2Y5YU1qVmhpdEFkX1l0MzdOTGhaTDRnVGs1ampINmtIQVhMVnVUNURRYVZhaVVZU1RiSXVhWFlxMGwtNW1icTRfMDdpalp0QWNuOHpnYw?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 06 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -15180,13 +15215,17 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 60,
+    "total_mentions": 61,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 13,
-      "neutral": 44
+      "neutral": 45
     },
     "sentiment_by_day": {
+      "Wed, 14 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 06 Au": {
         "total": 1,
         "score_sum": 0
@@ -15411,11 +15450,15 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "farquharson",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "elintra",
+        "count": 2
       }
     ],
     "quotes": [
@@ -15537,6 +15580,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Farquharson anticipó que Emiliano Durand y el gobernador Sáenz podrían buscar la reelección - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMGdOdjhkQTZ3eEk0Q0JEZzNBeUdfTzlhZGxUWEl3czlxSV8xNThuOVlxa2lEaEdOS0xveXM4OWw0b2JjeFR5eDBrS2VBaXdjc2wxTzI5ZmM5a1NNUnZJN3ZxSVQxRURXWEh3SjBzUVRSNDJmYms3SDlFeG9FSThfMWRrckZtMWF3YUJQWExUZmxaYlYtY2RvOHJlWVQtQ2F6dWJSZThUdk5sZ0xpZnVic3Q2bC1HN3gyTWVoZ2NMWFliYTlTMjdQOUNFZnFzOG8?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 14 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Salta está en riesgo\": fuerte advertencia de Gustavo Farquharson por el debate de tierras - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM1VxbzlVd2JJb2t1aklhWWdCYnNRbFV1VmtYTVgzWWxjUVlsbUd4NHQ4d3FPXzVrblhJb1czT2lob2ZWX0YtNkUwU05fRF9RZUtmOWVnRzBLN213RnJSa0lzWDVQNTBfeXVwUWhKNUVoTlpfT1kxVzhfLU5rVS1Gd1phSmRFSU1EZzBFLVRIMGJpU0k4V1A3ZE92NGRGdmc?oc=5",
@@ -15739,13 +15789,6 @@
         "source": "eltribuno.com",
         "date": "Mon, 01 Dec 2025 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "\"Hay colegios que buscan imponer requerimientos que a veces no son legales\" - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVUs3eWI1Y0gtdjJfdXlTa3MwdHYtRHFNVnF6X2U3VXFUVVdVMEJEamxNY2V0Vkx1QmVTaTNkRGNzZmRZRnlSTHB5bjhxd3ZFX2VlVUhueEhNVDVSX0lCYnE5MjF1cHJ2M3Bfb2VwbldqaF9xaEZfNEV0N05DZEgwSHZPTjhiN3lmN0NBQXFkLWdYVGdrN1l1UVdpYWxQYXZwY1k2anlrNGpxU1lERGViRkVZWldtc1g1cDh3bVZGcjdkLUdSQmpWWTRKWllUZzFaTjdIYWNNWdIB5gFBVV95cUxQbHp1MDNIQllTUlBlSGROc3prTjV3QXBzODdiU2FfU0JlWlJYM3U0dms5RUVRNnMzWlA5VlN2M2tkMzZ5TnFEY0pody1Sd3RmUmRSRlJWWEFqamFiVzRkUHdjNHhRU2NjVXR0dDNYOHdBX05iV1RRT05laFdWS213SG55czdFbm9vS2VlRWZ3aFNfNG5uLXlpWnBzMk1JMWRKMXZfd0xzc0tLNkVlZ0pEWTZlczd5WWdjT1MwM1hqRFF4bzlDMldnNFhScjNUSDliZWxMbjRYVV93R0QwakFMUzdHSHgyQQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 17 Feb 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -21166,18 +21209,14 @@
     "top_topics": [
       {
         "term": "bruno",
-        "count": 4
-      },
-      {
-        "term": "eliana",
         "count": 3
       },
       {
-        "term": "conducción",
+        "term": "eliana",
         "count": 2
       },
       {
-        "term": "diputados",
+        "term": "conducción",
         "count": 2
       }
     ],
@@ -22623,13 +22662,17 @@
     "id": "dip-guillermo-mario-durand-cornejo",
     "name": "Guillermo Mario Durand Cornejo",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 4,
+    "total_mentions": 5,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 4
+      "neutral": 5
     },
     "sentiment_by_day": {
+      "Thu, 19 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 29 Ju": {
         "total": 1,
         "score_sum": 0
@@ -22647,8 +22690,31 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "guillermo",
+        "count": 2
+      },
+      {
+        "term": "durand",
+        "count": 2
+      },
+      {
+        "term": "cornejo",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Si gana se abre una esperanza para el futuro con oxígeno",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMWNVaEN2SWlyU3VsVFVjMF9tcG1mbnVNQVNUTHJ0TGJoYTdOZ2pKeFp0bEo3OG5RYm5CNnJZSDlOTTE4TzlOZkw0Uk1SV3N0WmxIcmJGVHZqR0FJeWhITy1qZHlRdmVFWWVuM0puVXBxNmhzcURQZDZLMlB4LXcyMklhOGFzdEtxR09ldlRmNjhLak1aaFV0ZGVlT2RoRmIxQlYzczB1Q2ZzRTdzYUhyczNrWGVsOWQ5N3lDQWZyY2VOd1R4RlpabVlIM1pfbzY5SXBrM0JJQmtXa0NidEl5aEUwWE0?oc=5",
+        "date": "Thu, 19 Oct 2023 07:00:00 GMT"
+      },
       {
         "quote": "inconstitucional",
         "source": "Elintra.com.ar",
@@ -22664,6 +22730,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Guillermo Durand Cornejo anunció que votará a Javier Milei: “Si gana se abre una esperanza para el futuro con oxígeno” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMWNVaEN2SWlyU3VsVFVjMF9tcG1mbnVNQVNUTHJ0TGJoYTdOZ2pKeFp0bEo3OG5RYm5CNnJZSDlOTTE4TzlOZkw0Uk1SV3N0WmxIcmJGVHZqR0FJeWhITy1qZHlRdmVFWWVuM0puVXBxNmhzcURQZDZLMlB4LXcyMklhOGFzdEtxR09ldlRmNjhLak1aaFV0ZGVlT2RoRmIxQlYzczB1Q2ZzRTdzYUhyczNrWGVsOWQ5N3lDQWZyY2VOd1R4RlpabVlIM1pfbzY5SXBrM0JJQmtXa0NidEl5aEUwWE0?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 19 Oct 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Guillermo Durand Cornejo apoya la eliminación de las PASO: «es una fortuna obscena que se gasta» - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZlVMZDNYRjJYM1ZoTjRfX3NTTjNtWEp3SWp4T3ExODJ4aUdZQk5NN19LWkFEWlh2b2xKTG1JdEpmTkFucWpMOW11dmlaX2ZwRUgzdk5SUE9uV0EyUl82YkF2eWUwWVdRVW5PQnQ0M2pnbld2bFlzRVRZUnlNd3lNSXo4UU5scEk2OGNGdm1aT25zWnl6Q09oSm9KY1NVdHJxemo3a0xBM3E1QTRvVU56Z0lzNjJ2TDRCckc2VUtUc2tOMWJjendR?oc=5",
@@ -22785,15 +22858,15 @@
     "top_topics": [
       {
         "term": "juan",
-        "count": 3
+        "count": 2
       },
       {
         "term": "josé",
-        "count": 3
+        "count": 2
       },
       {
         "term": "esteban",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
