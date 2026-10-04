@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 204,
+    "total_mentions": 205,
     "sentiment_breakdown": {
-      "positivo": 33,
+      "positivo": 34,
       "negativo": 22,
       "neutral": 149
     },
     "sentiment_by_day": {
+      "Sun, 04 Oc": {
+        "total": 1,
+        "score_sum": 1
+      },
       "Sat, 03 Oc": {
         "total": 6,
         "score_sum": 19
@@ -218,34 +222,34 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 37
+        "count": 38
+      },
+      {
+        "term": "parís",
+        "count": 16
       },
       {
         "term": "gustavo",
         "count": 16
       },
       {
-        "term": "parís",
-        "count": 15
-      },
-      {
         "term": "milei",
         "count": 13
+      },
+      {
+        "term": "reunió",
+        "count": 6
       },
       {
         "term": "inversiones",
         "count": 6
       },
       {
+        "term": "bouvier",
+        "count": 5
+      },
+      {
         "term": "millones",
-        "count": 5
-      },
-      {
-        "term": "pasa",
-        "count": 5
-      },
-      {
-        "term": "reunió",
         "count": 5
       }
     ],
@@ -343,6 +347,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz se reunió en París con el padre de Cassandre Bouvier y ratificó el compromiso de Salta en el caso",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-se-reunio-en-paris-con-el-padre-de-cassandre-bouvier-y-ratifico-el-compromiso-de-salta-en-el-caso_a6ac2515e62f627d4007beadd",
+        "source": "Informate Salta",
+        "date": "Sun, 04 Oct 2026 14:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Eramet proyecta una nueva inversión de USD 350 millones para ampliar su producción de litio en Salta",
         "link": "https://informatesalta.com.ar/mineria/eramet-proyecta-una-nueva-inversion-de-usd-350-millones-para-ampliar-su-produccion-de-litio-en-salta_a6ac1323da3877da2f21c3818",
@@ -545,13 +556,6 @@
         "source": "El Tribuno - Política",
         "date": "Thu, 01 Oct 2026 13:26:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Javier Milei busca acuerdos en París y Gustavo Sáenz está presente en la comitiva - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55NUFrUjdaMzZSQ1ItM3BIbFROd0N5bVNRV3E3SUdvRjh2aGNVZWUtaHlhZDVRTzBfWk9ENl9tcVBpOFdZV3lIREdpQnNWZEJMSFF2cjIwQVNLMm1kRl9Xa0ZDcDVWOVNMYkZIei1R?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 30 Sep 2026 20:06:18 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -13108,13 +13112,17 @@
     "id": "dip-patricia-del-carmen-hucena",
     "name": "Patricia del Carmen Hucena",
     "role": "Diputado/a provincial por Orán",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "Wed, 23 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 15 No": {
         "total": 1,
         "score_sum": 0
@@ -13140,10 +13148,30 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "patricia",
+        "count": 2
+      },
+      {
+        "term": "hucena",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Patricia Hucena pide que planifique de mejor manera los cortes de luz en el próximo verano - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckNqeU1Zb05yd3VoeDhVOEFiaHBQNjNWTmxEN3ZxZVZ1R2pfMDdaMlBiZFlrRXhBaW5PQ1pLaXRwQnFLeFB3d29HZWFVU2VlM3lIVjVESGkwRG1pT1ZnQk9MOHZTUXhERWVYc0sxdEszcnhFejZlM2FxOTh6NnlLX1RyNFF2SUpmckVJWmwxaGJSMDRqeXFISXNjVHJsandsYXpUNGJrY0FVWFdvVU5FQmNQYnR1ZFpIakRMWjlUYm9EblE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Patricia Hucena no ocultó su felicidad por el cambio de la UNSa a Facultad en Oran - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVc5aVc1WTdCSlNvWjQ2cklNYm1fWmQtMEZPZTNVamhXTmlEZWhRc2twRE1WcGZ5YnZWVmlWeGJSYUk2UlI3dGYyVWx6M1lxclZ6ZDhBVVl3ay1SeUVOdUdBd3Nrb1VEanljTHJlSl9FdmdXRkdpLVhkMFhoNVBVOU9aUUNyd211VkRDUllBV0l2QUk3cVNVZVN1djY0MlRNcE5vVzVXWWwzWHdNblRSZG0tZUowTGFE?oc=5",
@@ -14120,13 +14148,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 49,
+    "total_mentions": 50,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 8,
-      "neutral": 37
+      "neutral": 38
     },
     "sentiment_by_day": {
+      "Tue, 01 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 07 Ma": {
         "total": 2,
         "score_sum": 0
@@ -14295,11 +14327,11 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 10
+        "count": 11
       },
       {
         "term": "álvarez",
-        "count": 9
+        "count": 10
       },
       {
         "term": "elintra",
@@ -14408,6 +14440,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Agustina Álvarez manifestó su intención de liderar el PRO Salta - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSG8tVzhHb214bVhFNHFqQ3d1SzVpQ3QyUU1RWHA2cUNJNWFsYUFZN085OGRsUEsyc1NuWlpFTGpIcDdONWlxSW5FWThFbTZHUmVZb1cwak1KTWd1TDhKSUlrT2I2UmZRQVBTVVVWQS1UaWRfUHRBYVBySS03Q1I4djVOd0wyR3Z5SXAwQlU4WUNBUEI4eEJJMzJHODN1ektIMnFUd0JfenkycTDSAaMBQVVfeXFMTjBSdEJ5ZEt1Njg1ZEZwMms0aHk5SlpoeXhuOW96dGY2TEpQdGdURl9FLUU0T3Z6b0czcktQTmdvYXhrRWp0bXVpUWpXRWNnZEdBV0x1THhpcHNMdTZ3S1NkOVdncjIyYlVQbTdLc1I1dnVqaWt4cnlJMDJ0azNMYmF3VU5YUjVXMHNGQXRGX1FJMzRzNExCdFVoQUVKclRiVlh4Yw?oc=5",
+        "source": "Aries On Line",
+        "date": "Tue, 01 Jul 2025 23:19:21 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Concejal Agustina Álvarez dejó el PRO y se sumó a La Libertad Avanza en Salta - Expresión del Sur",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlhPRG95bHBoS0pCTkNQNE16SHlUOURocmN4R1M2M0c5YUtWRjRhYlhEa3dvc3NmcmYzQmR2SVV2cmhkWkdMNHc1MVIxMEVDZmlWRDRYVk9rcWxNdHBheHR2T3cxMWs5YkotRl9LY0Z1MU5PV1J2U2NXUy1VV1BNemJuSjJ1VTRWYU1DRDRsOUh5cXUzc2pNdDR1TlV5aDExZ1FhZnBfdFgtTzh5TXo2NURaLXdqbTlxYTNYVW1haFM5QQ?oc=5",
@@ -14609,13 +14648,6 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVzhTODc1eDFYREl2ek5kbzFSSHlhQzNYYVZ0YnBvUGY0djIyQXZJR2ZZUXpfMGh1T3Q2R3dvRVdIZEZRUjRuSXJWOG1yb3R3T21jRXA1TzdtbzJDR3d4cFg2VUxFU2Y0eE95bWNvMTdRZF9UdzYtdG5MOEl6UGtrc3dMam1xZmJ3aXloOHhKdF92VDZ6YTEtUmJhTTQwREdWeERPa2c0SVFFT1lwQkNNWHJYdEt3aFVhNFFXQ1ZUTGw0UkFIbjE2Ql9jZkZGOG8?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 25 Oct 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Agustina Álvarez en primera fila para aplaudir a Martin Tetaz - - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGZUVTZFVWJncmMxN0I1cjNtUGJXOHlBcDNkbmpuUTFBVTNPaVB0TEFqS2Y5MkR6c19YSEUtelA0MjNzemwzd2drWmRROVhVX0FxYnB5RU8zdGc1b3F2YzJuMWtpaVVxNkJkMW1jLVZ3cEk4ekQ1T3gtdHowOFR2TEJXM0piWEdXd3JQQndLR3NIdVRvTnZXVnhXQkg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 17 Dec 2022 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -17741,13 +17773,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 11,
+      "negativo": 12,
       "neutral": 12
     },
     "sentiment_by_day": {
+      "Fri, 28 Au": {
+        "total": 1,
+        "score_sum": -6
+      },
       "Wed, 23 Ju": {
         "total": 1,
         "score_sum": -2
@@ -17809,8 +17845,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "pablo",
+        "count": 2
+      },
+      {
+        "term": "lópez",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Sigue imputado y en investigación",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NWcW5oTzR4bUtzR19CemJ2ZlFUZWVnaFoxdnhKRjQ4Z19rNi1OV0dSTHkxbmJjWEM4UVJXR0swMVQ5Zm9hWW45SlJaaUR6R21BOHpyZ05LVEhnMkVES3hCaFNzdjVFaE83X2I5a2tMRGRZSS1GY0pqYmxDRTdIdWtaWEFiNUd4THF3bmt6U0ZfbFZiZHg0SGJZLW95blc5U2JWWk5TZmZfSkJHSnFaQnhfZUhKbGI1TnlCVEljQmF5VnF3VDJNS3ZBVnBVNVA2RjhYcndYUHRaRXZ5RFNfY2hKZlhkTkRpZjVKdGdDNERqRmtMQkd2M9IBhwJBVV95cUxPNTBHc3J1Y3plQlV3ckVrSTFIS2E1THBwWE5UUi1aaHVJSHBQWVhMc0RZQ2NSSFh6OHpsVmtnb0JMUG5EMkx6dTRSeUZzWndWRGVOaDJsNGtXT3UySnh4X2J4WFZMYVNZU2x2QVZINGl2WU1vV0NGa0xmNVRWQ2RyYWFJNGpoQm5KWXhBYzNnYjZtcHVJejlzaXhKSWgtSTJ3TGF6UzRYWDJFMXJZcVVHcENMYURub2ItcDFTRWhEYWZlR2hkQ1lLMTQwQjZGcXB3aGZ5bkF0Q0xKcngzZEZ0Y25qNzl5S1RwTi1mVlVIazhDR2VfYkdtSHMxTVQ2MWJOMzNIdlQzYw?oc=5",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "No se debe aceptar su renuncia",
         "source": "El Tribuno",
@@ -17838,6 +17889,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "¿Archivaron la causa contra Pablo López? La denunciante lo negó: “Sigue imputado y en investigación” - Informate Salta",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NWcW5oTzR4bUtzR19CemJ2ZlFUZWVnaFoxdnhKRjQ4Z19rNi1OV0dSTHkxbmJjWEM4UVJXR0swMVQ5Zm9hWW45SlJaaUR6R21BOHpyZ05LVEhnMkVES3hCaFNzdjVFaE83X2I5a2tMRGRZSS1GY0pqYmxDRTdIdWtaWEFiNUd4THF3bmt6U0ZfbFZiZHg0SGJZLW95blc5U2JWWk5TZmZfSkJHSnFaQnhfZUhKbGI1TnlCVEljQmF5VnF3VDJNS3ZBVnBVNVA2RjhYcndYUHRaRXZ5RFNfY2hKZlhkTkRpZjVKdGdDNERqRmtMQkd2M9IBhwJBVV95cUxPNTBHc3J1Y3plQlV3ckVrSTFIS2E1THBwWE5UUi1aaHVJSHBQWVhMc0RZQ2NSSFh6OHpsVmtnb0JMUG5EMkx6dTRSeUZzWndWRGVOaDJsNGtXT3UySnh4X2J4WFZMYVNZU2x2QVZINGl2WU1vV0NGa0xmNVRWQ2RyYWFJNGpoQm5KWXhBYzNnYjZtcHVJejlzaXhKSWgtSTJ3TGF6UzRYWDJFMXJZcVVHcENMYURub2ItcDFTRWhEYWZlR2hkQ1lLMTQwQjZGcXB3aGZ5bkF0Q0xKcngzZEZ0Y25qNzl5S1RwTi1mVlVIazhDR2VfYkdtSHMxTVQ2MWJOMzNIdlQzYw?oc=5",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT"
+      },
+      {
         "title": "VIDEO. Rechazaron la renuncia del concejal Pablo López y abrirán una comisión de juicio político - El Tribuno",
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX01jVlhQdTh2eU1TblBibGYxcFJqcHFPUF9YTjAwNUtXQWZJelpMbDBzU1VrczNsbFBNcmV5TUY5YXNxbnlpRHhkMjhWMlNVLU9xMlR3QmFXSGxSa3NhWGJnMTVSckFsbWh2WVp6NUdLRS1hd1FMTmx2TGs1aVBWTTU5Y2QwYk1ydEVSckZCSXI4SHJLeUZiUUtSUmtfa0JPclZGYmdMQ1VnS25CaVB6cDFUTUVhR25PWUJrQ1NmR1lhQdIBxwFBVV95cUxObGpWdGtxUDJsaUZOM0VlN21wcVZqQWV0V0J2emZ4ZEZKTVQ3dkVBLVA1MVpVSDFScFlPRk5Qa3Q0aU1DcjdoUmt5WGZwU3lzYjJvZnRMaDRyZXMzYlhtdXFXWTFfbHQ3STd3a2dCazM0S0hZLUh3ZlY2UFd1ZmpqLVAxY1F2S3dfMnVBbDBqNzRLUmNpV3UzbkpvOUc3dmRCWmdWazJacnhRNElUUkgtMmtLWVNJclg5R2ExTGFFMEhjV0hNOFkw?oc=5",
@@ -17863,6 +17920,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Archivaron la causa contra Pablo López? La denunciante lo negó: “Sigue imputado y en investigación” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NWcW5oTzR4bUtzR19CemJ2ZlFUZWVnaFoxdnhKRjQ4Z19rNi1OV0dSTHkxbmJjWEM4UVJXR0swMVQ5Zm9hWW45SlJaaUR6R21BOHpyZ05LVEhnMkVES3hCaFNzdjVFaE83X2I5a2tMRGRZSS1GY0pqYmxDRTdIdWtaWEFiNUd4THF3bmt6U0ZfbFZiZHg0SGJZLW95blc5U2JWWk5TZmZfSkJHSnFaQnhfZUhKbGI1TnlCVEljQmF5VnF3VDJNS3ZBVnBVNVA2RjhYcndYUHRaRXZ5RFNfY2hKZlhkTkRpZjVKdGdDNERqRmtMQkd2M9IBhwJBVV95cUxPNTBHc3J1Y3plQlV3ckVrSTFIS2E1THBwWE5UUi1aaHVJSHBQWVhMc0RZQ2NSSFh6OHpsVmtnb0JMUG5EMkx6dTRSeUZzWndWRGVOaDJsNGtXT3UySnh4X2J4WFZMYVNZU2x2QVZINGl2WU1vV0NGa0xmNVRWQ2RyYWFJNGpoQm5KWXhBYzNnYjZtcHVJejlzaXhKSWgtSTJ3TGF6UzRYWDJFMXJZcVVHcENMYURub2ItcDFTRWhEYWZlR2hkQ1lLMTQwQjZGcXB3aGZ5bkF0Q0xKcngzZEZ0Y25qNzl5S1RwTi1mVlVIazhDR2VfYkdtSHMxTVQ2MWJOMzNIdlQzYw?oc=5",
+        "source": "Informate Salta",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "VIDEO. Rechazaron la renuncia del concejal Pablo López y abrirán una comisión de juicio político - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX01jVlhQdTh2eU1TblBibGYxcFJqcHFPUF9YTjAwNUtXQWZJelpMbDBzU1VrczNsbFBNcmV5TUY5YXNxbnlpRHhkMjhWMlNVLU9xMlR3QmFXSGxSa3NhWGJnMTVSckFsbWh2WVp6NUdLRS1hd1FMTmx2TGs1aVBWTTU5Y2QwYk1ydEVSckZCSXI4SHJLeUZiUUtSUmtfa0JPclZGYmdMQ1VnS25CaVB6cDFUTUVhR25PWUJrQ1NmR1lhQdIBxwFBVV95cUxObGpWdGtxUDJsaUZOM0VlN21wcVZqQWV0V0J2emZ4ZEZKTVQ3dkVBLVA1MVpVSDFScFlPRk5Qa3Q0aU1DcjdoUmt5WGZwU3lzYjJvZnRMaDRyZXMzYlhtdXFXWTFfbHQ3STd3a2dCazM0S0hZLUh3ZlY2UFd1ZmpqLVAxY1F2S3dfMnVBbDBqNzRLUmNpV3UzbkpvOUc3dmRCWmdWazJacnhRNElUUkgtMmtLWVNJclg5R2ExTGFFMEhjV0hNOFkw?oc=5",
@@ -19856,13 +19920,21 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 54,
+    "total_mentions": 56,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 5,
-      "neutral": 43
+      "negativo": 6,
+      "neutral": 44
     },
     "sentiment_by_day": {
+      "Wed, 06 Ma": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Wed, 26 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Sun, 17 Au": {
         "total": 1,
         "score_sum": 0
@@ -20063,30 +20135,34 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 16
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 16
       },
       {
         "term": "elintra",
-        "count": 8
+        "count": 9
       },
       {
-        "term": "tribuno",
-        "count": 4
-      },
-      {
-        "term": "salteña",
-        "count": 2
+        "term": "nación",
+        "count": 3
       },
       {
         "term": "senado",
+        "count": 3
+      },
+      {
+        "term": "tribuno",
+        "count": 3
+      },
+      {
+        "term": "fondos",
         "count": 2
       },
       {
-        "term": "ingenio",
+        "term": "salteña",
         "count": 2
       }
     ],
@@ -20197,6 +20273,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "«Hay fondos, pero no obras»: el reclamo directo de Flavia Royón a Nación - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2lfOHhyaGJTNmkyQnZFY2pxbjA2c0dTN2J4c3hlNHlvOERVMTM5aXhzc1FHRmZfMENDR2VQSWprUDZSMkw3MGJoZ3VuQjVKZjNoeVVTQVViSjU4MllvblE4ejFvOEpQM3Z6N0FGTmhvOVFnc0Z4UHdiY0JULUVjQnUxNkxCYXlhbzBqY3R6cXkyWEVsUEhZeURBYV9kTGE2aXN3UXBR?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 06 May 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Flavia Royón presidirá la Comisión de Minería del Senado de la Nación - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMko2U3lJZ2J5ZVA3bldna1BUdm9kWEl6Q2pZT1BIUS00cjlBZl9JWTVxamVrRmF2cy1TTnExM09USUhRNENBdmxFTnZLdk5KUERBN2pMSkx2dWRqQ2tFVUhoNm5NVHlOclZxMlJvZUpweENJZGtLSURnSjM0VXNrUEhiX3ZPaWpyWkpuc0FkTThVX0hEcU9NUERVeUVlMlhJNGNFU3dvODd6QUpjS1JpSUduaF9wZWxYSFl3ck1NZlE1WlRZZmNpUVBwQk0xY3NfdzJR0gHiAUFVX3lxTE9DaHhHcjRIT3djdGRLTFdvanlJbVRjNGpQakl3eWxyZkROaDhXaGFkaXQzQ2JTRl8tN3c5U1FDOG9LdXV6amJrbTFxdkRZRWlXc2NrS1Iyd216ajh3d2lyR0x3ZGJZbTJNM0R2ZFRZVnhlVFNjN2Q4VzdJN0dadmVPY003c1ZfY2I2ZVJpN0c2aEhVVGt2bno3WXRCZkd6YjJINmpQclBUajBReS0wWlF2eU42NDFDVXlTMjZTb1hGZk16bmJ6NUpBc0lvS3UtSWw3djhhU05QV2tZSzA2MWVmdlE?oc=5",
+        "source": "Informate Salta",
+        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón y Bernardo Biella son los candidatos del frente \"Primero los Salteños\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZkEyUDVyT3hWc2hxYUhHOHhDbF9ZTFYxWWw1ZVdwRE9UOU9wQ1l4UTFzLXNvRzRlTjBqLU1idVZwWmxIUllaNXdUbExpbU5EZkxRTzNrM3FUbWp2WVpjd21pTXpKYTVuVFBabkF5ZTZvdi1yWVcxY1FZaU1xVnhfSWJQSmtGaHZ1a1lzSTFmMEdjLWU0NzZ6b3lPcE13S25xbEw0bmd4OWF6Y2NfaXI4S0JDa0dxQ21YYUQtSkVIb2hUckw2cXZVT1pB0gHPAUFVX3lxTFBRQldUSWhuUTFTa09GdEs2bEh0MWZvQ19hWS0wcXViblpXcmtjbkZyank1UVJXUWItdl9sUnBLTEo0cmhxenY5WE5FUDBTNGlDU181Y2FCSjlxYW5SR21PNzNGUzRBODVJWmpOZHpvX2xWVXpZd0hCQVlUX1MtTWx3VGdCTXhJVGtNTE90VjVuX0RHa2V4b2V3WnBvZTk4X0EzNW5fbE02eG5VWDlaN2REUkdjanltT3c0Q2FNdmYwMmhxVHhPdFAybVhqTnhlRQ?oc=5",
@@ -20391,20 +20481,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVZBZUZ1SHZjN2VfWnltMmo0djdsbzhvRl9uTnBUcWswNmF5U1hwUkJRZlB2YUNVRjNSVjJFOHpmZ1Q2bmdodXgyZU5iblhwN0Z2QjlQNGR4S283TklyWnV1c2dtM0Y5dGtweW9kZ2xxbmh4VTdiYVI4ZjNJVDM1SmNnal85enJGbFl5WVNUVkFBTGZCNWlKbEZjQW9WYlNWREl5NWEzMVZyclRJMlVYSW5MUDhHeWF2cENReC1HOFdldmpqT1NmQmJpdmdLTGdJ?oc=5",
         "source": "eltribuno.com",
         "date": "Sun, 11 Feb 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Dicen por ahí: recepción esotérica para Juan Manuel Urtubey, Flavia Royón tiene reemplazante, otro político en la TV y adversarios de vacaciones en el Caribe - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQZHBFNk5FZE9GLVFPajdmSkFaTWVibDMwSUpwVnNjaV9YX2xrN3lSUUYxYzktNHpvZ1dfSGhHbFduMU9MWkpHNzVkNHJpYUp0VUhnQVc3OUxSdWdHNXN3SkhSUGRLMzRtSE1tc2pNM3ROVUJfS1NUa2NZNHZBZVBxOHdHZDJaeTB5cmRaRVlvcGdIZ0dQVnZoYkxZbnFlN0I4REhiNjRJY2docFZJVmF1T1FVWlpUM0FfalJIQXg0QjYyZ2FEdm52b3ZFbWdoLVI4ZmpzZVlBdkZKRHowNDh2ZDE5UkpwbVVsYnhaRDNDMmROOURmRi1HaHZDb3cyMUdYRTk1alhqYm9pNnQyU2k4T0VRMGFGXzFs?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 08 Aug 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Más Mileista que nunca: Flavia Royón fue confirmada en el gabinete del presidente - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0R4SHRocEZ2Q2E3TDFkMlVBMVJQdExBUHVzWE5GN3JJTlRMNl80QXN5QkI4Q0VhVGM2b0NWb0ZRQWRTWFVrV08xU3I5TUlLX3VHRHdZOUdRaGVFTldURUxXekFmV1Z6V1NfLUxwZDBpRXMySGlLMkROeEd3LVUzaUN2NVJxaWV5WXh6ZWc4NnZLc3ZuQ01CSm9la3lYTEhEdEJ2eEIxc2l6WHgzaWFqSVRHUFdNQQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 27 Dec 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -22363,14 +22439,10 @@
     "top_topics": [
       {
         "term": "yolanda",
-        "count": 3
+        "count": 2
       },
       {
         "term": "vega",
-        "count": 3
-      },
-      {
-        "term": "tribuno",
         "count": 2
       }
     ],
@@ -22833,13 +22905,17 @@
     "id": "dip-alejandro-jesus-esper",
     "name": "Alejandro Jesús Esper",
     "role": "Diputado/a provincial por Orán",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 2
+      "neutral": 3
     },
     "sentiment_by_day": {
+      "Mon, 24 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Tue, 01 Se": {
         "total": 1,
         "score_sum": 0
@@ -22853,6 +22929,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Cuestionan al hoy libertario Alejandro Esper por su anterior participación en espacios kirchneristas - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzTXRyWldyenpXakc5NFBuSGs0TDc5dFB6eU1jcGZwNkRsWnRxT1Nla0tuUllJWlctOGVaWko1SlA3dkVTdHU3WHNLdVA4TjFqNzVBd2V1YXJnRjg3a0E?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El diputado Alejandro Esper comparó la caña del norte salteño con Vaca Muerta ¿Demagogia o ignorancia? - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ubWhOdlFuRG9YX3g2NjRZSTVQZzhibmVYbTBhSWFnVjhTNmNOeUljajVwWDVQNlhNbGJjemhfZklhdmd5aXJEa2pPM2gxdzdyUl96TXRwUHY5c0M0NDVpcGc2RkRDWlk0eWc?oc=5",
