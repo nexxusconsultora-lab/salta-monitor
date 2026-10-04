@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-04T16:53:10.380694+00:00",
+  "generated_at": "2026-10-04T19:55:08.938359+00:00",
   "by_politician": {
+    "dip-gaston-guillermo-galindez": {
+      "total": 14,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 14,
+      "score_sum": 0
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 37,
+      "positivo": 4,
+      "negativo": 3,
+      "neutral": 30,
+      "score_sum": 1
+    },
     "dip-alejandro-jesus-esper": {
       "total": 3,
       "positivo": 0,
@@ -134,13 +148,6 @@
       "neutral": 15,
       "score_sum": -6
     },
-    "dip-gaston-guillermo-galindez": {
-      "total": 13,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 13,
-      "score_sum": 0
-    },
     "dnac-carlos-raul-zapata": {
       "total": 22,
       "positivo": 0,
@@ -154,13 +161,6 @@
       "negativo": 2,
       "neutral": 6,
       "score_sum": -6
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 36,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 29,
-      "score_sum": 1
     },
     "dip-guillermo-alejandro-kripper": {
       "total": 9,
@@ -808,6 +808,34 @@
     }
   },
   "by_day": {
+    "Wed, 05 Oc": {
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 19 Au": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Mon, 24 Au": {
       "dip-alejandro-jesus-esper": {
         "total": 1,
@@ -3914,20 +3942,6 @@
         "score_sum": 0
       }
     },
-    "Wed, 05 Oc": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Mon, 07 Ap": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -6746,12 +6760,6 @@
     },
     "Mon, 12 Ap": {
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Wed, 19 Au": {
-      "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
       }
@@ -13022,11 +13030,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 32
+      "count": 34
     },
     {
       "term": "sáenz",
-      "count": 16
+      "count": 17
     },
     {
       "term": "gustavo",
