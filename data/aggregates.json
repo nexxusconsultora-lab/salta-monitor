@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-04T00:11:16.217919+00:00",
+  "generated_at": "2026-10-04T05:57:22.384983+00:00",
   "by_politician": {
+    "dip-laura-deolinda-cartuccia": {
+      "total": 15,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 13,
+      "score_sum": -3
+    },
+    "sen-walter-cruz": {
+      "total": 24,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 20,
+      "score_sum": 2
+    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 5,
       "positivo": 0,
@@ -42,13 +56,6 @@
       "negativo": 6,
       "neutral": 27,
       "score_sum": -14
-    },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 14,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 12,
-      "score_sum": -3
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 40,
@@ -463,13 +470,6 @@
       "neutral": 7,
       "score_sum": 0
     },
-    "sen-walter-cruz": {
-      "total": 23,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 19,
-      "score_sum": 2
-    },
     "dip-luis-gerardo-mendana": {
       "total": 4,
       "positivo": 0,
@@ -808,6 +808,30 @@
     }
   },
   "by_day": {
+    "Wed, 20 No": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 22 Ma": {
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Thu, 19 Oc": {
       "dip-guillermo-mario-durand-cornejo": {
         "total": 1,
@@ -3180,20 +3204,6 @@
         "score_sum": -2
       },
       "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Fri, 22 Ma": {
-      "dnac-maria-gabriela-flores": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dip-guillermo-mario-durand-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
         "total": 1,
         "score_sum": 0
       }
@@ -12958,42 +12968,42 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 39
+      "count": 36
     },
     {
       "term": "sáenz",
-      "count": 26
+      "count": 21
     },
     {
       "term": "gustavo",
-      "count": 13
+      "count": 12
     },
     {
       "term": "milei",
-      "count": 12
+      "count": 10
     },
     {
       "term": "parís",
       "count": 9
     },
     {
-      "term": "flavia",
-      "count": 7
-    },
-    {
-      "term": "royón",
-      "count": 7
-    },
-    {
       "term": "laura",
       "count": 7
     },
     {
-      "term": "informate",
-      "count": 7
+      "term": "cartuccia",
+      "count": 6
     },
     {
       "term": "pasa",
+      "count": 6
+    },
+    {
+      "term": "flavia",
+      "count": 6
+    },
+    {
+      "term": "royón",
       "count": 6
     },
     {
@@ -13001,19 +13011,19 @@
       "count": 6
     },
     {
-      "term": "cartuccia",
-      "count": 6
-    },
-    {
       "term": "millones",
       "count": 6
     },
     {
-      "term": "puede",
+      "term": "informate",
       "count": 6
     },
     {
-      "term": "agustina",
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "diputados",
       "count": 5
     }
   ],
