@@ -7604,13 +7604,17 @@
     "id": "sen-daniel-moreno-ovalle",
     "name": "Daniel Roberto Moreno Ovalle",
     "role": "Senador/a provincial por La Caldera",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 26
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "Wed, 08 Ma": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 02 Oc": {
         "total": 1,
         "score_sum": 0
@@ -7748,6 +7752,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Daniel Moreno - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Wckk2dEU3SHVld2I5VC1fYWZyb0todU16WWxoYVdkSEVkSTM2aWM0eHFyZEJ0c25saml6eU1sSWhwcGcxZ0l0VS1aLUhsU1VzY09vcUhSdw?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 08 May 2024 11:56:49 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La Caldera podría tener en breve una “costanera” y un “parque urbano”",
         "link": "https://informatesalta.com.ar/legislativa/la-caldera-podria-tener-en-breve-una--costanera--y-un--parque-urbano-_a6abfc8b91821be823d98c303",
@@ -13422,13 +13433,21 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 34,
+    "total_mentions": 36,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 6,
-      "neutral": 27
+      "negativo": 7,
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "Fri, 29 Ju": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Thu, 03 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 24 Ju": {
         "total": 1,
         "score_sum": -2
@@ -13557,14 +13576,28 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 3
+        "count": 5
       },
       {
         "term": "orozco",
-        "count": 3
+        "count": 5
+      },
+      {
+        "term": "contra",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "El 10% de la policía salteña es parte del narcotráfico",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUk9EUFU3RW9tc2tobXJQSkkyZndmN2NxY3FvRFdtWGRnTXA1TnkxMUh0T1F5V20weFpnNFFic2JjdWd6UW91dmRMUmkxRWxnendlcWtEQzhBc2xlSHAxWVpaVXE1VE05WVRjSk0wMWdaeF9SMkFzWUlhVXltRVZtaGZvSmNPWEJiVlAzdzd1aGhLbXRQRUo4azEyZ0ZUcFU1ZmVQcHZjMmJVa1E2eXZV0gGvAUFVX3lxTFBST0RQVTdFb21za2htclBKSTJmd2Y3Y3FjcW9EV21YZGdNcDVOeTExSHRPUXlXbTB4Wmc0UWJzYmN1Z3pRb3V2ZExSaTFFbGd6d2Vxa0RDOEFzbGVIcDFZWlpVcTVUTTlZVGNKTTAxZ1p4X1IyQXNZSWFVeW1FVm1oZm9KY09YQmJWUDN3N3VoaEttdFBFSjhrMTJnRlRwVTVmZVBwdmMyYlVrUTZ5dlU?oc=5",
+        "date": "Thu, 03 Oct 2024 07:00:00 GMT"
+      },
       {
         "quote": "y el de otro género",
         "source": "elintra.com.ar",
@@ -13597,6 +13630,12 @@
       }
     ],
     "legal_mentions": [
+      {
+        "title": "Con gravísimas denuncias en su contra, comenzaron a tramitar el desafuero de Gustavo Orozco - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3hGX1pKMm1MT1ptSXYyUlhET3BTYm8zeUI3ZDB4TjktdGRod0hSVW5yWFhRVnlXME5QYk8wSUFabjRlQ2dSZlZ1T1cyMVRGcDU4M1dZRFFGNnBtNHJKUEFfNGFjMThLOE1kbVFwam14ZFgzSGlTUDR5TEZoaVZCS2IzNG4yUFZuM21fOVJuVXN0OWFSZGNpUlNDRUFlNWw3WERya3dCVkd1a1pycmwtancwanNNc2xrTU45bnpaRU02Rzg?oc=5",
+        "date": "Fri, 29 Jul 2022 07:00:00 GMT"
+      },
       {
         "title": "Gustavo Orozco insistió con la creación de una oficina anticorrupción - Elintra.com.ar",
         "source": "Elintra.com.ar",
@@ -13635,6 +13674,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Con gravísimas denuncias en su contra, comenzaron a tramitar el desafuero de Gustavo Orozco - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3hGX1pKMm1MT1ptSXYyUlhET3BTYm8zeUI3ZDB4TjktdGRod0hSVW5yWFhRVnlXME5QYk8wSUFabjRlQ2dSZlZ1T1cyMVRGcDU4M1dZRFFGNnBtNHJKUEFfNGFjMThLOE1kbVFwam14ZFgzSGlTUDR5TEZoaVZCS2IzNG4yUFZuM21fOVJuVXN0OWFSZGNpUlNDRUFlNWw3WERya3dCVkd1a1pycmwtancwanNNc2xrTU45bnpaRU02Rzg?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 29 Jul 2022 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Gustavo Orozco: \"El 10% de la policía salteña es parte del narcotráfico\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUk9EUFU3RW9tc2tobXJQSkkyZndmN2NxY3FvRFdtWGRnTXA1TnkxMUh0T1F5V20weFpnNFFic2JjdWd6UW91dmRMUmkxRWxnendlcWtEQzhBc2xlSHAxWVpaVXE1VE05WVRjSk0wMWdaeF9SMkFzWUlhVXltRVZtaGZvSmNPWEJiVlAzdzd1aGhLbXRQRUo4azEyZ0ZUcFU1ZmVQcHZjMmJVa1E2eXZV0gGvAUFVX3lxTFBST0RQVTdFb21za2htclBKSTJmd2Y3Y3FjcW9EV21YZGdNcDVOeTExSHRPUXlXbTB4Wmc0UWJzYmN1Z3pRb3V2ZExSaTFFbGd6d2Vxa0RDOEFzbGVIcDFZWlpVcTVUTTlZVGNKTTAxZ1p4X1IyQXNZSWFVeW1FVm1oZm9KY09YQmJWUDN3N3VoaEttdFBFSjhrMTJnRlRwVTVmZVBwdmMyYlVrUTZ5dlU?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Thu, 03 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Orozco insistió con la creación de una oficina anticorrupción - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmtkNXVFQXpyVHdJZnBydlBDUm5HSFQ1YXdPOWNFTGs4RVNFZW1GcnRocmxsMXFhWHBXNDZYZ0NyVThaTkMtTi1YWHJ1bENsTlI3OEJXeTBuaXRQS0EyV1dwVk5Rby1TS1B0NGdzMUlTM0hNSENrenRGUGdvSEtyU2I5elVYWGtDNWlTeGRyU3p2NV91NURoQlRKOTBzelNPRmlURUR4SQ?oc=5",
@@ -13830,20 +13883,6 @@
         "source": "Cuarto: Salta a diario",
         "date": "Mon, 02 May 2022 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Se elevó a juicio una causa contra el diputado Orozco y dos policías - Ministerio Público Fiscal de Salta",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZTAtOWZPTWtYVEJCcDNFUk5iSnI2QU5ydTdfaVM0UXgzRHVfVzFlWUJYWi1KbHZsSkREYmZldUtpR1dxR184SlNLanFyVWRYUTBHbl8zWnhhX0RsVHhieHJadl9HYUxXZngwTjNhNEh4TjdDaEdLTlZJcHdONl8xWWxMS0xhRFhzR01TMXhUWXItaDdwblFzRW9QQ3B5VHAtaU5RMERfNA?oc=5",
-        "source": "Ministerio Público Fiscal de Salta",
-        "date": "Fri, 25 Mar 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El amplio prontuario del diputado Gustavo Orozco - Defrentesalta",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV0o1OG5hN2VwdWN4MXhpVEZfU1JwZ1FoNVFlZ1RXTzZpYmxPdGdDWmk1Ynk3U1hfTjUyVGhaUW9vazhzbGY0UjdkTUtHSEVPdjdrMEx6N3paYTRQSWVfOEdMRU1nc09kYnladmRSN1JmcFJQdE9iQVplc0RiOGtPb1ZTcWk4ZXh5dG9NVl9Xc2NIVGRrZUg0?oc=5",
-        "source": "Defrentesalta",
-        "date": "Thu, 14 Apr 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -14081,13 +14120,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 48,
+    "total_mentions": 49,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 8,
-      "neutral": 36
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "Thu, 07 Ma": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Mon, 27 Ma": {
         "total": 1,
         "score_sum": 2
@@ -14204,10 +14247,6 @@
         "total": 2,
         "score_sum": -4
       },
-      "Thu, 07 Ma": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Thu, 28 Ma": {
         "total": 1,
         "score_sum": 0
@@ -14256,15 +14295,23 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 9
+        "count": 10
       },
       {
         "term": "álvarez",
-        "count": 8
+        "count": 9
       },
       {
         "term": "elintra",
         "count": 7
+      },
+      {
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
+        "count": 2
       },
       {
         "term": "opositora",
@@ -14276,10 +14323,6 @@
       },
       {
         "term": "nueva",
-        "count": 2
-      },
-      {
-        "term": "municipio",
         "count": 2
       }
     ],
@@ -14365,6 +14408,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Concejal Agustina Álvarez dejó el PRO y se sumó a La Libertad Avanza en Salta - Expresión del Sur",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlhPRG95bHBoS0pCTkNQNE16SHlUOURocmN4R1M2M0c5YUtWRjRhYlhEa3dvc3NmcmYzQmR2SVV2cmhkWkdMNHc1MVIxMEVDZmlWRDRYVk9rcWxNdHBheHR2T3cxMWs5YkotRl9LY0Z1MU5PV1J2U2NXUy1VV1BNemJuSjJ1VTRWYU1DRDRsOUh5cXUzc2pNdDR1TlV5aDExZ1FhZnBfdFgtTzh5TXo2NURaLXdqbTlxYTNYVW1haFM5QQ?oc=5",
+        "source": "Expresión del Sur",
+        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez celebró la decisión de Mauricio Macri y dijo que es un “gran ejemplo” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkNmeFdQZmZkalNiUHRtWC1KUVoyUlFWMkN3ckRkN1B3Z1ZyMVJhUjJoc2VhTVc3UWo1QzJXVHRoajB5eHBjWDZmOXk1V3paQS1JRTJIbG9ESnhsV2lYQlBsTHZUbWxTZVlkazd2M3R1MzRiSnVaNHBMcVVla2lXTndEOEpXVGxxaksyVXRxenpHMk1Sckt5R1l3ZnpDRFFVWFlzd0lmM0xWMWVGczJIV3dzRUVEbWlrLVlZ?oc=5",
@@ -14566,13 +14616,6 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGZUVTZFVWJncmMxN0I1cjNtUGJXOHlBcDNkbmpuUTFBVTNPaVB0TEFqS2Y5MkR6c19YSEUtelA0MjNzemwzd2drWmRROVhVX0FxYnB5RU8zdGc1b3F2YzJuMWtpaVVxNkJkMW1jLVZ3cEk4ekQ1T3gtdHowOFR2TEJXM0piWEdXd3JQQndLR3NIdVRvTnZXVnhXQkg?oc=5",
         "source": "Elintra.com.ar",
         "date": "Sat, 17 Dec 2022 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Agustina Álvarez y una frase reflexiva para su partido - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb0p4eUNLbFNsTkY3d1VJSERrdlVkeld6dzhEZXA2cm5zY0dXRVBfZDJIZ1JYcDVNTkdOSUFWR1RRYTI5SUdZMUZ0Z3VLMnVfUGRqbWdmV1FvV2ZWZGc5RTBXZXdKdHRjMC1iLWVSZTFnTWRCdXZnNkJQX0JjenRMUWlxaENXZklIcjVFSWIzR2pTXzQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 25 Oct 2022 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15230,13 +15273,17 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 61,
+    "total_mentions": 62,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 13,
-      "neutral": 45
+      "neutral": 46
     },
     "sentiment_by_day": {
+      "Fri, 12 Ju": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 14 Au": {
         "total": 1,
         "score_sum": 0
@@ -15465,18 +15512,24 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "farquharson",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Lamentable",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMFlXOGZCMGEtcC02VW5jNlFuS0Z4NjM4cmhJT01lS0hfWHpYVHZ1ejNMQmVubGZ0TmJWYTN4c2wzY01LbTdYemstNFgyOXh5SVdtRndDMklDa0dWSDZkVi1aUmM2NUFncng2NTlwMWlOVmVzcVh2YTNwb0dPZjVuTlR1V1FybDQxRHA2c1RNaFdHVzV1Z2c2VzdxTEk1VHZSa2lVLXVHMmphSGtNRWIxREtZb1JMZHJaNTYwVzY2U2lpXzQyX1IxU1ZtSXRsdllYTEVpMHhRVGREMmc?oc=5",
+        "date": "Fri, 12 Jul 2024 07:00:00 GMT"
+      },
       {
         "quote": "Salta está en riesgo",
         "source": "Que Pasa Salta",
@@ -15560,12 +15613,6 @@
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc3NHSlNmVmpibmY0RlBaUm1Tb3U2RUlzdkhOOWhUcUUzanNoRW55TU9WOXRuaC0za0lucnY4akU5UG5fX3JrclZndnpLQXhHM1V4czg2ZjBuOVdxRWhGYVh1b25kUkctXzI4b1VMU0V1LVhkenBCQnN0OHJpS1BGT0k5ZXVtcUJCbWYwRm1BaFdEbEx1RVRKU2Fab1NPSjQyMEFMNDBhS2hmOEZJN0dpOVpZVzR4T2xHX3R4WnZWX292cVB4S2xrSFpxS2lXWjVSV2lEeHNBVUNvRVdNWXdwSl9NRXhGT0daR0RaTtIB-wFBVV95cUxNblJFM0syX2dWTUpFRktKcUhSX2F4eDlWdkxTNFo3OThiMnlycktMS2pHSG16NHJOVTNNNVRIRjFoX1ltcFlKd0FMa21NZVF2U3g4WEwzUHJqVFRtRlR1MTR5Y05URHVZanpGTFBIMHVMZHBvVHJXeWxOc2ItUUlmREdveWh5WEdadS14SkxISHNJSHpud3RJSmEzQVQzT2JJYWdDZHZ2d3BSaWNXVUJXejFxQ21sSEtJLThzS19KWm0zV0tGNnMzUW1sZGdPaDJCdlZzTVdaSVdkTEFIZTgzV3JmNFc1QnZseHVEN2RLNEl0VGJ3cWN2YVJKZw?oc=5",
         "date": "Thu, 03 Apr 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "La modificación de la tolerancia cero es un retroceso",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUEpLNHZsLXNHdndkRW5sX3VxU2tvMWpPejZwdnZxbDFReUx1UjZJOU9qaWJCSXBsc3IyN0c2M3FCQlhNUmlqLTJwM2VGTmpRYVp1TWsxUnV4ZVBpVGdUWWJ1Q1IwU1ZfM0piWjY3cWRtUHJ0SmdTQjNLdC1PWHZtbHJaVldWbnlsdC1xWWczcDdsX1VSMU5hVTg5MDF4a3V2cGZWS0FDSmpoTXhWSjdXVVVlY0xVZGFEWUdHZzV2UDdlNlBUWDRqM1FvRFh1ZTRPVzJqMHUxcE40VFJwN3hwV9IB7wFBVV95cUxOSzE4ZnhWc1BYdWdfUEZBU3NGUjktaGdDVW9GRDVrRlVHQkx6Tm5ZWHZ0QTY0dm9BQ3VVX2JqbXU5VWY5NVdQTDR2ZmRoenFyM2k5MVl4eVNMRkZCYjhTWTZsa2RnYm5NclJ3eXplQkE4bjJvRFBPMzZpNEVuM0hxaXBrVkVMU0lxc1JMamZBLUgwVXdieHliaEFJWkc5N2hFaEdES1FfN0kwWnY1eWhjS0xWT29wcHpfbGFXd3VQb01QYWhaNjdWTTJpUXFhdkJQbDM0R19nZDJERjZkd1BpX3laQnZXcnAzV3ZfQ3JmQQ?oc=5",
-        "date": "Wed, 08 Apr 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -15595,6 +15642,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "“Lamentable”: así calificó Gustavo Farquharson las declaraciones de Alfredo Olmedo sobre la violencia de género - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMFlXOGZCMGEtcC02VW5jNlFuS0Z4NjM4cmhJT01lS0hfWHpYVHZ1ejNMQmVubGZ0TmJWYTN4c2wzY01LbTdYemstNFgyOXh5SVdtRndDMklDa0dWSDZkVi1aUmM2NUFncng2NTlwMWlOVmVzcVh2YTNwb0dPZjVuTlR1V1FybDQxRHA2c1RNaFdHVzV1Z2c2VzdxTEk1VHZSa2lVLXVHMmphSGtNRWIxREtZb1JMZHJaNTYwVzY2U2lpXzQyX1IxU1ZtSXRsdllYTEVpMHhRVGREMmc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 12 Jul 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Farquharson anticipó que Emiliano Durand y el gobernador Sáenz podrían buscar la reelección - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMGdOdjhkQTZ3eEk0Q0JEZzNBeUdfTzlhZGxUWEl3czlxSV8xNThuOVlxa2lEaEdOS0xveXM4OWw0b2JjeFR5eDBrS2VBaXdjc2wxTzI5ZmM5a1NNUnZJN3ZxSVQxRURXWEh3SjBzUVRSNDJmYms3SDlFeG9FSThfMWRrckZtMWF3YUJQWExUZmxaYlYtY2RvOHJlWVQtQ2F6dWJSZThUdk5sZ0xpZnVic3Q2bC1HN3gyTWVoZ2NMWFliYTlTMjdQOUNFZnFzOG8?oc=5",
@@ -15796,13 +15850,6 @@
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVEUzUjd4TVlxVlROMGMtSTVvNXVnU2tqYldwNXVTd1BnbG8wUmk1dUpDZUVwb01ZelQ3S0dvY3BtWHN5Z1dWcXVQVlFoTzltWUxlbUd1V0ZxcnZiYm1CNG9DMlFtdUtmdUdjcWtGb1BWdmNCS0VSRFdIY1d3NC1qaVI1STZ6UTBZLXQ0WEZRdDZJZkYtRm02RElwNTRncnd5VDR5TG9xMy11ekNvRDNOajRxUzhvR1AwNEJfRnNPd3haREt4RUJSRk96Vkg4WjBLYTVjUGNUdGc0cm_SAeABQVVfeXFMT3lWVHduMmE1N0J0TXdxOEY3RmpMSGFRWERZVmZBcmpibzVpeHpoZWw4Wm8xMHZxUk9wSnpjNW5lSUQ2ZXdqZ3ZnT0xwVElmZVZXbVFCZklhUUV1cVhyT2pDYU5fQnJkbC1RSFBrUEdKaEV5YmdKTXlFYUdzeTFYUFQtLXQ1WGUtSWcyVVN3X1NGS3ljRi1PcjJCaFNwV1JTSkVWcEx1Q2JFU0lFa1Z6ak9wT0RIalp1UjA2TmhaMWF6MUxZVDVBOUJ1QUc2aG1yZ0hUT1dCbFFkSFhLdmZ6dE8?oc=5",
         "source": "eltribuno.com",
         "date": "Fri, 18 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "VIDEO. El intendente Emiliano Durand rechazó la creación de la Guardia Urbana en la ciudad - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORVl3V2lzalJvN2tjZjRpNjJSYXk4amRocGlZa3RwSzNrekhPeWZwQWVCNlM0a2dtSE9RYjZJMmUyS2R5UWtpTUhlNjdjd00xekpnbEhlZG1pT2c0V19KNTg5MDJFSWV6eUpNczJqSzZJT3JwamlyaHVBdU9sTnNsZzJHbEFHWVV5VktUX25aaWp4bk9lQ0JDWWNrNlQ1Q0ZScFZOd2d6NWhaX2lEWFJ4ODJlaFlCNk9WMlBZTkMycXpVQ1pDV28yUTJOYy1CSmFoOFBDdXB30gHbAUFVX3lxTE54UDJteWtnMHFERmo0MFcwV0JVSkFyMmh1X2FnYWpCVnVPV1JZMkVoX1N2WUktRnhfampQS1VDNWpCVkNjLXItakszOHFuRVRPQmNmbTluV21YSDFQMEJHaDh2QmlBbjBJV3kzQ3lRS3NJZDE3dWkxdlhGbF9EbjJ6ZWVsdVNrREhWeFh0MXNjRXZEUG5zc0h6Qk1wVjI4M0gzYk1FUW52SGxXeHp4UFJUMF9taWVLd1hvUU1YY0I0TDhEUE5zTy1HejdPM1BfWDhIcGZKNUM0eHVjaw?oc=5",
-        "source": "eltribuno.com",
-        "date": "Mon, 01 Dec 2025 08:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -21157,13 +21204,21 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 10,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 1,
-      "neutral": 7
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Mon, 27 Oc": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "Sat, 05 Se": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 20 Au": {
         "total": 1,
         "score_sum": 0
@@ -21184,10 +21239,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Mon, 27 Oc": {
-        "total": 1,
-        "score_sum": 0
-      },
       "Fri, 04 Se": {
         "total": 1,
         "score_sum": 0
@@ -21200,10 +21251,14 @@
     "top_topics": [
       {
         "term": "bruno",
-        "count": 3
+        "count": 5
       },
       {
         "term": "eliana",
+        "count": 4
+      },
+      {
+        "term": "elintra",
         "count": 2
       },
       {
@@ -21212,6 +21267,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Quieren hacer una PyME de La Libertad Avanza",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQVFBSklVM0JWUzhRdHh4cXJycVZSaU0zblF2ZDhYSWFxeS0tM2ZyeVRENVZ4M3A0OXQyc01uUmN6M3g3OXVVcFprMS1LX2tmZ2IxTFhPd19aOHBxSHEwckpBVGNqdVUxdnZZT095enVfZHdxWFFSMG8tdU5YZHY3SXRnU1B3TXlZX29lRm5tM1VCQXpENkVCdWN0VFBfLXYwczRXLW9iNm1WdkU5TTZyTy1lTTlDSmd4WUE?oc=5",
+        "date": "Sat, 05 Sep 2026 07:00:00 GMT"
+      },
       {
         "quote": "Está todo roto",
         "source": "Informate Salta",
@@ -21227,6 +21288,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Eliana Bruno reemplazará a Emilia Orozco como diputada nacional - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFVnY2FLMld0X20yQ21zUE00Sm5IQkszLWQ4bHczV1pucDZJNWZ1a05fWlBXODBLa3dFeUxyQ1BwWXRHaWduM0pOQzM4SmRWWFA3dHdkYmlVVkFjNW5tejY3ZWxVRVc1R2Q4WTMtZ0g3RHZYSVpoVW1RVmVBckxIcWxBUXdBbWlhTmZZUEdGejdRd3BOQktOOUhMTXlMT0E?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Eliana Bruno se desmarca del olmedismo: “Quieren hacer una PyME de La Libertad Avanza” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQVFBSklVM0JWUzhRdHh4cXJycVZSaU0zblF2ZDhYSWFxeS0tM2ZyeVRENVZ4M3A0OXQyc01uUmN6M3g3OXVVcFprMS1LX2tmZ2IxTFhPd19aOHBxSHEwckpBVGNqdVUxdnZZT095enVfZHdxWFFSMG8tdU5YZHY3SXRnU1B3TXlZX29lRm5tM1VCQXpENkVCdWN0VFBfLXYwczRXLW9iNm1WdkU5TTZyTy1lTTlDSmd4WUE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 05 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Lejos de LLA? Eliana Bruno profundiza su acercamiento a dirigentes de Sáenz - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORDBRWmlmVjRHLW1HMGc5N2F2RWxvMDBXdGNJb25qOTNoOGNfU1cxaVRoRkdlS1VXSl90VTNQRDFGeUxKVlgxbkdSaU1Famw4SDJTTFRnNlBheXl6NWpBQ1hTVDltcjdGM0RTR2VKdVh4OFF0YThLOGlVWDMxY3RpXzJiUk9rOXVKdnVFRjlYNXFrZlY4cElWVHVia3oycU02WGMtajh5ak5vQUtHU0R5TWt4bzNHbWNhNVMwdFRvYVhWeXRidXd2cGs3VnZsUmk1eDljaFoxQlfSAecBQVVfeXFMT01JLUtyazlqcnhXWEhVUlFwcndVQTVTLWtrZ0Q2ZW5qOEZUZGpVUTVzVjhWZGpVYnBPNTV6NTJMSjNHM2IyREFnYWR4VTNlNVVVZlNrOFBZOWFTVm51X3BzYlBoYVJ6cXFOUnB0NEw0WWc1SVl2c3ZIMWZDRTB3VWVwYVFzenJoQ1pzZXlSUF9ITzJiU1hBbktrOTNKcUV3b1pBenBNT2xoQ1hheE1kYmJhRXQwOHhfYW1BbENmYnd4TXBkVXpjRXRmZlE0eFotR3dVSTVqNm4wMGRMUzRfdFc5UjFoa1FZ?oc=5",
