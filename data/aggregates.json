@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-05T01:21:54.025241+00:00",
+  "generated_at": "2026-10-05T07:20:15.440564+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 57,
+      "positivo": 6,
+      "negativo": 6,
+      "neutral": 45,
+      "score_sum": 4
+    },
+    "concejal-camila-lobo": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": -2
+    },
+    "dip-german-dario-ralle": {
+      "total": 17,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 16,
+      "score_sum": 2
+    },
     "snac-gonzalo-guzman-coraita": {
       "total": 20,
       "positivo": 4,
@@ -42,13 +63,6 @@
       "negativo": 0,
       "neutral": 3,
       "score_sum": 0
-    },
-    "snac-flavia-royon": {
-      "total": 56,
-      "positivo": 6,
-      "negativo": 6,
-      "neutral": 44,
-      "score_sum": 4
     },
     "concejal-pablo-emanuel-lopez": {
       "total": 24,
@@ -169,13 +183,6 @@
       "neutral": 9,
       "score_sum": 0
     },
-    "concejal-camila-lobo": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 8,
-      "score_sum": -2
-    },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 11,
       "positivo": 0,
@@ -238,13 +245,6 @@
       "negativo": 4,
       "neutral": 10,
       "score_sum": -5
-    },
-    "dip-german-dario-ralle": {
-      "total": 16,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 15,
-      "score_sum": 2
     },
     "dip-juan-jose-esteban": {
       "total": 9,
@@ -808,6 +808,32 @@
     }
   },
   "by_day": {
+    "Tue, 26 Au": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Wed, 26 No": {
+      "concejal-camila-lobo": {
+        "total": 3,
+        "score_sum": -2
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "Fri, 27 De": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Fri, 27 Fe": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -1578,16 +1604,6 @@
       "sen-sergio-saldano": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Wed, 26 No": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 2,
-        "score_sum": -2
       }
     },
     "Thu, 06 Au": {
@@ -8032,12 +8048,6 @@
         "score_sum": -2
       }
     },
-    "Tue, 26 Au": {
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Sat, 04 Ap": {
       "concejal-gustavo-farquharson": {
         "total": 1,
@@ -13044,7 +13054,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 30
+      "count": 28
     },
     {
       "term": "gustavo",
@@ -13064,14 +13074,10 @@
     },
     {
       "term": "flavia",
-      "count": 7
+      "count": 6
     },
     {
       "term": "royón",
-      "count": 7
-    },
-    {
-      "term": "contra",
       "count": 6
     },
     {
@@ -13083,7 +13089,15 @@
       "count": 6
     },
     {
+      "term": "pasa",
+      "count": 5
+    },
+    {
       "term": "diputados",
+      "count": 5
+    },
+    {
+      "term": "contra",
       "count": 5
     },
     {
@@ -13091,15 +13105,11 @@
       "count": 5
     },
     {
+      "term": "guillermo",
+      "count": 4
+    },
+    {
       "term": "emilia",
-      "count": 4
-    },
-    {
-      "term": "cornejo",
-      "count": 4
-    },
-    {
-      "term": "mónica",
       "count": 4
     }
   ],
