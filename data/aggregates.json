@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-10-04T22:49:40.915223+00:00",
+  "generated_at": "2026-10-05T01:21:54.025241+00:00",
   "by_politician": {
+    "snac-gonzalo-guzman-coraita": {
+      "total": 20,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 12,
+      "score_sum": 0
+    },
     "snac-emilia-orozco": {
-      "total": 45,
+      "total": 46,
       "positivo": 5,
       "negativo": 8,
-      "neutral": 32,
+      "neutral": 33,
       "score_sum": -5
     },
     "sen-roque-cornejo-avellaneda": {
@@ -126,13 +133,6 @@
       "negativo": 6,
       "neutral": 68,
       "score_sum": 7
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 19,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 11,
-      "score_sum": 0
     },
     "dip-luis-fernando-albeza": {
       "total": 13,
@@ -808,6 +808,30 @@
     }
   },
   "by_day": {
+    "Fri, 27 Fe": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 13 Au": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "Thu, 03 Au": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -3934,12 +3958,6 @@
         "score_sum": -2
       }
     },
-    "Sun, 13 Au": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Mon, 10 Ap": {
       "dip-monica-gabriela-juarez": {
         "total": 1,
@@ -5222,20 +5240,6 @@
     },
     "Thu, 28 No": {
       "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Fri, 27 Fe": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
         "total": 1,
         "score_sum": 0
       }
@@ -13040,18 +13044,22 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 31
+      "count": 30
     },
     {
       "term": "gustavo",
       "count": 10
     },
     {
-      "term": "sáenz",
-      "count": 8
+      "term": "orozco",
+      "count": 7
     },
     {
       "term": "informate",
+      "count": 7
+    },
+    {
+      "term": "sáenz",
       "count": 7
     },
     {
@@ -13061,10 +13069,6 @@
     {
       "term": "royón",
       "count": 7
-    },
-    {
-      "term": "orozco",
-      "count": 6
     },
     {
       "term": "contra",
@@ -13079,8 +13083,16 @@
       "count": 6
     },
     {
+      "term": "diputados",
+      "count": 5
+    },
+    {
       "term": "tribuno",
       "count": 5
+    },
+    {
+      "term": "emilia",
+      "count": 4
     },
     {
       "term": "cornejo",
@@ -13088,14 +13100,6 @@
     },
     {
       "term": "mónica",
-      "count": 4
-    },
-    {
-      "term": "juárez",
-      "count": 4
-    },
-    {
-      "term": "nuevo",
       "count": 4
     }
   ],
