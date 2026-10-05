@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-05T16:15:18.918180+00:00",
+  "generated_at": "2026-10-05T22:46:26.427510+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 176,
+      "total_mentions": 178,
       "sentiment_breakdown": {
         "positivo": 14,
         "negativo": 14,
-        "neutral": 148
+        "neutral": 150
       },
       "sentiment_by_day": {
         "Mon, 05 Oc": {
-          "total": 2,
+          "total": 4,
           "score_sum": 0
         },
         "Sun, 04 Oc": {
@@ -132,7 +132,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 80
+          "count": 81
         },
         {
           "term": "tribuno",
@@ -159,8 +159,8 @@
           "count": 22
         },
         {
-          "term": "sáenz",
-          "count": 16
+          "term": "obras",
+          "count": 17
         }
       ],
       "politicians_involved": [
@@ -262,6 +262,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Tartagal avanza con las obras en la Escuela de Comercio N.° 5002 - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTlPd0Y3TjRONzd0MlBlQTMzQW4ycVBGMGZCZnFpZ1pOMWJwdDJEaVdidlpQVGJaUDRGajFqd3RGUGdCWkhBOG0xZGJXZkswUWZQSHZ1RlZFSnBOdUxnQW5FUm9WS1NCU3JFdXdCNE9KWWpKazVYRGVGbVFjLTkwN2RkMXp0SjQxNTNvWFBTTEN4VE1rZlA1LU5fQQ?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Mon, 05 Oct 2026 17:14:10 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: Salta aparece como la provincia con mayor asignación para infraestructura vial - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHdPMWdLU3hRVWxSTHI3bFYyaW91YUxvWlg2ckhkQkVHRFUzaGJxbmk1Q2RpTjFOZjRpWE41RUZvQzhoNUhZRTVLQVI3cXdYemdHQ0p4LVhlVkhiS2lCdUVUSl9oUDA1aDVJVlNkOURnUDRZcDFVX01nX1oySkRRMWJpYU1sTkQ1N1YyY3MyVTdYT3dpS3AwQkVGbXNyaVZ5Qm9JQ3o2QVl0VVZadnhreGR6cFFZSGRsWjhmMUJnRUU0M0FoX3RlYkd3?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Mon, 05 Oct 2026 20:01:13 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "\"Nación le debe el 63% del presupuesto de salud a Salta\": la fuerte advertencia de Biella - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUNfVXNqTFhWWEhrZ2dTVWZ3d1p6YnE1LVZVY3RYNE5Tekprb3pidUFVZldrNDJLeHU3aE43OEI1akpJMzdNcTMtSEI5TzVVSDNMcEFtR1hJYWpoM1hQb0pOWWY5T1Q0RHFtMHQ4a1pSMEJIRHY0UU54Qko2dHZnaGR3ZXNPNVdGQXlYaw?oc=5",
@@ -457,20 +471,6 @@
           "source": "El Intransigente",
           "date": "Wed, 30 Sep 2026 21:52:13 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "Se terminan las obras, pero el IPV seguirá construyendo viviendas: Qué prepara Salta - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVVhacnI5RVJUelAtbEVzMEEzVmd0aEF6OEw0NkdPRmZYdnhtOTRBRHVYb1k5TUdPSWxTOEZFTU5oRGZweWo5a0NEVG9nTDhLOGV1N1pab3VnOWVvWW1DdWhvbUdnVlFWUHlRenpRSGVES3F3LW1xRk9SN3d2UWRoU0pLemx1SnRkc1R1S0lSam9pQ3RjYXBIUGgwUGNqaHo3QkNhS2JBQUhET1lwOWRxajV3ZGQ1cGlBQ01tSnN5ZkxnV2tTMGFjaEZTNlJqTGNWSko4XzYwejNSVHowdmNybWtwY9IB8gFBVV95cUxNcWJGX0pwX2k0UWtyYy1ZbFNqbjkwXzBfeUloa2JaMFpRTDdqRWt6YUZIQlh4amtvS1FrWUdyRXV1VHB3MU1XNzhpZ3IzMDZxRWRWdERfNmVxYmNlcGVpUXlQek5kalNFRlNwdGY2aklkRi1jU1QyNmk4T1ZIdEo5dk1xaG5yY0gxai1ZZWNSUm1CcGZmRTFfUFQ1YXRuR1dnWHNoa3pLR0U0YjFIMkNubjNZN2JRODJzM3VqRFo5dERTVlVVUGtwVk1BalNGNzI5WWZrZ2xnS01WekxTSDRFWUp6Sl9zdGl3NU1vZVdRUTM5Zw?oc=5",
-          "source": "Informate Salta",
-          "date": "Wed, 30 Sep 2026 14:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "La agenda de Sáenz con Milei en París: comienza esta noche - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGNPcGR3dVQyUkhNaTd5VmY1U09LbTg3d3dJUk9lOXVGWW9qQzV1R1BobmgyNllXd1FPQ1VUVExnM0R6RERuOTF5ck83TTUxa2h1R1FCXzBvY3lHcDFxcGRaS1Q5dklkc01YWmQtcjdydVhra1FoYlp5SGpSRDlSM1VPaERrRGVBcXNSRklTNEVaZDM1VmJvWVZETmNiR0VpZUtwTUw2bDN0V3BJMUprdFRPVnJZTHR0TUJzTFpfTGrSAc8BQVVfeXFMTmRTNk1iOUo3N3R2VlpHUGpNOGdGdVdHQ1ZFX21vTnpzcDROV29BS19qMEFnMjhpai1ySUx3UkpYcHJSMmhPRjZkdnhhSlR1MFdmY1FPTHNPOHFhWTFuM1ZCc2pLUUpOUTFJdWFFNklQbkdSNVZQUlhXZm9jeXhCczlOeVlJMWFURVg5U1JHcUowRFFBSi1Vd3Y3VXR0SGJyamt3aF85bTc3Z1lBNWVSdEctNVowVVRaWTZpZDJUZlNZcFFNRFpNczNTUzVUcTgw?oc=5",
-          "source": "Informate Salta",
-          "date": "Wed, 30 Sep 2026 14:12:23 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
