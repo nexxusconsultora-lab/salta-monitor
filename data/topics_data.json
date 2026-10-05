@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T07:20:16.330231+00:00",
+  "generated_at": "2026-10-05T16:15:18.918180+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 175,
+      "total_mentions": 176,
       "sentiment_breakdown": {
         "positivo": 14,
         "negativo": 14,
-        "neutral": 147
+        "neutral": 148
       },
       "sentiment_by_day": {
+        "Mon, 05 Oc": {
+          "total": 2,
+          "score_sum": 0
+        },
         "Sun, 04 Oc": {
           "total": 3,
           "score_sum": 4
-        },
-        "Mon, 05 Oc": {
-          "total": 1,
-          "score_sum": 0
         },
         "Tue, 29 Se": {
           "total": 3,
@@ -132,7 +132,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 79
+          "count": 80
         },
         {
           "term": "tribuno",
@@ -152,7 +152,7 @@
         },
         {
           "term": "pasa",
-          "count": 24
+          "count": 25
         },
         {
           "term": "informatesalta",
@@ -170,6 +170,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Nación le debe el 63% del presupuesto de salud a Salta",
+          "source": "Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUNfVXNqTFhWWEhrZ2dTVWZ3d1p6YnE1LVZVY3RYNE5Tekprb3pidUFVZldrNDJLeHU3aE43OEI1akpJMzdNcTMtSEI5TzVVSDNMcEFtR1hJYWpoM1hQb0pOWWY5T1Q0RHFtMHQ4a1pSMEJIRHY0UU54Qko2dHZnaGR3ZXNPNVdGQXlYaw?oc=5",
+          "date": "Mon, 05 Oct 2026 14:08:22 GMT"
+        },
         {
           "quote": "Autoabastecernos de uranio es posible",
           "source": "Informate Salta",
@@ -253,15 +259,16 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYmhJbnhDT2c1SFlhUk95cVU0LTMwbzBKN0tYQTdVWU5ScDdwN3B2TW5pMGhwZXNnR2gzYTRzREk0UlJENE1NNVRORkx0bFA5cXVpZWx1VDN2MWtnRUUwd1dTRXM0TzF1ZGJvUnV1NU9QQ0NqZnVSN0dBeS1IdGJjNUlUNzFhNlpwM2x4NFlqVW1TeTU0ZnV5WVc4WXFMMnFzeVJVV0V4SXV4c0EwQ3c4bG1FRS1ib3FOTnN4R051amFtbGV0RHJudFpwV1F2SGF1dnVJbENwejBEeTVu?oc=5",
           "date": "Mon, 21 Sep 2026 23:03:26 GMT"
-        },
-        {
-          "quote": "motivo de canje",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWi1qWEFqWnhhWWhMdG82cFNGRm5xdDdoMloxTWRtN0FXMGtlNnVGU2phWm5LbVlyM2pJUkNFVmd3REIwQjZ0Q0k0bzA1TXJNZXhLZDRpYTE1NFZLcnRLcVF0d3BrWVcwMVRWTEVhWXBuM3NLWWNPUlFDZGwyb0FpNEZUSWQ4Si1pTnNJTFp1aHNZY2Z4MGF6R1NmcHZaS1dhaVNGVE0xMGpXNVZ4ZGpMTDRwYzJMdks0cnVXRzh1TUxOSV9XaXFNRw?oc=5",
-          "date": "Sat, 19 Sep 2026 19:21:47 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "\"Nación le debe el 63% del presupuesto de salud a Salta\": la fuerte advertencia de Biella - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUNfVXNqTFhWWEhrZ2dTVWZ3d1p6YnE1LVZVY3RYNE5Tekprb3pidUFVZldrNDJLeHU3aE43OEI1akpJMzdNcTMtSEI5TzVVSDNMcEFtR1hJYWpoM1hQb0pOWWY5T1Q0RHFtMHQ4a1pSMEJIRHY0UU54Qko2dHZnaGR3ZXNPNVdGQXlYaw?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Mon, 05 Oct 2026 14:08:22 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Renovarán la avenida Solís Pizarro: cómo quedará uno de los principales accesos de la zona oeste - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVXFuU2o1alpVYk5WR29Ca1IwRDZMaFZmMnVOdEVrZy1faHlBMDVIVW5ibE55bE56RTlpd3M1OXZJS2VXSHpVWU1sMmRoNmhqNWRnR1kyOU9zMGkyVm9qS3RvaWk4cG9aOFl3M21kbWE1TFJvR3ZFcUlYU0NrenBCaWR0aElPWndvX0g1S0FsWjJfaVpVWlRDT0FMN3pYc1ZQWTF3SHVMNUQ4Sl9FcGF3TVUtOEpkRW9hU01ha28zbnVtMWNKZHNhbUhfdVpwTXNiN0lGc0xFbkFXbEN5WEHSAeMBQVVfeXFMTXRZTjlQMGlCMlVYWm5rejQzX2tIeXVMSFJmLWxXNXpzZ0F3RGlKQWVQSjlJTXlyOGpLUzk3TWlSYXQ1OUkwMi1YczZ6MXVWYm5UekY0emtRRU5LdDMyMTBBbUxXNXMtcVhHejJBSVVlbUJqUkFfX01ZeGk3bVExVWtnekgwQzhPcV9qYXY4eHE1RGo4XzBVOGF2cVNDdkdjNUNjdmR6OFdVckZQcGFmbEZaU2RtbUt4OUwzNW14b01QcGFvdzhmMWJzN2x0S0Y3UnRsZWEyaXFRMjFIS19hV015V0U?oc=5",
@@ -463,13 +470,6 @@
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGNPcGR3dVQyUkhNaTd5VmY1U09LbTg3d3dJUk9lOXVGWW9qQzV1R1BobmgyNllXd1FPQ1VUVExnM0R6RERuOTF5ck83TTUxa2h1R1FCXzBvY3lHcDFxcGRaS1Q5dklkc01YWmQtcjdydVhra1FoYlp5SGpSRDlSM1VPaERrRGVBcXNSRklTNEVaZDM1VmJvWVZETmNiR0VpZUtwTUw2bDN0V3BJMUprdFRPVnJZTHR0TUJzTFpfTGrSAc8BQVVfeXFMTmRTNk1iOUo3N3R2VlpHUGpNOGdGdVdHQ1ZFX21vTnpzcDROV29BS19qMEFnMjhpai1ySUx3UkpYcHJSMmhPRjZkdnhhSlR1MFdmY1FPTHNPOHFhWTFuM1ZCc2pLUUpOUTFJdWFFNklQbkdSNVZQUlhXZm9jeXhCczlOeVlJMWFURVg5U1JHcUowRFFBSi1Vd3Y3VXR0SGJyamt3aF85bTc3Z1lBNWVSdEctNVowVVRaWTZpZDJUZlNZcFFNRFpNczNTUzVUcTgw?oc=5",
           "source": "Informate Salta",
           "date": "Wed, 30 Sep 2026 14:12:23 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "“Autoabastecernos de uranio es posible”: Argentina vuelve a poner en agenda la exploración de yacimientos de uranio - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQXgyMUdjZFllNnFXNmFzSTZ4cklZMkYySnB0cmx1MUVnQzAwMGlYaE12ODFGb0NjdDg3UmtoVWxfMXlFTEhMM1N1QzRLb1lzd3N2akozMVU5TmVYdDNHbXU5NFo4N2dtbktNVlpvcWJKN0FjX0w2T1NBU3JvSlhpZTZNdVRhSUpwTzlnZTQyaGFOb2Z5bDFjb3NtSTU1TWE3MUZZV3BtVzZQQ2VSVnpxS0dFOUhWYXFLWEp1LVRsRk5LSDJvdGtCejJOOVE4ejhuQzk1UDNqZGtNeXRzeURvTXQ1SGotQ215ZU5XMTBzc0dMVDdPTmNhLXJIYjNsemR2RzRjdWRDZGhlc1lhRGxERG1kZDJqNXVjTGfSAZoCQVVfeXFMT0F4MjFHY2RZZTZxVzZhc0k2eHJJWTJGMkpwdHJsdTFFZ0MwMDBpWGhNdjgxRm9DY3Q4N1JraFVsXzF5RUxITDNTdUM0S29Zc3dzdmpKMzFVOU5lWHQzR211OTRaODdnbW5LTVZab3FiSjdBY19MNk9TQVNyb0pYaWU2TXVUYUlKcE85Z2U0MmhhTm9meWwxY29zbUk1NU1hNzFGWVdwbVc2UENlUlZ6cUtHRTlIVmFxS1hKdS1UbEZOS0gyb3RrQnoyTjlROHo4bkM5NVAzamRrTXl0c3lEb010NUhqLUNteWVOVzEwc3NHTFQ3T05jYS1ySGIzbHpkdkc0Y3VkQ2RoZXNZYURsRERtZGQyajV1Y0xn?oc=5",
-          "source": "Informate Salta",
-          "date": "Wed, 30 Sep 2026 15:42:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

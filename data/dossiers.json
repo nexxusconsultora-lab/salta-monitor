@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 205,
+    "total_mentions": 207,
     "sentiment_breakdown": {
-      "positivo": 34,
+      "positivo": 35,
       "negativo": 22,
-      "neutral": 149
+      "neutral": 150
     },
     "sentiment_by_day": {
+      "Thu, 01 Oc": {
+        "total": 9,
+        "score_sum": 13
+      },
+      "Mon, 05 Oc": {
+        "total": 1,
+        "score_sum": 4
+      },
       "Sun, 04 Oc": {
         "total": 1,
         "score_sum": 1
@@ -21,10 +29,6 @@
       "Fri, 02 Oc": {
         "total": 15,
         "score_sum": 8
-      },
-      "Thu, 01 Oc": {
-        "total": 8,
-        "score_sum": 13
       },
       "Wed, 30 Se": {
         "total": 3,
@@ -225,24 +229,24 @@
         "count": 38
       },
       {
-        "term": "parís",
-        "count": 16
-      },
-      {
         "term": "gustavo",
         "count": 16
       },
       {
+        "term": "parís",
+        "count": 16
+      },
+      {
         "term": "milei",
-        "count": 13
+        "count": 12
       },
       {
         "term": "reunió",
         "count": 6
       },
       {
-        "term": "inversiones",
-        "count": 6
+        "term": "gobernadores",
+        "count": 5
       },
       {
         "term": "bouvier",
@@ -347,6 +351,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Con Gustavo Sáenz en la comitiva, Nación reúne a gobernadores en París para discutir el Presupuesto - elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiLUVtODFtOW9MUWZJR3FmWWVvdWxtUjc4TTZRcms1VC1zbnFlSzZFd3hxR2tmVmMwRUw0ZVV5bXlYNXNGc2dtWk1VWGhjc2YtdHVtREktbmZWNjViSzVybFFjU3ZnZUkyWlZxVDZzRFZOaHc?oc=5",
+        "source": "elintra.com.ar",
+        "date": "Thu, 01 Oct 2026 15:31:10 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Eramet: Sáenz celebra una ampliación mientras Noruega excluye a la empresa por riesgos ambientales",
+        "link": "https://elintra.com.ar/2026/10/05/eramet-saenz-celebra-una-ampliacion-mientras-noruega-excluye-a-la-empresa-por-riesgos-ambientales/",
+        "source": "El Intra",
+        "date": "Mon, 05 Oct 2026 13:52:42 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz se reunió en París con el padre de Cassandre Bouvier y ratificó el compromiso de Salta en el caso",
         "link": "https://informatesalta.com.ar/gobierno/saenz-se-reunio-en-paris-con-el-padre-de-cassandre-bouvier-y-ratifico-el-compromiso-de-salta-en-el-caso_a6ac2515e62f627d4007beadd",
@@ -542,20 +560,6 @@
         "source": "Informate Salta",
         "date": "Thu, 01 Oct 2026 14:37:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz y Javier Milei, juntos en París: el gobernador destacó el diálogo con Nación",
-        "link": "https://elintra.com.ar/2026/10/01/gustavo-saenz-y-javier-milei-juntos-en-paris-el-gobernador-destaco-el-dialogo-con-nacion/",
-        "source": "El Intra",
-        "date": "Thu, 01 Oct 2026 15:43:48 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "VIDEO. Milei reunió en París a los gobernadores para hablar de economía e inversiones",
-        "link": "https://www.eltribuno.com/nacionales/2026-10-1-10-26-0-video-milei-reunio-en-paris-a-los-gobernadores-para-hablar-de-economia-e-inversiones",
-        "source": "El Tribuno - Política",
-        "date": "Thu, 01 Oct 2026 13:26:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -2107,13 +2111,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 8,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "Fri, 28 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 04 Ap": {
         "total": 1,
         "score_sum": -2
@@ -2231,9 +2239,23 @@
       {
         "term": "cornejo",
         "count": 4
+      },
+      {
+        "term": "nuevo",
+        "count": 2
+      },
+      {
+        "term": "diario",
+        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Puesta a Punto",
+        "source": "Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV09aOUVxaHVPN1AwdmZEd1RmNUR2TkpYVm1TTGtDajdrWXAzQUJoZGp3U3dYaWdVV2hjbWdfalA0MkdpN0RneWZSYXZvU1ZzM3dTcUlsRDRwcTF4OWxuZEdab1RaZlpyX0VhN01uMHo5VE1LRXFVeWVFVTluMmltRWdYMTcwV0Q3WnFPZVVCYkdXbWdsZVRPYlBaUXBkalBuRDZZb3NpMG4waGRwVklCMzRrU2tMWFNsWkNDcnFQNVduUjhwOUo4?oc=5",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "La salud, la educación y la seguridad son nuestras prioridades",
         "source": "vocescriticas.com",
@@ -2273,6 +2295,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Enrique Cornejo pidió informes sobre los fondos del plan “Puesta a Punto” destinados a El Bordo - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV09aOUVxaHVPN1AwdmZEd1RmNUR2TkpYVm1TTGtDajdrWXAzQUJoZGp3U3dYaWdVV2hjbWdfalA0MkdpN0RneWZSYXZvU1ZzM3dTcUlsRDRwcTF4OWxuZEdab1RaZlpyX0VhN01uMHo5VE1LRXFVeWVFVTluMmltRWdYMTcwV0Q3WnFPZVVCYkdXbWdsZVRPYlBaUXBkalBuRDZZb3NpMG4waGRwVklCMzRrU2tMWFNsWkNDcnFQNVduUjhwOUo4?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tabacaleras: Enrique Cornejo denunció penalmente al diputado Carlos zapata por supuestos ilícitos - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORnRIanptSk5wMEVIVi1BMGdxbzdzbURVNFprRlktTC1NcVdYRnJGaUMta3N0MmZwSks0cFFFMHdqRHZfUDMyZHB0MFRDUnVZMFZJYW41TnVYR0xheExrMFo0X2t1WW9UYVlMaDlydjRTclVSUzFsQ0hVUGpnZjVGd0RhNVYyclowUkdEM2g3dy1GTUhtZE00S3djQktxNjZBZzZDd04wc2RpMW16ZzNKOThuak5URkQwaFhXcG9hVERmNF9yRW8zdzFEd3ZGVVkzaXhJTHUxNEw4WG1BVmxjRjBESWhWTEpl0gHuAUFVX3lxTE01ZG96cnF3aHdETWRadld3eXZsOGk4dm1GVDRKV0JoR3QzZVdYblMwNjBsQ0tlSFhXSi1nNWUxdFdienBlaXRtSDZBV2Q0RTBQOVhpN04zakkteWRLa3FXZlJaS3E5bFJDX0x3Z1NmVzBINVJlQk5XdE5VSzNXNnBRVjNzenJPQU5tR09oc0p1d0l5V25MVEhvLUZmUkRFNm5hTVBWOEt0RldndlpZd1laMlNqWm1jczJpbHFxS1lRSnBqYWJjYmVoNnpLYmYtRGl2MWdoQV9Zc1Z4SzMwOTZiY3BocHhhYVVXWUFQeGc?oc=5",
@@ -2474,13 +2503,6 @@
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN2ZSRnpWM2hBcDUtZlE1aUJOeEg4ekZvaWNmY0VMbmZjdEdOXzFnRFc1TDhMTlFyeGtITUhMMkFta1VhcjFmOTFfTlVBNnJnSTF6d2NXdzAxOHo5T2tVN2hsbDczbTlxVW1nVWplS1VMT1RCcWw2dTY3QUh1VEp2SFJwTXJPb3dpc1c3NjhKcEZLVkRvU1FtR3lSX0YtLWFNQV9NbnNNM3Q0ZnllbVpzb1d1Q3VfV2ZmNlhGSm9HUEpJLUd0dDBadENhV19FWUpCOTZpTGFMZjYyTk01Y05WcTNR0gHnAUFVX3lxTE5DQkVsRFdXYlludVJMWDE2MTdFUWpueEpHN3Jub0wtZl9Zem5ySk5aY0tUdFEwMEZNQ25OSmZjY1c3TXlmYWpER2gtdFNBc0UxeHRYU3dkMGhuM0hxcmRidF9TWmFPZUJNY09LYUdXUDFvTjEzajdRMV96QlJhckgzS3JrVVEwVTRvbUx5aGlHOFhnY1ExWU1lQ2J3ckk2VzFFMmlxNVlHcTF2ck95Q1BTeUoyM0NhNjlXME00NGhTYzdQZmV5Tl9qbDlpSmdaODNuNFBNWHJacmF2YTBJOXZwZWZQNnhIRQ?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 03 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Inauguraron una clínica privada en General Güemes - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYldLd1ZuSzlydmZpUFJpOFZDNXItM0h0bkpiR0NHYXhpYnE5Rll5czFJcWVXQ3hxM0poM2tERW1KbGpoUF8zSHVudlJLSVVzWk00YWdJeTd3QTRxYTVuRl84OHFSc1lBeEdzZUcwdzZGZzNCd20zVWRMQTNfRG5udU5HNWpJbzRVNDNSUVRUU19fZEpoOXFaLUpOUGN5UFFDczFmM0toZEYzUUtDNlZIbtIBvwFBVV95cUxQSWptd2JIT0JIcnozTzlkaG1UMU9PN0N2TDlaczJWOU9RZzQ3RFVtUDczbWY0SUZfQ3RxdWJ6dUFucHdSekpIRmpEbFNWM0dDMnN6Nk0yQVMyVkZOSEozeVJJeXZhNnN2UjRUTFhuRzJzY2dTeXFvQTB0SERBM3ZvbGIwOGZBWGljNmhuOTZFT2gxV0pmajhQczIxam5IcmlieFhxRTE0aG9MUGR2UVE2R2VaQXJJczUwVG4zNUlaaw?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Sat, 27 Jul 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -8579,13 +8601,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "Wed, 21 Fe": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Wed, 30 Se": {
         "total": 1,
         "score_sum": 0
@@ -8795,6 +8821,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Repudiable: una mujer hizo comentarios discriminatorios contra Omar Exeni - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZEFfZEMxUWdJdDA4RE5jaGk3ZnB2SmR2dnBxS094Y25VM3RFTmJSbHAyTUV4VjlJTXlVbndrUzFidXd6eHcwNmluQjNHc2lBelByeUd2Sm9lRjlBQmlPcklucUVvMTVlU1QybjMwMmRmeXRFb0V1WVdBZC0zLVhjOUlhb08xRmhwVzlwVTN1bFJ4WTR5N2hLRW5WbnMyS19zbXdOYTctcGlIaDVFekhpaGZNVU1BNmFia2M0ckpNY1BQYXRhZm9QajVMRXF0MERaOHprVdIB4wFBVV95cUxOY0pUOF9PMXV0SGd3YnA2STNmZFJUd1ZuREx4Vnlla3pjUGs0QWVqNFZwSS1fcTJDTDRoSFI3clRMNWxxNENPMlhPT3NreUN2c3hfN1N5ZHB4QXYzSGJGa3hiNmtkUVllVmVQN0xfN2kzRF92dzBjZ3FGWUtvcEp2SzdPUFVZUkllMHZaTHM2YVpxSTRKeHR6VXNmdjZvaFU4SWJBQUU4ZzBCckFBWTd2ZnpLVnB4SnpiMm5Xd0sxYzlNblpha29sUTljYjRhelg0Q1VwN0ZTWndzZFR3RnZjclRybw?oc=5",
+        "source": "Informate Salta",
+        "date": "Wed, 21 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Cupo de viviendas para personas solas: “No lo dejamos de lado, pero no podemos negar la realidad”",
         "link": "https://informatesalta.com.ar/sociedad/cupo-de-viviendas-para-personas-solas---no-lo-dejamos-de-lado--pero-no-podemos-negar-la-realidad-_a6abd0ef5488955bbb7749c91",
         "source": "Informate Salta",
@@ -8996,13 +9029,6 @@
         "source": "Cuarto: Salta a diario",
         "date": "Mon, 17 Feb 2020 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Noticia: Gustavo Sáenz acompañó el acto de jura de los diputados provinciales - Gobierno de la Provincia de Salta, Argentina",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWdKaUdMWVd3RjNnOEo5a2xGaEkyODRWWmNOQWhCQ0dTNUlIRnVFamVkQllYcld6RTJieGNWVTRPaTJUNXpVNElwQTZ6QVprdE5xOGlhRk04Uk50ckphNDFHWUIwMml5bW1RWVd1RHlxQVhxNWVEckQ4Mkh2dmNsYnItWURDU0hNeTRjUHNheEVKWVhUMUhpUDhIMUNDS3ZaNWpCeHo4cmo3alFSc0djRF93TTRKZVk?oc=5",
-        "source": "Gobierno de la Provincia de Salta, Argentina",
-        "date": "Mon, 27 Nov 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -9066,13 +9092,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 37,
+    "total_mentions": 38,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 3,
       "neutral": 30
     },
     "sentiment_by_day": {
+      "Mon, 05 Oc": {
+        "total": 1,
+        "score_sum": 1
+      },
       "Wed, 19 Au": {
         "total": 1,
         "score_sum": 0
@@ -9213,11 +9243,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 14
+        "count": 15
       },
       {
         "term": "juárez",
-        "count": 14
+        "count": 15
       },
       {
         "term": "elintra",
@@ -9240,7 +9270,7 @@
         "count": 3
       },
       {
-        "term": "sáenz",
+        "term": "propuso",
         "count": 2
       }
     ],
@@ -9333,6 +9363,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez propuso crear un gabinete especializado en Alzheimer en Salta",
+        "link": "https://informatesalta.com.ar/legislativa/monica-juarez-propuso-crear-un-gabinete-especializado-en-alzheimer-en-salta_a6ac3b936023d28117015af51",
+        "source": "Informate Salta",
+        "date": "Mon, 05 Oct 2026 15:15:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez propuso a Sáenz como candidato a presidente - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUHJSLUVIRG1oeDJVSVBPdXBiZTZ3RmRwUzNHUF92OGRMTlg5ZElnZGhQUC1nYl83MjEwdFZYSlhDQlUwWFdublppQjd6VDlUMDE5bHZXQlZsVlM1bkdCMW96U1YtODd0T2p3MnFBYlQxcVhFazNXbVUwUUdpa3RHaGduYXcydWdIa2ZtdE1IbVZKSHBCTF8w?oc=5",
@@ -9534,13 +9571,6 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHdVRGhtcGNNd1g1X0FJNG9kbGhmb3Fob1U1eG50Vm53RWJ6a25EOTM4MURZaE9zXzJucEJqaXJGZWthYlNEYUFaU09IZTVZYnJ1X2pud0hWTThEbW9uc3BGTXdwbklpUGd2TjV2X2lyNHVSNXIxYlB0X194WUhSemRNSFFURzdPRFlDNW03MDVQY2dSVV8xQUk3MS1WU2czMG82cThsS0luYk1iUmdF?oc=5",
         "source": "Nuevo Diario de Salta",
         "date": "Mon, 10 Apr 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Escandaloso y preocupante: Mónica Juárez reveló que un diputado la acosaba: “fue feo” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWZuRGM1TlZyanpnR0tCeTc4azRLTUJodWNnUF9Sa3gtREZvaG1hRkg2SlZ6RjA2SjJvOGxLTVFtV0QzenNnMDhfZGF6M1NnTTF2UGhfS2pXUG5Pdzd4N1RreWh1R2JRa2hCSVBhR1ptUnRzQm9icDMyOFlhYzlQcmRxdndxUW9KaU1rRWYtbzlFX2pici0yUHZseFd3ZllmTktWRGpCUHBzbU1SU2pGaXpjRzdxbE0?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 16 Dec 2022 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15913,13 +15943,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 17,
+    "total_mentions": 18,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 7,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "Tue, 18 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 15 Ma": {
         "total": 2,
         "score_sum": -2
@@ -15977,7 +16011,12 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "garcía",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Amigos son los huevos y se golpean entre ellos",
@@ -16018,6 +16057,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "José García y Pablo López: las diferencias en la Comisión de Disciplina y Juicio Político - Informate Salta",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZl9TQlNkY3g3U1FJbjBRUmlucldjbGZ5S3dwUVpUUWhXRG44bjQxMHpGM0NmZTNlWDVzY1RKM1JTTTdBb1VHbUoxTHk2YXk2czN2UXlINVlnbVBSNHFFcmFyd2F5dHVkYWdHVDA2WW4wRXB0RERiN21rRmpsaEhYcXlfdUFyS3F4ZUUyWnhncUtnMGRuZnROTUdpVHVGY0VJZUhPMFZjMjV1SGp4eHkwMkJCNDMtQWhDQkY4cUFfNU44aGczbDF0c05WLXJ4cWNCUWlKY1RaaEdkN1pwRE5reEk4UXk3eGlEclHSAfgBQVVfeXFMTW9CTElFTEJzd0E0NHdmY1prOVVtZXh4NDQyeHR2d3k1RElyc194TVc2UkZWX1NBWTBsSUU3dTZaZkhsQ1Z5N3VRV01SaFdVbkhyUlctejV6OExtVlFFVU8xU1lLNzV1eVVfdzIxcWRrRktaTlhMWFlGaGZpZENTSVFrRy1ZTlBydEFEdVc2WTZTU3Q5TGRtLW1iNTE0S1RyWU1JRFpmX2VOVGV3bjJCMWN3VVZGQl9ZaEEwZ3p2R2gyWWp2MGNQb2lPRWJDR01Rd0JsWnk5dmlhMnFpZnc5QVRiMVozdGxaNGg5OUpZTWhlWXRHUTBOLTk?oc=5",
+        "date": "Tue, 18 Aug 2026 07:00:00 GMT"
+      },
+      {
         "title": "La Comisión de Juicio Político desestimó la denuncia contra José García - Informate Salta",
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDBzRlFDTk44bkM0dl8ydkNwWll1SXM5TnlveHVVZlBoNGJ4RnhJeWN1bDEzLTZjUURGUWNBbWZiUm91Q04wZkJjTnZRM1hTV0xwc3d4cmF5bHJVLVh1MVZtbzh5VGZVR3VrRE1mNG9fb0NlSGJSZ1ZYNkVTVC1xMHA1NVByZ3JkQnltbzRWRnp3UHQ5XzVwUFc4cEVlV1lMVWI2ak9Yaks2cVh4UU5keXJMMEFsV3FIUkNtb3REbHVPSF9iSENVOEpuYlhPV1RTanlVcUR30gHkAUFVX3lxTE02VFVsb09vcUpvQkJ1dHZyR1gxcmlVbElYMGpXalYyNFZERlVVVkkzYkFQM0FpVGtfbENBb2pDTllBQ2VDWEp5d0JSdTM3OG42X0w5N1JXR1dQOW5nckI2Q0FXYks5WjBGWHJrSFd4X2tLWHh1cm10dDRlTUhndHN3WERvNzZTSHF2ODljNFN2cmtmZ1lyRDdGeFFrYk82NGl6eEF5ZU1wdklSbVFrWlNFMmFTYlM1bWkwbDlkRGNRdG9ZT3hOeE5jRG1hMWVuZHAtZlFjb2pXcEkweFc2Y1drSUVBZQ?oc=5",
@@ -16031,6 +16076,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "José García y Pablo López: las diferencias en la Comisión de Disciplina y Juicio Político - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZl9TQlNkY3g3U1FJbjBRUmlucldjbGZ5S3dwUVpUUWhXRG44bjQxMHpGM0NmZTNlWDVzY1RKM1JTTTdBb1VHbUoxTHk2YXk2czN2UXlINVlnbVBSNHFFcmFyd2F5dHVkYWdHVDA2WW4wRXB0RERiN21rRmpsaEhYcXlfdUFyS3F4ZUUyWnhncUtnMGRuZnROTUdpVHVGY0VJZUhPMFZjMjV1SGp4eHkwMkJCNDMtQWhDQkY4cUFfNU44aGczbDF0c05WLXJ4cWNCUWlKY1RaaEdkN1pwRE5reEk4UXk3eGlEclHSAfgBQVVfeXFMTW9CTElFTEJzd0E0NHdmY1prOVVtZXh4NDQyeHR2d3k1RElyc194TVc2UkZWX1NBWTBsSUU3dTZaZkhsQ1Z5N3VRV01SaFdVbkhyUlctejV6OExtVlFFVU8xU1lLNzV1eVVfdzIxcWRrRktaTlhMWFlGaGZpZENTSVFrRy1ZTlBydEFEdVc2WTZTU3Q5TGRtLW1iNTE0S1RyWU1JRFpmX2VOVGV3bjJCMWN3VVZGQl9ZaEEwZ3p2R2gyWWp2MGNQb2lPRWJDR01Rd0JsWnk5dmlhMnFpZnc5QVRiMVozdGxaNGg5OUpZTWhlWXRHUTBOLTk?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El concejal Jose García en una nueva polémica : \"Amigos son los huevos y se golpean entre ellos\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUllDWlR3UC1mdE5CNGdpWExJRERPOGVfUlVsU1pUSW1DbGd6WEdkaVh5Ujk0N3QtYmlQY1U1NVowaUxBRTQ3c01kRUJHSC1Uc3ZsTENSZzZSdURNNmZZUEFTNXBLYWRDU0ktOWUtdmw2N1hIVmJ2cjk3RXc2dEJybldlekNrbjFvOGhOcjAyN3F1bEFSNzdpLTVFQW5nWXFyZXRMMnliamppRGJlYmFxYWZnTUVJa3B1cVIwQ1pvOTQ1NkQwNVA5U3BMUU9NZ0FZUlRhTnN3OUfSAd4BQVVfeXFMTjMyaUNIQW41M0dMSmE1bWhzYTVsZDVEVzJDNHJpN1p2a3p2MVFfZWUxbkxWWkoxVzg4S1BGaS1GclFqTEtXWmNPWkd3dTVUVFRQX0l2R0VZd2FSRXBPZTRzUkZhNy1pd0lsMC1nTDRiVWhIS0JNdXFqUXB3ZDR4SkRTQWVpNVpIVzFaRVJzelQyY1VsWTlIeVJ5TFVzVjFocEZJZEVRT0o3RkdTTGpUQnJzTjlSZFlyV2RVc2xuMDMzS1NTdEFGZHg2SmZIQlUtSUJSNFdaUVphVER0c2l3?oc=5",
@@ -21356,13 +21408,21 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 12,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 1,
-      "neutral": 9
+      "negativo": 2,
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "Mon, 24 Au": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "Mon, 05 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Mon, 27 Oc": {
         "total": 2,
         "score_sum": 0
@@ -21403,14 +21463,26 @@
     "top_topics": [
       {
         "term": "bruno",
-        "count": 5
+        "count": 7
       },
       {
         "term": "eliana",
-        "count": 4
+        "count": 6
       },
       {
         "term": "elintra",
+        "count": 3
+      },
+      {
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
+        "count": 2
+      },
+      {
+        "term": "informate",
         "count": 2
       },
       {
@@ -21419,6 +21491,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "prohibiciones y ninguneos",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkS9IBhAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkSw?oc=5",
+        "date": "Mon, 05 Oct 2026 11:01:00 GMT"
+      },
       {
         "quote": "Quieren hacer una PyME de La Libertad Avanza",
         "source": "Elintra.com.ar",
@@ -21440,6 +21518,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Con La Libertad Avanza en crisis, Eliana Bruno se acerca cada vez más al saencismo - elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUlqRTFmRnRlV0x1MTBjR1o2dmp6b25UZ2xOcm5PTTVyelNuZER2OXhXbHg4eXNfMDJFZVY5REVOaDFEeXYwTVAxLUk3S2tBY3otMUx1bm9NaHkyaE9qM1VjcEFyWDNTQkZCQ3BpYXJUNzFzSmhEZ2VvaXVxaVZlV2pGNDVDbXJYM3dBNWFnNExlTm56SWVibjI3clNEU0RlaGpsUllib19iZERfSlRqbmtXNlliZUE?oc=5",
+        "source": "elintra.com.ar",
+        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Internas de LLA en Salta: Eliana Bruno apoyó la impugnación y habló de “prohibiciones y ninguneos” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkS9IBhAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkSw?oc=5",
+        "source": "Informate Salta",
+        "date": "Mon, 05 Oct 2026 11:01:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Eliana Bruno reemplazará a Emilia Orozco como diputada nacional - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFVnY2FLMld0X20yQ21zUE00Sm5IQkszLWQ4bHczV1pucDZJNWZ1a05fWlBXODBLa3dFeUxyQ1BwWXRHaWduM0pOQzM4SmRWWFA3dHdkYmlVVkFjNW5tejY3ZWxVRVc1R2Q4WTMtZ0g3RHZYSVpoVW1RVmVBckxIcWxBUXdBbWlhTmZZUEdGejdRd3BOQktOOUhMTXlMT0E?oc=5",
@@ -24865,13 +24957,17 @@
     "id": "dip-eduardo-jose-virgili",
     "name": "Eduardo José Virgili",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "Fri, 21 Au": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Fri, 02 Oc": {
         "total": 1,
         "score_sum": -4
@@ -24912,18 +25008,24 @@
     "top_topics": [
       {
         "term": "eduardo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "virgili",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "No estamos bien todavía",
+        "source": "elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0kwak05TVBqZDU2Qzk5S0V6YnBEZjNYN0t4ZU1HamF1WVdWcG1ad3hfa2x4LVU1VGhHTXVHZmR6ZDRtNjJkVWExLXBFMzl0a0FZMVZIOTU4ZGhKek8yX0NVUDZDalFCbWJPLVVRMTRPY3NJSEY0bjk2TGJlSE5rWmt2dWlGVVlJRmEzSGp1ZmRuNzgwRkFaTjdXMXJ3RmJRYlg3djRDYWtEVVBsNk5EZEppbEw4UzNFM2lXYnY3TklrVzJUR2xkeFExOTVZUXU5S0RVTg?oc=5",
+        "date": "Fri, 21 Aug 2026 18:55:23 GMT"
+      },
       {
         "quote": "Javier Milei está haciendo una transformación de mentalidad profunda",
         "source": "Elintra.com.ar",
@@ -24945,6 +25047,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“No estamos bien todavía”: Eduardo Virgili reconoció las dificultades de la gente para llegar a fin de mes - elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0kwak05TVBqZDU2Qzk5S0V6YnBEZjNYN0t4ZU1HamF1WVdWcG1ad3hfa2x4LVU1VGhHTXVHZmR6ZDRtNjJkVWExLXBFMzl0a0FZMVZIOTU4ZGhKek8yX0NVUDZDalFCbWJPLVVRMTRPY3NJSEY0bjk2TGJlSE5rWmt2dWlGVVlJRmEzSGp1ZmRuNzgwRkFaTjdXMXJ3RmJRYlg3djRDYWtEVVBsNk5EZEppbEw4UzNFM2lXYnY3TklrVzJUR2xkeFExOTVZUXU5S0RVTg?oc=5",
+        "source": "elintra.com.ar",
+        "date": "Fri, 21 Aug 2026 18:55:23 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Eduardo Virgili defendió los cambios en discapacidad y cuestionó las críticas al Presupuesto - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVW9waFQzNy04dk5oSmc4UThfTFNSOURqTkhhdV81d09Ob3Z4T0pCOWFfb2RadHpqcmxWcUwxclFLYU8wNDRpeS1FZVlkLWFkcWNweFEyNzlHT2tHcDJHejlwc0NVTUg1ZGtEZDVPUENnclpwSmpNLTVHcWNTZ3EyTmpWZll2cjBQZ1NobWNSN0pIUEViMkJ6Tm1VRjFIcjBRRUE1bEV2Mk5hUk1jSFJIZ2QwTkgzRXdOQTZMWk9vQmdRM1dHbVE?oc=5",
