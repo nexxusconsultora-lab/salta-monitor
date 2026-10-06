@@ -4,12 +4,15 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>NEWAR — Personas, cargos, evidencia y prensa de Salta</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-:root{--paper:#F3EEE2;--raised:#FBF8F1;--ink:#211D1A;--soft:#5C554C;--line:#D9D1BF;--clay:#B1502E;--indigo:#2B3A55;--pos:#4C7A5D;--neg:#8B3A3A;--neu:#8A8072;--warn:#F6E7D8}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#211D1A;--raised:#2B2621;--ink:#F3EEE2;--soft:#B9B0A0;--line:#45403A;--clay:#D97A52;--indigo:#9DB1D8;--warn:#3a2c22}}
+/* Tipografías alojadas en el repositorio (licencia OFL, ver fonts/LICENSE-*.txt). Subset latin: cubre español completo. */
+@font-face{font-family:Newsreader;font-style:normal;font-weight:200 800;font-display:swap;src:url(fonts/newsreader-latin-opsz-normal.woff2) format('woff2')}
+@font-face{font-family:Newsreader;font-style:italic;font-weight:200 800;font-display:swap;src:url(fonts/newsreader-latin-opsz-italic.woff2) format('woff2')}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/inter-latin-wght-normal.woff2) format('woff2')}
+:root{--paper:#F3EEE2;--raised:#FBF8F1;--ink:#211D1A;--soft:#5C554C;--line:#D9D1BF;--clay:#B1502E;--indigo:#2B3A55;--pos:#4C7A5D;--neg:#8B3A3A;--neu:#6F665A;--warn:#F6E7D8;--onind:#fff;--onclay:#fff;--negtx:#8B3A3A}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#211D1A;--raised:#2B2621;--ink:#F3EEE2;--soft:#B9B0A0;--line:#45403A;--clay:#D97A52;--indigo:#9DB1D8;--warn:#3a2c22;--onind:#211D1A;--onclay:#211D1A;--negtx:#E59A9A}}
 *{box-sizing:border-box}html,body{margin:0;height:100%}
 body{background:var(--paper);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif}
 h1,h2,h3,.serif{font-family:Newsreader,Georgia,serif}a{color:inherit}
@@ -27,7 +30,7 @@ h2.sec:first-child{margin-top:0}
 .empty{color:var(--soft);font-size:.9rem}.note{font-size:.8rem;color:var(--soft)}
 .ctl{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}
 .ctl input,.ctl select,.ctl button{font:inherit;font-size:.9rem;padding:.5rem .7rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink)}
-.ctl input[type=search]{flex:1 1 240px}.ctl button{cursor:pointer}.ctl button.on{background:var(--indigo);color:#fff}
+.ctl input[type=search]{flex:1 1 240px}.ctl button{cursor:pointer}.ctl button.on{background:var(--indigo);color:var(--onind)}
 .ctl label{display:flex;align-items:center;gap:.35rem;font-size:.85rem}.ctl input[type=checkbox]{padding:0}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
 .card{display:block;text-decoration:none;background:var(--raised);border:1px solid var(--line);padding:1rem 1.2rem}
@@ -37,14 +40,14 @@ a.row2{text-decoration:none}a.row2:hover{background:var(--raised)}
 .nm{font-weight:600;overflow-wrap:anywhere}.meta{font-size:.8rem;color:var(--soft)}
 .tag{display:inline-block;font-size:.7rem;font-weight:600;padding:.1rem .5rem;border-radius:2px;color:#fff;background:var(--neu)}
 .tag.vigente,.tag.positivo{background:var(--pos)}.tag.negativo{background:var(--neg)}.tag.no-vigente,.tag.neutral{background:var(--neu)}
-.flag{display:inline-block;font-size:.72rem;font-weight:600;color:#fff;background:var(--clay);padding:.1rem .5rem;border-radius:2px;margin:.15rem .3rem 0 0}
+.flag{display:inline-block;font-size:.72rem;font-weight:600;color:var(--onclay);background:var(--clay);padding:.1rem .5rem;border-radius:2px;margin:.15rem .3rem 0 0}
 .warn{display:block;margin:.5rem 0;font-size:.82rem;background:var(--warn);border-left:3px solid var(--clay);padding:.5rem .75rem}
 .person{background:var(--raised);border:1px solid var(--line);padding:1.25rem 1.5rem}.person h2{margin:0 0 .2rem;font-size:1.7rem;overflow-wrap:anywhere}
 .cargo{border-left:3px solid var(--indigo);padding:.4rem 0 .4rem 1rem;margin-bottom:.8rem}
-h4{margin:1.5rem 0 .5rem;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:var(--soft)}
+.sh{font:700 .82rem/1.5 Inter,system-ui,sans-serif;margin:1.5rem 0 .5rem;text-transform:uppercase;letter-spacing:.04em;color:var(--soft)}.sh.neg{color:var(--negtx)}
 .boxes{display:flex;gap:.6rem;flex-wrap:wrap}.box{border:1px solid var(--line);padding:.4rem .9rem;background:var(--paper)}.box b{display:block;font:700 1.4rem Newsreader,serif}.box span{font-size:.75rem;color:var(--soft)}
 .bars{display:flex;align-items:center;gap:2px;height:90px;border-bottom:1px solid var(--line)}
-.bars i{flex:1;min-width:2px;background:var(--pos);align-self:flex-end}.bars i.n{background:var(--neg)}
+.bars i{flex:1;min-width:2px;background:var(--pos);align-self:flex-end}.bars i.n{background:var(--negtx)}
 .bars .z{flex:1;height:100%;display:flex;align-items:flex-end}.bars .z i{display:block;width:100%;flex:none}
 .pill{display:inline-block;border:1px solid var(--line);background:var(--paper);padding:.1rem .6rem;margin:0 .3rem .3rem 0;font-size:.82rem;border-radius:99px}
 .pill.pol{border-color:var(--indigo)}
@@ -53,24 +56,34 @@ h4{margin:1.5rem 0 .5rem;font-size:.82rem;text-transform:uppercase;letter-spacin
 .quote{border-left:3px solid var(--clay);padding:.3rem 0 .3rem 1rem;margin:.6rem 0;font:italic 1.05rem Newsreader,serif}
 .day{font-weight:700;text-transform:capitalize;margin:1.5rem 0 .3rem;border-bottom:1px solid var(--ink)}
 .star{border:1px solid var(--line);background:var(--raised);cursor:pointer;padding:.1rem .45rem;border-radius:2px;color:var(--ink)}.star.on{background:#FCE9C9;border-color:#C99A3A;color:#000}
-.pcol{display:grid;grid-template-columns:1.7fr 1fr;gap:2rem}@media(max-width:860px){.pcol{grid-template-columns:1fr}}
+.pcol{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:2rem}@media(max-width:860px){.pcol{grid-template-columns:minmax(0,1fr)}}
 .pnl{background:var(--raised);border:1px solid var(--line);padding:1rem;margin-bottom:1rem}
 .more{font:inherit;padding:.55rem 1rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink);cursor:pointer;margin-top:1rem}
 details summary{cursor:pointer;color:var(--indigo);font-weight:600;font-size:.88rem}
 .ev{border-bottom:1px solid var(--line);padding:.4rem 0;font-size:.82rem;color:var(--soft);overflow-wrap:anywhere}.ev b{color:var(--ink)}
 footer{font-size:.78rem;color:var(--soft);border-top:1px solid var(--line);padding-top:1rem;margin-top:2.5rem}
+/* Responsive y accesibilidad */
+.tag.ind{background:var(--indigo);color:var(--onind)}
+.ctl select,.ctl input{min-width:0;max-width:100%}.ctl select{text-overflow:ellipsis}
+.art>div{min-width:0}.art .t,.art .meta{overflow-wrap:anywhere}
+.star{flex:none;min-width:2rem;min-height:2rem}
+:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+#app:focus,#app h2:focus{outline:none}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--paper);padding:.6rem 1rem;z-index:10;border:0;font:inherit;cursor:pointer}.skip:focus{left:.5rem;top:calc(.5rem + env(safe-area-inset-top,0px))}
 </style>
 </head>
 <body>
-<nav class="top"><div class="row"><h1>NEWAR</h1><span class="upd" id="upd"></span></div><div class="tabs" id="tabs"></div></nav>
-<div class="wrap" id="app"><p class="empty">Cargando datos…</p></div>
+<button class="skip" id="skip" type="button">Saltar al contenido</button>
+<nav class="top" aria-label="Secciones de NEWAR"><div class="row"><h1>NEWAR</h1><span class="upd" id="upd"></span></div><div class="tabs" id="tabs"></div></nav>
+<main class="wrap" id="app" tabindex="-1"><p class="empty">Cargando datos…</p></main>
 
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>/^https?:\/\//i.test(u||'')?u:'#';
 const fold=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const J=async(n,fb)=>{if(window.NEWAR_EMBED&&n in NEWAR_EMBED)return NEWAR_EMBED[n];try{const r=await fetch('data/'+n+'.json?_='+Date.now());if(!r.ok)throw 0;return await r.json()}catch(e){return fb}};
+const FAIL=[];
+const J=async(n,fb)=>{if(window.NEWAR_EMBED&&n in NEWAR_EMBED)return NEWAR_EMBED[n];try{const r=await fetch('data/'+n+'.json?_='+Date.now());if(!r.ok)throw 0;return await r.json()}catch(e){FAIL.push(n);return fb}};
 const fdate=(v,o)=>{const d=new Date(v);return isNaN(d)?'':d.toLocaleString('es-AR',o||{dateStyle:'short',timeStyle:'short'})};
 function rel(d){const s=(Date.now()-d)/1000;if(s<0)return'ahora';if(s<3600)return`hace ${Math.max(1,Math.round(s/60))} min`;if(s<86400)return`hace ${Math.round(s/3600)} h`;if(s<604800)return`hace ${Math.round(s/86400)} d`;return fdate(d,{dateStyle:'medium'})}
 /* Destacados (misma clave que el Radar: las estrellas existentes se conservan) */
@@ -78,10 +91,11 @@ const SK='radar_destacados_v1';
 const stars=()=>{try{return JSON.parse(localStorage.getItem(SK)||'[]')}catch(e){return[]}};
 const setStars=l=>{try{localStorage.setItem(SK,JSON.stringify(l))}catch(e){}};
 const isStar=id=>stars().some(s=>s.id===id);
-const starBtn=m=>`<button class="star${isStar(m.id)?' on':''}" data-m="${encodeURIComponent(JSON.stringify(m))}" title="Destacar (solo en este navegador)">${isStar(m.id)?'★':'☆'}</button>`;
+const starLbl=(on,t)=>(on?'Quitar de destacados: ':'Destacar: ')+String(t||'').slice(0,90);
+const starBtn=m=>{const on=isStar(m.id);return`<button class="star${on?' on':''}" data-m="${encodeURIComponent(JSON.stringify(m))}" aria-pressed="${on}" aria-label="${esc(starLbl(on,m.title))}" title="Destacar (solo en este navegador)">${on?'★':'☆'}</button>`};
 document.addEventListener('click',e=>{const b=e.target.closest('.star');if(!b)return;let m;try{m=JSON.parse(decodeURIComponent(b.dataset.m))}catch(x){return}
  const l=stars(),i=l.findIndex(s=>s.id===m.id);if(i>=0)l.splice(i,1);else l.push({...m,starred_at:new Date().toISOString()});setStars(l);
- const on=i<0;b.textContent=on?'★':'☆';b.classList.toggle('on',on)});
+ const on=i<0;b.textContent=on?'★':'☆';b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.setAttribute('aria-label',starLbl(on,m.title))});
 
 /* ---------- Modelo NEWAR: persona / cargo / evidencia, derivado de la nómina ---------- */
 const INST={'Ejecutivo':['Poder Ejecutivo de Salta','Provincia de Salta','provincial'],'Diputados':['Cámara de Diputados de Salta','Provincia de Salta','provincial'],'Senado':['Cámara de Senadores de Salta','Provincia de Salta','provincial'],'Concejo Deliberante':['Concejo Deliberante de la Ciudad de Salta','Municipio de la Ciudad de Salta','municipal'],'Diputados de la Nación':['Cámara de Diputados de la Nación','República Argentina','nacional'],'Senado de la Nación':['Cámara de Senadores de la Nación','República Argentina','nacional']};
@@ -108,8 +122,8 @@ function toneBars(sbd){const days=Object.keys(sbd||{}).sort().slice(-45);if(!day
  return`<div class="bars">${days.map(d=>{const s=sbd[d].score_sum;return`<div class="z" title="${d}: ${s}"><i class="${s<0?'n':''}" style="height:${Math.max(3,Math.abs(s)/mx*100)}%"></i></div>`}).join('')}</div><p class="note">Balance de tono por día (verde: positivo, rojo: negativo). Heurística por palabras clave.</p>`}
 const quotes=(l,pre)=>l&&l.length?l.map((q,i)=>`<div class="art"><div><div class="quote">“${esc(q.quote)}”</div><span class="meta">${esc(q.source)} · <a href="${esc(safe(q.link))}" target="_blank" rel="noopener">ver nota original</a></span></div>${starBtn({id:pre+i,type:'cita',title:q.quote,link:q.link,source:q.source,date:q.date})}</div>`).join(''):'<p class="empty">Todavía no se detectaron citas textuales.</p>';
 const arts=l=>l&&l.length?l.map(a=>`<div class="art"><div><div class="meta"><span class="tag ${esc(a.sentiment_label)}">${esc(a.sentiment_label)}</span> ${esc(a.source)} · ${fdate(a.date)}</div><p class="t"><a href="${esc(safe(a.link))}" target="_blank" rel="noopener">${esc(a.title)}</a></p></div>${starBtn({id:a.link,type:'articulo',title:a.title,link:a.link,source:a.source,date:a.date})}</div>`).join(''):'<p class="empty">Sin artículos todavía.</p>';
-const ofCard=it=>`<article class="art"><div style="min-width:0"><div class="meta"><span class="tag">${esc(it.jurisdiccion||'—')}</span> <span class="tag" style="background:var(--indigo)">${esc(it.tipo_acto||'Otro')}</span> ${esc(it.organismo||it.fuente)} · ${esc(it.fecha_publicacion||(it.first_seen||'').slice(0,10))}</div><p class="t"><a href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.titulo)}</a></p>${it.resumen?`<p class="meta">${esc(it.resumen)}</p>`:''}${(it.personas||[]).map(id=>`<a class="pill pol" href="#/persona/${encodeURIComponent(id)}">${esc((S.polById[id]||{}).name||id)}</a>`).join('')}${it.personas&&it.personas.length&&it.contexto?`<p class="meta">Apareció en: “${esc(it.contexto)}”</p>`:''}</div>${starBtn({id:'oficial-'+it.id,type:'oficial',title:it.titulo,link:it.url,source:it.fuente,date:it.fecha_publicacion})}</article>`;
-function pager(el,items,render,size){let n=size;const draw=()=>{el.innerHTML=items.slice(0,n).map(render).join('')+(items.length>n?'<button class="more">Mostrar más</button>':'');const b=el.querySelector('.more');if(b)b.onclick=()=>{n+=size;draw()}};draw()}
+const ofCard=it=>`<article class="art"><div style="min-width:0"><div class="meta"><span class="tag">${esc(it.jurisdiccion||'—')}</span> <span class="tag ind">${esc(it.tipo_acto||'Otro')}</span> ${esc(it.organismo||it.fuente)} · ${esc(it.fecha_publicacion||(it.first_seen||'').slice(0,10))}</div><p class="t"><a href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.titulo)}</a></p>${it.resumen?`<p class="meta">${esc(it.resumen)}</p>`:''}${(it.personas||[]).map(id=>`<a class="pill pol" href="#/persona/${encodeURIComponent(id)}">${esc((S.polById[id]||{}).name||id)}</a>`).join('')}${it.personas&&it.personas.length&&it.contexto?`<p class="meta">Apareció en: “${esc(it.contexto)}”</p>`:''}</div>${starBtn({id:'oficial-'+it.id,type:'oficial',title:it.titulo,link:it.url,source:it.fuente,date:it.fecha_publicacion})}</article>`;
+function pager(el,items,render,size){let n=size;const draw=()=>{el.innerHTML=items.slice(0,n).map(render).join('')+(items.length>n?'<button class="more">Mostrar más</button>':'');const b=el.querySelector('.more');if(b)b.onclick=()=>{const prev=n;n+=size;draw();const nx=el.children[prev];if(nx){if(!nx.matches('a[href],button'))nx.tabIndex=-1;nx.focus()}}};draw()}
 
 /* ---------- Vistas ---------- */
 const V={};
@@ -133,7 +147,7 @@ V.personas=()=>{
   pager($('#res'),l,p=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><div><div class="nm">${esc(p.nombre)}</div><div class="meta">${esc(p.cargo)} · ${esc(p.inst)}${total(p.id)?' · '+total(p.id)+' menciones':''}</div>${revPor[p.id]?'<span class="flag">Identidad en revisión</span>':''}</div>${badge(p.v)}</a>`,60);
   $('#cnt').textContent=l.length+' personas'};
   ['q','fi','fv','fs'].forEach(id=>$('#'+id).addEventListener('input',go));go()});
- return`<h2 class="sec">Personas</h2><div class="ctl"><input type="search" id="q" placeholder="Buscar por nombre… (probá 'sáenz', 'caro', 'navarro')" autocomplete="off"><select id="fi"><option value="">Todas las instituciones</option>${insts.map(i=>`<option>${esc(i)}</option>`).join('')}</select><select id="fv"><option value="">Vigentes y no vigentes</option><option value="1">Solo vigentes</option><option value="0">Solo no vigentes</option></select><select id="fs"><option value="n">Orden alfabético</option><option value="m">Más mencionados</option></select></div><p class="note" id="cnt"></p><div id="res"></div>
+ return`<h2 class="sec">Personas</h2><div class="ctl"><input type="search" id="q" aria-label="Buscar persona por nombre" placeholder="Buscar por nombre… (probá 'sáenz', 'caro', 'navarro')" autocomplete="off"><select id="fi" aria-label="Institución"><option value="">Todas las instituciones</option>${insts.map(i=>`<option>${esc(i)}</option>`).join('')}</select><select id="fv" aria-label="Vigencia"><option value="">Vigentes y no vigentes</option><option value="1">Solo vigentes</option><option value="0">Solo no vigentes</option></select><select id="fs" aria-label="Orden"><option value="n">Orden alfabético</option><option value="m">Más mencionados</option></select></div><p class="note" id="cnt"></p><div id="res"></div>
  <footer>Si dos filas de la nómina tienen el mismo nombre, NEWAR no las fusiona: la fila repetida queda “en revisión” hasta que una persona decida. Vigencia y período se muestran tal como están registrados, sin interpretarlos.</footer>`};
 
 V.persona=id=>{
@@ -142,12 +156,12 @@ V.persona=id=>{
  const av=(revPor[id]||[]).map(r=>`<span class="warn">La nómina contiene otra fila con este nombre (<code>${esc(r)}</code>) que <b>no se incorporó</b> por posible duplicado. Queda pendiente de revisión humana; no se asumió que sea la misma persona.</span>`).join('');
  const ETQ={nombre:'Nombre',vigente:'Vigencia',desde:'Desde',hasta:'Hasta'};
  const cargo=`<div class="cargo"><div class="nm">${esc(p.cargo)} ${badge(p.v)}</div><div class="meta">${esc(p.inst)} · ${esc(p.jur)}${p.niv?' ('+p.niv+')':''}${p.bloque?' · bloque '+esc(p.bloque):''}</div><div class="meta">Desde: ${p.desde?esc(p.desde):'Sin fecha de inicio registrada'} · Hasta: ${p.hasta?esc(p.hasta):'Sin fecha de finalización registrada'}</div></div>`;
- const prensa=d?`${boxes(d.total_mentions,d.sentiment_breakdown)}<h4>Tono en el tiempo</h4>${toneBars(d.sentiment_by_day)}<h4>Temas asociados</h4>${(d.top_topics||[]).map(t=>`<span class="pill">${esc(t.term)} · ${t.count}</span>`).join('')||'<p class="empty">Sin datos.</p>'}
- ${(d.legal_mentions||[]).length?`<h4 style="color:var(--neg)">Menciones con vocabulario judicial en prensa</h4><p class="warn"><b>No es una acusación ni una verificación legal.</b> Son notas cuyo título usa palabras como “denuncia” o “imputado”; pueden referirse a un tercero o ser una desmentida. Leé siempre la nota original.</p>${d.legal_mentions.map(l=>`<div class="art"><a href="${esc(safe(l.link))}" target="_blank" rel="noopener">${esc(l.title)}</a><span class="meta">${esc(l.source)}</span></div>`).join('')}`:''}
- <h4>Declaraciones citadas por los medios</h4>${quotes(d.quotes,'q-'+id+'-')}<h4>Artículos recientes</h4>${arts(d.recent_articles)}
+ const prensa=d?`${boxes(d.total_mentions,d.sentiment_breakdown)}<h3 class="sh">Tono en el tiempo</h3>${toneBars(d.sentiment_by_day)}<h3 class="sh">Temas asociados</h3>${(d.top_topics||[]).map(t=>`<span class="pill">${esc(t.term)} · ${t.count}</span>`).join('')||'<p class="empty">Sin datos.</p>'}
+ ${(d.legal_mentions||[]).length?`<h3 class="sh neg">Menciones con vocabulario judicial en prensa</h3><p class="warn"><b>No es una acusación ni una verificación legal.</b> Son notas cuyo título usa palabras como “denuncia” o “imputado”; pueden referirse a un tercero o ser una desmentida. Leé siempre la nota original.</p>${d.legal_mentions.map(l=>`<div class="art"><a href="${esc(safe(l.link))}" target="_blank" rel="noopener">${esc(l.title)}</a><span class="meta">${esc(l.source)}</span></div>`).join('')}`:''}
+ <h3 class="sh">Declaraciones citadas por los medios</h3>${quotes(d.quotes,'q-'+id+'-')}<h3 class="sh">Artículos recientes</h3>${arts(d.recent_articles)}
  <p class="note">Las menciones las atribuye el monitor por alias del nombre; no está verificado que todas correspondan a la misma persona física. Las citas son extracción textual, no verificación periodística.</p>`:'<p class="empty">Sin menciones registradas por el monitor para esta persona.</p>';
  const evd=`<details><summary>Ver evidencia (${p.ev.length} datos respaldados)</summary>${p.ev.map(i=>`<div class="ev"><b>${ETQ[i.campo]}:</b> ${esc(i.campo==='vigente'?(i.valor?'vigente':'no vigente'):i.valor)}<br>Fuente: ${esc(i.fuente)} · ${/^https?:/.test(i.url||'')?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.url)}</a>`:'sin URL'}<br>Verificado en: ${esc(i.obs||'sin fecha')}</div>`).join('')}<p class="note">La fuente es la nómina (<code>politicians.json</code>); la URL es la página oficial que cita y la fecha es la de su verificación declarada. No es una verificación independiente.</p></details>`;
- return`<p><a href="#/personas">← Volver al listado</a></p><div class="person"><h2>${esc(p.nombre)}</h2><div class="meta">identificador de la nómina: <code>${esc(p.id)}</code></div>${av}<h4>Cargos</h4>${cargo}<h4>Prensa</h4>${prensa}<h4>Publicaciones oficiales que nombran a esta persona</h4>${ofs.length?ofs.map(ofCard).join(''):'<p class="empty">Ninguna registrada. (Se busca el nombre completo en boletines y sitios oficiales.)</p>'}<h4>Evidencia</h4>${evd}</div>`};
+ return`<p><a href="#/personas">← Volver al listado</a></p><div class="person"><h2>${esc(p.nombre)}</h2><div class="meta">identificador de la nómina: <code>${esc(p.id)}</code></div>${av}<h3 class="sh">Cargos</h3>${cargo}<h3 class="sh">Prensa</h3>${prensa}<h3 class="sh">Publicaciones oficiales que nombran a esta persona</h3>${ofs.length?ofs.map(ofCard).join(''):'<p class="empty">Ninguna registrada. (Se busca el nombre completo en boletines y sitios oficiales.)</p>'}<h3 class="sh">Evidencia</h3>${evd}</div>`};
 
 V.menciones=()=>{
  const act=p=>!p||p.vigencia!=='ex';let n=80;
@@ -162,13 +176,13 @@ V.menciones=()=>{
   const a=S.agg||{};$('#mtr').innerHTML=(a.trending_terms||[]).map(t=>`<div class="row2"><span>${esc(t.term)}</span><span class="meta">${t.count}</span></div>`).join('')||'<p class="empty">Sin datos.</p>';
   $('#mco').innerHTML=(a.comentions||[]).map(c=>`<div class="row2"><span>${esc(c.a)} + ${esc(c.b)}</span><span class="meta">${c.count}</span></div>`).join('')||'<p class="empty">Sin cruces detectados.</p>'});
  const pols=personas.filter(p=>total(p.id)).sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
- return`<h2 class="sec">Menciones en prensa</h2><div class="pcol"><div><div class="ctl"><select id="mp"><option value="">Todas las personas</option>${pols.map(p=>`<option value="${esc(p.id)}">${esc(p.nombre)}${p.v===0?' (ex)':''}</option>`).join('')}</select><select id="mt"><option value="">Cualquier tono</option><option value="positivo">Positivo</option><option value="neutral">Neutral</option><option value="negativo">Negativo</option></select><input type="search" id="mk" placeholder="Palabra clave…"></div><div class="ctl"><select id="mh"><option value="0">Cualquier fecha</option><option value="3">Últimas 3 horas</option><option value="24">Últimas 24 horas</option><option value="72">Últimos 3 días</option><option value="168">Últimos 7 días</option><option value="720">Últimos 30 días</option></select><select id="ms"><option value="">Todos los medios</option>${meds.map(m=>`<option>${esc(m)}</option>`).join('')}</select><label><input type="checkbox" id="mx"> Incluir ex funcionarios</label></div><p class="note" id="mc"></p><div id="mf"></div></div>
+ return`<h2 class="sec">Menciones en prensa</h2><div class="pcol"><div><div class="ctl"><select id="mp" aria-label="Persona"><option value="">Todas las personas</option>${pols.map(p=>`<option value="${esc(p.id)}">${esc(p.nombre)}${p.v===0?' (ex)':''}</option>`).join('')}</select><select id="mt" aria-label="Tono"><option value="">Cualquier tono</option><option value="positivo">Positivo</option><option value="neutral">Neutral</option><option value="negativo">Negativo</option></select><input type="search" id="mk" aria-label="Filtrar por palabra clave" placeholder="Palabra clave…"></div><div class="ctl"><select id="mh" aria-label="Fecha"><option value="0">Cualquier fecha</option><option value="3">Últimas 3 horas</option><option value="24">Últimas 24 horas</option><option value="72">Últimos 3 días</option><option value="168">Últimos 7 días</option><option value="720">Últimos 30 días</option></select><select id="ms" aria-label="Medio"><option value="">Todos los medios</option>${meds.map(m=>`<option>${esc(m)}</option>`).join('')}</select><label><input type="checkbox" id="mx"> Incluir ex funcionarios</label></div><p class="note" id="mc"></p><div id="mf"></div></div>
  <aside><div class="pnl"><b>Temas en tendencia</b><p class="note">Palabras más repetidas en títulos, últimas 48 h.</p><div id="mtr"></div></div><div class="pnl"><b>Menciones cruzadas</b><p class="note">Personas que aparecen juntas en la misma noticia.</p><div id="mco"></div></div></aside></div>`};
 
 V.temas=()=>{const l=Object.values(S.top.topics||{});return`<h2 class="sec">Temas seguidos</h2><p class="lede">Además de personas, se siguen temas puntuales (una obra, un presupuesto, una causa). Se configuran en <code>data/topics.json</code>.</p>${l.length?l.map(t=>`<a class="row2" href="#/tema/${encodeURIComponent(t.id)}"><span class="nm">${esc(t.name)}<br><span class="meta">${t.sentiment_breakdown.positivo} positivas · ${t.sentiment_breakdown.negativo} negativas · ${t.politicians_involved.length} personas involucradas</span></span><span class="meta">${t.total_mentions} menciones</span></a>`).join(''):'<p class="empty">No hay temas configurados todavía.</p>'}`};
 V.tema=id=>{const t=(S.top.topics||{})[id];if(!t)return'<p class="empty">No hay datos para este tema. <a href="#/temas">Volver</a></p>';
  const byName={};personas.forEach(p=>byName[p.nombre]=p.id);
- return`<p><a href="#/temas">← Volver a temas</a></p><h2 class="sec">${esc(t.name)}</h2>${boxes(t.total_mentions,t.sentiment_breakdown)}<h4>Tono en el tiempo</h4>${toneBars(t.sentiment_by_day)}<h4>Personas involucradas</h4>${t.politicians_involved.map(p=>byName[p.name]?`<a class="pill pol" href="#/persona/${encodeURIComponent(byName[p.name])}">${esc(p.name)} · ${p.count}</a>`:`<span class="pill">${esc(p.name)} · ${p.count}</span>`).join('')||'<p class="empty">Sin identificar.</p>'}<h4>Declaraciones citadas</h4>${quotes(t.quotes,'tq-'+id+'-')}<h4>Artículos recientes</h4>${arts(t.recent_articles)}`};
+ return`<p><a href="#/temas">← Volver a temas</a></p><h2 class="sec">${esc(t.name)}</h2>${boxes(t.total_mentions,t.sentiment_breakdown)}<h3 class="sh">Tono en el tiempo</h3>${toneBars(t.sentiment_by_day)}<h3 class="sh">Personas involucradas</h3>${t.politicians_involved.map(p=>byName[p.name]?`<a class="pill pol" href="#/persona/${encodeURIComponent(byName[p.name])}">${esc(p.name)} · ${p.count}</a>`:`<span class="pill">${esc(p.name)} · ${p.count}</span>`).join('')||'<p class="empty">Sin identificar.</p>'}<h3 class="sh">Declaraciones citadas</h3>${quotes(t.quotes,'tq-'+id+'-')}<h3 class="sh">Artículos recientes</h3>${arts(t.recent_articles)}`};
 
 V.eventos=()=>{const l=S.ev.events||[];return`<h2 class="sec">Eventos conectados</h2><p class="lede">Noticias de distintas fuentes que probablemente hablan del mismo hecho (ventana de 72 h, por palabras compartidas en el título). <b>Es agrupamiento por texto, no comprensión del contenido</b>: puede juntar notas sin relación.</p>${l.length?l.map(e=>`<div class="pnl"><h3 style="margin:.1rem 0 .5rem">${esc(e.title)}</h3><div><span class="pill">${e.items_count} notas</span><span class="pill">${e.sources.length} medios: ${esc(e.sources.join(', '))}</span>${e.politicians.map(p=>`<span class="pill pol">${esc(p)}</span>`).join('')}${e.topics.map(t=>`<span class="pill">${esc(t)}</span>`).join('')}</div><ul>${e.items.map(i=>`<li><a href="${esc(safe(i.link))}" target="_blank" rel="noopener">${esc(i.title)}</a> — ${esc(i.source)}</li>`).join('')}</ul></div>`).join(''):'<p class="empty">Todavía no se detectaron eventos con varias fuentes.</p>'}`};
 
@@ -177,8 +191,8 @@ V.resumen=()=>{setTimeout(()=>{let h=12;const go=()=>{const cat=$('#rc').value,c
  $('#rn').textContent=h>=9999?`Todo lo guardado (${l.length} notas)`:`Desde ${fdate(cut)} — ${l.length} notas`;
  const g={};l.forEach(n=>{const d=new Date(n.published||n.collected_at);(g[isNaN(d)?'Fecha desconocida':d.toLocaleDateString('es-AR',{weekday:'long',day:'numeric',month:'long'})]=g[isNaN(d)?'Fecha desconocida':d.toLocaleDateString('es-AR',{weekday:'long',day:'numeric',month:'long'})]||[]).push(n)});
  $('#rl').innerHTML=Object.entries(g).map(([d,a])=>`<div class="day">${esc(d)}</div>`+a.map(n=>`<article class="art"><div><div class="meta"><span class="tag">${esc(n.category)}</span> ${esc(n.source||'')} · ${fdate(n.published||n.collected_at,{timeStyle:'short'})}</div><p class="t"><a href="${esc(safe(n.link))}" target="_blank" rel="noopener">${esc(n.title)}</a></p></div>${starBtn({id:n.id,type:'noticia_general',title:n.title,link:n.link,source:n.source,date:n.published})}</article>`).join('')).join('')||'<p class="empty">No hay noticias en esa ventana. Probá ampliarla.</p>'};
- document.querySelectorAll('#rb button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#rb button').forEach(x=>x.classList.remove('on'));b.classList.add('on');h=+b.dataset.h;go()});$('#rc').oninput=go;go()});
- return`<h2 class="sec">Resumen Nacional / Provincial</h2><p class="lede">Noticias generales (no solo de las personas seguidas) de medios nacionales y de Salta, para leer rápido qué pasó en las últimas horas.</p><div class="ctl" id="rb"><button data-h="6">Últimas 6 h</button><button data-h="12" class="on">Últimas 12 h</button><button data-h="24">Últimas 24 h</button><button data-h="9999">Todo</button><select id="rc"><option value="">Nacional + Provincial</option><option>Nacional</option><option>Provincial</option></select></div><p class="note" id="rn"></p><div id="rl"></div>`};
+ document.querySelectorAll('#rb button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#rb button').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');h=+b.dataset.h;go()});$('#rc').oninput=go;go()});
+ return`<h2 class="sec">Resumen Nacional / Provincial</h2><p class="lede">Noticias generales (no solo de las personas seguidas) de medios nacionales y de Salta, para leer rápido qué pasó en las últimas horas.</p><div class="ctl" id="rb"><button data-h="6" aria-pressed="false">Últimas 6 h</button><button data-h="12" class="on" aria-pressed="true">Últimas 12 h</button><button data-h="24" aria-pressed="false">Últimas 24 h</button><button data-h="9999" aria-pressed="false">Todo</button><select id="rc" aria-label="Alcance"><option value="">Nacional + Provincial</option><option>Nacional</option><option>Provincial</option></select></div><p class="note" id="rn"></p><div id="rl"></div>`};
 
 V.oficiales=()=>{const it=S.of.items||[];const opt=k=>[...new Set(it.map(i=>i[k]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')).map(v=>`<option>${esc(v)}</option>`).join('');
  setTimeout(()=>{const go=()=>{const f=$('#of').value,t=$('#ot').value,q=fold($('#oq').value.trim()),pp=$('#op').checked;
@@ -186,7 +200,7 @@ V.oficiales=()=>{const it=S.of.items||[];const opt=k=>[...new Set(it.map(i=>i[k]
    .map((i,x)=>[i,x]).sort((a,b)=>((b[0].fecha_publicacion||(b[0].first_seen||'').slice(0,10))).localeCompare(a[0].fecha_publicacion||(a[0].first_seen||'').slice(0,10))||a[1]-b[1]).map(x=>x[0]);
   $('#oc').textContent=l.length+' publicaciones';pager($('#ol'),l,ofCard,100)};['of','ot','oq','op'].forEach(i=>$('#'+i).addEventListener('input',go));go()});
  const st=Object.values((S.ofst||{}).sources||{});
- return`<h2 class="sec">Publicaciones oficiales</h2><p class="lede">Boletines oficiales, justicia, legislatura y municipio, leídos de sus páginas públicas. Cada publicación lleva el enlace al documento original: esa es la fuente. El nombre marcado es una <b>coincidencia de texto, no una verificación de identidad</b>.</p><div class="ctl"><select id="of"><option value="">Todas las fuentes</option>${opt('fuente')}</select><select id="ot"><option value="">Todos los tipos</option>${opt('tipo_acto')}</select><input type="search" id="oq" placeholder="Buscar en títulos y resúmenes…"><label><input type="checkbox" id="op"> Solo las que nombran a alguien</label></div><p class="note" id="oc"></p><div id="ol"></div>
+ return`<h2 class="sec">Publicaciones oficiales</h2><p class="lede">Boletines oficiales, justicia, legislatura y municipio, leídos de sus páginas públicas. Cada publicación lleva el enlace al documento original: esa es la fuente. El nombre marcado es una <b>coincidencia de texto, no una verificación de identidad</b>.</p><div class="ctl"><select id="of" aria-label="Fuente"><option value="">Todas las fuentes</option>${opt('fuente')}</select><select id="ot" aria-label="Tipo de publicación"><option value="">Todos los tipos</option>${opt('tipo_acto')}</select><input type="search" id="oq" aria-label="Buscar en publicaciones oficiales" placeholder="Buscar en títulos y resúmenes…"><label><input type="checkbox" id="op"> Solo las que nombran a alguien</label></div><p class="note" id="oc"></p><div id="ol"></div>
  <h2 class="sec">Estado de las fuentes</h2>${st.length?st.map(s=>`<div class="row2"><span><span class="tag ${s.state==='ok'?'vigente':s.state==='error'?'negativo':''}">${esc(s.state)}</span> <b>${esc(s.name)}</b><br><span class="meta">${esc(s.message)} · <a href="${esc(safe(s.url))}" target="_blank" rel="noopener">abrir la fuente</a></span></span></div>`).join(''):'<p class="empty">Todavía no corrió el recolector.</p>'}`};
 
 V.destacados=()=>{setTimeout(()=>{document.querySelectorAll('.rm').forEach(b=>b.onclick=()=>{setStars(stars().filter(s=>s.id!==b.dataset.id));route()})});
@@ -195,10 +209,14 @@ V.destacados=()=>{setTimeout(()=>{document.querySelectorAll('.rm').forEach(b=>b.
 
 /* ---------- Router ---------- */
 const TABS=[['inicio','Inicio'],['personas','Personas'],['menciones','Menciones'],['temas','Temas'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados']];
+let firstRoute=true;
 function route(){const [v,arg]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'';
  const tab=(name==='persona')?'personas':(name==='tema'?'temas':name);
- $('#tabs').innerHTML=TABS.map(([k,l])=>`<a href="#/${k}" class="${k===tab?'on':''}">${l}</a>`).join('');
- $('#app').innerHTML=V[name](id);window.scrollTo(0,0)}
+ $('#tabs').innerHTML=TABS.map(([k,l])=>`<a href="#/${k}" class="${k===tab?'on':''}"${k===tab?' aria-current="page"':''}>${l}</a>`).join('');
+ $('#app').innerHTML=(FAIL.length?`<p class="warn" role="alert">No se pudieron cargar estos datos: <code>${esc(FAIL.join(', '))}</code>. Lo que ves puede estar incompleto o vacío.</p>`:'')+V[name](id);window.scrollTo(0,0);
+ document.title='NEWAR — '+(name==='persona'&&byId[id]?byId[id].nombre:(TABS.find(t=>t[0]===tab)||[0,'Inicio'])[1]);
+ const h=$('#app h2');if(!firstRoute&&h){h.tabIndex=-1;h.focus({preventScroll:true})}firstRoute=false}
+$('#skip').addEventListener('click',()=>$('#app').focus());
 window.addEventListener('hashchange',route);
 (async()=>{
  const [pol,agg,men,dos,top,ev,news,of,ofst]=await Promise.all([J('politicians',[]),J('aggregates',null),J('mentions',[]),J('dossiers',{}),J('topics_data',{topics:{}}),J('events',{events:[]}),J('news_general',[]),J('oficiales',{items:[]}),J('oficiales_status',{sources:{}})]);
