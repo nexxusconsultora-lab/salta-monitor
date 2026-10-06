@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-06T21:01:17.049626+00:00",
+  "generated_at": "2026-10-06T22:37:11.935660+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 25,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 19,
+      "score_sum": -8
+    },
+    "snac-flavia-royon": {
+      "total": 60,
+      "positivo": 6,
+      "negativo": 7,
+      "neutral": 47,
+      "score_sum": 3
+    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 6,
       "positivo": 0,
       "negativo": 0,
       "neutral": 6,
       "score_sum": 0
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 24,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 18,
-      "score_sum": -8
     },
     "dnac-maria-gabriela-flores": {
       "total": 18,
@@ -98,13 +105,6 @@
       "negativo": 2,
       "neutral": 15,
       "score_sum": -3
-    },
-    "snac-flavia-royon": {
-      "total": 58,
-      "positivo": 6,
-      "negativo": 7,
-      "neutral": 45,
-      "score_sum": 3
     },
     "dip-sergio-gerardo-oliva": {
       "total": 2,
@@ -808,6 +808,100 @@
     }
   },
   "by_day": {
+    "Fri, 26 De": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sun, 11 Ma": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-claudio-jose-cansino": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-carlos-maximiliano-casasola": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Fri, 28 No": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Tue, 13 Au": {
       "dip-guillermo-mario-durand-cornejo": {
         "total": 1,
@@ -2308,12 +2402,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 26 De": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Wed, 07 Au": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -3358,76 +3446,6 @@
     },
     "Mon, 02 Oc": {
       "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Sun, 11 Ma": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-claudio-jose-cansino": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-carlos-maximiliano-casasola": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jorge-miguel-restom": {
         "total": 1,
         "score_sum": 0
       }
@@ -9566,16 +9584,6 @@
         "score_sum": 0
       }
     },
-    "Fri, 28 No": {
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Mon, 15 Ap": {
       "sen-carlos-guitian": {
         "total": 1,
@@ -13220,7 +13228,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 13
+      "count": 14
     },
     {
       "term": "sáenz",
@@ -13229,6 +13237,10 @@
     {
       "term": "libertad",
       "count": 8
+    },
+    {
+      "term": "diputados",
+      "count": 7
     },
     {
       "term": "pasa",
@@ -13243,11 +13255,11 @@
       "count": 7
     },
     {
-      "term": "cornejo",
+      "term": "contra",
       "count": 6
     },
     {
-      "term": "diputados",
+      "term": "cornejo",
       "count": 6
     },
     {
@@ -13259,23 +13271,19 @@
       "count": 6
     },
     {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "royón",
+      "count": 5
+    },
+    {
       "term": "orozco",
       "count": 5
     },
     {
-      "term": "contra",
-      "count": 5
-    },
-    {
-      "term": "laura",
-      "count": 4
-    },
-    {
-      "term": "mónica",
-      "count": 4
-    },
-    {
-      "term": "juárez",
+      "term": "carlos",
       "count": 4
     }
   ],
