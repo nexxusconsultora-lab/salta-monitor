@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-10-06T02:34:21.177676+00:00",
+  "generated_at": "2026-10-06T09:25:13.127332+00:00",
   "by_politician": {
+    "dip-sergio-gerardo-oliva": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 1,
+      "score_sum": -2
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 16,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 11,
+      "score_sum": -5
+    },
+    "dip-patricia-del-carmen-hucena": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 8,
+      "score_sum": -2
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 16,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 14,
+      "score_sum": -3
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 42,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 34,
+      "score_sum": -4
+    },
     "dip-gustavo-orlando-orozco": {
       "total": 37,
       "positivo": 1,
@@ -106,13 +141,6 @@
       "neutral": 12,
       "score_sum": 0
     },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 41,
-      "positivo": 3,
-      "negativo": 5,
-      "neutral": 33,
-      "score_sum": -4
-    },
     "dip-gaston-guillermo-galindez": {
       "total": 14,
       "positivo": 0,
@@ -141,26 +169,12 @@
       "neutral": 38,
       "score_sum": -14
     },
-    "dip-patricia-del-carmen-hucena": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 0
-    },
     "concejal-gustavo-farquharson": {
       "total": 62,
       "positivo": 3,
       "negativo": 13,
       "neutral": 46,
       "score_sum": -23
-    },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 15,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 13,
-      "score_sum": -3
     },
     "sen-walter-cruz": {
       "total": 24,
@@ -259,13 +273,6 @@
       "negativo": 10,
       "neutral": 55,
       "score_sum": -15
-    },
-    "dip-griselda-edith-galleguillos": {
-      "total": 15,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 10,
-      "score_sum": -5
     },
     "dip-juan-jose-esteban": {
       "total": 9,
@@ -441,13 +448,6 @@
       "negativo": 12,
       "neutral": 34,
       "score_sum": -15
-    },
-    "dip-sergio-gerardo-oliva": {
-      "total": 1,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 1,
-      "score_sum": 0
     },
     "sen-mashur-lapad": {
       "total": 59,
@@ -808,6 +808,74 @@
     }
   },
   "by_day": {
+    "Wed, 20 Ma": {
+      "dip-sergio-gerardo-oliva": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-patricia-del-carmen-hucena": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-carlos-maximiliano-casasola": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 11 Fe": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Thu, 09 Oc": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "Wed, 17 De": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Thu, 09 Ma": {
       "dip-gustavo-orlando-orozco": {
         "total": 1,
@@ -3394,16 +3462,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 09 Oc": {
-      "dnac-maria-gabriela-flores": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "Tue, 11 Au": {
       "snac-flavia-royon": {
         "total": 1,
@@ -4728,20 +4786,6 @@
         "score_sum": 0
       }
     },
-    "Wed, 17 De": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Tue, 31 Ma": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -5017,28 +5061,6 @@
       },
       "sen-juan-cruz-cura": {
         "total": 3,
-        "score_sum": 0
-      }
-    },
-    "Wed, 20 Ma": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-carlos-maximiliano-casasola": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -13122,7 +13144,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 17
+      "count": 15
+    },
+    {
+      "term": "contra",
+      "count": 7
     },
     {
       "term": "orozco",
@@ -13133,23 +13159,23 @@
       "count": 6
     },
     {
+      "term": "libertad",
+      "count": 5
+    },
+    {
+      "term": "avanza",
+      "count": 5
+    },
+    {
+      "term": "sáenz",
+      "count": 5
+    },
+    {
       "term": "gustavo",
       "count": 5
     },
     {
-      "term": "contra",
-      "count": 5
-    },
-    {
       "term": "nación",
-      "count": 4
-    },
-    {
-      "term": "libertad",
-      "count": 4
-    },
-    {
-      "term": "avanza",
       "count": 4
     },
     {
@@ -13161,23 +13187,19 @@
       "count": 4
     },
     {
-      "term": "sáenz",
-      "count": 4
-    },
-    {
-      "term": "omar",
+      "term": "patricia",
       "count": 3
     },
     {
-      "term": "exeni",
+      "term": "hucena",
       "count": 3
     },
     {
-      "term": "pasa",
+      "term": "diputados",
       "count": 3
     },
     {
-      "term": "flavia",
+      "term": "voces",
       "count": 3
     }
   ],
