@@ -83,7 +83,10 @@ const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 const safe=u=>/^https?:\/\//i.test(u||'')?u:'#';
 const fold=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const FAIL=[];
-const J=async(n,fb)=>{if(window.NEWAR_EMBED&&n in NEWAR_EMBED)return NEWAR_EMBED[n];try{const r=await fetch('data/'+n+'.json?_='+Date.now());if(!r.ok)throw 0;return await r.json()}catch(e){FAIL.push(n);return fb}};
+const J=async(n,fb)=>{if(window.NEWAR_EMBED&&n in NEWAR_EMBED)return NEWAR_EMBED[n];const ac=new AbortController(),to=setTimeout(()=>ac.abort(),30000);try{const r=await fetch('data/'+n+'.json?_='+Date.now(),{signal:ac.signal});if(!r.ok)throw 0;return await r.json()}catch(e){FAIL.push(n);return fb}finally{clearTimeout(to)}};
+/* Cada vista pide solo los archivos que usa; se descargan una vez y quedan en memoria */
+const S={};const SRC={pol:['politicians',[]],agg:['aggregates',null],men:['mentions',[]],dos:['dossiers',{}],top:['topics_data',{topics:{}}],ev:['events',{events:[]}],news:['news_general',[]],of:['oficiales',{items:[]}],ofst:['oficiales_status',{sources:{}}]};
+const LOAD={};const need=(...ks)=>Promise.all(ks.map(k=>LOAD[k]||(LOAD[k]=J(SRC[k][0],SRC[k][1]).then(v=>(S[k]=v)))));
 const fdate=(v,o)=>{const d=new Date(v);return isNaN(d)?'':d.toLocaleString('es-AR',o||{dateStyle:'short',timeStyle:'short'})};
 function rel(d){const s=(Date.now()-d)/1000;if(s<0)return'ahora';if(s<3600)return`hace ${Math.max(1,Math.round(s/60))} min`;if(s<86400)return`hace ${Math.round(s/3600)} h`;if(s<604800)return`hace ${Math.round(s/86400)} d`;return fdate(d,{dateStyle:'medium'})}
 /* Destacados (misma clave que el Radar: las estrellas existentes se conservan) */
@@ -99,7 +102,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('.star');if(!b)re
 
 /* ---------- Modelo NEWAR: persona / cargo / evidencia, derivado de la nómina ---------- */
 const INST={'Ejecutivo':['Poder Ejecutivo de Salta','Provincia de Salta','provincial'],'Diputados':['Cámara de Diputados de Salta','Provincia de Salta','provincial'],'Senado':['Cámara de Senadores de Salta','Provincia de Salta','provincial'],'Concejo Deliberante':['Concejo Deliberante de la Ciudad de Salta','Municipio de la Ciudad de Salta','municipal'],'Diputados de la Nación':['Cámara de Diputados de la Nación','República Argentina','nacional'],'Senado de la Nación':['Cámara de Senadores de la Nación','República Argentina','nacional']};
-const S={};let personas=[],revision=[],byId={},revPor={};
+let personas=[],revision=[],byId={},revPor={},revById={};
 function mk(p){
  const [inst,jur,niv]=INST[p.chamber]||[p.chamber||'—','—',''];
  const lugar=p.chamber==='Ejecutivo'?'':(p.department||p.distrito||(p.ambito==='Nacional'?'Salta':''));
@@ -109,7 +112,7 @@ function mk(p){
  return{id:p.id,nombre:p.name,p,v,inst,jur,niv,cargo:(p.cargo||p.role||'')+(lugar?' por '+lugar:''),desde:p.term_start||null,hasta:p.term_end||null,bloque:p.bloque,ev:ev_}}
 function build(){
  const seen={};[...S.pol].sort((a,b)=>(b.vigencia==='vigente')-(a.vigencia==='vigente')).forEach(p=>{const k=fold(p.name);
-  if(seen[k]){revision.push({json_id:p.id,nombre:p.name,coincide:seen[k]});(revPor[seen[k]]=revPor[seen[k]]||[]).push(p.id)}
+  if(seen[k]){revById[p.id]=mk(p);revision.push({json_id:p.id,nombre:p.name,coincide:seen[k]});(revPor[seen[k]]=revPor[seen[k]]||[]).push(p.id)}
   else{seen[k]=p.id;personas.push(mk(p))}});
  personas.sort((a,b)=>fold(a.nombre).localeCompare(fold(b.nombre)));personas.forEach(x=>byId[x.id]=x)}
 const badge=v=>v===1?'<span class="tag vigente">vigente</span>':v===0?'<span class="tag no-vigente">no vigente</span>':'<span class="tag">vigencia sin dato</span>';
@@ -128,12 +131,13 @@ function pager(el,items,render,size){let n=size;const draw=()=>{el.innerHTML=ite
 /* ---------- Vistas ---------- */
 const V={};
 V.inicio=()=>{
+ setTimeout(()=>need('men','news','of').then(()=>{const set=(i,v)=>{const e=$('#'+i);if(e)e.textContent=v};set('k-men',S.men.length);set('k-news',S.news.length);set('k-of',(S.of.items||[]).length)}));
  const vig=personas.filter(p=>p.v===1).length,top=personas.map(p=>[p,total(p.id)]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]).slice(0,8);
  const tt=Object.values(S.top.topics||{}).sort((a,b)=>b.total_mentions-a.total_mentions).slice(0,6);
  const bd=(S.agg&&S.agg.by_day)||{},days=Object.keys(bd).sort().slice(-14),vals=days.map(d=>Object.values(bd[d]).reduce((s,v)=>s+v.total,0)),mx=Math.max(1,...vals);
- const c=(n,l,h)=>`<a class="card" href="#/${h}"><div class="n">${n}</div><div class="l">${l}</div></a>`;
+ const c=(n,l,h,id)=>`<a class="card" href="#/${h}"><div class="n"${id?` id="${id}"`:''}>${n}</div><div class="l">${l}</div></a>`;
  return`<h2 class="sec">NEWAR</h2><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. Lo que no está registrado se muestra como tal: nunca se inventa.</p>
- <div class="grid">${c(personas.length,'personas','personas')}${c(vig,'con cargo vigente','personas')}${c(S.men.length,'menciones en prensa','menciones')}${c(Object.keys(S.top.topics||{}).length,'temas seguidos','temas')}${c((S.ev.events||[]).length,'eventos conectados','eventos')}${c(S.news.length,'noticias generales','resumen')}${c((S.of.items||[]).length,'publicaciones oficiales','oficiales')}${c(stars().length,'destacados','destacados')}</div>
+ <div class="grid">${c(personas.length,'personas','personas')}${c(vig,'con cargo vigente','personas')}${c('…','menciones en prensa','menciones','k-men')}${c(Object.keys(S.top.topics||{}).length,'temas seguidos','temas')}${c((S.ev.events||[]).length,'eventos conectados','eventos')}${c('…','noticias generales','resumen','k-news')}${c('…','publicaciones oficiales','oficiales','k-of')}${c(stars().length,'destacados','destacados')}</div>
  <h2 class="sec">Personas con más cobertura</h2>${top.length?top.map(([p,t])=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><span class="nm">${esc(p.nombre)} <span class="meta">${esc(p.cargo)}</span></span><span class="meta">${t} menciones</span></a>`).join(''):'<p class="empty">Sin datos todavía.</p>'}
  <h2 class="sec">Temas más activos</h2>${tt.length?tt.map(t=>`<a class="row2" href="#/tema/${encodeURIComponent(t.id)}"><span class="nm">${esc(t.name)}</span><span class="meta">${t.total_mentions} menciones</span></a>`).join(''):'<p class="empty">No hay temas configurados (data/topics.json).</p>'}
  <h2 class="sec">Volumen de menciones, últimos 14 días</h2><div class="bars">${vals.map((v,i)=>`<i title="${days[i]}: ${v}" style="height:${Math.max(3,v/mx*100)}%;background:var(--clay)"></i>`).join('')||''}</div>
@@ -147,13 +151,13 @@ V.personas=()=>{
   pager($('#res'),l,p=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><div><div class="nm">${esc(p.nombre)}</div><div class="meta">${esc(p.cargo)} · ${esc(p.inst)}${total(p.id)?' · '+total(p.id)+' menciones':''}</div>${revPor[p.id]?'<span class="flag">Identidad en revisión</span>':''}</div>${badge(p.v)}</a>`,60);
   $('#cnt').textContent=l.length+' personas'};
   ['q','fi','fv','fs'].forEach(id=>$('#'+id).addEventListener('input',go));go()});
- return`<h2 class="sec">Personas</h2><div class="ctl"><input type="search" id="q" aria-label="Buscar persona por nombre" placeholder="Buscar por nombre… (probá 'sáenz', 'caro', 'navarro')" autocomplete="off"><select id="fi" aria-label="Institución"><option value="">Todas las instituciones</option>${insts.map(i=>`<option>${esc(i)}</option>`).join('')}</select><select id="fv" aria-label="Vigencia"><option value="">Vigentes y no vigentes</option><option value="1">Solo vigentes</option><option value="0">Solo no vigentes</option></select><select id="fs" aria-label="Orden"><option value="n">Orden alfabético</option><option value="m">Más mencionados</option></select></div><p class="note" id="cnt"></p><div id="res"></div>
+ return`<h2 class="sec">Personas</h2><div class="ctl"><input type="search" id="q" aria-label="Buscar persona por nombre" placeholder="Buscar por nombre… (probá 'sáenz', 'caro', 'navarro')" autocomplete="off"><select id="fi" aria-label="Institución"><option value="">Todas las instituciones</option>${insts.map(i=>`<option>${esc(i)}</option>`).join('')}</select><select id="fv" aria-label="Vigencia"><option value="">Vigentes y no vigentes</option><option value="1">Solo vigentes</option><option value="0">Solo no vigentes</option></select><select id="fs" aria-label="Orden"><option value="n">Orden alfabético</option><option value="m">Más mencionados</option></select></div><p class="note" id="cnt"></p><div id="res"></div>${revision.length?`<h3 class="sh">Filas en revisión (${revision.length})</h3><p class="note">Mismo nombre que otra fila ya incorporada. No se fusionan: esperan una decisión humana.</p>${revision.map(r=>`<a class="row2" href="#/persona/${encodeURIComponent(r.json_id)}"><div><div class="nm">${esc(r.nombre)}</div><div class="meta">${total(r.json_id)} menciones atribuidas a esta fila</div></div><span class="flag">En revisión</span></a>`).join('')}`:''}
  <footer>Si dos filas de la nómina tienen el mismo nombre, NEWAR no las fusiona: la fila repetida queda “en revisión” hasta que una persona decida. Vigencia y período se muestran tal como están registrados, sin interpretarlos.</footer>`};
 
 V.persona=id=>{
- const p=byId[id];if(!p)return'<p class="empty">No se encontró esa persona. <a href="#/personas">Volver al listado</a></p>';
+ const enRev=!byId[id]&&revById[id],p=byId[id]||revById[id];if(!p)return'<p class="empty">No se encontró esa persona. <a href="#/personas">Volver al listado</a></p>';
  const d=S.dos[id],ofs=(S.of.items||[]).filter(i=>(i.personas||[]).includes(id)).slice(0,15);
- const av=(revPor[id]||[]).map(r=>`<span class="warn">La nómina contiene otra fila con este nombre (<code>${esc(r)}</code>) que <b>no se incorporó</b> por posible duplicado. Queda pendiente de revisión humana; no se asumió que sea la misma persona.</span>`).join('');
+ const kp=enRev?((revision.find(r=>r.json_id===id)||{}).coincide):null,av=enRev?`<span class="warn"><b>Fila en revisión.</b> Esta fila de la nómina tiene el mismo nombre que ${byId[kp]?`<a href="#/persona/${encodeURIComponent(kp)}">${esc(byId[kp].nombre)}</a>`:'otra fila'} y <b>no se fusionó</b>: queda pendiente de una decisión humana. No se asumió que sean la misma persona; lo que ves abajo corresponde solo a esta fila.</span>`:(revPor[id]||[]).map(r=>`<span class="warn">La nómina contiene otra fila con este nombre (<code>${esc(r)}</code>) que <b>no se incorporó</b> por posible duplicado. Queda pendiente de revisión humana; no se asumió que sea la misma persona.</span>`).join('');
  const ETQ={nombre:'Nombre',vigente:'Vigencia',desde:'Desde',hasta:'Hasta'};
  const cargo=`<div class="cargo"><div class="nm">${esc(p.cargo)} ${badge(p.v)}</div><div class="meta">${esc(p.inst)} · ${esc(p.jur)}${p.niv?' ('+p.niv+')':''}${p.bloque?' · bloque '+esc(p.bloque):''}</div><div class="meta">Desde: ${p.desde?esc(p.desde):'Sin fecha de inicio registrada'} · Hasta: ${p.hasta?esc(p.hasta):'Sin fecha de finalización registrada'}</div></div>`;
  const prensa=d?`${boxes(d.total_mentions,d.sentiment_breakdown)}<h3 class="sh">Tono en el tiempo</h3>${toneBars(d.sentiment_by_day)}<h3 class="sh">Temas asociados</h3>${(d.top_topics||[]).map(t=>`<span class="pill">${esc(t.term)} · ${t.count}</span>`).join('')||'<p class="empty">Sin datos.</p>'}
@@ -175,8 +179,8 @@ V.menciones=()=>{
   ['mp','mt','mk','mh','ms','mx'].forEach(i=>$('#'+i).addEventListener('input',go));go();
   const a=S.agg||{};$('#mtr').innerHTML=(a.trending_terms||[]).map(t=>`<div class="row2"><span>${esc(t.term)}</span><span class="meta">${t.count}</span></div>`).join('')||'<p class="empty">Sin datos.</p>';
   $('#mco').innerHTML=(a.comentions||[]).map(c=>`<div class="row2"><span>${esc(c.a)} + ${esc(c.b)}</span><span class="meta">${c.count}</span></div>`).join('')||'<p class="empty">Sin cruces detectados.</p>'});
- const pols=personas.filter(p=>total(p.id)).sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
- return`<h2 class="sec">Menciones en prensa</h2><div class="pcol"><div><div class="ctl"><select id="mp" aria-label="Persona"><option value="">Todas las personas</option>${pols.map(p=>`<option value="${esc(p.id)}">${esc(p.nombre)}${p.v===0?' (ex)':''}</option>`).join('')}</select><select id="mt" aria-label="Tono"><option value="">Cualquier tono</option><option value="positivo">Positivo</option><option value="neutral">Neutral</option><option value="negativo">Negativo</option></select><input type="search" id="mk" aria-label="Filtrar por palabra clave" placeholder="Palabra clave…"></div><div class="ctl"><select id="mh" aria-label="Fecha"><option value="0">Cualquier fecha</option><option value="3">Últimas 3 horas</option><option value="24">Últimas 24 horas</option><option value="72">Últimos 3 días</option><option value="168">Últimos 7 días</option><option value="720">Últimos 30 días</option></select><select id="ms" aria-label="Medio"><option value="">Todos los medios</option>${meds.map(m=>`<option>${esc(m)}</option>`).join('')}</select><label><input type="checkbox" id="mx"> Incluir ex funcionarios</label></div><p class="note" id="mc"></p><div id="mf"></div></div>
+ const pols=[...personas,...Object.values(revById)].filter(p=>total(p.id)).sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
+ return`<h2 class="sec">Menciones en prensa</h2><div class="pcol"><div><div class="ctl"><select id="mp" aria-label="Persona"><option value="">Todas las personas</option>${pols.map(p=>`<option value="${esc(p.id)}">${esc(p.nombre)}${p.v===0?' (ex)':''}${revById[p.id]?' (en revisión)':''}</option>`).join('')}</select><select id="mt" aria-label="Tono"><option value="">Cualquier tono</option><option value="positivo">Positivo</option><option value="neutral">Neutral</option><option value="negativo">Negativo</option></select><input type="search" id="mk" aria-label="Filtrar por palabra clave" placeholder="Palabra clave…"></div><div class="ctl"><select id="mh" aria-label="Fecha"><option value="0">Cualquier fecha</option><option value="3">Últimas 3 horas</option><option value="24">Últimas 24 horas</option><option value="72">Últimos 3 días</option><option value="168">Últimos 7 días</option><option value="720">Últimos 30 días</option></select><select id="ms" aria-label="Medio"><option value="">Todos los medios</option>${meds.map(m=>`<option>${esc(m)}</option>`).join('')}</select><label><input type="checkbox" id="mx"> Incluir ex funcionarios</label></div><p class="note" id="mc"></p><div id="mf"></div></div>
  <aside><div class="pnl"><b>Temas en tendencia</b><p class="note">Palabras más repetidas en títulos, últimas 48 h.</p><div id="mtr"></div></div><div class="pnl"><b>Menciones cruzadas</b><p class="note">Personas que aparecen juntas en la misma noticia.</p><div id="mco"></div></div></aside></div>`};
 
 V.temas=()=>{const l=Object.values(S.top.topics||{});return`<h2 class="sec">Temas seguidos</h2><p class="lede">Además de personas, se siguen temas puntuales (una obra, un presupuesto, una causa). Se configuran en <code>data/topics.json</code>.</p>${l.length?l.map(t=>`<a class="row2" href="#/tema/${encodeURIComponent(t.id)}"><span class="nm">${esc(t.name)}<br><span class="meta">${t.sentiment_breakdown.positivo} positivas · ${t.sentiment_breakdown.negativo} negativas · ${t.politicians_involved.length} personas involucradas</span></span><span class="meta">${t.total_mentions} menciones</span></a>`).join(''):'<p class="empty">No hay temas configurados todavía.</p>'}`};
@@ -209,19 +213,25 @@ V.destacados=()=>{setTimeout(()=>{document.querySelectorAll('.rm').forEach(b=>b.
 
 /* ---------- Router ---------- */
 const TABS=[['inicio','Inicio'],['personas','Personas'],['menciones','Menciones'],['temas','Temas'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados']];
-let firstRoute=true;
-function route(){const [v,arg]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'';
+const NEEDS={inicio:['top','ev'],personas:['agg'],persona:['agg','dos','of'],menciones:['agg','men'],temas:['top'],tema:['top'],eventos:['ev'],resumen:['news'],oficiales:['of','ofst'],destacados:[]};
+const SITIO='https://nexxusconsultora-lab.github.io/salta-monitor/';
+let firstRoute=true,rt=0;
+async function route(){const my=++rt;const [v,arg]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'';
  const tab=(name==='persona')?'personas':(name==='tema'?'temas':name);
  $('#tabs').innerHTML=TABS.map(([k,l])=>`<a href="#/${k}" class="${k===tab?'on':''}"${k===tab?' aria-current="page"':''}>${l}</a>`).join('');
- $('#app').innerHTML=(FAIL.length?`<p class="warn" role="alert">No se pudieron cargar estos datos: <code>${esc(FAIL.join(', '))}</code>. Lo que ves puede estar incompleto o vacío.</p>`:'')+V[name](id);window.scrollTo(0,0);
- document.title='NEWAR — '+(name==='persona'&&byId[id]?byId[id].nombre:(TABS.find(t=>t[0]===tab)||[0,'Inicio'])[1]);
+ const ns=NEEDS[name]||[];
+ if(ns.some(k=>!(k in S))){$('#app').innerHTML='<p class="empty" role="status">Cargando datos…</p>';await need(...ns);if(my!==rt)return}
+ const aviso=!FAIL.length?'':(location.protocol==='file:'&&!window.NEWAR_EMBED
+  ?`<p class="warn" role="alert"><b>Abriste NEWAR directamente desde un archivo.</b> Así el navegador bloquea la lectura de los datos. Entrá al sitio publicado: <a href="${esc(SITIO)}">${esc(SITIO)}</a>, o pedí la versión sin conexión (<code>newar-offline.html</code>).</p>`
+  :`<p class="warn" role="alert">No se pudieron cargar estos datos: <code>${esc(FAIL.join(', '))}</code>. Lo que ves puede estar incompleto o vacío. Probá recargar la página.</p>`);
+ $('#app').innerHTML=aviso+V[name](id);window.scrollTo(0,0);
+ document.title='NEWAR — '+(name==='persona'&&(byId[id]||revById[id])?(byId[id]||revById[id]).nombre:(TABS.find(t=>t[0]===tab)||[0,'Inicio'])[1]);
  const h=$('#app h2');if(!firstRoute&&h){h.tabIndex=-1;h.focus({preventScroll:true})}firstRoute=false}
 $('#skip').addEventListener('click',()=>$('#app').focus());
 window.addEventListener('hashchange',route);
 (async()=>{
- const [pol,agg,men,dos,top,ev,news,of,ofst]=await Promise.all([J('politicians',[]),J('aggregates',null),J('mentions',[]),J('dossiers',{}),J('topics_data',{topics:{}}),J('events',{events:[]}),J('news_general',[]),J('oficiales',{items:[]}),J('oficiales_status',{sources:{}})]);
- Object.assign(S,{pol,agg,men,dos,top,ev,news,of,ofst,polById:{}});pol.forEach(p=>S.polById[p.id]=p);build();
- if(agg&&agg.generated_at)$('#upd').textContent='Datos al '+fdate(agg.generated_at);
+ await need('pol','agg');S.polById={};S.pol.forEach(p=>S.polById[p.id]=p);build();
+ if(S.agg&&S.agg.generated_at)$('#upd').textContent='Datos al '+fdate(S.agg.generated_at);
  route()})();
 </script>
 </body>
