@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 207,
+    "total_mentions": 208,
     "sentiment_breakdown": {
       "positivo": 35,
       "negativo": 22,
-      "neutral": 150
+      "neutral": 151
     },
     "sentiment_by_day": {
+      "Tue, 06 Oc": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 01 Oc": {
         "total": 9,
         "score_sum": 13
@@ -238,11 +242,15 @@
       },
       {
         "term": "milei",
-        "count": 11
+        "count": 12
       },
       {
         "term": "reunió",
         "count": 6
+      },
+      {
+        "term": "litio",
+        "count": 5
       },
       {
         "term": "gobernadores",
@@ -250,10 +258,6 @@
       },
       {
         "term": "bouvier",
-        "count": 5
-      },
-      {
-        "term": "millones",
         "count": 5
       }
     ],
@@ -351,6 +355,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Karina Milei y Diego Santilli llegan a Salta para inaugurar una nueva planta de litio en el Salar del Hombre Muerto",
+        "link": "https://www.eltribuno.com/salta/2026-10-5-22-9-0-karina-milei-y-diego-santilli-llegan-a-salta-para-inaugurar-una-nueva-planta-de-litio-en-el-salar-del-hombre-muerto",
+        "source": "El Tribuno - Salta",
+        "date": "Tue, 06 Oct 2026 01:09:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con Gustavo Sáenz en la comitiva, Nación reúne a gobernadores en París para discutir el Presupuesto - elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiLUVtODFtOW9MUWZJR3FmWWVvdWxtUjc4TTZRcms1VC1zbnFlSzZFd3hxR2tmVmMwRUw0ZVV5bXlYNXNGc2dtWk1VWGhjc2YtdHVtREktbmZWNjViSzVybFFjU3ZnZUkyWlZxVDZzRFZOaHc?oc=5",
@@ -552,13 +563,6 @@
         "link": "https://informatesalta.com.ar/gobierno/saenz-en-la-argentina-week---salta-ofrece-confianza-y-grandes-oportunidades-_a6abe446c06fa52caf4486603",
         "source": "Informate Salta",
         "date": "Thu, 01 Oct 2026 11:37:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Frente a Milei, Sáenz puso sobre la mesa el federalismo: “Desde Salta, tenemos mucho para aportar”",
-        "link": "https://informatesalta.com.ar/gobierno/frente-a-milei--saenz-puso-sobre-la-mesa-el-federalismo---desde-salta--tenemos-mucho-para-aportar-_a6abe6f7b06fa52caf454b92f",
-        "source": "Informate Salta",
-        "date": "Thu, 01 Oct 2026 14:37:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -7625,13 +7629,17 @@
     "id": "sen-daniel-moreno-ovalle",
     "name": "Daniel Roberto Moreno Ovalle",
     "role": "Senador/a provincial por La Caldera",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 1,
       "neutral": 27
     },
     "sentiment_by_day": {
+      "Tue, 06 Oc": {
+        "total": 1,
+        "score_sum": 5
+      },
       "Wed, 08 Ma": {
         "total": 1,
         "score_sum": 0
@@ -7773,6 +7781,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El Concejo de Vaqueros pedirá explicaciones a Salvatierra por la plaza fantasma",
+        "link": "https://informatesalta.com.ar/interior/el-concejo-de-vaqueros-pedira-explicaciones-a-salvatierra-por-la-plaza-fantasma_a6ac42368023d281170320d14",
+        "source": "Informate Salta",
+        "date": "Tue, 06 Oct 2026 00:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Daniel Moreno - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Wckk2dEU3SHVld2I5VC1fYWZyb0todU16WWxoYVdkSEVkSTM2aWM0eHFyZEJ0c25saml6eU1sSWhwcGcxZ0l0VS1aLUhsU1VzY09vcUhSdw?oc=5",
@@ -8601,13 +8616,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "Sat, 13 Ja": {
+        "total": 1,
+        "score_sum": 0
+      },
       "Thu, 08 Ap": {
         "total": 1,
         "score_sum": 0
@@ -8744,14 +8763,20 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 2
+        "count": 3
       },
       {
         "term": "exeni",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Uno de los grandes problemas que afrontamos los empresarios son los juicios laborales",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdlhnTHpjd1g5aFRfYVFES2pMQk9ZRm5wTXFnb0xYaWVDYUtLWmdwbG1udkliZi12d01ReldTaHl4YjVCNHZNV1cxTzVYMGNxRE9mdWhzQUt5NFdXQW16V0NxSm5VWW52bFlLdVBOV2ZhVTI2T3dCdno0Ri1oajFnQnpVV1VRUkJNbjV3ZnRaUzZfQU1KenNucVFKZjVsLTE1U0FyeXU3ckFPR2dlcmlkbzZQazAtRjdvZWxzcFVBb19UYVlUdTVaVlBOcw?oc=5",
+        "date": "Sat, 13 Jan 2024 08:00:00 GMT"
+      },
       {
         "quote": "No lo dejamos de lado, pero no podemos negar la realidad",
         "source": "Informate Salta",
@@ -8831,8 +8856,22 @@
         "date": "Mon, 17 Feb 2020 08:00:00 GMT"
       }
     ],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Omar Exeni: “Uno de los grandes problemas que afrontamos los empresarios son los juicios laborales” - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdlhnTHpjd1g5aFRfYVFES2pMQk9ZRm5wTXFnb0xYaWVDYUtLWmdwbG1udkliZi12d01ReldTaHl4YjVCNHZNV1cxTzVYMGNxRE9mdWhzQUt5NFdXQW16V0NxSm5VWW52bFlLdVBOV2ZhVTI2T3dCdno0Ri1oajFnQnpVV1VRUkJNbjV3ZnRaUzZfQU1KenNucVFKZjVsLTE1U0FyeXU3ckFPR2dlcmlkbzZQazAtRjdvZWxzcFVBb19UYVlUdTVaVlBOcw?oc=5",
+        "date": "Sat, 13 Jan 2024 08:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Omar Exeni: “Uno de los grandes problemas que afrontamos los empresarios son los juicios laborales” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdlhnTHpjd1g5aFRfYVFES2pMQk9ZRm5wTXFnb0xYaWVDYUtLWmdwbG1udkliZi12d01ReldTaHl4YjVCNHZNV1cxTzVYMGNxRE9mdWhzQUt5NFdXQW16V0NxSm5VWW52bFlLdVBOV2ZhVTI2T3dCdno0Ri1oajFnQnpVV1VRUkJNbjV3ZnRaUzZfQU1KenNucVFKZjVsLTE1U0FyeXU3ckFPR2dlcmlkbzZQazAtRjdvZWxzcFVBb19UYVlUdTVaVlBOcw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 13 Jan 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Últimas noticias de Omar Exeni hoy - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxZUVkcXVZUHBQM0hyWkppb3RTS3RXakRZeGxMcWZ1NW1EZG5iMmc4V0RqWjZIOEhUQ0duclRqNEd3SGtETFZUZlhuOU1OMDR2elVxTjRpbmx5bUFUczFqSml3?oc=5",
@@ -9034,13 +9073,6 @@
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU1ZOLUN4QTdad000VWJIb1duaEJmN1V0aTFIeDhEN1FyVU1PWXZST0YtX0JRV3BVdE94cjd2VUdYTGZDbGpKQ0RTNnpvamh1RXB6bkFWOEUzZEZkTU9VMGlMRk4xTDRFQnJ3UFp3aWQ4SFJCTUdXdllUdzVhWkJUMUZmNUlIeDFJSGh2NG5BekUyaHQ3aHBLbnUyQXdwV3NHZnRzSmVTaDZFRVk5YjAwTzVmRlpLQTk3azRQTVFFMGt3YjB20gHKAUFVX3lxTFA1cHNSWjFRQlpqVGx2UzktcVhtcmt5RUt4MXpqV01tZHFtODN4ZzZaSFA2WXJ5dzNpVFZNWWEyck1yRHpCY2FkalVnUVB0ZzFweDc4QllhVTN0Y0FlNGI3ZGk3VmJHc1ZWbEQzVjI5eExncU5OWDU4VWNwNDNJODZpNU9Xa3BQMnY2RlVnUlNzTTdHQVhlel9oUUQ0bHlZRkRkUzBrQ2RQTG41X0JESWRpYmxWeEpZLXpiMHJ6YnZNclFMekxzQ0dxc1E?oc=5",
         "source": "El Tribuno",
         "date": "Mon, 29 Apr 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz recibió del Tribunal Electoral el diploma como Gobernador de Salta electo en los comicios de mayo - Gobierno de la Provincia de Salta, Argentina",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSzJ3OV9Pb0g1d3pZY2ZJM05tajhqRDVwTTlWNFlUanduLWNDRXd3UHRqdDZHdjZWMWFDTWlSdDBMQmZMQTFnaVVFdVJhLWpIeDVWTmxTaU9scm5MQ0J6aXZLZkh0dTFEck9NLTNOdUVvT0ttSlhnT05DQ3lMMmhiOVBPSzJNYmpJVFhITnNXWWp5aWU3cDBIMUhRWW54aE5FYXVSMzRfdFc1UThvT0VrakFtZ2JzVmozTjNhM2NCTjhySm1lcGtwZlhhVDZCa0ozODdTLTdTdzlnRVBUWDh6cUdFNWJxWDBRbWM2anN0Zw?oc=5",
-        "source": "Gobierno de la Provincia de Salta, Argentina",
-        "date": "Fri, 28 Jul 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -13527,13 +13559,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 7,
+      "negativo": 8,
       "neutral": 28
     },
     "sentiment_by_day": {
+      "Thu, 09 Ma": {
+        "total": 1,
+        "score_sum": -2
+      },
       "Fri, 29 Ju": {
         "total": 1,
         "score_sum": -2
@@ -13670,11 +13706,11 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 5
+        "count": 6
       },
       {
         "term": "orozco",
-        "count": 5
+        "count": 6
       },
       {
         "term": "contra",
@@ -13768,6 +13804,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Orozco criticó el sistema de seguridad y marcó cual es el problema - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc1pmQkl1dFd3U2xPUEFMa3RVYU13RFJPUFVHS20zMTdoTjc2MjVzdExHUlA4XzV5elNEb3c1OUR1V28zdlBjb0x6d2ZvUHRNR2JaLUx2Xy02TzJidTdKN09CWU1SbFpQbUFOYTZQeVhYb192WWJhUjNFYy1rWk9FcEhUWHctQWpjZmhZMmtGTW53YVR1bXhDSEJtcnJsbnBZZ0MtdW12ajVFazE1ZFNrdzlmc1MtdXpj0gG-AUFVX3lxTE5NNHdCMU5hTVI4UEhyUmN4TmE3NHpqelAyRlF3QVg1cUFYSUNwYWVwaUJyeG5HQTJ3OFU2djFZamplMllIbFVXNUZxVWhqRHN1ekx3UmFLUW05MHY5V0FQb0JXQUM5dE9DczFNNmFpZFE2UDZOcWJRak0wU1ZDSmN3V21pOTZReFYtenJOeEh4VEozQV9yZGlyclUxU055OC1oMnBwTDl5Wnl6bUVRdVZES1dpU1pHRnRrOEktSHc?oc=5",
+        "source": "Salta 4400",
+        "date": "Thu, 09 May 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Con gravísimas denuncias en su contra, comenzaron a tramitar el desafuero de Gustavo Orozco - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3hGX1pKMm1MT1ptSXYyUlhET3BTYm8zeUI3ZDB4TjktdGRod0hSVW5yWFhRVnlXME5QYk8wSUFabjRlQ2dSZlZ1T1cyMVRGcDU4M1dZRFFGNnBtNHJKUEFfNGFjMThLOE1kbVFwam14ZFgzSGlTUDR5TEZoaVZCS2IzNG4yUFZuM21fOVJuVXN0OWFSZGNpUlNDRUFlNWw3WERya3dCVkd1a1pycmwtancwanNNc2xrTU45bnpaRU02Rzg?oc=5",
@@ -13970,13 +14013,6 @@
         "source": "Página|12",
         "date": "Thu, 03 Jul 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Será imputado este miércoles | Gustavo Orozco, el diputado salteño que tiene 35 denuncias por torturas - Cuarto: Salta a diario",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3pZeUpRNHJPck8yRnlPWU9sd2M0VUtzQnFNTVJVdEtTd0hPSmJodTBMbVU0VnZITk42QkdIb1VtSVQzVTFrMjVNX3Ficy16RGdnQjloVGtGZURseEI5OWlfTkI4bWgtbExSOGZzOXVXVzhxSWVYTWtkdzBNNERPVjFnTVdXMFJrYUZvc3JjSFVIUHJqNGNDbkR2dF9Ba3I3ZC1pR0c3M1Q1aHhSNmNKbnVoaWJfckRvT0ozaE9Sa2dpSGs3?oc=5",
-        "source": "Cuarto: Salta a diario",
-        "date": "Mon, 02 May 2022 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20245,15 +20281,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 16
+        "count": 15
       },
       {
         "term": "royón",
-        "count": 16
+        "count": 15
       },
       {
         "term": "elintra",
-        "count": 9
+        "count": 8
       },
       {
         "term": "nación",

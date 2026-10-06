@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-10-05T22:46:25.609490+00:00",
+  "generated_at": "2026-10-06T02:34:21.177676+00:00",
   "by_politician": {
+    "dip-gustavo-orlando-orozco": {
+      "total": 37,
+      "positivo": 1,
+      "negativo": 8,
+      "neutral": 28,
+      "score_sum": -18
+    },
     "dip-omar-exeni-arminana": {
-      "total": 33,
+      "total": 34,
       "positivo": 0,
       "negativo": 1,
-      "neutral": 32,
+      "neutral": 33,
       "score_sum": -2
+    },
+    "sen-daniel-moreno-ovalle": {
+      "total": 29,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 27,
+      "score_sum": 3
+    },
+    "gustavo-saenz": {
+      "total": 208,
+      "positivo": 35,
+      "negativo": 22,
+      "neutral": 151,
+      "score_sum": 54
     },
     "dip-jose-miguel-gauffin": {
       "total": 20,
@@ -49,13 +70,6 @@
       "negativo": 8,
       "neutral": 25,
       "score_sum": -15
-    },
-    "gustavo-saenz": {
-      "total": 207,
-      "positivo": 35,
-      "negativo": 22,
-      "neutral": 150,
-      "score_sum": 54
     },
     "dip-monica-gabriela-juarez": {
       "total": 38,
@@ -140,20 +154,6 @@
       "negativo": 13,
       "neutral": 46,
       "score_sum": -23
-    },
-    "dip-gustavo-orlando-orozco": {
-      "total": 36,
-      "positivo": 1,
-      "negativo": 7,
-      "neutral": 28,
-      "score_sum": -16
-    },
-    "sen-daniel-moreno-ovalle": {
-      "total": 28,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 27,
-      "score_sum": -2
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 15,
@@ -808,6 +808,80 @@
     }
   },
   "by_day": {
+    "Thu, 09 Ma": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Sat, 13 Ja": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 06 Oc": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 5
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Thu, 08 Ap": {
       "dip-omar-exeni-arminana": {
         "total": 1,
@@ -6876,52 +6950,6 @@
         "score_sum": 0
       }
     },
-    "Thu, 09 Ma": {
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luis-altamirano": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 14 Au": {
       "dip-gonzalo-caro-davalos": {
         "total": 1,
@@ -8892,16 +8920,6 @@
         "score_sum": 0
       },
       "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Sat, 13 Ja": {
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
         "total": 1,
         "score_sum": 0
       }
@@ -13104,22 +13122,18 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 19
+      "count": 17
+    },
+    {
+      "term": "orozco",
+      "count": 6
     },
     {
       "term": "informate",
       "count": 6
     },
     {
-      "term": "pasa",
-      "count": 5
-    },
-    {
-      "term": "libertad",
-      "count": 5
-    },
-    {
-      "term": "avanza",
+      "term": "gustavo",
       "count": 5
     },
     {
@@ -13127,19 +13141,15 @@
       "count": 5
     },
     {
-      "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "sáenz",
-      "count": 5
-    },
-    {
-      "term": "orozco",
-      "count": 5
-    },
-    {
       "term": "nación",
+      "count": 4
+    },
+    {
+      "term": "libertad",
+      "count": 4
+    },
+    {
+      "term": "avanza",
       "count": 4
     },
     {
@@ -13151,15 +13161,23 @@
       "count": 4
     },
     {
-      "term": "agustina",
+      "term": "sáenz",
       "count": 4
     },
     {
-      "term": "álvarez",
-      "count": 4
+      "term": "omar",
+      "count": 3
     },
     {
-      "term": "cornejo",
+      "term": "exeni",
+      "count": 3
+    },
+    {
+      "term": "pasa",
+      "count": 3
+    },
+    {
+      "term": "flavia",
       "count": 3
     }
   ],
