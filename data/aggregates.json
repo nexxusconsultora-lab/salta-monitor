@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-06T22:41:53.547092+00:00",
+  "generated_at": "2026-10-06T23:01:36.795560+00:00",
   "by_politician": {
+    "dip-griselda-edith-galleguillos": {
+      "total": 17,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 12,
+      "score_sum": -5
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 21,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 13,
+      "score_sum": 0
+    },
     "dnac-carlos-raul-zapata": {
       "total": 25,
       "positivo": 1,
@@ -113,13 +127,6 @@
       "neutral": 1,
       "score_sum": -2
     },
-    "dip-griselda-edith-galleguillos": {
-      "total": 16,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 11,
-      "score_sum": -5
-    },
     "dip-patricia-del-carmen-hucena": {
       "total": 9,
       "positivo": 0,
@@ -189,13 +196,6 @@
       "negativo": 0,
       "neutral": 16,
       "score_sum": 2
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 20,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 12,
-      "score_sum": 0
     },
     "dip-gaston-guillermo-galindez": {
       "total": 14,
@@ -808,6 +808,58 @@
     }
   },
   "by_day": {
+    "Tue, 31 Ma": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Mon, 20 Ju": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "Fri, 26 De": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
@@ -4926,48 +4978,6 @@
         "score_sum": 0
       },
       "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "Tue, 31 Ma": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-francisco-fabio-rodriguez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
         "total": 1,
         "score_sum": 0
       }
@@ -10138,12 +10148,6 @@
         "score_sum": 0
       }
     },
-    "Mon, 20 Ju": {
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Thu, 29 Ap": {
       "sen-mashur-lapad": {
         "total": 1,
@@ -13235,15 +13239,15 @@
       "count": 10
     },
     {
+      "term": "pasa",
+      "count": 8
+    },
+    {
       "term": "libertad",
       "count": 8
     },
     {
       "term": "diputados",
-      "count": 7
-    },
-    {
-      "term": "pasa",
       "count": 7
     },
     {
@@ -13255,11 +13259,7 @@
       "count": 7
     },
     {
-      "term": "contra",
-      "count": 6
-    },
-    {
-      "term": "cornejo",
+      "term": "royón",
       "count": 6
     },
     {
@@ -13271,19 +13271,23 @@
       "count": 6
     },
     {
-      "term": "flavia",
-      "count": 5
-    },
-    {
-      "term": "royón",
-      "count": 5
-    },
-    {
       "term": "orozco",
       "count": 5
     },
     {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "cornejo",
+      "count": 5
+    },
+    {
       "term": "carlos",
+      "count": 4
+    },
+    {
+      "term": "contra",
       "count": 4
     }
   ],
