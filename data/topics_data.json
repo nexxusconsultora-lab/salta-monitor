@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-10-06T09:25:14.014987+00:00",
+  "generated_at": "2026-10-06T16:10:52.781522+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 179,
+      "total_mentions": 183,
       "sentiment_breakdown": {
-        "positivo": 14,
+        "positivo": 15,
         "negativo": 14,
-        "neutral": 151
+        "neutral": 154
       },
       "sentiment_by_day": {
+        "Fri, 02 Oc": {
+          "total": 3,
+          "score_sum": 2
+        },
         "Tue, 06 Oc": {
-          "total": 1,
+          "total": 4,
           "score_sum": 0
         },
         "Mon, 05 Oc": {
@@ -54,10 +58,6 @@
         },
         "Sat, 26 Se": {
           "total": 5,
-          "score_sum": 0
-        },
-        "Fri, 02 Oc": {
-          "total": 2,
           "score_sum": 0
         },
         "Thu, 19 De": {
@@ -156,15 +156,15 @@
         },
         {
           "term": "pasa",
-          "count": 25
+          "count": 27
         },
         {
           "term": "informatesalta",
           "count": 22
         },
         {
-          "term": "obras",
-          "count": 17
+          "term": "milei",
+          "count": 18
         }
       ],
       "politicians_involved": [
@@ -266,6 +266,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Karina Milei evalúa no presentar candidatos en Salta: el acuerdo que impacta en Emilia Orozco - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQME1rMHdmZ3Jxb2NSdkFRYVp3LXpzVmZaYkhRMlVNV3ZYdFlUOHFwR2I4SXlaSmpDUlplVlZWVThDSlk3a1YtNkVQVmdOSkNNTFAxam5KOFlKb3NYQlh3QUFDeElZSU55U3BlX1NzWFhhVmJoSkhON2NQcUtZa1dqTi1DS3ZOVjZycFZyMWJESV9FVmVLeEpvWWhJeE5rR0xnMnFPVC1sOEV1em03YllpWHdFdmFwNjhVZkNOYXV5cXdZZFhXeXc?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 02 Oct 2026 19:40:49 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "El Círculo Médico de Salta y el IPS: auditorías, débitos y honorarios en disputa - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LX2VJLWl3Z0c3X1NUbFl4UU1WMHYyWmVKV1pYQ3JONk9RcV9sdlZqamxJMnZxRVNGVVFPT1d6QTlQQlBtbHZOUEVzY2hOOTlkaGhiVmY0eTJuWVoxdGtVdUt3Y1FMMjRoMHZwZk5kbzNlMFplNVdHbXdR?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Tue, 06 Oct 2026 13:41:18 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Karina Milei y Santilli viajan a Salta para la inauguración de una planta de litio - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmxWMjV6VXZCYTU2b3pvZE0xRkZtYWhtUHR0NnkzcDRkdVhmcTE4YnBzTGxSMENRb3E1OWRtWExVS2Vxc04wRVJITVU2ZmRWRklXY2N1WFpEOFFJT3BneXZ4YWZFazh4WlZGZHdrYjZRb3NxWlVOSHltclhrWG1lbGR6M1hqd1JV?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Tue, 06 Oct 2026 10:54:53 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta recibiría $142 mil millones de Nación para arreglos de rutas - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVm1rWGExc0ZXeXlzSDJWUVhySXVuSUFrT0FZNUEzbTN3ZENwaEJ2TmRJSnlza0pVYl90dGlFMTdDSm9IakVvMVROUzNaN0xNRnlNaGlOSU5GcEQzdlJDV1pocnNGR240d2Uxal9aXzBQNXJtdHlEajNuVU13YnhrcVlkMmFremlIS2d5ZlNvY01mbFMzblJjMEY2SG5yX2FLX1pxeg?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Tue, 06 Oct 2026 12:58:35 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Gobierno apura la negociación para suspender las Paso - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUF9fOTFSaWE0ZWtpRkRrMmt2SE05YjFHVGxGYkVOWEpadWRkbUU0U0p0bGdFcE1fQXYwMDRVaDZhTWR5bWpnNUlQRGNsSXgwVHo3RFhTVlZ6UVFRZ1B6SDB4VUxMa3VRdU1CZlpDNEo3WFlqYWpDVzZjZU5BMGZBX2E0NDlTZ2hQNFl1U2VPUnJLQVFnOHVVdTBlX2oydE1qSHNsTUVQeWR2Y0tDSXfSAbMBQVVfeXFMTzhDZXlsUGFNOFpWeVNzNkhQSml3NWRGbXpvLTlDZVpBNzR5b0ZibTRHOGIzTkdFRVgzdHhpU0RNaS1PcDhQaktnajM0aXZQUjFCNmpmVC1VRndjT25lN2pGUEVEOFFXRnd1eUJIVUF6REZXZTRQRGZzR1NDS3VrYnF2RVVvNFlLX2dlZVNuMWtiR1ZqYXZpbndFZkdfNEV0SU0xVnZXdXZMSmotY3ZZNlRBdzQ?oc=5",
@@ -446,34 +474,6 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU2Q1anM4c3J0S2dpWXhld2ktVHAxMVpvQVZKS1Z3RTBMNUlkR0llTFZVRi1lLUVhSTlobG1Ea0ltNkNGU0puZEJYbTNXRHBuNXgxVmVWbEIweWFZSEw5NVRSODQtdnRlT1M3TnEtb2xMRl9DTVJxU09KQzEtOG9YVXVWaVcwUG9Ua2U3TXNHdi1ucWRSMWVzUjNVWDdfX3FXUFFwUlJHY1ZOXzBEREpsMGkxSmhTQnItQ2FJaFRpaGZfbm1I0gHKAUFVX3lxTFBkR3Bjd0lSTGNxM2F4c3FKRklhMWo5QWU3V3F0Q2tjbXh5b0tuZVFFTFZNa3hXNUR6emhnRFZMR1VTNl84TkJDenE3a0VQZEljSi1NTEd4M1hCeTVWeWJ3QmgtcnFrX2FmOXVvZ25JWjJqbWdQbXlwWnh0NDVBQk9GS0dRTXl4a3ZkazhNZHk0WWVQSUNOWE1hZExHMXQyYVhGSnp0cTZwTm1BUmtIWmJ0WFVEQV9zTXF2Ynk2UVpFdG9LWDhLLVEzYlE?oc=5",
           "source": "El Tribuno",
           "date": "Thu, 01 Oct 2026 19:05:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Con Gustavo Sáenz en la comitiva, Nación reúne a gobernadores en París para discutir el Presupuesto - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiLUVtODFtOW9MUWZJR3FmWWVvdWxtUjc4TTZRcms1VC1zbnFlSzZFd3hxR2tmVmMwRUw0ZVV5bXlYNXNGc2dtWk1VWGhjc2YtdHVtREktbmZWNjViSzVybFFjU3ZnZUkyWlZxVDZzRFZOaHc?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Thu, 01 Oct 2026 15:30:33 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sáenz en la Argentina Week: “Salta ofrece confianza y grandes oportunidades” - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUFlR3FsMWtKLTV3YzQ0MXNwcTlINU9CMzBiWDliUldzN1o3MmNfV2p1YWlGU0M2cE9ISzNkOGdiZkFYTXZfNUVwQV83dE42VG5EcTJPWmF3ck02QW5HanczWXBWb0xEUzlZbW92UVp5ZmJZWFhObUR0dWtXY05NMENkR0xzWjcyc2NiRGN2ZDV3bFJBaFNYRkR3ZklzaXV6NkpmYTA2LWlQT1lWUnRTVzl4WVVxY1A3Vk5qRS16MHJLdThiS0hRV3pZRk8tZklfS0dYRlFSSDTSAecBQVVfeXFMTmo5ZVVmLTFJc2R2c3FIV2l6X2E3X0xvTjdRaHhwcnlrOHdkX1lhdWpOYnZLZGtOTk4xd2hJRHJPM1VXVU9zckZmWUVDdmZnMzZnSWJwM1REelRVd2NOQS1NN2l6MmtwSmg2WEJ1bjl3NlFlWDJLdTlHRWJnTXZQeEtEcmxSMVJtY2o2SHhnQ1VPaEpiU1NuR1VyV29TMjhPVk9iMXIybEVHRTdkMjFvdUxDcVF1Zk5tNjlRODlIM1lKS0hhSEo3NWZIbjB3U2t4emZxYUJ2MUx5bDQyWEhQV25VRm1DN3ln?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 01 Oct 2026 11:37:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Financiamiento Universitario: el Gobierno Nacional apeló la intimación de la Justicia - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFowNENTR1lLcDktYXhSTHdDV3RnOTl3OEZVOUV3OFBPOE1SVlNYb09ubVJtOFJiQlNSZFBHbHd4Mm04R1lSaEs4S1Rmd08xZktTankwdkdET0ZVQ1M1bHdoeEhpcUY0aDZCclRoTC1NNjV6RkQxUFo2bllQR0hEX3IzMGh3SHpxcGRqTA?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 29 Sep 2026 23:56:31 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Islas Malvina: el oficialismo prioriza su ley y posterga el Presupuesto 2027 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RZE9CMkxkQ1djLVZFVmZObmhFOHFlNmZ1dVB5TXR3ZWNhOHZJTWlBU2dtc3htN1BsWkcwZUJFTkhtR3FiVGxuVzNwYlIxbktSbG9WMmpUb0RBaHdybEREdlhoWEtoSVdDYkIwcg?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 01 Oct 2026 06:34:50 GMT",
           "sentiment_label": "neutral"
         }
       ]
