@@ -1,4 +1,4 @@
-# Radar Político Salta
+# NEWAR (Radar Político Salta integrado)
 
 Monitor gratuito de menciones de políticos —desde concejales hasta el
 gobernador— en medios digitales de la capital y los departamentos de Salta
@@ -532,3 +532,8 @@ que conviene mantener:
   tengas créditos disponibles).
 - Sumar una fuente de "clima de opinión pública" basada en encuestas
   publicadas por los propios medios, en lugar de redes sociales.
+
+
+## Integración NEWAR + Radar
+
+Todo el Radar vive ahora dentro de NEWAR: `index.html` es la única página (Inicio, Personas, Menciones, Temas, Eventos, Resumen, Oficiales, Destacados). Las páginas `centro/politico/temas/tema/briefing/destacados/eventos/oficiales.html` y `shared.js` se eliminaron; los recolectores, workflows y `data/` no cambian. Las personas/cargos/evidencia de NEWAR se derivan de `data/politicians.json` en el navegador; las filas con nombre repetido quedan «en revisión». Las estrellas guardadas usan la misma clave de antes.
