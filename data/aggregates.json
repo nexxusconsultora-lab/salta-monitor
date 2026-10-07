@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-07T12:22:17.352999+00:00",
+  "generated_at": "2026-10-07T12:37:31.214345+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 61,
+      "positivo": 6,
+      "negativo": 7,
+      "neutral": 48,
+      "score_sum": 3
+    },
+    "sen-mashur-lapad": {
+      "total": 60,
+      "positivo": 4,
+      "negativo": 5,
+      "neutral": 51,
+      "score_sum": -2
+    },
     "concejal-agustina-alvarez-eichele": {
       "total": 55,
       "positivo": 4,
@@ -84,13 +98,6 @@
       "negativo": 5,
       "neutral": 19,
       "score_sum": -8
-    },
-    "snac-flavia-royon": {
-      "total": 60,
-      "positivo": 6,
-      "negativo": 7,
-      "neutral": 47,
-      "score_sum": 3
     },
     "dnac-maria-gabriela-flores": {
       "total": 18,
@@ -449,13 +456,6 @@
       "neutral": 34,
       "score_sum": -15
     },
-    "sen-mashur-lapad": {
-      "total": 59,
-      "positivo": 4,
-      "negativo": 5,
-      "neutral": 50,
-      "score_sum": -2
-    },
     "dnac-julio-moreno-ovalle": {
       "total": 1,
       "positivo": 0,
@@ -808,6 +808,82 @@
     }
   },
   "by_day": {
+    "2025-09-11": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2019-11-24": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-hector-dauria": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-martin-miguel-perez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roberto-angel-bonifacio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ernesto-gerardo-guanca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-ana-laura-cordoba": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-cristina-fiore-vinuales": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-06-04": {
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
@@ -5242,12 +5318,6 @@
         "score_sum": 0
       }
     },
-    "2025-09-11": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-04-02": {
       "snac-flavia-royon": {
         "total": 1,
@@ -6740,72 +6810,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2019-11-24": {
-      "sen-hector-dauria": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-lino-fernando-yonar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-martin-miguel-perez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-fabio-enrique-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-roberto-angel-bonifacio": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-francisco-fabio-rodriguez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-javier-pantaleon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-ernesto-gerardo-guanca": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-ana-laura-cordoba": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-german-dario-ralle": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-luis-fernando-albeza": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-del-socorro-villamayor": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-cristina-fiore-vinuales": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
         "total": 1,
         "score_sum": 0
       }
@@ -13551,6 +13555,10 @@
       "count": 9
     },
     {
+      "term": "pasa",
+      "count": 8
+    },
+    {
       "term": "diputados",
       "count": 8
     },
@@ -13563,12 +13571,12 @@
       "count": 7
     },
     {
-      "term": "pasa",
+      "term": "avanza",
       "count": 7
     },
     {
-      "term": "avanza",
-      "count": 7
+      "term": "royón",
+      "count": 6
     },
     {
       "term": "mónica",
@@ -13587,24 +13595,15 @@
       "count": 6
     },
     {
+      "term": "flavia",
+      "count": 5
+    },
+    {
       "term": "agustina",
-      "count": 5
-    },
-    {
-      "term": "álvarez",
-      "count": 5
-    },
-    {
-      "term": "contra",
       "count": 5
     }
   ],
   "comentions": [
-    {
-      "a": "Gonzalo Caro Dávalos",
-      "b": "Gonzalo Caro Dávalos",
-      "count": 47
-    },
     {
       "a": "Dani Raúl Nolasco",
       "b": "Diego Evaristo Cari",
@@ -13698,6 +13697,11 @@
     {
       "a": "Diego Evaristo Cari",
       "b": "Mashur Lapad",
+      "count": 10
+    },
+    {
+      "a": "Dani Raúl Nolasco",
+      "b": "Sergio Rodrigo Saldaño",
       "count": 10
     }
   ]
