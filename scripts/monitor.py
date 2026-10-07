@@ -909,6 +909,10 @@ def extract_comentions(mentions, politicians):
         if len(pids) < 2:
             continue
         for a, b in combinations(sorted(pids), 2):
+            # Una persona con dos filas (p. ej. diputado y luego senador) tiene
+            # dos ids pero el mismo nombre: no es un cruce entre personas.
+            if by_id.get(a, a) == by_id.get(b, b):
+                continue
             pair_counts[(a, b)] += 1
 
     pairs = sorted(pair_counts.items(), key=lambda kv: kv[1], reverse=True)[:20]
@@ -1284,6 +1288,9 @@ def main():
 
     new_general = collect_general_news() + collect_media_general(media_batches)
     general_news = load_json(NEWS_GENERAL_FILE, [])
+    if backfill_published_iso(general_news):
+        # Notas generales guardadas sin fecha ISO: se completa desde el texto de "published".
+        save_json(NEWS_GENERAL_FILE, general_news)
     print(f"Noticias generales nuevas (nacional + provincial + medios directos): {new_general}")
 
     topic_mentions_for_events = load_json(TOPIC_MENTIONS_FILE, []) if topics else []

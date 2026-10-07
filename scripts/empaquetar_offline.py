@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "newar-offline.html"
 # Mismos nombres que usa index.html en SRC (archivo sin .json)
 DATOS = ["politicians", "aggregates", "mentions", "dossiers", "topics_data",
-         "events", "news_general", "oficiales", "oficiales_status", "nomina_status", "resoluciones"]
+         "events", "news_general", "topic_mentions", "oficiales", "oficiales_status", "nomina_status", "resoluciones"]
 
 
 def main() -> int:
