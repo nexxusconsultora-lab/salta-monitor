@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>NEWAR — Personas, cargos, evidencia y prensa de Salta</title>
+<link rel="preload" href="fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Tipografías alojadas en el repositorio (licencia OFL, ver fonts/LICENSE-*.txt). Subset latin: cubre español completo. */
+@font-face{font-family:Newsreader;font-style:normal;font-weight:200 800;font-display:swap;src:url(fonts/newsreader-latin-opsz-normal.woff2) format('woff2')}
+@font-face{font-family:Newsreader;font-style:italic;font-weight:200 800;font-display:swap;src:url(fonts/newsreader-latin-opsz-italic.woff2) format('woff2')}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/inter-latin-wght-normal.woff2) format('woff2')}
+:root{--paper:#F3EEE2;--raised:#FBF8F1;--ink:#211D1A;--soft:#5C554C;--line:#D9D1BF;--clay:#B1502E;--indigo:#2B3A55;--pos:#4C7A5D;--neg:#8B3A3A;--neu:#6F665A;--warn:#F6E7D8;--onind:#fff;--onclay:#fff;--negtx:#8B3A3A}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#211D1A;--raised:#2B2621;--ink:#F3EEE2;--soft:#B9B0A0;--line:#45403A;--clay:#D97A52;--indigo:#9DB1D8;--warn:#3a2c22;--onind:#211D1A;--onclay:#211D1A;--negtx:#E59A9A}}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{background:var(--paper);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif}
+h1,h2,h3,.serif{font-family:Newsreader,Georgia,serif}a{color:inherit}
+code{background:var(--paper);border:1px solid var(--line);padding:0 .3rem;border-radius:2px;font-size:.85em}
+nav.top{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:3px solid var(--ink);padding:.7rem 1.25rem 0;padding-top:calc(.7rem + env(safe-area-inset-top,0px))}
+nav .row{max-width:1100px;margin:0 auto;display:flex;align-items:baseline;gap:1.5rem;flex-wrap:wrap}
+nav h1{margin:0;font-size:1.4rem}nav .upd{font-size:.78rem;color:var(--soft);margin-left:auto;text-align:right;display:flex;flex-direction:column;line-height:1.3}nav .upd b{font-size:.95rem;color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums;text-transform:capitalize}
+nav .tabs{display:flex;gap:.2rem;overflow-x:auto;max-width:1100px;margin:.3rem auto 0;scrollbar-width:thin}
+nav .tabs a{padding:.45rem .8rem;text-decoration:none;font-size:.9rem;font-weight:500;color:var(--soft);white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-3px}
+nav .tabs a.on{color:var(--ink);border-color:var(--clay);font-weight:600}
+.wrap{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem 4rem}
+h2.sec{font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;border-bottom:2px solid var(--ink);padding-bottom:.4rem;margin:2rem 0 1rem}
+h2.sec:first-child{margin-top:0}
+.lede{color:var(--soft);max-width:70ch;font-size:.95rem;margin:0 0 1.25rem}
+.empty{color:var(--soft);font-size:.9rem}.note{font-size:.8rem;color:var(--soft)}
+.ctl{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}
+.ctl input,.ctl select,.ctl button{font:inherit;font-size:.9rem;padding:.5rem .7rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink)}
+.ctl input[type=search]{flex:1 1 240px}.ctl button{cursor:pointer}.ctl button.on{background:var(--indigo);color:var(--onind)}
+.ctl label{display:flex;align-items:center;gap:.35rem;font-size:.85rem}.ctl input[type=checkbox]{padding:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.card{display:block;text-decoration:none;background:var(--raised);border:1px solid var(--line);padding:1rem 1.2rem}
+a.card:hover{border-color:var(--ink)}.card .n{font:700 1.8rem Newsreader,serif}.card .l{font-size:.8rem;color:var(--soft)}
+.row2{display:flex;justify-content:space-between;gap:1rem;align-items:baseline;padding:.65rem 0;border-bottom:1px solid var(--line)}
+a.row2{text-decoration:none}a.row2:hover{background:var(--raised)}
+.nm{font-weight:600;overflow-wrap:anywhere}.meta{font-size:.8rem;color:var(--soft)}
+.tag{display:inline-block;font-size:.7rem;font-weight:600;padding:.1rem .5rem;border-radius:2px;color:#fff;background:var(--neu)}
+.tag.vigente,.tag.positivo{background:var(--pos)}.tag.negativo{background:var(--neg)}.tag.no-vigente,.tag.neutral{background:var(--neu)}
+.flag{display:inline-block;font-size:.72rem;font-weight:600;color:var(--onclay);background:var(--clay);padding:.1rem .5rem;border-radius:2px;margin:.15rem .3rem 0 0}
+.warn{display:block;margin:.5rem 0;font-size:.82rem;background:var(--warn);border-left:3px solid var(--clay);padding:.5rem .75rem}
+.person{background:var(--raised);border:1px solid var(--line);padding:1.25rem 1.5rem}.person h2{margin:0 0 .2rem;font-size:1.7rem;overflow-wrap:anywhere}
+.cargo{border-left:3px solid var(--indigo);padding:.4rem 0 .4rem 1rem;margin-bottom:.8rem}
+.sh{font:700 .82rem/1.5 Inter,system-ui,sans-serif;margin:1.5rem 0 .5rem;text-transform:uppercase;letter-spacing:.04em;color:var(--soft)}.sh.neg{color:var(--negtx)}
+.boxes{display:flex;gap:.6rem;flex-wrap:wrap}.box{border:1px solid var(--line);padding:.4rem .9rem;background:var(--paper)}.box b{display:block;font:700 1.4rem Newsreader,serif}.box span{font-size:.75rem;color:var(--soft)}
+.bars{display:flex;align-items:center;gap:2px;height:90px;border-bottom:1px solid var(--line)}
+.bars i{flex:1;min-width:2px;background:var(--pos);align-self:flex-end}.bars i.n{background:var(--negtx)}
+.bars .z{flex:1;height:100%;display:flex;align-items:flex-end}.bars .z i{display:block;width:100%;flex:none}
+.pill{display:inline-block;border:1px solid var(--line);background:var(--paper);padding:.1rem .6rem;margin:0 .3rem .3rem 0;font-size:.82rem;border-radius:99px}
+.pill.pol{border-color:var(--indigo)}
+.art{display:flex;justify-content:space-between;gap:.75rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--line)}
+.art .t{font:600 1.05rem/1.35 Newsreader,serif;margin:.15rem 0 0}.art .t a{text-decoration:none}.art .t a:hover{text-decoration:underline}
+.quote{border-left:3px solid var(--clay);padding:.3rem 0 .3rem 1rem;margin:.6rem 0;font:italic 1.05rem Newsreader,serif}
+.day{font-weight:700;text-transform:capitalize;margin:1.5rem 0 .3rem;border-bottom:1px solid var(--ink)}
+.star{border:1px solid var(--line);background:var(--raised);cursor:pointer;padding:.1rem .45rem;border-radius:2px;color:var(--ink)}.star.on{background:#FCE9C9;border-color:#C99A3A;color:#000}
+.pcol{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:2rem}@media(max-width:860px){.pcol{grid-template-columns:minmax(0,1fr)}}
+.pnl{background:var(--raised);border:1px solid var(--line);padding:1rem;margin-bottom:1rem}
+.more{font:inherit;padding:.55rem 1rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink);cursor:pointer;margin-top:1rem}
+details summary{cursor:pointer;color:var(--indigo);font-weight:600;font-size:.88rem}
+.ev{border-bottom:1px solid var(--line);padding:.4rem 0;font-size:.82rem;color:var(--soft);overflow-wrap:anywhere}.ev b{color:var(--ink)}
+footer{font-size:.78rem;color:var(--soft);border-top:1px solid var(--line);padding-top:1rem;margin-top:2.5rem}
+/* Responsive y accesibilidad */
+.tag.ind{background:var(--indigo);color:var(--onind)}
+.tag.warnc{background:#8a6a1f}
+.lv{font:inherit;font-size:1.1rem;line-height:1;border:1px solid var(--ink);background:var(--raised);color:var(--ink);cursor:pointer;min-width:2.2rem;min-height:2.2rem;border-radius:2px}
+#live{font-size:.72rem}#live .dot{display:inline-block;width:.55rem;height:.55rem;border-radius:50%;margin-right:.35rem;background:var(--neu)}#live .dot.g{background:var(--pos)}#live .dot.a{background:#C99A3A}#live .dot.r{background:var(--neg)}
+.toast{position:fixed;left:50%;bottom:calc(1rem + env(safe-area-inset-bottom,0px));transform:translate(-50%,200%);background:var(--ink);color:var(--paper);padding:.6rem 1rem;font-size:.88rem;z-index:20;max-width:90vw;transition:transform .25s;border-radius:2px}.toast.on{transform:translate(-50%,0)}
+.ctl select,.ctl input{min-width:0;max-width:100%}.ctl select{text-overflow:ellipsis}
+.art>div{min-width:0}.art .t,.art .meta{overflow-wrap:anywhere}
+.star{flex:none;min-width:2rem;min-height:2rem}
+:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+#app:focus,#app h2:focus{outline:none}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--paper);padding:.6rem 1rem;z-index:10;border:0;font:inherit;cursor:pointer}.skip:focus{left:.5rem;top:calc(.5rem + env(safe-area-inset-top,0px))}
+</style>
+</head>
+<body>
+<button class="skip" id="skip" type="button">Saltar al contenido</button>
+<nav class="top" aria-label="Secciones de NEWAR"><div class="row"><h1>NEWAR</h1><span class="upd"><b id="clock" aria-hidden="true"></b><span id="upd"></span><span id="live" role="status"></span></span><button class="lv" id="lvb" type="button" aria-label="Actualizar datos ahora" title="Actualizar ahora">↻</button></div><div class="tabs" id="tabs"></div></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<main class="wrap" id="app" tabindex="-1"><p class="empty">Cargando datos…</p></main>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe=u=>/^https?:\/\//i.test(u||'')?u:'#';
+const fold=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const FAIL=[];
+const REMOTO='https://nexxusconsultora-lab.github.io/salta-monitor/data/';
+const bajar=async(url)=>{const ac=new AbortController(),to=setTimeout(()=>ac.abort(),30000);try{const r=await fetch(url+'?_='+Date.now(),{signal:ac.signal,cache:'no-store'});if(!r.ok)throw 0;return await r.json()}finally{clearTimeout(to)}};
+/* leer(): 1) data/ local; 2) si falla (p. ej. abierto con doble clic desde la PC: file:// bloquea fetch) se leen los datos del sitio publicado. Devuelve undefined si no pudo. */
+const leer=async n=>{try{return await bajar('data/'+n+'.json')}catch(e){}
+ if(!location.href.startsWith(REMOTO.replace(/data\/$/,''))){try{return await bajar(REMOTO+n+'.json')}catch(e){}}
+ return undefined};
+const J=async(n,fb,opt)=>{if(window.NEWAR_EMBED&&n in NEWAR_EMBED)return NEWAR_EMBED[n];const v=await leer(n);if(v!==undefined)return v;if(!opt)FAIL.push(n);return fb};
+/* Cada vista pide solo los archivos que usa; se descargan una vez y quedan en memoria */
+const S={};const SRC={res:['resoluciones',{},true],tm:['topic_mentions',[]],pol:['politicians',[]],agg:['aggregates',null],men:['mentions',[]],dos:['dossiers',{}],top:['topics_data',{topics:{}}],ev:['events',{events:[]}],news:['news_general',[]],of:['oficiales',{items:[]}],ofst:['oficiales_status',{sources:{}}]};
+const LOAD={};const need=(...ks)=>Promise.all(ks.map(k=>LOAD[k]||(LOAD[k]=J(SRC[k][0],SRC[k][1],SRC[k][2]).then(v=>(S[k]=v)))));
+const fdate=(v,o)=>{const d=new Date(v);return isNaN(d)?'':d.toLocaleString('es-AR',o||{dateStyle:'short',timeStyle:'short'})};
+function rel(d){const s=(Date.now()-d)/1000;if(s<0)return'ahora';if(s<3600)return`hace ${Math.max(1,Math.round(s/60))} min`;if(s<86400)return`hace ${Math.round(s/3600)} h`;if(s<604800)return`hace ${Math.round(s/86400)} d`;return fdate(d,{dateStyle:'medium'})}
+/* Destacados (misma clave que el Radar: las estrellas existentes se conservan) */
+const SK='radar_destacados_v1';
+const stars=()=>{try{return JSON.parse(localStorage.getItem(SK)||'[]')}catch(e){return[]}};
+const setStars=l=>{try{localStorage.setItem(SK,JSON.stringify(l))}catch(e){}};
+const isStar=id=>stars().some(s=>s.id===id);
+const starLbl=(on,t)=>(on?'Quitar de destacados: ':'Destacar: ')+String(t||'').slice(0,90);
+const starBtn=m=>{const on=isStar(m.id);return`<button class="star${on?' on':''}" data-m="${encodeURIComponent(JSON.stringify(m))}" aria-pressed="${on}" aria-label="${esc(starLbl(on,m.title))}" title="Destacar (solo en este navegador)">${on?'★':'☆'}</button>`};
+document.addEventListener('click',e=>{const b=e.target.closest('.star');if(!b)return;let m;try{m=JSON.parse(decodeURIComponent(b.dataset.m))}catch(x){return}
+ const l=stars(),i=l.findIndex(s=>s.id===m.id);if(i>=0)l.splice(i,1);else l.push({...m,starred_at:new Date().toISOString()});setStars(l);
+ const on=i<0;b.textContent=on?'★':'☆';b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.setAttribute('aria-label',starLbl(on,m.title))});
+
+/* ---------- Modelo NEWAR: persona / cargo / evidencia. Todo se CALCULA con la fecha de hoy y los datos vigentes: nada fijo a mano ---------- */
+const INST={'Ejecutivo':['Poder Ejecutivo de Salta','Provincia de Salta','provincial'],'Diputados':['Cámara de Diputados de Salta','Provincia de Salta','provincial'],'Senado':['Cámara de Senadores de Salta','Provincia de Salta','provincial'],'Concejo Deliberante':['Concejo Deliberante de la Ciudad de Salta','Municipio de la Ciudad de Salta','municipal'],'Diputados de la Nación':['Cámara de Diputados de la Nación','República Argentina','nacional'],'Senado de la Nación':['Cámara de Senadores de la Nación','República Argentina','nacional']};
+let personas=[],byId={},homonimos=[],MEN=[],PM={},CTRL={},GEN=null,NOMTOK=new Set();
+const pd=v=>{if(v==null||v==='')return null;const d=new Date(v);return isNaN(d)?null:d};
+const dkey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const anio=v=>{const n=parseInt(String(v==null?'':v).slice(0,4),10);return isNaN(n)?null:n};
+const esOficial=u=>/^https?:\/\/([a-z0-9-]+\.)*(gob|gov)\.ar(\/|$)/i.test(u||'');
+const limpiaRol=r=>String(r||'').replace(/\s*\((mandato|periodo)[^)]*\)/i,'').replace(/\s*[—-]\s*mandato vigente en [a-záéíóú]+ de \d{4}/i,'').replace(/\s*\(Concejo Deliberante\)/i,'').trim();
+const notaRol=r=>{const m=String(r||'').match(/\((mandato[^)]*)\)|[—-]\s*(mandato vigente en [a-záéíóú]+ de \d{4})/i);return m?(m[1]||m[2]):''};
+/* Vigencia = f(período registrado, tipo de fuente, fecha de HOY). Nunca se lee de un campo escrito a mano. */
+function vigDe(p,hoy){
+ const R=((S.res||{}).periodos||{})[p.id];
+ if(R&&typeof R.vigente==='boolean')return{v:R.vigente?1:0,sinConf:false,txt:'Confirmado por una persona'+(R.fuente?' ('+R.fuente+')':'')};
+ const y=hoy.getFullYear(),s=anio(p.term_start),e=anio(p.term_end),of=esOficial(p.source_url);
+ if(s!=null&&s>y)return{v:null,sinConf:false,txt:'El período registrado empieza recién en '+s};
+ if(e!=null){
+  if(e<y)return{v:0,sinConf:!of,txt:'Mandato registrado hasta '+e+(of?'':'; la nómina no confirma si fue reelecto/a')};
+  return{v:1,sinConf:false,txt:e===y?'Mandato registrado hasta '+e+' (fecha exacta no registrada)':'Mandato registrado hasta '+e}}
+ if(of)return{v:1,sinConf:false,txt:'En ejercicio según fuente oficial (sin fecha de fin registrada)'};
+ return{v:null,sinConf:false,txt:'Sin dato de vigencia en la nómina'}}
+function mkCargo(p,hoy){
+ const [inst,jur,niv]=INST[p.chamber]||[p.chamber||'—','—',''];
+ const lugar=p.chamber==='Ejecutivo'?'':(p.department||p.distrito||'');
+ let t=limpiaRol(p.cargo||p.role||'');if(lugar&&!fold(t).includes(fold(lugar)))t+=' por '+lugar;
+ return Object.assign({id:p.id,p,inst,jur,niv,titulo:t,lugar,desde:p.term_start||null,hasta:p.term_end||null,nota:notaRol(p.role),bloque:p.bloque},vigDe(p,hoy))}
+const evDe=c=>{const e=(campo,valor,calc)=>({campo,valor,calc,fuente:'data/politicians.json · fila '+c.id,url:c.p.source_url});const l=[e('cargo',c.titulo)];if(c.desde)l.push(e('desde',c.desde));if(c.hasta)l.push(e('hasta',c.hasta));l.push(e('vigencia',c.txt,true));return l};
+const rk=c=>c.v===1?(c.hasta?1:0):(c.v===null?2:3);
+const cmpC=(a,b)=>rk(a)-rk(b)||((anio(b.hasta)||0)-(anio(a.hasta)||0));
+function mkPersona(cs,extra){const prim=cs[0];
+ const v=cs.some(c=>c.v===1)?1:(cs.every(c=>c.v===0)?0:null);
+ return Object.assign({id:prim.id,ids:cs.map(c=>c.id),nombre:prim.p.name,cargos:cs,v,sinConf:v===0&&cs.every(c=>c.sinConf),inst:prim.inst,jur:prim.jur,niv:prim.niv,cargo:prim.titulo,
+  aliases:[...new Set(cs.flatMap(c=>c.p.aliases||[]))],fusion:cs.slice(1).map(c=>Object.assign({id:c.id},c.fus)),homonimos:[],ev:cs.flatMap(evDe)},extra||{})}
+function build(){
+ const hoy=new Date(),RES=S.res||{},nf=RES.no_fusionar||[],fu=RES.fusionar||[];
+ personas=[];byId={};homonimos=[];
+ const grupos={};S.pol.forEach(p=>{const c=mkCargo(p,hoy);(grupos[fold(p.name)]=grupos[fold(p.name)]||[]).push(c)});
+ Object.values(grupos).forEach(g=>{
+  g.sort(cmpC);const prim=g[0],miembros=[prim],aparte=[];
+  g.slice(1).forEach(c=>{
+   if(nf.some(x=>x.includes(c.id)&&x.includes(prim.id))){aparte.push([c,'marcada como persona distinta en data/resoluciones.json']);return}
+   const f=fu.find(x=>(x.ids||[]).includes(c.id)&&(x.ids||[]).includes(prim.id));
+   if(f){c.fus={conf:'confirmado por una persona',base:f.motivo||'indicado en data/resoluciones.json'};miembros.push(c);return}
+   const nTok=fold(c.p.name).split(/\s+/).filter(Boolean).length,dc=!!(prim.lugar&&c.lugar),mismo=dc&&fold(prim.lugar)===fold(c.lugar);
+   let no='';
+   if(nTok<3)no='el nombre tiene menos de 3 palabras: podría ser un homónimo';
+   else if(!(c.v===0&&prim.v!==0))no='los períodos no son sucesivos (el cargo anterior debe estar vencido y el otro no)';
+   else if(dc&&!mismo)no='los departamentos son distintos ('+c.lugar+' / '+prim.lugar+')';
+   if(no){aparte.push([c,no]);return}
+   c.fus={conf:mismo?'confianza alta':'confianza media',base:'mismo nombre completo ('+nTok+' palabras)'+(mismo?' y mismo departamento ('+prim.lugar+')':'; una de las filas no indica departamento')+'. El cargo «'+c.titulo+'» figura vencido ('+(c.hasta||'sin año')+') y «'+prim.titulo+'» es posterior. Es un criterio de coincidencia, no una verificación de identidad.'};
+   miembros.push(c)});
+  const P=mkPersona(miembros);personas.push(P);
+  aparte.forEach(([c,no])=>{const Q=mkPersona([c],{homonimoDe:P.id,motivo:no});P.homonimos.push({id:c.id,motivo:no});personas.push(Q);homonimos.push(Q)})});
+ personas.sort((a,b)=>fold(a.nombre).localeCompare(fold(b.nombre)));
+ personas.forEach(p=>p.ids.forEach(i=>byId[i]=p));
+ NOMTOK=new Set();personas.forEach(p=>[p.nombre,...p.aliases].forEach(n=>fold(n).split(/[^a-z0-9]+/).forEach(w=>w&&NOMTOK.add(w))));
+ (S.men||[]).concat(S.news||[]).forEach(m=>fold(m.source).split(/[^a-z0-9]+/).forEach(w=>w&&NOMTOK.add(w)));
+ /* menciones: una sola vez por persona y nota (si dos filas de la nómina son la misma persona) */
+ CTRL={menHuerf:0,menDup:0,menSinFecha:0};const seen={},tmp=[];
+ (S.men||[]).forEach(m=>{const pe=byId[m.politician_id];if(!pe){CTRL.menHuerf++;return}
+  const k=pe.id+'|'+(m.link||m.id);if(seen[k]){CTRL.menDup++;return}seen[k]=1;
+  const d=pd(m.published_iso||m.published);if(!d)CTRL.menSinFecha++;tmp.push(Object.assign({},m,{_pid:pe.id,_d:d}))});
+ tmp.sort((a,b)=>(b._d||0)-(a._d||0));MEN=tmp;PM={};MEN.forEach(m=>(PM[m._pid]=PM[m._pid]||[]).push(m))}
+const badgeV=(v,sc)=>v===1?'<span class="tag vigente">vigente</span>':v===0?(sc?'<span class="tag warnc" title="Según el registro el mandato terminó, pero la nómina no confirma si fue reelecto/a">mandato vencido · sin confirmar</span>':'<span class="tag no-vigente">no vigente</span>'):'<span class="tag">vigencia sin dato</span>';
+const badge=p=>badgeV(p.v,p.sinConf);
+const total=id=>{const p=byId[id];return p?(PM[p.id]||[]).length:0};
+/* ---- Cálculos sobre menciones (no se usan by_day/sentiment_by_day del agregado: traen fechas truncadas y sin año) ---- */
+const STOP=new Set(('para con por una uno unos unas del los las que como mas pero sus fue son era ser han hay este esta estos estas ese esa esos esas sobre entre desde hasta tras ante bajo cada todo toda todos todas otro otra otros otras muy sin segun tambien donde cuando quien quienes cual cuales tiene tienen tener hace hacer hizo dijo dice dicen dio dar quedo quedan sera seran sido estan estar estaba nuevo nueva nuevos nuevas primer primera primero anos dias hoy ayer manana semana mes meses vez veces gran ademas aunque luego ahora aqui alli asi puede pueden podria podran debe deben dos tres cuatro cinco seis siete ocho nueve diez mil millones video fotos foto vivo salta provincia provincial senado senador senadores senadora diputado diputados diputada camara concejal concejales legislatura gobernador politica').split(' '));
+function tokensTitulo(m){let t=String(m.title||'');const i=t.lastIndexOf(' - ');if(i>10)t=t.slice(0,i);
+ return[...new Set(fold(t).split(/[^a-z0-9]+/).filter(w=>w.length>=4&&!/^\d+$/.test(w)&&!STOP.has(w)&&!NOMTOK.has(w)))]}
+function terminos(list,n){const c={};list.forEach(m=>tokensTitulo(m).forEach(w=>c[w]=(c[w]||0)+1));return Object.entries(c).filter(x=>x[1]>=2).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,n).map(([term,count])=>({term,count}))}
+function cruces(){const g={};MEN.forEach(m=>{(g[m.link]=g[m.link]||new Set()).add(m._pid)});const c={};
+ Object.values(g).forEach(s=>{const a=[...s].sort();for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){const k=a[i]+'|'+a[j];c[k]=(c[k]||0)+1}});
+ return Object.entries(c).map(([k,n])=>{const[a,b]=k.split('|');return{a:byId[a].nombre,b:byId[b].nombre,count:n}}).sort((x,y)=>y.count-x.count).slice(0,10)}
+function serie(items,n){const hoy=new Date(),dias=[],mapa={};
+ for(let i=n-1;i>=0;i--){const d=new Date(hoy.getFullYear(),hoy.getMonth(),hoy.getDate()-i),e={k:dkey(d),total:0,score:0};dias.push(e);mapa[e.k]=e}
+ let ult=null;items.forEach(m=>{const d=m._d||pd(m.published_iso||m.published);if(!d)return;if(!ult||d>ult)ult=d;const e=mapa[dkey(d)];if(e){e.total++;e.score+=(+m.sentiment_score||0)}});
+ return{dias,ult,n:dias.reduce((s,d)=>s+d.total,0)}}
+const conteo=l=>({positivo:l.filter(m=>m.sentiment_label==='positivo').length,negativo:l.filter(m=>m.sentiment_label==='negativo').length,neutral:l.filter(m=>m.sentiment_label==='neutral').length});
+const uniq=(l,f)=>{const s=new Set();return l.filter(x=>{const k=f(x);if(s.has(k))return false;s.add(k);return true})};
+const esPlaceholder=t=>/^ejemplo/i.test(t.id||'')||/^nombre del tema$/i.test(t.name||'');
+const pillsPers=ids=>uniq((ids||[]).map(i=>byId[i]).filter(Boolean),p=>p.id).map(p=>`<a class="pill pol" href="#/persona/${encodeURIComponent(p.id)}">${esc(p.nombre)}</a>`).join('');
+
+/* ---------- Piezas reutilizables ---------- */
+const boxes=(t,b)=>`<div class="boxes"><div class="box"><b>${t}</b><span>Menciones</span></div><div class="box"><b>${b.positivo}</b><span>Positivas</span></div><div class="box"><b>${b.negativo}</b><span>Negativas</span></div><div class="box"><b>${b.neutral}</b><span>Neutras</span></div></div>`;
+function toneBars(items,n=45){const s=serie(items,n);
+ if(!s.n)return`<p class="empty">Sin menciones en los últimos ${n} días${s.ult?` (la última registrada es del ${fdate(s.ult,{dateStyle:'medium'})})`:''}.</p>`;
+ const mx=Math.max(1,...s.dias.map(d=>Math.abs(d.score)));
+ return`<div class="bars">${s.dias.map(d=>`<div class="z" title="${d.k}: ${d.total} menciones, balance ${d.score}"><i class="${d.score<0?'n':''}" style="height:${d.total?Math.max(3,Math.abs(d.score)/mx*100):0}%"></i></div>`).join('')}</div><p class="note">Balance de tono por día, últimos ${n} días hasta hoy (verde: positivo, rojo: negativo). Heurística por palabras clave; se calcula con la fecha real de cada nota.</p>`}
+const quotes=(l,pre)=>l&&l.length?l.map((q,i)=>`<div class="art"><div><div class="quote">“${esc(q.quote)}”</div><span class="meta">${esc(q.source)} · <a href="${esc(safe(q.link))}" target="_blank" rel="noopener">ver nota original</a></span></div>${starBtn({id:pre+i,type:'cita',title:q.quote,link:q.link,source:q.source,date:q.date})}</div>`).join(''):'<p class="empty">Todavía no se detectaron citas textuales.</p>';
+const arts=l=>l&&l.length?l.map(a=>`<div class="art"><div><div class="meta"><span class="tag ${esc(a.sentiment_label)}">${esc(a.sentiment_label)}</span> ${esc(a.source)} · ${fdate(a.date)}</div><p class="t"><a href="${esc(safe(a.link))}" target="_blank" rel="noopener">${esc(a.title)}</a></p></div>${starBtn({id:a.link,type:'articulo',title:a.title,link:a.link,source:a.source,date:a.date})}</div>`).join(''):'<p class="empty">Sin artículos todavía.</p>';
+const ofCard=it=>`<article class="art"><div style="min-width:0"><div class="meta"><span class="tag">${esc(it.jurisdiccion||'—')}</span> <span class="tag ind">${esc(it.tipo_acto||'Otro')}</span> ${esc(it.organismo||it.fuente)} · ${esc(it.fecha_publicacion||(it.first_seen||'').slice(0,10))}</div><p class="t"><a href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.titulo)}</a></p>${it.resumen?`<p class="meta">${esc(it.resumen)}</p>`:''}${pillsPers(it.personas)}${it.personas&&it.personas.length&&it.contexto?`<p class="meta">Apareció en: “${esc(it.contexto)}”</p>`:''}</div>${starBtn({id:'oficial-'+it.id,type:'oficial',title:it.titulo,link:it.url,source:it.fuente,date:it.fecha_publicacion})}</article>`;
+function pager(el,items,render,size){let n=size;const draw=()=>{el.innerHTML=items.slice(0,n).map(render).join('')+(items.length>n?'<button class="more">Mostrar más</button>':'');const b=el.querySelector('.more');if(b)b.onclick=()=>{const prev=n;n+=size;draw();const nx=el.children[prev];if(nx){if(!nx.matches('a[href],button'))nx.tabIndex=-1;nx.focus()}}};draw()}
+
+/* ---------- Vistas ---------- */
+const V={};
+V.inicio=()=>{
+ setTimeout(()=>need('news','of').then(()=>{const set=(i,v)=>{const e=$('#'+i);if(e)e.textContent=v};set('k-news',S.news.length);set('k-of',(S.of.items||[]).length)}));
+ const vig=personas.filter(p=>p.v===1).length,top=personas.map(p=>[p,total(p.id)]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]).slice(0,8);
+ const temas=Object.values(S.top.topics||{}).filter(t=>!esPlaceholder(t)),tt=temas.sort((a,b)=>b.total_mentions-a.total_mentions).slice(0,6);
+ const sr=serie(MEN,14),mx=Math.max(1,...sr.dias.map(d=>d.total));
+ const c=(n,l,h,id)=>`<a class="card" href="#/${h}"><div class="n"${id?` id="${id}"`:''}>${n}</div><div class="l">${l}</div></a>`;
+ return`<h2 class="sec">NEWAR</h2><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. La vigencia se calcula con la fecha de hoy a partir de los períodos registrados. Lo que no está registrado se muestra como tal: nunca se inventa.</p>
+ <div class="grid">${c(personas.length,'personas','personas')}${c(vig,'con cargo vigente','personas')}${c(MEN.length,'menciones en prensa','menciones')}${c(temas.length,'temas seguidos','temas')}${c((S.ev.events||[]).length,'eventos conectados','eventos')}${c('…','noticias generales','resumen','k-news')}${c('…','publicaciones oficiales','oficiales','k-of')}${c(stars().length,'destacados','destacados')}</div>
+ <h2 class="sec">Personas con más cobertura</h2>${top.length?top.map(([p,t])=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><span class="nm">${esc(p.nombre)} <span class="meta">${esc(p.cargo)}</span></span><span class="meta">${t} menciones</span></a>`).join(''):'<p class="empty">Sin datos todavía.</p>'}
+ <h2 class="sec">Temas más activos</h2>${tt.length?tt.map(t=>`<a class="row2" href="#/tema/${encodeURIComponent(t.id)}"><span class="nm">${esc(t.name)}</span><span class="meta">${t.total_mentions} menciones</span></a>`).join(''):'<p class="empty">No hay temas configurados (data/topics.json).</p>'}
+ <h2 class="sec">Volumen de menciones, últimos 14 días</h2>${sr.n?`<div class="bars">${sr.dias.map(d=>`<i title="${d.k}: ${d.total}" style="height:${d.total?Math.max(3,d.total/mx*100):0}%;background:var(--clay)"></i>`).join('')}</div><p class="note">${sr.n} menciones en 14 días, por fecha real de publicación.</p>`:`<p class="empty">Sin menciones en los últimos 14 días${sr.ult?` (la última registrada es del ${fdate(sr.ult,{dateStyle:'medium'})})`:''}.</p>`}
+ <footer>Datos de medios digitales públicos y páginas oficiales. El tono y los temas son heurísticos (palabras clave), no un modelo de IA. Las coincidencias de nombre no verifican identidad: puede haber homónimos. La pestaña <a href="#/control">Control</a> muestra qué datos están desactualizados o en duda.</footer>`};
+
+V.personas=()=>{
+ const insts=[...new Set(personas.map(p=>p.inst))].sort();personas.forEach(p=>{p._b=fold([p.nombre,...p.aliases].join(' '))});
+ setTimeout(()=>{const go=()=>{const q=fold($('#q').value.trim()),i=$('#fi').value,v=$('#fv').value,s=$('#fs').value;
+  let l=personas.filter(p=>(!q||p._b.includes(q))&&(!i||p.inst===i)&&(v===''||(v==='1'&&p.v===1)||(v==='0'&&p.v===0)||(v==='n'&&p.v===null)));
+  if(s==='m')l=[...l].sort((a,b)=>total(b.id)-total(a.id));
+  pager($('#res'),l,p=>{const ms=PM[p.id]||[],u=ms[0]&&ms[0]._d;return`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><div><div class="nm">${esc(p.nombre)}</div><div class="meta">${esc(p.cargo)} · ${esc(p.inst)}${ms.length?' · '+ms.length+' menciones'+(u?' · última '+relT(u):''):''}</div>${p.fusion.length?`<span class="flag">${p.cargos.length} cargos unificados</span>`:''}${p.homonimoDe||p.homonimos.length?'<span class="flag">Homónimo sin resolver</span>':''}</div>${badge(p)}</a>`},60);
+  $('#cnt').textContent=l.length+' personas'};
+  ['q','fi','fv','fs'].forEach(id=>$('#'+id).addEventListener('input',go));go()});
+ return`<h2 class="sec">Personas</h2><div class="ctl"><input type="search" id="q" aria-label="Buscar persona por nombre" placeholder="Buscar por nombre o apellido… (probá 'sáenz', 'caro', 'navarro')" autocomplete="off"><select id="fi" aria-label="Institución"><option value="">Todas las instituciones</option>${insts.map(i=>`<option>${esc(i)}</option>`).join('')}</select><select id="fv" aria-label="Vigencia"><option value="">Cualquier vigencia</option><option value="1">Vigentes</option><option value="0">Mandato vencido según el registro</option><option value="n">Vigencia sin dato</option></select><select id="fs" aria-label="Orden"><option value="n">Orden alfabético</option><option value="m">Más mencionados</option></select></div><p class="note" id="cnt"></p><div id="res"></div>${homonimos.length?`<h3 class="sh">Homónimos sin resolver (${homonimos.length})</h3><p class="note">Misma escritura de nombre que otra fila, pero los datos no alcanzan para decir que es la misma persona. Quedan separadas hasta que una persona decida en <code>data/resoluciones.json</code>.</p>${homonimos.map(h=>`<a class="row2" href="#/persona/${encodeURIComponent(h.id)}"><div><div class="nm">${esc(h.nombre)}</div><div class="meta">${esc(h.cargo)} · ${esc(h.motivo)}</div></div><span class="flag">Sin resolver</span></a>`).join('')}`:''}
+ <footer>Si dos filas de la nómina tienen el mismo nombre completo y sus cargos son sucesivos (uno vencido y el otro posterior, sin departamentos distintos), NEWAR las muestra como <b>una persona con varios cargos</b> y lo aclara en su ficha. Si los datos no alcanzan, quedan separadas y marcadas. La vigencia se recalcula con la fecha de hoy.</footer>`};
+
+V.persona=id=>{
+ const p=byId[id];if(!p)return'<p class="empty">No se encontró esa persona. <a href="#/personas">Volver al listado</a></p>';
+ const ms=PM[p.id]||[],ofs=uniq((S.of.items||[]).filter(i=>(i.personas||[]).some(x=>p.ids.includes(x))),i=>i.id).slice(0,15);
+ const hoyTxt=fdate(new Date(),{dateStyle:'medium'});
+ const av=(p.fusion.length?`<span class="warn"><b>Cargos sucesivos unificados en una sola persona.</b> ${p.fusion.map(f=>`La fila <code>${esc(f.id)}</code> se unió a esta ficha (${esc(f.conf)}): ${esc(f.base)}`).join('<br>')}<br>Las menciones de todas las filas se cuentan una sola vez por nota. Si es un error, agregá el par a <code>no_fusionar</code> en <code>data/resoluciones.json</code>.</span>`:'')
+  +(p.homonimoDe?`<span class="warn"><b>Homónimo sin resolver.</b> Hay otra fila con el mismo nombre (<a href="#/persona/${encodeURIComponent(p.homonimoDe)}">ver ficha</a>) y no se unificó porque ${esc(p.motivo)}. Lo que ves corresponde solo a esta fila.</span>`:'')
+  +p.homonimos.map(h=>`<span class="warn"><b>Homónimo sin resolver.</b> La fila <code>${esc(h.id)}</code> tiene el mismo nombre y no se unificó porque ${esc(h.motivo)}.</span>`).join('');
+ const ETQ={cargo:'Cargo',desde:'Desde',hasta:'Hasta',vigencia:'Vigencia'};
+ const cargos=p.cargos.map(c=>`<div class="cargo"><div class="nm">${esc(c.titulo)} ${badgeV(c.v,c.sinConf)}</div><div class="meta">${esc(c.inst)} · ${esc(c.jur)}${c.niv?' ('+c.niv+')':''}${c.bloque?' · bloque '+esc(c.bloque):''}</div><div class="meta">Desde: ${c.desde?esc(c.desde):'Sin fecha de inicio registrada'} · Hasta: ${c.hasta?esc(c.hasta):'Sin fecha de finalización registrada'}</div><div class="meta">Vigencia calculada al ${esc(hoyTxt)}: ${esc(c.txt)}</div>${c.nota?`<div class="meta">Nota del registro: ${esc(c.nota)}</div>`:''}</div>`).join('');
+ let prensa='<p class="empty">Sin menciones registradas por el monitor para esta persona.</p>';
+ if(ms.length){
+  const fechas=ms.map(m=>m._d).filter(Boolean),medios=new Set(ms.map(m=>m.source).filter(Boolean));
+  const tt=terminos(ms,12),legal=uniq(ms.filter(m=>m.legal_signal),m=>m.link);
+  const qs=uniq(ms.filter(m=>m.quote),m=>m.quote).slice(0,15).map(m=>({quote:m.quote,source:m.source,link:m.link,date:m.published}));
+  prensa=`${boxes(ms.length,conteo(ms))}<p class="note">Primera mención registrada: ${fechas.length?fdate(fechas[fechas.length-1],{dateStyle:'medium'}):'sin fecha'} · última: ${fechas.length?fdate(fechas[0],{dateStyle:'medium'}):'sin fecha'} · ${medios.size} medios distintos.</p><h3 class="sh">Tono en el tiempo</h3>${toneBars(ms)}<h3 class="sh">Temas asociados</h3>${tt.map(t=>`<span class="pill">${esc(t.term)} · ${t.count}</span>`).join('')||'<p class="empty">Sin términos que se repitan.</p>'}
+  ${legal.length?`<h3 class="sh neg">Menciones con vocabulario judicial en prensa</h3><p class="warn"><b>No es una acusación ni una verificación legal.</b> Son notas cuyo título usa palabras como “denuncia” o “imputado”; pueden referirse a un tercero o ser una desmentida. Leé siempre la nota original.</p>${legal.map(l=>`<div class="art"><a href="${esc(safe(l.link))}" target="_blank" rel="noopener">${esc(l.title)}</a><span class="meta">${esc(l.source)}</span></div>`).join('')}`:''}
+  <h3 class="sh">Declaraciones citadas por los medios</h3>${quotes(qs,'q-'+p.id+'-')}<h3 class="sh">Artículos recientes</h3>${arts(ms.slice(0,20).map(m=>({title:m.title,link:m.link,source:m.source,date:m._d?m._d.toISOString():'',sentiment_label:m.sentiment_label})))}
+  <p class="note">Las menciones las atribuye el monitor por alias del nombre; no está verificado que todas correspondan a la misma persona física. Las citas son extracción textual, no verificación periodística.</p>`}
+ const evd=`<details><summary>Ver evidencia (${p.ev.length} datos respaldados)</summary>${p.ev.map(i=>`<div class="ev"><b>${ETQ[i.campo]}:</b> ${esc(i.valor)}<br>${i.calc?`Calculado por NEWAR con la fecha de hoy (${esc(hoyTxt)}) a partir de los datos anteriores y del tipo de fuente (oficial o no).`:`Fuente: ${esc(i.fuente)} · ${/^https?:/.test(i.url||'')?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.url)}</a>`:'sin URL'}`}</div>`).join('')}<p class="note">La fuente es la nómina (<code>politicians.json</code>); la URL es la página que cita. La nómina no registra una fecha de verificación por fila, por eso no se muestra ninguna. No es una verificación independiente.</p></details>`;
+ return`<p><a href="#/personas">← Volver al listado</a></p><div class="person"><h2>${esc(p.nombre)}</h2><div class="meta">identificador${p.ids.length>1?'es':''} de la nómina: ${p.ids.map(i=>`<code>${esc(i)}</code>`).join(' ')}</div>${av}<h3 class="sh">Cargos</h3>${cargos}<h3 class="sh">Prensa</h3>${prensa}<h3 class="sh">Publicaciones oficiales que nombran a esta persona</h3>${ofs.length?ofs.map(ofCard).join(''):'<p class="empty">Ninguna registrada. (Se busca el nombre completo en boletines y sitios oficiales.)</p>'}<h3 class="sh">Evidencia</h3>${evd}</div>`};
+
+V.menciones=()=>{
+ const act=p=>!p||!(p.v===0&&!p.sinConf);let n=80;
+ const meds=[...new Set(MEN.map(m=>m.source).filter(Boolean))].sort();
+ setTimeout(()=>{const go=()=>{const pol=$('#mp').value,t=$('#mt').value,k=fold($('#mk').value.trim()),h=+$('#mh').value,src=$('#ms').value,ex=$('#mx').checked;
+  const l=MEN.filter(m=>{const p=byId[m._pid];
+   return(ex||act(p))&&(!pol||m._pid===pol)&&(!t||m.sentiment_label===t)&&(!src||m.source===src)&&(!k||fold(m.title).includes(k))&&(!h||(m._d&&Date.now()-m._d<h*36e5))});
+  $('#mc').textContent=l.length+' menciones';
+  pager($('#mf'),l,m=>{const d=m._d,p=byId[m._pid];return`<article class="art"><div><div class="meta"><span class="tag ${esc(m.sentiment_label)}">${esc(m.sentiment_label)}</span> <a href="#/persona/${encodeURIComponent(m._pid)}"><b>${esc(p?p.nombre:m.politician_name)}</b></a>${p&&p.v===0&&!p.sinConf?' (ex)':''} · ${esc(m.source||'')} · ${d?relT(d):'sin fecha'}</div><p class="t"><a href="${esc(safe(m.link))}" target="_blank" rel="noopener">${esc(m.title)}</a></p></div>${starBtn({id:m.id,type:'mencion',title:m.title,link:m.link,source:m.source,date:d?d.toISOString():''})}</article>`},n)};
+  ['mp','mt','mk','mh','ms','mx'].forEach(i=>$('#'+i).addEventListener('input',go));go();
+  const rec=MEN.filter(m=>m._d&&Date.now()-m._d<48*36e5),tr=terminos(rec,12),ult=MEN.find(m=>m._d);
+  $('#mtr').innerHTML=tr.map(t=>`<div class="row2"><span>${esc(t.term)}</span><span class="meta">${t.count}</span></div>`).join('')||`<p class="empty">Sin términos repetidos en las últimas 48 h${ult?` (la última mención es del ${esc(fdate(ult._d,{dateStyle:'medium'}))})`:''}.</p>`;
+  $('#mco').innerHTML=cruces().map(c=>`<div class="row2"><span>${esc(c.a)} + ${esc(c.b)}</span><span class="meta">${c.count}</span></div>`).join('')||'<p class="empty">Sin cruces detectados.</p>'});
+ const pols=personas.filter(p=>total(p.id)).sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
+ return`<h2 class="sec">Menciones en prensa</h2><div class="pcol"><div><div class="ctl"><select id="mp" aria-label="Persona"><option value="">Todas las personas</option>${pols.map(p=>`<option value="${esc(p.id)}">${esc(p.nombre)}${p.v===0&&!p.sinConf?' (ex)':''}</option>`).join('')}</select><select id="mt" aria-label="Tono"><option value="">Cualquier tono</option><option value="positivo">Positivo</option><option value="neutral">Neutral</option><option value="negativo">Negativo</option></select><input type="search" id="mk" aria-label="Filtrar por palabra clave" placeholder="Palabra clave…"></div><div class="ctl"><select id="mh" aria-label="Fecha"><option value="0">Cualquier fecha</option><option value="3">Últimas 3 horas</option><option value="24">Últimas 24 horas</option><option value="72">Últimos 3 días</option><option value="168">Últimos 7 días</option><option value="720">Últimos 30 días</option></select><select id="ms" aria-label="Medio"><option value="">Todos los medios</option>${meds.map(m=>`<option>${esc(m)}</option>`).join('')}</select><label><input type="checkbox" id="mx"> Incluir ex funcionarios</label></div><p class="note" id="mc"></p><div id="mf"></div></div>
+ <aside><div class="pnl"><b>Temas en tendencia</b><p class="note">Palabras más repetidas en títulos, últimas 48 h hasta hoy (sin el nombre del medio ni de las personas).</p><div id="mtr"></div></div><div class="pnl"><b>Menciones cruzadas</b><p class="note">Personas distintas que aparecen juntas en la misma noticia.</p><div id="mco"></div></div></aside></div>`};
+
+V.temas=()=>{const l=Object.values(S.top.topics||{}).filter(t=>!esPlaceholder(t));return`<h2 class="sec">Temas seguidos</h2><p class="lede">Además de personas, se siguen temas puntuales (una obra, un presupuesto, una causa). Se configuran en <code>data/topics.json</code>; los registros de ejemplo no se muestran.</p>${l.length?l.map(t=>{const it=temaItems(t.id),c=conteo(it);return`<a class="row2" href="#/tema/${encodeURIComponent(t.id)}"><span class="nm">${esc(t.name)}<br><span class="meta">${c.positivo} positivas · ${c.negativo} negativas · ${(t.politicians_involved||[]).length} personas involucradas</span></span><span class="meta">${it.length} menciones</span></a>`}).join(''):'<p class="empty">No hay temas configurados todavía.</p>'}`};
+const temaItems=id=>uniq((S.tm||[]).filter(x=>x.topic_id===id).map(x=>Object.assign({},x,{_d:pd(x.published)})),x=>x.link).sort((a,b)=>(b._d||0)-(a._d||0));
+V.tema=id=>{const t=(S.top.topics||{})[id];if(!t||esPlaceholder(t))return'<p class="empty">No hay datos para este tema. <a href="#/temas">Volver</a></p>';
+ const it=temaItems(id),byName={};personas.forEach(p=>byName[p.nombre]=p.id);
+ const qs=uniq(it.filter(m=>m.quote),m=>m.quote).slice(0,15).map(m=>({quote:m.quote,source:m.source,link:m.link,date:m.published}));
+ return`<p><a href="#/temas">← Volver a temas</a></p><h2 class="sec">${esc(t.name)}</h2>${boxes(it.length,conteo(it))}<h3 class="sh">Tono en el tiempo</h3>${toneBars(it)}<h3 class="sh">Personas involucradas</h3>${(t.politicians_involved||[]).map(p=>byName[p.name]?`<a class="pill pol" href="#/persona/${encodeURIComponent(byName[p.name])}">${esc(p.name)} · ${p.count}</a>`:`<span class="pill">${esc(p.name)} · ${p.count}</span>`).join('')||'<p class="empty">Sin identificar.</p>'}<h3 class="sh">Declaraciones citadas</h3>${quotes(qs,'tq-'+id+'-')}<h3 class="sh">Artículos recientes</h3>${arts(it.slice(0,30).map(m=>({title:m.title,link:m.link,source:m.source,date:m._d?m._d.toISOString():'',sentiment_label:m.sentiment_label})))}`};
+
+V.eventos=()=>{const l=S.ev.events||[];return`<h2 class="sec">Eventos conectados</h2><p class="lede">Noticias de distintas fuentes que probablemente hablan del mismo hecho (ventana de 72 h, por palabras compartidas en el título). <b>Es agrupamiento por texto, no comprensión del contenido</b>: puede juntar notas sin relación.</p>${l.length?l.map(e=>`<div class="pnl"><h3 style="margin:.1rem 0 .5rem">${esc(e.title)}</h3><div><span class="pill">${e.items_count} notas</span><span class="pill">${e.sources.length} medios: ${esc(e.sources.join(', '))}</span>${e.politicians.map(p=>`<span class="pill pol">${esc(p)}</span>`).join('')}${e.topics.map(t=>`<span class="pill">${esc(t)}</span>`).join('')}</div><ul>${e.items.map(i=>`<li><a href="${esc(safe(i.link))}" target="_blank" rel="noopener">${esc(i.title)}</a> — ${esc(i.source)}</li>`).join('')}</ul></div>`).join(''):'<p class="empty">Todavía no se detectaron eventos con varias fuentes.</p>'}`};
+
+V.resumen=()=>{setTimeout(()=>{let h=12;const go=()=>{const cat=$('#rc').value,cut=Date.now()-h*36e5;
+ const l=S.news.filter(n=>{const d=pd(n.published)||pd(n.collected_at);return(!cat||n.category===cat)&&(!d||d>=cut)});
+ $('#rn').textContent=h>=9999?`Todo lo guardado (${l.length} notas)`:`Desde ${fdate(cut)} — ${l.length} notas`;
+ const g={};l.forEach(n=>{const d=new Date(n.published||n.collected_at);(g[isNaN(d)?'Fecha desconocida':d.toLocaleDateString('es-AR',{weekday:'long',day:'numeric',month:'long'})]=g[isNaN(d)?'Fecha desconocida':d.toLocaleDateString('es-AR',{weekday:'long',day:'numeric',month:'long'})]||[]).push(n)});
+ $('#rl').innerHTML=Object.entries(g).map(([d,a])=>`<div class="day">${esc(d)}</div>`+a.map(n=>`<article class="art"><div><div class="meta"><span class="tag">${esc(n.category)}</span> ${esc(n.source||'')} · ${fdate(n.published||n.collected_at,{timeStyle:'short'})}</div><p class="t"><a href="${esc(safe(n.link))}" target="_blank" rel="noopener">${esc(n.title)}</a></p></div>${starBtn({id:n.id,type:'noticia_general',title:n.title,link:n.link,source:n.source,date:n.published})}</article>`).join('')).join('')||'<p class="empty">No hay noticias en esa ventana. Probá ampliarla.</p>'};
+ document.querySelectorAll('#rb button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#rb button').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');h=+b.dataset.h;go()});$('#rc').oninput=go;go()});
+ return`<h2 class="sec">Resumen Nacional / Provincial</h2><p class="lede">Noticias generales (no solo de las personas seguidas) de medios nacionales y de Salta, para leer rápido qué pasó en las últimas horas.</p><div class="ctl" id="rb"><button data-h="6" aria-pressed="false">Últimas 6 h</button><button data-h="12" class="on" aria-pressed="true">Últimas 12 h</button><button data-h="24" aria-pressed="false">Últimas 24 h</button><button data-h="9999" aria-pressed="false">Todo</button><select id="rc" aria-label="Alcance"><option value="">Nacional + Provincial</option><option>Nacional</option><option>Provincial</option></select></div><p class="note" id="rn"></p><div id="rl"></div>`};
+
+V.oficiales=()=>{const it=S.of.items||[];const opt=k=>[...new Set(it.map(i=>i[k]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')).map(v=>`<option>${esc(v)}</option>`).join('');
+ setTimeout(()=>{const go=()=>{const f=$('#of').value,t=$('#ot').value,q=fold($('#oq').value.trim()),pp=$('#op').checked;
+  const l=it.filter(i=>(!f||i.fuente===f)&&(!t||i.tipo_acto===t)&&(!pp||(i.personas||[]).length)&&(!q||fold((i.titulo||'')+(i.resumen||'')+(i.organismo||'')).includes(q)))
+   .map((i,x)=>[i,x]).sort((a,b)=>((b[0].fecha_publicacion||(b[0].first_seen||'').slice(0,10))).localeCompare(a[0].fecha_publicacion||(a[0].first_seen||'').slice(0,10))||a[1]-b[1]).map(x=>x[0]);
+  $('#oc').textContent=l.length+' publicaciones';pager($('#ol'),l,ofCard,100)};['of','ot','oq','op'].forEach(i=>$('#'+i).addEventListener('input',go));go()});
+ const st=Object.values((S.ofst||{}).sources||{});
+ return`<h2 class="sec">Publicaciones oficiales</h2><p class="lede">Boletines oficiales, justicia, legislatura y municipio, leídos de sus páginas públicas. Cada publicación lleva el enlace al documento original: esa es la fuente. El nombre marcado es una <b>coincidencia de texto, no una verificación de identidad</b>.</p><div class="ctl"><select id="of" aria-label="Fuente"><option value="">Todas las fuentes</option>${opt('fuente')}</select><select id="ot" aria-label="Tipo de publicación"><option value="">Todos los tipos</option>${opt('tipo_acto')}</select><input type="search" id="oq" aria-label="Buscar en publicaciones oficiales" placeholder="Buscar en títulos y resúmenes…"><label><input type="checkbox" id="op"> Solo las que nombran a alguien</label></div><p class="note" id="oc"></p><div id="ol"></div>
+ <h2 class="sec">Estado de las fuentes</h2>${st.length?st.map(s=>`<div class="row2"><span><span class="tag ${s.state==='ok'?'vigente':'negativo'}">${esc(s.state)}</span> <b>${esc(s.name)}</b><br><span class="meta">${esc(s.message)} · <a href="${esc(safe(s.url))}" target="_blank" rel="noopener">abrir la fuente</a></span></span></div>`).join(''):'<p class="empty">Todavía no corrió el recolector.</p>'}`};
+
+V.destacados=()=>{setTimeout(()=>{document.querySelectorAll('.rm').forEach(b=>b.onclick=()=>{setStars(stars().filter(s=>s.id!==b.dataset.id));route()})});
+ const l=stars().sort((a,b)=>(b.starred_at||'').localeCompare(a.starred_at||''));
+ return`<h2 class="sec">Destacados</h2><p class="lede"><b>Guardados solo en este navegador</b>: no se suben al repositorio ni se comparten entre dispositivos.</p>${l.length?l.map(i=>`<div class="art"><div><span class="pill">${esc(i.type||'item')}</span><a href="${esc(safe(i.link))}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="meta">${esc(i.source||'')} ${i.date?'· '+fdate(i.date):''}</div></div><button class="more rm" style="margin:0" data-id="${esc(i.id)}">Quitar</button></div>`).join(''):'<p class="empty">Todavía no destacaste nada. Buscá el ícono ☆ en menciones, citas y publicaciones.</p>'}`};
+
+V.control=()=>{
+ const hoy=new Date(),L=[],add=(e,t,d)=>L.push([e,t,d||'']);
+ const TG={ok:'<span class="tag vigente">ok</span>',av:'<span class="tag warnc">revisar</span>',er:'<span class="tag negativo">problema</span>'};
+ const edad=d=>d?(hoy-d)/36e5:null,txtEdad=h=>h==null?'sin fecha':h<48?Math.round(h)+' h':Math.round(h/24)+' días';
+ [['aggregates.json',S.agg&&S.agg.generated_at],['events.json',S.ev&&S.ev.generated_at],['oficiales.json',S.of&&S.of.generated_at],['oficiales_status.json',S.ofst&&S.ofst.generated_at],['topics_data.json',S.top&&S.top.generated_at]].forEach(([n,g])=>{
+  const d=pd(g),h=edad(d);add(h==null?'av':h>168?'er':h>36?'av':'ok','Frescura de '+n,d?'Generado el '+fdate(d)+' (hace '+txtEdad(h)+'). El recolector corre varias veces por día: más de 36 h sin cambios indica que dejó de actualizar.':'No trae fecha de generación.')});
+ const cnt=(f)=>personas.filter(f).length,venc=cnt(p=>p.v===0&&p.sinConf),vig=cnt(p=>p.v===1),ex=cnt(p=>p.v===0&&!p.sinConf),sd=cnt(p=>p.v===null);
+ add('ok','Vigencia calculada con la fecha de hoy',`${vig} vigentes · ${ex} no vigentes confirmados · ${venc} con mandato vencido sin confirmar · ${sd} sin dato. Se recalcula cada vez que se abre la página; no depende de un campo escrito a mano.`);
+ if(venc){const rec=personas.filter(p=>p.v===0&&p.sinConf&&(PM[p.id]||[]).some(m=>m._d&&hoy-m._d<90*864e5)).length;
+  add('av','Mandatos vencidos sin confirmar reelección',`${venc} personas figuran con un mandato que terminó según el registro (fuente no oficial). Con esa fuente no se puede saber si fueron reelectas. ${rec} de ellas tienen menciones en los últimos 90 días (es una señal de actividad, no una prueba de vigencia). Después de cada elección hay que actualizar <code>politicians.json</code> desde una fuente oficial, o confirmar caso por caso en <code>data/resoluciones.json</code> (<code>periodos</code>).`)}
+ if(sd)add('av','Personas sin dato de vigencia',personas.filter(p=>p.v===null).map(p=>esc(p.nombre)+' ('+esc(p.cargo)+')').join('; ')+'. Les falta fuente oficial o período en la nómina.');
+ const fus=personas.filter(p=>p.fusion.length);
+ add(fus.length?'ok':'ok','Cargos sucesivos unificados',fus.length?fus.map(p=>`<b>${esc(p.nombre)}</b>: ${p.fusion.map(f=>esc(f.conf)).join(', ')} (${p.cargos.map(c=>esc(c.titulo)).join(' → ')})`).join('<br>'):'Ninguna fila repetida.');
+ add(homonimos.length?'av':'ok','Homónimos sin resolver',homonimos.length?homonimos.map(h=>`<b>${esc(h.nombre)}</b>: ${esc(h.motivo)}`).join('<br>'):'No hay casos en duda.');
+ add(CTRL.menDup?'av':'ok','Menciones duplicadas descartadas',CTRL.menDup?`${CTRL.menDup} menciones repetidas (misma nota atribuida dos veces a la misma persona por tener dos filas) se cuentan una sola vez.`:'No hay duplicados.');
+ add(CTRL.menHuerf?'er':'ok','Menciones sin persona en la nómina',CTRL.menHuerf?`${CTRL.menHuerf} menciones apuntan a un identificador que no existe en <code>politicians.json</code>.`:'Todas las menciones apuntan a una persona de la nómina.');
+ const dosH=Object.keys(S.dos||{}).filter(i=>!byId[i]);add(dosH.length?'av':'ok','Fichas (dossiers) huérfanas',dosH.length?`${dosH.length} ficha(s) de personas que ya no están en la nómina: ${dosH.map(esc).join(', ')}. NEWAR las ignora.`:'Sin fichas huérfanas.');
+ const ofH=[...new Set((S.of.items||[]).flatMap(i=>i.personas||[]).filter(i=>!byId[i]))];add(ofH.length?'er':'ok','Publicaciones oficiales con personas inexistentes',ofH.length?ofH.map(esc).join(', '):'Todas las personas nombradas existen en la nómina.');
+ add(CTRL.menSinFecha?'av':'ok','Menciones sin fecha válida',CTRL.menSinFecha?`${CTRL.menSinFecha} menciones no tienen fecha legible y quedan fuera de los gráficos.`:'Todas las menciones tienen fecha.');
+ const viejas=MEN.filter(m=>m._d&&hoy-m._d>730*864e5).length;add(viejas?'av':'ok','Menciones de más de 2 años',viejas?`${viejas} menciones son de hace más de 2 años. Se muestran con su fecha real y no entran en los gráficos de últimos días.`:'No hay menciones antiguas.');
+ const bdKeys=Object.keys((S.agg&&S.agg.by_day)||{});const roto=bdKeys.length&&!bdKeys.every(k=>/^\d{4}-\d{2}-\d{2}/.test(k));
+ add(roto?'av':'ok','Fechas del archivo aggregates.json',roto?'<code>by_day</code> y los tonos por día de <code>dossiers.json</code> traen fechas cortadas (por ejemplo «Sun, 20 Se»: sin año y con el mes incompleto). NEWAR no las usa: recalcula todo desde <code>mentions.json</code>, que sí trae la fecha completa. Conviene corregir el recolector.':'Las fechas de los agregados son completas.');
+ const auto=((S.agg&&S.agg.comentions)||[]).filter(c=>c.a===c.b).length;add(auto?'av':'ok','Cruces de una persona consigo misma',auto?`${auto} «menciones cruzadas» del archivo emparejan a una persona con ella misma (efecto de tener dos filas). NEWAR recalcula los cruces.`:'Sin cruces inválidos.');
+ const ph=Object.values((S.top&&S.top.topics)||{}).filter(esPlaceholder).length;add(ph?'av':'ok','Temas de ejemplo ocultos',ph?`${ph} tema(s) de ejemplo en <code>topics.json</code> no se muestran. Reemplazalos o borralos.`:'Sin temas de ejemplo.');
+ const sf=(S.of.items||[]).filter(i=>!i.fecha_publicacion).length,tot=(S.of.items||[]).length;add(sf?'av':'ok','Publicaciones oficiales sin fecha de publicación',tot?`${sf} de ${tot} no traen fecha de publicación; se ordenan por la fecha en que el recolector las vio por primera vez.`:'No hay publicaciones oficiales.');
+ const fs=Object.values((S.ofst||{}).sources||{}).filter(s=>s.state!=='ok');add(fs.length?'er':'ok','Fuentes oficiales con problemas',fs.length?fs.map(s=>`<b>${esc(s.name)}</b> (${esc(s.state)}): ${esc(s.message)}`).join('<br>'):'Todas las fuentes respondieron.');
+ const sinM=personas.filter(p=>!(PM[p.id]||[]).length).length;add('ok','Cobertura de prensa',`${personas.length-sinM} de ${personas.length} personas tienen al menos una mención; ${sinM} no tienen ninguna.`);
+ const dip=personas.filter(p=>p.cargos.some(c=>c.p.chamber==='Diputados')&&p.cargos.every(c=>c.p.chamber==='Diputados')).length;
+ if(dip)add('av','Nómina de Diputados',`${dip} personas figuran solo como diputados, con períodos tomados de una fuente no oficial (Wikipedia). Una nómina así queda desactualizada después de cada elección: faltan los legisladores elegidos desde entonces y no se sabe quiénes siguen. Hace falta cargarla desde <code>diputadosalta.gob.ar</code> u otra fuente oficial.`);
+ const n={er:L.filter(x=>x[0]==='er').length,av:L.filter(x=>x[0]==='av').length};
+ return`<h2 class="sec">Control de datos</h2><p class="lede">Controles automáticos que se recalculan con la fecha de hoy cada vez que se abre la página. Sirven para saber qué parte de lo que se ve está desactualizada, en duda o inconsistente. ${n.er?`<b>${n.er} problema(s)</b> y `:''}<b>${n.av} punto(s) a revisar.</b></p>${L.map(([e,t,d])=>`<div class="row2"><span>${TG[e]} <b>${esc(t)}</b><br><span class="meta">${d}</span></span></div>`).join('')}<footer>Las decisiones humanas (unir o separar dos filas, confirmar un mandato) se anotan en <code>data/resoluciones.json</code>; ese archivo no lo toca el recolector, así que sobrevive a cada actualización.</footer>`};
+
+/* ---------- Datos en vivo: verifica cambios cada minuto y recarga sola; conserva filtros y posición ---------- */
+const LIVE={every:60000,last:0,lastOk:0,sig:null,ok:true,busy:false};let KEEP=false,DIA='';
+const relT=d=>`<time class="rel" data-ts="${+d}">${esc(rel(d))}</time>`;
+const bases=n=>['data/'+n+'.json'].concat(location.href.startsWith(REMOTO.replace(/data\/$/,''))?[]:[REMOTO+n+'.json']);
+async function firma(){
+ const ns=['aggregates','mentions','oficiales','news_general','oficiales_status'],out=[];let alguna=false;
+ for(const n of ns){let s=null;
+  for(const u of bases(n)){try{const r=await fetch(u+'?_='+Date.now(),{method:'HEAD',cache:'no-store'});if(r.ok){s=r.headers.get('etag')||r.headers.get('last-modified')||null;if(s){alguna=true;break}}}catch(e){}}
+  out.push(n+'='+s)}
+ if(alguna)return out.join('|');
+ /* Sin cabeceras legibles (p. ej. otro origen): se compara la fecha de generación de dos archivos chicos */
+ const a=await leer('aggregates'),o=await leer('oficiales_status');
+ if(a===undefined&&o===undefined)throw new Error('sin conexión');
+ return 'g='+(a&&a.generated_at)+'|'+(o&&o.generated_at)}
+function capturar(){const st={y:window.scrollY,v:{},rb:null};document.querySelectorAll('#app input[id],#app select[id]').forEach(e=>{st.v[e.id]=e.type==='checkbox'?e.checked:e.value});
+ const b=document.querySelector('#rb button.on');if(b)st.rb=b.dataset.h;return st}
+function restaurar(st){Object.entries(st.v).forEach(([id,v])=>{const e=document.getElementById(id);if(!e)return;if(e.type==='checkbox')e.checked=v;else e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}))});
+ if(st.rb!=null){const b=document.querySelector('#rb button[data-h="'+st.rb+'"]');if(b)b.click()}window.scrollTo(0,st.y)}
+function aviso(t){const e=$('#toast');if(!e)return;e.textContent=t;e.classList.add('on');clearTimeout(aviso.t);aviso.t=setTimeout(()=>e.classList.remove('on'),7000)}
+async function recargar(force){
+ const ks=[...new Set(['pol','agg','men','res',...Object.keys(LOAD)])],nuevo={};let fallo=0;
+ await Promise.all(ks.map(async k=>{const v=await leer(SRC[k][0]);if(v===undefined){if(!SRC[k][2])fallo++}else nuevo[k]=v}));
+ if(fallo&&!Object.keys(nuevo).length)throw new Error('sin datos');
+ const prev={men:MEN.length,of:((S.of||{}).items||[]).length,news:(S.news||[]).length,gen:GEN&&+GEN};
+ Object.assign(S,nuevo);S.polById={};S.pol.forEach(p=>S.polById[p.id]=p);build();DIA=dkey(new Date());
+ GEN=pd(S.agg&&S.agg.generated_at);updTxt();FAIL.length=0;
+ const st=capturar();KEEP=true;await route();setTimeout(()=>restaurar(st),0);
+ const d=[];const dm=MEN.length-prev.men,dof=((S.of||{}).items||[]).length-prev.of,dn=(S.news||[]).length-prev.news;
+ const pl=(n,a,b)=>'+'+n+' '+(n===1?a:b);if(dm>0)d.push(pl(dm,'mención','menciones'));if(dof>0)d.push(pl(dof,'publicación oficial','publicaciones oficiales'));if(dn>0&&nuevo.news)d.push(pl(dn,'noticia','noticias'));
+ aviso(d.length?'Datos actualizados: '+d.join(', ')+'.':(force?'Datos verificados: no hay novedades.':'Datos actualizados.'))}
+async function verificar(force){
+ if(LIVE.busy||window.NEWAR_EMBED)return;LIVE.busy=true;pintaLive(true);
+ try{const sg=await firma();LIVE.lastOk=Date.now();LIVE.ok=true;const cambio=LIVE.sig!==null&&sg!==LIVE.sig;LIVE.sig=sg;
+  if(force||cambio)await recargar(force)}
+ catch(e){LIVE.ok=false;if(force)aviso('No se pudo conectar. Se reintenta automáticamente.')}
+ LIVE.last=Date.now();LIVE.busy=false;pintaLive()}
+function pintaLive(chk){const e=$('#live');if(!e)return;
+ if(window.NEWAR_EMBED){e.innerHTML='<span class="dot r"></span>Versión sin conexión (foto fija)';return}
+ const h=GEN?(Date.now()-GEN)/36e5:null;let c='g';if(!LIVE.ok||h==null||h>36)c='r';else if(h>6)c='a';
+ const et=!LIVE.ok?'Sin conexión':(h!=null&&h<=6?'En vivo':'Conectado');
+ e.innerHTML=`<span class="dot ${c}" title="Verde: datos de las últimas 6 h · Ámbar: hasta 36 h · Rojo: más de 36 h o sin conexión"></span>${et} · ${chk?'verificando…':(LIVE.lastOk?'verificado '+esc(rel(LIVE.lastOk)):'verificando…')}`}
+function pulso(){document.querySelectorAll('time.rel').forEach(e=>{e.textContent=rel(+e.dataset.ts)});pintaLive();
+ if(personas.length&&DIA&&dkey(new Date())!==DIA){DIA=dkey(new Date());build();const st=capturar();KEEP=true;route().then(()=>setTimeout(()=>restaurar(st),0))}}
+function arrancaVivo(){if(window.NEWAR_EMBED){pintaLive();return}
+ DIA=dkey(new Date());firma().then(s=>{LIVE.sig=s;LIVE.lastOk=Date.now();LIVE.ok=true;pintaLive()}).catch(()=>{LIVE.ok=false;pintaLive()});
+ setInterval(()=>{if(!document.hidden)verificar(false)},LIVE.every);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-LIVE.last>30000)verificar(false)});
+ window.addEventListener('online',()=>verificar(false));
+ const b=$('#lvb');if(b)b.addEventListener('click',()=>verificar(true))}
+
+/* ---------- Router ---------- */
+const TABS=[['inicio','Inicio'],['personas','Personas'],['menciones','Menciones'],['temas','Temas'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados'],['control','Control']];
+const NEEDS={inicio:['top','ev'],personas:[],persona:['dos','of'],menciones:[],temas:['top','tm'],tema:['top','tm'],eventos:['ev'],resumen:['news'],oficiales:['of','ofst'],destacados:[],control:['top','ev','news','of','ofst','dos','tm']};
+const SITIO='https://nexxusconsultora-lab.github.io/salta-monitor/';
+let firstRoute=true,rt=0;
+async function route(){const my=++rt;const keep=KEEP;KEEP=false;const [v,arg]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'';
+ const tab=(name==='persona')?'personas':(name==='tema'?'temas':name);
+ $('#tabs').innerHTML=TABS.map(([k,l])=>`<a href="#/${k}" class="${k===tab?'on':''}"${k===tab?' aria-current="page"':''}>${l}</a>`).join('');
+ const ns=NEEDS[name]||[];
+ if(ns.some(k=>!(k in S))){$('#app').innerHTML='<p class="empty" role="status">Cargando datos…</p>';await need(...ns);if(my!==rt)return}
+ const fr=GEN&&Date.now()-GEN>36*36e5?`<p class="warn" role="status"><b>Los datos no se actualizan desde ${esc(rel(GEN).replace('hace ',''))}.</b> La última corrida del recolector fue el ${esc(fdate(GEN))}. Lo que ves refleja esa fecha, no el día de hoy (por eso los gráficos de «últimos días» pueden estar vacíos). Revisá la pestaña <a href="#/control">Control</a>.</p>`:'';
+ const aviso=fr+(!FAIL.length?'':(location.protocol==='file:'&&!window.NEWAR_EMBED
+  ?`<p class="warn" role="alert"><b>Abriste NEWAR directamente desde un archivo.</b> Así el navegador bloquea la lectura de los datos. Entrá al sitio publicado: <a href="${esc(SITIO)}">${esc(SITIO)}</a>, o pedí la versión sin conexión (<code>newar-offline.html</code>).</p>`
+  :`<p class="warn" role="alert">No se pudieron cargar estos datos: <code>${esc(FAIL.join(', '))}</code>. Lo que ves puede estar incompleto o vacío. Probá recargar la página.</p>`));
+ $('#app').innerHTML=aviso+V[name](id);if(!keep)window.scrollTo(0,0);
+ document.title='NEWAR — '+(name==='persona'&&byId[id]?byId[id].nombre:(TABS.find(t=>t[0]===tab)||[0,'Inicio'])[1]);
+ const h=$('#app h2');if(!firstRoute&&h&&!keep){h.tabIndex=-1;h.focus({preventScroll:true})}firstRoute=false}
+
+/* Reloj: hora actual del dispositivo, actualizada cada minuto (alineada al cambio de minuto) */
+function updTxt(){const e=$('#upd');if(!e||!GEN)return;e.textContent='Datos al '+fdate(GEN)+' · '+rel(GEN);e.style.color=Date.now()-GEN>36*36e5?'var(--negtx)':''}
+function tick(){updTxt();if(typeof pulso==='function')pulso();const el=$('#clock');if(!el)return;const d=new Date();
+ el.textContent=d.toLocaleDateString('es-AR',{weekday:'short',day:'numeric',month:'short'})+' · '+d.toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false});
+ el.setAttribute('datetime',d.toISOString())}
+function startClock(){tick();const w=60000-(Date.now()%60000)+50;setTimeout(()=>{tick();setInterval(tick,60000)},w)}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick()});
+startClock();
+$('#skip').addEventListener('click',()=>$('#app').focus());
+window.addEventListener('hashchange',route);
+(async()=>{
+ await need('pol','agg','men','res');S.polById={};S.pol.forEach(p=>S.polById[p.id]=p);build();
+ GEN=pd(S.agg&&S.agg.generated_at);updTxt();
+ await route();arrancaVivo()})();
+</script>
+</body>
+</html>
