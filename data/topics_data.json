@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-07T19:41:06.450787+00:00",
+  "generated_at": "2026-10-07T23:53:16.979605+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 190,
+      "total_mentions": 192,
       "sentiment_breakdown": {
         "positivo": 17,
-        "negativo": 15,
+        "negativo": 17,
         "neutral": 158
       },
       "sentiment_by_day": {
         "2026-10-07": {
-          "total": 3,
-          "score_sum": 2
+          "total": 5,
+          "score_sum": -2
         },
         "2026-10-06": {
           "total": 6,
@@ -140,7 +140,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 81
+          "count": 82
         },
         {
           "term": "tribuno",
@@ -152,7 +152,7 @@
         },
         {
           "term": "intransigente",
-          "count": 37
+          "count": 39
         },
         {
           "term": "informate",
@@ -167,8 +167,8 @@
           "count": 22
         },
         {
-          "term": "nacional",
-          "count": 18
+          "term": "milei",
+          "count": 19
         }
       ],
       "politicians_involved": [
@@ -178,6 +178,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Tiene que ordenar las prioridades",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjZzYXBseG9FSTg5Q1RuV09CR3pQV2xoUVZRbnJYaUxGVzh0cEctbTA1WU50SHBXcUtSZHMwbW1kVjg1MW1DSWZWYzZaSXdDMWlPWkhBdFpwRXBJS3ozQkFwWGdxVmRRWWFnbnZBVWE5NlhqZ2lVd21iM3hpei1CUm1fdmdFeWZfTTZBdTVFOWVGOG1XUUNoT0hRYnNXeGZPSUFfSzJSZXZEYXdERmcyUU9vNHctU2I0aFptcVkxMi1LNWUxNkQ3X1NmOXc?oc=5",
+          "date": "Wed, 07 Oct 2026 23:15:29 GMT"
+        },
         {
           "quote": "Nación le debe el 63% del presupuesto de salud a Salta",
           "source": "Que Pasa Salta",
@@ -261,15 +267,23 @@
           "source": "Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
           "date": "Wed, 23 Sep 2026 13:34:52 GMT"
-        },
-        {
-          "quote": "Justo cuando había que explicar",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYmhJbnhDT2c1SFlhUk95cVU0LTMwbzBKN0tYQTdVWU5ScDdwN3B2TW5pMGhwZXNnR2gzYTRzREk0UlJENE1NNVRORkx0bFA5cXVpZWx1VDN2MWtnRUUwd1dTRXM0TzF1ZGJvUnV1NU9QQ0NqZnVSN0dBeS1IdGJjNUlUNzFhNlpwM2x4NFlqVW1TeTU0ZnV5WVc4WXFMMnFzeVJVV0V4SXV4c0EwQ3c4bG1FRS1ib3FOTnN4R051amFtbGV0RHJudFpwV1F2SGF1dnVJbENwejBEeTVu?oc=5",
-          "date": "Mon, 21 Sep 2026 23:03:26 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Sergio Uñac cuestionó al PJ: «Tenemos que dejar de ser extras en la película de Milei» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zX0hmZHJaOTI4SXF2LXltTWZNdUhlMlhhdko1dlpZZG0wNzJNMzlTUXlkcDJYU3FUT1pKLUtwSHlxRVl4UU51ZTNrTkl1SEF3ZWVleVkzR3FZaWNMM211Uno2WW82NWQ0ZjM4?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 07 Oct 2026 17:22:01 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Claudia Neira cuestionó a Jorge Macri por el Presupuesto 2027: “Tiene que ordenar las prioridades” - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjZzYXBseG9FSTg5Q1RuV09CR3pQV2xoUVZRbnJYaUxGVzh0cEctbTA1WU50SHBXcUtSZHMwbW1kVjg1MW1DSWZWYzZaSXdDMWlPWkhBdFpwRXBJS3ozQkFwWGdxVmRRWWFnbnZBVWE5NlhqZ2lVd21iM3hpei1CUm1fdmdFeWZfTTZBdTVFOWVGOG1XUUNoT0hRYnNXeGZPSUFfSzJSZXZEYXdERmcyUU9vNHctU2I0aFptcVkxMi1LNWUxNkQ3X1NmOXc?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 07 Oct 2026 23:15:29 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Enacom: el Gobierno Nacional designó a Andrés Michelazzo como nuevo interventor - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlNXVPbWJHV0hGczFLVDZUTW9RekcwTHFwbUQwRktlVFB2NFFOekxnckNHQ1hOYnRjWjFnMkVIUGVTRW5vMGRmTUxjeGIwbFlDbXlmLXRLMGJ6M1lmdXZDNXc4ZEFoeDdJbVUzbENlMEpWVDhWUGFLT1JjZmo?oc=5",
@@ -464,20 +478,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUFlR3FsMWtKLTV3YzQ0MXNwcTlINU9CMzBiWDliUldzN1o3MmNfV2p1YWlGU0M2cE9ISzNkOGdiZkFYTXZfNUVwQV83dE42VG5EcTJPWmF3ck02QW5HanczWXBWb0xEUzlZbW92UVp5ZmJZWFhObUR0dWtXY05NMENkR0xzWjcyc2NiRGN2ZDV3bFJBaFNYRkR3ZklzaXV6NkpmYTA2LWlQT1lWUnRTVzl4WVVxY1A3Vk5qRS16MHJLdThiS0hRV3pZRk8tZklfS0dYRlFSSDQ?oc=5",
           "source": "Informate Salta",
           "date": "Thu, 01 Oct 2026 11:37:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "No le encuentran la vuelta: la economía cayó 2,9% en julio y preocupa el rumbo - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdy1XVTBNdDVDVjBoRkF2STVDMl9nODZXa2RvbVBRLVB0MlJtQWVtSDZwajJXcDFfa21KZXZROTI1TlhycDVsRTJ3SUNRd2xLNDF3RFRiTUtOdFROc2UxZFZHaWoySGlUMEVwYV80Z0dJdUdxb3RZVWpFQVlTdDBibWlB?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sat, 26 Sep 2026 13:58:42 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Un fallo de la Corte Suprema complica a Emiliano Durand - elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnRmR1c0xicE8xeEdHTFhYOEc4SFo3dlVwcmIwdEtsM2dJc19jaWxydG93d1NoenJBekhGZDRaSGo1VEJqel9TLWNQczROYTZnUUlqNDNxUHBON0JVUEZwZnNuTFJacE5aNWtTVFM3Y0dGSkVR?oc=5",
-          "source": "elintra.com.ar",
-          "date": "Fri, 02 Oct 2026 14:31:37 GMT",
           "sentiment_label": "neutral"
         }
       ]
