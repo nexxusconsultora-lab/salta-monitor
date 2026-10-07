@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-07T00:14:48.146545+00:00",
+  "generated_at": "2026-10-07T00:28:22.782371+00:00",
   "by_politician": {
+    "dip-monica-gabriela-juarez": {
+      "total": 42,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 32,
+      "score_sum": 2
+    },
     "dnac-pablo-outes": {
       "total": 10,
       "positivo": 0,
@@ -77,13 +84,6 @@
       "negativo": 9,
       "neutral": 39,
       "score_sum": -16
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 41,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 32,
-      "score_sum": 0
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 44,
@@ -808,6 +808,36 @@
     }
   },
   "by_day": {
+    "Tue, 07 Ap": {
+      "dip-monica-gabriela-juarez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 6,
+        "score_sum": -6
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 3,
+        "score_sum": -6
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 5,
+        "score_sum": -4
+      }
+    },
     "Sat, 06 Ju": {
       "dnac-pablo-outes": {
         "total": 1,
@@ -4356,36 +4386,6 @@
       "sen-juan-cruz-cura": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "Tue, 07 Ap": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 6,
-        "score_sum": -6
-      },
-      "dip-luis-fernando-albeza": {
-        "total": 3,
-        "score_sum": -6
-      },
-      "dip-fabio-enrique-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-patricio-penalba-arias": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 5,
-        "score_sum": -4
       }
     },
     "Tue, 13 Ju": {
@@ -13275,6 +13275,14 @@
       "count": 6
     },
     {
+      "term": "mónica",
+      "count": 5
+    },
+    {
+      "term": "juárez",
+      "count": 5
+    },
+    {
       "term": "orozco",
       "count": 5
     },
@@ -13285,14 +13293,6 @@
     {
       "term": "cornejo",
       "count": 5
-    },
-    {
-      "term": "nueva",
-      "count": 4
-    },
-    {
-      "term": "planta",
-      "count": 4
     }
   ],
   "comentions": [

@@ -9179,13 +9179,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 41,
+    "total_mentions": 42,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 4,
       "neutral": 32
     },
     "sentiment_by_day": {
+      "Tue, 07 Ap": {
+        "total": 2,
+        "score_sum": 0
+      },
       "Mon, 08 Ap": {
         "total": 1,
         "score_sum": 0
@@ -9302,10 +9306,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "Tue, 07 Ap": {
-        "total": 1,
-        "score_sum": -2
-      },
       "Sun, 02 Ma": {
         "total": 1,
         "score_sum": 2
@@ -9342,15 +9342,23 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 14
+        "count": 15
       },
       {
         "term": "juárez",
-        "count": 14
+        "count": 15
       },
       {
         "term": "elintra",
         "count": 5
+      },
+      {
+        "term": "aries",
+        "count": 3
+      },
+      {
+        "term": "line",
+        "count": 3
       },
       {
         "term": "diputados",
@@ -9363,14 +9371,6 @@
       {
         "term": "diario",
         "count": 3
-      },
-      {
-        "term": "pasa",
-        "count": 2
-      },
-      {
-        "term": "aries",
-        "count": 2
       }
     ],
     "quotes": [
@@ -9468,6 +9468,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez logró la aprobación de una ley que obliga a padres a involucrarse en casos de bullying - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaTlVc0g5UzAycDlvQ3dqaTk1NGlBYjRnYTVPRnY3WmRqMVR2V0xaZS1ERXdTTGFGNHBPNFJFQjVJRnMyMjVHenpyb0JieXpad1AyNjJEV2JjMmRBOUMzcUhLdDhkMXVNeEhNTWdZc1hIdEUzOTYwQXlDNzNPNWJLZHBjdjdKZUdPTHRDZVRMcUJGY19vSzI5VEx5UWM1dW51eFhMTnROZFdLM2doSTZ3YWRxbmxjOUZIZXY0Y3QzdnRYQdIBugFBVV95cUxQUlhuSDBFX2FkVmxINWprNzdEMFFsWFdHS01pb2h2a291eWFVUWxpQmFCdEprcXpfemsxbEZmU3M0M281MVBSMGRWWnhnSEk4cVFJdWViTTRtcmNhaHFrT3k1dGVTT2RxckdQRC1ETFhzUkNVaWZZRlZOU3RRcXRfZk1TZGZ0OWdacklBTjVCdkpEYlhFM3NmaDc3ZEx1Yl95ak5OSmQzRlAwbmpXZ1FLZ0pHM3I2NGg0ekE?oc=5",
+        "source": "Aries On Line",
+        "date": "Tue, 07 Apr 2026 23:16:40 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez insistirá nuevamente este martes en la capacitación de la Ley Micaela - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOazQzZ1Z5R3FjV2R1cndFVTg4amhjVGdkR1FGcHp0QUZLLWVNaGhRMGNWS1BKdjdkNnZZdGxnUjNMLU1IRVBpUlhQY195YWFybzdpMDJ2aG05U2xhYS1sOXdBZ1JCVlp1SUl1N1ZVVGo1Mll2aWhyQ3BVa2Nac1ZZbEJFQkZKczNUZ1h0VFY1WWEwVVNOV3pDOXhfRFNzT1lTOFVxaEtPb2FKSGNPZld3RlZnM0Y4WFpXWWdIZElxX3B2TDDSAcMBQVVfeXFMTms0M2dWeUdxY1dkdXJ3RVU4OGpoY1RnZEdRRnB6dEFGSy1lTWhoUTBjVktQSnY3ZDZ2WXRsZ1IzTC1NSEVQaVJYUGNfeWFhcm83aTAydmhtOVNsYWEtbDl3QWdSQlZadUlJdTdWVVRqNTJZdmlockNwVWtjWnNWWWxCRUJGSnMzVGdYdFRWNVlhMFVTTld6Qzl4X0RTc09ZUzhVcWhLT29hSkhjT2ZXd0ZWZzNGOFhaV1lnSGRJcV9wdkww?oc=5",
@@ -9670,13 +9677,6 @@
         "source": "informatesalta.com.ar",
         "date": "Thu, 15 Dec 2022 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Mónica Juárez, batacazo en diputados por Capital - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeG9od2JSMjRXWHZPLUdvekQ1eUxyV1ZaZTdFYlJzcTRlczczbFBTRXVnWFVVbE5YU19JenBBVG5uT3lMYllRMm5pTGZEUEhuWF9mOEI4Rzh4cFJQYm9MUnFmOU5DOGdPMlk1SDhwaWU4WV8yQU5WeXlVOEZUbmQ3bGJJNVRwRnM5THBoZGx6VUFQN1o3UHltTVFkaXhoOWpuYkIwT2hVd2JwUnE5MWdaalhEdVExODVCSnV6WG9HSjFjV09KTC1DZmRyMkxPZ9IB0wFBVV95cUxQRVJkSEZDY1FrYlZpRHV4MlE5aDEzT1RWR0tIeUNTZXVMMHI5d1lLRmt1YnNvb05MSXJfQVpjQmVJTmJSZWRlZ1FzMlIxRlZzMmN6Z2FNZVlIVVBCOWR4Qjhuam1mdHRCcDhKWjQxWlJlTU9sd2Q5WDZnTlhDdmlMQVJrek1zbU5ZTGZWZTJnZ2VSLUh6dHVNSGY5QnlUSEEtRU9YZ3JJQWdIWkZWZ0V6eDR5Z1ZUQUxHQ21Gd2dNMmxSQTRKSFcxNUtiQjNYTzkyQ0Fz?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 10 Nov 2019 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
