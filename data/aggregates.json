@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-07T00:56:10.210747+00:00",
+  "generated_at": "2026-10-07T06:31:04.302234+00:00",
   "by_politician": {
+    "sen-roque-cornejo-avellaneda": {
+      "total": 45,
+      "positivo": 3,
+      "negativo": 6,
+      "neutral": 36,
+      "score_sum": -6
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 43,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 33,
+      "score_sum": 2
+    },
     "concejal-jose-garcia-alcazar": {
       "total": 19,
       "positivo": 0,
       "negativo": 8,
       "neutral": 11,
       "score_sum": -20
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 42,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 32,
-      "score_sum": 2
     },
     "dnac-pablo-outes": {
       "total": 10,
@@ -91,13 +98,6 @@
       "negativo": 9,
       "neutral": 39,
       "score_sum": -16
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 44,
-      "positivo": 3,
-      "negativo": 6,
-      "neutral": 35,
-      "score_sum": -6
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 7,
@@ -808,6 +808,18 @@
     }
   },
   "by_day": {
+    "2023-08-23": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-07": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-08-26": {
       "concejal-jose-garcia-alcazar": {
         "total": 1,
@@ -13510,7 +13522,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 14
+      "count": 15
     },
     {
       "term": "sáenz",
@@ -13529,7 +13541,7 @@
       "count": 8
     },
     {
-      "term": "diputados",
+      "term": "cornejo",
       "count": 7
     },
     {
@@ -13537,7 +13549,19 @@
       "count": 7
     },
     {
+      "term": "mónica",
+      "count": 6
+    },
+    {
+      "term": "juárez",
+      "count": 6
+    },
+    {
       "term": "royón",
+      "count": 6
+    },
+    {
+      "term": "diputados",
       "count": 6
     },
     {
@@ -13549,24 +13573,12 @@
       "count": 6
     },
     {
-      "term": "mónica",
-      "count": 5
-    },
-    {
-      "term": "juárez",
-      "count": 5
-    },
-    {
-      "term": "orozco",
-      "count": 5
-    },
-    {
       "term": "flavia",
       "count": 5
     },
     {
-      "term": "cornejo",
-      "count": 5
+      "term": "roque",
+      "count": 4
     }
   ],
   "comentions": [
