@@ -35,7 +35,8 @@
       "use_summary": false,
       "fetch_detail": false,
       "enabled": true,
-      "nota": "Corregido: el dominio que tenía cargado antes (csjn.gob.ar) no es el sitio oficial y no respondía. El sitio real de la Corte Suprema es csjn.gov.ar (con 'v', no con 'b'). Ahora lee la portada y su sección 'Novedades'. Las páginas de 'Acordadas' y 'Resoluciones' (con buscador por fecha) cargan los resultados con JavaScript después de tocar 'Buscar': este recolector no ejecuta JavaScript, así que esas dos quedan afuera por ahora."
+      "nota": "Corregido: el dominio que tenía cargado antes (csjn.gob.ar) no es el sitio oficial y no respondía. El sitio real de la Corte Suprema es csjn.gov.ar (con 'v', no con 'b'). Ahora lee la portada y su sección 'Novedades'. Las páginas de 'Acordadas' y 'Resoluciones' (con buscador por fecha) cargan los resultados con JavaScript después de tocar 'Buscar': este recolector no ejecuta JavaScript, así que esas dos quedan afuera por ahora.",
+      "fecha_en_titulo": true
     },
     {
       "id": "justicia-salta-prensa",
@@ -48,7 +49,8 @@
       "use_summary": false,
       "fetch_detail": false,
       "enabled": true,
-      "nota": "La página de Acordadas del Poder Judicial de Salta no publica el listado (lo deriva a un sistema interno), por eso no se lee. Las acordadas de la Corte de Justicia de Salta aparecen en el Boletín Oficial de Salta."
+      "nota": "La página de Acordadas del Poder Judicial de Salta no publica el listado (lo deriva a un sistema interno), por eso no se lee. Las acordadas de la Corte de Justicia de Salta aparecen en el Boletín Oficial de Salta.",
+      "fecha_en_detalle": true
     },
     {
       "id": "bo-salta",
@@ -80,7 +82,8 @@
       "fetch_detail": false,
       "tipo_fijo": "Comunicado oficial",
       "enabled": true,
-      "nota": "Comunicados de prensa del Ministerio: licitaciones, cronogramas de pago, convenios, obras. El listado no muestra fecha por comunicado, así que estos ítems se ordenan por la fecha en que el recolector los vio por primera vez, no por su fecha real de publicación."
+      "nota": "Comunicados de prensa del Ministerio: licitaciones, cronogramas de pago, convenios, obras. El listado no muestra fecha por comunicado: el recolector abre cada comunicado para leer la fecha que informa la propia página; si la página no la informa, queda «sin fecha» y se ordena por la fecha en que se vio por primera vez.",
+      "fecha_en_detalle": true
     },
     {
       "id": "municipalidadsalta-contrataciones",
@@ -94,7 +97,8 @@
       "fetch_detail": false,
       "tipo_fijo": "Contratación municipal",
       "enabled": true,
-      "nota": "Llamados a licitación pública y a contratación de adjudicación simple de la Municipalidad de Salta capital (compras de bienes, servicios y obras). Igual que la fuente anterior, sin fecha por ítem en el listado."
+      "nota": "Llamados a licitación pública y a contratación de adjudicación simple de la Municipalidad de Salta capital (compras de bienes, servicios y obras). Igual que la fuente anterior, sin fecha por ítem en el listado.",
+      "fecha_en_detalle": true
     },
     {
       "id": "municipalidadsalta-boletin",
@@ -108,7 +112,8 @@
       "fetch_detail": false,
       "tipo_fijo": "Boletín Oficial Municipal",
       "enabled": true,
-      "nota": "Distinto del Boletín Oficial de la Provincia de Salta (ese sigue bloqueado, ver la fuente 'bo-salta'). Cada edición trae varios decretos, ordenanzas y resoluciones municipales adentro de un mismo número de boletín; el recolector guarda el boletín como una sola publicación, no cada acto por separado."
+      "nota": "Distinto del Boletín Oficial de la Provincia de Salta (ese sigue bloqueado, ver la fuente 'bo-salta'). Cada edición trae varios decretos, ordenanzas y resoluciones municipales adentro de un mismo número de boletín; el recolector guarda el boletín como una sola publicación, no cada acto por separado.",
+      "fecha_en_detalle": true
     },
     {
       "id": "senadosalta",
@@ -133,7 +138,8 @@
       "use_summary": false,
       "fetch_detail": false,
       "enabled": true,
-      "nota": "La portada solo muestra las últimas 2 publicaciones de cada categoría. Si el Senado publica más de 2 cosas de la misma categoría entre una corrida y la siguiente (el recolector pasa 3 veces por día), alguna puede no quedar registrada. Para el historial completo de años anteriores hay que entrar a cada sección desde el sitio."
+      "nota": "La portada solo muestra las últimas 2 publicaciones de cada categoría. Si el Senado publica más de 2 cosas de la misma categoría entre una corrida y la siguiente (el recolector pasa 3 veces por día), alguna puede no quedar registrada. Para el historial completo de años anteriores hay que entrar a cada sección desde el sitio.",
+      "fecha_en_detalle": true
     },
     {
       "id": "diputadosalta",
@@ -147,7 +153,8 @@
       "fetch_detail": false,
       "tipo_fijo": "Noticia",
       "enabled": true,
-      "nota": "Solo lee la portada (últimas noticias de la Cámara: actas de labor parlamentaria, sesiones, actividad institucional). No trae fecha en un formato que el recolector reconozca."
+      "nota": "Solo lee la portada (últimas noticias de la Cámara: actas de labor parlamentaria, sesiones, actividad institucional). No trae fecha en un formato que el recolector reconozca.",
+      "fecha_en_detalle": true
     },
     {
       "id": "cdsalta",
@@ -162,6 +169,22 @@
       "tipo_fijo": "Noticia",
       "enabled": true,
       "nota": "Portada del Concejo Deliberante de Salta capital: reuniones de comisión, dictámenes, sesiones. Trae la fecha de publicación porque va codificada en la propia dirección de cada nota. Ojo: esto NO reemplaza tener a los 21 concejales cargados en politicians.json — ver README, sección 'Fuentes oficiales'."
+    },
+    {
+      "id": "gobsalta-prensa",
+      "name": "Gobierno de Salta — Noticias de prensa",
+      "jurisdiccion": "Salta",
+      "organismo": "Gobierno de la Provincia de Salta",
+      "url": "https://www.salta.gob.ar/prensa/noticias",
+      "link_pattern": "^https://www\\.salta\\.gob\\.ar/prensa/noticias/[a-z0-9\\-]+-\\d+$",
+      "skip_query": false,
+      "use_summary": false,
+      "fetch_detail": false,
+      "fecha_en_detalle": true,
+      "detalle_texto": true,
+      "tipo_fijo": "Noticia oficial",
+      "enabled": true,
+      "nota": "Noticias de prensa del Gobierno de Salta (Gobernador, ministerios y organismos). Cada nota nueva se abre para leer su fecha de publicación y buscar nombres de las personas de la lista en el texto completo (coincidencia de texto, no verificación de identidad). Las direcciones tienen la forma salta.gob.ar/prensa/noticias/<título>-<número>."
     }
   ]
 }
