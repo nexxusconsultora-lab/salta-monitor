@@ -230,7 +230,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 35
+        "count": 33
       },
       {
         "term": "gustavo",
@@ -238,19 +238,15 @@
       },
       {
         "term": "parís",
-        "count": 16
+        "count": 15
       },
       {
         "term": "milei",
-        "count": 13
+        "count": 12
       },
       {
         "term": "litio",
         "count": 8
-      },
-      {
-        "term": "pasa",
-        "count": 5
       },
       {
         "term": "reunió",
@@ -258,6 +254,10 @@
       },
       {
         "term": "bouvier",
+        "count": 5
+      },
+      {
+        "term": "millones",
         "count": 5
       }
     ],
@@ -8364,15 +8364,15 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 9
+        "count": 8
       },
       {
         "term": "cartuccia",
-        "count": 9
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 5
       },
       {
         "term": "cámara",
@@ -10722,13 +10722,17 @@
     "id": "dip-luis-fernando-albeza",
     "name": "Luis Fernando Albeza",
     "role": "Diputado/a provincial por Cerrillos",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "2020-06-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-11-19": {
         "total": 1,
         "score_sum": 0
@@ -10770,7 +10774,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "luis",
+        "count": 2
+      },
+      {
+        "term": "albeza",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "UBER brinda opciones más económicas",
@@ -10781,6 +10794,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Últimas noticias de Luis Albeza hoy - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LdkEwWmZ2d1NRczc2OENtbXpCUUp1T1RPcGJ2OXFVRTN5N21uWVYxaWdNVVpPYnZkUDBOX0pldnJPeXp2Zlp4Tjg3dC1PQXZtbklUZjJkSXppVjRLTldONkVyaw?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 16 Jun 2020 23:23:33 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El diputado Luis Albeza dijo que “UBER brinda opciones más económicas” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFhlVDNNZHJLVG9wb2o4MzB0QXYwTFV3eWRZSV9DMjhENllaRXhFMGRlZi1QeEZWVVk4VG8ycy1jWmNrOW80Zlg4bGM3TjdlV3J1NjhzNFVoVzdsWUNwX0xvZjZpXzZib3JrTnFUMFR4cV9yT09RQkRUNVZ3SUZBdGNtSDJVSVBFMXhtWUFfMmlLdEJDY0VHU3dRcnlKZFZSbExOS213?oc=5",
@@ -15557,16 +15577,16 @@
     "id": "concejal-gustavo-farquharson",
     "name": "Gustavo Farquharson",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 63,
+    "total_mentions": 64,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 13,
       "neutral": 47
     },
     "sentiment_by_day": {
       "2026-05-07": {
-        "total": 3,
-        "score_sum": 0
+        "total": 4,
+        "score_sum": 2
       },
       "2024-07-12": {
         "total": 1,
@@ -15804,7 +15824,7 @@
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
       },
       {
         "term": "emiliano",
@@ -15816,6 +15836,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "importante",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcnZxVTNBVGZROTJtR0FmQm5CNTVsMFBNY1UzdERaWDRmS2x0ZlZfTi1RR2tqa2R2aFhPN183aTNMYTJBU19GSnpSZElxR3lyUk5zenJXNmhUVGlEN05aSl9tUHNGZkk0NE1vcE11TnF5Yl9ORklseU94OVZMcnlSM1pBWXlGVGF1d3hrbk1BNG9JODY1aE9iZTE0N0pfYTZrUTI1N1pRLWxFeE1NZmFlRTc1Mk9XNUJPckFBaTFmbUtHQVFHMTkxeTByaW9XNzZscGtRVg?oc=5",
+        "date": "Thu, 07 May 2026 07:00:00 GMT"
+      },
       {
         "quote": "Lamentable",
         "source": "Elintra.com.ar",
@@ -15899,12 +15925,6 @@
         "source": "eltribuno.com",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbmltdW11SWFKblRHRUtiQTVxcDgxSFdmdFVNZ2VFQXBLRk1WRzBoUlRXZUt0Ynk5b1MtRUppUkloSGdwSEdSVEZwSTVLQnJuYnJKaXQ0cWI3RnJITVJiTVh0Vnd6RDJfNDItTDAwaHk4QUZhUWNBeUt0ODNMV3F6ZlBhNktkQWJGWHNHaVBfQ1NlQXA2VDk4bmZnanQyWFV3NjZ6Ujg2bFpXbWdUaHVaYXpzNXEzWHVEaEx5dm1pZVF6aDlQWG1SM3RNU2FoUWFJR1FTbG9kOHBmQzA5UjZMd1NB?oc=5",
         "date": "Sun, 01 Jun 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "El Estado debe garantizar la seguridad al usuario y el chofer",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc3NHSlNmVmpibmY0RlBaUm1Tb3U2RUlzdkhOOWhUcUUzanNoRW55TU9WOXRuaC0za0lucnY4akU5UG5fX3JrclZndnpLQXhHM1V4czg2ZjBuOVdxRWhGYVh1b25kUkctXzI4b1VMU0V1LVhkenBCQnN0OHJpS1BGT0k5ZXVtcUJCbWYwRm1BaFdEbEx1RVRKU2Fab1NPSjQyMEFMNDBhS2hmOEZJN0dpOVpZVzR4T2xHX3R4WnZWX292cVB4S2xrSFpxS2lXWjVSV2lEeHNBVUNvRVdNWXdwSl9NRXhGT0daR0RaTtIB-wFBVV95cUxNblJFM0syX2dWTUpFRktKcUhSX2F4eDlWdkxTNFo3OThiMnlycktMS2pHSG16NHJOVTNNNVRIRjFoX1ltcFlKd0FMa21NZVF2U3g4WEwzUHJqVFRtRlR1MTR5Y05URHVZanpGTFBIMHVMZHBvVHJXeWxOc2ItUUlmREdveWh5WEdadS14SkxISHNJSHpud3RJSmEzQVQzT2JJYWdDZHZ2d3BSaWNXVUJXejFxQ21sSEtJLThzS19KWm0zV0tGNnMzUW1sZGdPaDJCdlZzTVdaSVdkTEFIZTgzV3JmNFc1QnZseHVEN2RLNEl0VGJ3cWN2YVJKZw?oc=5",
-        "date": "Thu, 03 Apr 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -15934,6 +15954,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "En lo “importante”: Gustavo Farquharson presentó un proyecto para impulsar la venta de cerveza sin alcohol - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcnZxVTNBVGZROTJtR0FmQm5CNTVsMFBNY1UzdERaWDRmS2x0ZlZfTi1RR2tqa2R2aFhPN183aTNMYTJBU19GSnpSZElxR3lyUk5zenJXNmhUVGlEN05aSl9tUHNGZkk0NE1vcE11TnF5Yl9ORklseU94OVZMcnlSM1pBWXlGVGF1d3hrbk1BNG9JODY1aE9iZTE0N0pfYTZrUTI1N1pRLWxFeE1NZmFlRTc1Mk9XNUJPckFBaTFmbUtHQVFHMTkxeTByaW9XNzZscGtRVg?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Los aduladores de Emiliano Durand: Alicia Vargas y Gustavo Farquharson - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa1pmcDVEbHkydlBETXNSWGx2d0VIRkZzRVNGWndGZGMyelBKZU5yamluaVZzUE1fYXViUXJzd1RlZk1nNEszTUMtWnFfdFlZRktpSDdlNFF5LUVfLWxLalpQTzhFU3ljTmszcU5zbXFBUDNmQS1SdTk1ZjViWEl5RnV5emN2d05rMmU0dk5jT3lZYzVaemVCMTVRdE9PcGIzdzZrWFZHaw?oc=5",
@@ -16136,13 +16163,6 @@
         "source": "eltribuno.com",
         "date": "Thu, 28 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Una Barbie con síndrome de Down, ¿ayuda a la inclusión y al respeto? - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWHlGUTYzNWxtMzhxcUZQaVhqcGFQYy1GUmZKMnN3M0JyRV9WdmpVeHpRSFdGN1A4cDRGaUtVZ2JJSTJ1NlhNZFVVVWhUTlhXbk81Njl3UFlvRVR5MWhlVkJKUTk3R2hFRVdHNDJzc0ZQd0VmN3BIcjNTVU5yVkxVSXhJSmphT1pHQU1ES2N1YXhlRWNkTlVBdUZ3aDQySmY5R2RyNHdOT1BHSDU5eUk2UGJ5RGE0YW1yX3NkY0dzanpuUmJ1aXY3X2hCa3hQZ9IB3AFBVV95cUxQN3M2VGNJTlVqTnpJQVFBWm9MblFIbUNMUnVnS2JDZVJhRDFVcVBOMnU1djZQcDN2VXR2ejl2eUdobDkxaDdiMUtqRGNxaTVMeVZxV1JFQ1Q4dEdOYVctRndfQ0x6eXFOb0VnVk9VRW1pQjg0aGhBUHE4YXoybGNBUVc5Q2o5cnpBS25lQm45Rm1ON192QXVNX1RsLThlMXhEUEUzRUxJSWUyaGFMckZWVFhFOWlMMmtpVnpMRS05OTlQd045WThjdmYySjk4Z3dsbzZEM0E2MzNmYlh4?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 27 Apr 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -16150,13 +16170,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 19,
+    "total_mentions": 20,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 8,
-      "neutral": 11
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "2025-06-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-26": {
         "total": 1,
         "score_sum": -2
@@ -16225,14 +16249,24 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 2
+        "count": 3
       },
       {
         "term": "garcía",
+        "count": 3
+      },
+      {
+        "term": "informate",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Se corre de las derrotas y no banca los trapos",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYUNRMzhDNnVsYTJ5LWFtMzM2ZXk0OHlrREdZdHNrWnl4MTVyeFRqcC1UbXRyelIwNzZBUHF1NFgxM0U3aVZMeVJTeVo2b09OUzk0ZGdzYTlSM2J6Q3BFcTkwODdXR1R3Ty1uT0FuR09QX3V4Y3FSLXB6QkI1eWZ0b2NQcy1kTXQ3RkZMOXNBTTVSNVVLOTNkWk8tQXVSX3JmSkVRbk1YU3QxZDRtS3pmZmh5NUlDc1EyRXdOTThSVnpieW9SbkdCd0ZuT1hsZGtDUkZ3NzNyVWJweWVMZFV3cHp2OXhTYTdHMVZqUVh30gH8AUFVX3lxTE11akVMQkhjeU5MTDRRMEc0ajBSaW9OUTNKcnV1SzY4UmpQSUJfeWF5aWQwZUIxa3ZKUldONGdUYklBUWtYWVEtYWJnN21HRi1QNTl3eWRSODU2RnAyVzcyWkVfQzFGdUZ4ZlNqRHAwWDFrLTF5cy00YW9xaTI0NnpTaGdXc2c3cldiNFFFVHc5aTZZa0kwbFM4cjVaeElZUHI5R2V2bEhTTXpkbmNnREFfdGdVV05hYW81RGRJd0JvWExIYnhJSlQtRzVvYXg0azZTWkZLbWVsR0JPTXRiRE9JYlYyWlF4UzZjLU9OZW9qZmN5NTlBWmZsUEc2Tg?oc=5",
+        "date": "Wed, 04 Jun 2025 07:00:00 GMT"
+      },
       {
         "quote": "Amigos son los huevos y se golpean entre ellos",
         "source": "El Tribuno",
@@ -16291,6 +16325,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Concejal cruzó a José García en el recinto: “Se corre de las derrotas y no banca los trapos” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYUNRMzhDNnVsYTJ5LWFtMzM2ZXk0OHlrREdZdHNrWnl4MTVyeFRqcC1UbXRyelIwNzZBUHF1NFgxM0U3aVZMeVJTeVo2b09OUzk0ZGdzYTlSM2J6Q3BFcTkwODdXR1R3Ty1uT0FuR09QX3V4Y3FSLXB6QkI1eWZ0b2NQcy1kTXQ3RkZMOXNBTTVSNVVLOTNkWk8tQXVSX3JmSkVRbk1YU3QxZDRtS3pmZmh5NUlDc1EyRXdOTThSVnpieW9SbkdCd0ZuT1hsZGtDUkZ3NzNyVWJweWVMZFV3cHp2OXhTYTdHMVZqUVh30gH8AUFVX3lxTE11akVMQkhjeU5MTDRRMEc0ajBSaW9OUTNKcnV1SzY4UmpQSUJfeWF5aWQwZUIxa3ZKUldONGdUYklBUWtYWVEtYWJnN21HRi1QNTl3eWRSODU2RnAyVzcyWkVfQzFGdUZ4ZlNqRHAwWDFrLTF5cy00YW9xaTI0NnpTaGdXc2c3cldiNFFFVHc5aTZZa0kwbFM4cjVaeElZUHI5R2V2bEhTTXpkbmNnREFfdGdVV05hYW81RGRJd0JvWExIYnhJSlQtRzVvYXg0azZTWkZLbWVsR0JPTXRiRE9JYlYyWlF4UzZjLU9OZW9qZmN5NTlBWmZsUEc2Tg?oc=5",
+        "source": "Informate Salta",
+        "date": "Wed, 04 Jun 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Concejo Deliberante rechazó el pedido de LLA para sancionar a José García - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY20xeEFvUVRiYmJ3N25zRWc3Q0JnUDRINUNZbl9MT200a3ppbVVSUmRENlp2UXF4TU1DdmJZNEpaUE1fY2lfd2FXdW9xV1BPRzFHWFZtTjRndlI3blV6YU1sTGVQQU84aGtxbTlzNFpUbTF6M0xMc3l3M2pxYnVNeU5yRGR6VDRrMmRqVVZnaXJwckhnYkpOZkFmX2J4UkFqZUgtOF9UalNTNi03LXhHeDI5eWFJMDFNRVktNVRkU3F1cW5o0gHKAUFVX3lxTE4wS3d0Tlg2NjhZT3ctbkQ3N3hfVlkzMDZtN1gxTUd3cTlXQjEtR0xja3lCYlFjMDZJeThabGswM0pkTHV1WXROa1R1Y3ZQN2VBUndsVWhPYnI3MFA0RFpEMWtBWGhNUHNuclhGUzNpRTdaX3JXVnB1ZEg1dV9ZQ3VjM1phN0tLbk44eTVUUXhsNi1uSDEyRjByTVp3ek9rb0dwM2Y0Xy1OYXpPYVl6WU9EWkh4bkhZelZKTjVkdnhLdi1IVEV4OTQyLXc?oc=5",
@@ -18705,19 +18746,11 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 4
+        "count": 3
       },
       {
         "term": "madile",
-        "count": 4
-      },
-      {
-        "term": "voces",
-        "count": 2
-      },
-      {
-        "term": "criticas",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -20039,13 +20072,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 6
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "2026-10-07": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-06": {
         "total": 2,
         "score_sum": 0
@@ -20074,6 +20111,10 @@
     "top_topics": [
       {
         "term": "quinteros",
+        "count": 4
+      },
+      {
+        "term": "rodrigo",
         "count": 3
       },
       {
@@ -20085,15 +20126,17 @@
         "count": 2
       },
       {
-        "term": "rodrigo",
-        "count": 2
-      },
-      {
         "term": "avanza",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Salta es una de las provincias que más dolores de cabeza le ha causado a LLA",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/10/07/rodrigo-quinteros-salta-es-una-de-las-provincias-que-mas-dolores-de-cabeza-le-ha-causado-a-lla/",
+        "date": "Wed, 07 Oct 2026 18:03:50 +0000"
+      },
       {
         "quote": "verdadera casa de la Libertad",
         "source": "Informate Salta",
@@ -20109,6 +20152,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros: “Salta es una de las provincias que más dolores de cabeza le ha causado a LLA”",
+        "link": "https://elintra.com.ar/2026/10/07/rodrigo-quinteros-salta-es-una-de-las-provincias-que-mas-dolores-de-cabeza-le-ha-causado-a-lla/",
+        "source": "El Intra",
+        "date": "Wed, 07 Oct 2026 18:03:50 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Quinteros lanzó abrirán “verdadera casa de la Libertad”",
         "link": "https://informatesalta.com.ar/politica/quinteros-lanzo-abriran--verdadera-casa-de-la-libertad-_a6ac51c726b27e8e08eb89acf",
@@ -21078,11 +21128,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 9
+        "count": 7
       },
       {
         "term": "orozco",
-        "count": 9
+        "count": 7
       },
       {
         "term": "libertad",
@@ -21090,10 +21140,6 @@
       },
       {
         "term": "avanza",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 3
       },
       {
@@ -21106,6 +21152,10 @@
       },
       {
         "term": "quinteros",
+        "count": 2
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -23507,18 +23557,18 @@
     "id": "dip-alejandro-jesus-esper",
     "name": "Alejandro Jesús Esper",
     "role": "Diputado/a provincial por Orán",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
-      "2026-08-24": {
-        "total": 1,
+      "2026-09-01": {
+        "total": 2,
         "score_sum": 0
       },
-      "2026-09-01": {
+      "2026-08-24": {
         "total": 1,
         "score_sum": 0
       },
@@ -23527,10 +23577,26 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "alejandro",
+        "count": 2
+      },
+      {
+        "term": "esper",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Por qué es inviable el proyecto de Alejandro Esper de convertir bioetanol en energía - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RHBfWWtGUjAyTzdrS0xFNFdqX3haTlZoUjVYazUwX2FOVkNWaUlMVVduWExJM0g4aHF4dXNpS2lIYThJekVIdFB5SE1fVjFwc1dRc05BLXR3eUxLTE9RZ0sxMGRmQkF6dkUyNDkxbWxaVEJGcFdXNw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 01 Sep 2026 05:20:13 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cuestionan al hoy libertario Alejandro Esper por su anterior participación en espacios kirchneristas - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzTXRyWldyenpXakc5NFBuSGs0TDc5dFB6eU1jcGZwNkRsWnRxT1Nla0tuUllJWlctOGVaWko1SlA3dkVTdHU3WHNLdVA4TjFqNzVBd2V1YXJnRjg3a0E?oc=5",
@@ -24027,19 +24093,11 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 4
+        "count": 3
       },
       {
         "term": "galleguillos",
-        "count": 4
-      },
-      {
-        "term": "pasa",
-        "count": 2
-      },
-      {
-        "term": "diputados",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -24326,34 +24384,22 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
         "count": 4
       },
       {
-        "term": "gauffin",
-        "count": 3
-      },
-      {
         "term": "pidió",
         "count": 2
       },
       {
-        "term": "licitación",
-        "count": 2
-      },
-      {
-        "term": "belgrano",
-        "count": 2
-      },
-      {
-        "term": "cargas",
-        "count": 2
-      },
-      {
         "term": "gauffín",
+        "count": 2
+      },
+      {
+        "term": "gauffin",
         "count": 2
       }
     ],
@@ -24816,16 +24862,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "franco",
-        "count": 2
-      },
-      {
-        "term": "lastra",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
@@ -24856,13 +24893,17 @@
     "id": "dip-sergio-mauricio-lopez",
     "name": "Sergio Mauricio López",
     "role": "Diputado/a provincial por Metán",
-    "total_mentions": 10,
+    "total_mentions": 11,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 1,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-09-01": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-12": {
         "total": 1,
         "score_sum": 0
@@ -24915,6 +24956,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Una comisión para investigar la conducta del diputado Sergio López - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYWFST3FsQmhSMXZFY1cxeVpJUFM1OXMzZ2huSUpsU3JrOU1YZlNmU18zUnhhMktFR0c5ZlRhV0h2dEl5em92b0VxbDR0YlhKOXpVTFVIdnhPUjRXZ3FqeGdENzJDNkJsS291U0IzdnJJQWVUbGw5ZVpFZU5Sc0hrY3BzSkhQZzBLUVNZZDVoZk95VTdkcWRDQS1ubzRETHVrVTRj?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Tue, 01 Sep 2026 12:33:14 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La Justicia de Metán le prohíbe al diputado Sergio López ejercer como abogado - HolaSalta Noticias",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRlJORjM3RTFBN28tTWJoQXlHSTU1UWp3TERuNllfNnRBV3p4d2xJdVN1QTZVb1JGX0FybzlKUGdSSjhrd2lBYTcxNVpOMVo2ejJiSHlPc2ItS3JBREp0dGp6a0hOSl9EOHEwUGNkcTIwRzJ4RmtlUDZ3ZFM2bVcxd0JGZ21SRTFTNlBxSlFaS0RYQl83by1ZUzZiNFFFS3lhaVBTUkdB?oc=5",
