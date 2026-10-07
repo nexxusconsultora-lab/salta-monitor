@@ -1,0 +1,11 @@
+{
+  "_leeme": "Decisiones humanas sobre los datos. Este archivo NO lo toca el recolector: sobrevive a cada actualización. Se lee desde data/resoluciones.json. Todo lo que está vacío se ignora.",
+  "_como_se_usa": {
+    "periodos": "Confirmar a mano si alguien está en ejercicio, con la fuente. Ejemplo: \"gustavo-saenz\": {\"vigente\": true, \"fuente\": \"https://...\"}. Poné vigente:false si ya no ocupa el cargo.",
+    "fusionar": "Unir dos filas que SON la misma persona aunque NEWAR no las una sola. Ejemplo: {\"ids\": [\"sen-xxx\", \"dip-xxx\"], \"motivo\": \"misma persona según https://...\"}",
+    "no_fusionar": "Mantener separadas dos filas que NEWAR uniría pero son personas distintas. Ejemplo: [\"sen-xxx\", \"dip-xxx\"]"
+  },
+  "periodos": {},
+  "fusionar": [],
+  "no_fusionar": []
+}
