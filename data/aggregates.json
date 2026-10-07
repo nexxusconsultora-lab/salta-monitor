@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-06T23:21:20.217717+00:00",
+  "generated_at": "2026-10-07T00:14:48.146545+00:00",
   "by_politician": {
+    "dnac-pablo-outes": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": -1
+    },
+    "gustavo-saenz": {
+      "total": 213,
+      "positivo": 38,
+      "negativo": 23,
+      "neutral": 152,
+      "score_sum": 66
+    },
     "dip-griselda-edith-galleguillos": {
       "total": 17,
       "positivo": 1,
@@ -77,13 +91,6 @@
       "negativo": 6,
       "neutral": 35,
       "score_sum": -6
-    },
-    "gustavo-saenz": {
-      "total": 212,
-      "positivo": 37,
-      "negativo": 23,
-      "neutral": 152,
-      "score_sum": 65
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 7,
@@ -364,13 +371,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 0
-    },
-    "dnac-pablo-outes": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 8,
-      "score_sum": -1
     },
     "dip-franco-agustin-lastra": {
       "total": 3,
@@ -808,6 +808,50 @@
     }
   },
   "by_day": {
+    "Sat, 06 Ju": {
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "Tue, 06 Oc": {
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 12
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 5
+      }
+    },
     "Tue, 31 Ma": {
       "dip-griselda-edith-galleguillos": {
         "total": 2,
@@ -1034,40 +1078,6 @@
       "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "Tue, 06 Oc": {
-      "concejal-laura-jorge-saravia": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 5,
-        "score_sum": 11
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 5
       }
     },
     "Wed, 06 Ma": {
@@ -9802,12 +9812,6 @@
         "score_sum": 0
       }
     },
-    "Sat, 06 Ju": {
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "Sun, 15 Oc": {
       "sen-carlos-lopez": {
         "total": 1,
@@ -13236,7 +13240,11 @@
     },
     {
       "term": "sáenz",
-      "count": 10
+      "count": 11
+    },
+    {
+      "term": "gustavo",
+      "count": 8
     },
     {
       "term": "pasa",
@@ -13252,10 +13260,6 @@
     },
     {
       "term": "avanza",
-      "count": 7
-    },
-    {
-      "term": "gustavo",
       "count": 7
     },
     {
@@ -13283,11 +13287,11 @@
       "count": 5
     },
     {
-      "term": "carlos",
+      "term": "nueva",
       "count": 4
     },
     {
-      "term": "contra",
+      "term": "planta",
       "count": 4
     }
   ],
