@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-08T04:04:28.839464+00:00",
+  "generated_at": "2026-10-08T11:21:05.116019+00:00",
   "by_politician": {
+    "concejal-jose-garcia-alcazar": {
+      "total": 21,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 12,
+      "score_sum": -22
+    },
+    "concejal-laura-jorge-saravia": {
+      "total": 37,
+      "positivo": 0,
+      "negativo": 10,
+      "neutral": 27,
+      "score_sum": -22
+    },
     "dnac-bernardo-biella": {
       "total": 18,
       "positivo": 4,
@@ -63,13 +77,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 0
-    },
-    "concejal-jose-garcia-alcazar": {
-      "total": 20,
-      "positivo": 0,
-      "negativo": 8,
-      "neutral": 12,
-      "score_sum": -20
     },
     "concejal-gustavo-farquharson": {
       "total": 64,
@@ -161,13 +168,6 @@
       "negativo": 10,
       "neutral": 56,
       "score_sum": -15
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 36,
-      "positivo": 0,
-      "negativo": 10,
-      "neutral": 26,
-      "score_sum": -22
     },
     "dip-gustavo-orlando-orozco": {
       "total": 38,
@@ -808,6 +808,22 @@
     }
   },
   "by_day": {
+    "2026-08-12": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-sergio-mauricio-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-08": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-08-27": {
       "dnac-bernardo-biella": {
         "total": 1,
@@ -2896,12 +2912,6 @@
     },
     "2023-04-11": {
       "dip-adrian-alfredo-valenzuela-giantomasi": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-12": {
-      "dip-sergio-mauricio-lopez": {
         "total": 1,
         "score_sum": 0
       }
@@ -13578,11 +13588,7 @@
     },
     {
       "term": "cornejo",
-      "count": 9
-    },
-    {
-      "term": "sáenz",
-      "count": 9
+      "count": 8
     },
     {
       "term": "gustavo",
@@ -13593,7 +13599,7 @@
       "count": 8
     },
     {
-      "term": "diputados",
+      "term": "sáenz",
       "count": 8
     },
     {
@@ -13609,27 +13615,31 @@
       "count": 6
     },
     {
-      "term": "libertad",
+      "term": "diputados",
       "count": 6
-    },
-    {
-      "term": "voces",
-      "count": 6
-    },
-    {
-      "term": "criticas",
-      "count": 6
-    },
-    {
-      "term": "contra",
-      "count": 5
-    },
-    {
-      "term": "roque",
-      "count": 5
     },
     {
       "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "milei",
+      "count": 5
+    },
+    {
+      "term": "durand",
+      "count": 5
+    },
+    {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "agustina",
+      "count": 5
+    },
+    {
+      "term": "álvarez",
       "count": 5
     }
   ],
