@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-08T17:57:39.398370+00:00",
+  "generated_at": "2026-10-08T23:12:28.725068+00:00",
   "by_politician": {
+    "sen-juan-cruz-cura": {
+      "total": 84,
+      "positivo": 10,
+      "negativo": 6,
+      "neutral": 68,
+      "score_sum": 9
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 47,
+      "positivo": 3,
+      "negativo": 6,
+      "neutral": 38,
+      "score_sum": -6
+    },
+    "concejal-maria-florencia-leon": {
+      "total": 6,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 4,
+      "score_sum": -2
+    },
     "dnac-yolanda-vega": {
       "total": 8,
       "positivo": 1,
@@ -63,13 +84,6 @@
       "negativo": 3,
       "neutral": 11,
       "score_sum": 2
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 46,
-      "positivo": 3,
-      "negativo": 6,
-      "neutral": 37,
-      "score_sum": -6
     },
     "snac-emilia-orozco": {
       "total": 49,
@@ -267,13 +281,6 @@
       "neutral": 20,
       "score_sum": 2
     },
-    "sen-juan-cruz-cura": {
-      "total": 83,
-      "positivo": 9,
-      "negativo": 6,
-      "neutral": 68,
-      "score_sum": 7
-    },
     "dip-adrian-alfredo-valenzuela-giantomasi": {
       "total": 8,
       "positivo": 0,
@@ -462,13 +469,6 @@
       "negativo": 0,
       "neutral": 1,
       "score_sum": 0
-    },
-    "concejal-maria-florencia-leon": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 4,
-      "score_sum": -3
     },
     "concejal-jose-luis-arias": {
       "total": 9,
@@ -808,6 +808,82 @@
     }
   },
   "by_day": {
+    "2026-10-08": {
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": -3
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-24": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-alejandro-jesus-esper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-luis-arias": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-01-31": {
       "dnac-yolanda-vega": {
         "total": 1,
@@ -888,20 +964,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-08": {
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": -3
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -3
-      },
-      "concejal-laura-jorge-saravia": {
         "total": 1,
         "score_sum": 0
       }
@@ -1722,60 +1784,6 @@
         "score_sum": 0
       },
       "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-24": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-alejandro-jesus-esper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-ines-bennassar": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-jose-luis-arias": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-carlos-guitian": {
         "total": 1,
         "score_sum": 0
       }
@@ -13614,63 +13622,63 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 17
-    },
-    {
-      "term": "pasa",
-      "count": 9
-    },
-    {
-      "term": "sáenz",
-      "count": 8
+      "count": 12
     },
     {
       "term": "cornejo",
-      "count": 7
+      "count": 6
     },
     {
       "term": "agustina",
-      "count": 6
+      "count": 5
     },
     {
       "term": "álvarez",
-      "count": 6
-    },
-    {
-      "term": "mónica",
-      "count": 6
-    },
-    {
-      "term": "juárez",
-      "count": 6
-    },
-    {
-      "term": "royón",
-      "count": 5
-    },
-    {
-      "term": "josé",
-      "count": 5
-    },
-    {
-      "term": "garcía",
-      "count": 5
-    },
-    {
-      "term": "durand",
       "count": 5
     },
     {
       "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "flavia",
       "count": 4
     },
     {
-      "term": "producción",
+      "term": "sáenz",
       "count": 4
+    },
+    {
+      "term": "josé",
+      "count": 4
+    },
+    {
+      "term": "garcía",
+      "count": 4
+    },
+    {
+      "term": "informate",
+      "count": 4
+    },
+    {
+      "term": "durand",
+      "count": 4
+    },
+    {
+      "term": "mónica",
+      "count": 4
+    },
+    {
+      "term": "juárez",
+      "count": 4
+    },
+    {
+      "term": "proyecto",
+      "count": 4
+    },
+    {
+      "term": "cruce",
+      "count": 3
+    },
+    {
+      "term": "roque",
+      "count": 3
     }
   ],
   "comentions": [
