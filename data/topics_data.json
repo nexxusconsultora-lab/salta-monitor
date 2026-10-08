@@ -1,28 +1,40 @@
 {
-  "generated_at": "2026-10-08T11:21:06.135590+00:00",
+  "generated_at": "2026-10-08T17:57:40.818010+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 200,
+      "total_mentions": 217,
       "sentiment_breakdown": {
         "positivo": 17,
-        "negativo": 20,
-        "neutral": 163
+        "negativo": 21,
+        "neutral": 179
       },
       "sentiment_by_day": {
-        "2026-10-08": {
-          "total": 6,
-          "score_sum": -4
+        "2024-05-07": {
+          "total": 2,
+          "score_sum": 0
         },
-        "2026-10-07": {
-          "total": 6,
-          "score_sum": -4
+        "2026-10-08": {
+          "total": 16,
+          "score_sum": -6
+        },
+        "2026-10-03": {
+          "total": 4,
+          "score_sum": 0
         },
         "2026-10-02": {
-          "total": 4,
+          "total": 5,
           "score_sum": 2
+        },
+        "2026-10-07": {
+          "total": 8,
+          "score_sum": -4
+        },
+        "2017-10-25": {
+          "total": 1,
+          "score_sum": 0
         },
         "2026-10-06": {
           "total": 6,
@@ -52,10 +64,6 @@
           "total": 8,
           "score_sum": 2
         },
-        "2026-10-03": {
-          "total": 2,
-          "score_sum": 0
-        },
         "2025-11-30": {
           "total": 1,
           "score_sum": 0
@@ -69,10 +77,6 @@
           "score_sum": 0
         },
         "2024-12-19": {
-          "total": 1,
-          "score_sum": 0
-        },
-        "2024-05-07": {
           "total": 1,
           "score_sum": 0
         },
@@ -144,11 +148,11 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 82
+          "count": 83
         },
         {
           "term": "tribuno",
-          "count": 48
+          "count": 65
         },
         {
           "term": "intransigente",
@@ -275,6 +279,125 @@
       ],
       "recent_articles": [
         {
+          "title": "Municipios - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EWGhKTkExT3lVRmVKbU5oUEl4UjRQWnBHZm9pUVAyRkl6aUNEYnhTbU1iNDhtVUFzQUJOVWlRcW5jQV9DUV9jeHlMXy1BN3pCY0tWM1FIYw?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 07 May 2024 15:44:41 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Boca–River: cuándo se juega el Superclásico y qué estará en juego - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWkNDZHZUNndqb2xyZ3FJQ1lPR2JlTHV3bTgzdFhQNko1Y3NPRXZmanJmQ2NSVUJwYUQ4ZnpGZE1qNS1DTV9paDIzUlRWa0kxdFcwZWtMRnBCM3VTNXJMMWFUaTdoempQdFJqQXFxVmtwSDN4VXBNVDJfMlRVZFRMLTNkWVJJaW52TTNhdFJuYnpDZndxM0JEYmVsdW5WTi0yai1nSXRkZGYtbUdFeTBfaW5uTkNtRmlNMnBKTDNR0gG-AUFVX3lxTFBaQ0NkdlQ2d2pvbHJncUlDWU9HYmVMdXdtODN0WFA2SjVjc09FdmZqcmZDY1JVQnBhRDhmekZkTWo1LUNNX2loMjNSVFZrSTF0VzBla0xGcEIzdVM1ckwxYVRpN2h6alB0UmpBcXFWa3BIM3hVcE1UMl8yVFVkVEwtM2RZUklpbnZNM2F0Um5iekNmd3EzQkRiZWx1blZOLTJqLWdJdGRkZi1tR0V5MF9pbm5OQ21GaU0ycEpMM1E?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 13:16:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Agrotécnica Fueguina: piden licitación o informes al municipio - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdXBmdkxETnNKaFhPcE5sWVluTnRjanRNVFBibjZ4aTRjM3dLaFhRU1l1ZjRGMlpZV0JQVThoWkdIbUtfTFRBbXpPZ0ZmNFRlNGd5ZGh4YVVlQ1Q4TlhiSDFMYjQwZXBkWTZ6UjJtdHJKUTlvTHpka09MbnVNMlF4cE9jNWItMS1MVHVvcDNUeGZyWU5pM1liNVJsTW40VDQ0Y3pvYjN4bnBWX1VRNHfSAbMBQVVfeXFMUDZXYkJEMlpOclhMMjRMUnlrMHozc2tPa0I4Y1dsamVielNpbWpjU1lsaWNYYTRLNVo1eVROaUk0Qjd4eng1WTZranpSY2NxU215Rzd6VjVNSUFqdzZMQlpPaHQ4NldrYjN1dk9Gb1NOSUJVOFBkdTE2NUZveWlXSldxU3dPc0dUWm9mX2tnOHh4UXV4Vy1uS2dJVl9Hc2VuM2tDdzE4d2YtZk4xd1Z4OWNYNDg?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 04:46:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Colapinto busca revancha en Singapur: se viene un nuevo desafío en la Fórmula 1 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDExa1IybGhrNHFTTjFPWUdJeVRJLUFlTWVRZUNpNTlTMVEwNzVxWm81ZzFyZTlrSEN0Q2dEc2NyUGg4ckZRbUhYVWM5SFluVFV0cmhqTTlZSFVraWtkNFFMR1VIdnhTd1ZBakgzdXlNaWNZb3JmVzl4bGJwQmJoRjFSU2N0TTVyUUZpM01OV0p3VTJzZURiVWkwUG5HeHBnTDJmVGhCWXU4Q2tfanBqVy1GcDFSdTZBbzN1YjJpRHdjT2pCTkRUNFk1Z9IB0AFBVV95cUxOdUNPVUp3NTdteldRSDY2czdEcjRhdk82dkFfNVg1OWZTWFVZemk3N0taWTgxTFZaMms5dkhabmtVamFnbV9ZLVMtXzY2ZTlYQ2NRTkQxT0Y5WE5NSGdVMHk4OVZ6ZVJGZFdhaUMxUFBvaFl1eWVRaEJJOWhLcmZxVl9QSXJhcURJSExhcEpJaWhsRU9KYWJYaUpIVjBQb2FORG9SemdiY0Nuc3dWTVNZbVVQenNFeVNXRmwyX2g3NkpWTm5JdEEtZElYSFJzNEo4?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 13:53:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta habilitó un nuevo pozo de agua para abastecer a cuatro barrios - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUU9CaklTaFU1Wmk2RmJ3TnF3T1pqOGdKbnVnUlJiQjRPTHcxR0NsUDhzVm82WWpaX1Q3SXFmcUV2UmZfdWEwa2xEYVdWbzR3LUptSnZVbUIweUh4dWpDNEpiQkl2TVVyQUNlOVJ2Sm92UEZxYlBCcjZBNnRqQWR5ZE1wZ0FtQ2xNVTRFdnRaWldZU19PUUhTZGFYcEcyb1lsM3RwMFZvbnBIcTBfTWl1QzYwZ0JmM3hV0gG-AUFVX3lxTE5GRW1tN3JhaS1yRVBfUVRiRjdFNTlwc1VQMW9KcE56ODhTV2Z5RmlzcHQzeUg4M1VGbjh0bE1oQjU4bl9Rbk5TcW9nNzVBT0ZpR0FMVTBraTVFXzRDSnZhVXZYRHpVYUxMajJqcVRaX2RqZ0FlUUFqNjUzanhkVGdhWmJJclpVb2d4dzlsN3dvQ3JVTTRtZ0l6V0FmS3BGdG1Tc1dfeXlqcklmaXNGaGVDU0VZOS1wdVRyNE1ZYWc?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 00:03:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "¿Qué sucederá con El Súper Niño? ¿Cuándo alcanzaría su punto máximo? - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb084aGd2Tjc2MzNEeHNsWWd3T29NYlBqWFB0RHVueEotNUhsdy1ZLXpQbU45WlJ1YURicTVNVm50bjdkR0tyNjlCRUNsOE44blNOdm5QMDdRYTZBMVZRVmpzNFF0TkpIRXRwSWx0SzEwenZmZVg2ZzhHNGFYN1hJV1lXamd0M3RQcWJLazhSZzR3d2lhd3ZTWmRsbnVyTzNkSHRMMmNZRWlIanZ6R2ZfSDZTVnVfZjItZFlmNTJuYkTSAcABQVVfeXFMTW9POGhndk43NjMzRHhzbFlnd09vTWJQalhQdER1bnhKLTVIbHctWS16UG1OOVpSdWFEYnE1TVZudG43ZEdLcjY5QkVDbDhOOG5TTnZuUDA3UWE2QTFWUVZqczRRdE5KSEV0cElsdEsxMHp2ZmVYNmc4RzRhWDdYSVdZV2pndDN0UHFiS2s4Umc0d3dpYXd2U1pkbG51ck8zZEh0TDJjWUVpSGp2ekdmX0g2U1Z1X2YyLWRZZjUybmJE?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 13:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Mosconi: Ediles sesionan con custodia policial - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXRkV2ZnMlZyQTZRSzJ4MzVoRVFNZmJRcVV0dW5ELS1yYlB3Yk1fMWVBdEh0ZFpaU2MxQXQzWkktU1VPS2Q2ZEVTSTkzSEswc2Y1ZXBYbjR3cy1EejBzV0dGU2ZOclRzOTFSSEJtWU9VRFRHOUY5VE42WVVXb0ZLbnVJUnJrS0k4cEU1ckZZa2xzaTl6N1dmYTdSNGxLY0HSAaQBQVVfeXFMTWR4b2tGX012dWpENl9VYzhzc19MZzViLW1GVmJHZ1pWNFJ0SkFRQjl0bmRIRUhJYkI0QzVwUXdkT2MxcVZDcEV2QVhRMjZhTUdnVGlucWREUkRSVXdoN1hqRW13dFZOTjhYTHJtNERYTVBKOG54b0xZMXFoUmRvNmpQQ3R2bGRFSGotRS1nX3NTUThRb1lpd1FFVGozc2hsV20weGg?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Clima en Salta: sábado caluroso, ventoso y con alerta Zonda - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmxyTE9zRUFIeUFRVVVYU2p4NkhBMnJKdEZiZV81bHBMQ1FvaGRBV2h0T3NOVEJzamFVakVob3NUcHJwZE9GTENKQ0RYOVNLejM0eVAwWGNoNVdMU3ozang1czEyNy1fNUF6cWIweUNPWTZ4Yk11VWpMYlhoS3pZdnFCdUhJb29uMGl5LTRzdjAyT1l3TF9mQ1NWWE9TYnZwT29ob2hQQWd5UdIBrwFBVV95cUxOYy0weWVIWHI5N2JzU1NITnBoVW5mWWxVT1U3RWJsbVRLeW05RmVGS2kzYVRNeDJWQXJabzB5aTBSb0xQZnBPQUJqdUZZd2czelUtUDJ3R294UjBQLXBWN1Z2RFk3Q1EweFViS3oycF9HNGowaXphUGVlbGpkU1ZnYXMyTE4tOEtDejQwdWk3dnY4NFB5S1lPNE00d2cwZHZjMDdlSlVlTmE3a3RRS2E4?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 02 Oct 2026 23:01:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El exintendente de Aguas Blancas Carlos “Conejo” Martínez se entregó a la Justicia Federal tras permanecer pró - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3J5dFNiV0c3TGxQVzR5bW9SWG82ZlEzbTJBaDFBX2tTcXlDa1dkTnNzSXpwSXZNb0tzUVJVTnQtZnFiQUxsZktXeEpFM1VuSDJhakhVTTdkaDB2NTFhbFhGcndCR0pHV3JWLUcyRnVDUkdMei1pTE5oelVVcEhKQXJWSmZLUldHQkUwY0lnWF9xOW5heEs4TFk0NEFINUtvN3RJOVhMMUZUVE95MGt4bnlXdzlKRGRlT2lrTkwxbFlFbHV4WkHSAcsBQVVfeXFMUE5HTzdwakJDQ2ZlWTdaZU8wTDZ0T1RTS2NXOWpQc0t3Q3laVm5QdmhOYkczTFdjY281UFk2VlJ2b3ZYUlFaME9lZ1RPNWJMWW9NdVdrR25vRU5QZ2VJWDVIR1hXREhDQ3VFSHlXQXJ2aGV6WUhvRUI4TjNLaTBTLWxZLW9VdXVkTGJsSWN1QzFiekZhUV9ZdV9vRmR2WTE2Q2hLZDZkb1oySmtzZTYwdUh0NlhYSEhaTEJISU9LNExSTG96QXVneW1oT2s?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 07 Oct 2026 20:56:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Cuáles son las enfermedades que más vidas se cobran en el país - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWMyQjJGRjM5RW1JRzVFLUxidTNMMW1weFRqZy1EWmZvTkstX2tmb3NhbGtBLTlELTMzUUVtSXU0MmhMcjVvTVJTRWtjejlWcVZidGZ4SzQ1UENEXzg0ZHByV1dmOExQRXVQTWZXTXNfb0dSM0t2Sk1zbkdod1o0alg4c3VyZ2laeDhtY0xmbDNacEdEUk1EQmEwMTVLczZ4VFNrZGk1UFluelNuT0c4eVZJenJDWk3SAbwBQVVfeXFMTmg4WkxrTnhzZ0xzelVzQURPVkJHSk5yZzVWTnFiNmVfdklFWmR2TFoyVmcydURUTFQ2TFh4YmlacUtuZWM5M0dTajluQUF5bzkyaTl2OUI3RlF0bWtkeGRtbXBOM2pFdTV3Z3R6SE1RMEdPdjlqVThfTVBwWXZrSFJCdElxVDMybVBPX09DcW5kOENlMXY1WXozVFJvSHFTM2J3c1BRT2NhVC1ZakYwWnhTaDRtUkNNSWI4am4?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 11:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Juventud Antoniana, con el agua al cuello y al borde del colapso - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaGZHaDJuQjBZQ2c2V1NOSzlOZG4xLWZINzJIWG05aFFNTEplaWZ2TmpPdVRGdDd5bnFKZGxxTTV1N3c1U2FnR0YyU3h5VXIwUFV3RG5Wd3Z1Z3M3dXExSThVNnNtT2lrQWFnZFF4NmFWY2psTDRLZ2c0d3pzSU0yTTNramtFZk9JbWppUGd2X2U1TTRGTW1rM2RYYU5YUV9lbTUwRnJrZ2xQX1pIcnZqZC0wQnJJdEHSAbwBQVVfeXFMT2Q4THBieldYV3NuVEs4XzJ2cEwyaG96T1JwbUc2YWU5RUVCV0oxQzV5OEd0ODN6UlVSVkxoVng3SVdwYUxtclRGemhmcHVSTDNlcmVXSXpjYjJCM1ZNNG91ZVlRa2hCaDBUMklyVGwzZ3NGZUhDNFlYeXI1bko5V29wMHFnRldjR2dVN1dYcWl4akZZWXhTdTJTVTQ5MERJX2Z4TUxzY2RRNUxBVWFIRF9RVWNEQzNRZEpFUHA?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Rio Tinto fortalece su ecosistema regional de proveedores y lanza un nuevo portal de registro - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY1FwY2ZEb3BsNDJ6ck1DblFENGYwSGxIOVVLWmdKbjluSnVQNmRCazk2ZTM1SVZ6SHF1RjljNEcxYVUyalZBekg3b0xpUFpxZDVmN1BLa25NT3hmajEtVGJzT3ViOVU3bWdoNTN0aVVES3J3WktwVXJuRkEtZktvcHRmMnpNQ1BFRk1EN2lUTTRPdi1rZFA4bWZuX3h1aWlQWm9ZX1ZDNzVnNkUzeEQtRUlBTS02bnFYeC1DbVZ6U1NDU3dNd1Z1UnhmS3lJak02WUtTeFc5RFgtUdIB3wFBVV95cUxQSVEtZVh4V3pnSW9VcWFTOVJZWmVsdXBMSWZOSWFTRUk1SEpzTFRmSlNzOE0zX0dyWFJHdWZVVVlvZ2x1YVhYVDRFUFUzUXlmS0wwUEpTSDk1YTNWX1pMOGhNV3p0YU9UNW9XcjBtOGVTb3FvNkJDX2VuX3BYaWV2c09Nek1pbC1wSkllemU5cDhRcG85ZXhZSWRqR0FHczlzUzc5SXczWGkyLUdBbTNZa0I0Q0VVdFpDUVRhZkNUNjVwZ3FwaGNmQUZ3dGdGSktZeEFoZXR6azhrNkJHcVVF?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 12:57:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "VIDEO. Allanaron la delegación de la Policía Federal en Salta: qué buscaban - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY21TWkxDSzRBTW84bVRETHp2UUZIVkt1elo0UUhLWXg2T0JzRHJMTk9yVmZQQ0VuSy02QWhQTi1vTnZocFdydGtpTm12b3doTzR6bHJlX1N6VkVuQWdjRU5SOXhBLXdrTGNwRDNHM3hSQ3ItOUxoUVBRbnJnbzVsVm1nQ3JLUjRkdWM0ZVVaQnVWZFRmUHV4MmI2Y0tRSHltYVR4UmpwMldTRWlPeEU4RVR4T2tUUzlDdk9iejY2dEZIWDEtNkQwNlVXcXh6aXBZcW9VR3k4RlZhWWJob1J6djloaTR6VWFJNmxfaU4yZnFNOVJ3R3fSAfsBQVVfeXFMUG1pN0NXN25Uc3h1MmVhdlZmZ2dJV0pUc01lNjZVTXRFbDRXbUY1YWtiTkhSaXh4dVE4ZzlHbU1yQTcxOUN2eWlpblY2VGlUOFZPZlUtczFwak9ZTlBKVjBwbFlwQjFJQnVxbFRrVGpMakRCNl9fM1RxLXM1WFdwNjJCbzN5NkpNNXRSS1Z0ODJyQjZDS2xJRnpWZ083VjEwMnRRZnhUNU1TMVZDT3EwTlllUnMzUktWS3c3VUE4WXdqS1Fnem1VRDhEdG1yNjZEY0VNSmxDMmZGSmVGa1hJQTc3ZGpmSldWUTl6emYtdzBlbzFMdUd0Y0pyMEU?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 07 Oct 2026 15:40:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Prostitución VIP en Salvador Mazza: la Corte Suprema dejó firmes las condenas contra los administradores de Te - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNLVhvU3pEYkF0ajBFaGtVekxCSGk0NktxdW5pYjlEQTZzY2UtbVVZMTVSQmpVS0tad3ZmWlVQT2NjRGtaM2RBdFluMTI5TVZ4Z196N1Y0R3RwbmNQMHhFRTVnREJ2SjJSbHdNRHl4ZzVIWjBLUkliQ0NYRkU5V1lDRjhvMjNMdjJESDNrbXpQWGRVclJ4QTQ0M1ZpY1lZUTdVcmota1ppVm1wSUlKLUdiSnd4dzkwZl93VnBEUl9aQjhVZjdneDVNbko4dzlMR1VlcGhjS2xJUnczYTYxdy1UZlRNdTJtcUF5YmZRdldpUkhsX0U0dmdtUEpZTFZDSEtTNVFwQdIBigJBVV95cUxOamRGeWpTNEZwV3pGN0lSVDdUdkphc1BWZmRGWVlxVlhZQWVYV29PZTNCaVYxd0I3Z2toVEp4TFJHUEJ3NlFyaFdXa1l0N3VQRmZHZGtKMDFac25QM3VnNHJiYWl4bC10Qm9ZMGJ1cmF4ZWZzVUpvbmpKemo4T2lwaVpDemtGb3ZhUE1GZEpkYmwwbWR1LWZBejg1aG54a3hVYjVIRVRoNHk1b3dmaklRcGJWTjdCVkw2YUpwN1E4UEdVU09KdDJiU3ltU21WMDZVenlWb0U5bUw4RHVCYUVSU1UwMlloOWJyM2NnZkdVMWxWQVlmUWZRLTdkajY5WkVmWG0wTldaVU1sUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 00:14:00 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "El Tribuno, noticias de Salta, Argentina y el Mundo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB6Mk82SHBuT2g1ckFkbk9lV1VPUmg0dkZxN2ptZDlVZjVKT3A4eFJWYUdkZnp2UW4tcDZoOU5kQQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 25 Oct 2017 01:09:49 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Detención del exintendente Carlos \"Conejo\" Martínez: la fiscalía lo acusa de usar el municipio para lavar dinero - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOT3lkT0l0dVhxanNlUDB5T3hrQVhOZVB5VlhHRzFUVS1saXk3VmNmaDBMejF4eERVdEVveEtsa0tLZ1ZlU2RwS1lXUlVtV1E1Vi1PVXhkZ0haVHg5M1JmZzFHa0ZEV3BMUFNWTnlscFlEeFNMQkJDMUVjY2lVVEl5VklUcDZTU3hCLVZtLXVSaWRubW5vZk5heHpjcTJiYmJMYnRsT3VmM0tYbnZUWGVnTkRocklUS2s3QkppMG1DbzBILU9ZU21CTlFvSzJQaWc4QmFrZEs0eDlDNjNWc3RWSXZQQkdHRTM4d1lsSXRlVFR2UlFyMmZr?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 00:32:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Molinos reunirá a intendentes y legisladores para definir prioridades del Presupuesto Provincial 2027 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSzR6R0RNNmVTdkMySzZDZVl6X3VFOXpzNUxWLUVGWmR1dy1wdUY0YVZRUzBxeXNBTVZadGgtT3dNRVNhMzB3VjNTQ0VMUmRNenVPQ0lVOXY5V0FBU3JNUF9sbXBLSmlkUDUzRDFzZGl2SGY0Q0FhM2R1bmhzTHR5bF9mT2llOFVJTE1GV2VLeEoybkh0c1pUc2Zoajd0LS1NMml5dk10dnJ1aFpUQ2Z6aXlEZk93MTJZdndwaGExcGhxNnVhS0VwczRTa2hMRWx0U3hWamdGcWl2Q2FLcEJTT0NXNVRGMFpZTF9rY9IB8gFBVV95cUxOcWRMZFBZX2p6cEpQZHZUMjltQTQwRnotX2haRDVNc0lFSnJDZ2k1ZGpDTkdab0F4VzBiUjhsY2dGWkk3NjIyeldMRDhZU0hlSV9KOXQ1cGhZcUctTEpSdGNBdzhaYlNoQ2dYc3NES1k4R24wMFA1Zld0MF9aaU5uNzM4bTFodHZtRmF3TUxfRTFxTVlkbHBLM2RiaThLWjV6blZEZWtjSEV5UUVfUnhWbkZjUlFkM0dqNEtXTENUcVFHZ3E2S3BSYkp1Qkx6RjVQTGx1ZE44Q28zWloxSTJCeUZ1Z2dQR2lfaUI4NVFsMlZrUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 11:01:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
           "title": "«Criminaliza la pobreza»: el fuerte mensaje de «Pitu» Salvatierra contra Jorge Macri - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zeG51cjRfME1TZ2tleEtRcXVDSW16dHZHYlZMTnJ2d2UyalNrMVZTWjRKV3VCUjlPMVU5UTlpajBMdEp1bFpnZW5qdEEzVnROWklhcm40a21DVkVjdWN2dDlGa0xHSWZRVUJIZWxYaWZhUGdobzZ5UDFNOVo?oc=5",
           "source": "El Intransigente",
@@ -364,125 +487,6 @@
           "source": "Que Pasa Salta",
           "date": "Wed, 07 Oct 2026 13:21:37 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "El Gobierno Nacional apelará el fallo que ordenó aplicar la Ley de Financiamiento Universitario - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95bkNsLUhtVHBmaHc3eldDQ1o3c2M0aGxTQ1d4azIySXc4V2ticThIMlQ2bW5PRjBfTEw3aXNac2k3bTFCUXhkanBWdzZHakhnR0gzZnJ0cDNVSU40bHg1REtpQnplMmxqaVBVWkg1R0t5T1R5c3Ayam53?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 06 Oct 2026 22:24:18 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "César Milani: la Corte Suprema anuló su absolución por el caso Ledo - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVY1k2a290QTZVcnBZbnptYWdNZWpidnJYazBndDZrTUFJeWNpNk5wV3YzcmwxWjVnZm9yRkwwdEZkS281LWdrU0cyOVFWbHpoM0NFSnBKS0QwbmdTV2gzNHhWTnNweDA4NnRLR012WUFDNlk?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 29 Sep 2026 22:25:15 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Cristina Kirchner pidió a la ONU revisar su condena en Vialidad - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCWkFyRjNPeFk1SzdwU2lMd3pBX1JtZ2d2WXpQMmRuSTIydWRTX1hLam5yXzNBaGwwMHljdDhWMjhRdHJfUU44U1pyUGxtM1NsTHJWWFRmSEpDYk9VNEVZT2VwNmxjN3Zncmh0Qmdka0R2Zw?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 29 Sep 2026 22:42:49 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Gobierno Nacional: la Justicia declaró inconstitucional el decreto que frenó la Ley de Financiamiento Universitario - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00NVVZVlA4a0JGcjNXc1ZVRnJzYlY1di1jaGRBVUNSdnBaNEI4RlU2YmgwZGVEY2FWbFZDVFFNakFYNF9LbU56OUpXNEFaU0Y2Q0VGSHFCSkRxNVhZeWFVWkhwUmhPVWRmTEowV28yQkY3T2pJY056TDBUT0Y?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 06 Oct 2026 20:45:32 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Karina Milei evalúa no presentar candidatos en Salta: el acuerdo que impacta en Emilia Orozco - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQME1rMHdmZ3Jxb2NSdkFRYVp3LXpzVmZaYkhRMlVNV3ZYdFlUOHFwR2I4SXlaSmpDUlplVlZWVThDSlk3a1YtNkVQVmdOSkNNTFAxam5KOFlKb3NYQlh3QUFDeElZSU55U3BlX1NzWFhhVmJoSkhON2NQcUtZa1dqTi1DS3ZOVjZycFZyMWJESV9FVmVLeEpvWWhJeE5rR0xnMnFPVC1sOEV1em03YllpWHdFdmFwNjhVZkNOYXV5cXdZZFhXeXc?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Fri, 02 Oct 2026 19:40:49 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "El Círculo Médico de Salta y el IPS: auditorías, débitos y honorarios en disputa - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LX2VJLWl3Z0c3X1NUbFl4UU1WMHYyWmVKV1pYQ3JONk9RcV9sdlZqamxJMnZxRVNGVVFPT1d6QTlQQlBtbHZOUEVzY2hOOTlkaGhiVmY0eTJuWVoxdGtVdUt3Y1FMMjRoMHZwZk5kbzNlMFplNVdHbXdR?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Tue, 06 Oct 2026 13:41:18 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Karina Milei y Santilli viajan a Salta para la inauguración de una planta de litio - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmxWMjV6VXZCYTU2b3pvZE0xRkZtYWhtUHR0NnkzcDRkdVhmcTE4YnBzTGxSMENRb3E1OWRtWExVS2Vxc04wRVJITVU2ZmRWRklXY2N1WFpEOFFJT3BneXZ4YWZFazh4WlZGZHdrYjZRb3NxWlVOSHltclhrWG1lbGR6M1hqd1JV?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Tue, 06 Oct 2026 10:54:53 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta recibiría $142 mil millones de Nación para arreglos de rutas - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVm1rWGExc0ZXeXlzSDJWUVhySXVuSUFrT0FZNUEzbTN3ZENwaEJ2TmRJSnlza0pVYl90dGlFMTdDSm9IakVvMVROUzNaN0xNRnlNaGlOSU5GcEQzdlJDV1pocnNGR240d2Uxal9aXzBQNXJtdHlEajNuVU13YnhrcVlkMmFremlIS2d5ZlNvY01mbFMzblJjMEY2SG5yX2FLX1pxeg?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Tue, 06 Oct 2026 12:58:35 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno apura la negociación para suspender las Paso - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUF9fOTFSaWE0ZWtpRkRrMmt2SE05YjFHVGxGYkVOWEpadWRkbUU0U0p0bGdFcE1fQXYwMDRVaDZhTWR5bWpnNUlQRGNsSXgwVHo3RFhTVlZ6UVFRZ1B6SDB4VUxMa3VRdU1CZlpDNEo3WFlqYWpDVzZjZU5BMGZBX2E0NDlTZ2hQNFl1U2VPUnJLQVFnOHVVdTBlX2oydE1qSHNsTUVQeWR2Y0tDSXfSAbMBQVVfeXFMTzhDZXlsUGFNOFpWeVNzNkhQSml3NWRGbXpvLTlDZVpBNzR5b0ZibTRHOGIzTkdFRVgzdHhpU0RNaS1PcDhQaktnajM0aXZQUjFCNmpmVC1VRndjT25lN2pGUEVEOFFXRnd1eUJIVUF6REZXZTRQRGZzR1NDS3VrYnF2RVVvNFlLX2dlZVNuMWtiR1ZqYXZpbndFZkdfNEV0SU0xVnZXdXZMSmotY3ZZNlRBdzQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 06 Oct 2026 04:17:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Tartagal avanza con las obras en la Escuela de Comercio N.° 5002 - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTlPd0Y3TjRONzd0MlBlQTMzQW4ycVBGMGZCZnFpZ1pOMWJwdDJEaVdidlpQVGJaUDRGajFqd3RGUGdCWkhBOG0xZGJXZkswUWZQSHZ1RlZFSnBOdUxnQW5FUm9WS1NCU3JFdXdCNE9KWWpKazVYRGVGbVFjLTkwN2RkMXp0SjQxNTNvWFBTTEN4VE1rZlA1LU5fQQ?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Mon, 05 Oct 2026 17:14:10 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: Salta aparece como la provincia con mayor asignación para infraestructura vial - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHdPMWdLU3hRVWxSTHI3bFYyaW91YUxvWlg2ckhkQkVHRFUzaGJxbmk1Q2RpTjFOZjRpWE41RUZvQzhoNUhZRTVLQVI3cXdYemdHQ0p4LVhlVkhiS2lCdUVUSl9oUDA1aDVJVlNkOURnUDRZcDFVX01nX1oySkRRMWJpYU1sTkQ1N1YyY3MyVTdYT3dpS3AwQkVGbXNyaVZ5Qm9JQ3o2QVl0VVZadnhreGR6cFFZSGRsWjhmMUJnRUU0M0FoX3RlYkd3?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Mon, 05 Oct 2026 20:01:13 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"Nación le debe el 63% del presupuesto de salud a Salta\": la fuerte advertencia de Biella - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUNfVXNqTFhWWEhrZ2dTVWZ3d1p6YnE1LVZVY3RYNE5Tekprb3pidUFVZldrNDJLeHU3aE43OEI1akpJMzdNcTMtSEI5TzVVSDNMcEFtR1hJYWpoM1hQb0pOWWY5T1Q0RHFtMHQ4a1pSMEJIRHY0UU54Qko2dHZnaGR3ZXNPNVdGQXlYaw?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 05 Oct 2026 14:08:22 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Renovarán la avenida Solís Pizarro: cómo quedará uno de los principales accesos de la zona oeste - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVXFuU2o1alpVYk5WR29Ca1IwRDZMaFZmMnVOdEVrZy1faHlBMDVIVW5ibE55bE56RTlpd3M1OXZJS2VXSHpVWU1sMmRoNmhqNWRnR1kyOU9zMGkyVm9qS3RvaWk4cG9aOFl3M21kbWE1TFJvR3ZFcUlYU0NrenBCaWR0aElPWndvX0g1S0FsWjJfaVpVWlRDT0FMN3pYc1ZQWTF3SHVMNUQ4Sl9FcGF3TVUtOEpkRW9hU01ha28zbnVtMWNKZHNhbUhfdVpwTXNiN0lGc0xFbkFXbEN5WEHSAeMBQVVfeXFMTXRZTjlQMGlCMlVYWm5rejQzX2tIeXVMSFJmLWxXNXpzZ0F3RGlKQWVQSjlJTXlyOGpLUzk3TWlSYXQ1OUkwMi1YczZ6MXVWYm5UekY0emtRRU5LdDMyMTBBbUxXNXMtcVhHejJBSVVlbUJqUkFfX01ZeGk3bVExVWtnekgwQzhPcV9qYXY4eHE1RGo4XzBVOGF2cVNDdkdjNUNjdmR6OFdVckZQcGFmbEZaU2RtbUt4OUwzNW14b01QcGFvdzhmMWJzN2x0S0Y3UnRsZWEyaXFRMjFIS19hV015V0U?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 04 Oct 2026 21:22:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Los gobernadores mantienen cautela frente a las Paso - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRUJNc3BJNHNWbG5zbDVta2tlMDFUSkg4MThOZUJhcFZCUDRYMlZsVV9EU3pjNUZXSGZ0TTkxdmNWV2NzRU1lSmVTTkdMaml3Ri1oNkllTTV0bXlxWEZveDJKT1JzU3BaS0YwYUtxNnN4VHMwdlB5TUZOaWlSVUllY0VtQnFDb1NHLVBkM0ZQcjdVb3dfOUVFWTFnelRDc0I0WVpKOFNSVGzSAa4BQVVfeXFMUDRBa2xQYVl1OWJzMmdzdjlaZkdKcmd3cllOVDF5NDhCYmg0RXk5eDBxakhoWjhGU3VJQlpnZXdWNmV1aEIyZ1JhcHkyd0NfcktZR3FmN194YUlFVnNoZVVkMDA1UDFmQVlFUE9FbjBPUEEzdFNGMUtNQS1pQ0FFdl9CVjFtYnl5WTJKT1FoOC1Db1pEQ3JzeG1WNU9KYU9nODJWdFpKSGVYMHhJRm5R?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 05 Oct 2026 04:25:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "En rutas de Salta se concentra la mayor inversión vial prevista en el presupuesto nacional - eltribuno.com",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa0FKR2Z5ekpSYTVIM2hMNE4zSmJTa0tXcGE1c0Fhc0pmT2Q2aFJ0NlNCZTNfck1RZm1OVmppVXcxc19LTUxjUkd3NTRsUk5xWFJqbjdMTjNqX0s0LW1kVVBoTzlQXzJVbGNrUTdkQ2NXdENmZjQxT3FkTV9GeG9xdDRUdk9kSWZiSjByU1NHQXU4bWNwZHU0QWFlV2loMFRfMUI4Y19UVzF0cnNoYjZKUHNnQ3B5SExsMWl3NE9GQjZ3UmxhdFluZnhGaUt5QmpocXpUdUw1WWVJZ9IB2gFBVV95cUxOa0FKR2Z5ekpSYTVIM2hMNE4zSmJTa0tXcGE1c0Fhc0pmT2Q2aFJ0NlNCZTNfck1RZm1OVmppVXcxc19LTUxjUkd3NTRsUk5xWFJqbjdMTjNqX0s0LW1kVVBoTzlQXzJVbGNrUTdkQ2NXdENmZjQxT3FkTV9GeG9xdDRUdk9kSWZiSjByU1NHQXU4bWNwZHU0QWFlV2loMFRfMUI4Y19UVzF0cnNoYjZKUHNnQ3B5SExsMWl3NE9GQjZ3UmxhdFluZnhGaUt5QmpocXpUdUw1WWVJZw?oc=5",
-          "source": "eltribuno.com",
-          "date": "Sun, 04 Oct 2026 04:25:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "En rutas de Salta se concentra la mayor inversión vial prevista en el presupuesto nacional - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRE9lS3NYUE5QaU9KcktFSFQzSmx0aTN0Nk1zNVRJNTBybjV1a0RzNS1YLVNqV21zUzhkTlN0OEVtRlFTSHdGOTBJdkl1NEJjbXVNV1RLckJVeWktVlg5bDczeUF4Qzdjd09ZbGNWd0FJazd6ZVNoUlhmN2ZyQWtvaGFESWYtYnQtczlqRFo1MG1waGE4YUpWbWFrWjdpeWJPdGRhQmVRMG9ONHJzaHgzWDRJSHFpV2Z6ckh0N180RHNUMkkzaFd2cGZHSlpLckszbks1R9IB2gFBVV95cUxOa0FKR2Z5ekpSYTVIM2hMNE4zSmJTa0tXcGE1c0Fhc0pmT2Q2aFJ0NlNCZTNfck1RZm1OVmppVXcxc19LTUxjUkd3NTRsUk5xWFJqbjdMTjNqX0s0LW1kVVBoTzlQXzJVbGNrUTdkQ2NXdENmZjQxT3FkTV9GeG9xdDRUdk9kSWZiSjByU1NHQXU4bWNwZHU0QWFlV2loMFRfMUI4Y19UVzF0cnNoYjZKUHNnQ3B5SExsMWl3NE9GQjZ3UmxhdFluZnhGaUt5QmpocXpUdUw1WWVJZw?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 04 Oct 2026 04:25:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "La Mesa política sumó a Alejandra Monteoliva y debatió la escalada de inseguridad - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tS3lZWDk1N01UTEt1NjZCYlNkV1o0M0lmOUI0X2pyTi1lRVFIZ0E1WmFOVEtPbzI0cTlsZWRxT1VWM2FxdlRjclZhVTJxa2o5Rkt6TkdZemtqaEVXVWw0V3lOY0pjeGYzWWNOS05BeXd5dUZPOTBWZQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 29 Sep 2026 22:07:41 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
