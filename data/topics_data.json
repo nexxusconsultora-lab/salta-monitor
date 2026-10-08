@@ -1,20 +1,28 @@
 {
-  "generated_at": "2026-10-07T23:53:16.979605+00:00",
+  "generated_at": "2026-10-08T04:04:29.780919+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 192,
+      "total_mentions": 196,
       "sentiment_breakdown": {
         "positivo": 17,
-        "negativo": 17,
-        "neutral": 158
+        "negativo": 19,
+        "neutral": 160
       },
       "sentiment_by_day": {
         "2026-10-07": {
-          "total": 5,
+          "total": 6,
+          "score_sum": -4
+        },
+        "2026-10-08": {
+          "total": 2,
           "score_sum": -2
+        },
+        "2026-10-02": {
+          "total": 4,
+          "score_sum": 2
         },
         "2026-10-06": {
           "total": 6,
@@ -23,10 +31,6 @@
         "2026-09-29": {
           "total": 5,
           "score_sum": 0
-        },
-        "2026-10-02": {
-          "total": 3,
-          "score_sum": 2
         },
         "2026-10-05": {
           "total": 4,
@@ -147,12 +151,12 @@
           "count": 47
         },
         {
-          "term": "discapacidad",
-          "count": 41
+          "term": "intransigente",
+          "count": 43
         },
         {
-          "term": "intransigente",
-          "count": 39
+          "term": "discapacidad",
+          "count": 41
         },
         {
           "term": "informate",
@@ -270,6 +274,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Pichetto rechazó un frente con Myriam Bregman: «Es cinco o seis puntos» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40Y1Z3VWhzSzhyT0JFLUtlY0t3RGllcU1GOTNhRm42UmplYUd3Ui1IQmROX3dlNXpyOU1QbEtsNkllMlBYQzZBdDAyM2c1eEVYVHRNYWh4eHdjUWRrNWh4cHgwNHVOZ2lLc2pPdGh4RQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 07 Oct 2026 18:13:35 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Guadalupe Tagliaferri dejó en evidencia a Jorge Macri: «No faltan fondos, falta gestión» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RX2RLOWdyb2ZtVHJELWxtYjI1eEl3M0pEWUFRUnp1RlR4UHktX3FCRy1DN3VLOUpKV3psY1BYRXk5dmk0MG1LYjZUeWJ4SXdDUVh2ci0zVVZTVENfWEhBLTNpNmE3SzNNcThsQWh4UlhGVlB1bC1uUUxWUQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 00:45:10 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Sandra Pettovello denunciará a los estudiantes que tomaron la Secretaría de Educación - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2JFbmFhWlVtaFhZWHppTVd6WTY0TWxZSnRfVXhYUkp6N09ZZm40SUNDTmlQTEdUTnIxVWVVWmhwTHM5NjRZSEdMUmtObFBTYzcxVEZIdFFMRlQzUV9QaU4zcUtnUlpOSTh2d1UwamtFSGdVNThvSVdKRGgzckxyd0JHOV9OQXM?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 00:16:37 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Manuel Adorni: la Justicia inició las pericias sobre sus ocho billeteras de bitcoin - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmcVF1QkJkZUZXMGpHNkR6ajdpLWt2Q0o3MUtNczQzWlpJcEVscHJCUGVwV3p5empjU2hHdzFjUHRlZHNZR3BKazlGS2xXc3loRVc4T3F1SGl4MGEwaElFbVQ2cTh1Z2gtWkwyb1FJZm9TamI4Nk1rQQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 02 Oct 2026 23:47:09 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Sergio Uñac cuestionó al PJ: «Tenemos que dejar de ser extras en la película de Milei» - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zX0hmZHJaOTI4SXF2LXltTWZNdUhlMlhhdko1dlpZZG0wNzJNMzlTUXlkcDJYU3FUT1pKLUtwSHlxRVl4UU51ZTNrTkl1SEF3ZWVleVkzR3FZaWNMM211Uno2WW82NWQ0ZjM4?oc=5",
@@ -450,34 +482,6 @@
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xVFhCbTV3VXJDa2dBaW9Fby1pd0twNHFMTFd6SGEwMkhEb2xXR1BERndYcEJ4VzNHcTBYZDB1UXJTd1hnNDhjSHVpeXctbVlyVTJxSGs2djdjU3I0a2dpcC1LbEI2NHQ1TlFSVDE3akdaYzdtajhybVVR?oc=5",
           "source": "Elintra.com.ar",
           "date": "Sat, 03 Oct 2026 15:06:38 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Laura Cartuccia afirma que el Estado debe resolver los trámites en tiempo y forma - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56T0VVSzhUWUhJZjFPNXpwSy11SDdNZUVDRXlqaEg2cmVHQTRxRjRPSUM4OWZvSHNKdlIxV09NaXY1Tm1vZi1tWUR2RmluQXJKVGk4M0pUNGMtWDRkQnU5N3BxRmFDbUtZMFE3SFV4MUEzSkIxbXFkT3BPS1o?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Sat, 03 Oct 2026 14:55:58 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Javier Milei defendió su modelo económico en el Coloquio de IDEA: «Hay que ser paciente» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yUU9ZM2VEZ2JWc2x2alpZMVFLYWRVRzJ1NVZjMjFVUDJ3aXB4WjZnYmJ2YkloaXFqZ21KZnhsM2d6b1hSQVZDTGVDOHRJS2tYZWpoUU1RNFkwVndYMmZTUjBBUjRoRnB2VFozZURvbHg?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 30 Sep 2026 22:53:08 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Los ejes de la minería del Presupuesto provincial 2026: cuánto recibirán los municipios - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPREF1dmxLZjBENFRiVlFDWkl3eDBGS1VZRl9ubkdOa3l0SnNtWnR5UUpCYmpMamtZU0pJMTdiNENQa05xRDh0WVVYWDRjUXAwWVpITGh1TmZhbkppT2dXa3dubEFJRTVCemdycjNnSkhPVWFWT0k4Nl9ZY2ZNY3lPeVZ4R05MdDdpOW1IVzRTR19HR3VwTWlMQUZDTUlWZzZEaVljTmZB?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 30 Nov 2025 08:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sáenz en la Argentina Week: “Salta ofrece confianza y grandes oportunidades” - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUFlR3FsMWtKLTV3YzQ0MXNwcTlINU9CMzBiWDliUldzN1o3MmNfV2p1YWlGU0M2cE9ISzNkOGdiZkFYTXZfNUVwQV83dE42VG5EcTJPWmF3ck02QW5HanczWXBWb0xEUzlZbW92UVp5ZmJZWFhObUR0dWtXY05NMENkR0xzWjcyc2NiRGN2ZDV3bFJBaFNYRkR3ZklzaXV6NkpmYTA2LWlQT1lWUnRTVzl4WVVxY1A3Vk5qRS16MHJLdThiS0hRV3pZRk8tZklfS0dYRlFSSDQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 01 Oct 2026 11:37:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

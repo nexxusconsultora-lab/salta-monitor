@@ -2270,11 +2270,11 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 3
+        "count": 2
       },
       {
         "term": "cornejo",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -15820,15 +15820,15 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 6
+        "count": 5
       },
       {
         "term": "farquharson",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "emiliano",
@@ -21157,11 +21157,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 8
+        "count": 7
       },
       {
         "term": "orozco",
-        "count": 8
+        "count": 7
       },
       {
         "term": "milei",
@@ -22678,13 +22678,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 17,
+    "total_mentions": 18,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 3,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "2026-08-27": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-06": {
         "total": 2,
         "score_sum": 1
@@ -22742,8 +22746,23 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "bernardo",
+        "count": 2
+      },
+      {
+        "term": "biella",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Jamás el gobernador me dijo cómo tengo que votar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamhDaWVLc0MydnRURXpfRk1XYk12dVlIa1M2TXpORnN0dnRmNG0tTHV1U2pWbmtLd3ZzSlNGdHE5RXNQc3VxSGNZSHp0UmlRMXNyTWtXekZVbE9hRmtiSTJtTGUxUWZTWHNaMmJfWk56WDlBQlpxVUt2YnA5d0RwTlJUQ1RBaEFHYjVNcmQ5c0QyVjFhUFRsREYtTDlZdGdY?oc=5",
+        "date": "Thu, 27 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "La fiesta de la democracia es hoy, hay que ir a las urnas",
         "source": "eltribuno.com",
@@ -22783,6 +22802,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bernardo Biella: “Jamás el gobernador me dijo cómo tengo que votar” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamhDaWVLc0MydnRURXpfRk1XYk12dVlIa1M2TXpORnN0dnRmNG0tTHV1U2pWbmtLd3ZzSlNGdHE5RXNQc3VxSGNZSHp0UmlRMXNyTWtXekZVbE9hRmtiSTJtTGUxUWZTWHNaMmJfWk56WDlBQlpxVUt2YnA5d0RwTlJUQ1RBaEFHYjVNcmQ5c0QyVjFhUFRsREYtTDlZdGdY?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Una muerte y cinco hospitales en cuarentena por la peste: ¿Hay riesgo para Salta?",
         "link": "https://informatesalta.com.ar/salud/una-muerte-y-cinco-hospitales-en-cuarentena-por-la-peste---hay-riesgo-para-salta-_a6ac512336b27e8e08eb56db2",
@@ -24416,11 +24442,11 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
         "term": "pidió",
@@ -24428,10 +24454,6 @@
       },
       {
         "term": "gauffín",
-        "count": 2
-      },
-      {
-        "term": "gauffin",
         "count": 2
       }
     ],
