@@ -569,7 +569,7 @@ def norm(s):
 # cuando el nombre es corto y por lo tanto ambiguo (homónimos).
 CARGO_CONTEXT_RE = re.compile(
     r"(?<![a-z0-9])(diputad[oa]s?|senador(?:a|es)?|concejal(?:a|es)?|legislador(?:a|es)?|"
-    r"gobernador(?:a)?|intendente|legislatura|concejo|camara de (?:diputados|senadores)|"
+    r"gobernador(?:a)?|vicegobernador(?:a)?|secretari[oa]|subsecretari[oa]|jefe de gabinete|intendente|legislatura|concejo|camara de (?:diputados|senadores)|"
     r"bloque|oficialismo|oposicion|ministr[oa]|libertad avanza|todos por salta|por salta)(?![a-z0-9])"
 )
 
@@ -653,6 +653,7 @@ CARGO_WORDS = {
     "concejales", "legislador", "legisladora", "gobernador", "gobernadora", "intendente", "ministro",
     "ministra", "presidente", "presidenta", "vicegobernador", "vicegobernadora", "doctor", "doctora",
     "dr", "dra", "sr", "sra", "don", "dona", "ing", "lic", "cr", "cra",
+    "gabinete", "secretario", "secretaria", "subsecretario", "subsecretaria", "jefe",
 }
 
 
@@ -736,7 +737,7 @@ def extract_quote(text):
 
 def add_mention(mentions, existing_ids, *, mid, politician, title, link,
                  source, published, sentiment_score_value, sentiment_label,
-                 published_iso=None):
+                 published_iso=None, match_in=None):
     if mid in existing_ids or not link:
         return False
     tkey = (politician["id"], title_key(title))
@@ -745,6 +746,7 @@ def add_mention(mentions, existing_ids, *, mid, politician, title, link,
     SEEN_TITLES.add(tkey)
     mentions.append({
         "id": mid,
+        "match_in": match_in,
         "politician_id": politician["id"],
         "politician_name": politician["name"],
         "title": title,
@@ -789,6 +791,7 @@ def _collect_from_url(url, p, mentions, existing_ids):
             link=link, source=source, published=published,
             sentiment_score_value=score, sentiment_label=label,
             published_iso=entry_published_iso(entry),
+            match_in="titulo" if person_match(title, p, lenient=is_local_source(source)) else "resumen",
         ):
             new_count += 1
     return new_count
