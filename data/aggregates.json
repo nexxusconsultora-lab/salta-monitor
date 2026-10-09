@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-09T02:59:39.795271+00:00",
+  "generated_at": "2026-10-09T10:24:52.970542+00:00",
   "by_politician": {
-    "eje-ana-paula-benavides": {
-      "total": 6,
-      "positivo": 0,
+    "eje-oriana-nevora": {
+      "total": 7,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 6,
-      "score_sum": 0
+      "score_sum": 2
     },
-    "eje-oriana-nevora": {
+    "eje-antonio-marocco": {
+      "total": 13,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 12,
+      "score_sum": -2
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 18,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 13,
+      "score_sum": -5
+    },
+    "gustavo-saenz": {
+      "total": 222,
+      "positivo": 40,
+      "negativo": 25,
+      "neutral": 157,
+      "score_sum": 68
+    },
+    "eje-ana-paula-benavides": {
       "total": 6,
       "positivo": 0,
       "negativo": 0,
@@ -106,13 +127,6 @@
       "neutral": 7,
       "score_sum": 0
     },
-    "eje-antonio-marocco": {
-      "total": 12,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 11,
-      "score_sum": -2
-    },
     "dnac-maria-gabriela-flores": {
       "total": 19,
       "positivo": 1,
@@ -133,13 +147,6 @@
       "negativo": 10,
       "neutral": 29,
       "score_sum": -22
-    },
-    "gustavo-saenz": {
-      "total": 220,
-      "positivo": 40,
-      "negativo": 25,
-      "neutral": 155,
-      "score_sum": 68
     },
     "sen-juan-cruz-cura": {
       "total": 84,
@@ -280,13 +287,6 @@
       "negativo": 1,
       "neutral": 9,
       "score_sum": -1
-    },
-    "dip-griselda-edith-galleguillos": {
-      "total": 17,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 12,
-      "score_sum": -5
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 21,
@@ -913,6 +913,46 @@
     }
   },
   "by_day": {
+    "2025-09-08": {
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-03-25": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-10-02": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-09": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
     "2025-12-24": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -2693,12 +2733,6 @@
         "score_sum": 0
       }
     },
-    "2026-10-09": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-01-31": {
       "dnac-yolanda-vega": {
         "total": 1,
@@ -3683,20 +3717,6 @@
         "score_sum": 0
       },
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-09-08": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -6725,12 +6745,6 @@
         "score_sum": 0
       },
       "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-03-25": {
-      "dip-gustavo-orlando-orozco": {
         "total": 1,
         "score_sum": 0
       }
@@ -14791,7 +14805,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 57
+      "count": 59
     },
     {
       "term": "tribuno",
@@ -14806,12 +14820,12 @@
       "count": 22
     },
     {
-      "term": "mario",
+      "term": "nuevo",
       "count": 20
     },
     {
-      "term": "nuevo",
-      "count": 19
+      "term": "mario",
+      "count": 20
     },
     {
       "term": "cristina",
@@ -14826,6 +14840,14 @@
       "count": 17
     },
     {
+      "term": "antonio",
+      "count": 15
+    },
+    {
+      "term": "marocco",
+      "count": 14
+    },
+    {
       "term": "diario",
       "count": 14
     },
@@ -14838,15 +14860,7 @@
       "count": 14
     },
     {
-      "term": "antonio",
-      "count": 14
-    },
-    {
       "term": "ministro",
-      "count": 13
-    },
-    {
-      "term": "marocco",
       "count": 13
     }
   ],

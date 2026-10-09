@@ -3,20 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 220,
+    "total_mentions": 222,
     "sentiment_breakdown": {
       "positivo": 40,
       "negativo": 25,
-      "neutral": 155
+      "neutral": 157
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-10-08": {
         "total": 4,
         "score_sum": 2
-      },
-      "2026-10-09": {
-        "total": 1,
-        "score_sum": 0
       },
       "2026-10-07": {
         "total": 2,
@@ -242,7 +242,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 28
+        "count": 29
       },
       {
         "term": "gustavo",
@@ -367,6 +367,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Belgrano Cargas: Sáenz dijo que gestiona en Nación modificaciones",
+        "link": "https://www.eltribuno.com/salta/2026-10-9-0-0-0-belgrano-cargas-saenz-dijo-que-gestiona-en-nacion-modificaciones",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 09 Oct 2026 04:48:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Nuevo edificio para el Ministerio Público",
+        "link": "https://www.eltribuno.com/salta/2026-10-9-0-0-0-nuevo-edificio-para-el-ministerio-publico",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 09 Oct 2026 04:48:11 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Inauguraron el Edificio Malvinas Argentinas en Ciudad Judicial: qué dependencias funcionarán allí",
         "link": "https://informatesalta.com.ar/justicia/inauguraron-el-edificio-malvinas-argentinas-en-ciudad-judicial--que-dependencias-funcionaran-alli_a6ac8299403bfb696adc5c761",
@@ -562,20 +576,6 @@
         "source": "El Tribuno",
         "date": "Fri, 02 Oct 2026 20:32:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Rio Tinto proyecta invertir USD 2.700 millones en Salta para producir 50.000 toneladas de litio",
-        "link": "https://informatesalta.com.ar/gobierno/rio-tinto-proyecta-invertir-usd-2-700-millones-en-salta-para-producir-50-000-toneladas-de-litio_a6abfe08d1821be823d9fafd1",
-        "source": "Informate Salta",
-        "date": "Fri, 02 Oct 2026 16:51:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz ratificó una inversión de USD 2700 millones de Rio Tinto para producir litio en Salta",
-        "link": "https://elintra.com.ar/2026/10/02/gustavo-saenz-ratifico-una-inversion-de-usd-2700-millones-de-rio-tinto-para-producir-litio-en-salta/",
-        "source": "El Intra",
-        "date": "Fri, 02 Oct 2026 14:32:00 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -8371,15 +8371,15 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 8
+        "count": 7
       },
       {
         "term": "cartuccia",
-        "count": 8
+        "count": 7
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "cámara",
@@ -14612,7 +14612,7 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 13
+        "count": 12
       },
       {
         "term": "álvarez",
@@ -14620,7 +14620,7 @@
       },
       {
         "term": "elintra",
-        "count": 8
+        "count": 7
       },
       {
         "term": "libertad",
@@ -20750,15 +20750,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 14
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 14
       },
       {
         "term": "elintra",
-        "count": 7
+        "count": 6
       },
       {
         "term": "tribuno",
@@ -22014,11 +22014,11 @@
     "top_topics": [
       {
         "term": "eliana",
-        "count": 5
+        "count": 4
       },
       {
         "term": "bruno",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
@@ -22030,10 +22030,6 @@
       },
       {
         "term": "avanza",
-        "count": 2
-      },
-      {
-        "term": "informate",
         "count": 2
       }
     ],
@@ -24243,13 +24239,17 @@
     "id": "dip-griselda-edith-galleguillos",
     "name": "Griselda Edith Galleguillos",
     "role": "Diputado/a provincial por Rosario de Lerma",
-    "total_mentions": 17,
+    "total_mentions": 18,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 12
+      "neutral": 13
     },
     "sentiment_by_day": {
+      "2024-10-02": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-03-31": {
         "total": 2,
         "score_sum": 0
@@ -24318,11 +24318,19 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 3
+        "count": 4
       },
       {
         "term": "galleguillos",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "salteño",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       }
     ],
     "quotes": [
@@ -24372,6 +24380,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Griselda Galleguillos mostrando su intolerancia: pidió declarar persona no grata a un influencer salteño - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVXB6dFhjTnZyR3F0YmE0ZU5XYjJXUGZ2bWQ4Ykh2b0pQcEpCcF9WQ0VGR1R5QXJUUUdfYVBKb3l1NTM1by1lZjQzVkJZSkxtT1Iwa0J6WnY2ZG5tY2hhUEtka2pPS1VrSjJZM0h6YkhpYU81NDBWMEJGU0pJSlZZRFVQYnF0VlZIR3FFR3hJczhndTVlVDVUejgxeUJiVWlKR3dKNDVRNW4zSDNEVXhKa2M2QkNUTnFEY1FDam5ydTJ6WEw0Ujk3d3JMbFozSWhiX083NA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 02 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con una bandeja, Griselda Galleguillos homenajeó al árbol de paltas de su casa - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS2dwZFZxZllQakJhMTV1bkxYczh5azBIU1JmSFJ6LVd3cXRyWjBrc1R5aS10YW5uV0piNmNUUnBWOXlkNEZyWk9TUTdkazNDY3NyYVFvQjdmUFNOa254cEZCSGpLbmtoS1Z4YkdoLUhndHMteS14TVg4SWNxc3JERTE2OXFqbDRmRWNCU2FxOFJGaGNPZkpQNWVBVlJQLTh2XzUwLWhB?oc=5",
@@ -25750,15 +25765,15 @@
     "top_topics": [
       {
         "term": "eduardo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "virgili",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -25872,13 +25887,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 12,
+    "total_mentions": 13,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 11
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "2023-03-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-02-22": {
         "total": 1,
         "score_sum": 0
@@ -25927,19 +25946,19 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 12
+        "count": 13
       },
       {
         "term": "marocco",
-        "count": 12
+        "count": 13
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
       },
       {
         "term": "vicegobernador",
-        "count": 4
+        "count": 5
       },
       {
         "term": "tribuno",
@@ -25976,6 +25995,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Antonio Marocco, el elegido por Gustavo Sáenz para vicegobernador - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2pldzJ6Y1E4b2pkY2wta09PNUVabThRUXRJN0staXhLdFFLNHdVRzh3S2ZLS2Y5b09Fc3R0NmstUkVReU4xVTVLS2FkOWVTR00zaVNEbGNkS1dSMUxSNnRTTnBDTjNMd0IzRXlvczdPSEVaWFJIcExvUXl4MFhZZVg5V0FuNWxSVlM5bjZfN1F0bEVoLTlBMGVQWTNUOGxH?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 25 Mar 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Dos detenidos por el robo del celular de Antonio Marocco - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUdJaF81cHU0RUl2NE0xZmdxSENCM2ZVcHFYLWV4d2JncEY0RHN3cjRSQjhCMGVPQjE0SmxWVWE1YzV1OHJsekI5ZDJNVzhfR0c4VndWVzFuM29MRmN3amZpLVNzNjY1YWZWOEI1VHkxdHRlMTBIblVnSXU5all5N2lxQW9uRUxSMVBJQ2NER09lYnBDYjc0UVZpdEk2WllE0gGYAUFVX3lxTE1WNGNaOVBRZmg3enplM2RQRlRfbGtHclVmcWppSHV4RFBTal9hNVNIc1plS0J1MkJfRGo4N3NFejFjSXU3OW54WlJXaWl4MTRoc1RaVmUxbVZ4WVZmSElHU01jOUtNRmdlZllyWUhWbHd5VEM2UU1hNDRXdHVPakVGRGVVUXdORko2U3JYSENuN2JfekFGVnVT?oc=5",
@@ -27753,13 +27779,17 @@
     "id": "eje-oriana-nevora",
     "name": "Oriana Névora",
     "role": "Secretaria de Gobierno",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 6
     },
     "sentiment_by_day": {
+      "2025-09-08": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-01-08": {
         "total": 1,
         "score_sum": 0
@@ -27788,19 +27818,19 @@
     "top_topics": [
       {
         "term": "oriana",
-        "count": 6
+        "count": 7
       },
       {
         "term": "nevora",
+        "count": 4
+      },
+      {
+        "term": "elintra",
         "count": 3
       },
       {
         "term": "névora",
         "count": 3
-      },
-      {
-        "term": "elintra",
-        "count": 2
       },
       {
         "term": "pasa",
@@ -27833,6 +27863,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Oriana Nevora, candidata PRO de Sáenz, recibe apoyo y también es expulsada - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeG5MTm9feDhBOVRaSmVIZXhFUUFRNno4Q01jVHdHOXdOanBxRmliV2ZGZG0wNHJMQkNUa01CWUF0VGxacGdFbldHZGdRZEtxLVhOaFMzeDBkaUd3ZWM4N2VPZXVOQVVma2Zld1FTbTdwR2xWV1otUUtxMzZSZjJreU5rNy1vWUFReXppclo5THQwc3N1ckRjaDU3UDR6RDhZbVE3em1NTE5ycnc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "El Gobierno puso mal el apellido de Oriana Nevora en el decreto de nombramiento - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjFidkdIOS15cWJkaktQeHIxMllqLTdMeThpTzcydnQzbXZGZW9za0RLeWN4Ry1FTlI3UllSczkzOVNiSUdoY2JzLVphZWw1UF9EMTVRckZHMUJadkhBX1VwTG9WcVR6SDV2VnF0OWF0MWtGY1RCYktXWXRuYW90c21mTi01bEJCSHI5T25vNmhWQWRTaTBCRzIzV1I0ZjZSMnpRaXFja3A2NnJiQ2pwOXYyclI?oc=5",
