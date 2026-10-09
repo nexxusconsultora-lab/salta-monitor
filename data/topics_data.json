@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-09T17:10:58.231352+00:00",
+  "generated_at": "2026-10-09T21:43:24.707663+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 251,
+      "total_mentions": 261,
       "sentiment_breakdown": {
         "positivo": 18,
         "negativo": 27,
-        "neutral": 206
+        "neutral": 216
       },
       "sentiment_by_day": {
         "2026-10-09": {
-          "total": 12,
+          "total": 18,
           "score_sum": -4
+        },
+        "2026-10-03": {
+          "total": 19,
+          "score_sum": -2
         },
         "2026-10-08": {
           "total": 23,
           "score_sum": -12
-        },
-        "2026-10-03": {
-          "total": 15,
-          "score_sum": -2
         },
         "2026-10-07": {
           "total": 9,
@@ -152,11 +152,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 93
+          "count": 101
         },
         {
           "term": "presupuesto",
-          "count": 84
+          "count": 87
         },
         {
           "term": "intransigente",
@@ -172,7 +172,7 @@
         },
         {
           "term": "pasa",
-          "count": 28
+          "count": 29
         },
         {
           "term": "informatesalta",
@@ -282,6 +282,76 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Feriado del 12 de octubre: habrá guardias y horarios especiales en servicios municipales - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRzk0LThnU0tzM0gxN2hQQ1Vmc0JXa2NTRkZYMGxkcjEtcENJMDR6UUsyeHhBWV9oMVdHbkF1N2pqUkF4X2NFRFBfZ0EwLTRLb2hrSVRPVnVBT1RzdVBXVi1jU2JlNDRPY0xILXFTTWpodHg0STdrUDJwUWJYSUd3aTdEaVlDWjRHLWdLb3Y4RkQ2cl9WZm5teXlXWlNWOHJkalhBRkVnaHF5ZXlTVEs2eU1YTkxvRFRGcFRkdVdncU14OUlfWldaN1JwczlPYm1ibm4w0gHYAUFVX3lxTE8zbzZOVk4zYmJsTXR3MEN3dHdzTWdXbzgyVXlDSFlNdnhqdWZtOXcyYUtHWTdqUldTdG45VnpUbmFyWmh0b1I3QmZGY3lrNU93Y3pLOFE4MjVEQWJPYnRpWkVKODNORm4tOUs3czJyMG1Ob1kyRkZqSGdvZ0RJOXdvcmhiNUhTUzBNT2QtbHROQzZUekxWcURVS2ltOVNSRG5wcjRaVUNaRldscUZncDlnZ25MZU5IcG9GenBIUTFZLVBXMGJHeHB4MmZYdnpLZUZMTDlfSHJaRQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 13:16:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Metán: Por falta de fondos, los bomberos voluntarios lanzaron una rifa - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd0RsLU43RUdRZDdZQjM1T3JiWnVhTlBwVTR4QTlHMXVxMzZoQzA3dEhNT1N2Qm5pak83MXdQTjFFUUZxd29vYWxLVVc1UGdHSkgwSjJfd1VXU3hSMUVOUjM1Sm9HZzFLRkl4Y1pTTW8yUVAwZlFIVDlhUWRzWEh4ZWtjVXBHSUQwRzVFbWk3TlZvVWRfcHZnbWNHYkJueXlwS1lYZlhXMkVxSTJLMmEycmt4QlQxQm41bFlKYy130gHDAUFVX3lxTE91NlFOYkFPX2lQWXkxNDUyV3pKTWxnbHBOZW1Td0pZMl9wM2ozU29ydkdqQl9QXy12T3lhaE05ZEhQUkFSWkVlYlFNdFRLNEdES2VnR3RSNkJTRURKel9iUGV6TGJlTVJ1SWxILWFlNnZ1RXQ4MmxSSVpCLW41akFodUZBams1bmZBM0tUakFFNjBUakc0QS15dnhpaXFWZTFfZmJyVGNSVWJrcjZYUzZueElVZUxhYl9xZEVZeFdrdl9kTQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El estado crítico de Christa Pike, tras sobrevivir a dos inyecciones letales en EEUU - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcXNjZ2YxNWxjRHZ2TTB3a24zMjVhdUZSMFdkUVdaRkh1V1FFeUl5VXE1blpibzNYaFdmMlBTdExxSTdHMjVRYTRMb211bkpheUtYck1vMlpFQ0kwc0w4VFZvMjlnY0UzcElUaWZrOXVFXzV5alVFOENjZXloajlrbmQzcXNtN1Axc01wQkxtZWJ1Mk5FazJTSVZwTEpkdUdlTUJxc0hHaVU1X0tudWZqbE9NYVNhdnd4RU05aXl5WU9JZ0tkVnUtcnFiZlN3OUtRQ2Z5WlY3NVpwQdIB3wFBVV95cUxOQTczUzM1X3k1NGNtZHpoVG9Sb2xPX082NFhoMS11em9VaERZWndKY3BuMHQ2cS10UFEwejJPN3FBZzRiaGFOMlBaSktNLXZCbUwxSGh2Zlpiei1SLUhQYUV1ck1JbHFTTW5wbkladG1XNzdpajFwaU1sUlA4YWVxR280b012SEQtOXpaTWV2VlFpeU1DZ09zZmhaUGNpbFBnN25LTjZqcjhod09zQnc2eFdLY2Q3LVF6N29iYzJHUDB3dTI5bUtBZUNwa09xT2JBazhhck96Rk5PM2J1eU5F?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 03:59:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Chocaron dos colectivos de SAETA: importantes daños materiales y pasajeros afectados - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQekI3cGFXNjBxRmlBaWFuWWppMVlDQ0ZwY09ha3R3cmw5ODR5TnAzRFJHS1B5dW5sZllrb2pJVzVfdllfSU1Na0J4SENkQVE2SkFPcHJjWlMwb2VIelg4YnRMS0NKWTM3LXhfVWd1Yy0yakZnNmpDMHpuUmh6c0Rqb0cyTi1INXVubVRvZGpnZUVTYW1zcW1LWk9KNEJWb3IwY3ZnZWxZekVNc2lUZ3N5UlNHbXNUZ1lWTVBCRmZBaVZUNTltNy13YnMyWHFDSWNLRTlNeNIB2gFBVV95cUxQX0NiOWpUei1MWWRVT1FnWWRudnNpRmhtN2hLNG5GNDFZemVleDVXMlAyaDJ3WUh6cE12RVlXWGhMcmt3V0dtMlNfTmZrc0xjY2d2bTRqMXVneXBrVGFFMnRtOEhmTmJwazRtUkk5WTNRdG1UMnJpeE9lbGEwZ3R1V2V5c2tzMHJ1STFXa0I2S05pNDcxdmFvM2VCT3gzRzVaY2xramZESDViUzRxYUZkODhBRmpvbDdwYWJYdjl1STBuSlFNcXdBdHdXaGhnWmZBbFZGa29CRXRPdw?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 13:20:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Cautelar por la venta de tierras a extranjeros - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQalJSaDgzSF9IMW9hUGd1VzBraktsRVY1NjRYZmtHeE0wQ0VYVEpmbG9FVDFQWUlDR25hTFRaY214ak9LN0VXamVLd0l6ZkNMbVJ4aE9lVWdPTFdsUlRDWk9VeDN2OUlRS08xeWtUd2ExRG9QM1lhTV9kZVltdVhoZHBrV0ZXZDJRT0MwRjBIdzZ0cFE2ei1EM0YzZkJVYkRS0gGmAUFVX3lxTFBid24tdmFSWUFkUHQxaUNFSm1mS2UwNWE3amlkY1F3cFhYWlhnNk9Zek8xaFZmZERZMkxNbmlPc2JlSTExNzJhVG9adkRBT0xZbVNGZDRtc0dUczgzVnZUNWYzb18za0F1b2U1WTRnRExnNHVxSFRoWDBtbkFKWmFzblRyblhsWU1xUFdJMXg3bW5mU3Z1SHpoeTlkbS1BU2hPVnlHYnc?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El caso del audio estremecedor: habilitaron investigar una tentativa de femicidio y mantuvieron al acusado lib - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPaHBBUVZkajJRb0daVWRwVnEwZHJGZzFYVlJsOFZmQ1hQbS1tS3hiVEoxaHRUQkNOUzdVc0Fnb0R4aDR1andQTzRxM0dxd0ZhaFN2elYyalNBakZwTlNySEtMX1RfU3doaE9CRmNQV3NLSEhKVG9ELUhyUkxkQ0NmenZFZzFDaFRMY2FvUHpadmtYREVGbWVwY3k0SHpaMFpiODJsUHdVdDNnYjdmY3FDZGVZVkItdmlpZkdIM2JZZ05OSVJiNl9KMW9ybkhkcmVDR2xwdkdfbjkyUk8tUTR3WGRfemloSjFEWWE0bWU2RG83d9IB9wFBVV95cUxQWVVHMjZLazFmMHYwTlVTS2xaVU9BdHE0aVhucnpNaUlCQ0NvU1kxV2ZEVFUxa3dMX3ZHYjJzUVd3V1E2eFJMd3NqMk1CUVN0LW9YV0IxMmJOS1lIWi1MRVVZYUIzNFRxQ2ctVW5Gcm9HME52b1l3OGVObUE2WENGTGkwaDlRNWxEUEx3aXhReUtjTE1LWTU1SE1NWlA1dmJtRjk3ZWFvQ3B6aU04MHRleEVuSDlOelBOcElQSHNXeUhrc2x0cGpqNXA0NWpEYkZkTWk1TEV3ZUVyN09xcU90emRMOGZKd0R0N0x6XzQ3TUxKQXZmd2xZ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 12:27:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Seguridad, ambiente y salud laboral: más de 280 delegados se reunieron en UCASAL - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeUFTV2RPR08xQWpWMmdwekZQampUdjVtaWNTcnMwNktSM2prRmVIVk10ODB3S3R0aW5zZ296cGN1Y01nVXN1RUFLV0JhVG93YW9JOFZnQkQyQ0pvWFVnMS1mYVprUWFBbjR5YXo0TndzZXB5VEtNSVhIa1k2d1dKRGpqTHZKUzNfal9HYmlHaThhaDVGNkdJUUQxTm1hVGpnZERDTllaLTZSa0Q3UmNBVEhEUWJVMjM1WmcwZ3hrakRmNFZYeGfSAcsBQVVfeXFMT2pkRXdTNDRXTk9ORzBZX0dncFZSTDgzWU1rNHVDZ1JCWXdYUmk2ZVQwbkgybmV1cW1tNmJrREU1SllnaFBTcGF0Q0diU0d4OXJjYXNjcFhEa1VYMjdLSkd4TDkyX0hmTEFySkNILTNwUlV2TEk3NmhwUDltWUl5WGVKMENlMXRJMXRMaEFaVFRkVzg2cGo3LXlHdXRudEFWeUlHRTNhU2J6OUIwelpkbkwwZUVBVF80MUE4dV9VbTUyQUhhZThucjhsTjg?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 03:37:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto Provincial 2027: concluyó la primera reunión con intendentes y legisladores - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWd6TWdUSU9seW8tejdPdTlhVFIzU2ZUR3huMGI4M3VvUVRhbXJaY1BxcFlITUdUbk9kblJRa1Jpek03WnF0U1U1cEJxejFsLW9CdGZka3lqNjdWYXVCREkyX3RZZWpqQU95VkhmSmd5eWZFZ0s5YW5YMHRoTjA5VExCN3NsNkdPSnJXWFlhT2RIY1V1alJnOGtyNU9ySm9PdUd0YTJMSlhVb1h2UWlkY0hRZWFSYndkY0RZZXFR?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 09 Oct 2026 17:26:51 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta empezó a definir el Presupuesto 2027 y anunció obras clave en los Valles Calchaquíes - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFkzRzZSZGUwUE5ZaFJ0Y2JFZFJDeDhKc1dPdXEtRXh6NmZ2T1ZjNWthMDJlVVlGTlJ3ZlprMnMwMkMwdjB1VE1IRURlb0FGMEM3b3hUNHQ1VmtHVlo3djdNWXFYa19YVGx1TkxWT21JMmZXR2RmMXRvR0pQeVU5TEx4Q2FoSGdYcWZJSmdhRG5ITlo0bWVneWlGRHRzZw?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Fri, 09 Oct 2026 21:04:34 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Gobierno provincial empezó a definir el Presupuesto 2027 en Molinos - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGFMQ2FibHpPeEp0STdxVElzYmRsOVhXUDBMNFpodWxSQ0p0bTFyR0Nha2hPaFNMQUZlUmVyQk5EZEhBRzVxUVM4bURvN2g2dzR0Y3F4QXBFWHUzWng1Y05uSVRKaEFsSjctN01uT3RCOTY2ZXJWWEZiZkFtWW9jajhnTnFpc3AzMGNBNUtDT1RodzItRmxFdDZ4S1ZaMUExc2JPMEFxQnFhNUNwN1drOTVZMW1RR3d3c1Vza9IBwgFBVV95cUxPX2lIN3dHeTJUTmcyaHo2dzVtRl9rdjk2VHNLZ0JVY2pHakZhSV9iV0h1MElSOXBmbGFPVUpvVFNpTnFydlEyTy1SNVlMOE53MkQtbEwyWkluSlNQT0J6WDl5OVRSMXB6VzluY0tLUGNFUHJCMlktb0MyREJ4XzhRa3hnc2JiT2VscHBUaVJrM215dHVQV2hwSl9kbVhUM00wb2ZqRmxyYXd1UmMtdXlJVkljbHVOcnl6MTFleFY1ak5Odw?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 17:58:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "PFA secuestró mercancías y estalló un escándalo - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTi1sN0ZZTzM3eVUzcTFRVDU4aU5kTEpUTW1oT1dxTXpXekNfRzd3NnV5VVROLWdJZ25MaFpaZmYzcjU4WUVqODhHSUR5UVJTdlI5TVB3U2VvUjJranBVODIycXI2bE9jRWFWN2thLUdHaFJ0TzJJNjUtNlRacnlremE0MkxVTXUtWlN6M1RyVnVHbUpvbVUxU1RxeGVSVmFyZGk1S2k0UdIBpwFBVV95cUxOTi1sN0ZZTzM3eVUzcTFRVDU4aU5kTEpUTW1oT1dxTXpXekNfRzd3NnV5VVROLWdJZ25MaFpaZmYzcjU4WUVqODhHSUR5UVJTdlI5TVB3U2VvUjJranBVODIycXI2bE9jRWFWN2thLUdHaFJ0TzJJNjUtNlRacnlremE0MkxVTXUtWlN6M1RyVnVHbUpvbVUxU1RxeGVSVmFyZGk1S2k0UQ?oc=5",
@@ -421,76 +491,6 @@
           "source": "El Tribuno",
           "date": "Sat, 03 Oct 2026 04:48:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Allanamientos y detenciones por un millonario robo - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPblIwZGo1NlJCLUZ1RjFDOWU4UGpHcHN0SUs0bW1XMmN0cFFhamp0MUsxR3J5UzNtc0lMMkZnS0tKVDdwT0RhdWlRSk5BbC1SN0hZZHJYMGNHN21tdms5UWZQSkF4aVV5aW1OeU1wSy1keXJGemNCR0prTlN2dVJpNFVQWG93R2M1TnloTUpxWElBLTNmdjFjcFNJN3ExOHAza0hvU0130gGrAUFVX3lxTE42UVBSdUJIaE5VT1phS19pbWRuZlpWU3NPb2xXNmZMT1pIOW9RUWQzQ1pJRGc5bnotXzFlandYNHJrV3VaTzdSZloxbExOdnlzSjZDNzExNHdBWFFrTi0ycVJTdkJzejgtT25WQUZFc1NINmY4Qmd3ZWVzRzhjTV92djl2bXA3azJxY2dobzRwcW5VVkJLdndwamYydTRVanlISEpoVjZnb1o4OA?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Peritan las billeteras virtuales de Adorni - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHI2TkE2UThxOXM5dHJuSnVVN1lkblYxTUhsLTNEcWl2aVpOOHNtQXUzTHVrUzN1UWJsRW40V3BvNUFOa0xyMktFQmhSeEpleEE1TDMwbDQySGdWemxsZHUzczlHNF9aMlo1ZzBEX2hvbkZXZWR4SkhGYXZFWkktZldHYU1nYWhkeEJZMkJUS1FRUU8taGJxVGRrTdIBoAFBVV95cUxNZ1NFaEluN1lUbnBqZGd2SmdBdU5UQnZ6cFFCMW9rdXRrb0FHWnI2N1NlSE84VVFGN20xcDU2cjlMVFJFaVVNaGNUcUdlM2NhT3F1SGlqQXVRa182RjhfaUx2Ui02dzBlNDAtY3UweFNXUWJZb2x0OXNxYWd4TWxBVzF1cVBVUHZsR1BIcng4TEVVQ1dESzgxLTBjbmRMYVNZ?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"El Papa se encontrará con una Argentina divida por la grieta\" - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY3lJeEZXekNHdmJyd2tacVh3bVo2SzRtcWZHRWZNN2R6ajFGYm1lM1FScUFuZnpET053V0VVemZ4b1lDWXEyQ3JVTjhjLXVtZU0wNlJOTWNWMnpvQkt3UnJlYTRGaGQ3Z3Z6NDhmV1kyR2tWQlljZFlMeXhvd29XZlVGLVhVNk5VYkxpQmFxMlNRdEZ5RWlEa2FKWFEtaE93OXFZazJuX0lRVDhfWHJrcy1PY9IBuAFBVV95cUxOMDJxSFZwYXFkdUFOR1ZlVFktYWF1NTFHcWJCU0xNUDNPZFhZdjhFZjhrZkExLWt5d1ZwYjNmTGgzWGh3VTkyV1RWTE9wUm5aMktLNEw4cXFmU0lfdjRsYlU0aFp6YW9ieDZHVUZDWGpjc3J4LW1VYlNTeHFTRHBYMUN1bTVBVTdvVE9pTldHNzBMRVlNdG5Bbnc4U1gzQ2dEVzhDUTNERXZWSTNZMkZqODBfcEw5Y2N5?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Advierten por la incertidumbre electoral - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMzU5QnNCNS1iejhSVGpFUmRmRnNpdERLNE5EN2I5SGVHdUNIQ2hUekdkb2dpWW1MWXFodHF1WUIzT0s3WEdHQ25UamxWT1VQR1RRUU5hZDlvblNyYlJpenJzZnAxM1Y2ZHJEZmF2b1Rld1F4NHpQb09BN2FfbFd1N3VjNDRvNzFXMGhZaTFzMGZhX1NWOWRndNIBngFBVV95cUxOQ0NkVWFmeDBrN2lJRjZGdXJMU1ZZQTdNdWtmWnJzeF9VTk1GUDN0ZXVVVGFWSzVqMVZTckxtVk8zT3EtQVJfUHl1eVFYZTFIcDRFYjBTQ3ZQMWZSa1EyUERHLWNOSld4Z2JDZnMyNXl1UFZpcWVQQURNRDVQUE92bTQ0WDlvTnppbHY1eGdDYnpfbTU5MjZINDFpQ0h0UQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Advierten que bajar la edad de imputabilidad no alcanza para resolver el delito - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeUVwci04ZHZQZzRJQ3R2dlZuQXIwVFZ6S3pIOWNDLXlkU3JfLURZTWJqYi00QS1mUWVyQ01oOFRSQURZeHNHX182VENrS01JcUtmT19lQ1JYYUdVQ3IyVllVd2xPV1pNS3hOZFFZTVZEMEx5c2RsRW1IRjRuU292UVQtLWNQMzBsY3hiaGFaVXBCMEhPZUpJUmo4VW8zdlBCNlk3aUh5T1p2RkZzRVFUVFlpcWxidDV1dlFjS1gxeVh2SWR2OXfSAcsBQVVfeXFMTjJXYTgzcVY4d0diQ2ZHNGtKVE5FOFRkN0ZBNWFiTjM0MS1POVhPMWlOWXNiSWNzZjI3WkJ6REtiOEFMZDRlQTFwb3ZDVkJZSm8zOEpsOVdRTDBHdGpSMTNzSndyaGlwMmdCX0N1WndkcGZ1YTB6Nkxia3FCT0FwM013aEtYYTFKWF9qRmtQbldtdjJuRWlRRDQ3dFV0UXFyZGV6ai1ybVpYVVo5ZERzTGx3ejVaeV9XZGhlWENrOGVWc2VrRkE1dTlEMlk?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: ronda de consultas con intendentes - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2FkN1pRSWZvanZXZlZ1WlZhQkZfMjdkUFZmNl9VeGh0d0RNM3JTMC1INHB4UFhwWW1MeV83SE9sTDhYVXhDdHBoVHhLYUlaZWw1LVA3Y0tjYnFuNFBrcG9MNmtBdmhhbDZpYmNpU1U2UFVXTUlnVDJqWmZIQlViLWVuUW5vMnpNdGZxdDJ5eXBiMjBGSW1vcGJlUU9LLW5k0gGmAUFVX3lxTE9kNEtHN01kM2dVekRBbXQ5WUplcE5EaEo5c3l2Y3pxMy1SbE9PdzlOcmQ1QzVPTVlwVGZ1cl83aWFVX2hsY3hTb1VpSHRHMHpvYnNFTjVRdkhCTDhMQlBuQURZY3FxQk9ueGlPMXFRRm1vVXRHTUVER0RPdGlpdHJ2dXA5VVNWRmtBVFdZanRuNjJBM2RXQ1VjZnFYd296TUp1c1VCdUE?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Argentina e Israel firmaron un memorándum que apunta a reforzar las Fuerzas Armadas - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OYmR6R2VPN0JmVUR0d3RKZGhzbkx0TjM0Nk80dDZsYnhNQk5PUlFTa3NVRVAtTmZJbkVkeWV5Z2hiRkI3WnpUV1VjaWlfLUpnWklIZ0FqaFMycThqS0J0Rk5rWU9qRkZVVFltek9mczNsVkpsS3R2MQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 20:47:21 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Emiliano Yacobitti rechazó la entradera violenta en la Secretaría de Educación: “Lo repudio, creo que está mal” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2J3U2dxcTltcDRad0huZ3NHc2d4YzBySmpfUTF1Ylhlc1dHZlpadjR2OVB3UWlucnlRekZKRVFlanBKd1I1ejZoMHdLSmt1VTY2cVd0Q3VFQkZ5X1VnWjdWZ1NXOFlkZ2NQbml3aEVTcU55VEY2M2VuV0ZJLWxzQXcxWHpoanRtNFEySGZOa2FUS3VHbGhGMDh1cVlsb3FaTF9uVmJrQ182dnNwSG9Ia3RBRzhXUTAwa1BoUFJWUmVzTjJ6bkVIMi1RWEJURGFHZTBLV3o0R2Y4dVFC?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 00:21:45 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Alejandro Álvarez cruzó a los estudiantes tras la protesta en el Palacio Pizzurno: \"Una fantasía revolucionaria\" - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeWJUei1GcFFubzlSaHJIbUlYWFVodWRxQ3BjWnZLTHZCOVRQSjZBclkxQm9EdGc2NndBUTI1RV83VkRnV0lrcmc2akNEeWQxTDRGWHFPc09hZUJRT0ttREUxMHo0VkFmNnAwdjQ4OHBzX1FHd2FrTm1jUnU0Qm14RURKa29lRTg?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 20:13:38 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Flávio Bolsonaro sumó el respaldo de PP y União Brasil para el balotaje en Brasil - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8weU1BTnJJUVFOMkFXWVVzRC10dTRwb2lDY1J2X1N0T0RNM20ya014TFcyV185a3JPMkptUkgySFVfSmdzU25lWWhfTHljVWJUNklWZmZFOE9fZWFWdW5NeEM1TVY3QjNZX25PaUxCdjI0M3VhcGRPQXVDMA?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 06 Oct 2026 22:54:14 GMT",
-          "sentiment_label": "positivo"
         }
       ]
     },

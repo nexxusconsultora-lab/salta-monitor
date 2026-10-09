@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-10-09T17:10:56.973880+00:00",
+  "generated_at": "2026-10-09T21:43:23.389260+00:00",
   "by_politician": {
+    "concejal-laura-jorge-saravia": {
+      "total": 40,
+      "positivo": 0,
+      "negativo": 11,
+      "neutral": 29,
+      "score_sum": -24
+    },
+    "gustavo-saenz": {
+      "total": 230,
+      "positivo": 43,
+      "negativo": 26,
+      "neutral": 161,
+      "score_sum": 70
+    },
+    "eje-manuela-arancibia": {
+      "total": 4,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 3,
+      "score_sum": 6
+    },
+    "sen-juan-cruz-cura": {
+      "total": 85,
+      "positivo": 11,
+      "negativo": 6,
+      "neutral": 68,
+      "score_sum": 12
+    },
+    "eje-sergio-camacho": {
+      "total": 9,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 1
+    },
+    "snac-emilia-orozco": {
+      "total": 50,
+      "positivo": 7,
+      "negativo": 8,
+      "neutral": 35,
+      "score_sum": -3
+    },
+    "concejal-rodrigo-alfredo-perez-quinteros": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": -1
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 45,
+      "positivo": 6,
+      "negativo": 5,
+      "neutral": 34,
+      "score_sum": 0
+    },
     "eje-ana-paula-benavides": {
       "total": 8,
       "positivo": 0,
@@ -21,13 +77,6 @@
       "negativo": 14,
       "neutral": 13,
       "score_sum": -36
-    },
-    "gustavo-saenz": {
-      "total": 227,
-      "positivo": 42,
-      "negativo": 26,
-      "neutral": 159,
-      "score_sum": 69
     },
     "eje-roberto-dib-ashur": {
       "total": 26,
@@ -99,13 +148,6 @@
       "neutral": 6,
       "score_sum": 0
     },
-    "eje-manuela-arancibia": {
-      "total": 3,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 3,
-      "score_sum": 0
-    },
     "eje-ignacio-lupion": {
       "total": 2,
       "positivo": 0,
@@ -127,40 +169,12 @@
       "neutral": 8,
       "score_sum": -2
     },
-    "eje-sergio-camacho": {
-      "total": 7,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 7,
-      "score_sum": 0
-    },
     "dnac-maria-gabriela-flores": {
       "total": 19,
       "positivo": 1,
       "negativo": 3,
       "neutral": 15,
       "score_sum": -3
-    },
-    "concejal-rodrigo-alfredo-perez-quinteros": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 8,
-      "score_sum": -1
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 39,
-      "positivo": 0,
-      "negativo": 10,
-      "neutral": 29,
-      "score_sum": -22
-    },
-    "sen-juan-cruz-cura": {
-      "total": 84,
-      "positivo": 10,
-      "negativo": 6,
-      "neutral": 68,
-      "score_sum": 9
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 47,
@@ -218,26 +232,12 @@
       "neutral": 11,
       "score_sum": 2
     },
-    "snac-emilia-orozco": {
-      "total": 49,
-      "positivo": 7,
-      "negativo": 8,
-      "neutral": 34,
-      "score_sum": -3
-    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 8,
       "positivo": 1,
       "negativo": 0,
       "neutral": 7,
       "score_sum": 4
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 44,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 34,
-      "score_sum": 2
     },
     "dip-sergio-mauricio-lopez": {
       "total": 11,
@@ -913,6 +913,76 @@
     }
   },
   "by_day": {
+    "2026-06-29": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-camila-lobo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-maria-del-socorro-villamayor": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-05": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-09": {
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 6
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 10,
+        "score_sum": 2
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 8
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 5
+      }
+    },
     "2023-12-30": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -983,20 +1053,6 @@
       "concejal-agustina-alvarez-eichele": {
         "total": 2,
         "score_sum": 0
-      }
-    },
-    "2026-10-09": {
-      "gustavo-saenz": {
-        "total": 8,
-        "score_sum": 1
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 8
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 5
       }
     },
     "2025-09-08": {
@@ -8183,28 +8239,6 @@
         "score_sum": 0
       }
     },
-    "2026-06-29": {
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-maria-del-socorro-villamayor": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2020-02-20": {
       "concejal-angel-ortiz": {
         "total": 1,
@@ -14833,11 +14867,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 57
+      "count": 56
     },
     {
       "term": "tribuno",
-      "count": 43
+      "count": 44
     },
     {
       "term": "ashur",
@@ -14848,12 +14882,12 @@
       "count": 22
     },
     {
-      "term": "nuevo",
+      "term": "mario",
       "count": 20
     },
     {
-      "term": "mario",
-      "count": 20
+      "term": "nuevo",
+      "count": 19
     },
     {
       "term": "cristina",
@@ -14864,16 +14898,16 @@
       "count": 17
     },
     {
-      "term": "informate",
-      "count": 17
+      "term": "sáenz",
+      "count": 16
     },
     {
       "term": "antonio",
       "count": 16
     },
     {
-      "term": "sáenz",
-      "count": 15
+      "term": "informate",
+      "count": 16
     },
     {
       "term": "marocco",

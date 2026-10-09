@@ -3,16 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 227,
+    "total_mentions": 230,
     "sentiment_breakdown": {
-      "positivo": 42,
+      "positivo": 43,
       "negativo": 26,
-      "neutral": 159
+      "neutral": 161
     },
     "sentiment_by_day": {
+      "2026-08-05": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-09": {
-        "total": 8,
-        "score_sum": 1
+        "total": 10,
+        "score_sum": 2
       },
       "2026-10-08": {
         "total": 4,
@@ -242,38 +246,44 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 31
+        "count": 23
       },
       {
         "term": "gustavo",
-        "count": 15
-      },
-      {
-        "term": "parís",
-        "count": 9
+        "count": 10
       },
       {
         "term": "litio",
-        "count": 7
+        "count": 5
+      },
+      {
+        "term": "gobernadores",
+        "count": 4
+      },
+      {
+        "term": "molinos",
+        "count": 4
       },
       {
         "term": "milei",
-        "count": 5
-      },
-      {
-        "term": "bouvier",
-        "count": 5
-      },
-      {
-        "term": "millones",
-        "count": 5
+        "count": 4
       },
       {
         "term": "nueva",
         "count": 4
+      },
+      {
+        "term": "planta",
+        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Raíces Argentinas",
+        "source": "El Tribuno - Salta",
+        "link": "https://www.eltribuno.com/salta/2026-10-9-14-15-0-banco-macro-inauguro-el-ciclo-raices-argentinas-con-salta-como-provincia-protagonista",
+        "date": "Fri, 09 Oct 2026 17:15:00 GMT"
+      },
       {
         "quote": "El norte no pueden esperar 50 años más",
         "source": "Informate Salta",
@@ -357,16 +367,31 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSjc0UGJnZk9vVEhVM2h5UkRKc1FsQ1hfemljZXRiS3FER3pteTIxM2hhMG1Cd2V1SFJpMjVPakI4TmlNa0ctOWstUFFOeS1IVUt4dEo2WXNoMXJaQ2pnVWkzMVJiTWo4YnVDSURyNS1qdkRpMFc2MUR3RmRDNmdYMzRDbHVMUQ?oc=5",
         "date": "Thu, 17 Sep 2026 11:34:40 GMT"
-      },
-      {
-        "quote": "Vayan detrás de lo que sueñan",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEFYS3VnX1NxU1Q2LS1mRXM4TWdlM2xhM05oaVItQUt6X2VoRXljY094TkpfSjNZX3FUQ1daT2ZJVTVseFhaM0t1UU5BUzVhc2cyWkVmVmFSUlNfTXhYQ1A0LU82NTVjeUg3amtTYWh1RHIxblRMdG40RDN2OHk0dllURXE5eXF1N1NKOENnLVZ3MWNhcFVZUjVvRlMzS0R3dmVLU2FyTUMtMWFhRWFLS0h0MEJxX1c5?oc=5",
-        "date": "Mon, 21 Sep 2026 15:28:41 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La presión de Sáenz y otros gobernadores para el cambio - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcWU4ZjFmakhsRVpSREdycjNqVWZjSjA3SHdqX0JISmc5MTRiTzVSTFJfMUFjbE1QWUktMjd3UEVJQ3RJRDVOd2wtN0V1VUEtekZTLWNKeHNJdHlaWG9nMDNOMnNWUVY4UG43SGM1QWQwZEdBWmVNZEhuOUJkZTJDU0VCaFp2a3ZTVGxVUGwxdzFsdzlKUGJ5MjVWWHFHbml3WnllY2dRRmluWmg1V0HSAbMBQVVfeXFMTzlzSkdGTlVNN1ViekJxQkNWbGR1cUhxa2luc2ZPYmNIYzk3bFVsVFhodTZ2TWI2Qld3LTJicnBZWV9pd1JlbFZoWkQ5cmtJZl9xV1BrVkhJUGJvcFJYeVV5LWRsc0lPWl82RGZrd3ZrWjFTOFdYemphd1N5Z3M0V1l1ZW04SjBWUHNsdFhFMXJuV2hodjVqVnJsUWxEWmtTeGlJN3J3NTZLdlQ3ZWNDSXBxUnc?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "En Molinos, comenzó el armado del presupuesto provincial 2027",
+        "link": "https://informatesalta.com.ar/gobierno/en-molinos--comenzo-el-armado-del-presupuesto-provincial-2027_a6ac9537d05849ac9aaabf795",
+        "source": "Informate Salta",
+        "date": "Fri, 09 Oct 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Banco Macro inauguró el ciclo \"Raíces Argentinas\" con Salta como provincia protagonista",
+        "link": "https://www.eltribuno.com/salta/2026-10-9-14-15-0-banco-macro-inauguro-el-ciclo-raices-argentinas-con-salta-como-provincia-protagonista",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 09 Oct 2026 17:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz anunció que Salta terminará con fondos provinciales la pavimentación de la ruta 40 entre Molinos y Secla - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSXJNZEZ1VGNMT3Z1ZjJpNWQ4UGtyazVsOFlQZ2hNaW5XalNjUlRkald4X1NUYlVXaUp3NlRDbmtGM1I4M2ZMdmIyQTIwTWNxM29LRFdaTnV5dUhyaW9ESmMwU05GRUJSYU5SeE5jX3VuZG9aRWhhalFvblFHcDg1LXVHWnhZMGFjQm5WYXZJZEwtMUJOSnF4MFo1dUdyT0xzOF8zazN3U2kwaDUtWFlFcEsxVEFGck00VEJUYk42UDRVWWUzaHFya1htUzdiTDU0aFRPVW5iTVZFQ1c0QTFFazdrcGdnTUY3TEN5RWVaWjRkcUtl0gH6AUFVX3lxTFBRLVFZYWlTN2w4NV9vUFQtZ1UyeGdjcnRybG5tWXhYdE1TTXQxdGRDOVlrVWMzYlVxb2hUMWJObkE1b3l5b2w5Q1N5TDNpMEkyZi04SDE4cEhXRmduUG0wYWJPNjJoWDlZaUpuODhfbFJaV2JsVWdwMzZtX3U1NW9KYkRjdS1hSVl4V2QtdFlfZk43T2g5N1Z2TWp6dWwzUlBWbUxLc1ZZR1k2U2FxY2x4aTJ2NUNBUU1nUjV5Y0ZHZXplMGF3cjJfVjZkZHp5OV9VWWZoSkE3RWhCUVBOSTFaZ28xT0RqRXlmY21iX0FXUjVadk96eHd4YWc?oc=5",
@@ -555,27 +580,6 @@
         "source": "El Intra",
         "date": "Sat, 03 Oct 2026 14:22:00 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "El debate por la tierra vuelve al Congreso y pone a prueba a diputados de Gustavo Sáenz",
-        "link": "https://elintra.com.ar/2026/10/03/dnu-ley-tierras-congreso/",
-        "source": "El Intra",
-        "date": "Sat, 03 Oct 2026 14:48:14 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gobernadores convocados a Casa Rosada: buscan negociar el presupuesto y acuerdos electorales",
-        "link": "https://informatesalta.com.ar/politica/gobernadores-convocados-a-casa-rosada--buscan-negociar-el-presupuesto-y-acuerdos-electorales-_a6ac039ca1821be823dbb835c",
-        "source": "Informate Salta",
-        "date": "Sat, 03 Oct 2026 00:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz prepara las elecciones para mayo y su Gobierno sostiene que tiene otro mandato",
-        "link": "https://elintra.com.ar/2026/10/02/saenz-elecciones-mayo-mandato/",
-        "source": "El Intra",
-        "date": "Fri, 02 Oct 2026 23:04:59 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6157,13 +6161,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 84,
+    "total_mentions": 85,
     "sentiment_breakdown": {
-      "positivo": 10,
+      "positivo": 11,
       "negativo": 6,
       "neutral": 68
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": 3
+      },
       "2026-10-08": {
         "total": 1,
         "score_sum": 2
@@ -6459,19 +6467,41 @@
     },
     "top_topics": [
       {
+        "term": "curá",
+        "count": 3
+      },
+      {
+        "term": "destacó",
+        "count": 2
+      },
+      {
+        "term": "carta",
+        "count": 2
+      },
+      {
+        "term": "pichanal",
+        "count": 2
+      },
+      {
+        "term": "moderna",
+        "count": 2
+      },
+      {
         "term": "juan",
         "count": 2
       },
       {
         "term": "cruz",
         "count": 2
-      },
-      {
-        "term": "curá",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "es moderna y de avanzada",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/legislativa/cura-destaco-la-nueva-carta-organica-de-pichanal---es-moderna-y-de-avanzada-_a6ac94c2505849ac9aaa900b2",
+        "date": "Fri, 09 Oct 2026 20:30:00 GMT"
+      },
       {
         "quote": "Una herramienta institucional moderna y participativa",
         "source": "Voces Criticas - Salta",
@@ -6555,16 +6585,17 @@
         "source": "informatesalta.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNzV2OHIzMzUyRGFPSGlBd2taOVBKLTduMFp3aUNUcjNWWWlWd1lMWmdKLU0zQ3hSaDAtMFozMTFrU1NSbzM0VGhDWkpVT094TGFGQjNtQnNTaUxDWkVyVEx4ajJya1RtZEprTEo2c25QSXNjUkhMTXpSMUhoM1BhN2pCYmV4THNSWmloRFhNSnBGRkF2MmEzV182dzBmRmVPRjR2SlVSTlRhM2dRQ2NwYXU0bUI3QVVoNFNRZUR3WDlfQjB0b2tqSnQ2TEVPTFo1bmwxZ2lqS3hYYklNZkhRNtIB7wFBVV95cUxOZzRYSzk2bnF5S3BfUEdJdGEyeEtGLXNvczRxenNRWW5kdE1YRVZuTEVTQ280R0tpLV9KbWRicnBGQUR0MWZjaE45WTM4aFQxeFBHdnpyWEZQS0RDTVgyU0pSNjVTOHhWdExDR2FjUGlhMnVxTm9WdTJhWlRXTm1xZHZ1dWRIbHNOVTR0WUtMb2VsaEhHeEF2Y3NKdHlLSnhPdVFraUpNdUd0MjlTYUVneldqMURsUF8wcHRialFldmgwYURvcmRsRmJTT3M1czB6djA2YWZJYlVnQUhIZmRaX0RBOWlSV0hpVk5SRHNZbw?oc=5",
         "date": "Thu, 23 Apr 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Los productores más chicos corren el riesgo de desaparecer",
-        "source": "informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOX1ViQlBfdnhlWXFOcnlsdzVGMHpuS0tTa1BUanQxb01pWTVBR00tRnpIZ1haN010U19JY0pvVjE2NE1ILTdaNzVHbWRwVEtxbkJKdWNPcmRiZlh3MU9CNXhFZklDRzNsSU5HVENvSnZ2M3NKbnA3dS1DamkwUjhid29aQ1FLQkpUMW1aOW01QjNGWGNmZnpYYWgzRnFQTVFDWnhlbTFoYlY5V1pFNXVfVmRHeWVGQ2hQS1NjQ2lmY21wODdPWHpJZVZBRGoyaGhjdW8zeWFpTXROOVBKUFVLSHB0RkFNdU04b3cxdk1kM1ktaktjM3QzQ0o2ZlhLYjTSAY4CQVVfeXFMTVVWenNLLUJHSkJtU3RQa2p5S0hocFBUVWNucVl5cUxaQ2FBZFIzVGF2QlRXb0pmcTJCUHczME9WSlFsUUpmSmFrODBuRXFyeWlTT2VUWDNRY2RVaDJsR2luUXRnd1FMWllfZDFrOXlNdm83UUtDckV2T2I1cGZGSHpOSFBicTZQNVd3US1fNFMwNHZMWTBwMmZIZTVpNkEwX25nX1UycWozNmF1NXlPTldJZkJCbVhvRXMyMy1FNHFOVElqNkJ4YjI2U3RPcGJWUTlfMHJzMXB5TjZxdkpIY1NZNXFJU2JVWWZqSWlQbDVQLTNueG5LaE4wWGlxNUNfS19YTUR0SUg5WUdEbWVR?oc=5",
-        "date": "Fri, 28 Aug 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Curá destacó la nueva carta orgánica de Pichanal: “es moderna y de avanzada”",
+        "link": "https://informatesalta.com.ar/legislativa/cura-destaco-la-nueva-carta-organica-de-pichanal---es-moderna-y-de-avanzada-_a6ac94c2505849ac9aaa900b2",
+        "source": "Informate Salta",
+        "date": "Fri, 09 Oct 2026 20:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Juan Cruz Curá destacó la sanción de la Carta Municipal de Pichanal: “Una herramienta institucional moderna y participativa” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNWWE5djJmaUYyLVFKTUJJbFJlQTR1cHVZdWg2NGZWOE9wMmMtZlpIVlBDYjg0MzJRZVppOXF6NlRkTWdnU3VlWFowR0QxZzdJcTRxdjVUcWdwekhkaDZHR29sbTFBWHVRWVMtSTJpZmVWc25CdklrQjR4UERxMnh3YkR2SURTSHYydXJ4aDYySUczbWpjT0ExckRwbi1XVHB2X0tXX0duUUlOQ1hBU1hTdHlsenM5MVU4VDN1THNwLWFuckZxNENpdDBZaTVSZlBZY1ZHVFFLVlZvaUYyNEVnd3k4SWRSVnZCNEkwRV9fM0dYQ2p2NGNVREViLXlwMmJWa1dfQWtndXYtd9IBjwJBVV95cUxPY0gxVUFsQXFRYVZaMXdNc3lpWWY2bi1OUnhPQ1dlRC1GOEx5WF9HX2FqWi1yYmUwSUpVc3dkYUlRREp5MGJfODV6N3VQVjBQSjdWRmVkdUVkWnpiekdzYlgtZ0pHQXZZVVFmMlNnd05mOGZnSDB0LUJ1YloycEJ0bnBFanp3N0NpeFIwWXZZTXBvckZNOURpWFFqdVVLbzR3cHJ2MDA1cVZHcjZPSEg0V0h6cmRvS0NFb2NMSTI3MkgxOExQQ3dlZlRyQ1d2RVJEUGJVVGU4QlpTTVBveFMxQVpSVXFOYlBYWE9XR2JGUENTMk16SzhyQ1A3VjJXRG5aWmZJZG1McnNqcnkzSkcw?oc=5",
@@ -6766,13 +6797,6 @@
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVmJ5SGNYdWs4enNwemFFSHZVbVhOMkVpVEdXSjZBYjBGY1V6Ym9Dc1B5MXpseklZeWNEM29xdWNUcnU1bXFmVy12YTI3Y0NqN3BCVGZiWmw5Q3JKSWRycUw0dk9yQ21leWZGREotWkFsWWlMU29BdXZlbjRUWFdTRFFjeU9TMEd1SDlqaVZSWGJNY0ZLa3ljX2wwSUhRSl9yWXJiTnBCeFZNRFV5ZDhpMWZncUtETTRTb3EzOE10SDZSOUNw?oc=5",
         "source": "Elintra.com.ar",
         "date": "Fri, 31 May 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El senador Curá pidió finalizar el tinglado del Secundario Nº 5023 de Orán - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOEtLQkVoNk5CcFdkRk1OMWtqMmVVa3V1ZkE0NFY5cndDU0lUMk04SVZPbzNUMlk2b0RNU0xhQkVfelNwNlJJYnNYYXNfdllfUTFKWnlpT0lXY01IWVR1N0NFTzlxbkdxQjdoUVl6b0t5MW11aC11SFdhMll2QURzWHVpR3FmRHNYY2xLOXpTZnl0Z1VrUXhpeGRzSk5nNk1MdXRuc2dhdTFBWFpla3BsNUJNOA?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Sun, 03 Aug 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -9224,13 +9248,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 44,
+    "total_mentions": 45,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 34
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-07": {
         "total": 2,
         "score_sum": 0
@@ -9391,11 +9419,19 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 11
+        "count": 12
       },
       {
         "term": "juárez",
-        "count": 11
+        "count": 12
+      },
+      {
+        "term": "durand",
+        "count": 3
+      },
+      {
+        "term": "cornejo",
+        "count": 3
       },
       {
         "term": "aries",
@@ -9410,15 +9446,7 @@
         "count": 3
       },
       {
-        "term": "durand",
-        "count": 2
-      },
-      {
-        "term": "cornejo",
-        "count": 2
-      },
-      {
-        "term": "pasa",
+        "term": "aborto",
         "count": 2
       }
     ],
@@ -9523,6 +9551,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Durand Cornejo respaldó su postura sobre el aborto tras el cruce con Mónica Juárez",
+        "link": "https://elintra.com.ar/2026/10/09/durand-cornejo-aborto-salta/",
+        "source": "El Intra",
+        "date": "Fri, 09 Oct 2026 20:52:30 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Guillermo Durand Cornejo tuvo un duro cruce con Mónica Juárez por el aborto legal",
         "link": "https://elintra.com.ar/2026/10/07/durand-cornejo-cruce-aborto-legal/",
@@ -9724,13 +9759,6 @@
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNem1rQzZVaHdQV0Rsc05iVFdIaEJGWVpwQVY0NnpZQ0JzbjFyYUZ2eVRsd2RVd2ZDcHBRRVVkRlhzZ0hIcjM4LVJXR0FNMld2eDNPTl9rbGpHdDV0R3RKM3RyVFdoLWdxVlg4SXZwYmpEZlJwT1lZQkpQMTUtaFEzWk1iTlVraGtRWV9mWHJwZVAxdFFnVm41UWdoVmkyTXE0TThNUGEtOEVPUHE2aHI4VE8yTy1YVkJwSklGcUM5ZGFsak9u?oc=5",
         "source": "Nuevo Diario de Salta",
         "date": "Mon, 02 Mar 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mónica Juárez aprovechó el Día del Periodista para posar con La Mona Jiménez - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdFE3LXlNLVhULVJHQUlTYTVFOXB5S1ZtdHhFWHV6c04yRnA0WmtaN1cyTHpENnpCdnZDbEhvZ0tqOXppalpVMzRieThuRUNIZkxQSkYtd0Fxa3pQMjJ2cl91R3lWZERIcnpVeU1Na3JQQWc4S3BjUkxpUThfeV9TRDFmN2NRQ2g1VTV5ZkhtWWtpM3hWY3JwVm5ydWFPemlKZkJGU1FRbVB6bkhEQWtOcg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 08 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -17510,13 +17538,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 10,
+      "negativo": 11,
       "neutral": 29
     },
     "sentiment_by_day": {
+      "2026-06-29": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-09-04": {
         "total": 1,
         "score_sum": 0
@@ -17657,22 +17689,22 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 5
+        "count": 6
       },
       {
         "term": "jorge",
-        "count": 5
+        "count": 6
       },
       {
         "term": "saravia",
+        "count": 4
+      },
+      {
+        "term": "elintra",
         "count": 3
       },
       {
         "term": "municipio",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       },
       {
@@ -17765,6 +17797,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Jorge Saravia denunció que la municipalidad empezó a embargar a deudores de tasas municipales - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLXJpWjd3ZnpoM01aQ0tFSWx5ZnJCbVVYLXp1dmtYa1NJNDVVQnpUQk9vM1gzZVBodUNqZkJLQkJxS1NZRi1EZ2wyOGp5cjJwMkJZUy10eW9MUzRvRmdKZHFhZFFEZW9wTUlyRzBZNTR5V3F5UXBTb0dSWm1aZmtlSF9SWktINDBqYmF5b3NQb0hpWUNRblBhUXVmZm4zTXNuamlJNmtTTVJRSmNtaWdobHVObUJnQnpLX3lZYmF1SlJaMnVIUjdpSktpaHgwbFE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 29 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Laura Jorge: “¿Dónde pone el municipio la prioridad de las obras?” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSi1oX3ZYUkNHXy05R3FzVGd3QzZOVlc4ZTY1THRYTEJZY1lyQXJGenVTamVEWkQxZDM3OGFseG5YZnhwNlIwZlJyYUMxaDVWaFVST0NFdmg2bGc4dGpfdjk4c0k0dG14TTBOU1JwV0FGb0s2NTY4SHh3cDZ3TEdsQVRXS01sdw?oc=5",
@@ -17967,13 +18006,6 @@
         "source": "eltribuno.com",
         "date": "Thu, 09 Jan 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "La denunciante del libertario Casasola dará su versión ante el Concejo Deliberante - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeEp0OUFBbEFDVVZ3RUx0WWdwVUFsdnRCNXBWVmt0WkJKSk9HSldZdVdNX1JyMU1NZEdUNENkWlIxVHVsdEhpd3JRaE1peFkzYXdwTjFVblotaFRURGZLRTBrU0t6ZTZSQTAxRFptYXNCRXNId1k5djA4YlRLSFdueTk0cHRVOUdmelhPczZZcGdfUW0xaE1pSzUybEprZzExSXo2ZFRET2xEclgydDlHcENtMnhvekc5Qy1QX2hLM1gtWnkxT2wzcW9iMVhrcGpKUmdya01LMU5oQk1fX2VjVXVDdXnSAfMBQVVfeXFMTWRVYnFaOVlrWkg1RTN4cDl2OWs0M1lLVVNzbHZYMEtCcWdMUWI5X0lSUjQzcEhLbEQwM1NacXBjUU0xS3M0cW9FbER3LW5yOXlIcDJDM1hFSU5KdnRST051M2NXMllYaDlMUkMxZjNtZ0FUOVJUcV9uYThjNmN3M1ljcXZtZEVTb1AwUE9xenNjTTdSOTdnQ1ZjTk9zdW84MjZQTUFzRXl6ZjlVelNIckNXczVxWFNzWnZGN003RkFhWHh0X2tTMTE3Ukc4dTJ2Rkl5Qjh6OEFxZjQwXzNEeDdKcGt2UGEwTFJVRjM0WGlFYmdZ?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 24 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20211,13 +20243,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-31": {
         "total": 1,
         "score_sum": 0
@@ -20254,11 +20290,15 @@
     "top_topics": [
       {
         "term": "quinteros",
-        "count": 4
+        "count": 5
       },
       {
         "term": "rodrigo",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "olmedo",
+        "count": 2
       },
       {
         "term": "casa",
@@ -20297,6 +20337,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros: «Ni Olmedo ni Orozco representan a Milei en Salta»",
+        "link": "https://elintra.com.ar/2026/10/09/rodrigo-quinteros-ni-olmedo-ni-orozco-representan-a-milei-en-salta/",
+        "source": "El Intra",
+        "date": "Fri, 09 Oct 2026 19:58:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Rodrigo Quinteros: “Olmedo no sabe lo que pasa en la provincia, ni en su espacio” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dEt6bl9aR1JPejNWaHQwSFk0MEJCQjhidzdVdFd6cXlSVDVFU0tBRHJJMWxPbGZOUUlXSkMtS3hrck03dlpuY1QwdVNJcnF5Q1pxMnlZcWhBZllRa2R0LU9uNFh1UGkyYV9uZjRjZHB4YjN3?oc=5",
@@ -21105,13 +21152,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 49,
+    "total_mentions": 50,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 8,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-07": {
         "total": 1,
         "score_sum": 1
@@ -21295,14 +21346,6 @@
         "count": 6
       },
       {
-        "term": "karina",
-        "count": 2
-      },
-      {
-        "term": "milei",
-        "count": 2
-      },
-      {
         "term": "libertad",
         "count": 2
       },
@@ -21424,6 +21467,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco sobre la interna en LLA Salta: «Hay personas que decidieron estar más cerca del gobernador»",
+        "link": "https://elintra.com.ar/2026/10/09/emilia-orozco-sobre-la-interna-en-lla-salta-hay-personas-que-decidieron-estar-mas-cerca-del-gobernador/",
+        "source": "El Intra",
+        "date": "Fri, 09 Oct 2026 18:48:13 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco, más distanciada que nunca de Karina Milei",
         "link": "https://elintra.com.ar/2026/10/07/karina-milei-emilia-orozco-distancia/",
@@ -21626,13 +21676,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Thu, 21 Aug 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Enrique Borelli: \"Lo único que trajo Emilia Orozco a Salta fue un Tik Tok al lado del puente Vaqueros\" - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NMk1oYkdaQ3ZPUVRWbEV3YmlaSGRuRjF4ZU1BanoxRFJaUzlhdlRBcmFhN2RuZzJ6SE5CMkEzVUdoeTJKb1JSSUhwRFJVLTlMd3hIcl91QTZWeEFWT193d3VHMUVoMExmUHlGM1h4OA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 09 Sep 2026 19:25:03 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -21723,11 +21766,11 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 4
+        "count": 3
       },
       {
         "term": "coraita",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
@@ -22548,15 +22591,15 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 5
+        "count": 4
       },
       {
         "term": "zapata",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       }
     ],
     "quotes": [
@@ -24053,22 +24096,18 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 4
-      },
-      {
-        "term": "galíndez",
-        "count": 4
-      },
-      {
-        "term": "elintra",
         "count": 3
       },
       {
-        "term": "puede",
+        "term": "galíndez",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       },
       {
-        "term": "quintela",
+        "term": "puede",
         "count": 2
       }
     ],
@@ -24930,16 +24969,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "guillermo",
-        "count": 2
-      },
-      {
-        "term": "kripper",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "La próxima vez me subo a un banquito",
@@ -25729,20 +25759,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "eduardo",
-        "count": 2
-      },
-      {
-        "term": "virgili",
-        "count": 2
-      },
-      {
-        "term": "elintra",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "No estamos bien todavía",
@@ -26070,13 +26087,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 7,
+    "total_mentions": 9,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 2,
+        "score_sum": 1
+      },
       "2023-11-23": {
         "total": 1,
         "score_sum": 0
@@ -26112,6 +26133,10 @@
         "count": 7
       },
       {
+        "term": "intendentes",
+        "count": 4
+      },
+      {
         "term": "jefe",
         "count": 3
       },
@@ -26120,19 +26145,15 @@
         "count": 3
       },
       {
-        "term": "intendentes",
-        "count": 3
+        "term": "presupuesto",
+        "count": 2
+      },
+      {
+        "term": "primera",
+        "count": 2
       },
       {
         "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "diario",
-        "count": 2
-      },
-      {
-        "term": "valle",
         "count": 2
       }
     ],
@@ -26152,6 +26173,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "En Molinos, comenzó el armado del presupuesto provincial 2027",
+        "link": "https://informatesalta.com.ar/gobierno/en-molinos--comenzo-el-armado-del-presupuesto-provincial-2027_a6ac9537d05849ac9aaabf795",
+        "source": "Informate Salta",
+        "date": "Fri, 09 Oct 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Presupuesto Provincial 2027: concluyó la primera reunión con intendentes y legisladores",
+        "link": "https://elintra.com.ar/2026/10/09/presupuesto-provincial-2027-concluyo-la-primera-reunion-con-intendentes-y-legisladores/",
+        "source": "El Intra",
+        "date": "Fri, 09 Oct 2026 17:26:06 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sergio Camacho expresó su preocupación por el freno de la obra pública en Salta - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUjVsbGhOeEVoVWVlRGwzbU5iMUFMSnA5VFplOE51OHZBVFF4TXBOeERGLWE0TWdaV0VfM2k0djJzSUVISHREMWo4bm56aXV3azhxaVVhaGtPUnNJZ2ZrNjZJczN3Mk5aZDFHTDBFVGVfTk9pc3NFRmliTmFQamJnTkJraXZNV1dTU3JiVFhYRnI2MzMwQ21PWmF2QzRQa2R6OXQ0b2dOWlYwRkJ6cDUyaXRlSXlJSEt2X3JSY1Nod9IBxAFBVV95cUxPWklRVUdkWm5OSmNQRTZqQ2FYWlh5SzhzVHBnUkM5a3pUNjI0YUNpTHNNUVhBUHVrYXhLdFY0dEpsb0htM1N0SGRoWlI3Q25hU3ZpdUdqWHlFV1QxX0VGSWw0TFdhSWhYWThBX1JnbG1HamZYaW5rYmZ4ZkhXR0I1V3hjVW5mTHRfYV9jWTlJWjhDbEVpVFlsWF9MbEZSZkM2M2V3OHlrcFNnSXNUQWZjSmhnOW9KZ3lraGp4b1VCT1JvWk5K?oc=5",
@@ -27529,13 +27564,17 @@
     "id": "eje-manuela-arancibia",
     "name": "Manuela Arancibia",
     "role": "Ministra de Turismo y Deportes",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 3
     },
     "sentiment_by_day": {
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2021-04-30": {
         "total": 1,
         "score_sum": 0
@@ -27561,6 +27600,12 @@
     ],
     "quotes": [
       {
+        "quote": "Raíces Argentinas",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sociedad/banco-macro-inauguro-el-ciclo--raices-argentinas--con-salta-como-provincia-protagonista_a6ac932d205849ac9aa9f3e79",
+        "date": "Fri, 09 Oct 2026 19:30:00 GMT"
+      },
+      {
         "quote": "La conectividad aérea acerca a Salta con el mundo y al mundo con Salta",
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdVN2Q3ZEYURibFJNMEcycHgwaEM2WmJWT19fUXJOSDU4cjlob1A0d2VYWUk3cE44X09UaHdYcWtoSHRtSzhhcFFVSks2Vl9VejlZYVRzMzlVQTdnUnBhOTRISHR6MDc1SzloSjZzdXVqQ1I1RE5YZ0t0eXdLaFhQNjZVT053SjVfaVhBdUM4VGVaTmhRMnJkQjV4OVdERmZRQkFwLVRtRFBacjF2ck1jd18zZlJjT09nR3ZyS9IBwgFBVV95cUxOYl95SHladU5TX3ZxWGh6dkRKYWxHWWU5RV9kc2NEeGtBNlNlT3d0eHFwUWl0WTlxZ1pMVTVhLUxtRWhMTUM5Q0FyWHdHODlmamlwa2ZQVmlVekRyMWhOTnpSUUJuZm5tSzRCOGZQVHpkaEZmTXNqUWFJR1FGcm9IQ3NMc0dZa0VNX0oyWEppbXRsMDdZa2hsb2lpX2ZtTE9NeXdyUTNsdkpLRUUxLThEWDJrME9McFVBLVJnMUQ4ZGtUUQ?oc=5",
@@ -27569,6 +27614,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Banco Macro inauguró el ciclo “Raíces Argentinas” con Salta como provincia protagonista",
+        "link": "https://informatesalta.com.ar/sociedad/banco-macro-inauguro-el-ciclo--raices-argentinas--con-salta-como-provincia-protagonista_a6ac932d205849ac9aa9f3e79",
+        "source": "Informate Salta",
+        "date": "Fri, 09 Oct 2026 19:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Confidencial con Manuela Arancibia, su vida, su familia y su gestión - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOakgzSk1nU2pINDFDYzVBNkVIWG9oeTA0SGdDVUJpTW4wcEhDWUpiVGJ5SndfdjRzRVM5aVh5RS12anpySUZYd1gtdjNGdEtOZ1dzSHlOb3pjWkFSbnFNVVBZbHRObVdHa2pDSmFST0h1eDFvN0R0dW5PVjROdTJYeFFEN2hvdGJXdjJ6MXFHeWIycXdfVmxleGdlOWtaeTNrcll2VVBZeW5GY1lQU1EyYVVPN2NkSEZIWUxHMG5IeUlPWDExX2RRUk93b0dNd9IB3AFBVV95cUxOZnFIanhERENYNE9jUHgzQ2pYSUVYemNnZnpDZWpka1ZIYXNkTlZhNlRpLWYxWTd1OGFVX2R0ZGE3MUhKbXZGbkNtODl3anlnTzlrVVVOTkVLRjVPNU9zQ2U3cHp4aHlQaFNUUXNKd2RWOE41amdBQUdhZzNrTG5pYVdWZHh2MXJXcHRZWnAyOEM0VDh1VXlfZjBXUVluY2lkeXE2WkFQSEZJaGtCT1ZyLXZnMEV5RWtzVklFT2E5NkhrdDNUc1F0eWFGMk1rMGQ1UFFfQm5ZTm5LRmg5?oc=5",
