@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026-10-09T02:00:58.348609+00:00",
+  "generated_at": "2026-10-09T02:03:18.915857+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 220,
+      "total_mentions": 225,
       "sentiment_breakdown": {
-        "positivo": 17,
-        "negativo": 22,
-        "neutral": 181
+        "positivo": 18,
+        "negativo": 24,
+        "neutral": 183
       },
       "sentiment_by_day": {
+        "2026-10-08": {
+          "total": 21,
+          "score_sum": -12
+        },
+        "2026-10-06": {
+          "total": 7,
+          "score_sum": 2
+        },
+        "2026-10-04": {
+          "total": 4,
+          "score_sum": 4
+        },
         "2024-05-07": {
           "total": 3,
           "score_sum": 0
-        },
-        "2026-10-08": {
-          "total": 18,
-          "score_sum": -8
         },
         "2026-10-03": {
           "total": 4,
@@ -36,10 +44,6 @@
           "total": 1,
           "score_sum": 0
         },
-        "2026-10-06": {
-          "total": 6,
-          "score_sum": 0
-        },
         "2026-09-29": {
           "total": 5,
           "score_sum": 0
@@ -47,10 +51,6 @@
         "2026-10-05": {
           "total": 4,
           "score_sum": 0
-        },
-        "2026-10-04": {
-          "total": 3,
-          "score_sum": 4
         },
         "2024-12-17": {
           "total": 1,
@@ -156,7 +156,7 @@
         },
         {
           "term": "intransigente",
-          "count": 47
+          "count": 52
         },
         {
           "term": "discapacidad",
@@ -176,7 +176,7 @@
         },
         {
           "term": "milei",
-          "count": 20
+          "count": 21
         }
       ],
       "politicians_involved": [
@@ -186,6 +186,18 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Lo repudio, creo que está mal",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2J3U2dxcTltcDRad0huZ3NHc2d4YzBySmpfUTF1Ylhlc1dHZlpadjR2OVB3UWlucnlRekZKRVFlanBKd1I1ejZoMHdLSmt1VTY2cVd0Q3VFQkZ5X1VnWjdWZ1NXOFlkZ2NQbml3aEVTcU55VEY2M2VuV0ZJLWxzQXcxWHpoanRtNFEySGZOa2FUS3VHbGhGMDh1cVlsb3FaTF9uVmJrQ182dnNwSG9Ia3RBRzhXUTAwa1BoUFJWUmVzTjJ6bkVIMi1RWEJURGFHZTBLV3o0R2Y4dVFC?oc=5",
+          "date": "Thu, 08 Oct 2026 00:21:45 GMT"
+        },
+        {
+          "quote": "Una fantasía revolucionaria",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeWJUei1GcFFubzlSaHJIbUlYWFVodWRxQ3BjWnZLTHZCOVRQSjZBclkxQm9EdGc2NndBUTI1RV83VkRnV0lrcmc2akNEeWQxTDRGWHFPc09hZUJRT0ttREUxMHo0VkFmNnAwdjQ4OHBzX1FHd2FrTm1jUnU0Qm14RURKa29lRTg?oc=5",
+          "date": "Thu, 08 Oct 2026 20:13:38 GMT"
+        },
         {
           "quote": "Gratis para el Estado, no para el comprador",
           "source": "El Intransigente",
@@ -263,21 +275,44 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONm9YY053d3lSVER4dTk1eTdSMXdSUVQ2OW1KYm4wYmF6SkRpdVNHelhMekg2cy05bXVJN0k0QVFZVGFycHlPR2g1NUdCYlphbDJVbGIzRTVPcERPbWxUSFV0WlIydHAzS00tSG81VjZuTGYyZXVHT05QSmJyY2p6eDdZRQ?oc=5",
           "date": "Wed, 23 Sep 2026 04:43:00 GMT"
-        },
-        {
-          "quote": "Le dije a Milei que tenemos que armar equipo",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFEtOHE3amNyQTFvN0Z0V0VVRV9oVEZ4aE1sQnE4ekNjMHNDVXN1b2NPZk56eGI0WFZBSzVYOS1ieWlERm9wdFNTY20yTjN2eF9LUHZ3VzBIa1ZuR21JZ0VGUnpVM1JDb2ZLal82eUloSERJLUxPREdUZGloVUQtMjhFYkxQdjcyN25nS3pUc2ZNaXBFOVM1OC01cGhnNDI0RkVnTnJn0gGrAUFVX3lxTFA3OGdOck5uRVl2VFRKSkxuc1NISUNGUFIwVWRfanl3TnNpaVdZOUgzQjZMbEF4STl3Q2Z4a2ZhTFFYNUdUblNibC0wZlNOVW03ek9mckFrQ1VhWGtlRmp4RnBPZWVRSFhocGk1NzVWMDlXLXdHREtKc0pQNFBwRndqNHBjbTRtTnpQWUFCbkJiZjI0Tkk1eWVkSnBwcjVfNmFGZVBpUmhyaGpxMA?oc=5",
-          "date": "Sat, 26 Sep 2026 05:04:00 GMT"
-        },
-        {
-          "quote": "Ponele el pecho",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW52cHVCbXhrRGNIRk1nUjgxMHdTWEdtRFlhajVpV2J6NTJXNWxyV3dqUkZzTXBEdTB5Yld5dUlMY2xkTWJZLWs1eHA4VjhGQ0pPb3VJZUtQNm1faXUxemRfQVdHVFZpeEZzOWFxbkdsUXJJTzROUjJsWjVLVzRENXd1eDl6WWZUa2xwaTJyRTc3bTJwNTcwSGRVbl9PYVA4c2JJYXdlOUlVZURveUhwbXlhZmdwZ0hKTzk2NkhzZEZsRk8zTHdkcHdJYjZjTmlVbGswck9NMVRRcVNlMVhn?oc=5",
-          "date": "Fri, 25 Sep 2026 22:01:57 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Argentina e Israel firmaron un memorándum que apunta a reforzar las Fuerzas Armadas - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OYmR6R2VPN0JmVUR0d3RKZGhzbkx0TjM0Nk80dDZsYnhNQk5PUlFTa3NVRVAtTmZJbkVkeWV5Z2hiRkI3WnpUV1VjaWlfLUpnWklIZ0FqaFMycThqS0J0Rk5rWU9qRkZVVFltek9mczNsVkpsS3R2MQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 20:47:21 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Emiliano Yacobitti rechazó la entradera violenta en la Secretaría de Educación: “Lo repudio, creo que está mal” - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2J3U2dxcTltcDRad0huZ3NHc2d4YzBySmpfUTF1Ylhlc1dHZlpadjR2OVB3UWlucnlRekZKRVFlanBKd1I1ejZoMHdLSmt1VTY2cVd0Q3VFQkZ5X1VnWjdWZ1NXOFlkZ2NQbml3aEVTcU55VEY2M2VuV0ZJLWxzQXcxWHpoanRtNFEySGZOa2FUS3VHbGhGMDh1cVlsb3FaTF9uVmJrQ182dnNwSG9Ia3RBRzhXUTAwa1BoUFJWUmVzTjJ6bkVIMi1RWEJURGFHZTBLV3o0R2Y4dVFC?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 00:21:45 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Alejandro Álvarez cruzó a los estudiantes tras la protesta en el Palacio Pizzurno: \"Una fantasía revolucionaria\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeWJUei1GcFFubzlSaHJIbUlYWFVodWRxQ3BjWnZLTHZCOVRQSjZBclkxQm9EdGc2NndBUTI1RV83VkRnV0lrcmc2akNEeWQxTDRGWHFPc09hZUJRT0ttREUxMHo0VkFmNnAwdjQ4OHBzX1FHd2FrTm1jUnU0Qm14RURKa29lRTg?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 20:13:38 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Flávio Bolsonaro sumó el respaldo de PP y União Brasil para el balotaje en Brasil - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8weU1BTnJJUVFOMkFXWVVzRC10dTRwb2lDY1J2X1N0T0RNM20ya014TFcyV185a3JPMkptUkgySFVfSmdzU25lWWhfTHljVWJUNklWZmZFOE9fZWFWdW5NeEM1TVY3QjNZX25PaUxCdjI0M3VhcGRPQXVDMA?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 06 Oct 2026 22:54:14 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Apuntan contra Martín Lousteau tras su llamado a una gran coalición contra Milei - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Kc3hQZEhlTVMzaGtfWnBPcmhtX0NqWmxLaW5EM2wwWmZIYV9sRUVTV1ktUHpPTGJmaHlES2RSNjdRT05JNFNXbjNiOHBMazFFQWFCMXVFWnFILXIzNExfQzRPdi1uY0JLODYtNEdiWlBJUGY5Q1E?oc=5",
+          "source": "El Intransigente",
+          "date": "Sun, 04 Oct 2026 14:23:31 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Salta - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DNXI5enhmblpSMVZPN2hYVXV1a1FjejBkQ09kSlBGWjRLNlF5eGFhbkJsbzZSemxQbmhYM3JpQTJxVGU4dThYbk9OZGEzSW85?oc=5",
@@ -451,41 +486,6 @@
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40Y1Z3VWhzSzhyT0JFLUtlY0t3RGllcU1GOTNhRm42UmplYUd3Ui1IQmROX3dlNXpyOU1QbEtsNkllMlBYQzZBdDAyM2c1eEVYVHRNYWh4eHdjUWRrNWh4cHgwNHVOZ2lLc2pPdGh4RQ?oc=5",
           "source": "El Intransigente",
           "date": "Wed, 07 Oct 2026 18:13:35 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Guadalupe Tagliaferri dejó en evidencia a Jorge Macri: «No faltan fondos, falta gestión» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RX2RLOWdyb2ZtVHJELWxtYjI1eEl3M0pEWUFRUnp1RlR4UHktX3FCRy1DN3VLOUpKV3psY1BYRXk5dmk0MG1LYjZUeWJ4SXdDUVh2ci0zVVZTVENfWEhBLTNpNmE3SzNNcThsQWh4UlhGVlB1bC1uUUxWUQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 00:45:10 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sandra Pettovello denunciará a los estudiantes que tomaron la Secretaría de Educación - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2JFbmFhWlVtaFhZWHppTVd6WTY0TWxZSnRfVXhYUkp6N09ZZm40SUNDTmlQTEdUTnIxVWVVWmhwTHM5NjRZSEdMUmtObFBTYzcxVEZIdFFMRlQzUV9QaU4zcUtnUlpOSTh2d1UwamtFSGdVNThvSVdKRGgzckxyd0JHOV9OQXM?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 00:16:37 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Manuel Adorni: la Justicia inició las pericias sobre sus ocho billeteras de bitcoin - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmcVF1QkJkZUZXMGpHNkR6ajdpLWt2Q0o3MUtNczQzWlpJcEVscHJCUGVwV3p5empjU2hHdzFjUHRlZHNZR3BKazlGS2xXc3loRVc4T3F1SGl4MGEwaElFbVQ2cTh1Z2gtWkwyb1FJZm9TamI4Nk1rQQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 02 Oct 2026 23:47:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sergio Uñac cuestionó al PJ: «Tenemos que dejar de ser extras en la película de Milei» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zX0hmZHJaOTI4SXF2LXltTWZNdUhlMlhhdko1dlpZZG0wNzJNMzlTUXlkcDJYU3FUT1pKLUtwSHlxRVl4UU51ZTNrTkl1SEF3ZWVleVkzR3FZaWNMM211Uno2WW82NWQ0ZjM4?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 07 Oct 2026 17:22:01 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Claudia Neira cuestionó a Jorge Macri por el Presupuesto 2027: “Tiene que ordenar las prioridades” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjZzYXBseG9FSTg5Q1RuV09CR3pQV2xoUVZRbnJYaUxGVzh0cEctbTA1WU50SHBXcUtSZHMwbW1kVjg1MW1DSWZWYzZaSXdDMWlPWkhBdFpwRXBJS3ozQkFwWGdxVmRRWWFnbnZBVWE5NlhqZ2lVd21iM3hpei1CUm1fdmdFeWZfTTZBdTVFOWVGOG1XUUNoT0hRYnNXeGZPSUFfSzJSZXZEYXdERmcyUU9vNHctU2I0aFptcVkxMi1LNWUxNkQ3X1NmOXc?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 07 Oct 2026 23:15:29 GMT",
           "sentiment_label": "negativo"
         }
       ]
