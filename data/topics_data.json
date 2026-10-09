@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-08T23:12:29.644498+00:00",
+  "generated_at": "2026-10-09T01:53:56.995950+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 219,
+      "total_mentions": 220,
       "sentiment_breakdown": {
         "positivo": 17,
         "negativo": 22,
-        "neutral": 180
+        "neutral": 181
       },
       "sentiment_by_day": {
+        "2024-05-07": {
+          "total": 3,
+          "score_sum": 0
+        },
         "2026-10-08": {
           "total": 18,
           "score_sum": -8
-        },
-        "2024-05-07": {
-          "total": 2,
-          "score_sum": 0
         },
         "2026-10-03": {
           "total": 4,
@@ -152,7 +152,7 @@
         },
         {
           "term": "tribuno",
-          "count": 66
+          "count": 67
         },
         {
           "term": "intransigente",
@@ -278,6 +278,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Salta - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DNXI5enhmblpSMVZPN2hYVXV1a1FjejBkQ09kSlBGWjRLNlF5eGFhbkJsbzZSemxQbmhYM3JpQTJxVGU4dThYbk9OZGEzSW85?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 07 May 2024 15:44:02 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Marcela Pagano cuestionó la ciudadanía para extranjeros: “Gratis para el Estado, no para el comprador” - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEhBUExDc0Rza0FEY21fMnNjRUxxRzFRZ1hlTE9IdnpXOG9XVFRRajdrMW5ZSUhlTVRJV2VBQVltVC1HYzU3QnpWcUR6eHJlWHZ3eUViMkpDdDJkSFo2S1VDMDJWWmVfTldMUm9XOEg3a2dHSWo5cDREX1Y2bHl3WDNINE1uLUw1aXNNdlpRVm0tVmJad19iRXBrWmFYbURVM2lybE5lUWZjM0pQTXhtLURwNGtMcjF5TkhIcERTRkRJNm00Z1RlandudS02MTZE?oc=5",
@@ -480,13 +487,6 @@
           "source": "El Intransigente",
           "date": "Wed, 07 Oct 2026 23:15:29 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "Enacom: el Gobierno Nacional designó a Andrés Michelazzo como nuevo interventor - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlNXVPbWJHV0hGczFLVDZUTW9RekcwTHFwbUQwRktlVFB2NFFOekxnckNHQ1hOYnRjWjFnMkVIUGVTRW5vMGRmTUxjeGIwbFlDbXlmLXRLMGJ6M1lmdXZDNXc4ZEFoeDdJbVUzbENlMEpWVDhWUGFLT1JjZmo?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 07 Oct 2026 04:25:26 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },

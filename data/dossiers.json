@@ -3,16 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 218,
+    "total_mentions": 220,
     "sentiment_breakdown": {
-      "positivo": 39,
+      "positivo": 40,
       "negativo": 25,
-      "neutral": 154
+      "neutral": 155
     },
     "sentiment_by_day": {
       "2026-10-08": {
-        "total": 3,
-        "score_sum": -3
+        "total": 4,
+        "score_sum": 2
+      },
+      "2026-10-09": {
+        "total": 1,
+        "score_sum": 0
       },
       "2026-10-07": {
         "total": 2,
@@ -238,23 +242,23 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 30
+        "count": 28
       },
       {
         "term": "gustavo",
-        "count": 14
+        "count": 13
       },
       {
         "term": "parís",
         "count": 11
       },
       {
-        "term": "milei",
+        "term": "litio",
         "count": 8
       },
       {
-        "term": "litio",
-        "count": 8
+        "term": "milei",
+        "count": 7
       },
       {
         "term": "bouvier",
@@ -363,6 +367,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Inauguraron el Edificio Malvinas Argentinas en Ciudad Judicial: qué dependencias funcionarán allí",
+        "link": "https://informatesalta.com.ar/justicia/inauguraron-el-edificio-malvinas-argentinas-en-ciudad-judicial--que-dependencias-funcionaran-alli_a6ac8299403bfb696adc5c761",
+        "source": "Informate Salta",
+        "date": "Thu, 08 Oct 2026 23:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Sáenz y Ada Zunino inauguraron el edificio Malvinas Argentinas en Ciudad Judicial",
+        "link": "https://www.eltribuno.com/salta/2026-10-8-21-41-0-saenz-y-ada-zunino-inauguraron-el-edificio-malvinas-argentinas-en-ciudad-judicial",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 09 Oct 2026 00:41:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz: los 180 días de austeridad llegan a su límite cuando comienza la carrera electoral",
         "link": "https://elintra.com.ar/2026/10/08/saenz-los-180-dias-de-austeridad-llegan-a-su-limite-cuando-comienza-la-carrera-electoral/",
@@ -558,20 +576,6 @@
         "source": "El Intra",
         "date": "Fri, 02 Oct 2026 14:32:00 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gira en París: Gustavo Sáenz destacó su encuentro con Macron para promover nuevas inversiones",
-        "link": "https://elintra.com.ar/2026/10/02/gira-en-paris-gustavo-saenz-destaco-su-encuentro-con-macron-para-promover-nuevas-inversiones/",
-        "source": "El Intra",
-        "date": "Fri, 02 Oct 2026 19:35:00 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Crimen de las francesas: Gustavo Sáenz se reuniría con Michel Bouvier, padre de una de las chicas asesinadas",
-        "link": "https://www.eltribuno.com/salta/2026-10-2-13-58-0-saenz-se-reuniria-con-jean-michel-bouvier-padre-de-cassandre-bouvier",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 02 Oct 2026 16:58:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -6464,18 +6468,6 @@
       },
       {
         "term": "curá",
-        "count": 2
-      },
-      {
-        "term": "carta",
-        "count": 2
-      },
-      {
-        "term": "municipal",
-        "count": 2
-      },
-      {
-        "term": "institucional",
         "count": 2
       }
     ],
@@ -17514,13 +17506,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 38,
+    "total_mentions": 39,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 10,
-      "neutral": 28
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2026-09-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-03-12": {
         "total": 1,
         "score_sum": 0
@@ -17657,15 +17653,23 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 4
+        "count": 5
       },
       {
         "term": "jorge",
-        "count": 4
+        "count": 5
       },
       {
         "term": "saravia",
         "count": 3
+      },
+      {
+        "term": "municipio",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "josé",
@@ -17681,6 +17685,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "¿Dónde pone el municipio la prioridad de las obras?",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSi1oX3ZYUkNHXy05R3FzVGd3QzZOVlc4ZTY1THRYTEJZY1lyQXJGenVTamVEWkQxZDM3OGFseG5YZnhwNlIwZlJyYUMxaDVWaFVST0NFdmg2bGc4dGpfdjk4c0k0dG14TTBOU1JwV0FGb0s2NTY4SHh3cDZ3TEdsQVRXS01sdw?oc=5",
+        "date": "Fri, 04 Sep 2026 01:22:53 GMT"
+      },
       {
         "quote": "estudiar el reglamento",
         "source": "Defrentesalta",
@@ -17751,6 +17761,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Jorge: “¿Dónde pone el municipio la prioridad de las obras?” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSi1oX3ZYUkNHXy05R3FzVGd3QzZOVlc4ZTY1THRYTEJZY1lyQXJGenVTamVEWkQxZDM3OGFseG5YZnhwNlIwZlJyYUMxaDVWaFVST0NFdmg2bGc4dGpfdjk4c0k0dG14TTBOU1JwV0FGb0s2NTY4SHh3cDZ3TEdsQVRXS01sdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 04 Sep 2026 01:22:53 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tensión en el Concejo Deliberante de Salta: Madile le pidió a Laura Jorge “estudiar el reglamento” - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXl1dTZSNjVrVklkeS1XcEhvYzh1NGYwZEh4d180RTlzekR5OEQwWTZ1R0dvX1hUMjlnNWNzejYzcnRVOTBmblJXcXhPWWk5aDVXcnZRbkZ1NHA0X1hNOVF0Z1NIbTVacUk4TFl5U3JkWVo4clRvU1MwaUFkdUhEMWV2NWNJRDc3SE1vWmctQjc1VjdGYTdhQ1oycENycmV0VF9JbUtVaThxMjhyNWJZYW50dWdzSXV6SWlMWHpJdGpQb00?oc=5",
@@ -17952,13 +17969,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeEp0OUFBbEFDVVZ3RUx0WWdwVUFsdnRCNXBWVmt0WkJKSk9HSldZdVdNX1JyMU1NZEdUNENkWlIxVHVsdEhpd3JRaE1peFkzYXdwTjFVblotaFRURGZLRTBrU0t6ZTZSQTAxRFptYXNCRXNId1k5djA4YlRLSFdueTk0cHRVOUdmelhPczZZcGdfUW0xaE1pSzUybEprZzExSXo2ZFRET2xEclgydDlHcENtMnhvekc5Qy1QX2hLM1gtWnkxT2wzcW9iMVhrcGpKUmdya01LMU5oQk1fX2VjVXVDdXnSAfMBQVVfeXFMTWRVYnFaOVlrWkg1RTN4cDl2OWs0M1lLVVNzbHZYMEtCcWdMUWI5X0lSUjQzcEhLbEQwM1NacXBjUU0xS3M0cW9FbER3LW5yOXlIcDJDM1hFSU5KdnRST051M2NXMllYaDlMUkMxZjNtZ0FUOVJUcV9uYThjNmN3M1ljcXZtZEVTb1AwUE9xenNjTTdSOTdnQ1ZjTk9zdW84MjZQTUFzRXl6ZjlVelNIckNXczVxWFNzWnZGN003RkFhWHh0X2tTMTE3Ukc4dTJ2Rkl5Qjh6OEFxZjQwXzNEeDdKcGt2UGEwTFJVRjM0WGlFYmdZ?oc=5",
         "source": "Informate Salta",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Crece la polémica en el Concejo Deliberante: pedirán la denuncia contra Casasola por violencia de género - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLWhtcGkwcmlyekdKem9GX1NIOGI4ZTQ1NS1BOU02X0ZodHl1aEg5ejVtakxiZ0RFdTdxXzRVUjY4dWZMSFA1NGpqclZuRjZPdzQzMkVHU2JFTy1PLXg0MFV2eUJmYjF6ZElVTEpQV0dLaEdJWTB4Ulpwb1pVMC10dE0zR1BvWF8tR1d5c1hVcllHS1JPeHJmUG5jVHllSVFRUVJhc2xLbVAwZXQ3UTEyYzB6VWFiRGtsdlNWYWtTZHZPMUUyeFhiZ094YTJzaTU5TkQxNTNxcVRzUXlhRTloRWZaSXVWTXfSAewBQVVfeXFMTmFKcXc1SFppUklhYlZ4OFp0THVmMWVJaXN0S1RlemdGVkhxUzYxaVNhMWhUOURFYmt6YVl4aEc3bkQtTExHU1ZEd0szdHlFUG1lOXNNanhQX0xtSEkwbXBiNEVNak9MeFFna2dnT2tFNWdEa0wyQmZ3NjdFYjBHY0Z4UGQxOTVJLWhGc2pkbkttN25XMWFVbVVqbkVQX0xjSzQzVnBZR1g3WHo2Y3lBNE5MM29vdi0yc0YzRDNocXpiUTBGWmpoVUo0Q0M4RENhZFVMdWlHNVVOUVAzaXVmS01Ick9TSzFsbmc4QXM?oc=5",
-        "source": "eltribuno.com",
-        "date": "Fri, 06 Mar 2026 08:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -20185,13 +20195,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-08-31": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-07": {
         "total": 1,
         "score_sum": 0
@@ -20224,11 +20238,11 @@
     "top_topics": [
       {
         "term": "quinteros",
-        "count": 4
+        "count": 5
       },
       {
         "term": "rodrigo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "libertad",
@@ -20244,6 +20258,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Olmedo no sabe lo que pasa en la provincia, ni en su espacio",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dEt6bl9aR1JPejNWaHQwSFk0MEJCQjhidzdVdFd6cXlSVDVFU0tBRHJJMWxPbGZOUUlXSkMtS3hrck03dlpuY1QwdVNJcnF5Q1pxMnlZcWhBZllRa2R0LU9uNFh1UGkyYV9uZjRjZHB4YjN3?oc=5",
+        "date": "Mon, 31 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "Salta es una de las provincias que más dolores de cabeza le ha causado a LLA",
         "source": "El Intra",
@@ -20265,6 +20285,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros: “Olmedo no sabe lo que pasa en la provincia, ni en su espacio” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dEt6bl9aR1JPejNWaHQwSFk0MEJCQjhidzdVdFd6cXlSVDVFU0tBRHJJMWxPbGZOUUlXSkMtS3hrck03dlpuY1QwdVNJcnF5Q1pxMnlZcWhBZllRa2R0LU9uNFh1UGkyYV9uZjRjZHB4YjN3?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 31 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Rodrigo Quinteros: “Salta es una de las provincias que más dolores de cabeza le ha causado a LLA”",
         "link": "https://elintra.com.ar/2026/10/07/rodrigo-quinteros-salta-es-una-de-las-provincias-que-mas-dolores-de-cabeza-le-ha-causado-a-lla/",
@@ -22125,13 +22152,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 18,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 2,
+      "negativo": 3,
       "neutral": 15
     },
     "sentiment_by_day": {
+      "2025-08-26": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-10-26": {
         "total": 3,
         "score_sum": 0
@@ -22189,8 +22220,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "gabriela",
+        "count": 2
+      },
+      {
+        "term": "flores",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Ahora o nunca",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQem1RRF9SYWFZU0loWmwtbklnRkkxdTJSbDZBN1dHVUtEdXA0Z3NzMG9XZG9YdENTeTZ4UUN2SUNDZkxILWdNS2FibTNmS3FvdkJoaVVZWVJQLVdvUGpfdF9ORGtGTTc2R29kSzZIS1d6N3YtVUswSW50THRYbEJ2UVcwQTVMTkY3Q3hKRG1uU1NBcHRyWHBscTdwU1RROUM1Y1lZSVp5MGJJVUZPeVdrdDFhc2w3TUhSQUhXQ2p5ZnI5ck9FLUEwUWlSYXFhMzBaS0pFbFFZV0hyczRjZFUzTXB0OWh6TVhNM3p0NUpPbHZTWWlIWkVIZnBGMVY5dGJPMWpB0gGSAkFVX3lxTE9DYVNVRnlaYmpzbGJGN2VmcFdDVW1jSWtlM1YyWGZOWE5CMmU0Zk9RcWotR25Oek1OOGYzSjFFSDhkYmYyYllPZU54TEJnQWNVRWt3VzN2RzM4cHp0di1PbGxWTVduNU03aU5HSDEyVjVJTnpCeU1LZkxQZzRCYXpSSkVGWVU1LVlycnFTZ0hLeUJ5YUdFcnBLUW85alI2a0g0QWNZWHV6SnYwUmVzSTdCQ3REa3NLZ2FCQ2dYQUY0OEU5S0xmRUwwenJqV3J0X3FZMHRfR0R5Yl9OQWRXWkNfSG5ZYnJyLXdsVzJnZVVsTnAtOS1CMjhDRmRlcUdENG1RTVhWNmV0Rk93QkRXNVEwOEE?oc=5",
+        "date": "Tue, 26 Aug 2025 07:00:00 GMT"
+      },
       {
         "quote": "El diálogo y el consenso son el mejor camino",
         "source": "Que Pasa Salta",
@@ -22224,6 +22270,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“Ahora o nunca”: Gabriela Flores explicó por qué decidió ser candidata y opinó sobre el escándalo en ANDIS - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQem1RRF9SYWFZU0loWmwtbklnRkkxdTJSbDZBN1dHVUtEdXA0Z3NzMG9XZG9YdENTeTZ4UUN2SUNDZkxILWdNS2FibTNmS3FvdkJoaVVZWVJQLVdvUGpfdF9ORGtGTTc2R29kSzZIS1d6N3YtVUswSW50THRYbEJ2UVcwQTVMTkY3Q3hKRG1uU1NBcHRyWHBscTdwU1RROUM1Y1lZSVp5MGJJVUZPeVdrdDFhc2w3TUhSQUhXQ2p5ZnI5ck9FLUEwUWlSYXFhMzBaS0pFbFFZV0hyczRjZFUzTXB0OWh6TVhNM3p0NUpPbHZTWWlIWkVIZnBGMVY5dGJPMWpB0gGSAkFVX3lxTE9DYVNVRnlaYmpzbGJGN2VmcFdDVW1jSWtlM1YyWGZOWE5CMmU0Zk9RcWotR25Oek1OOGYzSjFFSDhkYmYyYllPZU54TEJnQWNVRWt3VzN2RzM4cHp0di1PbGxWTVduNU03aU5HSDEyVjVJTnpCeU1LZkxQZzRCYXpSSkVGWVU1LVlycnFTZ0hLeUJ5YUdFcnBLUW85alI2a0g0QWNZWHV6SnYwUmVzSTdCQ3REa3NLZ2FCQ2dYQUY0OEU5S0xmRUwwenJqV3J0X3FZMHRfR0R5Yl9OQWRXWkNfSG5ZYnJyLXdsVzJnZVVsTnAtOS1CMjhDRmRlcUdENG1RTVhWNmV0Rk93QkRXNVEwOEE?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 26 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gabriela Flores: \"El diálogo y el consenso son el mejor camino\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkFHRWl1V0RUdllwc0s5eTVOTmpqQTZNcUtVUVBHMmp2akhMeGZMWnA5b3F0bUJLV3F5a1I5dHloaHhvcFR3TG5Obm9TbzJIUVFVVDJRaDROVlBkRXFhcnI2ZDlzb0RWZGY2aUtnUWtSMTdqQThKU19xdmU4dnhac19WVmswc2w0YXBQZ2pIRnVMalV2Nno2TTJLc0hTMW9IWl9lbNIBpAFBVV95cUxNVkFHRWl1V0RUdllwc0s5eTVOTmpqQTZNcUtVUVBHMmp2akhMeGZMWnA5b3F0bUJLV3F5a1I5dHloaHhvcFR3TG5Obm9TbzJIUVFVVDJRaDROVlBkRXFhcnI2ZDlzb0RWZGY2aUtnUWtSMTdqQThKU19xdmU4dnhac19WVmswc2w0YXBQZ2pIRnVMalV2Nno2TTJLc0hTMW9IWl9lbA?oc=5",
@@ -24008,11 +24061,11 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 6
+        "count": 5
       },
       {
         "term": "galíndez",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
