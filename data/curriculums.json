@@ -1,0 +1,775 @@
+{
+  "_leeme": "Currículums de funcionarios del Ejecutivo. Solo se carga lo que dice una fuente enlazada; lo que no figura queda vacío, nunca se completa de memoria. Para sumar a alguien, copiá un bloque, usá el mismo id que en politicians.json y agregá las fuentes.",
+  "personas": {
+    "gustavo-saenz": {
+      "resumen": "Gobernador de Salta desde el 10 de diciembre de 2019, reelecto para un segundo mandato. Antes fue intendente de la ciudad de Salta.",
+      "trayectoria": [
+        {
+          "cargo": "Intendente de la ciudad de Salta",
+          "periodo": "hasta 2019"
+        },
+        {
+          "cargo": "Gobernador de Salta",
+          "periodo": "desde 10/12/2019 (segundo mandato desde 2023)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: gabinete 2019 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-gustavo-saenz-tomo-juramento-al-nuevo-gabinete-de-ministros-67493"
+        },
+        {
+          "titulo": "Letra P, 04/12/2024",
+          "url": "https://www.letrap.com.ar/politica/salta-gustavo-saenz-sacudio-su-gabinete-entrar-lleno-la-campana-electoral-n5412881"
+        },
+        {
+          "titulo": "Wikipedia: Bettina Romero (sucesión en la intendencia)",
+          "url": "https://en.wikipedia.org/wiki/Bettina_Romero"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-antonio-marocco": {
+      "resumen": "Periodista de profesión, según su CV en el sitio oficial. Preside la Cámara de Senadores como vicegobernador.",
+      "trayectoria": [
+        {
+          "cargo": "Diputado provincial",
+          "periodo": "2005-2007"
+        },
+        {
+          "cargo": "Ministro de Gobierno",
+          "periodo": "2007-2009"
+        },
+        {
+          "cargo": "Coordinador de Asuntos Políticos de la Gobernación",
+          "periodo": "2010"
+        },
+        {
+          "cargo": "Vicegobernador de Salta",
+          "periodo": "en ejercicio"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "CV oficial en Vicegobernación (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/organismos/vicegobernacion-2"
+        },
+        {
+          "titulo": "Nómina oficial de autoridades del Poder Ejecutivo",
+          "url": "https://www.salta.gob.ar/organismos/nomina-autoridades-poder-ejecutivo"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-sergio-camacho": {
+      "resumen": "Ingeniero civil y ex docente. Con Sáenz fue ministro de Infraestructura y coordinador de Enlace y Relaciones Políticas; al asumir la Jefatura de Gabinete absorbió ambas áreas.",
+      "trayectoria": [
+        {
+          "cargo": "Ministro de Infraestructura",
+          "periodo": "dic. 2019 a nov. 2025, según su CV oficial"
+        },
+        {
+          "cargo": "Coordinador de Enlace y Relaciones Políticas de la Gobernación",
+          "periodo": "desde dic. 2023"
+        },
+        {
+          "cargo": "Ministro de la Producción de Salta",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Interventor del Teleférico Salta",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Coordinador de las Secretarías de Turismo y de Desarrollo Social",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Coordinador general durante la intervención de la Municipalidad de Tartagal",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Jefe de Gabinete de Ministros",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [
+        "Ingeniero Civil"
+      ],
+      "fuentes": [
+        {
+          "titulo": "CV oficial en la Jefatura de Gabinete (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/organismos/jefatura-de-gabinete-de-ministros-4"
+        },
+        {
+          "titulo": "Nota oficial: asume la Jefatura de Gabinete",
+          "url": "https://www.salta.gob.ar/prensa/noticias/jefatura-de-gabinete-un-nuevo-rol-clave-del-gobierno-para-la-articulacion-eficiencia-y-proximidad-ciudadana-105466"
+        },
+        {
+          "titulo": "Boletín Oficial: Decreto 865/23",
+          "url": "https://boletinoficialsalta.gob.ar/instrumento.php?cXdlcnR5dGFibGE9RHw4NjUvMjNxd2VydHk="
+        }
+      ],
+      "actualizado": "2026-10-08"
+    },
+    "eje-ignacio-jarsun": {
+      "resumen": "Político de Rosario de Lerma, nacido en 1986. Fue concejal, intendente de su ciudad y diputado provincial, y fundó el partido Todos por Salta, del que fue elegido presidente. Asumió el ministerio ad honorem y en paralelo a la presidencia de Aguas del Norte, según dijo al jurar.",
+      "trayectoria": [
+        {
+          "cargo": "Concejal de Rosario de Lerma",
+          "periodo": "desde 2007 (reelecto en 2009)"
+        },
+        {
+          "cargo": "Diputado provincial por Rosario de Lerma",
+          "periodo": "dos mandatos: 2011-2015 y 2019-2022 (fue vicepresidente primero de la Cámara)"
+        },
+        {
+          "cargo": "Intendente de Rosario de Lerma",
+          "periodo": "2015-2019"
+        },
+        {
+          "cargo": "Presidente de Aguas del Norte",
+          "periodo": "desde dic. 2022"
+        },
+        {
+          "cargo": "Segundo candidato a senador nacional por Primero los Salteños",
+          "periodo": "2025"
+        },
+        {
+          "cargo": "Ministro de Gobierno y Justicia, en reemplazo de Ricardo Villada",
+          "periodo": "desde 15/12/2025 (ad honorem)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: nombramiento en Aguas del Norte",
+          "url": "https://www.salta.gob.ar/prensa/noticias/ignacio-jarsun-recibio-el-decreto-de-nombramiento-como-presidente-de-aguas-del-norte-87013"
+        },
+        {
+          "titulo": "Nota oficial: jura como ministro, 15/12/2025",
+          "url": "https://www.salta.gob.ar/prensa/noticias/seguiremos-trabajando-en-el-territorio-fortaleciendo-la-labor-con-los-municipios-y-las-distintas-organizaciones-105467"
+        },
+        {
+          "titulo": "Wikipedia: Ignacio Jarsún",
+          "url": "https://es.wikipedia.org/wiki/Ignacio_Jars%C3%BAn"
+        },
+        {
+          "titulo": "Letra P: quién es el ministro de Gobierno",
+          "url": "https://www.letrap.com.ar/politica/salta-quien-es-el-ministro-vinculo-fino-los-intendentes-que-se-muestra-como-nueva-cara-del-saencismo-n5421623"
+        }
+      ],
+      "actualizado": "2026-10-08"
+    },
+    "eje-roberto-dib-ashur": {
+      "resumen": "Contador público y docente universitario; único integrante del gabinete que continúa desde el inicio de la gestión de Sáenz.",
+      "trayectoria": [
+        {
+          "cargo": "Ministro de Economía y Servicios Públicos",
+          "periodo": "desde 2019"
+        },
+        {
+          "cargo": "Ministro de Educación, Ciencia y Tecnología de Salta",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Subsecretario de Financiamiento Internacional",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Candidato a diputado provincial por el Frente Salteño",
+          "periodo": "2017"
+        },
+        {
+          "cargo": "Profesor, Universidad Nacional de Salta (Liderazgo y Resolución de Conflictos, Maestría en Administración Pública)",
+          "periodo": "sin fecha"
+        },
+        {
+          "cargo": "Vicerrector Administrativo y profesor, Universidad Católica de Salta",
+          "periodo": "sin fecha"
+        },
+        {
+          "cargo": "Socio fundador de Delta Consultores",
+          "periodo": "sin fecha"
+        }
+      ],
+      "formacion": [
+        "Contador Público Nacional",
+        "Máster y Magíster en Economía; Maestría en Liderazgo Estratégico y Liderazgo Empresarial",
+        "Capacitación en liderazgo, Escuela de Gobierno John F. Kennedy (Universidad de Harvard)"
+      ],
+      "fuentes": [
+        {
+          "titulo": "CV oficial del Ministro de Economía (economiasalta.gob.ar)",
+          "url": "https://economiasalta.gob.ar/ministro-de-economia-y-servicios-publicos/"
+        },
+        {
+          "titulo": "Voces Críticas, 15/12/2025",
+          "url": "https://www.vocescriticas.com/noticias/2025/12/15/190164-gabinete-de-salta-2026-los-nuevos-ministros-y-secretarios-de-gustavo-saenz-que-hoy-seran-oficializados"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-mario-mimessi": {
+      "resumen": "Figura como ministro de Desarrollo Social en el gabinete de diciembre de 2023 y sigue en funciones en 2026. La fuente no trae más datos biográficos.",
+      "trayectoria": [
+        {
+          "cargo": "Ministro de Desarrollo Social",
+          "periodo": "desde dic. 2023 como mínimo; vigente"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: gabinete del período 2023-2027 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-al-gabinete-que-lo-acompaniara-en-el-nuevo-periodo-constitucional-93298"
+        },
+        {
+          "titulo": "Nota oficial: reunión de gabinete (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/gestion-con-enfoque-federal-ministros-analizan-metas-y-resultados-territoriales-106170"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-ignacio-lupion": {
+      "resumen": "Médico veterinario, empresario y dirigente agropecuario y político, según su CV oficial. Vive hace años en Las Lajitas. Reemplazó a Martín de los Ríos.",
+      "trayectoria": [
+        {
+          "cargo": "Comisión Directiva de la Sociedad Rural Salteña (vocal, secretario, vicepresidente y presidente)",
+          "periodo": "2004-2016"
+        },
+        {
+          "cargo": "Comisión Veterinaria de la Asociación Argentina de Brangus",
+          "periodo": "2012-2014"
+        },
+        {
+          "cargo": "Mesa Agropecuaria del NOA",
+          "periodo": "2014-2015"
+        },
+        {
+          "cargo": "Vicepresidente de la Bolsa de Cereales y Afines del NOA",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Presidente de Salta Forestal SA",
+          "periodo": "desde 2024"
+        },
+        {
+          "cargo": "Ministro de Producción y Minería (Decreto 877/25)",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [
+        "Médico veterinario"
+      ],
+      "fuentes": [
+        {
+          "titulo": "CV oficial en el Ministerio de Producción y Minería",
+          "url": "https://www.salta.gob.ar/organismos/ministerio-de-produccion-y-mineria-10"
+        },
+        {
+          "titulo": "Sitio del Ministerio de Producción y Minería",
+          "url": "https://produccionsalta.gob.ar/"
+        },
+        {
+          "titulo": "Boletín Oficial: Decreto 877/25",
+          "url": "https://boletinoficialsalta.gob.ar/Imprimir_doc.php?cXdlcnR5dGFibGE9RHw4NzcvMjUmY2FiZT08aDY+IFB1YmxpY2FkbyBlbiBlbCBCb2xldMODwq1uIE9maWNpYWwgTsOCwrAgMjE3OTgsIGVsIGTDg8KtYSAyMyBkZSBTZXB0aWVtYnJlIGRlIDIwMjQ8L2g2PjxCUj5xd2VydHk="
+        },
+        {
+          "titulo": "Letra P: quién es el ministro de Producción",
+          "url": "https://www.letrap.com.ar/economia/salta-quien-es-el-ministro-que-le-da-otra-vuelta-rosca-al-perfil-minero-la-gestion-gustavo-saenz-n5420982"
+        }
+      ],
+      "actualizado": "2026-10-08"
+    },
+    "eje-federico-mangione": {
+      "resumen": "Médico cirujano, especialista en pediatría. Asumió el Ministerio de Salud Pública tras la renuncia de Juan José Esteban y continuó en los gabinetes de 2023 y 2026.",
+      "trayectoria": [
+        {
+          "cargo": "Presidente del directorio del Hospital Público Materno Infantil S.E.",
+          "periodo": "desde 08/01/2020"
+        },
+        {
+          "cargo": "Ministro de Salud Pública",
+          "periodo": "desde 27/12/2022; vigente"
+        }
+      ],
+      "formacion": [
+        "Médico cirujano, especialista en pediatría"
+      ],
+      "fuentes": [
+        {
+          "titulo": "Wikipedia: Federico Mangione",
+          "url": "https://es.wikipedia.org/wiki/Federico_Mangione"
+        },
+        {
+          "titulo": "Nota oficial: asume Mangione",
+          "url": "https://casa.salta.gob.ar/noticias/gobernacion-18/el-gobernador-saenz-tomo-juramento-al-nuevo-ministro-de-salud-publica-y-a-secretarios-del-gobierno-de-salta-1694"
+        },
+        {
+          "titulo": "Nota oficial: gabinete 2023-2027",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-al-gabinete-que-lo-acompaniara-en-el-nuevo-periodo-constitucional-93298"
+        }
+      ],
+      "actualizado": "2026-10-08"
+    },
+    "eje-cristina-fiore": {
+      "resumen": "Fue senadora nacional por Salta y secretaria de Protección Ciudadana antes de ser ministra, según las fuentes que cita Wikipedia.",
+      "trayectoria": [
+        {
+          "cargo": "Senadora nacional por Salta",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Secretaria de Protección Ciudadana",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Ministra de Educación, Cultura, Ciencia y Tecnología",
+          "periodo": "desde dic. 2023; vigente"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: gabinete del período 2023-2027 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-al-gabinete-que-lo-acompaniara-en-el-nuevo-periodo-constitucional-93298"
+        },
+        {
+          "titulo": "Wikipedia: Cristina Fiore",
+          "url": "https://en.wikipedia.org/wiki/Cristina_Fiore"
+        },
+        {
+          "titulo": "Nota oficial: reunión de gabinete (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/gestion-con-enfoque-federal-ministros-analizan-metas-y-resultados-territoriales-106170"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-manuela-arancibia": {
+      "resumen": "Juró como ministra de Turismo y Deportes en diciembre de 2024, tras la salida de Mario Peña.",
+      "trayectoria": [
+        {
+          "cargo": "Ministra de Turismo y Deportes",
+          "periodo": "desde dic. 2024; vigente"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: nuevos ministros, diciembre 2024 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-a-los-nuevos-miembros-del-gabinete-provincial-99064"
+        },
+        {
+          "titulo": "Letra P, 04/12/2024",
+          "url": "https://www.letrap.com.ar/politica/salta-gustavo-saenz-sacudio-su-gabinete-entrar-lleno-la-campana-electoral-n5412881"
+        },
+        {
+          "titulo": "Nota oficial: reunión de gabinete (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/gestion-con-enfoque-federal-ministros-analizan-metas-y-resultados-territoriales-106170"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-nicolas-avellaneda": {
+      "resumen": "Colaborador de Sáenz desde su etapa como intendente de la ciudad de Salta, según el gobernador. Asumió el Ministerio de Seguridad tras la salida de Gaspar Solá.",
+      "trayectoria": [
+        {
+          "cargo": "Secretario de Industria, Comercio y Empleo (Ministerio de Producción y Desarrollo Sustentable)",
+          "periodo": "desde dic. 2019, según la nota oficial"
+        },
+        {
+          "cargo": "Secretario de Seguridad",
+          "periodo": "desde 05/12/2024 hasta jul. 2026"
+        },
+        {
+          "cargo": "Ministro de Seguridad",
+          "periodo": "desde 07/07/2026"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: asume Nicolás Avellaneda, 07/07/2026 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-al-nuevo-ministro-de-seguridad-nicolas-avellaneda-108842"
+        },
+        {
+          "titulo": "Nota oficial: nuevos ministros, diciembre 2024 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-a-los-nuevos-miembros-del-gabinete-provincial-99064"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-juan-vilchez": {
+      "resumen": "Según el gobernador, su designación reconoce una carrera dentro de las fuerzas de seguridad.",
+      "trayectoria": [
+        {
+          "cargo": "Secretario de Seguridad",
+          "periodo": "desde 07/07/2026"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: asume Nicolás Avellaneda, 07/07/2026 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-gobernador-saenz-tomo-juramento-al-nuevo-ministro-de-seguridad-nicolas-avellaneda-108842"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-oriana-nevora": {
+      "resumen": "Asumió como secretaria de Gobierno en la primera etapa de la nueva Ley de Ministerios.",
+      "trayectoria": [
+        {
+          "cargo": "Secretaria de Gobierno",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: asunción del nuevo gabinete, 15/12/2025 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/saltenios-tengan-la-certeza-que-salta-es-y-sera-la-perla-del-norte-argentino-afirmo-saenz-en-la-asuncion-del-nuevo-gabinete-105465"
+        },
+        {
+          "titulo": "Voces Críticas, 15/12/2025",
+          "url": "https://www.vocescriticas.com/noticias/2025/12/15/190164-gabinete-de-salta-2026-los-nuevos-ministros-y-secretarios-de-gustavo-saenz-que-hoy-seran-oficializados"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-javier-monico": {
+      "resumen": "Asumió como secretario de Justicia en la primera etapa de la nueva Ley de Ministerios.",
+      "trayectoria": [
+        {
+          "cargo": "Secretario de Justicia",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: asunción del nuevo gabinete, 15/12/2025 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/saltenios-tengan-la-certeza-que-salta-es-y-sera-la-perla-del-norte-argentino-afirmo-saenz-en-la-asuncion-del-nuevo-gabinete-105465"
+        },
+        {
+          "titulo": "Voces Críticas, 15/12/2025",
+          "url": "https://www.vocescriticas.com/noticias/2025/12/15/190164-gabinete-de-salta-2026-los-nuevos-ministros-y-secretarios-de-gustavo-saenz-que-hoy-seran-oficializados"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "eje-gustavo-carrizo": {
+      "resumen": "Ex senador provincial y ex presidente del Instituto Provincial de Vivienda (IPV), según la prensa. Es secretario de Minería y Energía dentro del Ministerio de Producción y Minería.",
+      "trayectoria": [
+        {
+          "cargo": "Senador provincial",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Presidente del IPV",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Secretario de Minería y Energía",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Nota oficial: nuevas autoridades de Producción y Minería, 16/12/2025",
+          "url": "https://www.salta.gob.ar/prensa/noticias/nuevas-autoridades-asumen-el-liderazgo-productivo-de-salta-con-foco-en-el-desarrollo-y-el-cuidado-ambiental-105471"
+        },
+        {
+          "titulo": "Voces Críticas, 15/12/2025",
+          "url": "https://www.vocescriticas.com/noticias/2025/12/15/190164-gabinete-de-salta-2026-los-nuevos-ministros-y-secretarios-de-gustavo-saenz-que-hoy-seran-oficializados"
+        }
+      ],
+      "actualizado": "2026-10-08"
+    },
+    "eje-ana-paula-benavides": {
+      "resumen": "Pasó de la Secretaría de Gobierno a la Subsecretaría de Vocería y Comunicación.",
+      "trayectoria": [
+        {
+          "cargo": "Secretaria de Gobierno",
+          "periodo": "desde dic. 2024"
+        },
+        {
+          "cargo": "Subsecretaria de Vocería y Comunicación",
+          "periodo": "desde 15/12/2025"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Letra P, 04/12/2024",
+          "url": "https://www.letrap.com.ar/politica/salta-gustavo-saenz-sacudio-su-gabinete-entrar-lleno-la-campana-electoral-n5412881"
+        },
+        {
+          "titulo": "Nota oficial: asunción del nuevo gabinete, 15/12/2025 (salta.gob.ar)",
+          "url": "https://www.salta.gob.ar/prensa/noticias/saltenios-tengan-la-certeza-que-salta-es-y-sera-la-perla-del-norte-argentino-afirmo-saenz-en-la-asuncion-del-nuevo-gabinete-105465"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "snac-flavia-royon": {
+      "resumen": "Ingeniera industrial. Fue secretaria de Energía de la Nación con Alberto Fernández y secretaria de Minería con Milei hasta febrero de 2024.",
+      "trayectoria": [
+        {
+          "cargo": "Senadora nacional por Salta",
+          "periodo": "desde 10/12/2025 (hasta 09/12/2031)"
+        },
+        {
+          "cargo": "Secretaria Ejecutiva de la Mesa del Litio",
+          "periodo": "2024-2025"
+        },
+        {
+          "cargo": "Secretaria de Minería y Energía de Salta",
+          "periodo": "2021-2022"
+        },
+        {
+          "cargo": "Presidenta del Directorio de CAMMESA",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Presidenta del Consejo Federal de Energía",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Presidenta del Consejo Económico y Social de Salta",
+          "periodo": "sin fecha en la fuente"
+        }
+      ],
+      "formacion": [
+        "Ingeniera Industrial"
+      ],
+      "fuentes": [
+        {
+          "titulo": "CV oficial en senado.gob.ar",
+          "url": "https://www.senado.gob.ar/senadores/senador/593"
+        },
+        {
+          "titulo": "Chequeado: quiénes son los senadores de 2025",
+          "url": "https://chequeado.com/el-explicador/de-patricia-bullrich-a-gerardo-zamora-uno-por-uno-quienes-son-los-24-senadores-electos-en-las-legislativas-2025/"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "resumen": "Abogado, nacido en Salta en 1976. Fue asesor legislativo en la provincia, ejerció la profesión y dio clases en la universidad. Dirigió Salta Transparente.",
+      "trayectoria": [
+        {
+          "cargo": "Senador nacional por Salta",
+          "periodo": "desde 10/12/2025 (hasta 09/12/2031)"
+        },
+        {
+          "cargo": "Presidente de la Comisión de Justicia y Asuntos Penales",
+          "periodo": "desde 2025"
+        },
+        {
+          "cargo": "Director de Salta Transparente",
+          "periodo": "sin fecha en la fuente"
+        }
+      ],
+      "formacion": [
+        "Abogado",
+        "Especialista en Derecho de Daños, Universidad Nacional del Litoral (2009)",
+        "Diplomatura en Derecho Procesal Constitucional, Escuela de la Magistratura de Salta y Universidad Católica de Salta (2017)"
+      ],
+      "fuentes": [
+        {
+          "titulo": "CV oficial en senado.gob.ar",
+          "url": "https://www.senado.gob.ar/senadores/senador/592"
+        },
+        {
+          "titulo": "Chequeado: quiénes son los senadores de 2025",
+          "url": "https://chequeado.com/el-explicador/de-patricia-bullrich-a-gerardo-zamora-uno-por-uno-quienes-son-los-24-senadores-electos-en-las-legislativas-2025/"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "snac-emilia-orozco": {
+      "resumen": "Ex concejal y ex diputada nacional por La Libertad Avanza; pasó al Senado en diciembre de 2025. Según El Tribuno, Alfredo Olmedo es su «padrino político».",
+      "trayectoria": [
+        {
+          "cargo": "Concejal",
+          "periodo": "sin fecha en la fuente"
+        },
+        {
+          "cargo": "Diputada nacional por La Libertad Avanza",
+          "periodo": "hasta 2025"
+        },
+        {
+          "cargo": "Senadora nacional por Salta",
+          "periodo": "desde 10/12/2025 (hasta 2031)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Chequeado: quiénes son los senadores de 2025",
+          "url": "https://chequeado.com/el-explicador/de-patricia-bullrich-a-gerardo-zamora-uno-por-uno-quienes-son-los-24-senadores-electos-en-las-legislativas-2025/"
+        },
+        {
+          "titulo": "El Tribuno: juraron los tres senadores por Salta",
+          "url": "https://www.eltribuno.com/nacionales/2025-11-29-1-21-0-orozco-coraita-y-royon-juraron-los-tres-senadores-nacionales-por-salta"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-bernardo-biella": {
+      "resumen": "Médico. Encabezó la lista de Primero los Salteños y juró como diputado nacional en diciembre de 2025.",
+      "trayectoria": [
+        {
+          "cargo": "Diputado nacional por Salta",
+          "periodo": "desde 12/2025 (hasta 2029)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "El Tribuno: juraron Biella, Flores y Zapata",
+          "url": "https://www.eltribuno.com/nacionales/2025-12-3-14-43-0-camara-de-diputados-biella-flores-y-zapata-juraron-como-legisladores-por-salta-en-el-congreso"
+        },
+        {
+          "titulo": "El Tribuno: elecciones 2025, diputados",
+          "url": "https://www.eltribuno.com/salta/2025-10-26-22-20-0-elecciones-2025-gabriela-flores-carlos-zapata-y-bernardo-biella-los-nuevos-diputados-nacionales-por-salta"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-maria-gabriela-flores": {
+      "resumen": "Periodista. Juró como diputada nacional por La Libertad Avanza en diciembre de 2025.",
+      "trayectoria": [
+        {
+          "cargo": "Diputada nacional por Salta",
+          "periodo": "desde 12/2025 (hasta 2029)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "El Tribuno: juraron Biella, Flores y Zapata",
+          "url": "https://www.eltribuno.com/nacionales/2025-12-3-14-43-0-camara-de-diputados-biella-flores-y-zapata-juraron-como-legisladores-por-salta-en-el-congreso"
+        },
+        {
+          "titulo": "El Tribuno: elecciones 2025, diputados",
+          "url": "https://www.eltribuno.com/salta/2025-10-26-22-20-0-elecciones-2025-gabriela-flores-carlos-zapata-y-bernardo-biella-los-nuevos-diputados-nacionales-por-salta"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-carlos-raul-zapata": {
+      "resumen": "Renovó su banca en las elecciones de 2025 por La Libertad Avanza.",
+      "trayectoria": [
+        {
+          "cargo": "Diputado nacional por Salta",
+          "periodo": "reelecto en 2025 (hasta 2029)"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "El Tribuno: elecciones 2025, diputados",
+          "url": "https://www.eltribuno.com/salta/2025-10-26-22-20-0-elecciones-2025-gabriela-flores-carlos-zapata-y-bernardo-biella-los-nuevos-diputados-nacionales-por-salta"
+        },
+        {
+          "titulo": "El Tribuno: juraron Biella, Flores y Zapata",
+          "url": "https://www.eltribuno.com/nacionales/2025-12-3-14-43-0-camara-de-diputados-biella-flores-y-zapata-juraron-como-legisladores-por-salta-en-el-congreso"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-julio-moreno-ovalle": {
+      "resumen": "Diputado nacional por La Libertad Avanza con mandato hasta 2027. Las fuentes consultadas no traen más datos biográficos.",
+      "trayectoria": [
+        {
+          "cargo": "Diputado nacional por Salta",
+          "periodo": "hasta 2027"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Informate Salta: nuevos diputados por Salta",
+          "url": "https://informatesalta.com.ar/contenido/456817/quienes-son-los-nuevos-diputados-por-salta"
+        },
+        {
+          "titulo": "HCDN: diputados por bloque",
+          "url": "https://www.hcdn.gob.ar/diputados/diputados-por-bloque.html"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-eliana-bruno": {
+      "resumen": "Diputada nacional por La Libertad Avanza (mandato hasta 2027). Informate Salta la señaló como sucesora de la banca de Emilia Orozco.",
+      "trayectoria": [
+        {
+          "cargo": "Diputada nacional por Salta",
+          "periodo": "hasta 2027"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Informate Salta: nuevos diputados por Salta",
+          "url": "https://informatesalta.com.ar/contenido/456817/quienes-son-los-nuevos-diputados-por-salta"
+        },
+        {
+          "titulo": "El Intra, 21/05/2026",
+          "url": "https://elintra.com.ar/2026/05/21/cambios-en-la-zona-fria-diputados-nacionales-de-salta-le-dan-la-espalda-a-mas-de-600-mil-vecinos/"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-pablo-outes": {
+      "resumen": "Diputado nacional con mandato hasta 2027. En 2023 encabezó la lista de diputados de Unión por la Patria.",
+      "trayectoria": [
+        {
+          "cargo": "Diputado nacional por Salta",
+          "periodo": "hasta 2027"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Diario Punto Uno: candidatos 2023",
+          "url": "https://diariopuntouno.ar/dp1_21/index.php/politica/3057-los-candidatos-a-diputados-nacionales-por-salta"
+        },
+        {
+          "titulo": "Informate Salta: nuevos diputados por Salta",
+          "url": "https://informatesalta.com.ar/contenido/456817/quienes-son-los-nuevos-diputados-por-salta"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    },
+    "dnac-yolanda-vega": {
+      "resumen": "Diputada nacional con mandato hasta 2027. En 2023 era intendenta de Cerrillos, según una nota de ese año.",
+      "trayectoria": [
+        {
+          "cargo": "Intendenta de Cerrillos",
+          "periodo": "en 2023, según Diario Punto Uno"
+        },
+        {
+          "cargo": "Diputada nacional por Salta",
+          "periodo": "hasta 2027"
+        }
+      ],
+      "formacion": [],
+      "fuentes": [
+        {
+          "titulo": "Diario Punto Uno: candidatos 2023",
+          "url": "https://diariopuntouno.ar/dp1_21/index.php/politica/3057-los-candidatos-a-diputados-nacionales-por-salta"
+        },
+        {
+          "titulo": "Informate Salta: nuevos diputados por Salta",
+          "url": "https://informatesalta.com.ar/contenido/456817/quienes-son-los-nuevos-diputados-por-salta"
+        }
+      ],
+      "actualizado": "2026-10-07"
+    }
+  }
+}
