@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-09T02:03:17.936036+00:00",
+  "generated_at": "2026-10-09T02:28:02.615457+00:00",
   "by_politician": {
     "eje-ana-paula-benavides": {
-      "total": 5,
+      "total": 6,
       "positivo": 0,
       "negativo": 0,
-      "neutral": 5,
+      "neutral": 6,
       "score_sum": 0
+    },
+    "eje-oriana-nevora": {
+      "total": 6,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 6,
+      "score_sum": 0
+    },
+    "eje-cristina-fiore": {
+      "total": 17,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 11,
+      "score_sum": -8
+    },
+    "eje-roberto-dib-ashur": {
+      "total": 25,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 24,
+      "score_sum": -2
+    },
+    "concejal-ines-bennassar": {
+      "total": 25,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": -10
     },
     "eje-gustavo-carrizo": {
       "total": 4,
@@ -20,13 +48,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 10,
-      "score_sum": 0
-    },
-    "eje-oriana-nevora": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 5,
       "score_sum": 0
     },
     "eje-juan-vilchez": {
@@ -50,13 +71,6 @@
       "neutral": 3,
       "score_sum": 0
     },
-    "eje-cristina-fiore": {
-      "total": 16,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 10,
-      "score_sum": -8
-    },
     "eje-federico-mangione": {
       "total": 8,
       "positivo": 0,
@@ -76,13 +90,6 @@
       "positivo": 0,
       "negativo": 1,
       "neutral": 19,
-      "score_sum": -2
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 24,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 23,
       "score_sum": -2
     },
     "eje-ignacio-jarsun": {
@@ -906,6 +913,56 @@
     }
   },
   "by_day": {
+    "2025-12-24": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-01-08": {
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-07-15": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-06-11": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-09-04": {
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2022-11-01": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -2054,24 +2111,6 @@
       "eje-roberto-dib-ashur": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-09-04": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-09-21": {
@@ -3644,6 +3683,20 @@
         "score_sum": 0
       },
       "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-09-08": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -14707,15 +14760,15 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 54
+      "count": 57
     },
     {
       "term": "tribuno",
-      "count": 39
+      "count": 40
     },
     {
       "term": "ashur",
-      "count": 24
+      "count": 25
     },
     {
       "term": "mimessi",
@@ -14730,16 +14783,16 @@
       "count": 19
     },
     {
-      "term": "informate",
+      "term": "cristina",
       "count": 17
     },
     {
-      "term": "cristina",
-      "count": 16
+      "term": "fiore",
+      "count": 17
     },
     {
-      "term": "fiore",
-      "count": 16
+      "term": "informate",
+      "count": 17
     },
     {
       "term": "diario",
