@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-10-09T10:24:54.254117+00:00",
+  "generated_at": "2026-10-09T17:10:58.231352+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 238,
+      "total_mentions": 251,
       "sentiment_breakdown": {
         "positivo": 18,
-        "negativo": 26,
-        "neutral": 194
+        "negativo": 27,
+        "neutral": 206
       },
       "sentiment_by_day": {
         "2026-10-09": {
-          "total": 4,
-          "score_sum": -2
-        },
-        "2026-10-03": {
           "total": 12,
-          "score_sum": -2
+          "score_sum": -4
         },
         "2026-10-08": {
-          "total": 22,
+          "total": 23,
           "score_sum": -12
+        },
+        "2026-10-03": {
+          "total": 15,
+          "score_sum": -2
+        },
+        "2026-10-07": {
+          "total": 9,
+          "score_sum": -4
         },
         "2026-10-06": {
           "total": 7,
@@ -39,10 +43,6 @@
         "2026-10-02": {
           "total": 5,
           "score_sum": 2
-        },
-        "2026-10-07": {
-          "total": 8,
-          "score_sum": -4
         },
         "2017-10-25": {
           "total": 1,
@@ -151,12 +151,12 @@
       },
       "top_topics": [
         {
-          "term": "presupuesto",
-          "count": 84
+          "term": "tribuno",
+          "count": 93
         },
         {
-          "term": "tribuno",
-          "count": 80
+          "term": "presupuesto",
+          "count": 84
         },
         {
           "term": "intransigente",
@@ -190,6 +190,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Uno pierde reflejos con la edad",
+          "source": "El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlVLcTRqWEdfaVpXeVhJaF80Z1hDNnljenZXUjdfREh5bnp0U0w1U05lUnpJdWluUGZZZFJQOHF6S1NKMlg0R1JXOVlYOEJXX0dKckdLdVBpSk1vLTRZcHRtdkV2Tl9Ya204dUJsSUNzd2hiV3lFVDRRdVFBc1BkcVVnemVsZ291UWh4cXhXMkRJSTY4cE1YMWJBb3JaTm1RaThZMGNCd9IBrAFBVV95cUxQNWVrNHhNeG1RVndVdmwtVnpWR1RyQUZockFFZllPSXR3OHdhal8yd2k0a0JuSm1McExSVXdKazdfWk5uZXZONFFuTFVaQmJiRkJZMHIyQXZQcXlRenZLaEo0d1VRck1wRXNpVjZ2eFdZNDNGMHJ4SmZqSDNqWkx6SUstRW9yQm9IaFphTGFzem42bVRLTDk2M0hILUhGdFQ3UDdGTWlYV2lReXU5?oc=5",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT"
+        },
         {
           "quote": "El Papa se encontrará con una Argentina divida por la grieta",
           "source": "El Tribuno",
@@ -273,15 +279,100 @@
           "source": "informatesalta.com.ar",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR3hYcXdSTXh2VjR0bGtaQnFJR2RJQWt2OThfdjVjSDFFUWIyS1o3eGctbzlVbjhHNDUyMlBUdUZFX3hBWjktbE9NR0dpWnh4Q0ZkQ0dKRWV4REFHZHVvcW4tUEN2Q0xHSzVuUERhcEQ2TUplZDFRUjJvOWZPT2tJaG5uVzQxWE9ocERlSUo1MV9ndFoyNktaSFlPb3o1R3FKYjNnY3ZSMHByLTNhTFh4SVc0ZndWcUNvQVJQX0FWUUhXcE5HRUJHdmJCRENZRnl3QzhZbWpVbnFGOVB3VGdzZmYzQVVkR19KSjdrVEYydFF0eUViVENtYdIBhwJBVV95cUxPN1BsM3M1akRSNHJHWjVTNjZfenF5NFZFa1N5S3BCd1ZsUG9pTW5nZk5xZ3dOc2pNTklkZllxcWlwdUtaRUxGdWQzNldxUVdBR0ZYRnNhdTVldGNEZVR4LVZWMU1Bc3MyTE9UTDhpUTR2ZDF0Wl9oWWhwUjFrYnlFVjd3anRQMGJGNWVRQXhtQTUxZXYwYzhFQnhDRkdkbmRGUS11b3BQUWZuX1BCbl9OVkVQamxuMDJzMDdVbkpWT1o4UTlFTGE0MnZMVGNOblNCUldFcGp0NnFyQUdLZk12bzdtSExoNy1ieWdnQm1CaVpNa0REN0gtNmdwN2R4ZTNYWFlrMFJtTQ?oc=5",
           "date": "Sun, 27 Sep 2026 13:53:41 GMT"
-        },
-        {
-          "quote": "tenemos un año complicado hacia adelante",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQ3dURGJaVnAxZlpCZk5sX1dRWUE1ZXJPMkx5N3FOVWRYYVd5MkVDRUdQZ2dSOU01OXBxeDNvTkFXWTVTb3BOLWNJOURCMURWWmhCZUYxcm1nTDZVVTRMd0dOb1E1b05Qci02OFVqSWRuMVgxRkkzaGFzYWxFdnhvUkpmcEhzeWd4bUgxX05mQk85UnQzN2pFR3RLMXJZVVBEeHlWTHg5SlI0TjFPTkZVYzl1Sl9jOE1aOEhqWWhvYkxEN2o4TnBzOFlubG40ZWlYajJ5Y1hHNnFfSXZvc1R0Q1NqQ3NMeW5mR2t1Ujh3?oc=5",
-          "date": "Fri, 25 Sep 2026 19:07:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "PFA secuestró mercancías y estalló un escándalo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTi1sN0ZZTzM3eVUzcTFRVDU4aU5kTEpUTW1oT1dxTXpXekNfRzd3NnV5VVROLWdJZ25MaFpaZmYzcjU4WUVqODhHSUR5UVJTdlI5TVB3U2VvUjJranBVODIycXI2bE9jRWFWN2thLUdHaFJ0TzJJNjUtNlRacnlremE0MkxVTXUtWlN6M1RyVnVHbUpvbVUxU1RxeGVSVmFyZGk1S2k0UdIBpwFBVV95cUxOTi1sN0ZZTzM3eVUzcTFRVDU4aU5kTEpUTW1oT1dxTXpXekNfRzd3NnV5VVROLWdJZ25MaFpaZmYzcjU4WUVqODhHSUR5UVJTdlI5TVB3U2VvUjJranBVODIycXI2bE9jRWFWN2thLUdHaFJ0TzJJNjUtNlRacnlremE0MkxVTXUtWlN6M1RyVnVHbUpvbVUxU1RxeGVSVmFyZGk1S2k0UQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "VIDEO. Santa Victoria Este renovó su devoción a la Virgen de la Victoria - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmpLT3h6XzFsTVVoa0wtR3pTYWRPQmJMclNWb214LW9CUi1MU2x1MGdBZUFxVFFRRXRjcmkxRTBSQzZWY0ZZbUZsVlZSY2NCOVFGek1YbWlTWjRYbllacHp6TG5ZdXp0VUdGYXdqb05UZy1yNG1HUW1YbmFtak9FV1ZsZmRZejBDWW5ZU2FQTkFIcmxsM1A4Zmt4YVkxZzBHT2Z2X1p5cWJKZDZlZTNWYXVUZzE5bkYwU0pfOUJCVXRPa3NRRHpv0gHHAUFVX3lxTE9yaktPeHpfMWxNVWhrTC1HelNhZE9CYkxyU1ZvbXgtb0JSLUxTbHUwZ0FlQXFUUVFFdGNyaTFFMFJDNlZjRlltRmxWVlJjY0I5UUZ6TVhtaVNaNFhuWVpwenpMbll1enRVR0Zhd2pvTlRnLXI0bUdRbVhuYW1qT0VXVmxmZFl6MENZbllTYVBOQUhybGwzUDhma3hhWTFnMEdPZnZfWnlxYkpkNmVlM1ZhdVRnMTluRjBTSl85QkJVdE9rc1FEem8?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 11:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Violento choque entre una moto y una ambulancia en avenida Paraguay - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVFpvZDZCRzRpYlJjdlYxUGNISmNPWllCN3NmZUkyX2UzRGUyazlzaThVRXJIVXA1SEdwRmV2T2V3WEJpTHN5d0RlbTFmMFhVVFhzbmxadVQzTkp5VmhkWElySFJOOTFMbGpDbDlpTXc2WVhIckV1Ry11ajdDcjJka25STEFwM1N1YUNFYXktNGdreGxDSFItNGdwaXZzQjNOemJnZnhRemxhaS14QjBKZ2hnSlFRSUI0LS1xMdIBwgFBVV95cUxNcW5TSHJvZGdFejJtMTY0MWVQejgyOG1udlk3Zl9qM3RDVDZYdlJlMjNQRjZqUHhiMjJ0N285MWhlWlNRYkZrTzlVNHRkVWxHOXVfMU5jRWdGNGpJcks3OHRHUjZDOExwOXJjcUxkcmdsdzZ4VmJXWW1FYlRTeVl6ek11Y1AzTGpjaG95RHZzRTNlbWNyZE9TVmRtTExYVUE1MWNWWFppWTRBQWJPeTU2SThvNi03WmFZOVBvLWpER0RzUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 12:08:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Los coros Valle de Lerma y Pallay representarán a Salta en un encuentro coral en Jujuy - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWGF2V3hubVpPTlVJU3FHQllWUlJ1M1ZMcU9tYk5hdjl6OHFIUkkxWklvMnRNNUgyYUlGeC1VN3ZlMmMwakFlN2lyMlVPb2FLd0pZcUE0T2V2QUxkM3AwRWtzZjlhUGhtbzQxWEdtRF81NUY5RTJTSmV2anIzazNPZjEwM19rN2pSU21EY295OWVsVzFVc1hZa2owbjJtaVFITGp5Z0stVlRsRGRxOHk0Q1Y0UG16NEZKY3dHVzBuNTlqMUtEVkhnVllwemRNTjFSVURCYkprYjJhUzFrNEEw0gHfAUFVX3lxTE5YYXZXeG5tWk9OVUlTcUdCWVZSUnUzVkxxT21iTmF2OXo4cUhSSTFaSW8ydE01SDJhSUZ4LVU3dmUyYzBqQWU3aXIyVU9vYUt3SllxQTRPZXZBTGQzcDBFa3NmOWFQaG1vNDFYR21EXzU1RjlFMlNKZXZqcjNrM09mMTAzX2s3alJTbURjb3k5ZWxXMVVzWFlrajBuMm1pUUhManlnSy1WVGxEZHE4eTRDVjRQbXo0Rkpjd0dXMG41OWoxS0RWSGdWWXB6ZE1OMVJVREJiSmtiMmFTMWs0QTA?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 09:51:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Cómo es el módulo de alto perfil de Villa Las Rosas donde quedó detenido “Conejo” Martínez - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQajNvRzYtdllXU3kxenZkLV9JOFZwZUxnZm5PNDRyWXUxcnJkOVhid20ybFNfNnZrejZmbzg3WTZUbjFuZWtaRU1STVh1SFdvbG9mMTVjdldHeFQ3VUUxZENoUDc5eWFXVGtyeVRwZnhxang3UGtPeFYyV184R0U3VWc2QUwzQllQOGcyRVd3T1l6a2FqUDB5Sko0R29iWGM4Z0o2bnNXYkRiUFZWQ1o1dTFMWGhFdXlPM2xBckwzS3ByamxFS1luM3Bmd0NYX0ZzWmdR0gHYAUFVX3lxTE1VU2RreVc2czI0VHh6WFIwQ3hBSjI5WVhYdDhXV1ZWTlViTGlwV2kxTk85RnhHd19oX293ZmQyZFF3MDh3aUU0R1pTU3J5Zmkwc01HQmc3Qm5SbHZWUWpleXdTUmM3MklRUm9SRjMzaWhJSEZZWjlDWVVrdnpvRnhrU2ZQS3N1UFh0VnFidnJTVHZhNEUtZ0hWRTM1eWxIVXpBMFJsRjZKQTZZMVR4RTdNMFJiSTh6cnctaS1uZnRvYkxtbnBsNEFWTnR2eTlsc3dITGM2SWxMbg?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 11:15:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Alto Noa renueva casi 6.000 m2 y amplía su propuesta comercial con nuevas marcas y propuestas exclusivas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOTJqVnMtam5kUlN4Z3Q2LUFicEFrTUhfVnI3ZUNBNlZrQ0dIUC0yUjQyU2lISVcxYU1IVDliVVNyRm1oVWl1SFNNdFFUaGo3a0VQelYwZ25VMEc2MnFWMUllcEpVYjF6MEtTRzFXQ2lVck5CalFuRC1GLW8xQWQ4WVFjelRDUEx2ZWQ5bHhlLUxiQ1lFUExzbzBaaU9KelBTWjRhcW5TRGc4RWpqMUR3UmVGSHRpcHgxSlBJWDVnd1BROEtETVJPdVEzZjUyRTJfUVMtRFA0LVo1TDRjTkJzQVBvTVFJV3dIaDlxclZ30gHuAUFVX3lxTE05MmpWcy1qbmRSU3hndDYtQWJwQWtNSF9WcjdlQ0E2VmtDR0hQLTJSNDJTaUhJVzFhTUhUOWJVU3JGbWhVaXVIU010UVRoajdrRVB6VjBnblUwRzYycVYxSWVwSlViMXowS1NHMVdDaVVyTkJqUW5ELUYtbzFBZDhZUWN6VENQTHZlZDlseGUtTGJDWUVQTHNvMFppT0p6UFNaNGFxblNEZzhFamoxRHdSZUZIdGlweDFKUElYNWd3UFE4S0RNUk91UTNmNTJFMl9RUy1EUDQtWjVMNGNOQnNBUG9NUUlXd0hoOXFyVnc?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 12:59:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Güemes: Inclusión y conciencia en la semana de la Educación especial - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOEFGcFNuNDNRYVd3V0dsSjZqdFZqY2kwUVoxS19UMnlxUDRtZTh3TzVqR0RzMUVHOVUzS0xPck5adURWdVRvZFlsb05PeTB3WG5jM1EtcW1xMGhmY1g4ZWdKa1lXQU9ueUlDU09BcExMYTVEQ2xMTmJDQlZNMDJIc0hRYXBlYTZvTE5EX3FRUXFhNVE2MUdDM3FrZWxocjZJWTExaUN2WnFKYW96WU15LXJjMmpWcEFhdXhRTTBYZmVVQdIBwgFBVV95cUxQOEFGcFNuNDNRYVd3V0dsSjZqdFZqY2kwUVoxS19UMnlxUDRtZTh3TzVqR0RzMUVHOVUzS0xPck5adURWdVRvZFlsb05PeTB3WG5jM1EtcW1xMGhmY1g4ZWdKa1lXQU9ueUlDU09BcExMYTVEQ2xMTmJDQlZNMDJIc0hRYXBlYTZvTE5EX3FRUXFhNVE2MUdDM3FrZWxocjZJWTExaUN2WnFKYW96WU15LXJjMmpWcEFhdXhRTTBYZmVVQQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Tevez prepara su despedida y quiere reunir a Messi y Ronaldo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWHk1YXlNOXRHQ1FjLTBCYmE2aFRwMmowaVBYeUg1eU9rNTV5VGVpemZzaktQWDhvUm4tNUJMSU9DOG9VbHBBT3U2ZGZzR3dMdmU1VVh5WXVBVWJDaGdvbkdNOFF5MnBhZFhWY3NYX3lUcWF3MXhzMjhHS1NkLVozSVFKaWg3OUcybG9ISUZad210SXJDcWlLaU9qVDlwREgzUUlzYmhjbXQ1VHJ0QUdFbFYxTQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 23:53:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "IDEA: El ministro Caputo pidió a los empresarios que tengan confianza - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlY0cnBydTlzZGlBRVJVVWlDYnBHTDZXY2ZXaS05TEJSb3Q2bzFvOGdMWnozdHVGaXRPd18tWEpDQXdTNTdtMmZFTk5KbkJBZks1ZEt4ZzQyTFJpMkQxbm1vWEo4V3VtTEt1aGktQk91bndBSExiY1RnTDZRVTl0NHdIeG9LV0U3WTBUMFh6emxMR2lmRjRaNmtzY3RoajVuSmNidUNzZ25mUDhUcDlLUTlGWUY5bW5ac21jblZn0gHDAUFVX3lxTE5pczF6YUFLSmoxbkN2bTFEQnFPazRhLWZ2WVBRZ0pkX1hvUXdOeGJ4OGJtYXZzQVJfMTd5aE5CQVRvVkdvbkpRTWw0Q042QzRTTnVkT3pfUWMzNF9MTDB2V3pwSFlwU19pcHBTUEQ1MlFVTVY3M1JraWVfUjVZSjNzQ25oQXhVZDVTRVB5S2pLWHFTVXhJZFZlUzljNkNjOFV1aWI5LVVtam9mTEtIZTA5VklOVng2LTlWSE1JbF83T096aw?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Nuevas tarifas de peaje en Salta: cuánto costará pasar por Florida, Molle Yaco y Cabeza de Buey desde el viern - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVTBCejdIN2x3RWN5RmQ2VDNCeTNhQV9LY2JnRGNtbm1aWVVGUzNoMzZZcjFhRUxTV3hwOXBxVUp1Wm9aZThrQVNpbGdVaHJJZHR3QWpsSVd5Z0lnMUluUGFVR0E2bE5mTDBVV2p6UmxqUFJhLWZseXNzSFN5WUM3UkRxNnQzdlhTZ05ETHJQNmxkSHZPbkc3VGt0VXF1SzBfaS10SGRUeVM2NlJwX2JWckFqSnM0X3I2ZGZLQU9wZnpURU91dk0xbldhUzR6Q3Mxc0huWHFOVjFFb0l3bnFiQkZhMzdXbEZXRGEwZk5oZVl6UdIB9wFBVV95cUxOYTRRYUZvUEpuc184ODVxVkN1c1FmdFBsU3puOWgzYnlRc21UdXJJTHdEOFlvd2tGNS1fQ0tNVGtZeHROSXBkWjJUelRHc2ZrYUxSajFXUGRsMW54N0xYbHFGZ2hQQWhPQTVENjNoQjNaOS1zaS1WNzd5Y3RWdGM5YWFvSXNUeWZlSnpyODVBekhCdXdCbXcxX08ydUhCUENWdnJOeE15ZG9NcFYwdzk0cG5Jd0wwWTdrQVFNWlZFTWo0V3B6ZFJnLVByTW9ZVFF2WXdRYmZTSWV4YWEtaUZHRXFJWW5CbnExVGV4cGktNTlpWGxxN3Mw?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 07 Oct 2026 18:42:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Conductores mayores: \"Uno pierde reflejos con la edad\" - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlVLcTRqWEdfaVpXeVhJaF80Z1hDNnljenZXUjdfREh5bnp0U0w1U05lUnpJdWluUGZZZFJQOHF6S1NKMlg0R1JXOVlYOEJXX0dKckdLdVBpSk1vLTRZcHRtdkV2Tl9Ya204dUJsSUNzd2hiV3lFVDRRdVFBc1BkcVVnemVsZ291UWh4cXhXMkRJSTY4cE1YMWJBb3JaTm1RaThZMGNCd9IBrAFBVV95cUxQNWVrNHhNeG1RVndVdmwtVnpWR1RyQUZockFFZllPSXR3OHdhal8yd2k0a0JuSm1McExSVXdKazdfWk5uZXZONFFuTFVaQmJiRkJZMHIyQXZQcXlRenZLaEo0d1VRck1wRXNpVjZ2eFdZNDNGMHJ4SmZqSDNqWkx6SUstRW9yQm9IaFphTGFzem42bVRLTDk2M0hILUhGdFQ3UDdGTWlYV2lReXU5?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Neurodesarrollo: UCASAL reunió a profesionales de la salud para potenciar la rehabilitación de los pacientes - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWcxUWtMSU1WS3hmYURlcTdTT29fb0QwcXlhVnhhLTVmX1ZVcTRFMzd1ZE9tODBJYjVOSDRNU1pwMTBoNVMxbGVoVU9fRDEyR20tS0ZZUnpqckxhNDdQTm02VFlSN0JTM3JzZFNRNUJHMTlPMnB6Z202LXFva2d2Zl9TUFBhUHJDSzgtc1hWLUNMNVZCUHN0ejZvYW01R1JRaGdkR2htMjdIUWlfVXhhTjB0c3cxd3BwYmUyMm5xdXRQRkxhVXdjMGFkdjdJY3FMU0lUelJmMVF2X2lFTHNtM1N4SC02WEg4TnhLSdIB8gFBVV95cUxQcVJOYU04djhYTnlqS2RCd2paYlhjLUE4VUY2cDV1NTk2Qmc1eDZEbDFkcmUxVkN6R1ZvNG9FMmF4ZGV3MEFmamtzUjN5cHJKSzllTWo4ZTRXNnF6N29KeE1SWUwtcnpJLU9NWFZ2NEdXRURUQW1CR3gweVFCOUw1Skw4eXcyeVJKTzFqZzJuVUtGQ2Y5YlBMRk1kVUJfM3NDeW9EMnAxMDVPZG15Z3kzQUhqVm10WXpyMHdROTVPY2pWUm9xejNXaFJfSmhVcW8yaWlBYWdWRFBCV0NiVEJEV3VSSnktS1AzYU4zMG5CWUd6QQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 03 Oct 2026 03:49:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Nuevo edificio para el Ministerio Público - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbTlpV0FBRWZKOXBvYUY2Wk5uMG1UdVhHenA5cXVKN0lWX2VHSVVVbmQ0V3JfNldldW5CTWVPTl9NdDhuSGlKXzVrWmlRd2RxQzdPY3dyVU0zRjFuMVc1R1hxTDZaNlUyVVMtd01vVUVQMHlmcEhRTkVxd1h0TTVnSEZPNEdUQXlnYndBVS10ay16RXfSAZgBQVVfeXFMTlRUV0FHa1lFY3JMbTJ1UU9ST2JUb0dibnJWUFQtUkpuM2JJX0N2YVJiSkhaMzg0LWV6ZVBIci1NWVlkUXMxYmgyUmV2WEZJUGE0d1l6Yy1YMTVJZFdSa0dBNF8tOEhoRkNlM3lJaWp0ODdzNy1WdW9kdE9wazk2LTJJbzdHQjgyWXJSSVluUE83LWFsb0x5Q0g?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "La IX Liga Argentina de Béisbol llena de adrenalina a Salta - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd1UwYXpZSEZEbHBSVmFvS0RxQzM2ZnI5ang1c3p0TUZyWE1tVWN0SGVZUFNXRWVPSll2aVY5T1hNREQzWTdLNVY1RFduZmhIUUFYQ1pyN0piamNmSm5IMDYxbVI0bE5MYk55cWdWalNtVlZDcEt3aGRPTmQ1Smc1RGJPSGM4RUVBbVNUSmNPQkdhMzVQODQ5Y1BrU2ZIYktyOFdkU0V5bGhFN2FBYnZOTTF3NmRlRVnSAbcBQVVfeXFMUHdVMGF6WUhGRGxwUlZhb0tEcUMzNmZyOWp4NXN6dE1GclhNbVVjdEhlWVBTV0VlT0pZdmlWOU9YTUREM1k3SzVWNURXbmZoSFFBWENacjdKYmpjZkpuSDA2MW1SNGxOTGJOeXFnVmpTbVZWQ3BLd2hkT05kNUpnNURiT0hjOEVFQW1TVEpjT0JHYTM1UDg0OWNQa1NmSGJLcjhXZFNFeWxoRTdhQWJ2Tk0xdzZkZUVZ?oc=5",
@@ -400,97 +491,6 @@
           "source": "El Intransigente",
           "date": "Tue, 06 Oct 2026 22:54:14 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "Apuntan contra Martín Lousteau tras su llamado a una gran coalición contra Milei - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Kc3hQZEhlTVMzaGtfWnBPcmhtX0NqWmxLaW5EM2wwWmZIYV9sRUVTV1ktUHpPTGJmaHlES2RSNjdRT05JNFNXbjNiOHBMazFFQWFCMXVFWnFILXIzNExfQzRPdi1uY0JLODYtNEdiWlBJUGY5Q1E?oc=5",
-          "source": "El Intransigente",
-          "date": "Sun, 04 Oct 2026 14:23:31 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DNXI5enhmblpSMVZPN2hYVXV1a1FjejBkQ09kSlBGWjRLNlF5eGFhbkJsbzZSemxQbmhYM3JpQTJxVGU4dThYbk9OZGEzSW85?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 07 May 2024 15:44:02 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Marcela Pagano cuestionó la ciudadanía para extranjeros: “Gratis para el Estado, no para el comprador” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEhBUExDc0Rza0FEY21fMnNjRUxxRzFRZ1hlTE9IdnpXOG9XVFRRajdrMW5ZSUhlTVRJV2VBQVltVC1HYzU3QnpWcUR6eHJlWHZ3eUViMkpDdDJkSFo2S1VDMDJWWmVfTldMUm9XOEg3a2dHSWo5cDREX1Y2bHl3WDNINE1uLUw1aXNNdlpRVm0tVmJad19iRXBrWmFYbURVM2lybE5lUWZjM0pQTXhtLURwNGtMcjF5TkhIcERTRkRJNm00Z1RlandudS02MTZE?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 08 Oct 2026 10:12:00 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Colapinto busca revancha en Singapur: se viene un nuevo desafío en la Fórmula 1 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdUNPVUp3NTdteldRSDY2czdEcjRhdk82dkFfNVg1OWZTWFVZemk3N0taWTgxTFZaMms5dkhabmtVamFnbV9ZLVMtXzY2ZTlYQ2NRTkQxT0Y5WE5NSGdVMHk4OVZ6ZVJGZFdhaUMxUFBvaFl1eWVRaEJJOWhLcmZxVl9QSXJhcURJSExhcEpJaWhsRU9KYWJYaUpIVjBQb2FORG9SemdiY0Nuc3dWTVNZbVVQenNFeVNXRmwyX2g3NkpWTm5JdEEtZElYSFJzNEo40gHQAUFVX3lxTE51Q09VSnc1N216V1FINjZzN0RyNGF2TzZ2QV81WDU5ZlNYVVl6aTc3S1pZODFMVloyazl2SFpua1VqYWdtX1ktUy1fNjZlOVhDY1FORDFPRjlYTk1IZ1UweTg5VnplUkZkV2FpQzFQUG9oWXV5ZVFoQkk5aEtyZnFWX1BJcmFxRElITGFwSklpaGxFT0phYlhpSkhWMFBvYU5Eb1J6Z2JjQ25zd1ZNU1ltVVB6c0V5U1dGbDJfaDc2SlZObkl0QS1kSVhIUnM0Sjg?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 13:53:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Municipios - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EWGhKTkExT3lVRmVKbU5oUEl4UjRQWnBHZm9pUVAyRkl6aUNEYnhTbU1iNDhtVUFzQUJOVWlRcW5jQV9DUV9jeHlMXy1BN3pCY0tWM1FIYw?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 07 May 2024 15:44:41 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Boca–River: cuándo se juega el Superclásico y qué estará en juego - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWkNDZHZUNndqb2xyZ3FJQ1lPR2JlTHV3bTgzdFhQNko1Y3NPRXZmanJmQ2NSVUJwYUQ4ZnpGZE1qNS1DTV9paDIzUlRWa0kxdFcwZWtMRnBCM3VTNXJMMWFUaTdoempQdFJqQXFxVmtwSDN4VXBNVDJfMlRVZFRMLTNkWVJJaW52TTNhdFJuYnpDZndxM0JEYmVsdW5WTi0yai1nSXRkZGYtbUdFeTBfaW5uTkNtRmlNMnBKTDNR0gG-AUFVX3lxTFBaQ0NkdlQ2d2pvbHJncUlDWU9HYmVMdXdtODN0WFA2SjVjc09FdmZqcmZDY1JVQnBhRDhmekZkTWo1LUNNX2loMjNSVFZrSTF0VzBla0xGcEIzdVM1ckwxYVRpN2h6alB0UmpBcXFWa3BIM3hVcE1UMl8yVFVkVEwtM2RZUklpbnZNM2F0Um5iekNmd3EzQkRiZWx1blZOLTJqLWdJdGRkZi1tR0V5MF9pbm5OQ21GaU0ycEpMM1E?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 13:16:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Agrotécnica Fueguina: piden licitación o informes al municipio - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdXBmdkxETnNKaFhPcE5sWVluTnRjanRNVFBibjZ4aTRjM3dLaFhRU1l1ZjRGMlpZV0JQVThoWkdIbUtfTFRBbXpPZ0ZmNFRlNGd5ZGh4YVVlQ1Q4TlhiSDFMYjQwZXBkWTZ6UjJtdHJKUTlvTHpka09MbnVNMlF4cE9jNWItMS1MVHVvcDNUeGZyWU5pM1liNVJsTW40VDQ0Y3pvYjN4bnBWX1VRNHfSAbMBQVVfeXFMUDZXYkJEMlpOclhMMjRMUnlrMHozc2tPa0I4Y1dsamVielNpbWpjU1lsaWNYYTRLNVo1eVROaUk0Qjd4eng1WTZranpSY2NxU215Rzd6VjVNSUFqdzZMQlpPaHQ4NldrYjN1dk9Gb1NOSUJVOFBkdTE2NUZveWlXSldxU3dPc0dUWm9mX2tnOHh4UXV4Vy1uS2dJVl9Hc2VuM2tDdzE4d2YtZk4xd1Z4OWNYNDg?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 04:46:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Colapinto busca revancha en Singapur: se viene un nuevo desafío en la Fórmula 1 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDExa1IybGhrNHFTTjFPWUdJeVRJLUFlTWVRZUNpNTlTMVEwNzVxWm81ZzFyZTlrSEN0Q2dEc2NyUGg4ckZRbUhYVWM5SFluVFV0cmhqTTlZSFVraWtkNFFMR1VIdnhTd1ZBakgzdXlNaWNZb3JmVzl4bGJwQmJoRjFSU2N0TTVyUUZpM01OV0p3VTJzZURiVWkwUG5HeHBnTDJmVGhCWXU4Q2tfanBqVy1GcDFSdTZBbzN1YjJpRHdjT2pCTkRUNFk1Z9IB0AFBVV95cUxOdUNPVUp3NTdteldRSDY2czdEcjRhdk82dkFfNVg1OWZTWFVZemk3N0taWTgxTFZaMms5dkhabmtVamFnbV9ZLVMtXzY2ZTlYQ2NRTkQxT0Y5WE5NSGdVMHk4OVZ6ZVJGZFdhaUMxUFBvaFl1eWVRaEJJOWhLcmZxVl9QSXJhcURJSExhcEpJaWhsRU9KYWJYaUpIVjBQb2FORG9SemdiY0Nuc3dWTVNZbVVQenNFeVNXRmwyX2g3NkpWTm5JdEEtZElYSFJzNEo4?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 13:53:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta habilitó un nuevo pozo de agua para abastecer a cuatro barrios - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUU9CaklTaFU1Wmk2RmJ3TnF3T1pqOGdKbnVnUlJiQjRPTHcxR0NsUDhzVm82WWpaX1Q3SXFmcUV2UmZfdWEwa2xEYVdWbzR3LUptSnZVbUIweUh4dWpDNEpiQkl2TVVyQUNlOVJ2Sm92UEZxYlBCcjZBNnRqQWR5ZE1wZ0FtQ2xNVTRFdnRaWldZU19PUUhTZGFYcEcyb1lsM3RwMFZvbnBIcTBfTWl1QzYwZ0JmM3hV0gG-AUFVX3lxTE5GRW1tN3JhaS1yRVBfUVRiRjdFNTlwc1VQMW9KcE56ODhTV2Z5RmlzcHQzeUg4M1VGbjh0bE1oQjU4bl9Rbk5TcW9nNzVBT0ZpR0FMVTBraTVFXzRDSnZhVXZYRHpVYUxMajJqcVRaX2RqZ0FlUUFqNjUzanhkVGdhWmJJclpVb2d4dzlsN3dvQ3JVTTRtZ0l6V0FmS3BGdG1Tc1dfeXlqcklmaXNGaGVDU0VZOS1wdVRyNE1ZYWc?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 00:03:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "¿Qué sucederá con El Súper Niño? ¿Cuándo alcanzaría su punto máximo? - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb084aGd2Tjc2MzNEeHNsWWd3T29NYlBqWFB0RHVueEotNUhsdy1ZLXpQbU45WlJ1YURicTVNVm50bjdkR0tyNjlCRUNsOE44blNOdm5QMDdRYTZBMVZRVmpzNFF0TkpIRXRwSWx0SzEwenZmZVg2ZzhHNGFYN1hJV1lXamd0M3RQcWJLazhSZzR3d2lhd3ZTWmRsbnVyTzNkSHRMMmNZRWlIanZ6R2ZfSDZTVnVfZjItZFlmNTJuYkTSAcABQVVfeXFMTW9POGhndk43NjMzRHhzbFlnd09vTWJQalhQdER1bnhKLTVIbHctWS16UG1OOVpSdWFEYnE1TVZudG43ZEdLcjY5QkVDbDhOOG5TTnZuUDA3UWE2QTFWUVZqczRRdE5KSEV0cElsdEsxMHp2ZmVYNmc4RzRhWDdYSVdZV2pndDN0UHFiS2s4Umc0d3dpYXd2U1pkbG51ck8zZEh0TDJjWUVpSGp2ekdmX0g2U1Z1X2YyLWRZZjUybmJE?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 13:31:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Mosconi: Ediles sesionan con custodia policial - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXRkV2ZnMlZyQTZRSzJ4MzVoRVFNZmJRcVV0dW5ELS1yYlB3Yk1fMWVBdEh0ZFpaU2MxQXQzWkktU1VPS2Q2ZEVTSTkzSEswc2Y1ZXBYbjR3cy1EejBzV0dGU2ZOclRzOTFSSEJtWU9VRFRHOUY5VE42WVVXb0ZLbnVJUnJrS0k4cEU1ckZZa2xzaTl6N1dmYTdSNGxLY0HSAaQBQVVfeXFMTWR4b2tGX012dWpENl9VYzhzc19MZzViLW1GVmJHZ1pWNFJ0SkFRQjl0bmRIRUhJYkI0QzVwUXdkT2MxcVZDcEV2QVhRMjZhTUdnVGlucWREUkRSVXdoN1hqRW13dFZOTjhYTHJtNERYTVBKOG54b0xZMXFoUmRvNmpQQ3R2bGRFSGotRS1nX3NTUThRb1lpd1FFVGozc2hsV20weGg?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Clima en Salta: sábado caluroso, ventoso y con alerta Zonda - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmxyTE9zRUFIeUFRVVVYU2p4NkhBMnJKdEZiZV81bHBMQ1FvaGRBV2h0T3NOVEJzamFVakVob3NUcHJwZE9GTENKQ0RYOVNLejM0eVAwWGNoNVdMU3ozang1czEyNy1fNUF6cWIweUNPWTZ4Yk11VWpMYlhoS3pZdnFCdUhJb29uMGl5LTRzdjAyT1l3TF9mQ1NWWE9TYnZwT29ob2hQQWd5UdIBrwFBVV95cUxOYy0weWVIWHI5N2JzU1NITnBoVW5mWWxVT1U3RWJsbVRLeW05RmVGS2kzYVRNeDJWQXJabzB5aTBSb0xQZnBPQUJqdUZZd2czelUtUDJ3R294UjBQLXBWN1Z2RFk3Q1EweFViS3oycF9HNGowaXphUGVlbGpkU1ZnYXMyTE4tOEtDejQwdWk3dnY4NFB5S1lPNE00d2cwZHZjMDdlSlVlTmE3a3RRS2E4?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 02 Oct 2026 23:01:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El exintendente de Aguas Blancas Carlos “Conejo” Martínez se entregó a la Justicia Federal tras permanecer pró - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3J5dFNiV0c3TGxQVzR5bW9SWG82ZlEzbTJBaDFBX2tTcXlDa1dkTnNzSXpwSXZNb0tzUVJVTnQtZnFiQUxsZktXeEpFM1VuSDJhakhVTTdkaDB2NTFhbFhGcndCR0pHV3JWLUcyRnVDUkdMei1pTE5oelVVcEhKQXJWSmZLUldHQkUwY0lnWF9xOW5heEs4TFk0NEFINUtvN3RJOVhMMUZUVE95MGt4bnlXdzlKRGRlT2lrTkwxbFlFbHV4WkHSAcsBQVVfeXFMUE5HTzdwakJDQ2ZlWTdaZU8wTDZ0T1RTS2NXOWpQc0t3Q3laVm5QdmhOYkczTFdjY281UFk2VlJ2b3ZYUlFaME9lZ1RPNWJMWW9NdVdrR25vRU5QZ2VJWDVIR1hXREhDQ3VFSHlXQXJ2aGV6WUhvRUI4TjNLaTBTLWxZLW9VdXVkTGJsSWN1QzFiekZhUV9ZdV9vRmR2WTE2Q2hLZDZkb1oySmtzZTYwdUh0NlhYSEhaTEJISU9LNExSTG96QXVneW1oT2s?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 07 Oct 2026 20:56:00 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
