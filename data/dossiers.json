@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 231,
+    "total_mentions": 232,
     "sentiment_breakdown": {
       "positivo": 43,
       "negativo": 27,
-      "neutral": 161
+      "neutral": 162
     },
     "sentiment_by_day": {
       "2026-10-10": {
-        "total": 1,
+        "total": 2,
         "score_sum": -1
       },
       "2026-08-05": {
@@ -250,11 +250,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 22
+        "count": 20
       },
       {
         "term": "gustavo",
-        "count": 10
+        "count": 8
       },
       {
         "term": "litio",
@@ -269,16 +269,16 @@
         "count": 4
       },
       {
-        "term": "milei",
-        "count": 4
-      },
-      {
         "term": "nueva",
         "count": 4
       },
       {
         "term": "planta",
         "count": 4
+      },
+      {
+        "term": "reelección",
+        "count": 3
       }
     ],
     "quotes": [
@@ -375,6 +375,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Juan Manuel Chalabe aseguró que Durand buscará la reelección",
+        "link": "https://elintra.com.ar/2026/10/10/juan-manuel-chalabe-aseguro-que-durand-buscara-la-reeleccion/",
+        "source": "El Intra",
+        "date": "Sat, 10 Oct 2026 15:48:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con críticas a Nación, Salta hará la obra en la ruta 40",
         "link": "https://www.eltribuno.com/salta/2026-10-10-0-0-0-con-criticas-a-nacion-salta-hara-la-obra-en-la-ruta-40",
@@ -577,13 +584,6 @@
         "source": "El Intra",
         "date": "Sat, 03 Oct 2026 15:01:51 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz destacó la posible ampliación de Eramet en Salta por USD 350 millones",
-        "link": "https://elintra.com.ar/2026/10/03/gustavo-saenz-destaco-la-posible-ampliacion-de-eramet-en-salta-por-usd-350-millones/",
-        "source": "El Intra",
-        "date": "Sat, 03 Oct 2026 18:14:50 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -8320,13 +8320,17 @@
     "id": "dip-laura-deolinda-cartuccia",
     "name": "Laura Deolinda Cartuccia",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 17,
+    "total_mentions": 18,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 15
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2024-05-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-11-08": {
         "total": 1,
         "score_sum": 0
@@ -8406,15 +8410,15 @@
         "count": 5
       },
       {
+        "term": "elintra",
+        "count": 3
+      },
+      {
         "term": "cámara",
         "count": 2
       },
       {
         "term": "diputados",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -8471,6 +8475,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Arde la interna del saenzismo: Laura Cartuccia dijo que «Socorro está muy subida al pony últimamente» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUFoOXZIZFB0bjFWdWNvVHRzQ24zQ1J4TERyTEVYZ0ZFVWVmekc3T0Y2STE4TlVsTTR3MC01VUtNS3JDdGRxOE1Lb0lhaE5GRDFMeFcxdkJ5YmRDRDVQVFhSd0c0OS1YT2tNNVhEdFJCUXplcEFGR1I5QjRhc0Mxem1aVzQ5bFJMOEtsZzVJQ1FGVjBENWlVUWhHY0hBdzdQWlBMUG8wclh5ekV6YU5jc0Uwak9KTkNiWFdGMkhKOGFoMm84eEpsTzRIRGk0dw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 18 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Laura Cartuccia negó conocer quienes serán las nuevas autoridades en la Cámara de Diputados - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVk1kemVwWFUtWDFmSTVILXh1T1ZsU2J1bWktNzZHc29FZG9NeTk3REltaU96dVVVVktvQ2VWbkxVc3pjZjdTX0NXdUhwMGotTVRaMkNfem9hcU5NcWQ4TlItVWp3T21ZU2sxVEZKRjUxMHJxWjJrZm93NGswOW1wR28yYUw4OXZfcks4Wi11NHhSR052QkVxaU5tSEVPU1BCeTFnWGE0M0VQN2gwYVJoTWZkbkJ5Wk4wR1gxb2V2OHJ5NGdfSnJxbE1PWTlXWk1UN3AyVVAyVWZab0tBZVhIVlRR0gHnAUFVX3lxTE1GdWpoR0lEcGY2ZXVwSE9XbjBHaXY3ekQwYlZ3NDM0VUxEOXIzNXRVdWlyLVVIcEtUY1JzNEZKV3JQbnBIQklyTzFtZEdXOFRpQjdIZkY0YTVVMzdCQmxRbEhqV0padFhSWF9DcGM2T2NPczJtWGpDazdwWjJkZ0NYNDBNTENJVy0yRkhadThwTzc0VXktQkV0OTh6QUFNT2o0S2w4VmwzTm4yZV9wNmxVaXBOT3NPOElBWjZETWxGVHp3ZWF6Q1pYRm1pTktKLWdtUWFLcGx0RHEwQzhyQlZKNDZzLTZDUQ?oc=5",
@@ -9431,11 +9442,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 11
+        "count": 9
       },
       {
         "term": "juárez",
-        "count": 11
+        "count": 9
       },
       {
         "term": "durand",
@@ -9446,19 +9457,19 @@
         "count": 3
       },
       {
+        "term": "aborto",
+        "count": 2
+      },
+      {
+        "term": "cruce",
+        "count": 2
+      },
+      {
         "term": "aries",
-        "count": 3
+        "count": 2
       },
       {
         "term": "line",
-        "count": 3
-      },
-      {
-        "term": "diputados",
-        "count": 3
-      },
-      {
-        "term": "aborto",
         "count": 2
       }
     ],
@@ -14655,15 +14666,15 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 12
+        "count": 11
       },
       {
         "term": "álvarez",
-        "count": 12
+        "count": 11
       },
       {
         "term": "elintra",
-        "count": 7
+        "count": 6
       },
       {
         "term": "libertad",
@@ -20569,13 +20580,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 63,
+    "total_mentions": 64,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 7,
-      "neutral": 50
+      "neutral": 51
     },
     "sentiment_by_day": {
+      "2026-05-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-27": {
         "total": 2,
         "score_sum": 0
@@ -20800,11 +20815,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 12
+        "count": 13
       },
       {
         "term": "royón",
-        "count": 12
+        "count": 13
       },
       {
         "term": "elintra",
@@ -20832,6 +20847,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "La Legislatura es la casa de la democracia, no una sede partidaria",
+        "source": "Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONTZKQVp6M3Z3WGtqdG1sWFo2MzZ1bHdRS3dUUy1UUTFtQll2OGhoUW1JQWhRYWptdElCUjlKTUwzZFkzbE1Hd1FySnE2MkhDSlZseUpUMWtEUlV5RnNoaEl6SVA3U2NhZ2daMUtxblBhZGV2Z3RLT1Z3S05WSkdtaHRSSDk0X2RNVm54NVY3RE1wS1ZqeEE4RU1iblNCYklla0had2FIdVRLTmVSOGZDWDg5aUJ0T3dlMFpFb3hmbUVtSV9BRXdqYmpiOUdpOHI3TW1tbEJSQlp3Z1FpeTVleTVBamxhckZnYklvSDd1ZWtqdDBXY1Qtb0NXdG7SAYICQVVfeXFMTXZRYXN4WmhLU09paFlaVk56RHROQVVKSDdGVFUtZjgxaGJEdnZxNWNVNFBzYjk0NXR5aVo2bnZYQ3VWUllGb0E3LTZhVGVuSElUSlBGZjJpdW1LS1ZHU29MZTZfY2RlTVVlcGk3dXlPVGRMb0E3dnNWRU96eVFVeG1ZY3hxdVBzeDJtTHg2SzVIMmVCSjRoVnk2aGhJYi1ONEdwQ1Q5R3VsQVc3TG5hNUp3eHU5YkhNWGk3YW42bzVCX19VbkZFZjJQZEpaWVVKclRLeVlzRmVBTGNEVVRZMlFZNU1hYW5HYnY4MHJvN3RxS1lCN1B6cXBEQkZDLU9vT2VR?oc=5",
+        "date": "Fri, 08 May 2026 07:00:00 GMT"
+      },
       {
         "quote": "Deseo que cumpla una gran gestión",
         "source": "El Tribuno",
@@ -20915,12 +20936,6 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeEFqdjItUnBncExJRUkxQUFKcGdjQWJ4cmZNRXJZcVMxZjZFRXZZdWxKalIyZTd5SW5SNGpFYVpJRzNTN3RjbVhCeFJBWTRSdnRfQ0RoTDFxeXlPb3NGQjVXUEdnNlkxZFk0clNESC00OGc1WnN5c2dsWnJSQUxWN3k1RDg1QnZuNXRhYmNlejJjQzlBbW5wTGJGNU8xcUhLR0lycHpPYXVhYlBTNlgzM0RIUzBsYk5tc3pZLURaUmZiTDNnRDU0TThpMTZtTkN4TVFwaw?oc=5",
         "date": "Thu, 16 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Fue un gran desafío para mí, una buena campaña. El balance es positivo",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRzVwdTJtOE5qNVZzb1IxUnE3YnJWbVFxVVp2dkJETHVnUmk1ckd6ZlpHSkRBQ0pPdkFMQkY0a2ZySEpTNnloZVdRZ196dGdhSnJ4VXFFVlB1UGxqdTkyWFVNdzlvUTQtNjJHTVB5b3ZTQmM3dTcxLXkzQkFxR2dnS0ZqTXJwUmVqZ1pXTEk1bGI1OGk3cE9kZHJYb2U2RjhqUGRiQlJxV1RNVWNtUnByOHFuc1FPdnV6a3VTeEg3SkVUUGRRSXNKbzRn0gHPAUFVX3lxTE9GSkRCQlVKRlBGWVE0WGwxaXRUa3lYRVhrd0JPXzlFRUpRWWFWaFAtY0hHdEdQVm9EZzBPaHVaUXZuZzhTbXFUMW1rLS0yS2FSam1yV1E5ZkJ1azRkUDF5c3k2TzEyTWFyU3l1Y1ROcG9GSXhGNnZpUkZmNnotanotU1ZkOFdMWTFPLXZ1S3Roc1dTenZWcjhBazgtWlJSWXZIYmR6d1cxVmE4V0xxNS1fd1k4dVFaUUNUNFZnNGo1S3haQlBxVnFOT1FKZkRwdw?oc=5",
-        "date": "Sun, 11 May 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -20944,6 +20959,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "|VIDEO| Flavia Royón cruzó a La Libertad Avanza: “La Legislatura es la casa de la democracia, no una sede partidaria” - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONTZKQVp6M3Z3WGtqdG1sWFo2MzZ1bHdRS3dUUy1UUTFtQll2OGhoUW1JQWhRYWptdElCUjlKTUwzZFkzbE1Hd1FySnE2MkhDSlZseUpUMWtEUlV5RnNoaEl6SVA3U2NhZ2daMUtxblBhZGV2Z3RLT1Z3S05WSkdtaHRSSDk0X2RNVm54NVY3RE1wS1ZqeEE4RU1iblNCYklla0had2FIdVRLTmVSOGZDWDg5aUJ0T3dlMFpFb3hmbUVtSV9BRXdqYmpiOUdpOHI3TW1tbEJSQlp3Z1FpeTVleTVBamxhckZnYklvSDd1ZWtqdDBXY1Qtb0NXdG7SAYICQVVfeXFMTXZRYXN4WmhLU09paFlaVk56RHROQVVKSDdGVFUtZjgxaGJEdnZxNWNVNFBzYjk0NXR5aVo2bnZYQ3VWUllGb0E3LTZhVGVuSElUSlBGZjJpdW1LS1ZHU29MZTZfY2RlTVVlcGk3dXlPVGRMb0E3dnNWRU96eVFVeG1ZY3hxdVBzeDJtTHg2SzVIMmVCSjRoVnk2aGhJYi1ONEdwQ1Q5R3VsQVc3TG5hNUp3eHU5YkhNWGk3YW42bzVCX19VbkZFZjJQZEpaWVVKclRLeVlzRmVBTGNEVVRZMlFZNU1hYW5HYnY4MHJvN3RxS1lCN1B6cXBEQkZDLU9vT2VR?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Fri, 08 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta pisa fuerte en el Senado: Flavia Royón asume en Minería - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGREX3Y1NVl2SzQ2cWJLMGhpczVQODNnZkZGX2d6eWdpNjJnOGQ5WWpoVnR2TVphejVQVmdwbTlZSDlpRnZJUjlGZFZ6b3p5Ni00Q3dmSjRGU0l3REVkSFliRXI5aDd0NUtRODIySzZiNTRrZ2hvd3Z0MjhHNmFqdkRtcFZPLXdLbjRlQkVOX3VldWpIejgxTzRaOA?oc=5",
@@ -21145,13 +21167,6 @@
         "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVnhsVU5yOHE5M0tQWC16UV9DZ0psdmNlT1EzQ3BrNWcyRkFqWWJlUksxdkEyNzBlYUs2N1Y0ZWJaaXFQWWdkVG9CeF8zTUVDUE9tSUpUbXdJbXlNMm91UDZMT1U0VDF5MV9LTnRWcDIwRFBaODQ1MTMwcU40NlMwb1ZuYWkyVHBZakE4RlNabHRhc3pMakxyeWxadWZ1YmNZYkdSOVdzdlo4R3FfMjJtYURhaHJkNUk3ZTdzQnZZM2xiaEhFWklJQmg4a2NSSkV0T1RlZl9ndXB3ZVZKeVRaTzZPTFdoV0FKWmFnR3FTOXM4TGxzVUNLUE1aSXRSZTV6VUYxWDFn0gGLAkFVX3lxTFBfYWJnamFpaURIV1hWOHN4Tk9BeHBuTnBBMlFVUlRuMkFRNVl4RkVHeVBDVEo3WXJxQWtLM0tpVzRVQ1E3aEFfdDdiaWZ2TzhWb0hmb3VKY3h6NGI4TFpYWjN4Yk9UblVHb0t2Z05YOUhaZzZDRmxNTzFqa21acHNwSkxSUnZuZ05mTERNTGR1V2FtM3NVZE91SHBYeVNmamU4ZHFMQ0RWRTdhZVl3RDZQcE5qUWU2OHFTN1NXaE50R3hoeEJaZzZrNnBaTnNfdGZoelIxNjFGV2l3enVqLUY1U1Y5MXJDblRXZFZTeUVQckdMSjN6X25hVjUzdUV4MDlnUHNUN01mVHFQdw?oc=5",
         "source": "eltribuno.com",
         "date": "Sun, 28 Sep 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz se refirió al despido de la salteña Flavia Royón como Secretaria de Minería de la Nación - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWDhOU0RnekJiU24xVjc4cmJEX01icDhQb3NPb2hBMERZbWdMWEk4Z0ZMamd5LTc4RE1wRldSOVNHYTVoMXBSWnBsaVZJS2FMTFF6WFNBLURwcDRHWHdReE1tRkREUkh5T0E5c015SWRIZkl5TS1odFVFdS1oOWM5QlhILVR1bmRmRG9mUkF3bUswSVdNTFI0VHBjQWpBVE5zeUJvTzdnMmVKSThjSTVuNVFPODM4NWxpZ3B5elBjRlhtMEdGS3BVS0gzRkZiNHppTnBXU1llaVBpQ1Q5eEVwaGNZdExIUdIB6wFBVV95cUxQSmh3cEhKcVhwNVRTSmVHaEJrSTdsYVdYZGRrb3lMdVVPbHNhcDBZdm94c0ZVaHhIUHQxLUp2ZjVMLXZZMEduN1J5Vk5ka01FaGlfYnhpUVF5VG9sMWVRYjE2Q1oxMTFXSXZfbHlkSHIzQUxmelU5R21xUk5XSUZON0hVdGZsWEY1c19iTUtMT0w4ODRCZFp3dXM3ME5RRzNpZDRRSE9oSWlaZzhqOFhTUGN1eEowWVk3aGZwNnRvRG5LeU9wdDI5dXhFTTdVUUJXZGdoZVZ6TWRScnB2X0hfZ2dwRm5zemM5bWEw?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 10 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21703,13 +21718,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 21,
+    "total_mentions": 23,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 13
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "2026-10-10": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-07-20": {
         "total": 1,
         "score_sum": 0
@@ -21786,18 +21805,34 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 3
+        "count": 5
       },
       {
         "term": "coraita",
+        "count": 4
+      },
+      {
+        "term": "orozco",
+        "count": 3
+      },
+      {
+        "term": "cornejo",
         "count": 2
       },
       {
-        "term": "elintra",
+        "term": "vialidad",
         "count": 2
       },
       {
-        "term": "defendió",
+        "term": "nacional",
+        "count": 2
+      },
+      {
+        "term": "fondos",
+        "count": 2
+      },
+      {
+        "term": "asignados",
         "count": 2
       }
     ],
@@ -21848,6 +21883,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nació - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWndpR3dEZk9hczJkdFl6XzdMRG5hXzdDU2VnaUMybUI1bGtacEtHT002RVpVcW5JTlNHOGhrZ3FOUTFzTFg4dHRKdU1qX29KemFsWDdEQWZrSHZLNlptVTNzWGd1UjRvSU9vTVlJZklaV2RWQUx6UC1LbGYzdkc0ZVlKMmJxM04wN1VkRnJ1T2JCZnpGVS1oQW16OFlodzRyZURGeFRJd2ZXYjhrVVNhSGR3QzZEbE5BNVN6eDdPTnRSUjNLbUZlM0otUFV2cVM2WkdhWDNFb21aWmVzejlpZVo2aHVNU1QtOWhJb3NJWTnSAfYBQVVfeXFMTkwya1AzVFNzZF9FNGNXOWpaeUo1Ti11LUltVG9mWk9LTHhETWlyU2k0ZXFtSGFlNkNnXzY4V0lESWkyX19OWXpPdUM3MnI3cVNESkx4UWlydzlMZVBteURUekEwanYxX3JTSzdXVGhCNmx0NGt3QUQxbkplN0QtblFLTlZrc28tYTZQelRSS3hCVXhKcUEyaVF4dXJZai1nTExfenE3QWFlWE9DbHNFRFNGZTE4TUVTT09TdnRYTVJJT1NJcGZUMTJRU25obTF2RWVrNGtmd3pQNUdubW5BRWNkWkJmZmdOUzVrMk9yZ0YwcGVFd2tn?oc=5",
+        "source": "El Tribuno",
+        "date": "Sat, 10 Oct 2026 16:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nación",
+        "link": "https://www.eltribuno.com/salta/2026-10-10-13-0-0-orozco-guzman-coraita-y-cornejo-en-vialidad-nacional-salta-es-la-provincia-con-mas-fondos-asignados-de-nacion",
+        "source": "El Tribuno - Salta",
+        "date": "Sat, 10 Oct 2026 16:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sueldos en el Senado: ¿cuánto cobrarán Orozco, Royón y Guzmán Coraita con el nuevo aumento? - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWXZZTWgySGJmNktDdEd0bDBlVmRFWVhYSGhhUDE5MWk5eTYtcWtHN3Q5eHFWVDhOc0VDMnI4akNVREtjT2Z1VG51Q1lLOTltaU52RzhIdE1mbEpyNTFWcVlVdGlaWk83RnJMMnZ2SWpRR0oyWjRzRDZrVS1hRnVOMEZzdkZoaFA4a0p0ZmRoSUFVaU1jN3ZHRFRZZ3JpSlBSWmJWZndlRjFobGp2RjJoNE5lNjF1b3J3WW5oNXA3aw?oc=5",
@@ -22611,15 +22660,15 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 4
+        "count": 3
       },
       {
         "term": "zapata",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 3
       }
     ],
     "quotes": [
@@ -24113,16 +24162,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "gastón",
-        "count": 2
-      },
-      {
-        "term": "galíndez",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "No se puede manejar bajo tutela central",
@@ -24559,13 +24599,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 16
+      "neutral": 17
     },
     "sentiment_by_day": {
+      "2026-10-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-05": {
         "total": 1,
         "score_sum": 0
@@ -24668,6 +24712,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffin defendió el achicamiento del Estado, pero advirtió que el mercado no resolverá todos los problemas de Salta",
+        "link": "https://elintra.com.ar/2026/10/10/jose-gauffin-defendio-el-achicamiento-del-estado-pero-advirtio-que-el-mercado-no-resolvera-todos-los-problemas-de-salta/",
+        "source": "El Intra",
+        "date": "Sat, 10 Oct 2026 16:07:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Partido de la Reconquista pidió a Nación revisar la licitación del Belgrano Cargas",
         "link": "https://elintra.com.ar/2026/10/05/el-partido-de-la-reconquista-pidio-a-nacion-revisar-la-licitacion-del-belgrano-cargas/",
@@ -27741,13 +27792,17 @@
     "id": "eje-nicolas-avellaneda",
     "name": "Nicolás Avellaneda",
     "role": "Ministro de Seguridad",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 7
     },
     "sentiment_by_day": {
+      "2026-10-10": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2025-05-14": {
         "total": 1,
         "score_sum": 0
@@ -27811,6 +27866,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Operativos en Salta: 145 demorados tras mega patrullaje en Miguel Ortiz y Palermo",
+        "link": "https://informatesalta.com.ar/policiales/operativos-en-salta--145-demorados-tras-mega-patrullaje-en-miguel-ortiz-y-palermo_a6aca6f5ba62d6833587c3bdc",
+        "source": "Informate Salta",
+        "date": "Sat, 10 Oct 2026 17:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "Las calles de Salta: Nicolás Avellaneda - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uNlVDQ1BCaFMySDJMcjRMYlJtY3FhdnNKTGk2SGpwLXdsMEN4NTU1cE1qYXJva3djODNDaDlsVXdsejZuSUNhN0FxVWFDLXVyOGJYUk1Zbl9VRmI4OUNmWVFsNHROR00wOEYzWnFPUWVabnRWZGlqcEQ3akZwdw?oc=5",
         "source": "Elintra.com.ar",
@@ -27865,13 +27927,17 @@
     "id": "eje-juan-vilchez",
     "name": "Juan Ignacio Vilchez",
     "role": "Secretario de Seguridad",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 3
     },
     "sentiment_by_day": {
+      "2026-10-10": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-07-02": {
         "total": 2,
         "score_sum": 0
@@ -27918,6 +27984,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Operativos en Salta: 145 demorados tras mega patrullaje en Miguel Ortiz y Palermo",
+        "link": "https://informatesalta.com.ar/policiales/operativos-en-salta--145-demorados-tras-mega-patrullaje-en-miguel-ortiz-y-palermo_a6aca6f5ba62d6833587c3bdc",
+        "source": "Informate Salta",
+        "date": "Sat, 10 Oct 2026 17:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Nuevo Secretario de Seguridad: ¿quién es el brigadista Ignacio Vílchez? - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM05LWlR4NWxBemVxaDI3bXRqMVRiRmNPd2xmYWlZdU16cXdUMUU4VklmUEZxMDJJc0k0Q0hYRVBnWElDbFA5a3lRME10ZnMzd0d1QWItRzExQ20tMmJTcnZOR2VlYUZnRFZTakd6dTc3UDlrX3FBeGhfUHMyNGZzZHFBaXI3TWk1cmc5dWdlR1dEdlRDTG1uMlVqdmVfWFhkTk13M1p3?oc=5",
