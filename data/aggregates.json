@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-09T21:43:23.389260+00:00",
+  "generated_at": "2026-10-10T01:20:59.747989+00:00",
   "by_politician": {
+    "eje-mario-mimessi": {
+      "total": 21,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 20,
+      "score_sum": -2
+    },
+    "concejal-laura-garcia": {
+      "total": 61,
+      "positivo": 1,
+      "negativo": 6,
+      "neutral": 54,
+      "score_sum": -12
+    },
+    "dip-omar-exeni-arminana": {
+      "total": 36,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 34,
+      "score_sum": -4
+    },
     "concejal-laura-jorge-saravia": {
       "total": 40,
       "positivo": 0,
@@ -155,13 +176,6 @@
       "neutral": 2,
       "score_sum": 0
     },
-    "eje-mario-mimessi": {
-      "total": 20,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 19,
-      "score_sum": -2
-    },
     "eje-ignacio-jarsun": {
       "total": 11,
       "positivo": 1,
@@ -210,13 +224,6 @@
       "negativo": 9,
       "neutral": 13,
       "score_sum": -22
-    },
-    "dip-omar-exeni-arminana": {
-      "total": 35,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 33,
-      "score_sum": -4
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 56,
@@ -532,13 +539,6 @@
       "negativo": 4,
       "neutral": 46,
       "score_sum": -3
-    },
-    "concejal-laura-garcia": {
-      "total": 60,
-      "positivo": 0,
-      "negativo": 6,
-      "neutral": 54,
-      "score_sum": -14
     },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 2,
@@ -913,6 +913,48 @@
     }
   },
   "by_day": {
+    "2026-09-03": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2023-05-07": {
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2026-06-25": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-06-29": {
       "concejal-laura-jorge-saravia": {
         "total": 1,
@@ -6457,24 +6499,6 @@
         "score_sum": 0
       }
     },
-    "2026-09-03": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-alejandra-navarro": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "2026-02-12": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -7217,16 +7241,6 @@
     },
     "2024-04-29": {
       "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-06-25": {
-      "dip-laura-deolinda-cartuccia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
         "total": 1,
         "score_sum": 0
       }
@@ -14867,7 +14881,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 56
+      "count": 57
     },
     {
       "term": "tribuno",
@@ -14879,11 +14893,11 @@
     },
     {
       "term": "mimessi",
-      "count": 22
+      "count": 23
     },
     {
       "term": "mario",
-      "count": 20
+      "count": 21
     },
     {
       "term": "nuevo",
@@ -14898,19 +14912,19 @@
       "count": 17
     },
     {
-      "term": "sáenz",
-      "count": 16
-    },
-    {
-      "term": "antonio",
-      "count": 16
-    },
-    {
       "term": "informate",
       "count": 16
     },
     {
-      "term": "marocco",
+      "term": "sáenz",
+      "count": 16
+    },
+    {
+      "term": "tartagal",
+      "count": 15
+    },
+    {
+      "term": "antonio",
       "count": 15
     },
     {
@@ -14918,7 +14932,7 @@
       "count": 14
     },
     {
-      "term": "tartagal",
+      "term": "marocco",
       "count": 14
     },
     {

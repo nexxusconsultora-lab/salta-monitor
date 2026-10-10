@@ -246,7 +246,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 23
+        "count": 22
       },
       {
         "term": "gustavo",
@@ -255,10 +255,6 @@
       {
         "term": "litio",
         "count": 5
-      },
-      {
-        "term": "gobernadores",
-        "count": 4
       },
       {
         "term": "molinos",
@@ -274,6 +270,10 @@
       },
       {
         "term": "planta",
+        "count": 4
+      },
+      {
+        "term": "parís",
         "count": 4
       }
     ],
@@ -8713,13 +8713,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 35,
+    "total_mentions": 36,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
+      "2026-06-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-03-02": {
         "total": 1,
         "score_sum": -2
@@ -8864,11 +8868,15 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 4
+        "count": 5
       },
       {
         "term": "exeni",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "informate",
@@ -8976,6 +8984,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El camaleón: Omar Exeni y una candidatura a intendente sin doctrina - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnJNZ1gwZnBOU3l1d3JHN2lKcGtUUDgxV3FrUk5vZ2dBbVNQWkJ5MTc0dEtUMG1vZFZkdlhRX0hPX0Z5ck9VYUlHNi1rR0hFUXRIZEtXUExDVXhyVElSTW5RNGpSTW9QSkVja1NPTmd0RjVPX2xfaXZNYVpNQ0M1U3Y0VWdTU05YN1dSNUJtX3djSEwwdFNPaGZJTkk1dHZsRHNN?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 25 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Omar Exeni busca crear un registro de condenados por delitos sexuales - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYWx0MmtRZEVfU0tYNS02QUFpelVWZzZjNm04a0JkRTZDbU04Y3RWYU9aV0Y2TWVfcHdMSExCZ3VzTFhqeWVDYjZDMC1PV3RoZXRrTWljYkRFRnh2cFlKakRXR2dKbXFWVEJWalNRbXFPN0o5NzhEaU4tWllqU1J0aHJQdGltSUdKYUVkZ1NLTW1KV185alJqZ1doTDU4UHRUYjdpT0RmVlVDT3VhTWVQbWRMTk9VNEZfZXBDRUlXRmNWalpqZ0JNb0VpaWhybWfSAd4BQVVfeXFMTWhjdi0zc1kyNmpFRGQ0Rnh1Vk51X2JDWFNFa2U0Rk1Mbk92Z0FfNEFSZmQ1dUJYV050bW1hN1N0d0RSWVZRYWh4WXFoVU8yMlZQUThuZFFPS2JMRE9tekk0LXE1MDRpTUZrN0FPMUt2Z21ZbmNnd2NvVFczVWJKcXJjTVNCalh0V3RBZDZyNDFSZk9fWHRNQUh5eUkwWHY5YWdSeGdzRVhsRE5RSU5rdWFKZFpPYy04R0lUcUNJY3M2aUExX0YtbGhpeVN4NHV5SHctUE1fTDB0cnlTNmxR?oc=5",
@@ -9177,13 +9192,6 @@
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY080dG0tQlNRbzZBMDZadXZ4QzU4WUZ5d1RBRjM1djhEc0FRNm1QaUR3Y1Q3OHlCdTlpNHdRUmtqdmRrWnFkX3kwZS1OOXBlemdDYVZoOE1sSkd6czlqY3pIM0gtWnQzbHRtOEVFUG1XLTFlQnQ2N2Jtb3E2RzJhT2FtRFFnWGtnRHRFcVlsRE9YMTVyZk1ZbDkxUGhQS01Tc09BN2tzaG9paVlMSkZlQXpMWDZ2SzBocDk0VWZtN09jYlBpYnBudWs4V3JzUmV4WXVpeG9Yb9IB5gFBVV95cUxOMEJWZ3ZrTzN5RDlOMlpxeG5wdlI0aHhGT3lFcUp3bmxxT1RCUTJDcEVqeG1tUlUtOGRQcEJHaDllQVY3OWhnWi01VVNBVXlLelNjZVRGaFA4TmltcU5RQTBiUlJ5dTNDU2ZwRklucTlIRnZUQU9SZWdmRlJOajc5Wng3SnJGSmJMZ2FqQ3FPQ0x1M2ItSWtCWWkxMEVWZ3RDbWphRzRRMXpKbXV4SVZTNmxtVWJXWFlSVDQtWjJRallhLVpMWGxienpLMGhIOWhnR04taVZvdnJBVHRtX29RcWR1M2Nldw?oc=5",
         "source": "Informate Salta",
         "date": "Mon, 17 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Omar Exeni: “Me enfocaré en la participación ciudadana con nueva tecnología” - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVTB1Q2U5eUp3YW5xaXJ2OGNKRGpzUmh3dEhoVjBDSUZIeTVGaFh5U0QyRFk4Nm5BYzlVY0xFRV9XdXY2dDhWcXB5bjU3YXpQMGd3UjZWZ1VBRHlQQ3h0ZDhpM0VKaWNzTy0zajg4aDVDWU9xRVVrNzdINmRQbUl4ZW1GeHVRVnE1RVZ1dmlkdGp5QnVOVl9mSDBuTk9IYUVlMWd3S0pRYjFOTXl0d3pXWk1idTU3akYwdmlxdV9GNmXSAcYBQVVfeXFMUFZyRHJycEpWQVVpREZqODI5bFo3cDAtcWdWLVBWcG12RklHczNTaDlBLVk3ODR3XzhGU1Q1SFpYUnFFc183LWF4cW9BSkdBWkVRdUlnZS1HMXVZdWF5MExDTS15dXFzQ1dkdDQ1OGpBR3JEb3dDMEItT0pvVU9ucXo4dGtoU1VuaDIyWG9HdElaNTJ6emVhdDNReXI3Y3d4UC04aWxxcGFIZm1tN3k1QzZKZlhsOE1JbmJyb2tNZzhBVkVRY3JB?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 11 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -16568,13 +16576,17 @@
     "id": "concejal-laura-garcia",
     "name": "Laura García",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 60,
+    "total_mentions": 61,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 6,
       "neutral": 54
     },
     "sentiment_by_day": {
+      "2023-05-07": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-03-11": {
         "total": 1,
         "score_sum": 0
@@ -16783,6 +16795,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "Avancemos es un grupo de millonarios, van por el poder, no les interesa la gente",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcF9UOGJ3d2JpVEpUSjhjLVVOWG9jbF9MbHoyMXQ0MEtod1BzZlRSQ295M0hGaEU2SHNEVmZuWWJhSmhKMkFIZ0k5bm9HRUlvR2g1ckw4WE5hOHNHUTdmcGdqTHpfeElMM1VhbWstOE9hOFljaEQxaDFFNnJlWmlQY1FNWlRVUzF6VDgwWnkyTVZiZXBWQ2VzUjcyUDFsV3k0bEc3Z3FsZGRFTEVRcllSeGo4bHF4VzB4LU5QeWRPMy02d0wtNjgtamxoQkNKTFc2NUMtX3hETUVCMGplU2lCTFFEbGoyZ3Zaai1Jdl9QcTN0M05XZGlJdjh4VdIBigJBVV95cUxNQzhkZk9UQjg1X3hWOV9INDdGUzBnTjJZNkE0czdUM3VVVWZlbzdPd2ZFVTV1UHY0MkZnVFg1QURJMDF3bTM5QlBZQk9ZTTZNWno2QlhsRW1aM1pseUtRVm53T1hJcThRTzNJaTNfX1F5amthZGd2MTlJUE1TMDg5R1JwZjdNT3hmWE9rRHJOY3BUT0JEcmNhNUNacDhwUTFCX3B2TXBabzlfQnBPMjJKXy1KLU8waTAxdlhSUVhWc0hYOElLQV9OekY1SjRYWXVLb00wQlVlOHpyS2tjYWFOb2xkSjQxU2ZUQno3eTZwVHJ0RHV6NGZZM18zTVlUNWlYWnRpcHVyZnp5QQ?oc=5",
+        "date": "Sun, 07 May 2023 07:00:00 GMT"
+      },
+      {
         "quote": "No se puede ser tan maldito",
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmViUEpWbndRYkd0WEN6cTQ1clhWcTBENHpJaWU0SEt6UTF3eHctZUVkeG1ockFtcVBmRVFLcXJHbWlJeWpYU2RmWEtuYmtaTHpYc3ZicnNPdFZPdElqYVdDMGh6QUJCQnYzWC1mdUtheDJDTVo4NlJ0SHppa09PN21VWQ?oc=5",
@@ -16846,6 +16864,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura García: “Avancemos es un grupo de millonarios, van por el poder, no les interesa la gente” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcF9UOGJ3d2JpVEpUSjhjLVVOWG9jbF9MbHoyMXQ0MEtod1BzZlRSQ295M0hGaEU2SHNEVmZuWWJhSmhKMkFIZ0k5bm9HRUlvR2g1ckw4WE5hOHNHUTdmcGdqTHpfeElMM1VhbWstOE9hOFljaEQxaDFFNnJlWmlQY1FNWlRVUzF6VDgwWnkyTVZiZXBWQ2VzUjcyUDFsV3k0bEc3Z3FsZGRFTEVRcllSeGo4bHF4VzB4LU5QeWRPMy02d0wtNjgtamxoQkNKTFc2NUMtX3hETUVCMGplU2lCTFFEbGoyZ3Zaai1Jdl9QcTN0M05XZGlJdjh4VdIBigJBVV95cUxNQzhkZk9UQjg1X3hWOV9INDdGUzBnTjJZNkE0czdUM3VVVWZlbzdPd2ZFVTV1UHY0MkZnVFg1QURJMDF3bTM5QlBZQk9ZTTZNWno2QlhsRW1aM1pseUtRVm53T1hJcThRTzNJaTNfX1F5amthZGd2MTlJUE1TMDg5R1JwZjdNT3hmWE9rRHJOY3BUT0JEcmNhNUNacDhwUTFCX3B2TXBabzlfQnBPMjJKXy1KLU8waTAxdlhSUVhWc0hYOElLQV9OekY1SjRYWXVLb00wQlVlOHpyS2tjYWFOb2xkSjQxU2ZUQno3eTZwVHJ0RHV6NGZZM18zTVlUNWlYWnRpcHVyZnp5QQ?oc=5",
+        "source": "Informate Salta",
+        "date": "Sun, 07 May 2023 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Laura García arremetió contra Cornejo por los subsidios: \"No se puede ser tan maldito\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmViUEpWbndRYkd0WEN6cTQ1clhWcTBENHpJaWU0SEt6UTF3eHctZUVkeG1ockFtcVBmRVFLcXJHbWlJeWpYU2RmWEtuYmtaTHpYc3ZicnNPdFZPdElqYVdDMGh6QUJCQnYzWC1mdUtheDJDTVo4NlJ0SHppa09PN21VWQ?oc=5",
@@ -17048,13 +17073,6 @@
         "source": "eltribuno.com",
         "date": "Fri, 12 Apr 2013 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Nico Occhiato se mostró muy divertido frente a las críticas que recibió - elintransigente.com",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdkpGcWlMd3ZuT0JCWnpOb0JibU9haVMtQzdUbnJmMl82YW0wZ1hSczRHQWlMZDBLN3VneUM1RVVhNzlRZ0d0Z2NfYU13NzRvaVJWWFpDWXNXMXZ5ejRkZmZ0aDgyb0hzTkVibksxWHRSVHo4U3UtRGVuNldrenRrbmYwcEQzUmpycmFCQi0xWkphVmJfdGsyVlNZSXo5Sng5Yl9HRS16SmsyMjJC?oc=5",
-        "source": "elintransigente.com",
-        "date": "Sat, 11 Mar 2023 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -24096,18 +24114,10 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 3
-      },
-      {
-        "term": "galíndez",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 2
       },
       {
-        "term": "puede",
+        "term": "galíndez",
         "count": 2
       }
     ],
@@ -26807,13 +26817,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 19
+      "neutral": 20
     },
     "sentiment_by_day": {
+      "2026-09-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-11-22": {
         "total": 1,
         "score_sum": -2
@@ -26894,35 +26908,35 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 20
+        "count": 21
       },
       {
         "term": "mimessi",
-        "count": 20
+        "count": 21
       },
       {
         "term": "tartagal",
-        "count": 10
+        "count": 11
       },
       {
         "term": "intendente",
         "count": 8
       },
       {
-        "term": "elintra",
-        "count": 5
-      },
-      {
         "term": "hernández",
-        "count": 5
+        "count": 6
       },
       {
-        "term": "alba",
-        "count": 5
+        "term": "elintra",
+        "count": 6
       },
       {
         "term": "franco",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "berni",
+        "count": 5
       }
     ],
     "quotes": [
@@ -26971,6 +26985,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Crece la tensión en Tartagal: Franco Hernández Berni volvió a cruzar a Mario Mimessi - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNanJZSGdhZm1XeXNDWS02blRwdF8xUEtqcnd4R3hEbXJ0cl8xUUF5MHRSVF9Na2pEazlUNG8xT1BKU1E4c0RIOWJ3LVlOZm9JbVdpWXdOSk45WXlyckZjZmZUbnZSR3lVbWF1d1JPenJSZi1xN0N2NmtMMjBrR0dPWmNQTTJrWk9KcVdlV1BZdk9OOTl4UkVDSlFrUGgzaFM5dWZ5OWtfU1N1RmRDbWV3c0tudU1mYWUwZkE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 03 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Dicen por ahí\": el rechazo a David Leiva, Mario Mimessi busca revancha, la dirigente visitó al cirujano y ausencias en la boda de Flor Peña - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQYUxQOFo2bGdNT0ozWnM2MDNldElMNUNpcFBDa1BLVnhIcVRUcW1WUmxRWExvQU9WODBwYV9pUkFIalkwTy1zQklqM29yeVk5eVBVUUJiRkp5U0lISWNSRmxvS05BaEVaa001UlpKSUtKbkJ2aTZGSkZsekhDSjNVd0dpdFg0VnVSdTRZNkhnRHEwNnNKaVFLUWJqLVktdmZiWFdQaWtLcUdhOTJyaUMwVTFmWWdfS1VhX242cmpINnY0VGpqZEJnU0lLdHFXb01kTS1XUEszRXNDWjRqa0lkeE1jR2lSYTRPQVREa3BKOWNWMWhaQ1QyMWdMUkppaGM?oc=5",
