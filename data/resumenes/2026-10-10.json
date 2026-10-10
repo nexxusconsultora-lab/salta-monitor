@@ -1,43 +1,183 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-10T19:08:51+00:00",
+ "generado": "2026-10-10T22:26:10+00:00",
  "totales": {
-  "recolectadas": 107,
-  "politicas": 20,
-  "seguridad": 7,
-  "descartadas": 80,
-  "historias": 20,
-  "historias_seguridad": 6,
+  "recolectadas": 142,
+  "politicas": 27,
+  "seguridad": 8,
+  "descartadas": 107,
+  "historias": 26,
+  "historias_seguridad": 7,
   "medios": 8
  },
  "cobertura_baja": false,
  "temas": [
   {
+   "tema": "Otros temas políticos",
+   "historias": 8
+  },
+  {
    "tema": "Elecciones y partidos",
    "historias": 7
   },
   {
-   "tema": "Otros temas políticos",
-   "historias": 7
-  },
-  {
    "tema": "Gobierno y gestión",
-   "historias": 2
+   "historias": 5
   },
   {
    "tema": "Poder Legislativo",
+   "historias": 3
+  },
+  {
+   "tema": "Economía y finanzas",
    "historias": 2
   },
   {
    "tema": "Salud y educación",
    "historias": 1
-  },
-  {
-   "tema": "Economía y finanzas",
-   "historias": 1
   }
  ],
  "historias": [
+  {
+   "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente",
+    "Informate Salta"
+   ],
+   "n_notas": 2,
+   "primera": "11:48",
+   "links": [
+    {
+     "medio": "Informate Salta",
+     "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
+     "link": "https://informatesalta.com.ar/economia/mas-de-32-mil-empresas-cerraron-desde-la-asuncion-de-javier-milei-y-el-pais-se-hunde-en-una-crisis-sin-freno_a6aca6eeea62d6833587c052e",
+     "hora": "11:48"
+    },
+    {
+     "medio": "El Intransigente",
+     "titulo": "Javier Milei: el registro de empresas empleadoras cayó en 32.290 desde su asunción",
+     "link": "https://elintransigente.com/2026/10/10/javier-milei-empresas-empleadoras/",
+     "hora": "17:30"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "titulo": "Javier Milei y la estrategia del Gobierno ante la sesión por la Ley de Tierras: la editorial de Adrián Ventura",
+   "alcance": "Salta",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "18:41",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Javier Milei y la estrategia del Gobierno ante la sesión por la Ley de Tierras: la editorial de Adrián Ventura",
+     "link": "https://elintransigente.com/2026/10/10/javier-milei-desafios-politicos/",
+     "hora": "18:41"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "El gobierno de Javier Milei se prepara para las nuevas privatizaciones: ¿Cuáles serán?",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "18:00",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "El gobierno de Javier Milei se prepara para las nuevas privatizaciones: ¿Cuáles serán?",
+     "link": "https://elintransigente.com/2026/10/10/javier-milei-privatizaciones-empresas-publicas/",
+     "hora": "18:00"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "titulo": "Victoria Tolosa Paz denunció a Caputo y Bausili por presunta defraudación y abuso",
+   "alcance": "Salta",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "17:35",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Victoria Tolosa Paz denunció a Caputo y Bausili por presunta defraudación y abuso",
+     "link": "https://elintransigente.com/2026/10/10/bausili-operaciones-oro-reservas/",
+     "hora": "17:35"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "titulo": "El PJ de Salta eligió nuevas autoridades y deja atrás la intervención",
+   "alcance": "Salta",
+   "tema": "Otros temas políticos",
+   "medios": [
+    "El Tribuno"
+   ],
+   "n_notas": 1,
+   "primera": "16:56",
+   "links": [
+    {
+     "medio": "El Tribuno",
+     "titulo": "El PJ de Salta eligió nuevas autoridades y deja atrás la intervención",
+     "link": "https://www.eltribuno.com/salta/2026-10-10-16-56-0-el-pj-de-salta-eligio-nuevas-autoridades-y-deja-atras-la-intervencion",
+     "hora": "16:56"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "titulo": "Base Naval Integrada Ushuaia: el Gobierno licitó la construcción del muelle militar",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "16:41",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Base Naval Integrada Ushuaia: el Gobierno licitó la construcción del muelle militar",
+     "link": "https://elintransigente.com/2026/10/10/presti-licitacion-muelle-ushuaia/",
+     "hora": "16:41"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "titulo": "Amado Boudou criticó con dureza a Milei: «Estamos mal y vamos a estar peor»",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "16:03",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Amado Boudou criticó con dureza a Milei: «Estamos mal y vamos a estar peor»",
+     "link": "https://elintransigente.com/2026/10/10/boudou-critica-politica-economica/",
+     "hora": "16:03"
+    }
+   ],
+   "n": 7
+  },
   {
    "titulo": "“El Gobierno no tiene un conflicto conas universidades, lo tiene con la democracia en Argentina”",
    "alcance": "Nacional",
@@ -55,7 +195,7 @@
      "hora": "14:52"
     }
    ],
-   "n": 1
+   "n": 8
   },
   {
    "titulo": "El Gobierno reiteró la solicitud a la FIA para que la Argentina sea sede de un Gran Premio de la Fórmula 1",
@@ -74,7 +214,7 @@
      "hora": "14:30"
     }
    ],
-   "n": 2
+   "n": 9
   },
   {
    "titulo": "La Libertad Avanza cruzó al peronismo por el oro del BCRA: “Los datos hablan”",
@@ -93,7 +233,7 @@
      "hora": "14:07"
     }
    ],
-   "n": 3
+   "n": 10
   },
   {
    "titulo": "“Este es el único modelo posible”: Martín Menem defendió a Javier Milei y habló de las alianzas",
@@ -112,7 +252,7 @@
      "hora": "14:05"
     }
    ],
-   "n": 4
+   "n": 11
   },
   {
    "titulo": "José Gauffin defendió el achicamiento del Estado, pero advirtió que el mercado no resolverá todos los problemas de Salta",
@@ -131,7 +271,7 @@
      "hora": "13:07"
     }
    ],
-   "n": 5
+   "n": 12
   },
   {
    "titulo": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nación",
@@ -150,7 +290,7 @@
      "hora": "13:00"
     }
    ],
-   "n": 6
+   "n": 13
   },
   {
    "titulo": "A un año de las elecciones, cómo está el mapa ideológico en la Argentina",
@@ -169,7 +309,7 @@
      "hora": "12:56"
     }
    ],
-   "n": 7
+   "n": 14
   },
   {
    "titulo": "Juan Manuel Urtubey cuestionó el incumplimiento de la Ley de Financiamiento Universitario",
@@ -189,26 +329,7 @@
     }
    ],
    "sigue_de_ayer": true,
-   "n": 8
-  },
-  {
-   "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
-   "alcance": "Salta",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "Informate Salta"
-   ],
-   "n_notas": 1,
-   "primera": "11:48",
-   "links": [
-    {
-     "medio": "Informate Salta",
-     "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
-     "link": "https://informatesalta.com.ar/economia/mas-de-32-mil-empresas-cerraron-desde-la-asuncion-de-javier-milei-y-el-pais-se-hunde-en-una-crisis-sin-freno_a6aca6eeea62d6833587c052e",
-     "hora": "11:48"
-    }
-   ],
-   "n": 9
+   "n": 15
   },
   {
    "titulo": "La UCR pidió tiempo: Natalio Iglesias y Soledad Farfán negocian una lista de unidad",
@@ -227,7 +348,7 @@
      "hora": "10:58"
     }
    ],
-   "n": 10
+   "n": 16
   },
   {
    "titulo": "Rodrigo Quinteros fue el único concejal que se animó a revelar su patrimonio",
@@ -246,7 +367,7 @@
      "hora": "10:49"
     }
    ],
-   "n": 11
+   "n": 17
   },
   {
    "titulo": "Roque Cornejo denunció que bloquean pedidos para saber cuántos bienes tiene la provincia",
@@ -265,7 +386,7 @@
      "hora": "10:25"
     }
    ],
-   "n": 12
+   "n": 18
   },
   {
    "titulo": "Victoria Tolosa Paz analizó el modelo económico de Javier Milei y lanzó dura una definición: “Tiene un equilibrio fiscal ficticio”",
@@ -284,7 +405,7 @@
      "hora": "10:10"
     }
    ],
-   "n": 13
+   "n": 19
   },
   {
    "titulo": "Gabriel Katopodis se anotó para las elecciones de 2027: “Me siento preparado”",
@@ -303,7 +424,7 @@
      "hora": "09:44"
     }
    ],
-   "n": 14
+   "n": 20
   },
   {
    "titulo": "“Si Cristina no es candidata”: Juan Grabois, tajante sobre el candidato del peronismo",
@@ -322,7 +443,7 @@
      "hora": "09:12"
     }
    ],
-   "n": 15
+   "n": 21
   },
   {
    "titulo": "La violencia política en la historia argentina: rebeliones, fusilamientos y exilios en los primeros años de San Juan",
@@ -341,7 +462,7 @@
      "hora": "05:45"
     }
    ],
-   "n": 16
+   "n": 22
   },
   {
    "titulo": "“Sumó negocios con el Estado”: Marcela Pagano expuso a Martín Menem y sus hermanos",
@@ -360,7 +481,7 @@
      "hora": "01:29"
     }
    ],
-   "n": 17
+   "n": 23
   },
   {
    "titulo": "Mercosur-Unión Europea: el comercio ya reacciona, la política todavía no",
@@ -379,7 +500,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 18
+   "n": 24
   },
   {
    "titulo": "Una semana en la que la política de Brasil impactó el mercado local: subieron los bonos y el riesgo país cayó 10 por ciento",
@@ -398,7 +519,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 19
+   "n": 25
   },
   {
    "titulo": "“Vamos a pedir la detención”: Gregorio Dalbón advirtió a Santiago Bausili y criticó al peronismo",
@@ -417,20 +538,20 @@
      "hora": "00:50"
     }
    ],
-   "n": 20
+   "n": 26
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 7,
-   "historias": 6,
+   "notas": 8,
+   "historias": 7,
    "salta": 2,
-   "nacional": 4
+   "nacional": 5
   },
   "subtemas": [
    {
     "tema": "Robos y estafas",
-    "historias": 2
+    "historias": 3
    },
    {
     "tema": "Policía y fuerzas de seguridad",
@@ -477,6 +598,25 @@
     "n": 1
    },
    {
+    "titulo": "Cansados de los robos, repartidores armaron una emboscada, recuperaron una moto y pasearon a un ladrón desnudo",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Informate Salta"
+    ],
+    "n_notas": 1,
+    "primera": "18:31",
+    "links": [
+     {
+      "medio": "Informate Salta",
+      "titulo": "Cansados de los robos, repartidores armaron una emboscada, recuperaron una moto y pasearon a un ladrón desnudo",
+      "link": "https://informatesalta.com.ar/nacional/cansados-de-los-robos--repartidores-armaron-una-emboscada--recuperaron-una-moto-y-pasearon-a-un-ladron-desnudo_a6acab106a62d6833589a8717",
+      "hora": "18:31"
+     }
+    ],
+    "n": 2
+   },
+   {
     "titulo": "Orán: detienen a un hombre e incautan más de 32 kg de cocaína en una camioneta abandonada",
     "alcance": "Salta",
     "tema": "Policía y fuerzas de seguridad",
@@ -493,7 +633,7 @@
       "hora": "15:00"
      }
     ],
-    "n": 2
+    "n": 3
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -512,7 +652,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 3
+    "n": 4
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -531,7 +671,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 4
+    "n": 5
    },
    {
     "titulo": "Los vecinos salen a atrapar ladrones pero la inseguridad no da tregua",
@@ -550,7 +690,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 5
+    "n": 6
    },
    {
     "titulo": "Tenía 17 años en 2013, cuando asesinó a su mamá y a sus dos hermanos más pequeños",
@@ -569,21 +709,25 @@
       "hora": "01:47"
      }
     ],
-    "n": 6
+    "n": 7
    }
   ]
  },
  "palabras": [
   {
+   "t": "milei",
+   "n": 7
+  },
+  {
    "t": "javier",
-   "n": 3
+   "n": 6
+  },
+  {
+   "t": "gobierno",
+   "n": 5
   },
   {
    "t": "juan",
-   "n": 3
-  },
-  {
-   "t": "milei",
    "n": 3
   },
   {
@@ -626,28 +770,28 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 52,
-   "politicas": 7,
+   "notas": 77,
+   "politicas": 13,
    "seguridad": 0
   },
   {
    "nombre": "Informate Salta",
    "ambito": "Salta",
-   "notas": 23,
+   "notas": 28,
    "politicas": 1,
-   "seguridad": 4
+   "seguridad": 5
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 16,
-   "politicas": 1,
+   "notas": 20,
+   "politicas": 2,
    "seguridad": 3
   },
   {
    "nombre": "El Intra",
    "ambito": "Salta",
-   "notas": 8,
+   "notas": 9,
    "politicas": 5,
    "seguridad": 0
   },
