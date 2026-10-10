@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 230,
+    "total_mentions": 231,
     "sentiment_breakdown": {
       "positivo": 43,
-      "negativo": 26,
+      "negativo": 27,
       "neutral": 161
     },
     "sentiment_by_day": {
+      "2026-10-10": {
+        "total": 1,
+        "score_sum": -1
+      },
       "2026-08-05": {
         "total": 1,
         "score_sum": 0
@@ -257,6 +261,10 @@
         "count": 5
       },
       {
+        "term": "ruta",
+        "count": 4
+      },
+      {
         "term": "molinos",
         "count": 4
       },
@@ -270,10 +278,6 @@
       },
       {
         "term": "planta",
-        "count": 4
-      },
-      {
-        "term": "parís",
         "count": 4
       }
     ],
@@ -371,6 +375,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Con críticas a Nación, Salta hará la obra en la ruta 40",
+        "link": "https://www.eltribuno.com/salta/2026-10-10-0-0-0-con-criticas-a-nacion-salta-hara-la-obra-en-la-ruta-40",
+        "source": "El Tribuno - Salta",
+        "date": "Sat, 10 Oct 2026 04:47:51 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La presión de Sáenz y otros gobernadores para el cambio - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcWU4ZjFmakhsRVpSREdycjNqVWZjSjA3SHdqX0JISmc5MTRiTzVSTFJfMUFjbE1QWUktMjd3UEVJQ3RJRDVOd2wtN0V1VUEtekZTLWNKeHNJdHlaWG9nMDNOMnNWUVY4UG43SGM1QWQwZEdBWmVNZEhuOUJkZTJDU0VCaFp2a3ZTVGxVUGwxdzFsdzlKUGJ5MjVWWHFHbml3WnllY2dRRmluWmg1V0HSAbMBQVVfeXFMTzlzSkdGTlVNN1ViekJxQkNWbGR1cUhxa2luc2ZPYmNIYzk3bFVsVFhodTZ2TWI2Qld3LTJicnBZWV9pd1JlbFZoWkQ5cmtJZl9xV1BrVkhJUGJvcFJYeVV5LWRsc0lPWl82RGZrd3ZrWjFTOFdYemphd1N5Z3M0V1l1ZW04SjBWUHNsdFhFMXJuV2hodjVqVnJsUWxEWmtTeGlJN3J3NTZLdlQ3ZWNDSXBxUnc?oc=5",
@@ -572,13 +583,6 @@
         "link": "https://elintra.com.ar/2026/10/03/gustavo-saenz-destaco-la-posible-ampliacion-de-eramet-en-salta-por-usd-350-millones/",
         "source": "El Intra",
         "date": "Sat, 03 Oct 2026 18:14:50 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz vuelve de París sólo con promesas de Javier Milei",
-        "link": "https://elintra.com.ar/2026/10/03/saenz-paris-promesas-inversiones/",
-        "source": "El Intra",
-        "date": "Sat, 03 Oct 2026 14:22:00 +0000",
         "sentiment_label": "positivo"
       }
     ]
@@ -17707,30 +17711,22 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 6
+        "count": 5
       },
       {
         "term": "jorge",
-        "count": 6
+        "count": 5
       },
       {
         "term": "saravia",
-        "count": 4
-      },
-      {
-        "term": "elintra",
         "count": 3
       },
       {
+        "term": "elintra",
+        "count": 2
+      },
+      {
         "term": "municipio",
-        "count": 2
-      },
-      {
-        "term": "josé",
-        "count": 2
-      },
-      {
-        "term": "garcía",
         "count": 2
       },
       {
@@ -20579,13 +20575,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 62,
+    "total_mentions": 63,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 7,
-      "neutral": 49
+      "neutral": 50
     },
     "sentiment_by_day": {
+      "2026-08-27": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-05-19": {
         "total": 1,
         "score_sum": 0
@@ -20687,10 +20687,6 @@
         "score_sum": 0
       },
       "2026-08-11": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2026-08-27": {
         "total": 1,
         "score_sum": 0
       },
@@ -20810,23 +20806,27 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 13
+        "count": 12
       },
       {
         "term": "royón",
-        "count": 13
+        "count": 12
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "tribuno",
         "count": 4
       },
       {
-        "term": "nación",
-        "count": 3
+        "term": "senado",
+        "count": 2
+      },
+      {
+        "term": "minería",
+        "count": 2
       },
       {
         "term": "quepasasalta",
@@ -20834,10 +20834,6 @@
       },
       {
         "term": "pero",
-        "count": 2
-      },
-      {
-        "term": "milei",
         "count": 2
       }
     ],
@@ -20954,6 +20950,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Salta pisa fuerte en el Senado: Flavia Royón asume en Minería - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGREX3Y1NVl2SzQ2cWJLMGhpczVQODNnZkZGX2d6eWdpNjJnOGQ5WWpoVnR2TVphejVQVmdwbTlZSDlpRnZJUjlGZFZ6b3p5Ni00Q3dmSjRGU0l3REVkSFliRXI5aDd0NUtRODIySzZiNTRrZ2hvd3Z0MjhHNmFqdkRtcFZPLXdLbjRlQkVOX3VldWpIejgxTzRaOA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón aclaró que mayor producción minera no significa más trabajo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdlB2N3dub1NDejB2NmZ0X2Rod3NrdFgxMHdjSHFkYkpqR2UyNk5FRHNjc0tqVW5aSzJpNjJNT2JCNDB0MkhsM2hmTm94TmtzWllDM0dfRHFlMGxmTlR0Q1FfeG5Ya3M2YUN1RmF4R0pxTmJrTEJSd2lZemk1Ulg0LXZHa2QxbWZnWUhxWE9tZkRERWQySmxjWDlJZjduSFMxSDA5UHJRWVpKWHc?oc=5",
@@ -21156,13 +21159,6 @@
         "source": "El Tribuno",
         "date": "Sat, 10 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Reforma de zonas frías ¿cómo votaron los legisladores salteños?",
-        "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
-        "source": "Informate Salta",
-        "date": "Fri, 25 Sep 2026 00:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -24637,20 +24633,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "josé",
-        "count": 2
-      },
-      {
-        "term": "gauffín",
-        "count": 2
-      },
-      {
-        "term": "elintra",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "El Gobierno es el socio principal del negocio de los juegos de azar",
@@ -26817,13 +26800,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 1,
+      "negativo": 2,
       "neutral": 20
     },
     "sentiment_by_day": {
+      "2024-04-12": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-09-03": {
         "total": 1,
         "score_sum": 0
@@ -26908,11 +26895,11 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 21
+        "count": 22
       },
       {
         "term": "mimessi",
-        "count": 21
+        "count": 22
       },
       {
         "term": "tartagal",
@@ -26983,8 +26970,22 @@
         "date": "Thu, 22 Jan 2026 08:00:00 GMT"
       }
     ],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Mario Mimessi sigue sumando problemas judiciales: una denunciante aseguró que cobraban cinco planillas a su nombre - Salta 4400",
+        "source": "Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUDNzODZkd2gtUWVudFRHWTJubGl3RXdzdmg5dnBaX0Y5djJfRUQyRFIwMVdqWkN3MnRZZUJ1b2U0U05HRzZEN1IzQlluaVBIeDYxMlo5SzdKS3pzX2N6VGg4LTExcmZTYkRjQzJoVXdTRjZkT3l2aGNncFctZzBSeGdWalJ6eDRFZXdhbEFDZlMzRFZPTmpNamJieTZ5VVJYTF9zaWlNQ09vWnVmaHVEOUd0TEZ5WEFyME4tQzRuT29mZm9tNHFrWTY2OGlwX04tOTEyX05uQjBzT0hfLTBkQ2N4YXIzVnRrZXppTtIB8gFBVV95cUxQQkM0LTJOa1FtRjJvVVJ4ai11UENaa2VjS0EySWVhQW1pVWw0eUpUM3RjdzdFa044UEp0M1NuN2Q0ZXg4VTIya1hOa1ZyclE4ODBhYUNnaHhaWWUzQlNnUnVwTGtSYTVaMHVfQmtfM1pjUmNkVVYza216M1lqaTVydVdyRTd0SmJsNWNCWXUxaUR5WFVYVVlVZ2luRjFuY3BVLXFGV1Juc1B6V0YxcS1rSXpLcU5Ic1lUd1BBMndlWm1NWE1DaVJ1TlladW9qZW1QYnRxdmFOWjd0RWNPekZIMmFzSUxKWTdLcXVvQklNVHZ2Zw?oc=5",
+        "date": "Fri, 12 Apr 2024 07:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Mario Mimessi sigue sumando problemas judiciales: una denunciante aseguró que cobraban cinco planillas a su nombre - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUDNzODZkd2gtUWVudFRHWTJubGl3RXdzdmg5dnBaX0Y5djJfRUQyRFIwMVdqWkN3MnRZZUJ1b2U0U05HRzZEN1IzQlluaVBIeDYxMlo5SzdKS3pzX2N6VGg4LTExcmZTYkRjQzJoVXdTRjZkT3l2aGNncFctZzBSeGdWalJ6eDRFZXdhbEFDZlMzRFZPTmpNamJieTZ5VVJYTF9zaWlNQ09vWnVmaHVEOUd0TEZ5WEFyME4tQzRuT29mZm9tNHFrWTY2OGlwX04tOTEyX05uQjBzT0hfLTBkQ2N4YXIzVnRrZXppTtIB8gFBVV95cUxQQkM0LTJOa1FtRjJvVVJ4ai11UENaa2VjS0EySWVhQW1pVWw0eUpUM3RjdzdFa044UEp0M1NuN2Q0ZXg4VTIya1hOa1ZyclE4ODBhYUNnaHhaWWUzQlNnUnVwTGtSYTVaMHVfQmtfM1pjUmNkVVYza216M1lqaTVydVdyRTd0SmJsNWNCWXUxaUR5WFVYVVlVZ2luRjFuY3BVLXFGV1Juc1B6V0YxcS1rSXpLcU5Ic1lUd1BBMndlWm1NWE1DaVJ1TlladW9qZW1QYnRxdmFOWjd0RWNPekZIMmFzSUxKWTdLcXVvQklNVHZ2Zw?oc=5",
+        "source": "Salta 4400",
+        "date": "Fri, 12 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Crece la tensión en Tartagal: Franco Hernández Berni volvió a cruzar a Mario Mimessi - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNanJZSGdhZm1XeXNDWS02blRwdF8xUEtqcnd4R3hEbXJ0cl8xUUF5MHRSVF9Na2pEazlUNG8xT1BKU1E4c0RIOWJ3LVlOZm9JbVdpWXdOSk45WXlyckZjZmZUbnZSR3lVbWF1d1JPenJSZi1xN0N2NmtMMjBrR0dPWmNQTTJrWk9KcVdlV1BZdk9OOTl4UkVDSlFrUGgzaFM5dWZ5OWtfU1N1RmRDbWV3c0tudU1mYWUwZkE?oc=5",
@@ -27183,13 +27184,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 9
     },
     "sentiment_by_day": {
+      "2024-05-10": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2024-01-12": {
         "total": 1,
         "score_sum": 0
@@ -27230,11 +27235,11 @@
     "top_topics": [
       {
         "term": "federico",
-        "count": 9
+        "count": 10
       },
       {
         "term": "mangione",
-        "count": 9
+        "count": 10
       },
       {
         "term": "salud",
@@ -27245,12 +27250,12 @@
         "count": 4
       },
       {
-        "term": "ministro",
+        "term": "elintra",
         "count": 3
       },
       {
-        "term": "elintra",
-        "count": 2
+        "term": "ministro",
+        "count": 3
       }
     ],
     "quotes": [
@@ -27267,8 +27272,22 @@
         "date": "Fri, 01 Mar 2024 08:00:00 GMT"
       }
     ],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Fuerte denuncia de Federico Mangione: médicos salteños revendían medicamentos extraídos de hospitales - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM0lkNWs0WGJUTzM2TWdLMmRLdEQ4TktWWUxpbkFaankwYmVWNHBZU2RlWGg1RmUyTVp3ckszdVhzdmVJZ1luX0JxTHlqLVNFMkVfUHFVN3dfOVN6TERhbDBHcDhDaEtFakZ4Y0dPTVJkVkh0aHlJLS01QTA2Q2F4UTlpYlg4UFlYYThtNS1Fc2lOU0RWb1VSbUw0QTFGcEUzSmFCTEZlcVpvTS1HVzVmbW53NEZwaUFHZ1IxU0N4MEktWkFmU19OZTlJWlZzUDZN?oc=5",
+        "date": "Fri, 10 May 2024 07:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Fuerte denuncia de Federico Mangione: médicos salteños revendían medicamentos extraídos de hospitales - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM0lkNWs0WGJUTzM2TWdLMmRLdEQ4TktWWUxpbkFaankwYmVWNHBZU2RlWGg1RmUyTVp3ckszdVhzdmVJZ1luX0JxTHlqLVNFMkVfUHFVN3dfOVN6TERhbDBHcDhDaEtFakZ4Y0dPTVJkVkh0aHlJLS01QTA2Q2F4UTlpYlg4UFlYYThtNS1Fc2lOU0RWb1VSbUw0QTFGcEUzSmFCTEZlcVpvTS1HVzVmbW53NEZwaUFHZ1IxU0N4MEktWkFmU19OZTlJWlZzUDZN?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 10 May 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Federico Mangione, ministro de Salud: “Pido disculpas a los pacientes con cáncer, no es la intención dejarlos - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZkZyZnQxVmRrVm5tVEVSblEyZ0hpNWJ1Zldmd2JzVktpOUwyWVd3WllEZE1CQkxyVXQ2VERwRGhnVFB2ZTdzTjZwaTRIanpIcTNERXB6MGdUNktUZWJvQUNUbElONWtSbkRNd0l1OV9JYjZ5R2l2akktNlhzTTNQMXpZVjlvMEtial9aX0ptSXhYa0hGbks2eDdCUjVDSmVWeFlwVzB5eUI5bWxnMTBpR29YZl9wYzZQQWgzbG8yYnR0QzRwanduVXhNRzl2QWJYd2taNTlYQjlnd3ctSnBTZHpLOURVN3FEcUhpOVVYVi1fclVxbTNpX2xmbnNEUXfSAYQCQVVfeXFMTnBlVU5WSm4zNkJPM1VhMG1tR0x6dW9yaGNtT2hpU1g4MXNpcnplQXhHbWlrcjlCTl9CdWllQkp0bXJrVW03S3lUeXp0bkFfVHZ6UExVZFpfcWJiY3AxOHljMld6eWFRai1EdXhRMnVxMzRrSDNxYktXUThGMnNoZmlMUFN1ODB3OFFCYXFTTXlQaFFGclhxVWlvcFVnME9oMHh0aDUxYVpqOGZCN3V2OXhrOU5KalZ6VmlyVnhjd3p6dTRLU0t1Nml5YlgydGUxaDJDZjFuc09pNUlzbnE1S0MxZS1SaHpEb3FET1FRalNsaXRqRmtaajhkRkVrR21rTjBnS0o?oc=5",
@@ -27669,13 +27688,17 @@
     "id": "eje-nicolas-avellaneda",
     "name": "Nicolás Avellaneda",
     "role": "Ministro de Seguridad",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 6
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "2025-05-14": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-07-08": {
         "total": 1,
         "score_sum": 0
@@ -27700,11 +27723,11 @@
     "top_topics": [
       {
         "term": "nicolás",
-        "count": 5
+        "count": 6
       },
       {
         "term": "avellaneda",
-        "count": 5
+        "count": 6
       },
       {
         "term": "tribuno",
@@ -27719,6 +27742,10 @@
         "count": 3
       },
       {
+        "term": "calles",
+        "count": 2
+      },
+      {
         "term": "cambios",
         "count": 2
       },
@@ -27730,6 +27757,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Las calles de Salta: Nicolás Avellaneda - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uNlVDQ1BCaFMySDJMcjRMYlJtY3FhdnNKTGk2SGpwLXdsMEN4NTU1cE1qYXJva3djODNDaDlsVXdsejZuSUNhN0FxVWFDLXVyOGJYUk1Zbl9VRmI4OUNmWVFsNHROR00wOEYzWnFPUWVabnRWZGlqcEQ3akZwdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 14 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Nicolás Avellaneda anunció más policías en las calles y evaluará cambios en la cúpula policial - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ0Y0c2dkNWdxeTY5Z25PZlVrWVJsMm04YktrSklvNEw3Ui01dXhtSS05c0RmNWNqZU54aENqNG9aV3NHTkptNzVvZVNrb2lXV2x2NkZGdFJ6elhvRld1dXNYU0dBa3lERklrV1NNNUQ0Rm04bjh0c0UtVkU1dkppcWFOczlSTVk4b2k2TjhXYzNPY3VHNC1qVlg5M1dCUnlFaE5HLUgwWEl5TlZadk95YW9qVEY1Y29qY3NDSGVlU1NDSjRGTkdtaEw2eGFKY1U5bC1La0xycFpiN3fSAeABQVVfeXFMTWR4UHNCR1RZbldDeTdJYXVJeGQwQXJvMVJweEtNY0wwUzNJWWtUMHJFaWQtYzNuZmZEYmxxVnlFMTFtRzdlUjcxd0NFbDVjaldmWFFZRVUwMG5SbFF3ZldySXg4d1BaTzc4cGdTRUcyRlpYN2VMWmlwTUtZbkFfTWxfUEw5UE9TMjYxNUpHWWt0NlBZdGF3T2ZhajFOVnNLcXdqWnJmZFhtVUdvRF9fOGstRXJTVG9mYU9UUmNOYXJNa0RzOFU3aF9QWEFBaHVYc3lzbGthU2ZwTlZ6NkplZDU?oc=5",
@@ -27997,13 +28031,17 @@
     "id": "eje-javier-monico",
     "name": "Javier Mónico Graciano",
     "role": "Secretario de Justicia",
-    "total_mentions": 10,
+    "total_mentions": 11,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "2025-01-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-03-31": {
         "total": 1,
         "score_sum": 0
@@ -28048,11 +28086,11 @@
     "top_topics": [
       {
         "term": "javier",
-        "count": 10
+        "count": 11
       },
       {
         "term": "mónico",
-        "count": 10
+        "count": 11
       },
       {
         "term": "senador",
@@ -28095,6 +28133,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Javier Mónico trabaja para presentar una ley que prohiba totalmente la pirotecnia en Salta - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb2E0Wk5JTFZFSEgzVGtjUVFKdDFmNmFuSFBHc2Q1b2F3WE5JaW1tUldsVGxKaUU1NmpqRENhS2tLazVKaDBteE9XVnN0YTdSS01GRUh2R3lPNi1TVlpUR1RLX3dHeDAxRWdOUFlzQ1FQQW1kTTRYNHVzeHd0N3J0cnZ0VjNQTjJSV1ZnNTEyRkpwTldTOFpYcWxOSGJxeFFNZVF2ZjROWWczaDJLQkQ4SkRoMU8yTFE0LVhEWV9jakRNN1NnbXRfbUhmckRTZ9IB0wFBVV95cUxPdkh0Z3R1cFphQU9IdkQwX25mQ3YtSkZnbW9OZUttcXpwSlFMYVA5Zmt4RFpoVlFoV3piYlRoVkN3N3JqWklqamtvUVJvU3hHMml1cGV3SlpUZjJhTnJYZEs3SzY0ZFJDc1lNbUQzNTBFOXB6VHpJSEJRc0ZwaEdVVDd3aFc2M2g2NlJBVElhVnJHWndrbnFwVWJJanIwdXFwc0FzQ09RRFo5S3RnN3N2bjd4Q1paOGtvTmo2YzlSTXZPWVZFVWttWHlnaUN1eU40dlc4?oc=5",
+        "source": "Salta 4400",
+        "date": "Mon, 06 Jan 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El senador Javier Mónico aseguró que el tema auditores terminará judicializado - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbGQ5ZEsweWo3cUkzSjlrdnRMcVBXR1U2LURFSlpYb1NmV003RW9lUUtjRU1EUlJDanVjUzg5eXpMX3g2X1dBN2huQm93OWhBaEhsN2sxc0ZnX1VmY2RRYlc0c0VjZnFWRTJpNTA1RnN4LTE1dllUb215VkU5WTJQQUY5a2pTendkQXM1V1FUS2V0WGdDNXhRdDgxVnR1RlNEc3dNVHI1eExyMy1nMWYwWHpmVQ?oc=5",
@@ -28269,13 +28314,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2024-12-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-12-30": {
         "total": 1,
         "score_sum": 0
@@ -28312,11 +28361,11 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 8
+        "count": 9
       },
       {
         "term": "benavides",
-        "count": 8
+        "count": 9
       },
       {
         "term": "elintra",
@@ -28347,6 +28396,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides será la nueva secretaria de Gobierno de la Provincia de Salta - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSENDWktrMzNPdTgydjNucEhONm9SeDFCOFhXLXc2SnFjd0NBUkpMOE5Demw4ME9fckpnTzFsOEhJTllKcVg3UjFxWHlaSnIyNHJITDJMbjhrS0k2NFc4bzFfWXJnRlZRdXc0X21WLTVJTmV3bG1aQXdkdUlLQW1LR0xKYmtpanM4aFhGdG5sTDY2ZXF5Q2hLVFl30gGaAUFVX3lxTE5IQ0NaS2szM091ODJ2M25wSE42b1J4MUI4WFctdzZKcWN3Q0FSSkw4TkN6bDgwT19ySmdPMWw4SElOWUpxWDdSMXFYeVpKcjI0ckhMMkxuOGtLSTY0VzhvMV9ZcmdGVlF1dzRfbVYtNUlOZXdsbVpBd2R1SUtBbUtHTEpia2lqczhoWEZ0bmxMNjZlcXlDaEtUWXc?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 03 Dec 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Modo influencer: Paula Benavides analiza el DNU de Javier Milei - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1Q2SGRHNDVObGF2NEl4NGk2dl84TUl5RDNmLUtHMTlQQmRQbV94dEZ2akl2ZGxDa3FhXzVpYVZsZmd4NWxMbUx6WmJuQm1JUlZyVE1palBqcVZuMDR5cVE1djVVbF9qUGtvUkp0UU94RDliREItZ21WNDRiZVpGMGpDYmh5SmVIbFlwdTB6NjczUVNtZThzLTdEYURvdw?oc=5",

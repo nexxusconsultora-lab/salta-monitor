@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-10-10T01:20:59.747989+00:00",
+  "generated_at": "2026-10-10T07:21:34.563219+00:00",
   "by_politician": {
-    "eje-mario-mimessi": {
-      "total": 21,
+    "eje-ana-paula-benavides": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 0
+    },
+    "eje-javier-monico": {
+      "total": 11,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 11,
+      "score_sum": 0
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 0
+    },
+    "eje-federico-mangione": {
+      "total": 10,
       "positivo": 0,
       "negativo": 1,
-      "neutral": 20,
+      "neutral": 9,
       "score_sum": -2
+    },
+    "eje-mario-mimessi": {
+      "total": 22,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 20,
+      "score_sum": -4
+    },
+    "snac-flavia-royon": {
+      "total": 63,
+      "positivo": 6,
+      "negativo": 7,
+      "neutral": 50,
+      "score_sum": 3
+    },
+    "gustavo-saenz": {
+      "total": 231,
+      "positivo": 43,
+      "negativo": 27,
+      "neutral": 161,
+      "score_sum": 69
     },
     "concejal-laura-garcia": {
       "total": 61,
@@ -28,13 +70,6 @@
       "negativo": 11,
       "neutral": 29,
       "score_sum": -24
-    },
-    "gustavo-saenz": {
-      "total": 230,
-      "positivo": 43,
-      "negativo": 26,
-      "neutral": 161,
-      "score_sum": 70
     },
     "eje-manuela-arancibia": {
       "total": 4,
@@ -76,20 +111,6 @@
       "positivo": 6,
       "negativo": 5,
       "neutral": 34,
-      "score_sum": 0
-    },
-    "eje-ana-paula-benavides": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 0
-    },
-    "eje-federico-mangione": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 9,
       "score_sum": 0
     },
     "concejal-pablo-emanuel-lopez": {
@@ -148,25 +169,11 @@
       "neutral": 4,
       "score_sum": 0
     },
-    "eje-javier-monico": {
-      "total": 10,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 10,
-      "score_sum": 0
-    },
     "eje-juan-vilchez": {
       "total": 3,
       "positivo": 0,
       "negativo": 0,
       "neutral": 3,
-      "score_sum": 0
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 6,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 6,
       "score_sum": 0
     },
     "eje-ignacio-lupion": {
@@ -210,13 +217,6 @@
       "negativo": 2,
       "neutral": 5,
       "score_sum": -1
-    },
-    "snac-flavia-royon": {
-      "total": 62,
-      "positivo": 6,
-      "negativo": 7,
-      "neutral": 49,
-      "score_sum": 3
     },
     "concejal-jose-garcia-alcazar": {
       "total": 22,
@@ -913,6 +913,84 @@
     }
   },
   "by_day": {
+    "2024-12-03": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-01-06": {
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-05-14": {
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-05-10": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-victor-manuel-lamberto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-04-12": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-08-27": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-sergio-mauricio-lopez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-10": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -1
+      }
+    },
     "2026-09-03": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -2991,32 +3069,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-27": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-sergio-mauricio-lopez": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
         "total": 1,
         "score_sum": 0
       }
@@ -5889,24 +5941,6 @@
     },
     "2026-03-18": {
       "dip-franco-agustin-lastra": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-05-10": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-victor-manuel-lamberto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
         "total": 1,
         "score_sum": 0
       }
@@ -14881,7 +14915,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 57
+      "count": 59
     },
     {
       "term": "tribuno",
@@ -14893,11 +14927,11 @@
     },
     {
       "term": "mimessi",
-      "count": 23
+      "count": 24
     },
     {
       "term": "mario",
-      "count": 21
+      "count": 22
     },
     {
       "term": "nuevo",
