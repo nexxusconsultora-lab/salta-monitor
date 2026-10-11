@@ -1,0 +1,85 @@
+name: Orden del día - alerta temprana
+
+# Vigila Diputados y Senado de la Nación y Diputados y Senado de Salta, y te avisa por Telegram cuando
+# aparece un orden del día / plan de labor / convocatoria nueva. Ver GUIA_ORDEN_DEL_DIA.md.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/orden_del_dia.py"
+      - "data/fuentes_orden_del_dia.json"
+      - ".github/workflows/orden_del_dia.yml"
+  schedule:
+    # Cada hora, en el minuto 25, de 11 a 23 UTC = de 08:25 a 20:25 hora de Argentina, de lunes a viernes.
+    # GitHub puede demorar unos minutos las corridas programadas: es normal.
+    - cron: "25 11-23 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      diagnostico:
+        description: "Solo mostrar qué encuentra en cada página (no guarda ni envía nada)"
+        type: boolean
+        default: false
+      avisar_primera:
+        description: "Avisar también lo que ya estaba publicado en la primera corrida de cada cámara"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orden-del-dia
+  cancel-in-progress: false
+
+jobs:
+  orden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Instalar lector de PDF
+        run: pip install pypdf
+
+      - name: Buscar órdenes del día nuevos y avisar por Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DIAGNOSTICO: ${{ inputs.diagnostico }}
+          AVISAR_PRIMERA: ${{ inputs.avisar_primera }}
+        run: |
+          if [ "$DIAGNOSTICO" = "true" ]; then
+            python scripts/orden_del_dia.py --diagnostico
+          elif [ "$AVISAR_PRIMERA" = "true" ]; then
+            python scripts/orden_del_dia.py --avisar-primera
+          else
+            python scripts/orden_del_dia.py
+          fi
+
+      - name: Guardar el registro de avisos
+        if: always()
+        run: |
+          git config user.name "radar-politico-bot"
+          git config user.email "radar-politico-bot@users.noreply.github.com"
+          git add data/orden_del_dia.json data/orden_del_dia_status.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios para guardar."
+            exit 0
+          fi
+          git commit -m "Actualización automática del orden del día"
+          for intento in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
+            echo "Reintentando ($intento/3)..."
+            git rebase --abort || true
+            sleep 5
+          done
+          echo "No se pudo guardar tras 3 intentos."
+          exit 1
