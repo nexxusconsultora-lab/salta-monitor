@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T16:53:25.910205+00:00",
+  "generated_at": "2026-10-11T17:02:39.559400+00:00",
   "by_politician": {
+    "concejal-agustina-alvarez-eichele": {
+      "total": 57,
+      "positivo": 4,
+      "negativo": 11,
+      "neutral": 42,
+      "score_sum": -21
+    },
     "concejal-laura-jorge-saravia": {
       "total": 41,
       "positivo": 0,
@@ -273,13 +280,6 @@
       "negativo": 2,
       "neutral": 5,
       "score_sum": -1
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 56,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 42,
-      "score_sum": -19
     },
     "dnac-bernardo-biella": {
       "total": 18,
@@ -913,6 +913,36 @@
     }
   },
   "by_day": {
+    "2026-06-05": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2025-11-27": {
       "concejal-laura-jorge-saravia": {
         "total": 1,
@@ -6717,32 +6747,6 @@
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-06-05": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-edgardo-guaymas": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2026-06-18": {
@@ -15065,7 +15069,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 14
+      "count": 15
     },
     {
       "term": "sáenz",

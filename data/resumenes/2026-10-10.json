@@ -1,20 +1,20 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T16:34:38+00:00",
+ "generado": "2026-10-11T17:02:47+00:00",
  "totales": {
-  "recolectadas": 225,
-  "politicas": 37,
-  "seguridad": 30,
-  "descartadas": 158,
-  "historias": 35,
-  "historias_seguridad": 28,
-  "medios": 10
+  "recolectadas": 271,
+  "politicas": 49,
+  "seguridad": 36,
+  "descartadas": 186,
+  "historias": 44,
+  "historias_seguridad": 33,
+  "medios": 15
  },
  "cobertura_baja": false,
  "temas": [
   {
    "tema": "Elecciones y partidos",
-   "historias": 10
+   "historias": 13
   },
   {
    "tema": "Gobierno y gestión",
@@ -26,11 +26,15 @@
   },
   {
    "tema": "Poder Legislativo",
-   "historias": 4
+   "historias": 6
   },
   {
    "tema": "Economía y finanzas",
-   "historias": 3
+   "historias": 6
+  },
+  {
+   "tema": "Internacional",
+   "historias": 1
   },
   {
    "tema": "Salud y educación",
@@ -42,6 +46,39 @@
   }
  ],
  "historias": [
+  {
+   "titulo": "El Gobierno avanza en un acuerdo con EE.UU. para reemplazar tecnología china del Estado y establecer un centro de ciberseguridad",
+   "alcance": "Nacional",
+   "tema": "Internacional",
+   "medios": [
+    "Cadena 3 Argentina",
+    "Perfil",
+    "TN"
+   ],
+   "n_notas": 3,
+   "primera": "17:17",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "El Gobierno avanza en un acuerdo con EE.UU. para reemplazar tecnología china del Estado y establecer un centro de ciberseguridad",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcDdGRV8xczE1VFNtTV9JZS00WVd2aDlCTDR3ODZqUnRGU0hDS0pFQjBQeTRLX3B3R1ZZSzluZmxvZDR1RV8xNWQ3VFZKbkMwc3BXQjNRR0dvSXFUVlNxTURneEs0dV9WVllNYzlLMXo2RDJzMFJab2RDVnJNcUVQNlZ0Yk03Z25DaHk4WjAyTFk5Sk9RNXItZnhndllJcXNkelhQQld1Zm9pOXhscFBuYUtfNWNUYnZ4dnI3QmNkQ2d0eGpBcVVKYlVuNTJwajdfQ0V6bGk4OUJ6VlJnZHBvR3VTdk5UaEh6aG1fV253bW8yTlpIdHVUNdIBjAJBVV95cUxQdURqejhfV0VFOE8zc3JfNmxRaGhnbW84cTgxOXdxMTYwdlFHWUpvOTRmNG05emhlRFZRSWx4cV91WDEtTktMM2wxcjhUaWlQTzl2SEIwNklKam5uamNHMXBFY0djZEpDTW5BMXhOYXRlT1gzQk5jRDBub0RMUTdqS05YV3ltdXR6ZU1xTzE3ZG5wem1YdnBKUGpHZURtN2d5VDZNY2dMQ05lWkotOUZOMUcxQ2wtNDNXRnB6bzhPV3d5c2dXdHFyY3lqY2FtLUhUZzZ1bFBIOTRiZTI4Y29MY0RNODNCWXRJYVRwQVpDR1ltOHQ4QnZfX0hycWR4SnY0WGpOZjgxMmJ2bFZw?oc=5",
+     "hora": "17:17"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "El Gobierno negocia con Estados Unidos para reemplazar tecnología china en las redes estatales",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2tVZXhIRjRXTi1NOGI1djY1aE51ZkNtOXJRdGsybkR3QUhBTHJsMmkxQlk4dFJ0R0pPNTVDMHVZN2hHb19sRm5CRTA2WTB1eWpqQlRpQzk1bTMyalViMUNlRGFHTkdzUmxSeTVkZlZqdmw0QjRCX01CemRURi11RHdEZFpmOEZ5ZHh5d2VQdkZyRllOcnhWNEFpbk5FVXFjYll5OEd4cWtiOWlYX0VSWkN6T1dtNXA5dWQ1UmVfRU5rMHczQW41VEVMU2lQdDFSZWhEeHNiTFjSAd4BQVVfeXFMUE90N0FlUHdNYjQzZkFRaUU0Vl9tQ3BMT0V0c2dXSGhpZV9nV0lZRTRqN3EzajlqNWhYT2lyM21RYURJcDNhQkE0SDZWSHZndG1SNmU4Ujk2WHJIRXAzS19XOEJpMUpJaXRzOXI4RjhGbjVBMlZITW1wbkgwNFZaUUhySzY2MmlqNGJzV2pKTVZMVjNQTkR5U3d5Q1dBU2xFU0FhU1R2Q01OcDh6UjFvLUc1Y3hGN0ZFZjlCMTJGNlRxRjdqTHdpWUo0eFh0dGRCRV9ReEpQZm5TQVp2UkZR?oc=5",
+     "hora": "22:26"
+    },
+    {
+     "medio": "Cadena 3 Argentina",
+     "titulo": "El Gobierno busca eliminar tecnología china de las redes estatales y reemplazarlas por las de EE.UU.",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX21WMFFuQlRhbE12VEdyV01vS3FVT0dFaHpkc2RFemc1NWNKVERoei1FY0VfaldUS3NBeGdzTHQtY3phSWtxNlE5WWkwMUxPbEN3SmNjM25vSXJQOEt0S2tJOFl5UXZBN3VxdkVWYVJ1VW93cFhIcDFTclZnSTlTanhUNGdWLXd2WHVPQ2ZRdm1lMEJDT3dCcU83dDU5SHpyc0FLWEUwbVR2VWM3VjlaUHdLNkRrUmRmM2ZJcjBCLWVrRHd6WFpxeERwM0tGRDJIdUIxVG5ONmtubl9OeDVCbWFzcUdJdDJzbERDemNn0gHzAUFVX3lxTFBkaDkwU2Y1d2NuQWJrWFZCYVJyd25jVnNOWDFDUGlBVmtUNXhYZERrZXp0OHNpT3dkQ1E4YnIwaVBIbFpVbzgyeTN5UjhyTEJCckFGRC15TF9BZ2paYWsxQUlGZi04Q2NqY3BTeEJRMTNnbFBGeFd0dE1TWWp1N1VBNXdLVEhjS3R0cTdGYnVod0JoVFFuSUNoekp4NlEzNHRpdmpWNDJtSXNXaWZHMkdKOHk3bXl2YkYzU1B0a2JBTlFOOWljT3B6cHhBeEFZOWVvXy0xUFRjUTdZN1puLTZTWWVqLTJRZmIwb2VwN1dOT0c5cw?oc=5",
+     "hora": "23:18"
+    }
+   ],
+   "n": 1
+  },
   {
    "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
    "alcance": "Ambos",
@@ -73,7 +110,33 @@
      "hora": "17:30"
     }
    ],
-   "n": 1
+   "n": 2
+  },
+  {
+   "titulo": "Martín Menem mandó un mensaje a la interna del Gobierno por el armado electoral: \"Sería más fácil cerrar acuerdos con cuanto gobernante se nos cruza\"",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae",
+    "TN"
+   ],
+   "n_notas": 2,
+   "primera": "10:52",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "Martín Menem mandó un mensaje a la interna del Gobierno por el armado electoral: \"Sería más fácil cerrar acuerdos con cuanto gobernante se nos cruza\"",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObmxSWnJ2amEzbWpITW5WTndIV1M4MHBvMXgzb3dKbFZhS1FVdlpYVUthQ2JTUHVzcjJRRUhXYllRUWFZVlRHeHlBTF9faXdKUmhWaFpDQWNCczNGb3NuSE5TUnJfUlYzRjE0dGxSaW9hVTdGbThqeXVjVzJlZFpsQjltSDgyWjRuR1kyRG1JOGt2d21nWkZoN2NvUERpMUpXNS1lRzloUXRnbDBKREFLSXZUTnI5bHZIWTcxRTlKWEVxV1FyaE92SzZhMG55REJDU2F5OGl2ajBhZFpyLUNPeXJnZHF2U21MeUhjXzVzR2hIZmVPT1HSAYoCQVVfeXFMTUhTLVViSXNCMTd2VUpoc19QVFRKNDVRYnR1aHdMNHNqTmF4OW9ZYnZBUUNiU2pRLVRHUmUxQTFndWV4eFpCZ3hsVmhraXJwaW0tTEN5QlN3UmF1UFBxYTdhZjhCU1N2R3U5UUx1dElleXRuamI5LUh3X1o2Ynk5Um14S2pyYzRrOWxUYVpRVGk4RG05LVN6Y1VLRHRjRktfa3c1amxBZ0ZSTG9MeDhaSWNqQ2VHVU1TQUVRX0dDWWhwUHJLN2YxQ3BrdldfeF9DTUJfOVVnN0V4TDMwbmg5TkxXWHVMMkhRUlZFalZOTHhsSjl6WkVRU3hFc21PbFRXVkJoU2FVUWQ1aXc?oc=5",
+     "hora": "10:52"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Martín Menem condicionó las alianzas electorales con los gobernadores para 2027 a un acuerdo sobre la agenda de reformas",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZWJrcWR3cWMxSEZoV2FRN2xjallMQTN6Rk5yelZTVVBnMEJhTFZLZGgzSkhjN3VsTEFDVWhjaUh1dmhrWXJ3aEw0ZUdhNGpUcVFYV0pKc2RwY2UycGx2Y01SdldtNEtrR0FWaE05bFM4SmxBUWRlbnZsMjZJNzJaUGljTV9oNVREb2twb2NhbkVwNDlia1dNaEREc1JWOTl5cnctVXR0RV9hdE1CSVZ5bWpwbklmTzNZaUlqSkVfQjJlVkhsd1JWYlU0TEt3YzhjczdDd0hpUTBZVXNXaWF2YWNkcC1DOGZUVkJzdnVEQ2VUNUk5MWxXZdIBkwJBVV95cUxPRVBIRmg1MEJsbW4zcnl0Z0N5WFp2WEl1TWdqTjRUTWliRUc2QlVsek56VWxVZDh1Ny03OWl5QXFXbTBQbE1Oa1VmSW9CSEFid29TN01xWTJNbjNZTTBsd3NUOHI4eFFBOC1jZFMtaTlpVXlhaTZ3eWZIX1V4ZGhVNVR2RVpJSmVCMGdjcm5uVkFIVkFkYVZkemhWbVJTR2FvUk5wM3RqTjB6T012YzRhQlAyV0prMkVkcjJOTzNwbFZHZDlJc1JrN3hxdlBiYzZCSWlNNXhUbFNwMXhIdGV5aUVORlFCd0pvY3RBQzB4UlJuejJkejNJbHEzc2hpTEV0VVJlY3hENWh6SVc3RDNjUTZPWQ?oc=5",
+     "hora": "12:59"
+    }
+   ],
+   "n": 3
   },
   {
    "titulo": "La Cámpora, Kicillof y  Massa: los jugadores de la interna peronista se mueven, pero sin definir bandos",
@@ -92,7 +155,45 @@
      "hora": "23:28"
     }
    ],
-   "n": 2
+   "n": 4
+  },
+  {
+   "titulo": "La Libertad Avanza activó la campaña bonaerense con un congreso de más de 1200 jóvenes en Morón",
+   "alcance": "Nacional",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "TN"
+   ],
+   "n_notas": 1,
+   "primera": "22:07",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "La Libertad Avanza activó la campaña bonaerense con un congreso de más de 1200 jóvenes en Morón",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1NZSU05UHZaUXFoNi1OdVZuYUdlajQwMGJidWF4S3U2Mnh3RktiN2xqNkhkWFhkcVV2Nl9hVmFfLTI4TUhIM3FKUE1kQXRHelJLRWNZS3VIYnpCbjZtQnB2azU3ODRtWW5HLVl3UkI1ZkNqS1NKb2k2a0lUakp2Q3lKOUtBVm8yRU9nVFdFZWwzWU5UVW5oWFVESl9US3VxY0dBSm1qdVlYLWV6aDhkc21LN051cF93WDN5XzA3T01tNmVtaVNxdmZ2RWYzOGfSAeMBQVVfeXFMUE42MnlpVTJINHo4M0taZzVuT0dibFMxREEzbjBKdzl5Z21WZnZ2b0hmam1Gd1NRemdNcFd4TkkxcjNqTHZkSGdTZk55aFoxNlpSNG9GWUxEeDQwMU5YdXFnbktxZkVtMlpHMldFdW0zR3BWbjVYdmkybEROaTlzc2lORWtzRUNZVjZLbG9hZXRXYnlwYlRBUzFFRkxIanhqb3J4QmxfeFh5T0NQd1ZGM1JVb2tVTXE4YnZyaEpQVDJBVlZIc3A1b1pyUnZHVnFZX2IzYm1zRzNxQUt2SWYzaGhRWE0?oc=5",
+     "hora": "22:07"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "titulo": "Presupuesto 2027: el Gobierno busca los votos de sus aliados, que reclaman más fondos para Discapacidad y universidades",
+   "alcance": "Nacional",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "TN"
+   ],
+   "n_notas": 1,
+   "primera": "21:39",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "Presupuesto 2027: el Gobierno busca los votos de sus aliados, que reclaman más fondos para Discapacidad y universidades",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMThiaU9uMF9qUklDTnZqVDF1Y19pejZnRWh1ckF2WmRRM1VWM0xZSmNHSUNTVUxLb2ZsYkJPVUdfaHZKY2EwYmpHQjkyd3hzaG9waUY5cWJ5RW83SFBGUEdaV1VfWU12NmQwMnJvVXlkUklrYmVROHlrNU1kNkNxUHprZkNzcnhDbVhsV0hUWGIzc3M5TDVXVmxBT3JibnN5cDc3U0x4SHV0aHFFMVBlcjdjWVZkSXozcVpwQ1pLNkVYREZHSHVrdDdxZXg4aE4zMUIyQkpJUnBnNzVIVVJXSjNKM0VFMFl3YXBPX9IBgAJBVV95cUxNUE1LS25JWkIxcy1pUzRKNC05M1ZzSE4yaXdXaTdCajVFSUJTeEotREVqeEZpMjl0YWYwWVdqdUhMMUdCdFNQVWdDWlFQc2VkQ2Fja2dyYnNhWDdyOVJrT3lsUGhHMWQySkhHSURmZ3l2Y0pFdVMtRnFTRjg3VGl2czNjOGdZcTBIMmJ2QVZ1dkx3N19TOGRrU1ppT1IyRGVQNUhTXzFsc09qOE5ZaWJDblZPOThJQ1RLNUFKNWtfVVVCUUhKUndfeFZvWjNfYjl3cXRBS1NldDcyeXZqejlzNVJZclJrU1FXbVU3M0MyOGVyU1FScnZXbUg0elRrcGdu?oc=5",
+     "hora": "21:39"
+    }
+   ],
+   "n": 6
   },
   {
    "titulo": "Maximiliano Ferraro sobre la Ley de Tierras: «Continuará la incertidumbre»",
@@ -111,7 +212,7 @@
      "hora": "19:35"
     }
    ],
-   "n": 3
+   "n": 7
   },
   {
    "titulo": "Juan Grabois disparó contra Javier Milei:  «Es un riesgo para toda Latinoamérica»",
@@ -130,7 +231,7 @@
      "hora": "19:25"
     }
    ],
-   "n": 4
+   "n": 8
   },
   {
    "titulo": "Qué implica el ultimátum de Milei a Londres y cómo afectaría la explotación petrolera en Malvinas",
@@ -149,7 +250,7 @@
      "hora": "19:05"
     }
    ],
-   "n": 5
+   "n": 9
   },
   {
    "titulo": "El Gobierno dolariza por completo las tasas de cabotaje y viajar saldrá una fortuna",
@@ -168,7 +269,7 @@
      "hora": "18:56"
     }
    ],
-   "n": 6
+   "n": 10
   },
   {
    "titulo": "Javier Milei y la estrategia del Gobierno ante la sesión por la Ley de Tierras: la editorial de Adrián Ventura",
@@ -187,7 +288,7 @@
      "hora": "18:41"
     }
    ],
-   "n": 7
+   "n": 11
   },
   {
    "titulo": "El gobierno de Javier Milei se prepara para las nuevas privatizaciones: ¿Cuáles serán?",
@@ -206,7 +307,7 @@
      "hora": "18:00"
     }
    ],
-   "n": 8
+   "n": 12
   },
   {
    "titulo": "Victoria Tolosa Paz denunció a Caputo y Bausili por presunta defraudación y abuso",
@@ -225,7 +326,7 @@
      "hora": "17:35"
     }
    ],
-   "n": 9
+   "n": 13
   },
   {
    "titulo": "El PJ de Salta eligió nuevas autoridades y deja atrás la intervención",
@@ -244,7 +345,7 @@
      "hora": "16:56"
     }
    ],
-   "n": 10
+   "n": 14
   },
   {
    "titulo": "Base Naval Integrada Ushuaia: el Gobierno licitó la construcción del muelle militar",
@@ -263,7 +364,7 @@
      "hora": "16:41"
     }
    ],
-   "n": 11
+   "n": 15
   },
   {
    "titulo": "Amado Boudou criticó con dureza a Milei: «Estamos mal y vamos a estar peor»",
@@ -282,7 +383,26 @@
      "hora": "16:03"
     }
    ],
-   "n": 12
+   "n": 16
+  },
+  {
+   "titulo": "La Libertad Avanza reúne a más de 1.200 jóvenes en Morón en medio del debate por las candidaturas de 2027",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Ambito"
+   ],
+   "n_notas": 1,
+   "primera": "14:53",
+   "links": [
+    {
+     "medio": "Ambito",
+     "titulo": "La Libertad Avanza reúne a más de 1.200 jóvenes en Morón en medio del debate por las candidaturas de 2027",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQzRNWDYxUC1nM0hGTnc1OEJCSmRDaXNpTGhCSnUwMXFWTmFCdEJ1X2RvcWYwbnVBQi1hem9tVGtGV2FZNG9ZaDJBc0VpbmxiX05xdVVMZXZkWXJlWWkxaDhWQVgxU2cwWXJERnRJeXpuRHVpUzN3NTdJVTNlTGhDdHMzT1JJcXFyaTc1dThLdXVoaVgzNXkzOUNoenV6MERSek5ORU0tOFFQalM1aGhxSmlpSjFLYUgycFZyanhmRDZfZnRWSDJWctIBzgFBVV95cUxPM3lJQWJPMFVpOW9VX29vU1FJa3FrSmxVMWVZMGN2ODFvWEpGa3d1aEZ4R0UyTDZ2OGN1cXBKQklKV3ZLTDdKMFVyVFlJSkZOYnRoVkR6ZGlTdHhGbGMycHdYQWdOWExXU0VLNFNCVUZQdFpqRW13NElwc1VtbjlTUjlJU1AtaXNKbVlvcVc1clFkbU12N05VU2drUlM4T2ZRQmRzaTFvUUlLdENVdkFrNHBVUTk1R3NRMWp4UjJiZHR2aXZCbW5sOHN6TTFWQQ?oc=5",
+     "hora": "14:53"
+    }
+   ],
+   "n": 17
   },
   {
    "titulo": "“El Gobierno no tiene un conflicto conas universidades, lo tiene con la democracia en Argentina”",
@@ -301,7 +421,7 @@
      "hora": "14:52"
     }
    ],
-   "n": 13
+   "n": 18
   },
   {
    "titulo": "El Gobierno reiteró la solicitud a la FIA para que la Argentina sea sede de un Gran Premio de la Fórmula 1",
@@ -320,7 +440,7 @@
      "hora": "14:30"
     }
    ],
-   "n": 14
+   "n": 19
   },
   {
    "titulo": "La Libertad Avanza cruzó al peronismo por el oro del BCRA: “Los datos hablan”",
@@ -339,7 +459,7 @@
      "hora": "14:07"
     }
    ],
-   "n": 15
+   "n": 20
   },
   {
    "titulo": "“Este es el único modelo posible”: Martín Menem defendió a Javier Milei y habló de las alianzas",
@@ -358,7 +478,26 @@
      "hora": "14:05"
     }
    ],
-   "n": 16
+   "n": 21
+  },
+  {
+   "titulo": "La Libertad Avanza empieza a delinear el armado electoral para 2027 y marca límites a las alianzas",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Ambito"
+   ],
+   "n_notas": 1,
+   "primera": "13:37",
+   "links": [
+    {
+     "medio": "Ambito",
+     "titulo": "La Libertad Avanza empieza a delinear el armado electoral para 2027 y marca límites a las alianzas",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdjBuYkZkOHYtYXpHZlFhUmYwNzhMM1NhYzkxT2IwUEVoNDB5UGJ5NEVJYVZNbEt2RlJJVENuSDlSalR1OXlPQkNmSnFGcDR2STFNZHNyZkVVdDJ4Sm05V3dsWThLTDM3TS1uUF9nWFVjRGdOWVVaUWVwYk5KdmIxaXhua0Zka25fNXhlV3l3WEh0WjFELXZES0pIUXkyRU1GVnVST1RqQkFZNnZRbHF0STJlZnVGb3lMM3BqSFgzdkZTenROUi1LOXZ30gHPAUFVX3lxTE5FN3Y4dFBSbjczWUxtNS1rYzczOWdDM2VxU3BoaDFpdkRmQ1l4a3RLZXdXcjlNMnhkUldldFZ3X3Y4T2JhcFk4aWtCMGtmR1FfOTB3NmJwUS14czJ6SmMxYnYzeGo5QnNRZ2twU3dQNDRvZklybjNlU1RRMmFhbnV6NE1oTjN3WkVUaU9DOVpKNXRpX0FDSTk4LWJEWXZaM0REX2pkcTZtc1d5N0x4Mk1iMER2M0pmZjRiWjB0aFJYSlg5NXh1eVZRTVRvODV4SQ?oc=5",
+     "hora": "13:37"
+    }
+   ],
+   "n": 22
   },
   {
    "titulo": "José Gauffin defendió el achicamiento del Estado, pero advirtió que el mercado no resolverá todos los problemas de Salta",
@@ -377,7 +516,7 @@
      "hora": "13:07"
     }
    ],
-   "n": 17
+   "n": 23
   },
   {
    "titulo": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nación",
@@ -396,26 +535,7 @@
      "hora": "13:00"
     }
    ],
-   "n": 18
-  },
-  {
-   "titulo": "Martín Menem condicionó las alianzas electorales con los gobernadores para 2027 a un acuerdo sobre la agenda de reformas",
-   "alcance": "Nacional",
-   "tema": "Elecciones y partidos",
-   "medios": [
-    "Infobae"
-   ],
-   "n_notas": 1,
-   "primera": "12:59",
-   "links": [
-    {
-     "medio": "Infobae",
-     "titulo": "Martín Menem condicionó las alianzas electorales con los gobernadores para 2027 a un acuerdo sobre la agenda de reformas",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZWJrcWR3cWMxSEZoV2FRN2xjallMQTN6Rk5yelZTVVBnMEJhTFZLZGgzSkhjN3VsTEFDVWhjaUh1dmhrWXJ3aEw0ZUdhNGpUcVFYV0pKc2RwY2UycGx2Y01SdldtNEtrR0FWaE05bFM4SmxBUWRlbnZsMjZJNzJaUGljTV9oNVREb2twb2NhbkVwNDlia1dNaEREc1JWOTl5cnctVXR0RV9hdE1CSVZ5bWpwbklmTzNZaUlqSkVfQjJlVkhsd1JWYlU0TEt3YzhjczdDd0hpUTBZVXNXaWF2YWNkcC1DOGZUVkJzdnVEQ2VUNUk5MWxXZdIBkwJBVV95cUxPRVBIRmg1MEJsbW4zcnl0Z0N5WFp2WEl1TWdqTjRUTWliRUc2QlVsek56VWxVZDh1Ny03OWl5QXFXbTBQbE1Oa1VmSW9CSEFid29TN01xWTJNbjNZTTBsd3NUOHI4eFFBOC1jZFMtaTlpVXlhaTZ3eWZIX1V4ZGhVNVR2RVpJSmVCMGdjcm5uVkFIVkFkYVZkemhWbVJTR2FvUk5wM3RqTjB6T012YzRhQlAyV0prMkVkcjJOTzNwbFZHZDlJc1JrN3hxdlBiYzZCSWlNNXhUbFNwMXhIdGV5aUVORlFCd0pvY3RBQzB4UlJuejJkejNJbHEzc2hpTEV0VVJlY3hENWh6SVc3RDNjUTZPWQ?oc=5",
-     "hora": "12:59"
-    }
-   ],
-   "n": 19
+   "n": 24
   },
   {
    "titulo": "A un año de las elecciones, cómo está el mapa ideológico en la Argentina",
@@ -434,7 +554,26 @@
      "hora": "12:56"
     }
    ],
-   "n": 20
+   "n": 25
+  },
+  {
+   "titulo": "Ley de tierras: Armesto aclaró que la Corte Suprema no resolvió la cuestión de fondo",
+   "alcance": "Nacional",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "Cadena 3 Argentina"
+   ],
+   "n_notas": 1,
+   "primera": "11:57",
+   "links": [
+    {
+     "medio": "Cadena 3 Argentina",
+     "titulo": "Ley de tierras: Armesto aclaró que la Corte Suprema no resolvió la cuestión de fondo",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZUdGY1BJY1Fndy1IcUJWc09GMm11X2lldE5lc1BMdWpCYWhwOXh2eFd2eEdwRGZOQllXYV9Pc0I1bWNzbXVzNktqelAtWW1CVDJIWGM4MWNTNm15X3d3U3hyWFRzeEdqcDRqdXdHR2tZa2V1YUhBNE9MODhMWXRnX05iTnp5aU1KdG5wbE1NM3JBd25wZ3dzbl9CbEdHWGVmV2lpNmtQQjFMQ2pSZFNsWG9QTUp5M2E3VzN0QTh2Ry12bXZNeDUtZEktQ2hnOW95c2NhSnA3R2ZPNmU40gHiAUFVX3lxTE45bmFicFlPUHR0S0NYZERaVFBxcHFSai1mcW5ITEhKZzRIRGRLb1ZYZDdMSXBSejVJREFFd3FSbWJSckgyYnhjWHhSSGxPcGRwdTRNWHhXa3B3bUxJcG8xQ0hwVzFpNW1ieFBBX19Md2NGNzhyWkRUMzdiOHlpakZQQ29nZXY0bWxaMGFLWE41SktobUZrc1k1YXR4b01rektoMGhWOW5POE5vMlhYOHgtMEMtQld1MmV1c0VBUDdQbDhlSl80eEtRSThFRnBNQlJJeWx4a1EzdGtPSE1fNEZvRUE?oc=5",
+     "hora": "11:57"
+    }
+   ],
+   "n": 26
   },
   {
    "titulo": "Juan Manuel Urtubey cuestionó el incumplimiento de la Ley de Financiamiento Universitario",
@@ -454,7 +593,7 @@
     }
    ],
    "sigue_de_ayer": true,
-   "n": 21
+   "n": 27
   },
   {
    "titulo": "Las prioridades internacionales de Milei que contrastan con un calendario que se agota",
@@ -473,7 +612,7 @@
      "hora": "11:41"
     }
    ],
-   "n": 22
+   "n": 28
   },
   {
    "titulo": "La UCR pidió tiempo: Natalio Iglesias y Soledad Farfán negocian una lista de unidad",
@@ -492,7 +631,7 @@
      "hora": "10:58"
     }
    ],
-   "n": 23
+   "n": 29
   },
   {
    "titulo": "Rodrigo Quinteros fue el único concejal que se animó a revelar su patrimonio",
@@ -511,7 +650,7 @@
      "hora": "10:49"
     }
    ],
-   "n": 24
+   "n": 30
   },
   {
    "titulo": "Roque Cornejo denunció que bloquean pedidos para saber cuántos bienes tiene la provincia",
@@ -530,7 +669,7 @@
      "hora": "10:25"
     }
    ],
-   "n": 25
+   "n": 31
   },
   {
    "titulo": "Victoria Tolosa Paz analizó el modelo económico de Javier Milei y lanzó dura una definición: “Tiene un equilibrio fiscal ficticio”",
@@ -549,7 +688,7 @@
      "hora": "10:10"
     }
    ],
-   "n": 26
+   "n": 32
   },
   {
    "titulo": "Cómo veo la Argentina al final del segundo mandato de Milei",
@@ -568,7 +707,7 @@
      "hora": "09:55"
     }
    ],
-   "n": 27
+   "n": 33
   },
   {
    "titulo": "Gabriel Katopodis se anotó para las elecciones de 2027: “Me siento preparado”",
@@ -587,7 +726,7 @@
      "hora": "09:44"
     }
    ],
-   "n": 28
+   "n": 34
   },
   {
    "titulo": "“Si Cristina no es candidata”: Juan Grabois, tajante sobre el candidato del peronismo",
@@ -606,7 +745,45 @@
      "hora": "09:12"
     }
    ],
-   "n": 29
+   "n": 35
+  },
+  {
+   "titulo": "RIGI: el Gobierno avaló proyectos por US$50.000 millones, sin dar cifras de los dólares ingresados",
+   "alcance": "Nacional",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "Cadena 3 Argentina"
+   ],
+   "n_notas": 1,
+   "primera": "07:02",
+   "links": [
+    {
+     "medio": "Cadena 3 Argentina",
+     "titulo": "RIGI: el Gobierno avaló proyectos por US$50.000 millones, sin dar cifras de los dólares ingresados",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOEpTdzZpMWVLR3ZiN0QtM0RjUXF1ZERYVEJRbXlVWEtJNTNfTGx0Nlo2bm9oTWwxODVlTjVBX3d3RURSNDMyb3pHQU81RWVUaWRZUnA1aWJ6VE1XUTEyZDFld0F3VldtckNBaU8zM3dBZ2p6bUV2NFVLUnczZk4wSWhDMHdqSzZjRllkYzNrdXhHZks5cTIzU2t0bTk4UERaX2I4R2xVRDRUODRBbnA0MWtieVBuNDcwZDlmQzFlRnB1dVpRX29ad1d4ajEyRjRRazk5RFBYZGx6YS1sU2NWdGROSmRwdDdR0gHuAUFVX3lxTFB5aGsxb0JtNG1yblBzbC0wTGxZY09LUkdPWEVHZW9XM1IwT2tkcnJoQ3NrbF9iSG53LTNkTXozXzgxa2oyaGVYM2puc1VoaUxNM2FjaDAzc0ZoMDFlajNydGhoclRfSzVQdGRQSEZrX0hpa0prYVdndUM2cGc2ZnV6R1BwRWpWTEptOFdvWENneTZBQ3Q5LTdSeEpDYXlEUjRPejJYdFdxdDRtWWlnZGRxa3o0VHUtZW5PRlZNVGVpakhBS1hKd3JCX0phRDJqRkk1X0NhdFlDRWozMXlWaFhFRFV0TkhxNWNmN2dzSlE?oc=5",
+     "hora": "07:02"
+    }
+   ],
+   "n": 36
+  },
+  {
+   "titulo": "El mapa de la derrota de los oficialismos en América Latina: perdieron ocho de cada diez elecciones desde 2015",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "TN"
+   ],
+   "n_notas": 1,
+   "primera": "05:47",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "El mapa de la derrota de los oficialismos en América Latina: perdieron ocho de cada diez elecciones desde 2015",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPLU83QkxPQmV1bmItcUxyeGhyZy11XzRGRUtPUGRKcXM4cHRCNzRuZUswb05ubE04RXVYSkF2NDZ6U3lKRkxPcWJ2Qkl2S2FnSl9pRGZkSjZfUEVnNmk3VHktRjRQSXU4TFFyRzBuVnJTM2RVdFAzZFZYcnFtNnlBOWN2dWhhUTBWS01OTEhEMHRxcWRkNVlDZGtfaVVHcHdPM3h0X1FKb0JJUV8xRmJWcmZzcW9uNUcwZldEdXNQUnRpTVBmOFZEbjQ5aHdkMjBXRUxuMlhmZWZ2bG9oTXFvTGl30gH2AUFVX3lxTE1hMU9YTU4tYXFLeWlaWklKRURNYzYyd0N4WU1yQWNsVkFySE9iNGFUQTU3bC1tanAzZHUtX2F6Wk1MUDJQWEUycTk3LTNoU1J0ZnBDMkdNWDVSdVVCcjd1c3E4Q3hoaFhCSThkalRpNnRGS2QxRUp1ejlOeWk5eTB4Ym1BcEpITTFYMUVwZ0NaOWZzZ0xSVXIwd0h3bnFneHZCNU43dVZLTUlTZ1Z0M0NfazFMSEl5bEdqcldVVnZ2VE53VG5WbGxrS21YTmRVTFp1Xy1HSGpUQmh5LTdKUFBoYU9tbzBlYl96dE5NQ1M0MmRoT0J1QQ?oc=5",
+     "hora": "05:47"
+    }
+   ],
+   "n": 37
   },
   {
    "titulo": "La violencia política en la historia argentina: rebeliones, fusilamientos y exilios en los primeros años de San Juan",
@@ -625,7 +802,26 @@
      "hora": "05:45"
     }
    ],
-   "n": 30
+   "n": 38
+  },
+  {
+   "titulo": "La estrategia del Gobierno para suspender las PASO, los datos que preocupan a Caputo y las dudas por el efecto Bolsonaro",
+   "alcance": "Nacional",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "TN"
+   ],
+   "n_notas": 1,
+   "primera": "05:23",
+   "links": [
+    {
+     "medio": "TN",
+     "titulo": "La estrategia del Gobierno para suspender las PASO, los datos que preocupan a Caputo y las dudas por el efecto Bolsonaro",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ3I0Y3RDOHJoQmJkeGxtcUQtdTFhMWVLMk5oeTBWdTMzS2VpTy1JaXU0X0wwVGQtMUpSV3FZQ1NaM09Dd2pESHFZbWxpLVI2RmFUSXNhYmVETk5CenZGdngwc3JjQXg1d1h1Y1RTS1JZM2ZlTnpOSzJQWmFPT2M5OFZJbzVLa0tYeXBEYXBMaWJ2dDdtYXk3RXl3WDJEdEtnelF5Q1Z2TWJmM093MHdoSVFfX21WVFczcF9JNjNjeElFZmJMbWdlWXZORFBNaXVzY1NoUEpSUnNWNzVIZ2ZJQWM0SndkQzJmOHAzTnRZTdIBgwJBVV95cUxQZUtVLUFlSElQc01NWlNJelJLNkp0VXlxWW90UFk0U2hVdm9ZbnhzUnMta3docklwVGRJWVBKMGs4LWVzdkNBY25Zb0F0TDFueGpKeW1FZWN2ODZCaWJlaGVWU0hueERvZ294eGpYVWlad21xNTZSbFF2aXRIbjZRYS05akZldzZDeERiNFVNWnQzTGtDSzlISTFmS1g1bnpBdldkTFgzVEJFZ0Myd3ZWTjBCLUlLVUR5TlRSWmg2dEVlRk5VMUxDRk1nQkxTLVlhUU5CYWFORHRJU2toSE5rdnhBbHI0X0dVUm1HSXdCdmJ4dVQ1b2JVS3NjYjFYcmc2Q0p3?oc=5",
+     "hora": "05:23"
+    }
+   ],
+   "n": 39
   },
   {
    "titulo": "La seguridad nacional de Milei: un combo de extravagancia, improvisación e ignorancia",
@@ -644,7 +840,7 @@
      "hora": "02:13"
     }
    ],
-   "n": 31
+   "n": 40
   },
   {
    "titulo": "“Sumó negocios con el Estado”: Marcela Pagano expuso a Martín Menem y sus hermanos",
@@ -663,7 +859,7 @@
      "hora": "01:29"
     }
    ],
-   "n": 32
+   "n": 41
   },
   {
    "titulo": "Mercosur-Unión Europea: el comercio ya reacciona, la política todavía no",
@@ -682,7 +878,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 33
+   "n": 42
   },
   {
    "titulo": "Una semana en la que la política de Brasil impactó el mercado local: subieron los bonos y el riesgo país cayó 10 por ciento",
@@ -701,7 +897,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 34
+   "n": 43
   },
   {
    "titulo": "“Vamos a pedir la detención”: Gregorio Dalbón advirtió a Santiago Bausili y criticó al peronismo",
@@ -720,20 +916,20 @@
      "hora": "00:50"
     }
    ],
-   "n": 35
+   "n": 44
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 30,
-   "historias": 28,
+   "notas": 36,
+   "historias": 33,
    "salta": 4,
-   "nacional": 24
+   "nacional": 29
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 12
+    "historias": 13
    },
    {
     "tema": "Robos y estafas",
@@ -744,11 +940,15 @@
     "historias": 5
    },
    {
-    "tema": "Justicia penal",
-    "historias": 1
+    "tema": "Narcotráfico y contrabando",
+    "historias": 3
    },
    {
-    "tema": "Narcotráfico y contrabando",
+    "tema": "Justicia penal",
+    "historias": 2
+   },
+   {
+    "tema": "Violencia de género",
     "historias": 1
    },
    {
@@ -757,6 +957,32 @@
    }
   ],
   "historias": [
+   {
+    "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
+    "alcance": "Nacional",
+    "tema": "Justicia penal",
+    "medios": [
+     "Cadena 3 Argentina",
+     "Infobae"
+    ],
+    "n_notas": 2,
+    "primera": "10:19",
+    "links": [
+     {
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Detenidos tres delincuentes con condenas por un intento de entradera en Villa Devoto",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmR1Rm5SQVdtR3JxT2xFa3dub2dOVWdQWkNDTDBKZGhrZTB2UnpMVDJ3cU9QaDJYZ01jeW41Qy0xX2g4TGR0STZNT0poVmpQVllEZTh2OWM0bHlJNmRDcllVcEtZZW9kWkNlYV9EUU11TE5tR09yOTkwSjQwdHgtazdqWlo0QlZxRG1VOF8wbXBzVVctWlEyclpTV1EzZHFIRXI3SU1zTWtZVTVaVU9lNVdkQ3dOZVdxQjB2YUJQVnN6ZlVxX2o0MUZ0V3rSAdIBQVVfeXFMTWcxRGtwRVVRTGh5OTN3NWJNNWRWNWZhLS02N3NRZ0NoWXMyZ1NuNFdxTVFZakJJZUx4UDhjNlNFYkhSZldiS3Vqeml4SkdLMVlQb0lJbUVSOXRPdnBnYWpRLTN6VVhBNjBUd1NQMmU0SW9nRlNsLWNiZzQyc001ellQT0xXa3QtZXhRSmM3UDFERTY4NXNVOWJqYVBzQ3lqR3JlQkJDS2ViU3FRNm5TTE5kYklQLXJ3NVdlcWpRb21KdkpTV3ZncURJNHBkWXdWVkRR?oc=5",
+      "hora": "10:19"
+     },
+     {
+      "medio": "Infobae",
+      "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOS1gyMDZhMnprRFpvVVUyR1NDaEJOT3ZRWndXUnpHcENqYUhQMEF1a0djZXpPTFJCVmJuU0NZdlBJX3MwQ0d2blpyczBlR3R6UFdlNkd1TjF0NU82d3NBSDdhX2ZTZzFmQ2FaaUF4VWtVVzY4Mm16V2pSUFpqTE9udGtsbTRhLXJGUG5QYnlaMlVTZGRMcEx0MFozNGtQZG10OTY4YThuWXhlQ2ZCREhFVW1rSmF6VFM0SGUwMTVTVlA4cDljUFJLU1Fndm1TRlA5WUQxNU8xZHFGU0ttZE43aVNfVjREOWYxRlNjQVBQM1hQOG1NSERqLTY1dXBSSzTSAZoCQVVfeXFMUFdIVFdnZDlGSDViM203blZkU3BfOXBGN1VZVG9Qa3VTc3R6WVcyUDRCdUlYcmw2WmJhcDhOTXFTQUdyRTdPRkE4Z3htTlhudTcydFlwLW1NV2FYZldfYkkyczhyaDRLYjhGcmZLZU0zbVVRQnRnRnBnd3o1WGI5bXduck5NUDd0MWdRTW4wTk9nUnB3bE44WGVYaEJQYUFJSzdXWTBrUTE3SnZGV0hCUUhlNENnTEdqMmE4TTViejVqc05IZTJDWG5udEZkRzFDMVptMmNfX3RoYUhteGx2UGNlbWZVMDJMWG1JNVdwSTlNZ180VVF0WXlNVFRYbUExQmpaUFlSb1d3bUR0UklXLS1pX002MExWUDV3?oc=5",
+      "hora": "12:58"
+     }
+    ],
+    "n": 1
+   },
    {
     "titulo": "Lo buscaban desde 2022 y cayó en Australia: extraditarán a Salta a un acusado de estafas con bitcoin",
     "alcance": "Salta",
@@ -781,7 +1007,7 @@
       "hora": "10:30"
      }
     ],
-    "n": 1
+    "n": 2
    },
    {
     "titulo": "¿Quién es el ‘Loco Joe’, el sanguinario criminal que usaba el DNI de un peruano asesinado? Cayó en Argentina y operaba desde Brasil",
@@ -806,7 +1032,26 @@
       "hora": "17:56"
      }
     ],
-    "n": 2
+    "n": 3
+   },
+   {
+    "titulo": "Detienen a una joven y su pareja por un millonario robo en Llavallol tras drogar a un hombre",
+    "alcance": "Nacional",
+    "tema": "Narcotráfico y contrabando",
+    "medios": [
+     "Cadena 3 Argentina"
+    ],
+    "n_notas": 1,
+    "primera": "22:48",
+    "links": [
+     {
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Detienen a una joven y su pareja por un millonario robo en Llavallol tras drogar a un hombre",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDRPUHZUTnRDcWZ3V09JclR3aGVnZHBXSlpNakdfUkJqN2l1ZWwwYjdBNGhxcm5WeU5qLWtyMUxEVVZOYmU2NXlicjIwOEhsb1Y2c0RTY3RHT0FXc2NtWFVGSm1PTGdUY3JlWUpVdEpRRnV6U0tIM2lZejlpSHRZdlctX0dqdmxub2dBN1NONmhwVzdNM0o2aU15QWpXZVRxSW5jcU5OOGQtYmt3ZDFmTUZGSzRHdUFRZW90ckJaVXYtdzZLVklhYUNEMUtRSzJaVHY1eHEzY9IB3AFBVV95cUxQZk5LcGR3ZHg4LW4yLVM0REhaOG5MaXhhR1hJM1pCOWo1Nm9xZ21lV1JEZkdMZE5tb2RnMUZtYkdEcXRkQWhfNnBvR0R5elJsOWxKRElQOTBvQnJ5bG9nMTZJODE2elpzNERSZGxHZ19Zbk4wOGh3d1JCeVlLMS11c1lqVG12WlcxUmFpcGlOMEVoX3dlLWw4a2xLTkUyVXNWZEt6cDAyZXlzYld1WUZyRXFGMEtrbnM2azNQajdfNXQ5cS05WWJTUTNQb09xWWpQV2llS0VyNnJqQVUx?oc=5",
+      "hora": "22:48"
+     }
+    ],
+    "n": 4
    },
    {
     "titulo": "Policía incautó 30 kilos de cocaína en el aeropuerto El Dorado de Bogotá: tendrían un valor comercial de más de $259 millones",
@@ -825,7 +1070,26 @@
       "hora": "22:11"
      }
     ],
-    "n": 3
+    "n": 5
+   },
+   {
+    "titulo": "Detuvieron en Chaco a un condenado por femicidio que era buscado por otro crimen en Brasil",
+    "alcance": "Nacional",
+    "tema": "Justicia penal",
+    "medios": [
+     "TN"
+    ],
+    "n_notas": 1,
+    "primera": "21:52",
+    "links": [
+     {
+      "medio": "TN",
+      "titulo": "Detuvieron en Chaco a un condenado por femicidio que era buscado por otro crimen en Brasil",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVGRwWE5iYndBQW9iRzZ3ZGtnY2dLR1pFR3UzY0l6VWFYelk5VF8xQzdCR19vS2J5RTQxOFRCaFhtQTRhaEk2MWxtbVAtVDJMTHZFUUhKVGlEeHg1TExzQnJ2MC1sS1pKc19ndHFfcFpTNEF1VGhsV0k5V3hPM3Q5blhzdmI0WGplS3puY3FxWE1Ec08wZ2RMOUwyTGlHeGxuUF8yNHh1a2ZZNGQycVFhOEhsOEtidy00T2NtcWZIRG1JVFZfclhqbXVyc9IB3wFBVV95cUxPS1RUSTU3OVA4OHZSUzgwWUx0MTFxOFh2eE05U21xbDdQbGhrMlMyaDFuWGsyRWNlWndROTY1b3VaNzh5MUZFREUtZjBZenI5SzBvNDlTUTg5eS1uWkcwZTc3TWU3R0hmNEFlQ2ItdFlGZXgyWGdXMHVTcFJHUENNZ0pGS0NSMHZGblpoTTRQanc2aXlVRmpfVW4tb3dyQ1FIcHFYaUJEZFphYXV3Y2RwanQ3N0hwWElHNndHOG94YXVQTzdlcEJxY3BrdjJEYlNwTTRCa1dpWldfMktGdzdz?oc=5",
+      "hora": "21:52"
+     }
+    ],
+    "n": 6
    },
    {
     "titulo": "Robos, asaltos y vecinos que salen a perseguir ladrones: alarma en San Antonio de los Cobres",
@@ -844,7 +1108,7 @@
       "hora": "19:13"
      }
     ],
-    "n": 4
+    "n": 7
    },
    {
     "titulo": "Cansados de los robos, repartidores armaron una emboscada, recuperaron una moto y pasearon a un ladrón desnudo",
@@ -863,7 +1127,7 @@
       "hora": "18:31"
      }
     ],
-    "n": 5
+    "n": 8
    },
    {
     "titulo": "La Policía de Bolivia detiene a un miembro de la banda criminal brasileña PCC",
@@ -882,7 +1146,7 @@
       "hora": "18:06"
      }
     ],
-    "n": 6
+    "n": 9
    },
    {
     "titulo": "Policía entregó detalles de la captura de alias El Descuartizador en Antioquia",
@@ -901,7 +1165,26 @@
       "hora": "17:52"
      }
     ],
-    "n": 7
+    "n": 10
+   },
+   {
+    "titulo": "Cadena perpetua por el brutal abuso sexual seguido de muerte de un jubilado en Rosario",
+    "alcance": "Nacional",
+    "tema": "Violencia de género",
+    "medios": [
+     "Cadena 3 Argentina"
+    ],
+    "n_notas": 1,
+    "primera": "17:45",
+    "links": [
+     {
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Cadena perpetua por el brutal abuso sexual seguido de muerte de un jubilado en Rosario",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONi1EZ0EwclFvZ2V3cXFMNmU3NWdyZl9FYVpaX200T2dFd3A5OXFIOWVEclBvcHRiR3RxaHpqRlg4d3I5T1ZGNDFlckJQbmVBbmxNZUYyem9JUTI0ZEs0MVVhb0dpdUJybEp0TGlJWUZpazZrS3NFQjBlaGc2clhPMTlCZ0xDSEFCaTY0bkFRUWNWbzNRdktOX0o5OEgtc0FESklnYWxHUFRHUWNDb2tDMUVaM0NDYlRfUXMzcXFjTWhoRzhDZWhPLUZ3Tk9zOHM?oc=5",
+      "hora": "17:45"
+     }
+    ],
+    "n": 11
    },
    {
     "titulo": "Policía ‘pescó’ a presunto fletero que intentó escapar tras lanzarse a un río en Bogotá: había robado $60 millones a un adulto mayor",
@@ -920,7 +1203,7 @@
       "hora": "17:05"
      }
     ],
-    "n": 8
+    "n": 12
    },
    {
     "titulo": "Orán: una denuncia por amenazas con armas terminó con el secuestro de más de 32 kilos de cocaína",
@@ -939,7 +1222,7 @@
       "hora": "16:36"
      }
     ],
-    "n": 9
+    "n": 13
    },
    {
     "titulo": "\"Posible estafa premeditada\": la bronca de los argentinos varados en España por los problemas operativos de la aerolínea Plus Ultra",
@@ -958,7 +1241,7 @@
       "hora": "15:13"
      }
     ],
-    "n": 10
+    "n": 14
    },
    {
     "titulo": "Impactante video: motochorros armados persiguieron a toda velocidad a un conductor en plena autopista Buenos Aires-La Plata",
@@ -977,7 +1260,7 @@
       "hora": "15:13"
      }
     ],
-    "n": 11
+    "n": 15
    },
    {
     "titulo": "Orán: detienen a un hombre e incautan más de 32 kg de cocaína en una camioneta abandonada",
@@ -996,7 +1279,7 @@
       "hora": "15:00"
      }
     ],
-    "n": 12
+    "n": 16
    },
    {
     "titulo": "Reporte de la Policía luego del homicidio de vigilante de bar en Bogotá",
@@ -1015,26 +1298,26 @@
       "hora": "14:05"
      }
     ],
-    "n": 13
+    "n": 17
    },
    {
-    "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
+    "titulo": "Desarticulan una red de narcotráfico en La Plata: cinco detenidos y un arsenal incautado",
     "alcance": "Nacional",
-    "tema": "Justicia penal",
+    "tema": "Narcotráfico y contrabando",
     "medios": [
-     "Infobae"
+     "Cadena 3 Argentina"
     ],
     "n_notas": 1,
-    "primera": "12:58",
+    "primera": "11:57",
     "links": [
      {
-      "medio": "Infobae",
-      "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOS1gyMDZhMnprRFpvVVUyR1NDaEJOT3ZRWndXUnpHcENqYUhQMEF1a0djZXpPTFJCVmJuU0NZdlBJX3MwQ0d2blpyczBlR3R6UFdlNkd1TjF0NU82d3NBSDdhX2ZTZzFmQ2FaaUF4VWtVVzY4Mm16V2pSUFpqTE9udGtsbTRhLXJGUG5QYnlaMlVTZGRMcEx0MFozNGtQZG10OTY4YThuWXhlQ2ZCREhFVW1rSmF6VFM0SGUwMTVTVlA4cDljUFJLU1Fndm1TRlA5WUQxNU8xZHFGU0ttZE43aVNfVjREOWYxRlNjQVBQM1hQOG1NSERqLTY1dXBSSzTSAZoCQVVfeXFMUFdIVFdnZDlGSDViM203blZkU3BfOXBGN1VZVG9Qa3VTc3R6WVcyUDRCdUlYcmw2WmJhcDhOTXFTQUdyRTdPRkE4Z3htTlhudTcydFlwLW1NV2FYZldfYkkyczhyaDRLYjhGcmZLZU0zbVVRQnRnRnBnd3o1WGI5bXduck5NUDd0MWdRTW4wTk9nUnB3bE44WGVYaEJQYUFJSzdXWTBrUTE3SnZGV0hCUUhlNENnTEdqMmE4TTViejVqc05IZTJDWG5udEZkRzFDMVptMmNfX3RoYUhteGx2UGNlbWZVMDJMWG1JNVdwSTlNZ180VVF0WXlNVFRYbUExQmpaUFlSb1d3bUR0UklXLS1pX002MExWUDV3?oc=5",
-      "hora": "12:58"
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Desarticulan una red de narcotráfico en La Plata: cinco detenidos y un arsenal incautado",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdElZemFmS0JBb3YxQ2RDOExpYmo3YkVZVGFuQ2JRZm5mLUdYVHU4bWZVUzdEV0RIaHVRWHdrMFVfZTdoYkRrQ3JLTDhiVlF2XzhXM1pyVXplcVJtWFNKWkZYTUU2ZjNYQi1HMEszV2JnZURvbkxhekVYam5xc0tKWElqNEdRcF9xdE5oZTRna0duQy1KcHo5MEZTNUZDSmFiUkRFRGF2YWpWbmhwT19KRDdLWm9ZSkhxU0NpRW5QYXV5WENCd1pFUzJtNWQzZE1q0gHWAUFVX3lxTFBwekMyV2JyWkEyTmtPY2RvRVRlYXhEWmxjbnB2bjZ0VWhYQ0ZWWFJTUE45NXZlNlAxT2dIVWc2MnduN3g4MS1PamYxSE5sS1BMZHhfX0JnN2t4Sml0VVJSc2xjMG1iT2ZwN2sxejIxVVZDaTZCY2J3Mmd1Sldnc3BET21zU21YTFR1RnB1bWd1STRxanZFcnhTLXlDRjA5SkUyNU9ka0xUQnVhUzVyckhpX0FVUWxjYTkza0hQdGx6SThKNUNydHFkNGpRRUg5ejFmc2dncHc?oc=5",
+      "hora": "11:57"
      }
     ],
-    "n": 14
+    "n": 18
    },
    {
     "titulo": "Una IA de Anthropic envió una pista falsa sobre un homicidio a la policía de Filadelfia",
@@ -1053,7 +1336,7 @@
       "hora": "11:52"
      }
     ],
-    "n": 15
+    "n": 19
    },
    {
     "titulo": "Lima sur: un delincuente muere y otros dos quedan heridos tras persecución policial por robo de auto",
@@ -1072,7 +1355,7 @@
       "hora": "11:49"
      }
     ],
-    "n": 16
+    "n": 20
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -1091,7 +1374,26 @@
       "hora": "11:00"
      }
     ],
-    "n": 17
+    "n": 21
+   },
+   {
+    "titulo": "Tucumán: golpeó a su madre para robarle y quedó detenido al regresar a la casa",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Cadena 3 Argentina"
+    ],
+    "n_notas": 1,
+    "primera": "10:35",
+    "links": [
+     {
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Tucumán: golpeó a su madre para robarle y quedó detenido al regresar a la casa",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU3VVSE9VQXZ2eHZOVlA2bjQ2Vy1CdXJLeXRyc2RFbERIb2tWdGMzemwyRGpfV2hxRWFfRmt1dnVQem9sMmF0UmlES2ZuU2I1QUJDLWp0YnViUnh0aHA2dTlHUDdyRjBYdm1OdkZMSmlzelpNblluUDRmVGVmVzZwMV81TVBSTUtmSUVSandkUmZUUDBJRkRENTd3aVB3dHJXWDJWcmt0T203NHM3Y250VVppcWJxSF8xZVNfM3M5eXRGSGdZalJaWENHRGxGQdIB0wFBVV95cUxORWtVbjFST1ZVdkROUVN2dmNXTS1TZXdob0g1WmhZUm9oWHF1QzV2ZHJyXzJScjY4dHUweUpBdVBVT044VU8zYXpyazUtc0JNMUVrVF9Zb09OUFBhWENtTkNZd1JjUkNWWE9vRGRtWFc1cUtmcjNrLXV3NE9ZeWViMUhaaFNLUkVzX1MwaldTVUF4NHNGNk9idGowSjFTNy1JaW45azk1cDB6SnVzVDlnTk9kU1lEeklJU2hLU3BiSzhFdG5ZX3JoOVdKczdYUlh1dElr?oc=5",
+      "hora": "10:35"
+     }
+    ],
+    "n": 22
    },
    {
     "titulo": "Detenido el bailaor español Rafael Amargo y su pareja tras una pelea con un intruso",
@@ -1110,7 +1412,7 @@
       "hora": "10:18"
      }
     ],
-    "n": 18
+    "n": 23
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -1129,7 +1431,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 19
+    "n": 24
    },
    {
     "titulo": "La Policía detiene a 19 personas por las violentas protestas antiinmigración en Sudáfrica",
@@ -1148,7 +1450,7 @@
       "hora": "09:27"
      }
     ],
-    "n": 20
+    "n": 25
    },
    {
     "titulo": "La Policía desaloja un edificio de la universidad de Nantes ocupado por manifestantes",
@@ -1167,7 +1469,7 @@
       "hora": "09:06"
      }
     ],
-    "n": 21
+    "n": 26
    },
    {
     "titulo": "Detenidos en Palma tras ser pillados in fraganti cambiando pasaportes falsos por dinero",
@@ -1186,7 +1488,7 @@
       "hora": "07:58"
      }
     ],
-    "n": 22
+    "n": 27
    },
    {
     "titulo": "Detenido en Valladolid por intentar convencer a un niño para que le mandara fotos íntimas a través de un juego",
@@ -1205,7 +1507,7 @@
       "hora": "07:13"
      }
     ],
-    "n": 23
+    "n": 28
    },
    {
     "titulo": "Cuando la palabra es un muro, la Policía escucha con dibujos",
@@ -1224,7 +1526,7 @@
       "hora": "03:58"
      }
     ],
-    "n": 24
+    "n": 29
    },
    {
     "titulo": "La Policía monitoriza a grupos radicales tras tres semanas de protestas en la Puerta del Sol por la vivienda",
@@ -1243,7 +1545,7 @@
       "hora": "03:45"
      }
     ],
-    "n": 25
+    "n": 30
    },
    {
     "titulo": "Los vecinos salen a atrapar ladrones pero la inseguridad no da tregua",
@@ -1262,7 +1564,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 26
+    "n": 31
    },
    {
     "titulo": "Tenía 17 años en 2013, cuando asesinó a su mamá y a sus dos hermanos más pequeños",
@@ -1281,7 +1583,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 27
+    "n": 32
    },
    {
     "titulo": "Triple crimen en Solidaridad: Preso desde 2013, saldrá libre en un año por la nueva Ley penal juvenil",
@@ -1300,37 +1602,61 @@
       "hora": "01:47"
      }
     ],
-    "n": 28
+    "n": 33
    }
   ]
  },
  "palabras": [
   {
-   "t": "milei",
-   "n": 13
+   "t": "gobierno",
+   "n": 14
   },
   {
-   "t": "gobierno",
-   "n": 7
+   "t": "milei",
+   "n": 13
   },
   {
    "t": "javier",
    "n": 7
   },
   {
+   "t": "avanza",
+   "n": 5
+  },
+  {
    "t": "juan",
    "n": 4
+  },
+  {
+   "t": "libertad",
+   "n": 4
+  },
+  {
+   "t": "martin",
+   "n": 4
+  },
+  {
+   "t": "menem",
+   "n": 4
+  },
+  {
+   "t": "alianzas",
+   "n": 3
+  },
+  {
+   "t": "china",
+   "n": 3
+  },
+  {
+   "t": "elecciones",
+   "n": 3
   },
   {
    "t": "empresas",
    "n": 3
   },
   {
-   "t": "martin",
-   "n": 3
-  },
-  {
-   "t": "menem",
+   "t": "estado",
    "n": 3
   },
   {
@@ -1399,6 +1725,20 @@
    "seguridad": 5
   },
   {
+   "nombre": "Cadena 3 Argentina",
+   "ambito": "Nacional",
+   "notas": 27,
+   "politicas": 3,
+   "seguridad": 5
+  },
+  {
+   "nombre": "TN",
+   "ambito": "Nacional",
+   "notas": 9,
+   "politicas": 7,
+   "seguridad": 1
+  },
+  {
    "nombre": "El Intra",
    "ambito": "Salta",
    "notas": 9,
@@ -1406,38 +1746,59 @@
    "seguridad": 0
   },
   {
+   "nombre": "Ambito",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 2,
+   "seguridad": 0
+  },
+  {
    "nombre": "Perfil",
    "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 3,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Página|12",
+   "ambito": "Nacional",
    "notas": 2,
-   "politicas": 2,
+   "politicas": 1,
    "seguridad": 0
   },
   {
    "nombre": "Clarin",
    "ambito": "Nacional",
-   "notas": 1,
+   "notas": 2,
    "politicas": 0,
    "seguridad": 1
+  },
+  {
+   "nombre": "El Cronista",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Caras",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "La Nación",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 0
   },
   {
    "nombre": "Que Pasa Salta",
    "ambito": "Salta",
    "notas": 1,
    "politicas": 0,
-   "seguridad": 0
-  },
-  {
-   "nombre": "Página|12",
-   "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 1,
-   "seguridad": 0
-  },
-  {
-   "nombre": "TN",
-   "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 1,
    "seguridad": 0
   }
  ],
