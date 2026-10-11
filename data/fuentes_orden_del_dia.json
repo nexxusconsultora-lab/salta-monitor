@@ -38,10 +38,10 @@
       "icono": "🏛️",
       "paginas": [
         {
-          "url": "https://www.hcdn.gob.ar/",
-          "link_pattern": "",
+          "url": "https://www.hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html",
+          "link_pattern": "/secparl/dclp/procesar\\.html\\?id_sesion=\\d+",
           "verificada": true,
-          "nota": "Verificada 11/10/2026: la portada trae enlaces que pasan el filtro."
+          "nota": "Plan de Labor / Temario (Secretaría Parlamentaria). Verificada 11/10/2026: HTML estático, lista cada sesión con enlace a su temario; la más nueva arriba (ej. sesión del 21/10/2026)."
         }
       ],
       "enabled": true
@@ -53,10 +53,10 @@
       "icono": "🏛️",
       "paginas": [
         {
-          "url": "https://www.senado.gob.ar/",
-          "link_pattern": "",
+          "url": "https://www.senado.gob.ar/parlamentario/parlamentaria/actas",
+          "link_pattern": "/parlamentario/parlamentaria/[^?#]+\\.pdf/download$",
           "verificada": true,
-          "nota": "Verificada 11/10/2026: la portada trae enlaces que pasan el filtro."
+          "nota": "Plenario de Labor Parlamentaria (actas y planes de labor en PDF). Verificada 11/10/2026: HTML estático, más nuevas arriba (última: 23/09/2026)."
         }
       ],
       "enabled": true
