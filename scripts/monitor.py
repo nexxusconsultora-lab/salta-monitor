@@ -53,26 +53,42 @@ NATIONAL_SITES = [
     "ambito.com", "tn.com.ar", "perfil.com", "cronista.com",  # cronista.com confirmado 10/10/2026
     "c5n.com",        # verificado 11/10/2026: sitio activo con notas de política
     "cadena3.com",    # verificado 11/10/2026: sitio activo con sección Política y Economía
+    "iprofesional.com",    # verificado 11/10/2026: sitio activo con notas de política de 2026
+    "a24.com",             # confirmado por el responsable el 11/10/2026
+    "eldestapeweb.com",    # confirmado por el responsable el 11/10/2026
+    "lapoliticaonline.com",  # confirmado por el responsable el 11/10/2026
+    "parlamentario.com",   # confirmado por el responsable el 11/10/2026
+    # Confirmados por el responsable el 11/10/2026 (abrió cada sitio y andan):
+    "minutouno.com", "letrap.com.ar", "eldiarioar.com", "noticiasargentinas.com", "radiomitre.com.ar",
+    "tiempoar.com.ar", "canal26.com", "baenegocios.com", "eleconomista.com.ar", "elcohetealaluna.com",
+    "diarioregistrado.com", "radio10.com.ar",
+    # Diarios REGIONALES (Córdoba y Tucumán): el responsable pidió sumarlos; pueden traer política de su provincia.
+    # Si molestan en el Diario, borrá estas dos líneas.
+    "lavoz.com.ar", "lagaceta.com.ar",
 ]
 
 # Candidatos NACIONALES que todavía NO se buscan. Para activar uno: abrí el sitio en el navegador,
 # comprobá que existe y publica política, y pasá la línea a NATIONAL_SITES. No se agrega nada sin confirmar.
-NATIONAL_SITES_POR_CONFIRMAR = [
-    "a24.com", "eldestapeweb.com", "lapoliticaonline.com", "parlamentario.com", "iprofesional.com",
-    "minutouno.com", "letrap.com.ar", "eldiarioar.com", "noticiasargentinas.com", "radiomitre.com.ar",
-    "tiempoar.com.ar", "lavoz.com.ar", "lagaceta.com.ar",
-]
+NATIONAL_SITES_POR_CONFIRMAR = []   # (vacía a propósito: ya se confirmaron todos los candidatos de la lista)
 
 # Google News devuelve como mucho ~100 notas por búsqueda y un medio muy activo (Infobae) se las queda.
 # Por eso los medios nacionales se buscan en grupos chicos: así cada medio tiene su lugar.
-LOTE_MEDIOS = 4
+LOTE_MEDIOS = 8
 
 
 def _lotes(sitios, n=LOTE_MEDIOS):
-    return [sitios[i:i + n] for i in range(0, len(sitios), n)]
+    """Reparte los medios en grupos parejos de hasta n (ej.: 29 medios -> 8, 7, 7, 7)."""
+    k = max(1, -(-len(sitios) // n))
+    base, extra = divmod(len(sitios), k)
+    out, i = [], 0
+    for g in range(k):
+        t = base + (1 if g < extra else 0)
+        out.append(sitios[i:i + t])
+        i += t
+    return out
 
 MAX_GENERAL_ITEMS_STORED = 2000   # antes 1200: con más medios, 1200 no alcanzaba para ~3 días de notas
-MAX_GENERAL_ITEMS_PER_FEED = 60
+MAX_GENERAL_ITEMS_PER_FEED = 100   # Google News no da más de ~100 por búsqueda
 
 # Palabras para la búsqueda de SEGURIDAD (delito, policía, justicia penal). Se usan en Google News junto
 # con los mismos medios nacionales y salteños de arriba; las notas que llegan por esta vía quedan marcadas
@@ -95,6 +111,7 @@ SOURCE_SITES = [
     "nuevodiariosalta.com.ar",
     "nuevodiariodesalta.com.ar",  # confirmado 9/10/2026: Nuevo Diario de Salta, publica a diario
     "radiosalta.com.ar",
+    "defrentesalta.com.ar",   # confirmado por el responsable el 11/10/2026
 ]
 
 # Departamentos y localidades de la provincia, para una segunda búsqueda
