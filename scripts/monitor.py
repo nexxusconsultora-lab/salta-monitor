@@ -51,9 +51,27 @@ MEDIA_STATUS_FILE = os.path.join(DATA_DIR, "medios_status.json")
 NATIONAL_SITES = [
     "infobae.com", "clarin.com", "lanacion.com.ar", "pagina12.com.ar",
     "ambito.com", "tn.com.ar", "perfil.com", "cronista.com",  # cronista.com confirmado 10/10/2026
+    "c5n.com",        # verificado 11/10/2026: sitio activo con notas de política
+    "cadena3.com",    # verificado 11/10/2026: sitio activo con sección Política y Economía
 ]
 
-MAX_GENERAL_ITEMS_STORED = 1200
+# Candidatos NACIONALES que todavía NO se buscan. Para activar uno: abrí el sitio en el navegador,
+# comprobá que existe y publica política, y pasá la línea a NATIONAL_SITES. No se agrega nada sin confirmar.
+NATIONAL_SITES_POR_CONFIRMAR = [
+    "a24.com", "eldestapeweb.com", "lapoliticaonline.com", "parlamentario.com", "iprofesional.com",
+    "minutouno.com", "letrap.com.ar", "eldiarioar.com", "noticiasargentinas.com", "radiomitre.com.ar",
+    "tiempoar.com.ar", "lavoz.com.ar", "lagaceta.com.ar",
+]
+
+# Google News devuelve como mucho ~100 notas por búsqueda y un medio muy activo (Infobae) se las queda.
+# Por eso los medios nacionales se buscan en grupos chicos: así cada medio tiene su lugar.
+LOTE_MEDIOS = 4
+
+
+def _lotes(sitios, n=LOTE_MEDIOS):
+    return [sitios[i:i + n] for i in range(0, len(sitios), n)]
+
+MAX_GENERAL_ITEMS_STORED = 2000   # antes 1200: con más medios, 1200 no alcanzaba para ~3 días de notas
 MAX_GENERAL_ITEMS_PER_FEED = 60
 
 # Palabras para la búsqueda de SEGURIDAD (delito, policía, justicia penal). Se usan en Google News junto
@@ -473,9 +491,15 @@ def update_candidates_file(found):
     return len(found)
 
 
-def build_national_query_url():
-    sites = " OR ".join(f"site:{s}" for s in NATIONAL_SITES)
+def build_national_query_url(sitios=None):
+    sites = " OR ".join(f"site:{s}" for s in (sitios or NATIONAL_SITES))
     return google_news_url(f"política Argentina ({sites})")
+
+
+def build_national_salta_url(sitios=None):
+    """Lo que los medios NACIONALES dicen de Salta (para poder filtrar por Salta dentro de lo nacional)."""
+    sites = " OR ".join(f"site:{s}" for s in (sitios or NATIONAL_SITES))
+    return google_news_url(f"política Salta ({sites})")
 
 
 def build_provincial_query_url():
@@ -484,8 +508,8 @@ def build_provincial_query_url():
     return google_news_url(f"Salta ({sites} OR {places})")
 
 
-def build_security_national_url():
-    sites = " OR ".join(f"site:{s}" for s in NATIONAL_SITES)
+def build_security_national_url(sitios=None):
+    sites = " OR ".join(f"site:{s}" for s in (sitios or NATIONAL_SITES))
     terms = " OR ".join(SECURITY_TERMS)
     return google_news_url(f"Argentina ({terms}) ({sites})")
 
@@ -506,12 +530,14 @@ def collect_general_news():
     new_count = 0
 
     # (categoría, dirección, tema). Las de tema "seguridad" traen delito/policía/justicia penal.
-    queries = [
-        ("Nacional", build_national_query_url(), None),
-        ("Provincial", build_provincial_query_url(), None),
-        ("Nacional", build_security_national_url(), "seguridad"),
-        ("Provincial", build_security_provincial_url(), "seguridad"),
-    ]
+    queries = []
+    for lote in _lotes(NATIONAL_SITES):
+        queries.append(("Nacional", build_national_query_url(lote), None))
+        queries.append(("Nacional", build_national_salta_url(lote), None))
+    queries.append(("Provincial", build_provincial_query_url(), None))
+    for lote in _lotes(NATIONAL_SITES):
+        queries.append(("Nacional", build_security_national_url(lote), "seguridad"))
+    queries.append(("Provincial", build_security_provincial_url(), "seguridad"))
     por_id = {n["id"]: n for n in existing}
     for category, url, tema in queries:
         feed = fetch_feed(url)
