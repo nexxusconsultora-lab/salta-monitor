@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-11T14:56:03.549887+00:00",
+  "generated_at": "2026-10-11T15:31:17.184462+00:00",
   "by_politician": {
+    "dnac-julio-moreno-ovalle": {
+      "total": 2,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 0
+    },
     "eje-federico-mangione": {
-      "total": 11,
+      "total": 12,
       "positivo": 0,
       "negativo": 1,
-      "neutral": 10,
+      "neutral": 11,
       "score_sum": -2
-    },
-    "eje-mario-mimessi": {
-      "total": 25,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 22,
-      "score_sum": 0
     },
     "eje-oriana-nevora": {
       "total": 8,
@@ -28,6 +28,13 @@
       "negativo": 5,
       "neutral": 12,
       "score_sum": -8
+    },
+    "eje-mario-mimessi": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 22,
+      "score_sum": -4
     },
     "dip-jose-miguel-gauffin": {
       "total": 22,
@@ -575,13 +582,6 @@
       "neutral": 34,
       "score_sum": -15
     },
-    "dnac-julio-moreno-ovalle": {
-      "total": 1,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 1,
-      "score_sum": 0
-    },
     "concejal-jose-luis-arias": {
       "total": 9,
       "positivo": 1,
@@ -913,15 +913,19 @@
     }
   },
   "by_day": {
-    "2023-02-02": {
-      "eje-federico-mangione": {
+    "2024-01-11": {
+      "dnac-julio-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
         "total": 1,
         "score_sum": 0
       }
     },
-    "2025-06-18": {
-      "eje-mario-mimessi": {
-        "total": 1,
+    "2023-02-02": {
+      "eje-federico-mangione": {
+        "total": 2,
         "score_sum": 0
       }
     },
@@ -8645,12 +8649,6 @@
         "score_sum": 0
       }
     },
-    "2024-01-11": {
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-06-03": {
       "concejal-dario-madile": {
         "total": 1,
@@ -15068,10 +15066,6 @@
       "count": 6
     },
     {
-      "term": "mimessi",
-      "count": 5
-    },
-    {
       "term": "fondos",
       "count": 5
     },
@@ -15080,32 +15074,36 @@
       "count": 5
     },
     {
+      "term": "voces",
+      "count": 4
+    },
+    {
+      "term": "criticas",
+      "count": 4
+    },
+    {
+      "term": "federico",
+      "count": 4
+    },
+    {
+      "term": "mangione",
+      "count": 4
+    },
+    {
+      "term": "salud",
+      "count": 4
+    },
+    {
+      "term": "mimessi",
+      "count": 4
+    },
+    {
       "term": "operativos",
       "count": 4
     },
     {
       "term": "pavimentación",
       "count": 4
-    },
-    {
-      "term": "cornejo",
-      "count": 4
-    },
-    {
-      "term": "anunció",
-      "count": 4
-    },
-    {
-      "term": "federico",
-      "count": 3
-    },
-    {
-      "term": "mangione",
-      "count": 3
-    },
-    {
-      "term": "salud",
-      "count": 3
     }
   ],
   "comentions": [
