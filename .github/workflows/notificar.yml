@@ -8,12 +8,19 @@ on:
     # 11:40 UTC = 08:40 en Argentina (UTC-3). Para cambiar la hora, sumale 3 a la hora que quieras.
     # GitHub puede demorar unos minutos las corridas programadas: es normal.
     - cron: "40 11 * * *"
+    # 22:00 UTC = 19:00 en Argentina: segunda edición «Novedades de hoy» con lo que pasó durante el día.
+    - cron: "0 22 * * *"
   workflow_dispatch:
     inputs:
       forzar:
         description: "Enviar aunque ese día ya se haya avisado"
         type: boolean
         default: false
+      edicion:
+        description: "Qué mandar: mañana = resumen de ayer; tarde = novedades de hoy"
+        type: choice
+        options: ["manana", "tarde"]
+        default: "manana"
 
 permissions:
   contents: write
@@ -46,12 +53,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORZAR: ${{ inputs.forzar }}
+          EDICION: ${{ inputs.edicion }}
+          HORARIO: ${{ github.event.schedule }}
         run: |
-          if [ "$FORZAR" = "true" ]; then
-            python scripts/notificar.py --forzar
-          else
-            python scripts/notificar.py
-          fi
+          ARGS=""
+          if [ "$FORZAR" = "true" ]; then ARGS="--forzar"; fi
+          if [ "$EDICION" = "tarde" ] || [ "$HORARIO" = "0 22 * * *" ]; then ARGS="$ARGS --edicion tarde"; fi
+          python scripts/notificar.py $ARGS
 
       - name: Guardar el registro de avisos
         if: always()
