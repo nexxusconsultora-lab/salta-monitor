@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T18:26:04.820359+00:00",
+  "generated_at": "2026-10-11T18:32:11.532374+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 236,
+      "positivo": 46,
+      "negativo": 27,
+      "neutral": 163,
+      "score_sum": 89
+    },
     "eje-juan-vilchez": {
       "total": 5,
       "positivo": 1,
@@ -21,13 +28,6 @@
       "negativo": 1,
       "neutral": 12,
       "score_sum": 11
-    },
-    "gustavo-saenz": {
-      "total": 235,
-      "positivo": 45,
-      "negativo": 27,
-      "neutral": 163,
-      "score_sum": 81
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 57,
@@ -913,6 +913,24 @@
     }
   },
   "by_day": {
+    "2026-10-11": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 16
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 8
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-07-02": {
       "eje-juan-vilchez": {
         "total": 3,
@@ -951,24 +969,6 @@
       "concejal-gustavo-farquharson": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2026-10-11": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 8
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 8
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-06-05": {
@@ -15132,7 +15132,7 @@
       "count": 4
     },
     {
-      "term": "gobernadores",
+      "term": "sáenz",
       "count": 3
     }
   ],
