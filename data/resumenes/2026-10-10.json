@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T19:44:25+00:00",
+ "generado": "2026-10-11T20:02:30+00:00",
  "totales": {
-  "recolectadas": 434,
+  "recolectadas": 436,
   "politicas": 96,
-  "seguridad": 59,
-  "descartadas": 284,
+  "seguridad": 60,
+  "descartadas": 285,
   "historias": 82,
-  "historias_seguridad": 54,
+  "historias_seguridad": 55,
   "medios": 28
  },
  "cobertura_baja": false,
@@ -1402,15 +1402,15 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 59,
-   "historias": 54,
+   "notas": 60,
+   "historias": 55,
    "salta": 4,
-   "nacional": 50
+   "nacional": 51
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 18
+    "historias": 19
    },
    {
     "tema": "Homicidios y violencia",
@@ -2415,9 +2415,9 @@
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 55,
+   "notas": 56,
    "politicas": 15,
-   "seguridad": 30
+   "seguridad": 31
   },
   {
    "nombre": "Cadena 3 Argentina",
@@ -2436,7 +2436,7 @@
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 33,
+   "notas": 34,
    "politicas": 2,
    "seguridad": 5
   },
