@@ -24,6 +24,7 @@ Uso (desde la raíz del repo)
     python scripts/notificar.py --simular     # muestra el texto en pantalla sin enviar nada
 """
 import argparse
+import html as _html
 import json
 import os
 import re
@@ -44,6 +45,11 @@ DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "doming
 MAX_POLITICA = 8
 MAX_SEG_SALTA = 6
 MAX_SEG_PAIS = 4
+# Telegram admite mensajes más largos y con formato: se manda más y mejor ordenado
+TG_POLITICA = 18
+TG_SEG_SALTA = 10
+TG_SEG_PAIS = 6
+TG_POR_TEMA = 4
 MAX_MEDIOS = 6
 MAX_TITULO = 180
 MAX_BYTES_PARTE = 3500          # ntfy corta en 4096 bytes y Telegram en 4096 caracteres
@@ -143,11 +149,98 @@ def armar_texto(dia, fecha):
     return f"Resumen de ayer · {cab}", "\n".join(out)
 
 
-def partir(texto):
-    """Parte el texto en trozos de hasta MAX_BYTES_PARTE bytes, cortando entre líneas."""
+def _e(x):
+    return _html.escape(str(x or ""), quote=False)
+
+
+def _link(h):
+    for l in (h.get("links") or []):
+        u = str(l.get("link") or "")
+        if u.startswith(("http://", "https://")):
+            return u
+    return ""
+
+
+def _item_html(h, n=None):
+    t = limpiar(h.get("titulo"), 170)
+    u = _link(h)
+    titulo = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
+    medios = [limpiar(m, 30) for m in (h.get("medios") or []) if m]
+    quien = (f"{len(medios)} medios: " + ", ".join(medios[:4]) + ("…" if len(medios) > 4 else "")) if len(medios) > 1 \
+        else (medios[0] if medios else "")
+    marca = " 🔁" if h.get("sigue_de_ayer") else ""
+    pre = f"{n}. " if n else "• "
+    return [f"{pre}{titulo}{marca}", f"    <i>{_e(quien)}</i>" if quien else ""]
+
+
+def armar_html(dia, fecha, edicion="manana"):
+    """Versión para Telegram: negritas, enlaces a la nota, agrupada por tema. Cada línea es autónoma
+    (sin etiquetas abiertas entre líneas) para poder partirla en mensajes sin romper el formato."""
+    d = datetime.strptime(fecha, "%Y-%m-%d")
+    cab = f"{DIAS[d.weekday()]} {d.strftime('%d/%m/%Y')}"
+    seg = dia.get("seguridad") or {}
+    hs = seg.get("historias") or []
+    salta = ordenar([h for h in hs if h.get("alcance") == "Salta"])
+    pais = ordenar([h for h in hs if h.get("alcance") != "Salta"])
+    pol = ordenar(dia.get("historias") or [])
+    t = dia.get("totales") or {}
+    titulo = ("📰 <b>Resumen de ayer</b> · " if edicion == "manana" else "🗞️ <b>Novedades de hoy</b> · ") + _e(cab)
+    out = [titulo,
+           f"🏛️ Política: <b>{len(pol)}</b> historias · 🚨 Seguridad: <b>{len(hs)}</b> ({len(salta)} en Salta)"
+           + (f" · 📡 {t.get('medios')} medios" if t.get("medios") else "")]
+    if dia.get("cobertura_baja"):
+        out.append("⚠️ <i>Se recolectaron pocas notas: el resumen puede estar incompleto.</i>")
+
+    temas = [x.get("tema") for x in (dia.get("temas") or []) if x.get("tema")]
+    if temas:
+        out += ["", "🏷️ <b>Temas del día</b>: " + " · ".join(
+            f"{_e(x['tema'])} ({x['historias']})" for x in (dia.get("temas") or [])[:6] if x.get("tema"))]
+
+    out += ["", "━━━━━━━━━━━━━━", "🏛️ <b>POLÍTICA</b>"]
+    if not pol:
+        out.append("Sin historias.")
+    usados = 0
+    for tema in temas:
+        grupo = [h for h in pol if h.get("tema") == tema][:TG_POR_TEMA]
+        grupo = [h for h in grupo if usados < TG_POLITICA]
+        if not grupo:
+            continue
+        out += ["", f"▸ <b>{_e(tema)}</b>"]
+        for h in grupo:
+            out += [x for x in _item_html(h) if x]
+            usados += 1
+    resto = [h for h in pol if h.get("tema") not in temas][:max(0, TG_POLITICA - usados)]
+    for h in resto:
+        out += [x for x in _item_html(h) if x]
+
+    out += ["", "━━━━━━━━━━━━━━", "🚨 <b>SEGURIDAD · PROVINCIA DE SALTA</b>"]
+    for i, h in enumerate(salta[:TG_SEG_SALTA], 1):
+        out += [x for x in _item_html(h, i) if x]
+    if not salta:
+        out.append("Sin historias.")
+    out += ["", "🇦🇷 <b>SEGURIDAD · RESTO DEL PAÍS</b>"]
+    for i, h in enumerate(pais[:TG_SEG_PAIS], 1):
+        out += [x for x in _item_html(h, i) if x]
+    if not pais:
+        out.append("Sin historias.")
+
+    out += ["", "━━━━━━━━━━━━━━",
+            f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas conceptuales</a>',
+            "<i>Estimación por titulares, sin IA. 🔁 = sigue de ayer.</i>"]
+    return titulo, "\n".join(out)
+
+
+def sin_etiquetas(texto):
+    return _html.unescape(re.sub(r"<[^>]+>", "", texto))
+
+
+def partir(texto, medir=None, tope=MAX_BYTES_PARTE):
+    """Parte el texto en trozos de hasta `tope` unidades, cortando entre líneas.
+    Por defecto mide bytes; para Telegram se mide el texto visible (las direcciones de los enlaces no cuentan)."""
+    medir = medir or (lambda t: len(t.encode("utf-8")))
     partes, actual = [], ""
     for linea in texto.split("\n"):
-        if len((actual + "\n" + linea).encode("utf-8")) > MAX_BYTES_PARTE and actual:
+        if actual and medir(actual + "\n" + linea) > tope:
             partes.append(actual)
             actual = linea
         else:
@@ -221,10 +314,17 @@ def canales_configurados():
 
         def enviar_telegram(titulo, partes):
             for i, parte in enumerate(partes, 1):
-                t = titulo if len(partes) == 1 else f"{titulo} ({i}/{len(partes)})"
-                cuerpo = {"chat_id": chat, "text": f"{t}\n\n{parte}",
+                cab = "" if len(partes) == 1 else f"<i>({i}/{len(partes)})</i>\n"
+                cuerpo = {"chat_id": chat, "text": cab + parte, "parse_mode": "HTML",
                           "disable_web_page_preview": True}
-                post_json(f"{base_t}/bot{bot}/sendMessage", cuerpo, {}, secretos)
+                try:
+                    post_json(f"{base_t}/bot{bot}/sendMessage", cuerpo, {}, secretos)
+                except ErrorEnvio as e:
+                    if "400" not in str(e):
+                        raise
+                    # el formato HTML fue rechazado: se reenvía como texto plano para no perder el aviso
+                    plano = {"chat_id": chat, "text": sin_etiquetas(cab + parte), "disable_web_page_preview": True}
+                    post_json(f"{base_t}/bot{bot}/sendMessage", plano, {}, secretos)
         canales["telegram"] = enviar_telegram
 
     return canales, secretos
@@ -236,9 +336,13 @@ def main():
     ap.add_argument("--forzar", action="store_true", help="enviar aunque ya se haya avisado ese día")
     ap.add_argument("--fecha", help="AAAA-MM-DD (por defecto: ayer, hora de Argentina)")
     ap.add_argument("--simular", action="store_true", help="mostrar el texto sin enviar nada")
+    ap.add_argument("--edicion", choices=["manana", "tarde"], default="manana",
+                    help="manana = resumen de ayer (por defecto); tarde = novedades de HOY hasta ahora")
     a = ap.parse_args()
 
-    fecha = a.fecha or (datetime.now(AR) - timedelta(days=1)).strftime("%Y-%m-%d")
+    base_dia = datetime.now(AR) - (timedelta(days=0) if a.edicion == "tarde" else timedelta(days=1))
+    fecha = a.fecha or base_dia.strftime("%Y-%m-%d")
+    clave = fecha if a.edicion == "manana" else fecha + "-tarde"      # una vez por edición y por día
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha):
         print("ERROR: la fecha tiene que ser AAAA-MM-DD.")
         return 1
@@ -250,8 +354,12 @@ def main():
         return 1
 
     titulo, texto = armar_texto(dia, fecha)
+    if a.edicion == "tarde":
+        titulo = titulo.replace("Resumen de ayer", "Novedades de hoy")
+    titulo_tg, texto_tg = armar_html(dia, fecha, a.edicion)
     if a.simular:
         print(titulo + "\n" + "-" * len(titulo) + "\n" + texto)
+        print("\n===== TELEGRAM (HTML) =====\n" + texto_tg)
         return 0
 
     try:
@@ -266,24 +374,26 @@ def main():
 
     reg = leer_json(REGISTRO, {})
     avisos = reg.get("avisos") if isinstance(reg.get("avisos"), dict) else {}
-    hechos = avisos.get(fecha) if isinstance(avisos.get(fecha), dict) else {}
+    hechos = avisos.get(clave) if isinstance(avisos.get(clave), dict) else {}
     pendientes = [c for c in canales if a.forzar or c not in hechos]
     if not pendientes:
-        print(f"Ya se avisó el resumen de {fecha} por: {', '.join(hechos)}. Nada que hacer (usá --forzar para repetir).")
+        print(f"Ya se avisó el resumen de {clave} por: {', '.join(hechos)}. Nada que hacer (usá --forzar para repetir).")
         return 0
 
     partes = partir(texto)
+    partes_tg = partir(texto_tg, medir=lambda t: len(sin_etiquetas(t)), tope=3800)
     fallos = []
     for c in pendientes:
-        print(f"Enviando el resumen de {fecha} por {c} ({len(partes)} mensaje/s)…")
+        pc = partes_tg if c == "telegram" else partes
+        print(f"Enviando el resumen de {clave} por {c} ({len(pc)} mensaje/s)…")
         try:
-            canales[c](titulo, partes)
+            canales[c](titulo, pc)
         except ErrorEnvio as e:
             fallos.append(f"{c}: {ocultar(e, secretos)}")
             print(f"   FALLÓ: {fallos[-1]}")
             continue
         hechos[c] = ahora()
-        avisos[fecha] = hechos
+        avisos[clave] = hechos
         reg["avisos"] = dict(sorted(avisos.items())[-60:])       # se guardan los últimos 60 días
         guardar_registro(reg)
         print("   enviado.")
