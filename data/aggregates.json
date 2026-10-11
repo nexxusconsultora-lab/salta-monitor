@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T20:28:28.213622+00:00",
+  "generated_at": "2026-10-11T22:20:53.059759+00:00",
   "by_politician": {
+    "eje-federico-mangione": {
+      "total": 13,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 11,
+      "score_sum": 0
+    },
     "concejal-jose-garcia-alcazar": {
       "total": 24,
       "positivo": 0,
@@ -77,13 +84,6 @@
       "negativo": 3,
       "neutral": 16,
       "score_sum": -5
-    },
-    "eje-federico-mangione": {
-      "total": 12,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 11,
-      "score_sum": -2
     },
     "eje-oriana-nevora": {
       "total": 8,
@@ -913,17 +913,11 @@
     }
   },
   "by_day": {
-    "2024-04-13": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-malvina-gareca": {
+    "2026-10-11": {
+      "eje-federico-mangione": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2026-10-11": {
+      },
       "gustavo-saenz": {
         "total": 3,
         "score_sum": 16
@@ -939,6 +933,16 @@
       "eje-manuela-arancibia": {
         "total": 1,
         "score_sum": 0
+      }
+    },
+    "2024-04-13": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 2
       }
     },
     "2026-07-02": {
@@ -15081,11 +15085,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 14
-    },
-    {
-      "term": "orozco",
-      "count": 7
+      "count": 13
     },
     {
       "term": "josé",
@@ -15096,16 +15096,20 @@
       "count": 5
     },
     {
-      "term": "tribuno",
+      "term": "informate",
       "count": 5
+    },
+    {
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "tribuno",
+      "count": 4
     },
     {
       "term": "laura",
-      "count": 5
-    },
-    {
-      "term": "informate",
-      "count": 5
+      "count": 4
     },
     {
       "term": "pablo",
@@ -15132,11 +15136,11 @@
       "count": 4
     },
     {
-      "term": "cornejo",
-      "count": 4
+      "term": "norte",
+      "count": 3
     },
     {
-      "term": "sáenz",
+      "term": "corredor",
       "count": 3
     }
   ],

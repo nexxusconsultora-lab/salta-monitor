@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-11T20:28:29.079160+00:00",
+  "generated_at": "2026-10-11T22:20:54.077793+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 306,
+      "total_mentions": 308,
       "sentiment_breakdown": {
         "positivo": 19,
         "negativo": 29,
-        "neutral": 258
+        "neutral": 260
       },
       "sentiment_by_day": {
+        "2026-10-09": {
+          "total": 40,
+          "score_sum": -4
+        },
         "2026-10-11": {
           "total": 8,
           "score_sum": 0
@@ -23,10 +27,6 @@
         "2026-10-10": {
           "total": 12,
           "score_sum": -2
-        },
-        "2026-10-09": {
-          "total": 38,
-          "score_sum": -4
         },
         "2026-10-05": {
           "total": 5,
@@ -160,7 +160,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 140
+          "count": 142
         },
         {
           "term": "presupuesto",
@@ -290,6 +290,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "La perrita brutalmente maltratada en Salta se recupera de un severo traumatismo de cráneo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT1dVYXd3c1RtckpPTllqcjdrSFU2ek41TUxqWUZOLTVYQlBzOUtick1KV2lUQ092MXlCd1F5THJmVjhSN1oxd2J0QXliQl9KUHJmVElleVF2QzVPZGpQYTBjN3YtRnpZVnJxaVctczNUVk9mNE1jSmFKb19ONFloNFBJb2ZvWjg3ZFdzeVRvYzlSU01GOTZhUExBS0w2UTBhVzBWS2JRa0ZVM3Y2cjZhMEhuQ2VMRTU2LXBIVnpKQzNjRlNzRE9QV21OODd3ZS1XWWNObdIB2gFBVV95cUxNTVRHelktM2FUOXhwZGt6czhIdUwxOFZQby02V1AxWXBkdG9acFBsakV3eVpKUEc1MzNRcUtxTUVfdFpwTE1lVkRuUFZ4ck5uclZjbDBJamZIZkI5NF9mNld1TzJicDQ0TlVMM0NLZW5aLXpFWkJyUlRKNEtocFk0TVl2LW4zMEdqSHVmQjVZUFZYU0pCRW5YR05JdHQxbmkwQ3MxajU4YlV3bnZkV1VVOHpCcWk3ZXFxOU1CdndXU1VBWWNMZVBKc2dENDhUYUZVZy1ta19TNERzdw?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 12:25:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "VIDEO. Terremoto en Panamá: nueve países en alerta por tsunami - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3Q5cDBSSmdYRDJnVjJyVk02V0hlbzYzMndKcko4YkhpN2ZFTEY5ZjFXREdodGFEOGpFemU5WDJKUkpJVDBrcjZTXzBmOEtSZlROSzA2blJJUkRMSFNJeHIxNmZWUnB1YUg3VXVPaXhBUExaY2pjSTFWNEF6a2VISGZ6bmZQRUtvamtMOXpOdEhKNTA4MlBMSnhvWE1wdkpTcjhqWENCQVE0cHdzRGFwdm9sVDFlVXBtZF84dNIBwgFBVV95cUxOTExuaGptcTZEb2NSUUZhZzU1YjZRQndnWHQ1Qnk2ZDNDMHZJNXJNR05qZ0FDS1piaUg4NUd4bW9EaG9CTnhBM0txMkdyeTJBdno4NldUNFpDNXZxY2QzRTc3SE52eTEzS3pKbER2MTEzWG5hVFN1dVJpOGs2QVBBcmRqUUt6TGVDN1hvQm1HLW8telVWbHc5eVdCcmtwdWpYSlBOemNPMjJCY1BRd0ZiYkM0WGFOTWhocFhENktaczBUUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 20:43:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "\"Nunca es tarde para empezar a moverte hacia una mejor versión de vos\". Los consejos para los de más - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUU9iZXkzZDZUdVdsNk5PVlBncHZtT2JOWUJkd2NBZVd1VnVvME5QMkRZSDIyRmJjNVBsQUJzNS13djFFVVg5ZGJhLVYxcmZiSElqLWo5VDJfXzZ5cmRKQm9xR2ZuWFRmcXNBcnotUy1DMUhsWDhCYjFPU0d6dExjb0hKdkt6YW1sQkdyZ0N6eFdrdExIcmZ2QkhFNURKY3dPRDYzZk5XMVcxZ0c4c2dxd2I4OXh6WnhRRnBNNHpCQXM0eGUtaGtRSnJlUXZnc3B5Z1c3RThrS0V1RzlSMFh5Qm5zalJiVWF1VGRiVW9vR0RFeVgxQVFn0gH8AUFVX3lxTE1kaUZLR05WczMyVEs0SW1aR0V3X01zTC1oaExhX1N4eTZELXQ2VElsSHF6djBlWThwRDg5ZklhM3ZWbS1GRklfamFkbjl0WXBWbk94Z3Y1TkVpb2dkN0RHRTZ3WENtS0hmb1dkdU5wQ256b2ZyM2VfNmEzNGVnMnpTclVOa1lPNURFYUUtREM2Z1RGMGN2b0t2dTlBd19PZnF1MHBnb0toVGRJSjU4X1pDN2pMNEk3V2laMG9lbGlOb2tpRWhBRDdibTVIVWNBTjNaSDNNQ1NGYktWSUJVVmVMNjhudTJ1MFZ3dDBwSC1UMkxsbnRtQm9waVpuaA?oc=5",
@@ -484,20 +498,6 @@
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU21LODJIdzBSV3doSHlWeDJHcXFIa0lVeVpRMzNtRVJ4NU5hSlJZOFFmNmxYS0thanB4NWozX2x5WXNnNTZmdWNEMGo5dVhZVlNEWU1WUDBWc2wzQWlSZ2NzcTcxUEVXSHZiaExPMGdEdnlnc0lGV2FNZTJuM3hQSjAtMkk4b212TS1HS0tja0NUa0paQWhJbHd4eVlCZVF4eVRZUjBUeWRubVV2Z3N6Z2FBR2x0aWdlc1pHaDNMOVFfYnFCaU9ieHU2UG4xTlFldmfSAdIBQVVfeXFMUFNtSzgySHcwUld3aEh5VngyR3FxSGtJVXlaUTMzbUVSeDVOYUpSWThRZjZsWEtLYWpweDVqM19seVlzZzU2ZnVjRDBqOXVYWVZTRFlNVlAwVnNsM0FpUmdjc3E3MVBFV0h2YmhMTzBnRHZ5Z3NJRldhTWUybjN4UEowLTJJOG9tdk0tR0tLY2tDVGtKWkFoSWx3eHlZQmVReHlUWVIwVHlkbm1VdmdzemdhQUdsdGlnZXNaR2gzTDlRX2JxQmlPYnh1NlBuMU5RZXZn?oc=5",
           "source": "El Tribuno",
           "date": "Fri, 09 Oct 2026 21:06:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Juventud juega esta noche con la ilusión y obligación de volver la victoria - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdGExVUZ3Tm5wYy15cm01NGtxRU5uWmF6Vkg4RzhRaW9QWXFZLUhpVHNvZTk1clZHQ2Faa0ZQUmVZNTVjVnJJbms3SkxRaTJBeENkWmZYQnFKS2EwOXAxMUFZdnlScl9WVFNVa2RBMzNfU2czSGZHTnZhR2pFX2FsbVpKc2d5WU5URVhKX2dSbk1VUVhiRzR6Wll6WUNtNmpzc1dIVHdxekdySnNxQlZuU2N2Z0prbVU2cjBWdV9BUkhMakUwbkMyNTliQdIBywFBVV95cUxNdGExVUZ3Tm5wYy15cm01NGtxRU5uWmF6Vkg4RzhRaW9QWXFZLUhpVHNvZTk1clZHQ2Faa0ZQUmVZNTVjVnJJbms3SkxRaTJBeENkWmZYQnFKS2EwOXAxMUFZdnlScl9WVFNVa2RBMzNfU2czSGZHTnZhR2pFX2FsbVpKc2d5WU5URVhKX2dSbk1VUVhiRzR6Wll6WUNtNmpzc1dIVHdxekdySnNxQlZuU2N2Z0prbVU2cjBWdV9BUkhMakUwbkMyNTliQQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 21:05:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Messi vuelve a jugar este sábado tras su emotivo adiós a la Selección - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQUFsdDdRNi1SOFFIcW9kZUtkRzdfeXRaTjF4NmRzZV91X01nNHJEemtvd3M1WkpldUVGWTFta1h3S1Z0aGJpVF9RS1BFMFhtZlVlRFhIdmxLY1pUeExuYW5Gb25MU18zT3JReVdrSmtsUHpZVkRxQjdtcXZBQUFIVTM2bk1OSkxLdXBGbnNJS3Y0Vlp0S0lkX1ZheVhqR2tZaFFFY1ZlZU4yR09fbDN6bUNkNHREVFBNd3gwOV9yaFE2UnFt0gHEAUFVX3lxTFBBQWx0N1E2LVI4UUhxb2RlS2RHN195dFpOMXg2ZHNlX3VfTWc0ckR6a293czVaSmV1RUZZMW1rWHdLVnRoYmlUX1FLUEUwWG1mVWVEWEh2bEtjWlR4TG5hbkZvbkxTXzNPclF5V2tKa2xQellWRHFCN21xdkFBQUhVMzZuTU5KTEt1cEZuc0lLdjRWWnRLSWRfVmF5WGpHa1loUUVjVmVlTjJHT19sM3ptQ2Q0dERUUE13eDA5X3JoUTZScW0?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 21:14:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
