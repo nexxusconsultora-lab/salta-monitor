@@ -63,3 +63,12 @@ Opcionales para ntfy
 `NTFY_TOKEN`: solo si ese servidor pide usuario y contraseña (token de acceso).
 Si creés que alguien más conoce tu tema
 Inventá uno nuevo, actualizá el secret `NTFY_TOPIC` (en GitHub: editá el secret) y volvé a suscribirte en la app con el tema nuevo.
+
+---
+Dos ediciones por día y formato de Telegram
+- 08:40: «Resumen de ayer». 19:00: «Novedades de hoy» (lo que pasó durante el día). Cada edición se avisa una sola vez por día y canal.
+- Telegram recibe una versión con formato: temas en negrita, cada titular es un enlace a la nota, y debajo los medios que la dicen.
+  Trae hasta 18 historias de política (agrupadas por tema), 10 de seguridad de Salta y 6 del resto del país. 🔁 = sigue de ayer.
+- ntfy sigue recibiendo la versión corta en texto plano.
+- Para probar la edición de la tarde: Actions → Notificar el resumen diario al celular → Run workflow → edicion: tarde (y tildá «Enviar aunque…»).
+- Si Telegram rechaza el formato, el aviso se reenvía solo en texto plano para no perderse.
