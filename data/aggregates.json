@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-11T00:43:15.626944+00:00",
+  "generated_at": "2026-10-11T06:32:51.200677+00:00",
   "by_politician": {
+    "eje-roberto-dib-ashur": {
+      "total": 28,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 26,
+      "score_sum": 6
+    },
+    "dip-sergio-gerardo-oliva": {
+      "total": 3,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 1,
+      "score_sum": -4
+    },
+    "snac-emilia-orozco": {
+      "total": 52,
+      "positivo": 7,
+      "negativo": 8,
+      "neutral": 37,
+      "score_sum": -3
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 28,
+      "positivo": 0,
+      "negativo": 14,
+      "neutral": 14,
+      "score_sum": -36
+    },
     "concejal-jose-garcia-alcazar": {
       "total": 23,
       "positivo": 0,
@@ -64,13 +92,6 @@
       "neutral": 21,
       "score_sum": -4
     },
-    "eje-roberto-dib-ashur": {
-      "total": 27,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 25,
-      "score_sum": 6
-    },
     "eje-ignacio-jarsun": {
       "total": 12,
       "positivo": 1,
@@ -84,13 +105,6 @@
       "negativo": 0,
       "neutral": 9,
       "score_sum": 1
-    },
-    "snac-emilia-orozco": {
-      "total": 51,
-      "positivo": 7,
-      "negativo": 8,
-      "neutral": 36,
-      "score_sum": -3
     },
     "dip-gustavo-orlando-orozco": {
       "total": 39,
@@ -182,13 +196,6 @@
       "negativo": 5,
       "neutral": 34,
       "score_sum": 0
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 27,
-      "positivo": 0,
-      "negativo": 14,
-      "neutral": 13,
-      "score_sum": -36
     },
     "eje-antonio-marocco": {
       "total": 14,
@@ -343,13 +350,6 @@
       "negativo": 10,
       "neutral": 56,
       "score_sum": -15
-    },
-    "dip-sergio-gerardo-oliva": {
-      "total": 2,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 1,
-      "score_sum": -2
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 9,
@@ -913,6 +913,74 @@
     }
   },
   "by_day": {
+    "2025-07-16": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-26": {
+      "dip-sergio-gerardo-oliva": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-12-22": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-12-03": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "concejal-alicia-vargas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-camila-lobo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-luis-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2026-08-07": {
       "concejal-jose-garcia-alcazar": {
         "total": 1,
@@ -1258,56 +1326,6 @@
     "2024-01-12": {
       "eje-federico-mangione": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-12-03": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-alicia-vargas": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-jose-luis-arias": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -14983,63 +15001,63 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 58
+      "count": 13
+    },
+    {
+      "term": "sáenz",
+      "count": 10
     },
     {
       "term": "tribuno",
-      "count": 45
+      "count": 7
     },
     {
-      "term": "ashur",
-      "count": 26
+      "term": "orozco",
+      "count": 7
     },
     {
-      "term": "mimessi",
-      "count": 25
+      "term": "molinos",
+      "count": 6
     },
     {
-      "term": "mario",
-      "count": 22
+      "term": "fondos",
+      "count": 5
     },
     {
-      "term": "nuevo",
-      "count": 19
+      "term": "ruta",
+      "count": 5
     },
     {
-      "term": "cristina",
-      "count": 17
+      "term": "nación",
+      "count": 4
     },
     {
-      "term": "fiore",
-      "count": 17
+      "term": "pavimentación",
+      "count": 4
     },
     {
-      "term": "tartagal",
-      "count": 16
+      "term": "cornejo",
+      "count": 4
     },
     {
-      "term": "informate",
-      "count": 15
+      "term": "anunció",
+      "count": 4
     },
     {
-      "term": "ignacio",
-      "count": 15
+      "term": "gustavo",
+      "count": 4
     },
     {
-      "term": "ministro",
-      "count": 15
+      "term": "estar",
+      "count": 3
     },
     {
-      "term": "antonio",
-      "count": 15
+      "term": "emilia",
+      "count": 3
     },
     {
-      "term": "marocco",
-      "count": 14
-    },
-    {
-      "term": "javier",
-      "count": 13
+      "term": "milei",
+      "count": 3
     }
   ],
   "comentions": [

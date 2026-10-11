@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026-10-11T00:43:16.532593+00:00",
+  "generated_at": "2026-10-11T06:32:52.227029+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 293,
+      "total_mentions": 297,
       "sentiment_breakdown": {
-        "positivo": 18,
+        "positivo": 19,
         "negativo": 28,
-        "neutral": 247
+        "neutral": 250
       },
       "sentiment_by_day": {
+        "2026-10-09": {
+          "total": 38,
+          "score_sum": -4
+        },
+        "2026-10-11": {
+          "total": 2,
+          "score_sum": 2
+        },
+        "2026-10-08": {
+          "total": 24,
+          "score_sum": -12
+        },
         "2026-10-10": {
           "total": 10,
           "score_sum": -2
-        },
-        "2026-10-09": {
-          "total": 37,
-          "score_sum": -4
         },
         "2026-10-05": {
           "total": 5,
@@ -27,10 +35,6 @@
         "2026-10-03": {
           "total": 21,
           "score_sum": -2
-        },
-        "2026-10-08": {
-          "total": 23,
-          "score_sum": -12
         },
         "2026-10-07": {
           "total": 9,
@@ -156,15 +160,15 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 129
+          "count": 131
         },
         {
           "term": "presupuesto",
-          "count": 91
+          "count": 92
         },
         {
           "term": "intransigente",
-          "count": 52
+          "count": 54
         },
         {
           "term": "discapacidad",
@@ -179,12 +183,12 @@
           "count": 29
         },
         {
-          "term": "milei",
+          "term": "nacional",
           "count": 23
         },
         {
-          "term": "informatesalta",
-          "count": 22
+          "term": "milei",
+          "count": 23
         }
       ],
       "politicians_involved": [
@@ -286,6 +290,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Violento choque entre una moto y una ambulancia en avenida Paraguay - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW5TSHJvZGdFejJtMTY0MWVQejgyOG1udlk3Zl9qM3RDVDZYdlJlMjNQRjZqUHhiMjJ0N285MWhlWlNRYkZrTzlVNHRkVWxHOXVfMU5jRWdGNGpJcks3OHRHUjZDOExwOXJjcUxkcmdsdzZ4VmJXWW1FYlRTeVl6ek11Y1AzTGpjaG95RHZzRTNlbWNyZE9TVmRtTExYVUE1MWNWWFppWTRBQWJPeTU2SThvNi03WmFZOVBvLWpER0RzUdIBwgFBVV95cUxNcW5TSHJvZGdFejJtMTY0MWVQejgyOG1udlk3Zl9qM3RDVDZYdlJlMjNQRjZqUHhiMjJ0N285MWhlWlNRYkZrTzlVNHRkVWxHOXVfMU5jRWdGNGpJcks3OHRHUjZDOExwOXJjcUxkcmdsdzZ4VmJXWW1FYlRTeVl6ek11Y1AzTGpjaG95RHZzRTNlbWNyZE9TVmRtTExYVUE1MWNWWFppWTRBQWJPeTU2SThvNi03WmFZOVBvLWpER0RzUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 12:08:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La interna del Gobierno Nacional repercute en la discusión del Congreso: el análisis de Cristina Pérez - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOFhLckl0VnZFenNnSjdPOXY1eEdLcXJaUjg3MU1DQ2NNbC1FdkVjZ0E2RkpSZW8xRkNXSDF4LXNDZjd4UkJ6TC0xemNWYzdhTDFuLXE3WW9pdVA4OWVuWWdNY0I0VTgxZTVPZUo0aVc3SFRPNmlpUVMyRXhEZzNfM3ZMdw?oc=5",
+          "source": "El Intransigente",
+          "date": "Sun, 11 Oct 2026 04:30:22 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Para blindar el DNU 70, el Gobierno busca rescatar la Ley de Tierras - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcjFLcFZkYWVyOElsRW1RYURpRjFfaC1nSlQteHZFUl9wUE5ybzFWWWNXYXBRc2hLXzBNOTVTZDZEbFBObWF4Qm5mYnl6bk5EaFg1NUlZTjEyeHBXTERTSmxBUjVvMlBsajUxUWNWaVpXaWlxS1ZORWlZVElaWE5YZXZvQ1NJdWJDZDlRX3d1dTdCY0VnVjN4bm9Gc2RUTzZoUzBPaWl0dlFRRkxfY0t3WDdmUG9FZE9fcGhPWNIBwgFBVV95cUxQdzhXMm14V2NCcndsR3FXSFlhT0NZbGFwZkFweTZuM3pjeElxUWJfcHE5TDNLNkJqWWVfeDBZN2swMGxfSmUycHp5NjR6bXlodjVWSTFEbHNfanJBYkFaWTk1RjNnWE9kdjNGNTM5bEdHem4zRGM1cy1mSzNGT0dqcHQ4cXpJeVQxcWxOdHVNVFZwY0VmSnkxVlpiZXd6dEEzNG1ZT1E0QXkzcVBJSFRsTG43a2I1UWx1U0xYU3V1WnpRdw?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 08 Oct 2026 04:46:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Gobierno Nacional busca respaldo de los gobernadores para aprobar el Presupuesto 2027 - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yUlphX2xkNnR5MVlCcUtEZzBiamtNakEzNXl0RllqRkpMNXJRdEJNbE1DeUZRNnI2NFJGVktENGhfaHhncldKdlJ3Zk13UmJ6RURSY1VNMnBoR0hrdHR0ZHQ4TUdLODZPdi1hcFRXbU9NU1lhNHVpbFg3SWpBT1U?oc=5",
+          "source": "El Intransigente",
+          "date": "Sun, 11 Oct 2026 01:51:58 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Octubre, mes del terror: ¿Los muertos dejan energías? El misterio de los Tesla que detectan figuras en cemente - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSDBtQXZDUEtRdktsa0l0a1VpTVhKWXZseVNvUmc4ZW5valRvcVluT0NMOFRMNERHazhIaGtYUjEybDhBTU5CM29wR3NHXzdST29ZMUF1WTNBbEtoUU8wMVJUUTVscHA1SDJwaW5HaDJiYzhfeTlTeFVic3NFQlJZQjBmckQ1ZlIta0JRN1h6WVVsX0pLR3VCbWpvQUJsWmJBUDBydjRHQ2pvVENMbktJX1FxVzJnT3RGMVViTUlvQ2FoY2VfMVlHVW5UNGJrVUFHRzBVVFhIUk9vRzBkMU1qbE9BUzY0U0NYc0lhUTZOcElOSVgwSFVHODRlUGdvVVXSAYQCQVVfeXFMT2NuWWJsS29ULU5kSENBTFRSUUpFQnZSeUlSdlBKMFEtUWFtUW14VkVvOUsxMExMcFpSbk8xRGlwb0FMWFdIZzVyc1Y0S09JRjN6bkpaWUdwYUJfMWx3Q0EzZlY0a3ZfeF92UFVJUVd1MFhQaUg3Q3hUeWpySko4VVVfR0gyNDJQSmt1WWExSGg2NGVLYUtkNl9jekU3YUU3RzJFdnoyYUttNEptTG92MU5XS1kwc24tNTBwdVBXYzN5d01PdnBJYmc1SXp6aTc2Z2wwMGJVdVV0VmZNWjE1NWxIbkJjcWxycUpEcWtQNk14X2dmWnRqbWE4emY4R1cxREY0UXo?oc=5",
@@ -466,34 +498,6 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmhBaDdGSjg1b2JnaDA3bXRoVldlZHZwaElxSFFnRWhhRTBjQUxKLTkwUzJlVjhVWXo4ajNEc2dySDd5WTBHSnZfMVJDUjhGeVppUXRSSVprMVJlTWRWQTJoZHY4ejZyU29VanFUcE9yeHRWZnBtV0EzMTd2c2dCMFZFV0xVckdsYUxiNTZOdk1BUEVLVDE4a0hSYkdVaDdCRmczMXNNZERtazh2MW5pWThGOE81ZGw2XzNIWmdiQm9XSG1SdkHSAcsBQVVfeXFMTXRhMVVGd05ucGMteXJtNTRrcUVOblphelZIOEc4UWlvUFlxWS1IaVRzb2U5NXJWR0NhWmtGUFJlWTU1Y1ZySW5rN0pMUWkyQXhDZFpmWEJxSkthMDlwMTFBWXZ5UnJfVlRTVWtkQTMzX1NnM0hmR052YUdqRV9hbG1aSnNneVlOVEVYSl9nUm5NVVFYYkc0elpZellDbTZqc3NXSFR3cXpHckpzcUJWblNjdmdKa21VNnIwVnVfQVJITGpFMG5DMjU5YkE?oc=5",
           "source": "El Tribuno",
           "date": "Fri, 09 Oct 2026 21:05:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Maia Reficco confirmó su separación de Franco Colapinto: “Ya no estamos juntos” - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbXFHbVFKR2pXZU5ZYkhLNm5NN3Z3REtpME84dDNHZks5dm1YMFFnN2J6eHhUcWVIWEdteV9JZmpZLUJzX1F0cFBFSVdrSERiU0VTNjNXVnRSaXRmLUhqYnlMQzc0clJxQlFyNXliWlJsQS1EVHV0VGtRV1lFY2MwRHNPQ0o0Z3lzeXhna2o1Z21QZzZuaWdxMzJLbnd0bHJXYzZVbm85cFdLc28zZFZUNjl1ZHV3SHFFZERzRFFBZkNnaGRuUEZRRFhoYV_SAdIBQVVfeXFMUFNtSzgySHcwUld3aEh5VngyR3FxSGtJVXlaUTMzbUVSeDVOYUpSWThRZjZsWEtLYWpweDVqM19seVlzZzU2ZnVjRDBqOXVYWVZTRFlNVlAwVnNsM0FpUmdjc3E3MVBFV0h2YmhMTzBnRHZ5Z3NJRldhTWUybjN4UEowLTJJOG9tdk0tR0tLY2tDVGtKWkFoSWx3eHlZQmVReHlUWVIwVHlkbm1VdmdzemdhQUdsdGlnZXNaR2gzTDlRX2JxQmlPYnh1NlBuMU5RZXZn?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 21:06:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Elecciones en Brasil: qué puede cambiar para Argentina si ganan Lula o Bolsonaro - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkE3MWgzbVgtUkZpcE5CcHMtYnJ4T0lXcTVJNzdmRjJFcWxVMjBEUEdMdDJQekdZbFFnTV9xQ09WWEI2Y2h1V25VQm9iSHliYUpscGtlTk1xRUl1NzV2TzlVcXhFb21lN0lCMVdTc3RaQmFIdFJKUm14ckNYdjJMenZYQnlTZFJrWGtFU083YjNUUS0tSXFoOE8tOW9RTUJHUGxuSDBjNVhkRVgzSlh4OUZ6LXQzV2FIclYxWUlodnk4aFBuSFNFMDJUSHdneWJvUVJBNdIB2gFBVV95cUxNVkRzdTNieTl4aHl4cVJBaDc1R1BXc0RRTHc3YnRvZ0lPTEotU0tOY1I3WFBfZlZKY1VnOUxXWmlzY1F3YTRNNVRZdF9FUHFGNGJoallhcV84SEpoUXBMZlQwTFVLQUdFSXl0YlotVkJER2k4OTZZWDM0UkxId2I2cWtaZUpuMFgtc0JUMjJydUd0TFlkc1BTNzNrSWdQMnhKVVBScGxKbjczRXd6dnJfYS1JeVgyQk5BcTdFa2ZVaFZyMW1kRnZrSWtva21zZXIyVkpIZkJJOWRXQQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 03 Oct 2026 12:34:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "VIDEOS. Un potente terremoto sacudió Panamá y generó alerta por posibles olas de tsunami - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenRMbmxrb251Vk5vQ29wenFPVXJRek5PR2o0Sk1pZWczM2JsNVFHYXRhR21OLXBJQVNsZjRHY0kwNEhWOGpfOWZwUTYyQTFiNG9QeDUzb2NSclU1M0hPTDJscFRNMnFNVHRpbThORUdraGxiTmtWTjN5Z3NmdE5PWk1XcnV3WnZhXy1qZHZLMWFNdlAzaWN6UkVHWUFEYnV4OC1ZQk00SW1rVGp6ZjNDMHM3bHFDeWhEMUlkM1VvTzhZQUh5djE4NWtyVGJjSW91TFBzdlo0aw?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 18:39:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Banco Macro inauguró el ciclo \"Raíces Argentinas\" con Salta como provincia protagonista - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWThleFBobW9mYmpkclVTVXpMZ0p6SDlzTjI3ZDlfdkI0NnlEUEs5ZUlzcXFMbWhsQ2hXT3pKbHZPajFJUkRkaVIxV2dBQWRxcTN1LWlEZU9YY2tMUWQxc0ttWmMxZWJvYjd2dmlEY0RsRVR3YTVwNWlwOXNGT3BUcWh0RHVDUUJlZ2NCRjdKUlN1ZW95aENsOUVnZXctVUFXSzFqT3RES1RNam9PakZSemtuejZfdlRSR1kyTGJhUW45eWU3WTZ0bW5XY1kzZGdm?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 17:15:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

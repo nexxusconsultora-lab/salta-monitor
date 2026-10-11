@@ -1,12 +1,23 @@
 {
  "dias": [
   {
+   "fecha": "2026-10-11",
+   "recolectadas": 28,
+   "politicas": 8,
+   "seguridad": 0,
+   "descartadas": 20,
+   "historias": 8,
+   "historias_seguridad": 0,
+   "medios": 4,
+   "cobertura_baja": true
+  },
+  {
    "fecha": "2026-10-10",
-   "recolectadas": 172,
-   "politicas": 34,
+   "recolectadas": 194,
+   "politicas": 35,
    "seguridad": 9,
-   "descartadas": 129,
-   "historias": 32,
+   "descartadas": 150,
+   "historias": 33,
    "historias_seguridad": 8,
    "medios": 8,
    "cobertura_baja": false
