@@ -1,28 +1,32 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T15:33:54+00:00",
+ "generado": "2026-10-11T16:03:13+00:00",
  "totales": {
-  "recolectadas": 103,
-  "politicas": 16,
-  "seguridad": 4,
-  "descartadas": 84,
-  "historias": 16,
-  "historias_seguridad": 4,
+  "recolectadas": 143,
+  "politicas": 20,
+  "seguridad": 15,
+  "descartadas": 110,
+  "historias": 20,
+  "historias_seguridad": 15,
   "medios": 5
  },
  "cobertura_baja": false,
  "temas": [
   {
+   "tema": "Gobierno y gestión",
+   "historias": 6
+  },
+  {
    "tema": "Elecciones y partidos",
    "historias": 6
   },
   {
-   "tema": "Gobierno y gestión",
-   "historias": 4
+   "tema": "Poder Legislativo",
+   "historias": 5
   },
   {
-   "tema": "Poder Legislativo",
-   "historias": 4
+   "tema": "Justicia y seguridad",
+   "historias": 1
   },
   {
    "tema": "Economía y finanzas",
@@ -34,6 +38,82 @@
   }
  ],
  "historias": [
+  {
+   "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
+   "alcance": "Nacional",
+   "tema": "Justicia y seguridad",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "12:34",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
+     "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQdDNvMVQ3ZlpnQUZ1NjdkTUpuSHNjUDRvaER0eFpVQy1vU2ZqQVJnSjVJRUFLaEdJMkt4SWJ2UE5oaks0dWZNS2toWUNUVzNqU0NpN1pwbk00bVdBUG5abmRuTllKUGljWVZqTGtmTG52NkU2XzRaVWFZX044c0xnMFN4dEYwU3RlV3QtZXpfUDBwTXpLczF2SGtQbW83ejh0eC1kWFlsYWhiSFk4VkszWktqa1Vkai1tNExCZ0lxV3ZXdTNxSjhRMy12N3o3OXdIR0VNbnQtWHZGTVlSZzZoank1Y1FhNHBidncxbGRWUEpJdHlDdkplQ3ZlQVFBd1dFTXNZU0V2WWs1R2dJdGZ6QXQ2U3FEZHZaajczOHlISjdVTHh2TGJPMlM3WGNRaFVhaGfSAcwCQVVfeXFMTWs1OGpRRnM1d0RLMjJHbFRjX3REU1dId1VqV1ZVUms4ci10UDRyX2c3TmNLZjhkM2h0amZ5dzJ3cDNHN1ZhdFZWd3pIVk1abHdacG1fTEFwY25Cdk40VlRCbVVVNTQ2VEJ1NGdqZXJXZGk3WXlYcHlqeHBiMWQweUpERGpMUWtaNmY0VzBObFBKbE9NTjAzSnpNbjV0ZGZUME9ZOVJIX0l3eWpOYmdoY2dZZUVkVDdsVGFkMkR6eVJnYWlzR3N4d2RLRUYtbE1scE5XTjV1dWNIUGwzdUJRTzZzdHIxMXpjenRQT0NHYXM1THRDVzlVRFNua1dRaklseWdzRDRRUEVUU2hSVlZhU1JtcXhKSTVNSGtYaWp4NG12X2hNaG4tSVc5TUZLT0ZlVE9ocTVVSGhGQUhOeW1scU9saXo0ZzVic3JzbHY?oc=5",
+     "hora": "12:34"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "titulo": "María Eugenia Vidal se comparó con otros gobernadores y exgobernadores: “Fui mejor que él”",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "12:24",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "María Eugenia Vidal se comparó con otros gobernadores y exgobernadores: “Fui mejor que él”",
+     "link": "https://elintransigente.com/2026/10/11/vidal-comparo-gobernadores-exgobernadores/",
+     "hora": "12:24"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "“Nos hicieron creer que la juventud se podía volver de derecha”: Myriam Bregman apuntó contra Javier Milei en Córdoba",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "12:09",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "“Nos hicieron creer que la juventud se podía volver de derecha”: Myriam Bregman apuntó contra Javier Milei en Córdoba",
+     "link": "https://elintransigente.com/2026/10/11/nos-hicieron-creer-que-la-juventud-se-podia-volver-de-derecha-myriam-bregman-apunto-contra-javier-milei-en-cordoba/",
+     "hora": "12:09"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "titulo": "Unión por la Patria busca sesionar el 15 de octubre: “Estamos con expectativas”",
+   "alcance": "Salta",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "11:36",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Unión por la Patria busca sesionar el 15 de octubre: “Estamos con expectativas”",
+     "link": "https://elintransigente.com/2026/10/11/martinez-sesion-diputados-octubre/",
+     "hora": "11:36"
+    }
+   ],
+   "n": 4
+  },
   {
    "titulo": "Sergio Berni y Agustina Propato apuntaron contra el Gobierno de Milei: “Lleva a cabo un plan de desnacionalización”",
    "alcance": "Salta",
@@ -51,7 +131,7 @@
      "hora": "10:41"
     }
    ],
-   "n": 1
+   "n": 5
   },
   {
    "titulo": "Férreo respaldo de un gobernador a Javier Milei: “Para atrás no hay que volver nunca más”",
@@ -70,7 +150,7 @@
      "hora": "10:20"
     }
    ],
-   "n": 2
+   "n": 6
   },
   {
    "titulo": "Tras dos semanas de parálisis, Patricia Bullrich busca reactivar la agenda del Senado",
@@ -89,7 +169,7 @@
      "hora": "10:16"
     }
    ],
-   "n": 3
+   "n": 7
   },
   {
    "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
@@ -108,7 +188,7 @@
      "hora": "09:40"
     }
    ],
-   "n": 4
+   "n": 8
   },
   {
    "titulo": "Presupuesto 2027: Salta inició las consultas regionales y anunció nuevas obras para los Valles Calchaquíes",
@@ -127,7 +207,7 @@
      "hora": "07:16"
     }
    ],
-   "n": 5
+   "n": 9
   },
   {
    "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -146,7 +226,7 @@
      "hora": "03:05"
     }
    ],
-   "n": 6
+   "n": 10
   },
   {
    "titulo": "La interna del Gobierno amenazó con reactivarse esta semana, pero intentan apaciguarla",
@@ -165,7 +245,7 @@
      "hora": "02:31"
     }
    ],
-   "n": 7
+   "n": 11
   },
   {
    "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
@@ -184,7 +264,7 @@
      "hora": "02:30"
     }
    ],
-   "n": 8
+   "n": 12
   },
   {
    "titulo": "La interna entre CFK y Kicillof divide cada vez más al PJ y dificulta un acuerdo electoral para el 2027",
@@ -203,7 +283,7 @@
      "hora": "02:06"
     }
    ],
-   "n": 9
+   "n": 13
   },
   {
    "titulo": "Gobierno Nacional nombró a Veterano Malvinas al frente de la Escuela de Inteligencia",
@@ -222,7 +302,7 @@
      "hora": "01:46"
     }
    ],
-   "n": 10
+   "n": 14
   },
   {
    "titulo": "El \"mata mata\" de Milei: las tres batallas incómodas camino a la reelección",
@@ -241,7 +321,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 11
+   "n": 15
   },
   {
    "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación “blue” para bajar impuestos",
@@ -260,7 +340,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 12
+   "n": 16
   },
   {
    "titulo": "La interna del Gobierno Nacional repercute en la discusión del Congreso: el análisis de Cristina Pérez",
@@ -279,7 +359,7 @@
      "hora": "01:30"
     }
    ],
-   "n": 13
+   "n": 17
   },
   {
    "titulo": "Axel Kicillof ya tiene otro postulante para sucederlo en la gobernación bonaerense",
@@ -298,7 +378,7 @@
      "hora": "01:16"
     }
    ],
-   "n": 14
+   "n": 18
   },
   {
    "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
@@ -317,7 +397,7 @@
      "hora": "00:40"
     }
    ],
-   "n": 15
+   "n": 19
   },
   {
    "titulo": "La Corte Suprema repuso los límites de la Ley de Tierras y trae un viejo debate de vuelta al Congreso: los detalles",
@@ -336,17 +416,25 @@
      "hora": "00:15"
     }
    ],
-   "n": 16
+   "n": 20
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 4,
-   "historias": 4,
+   "notas": 15,
+   "historias": 15,
    "salta": 1,
-   "nacional": 3
+   "nacional": 14
   },
   "subtemas": [
+   {
+    "tema": "Policía y fuerzas de seguridad",
+    "historias": 8
+   },
+   {
+    "tema": "Narcotráfico y contrabando",
+    "historias": 2
+   },
    {
     "tema": "Robos y estafas",
     "historias": 2
@@ -356,11 +444,53 @@
     "historias": 1
    },
    {
-    "tema": "Policía y fuerzas de seguridad",
+    "tema": "Homicidios y violencia",
+    "historias": 1
+   },
+   {
+    "tema": "Violencia de género",
     "historias": 1
    }
   ],
   "historias": [
+   {
+    "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
+    "alcance": "Nacional",
+    "tema": "Narcotráfico y contrabando",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "12:34",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQdDNvMVQ3ZlpnQUZ1NjdkTUpuSHNjUDRvaER0eFpVQy1vU2ZqQVJnSjVJRUFLaEdJMkt4SWJ2UE5oaks0dWZNS2toWUNUVzNqU0NpN1pwbk00bVdBUG5abmRuTllKUGljWVZqTGtmTG52NkU2XzRaVWFZX044c0xnMFN4dEYwU3RlV3QtZXpfUDBwTXpLczF2SGtQbW83ejh0eC1kWFlsYWhiSFk4VkszWktqa1Vkai1tNExCZ0lxV3ZXdTNxSjhRMy12N3o3OXdIR0VNbnQtWHZGTVlSZzZoank1Y1FhNHBidncxbGRWUEpJdHlDdkplQ3ZlQVFBd1dFTXNZU0V2WWs1R2dJdGZ6QXQ2U3FEZHZaajczOHlISjdVTHh2TGJPMlM3WGNRaFVhaGfSAcwCQVVfeXFMTWs1OGpRRnM1d0RLMjJHbFRjX3REU1dId1VqV1ZVUms4ci10UDRyX2c3TmNLZjhkM2h0amZ5dzJ3cDNHN1ZhdFZWd3pIVk1abHdacG1fTEFwY25Cdk40VlRCbVVVNTQ2VEJ1NGdqZXJXZGk3WXlYcHlqeHBiMWQweUpERGpMUWtaNmY0VzBObFBKbE9NTjAzSnpNbjV0ZGZUME9ZOVJIX0l3eWpOYmdoY2dZZUVkVDdsVGFkMkR6eVJnYWlzR3N4d2RLRUYtbE1scE5XTjV1dWNIUGwzdUJRTzZzdHIxMXpjenRQT0NHYXM1THRDVzlVRFNua1dRaklseWdzRDRRUEVUU2hSVlZhU1JtcXhKSTVNSGtYaWp4NG12X2hNaG4tSVc5TUZLT0ZlVE9ocTVVSGhGQUhOeW1scU9saXo0ZzVic3JzbHY?oc=5",
+      "hora": "12:34"
+     }
+    ],
+    "n": 1
+   },
+   {
+    "titulo": "Policía Nacional Civil informa sobre un operativo y la incautación de un arma de fuego",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "12:14",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Policía Nacional Civil informa sobre un operativo y la incautación de un arma de fuego",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOakJDVExzT0R6aTdVcm1OaDFzU2xzeEJnNzh0RWtGRmxWU3dDZXlYZ3U1M0Qtc01UM0h5V0lvRFFZeVpIVVd1MUhHajkzRWd3R1NFRnNOakxpekh0eXIyeU5CX25rWHNTT0t6RFZvSGp4MlVLdlcwQzNTamxSNmZBX0RQcUpfNUUyZGtDUHFIOUQxZEZZR1FDUlNBbDRucFdVYVlsQ0ljbU5sdDVsWU9wRXdIV2hzdlgxWjdYUWNaTGY3TkM3MV9DTFdRVXZZbi1xNkE?oc=5",
+      "hora": "12:14"
+     }
+    ],
+    "n": 2
+   },
    {
     "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
     "alcance": "Nacional",
@@ -378,7 +508,7 @@
       "hora": "11:42"
      }
     ],
-    "n": 1
+    "n": 3
    },
    {
     "titulo": "San Lorenzo: demoraron a una mujer que circulaba en una moto vinculada a un robo",
@@ -397,7 +527,26 @@
       "hora": "11:00"
      }
     ],
-    "n": 2
+    "n": 4
+   },
+   {
+    "titulo": "La Policía polaca tiene indicios de planes de atentado contra Tusk, según Interior",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "10:50",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía polaca tiene indicios de planes de atentado contra Tusk, según Interior",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbmV0Tm5pUEJZY042LVNPR3JIR21EME1JSDFiSXk2ZEFBS09QVExacEUtWjJVVG92UUx4Mmk1WTY1WlVNRzM3RHRUMml2d0VXZzFWWEhEWEpVb05DRTd6TWlBMjU4LUg2QjJ0Y09qNUhNQmd1ZmxOWlhVUmJRbTJNNGZaODdOZlk0TDdXdE1BRVVvenR3ckg0MmloTUkwRF95VnBVSGdPYjc3aUgwSVlTcUpqWFNrWGZqa1JYQzJPaHNwVEJ3QXpZVzY5Ym1Gc2_SAeoBQVVfeXFMT2dwUTZPRnZLc25pV0Q1dU1NZkkzVDRibUltZkJhalJrNjZUMW5TazlnZENuN2RXaW1VM0JoRGN4NDFreVdqWEw0WUZydmhTTllsUkNoRmZjZldiMVJvcVl2eGczRzI5alNWclpfT1Z1RXBhRkMtYkhRS0dBWWdIRFphNGktMThuZDJQWFBrQWZTYm1WbnNEVzZEWlRYR04xZVhOYkllaDg0V0NmWWlwQVlyU1o1eXVoZ2tVRGt4YVg5bE9yYkdqXzhhRFhhSFM5Qkt1Y2xCQzdrdkdvQ1g1T1ZWQ0NUdEJUNWNn?oc=5",
+      "hora": "10:50"
+     }
+    ],
+    "n": 5
    },
    {
     "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
@@ -416,7 +565,102 @@
       "hora": "10:14"
      }
     ],
-    "n": 3
+    "n": 6
+   },
+   {
+    "titulo": "Fiscal general que acusó a Netanyahu afirma que la Policía actuó sin su consentimiento",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "09:19",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Fiscal general que acusó a Netanyahu afirma que la Policía actuó sin su consentimiento",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeFZGYldFb0NFeEV4MGpja3dDVzVpQnBuX0UxbDZVUTB0VkExUDgzcjF0NllGSHlZQXpNblgtRGZRcUszNzR3OFR6ZUhuYTBpTjNoNUJKQ2o3TkZhNF9OLVZUc1VqV281ZzU3MnIzUWU5REhCWFUtNlphU2EtMDJoSjVjX05RZXVGejBQeXhkWXJ0VlpRSm14M3JtWFlDVnZDVUVDOUNGQjZqTmlaX2ZvSmFTYTF2VEhtQTBUQWc5MU1NSVdBM01mVkdHMzZrcWpFc1lQeDB30gHwAUFVX3lxTE5lX2RvS1ZyWWtEU3E0TjNpRDZPMWFQVFNoNEJSTTB0d3l1OWEzdU1UaEdDM3V4SmtDRkR2ZTRzdFVvT3hxRndwNE9VdGdaU05vb3FDMEtycUdLOUxsMGdrUVZuN016SnlMS084dXczNUVCdWdVWnJ6QzJpakFhZ1Q4OG01Z3l1QUJWeDdnd1c0X2IxSWRFeWRHMDI5VGtUVFk5NWhxMmM2Mjd0ZVZ3VkI4QmcwaGRrcnRqOHRmT05FQklvaXFmdEszM2hFeTg2RjlkdWY4el96V1dZZ0owSDBBYnhGbTVIUEkzQkpWc191Vg?oc=5",
+      "hora": "09:19"
+     }
+    ],
+    "n": 7
+   },
+   {
+    "titulo": "Balacera en Los Olivos: Sujeto dispara contra un hombre y un menor de edad",
+    "alcance": "Nacional",
+    "tema": "Homicidios y violencia",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "09:07",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Balacera en Los Olivos: Sujeto dispara contra un hombre y un menor de edad",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYWxmcFdxaWdhVm5Pa2lkcUROLVZuY1VWSkR4STEya21pMkFzM21ORUdCSi1HOUx3X3dsOVVPdXAtWDRtSFVwV1RReVhEYktqb0M5S0lWOFIyMG42V2pJT192djlqb2o2UFlRRlhEVnZKQS1nQ0VzQXJ1MHpCdjJnM0lIa3pCT2dsa0RFTUp0V28tWXBvaGlLbVptMEw2a1NJc1JLbXk4ekJ2di16QkFsZVFvNHhoMGs2bXNEMlVnUTN5UQ?oc=5",
+      "hora": "09:07"
+     }
+    ],
+    "n": 8
+   },
+   {
+    "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "06:27",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNWdzWGY4WXY2VnBKSHJVUGMzd0xFZEhwV1JBQ05HVXQ0enhseUd4a0hhQjBibTFyZk1KYkx1UU5zWk5LN3pVc3VTUGRWUWlIdDRIaVZJRjVQeEVFRTh4V3k1NlhXazIzTGEwUjRmckg2ZlNjeXBqU29ES3BKaHFwZDVDd01hajRYNV9Oa0tVd3pFeVFtVTZHNTU5OHRaemkxZlVuWnBjWjBjMmU1dU5FeFpWTGR5c0VZR2tNYktJc1lXX3JjRWZob1Z3WTZpSjEt0gHrAUFVX3lxTFBMV2M1dW5fcjVTZFZ4eHJlSkdYY3U3RHNMd3FxRUVHMUpFUmZya3B6WldCUzhONm45VXVkcEtyUW5lSzZOSVgzcGVwZTFBdUpXd1ZTZG9UYjFqOEdVWk9QQ2hkX1hmWUFBQ1czbXJ3SF9mcGR6RFJlSUlOdUtaSGpyZHhNS0YzdlhzQjQ0aHduZjhnOW1BVTh4d3NiSUlYUGlfdnc0MWFkVzNYdk9KeG5HTVhKalo3UUlJZUt2dElPbklKVnJLNmxDNHgwakhVb2ZSbi1iR0c0NFoyVEs4TXhNNkVadTBSc19VM0U?oc=5",
+      "hora": "06:27"
+     }
+    ],
+    "n": 9
+   },
+   {
+    "titulo": "La UCRIF de la Policía suma 2.291 detenidos desde 2021 por favorecimiento de inmigración irregular y documentación falsa",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "05:46",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La UCRIF de la Policía suma 2.291 detenidos desde 2021 por favorecimiento de inmigración irregular y documentación falsa",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLW02WXZOTE9yNVJpZFlNNU5mSzY1OFBKVkc1c29Yb1VzZ2FyRFdhLU1tYlFtajEyTFBCMHBGdnNWWHFYWFlpVm5xc3JXbTFDZllpZTlTSGlRNS14MTg1QUt1aHhnaUFXcFc0bmxGeEw2ejl5VkpxbVlkbG5kOW44UTBXZFZSbFVnZHcyTkRIT3U0UHZmS2ZqQzRVLXdmaHc5WmVSbW1Gc0lRaUozUlFKVlhXQTF3RUZUZUtmTWlIZHpHMGNwbmNVU2NPbG5UQjdGQVJBLXkyQWFFM0l4VEhSRUVsUEpUeTE1WnF5djhrRjY0eWNrYmFJVnpZMlJIcjNTVlHSAZwCQVVfeXFMTVBXTDlPV21xTXpCbnRZSVJHY0p5ZEw5SHpyQXVfanNnUmo0bkEySmNSTFFZZVBSdHlkRWdvbDhyV0toQU9laWNnXy1meHNVajhISnFsRTJ1NnZqbFk2dXVXSkpaTE1OUVotR2ZDYWFiZThmRHFySXNDcDRBUHVWM2I1V09yNE1mVFY1N2lIRVItZ0VLRjA0RktfUmJqcGpFZFFyZGdPMHUwMmYxZ0RxZ3hGLXQxMllNbzFfNFd5RVJnRm9qdDI1bk1NTWl4cHVscUtFSzBuSjhtRWE1WDNNZ2I2elhhU0d3UHQ0OExXYkIyTWFOMlVFa0lqdnZZajVVcndfOUdFUXN4aXVxdXFLTXZqcC1ZQ3ptQXd3OFA?oc=5",
+      "hora": "05:46"
+     }
+    ],
+    "n": 10
+   },
+   {
+    "titulo": "La Policía se despliega en el Guano para desalojar el último gran asentamiento ilegal de inmigrantes",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "04:27",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía se despliega en el Guano para desalojar el último gran asentamiento ilegal de inmigrantes",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNU3NZZlMtS1d6STVJOTlfdW1lQzFmdEtuS1d3S3N5Q0NtU01Gb2QxVmlmdXZFQ204RnFaSm1Pc0MtaFR6Ri0wTHBnSGZUTUlUdlc3eXFDTkhEWkpkcnUwUUNsRG1hQXBPblhQSXRUNlJrSXY3SzhQc3p0U1huY1ZoMnFsZW15aGdCTU1rMFRnaFdBbktCXzVTdGtISWJJZkpBMmtzbDA2bDhxYWpXd1l5dlR5SGRBZ1MwUE9jNVktVGIwcUlRdkFqcjdrQ3BhUnZHQVVZVU1RNnVaNEt0OGZhT1M0YUptbl9r0gGDAkFVX3lxTE56N2VWRVJRTjdFU3NLVWRLMDVfSktDNkphNDh3NUlXWEc5czJ2MDlsX2VGZ0phLWkxdEswbUtvUzZaTUwxOXZSWGozNGFGZzFrajFhTlc5U1FQZmx3NHlVREhIX3hnTTJPTkRJV1JLQnRqMExmWnFqTFZ6VW1rMnc5MC1fcUpmNXJsQzNLdUVxbHlzVUl6YzdJQ3BKcVhZV3JkSzE1bWlFRWluVFpKOEJna1pMTzYwWDJwaURWNDZLdktBMDJtSU54ZFZFUmg4VS1KZkxMLXJBcjRzRWFzTzNlMHhGWlpoaHlyNXhvWUhLdkNEQUdTNmN0Q0tqMkRyMkN4S0E?oc=5",
+      "hora": "04:27"
+     }
+    ],
+    "n": 11
    },
    {
     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -435,17 +679,75 @@
       "hora": "03:05"
      }
     ],
-    "n": 4
+    "n": 12
+   },
+   {
+    "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "01:36",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR096dUtieThjY3JrQXVOWko0RW0tR0FKNVBNOWt2SjVRcmFWTmY0SnVkbUxjZWp1SmoxUF84YVpUb2NSRENhVEltbTVERDJzdFM5TDdvZnJ0OWZ2b2VpMnhPWUJiVmUydkRGU1JqeGFyRV9Ya3JEM0FXUVZPNzd6Wi15QXlOTGs3bEhuTEI2d0RuZEdWSkJqeFdXYjZqYThOaHpfcG1OemFmaGVTT2FyMVRMY0xKT0JZQktsLXF4d1BYaFgxSVRhWTdpMV9RQkVCN05EM25OWExLbGFtS0MzUVBGVEtSWEtzSXBOdDR0aHpVSlQ3d0lrUFlYY0JyZ9IBmAJBVV95cUxQa0lHRWlrMmdJRVdQN2padEozMGczNzFYcFdnZmU1UnMtWkJzSzBGa2FzRzBEMVNsenFlUVFLb0g0NXBHRHNxUXU4SkdXX3FvVXVPTnNNT1ZjcWR0QTdWTHpJbkRPcVd6SDRzV3lFYkI5X2xWSXZOemp4cmJiY1lmcVAybDlJY2FHa2pjeW82bXlTeWEzaVZhWDZrMjc1S1hjZ3ZIM3N0dEVYN0lWb1VKYmJwTVNPS0hNYm5RbFJpQUFFdUF1NTUtSHo3UFFfdHJtXzBKWWg3NmUwWE5rXzBHd1BFM0JqeWV1YklMSzNCWHllYXR4WnNETl9jQ3ZRNzVrWHN0bVBmajRtZkhRejN2Z1MyamlLakRw?oc=5",
+      "hora": "01:36"
+     }
+    ],
+    "sigue_de_ayer": true,
+    "n": 13
+   },
+   {
+    "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
+    "alcance": "Nacional",
+    "tema": "Narcotráfico y contrabando",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "01:30",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQkNWdEhEMXFHZF9zMVZjeHp4V1pWTGk1dG84V2x2T3Jrd1lfWnppRUdZd0VvTXNGSGNEUjdpOEFiMjdQZUwtd01FZUUyUlp0SjN1YXhfb0llbzJhX0Y3cjVSa2tfbnFmbE5JRmM3eEhaWmhpR2l2ZVNJcVdmMjh5RWpvYmROSkdJRTJBRjAwQnNzcHJDZW1USFE5RWVkRG5yaWEwSkxOYmRFenhKRHFrR1FGblRwdG5oQS1ic21LczJRNnFPRWpJVlU5UXdZV3RlU0NLNmVQck1lUEM3ZC1OeUU0S19uQ3FreVdkNzRXZU85dW02TVpfMTY0d295aGFCQzh0atIBnwJBVV95cUxQSjlvUmdYT08xSlNxWkdQbW9XbnUzQ3diM3MzcDMxbm80aDdHYzZJb0tYWktPTnRxLXk0a1U5aXBNcEN4azY1dE1FeUxRc3MtV25vSkZaWlc5cjNsS2k4SFpiTDdBNjE0aFkyMk14NnlnajlYZXQ2cnhDRVNpY0VBQUEzWV84cEc1Uk03dW0xT0pGMHNhWGNpMmMyZ0w0ajNQak9VLW9ZaUhKSTUxSjFxcTB1bml5dnRhZGcxS2dfUjJGM2VVRGxIVUhIOW5SYUl3b2Zhck10MEotQ2JmSXJaZEpKbHRUVmlSQ1NKSlgya1RMTFVqUXJfckVkdEhZMFBWemVodFZiRHFHSlhUWjRiVWlkT2lPS3RfdDU5ZE1rMA?oc=5",
+      "hora": "01:30"
+     }
+    ],
+    "n": 14
+   },
+   {
+    "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
+    "alcance": "Nacional",
+    "tema": "Violencia de género",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "01:30",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQeklNX2tLMjJEYnJfdnJOalVva3hpd2hrZDhGa2xTUWtFRi16dmlLbEg1SFpQdFYzcHhUcnBGS0pYbXUxSHA5T0d0Z0xLTEpnTV9yWmh1SFJZUEJOalpnaktxZWZnTEQxbEJ5NVp2c2w0bDU3OXZyZ2lrQW9lUEJnaWlpOEJ0OThXQlFYaF9HNzZ5SEFKOWVfTFN0RVdHUmNQU1RxQTN5OGlfQTdxcXd1RDFCWmdkSmxJenpnZF9abFYydDE4c1VhenZFZzAyd0pzRXFvTEg2YmNBcXVNbGZ3SFk3RHByTDFUclRHOHo1MlpXbmtxaWhaUVdmMk9WSUtYLTNqSGdMel9wWGPSAaYCQVVfeXFMTl9fVWZYLTdRS1NHeERldkVYLWtPeXFUd3dPOGY2TzRfakVYN2Uwb1hvNFU0QlFQTjVBcVlCMENpeGg0VzZiMC00cFF1OWMzdjJJSFdxc0xidnBSUGtJRmJXRVhJYzVmUnk2SmpvWEhJRThMbDZEcUliLXlaM1lKeVY0QlBmZTNWTEJEYWdtSUZvYkxMejFvWkFHYzM2MzNnYUpmeUlHQ21RQVdiNUVrZWs2MC1tQmJXRGMtVU92VFg5Q1V4dXNMWVBKLWI1QV9pamVaVE9MSVBxa2JjbEhCWWxEV2Ixa2dCLTBIYmljSDdMMVJKU2hIYTZJcEpNdWVGeWtmQ3ZwLTZJVFVqS09BV2Vib3hWaVZncldZZVNUTXViMDY4akV3?oc=5",
+      "hora": "01:30"
+     }
+    ],
+    "n": 15
    }
   ]
  },
  "palabras": [
   {
-   "t": "gobierno",
-   "n": 5
+   "t": "milei",
+   "n": 6
   },
   {
-   "t": "milei",
+   "t": "gobierno",
    "n": 5
   },
   {
@@ -467,29 +769,29 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 57,
-   "politicas": 8,
+   "notas": 82,
+   "politicas": 11,
    "seguridad": 0
+  },
+  {
+   "nombre": "Infobae",
+   "ambito": "Nacional",
+   "notas": 22,
+   "politicas": 7,
+   "seguridad": 12
   },
   {
    "nombre": "Informate Salta",
    "ambito": "Salta",
-   "notas": 18,
+   "notas": 19,
    "politicas": 0,
    "seguridad": 2
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 17,
+   "notas": 19,
    "politicas": 2,
-   "seguridad": 1
-  },
-  {
-   "nombre": "Infobae",
-   "ambito": "Nacional",
-   "notas": 10,
-   "politicas": 6,
    "seguridad": 1
   },
   {
