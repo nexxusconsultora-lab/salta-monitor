@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:39:03.679603+00:00",
+  "generated_at": "2026-10-11T15:41:42.007006+00:00",
   "by_politician": {
     "concejal-pablo-emanuel-lopez": {
       "total": 30,
@@ -7,6 +7,13 @@
       "negativo": 14,
       "neutral": 16,
       "score_sum": -36
+    },
+    "snac-emilia-orozco": {
+      "total": 54,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 38,
+      "score_sum": -5
     },
     "dnac-julio-moreno-ovalle": {
       "total": 2,
@@ -908,6 +915,24 @@
   "by_day": {
     "2026-08-18": {
       "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-06": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "concejal-gustavo-farquharson": {
         "total": 1,
         "score_sum": 0
       },
@@ -15073,19 +15098,15 @@
       "count": 4
     },
     {
+      "term": "milei",
+      "count": 4
+    },
+    {
       "term": "voces",
       "count": 4
     },
     {
       "term": "criticas",
-      "count": 4
-    },
-    {
-      "term": "laura",
-      "count": 4
-    },
-    {
-      "term": "federico",
       "count": 4
     }
   ],
