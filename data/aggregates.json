@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T19:41:39.753744+00:00",
+  "generated_at": "2026-10-11T19:44:15.981322+00:00",
   "by_politician": {
+    "concejal-jose-garcia-alcazar": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 15,
+      "score_sum": -22
+    },
     "gustavo-saenz": {
       "total": 236,
       "positivo": 46,
@@ -140,13 +147,6 @@
       "negativo": 8,
       "neutral": 37,
       "score_sum": -3
-    },
-    "concejal-jose-garcia-alcazar": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 14,
-      "score_sum": -22
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 23,
@@ -913,6 +913,16 @@
     }
   },
   "by_day": {
+    "2024-04-13": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2026-10-11": {
       "gustavo-saenz": {
         "total": 3,
@@ -8947,12 +8957,6 @@
         "score_sum": 2
       }
     },
-    "2024-04-13": {
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2023-05-10": {
       "concejal-malvina-gareca": {
         "total": 1,
@@ -15084,20 +15088,24 @@
       "count": 7
     },
     {
-      "term": "laura",
+      "term": "josé",
+      "count": 6
+    },
+    {
+      "term": "garcía",
       "count": 5
     },
     {
-      "term": "josé",
+      "term": "tribuno",
+      "count": 5
+    },
+    {
+      "term": "laura",
       "count": 5
     },
     {
       "term": "informate",
       "count": 5
-    },
-    {
-      "term": "garcía",
-      "count": 4
     },
     {
       "term": "pablo",
@@ -15121,10 +15129,6 @@
     },
     {
       "term": "operativos",
-      "count": 4
-    },
-    {
-      "term": "tribuno",
       "count": 4
     },
     {
