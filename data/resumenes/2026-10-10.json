@@ -1,36 +1,36 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-10T22:26:10+00:00",
+ "generado": "2026-10-11T00:43:18+00:00",
  "totales": {
-  "recolectadas": 142,
-  "politicas": 27,
-  "seguridad": 8,
-  "descartadas": 107,
-  "historias": 26,
-  "historias_seguridad": 7,
+  "recolectadas": 172,
+  "politicas": 34,
+  "seguridad": 9,
+  "descartadas": 129,
+  "historias": 32,
+  "historias_seguridad": 8,
   "medios": 8
  },
  "cobertura_baja": false,
  "temas": [
   {
+   "tema": "Elecciones y partidos",
+   "historias": 9
+  },
+  {
    "tema": "Otros temas políticos",
    "historias": 8
   },
   {
-   "tema": "Elecciones y partidos",
+   "tema": "Gobierno y gestión",
    "historias": 7
   },
   {
-   "tema": "Gobierno y gestión",
-   "historias": 5
-  },
-  {
    "tema": "Poder Legislativo",
-   "historias": 3
+   "historias": 4
   },
   {
    "tema": "Economía y finanzas",
-   "historias": 2
+   "historias": 3
   },
   {
    "tema": "Salud y educación",
@@ -40,13 +40,14 @@
  "historias": [
   {
    "titulo": "Más de 32 mil empresas cerraron desde la asunción de Javier Milei y el país se hunde en una crisis sin freno",
-   "alcance": "Salta",
+   "alcance": "Ambos",
    "tema": "Gobierno y gestión",
    "medios": [
     "El Intransigente",
+    "Infobae",
     "Informate Salta"
    ],
-   "n_notas": 2,
+   "n_notas": 3,
    "primera": "11:48",
    "links": [
     {
@@ -56,6 +57,12 @@
      "hora": "11:48"
     },
     {
+     "medio": "Infobae",
+     "titulo": "Casi 32.300 empresas cerraron en Argentina en lo que va del Gobierno de Milei",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRldvV2w1c2VWOVAwUWNNOHo3WU1nM2lFdk9fNW1ia0dOMzJHRkVpb2tOcEFjSTA0cFlrMmVzQzYyY0lyb3VkUjFjTEVSZUhLcW1CNkVTRGdwVmtEdGpKeVluc1NTYmFNb2Y5eU9DaVJteHo1Y21pdV9qOW9kTmh5Z3FMb3FQNUx4UGJoUG9lWDQ2TnludF9pTjRZdjhTaml3ZjBsWGNyWnhBWWVwMEpDeE5HOVYwTFZ6UVVicEJXZEdPUktCY2VhVNIB4wFBVV95cUxOcFBCMFVkQzlFczE3NWRZM2JESU51NThiMFd5aV80Q3RVQkNmSGd6YklkOFF0UkF6RDd0aEJHa20xdzFIam5JSzZLSTE0S3piNFNKRDBpbXRaV0Vqd0QzOVIxUlBwNl95NUhPRTJDYXZKSDVxVDlNMkJOM2ZrVnVOUUFDMU1GeHFCeWo0MVF1aWNTZk5GQ0N1bjlmWmZRVFZ0SVlvNkNTS25xcmJBSDJvTGZTRDBxRnFDRVlBczlxcmZMNFpuZjR3VXNPU2xjZmdkUFFOczVxcEl1YTFfWXNTN013UQ?oc=5",
+     "hora": "13:25"
+    },
+    {
      "medio": "El Intransigente",
      "titulo": "Javier Milei: el registro de empresas empleadoras cayó en 32.290 desde su asunción",
      "link": "https://elintransigente.com/2026/10/10/javier-milei-empresas-empleadoras/",
@@ -63,6 +70,82 @@
     }
    ],
    "n": 1
+  },
+  {
+   "titulo": "Maximiliano Ferraro sobre la Ley de Tierras: «Continuará la incertidumbre»",
+   "alcance": "Salta",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "19:35",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Maximiliano Ferraro sobre la Ley de Tierras: «Continuará la incertidumbre»",
+     "link": "https://elintransigente.com/2026/10/10/dnu-70-23-ley-tierras/",
+     "hora": "19:35"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "Juan Grabois disparó contra Javier Milei:  «Es un riesgo para toda Latinoamérica»",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "19:25",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Juan Grabois disparó contra Javier Milei:  «Es un riesgo para toda Latinoamérica»",
+     "link": "https://elintransigente.com/2026/10/10/juan-grabois-persecucion-religiosa-milei/",
+     "hora": "19:25"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "titulo": "Qué implica el ultimátum de Milei a Londres y cómo afectaría la explotación petrolera en Malvinas",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Informate Salta"
+   ],
+   "n_notas": 1,
+   "primera": "19:05",
+   "links": [
+    {
+     "medio": "Informate Salta",
+     "titulo": "Qué implica el ultimátum de Milei a Londres y cómo afectaría la explotación petrolera en Malvinas",
+     "link": "https://informatesalta.com.ar/gobierno/que-implica-el-ultimatum-de-milei-a-londres-y-como-afectaria-la-explotacion-petrolera-en-malvinas_a6acab8c5a62d6833589e1c07",
+     "hora": "19:05"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "titulo": "El Gobierno dolariza por completo las tasas de cabotaje y viajar saldrá una fortuna",
+   "alcance": "Salta",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "Informate Salta"
+   ],
+   "n_notas": 1,
+   "primera": "18:56",
+   "links": [
+    {
+     "medio": "Informate Salta",
+     "titulo": "El Gobierno dolariza por completo las tasas de cabotaje y viajar saldrá una fortuna",
+     "link": "https://informatesalta.com.ar/gobierno/el-gobierno-dolariza-por-completo-las-tasas-de-cabotaje-y-viajar-saldra-una-fortuna_a6acab72ea62d6833589d649f",
+     "hora": "18:56"
+    }
+   ],
+   "n": 5
   },
   {
    "titulo": "Javier Milei y la estrategia del Gobierno ante la sesión por la Ley de Tierras: la editorial de Adrián Ventura",
@@ -81,7 +164,7 @@
      "hora": "18:41"
     }
    ],
-   "n": 2
+   "n": 6
   },
   {
    "titulo": "El gobierno de Javier Milei se prepara para las nuevas privatizaciones: ¿Cuáles serán?",
@@ -100,7 +183,7 @@
      "hora": "18:00"
     }
    ],
-   "n": 3
+   "n": 7
   },
   {
    "titulo": "Victoria Tolosa Paz denunció a Caputo y Bausili por presunta defraudación y abuso",
@@ -119,7 +202,7 @@
      "hora": "17:35"
     }
    ],
-   "n": 4
+   "n": 8
   },
   {
    "titulo": "El PJ de Salta eligió nuevas autoridades y deja atrás la intervención",
@@ -138,7 +221,7 @@
      "hora": "16:56"
     }
    ],
-   "n": 5
+   "n": 9
   },
   {
    "titulo": "Base Naval Integrada Ushuaia: el Gobierno licitó la construcción del muelle militar",
@@ -157,7 +240,7 @@
      "hora": "16:41"
     }
    ],
-   "n": 6
+   "n": 10
   },
   {
    "titulo": "Amado Boudou criticó con dureza a Milei: «Estamos mal y vamos a estar peor»",
@@ -176,7 +259,7 @@
      "hora": "16:03"
     }
    ],
-   "n": 7
+   "n": 11
   },
   {
    "titulo": "“El Gobierno no tiene un conflicto conas universidades, lo tiene con la democracia en Argentina”",
@@ -195,7 +278,7 @@
      "hora": "14:52"
     }
    ],
-   "n": 8
+   "n": 12
   },
   {
    "titulo": "El Gobierno reiteró la solicitud a la FIA para que la Argentina sea sede de un Gran Premio de la Fórmula 1",
@@ -214,7 +297,7 @@
      "hora": "14:30"
     }
    ],
-   "n": 9
+   "n": 13
   },
   {
    "titulo": "La Libertad Avanza cruzó al peronismo por el oro del BCRA: “Los datos hablan”",
@@ -233,7 +316,7 @@
      "hora": "14:07"
     }
    ],
-   "n": 10
+   "n": 14
   },
   {
    "titulo": "“Este es el único modelo posible”: Martín Menem defendió a Javier Milei y habló de las alianzas",
@@ -252,7 +335,7 @@
      "hora": "14:05"
     }
    ],
-   "n": 11
+   "n": 15
   },
   {
    "titulo": "José Gauffin defendió el achicamiento del Estado, pero advirtió que el mercado no resolverá todos los problemas de Salta",
@@ -271,7 +354,7 @@
      "hora": "13:07"
     }
    ],
-   "n": 12
+   "n": 16
   },
   {
    "titulo": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nación",
@@ -290,7 +373,26 @@
      "hora": "13:00"
     }
    ],
-   "n": 13
+   "n": 17
+  },
+  {
+   "titulo": "Martín Menem condicionó las alianzas electorales con los gobernadores para 2027 a un acuerdo sobre la agenda de reformas",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "12:59",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Martín Menem condicionó las alianzas electorales con los gobernadores para 2027 a un acuerdo sobre la agenda de reformas",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZWJrcWR3cWMxSEZoV2FRN2xjallMQTN6Rk5yelZTVVBnMEJhTFZLZGgzSkhjN3VsTEFDVWhjaUh1dmhrWXJ3aEw0ZUdhNGpUcVFYV0pKc2RwY2UycGx2Y01SdldtNEtrR0FWaE05bFM4SmxBUWRlbnZsMjZJNzJaUGljTV9oNVREb2twb2NhbkVwNDlia1dNaEREc1JWOTl5cnctVXR0RV9hdE1CSVZ5bWpwbklmTzNZaUlqSkVfQjJlVkhsd1JWYlU0TEt3YzhjczdDd0hpUTBZVXNXaWF2YWNkcC1DOGZUVkJzdnVEQ2VUNUk5MWxXZdIBkwJBVV95cUxPRVBIRmg1MEJsbW4zcnl0Z0N5WFp2WEl1TWdqTjRUTWliRUc2QlVsek56VWxVZDh1Ny03OWl5QXFXbTBQbE1Oa1VmSW9CSEFid29TN01xWTJNbjNZTTBsd3NUOHI4eFFBOC1jZFMtaTlpVXlhaTZ3eWZIX1V4ZGhVNVR2RVpJSmVCMGdjcm5uVkFIVkFkYVZkemhWbVJTR2FvUk5wM3RqTjB6T012YzRhQlAyV0prMkVkcjJOTzNwbFZHZDlJc1JrN3hxdlBiYzZCSWlNNXhUbFNwMXhIdGV5aUVORlFCd0pvY3RBQzB4UlJuejJkejNJbHEzc2hpTEV0VVJlY3hENWh6SVc3RDNjUTZPWQ?oc=5",
+     "hora": "12:59"
+    }
+   ],
+   "n": 18
   },
   {
    "titulo": "A un año de las elecciones, cómo está el mapa ideológico en la Argentina",
@@ -309,7 +411,7 @@
      "hora": "12:56"
     }
    ],
-   "n": 14
+   "n": 19
   },
   {
    "titulo": "Juan Manuel Urtubey cuestionó el incumplimiento de la Ley de Financiamiento Universitario",
@@ -329,7 +431,26 @@
     }
    ],
    "sigue_de_ayer": true,
-   "n": 15
+   "n": 20
+  },
+  {
+   "titulo": "Las prioridades internacionales de Milei que contrastan con un calendario que se agota",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "11:41",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Las prioridades internacionales de Milei que contrastan con un calendario que se agota",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjN2TE1JZWlRbUI1d0JybDRtMkNvbkwzd3l6Rm5RcUZjUWxlRExwa2xnUHR4VTAyMWQ5eF82LUNVMXpPaUdkNmZGSVVlbHIzbXdvcXBEUFc3WHZQcGlTek9mSzgyNGl2OXU5dFpXT1FmdVNRUmNXa05hZU4xMWRFTkF2QmlFRmNQbGNBRV82bWQyc1ZJd3hMNWR4TjVQVkViYUo2NmtiQmc2Z0lTVFFWLURWRU04MVFidUdrWjM2U1NlUzhOVlpvVkJRd9IB5gFBVV95cUxOR19qQzVHS1FNTlN1OXVzZUNxUWhROWFyekhkZlRFZDVORFFHY2xTQTBIRmMtOXBTUkpaVmVRa1VFNUhCUEttQXVHSm5QX1M0R1BaUF9qdEllRFZKYkZaUG9SaXJwamxzZVA3ZmhoSkdJUzg5OW5jTTY3WmRod3FpbHhQQUZtSjhvemV5V2lNMVpSU0ZadEtYNXRsZjhXYUQwNHdXVFZkMzVsdU1fRWVxbVFsR2xnc3VCeXIxX0JvMnZqVlFfejR5UDg1UXlWNkJzSWdjTFl3aWlPODVfX1FHbEJ6TlFZZw?oc=5",
+     "hora": "11:41"
+    }
+   ],
+   "n": 21
   },
   {
    "titulo": "La UCR pidió tiempo: Natalio Iglesias y Soledad Farfán negocian una lista de unidad",
@@ -348,7 +469,7 @@
      "hora": "10:58"
     }
    ],
-   "n": 16
+   "n": 22
   },
   {
    "titulo": "Rodrigo Quinteros fue el único concejal que se animó a revelar su patrimonio",
@@ -367,7 +488,7 @@
      "hora": "10:49"
     }
    ],
-   "n": 17
+   "n": 23
   },
   {
    "titulo": "Roque Cornejo denunció que bloquean pedidos para saber cuántos bienes tiene la provincia",
@@ -386,7 +507,7 @@
      "hora": "10:25"
     }
    ],
-   "n": 18
+   "n": 24
   },
   {
    "titulo": "Victoria Tolosa Paz analizó el modelo económico de Javier Milei y lanzó dura una definición: “Tiene un equilibrio fiscal ficticio”",
@@ -405,7 +526,7 @@
      "hora": "10:10"
     }
    ],
-   "n": 19
+   "n": 25
   },
   {
    "titulo": "Gabriel Katopodis se anotó para las elecciones de 2027: “Me siento preparado”",
@@ -424,7 +545,7 @@
      "hora": "09:44"
     }
    ],
-   "n": 20
+   "n": 26
   },
   {
    "titulo": "“Si Cristina no es candidata”: Juan Grabois, tajante sobre el candidato del peronismo",
@@ -443,7 +564,7 @@
      "hora": "09:12"
     }
    ],
-   "n": 21
+   "n": 27
   },
   {
    "titulo": "La violencia política en la historia argentina: rebeliones, fusilamientos y exilios en los primeros años de San Juan",
@@ -462,7 +583,7 @@
      "hora": "05:45"
     }
    ],
-   "n": 22
+   "n": 28
   },
   {
    "titulo": "“Sumó negocios con el Estado”: Marcela Pagano expuso a Martín Menem y sus hermanos",
@@ -481,7 +602,7 @@
      "hora": "01:29"
     }
    ],
-   "n": 23
+   "n": 29
   },
   {
    "titulo": "Mercosur-Unión Europea: el comercio ya reacciona, la política todavía no",
@@ -500,7 +621,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 24
+   "n": 30
   },
   {
    "titulo": "Una semana en la que la política de Brasil impactó el mercado local: subieron los bonos y el riesgo país cayó 10 por ciento",
@@ -519,7 +640,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 25
+   "n": 31
   },
   {
    "titulo": "“Vamos a pedir la detención”: Gregorio Dalbón advirtió a Santiago Bausili y criticó al peronismo",
@@ -538,20 +659,20 @@
      "hora": "00:50"
     }
    ],
-   "n": 26
+   "n": 32
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 8,
-   "historias": 7,
-   "salta": 2,
+   "notas": 9,
+   "historias": 8,
+   "salta": 3,
    "nacional": 5
   },
   "subtemas": [
    {
     "tema": "Robos y estafas",
-    "historias": 3
+    "historias": 4
    },
    {
     "tema": "Policía y fuerzas de seguridad",
@@ -598,6 +719,25 @@
     "n": 1
    },
    {
+    "titulo": "Robos, asaltos y vecinos que salen a perseguir ladrones: alarma en San Antonio de los Cobres",
+    "alcance": "Salta",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Informate Salta"
+    ],
+    "n_notas": 1,
+    "primera": "19:13",
+    "links": [
+     {
+      "medio": "Informate Salta",
+      "titulo": "Robos, asaltos y vecinos que salen a perseguir ladrones: alarma en San Antonio de los Cobres",
+      "link": "https://informatesalta.com.ar/policiales/robos--asaltos-y-vecinos-que-salen-a-perseguir-ladrones--alarma-en-san-antonio-de-los-cobres_a6acab6f6a62d6833589d4c3f",
+      "hora": "19:13"
+     }
+    ],
+    "n": 2
+   },
+   {
     "titulo": "Cansados de los robos, repartidores armaron una emboscada, recuperaron una moto y pasearon a un ladrón desnudo",
     "alcance": "Nacional",
     "tema": "Robos y estafas",
@@ -614,7 +754,7 @@
       "hora": "18:31"
      }
     ],
-    "n": 2
+    "n": 3
    },
    {
     "titulo": "Orán: detienen a un hombre e incautan más de 32 kg de cocaína en una camioneta abandonada",
@@ -633,7 +773,7 @@
       "hora": "15:00"
      }
     ],
-    "n": 3
+    "n": 4
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -652,7 +792,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 4
+    "n": 5
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -671,7 +811,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 5
+    "n": 6
    },
    {
     "titulo": "Los vecinos salen a atrapar ladrones pero la inseguridad no da tregua",
@@ -690,7 +830,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 6
+    "n": 7
    },
    {
     "titulo": "Tenía 17 años en 2013, cuando asesinó a su mamá y a sus dos hermanos más pequeños",
@@ -709,25 +849,37 @@
       "hora": "01:47"
      }
     ],
-    "n": 7
+    "n": 8
    }
   ]
  },
  "palabras": [
   {
    "t": "milei",
+   "n": 11
+  },
+  {
+   "t": "gobierno",
    "n": 7
   },
   {
    "t": "javier",
-   "n": 6
-  },
-  {
-   "t": "gobierno",
-   "n": 5
+   "n": 7
   },
   {
    "t": "juan",
+   "n": 4
+  },
+  {
+   "t": "empresas",
+   "n": 3
+  },
+  {
+   "t": "martin",
+   "n": 3
+  },
+  {
+   "t": "menem",
    "n": 3
   },
   {
@@ -770,21 +922,21 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 77,
-   "politicas": 13,
+   "notas": 91,
+   "politicas": 15,
    "seguridad": 0
   },
   {
    "nombre": "Informate Salta",
    "ambito": "Salta",
-   "notas": 28,
-   "politicas": 1,
-   "seguridad": 5
+   "notas": 40,
+   "politicas": 3,
+   "seguridad": 6
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 20,
+   "notas": 21,
    "politicas": 2,
    "seguridad": 3
   },
@@ -798,8 +950,8 @@
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 5,
-   "politicas": 3,
+   "notas": 8,
+   "politicas": 6,
    "seguridad": 0
   },
   {

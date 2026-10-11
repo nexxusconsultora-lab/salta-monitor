@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 232,
+    "total_mentions": 233,
     "sentiment_breakdown": {
-      "positivo": 43,
+      "positivo": 44,
       "negativo": 27,
       "neutral": 162
     },
     "sentiment_by_day": {
       "2026-10-10": {
-        "total": 2,
-        "score_sum": -1
+        "total": 3,
+        "score_sum": 3
       },
       "2026-08-05": {
         "total": 1,
@@ -257,11 +257,15 @@
         "count": 6
       },
       {
-        "term": "ruta",
+        "term": "molinos",
+        "count": 5
+      },
+      {
+        "term": "pavimentación",
         "count": 4
       },
       {
-        "term": "molinos",
+        "term": "ruta",
         "count": 4
       },
       {
@@ -273,11 +277,7 @@
         "count": 4
       },
       {
-        "term": "reelección",
-        "count": 3
-      },
-      {
-        "term": "nación",
+        "term": "seclantás",
         "count": 3
       }
     ],
@@ -375,6 +375,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta impulsa la pavimentación: Provincia financiará el tramo Molinos–Seclantás de la RN40",
+        "link": "https://informatesalta.com.ar/gobierno/salta-impulsa-la-pavimentacion--provincia-financiara-el-tramo-molinos-seclantas-de-la-rn40_a6acab704a62d6833589d51cc",
+        "source": "Informate Salta",
+        "date": "Sat, 10 Oct 2026 22:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Juan Manuel Chalabe aseguró que Durand buscará la reelección",
         "link": "https://elintra.com.ar/2026/10/10/juan-manuel-chalabe-aseguro-que-durand-buscara-la-reeleccion/",
@@ -577,13 +584,6 @@
         "source": "Informate Salta",
         "date": "Sat, 03 Oct 2026 17:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz y los gobernadores vuelven a ser claves en la votación de las PASO",
-        "link": "https://elintra.com.ar/2026/10/03/paso-reforma-electoral-gobernadores/",
-        "source": "El Intra",
-        "date": "Sat, 03 Oct 2026 15:01:51 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6468,7 +6468,7 @@
     "top_topics": [
       {
         "term": "curá",
-        "count": 3
+        "count": 2
       },
       {
         "term": "destacó",
@@ -6484,14 +6484,6 @@
       },
       {
         "term": "moderna",
-        "count": 2
-      },
-      {
-        "term": "juan",
-        "count": 2
-      },
-      {
-        "term": "cruz",
         "count": 2
       }
     ],
@@ -14637,34 +14629,26 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 10
+        "count": 8
       },
       {
         "term": "álvarez",
-        "count": 10
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 5
-      },
-      {
-        "term": "libertad",
-        "count": 3
-      },
-      {
-        "term": "avanza",
-        "count": 3
-      },
-      {
-        "term": "dijo",
-        "count": 2
+        "count": 4
       },
       {
         "term": "sumó",
         "count": 2
       },
       {
-        "term": "pasa",
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
         "count": 2
       }
     ],
@@ -15883,23 +15867,15 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "farquharson",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 4
-      },
-      {
-        "term": "emiliano",
-        "count": 2
-      },
-      {
-        "term": "durand",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -16237,13 +16213,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 22,
+    "total_mentions": 23,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 9,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2026-08-07": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-07-31": {
         "total": 1,
         "score_sum": 0
@@ -16324,15 +16304,19 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 5
+        "count": 6
       },
       {
         "term": "garcía",
-        "count": 5
+        "count": 6
       },
       {
         "term": "informate",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "concejo",
+        "count": 2
       },
       {
         "term": "comisión",
@@ -16418,6 +16402,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "José García al desnudo: desarmó su bloque en el Concejo y ahora quiere ser diputado provincial - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVF9zMWVFTGVTR2dqLWxvbmp2M19mLUZaSFBmQW11YlcwT082U3M0ZmY3WExmWUxuQ1pJemdDaTZiTGlWSlg4UDJTd1g2NjJ0ZFVIcnRzOEkyQjljMGZieGNSZGZRbG95bUdxS0V1a1pmVEphRGdDenBzTUl2QTJqbDFZT1ZpbHJwdVNacVp5M2xsd0xlVk9rbFlpUHgzQ3lmU2E3UHFnNnBDbVBvdWhwSndscjhLSFROVUVaemZiSmJCSUpFSlRxeEVIc2pzUGNDZXhldmM4UGpSczlaRFZicERwb1I4aUYwcDdjb2tBVnjSAf8BQVVfeXFMTmZicjJid1ItdnAwSW5yRDBySVpiR3k1ak8yS3lIdGt6RGxXeFhNQzd2OG9PVC1sVG5iXzBYMFc5YkxLLWN1UTBQVEZxUExWdlVjbFRQdklDVzh5aWUzWnVBWEdzNEM2YUo0QTZESmdwTzIycXJ2bWhiUjRBSjE3SnQ5U3pNUjAzWnVLN3ZkV1hKSlBZdHV1VzJic3FoSU5DUy1FdG5IMmhRWkZfUDFueWNvS0E2c1JtZ2tIZlU4UFhfaHp3a2UybExMODdoYlhmaWRaMS00bUxfMlllSmRST1lTelg1UE9FN1A2SU9id0FmMWdIQ09udnhlQ2FockZz?oc=5",
+        "source": "Informate Salta",
+        "date": "Fri, 07 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "José García rompe el oficialismo en Salta: «Me enteré por los medios que era intendente» - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXFjQ2dZZlJiTWw4MHRMNFU1YWN6dkE1MFlzNXpGeGlBMlZXUk9FSk1WazNtaFNxZ1lvQXlzVEd4TTJvTC1HSFFJdVFOYTRDc1JlR2ZjMmF1OEdDZHRyNUdQQlhYMVRTd3QtTzhFc0hzNFZzNEg1SXJkWk9vdUpCcWo5UkloNXlTQjZN?oc=5",
@@ -23727,22 +23718,18 @@
     "top_topics": [
       {
         "term": "guillermo",
-        "count": 3
-      },
-      {
-        "term": "durand",
-        "count": 3
-      },
-      {
-        "term": "cornejo",
-        "count": 3
-      },
-      {
-        "term": "diputados",
         "count": 2
       },
       {
-        "term": "elintra",
+        "term": "durand",
+        "count": 2
+      },
+      {
+        "term": "cornejo",
+        "count": 2
+      },
+      {
+        "term": "diputados",
         "count": 2
       }
     ],
