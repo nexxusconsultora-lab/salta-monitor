@@ -1,12 +1,12 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T17:02:47+00:00",
+ "generado": "2026-10-11T17:07:09+00:00",
  "totales": {
-  "recolectadas": 271,
-  "politicas": 49,
+  "recolectadas": 272,
+  "politicas": 50,
   "seguridad": 36,
   "descartadas": 186,
-  "historias": 44,
+  "historias": 45,
   "historias_seguridad": 33,
   "medios": 15
  },
@@ -14,7 +14,7 @@
  "temas": [
   {
    "tema": "Elecciones y partidos",
-   "historias": 13
+   "historias": 14
   },
   {
    "tema": "Gobierno y gestión",
@@ -900,6 +900,25 @@
    "n": 43
   },
   {
+   "titulo": "La estrategia en las provincias y la amenaza de Bullrich: qué piensa el Gobierno de cara a las elecciones del 2027",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "01:04",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "La estrategia en las provincias y la amenaza de Bullrich: qué piensa el Gobierno de cara a las elecciones del 2027",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNOFlpU202NmVYWkdJeDBHOUwtNXNVTFVUWlBLY2tZS2lLc3dhWHVrNE5uQ01nTXJYQXBMRFVhMFJJaHQ5QzJsT1BTRkVtMVdzTmJlM1Y3RFQ0VU9NZTVBRThPWE1ITi10RHZoS1ljdGR3TmU2TXJBbzlwWnlVb01HZF9QSGNBQ2hMSXZlT1I2dFRfVlBpUXlsVEUzbmF0VkpvSFZKZjlvd1M3YUp4TVFqMTBmU0cyNUdnZkd6YURyQnlyT2g1OTV4Z09hVGVoVmRZX2JMT25NREpZa3R0Yl82THFJLXJLX3NLYnFFUWRiNNIBigJBVV95cUxOVDcyckVmNERLQ3Rzbl9Hc2k0bV9tNEJHU0c4WGFDREstbFQ0WmJ3dlA4M2tELUxpUVc0VVM2YzlTWHJ1YWlFUWM5bmtWRWxEQ3hreTVqZF9qTGtzX3A1ZmR0WWEyUndnWVVHbTRneEJraHpBNkMwbmFqTTRJNnVpSkZhUlF6UHBWMzZnVENxMmZCV3g1X0F3emo3V25GeTdtejd4UGZtMjFCbkRydjBleUFpRWp6NHFiRUllNzNwQ05JbVJKNEpPdjhFT0NIcFR0Mm1ManhLaU8ySzVhOWhaUmo1UUtGR3RjOWFsS2xPSVlCU2ExTnFzcWNyWTluYmFzX2QxX19sSmlOUQ?oc=5",
+     "hora": "01:04"
+    }
+   ],
+   "n": 44
+  },
+  {
    "titulo": "“Vamos a pedir la detención”: Gregorio Dalbón advirtió a Santiago Bausili y criticó al peronismo",
    "alcance": "Salta",
    "tema": "Elecciones y partidos",
@@ -916,7 +935,7 @@
      "hora": "00:50"
     }
    ],
-   "n": 44
+   "n": 45
   }
  ],
  "seguridad": {
@@ -1609,7 +1628,7 @@
  "palabras": [
   {
    "t": "gobierno",
-   "n": 14
+   "n": 15
   },
   {
    "t": "milei",
@@ -1622,6 +1641,10 @@
   {
    "t": "avanza",
    "n": 5
+  },
+  {
+   "t": "elecciones",
+   "n": 4
   },
   {
    "t": "juan",
@@ -1648,10 +1671,6 @@
    "n": 3
   },
   {
-   "t": "elecciones",
-   "n": 3
-  },
-  {
    "t": "empresas",
    "n": 3
   },
@@ -1660,11 +1679,11 @@
    "n": 3
   },
   {
-   "t": "peronismo",
+   "t": "estrategia",
    "n": 3
   },
   {
-   "t": "politica",
+   "t": "peronismo",
    "n": 3
   }
  ],
@@ -1713,8 +1732,8 @@
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 32,
-   "politicas": 7,
+   "notas": 33,
+   "politicas": 8,
    "seguridad": 18
   },
   {

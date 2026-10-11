@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-11T17:02:39.559400+00:00",
+  "generated_at": "2026-10-11T17:07:01.103157+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 15,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 12,
+      "score_sum": 11
+    },
+    "gustavo-saenz": {
+      "total": 235,
+      "positivo": 45,
+      "negativo": 27,
+      "neutral": 163,
+      "score_sum": 81
+    },
     "concejal-agustina-alvarez-eichele": {
       "total": 57,
       "positivo": 4,
@@ -91,13 +105,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 6
-    },
-    "gustavo-saenz": {
-      "total": 234,
-      "positivo": 44,
-      "negativo": 27,
-      "neutral": 163,
-      "score_sum": 73
     },
     "eje-roberto-dib-ashur": {
       "total": 28,
@@ -224,13 +231,6 @@
       "negativo": 6,
       "neutral": 68,
       "score_sum": 12
-    },
-    "eje-antonio-marocco": {
-      "total": 14,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 12,
-      "score_sum": 3
     },
     "dip-griselda-edith-galleguillos": {
       "total": 18,
@@ -913,6 +913,24 @@
     }
   },
   "by_day": {
+    "2026-10-11": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 8
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 8
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-06-05": {
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
@@ -1049,20 +1067,6 @@
     },
     "2013-10-27": {
       "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-11": {
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
