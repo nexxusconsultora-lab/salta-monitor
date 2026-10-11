@@ -1,16 +1,16 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T15:31:19+00:00",
+ "generado": "2026-10-11T15:33:54+00:00",
  "totales": {
-  "recolectadas": 99,
+  "recolectadas": 103,
   "politicas": 16,
-  "seguridad": 3,
-  "descartadas": 81,
+  "seguridad": 4,
+  "descartadas": 84,
   "historias": 16,
-  "historias_seguridad": 3,
+  "historias_seguridad": 4,
   "medios": 5
  },
- "cobertura_baja": true,
+ "cobertura_baja": false,
  "temas": [
   {
    "tema": "Elecciones y partidos",
@@ -341,15 +341,15 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 3,
-   "historias": 3,
+   "notas": 4,
+   "historias": 4,
    "salta": 1,
-   "nacional": 2
+   "nacional": 3
   },
   "subtemas": [
    {
     "tema": "Robos y estafas",
-    "historias": 1
+    "historias": 2
    },
    {
     "tema": "Justicia penal",
@@ -361,6 +361,25 @@
    }
   ],
   "historias": [
+   {
+    "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Informate Salta"
+    ],
+    "n_notas": 1,
+    "primera": "11:42",
+    "links": [
+     {
+      "medio": "Informate Salta",
+      "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
+      "link": "https://informatesalta.com.ar/nacional/-la-estafa-del-siglo---creadoras-de-onlyfans-denuncian-que-arca-les-reclama-150-millones-por-ingresos-que-nunca-vieron_a6acba26cbe23996013db9b06",
+      "hora": "11:42"
+     }
+    ],
+    "n": 1
+   },
    {
     "titulo": "San Lorenzo: demoraron a una mujer que circulaba en una moto vinculada a un robo",
     "alcance": "Nacional",
@@ -378,7 +397,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 1
+    "n": 2
    },
    {
     "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
@@ -397,7 +416,7 @@
       "hora": "10:14"
      }
     ],
-    "n": 2
+    "n": 3
    },
    {
     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -416,7 +435,7 @@
       "hora": "03:05"
      }
     ],
-    "n": 3
+    "n": 4
    }
   ]
  },
@@ -453,17 +472,17 @@
    "seguridad": 0
   },
   {
+   "nombre": "Informate Salta",
+   "ambito": "Salta",
+   "notas": 18,
+   "politicas": 0,
+   "seguridad": 2
+  },
+  {
    "nombre": "El Tribuno",
    "ambito": "Salta",
    "notas": 17,
    "politicas": 2,
-   "seguridad": 1
-  },
-  {
-   "nombre": "Informate Salta",
-   "ambito": "Salta",
-   "notas": 14,
-   "politicas": 0,
    "seguridad": 1
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:31:17.184462+00:00",
+  "generated_at": "2026-10-11T15:33:52.450255+00:00",
   "by_politician": {
     "dnac-julio-moreno-ovalle": {
       "total": 2,
@@ -7,6 +7,20 @@
       "negativo": 0,
       "neutral": 2,
       "score_sum": 0
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 46,
+      "positivo": 6,
+      "negativo": 5,
+      "neutral": 35,
+      "score_sum": 0
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 19,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 16,
+      "score_sum": -5
     },
     "eje-federico-mangione": {
       "total": 12,
@@ -113,13 +127,6 @@
       "neutral": 51,
       "score_sum": 3
     },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 18,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 16,
-      "score_sum": -3
-    },
     "eje-juan-vilchez": {
       "total": 4,
       "positivo": 1,
@@ -210,13 +217,6 @@
       "negativo": 6,
       "neutral": 68,
       "score_sum": 12
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 45,
-      "positivo": 6,
-      "negativo": 5,
-      "neutral": 34,
-      "score_sum": 0
     },
     "eje-antonio-marocco": {
       "total": 14,
@@ -919,6 +919,26 @@
         "score_sum": 0
       },
       "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-10-31": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-17": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
       }
@@ -3035,16 +3055,6 @@
       "dip-sergio-mauricio-lopez": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-08-17": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-07-09": {
@@ -15047,7 +15057,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 12
+      "count": 13
     },
     {
       "term": "sáenz",
@@ -15082,6 +15092,10 @@
       "count": 4
     },
     {
+      "term": "laura",
+      "count": 4
+    },
+    {
       "term": "federico",
       "count": 4
     },
@@ -15099,10 +15113,6 @@
     },
     {
       "term": "operativos",
-      "count": 4
-    },
-    {
-      "term": "pavimentación",
       "count": 4
     }
   ],
