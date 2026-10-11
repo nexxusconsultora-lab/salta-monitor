@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T17:09:44.551401+00:00",
+  "generated_at": "2026-10-11T17:17:07.233692+00:00",
   "by_politician": {
+    "eje-juan-vilchez": {
+      "total": 5,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 1
+    },
     "sen-manuel-pailler": {
       "total": 50,
       "positivo": 4,
@@ -154,13 +161,6 @@
       "negativo": 7,
       "neutral": 51,
       "score_sum": 3
-    },
-    "eje-juan-vilchez": {
-      "total": 4,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 3,
-      "score_sum": 1
     },
     "eje-ignacio-jarsun": {
       "total": 12,
@@ -913,6 +913,36 @@
     }
   },
   "by_day": {
+    "2026-07-02": {
+      "eje-juan-vilchez": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 4
+      }
+    },
     "2025-03-08": {
       "sen-manuel-pailler": {
         "total": 1,
@@ -1911,36 +1941,6 @@
       "eje-oriana-nevora": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-07-02": {
-      "eje-juan-vilchez": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-eduardo-jose-virgili": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 3,
-        "score_sum": 4
       }
     },
     "2026-07-03": {
@@ -15077,15 +15077,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 15
+      "count": 14
     },
     {
       "term": "orozco",
       "count": 7
-    },
-    {
-      "term": "tribuno",
-      "count": 6
     },
     {
       "term": "laura",
@@ -15093,14 +15089,6 @@
     },
     {
       "term": "josé",
-      "count": 5
-    },
-    {
-      "term": "pablo",
-      "count": 5
-    },
-    {
-      "term": "lópez",
       "count": 5
     },
     {
@@ -15112,6 +15100,14 @@
       "count": 4
     },
     {
+      "term": "pablo",
+      "count": 4
+    },
+    {
+      "term": "lópez",
+      "count": 4
+    },
+    {
       "term": "voces",
       "count": 4
     },
@@ -15120,20 +15116,24 @@
       "count": 4
     },
     {
-      "term": "federico",
-      "count": 4
-    },
-    {
-      "term": "mangione",
-      "count": 4
-    },
-    {
-      "term": "salud",
-      "count": 4
-    },
-    {
       "term": "mimessi",
       "count": 4
+    },
+    {
+      "term": "operativos",
+      "count": 4
+    },
+    {
+      "term": "tribuno",
+      "count": 4
+    },
+    {
+      "term": "cornejo",
+      "count": 4
+    },
+    {
+      "term": "gobernadores",
+      "count": 3
     }
   ],
   "comentions": [

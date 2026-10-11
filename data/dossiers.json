@@ -28088,20 +28088,20 @@
     "id": "eje-juan-vilchez",
     "name": "Juan Ignacio Vilchez",
     "role": "Secretario de Seguridad",
-    "total_mentions": 4,
+    "total_mentions": 5,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "2026-07-02": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-10-10": {
         "total": 1,
         "score_sum": 1
-      },
-      "2026-07-02": {
-        "total": 2,
-        "score_sum": 0
       },
       "2026-07-03": {
         "total": 1,
@@ -28110,12 +28110,20 @@
     },
     "top_topics": [
       {
+        "term": "ignacio",
+        "count": 4
+      },
+      {
         "term": "seguridad",
         "count": 3
       },
       {
-        "term": "ignacio",
-        "count": 3
+        "term": "vílchez",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "nuevo",
@@ -28132,19 +28140,18 @@
       {
         "term": "avellaneda",
         "count": 2
-      },
-      {
-        "term": "ministro",
-        "count": 2
-      },
-      {
-        "term": "vilchez",
-        "count": 2
       }
     ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Juan Ignacio Vílchez archivos - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52R0JibUJQejRVOE0zUGJjYl9vQ2xabzloNDhHSXY5NEpqR0hqWElTSlRBc3VNSzZvelpvT3lKS1k0SjZhUmMtVFpfTHRkQ3BBeElIRU1WaWwzcHBY?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 02 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Operativos en Salta: 145 demorados tras mega patrullaje en Miguel Ortiz y Palermo",
         "link": "https://informatesalta.com.ar/policiales/operativos-en-salta--145-demorados-tras-mega-patrullaje-en-miguel-ortiz-y-palermo_a6aca6f5ba62d6833587c3bdc",
