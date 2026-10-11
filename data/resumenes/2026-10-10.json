@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T18:59:23+00:00",
+ "generado": "2026-10-11T19:41:49+00:00",
  "totales": {
-  "recolectadas": 430,
+  "recolectadas": 434,
   "politicas": 96,
-  "seguridad": 58,
-  "descartadas": 281,
+  "seguridad": 59,
+  "descartadas": 284,
   "historias": 82,
-  "historias_seguridad": 53,
+  "historias_seguridad": 54,
   "medios": 28
  },
  "cobertura_baja": false,
@@ -1402,10 +1402,10 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 58,
-   "historias": 53,
+   "notas": 59,
+   "historias": 54,
    "salta": 4,
-   "nacional": 49
+   "nacional": 50
   },
   "subtemas": [
    {
@@ -1429,12 +1429,12 @@
     "historias": 5
    },
    {
-    "tema": "Violencia de género",
+    "tema": "Otros hechos de seguridad",
     "historias": 2
    },
    {
-    "tema": "Otros hechos de seguridad",
-    "historias": 1
+    "tema": "Violencia de género",
+    "historias": 2
    }
   ],
   "historias": [
@@ -1682,6 +1682,25 @@
     "n": 11
    },
    {
+    "titulo": "Ola de inseguridad en Lanús: cuatro casos que reflejan el reclamo diario de los vecinos",
+    "alcance": "Nacional",
+    "tema": "Otros hechos de seguridad",
+    "medios": [
+     "Minutouno"
+    ],
+    "n_notas": 1,
+    "primera": "20:14",
+    "links": [
+     {
+      "medio": "Minutouno",
+      "titulo": "Ola de inseguridad en Lanús: cuatro casos que reflejan el reclamo diario de los vecinos",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTEVZTUVhS1g0NnNlZFh0T1BZSlk3aU1pYlhwXzFYbUNUSXlGQ2R6MkhWYjZubEZZMkF1eWhpNnZoaklLQndVNUZ3V0JKWEFkR0JKNGxlMlpDb2lBbHQ2MUhjNUFDNmNCTzd0U0lxVUpLQVFPUGZJQk01VjFkY2Z2U1g2UjdlNGE5RXhfUlpUQ0JwUk1UaWFPaEU4RzNUY3BPNnEtRFlveFZLbTdfc0N2YlktZ2lHV0wzZWJKNWR30gG-AUFVX3lxTFBMRVlNRWFLWDQ2c2VkWHRPUFlKWTdpTWliWHBfMVhtQ1RJeUZDZHoySFZiNm5sRlkyQXV5aGk2dmhqSUtCd1U1RndXQkpYQWRHQko0bGUyWkNvaUFsdDYxSGM1QUM2Y0JPN3RTSXFVSktBUU9QZklCTTVWMWRjZnZTWDZSN2U0YTlFeF9SWlRDQnBSTVRpYU9oRThHM1RjcE82cS1EWW94VkttN19zQ3ZiWS1naUdXTDNlYko1ZHc?oc=5",
+      "hora": "20:14"
+     }
+    ],
+    "n": 12
+   },
+   {
     "titulo": "La policía de India detuvo a miles de manifestantes en Nueva Delhi por una protesta contra la Comisión Elector",
     "alcance": "Nacional",
     "tema": "Policía y fuerzas de seguridad",
@@ -1698,7 +1717,7 @@
       "hora": "19:39"
      }
     ],
-    "n": 12
+    "n": 13
    },
    {
     "titulo": "Cansados de los robos, repartidores armaron una emboscada, recuperaron una moto y pasearon a un ladrón desnudo",
@@ -1717,7 +1736,7 @@
       "hora": "18:31"
      }
     ],
-    "n": 13
+    "n": 14
    },
    {
     "titulo": "Fue por una oferta, robó un costillar de 10 kilos y lanzó una fuerte frase: \"Este gobierno nos está matando\"",
@@ -1736,7 +1755,7 @@
       "hora": "18:14"
      }
     ],
-    "n": 14
+    "n": 15
    },
    {
     "titulo": "Golpeó y abusó sexualmente de un hombre de 72 años hasta matarlo: lo condenaron a prisión perpetua",
@@ -1755,7 +1774,7 @@
       "hora": "18:08"
      }
     ],
-    "n": 15
+    "n": 16
    },
    {
     "titulo": "La Policía de Bolivia detiene a un miembro de la banda criminal brasileña PCC",
@@ -1774,7 +1793,7 @@
       "hora": "18:06"
      }
     ],
-    "n": 16
+    "n": 17
    },
    {
     "titulo": "Policía entregó detalles de la captura de alias El Descuartizador en Antioquia",
@@ -1793,7 +1812,7 @@
       "hora": "17:52"
      }
     ],
-    "n": 17
+    "n": 18
    },
    {
     "titulo": "Unos 3.000 detenidos en Nueva Delhi durante las protestas del Partido de las Cucarachas",
@@ -1812,7 +1831,7 @@
       "hora": "17:47"
      }
     ],
-    "n": 18
+    "n": 19
    },
    {
     "titulo": "El conductor que arrastró a un agente con su auto en Córdoba fue condenado tras un trámite judicial exprés",
@@ -1831,7 +1850,7 @@
       "hora": "17:46"
      }
     ],
-    "n": 19
+    "n": 20
    },
    {
     "titulo": "Cadena perpetua por el brutal abuso sexual seguido de muerte de un jubilado en Rosario",
@@ -1850,7 +1869,7 @@
       "hora": "17:45"
      }
     ],
-    "n": 20
+    "n": 21
    },
    {
     "titulo": "Policía ‘pescó’ a presunto fletero que intentó escapar tras lanzarse a un río en Bogotá: había robado $60 millones a un adulto mayor",
@@ -1869,7 +1888,7 @@
       "hora": "17:05"
      }
     ],
-    "n": 21
+    "n": 22
    },
    {
     "titulo": "Un agente de policía murió y otro recibió 12 disparos en un tiroteo en Filadelfia",
@@ -1888,7 +1907,7 @@
       "hora": "16:50"
      }
     ],
-    "n": 22
+    "n": 23
    },
    {
     "titulo": "Orán: una denuncia por amenazas con armas terminó con el secuestro de más de 32 kilos de cocaína",
@@ -1907,7 +1926,7 @@
       "hora": "16:36"
      }
     ],
-    "n": 23
+    "n": 24
    },
    {
     "titulo": "“El Serafín” se queda en prisión: vinculan a proceso presunto integrante del Cártel de Sinaloa buscado por homicidio",
@@ -1926,7 +1945,7 @@
       "hora": "15:25"
      }
     ],
-    "n": 24
+    "n": 25
    },
    {
     "titulo": "\"Posible estafa premeditada\": la bronca de los argentinos varados en España por los problemas operativos de la aerolínea Plus Ultra",
@@ -1945,7 +1964,7 @@
       "hora": "15:13"
      }
     ],
-    "n": 25
+    "n": 26
    },
    {
     "titulo": "Orán: detienen a un hombre e incautan más de 32 kg de cocaína en una camioneta abandonada",
@@ -1964,7 +1983,7 @@
       "hora": "15:00"
      }
     ],
-    "n": 26
+    "n": 27
    },
    {
     "titulo": "El jefe de Policía de Lansing advierte sobre un posible asesino en serie en la capital de Míchigan",
@@ -1983,7 +2002,7 @@
       "hora": "14:31"
      }
     ],
-    "n": 27
+    "n": 28
    },
    {
     "titulo": "Reporte de la Policía luego del homicidio de vigilante de bar en Bogotá",
@@ -2002,7 +2021,7 @@
       "hora": "14:05"
      }
     ],
-    "n": 28
+    "n": 29
    },
    {
     "titulo": "El Rayo-Athletic se suspendió por recomendación de la Policía Nacional",
@@ -2021,7 +2040,7 @@
       "hora": "13:57"
      }
     ],
-    "n": 29
+    "n": 30
    },
    {
     "titulo": "El senador de la República Germán Rodríguez vinculó las declaraciones de Ferrer con supuestos movimientos de dinero ilícito, nexos con narcotráfico y tráfico de armas.",
@@ -2040,7 +2059,7 @@
       "hora": "13:12"
      }
     ],
-    "n": 30
+    "n": 31
    },
    {
     "titulo": "Juan Carlos Díaz será el candidato a intendente de Banda del Río Salí por La Libertad Avanza",
@@ -2059,7 +2078,7 @@
       "hora": "12:28"
      }
     ],
-    "n": 31
+    "n": 32
    },
    {
     "titulo": "Desarticulan una red de narcotráfico en La Plata: cinco detenidos y un arsenal incautado",
@@ -2078,7 +2097,7 @@
       "hora": "11:57"
      }
     ],
-    "n": 32
+    "n": 33
    },
    {
     "titulo": "Una IA de Anthropic envió una pista falsa sobre un homicidio a la policía de Filadelfia",
@@ -2097,7 +2116,7 @@
       "hora": "11:52"
      }
     ],
-    "n": 33
+    "n": 34
    },
    {
     "titulo": "Lima sur: un delincuente muere y otros dos quedan heridos tras persecución policial por robo de auto",
@@ -2116,7 +2135,7 @@
       "hora": "11:49"
      }
     ],
-    "n": 34
+    "n": 35
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -2135,7 +2154,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 35
+    "n": 36
    },
    {
     "titulo": "Mototaxista es asesinado delante de sus hijas en SJL: Policía encontró ocho casquillos de bala",
@@ -2154,7 +2173,7 @@
       "hora": "10:59"
      }
     ],
-    "n": 36
+    "n": 37
    },
    {
     "titulo": "Tucumán: golpeó a su madre para robarle y quedó detenido al regresar a la casa",
@@ -2173,7 +2192,7 @@
       "hora": "10:35"
      }
     ],
-    "n": 37
+    "n": 38
    },
    {
     "titulo": "Retiro: detuvieron a un ciudadano paraguayo por presunto abuso sexual",
@@ -2192,7 +2211,7 @@
       "hora": "10:20"
      }
     ],
-    "n": 38
+    "n": 39
    },
    {
     "titulo": "Detenido el bailaor español Rafael Amargo y su pareja tras una pelea con un intruso",
@@ -2211,7 +2230,7 @@
       "hora": "10:18"
      }
     ],
-    "n": 39
+    "n": 40
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -2230,7 +2249,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 40
+    "n": 41
    },
    {
     "titulo": "La Policía detiene a 19 personas por las violentas protestas antiinmigración en Sudáfrica",
@@ -2249,7 +2268,7 @@
       "hora": "09:27"
      }
     ],
-    "n": 41
+    "n": 42
    },
    {
     "titulo": "La Policía desaloja un edificio de la universidad de Nantes ocupado por manifestantes",
@@ -2268,7 +2287,7 @@
       "hora": "09:06"
      }
     ],
-    "n": 42
+    "n": 43
    },
    {
     "titulo": "Detenidos en Palma tras ser pillados in fraganti cambiando pasaportes falsos por dinero",
@@ -2285,25 +2304,6 @@
       "titulo": "Detenidos en Palma tras ser pillados in fraganti cambiando pasaportes falsos por dinero",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQjdLN25SN2M3di1pcHFyWmJtMDVjTG5YTXRQaHFYbzAzQl9IZ0NqaXI1bHMyVDB6Q3NzenVpVWZTY1VxTnFoSTV2VDAzajVqTEs4YVVSV3VGWDc3RmRESWVxaEtLWTE4SEhRWGViRjJ5NWpKMHpEUVlLVTFXSHdZM29BX25kczhuSkpTLU9tRjNxTmhKZzVJaG1la04xQ3JDaHVwRFBvOEpIQlJIckFINF9yX0NjQkRWeHE4LS03SVVZYnZaYVBvLTBOd1VzV1E5TTdyRS0tY9IB8gFBVV95cUxNMW5JWUpZZWpoejFQeTZSS0Eza21qZTBQVllFZnV2NTQ1dUhxbktYa21aOXpXNlA3VzR5OF9lMzh3cFpfUGM5NzVYVDZHQXpxbW5kU3UyUG9sclNhT1AySG5XTXRNZzJsX3ZpVnJ6MzBTdjVyNzJWTTI3LUVUa2tMcjBIU2VwZXZvQTBDdUlGaktFWFZMSjZCMnFVN3VTa2loWW1wQkNvSmd0LTV5eXJjQjlNSnd6YThVdTVTd0FSTmYxWGd1bUowSWppRXp6ODE5T0lQd2lMVUZmQTNSeUxicmtIRktncU5oblRxSjZkRjZMdw?oc=5",
       "hora": "07:58"
-     }
-    ],
-    "n": 43
-   },
-   {
-    "titulo": "Los industriales, con otros sectores, aceleran su presión contra el Gobierno por el alza del contrabando",
-    "alcance": "Nacional",
-    "tema": "Narcotráfico y contrabando",
-    "medios": [
-     "Agencia Noticias Argentinas"
-    ],
-    "n_notas": 1,
-    "primera": "07:50",
-    "links": [
-     {
-      "medio": "Agencia Noticias Argentinas",
-      "titulo": "Los industriales, con otros sectores, aceleran su presión contra el Gobierno por el alza del contrabando",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTEVYYU0xZ25vYThFeWFBaWZZYzAyaF9xcTVNanBuUUp0LXk3amJwY25PaTF1ZlVBN0J0QUZuUUI5UEVxRm9SRnlGREdBaS1MdVRoWlNDUnVzLXptcGdISzR5d3lyVTUtdTZlT25XWWExQVJxRkp0WTAwMnJicjY4MHludjJkZlJJSlI1eVJZTFJNX1dDeEZzTTJKdGh0a0luUnNqQzhKMHdkb2hLZ3B5Y21oTGpYU01zNWVSOEFlcTUwOWNua0xIRUlSdWQwTmppMk9NQ1drSmZzaXpfaktGUGtHS0M1cHBzWG9pS2dQOUlPQk44U012d2JIYVVoMF9oN1ZvRkltODZOQlnSAZoCQVVfeXFMTTVfYWpvQXJZOWlwdFBnWEtPWjN3UkNWNGFwcEJXeTJ4Z2I0MjcyeHVHRWthV0oxcGlRd1dVWi1JSlNUaW9zLXM1d2N4dENMYkYxLXkzUTlaZU1Kam9qcmVrMjRteDROM0hDOWhjSl85RGRuRHJXOVVCXzZGR3JBeUV3ay1DVXlzX25EZ1NXOG03Q2NPcFZJRlZjUE5EYzFYbVZmdjVINkJtU29URlBLWWpRZEh2aHd4aVdzWE8zeGhxb0xWMzZWbzVmME1MOUhBY1VyZUNsNmREX1EyY0dwdVVZRHdpWHk0WDZfSUZhRTIwa0FPTE1EampfaDEwVmlYdFlKQVhUVFNKQURxd3d5b003WFQ1QmpTSFln?oc=5",
-      "hora": "07:50"
      }
     ],
     "n": 44
@@ -2422,7 +2422,7 @@
   {
    "nombre": "Cadena 3 Argentina",
    "ambito": "Nacional",
-   "notas": 47,
+   "notas": 50,
    "politicas": 5,
    "seguridad": 6
   },
@@ -2450,9 +2450,9 @@
   {
    "nombre": "Minutouno",
    "ambito": "Nacional",
-   "notas": 18,
+   "notas": 19,
    "politicas": 3,
-   "seguridad": 4
+   "seguridad": 5
   },
   {
    "nombre": "Tiempo Argentino",
