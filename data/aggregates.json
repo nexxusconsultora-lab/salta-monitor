@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:41:42.007006+00:00",
+  "generated_at": "2026-10-11T15:44:22.307431+00:00",
   "by_politician": {
     "concejal-pablo-emanuel-lopez": {
       "total": 30,
@@ -105,6 +105,13 @@
       "negativo": 2,
       "neutral": 1,
       "score_sum": -4
+    },
+    "snac-emilia-orozco": {
+      "total": 52,
+      "positivo": 7,
+      "negativo": 8,
+      "neutral": 37,
+      "score_sum": -3
     },
     "concejal-jose-garcia-alcazar": {
       "total": 23,
@@ -4329,6 +4336,24 @@
         "score_sum": 0
       }
     },
+    "2026-08-06": {
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-03-19": {
       "dip-daniel-alejandro-segura-gimenez": {
         "total": 1,
@@ -6795,6 +6820,16 @@
         "score_sum": 0
       },
       "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-04-29": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
       }
@@ -15054,24 +15089,20 @@
       "count": 13
     },
     {
-      "term": "orozco",
-      "count": 9
-    },
-    {
-      "term": "tribuno",
-      "count": 9
-    },
-    {
       "term": "sáenz",
       "count": 8
     },
     {
-      "term": "molinos",
-      "count": 6
+      "term": "tribuno",
+      "count": 7
     },
     {
-      "term": "emilia",
-      "count": 5
+      "term": "orozco",
+      "count": 7
+    },
+    {
+      "term": "molinos",
+      "count": 6
     },
     {
       "term": "fondos",

@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T15:41:46+00:00",
+ "generado": "2026-10-11T15:44:25+00:00",
  "totales": {
   "recolectadas": 224,
-  "politicas": 38,
-  "seguridad": 29,
-  "descartadas": 158,
-  "historias": 36,
-  "historias_seguridad": 28,
+  "politicas": 37,
+  "seguridad": 28,
+  "descartadas": 159,
+  "historias": 35,
+  "historias_seguridad": 27,
   "medios": 9
  },
  "cobertura_baja": false,
@@ -744,10 +744,10 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 29,
-   "historias": 28,
+   "notas": 28,
+   "historias": 27,
    "salta": 4,
-   "nacional": 24
+   "nacional": 23
   },
   "subtemas": [
    {
@@ -761,6 +761,10 @@
    {
     "tema": "Homicidios y violencia",
     "historias": 5
+   },
+   {
+    "tema": "Justicia penal",
+    "historias": 1
    },
    {
     "tema": "Narcotráfico y contrabando",
@@ -1012,25 +1016,6 @@
     "n": 12
    },
    {
-    "titulo": "El senador de la República Germán Rodríguez vinculó las declaraciones de Ferrer con supuestos movimientos de dinero ilícito, nexos con narcotráfico y tráfico de armas.",
-    "alcance": "Nacional",
-    "tema": "Narcotráfico y contrabando",
-    "medios": [
-     "Infobae"
-    ],
-    "n_notas": 1,
-    "primera": "13:12",
-    "links": [
-     {
-      "medio": "Infobae",
-      "titulo": "El senador de la República Germán Rodríguez vinculó las declaraciones de Ferrer con supuestos movimientos de dinero ilícito, nexos con narcotráfico y tráfico de armas.",
-      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQV0xQVnZGWFg4N3hZcnVQYmpuaFFqRDZUR2IyYzJBWG9wRjdRMm1vZW1Ga1paU3l4TFZJVE9NQTNwY3NENlN4Y3pHSzJyQkVBS0FCOU1qa2NYX1d2MEN5UENRcmVMV3lHUHFsdU1fTnBReWlHczlUd0xxOFcwNDlFeWRVUllrWFJtbms3dU9JcDloWHRZYnhVcUtKMjg2UW9OdFZuU1V0MjdwX0tsX3dUQ3pRbm5UcExiaXNJd2pqbzVJZzkzSWFBTUVyTU5oX3llaHRqS1pCSlRfR2tNYnZNS3UzRTFzNDZGQlBjdWhra29ycFhuM2V5dnBqSndreW5pUEJHbndVaEZ4eGFBTXQ2Z0FjQTRMcmdzV3FKemE4Q1dCZ2RXeURCbDB4T3hBU1YwNHJPdDZYQV9uUQ?oc=5",
-      "hora": "13:12"
-     }
-    ],
-    "n": 13
-   },
-   {
     "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
     "alcance": "Nacional",
     "tema": "Justicia penal",
@@ -1047,7 +1032,7 @@
       "hora": "12:58"
      }
     ],
-    "n": 14
+    "n": 13
    },
    {
     "titulo": "Una IA de Anthropic envió una pista falsa sobre un homicidio a la policía de Filadelfia",
@@ -1066,7 +1051,7 @@
       "hora": "11:52"
      }
     ],
-    "n": 15
+    "n": 14
    },
    {
     "titulo": "Lima sur: un delincuente muere y otros dos quedan heridos tras persecución policial por robo de auto",
@@ -1085,7 +1070,7 @@
       "hora": "11:49"
      }
     ],
-    "n": 16
+    "n": 15
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -1104,7 +1089,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 17
+    "n": 16
    },
    {
     "titulo": "Detenido el bailaor español Rafael Amargo y su pareja tras una pelea con un intruso",
@@ -1123,7 +1108,7 @@
       "hora": "10:18"
      }
     ],
-    "n": 18
+    "n": 17
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -1142,7 +1127,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 19
+    "n": 18
    },
    {
     "titulo": "La Policía detiene a 19 personas por las violentas protestas antiinmigración en Sudáfrica",
@@ -1161,7 +1146,7 @@
       "hora": "09:27"
      }
     ],
-    "n": 20
+    "n": 19
    },
    {
     "titulo": "La Policía desaloja un edificio de la universidad de Nantes ocupado por manifestantes",
@@ -1180,7 +1165,7 @@
       "hora": "09:06"
      }
     ],
-    "n": 21
+    "n": 20
    },
    {
     "titulo": "Detenidos en Palma tras ser pillados in fraganti cambiando pasaportes falsos por dinero",
@@ -1199,7 +1184,7 @@
       "hora": "07:58"
      }
     ],
-    "n": 22
+    "n": 21
    },
    {
     "titulo": "Detenido en Valladolid por intentar convencer a un niño para que le mandara fotos íntimas a través de un juego",
@@ -1218,7 +1203,7 @@
       "hora": "07:13"
      }
     ],
-    "n": 23
+    "n": 22
    },
    {
     "titulo": "Cuando la palabra es un muro, la Policía escucha con dibujos",
@@ -1237,7 +1222,7 @@
       "hora": "03:58"
      }
     ],
-    "n": 24
+    "n": 23
    },
    {
     "titulo": "La Policía monitoriza a grupos radicales tras tres semanas de protestas en la Puerta del Sol por la vivienda",
@@ -1256,7 +1241,7 @@
       "hora": "03:45"
      }
     ],
-    "n": 25
+    "n": 24
    },
    {
     "titulo": "Los vecinos salen a atrapar ladrones pero la inseguridad no da tregua",
@@ -1275,7 +1260,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 26
+    "n": 25
    },
    {
     "titulo": "Tenía 17 años en 2013, cuando asesinó a su mamá y a sus dos hermanos más pequeños",
@@ -1294,7 +1279,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 27
+    "n": 26
    },
    {
     "titulo": "Triple crimen en Solidaridad: Preso desde 2013, saldrá libre en un año por la nueva Ley penal juvenil",
@@ -1313,7 +1298,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 28
+    "n": 27
    }
   ]
  },
@@ -1408,8 +1393,8 @@
    "nombre": "Infobae",
    "ambito": "Nacional",
    "notas": 32,
-   "politicas": 8,
-   "seguridad": 18
+   "politicas": 7,
+   "seguridad": 17
   },
   {
    "nombre": "El Intra",

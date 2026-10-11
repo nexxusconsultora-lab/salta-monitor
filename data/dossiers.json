@@ -21183,21 +21183,13 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 54,
+    "total_mentions": 52,
     "sentiment_breakdown": {
       "positivo": 7,
-      "negativo": 9,
-      "neutral": 38
+      "negativo": 8,
+      "neutral": 37
     },
     "sentiment_by_day": {
-      "2026-08-06": {
-        "total": 2,
-        "score_sum": -4
-      },
-      "2026-04-29": {
-        "total": 2,
-        "score_sum": 0
-      },
       "2025-12-22": {
         "total": 1,
         "score_sum": 0
@@ -21237,6 +21229,10 @@
       "2026-10-02": {
         "total": 3,
         "score_sum": 4
+      },
+      "2026-08-06": {
+        "total": 1,
+        "score_sum": -2
       },
       "2025-01-16": {
         "total": 1,
@@ -21326,6 +21322,10 @@
         "total": 1,
         "score_sum": 0
       },
+      "2026-04-29": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-07-22": {
         "total": 1,
         "score_sum": -2
@@ -21378,26 +21378,14 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 9
+        "count": 7
       },
       {
         "term": "orozco",
-        "count": 9
+        "count": 7
       },
       {
         "term": "milei",
-        "count": 3
-      },
-      {
-        "term": "tribuno",
-        "count": 2
-      },
-      {
-        "term": "karina",
-        "count": 2
-      },
-      {
-        "term": "congreso",
         "count": 2
       },
       {
@@ -21406,6 +21394,14 @@
       },
       {
         "term": "elintra",
+        "count": 2
+      },
+      {
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
         "count": 2
       }
     ],
@@ -21522,20 +21518,6 @@
       }
     ],
     "recent_articles": [
-      {
-        "title": "VIDEO. Ley de Propiedad Privada: Emilia Orozco denunció amenazas en el Senado y pidió remover a un asesor de V - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxObEpKVVg5TGhzWE0tTjlDaV9oUjZQbXFBTWRlVUV5V3k3Y0xsbWhSNENKV3dGcl9Fa1h6cUo2cE1wd2pMcGFxV3RfQUxlQ29XQVFlYmF2dVBzVkQ2eGx4V0x5cEpnazZaeUl3MVlDS2ptbllRMmMxOWhjYkQ1MFM2RVIteGYya2xORUh4cnRMMENLV0dWdnZoT1g5NmVvVjdmelVSYS01VFNQWTB3bmlVMC1hN0FkNmZKdUpZd2JJR1Z1NHRGTGRkVlZ4b1BtaFVYVjctYkthbmRtZTZCM1B3clJDR1dxZEdmT2RCbDhWMG1EZUNZaEhXM0NXdE15T1YtbUNmMTI0TS1QQlJy0gGSAkFVX3lxTFBSZ01GVmZpVU8tTlY5bVFVbnVqckZoc0RFMGhIM2VZMklIWldLb1ZvWjZNWHV1U2tYWG53QW0yemdONnhjaWc1dUJ4N0IzeXZObFpvZ3FIakstOWNZWTJKazZaQ2JtcG1ibHRSY0Y1NnhCRVV6cmh2dS1uMXI4OTloTlZXSVVQV0xhLVhTTEg2ZGprM1VyOWZDOUVFMkZ6eWYzQm5halhSUU94QzVDb2xISFRyR3NGR09NNzZERTVjN3ZLeWNyalhGTXJzckxZeUtobHpXR2tZdjJlaVk5X2NfNnlLellHRWtHVEVhNUR3Z0o0UlhSeTNNRzd0NHUxX2s3OVg2enhMLXpxaHYtQ3ZEMkE?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Emilia Orozco se reunió con Karina Milei en el Congreso - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY2U1OEwwWXo0Zm05bC10UGhsM0V1dGE3cFVnOXdRa3ZTWU5iZGRkalRfYmRBQkU5OThEM1lvYzV1eGNVdTFBaHZTODNtMTF1RUZ6c2djdU9sMkQ2SHhWZ2hreVhfTGw5bUpGc3pJS042dnM3dV9PcnVKZUxwZmdLQnBpaG9YRlRuMzZkbHpJTWZwd2J0bkdBYlR5dmJFYlR0WXl3dWZLMHXSAa4BQVVfeXFMTUN1Xy0yZTM1TmVqMWJjTUUzNldDSXVIbmpSN05XVVd6NjU0LVYtMjZCckhRRDdzbTFMRTZyb2x4djJDOExia0tRdHdKdWdqb1dqN2I3TzZ5dVFmbEJUWm9WdEtNMmlpMUdnbnBkU2xiSmYyM1gxUXgwSTQwWDlqSWJ4OEhBdHBTVGU4UGc3dkIyUFhqVWtVUGZZb1h3NVVoUFNNZWNBYS1oMUlHUHlR?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 29 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
       {
         "title": "Quién es Emilia Orozco, la senadora de Milei que truchó una oficina del Congreso - NewsDigitales",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTJjdVQwQzlTdFdlMEt5WXBMNWRHTF9fMEJoTFFHbXVRT1pFTlJPNnk3bjloNHVWSlpUdUdKVGs4dWVMem82UHJZa3NEQ3N4UTREOU5VbXJCQUR5RktDc0VQc2UxdjdlUlpTbzVza3RXUWxENm1wV25sWENHcmlBdGRzenU1eUx4b0VrTzhvQzVSR1lzY3NKR0xOZEx0Z2VmNEZiTkJQS0xWT2NpZDg5X21DM3hON1daNUtnS2lLdw?oc=5",
@@ -21730,6 +21712,20 @@
         "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZFRlRmVXTlM5V0dMNzBOOTI5TGhORE9LOE52aG9SMDZmMGdBVC11RHh3UEJyRzdaRndmNkpJRzJpUk9KS0drTjN2QUFXckNKanVSbUJsLVRqWmFGUEUwQ01vUEJoQWJiSGJMZWpnenBkcmNCUTFtcGpLTmE5Wm1waFlvTzdwcmNKV2JiY21aa3Y3OTRrRllJWDlISk1mLXdGV2lxZmdIQThEMjVwTWZNRVlycnR6UWhXdzg0eERfVUNiMXk1N1VzUnVueVpDTl8ySEppNmd4MjdmNi03ME43bzVidnNVX0hWN01OOVhmejVSNjM0YVZySkl3?oc=5",
         "source": "saltacomparativa.com.ar",
         "date": "Mon, 27 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Con Emilia Orozco a la cabeza, La Libertad Avanza inauguró un nuevo local en Orán - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0lodUtmaEZNTy1RVWtFd2xzblJfY2FzaG9Qc0hPX0ZaN3d0cXd1aVA4bVZ4eWRRLUpiQlY5bk1pOWw5R0dHTDZFMEZWXzJlUlVBMVBwdUVXTnczT196cE5lVzlJUHMxWGdfWGc2S1NzdTZwU3dHTWxncjBubGRIVU5nYURUMnhSaG5aUGRlcUNnZnJsZG5yMjFMNTMtVWhQNVFIRTFaS0RNdjB0RjlneUo2aWstUQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 28 Oct 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Denunciaron a Emilia Orozco y Carlos Zapata por el escándalo Anses - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb08wejRDSFNHSEVOdHIxbV9zbTdLcWVTN0huQkxFSGd4WnQyMlhLTHg2ZjNqa0ltc25Dalo5aGJBN0x5eHQzMHNuS3NlRXlFdElqc2Z3d29EZWl6cThiU2xuT3NOZVpQbXVmY1cyZkgwUnhmOTVkbHJ0bVZIdmxta0V0ZkhaZEV4U0lVQjZaeDJ0R3pKM0txZXVzSlJNMy1CMzI4?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Sat, 14 Jun 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
