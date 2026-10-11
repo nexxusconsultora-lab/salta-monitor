@@ -1,0 +1,62 @@
+name: Indicadores INDEC - Salta
+
+on:
+  # Corre cuando cambia el script (por ejemplo la primera vez que lo subís),
+  # una vez por día y a pedido (botón "Run workflow" en la pestaña Actions).
+  # No incluye data/indec_salta.json a propósito: así el commit de datos
+  # no vuelve a disparar este workflow en bucle.
+  push:
+    branches: [main]
+    paths:
+      - "scripts/actualizar_indec.py"
+      - ".github/workflows/indec.yml"
+  schedule:
+    # Todos los días a las 10:20 UTC (07:20 de Argentina). El INDEC publica
+    # pocas veces al año; correr cada día solo sirve para enterarse rápido.
+    - cron: "20 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indec-salta
+  cancel-in-progress: false
+
+jobs:
+  indec:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Pedir los indicadores al INDEC (vía datos.gob.ar)
+        # Si la API no responde, el script conserva los valores anteriores y no falla.
+        run: python scripts/actualizar_indec.py
+
+      - name: Guardar los datos nuevos en el repositorio
+        run: |
+          git config user.name "radar-politico-bot"
+          git config user.email "radar-politico-bot@users.noreply.github.com"
+          git add data/indec_salta.json || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios para guardar."
+            exit 0
+          fi
+          git commit -m "Actualización automática de indicadores INDEC"
+          for intento in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
+            echo "Reintentando ($intento/3)..."
+            git rebase --abort || true
+            sleep 5
+          done
+          echo "No se pudo guardar tras 3 intentos."
+          exit 1
