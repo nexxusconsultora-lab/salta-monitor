@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T15:36:27.466002+00:00",
+  "generated_at": "2026-10-11T15:39:03.679603+00:00",
   "by_politician": {
-    "snac-emilia-orozco": {
-      "total": 54,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 38,
-      "score_sum": -5
+    "concejal-pablo-emanuel-lopez": {
+      "total": 30,
+      "positivo": 0,
+      "negativo": 14,
+      "neutral": 16,
+      "score_sum": -36
     },
     "dnac-julio-moreno-ovalle": {
       "total": 2,
@@ -63,13 +63,6 @@
       "negativo": 4,
       "neutral": 18,
       "score_sum": -6
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 29,
-      "positivo": 0,
-      "negativo": 14,
-      "neutral": 15,
-      "score_sum": -36
     },
     "eje-nicolas-avellaneda": {
       "total": 9,
@@ -913,30 +906,16 @@
     }
   },
   "by_day": {
-    "2026-08-06": {
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": -4
-      },
-      "concejal-gustavo-farquharson": {
+    "2026-08-18": {
+      "concejal-pablo-emanuel-lopez": {
         "total": 1,
         "score_sum": 0
       },
-      "snac-flavia-royon": {
+      "concejal-jose-garcia-alcazar": {
         "total": 1,
         "score_sum": 0
       },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-04-29": {
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
+      "dip-jose-miguel-gauffin": {
         "total": 1,
         "score_sum": 0
       }
@@ -3889,16 +3868,6 @@
         "score_sum": 0
       },
       "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-18": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jose-miguel-gauffin": {
         "total": 1,
         "score_sum": 0
       }
@@ -15088,7 +15057,19 @@
       "count": 5
     },
     {
-      "term": "milei",
+      "term": "josé",
+      "count": 4
+    },
+    {
+      "term": "pablo",
+      "count": 4
+    },
+    {
+      "term": "lópez",
+      "count": 4
+    },
+    {
+      "term": "informate",
       "count": 4
     },
     {
@@ -15105,18 +15086,6 @@
     },
     {
       "term": "federico",
-      "count": 4
-    },
-    {
-      "term": "mangione",
-      "count": 4
-    },
-    {
-      "term": "salud",
-      "count": 4
-    },
-    {
-      "term": "mimessi",
       "count": 4
     }
   ],
