@@ -593,7 +593,61 @@ def collect_general_news():
     existing.sort(key=lambda n: n.get("collected_at", ""), reverse=True)
     existing = existing[:MAX_GENERAL_ITEMS_STORED]
     save_json(NEWS_GENERAL_FILE, existing)
+    archivar_notas(existing)
     return new_count
+
+
+ARCHIVO_DIR = os.path.join(DATA_DIR, "archivo")
+
+
+def archivar_notas(items):
+    """Guarda cada nota en un archivo por mes (data/archivo/AAAA-MM.json) para
+    poder buscar notas de días anteriores. news_general.json solo guarda las
+    últimas notas; este archivo no se borra. Si algo falla, NO corta el monitor."""
+    try:
+        por_mes = {}
+        for n in items:
+            f = str(n.get("published_iso") or n.get("collected_at") or "")
+            if not re.match(r"^20\d\d-\d\d", f):
+                continue
+            # Se descartan notas "viejas" que algunos medios republican: su fecha cae
+            # más de 60 días antes de que las recolectáramos (solo ensucian el archivo).
+            try:
+                pub = datetime.fromisoformat(f.replace("Z", "+00:00"))
+                col = datetime.fromisoformat(str(n.get("collected_at")).replace("Z", "+00:00"))
+                if pub.tzinfo is None:
+                    pub = pub.replace(tzinfo=timezone.utc)
+                if (col - pub).days > 60:
+                    continue
+            except Exception:
+                pass
+            por_mes.setdefault(f[:7], []).append({
+                "id": n.get("id"), "category": n.get("category"), "title": n.get("title"),
+                "link": n.get("link"), "source": n.get("source"),
+                "published_iso": n.get("published_iso"), "collected_at": n.get("collected_at"),
+            })
+        indice_path = os.path.join(ARCHIVO_DIR, "index.json")
+        indice = load_json(indice_path, {"meses": {}})
+        cambio = False
+        for mes, notas in por_mes.items():
+            path = os.path.join(ARCHIVO_DIR, mes + ".json")
+            actual = load_json(path, [])
+            ids = {x.get("id") for x in actual}
+            nuevas = [x for x in notas if x["id"] and x["id"] not in ids]
+            if not nuevas:
+                continue
+            actual.extend(nuevas)
+            actual.sort(key=lambda x: str(x.get("published_iso") or x.get("collected_at") or ""), reverse=True)
+            os.makedirs(ARCHIVO_DIR, exist_ok=True)
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump(actual, fh, ensure_ascii=False, separators=(",", ":"))
+            indice.setdefault("meses", {})[mes] = len(actual)
+            cambio = True
+        if cambio:
+            with open(indice_path, "w", encoding="utf-8") as fh:
+                json.dump(indice, fh, ensure_ascii=False, indent=1, sort_keys=True)
+    except Exception as e:
+        print(f"AVISO: no se pudo actualizar el archivo de notas: {e}")
 
 
 def google_news_url(query):
@@ -953,6 +1007,7 @@ def collect_media_general(batches):
             new_count += 1
     existing.sort(key=lambda n: n.get("collected_at", ""), reverse=True)
     save_json(NEWS_GENERAL_FILE, existing[:MAX_GENERAL_ITEMS_STORED])
+    archivar_notas(existing[:MAX_GENERAL_ITEMS_STORED])
     return new_count
 
 
