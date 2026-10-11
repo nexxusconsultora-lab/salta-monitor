@@ -1,12 +1,12 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T13:29:48+00:00",
+ "generado": "2026-10-11T14:51:14+00:00",
  "totales": {
-  "recolectadas": 197,
-  "politicas": 36,
+  "recolectadas": 198,
+  "politicas": 37,
   "seguridad": 9,
   "descartadas": 152,
-  "historias": 34,
+  "historias": 35,
   "historias_seguridad": 8,
   "medios": 8
  },
@@ -34,6 +34,10 @@
   },
   {
    "tema": "Salud y educación",
+   "historias": 1
+  },
+  {
+   "tema": "Justicia y seguridad",
    "historias": 1
   }
  ],
@@ -624,6 +628,25 @@
    "n": 30
   },
   {
+   "titulo": "La seguridad nacional de Milei: un combo de extravagancia, improvisación e ignorancia",
+   "alcance": "Nacional",
+   "tema": "Justicia y seguridad",
+   "medios": [
+    "Perfil"
+   ],
+   "n_notas": 1,
+   "primera": "02:13",
+   "links": [
+    {
+     "medio": "Perfil",
+     "titulo": "La seguridad nacional de Milei: un combo de extravagancia, improvisación e ignorancia",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ0tOQjZiTk1peHhXQkNJRkhXY1ROem9QYWRGU1NWclplY25oeUp6NjVDXzFlWDdvb1dyM0VUN2NnUDZxWktTdXN6WE1DTlR2S0NkaDRfYWhjSXVfdjZaZEhCcnpPV21jSUZWMlEyS1p2ZVUxendOVjQzd0FQSGRZLVVkcmhKaEFDcVVPODcxUTFwRTUza1VKbXM3V2E1WFlaOEhfbmxMamc0dmRQMThhdm1tZENMcWJiRmpieHhjdGlXbU84bGQ2bWkwNmtKNzjSAdQBQVVfeXFMTnV3M0NXcDh1Zkhac0N6bENORlNIZjFGLUxtMW5kR0tmR003YnBmQUpBOUlkeVltdU9SYmNxM1k0eTE3Rmprbl9qdEVzUVJaT2tIS0FpM0EzOU1mYzItSzVOM1JrckJReTdZNDNFTzY3aks1cHpNb3QyMDlJNE5Wc1loT2dEVklyLUNUaGpDdFlyTGwwVUtoRTZvM0FmMUFzV1dGRVdLTGtMb3YycEl3X1dWeUJDRjlyMzZlaWNKZnZKLUVzT2xJVTFabmVERWpOX2gxVFM?oc=5",
+     "hora": "02:13"
+    }
+   ],
+   "n": 31
+  },
+  {
    "titulo": "“Sumó negocios con el Estado”: Marcela Pagano expuso a Martín Menem y sus hermanos",
    "alcance": "Salta",
    "tema": "Otros temas políticos",
@@ -640,7 +663,7 @@
      "hora": "01:29"
     }
    ],
-   "n": 31
+   "n": 32
   },
   {
    "titulo": "Mercosur-Unión Europea: el comercio ya reacciona, la política todavía no",
@@ -659,7 +682,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 32
+   "n": 33
   },
   {
    "titulo": "Una semana en la que la política de Brasil impactó el mercado local: subieron los bonos y el riesgo país cayó 10 por ciento",
@@ -678,7 +701,7 @@
      "hora": "01:19"
     }
    ],
-   "n": 33
+   "n": 34
   },
   {
    "titulo": "“Vamos a pedir la detención”: Gregorio Dalbón advirtió a Santiago Bausili y criticó al peronismo",
@@ -697,7 +720,7 @@
      "hora": "00:50"
     }
    ],
-   "n": 34
+   "n": 35
   }
  ],
  "seguridad": {
@@ -894,7 +917,7 @@
  "palabras": [
   {
    "t": "milei",
-   "n": 12
+   "n": 13
   },
   {
    "t": "gobierno",
@@ -995,8 +1018,8 @@
   {
    "nombre": "Perfil",
    "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 1,
+   "notas": 2,
+   "politicas": 2,
    "seguridad": 0
   },
   {

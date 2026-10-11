@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T13:29:46.196687+00:00",
+  "generated_at": "2026-10-11T14:51:11.640892+00:00",
   "by_politician": {
+    "eje-mario-mimessi": {
+      "total": 25,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 22,
+      "score_sum": 0
+    },
     "eje-oriana-nevora": {
       "total": 8,
       "positivo": 1,
@@ -14,13 +21,6 @@
       "negativo": 5,
       "neutral": 12,
       "score_sum": -8
-    },
-    "eje-mario-mimessi": {
-      "total": 24,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 22,
-      "score_sum": -4
     },
     "dip-jose-miguel-gauffin": {
       "total": 22,
@@ -913,6 +913,12 @@
     }
   },
   "by_day": {
+    "2025-06-18": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 4
+      }
+    },
     "2025-12-17": {
       "eje-oriana-nevora": {
         "total": 2,
@@ -15056,16 +15062,16 @@
       "count": 6
     },
     {
+      "term": "mimessi",
+      "count": 5
+    },
+    {
       "term": "fondos",
       "count": 5
     },
     {
       "term": "ruta",
       "count": 5
-    },
-    {
-      "term": "mimessi",
-      "count": 4
     },
     {
       "term": "operativos",
@@ -15084,15 +15090,15 @@
       "count": 4
     },
     {
+      "term": "mario",
+      "count": 3
+    },
+    {
+      "term": "pasa",
+      "count": 3
+    },
+    {
       "term": "interna",
-      "count": 3
-    },
-    {
-      "term": "miguel",
-      "count": 3
-    },
-    {
-      "term": "josé",
       "count": 3
     }
   ],
