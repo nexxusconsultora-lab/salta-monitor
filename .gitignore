@@ -1,0 +1,18 @@
+# Claves y credenciales: NUNCA deben subirse al repo (van en Settings > Secrets de GitHub)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Basura de Python y del sistema
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+Thumbs.db
