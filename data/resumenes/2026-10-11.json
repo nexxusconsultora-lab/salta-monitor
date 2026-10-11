@@ -1,28 +1,32 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T06:32:53+00:00",
+ "generado": "2026-10-11T13:29:48+00:00",
  "totales": {
-  "recolectadas": 28,
-  "politicas": 8,
-  "seguridad": 0,
-  "descartadas": 20,
-  "historias": 8,
-  "historias_seguridad": 0,
-  "medios": 4
+  "recolectadas": 65,
+  "politicas": 13,
+  "seguridad": 2,
+  "descartadas": 51,
+  "historias": 13,
+  "historias_seguridad": 2,
+  "medios": 5
  },
  "cobertura_baja": true,
  "temas": [
+  {
+   "tema": "Elecciones y partidos",
+   "historias": 6
+  },
   {
    "tema": "Poder Legislativo",
    "historias": 3
   },
   {
-   "tema": "Elecciones y partidos",
+   "tema": "Gobierno y gestión",
    "historias": 2
   },
   {
-   "tema": "Gobierno y gestión",
-   "historias": 2
+   "tema": "Economía y finanzas",
+   "historias": 1
   },
   {
    "tema": "Otros temas políticos",
@@ -30,6 +34,120 @@
   }
  ],
  "historias": [
+  {
+   "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
+   "alcance": "Salta",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "El Tribuno"
+   ],
+   "n_notas": 1,
+   "primera": "09:40",
+   "links": [
+    {
+     "medio": "El Tribuno",
+     "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
+     "link": "https://www.eltribuno.com/salta/2026-10-11-9-40-0-el-pj-se-activa-y-ya-piensa-en-la-candidatura-de-saenz-2027",
+     "hora": "09:40"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "titulo": "Presupuesto 2027: Salta inició las consultas regionales y anunció nuevas obras para los Valles Calchaquíes",
+   "alcance": "Salta",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "El Tribuno"
+   ],
+   "n_notas": 1,
+   "primera": "07:16",
+   "links": [
+    {
+     "medio": "El Tribuno",
+     "titulo": "Presupuesto 2027: Salta inició las consultas regionales y anunció nuevas obras para los Valles Calchaquíes",
+     "link": "https://www.eltribuno.com/salta/2026-10-11-7-16-0-presupuesto-2027-salta-inicio-las-consultas-regionales-y-anuncio-nuevas-obras-para-los-valles-calchaquies",
+     "hora": "07:16"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "03:05",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQlJPdXRTNDJYWDRlcTVza2kzOGFwajl1UV90UlBzZzM2YmJCOHNJUmVBRVhYRUtETkFqWENsYTV0cWNIZm1rQlVHcDZZcEk3VzV2MWdoQWdiM3ZSWGhBX0lWdHJTSTJzVXYtWUFXZ0cySWFxczZDYmFRMmh2NDh2dUN6MmxMWWFrREJlaFhjRlVhWXE2emp0a3haQWJGYmRSMG5XeGFJcDFDU3lhR1NWc255T0pjWHljdlpoY1pDcWZjRXZzbEdfMlFER0tSU3RBQmZwemFFbTZHLU83dHRKMnJaZ1hZTk9uLU9GS1dPRlbSAYsCQVVfeXFMUFpMUDRtTXJ6cWJZYWNPVUxzZGExeUhaaFh1dEhlTWRBZDZkbHV4b09aNDU5QmJkSDBqQ2FZNmRkeXFOUzVQS2paSXlTRFFGd1NyLUE1RVVlNlozYzVUcm5saEJWMEJJRnUzR2J6cnROdWtrTjNVUWs2MENIUzFGeTdkQ1NFSmloU2YwR0JxQjI2ZVY3S19XbVAzZm1XbmVMSlNZdFUxQm5FNUt1Vi1kcjJReDN1TEtPMElxbno0ejlfNHhqQ3hJLXFzRmRweUdqYWFyeWFZQ3pkTUN3UmdDLUhJN2V4NVlGWGt4aFI2czY5dU1OM3Rkd3JLWVpmeldYNU0tOHdKbWNmV0xn?oc=5",
+     "hora": "03:05"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "titulo": "La interna del Gobierno amenazó con reactivarse esta semana, pero intentan apaciguarla",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "02:31",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "La interna del Gobierno amenazó con reactivarse esta semana, pero intentan apaciguarla",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNajYzeVpnOXR4Nll4TE40Ti1QOXo4OVUyZFBfbF91aG4yT05VZlF6RFVIcTlQYXQtbGFCUk9vUFRtTExpSzcwSGtwZlg0OXZkZWpEVzhDUklPQjN6THpzWmp4Qkp3cktmNHYzY1BMM2pSWWVkZHB1SDFUOUFwcTlSZjlVWUNwRFE3U0d4dmxNc0NRRGRxNkJjXzdGWkhHWUlDX0w5QmtRZjJ6SWo4bW1BV3B0SjRmUE9qeUxvcnJRamg0WG13OTdGTExn0gHkAUFVX3lxTE42ZU9pQTgzZ0lXUDR5T3Ffb0V2ZlJOZDdtMXlubkpxUGxxYkRuUlFNMEtkUmlLVHBnQ3RGampMZlREX3NiaUFxUnVqZjBMWmlQemQ2Ty0zYjdzRXpWN1F5US1Bazh2d3FvUS1tUUtvSU0wNHJGTTFONFJEZmpfd0Vvdmc3aWY3WldzX2d1WDhUZDRuam94RXBuX3FjTktWR0h3TzBaeHBMODk2Sk8zMnVsY1lpbDJaSWw0ckJudVM3N0ZqOEp0aWRtRzNtLWRCdjVVeVFGNHlRRTJOeV9xYUVWUnJXRA?oc=5",
+     "hora": "02:31"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "02:30",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhwR1N3YjJocWJKcUlIYmE1SjlSVHpsY0wxNzlVUFZHMUlwMjBwek53bDNNVGRvUXRWOXBYT0JxTmE1S2ZaQXhRLWdORldUa05xWTl4em51bDVDVFdTYU5FVWh0ZXJCc1MzUEItREpIcmR3X3htRFdGb1N6VVBsb0tMS252ODE2Y2hQaXhJejQ2bkw0SUFJbWxpQmtheGJHeWN3RVRNakxTSEwxV1FGaUxPbTBfNndIaVNNdVo2Ynk5eU9NVGhoM0V3T1czbW1FUW5HMmM1Y2FxT0FoS0dpb3BMcWfSAf8BQVVfeXFMT1BOVTdSc2I2RDc0NnV0bUVhdmpJZ0lCT1NMbnc1R3J3UXVObFlhTGYyT1pjRFZQRGd3SXo1Qm15QmM1b25Qekh3LUU0Y3B4MG56TlIwaVJOSndmLVNHVGxOTjM5VUJqYjhQM3JSWUlzdmpHVDNDeEtMMWJrSXhhWldBaFJwRGozY2xta19IYW9IQXhwekd6UVdDTmk5Z3VlSERRNHdXLWdlOVNTczBrVUNVQlJ4akxMN0dibGNtSEhSNGtPRWVsMElxWFQwWDRuMU8wWjRzLXBzQlh4b2VITVR4TE9LQVZYSVU2N1Q4N2taTmpmYkE2c0ctYzc5WTBB?oc=5",
+     "hora": "02:30"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "titulo": "La interna entre CFK y Kicillof divide cada vez más al PJ y dificulta un acuerdo electoral para el 2027",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "02:06",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "La interna entre CFK y Kicillof divide cada vez más al PJ y dificulta un acuerdo electoral para el 2027",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQlhQZGN6bF9pY0NVOVNwaXFCalpLTm5aUmhGWV9TOVJyaEw4eThvbjBXSDh4Z2tjSkFGMXV1WWlGNENSRmpEeWg2R3NTSkZ4aExsOG5ibnVYam1jRWFCVlVybWpfRENESWNZcnVvbkJqejktQkxEa283Smw4NWZaejRPdXgydDBFaGlZUHMwMnVzbnFCUVlYdnBzaXlyUmJ5RUdwS1UxbkxnTHNrVFF3eHdGMDNIYnNoaUpOU002NHh6SHk5bnFfUlFOeHI5SzJfOHd2REFmYmFnZVJpOHgzOFVhONIB_gFBVV95cUxOaWtJM0UzOGFNbUw5UXRWR3RmMFdmMmtpN0VMMWhtTG1rZlBHTTBybjZTdkFybGJlX2c4VHc0MGN4UGtfRXVrN3NxaUF4Nmh0RGY0YjJOelJxZmp2dXF1Z3FzVlJyNkpTRU5ZNm9SNGFoc24xa2h1YW1IYjlXSVk0NGVuVjluRnpwbjUyUVRSclN4X0RBRkhVNVA1Uk9KNnktQk1VU1E2WlBKQWgwMlRNd1JtTVBzSE1tSHhMaVVBRm0zeU5XbFk5bHJkNWRDdmRkbGZlUkpMV1V4RjI4UDNadmpueDZGX2ZTWm5la0ctdGRHRFBvdktxSkI3ZUpEZw?oc=5",
+     "hora": "02:06"
+    }
+   ],
+   "n": 6
+  },
   {
    "titulo": "Gobierno Nacional nombró a Veterano Malvinas al frente de la Escuela de Inteligencia",
    "alcance": "Salta",
@@ -47,26 +165,7 @@
      "hora": "01:46"
     }
    ],
-   "n": 1
-  },
-  {
-   "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
-   "alcance": "Nacional",
-   "tema": "Elecciones y partidos",
-   "medios": [
-    "Infobae"
-   ],
-   "n_notas": 1,
-   "primera": "01:37",
-   "links": [
-    {
-     "medio": "Infobae",
-     "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
-     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhwR1N3YjJocWJKcUlIYmE1SjlSVHpsY0wxNzlVUFZHMUlwMjBwek53bDNNVGRvUXRWOXBYT0JxTmE1S2ZaQXhRLWdORldUa05xWTl4em51bDVDVFdTYU5FVWh0ZXJCc1MzUEItREpIcmR3X3htRFdGb1N6VVBsb0tMS252ODE2Y2hQaXhJejQ2bkw0SUFJbWxpQmtheGJHeWN3RVRNakxTSEwxV1FGaUxPbTBfNndIaVNNdVo2Ynk5eU9NVGhoM0V3T1czbW1FUW5HMmM1Y2FxT0FoS0dpb3BMcWc?oc=5",
-     "hora": "01:37"
-    }
-   ],
-   "n": 2
+   "n": 7
   },
   {
    "titulo": "El \"mata mata\" de Milei: las tres batallas incómodas camino a la reelección",
@@ -85,7 +184,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 3
+   "n": 8
   },
   {
    "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación “blue” para bajar impuestos",
@@ -104,7 +203,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 4
+   "n": 9
   },
   {
    "titulo": "La interna del Gobierno Nacional repercute en la discusión del Congreso: el análisis de Cristina Pérez",
@@ -123,7 +222,7 @@
      "hora": "01:30"
     }
    ],
-   "n": 5
+   "n": 10
   },
   {
    "titulo": "Axel Kicillof ya tiene otro postulante para sucederlo en la gobernación bonaerense",
@@ -142,7 +241,7 @@
      "hora": "01:16"
     }
    ],
-   "n": 6
+   "n": 11
   },
   {
    "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
@@ -161,7 +260,7 @@
      "hora": "00:40"
     }
    ],
-   "n": 7
+   "n": 12
   },
   {
    "titulo": "La Corte Suprema repuso los límites de la Ley de Tierras y trae un viejo debate de vuelta al Congreso: los detalles",
@@ -180,26 +279,82 @@
      "hora": "00:15"
     }
    ],
-   "n": 8
+   "n": 13
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 0,
-   "historias": 0,
-   "salta": 0,
-   "nacional": 0
+   "notas": 2,
+   "historias": 2,
+   "salta": 1,
+   "nacional": 1
   },
-  "subtemas": [],
-  "historias": []
+  "subtemas": [
+   {
+    "tema": "Justicia penal",
+    "historias": 1
+   },
+   {
+    "tema": "Policía y fuerzas de seguridad",
+    "historias": 1
+   }
+  ],
+  "historias": [
+   {
+    "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
+    "alcance": "Salta",
+    "tema": "Justicia penal",
+    "medios": [
+     "El Tribuno"
+    ],
+    "n_notas": 1,
+    "primera": "10:14",
+    "links": [
+     {
+      "medio": "El Tribuno",
+      "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
+      "link": "https://www.eltribuno.com/policiales/2026-10-11-10-14-0-metan-condenaron-a-tres-anos-de-prision-efectiva-al-audaz-ladron-de-un-drugstore",
+      "hora": "10:14"
+     }
+    ],
+    "n": 1
+   },
+   {
+    "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "03:05",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQlJPdXRTNDJYWDRlcTVza2kzOGFwajl1UV90UlBzZzM2YmJCOHNJUmVBRVhYRUtETkFqWENsYTV0cWNIZm1rQlVHcDZZcEk3VzV2MWdoQWdiM3ZSWGhBX0lWdHJTSTJzVXYtWUFXZ0cySWFxczZDYmFRMmh2NDh2dUN6MmxMWWFrREJlaFhjRlVhWXE2emp0a3haQWJGYmRSMG5XeGFJcDFDU3lhR1NWc255T0pjWHljdlpoY1pDcWZjRXZzbEdfMlFER0tSU3RBQmZwemFFbTZHLU83dHRKMnJaZ1hZTk9uLU9GS1dPRlbSAYsCQVVfeXFMUFpMUDRtTXJ6cWJZYWNPVUxzZGExeUhaaFh1dEhlTWRBZDZkbHV4b09aNDU5QmJkSDBqQ2FZNmRkeXFOUzVQS2paSXlTRFFGd1NyLUE1RVVlNlozYzVUcm5saEJWMEJJRnUzR2J6cnROdWtrTjNVUWs2MENIUzFGeTdkQ1NFSmloU2YwR0JxQjI2ZVY3S19XbVAzZm1XbmVMSlNZdFUxQm5FNUt1Vi1kcjJReDN1TEtPMElxbno0ejlfNHhqQ3hJLXFzRmRweUdqYWFyeWFZQ3pkTUN3UmdDLUhJN2V4NVlGWGt4aFI2czY5dU1OM3Rkd3JLWVpmeldYNU0tOHdKbWNmV0xn?oc=5",
+      "hora": "03:05"
+     }
+    ],
+    "n": 2
+   }
+  ]
  },
  "palabras": [
+  {
+   "t": "gobierno",
+   "n": 4
+  },
   {
    "t": "congreso",
    "n": 3
   },
   {
-   "t": "gobierno",
+   "t": "interna",
+   "n": 3
+  },
+  {
+   "t": "milei",
    "n": 3
   }
  ],
@@ -213,22 +368,29 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 14,
+   "notas": 32,
    "politicas": 5,
    "seguridad": 0
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 9,
-   "politicas": 0,
-   "seguridad": 0
+   "notas": 16,
+   "politicas": 2,
+   "seguridad": 1
   },
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 4,
-   "politicas": 3,
+   "notas": 9,
+   "politicas": 6,
+   "seguridad": 1
+  },
+  {
+   "nombre": "Informate Salta",
+   "ambito": "Salta",
+   "notas": 7,
+   "politicas": 0,
    "seguridad": 0
   },
   {

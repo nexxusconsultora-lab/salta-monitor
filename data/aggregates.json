@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-10-11T06:32:51.200677+00:00",
+  "generated_at": "2026-10-11T13:29:46.196687+00:00",
   "by_politician": {
+    "eje-oriana-nevora": {
+      "total": 8,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 2
+    },
+    "eje-cristina-fiore": {
+      "total": 18,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 12,
+      "score_sum": -8
+    },
+    "eje-mario-mimessi": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 22,
+      "score_sum": -4
+    },
+    "dip-jose-miguel-gauffin": {
+      "total": 22,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 18,
+      "score_sum": -6
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 29,
+      "positivo": 0,
+      "negativo": 14,
+      "neutral": 15,
+      "score_sum": -36
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 9,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 1
+    },
+    "eje-manuela-arancibia": {
+      "total": 5,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 6
+    },
+    "gustavo-saenz": {
+      "total": 234,
+      "positivo": 44,
+      "negativo": 27,
+      "neutral": 163,
+      "score_sum": 73
+    },
     "eje-roberto-dib-ashur": {
       "total": 28,
       "positivo": 1,
@@ -22,26 +78,12 @@
       "neutral": 37,
       "score_sum": -3
     },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 28,
-      "positivo": 0,
-      "negativo": 14,
-      "neutral": 14,
-      "score_sum": -36
-    },
     "concejal-jose-garcia-alcazar": {
       "total": 23,
       "positivo": 0,
       "negativo": 9,
       "neutral": 14,
       "score_sum": -22
-    },
-    "gustavo-saenz": {
-      "total": 233,
-      "positivo": 44,
-      "negativo": 27,
-      "neutral": 162,
-      "score_sum": 73
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 23,
@@ -70,27 +112,6 @@
       "negativo": 0,
       "neutral": 3,
       "score_sum": 1
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 8,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 7,
-      "score_sum": 1
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 21,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 17,
-      "score_sum": -6
-    },
-    "eje-mario-mimessi": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 21,
-      "score_sum": -4
     },
     "eje-ignacio-jarsun": {
       "total": 12,
@@ -176,13 +197,6 @@
       "neutral": 29,
       "score_sum": -24
     },
-    "eje-manuela-arancibia": {
-      "total": 4,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 3,
-      "score_sum": 6
-    },
     "sen-juan-cruz-cura": {
       "total": 85,
       "positivo": 11,
@@ -204,26 +218,12 @@
       "neutral": 12,
       "score_sum": 3
     },
-    "eje-oriana-nevora": {
-      "total": 7,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 6,
-      "score_sum": 2
-    },
     "dip-griselda-edith-galleguillos": {
       "total": 18,
       "positivo": 1,
       "negativo": 4,
       "neutral": 13,
       "score_sum": -5
-    },
-    "eje-cristina-fiore": {
-      "total": 17,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 11,
-      "score_sum": -8
     },
     "concejal-ines-bennassar": {
       "total": 25,
@@ -913,6 +913,70 @@
     }
   },
   "by_day": {
+    "2025-12-17": {
+      "eje-oriana-nevora": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-12-08": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-11-11": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-04-09": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2013-10-27": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-11": {
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-07-16": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -1587,28 +1651,6 @@
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2025-12-17": {
-      "eje-javier-monico": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-oriana-nevora": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-12-13": {
@@ -11247,12 +11289,6 @@
         "score_sum": 0
       }
     },
-    "2024-04-09": {
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-05-30": {
       "sen-dani-nolasco": {
         "total": 1,
@@ -15001,11 +15037,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 13
+      "count": 12
     },
     {
       "term": "sáenz",
-      "count": 10
+      "count": 8
     },
     {
       "term": "tribuno",
@@ -15028,7 +15064,11 @@
       "count": 5
     },
     {
-      "term": "nación",
+      "term": "mimessi",
+      "count": 4
+    },
+    {
+      "term": "operativos",
       "count": 4
     },
     {
@@ -15044,19 +15084,15 @@
       "count": 4
     },
     {
-      "term": "gustavo",
-      "count": 4
-    },
-    {
-      "term": "estar",
+      "term": "interna",
       "count": 3
     },
     {
-      "term": "emilia",
+      "term": "miguel",
       "count": 3
     },
     {
-      "term": "milei",
+      "term": "josé",
       "count": 3
     }
   ],
