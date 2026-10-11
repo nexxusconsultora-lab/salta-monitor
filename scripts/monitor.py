@@ -50,11 +50,19 @@ MEDIA_STATUS_FILE = os.path.join(DATA_DIR, "medios_status.json")
 # de intentar adivinar la URL de RSS propia de cada uno.
 NATIONAL_SITES = [
     "infobae.com", "clarin.com", "lanacion.com.ar", "pagina12.com.ar",
-    "ambito.com", "tn.com.ar", "perfil.com",
+    "ambito.com", "tn.com.ar", "perfil.com", "cronista.com",  # cronista.com confirmado 10/10/2026
 ]
 
 MAX_GENERAL_ITEMS_STORED = 1200
 MAX_GENERAL_ITEMS_PER_FEED = 60
+
+# Palabras para la búsqueda de SEGURIDAD (delito, policía, justicia penal). Se usan en Google News junto
+# con los mismos medios nacionales y salteños de arriba; las notas que llegan por esta vía quedan marcadas
+# con "tema": "seguridad". Si una búsqueda trae mucha basura, sacá palabras de acá; si se pierden notas, sumalas.
+SECURITY_TERMS = [
+    "policía", "detenido", "homicidio", "robo", "narcotráfico", "allanamiento",
+    "femicidio", "estafa", "juicio", "balacera", "secuestro", "abuso",
+]
 
 # Medios de Salta verificados a los que restringimos una de las búsquedas
 # (alta precisión). Agregá o sacá dominios según lo que quieras cubrir;
@@ -257,6 +265,15 @@ def http_get(url, timeout=15):
     })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
+
+
+def clean_title(text):
+    """Saca etiquetas HTML, entidades y caracteres de control de un título que viene de un feed."""
+    import html as _html
+    t = _html.unescape(str(text or ""))
+    t = re.sub(r"<[^>]*>", " ", t)
+    t = re.sub(r"[\x00-\x1f\x7f]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
 
 
 def parse_feed_bytes(raw):
@@ -467,6 +484,19 @@ def build_provincial_query_url():
     return google_news_url(f"Salta ({sites} OR {places})")
 
 
+def build_security_national_url():
+    sites = " OR ".join(f"site:{s}" for s in NATIONAL_SITES)
+    terms = " OR ".join(SECURITY_TERMS)
+    return google_news_url(f"Argentina ({terms}) ({sites})")
+
+
+def build_security_provincial_url():
+    sites = " OR ".join(f"site:{s}" for s in SOURCE_SITES)
+    places = " OR ".join(f'"{d}"' for d in DEPARTMENTS)
+    terms = " OR ".join(SECURITY_TERMS)
+    return google_news_url(f"Salta ({terms}) ({sites} OR {places})")
+
+
 def collect_general_news():
     """Noticias generales de Nacional y Provincia, sin atarlas a un político
     puntual — para poder ver rápido 'qué pasó' en una ventana de horas,
@@ -475,20 +505,27 @@ def collect_general_news():
     existing_ids = {n["id"] for n in existing}
     new_count = 0
 
+    # (categoría, dirección, tema). Las de tema "seguridad" traen delito/policía/justicia penal.
     queries = [
-        ("Nacional", build_national_query_url()),
-        ("Provincial", build_provincial_query_url()),
+        ("Nacional", build_national_query_url(), None),
+        ("Provincial", build_provincial_query_url(), None),
+        ("Nacional", build_security_national_url(), "seguridad"),
+        ("Provincial", build_security_provincial_url(), "seguridad"),
     ]
-    for category, url in queries:
+    por_id = {n["id"]: n for n in existing}
+    for category, url, tema in queries:
         feed = fetch_feed(url)
         if not feed:
             continue
         for entry in feed.entries[:MAX_GENERAL_ITEMS_PER_FEED]:
             link = entry.get("link", "")
-            title = entry.get("title", "")
+            title = clean_title(entry.get("title", ""))
             summary = entry.get("summary", "")
             mid = make_id(f"{category}|{link}")
-            if mid in existing_ids or not link:
+            if mid in existing_ids and tema and mid in por_id and not por_id[mid].get("tema"):
+                por_id[mid]["tema"] = tema      # la nota ya estaba (la trajo otra búsqueda): solo se la etiqueta
+                continue
+            if mid in existing_ids or not link or not title:
                 continue
             score, label = sentiment_score(f"{title} {summary}")
             source = entry_source_name(entry, "Google News")
@@ -504,8 +541,10 @@ def collect_general_news():
                 "published_iso": entry_published_iso(entry),
                 "collected_at": datetime.now(timezone.utc).isoformat(),
                 "sentiment_label": label,
+                **({"tema": tema} if tema else {}),
             })
             existing_ids.add(mid)
+            por_id[mid] = existing[-1]
             new_count += 1
 
     existing.sort(key=lambda n: n.get("collected_at", ""), reverse=True)
@@ -848,7 +887,7 @@ def collect_media_general(batches):
     for batch in batches:
         for entry in batch["entries"]:
             link = entry.get("link", "")
-            title = entry.get("title", "")
+            title = clean_title(entry.get("title", ""))
             if not link or not title:
                 continue
             mid = make_id(f"Provincial|{link}")
