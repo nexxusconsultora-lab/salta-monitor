@@ -67,6 +67,27 @@ a.row2{text-decoration:none}a.row2:hover{background:var(--raised)}
 .lab .rw{border-bottom:1px solid var(--line);padding:.7rem 0}.lab .rw b{font-size:1rem}.seg{display:flex;gap:.3rem;flex-wrap:wrap;margin:.4rem 0}.seg button{font:inherit;font-size:.82rem;padding:.3rem .7rem;border:1px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer}.seg button.on.s{background:var(--pos);color:#fff;border-color:var(--pos)}.seg button.on.n{background:var(--clay);color:#fff;border-color:var(--clay)}.seg button.on.a{background:var(--soft);color:#fff;border-color:var(--soft)}
 .veredicto{border:2px solid var(--ink);padding:.9rem 1rem;margin:1rem 0;background:var(--raised)}.veredicto b{font-size:1.15rem}.pw{display:grid;grid-template-columns:minmax(6rem,1.2fr) 3fr;gap:.2rem .8rem;align-items:center;margin:.55rem 0;font-size:.85rem}.pw .bar{height:.55rem;background:var(--line);position:relative}.pw .bar i{display:block;height:100%;background:var(--soft)}.pw .bar.p i{background:var(--indigo)}.pw small{grid-column:2;color:var(--soft)}
 .cs{border:1px solid var(--line);padding:.7rem;margin:.6rem 0;background:var(--raised)}.cs textarea{width:100%;box-sizing:border-box;font:inherit;min-height:3.2rem;background:var(--paper);color:var(--ink);border:1px solid var(--line);margin-top:.4rem;padding:.4rem}.pinb{font:inherit;font-size:.82rem;padding:.3rem .7rem;border:1px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;margin:.4rem .3rem .4rem 0}
+/* Mapas conceptuales */
+.mptabs a.mpb{font:inherit;font-size:.9rem;padding:.5rem .7rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink);text-decoration:none}
+.mptabs a.mpb.on{background:var(--indigo);color:var(--onind)}
+.mpbox{overflow:auto;max-width:100%;max-height:78vh;border:1px solid var(--line);background:var(--raised);-webkit-overflow-scrolling:touch}
+.mpbox:focus-visible{outline:2px solid var(--clay)}
+.mpsvg{display:block;font-family:Inter,system-ui,sans-serif}
+.mpsvg .e{stroke:var(--soft);stroke-width:1.2;opacity:.65}
+.mpsvg .el{font-size:10.5px;fill:var(--soft);font-style:italic;paint-order:stroke;stroke:var(--raised);stroke-width:4px;stroke-linejoin:round}
+.mpsvg .b{fill:var(--paper);stroke:var(--line);stroke-width:1.2}
+.mpsvg .t{font-size:12px;font-weight:600;fill:var(--ink)}.mpsvg .s{font-size:10.5px;fill:var(--soft)}
+.mpsvg .mp-root .b{fill:var(--ink);stroke:var(--ink)}.mpsvg .mp-root .t{fill:var(--paper)}.mpsvg .mp-root .s{fill:var(--paper);opacity:.8}
+.mpsvg .mp-ins .b{fill:var(--indigo);stroke:var(--indigo)}.mpsvg .mp-ins .t{fill:var(--onind)}.mpsvg .mp-ins .s{fill:var(--onind);opacity:.85}
+.mpsvg .mp-grp .b{fill:var(--raised);stroke:var(--indigo);stroke-width:1.6}
+.mpsvg .mp-news .b{stroke:var(--clay);stroke-width:1.6}.mpsvg .mp-news .t{font-weight:500}
+.mpsvg .mp-med .b{fill:var(--paper);stroke:var(--line)}.mpsvg .mp-med .t{font-weight:500;font-size:11px}
+.mpsvg .mp-dub .b{stroke-dasharray:4 3}
+.mpsvg a.lk{cursor:pointer}.mpsvg a.lk:hover .b,.mpsvg g.n[data-t]:hover .b{stroke:var(--clay);stroke-width:2}
+.mpsvg g[data-t]{cursor:pointer}.mpsvg .tg circle{fill:var(--paper);stroke:var(--clay);stroke-width:1.6}.mpsvg .tg text{font-size:10px;font-weight:700;fill:var(--ink);pointer-events:none}
+.mpsvg g:focus-visible,.mpsvg a:focus-visible{outline:2px solid var(--clay)}
+.mpl{margin-top:1rem}.mpl ul{margin:.3rem 0;padding-left:1.2rem}.mpl li{margin:.15rem 0;font-size:.88rem}
+@media print{.mpbox{overflow:visible;max-height:none;border:0}.mpsvg{width:100%!important;height:auto!important}.mptabs{display:none!important}}
 @media print{nav.top,#gs,.ctl{display:none!important}body{background:#fff;color:#000}}
 .art{display:flex;justify-content:space-between;gap:.75rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--line)}
 .art .t{font:600 1.05rem/1.35 Newsreader,serif;margin:.15rem 0 0}.art .t a{text-decoration:none}.art .t a:hover{text-decoration:underline}
@@ -1037,8 +1058,129 @@ V.notas=()=>{setTimeout(ntInit);const b=ntBase(),cm={},cat=new Set(),ds=b.map(x=
  <select id="no" aria-label="Orden"><option value="rec"${NT.o==='rec'?' selected':''}>Más nuevas primero</option><option value="ant"${NT.o==='ant'?' selected':''}>Más viejas primero</option></select></div>
  <div class="ctl"><label>Desde <input type="date" id="nd1" value="${esc(NT.d1)}"></label> <label>Hasta <input type="date" id="nd2" value="${esc(NT.d2)}"></label> <button type="button" id="nx">Limpiar</button></div>
  <p class="note">Hay notas guardadas desde el ${ft(ds[Math.floor(ds.length*0.02)])} hasta el ${ft(ds[ds.length-1])}. Para ver más atrás, tocá el botón: trae el archivo mensual (se arma desde hoy, no tiene notas anteriores).</p><div class="ctl"><button type="button" id="narch">Traer notas de meses anteriores</button> <span class="note" id="nar"></span></div><div id="nl"></div>`};
-const TABS=[['inicio','Inicio'],['diario','Diario'],['buscar','Buscar'],['notas','Notas'],['personas','Personas'],['ejecutivo','Ejecutivo'],['legislativo','Legislativo'],['menciones','Menciones'],['medios','Medios'],['temas','Temas'],['palabras','Palabras'],['cruce','Cruce'],['mayorias','Mayorías'],['hemiciclo','Hemiciclo'],['mapa','Mapa'],['verificar','Verificar'],['voz','Voz y peso'],['red','Red'],['casos','Casos'],['calidad','Calidad'],['fuentes','Fuentes'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados'],['control','Control']];
-const NEEDS={inicio:['top','ev','of'],medios:[],personas:[],persona:['dos','of','cur'],ejecutivo:['cur'],legislativo:['cur'],menciones:[],palabras:[],palabra:[],cruce:[],red:[],calidad:['cur'],mayorias:[],mapa:['ind','cen'],hemiciclo:[],diario:[],verificar:[],voz:[],casos:[],buscar:['cur'],notas:['news'],fuentes:[],temas:['top','tm'],tema:['top','tm'],eventos:['ev'],resumen:['news'],oficiales:['of','ofst'],destacados:[],control:['top','ev','news','of','ofst','dos','tm','nomst']};
+/* ---------- Mapas conceptuales y organigramas: SVG propio, sin librerías. Las personas salen de data/politicians.json (vigentes hoy); las noticias, del resumen diario ---------- */
+const MAPS={id:'nac',z:1,open:{},dia:'',T:null,idx:null};
+const MP_LISTA=[['nac','Poderes y niveles de gobierno'],['eje','Poder Ejecutivo de Salta'],['leg','Legislatura de Salta'],['mun','Concejo Deliberante'],['dia','Noticias del día']];
+const mpOpen=n=>n.id in MAPS.open?MAPS.open[n.id]:!!n.def;
+const mpWrap=(txt,max,maxL)=>{const w=String(txt||'').split(/\s+/).filter(Boolean),L=[];let c='';w.forEach(x=>{if(c&&(c+' '+x).length>max){L.push(c);c=x}else c=c?c+' '+x:x});if(c)L.push(c);
+ if(L.length>maxL){L.length=maxL;L[maxL-1]=L[maxL-1].replace(/.{0,2}$/,'')+'…'}return L};
+const MP_CW=7.1;
+function mpMeasure(n){const big=n.k==='root'||n.k==='ins';n._l=mpWrap(n.t,big?26:(n.k==='news'?38:28),4);n._s=n.sub?mpWrap(n.sub,34,2):[];
+ const m=Math.max(...n._l.map(x=>x.length*(big?7.5:MP_CW)),...n._s.map(x=>x.length*6.2),40);
+ n._w=Math.round(Math.min(Math.max(m+24+(n.kids&&n.kids.length?12:0),80),262));n._h=16+n._l.length*15+n._s.length*13}
+function mpLayout(root){const GAPY=9,cw=[],gp=[];
+ const place=(n,d)=>{n._d=d;mpMeasure(n);cw[d]=Math.max(cw[d]||0,n._w);
+  const ks=(n.kids&&mpOpen(n))?n.kids:[];n._ks=ks;
+  if(!ks.length){n._sh=n._h;n._cy=n._h/2;return}
+  let y=0;ks.forEach(k=>{place(k,d+1);k._top=y;y+=k._sh+GAPY});
+  const H=y-GAPY,a=ks[0],b=ks[ks.length-1],mid=((a._top+a._cy)+(b._top+b._cy))/2,off=Math.max(0,n._h/2-mid);
+  ks.forEach(k=>{k._top+=off});n._cy=mid+off;n._sh=Math.max(off+H,n._cy+n._h/2);
+  const lb=Math.max(0,...ks.map(k=>(k.lbl||'').length));gp[d]=Math.max(gp[d]||0,lb?Math.max(64,lb*5.8+30):56)};
+ place(root,0);
+ const X=[];let x=14;cw.forEach((w,i)=>{X[i]=x;x+=w+(gp[i]||56)});
+ const abs=(n,top)=>{n._x=X[n._d];n._y=top+n._cy-n._h/2+14;(n._ks||[]).forEach(k=>abs(k,top+k._top))};abs(root,0);
+ return{W:Math.ceil(x-(gp[cw.length-1]||56)+14),H:Math.ceil(root._sh+28)}}
+const mpTxt=(n,x,y)=>{let o='',yy=y+8+11;n._l.forEach(l=>{o+=`<text x="${x}" y="${yy}" class="t">${esc(l)}</text>`;yy+=15});
+ n._s.forEach(l=>{o+=`<text x="${x}" y="${yy}" class="s">${esc(l)}</text>`;yy+=13});return o};
+function mpSvg(root,z){const{W,H}=mpLayout(root);let ed='',nd='';
+ const walk=n=>{const kids=n._ks||[];kids.forEach(k=>{const x1=n._x+n._w+(n.kids&&n.kids.length?10:0),y1=n._y+n._h/2,x2=k._x,y2=k._y+k._h/2,mx=(x1+x2)/2;
+   ed+=`<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" class="e"/>`;
+   if(k.lbl)ed+=`<text x="${mx}" y="${(y1+y2)/2-3}" class="el" text-anchor="middle">${esc(k.lbl)}</text>`;walk(k)})};walk(root);
+ const draw=n=>{const c=n.kids&&n.kids.length,op=c&&mpOpen(n),cls='n mp-'+String(n.k||'per').split(' ').join(' mp-');
+  const body=`<rect x="${n._x}" y="${n._y}" width="${n._w}" height="${n._h}" rx="${n.k==='root'||n.k==='ins'?6:3}" class="b"/>`+mpTxt(n,n._x+10,n._y);
+  const ext=/^https?:/.test(n.href||'');
+  if(n.href)nd+=`<a href="${esc(ext?safe(n.href):n.href)}"${ext?' target="_blank" rel="noopener noreferrer"':''} class="${cls} lk"><title>${esc(n.t+(n.sub?' · '+n.sub:''))}</title>${body}</a>`;
+  else nd+=`<g class="${cls}"${c?` data-t="${esc(n.id)}" tabindex="0" role="button" aria-expanded="${op}"`:''}><title>${esc(n.t+(n.sub?' · '+n.sub:''))}</title>${body}</g>`;
+  if(c){const cx=n._x+n._w,cy=n._y+n._h/2;nd+=`<g class="tg" data-t="${esc(n.id)}" tabindex="0" role="button" aria-expanded="${op}" aria-label="${op?'Contraer':'Expandir'}: ${esc(n.t)} (${n.kids.length})"><circle cx="${cx}" cy="${cy}" r="9"/><text x="${cx}" y="${cy+4}" text-anchor="middle">${op?'−':n.kids.length>99?'99+':n.kids.length}</text></g>`}
+  (n._ks||[]).forEach(draw)};draw(root);
+ return`<svg class="mpsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${Math.round(W*z)}" height="${Math.round(H*z)}" role="group" aria-label="Mapa conceptual: ${esc(root.t)}"><g fill="none">${ed}</g>${nd}</svg>`}
+const mpLista=n=>`<li>${n.href?`<a href="${esc(/^https?:/.test(n.href)?safe(n.href):n.href)}">${esc(n.t)}</a>`:esc(n.t)}${n.sub?' <span class="note">· '+esc(n.sub)+'</span>':''}${n.kids&&n.kids.length?'<ul>'+n.kids.map(mpLista).join('')+'</ul>':''}</li>`;
+const mpAll=(n,f)=>{f(n);(n.kids||[]).forEach(k=>mpAll(k,f))};
+
+/* ---- Constructores de cada mapa ---- */
+const mpVig=cam=>personas.map(p=>[p,p.cargos.find(c=>c.p.chamber===cam&&c.v===1)]).filter(x=>x[1]);
+const mpPer=(p,c,sub)=>({id:'p/'+p.id,t:p.nombre,sub:sub==null?(c.lugar||''):sub,k:'per',href:'#/persona/'+encodeURIComponent(p.id)});
+const mpOrd=l=>l.sort((a,b)=>a[0].nombre.localeCompare(b[0].nombre,'es'));
+const mpBloques=(l,pre)=>{const g={};l.forEach(x=>{const b=x[1].bloque||'Sin bloque cargado';(g[b]=g[b]||[]).push(x)});
+ return Object.entries(g).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0],'es')).map(([b,x],i)=>({id:pre+'/b/'+fold(b),t:b,sub:x.length+(x.length===1?' banca':' bancas'),k:'grp',lbl:i?'':'bloque',kids:mpOrd(x).map(([p,c])=>mpPer(p,c))}))};
+const mpGob=()=>{const x=personas.map(p=>[p,p.cargos.find(c=>c.p.chamber==='Ejecutivo'&&c.v!==0)]).filter(y=>y[1]),f=r=>x.find(y=>r.test(fold(y[1].titulo)));return{x,gob:x.find(y=>/gobernador de/.test(fold(y[1].titulo))&&!/vice/.test(fold(y[1].titulo))),vice:f(/vicegobernador/)}};
+function mpEje(){const{x,gob,vice}=mpGob(),ft=y=>fold(y[1].titulo),hoja=(y,l)=>Object.assign(mpPer(y[0],y[1],y[1].titulo),{k:y[1].v===1?'per':'per dub',lbl:l,def:1});
+ const jefe=x.find(y=>/jefe de gabinete/.test(ft(y))),mins=x.filter(y=>/ministr/.test(ft(y))&&y!==jefe),sec=x.filter(y=>!/ministr|gobernador|jefe de gabinete/.test(ft(y)));
+ const reglas=[[/seguridad/,/seguridad/],[/gobierno|justicia/,/gobierno y justicia/],[/miner|energ|producci/,/producci.n y miner/],[/econom|hacienda/,/econom/],[/salud/,/salud/],[/educaci/,/educaci/],[/turism|deport/,/turism/],[/desarrollo social/,/desarrollo social/]];
+ const hijos=new Map(mins.map(m=>[m,[]])),aGob=[],aJefe=[];
+ sec.forEach(s=>{const t=ft(s);if(/vocer|comunicaci/.test(t)){aGob.push(s);return}
+  for(const[a,b]of reglas){if(a.test(t)){const m=mins.find(y=>b.test(ft(y)));if(m){hijos.get(m).push(s);return}}}aJefe.push(s)});
+ const nm=m=>Object.assign(hoja(m,'coordina'),{id:'p/'+m[0].id,kids:hijos.get(m).map(s=>hoja(s,'a cargo de'))});
+ const kids=[];
+ if(vice)kids.push(hoja(vice,'lo acompaña'));
+ if(jefe||mins.length)kids.push(Object.assign(jefe?hoja(jefe,'designa'):{id:'jg',t:'Gabinete',sub:'',k:'grp',lbl:'designa'},{kids:mins.map(nm).concat(aJefe.map(s=>hoja(s,'depende de'))).map((k,i)=>(i&&k.lbl==='coordina')?Object.assign(k,{lbl:''}):k)}));
+ aGob.forEach(s=>kids.push(hoja(s,'comunica por')));
+ const g=gob?Object.assign(hoja(gob,'encabeza'),{kids}):{id:'g0',t:'Gobernador',sub:'sin dato cargado',k:'grp',lbl:'encabeza',kids};
+ return{id:'eje',t:'Poder Ejecutivo de Salta',sub:'Gobierno de la Provincia',k:'root',def:1,kids:[Object.assign(g,{def:1})].concat([]),
+  nota:'Se arma con las personas del Poder Ejecutivo cargadas en data/politicians.json; el cargo dentro de cada ministerio se deduce del nombre del cargo. No incluye subsecretarías ni organismos que no estén cargados. Borde punteado = vigencia sin confirmar. Organigrama oficial completo: salta.gob.ar (Jefatura de Gabinete).'}}
+function mpLeg(){const sen=mpOrd(mpVig('Senado')),dip=mpOrd(mpVig('Diputados')),{vice}=mpGob();
+ const cs=Object.assign({id:'leg/s',t:'Cámara de Senadores',sub:sen.length+' senadores en ejercicio · uno por departamento',k:'ins',lbl:'cámara alta',def:1,kids:mpBloques(sen,'leg/s')}),
+  cd={id:'leg/d',t:'Cámara de Diputados',sub:dip.length+' diputados en ejercicio',k:'ins',lbl:'cámara baja',def:1,kids:mpBloques(dip,'leg/d')};
+ if(vice)cs.kids.unshift(Object.assign(mpPer(vice[0],vice[1],vice[1].titulo),{lbl:'preside'}));
+ return{id:'leg',t:'Legislatura de Salta',sub:'Poder Legislativo provincial · bicameral',k:'root',def:1,kids:[cs,cd],
+  nota:'Solo legisladores vigentes según la nómina oficial. El número de bancas por bloque cambia cuando alguien pide licencia o se reasignan bloques. Tocá el círculo de cada bloque para ver sus integrantes.'}}
+function mpMun(){const c=mpOrd(mpVig('Concejo Deliberante'));
+ return{id:'mun',t:'Municipalidad de la Ciudad de Salta',sub:'Gobierno municipal',k:'root',def:1,kids:[
+  {id:'mun/c',t:'Concejo Deliberante',sub:c.length+' concejales en ejercicio',k:'ins',lbl:'poder legislativo',def:1,kids:mpBloques(c,'mun/c')},
+  {id:'mun/i',t:'Intendencia',sub:'Departamento Ejecutivo municipal',k:'ins',lbl:'poder ejecutivo',def:1}],
+  nota:'El Concejo Deliberante sale de data/politicians.json. La Intendencia figura solo como institución: todavía no hay intendente ni secretarios cargados.'}}
+function mpNac(){const dn=mpOrd(mpVig('Diputados de la Nación')),sn=mpOrd(mpVig('Senado de la Nación')),{gob}=mpGob(),nCon=mpVig('Concejo Deliberante').length,nS=mpVig('Senado').length,nD=mpVig('Diputados').length;
+ const deleg=(l,id)=>l.length?[{id:id,t:'Delegación de Salta',sub:l.length+' en ejercicio',k:'grp',lbl:'incluye',def:1,kids:l.map(([p,c])=>mpPer(p,c,c.bloque||''))}]:[];
+ const ins=(id,t,sub,lbl,kids,href)=>({id,t,sub,k:'ins',lbl,def:1,kids,href});
+ const nacion=ins('n','Nación','Gobierno federal','nivel nacional',[
+  ins('n/e','Poder Ejecutivo','Presidente y Vicepresidente','ejecuta',[{id:'n/e/g',t:'Jefatura de Gabinete y ministerios',sub:'',k:'grp',lbl:'se apoya en',def:0}]),
+  ins('n/l','Poder Legislativo','Congreso de la Nación','legisla',[
+   ins('n/l/d','Cámara de Diputados','257 bancas','cámara baja',deleg(dn,'n/l/d/s')),
+   ins('n/l/s','Senado de la Nación','72 bancas','cámara alta',deleg(sn,'n/l/s/s'))]),
+  ins('n/j','Poder Judicial','Corte Suprema y tribunales federales','juzga',[])]);
+ const prov=ins('s','Provincia de Salta','Gobierno provincial','nivel provincial',[
+  ins('s/e','Poder Ejecutivo','Gobernador'+(gob?': '+gob[0].nombre:''),'ejecuta',[],'#/mapas/eje'),
+  ins('s/l','Poder Legislativo','Legislatura bicameral · '+nS+' senadores y '+nD+' diputados','legisla',[],'#/mapas/leg'),
+  ins('s/j','Poder Judicial','Corte de Justicia de Salta','juzga',[])]);
+ const mun=ins('m','Ciudad de Salta','Gobierno municipal','nivel municipal',[
+  ins('m/c','Concejo Deliberante',nCon+' concejales','legisla',[],'#/mapas/mun'),
+  ins('m/i','Intendencia','Departamento Ejecutivo','ejecuta',[])]);
+ return{id:'nac',t:'Estado argentino',sub:'Organización federal',k:'root',def:1,kids:[nacion,prov,mun],
+  nota:'La estructura de poderes sale de la Constitución; las bancas por cámara también. Los nombres de personas salen de data/politicians.json. Tocá un recuadro con enlace (Poder Ejecutivo, Legislativo o Concejo de Salta) para abrir su organigrama.'}}
+async function mpDia(){if(!MAPS.idx){const i=await leer('resumenes/index');MAPS.idx=((i&&i.dias)||[]).filter(x=>x&&/^\d{4}-\d{2}-\d{2}$/.test(x.fecha))}
+ const I=MAPS.idx;if(!I.length)return null;
+ if(!MAPS.dia||!I.some(x=>x.fecha===MAPS.dia)){const x=I.find(y=>!y.cobertura_baja&&y.fecha<hoyAR())||I[0];MAPS.dia=x.fecha}
+ const d=await diaLoad(MAPS.dia);if(!d)return null;
+ const temas=(d.temas||[]).slice(0,6),hs=d.historias||[];
+ return{id:'dia',t:'Prensa de Salta',sub:diaFecha(d.fecha,{weekday:'long',day:'numeric',month:'long'})+' · '+d.totales.historias+' historias · '+d.totales.medios+' medios',k:'root',def:1,
+  kids:temas.map(t=>({id:'dia/'+fold(t.tema),t:t.tema,sub:t.historias+(t.historias===1?' historia':' historias'),k:'grp',lbl:'tema',def:1,
+   kids:hs.filter(h=>h.tema===t.tema).sort((a,b)=>(b.medios||[]).length-(a.medios||[]).length).slice(0,3).map((h,i)=>({id:'dia/'+fold(t.tema)+'/'+i,t:String(h.titulo||'').slice(0,110),sub:(h.medios||[]).length+((h.medios||[]).length===1?' medio':' medios'),k:'news',lbl:i?'':'más cubierta',
+    href:((h.links||[])[0]||{}).link||'',kids:(h.medios||[]).slice(0,8).map((m,j)=>({id:'dia/'+fold(t.tema)+'/'+i+'/'+j,t:m,k:'med',lbl:j?'':'lo dicen'}))}))})),
+  nota:'Una historia aparece una sola vez aunque la cuenten varios medios. Los temas y su clasificación se calculan por titulares (sin IA) y pueden equivocarse. Tocá un titular para abrir la nota; el círculo muestra qué medios la dicen.'}}
+const MPB={nac:mpNac,eje:mpEje,leg:mpLeg,mun:mpMun,dia:mpDia};
+async function mpPaint(){const el=$('#mpv');if(!el)return;const id=MAPS.id;let T;
+ try{T=await MPB[id]()}catch(e){T=null}
+ if(!$('#mpv')||MAPS.id!==id)return;
+ if(!T||!T.kids||!T.kids.length){el.innerHTML='<p class="empty">No hay datos suficientes para armar este mapa todavía.</p>';return}
+ MAPS.T=T;const box=$('#mpbox'),sx=box?box.scrollLeft:0,sy=box?box.scrollTop:0;
+ let np=0;mpAll(T,n=>{if(/^p\//.test(n.id))np++});
+ el.innerHTML=`<div class="mpbox" id="mpbox" tabindex="0" role="region" aria-label="Mapa: ${esc(T.t)}. Se desplaza con el dedo o con las flechas.">${mpSvg(T,MAPS.z)}</div>
+ ${T.nota?`<p class="note">${esc(T.nota)}</p>`:''}<details class="mpl"><summary>Ver el mapa como lista de texto</summary><ul>${mpLista(T)}</ul></details>`;
+ const b2=$('#mpbox');if(b2){b2.scrollLeft=sx;b2.scrollTop=sy}}
+window.mpZoom=v=>{MAPS.z=Math.min(1.8,Math.max(.4,v==='fit'?(()=>{const b=$('#mpbox'),s=b&&b.querySelector('svg');if(!b||!s)return 1;const w=s.viewBox.baseVal.width;return Math.min(1.4,(b.clientWidth-8)/w)})():+v));mpPaint()};
+window.mpTodo=a=>{if(!MAPS.T)return;mpAll(MAPS.T,n=>{if(n.kids&&n.kids.length)MAPS.open[n.id]=n===MAPS.T?true:!!a});mpPaint()};
+window.mpDiaSet=f=>{MAPS.dia=f;MAPS.open={};mpPaint()};
+document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('#mpv [data-t]');if(!t)return;const id=t.dataset.t,n=(()=>{let r=null;mpAll(MAPS.T,x=>{if(x.id===id)r=x});return r})();if(!n)return;MAPS.open[id]=!mpOpen(n);mpPaint()});
+document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const t=e.target.closest&&e.target.closest('#mpv [data-t]');if(!t)return;e.preventDefault();t.dispatchEvent(new MouseEvent('click',{bubbles:true}))});
+V.mapas=id=>{const m=MP_LISTA.some(x=>x[0]===id)?id:'nac';if(MAPS.id!==m){MAPS.id=m;MAPS.open={}}setTimeout(mpPaint);
+ const dias=m==='dia'&&MAPS.idx?`<select aria-label="Día" onchange="mpDiaSet(this.value)">${MAPS.idx.slice(0,21).map(x=>`<option value="${esc(x.fecha)}"${x.fecha===MAPS.dia?' selected':''}>${esc(diaFecha(x.fecha,{weekday:'short',day:'numeric',month:'short'}))}</option>`).join('')}</select>`:'';
+ return`<h2 class="sec">Mapas conceptuales y organigramas</h2><p class="lede">Quién depende de quién y cómo se relacionan los poderes y las noticias, como mapa. Cada flecha dice la relación («coordina», «preside», «bloque»). Tocá el círculo de un recuadro para abrirlo o cerrarlo, y un recuadro con nombre para ir a la ficha o a la nota.</p>
+ <div class="ctl mptabs" role="group" aria-label="Elegir mapa">${MP_LISTA.map(([k,l])=>`<a href="#/mapas/${k}" class="mpb${k===m?' on':''}"${k===m?' aria-current="page"':''}>${esc(l)}</a>`).join('')}</div>
+ <div class="ctl"><button type="button" onclick="mpZoom(MAPS.z-.15)" aria-label="Alejar">−</button><button type="button" onclick="mpZoom(MAPS.z+.15)" aria-label="Acercar">+</button><button type="button" onclick="mpZoom('fit')">Ajustar al ancho</button><button type="button" onclick="mpZoom(1)">Tamaño normal</button><button type="button" onclick="mpTodo(true)">Abrir todo</button><button type="button" onclick="mpTodo(false)">Cerrar ramas</button><button type="button" onclick="window.print()">Imprimir o guardar PDF</button>${dias}</div>
+ <div id="mpv"><p class="note" role="status">Armando el mapa…</p></div>`};
+
+const TABS=[['inicio','Inicio'],['diario','Diario'],['mapas','Mapas'],['buscar','Buscar'],['notas','Notas'],['personas','Personas'],['ejecutivo','Ejecutivo'],['legislativo','Legislativo'],['menciones','Menciones'],['medios','Medios'],['temas','Temas'],['palabras','Palabras'],['cruce','Cruce'],['mayorias','Mayorías'],['hemiciclo','Hemiciclo'],['mapa','Mapa'],['verificar','Verificar'],['voz','Voz y peso'],['red','Red'],['casos','Casos'],['calidad','Calidad'],['fuentes','Fuentes'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados'],['control','Control']];
+const NEEDS={mapas:[],inicio:['top','ev','of'],medios:[],personas:[],persona:['dos','of','cur'],ejecutivo:['cur'],legislativo:['cur'],menciones:[],palabras:[],palabra:[],cruce:[],red:[],calidad:['cur'],mayorias:[],mapa:['ind','cen'],hemiciclo:[],diario:[],verificar:[],voz:[],casos:[],buscar:['cur'],notas:['news'],fuentes:[],temas:['top','tm'],tema:['top','tm'],eventos:['ev'],resumen:['news'],oficiales:['of','ofst'],destacados:[],control:['top','ev','news','of','ofst','dos','tm','nomst']};
 const SITIO='https://nexxusconsultora-lab.github.io/salta-monitor/';
 let firstRoute=true,rt=0;
 async function route(){const my=++rt;const keep=KEEP;KEEP=false;const [v,arg,arg2]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'',id2=arg2?decodeURIComponent(arg2):'';
