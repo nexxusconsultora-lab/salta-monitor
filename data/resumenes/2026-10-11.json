@@ -1,14 +1,14 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T16:03:13+00:00",
+ "generado": "2026-10-11T16:32:15+00:00",
  "totales": {
-  "recolectadas": 143,
+  "recolectadas": 146,
   "politicas": 20,
-  "seguridad": 15,
-  "descartadas": 110,
+  "seguridad": 16,
+  "descartadas": 112,
   "historias": 20,
-  "historias_seguridad": 15,
-  "medios": 5
+  "historias_seguridad": 16,
+  "medios": 6
  },
  "cobertura_baja": false,
  "temas": [
@@ -421,15 +421,15 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 15,
-   "historias": 15,
+   "notas": 16,
+   "historias": 16,
    "salta": 1,
-   "nacional": 14
+   "nacional": 15
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 8
+    "historias": 9
    },
    {
     "tema": "Narcotráfico y contrabando",
@@ -454,6 +454,25 @@
   ],
   "historias": [
    {
+    "titulo": "Policía murió durante enfrentamiento armado con las disidencias en Tuluá, Valle del Cauca: presunto integrante del grupo armado fue abatido",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "13:08",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Policía murió durante enfrentamiento armado con las disidencias en Tuluá, Valle del Cauca: presunto integrante del grupo armado fue abatido",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPb3JqM2M0Y0l4MHR0eUxtUk0xaTJabTR5OW0zZzNNME51MkN1Q2NwVGd3YnFjckE4bENVY0JWZW1YRzdtWXVrQ0YycGx1dEVrakJjSGNLaWxpNVEzYVBzVzNPZkRXWlc3MzF1bE1JSkUyTFhhTmxmVDcwVGhmVElwN05zd1gwbEFtZk5PMkNZb0JaRkQ1eG9zYnhTbmpob1BHVDJaV2pOTi0zcTlVMHJUeVQyazBfZ205eE5GcGI0cThtYUppejg2YnYwMDJUdXN5Q1BnWkVfLTlibS1NT29nR3IzY29vdG01NWQzNXBMa29VVVY2Sm1Qa1BjcWhEaG92LUpaRmRFWElmSzZ6UnpR0gGqAkFVX3lxTE1UUElUaElZemFuNGpaa3dlcWVEcXZBVzJHNm93WVlGU3ozVnJMZHI5UTBWRmp2NWhMY09IVGo5NlJTcVNMaHFwTXpQdzdsbjd6TmtVaUVndGhpVG1MQ2FheDRsbnA3TnZIdjhDQVAzelhGX2ZBTFdyVW5lZER2NWlweS0xVVdJeXJsZlZ4VlZoZDl0ZU55ampPaWE2VDRXYXRSVjVZTmp4SE81bF9DNTgwNXgyN1FEM2N4TzhMOW5NazhRekpsV3k0NEhjVDJHbkRlVW5sajBwZkRud0k4SGZ5MmNva1RndFh5S2Q3NFBtQ1RUMW9lSUpCTEtpYzhlcngwTEI5QkFMWGVlN2hnVFZOQVhJV0RwY2JOY0thYk9acHRJc2EtMFdNX3c?oc=5",
+      "hora": "13:08"
+     }
+    ],
+    "n": 1
+   },
+   {
     "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
     "alcance": "Nacional",
     "tema": "Narcotráfico y contrabando",
@@ -470,7 +489,7 @@
       "hora": "12:34"
      }
     ],
-    "n": 1
+    "n": 2
    },
    {
     "titulo": "Policía Nacional Civil informa sobre un operativo y la incautación de un arma de fuego",
@@ -489,7 +508,7 @@
       "hora": "12:14"
      }
     ],
-    "n": 2
+    "n": 3
    },
    {
     "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
@@ -508,7 +527,7 @@
       "hora": "11:42"
      }
     ],
-    "n": 3
+    "n": 4
    },
    {
     "titulo": "San Lorenzo: demoraron a una mujer que circulaba en una moto vinculada a un robo",
@@ -527,7 +546,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 4
+    "n": 5
    },
    {
     "titulo": "La Policía polaca tiene indicios de planes de atentado contra Tusk, según Interior",
@@ -546,7 +565,7 @@
       "hora": "10:50"
      }
     ],
-    "n": 5
+    "n": 6
    },
    {
     "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
@@ -565,7 +584,7 @@
       "hora": "10:14"
      }
     ],
-    "n": 6
+    "n": 7
    },
    {
     "titulo": "Fiscal general que acusó a Netanyahu afirma que la Policía actuó sin su consentimiento",
@@ -584,7 +603,7 @@
       "hora": "09:19"
      }
     ],
-    "n": 7
+    "n": 8
    },
    {
     "titulo": "Balacera en Los Olivos: Sujeto dispara contra un hombre y un menor de edad",
@@ -603,7 +622,7 @@
       "hora": "09:07"
      }
     ],
-    "n": 8
+    "n": 9
    },
    {
     "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
@@ -622,7 +641,7 @@
       "hora": "06:27"
      }
     ],
-    "n": 9
+    "n": 10
    },
    {
     "titulo": "La UCRIF de la Policía suma 2.291 detenidos desde 2021 por favorecimiento de inmigración irregular y documentación falsa",
@@ -641,7 +660,7 @@
       "hora": "05:46"
      }
     ],
-    "n": 10
+    "n": 11
    },
    {
     "titulo": "La Policía se despliega en el Guano para desalojar el último gran asentamiento ilegal de inmigrantes",
@@ -660,7 +679,7 @@
       "hora": "04:27"
      }
     ],
-    "n": 11
+    "n": 12
    },
    {
     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -679,7 +698,7 @@
       "hora": "03:05"
      }
     ],
-    "n": 12
+    "n": 13
    },
    {
     "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
@@ -699,7 +718,7 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 13
+    "n": 14
    },
    {
     "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
@@ -718,7 +737,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 14
+    "n": 15
    },
    {
     "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
@@ -737,7 +756,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 15
+    "n": 16
    }
   ]
  },
@@ -776,9 +795,16 @@
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 22,
+   "notas": 23,
    "politicas": 7,
-   "seguridad": 12
+   "seguridad": 13
+  },
+  {
+   "nombre": "El Tribuno",
+   "ambito": "Salta",
+   "notas": 20,
+   "politicas": 2,
+   "seguridad": 1
   },
   {
    "nombre": "Informate Salta",
@@ -788,11 +814,11 @@
    "seguridad": 2
   },
   {
-   "nombre": "El Tribuno",
-   "ambito": "Salta",
-   "notas": 19,
-   "politicas": 2,
-   "seguridad": 1
+   "nombre": "TN",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 0
   },
   {
    "nombre": "La Nación",
