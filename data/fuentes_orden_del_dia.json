@@ -11,12 +11,14 @@
     "sesion extraordinaria",
     "sesion preparatoria",
     "asuntos entrados",
-    "dictamen"
+    "dictamen",
+    "labor parlamentaria"
   ],
   "excluir_enlace": [
     "diario de sesion",
     "version taquigrafica",
-    "taquigraf"
+    "taquigraf",
+    "micrositios"
   ],
   "temas_vigilados": [
     "salta",
@@ -38,8 +40,8 @@
         {
           "url": "https://www.hcdn.gob.ar/",
           "link_pattern": "",
-          "verificada": false,
-          "nota": "Portada del sitio de la Cámara. Confirmar la dirección de la sección de sesiones / orden del día y reemplazar. Los dictámenes impresos («Orden del Día N°») se publican como PDF en www4.hcdn.gob.ar/dependencias/dcomisiones/periodo-NNN/NNN-NNNN.pdf."
+          "verificada": true,
+          "nota": "Verificada 11/10/2026: la portada trae enlaces que pasan el filtro."
         }
       ],
       "enabled": true
@@ -53,8 +55,8 @@
         {
           "url": "https://www.senado.gob.ar/",
           "link_pattern": "",
-          "verificada": false,
-          "nota": "Portada del sitio del Senado. Confirmar la dirección de la sección de sesiones / plan de labor / orden del día y reemplazar."
+          "verificada": true,
+          "nota": "Verificada 11/10/2026: la portada trae enlaces que pasan el filtro."
         }
       ],
       "enabled": true
@@ -68,8 +70,8 @@
         {
           "url": "https://www.diputadosalta.gob.ar/",
           "link_pattern": "",
-          "verificada": false,
-          "nota": "Portada del sitio (ya se lee para noticias). Confirmar la sección donde publican el orden del día de cada sesión y reemplazar."
+          "verificada": true,
+          "nota": "Verificada 11/10/2026: la portada publica las «Acta de Labor Parlamentaria» (plan de labor) de cada sesión."
         }
       ],
       "enabled": true
@@ -82,9 +84,9 @@
       "paginas": [
         {
           "url": "https://senadosalta.gob.ar/",
-          "link_pattern": "",
-          "verificada": false,
-          "nota": "Portada del sitio (WordPress; los PDF van a /wp-content/uploads/AAAA/MM/). Los «Diario de sesión» son de sesiones ya hechas y se excluyen; confirmar la sección del orden del día de la próxima sesión y reemplazar."
+          "link_pattern": "/orden-del-dia/orden-del-dia-\\d{4}/",
+          "verificada": true,
+          "nota": "Verificada 11/10/2026: la portada muestra «Orden del Día N° 23/22». El patrón toma solo esas direcciones (/orden-del-dia/orden-del-dia-AAAA/), sin menús ni partes de prensa."
         }
       ],
       "enabled": true
