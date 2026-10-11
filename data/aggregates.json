@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T17:07:01.103157+00:00",
+  "generated_at": "2026-10-11T17:09:44.551401+00:00",
   "by_politician": {
+    "sen-manuel-pailler": {
+      "total": 50,
+      "positivo": 4,
+      "negativo": 1,
+      "neutral": 45,
+      "score_sum": 7
+    },
     "eje-antonio-marocco": {
       "total": 15,
       "positivo": 2,
@@ -434,13 +441,6 @@
       "negativo": 4,
       "neutral": 7,
       "score_sum": -8
-    },
-    "sen-manuel-pailler": {
-      "total": 49,
-      "positivo": 4,
-      "negativo": 1,
-      "neutral": 44,
-      "score_sum": 7
     },
     "concejal-malvina-gareca": {
       "total": 41,
@@ -913,6 +913,16 @@
     }
   },
   "by_day": {
+    "2025-03-08": {
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2026-10-11": {
       "eje-antonio-marocco": {
         "total": 1,
@@ -9199,12 +9209,6 @@
         "score_sum": 0
       }
     },
-    "2025-03-08": {
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2025-02-26": {
       "concejal-gustavo-farquharson": {
         "total": 1,
@@ -15076,19 +15080,11 @@
       "count": 15
     },
     {
-      "term": "sáenz",
-      "count": 8
-    },
-    {
-      "term": "tribuno",
-      "count": 7
-    },
-    {
       "term": "orozco",
       "count": 7
     },
     {
-      "term": "molinos",
+      "term": "tribuno",
       "count": 6
     },
     {
@@ -15112,14 +15108,6 @@
       "count": 5
     },
     {
-      "term": "fondos",
-      "count": 5
-    },
-    {
-      "term": "ruta",
-      "count": 5
-    },
-    {
       "term": "garcía",
       "count": 4
     },
@@ -15129,6 +15117,22 @@
     },
     {
       "term": "criticas",
+      "count": 4
+    },
+    {
+      "term": "federico",
+      "count": 4
+    },
+    {
+      "term": "mangione",
+      "count": 4
+    },
+    {
+      "term": "salud",
+      "count": 4
+    },
+    {
+      "term": "mimessi",
       "count": 4
     }
   ],
