@@ -1,0 +1,93 @@
+{
+  "_leeme": "Fuentes que lee scripts/orden_del_dia.py para avisarte por Telegram cuando una cámara publica un orden del día, plan de labor o convocatoria a sesión. Una entrada por cámara; cada una puede tener varias páginas. IMPORTANTE: las páginas de abajo son el punto de partida y NO están verificadas todavía contra el sitio real (el entorno donde se armó esto no podía abrirlas). Corré la primera vez el workflow «Orden del día» y mirá data/orden_del_dia_status.json (o corré el script con --diagnostico): ahí dice, por cada página, cuántos enlaces encontró y cuáles pasaron el filtro. Si una página queda en «sin_resultados», abrila en el navegador, copiá la dirección exacta de la sección «Orden del día» / «Sesiones» y reemplazá la url. Páginas que arman su listado con JavaScript no se pueden leer con este método. Solo agregá páginas que hayas abierto vos y confirmado que son oficiales.",
+  "palabras_enlace": [
+    "orden del dia",
+    "orden de dia",
+    "plan de labor",
+    "convocatoria",
+    "temario",
+    "sesion ordinaria",
+    "sesion especial",
+    "sesion extraordinaria",
+    "sesion preparatoria",
+    "asuntos entrados",
+    "dictamen"
+  ],
+  "excluir_enlace": [
+    "diario de sesion",
+    "version taquigrafica",
+    "taquigraf"
+  ],
+  "temas_vigilados": [
+    "salta",
+    "litio",
+    "mineria",
+    "presupuesto",
+    "coparticipacion",
+    "endeudamiento",
+    "emergencia",
+    "reforma"
+  ],
+  "camaras": [
+    {
+      "id": "diputados-nacion",
+      "nombre": "Cámara de Diputados de la Nación",
+      "ambito": "Nación",
+      "icono": "🏛️",
+      "paginas": [
+        {
+          "url": "https://www.hcdn.gob.ar/",
+          "link_pattern": "",
+          "verificada": false,
+          "nota": "Portada del sitio de la Cámara. Confirmar la dirección de la sección de sesiones / orden del día y reemplazar. Los dictámenes impresos («Orden del Día N°») se publican como PDF en www4.hcdn.gob.ar/dependencias/dcomisiones/periodo-NNN/NNN-NNNN.pdf."
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "senado-nacion",
+      "nombre": "Senado de la Nación",
+      "ambito": "Nación",
+      "icono": "🏛️",
+      "paginas": [
+        {
+          "url": "https://www.senado.gob.ar/",
+          "link_pattern": "",
+          "verificada": false,
+          "nota": "Portada del sitio del Senado. Confirmar la dirección de la sección de sesiones / plan de labor / orden del día y reemplazar."
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "diputados-salta",
+      "nombre": "Cámara de Diputados de Salta",
+      "ambito": "Salta",
+      "icono": "🏔️",
+      "paginas": [
+        {
+          "url": "https://www.diputadosalta.gob.ar/",
+          "link_pattern": "",
+          "verificada": false,
+          "nota": "Portada del sitio (ya se lee para noticias). Confirmar la sección donde publican el orden del día de cada sesión y reemplazar."
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "senado-salta",
+      "nombre": "Cámara de Senadores de Salta",
+      "ambito": "Salta",
+      "icono": "🏔️",
+      "paginas": [
+        {
+          "url": "https://senadosalta.gob.ar/",
+          "link_pattern": "",
+          "verificada": false,
+          "nota": "Portada del sitio (WordPress; los PDF van a /wp-content/uploads/AAAA/MM/). Los «Diario de sesión» son de sesiones ya hechas y se excluyen; confirmar la sección del orden del día de la próxima sesión y reemplazar."
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}
