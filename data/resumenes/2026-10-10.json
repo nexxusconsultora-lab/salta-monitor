@@ -1,14 +1,14 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T20:02:30+00:00",
+ "generado": "2026-10-11T20:28:38+00:00",
  "totales": {
-  "recolectadas": 436,
-  "politicas": 96,
+  "recolectadas": 439,
+  "politicas": 98,
   "seguridad": 60,
-  "descartadas": 285,
+  "descartadas": 286,
   "historias": 82,
   "historias_seguridad": 55,
-  "medios": 28
+  "medios": 29
  },
  "cobertura_baja": false,
  "temas": [
@@ -52,12 +52,14 @@
    "tema": "Elecciones y partidos",
    "medios": [
     "BAE Negocios",
+    "C5N",
     "El Intransigente",
     "Infobae",
     "La Gaceta",
+    "La Nación",
     "TN"
    ],
-   "n_notas": 5,
+   "n_notas": 7,
    "primera": "10:52",
    "links": [
     {
@@ -85,10 +87,22 @@
      "hora": "14:05"
     },
     {
+     "medio": "C5N",
+     "titulo": "Tensión interna: Martín Menem calificó como \"muy complejo\" el armado político del Gobierno para 2027",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRDRaSXhvRGh1ekZTWkdaTFdJTGZJUXp3N0tCQU9wOWluTFd6anhSYnlfVVlaN25PQVphLVlZWWRJMm4tYUFJc2d0ZXNlX1l2UFowOFRpZ3prYUU2QWlCS2tIOENGaVJQUzBFUXZXd3paNVgwNVlMUmdma0NCZldrMmJOclBFMlYyMmVrZ2xuZzl0N1hJaDZvOXFjX2xMbnFmZWFLa3ZCNW5hcVpVM1B1NmNRTFdJdTdwRkNPMU80X3R0UFBPT242MtIBzgFBVV95cUxPZk5NaW0tZnpPUUdBY0ZGSVUzeFlpcFRqSFpmajNUQk5PMlNodVdyblU2MXR5R1VBSlhiMDJ2d2ptV2lvVVNnSmRFWVVrY0NDRW1tRFJIMXdnalFMYnM5QW5OS0kyRFhzbjdOemk3SXpfWTIxOXQ3UkVHWDBiYi1WUGw5X3dlREtSOVlJWU0tcTdNX28zVWJRajR0aGZneXJTeXNhajItUGhJQkF0cGFIN1FUekRCcVlsT3VJd3pBSnYxRXZvZTZJY0hDMmsydw?oc=5",
+     "hora": "14:36"
+    },
+    {
      "medio": "La Gaceta",
      "titulo": "Martín Menem habló de las tensiones en LLA y llamó a armar alianzas",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZlJFdElNVGlzal9IWjJCVURtS29PT19kZ1MydGFOdkhuWi0yd2pLd3FuNXJkRVhLZUlVcE5LWG1nXzM3alkwdXdmb1lPelBGYk94Vl85ZFZSck5vbXM1UEpaZ1dzTWREZ0xuNFRxd1NiX1h4cFVyakhGSEtMbGFHb3BuUlM3czFoNHh2YU1pY2QyOUNBZExnQUc5MVZ5VFJFSDVycnBMNDctTWo30gGyAUFVX3lxTE83NnlJUjFYeWRlOGUybUNkVVNnNEQzc29zVTRzODJGRFRpQ3NRVmpFU3huRVdvWkRCNUpTZGlaZDUtNEh3ZUdTcWZpcVQtSkhla2IwTGFFVWdaa0xaNER1dEpDMzY3ckZQbld2STdGcHZSMVRoek8wNGFrWXN3bXktYWMwUnNTOEczNHlWZUNMRzBBcjdRM1YyaXdBTHVlMC1KYlZBMU1fMExKRV9uSmIyQXc?oc=5",
      "hora": "14:40"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Martín Menem se refirió a las tensiones en el Gobierno y puso límites para la selección de aliados",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMlQxUU5hdHpjdUMtOHpxSV9aZjdZNHFHdl9Ga1pXZlRzb0E3RDRwcS1WWTIxZlFnNURndFNoT0dJNDNFd3ZmR0t5aEQ1WUZpckw4RlIybzJNVUVNX203M1Z2NkZQYmV3elhVMGZyM2xGejI1U3R6N0pNT1NvWlpfQUx0SzFYdmdjN21XSzJBX3dPRE01b1VVZXFScVF0VFVRRmFzMjdTSzB1M00tU281QjQycDNBbkdXNHFHYUhocm80RHVl?oc=5",
+     "hora": "15:00"
     }
    ],
    "n": 1
@@ -2313,18 +2327,22 @@
  "palabras": [
   {
    "t": "gobierno",
-   "n": 28
+   "n": 30
   },
   {
    "t": "milei",
    "n": 24
   },
   {
+   "t": "menem",
+   "n": 10
+  },
+  {
    "t": "javier",
    "n": 9
   },
   {
-   "t": "menem",
+   "t": "martin",
    "n": 8
   },
   {
@@ -2337,10 +2355,6 @@
   },
   {
    "t": "contra",
-   "n": 6
-  },
-  {
-   "t": "martin",
    "n": 6
   },
   {
@@ -2436,7 +2450,7 @@
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 34,
+   "notas": 35,
    "politicas": 2,
    "seguridad": 5
   },
@@ -2560,6 +2574,13 @@
    "seguridad": 0
   },
   {
+   "nombre": "La Nación",
+   "ambito": "Nacional",
+   "notas": 2,
+   "politicas": 1,
+   "seguridad": 0
+  },
+  {
    "nombre": "elDiarioAR",
    "ambito": "Nacional",
    "notas": 2,
@@ -2570,6 +2591,13 @@
    "nombre": "iProfesional",
    "ambito": "Nacional",
    "notas": 2,
+   "politicas": 1,
+   "seguridad": 0
+  },
+  {
+   "nombre": "C5N",
+   "ambito": "Nacional",
+   "notas": 1,
    "politicas": 1,
    "seguridad": 0
   },
@@ -2589,13 +2617,6 @@
   },
   {
    "nombre": "Caras",
-   "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 0,
-   "seguridad": 0
-  },
-  {
-   "nombre": "La Nación",
    "ambito": "Nacional",
    "notas": 1,
    "politicas": 0,
