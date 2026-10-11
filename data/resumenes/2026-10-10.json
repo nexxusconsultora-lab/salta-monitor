@@ -1,14 +1,14 @@
 {
  "fecha": "2026-10-10",
- "generado": "2026-10-11T16:32:15+00:00",
+ "generado": "2026-10-11T16:34:38+00:00",
  "totales": {
-  "recolectadas": 224,
+  "recolectadas": 225,
   "politicas": 37,
-  "seguridad": 29,
+  "seguridad": 30,
   "descartadas": 158,
   "historias": 35,
-  "historias_seguridad": 27,
-  "medios": 9
+  "historias_seguridad": 28,
+  "medios": 10
  },
  "cobertura_baja": false,
  "temas": [
@@ -725,10 +725,10 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 29,
-   "historias": 27,
+   "notas": 30,
+   "historias": 28,
    "salta": 4,
-   "nacional": 23
+   "nacional": 24
   },
   "subtemas": [
    {
@@ -737,7 +737,7 @@
    },
    {
     "tema": "Robos y estafas",
-    "historias": 7
+    "historias": 8
    },
    {
     "tema": "Homicidios y violencia",
@@ -942,6 +942,25 @@
     "n": 9
    },
    {
+    "titulo": "\"Posible estafa premeditada\": la bronca de los argentinos varados en España por los problemas operativos de la aerolínea Plus Ultra",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Clarin"
+    ],
+    "n_notas": 1,
+    "primera": "15:13",
+    "links": [
+     {
+      "medio": "Clarin",
+      "titulo": "\"Posible estafa premeditada\": la bronca de los argentinos varados en España por los problemas operativos de la aerolínea Plus Ultra",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeEJvYi00b1NpLXh3RTRiUWxJLVF2T3N6UEw2aWw5cVFIT1UtMU42MHpjMGV4c1J4ZVVPdkpKQTc0Y1FuQzdUZ19PY0tjZ3NVY0wzSTY4XzFZMlhnV0NUaFF3bVBNaXpidXRaZW01SUhEeTZ4ZldnTjNxQkQ5dFU4VmdGeG40bVAzU3VlV0pqdXJBRnlMenZGcmIxS3EtcVZ2OExER0JmWG96aTdlVmhKcXlxQVN3b05NVnYtRkVXdDRnNVdOYTFjRUQwLVhHbkVFUHdaVG9Eckx3VlJVd1ZES2MtejJ6dw?oc=5",
+      "hora": "15:13"
+     }
+    ],
+    "n": 10
+   },
+   {
     "titulo": "Impactante video: motochorros armados persiguieron a toda velocidad a un conductor en plena autopista Buenos Aires-La Plata",
     "alcance": "Nacional",
     "tema": "Robos y estafas",
@@ -958,7 +977,7 @@
       "hora": "15:13"
      }
     ],
-    "n": 10
+    "n": 11
    },
    {
     "titulo": "Orán: detienen a un hombre e incautan más de 32 kg de cocaína en una camioneta abandonada",
@@ -977,7 +996,7 @@
       "hora": "15:00"
      }
     ],
-    "n": 11
+    "n": 12
    },
    {
     "titulo": "Reporte de la Policía luego del homicidio de vigilante de bar en Bogotá",
@@ -996,7 +1015,7 @@
       "hora": "14:05"
      }
     ],
-    "n": 12
+    "n": 13
    },
    {
     "titulo": "Estaba condenado, no volvió de una salida transitoria y cayó tras una entradera en Villa Devoto junto a un cómplice",
@@ -1015,7 +1034,7 @@
       "hora": "12:58"
      }
     ],
-    "n": 13
+    "n": 14
    },
    {
     "titulo": "Una IA de Anthropic envió una pista falsa sobre un homicidio a la policía de Filadelfia",
@@ -1034,7 +1053,7 @@
       "hora": "11:52"
      }
     ],
-    "n": 14
+    "n": 15
    },
    {
     "titulo": "Lima sur: un delincuente muere y otros dos quedan heridos tras persecución policial por robo de auto",
@@ -1053,7 +1072,7 @@
       "hora": "11:49"
      }
     ],
-    "n": 15
+    "n": 16
    },
    {
     "titulo": "EDESA alerta por una web falsa y pide verificar los canales oficiales para evitar estafas",
@@ -1072,7 +1091,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 16
+    "n": 17
    },
    {
     "titulo": "Detenido el bailaor español Rafael Amargo y su pareja tras una pelea con un intruso",
@@ -1091,7 +1110,7 @@
       "hora": "10:18"
      }
     ],
-    "n": 17
+    "n": 18
    },
    {
     "titulo": "Desbaratan boca de expendio: detienen a un hombre y secuestran más de 300 dosis de drogas",
@@ -1110,7 +1129,7 @@
       "hora": "09:30"
      }
     ],
-    "n": 18
+    "n": 19
    },
    {
     "titulo": "La Policía detiene a 19 personas por las violentas protestas antiinmigración en Sudáfrica",
@@ -1129,7 +1148,7 @@
       "hora": "09:27"
      }
     ],
-    "n": 19
+    "n": 20
    },
    {
     "titulo": "La Policía desaloja un edificio de la universidad de Nantes ocupado por manifestantes",
@@ -1148,7 +1167,7 @@
       "hora": "09:06"
      }
     ],
-    "n": 20
+    "n": 21
    },
    {
     "titulo": "Detenidos en Palma tras ser pillados in fraganti cambiando pasaportes falsos por dinero",
@@ -1167,7 +1186,7 @@
       "hora": "07:58"
      }
     ],
-    "n": 21
+    "n": 22
    },
    {
     "titulo": "Detenido en Valladolid por intentar convencer a un niño para que le mandara fotos íntimas a través de un juego",
@@ -1186,7 +1205,7 @@
       "hora": "07:13"
      }
     ],
-    "n": 22
+    "n": 23
    },
    {
     "titulo": "Cuando la palabra es un muro, la Policía escucha con dibujos",
@@ -1205,7 +1224,7 @@
       "hora": "03:58"
      }
     ],
-    "n": 23
+    "n": 24
    },
    {
     "titulo": "La Policía monitoriza a grupos radicales tras tres semanas de protestas en la Puerta del Sol por la vivienda",
@@ -1224,7 +1243,7 @@
       "hora": "03:45"
      }
     ],
-    "n": 24
+    "n": 25
    },
    {
     "titulo": "Los vecinos salen a atrapar ladrones pero la inseguridad no da tregua",
@@ -1243,7 +1262,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 25
+    "n": 26
    },
    {
     "titulo": "Tenía 17 años en 2013, cuando asesinó a su mamá y a sus dos hermanos más pequeños",
@@ -1262,7 +1281,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 26
+    "n": 27
    },
    {
     "titulo": "Triple crimen en Solidaridad: Preso desde 2013, saldrá libre en un año por la nueva Ley penal juvenil",
@@ -1281,7 +1300,7 @@
       "hora": "01:47"
      }
     ],
-    "n": 27
+    "n": 28
    }
   ]
  },
@@ -1392,6 +1411,13 @@
    "notas": 2,
    "politicas": 2,
    "seguridad": 0
+  },
+  {
+   "nombre": "Clarin",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 1
   },
   {
    "nombre": "Que Pasa Salta",
