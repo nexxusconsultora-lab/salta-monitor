@@ -1,31 +1,35 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T17:02:48+00:00",
+ "generado": "2026-10-11T17:31:32+00:00",
  "totales": {
-  "recolectadas": 181,
-  "politicas": 31,
-  "seguridad": 23,
-  "descartadas": 129,
-  "historias": 31,
-  "historias_seguridad": 23,
-  "medios": 13
+  "recolectadas": 259,
+  "politicas": 47,
+  "seguridad": 36,
+  "descartadas": 179,
+  "historias": 46,
+  "historias_seguridad": 31,
+  "medios": 22
  },
  "cobertura_baja": false,
  "temas": [
   {
    "tema": "Gobierno y gestión",
-   "historias": 9
+   "historias": 16
   },
   {
    "tema": "Elecciones y partidos",
-   "historias": 9
+   "historias": 12
   },
   {
    "tema": "Poder Legislativo",
-   "historias": 6
+   "historias": 7
   },
   {
    "tema": "Economía y finanzas",
+   "historias": 4
+  },
+  {
+   "tema": "Justicia y seguridad",
    "historias": 3
   },
   {
@@ -33,11 +37,75 @@
    "historias": 3
   },
   {
-   "tema": "Justicia y seguridad",
+   "tema": "Minería y energía",
    "historias": 1
   }
  ],
  "historias": [
+  {
+   "titulo": "Una camarista federal de Salta suena como candidata a la Corte Suprema con la venia de Gustavo Sáenz",
+   "alcance": "Ambos",
+   "tema": "Justicia y seguridad",
+   "medios": [
+    "El Tribuno",
+    "Letra P"
+   ],
+   "n_notas": 2,
+   "primera": "00:10",
+   "links": [
+    {
+     "medio": "Letra P",
+     "titulo": "Una camarista federal de Salta suena como candidata a la Corte Suprema con la venia de Gustavo Sáenz",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWWZfdnBXcXMzT25oTjRyR1pxSUprcXBhRUhUWmNmcVQtMUV6Snl1YU5nbkVuUHZRdnhyNUNTd0tKYnZ2NFRyTDI2SVJ4NlVPX2Rvbnl4ZlktUnZ0Y2gyRmVhSS0zX19JRHh3dURFS0h0cDdic196b1NWTXJBb1VFLThrNHd5YU1odjVZdEd6elR1UW1keGY4ZVVXVTlsYXJERjBWaGFIajRGM3NneVZFa09ETl85bDM3RGtPM09oUF9odXBpblI4dWRUMmsySlhtR0HSAdIBQVVfeXFMTllmX3ZwV3FzM09uaE40ckdacUlKa3FwYUVIVFpjZnFULTFFekp5dWFOZ25FblB2UXZ4cjVDU3dLSmJ2djRUckwyNklSeDZVT19kb255eGZZLVJ2dGNoMkZlYUktM19fSUR4d3VERUtIdHA3YnNfem9TVk1yQW9VRS04azR3eWFNaHY1WXRHenpUdVFtZHhmOGVVV1U5bGFyREYwVmhhSGo0RjNzZ3lWRWtPRE5fOWwzN0RrTzNPaFBfaHVwaW5SOHVkVDJrMkpYbUdB?oc=5",
+     "hora": "00:10"
+    },
+    {
+     "medio": "El Tribuno",
+     "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTRTcHJpR0hqUjJuQUNwUUVicVlQVUJqeG5TU2xSR0NVRUozRVBCV3hFaUdJYndFN0RGXzJDMzZHN1hFRzNGQ1k2UmQwckdFclg5Tl91S1pGY0JjQXM1VGQyYXNnUnlMNEppMDAydGw5OTNDZmFaanc2RW9xU2ZHcXJNQWtibXY3amZKNkNzaUhlTkJxQXNFLS1WNXlFT1RKQlZaWkNfMmh3ZDlQblHSAbMBQVVfeXFMTXh6WnJFVzVibjI3MHQ5NXY0TV9ZYUw1bVVuZnNNdi05UU0tMUVoU05FRVk1ZTRqSVoyRERET0lta1dHR2pDUU5jOVhkRG54Qnk0ZUpQU0NvTVhRQlFOQjhoRlpOZkp2RW1OaXBVX0pKODhGYXh4SG81eTBjZmg1WnZtMTNhM1R6MC00NUdLSElROW9GX2V6QlJSSnpzOFF3VjdicVdYZWt1ZFhENUdIWml0R2c?oc=5",
+     "hora": "09:40"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "titulo": "Gobernadores de Salta y Antofagasta acuerdan impulsar el Corredor Bioceánico de Capricornio",
+   "alcance": "Salta",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Informate Salta"
+   ],
+   "n_notas": 1,
+   "primera": "14:00",
+   "links": [
+    {
+     "medio": "Informate Salta",
+     "titulo": "Gobernadores de Salta y Antofagasta acuerdan impulsar el Corredor Bioceánico de Capricornio",
+     "link": "https://informatesalta.com.ar/gobierno/gobernadores-de-salta-y-antofagasta-acuerdan-impulsar-el-corredor-bioceanico-de-capricornio_a6acb9b39be23996013d959a0",
+     "hora": "14:00"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "Tras volver de la gira por París con Milei, el gobernador Frigerio ratificó su respaldo a la eliminación de las PASO",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "13:00",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Tras volver de la gira por París con Milei, el gobernador Frigerio ratificó su respaldo a la eliminación de las PASO",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeXdia2pJazlrTnkzaWhJeHdIeFl2R1RKbWpVdG5BbldXcmtVVXJsc0dQQno2UHlQQTVBMlhKOU5QcnQwZW5aYXVpSmNGLV9lekVwRy1GLTJmb3dQX1BTWV9DaW5ibFp3Ulo0a09lX2g0WklfYm1WTGp1Rll3aGh4Vk5RZndOZHVjNEpJRVhrRGRGa3ZVT0RtcnZXaEdxUTJZekJCdkZQWXIzUHZHTF9zN3lscGstY291Slo3cEhSYmFTZzFNb0thb01Wb01WWFJ1elFpamdndERMelphcGtpanhHOGZzR2p6SjNBMFljbHJLZ9IBjAJBVV95cUxPa1pUNV9rM1VXclBoQ2Zmak80dm9rbV9kZXB4NUJINHpMaTJ6X0lwQXFrcGFJWTNwNlFCN1ZlNnU1Zm8wNmt5Q0RVMDZZTDRKRVk4eDllM080d1FILTF3MFV1N3lZd3hMU1pzU2lXZ3JtNUhYbE56cTN0QzFTUzBlZEVWSkhBNVBwekFHMGJ4eXJvUENvdE0wWDBpRlI1SmpBZ3dmWnNaTWR4Q29OczEwQ01GNmo1Q3dUYUtOZ3BBcWV2dTlISFB3N3Q5WEpYTHctUzl5YzUyWUxObnlORTJvVTJTeWRvNzNaMFNZMmphS19XMWgzZGlHaV93TkhJaDdiOUx6aWVJUWJkN3BJ?oc=5",
+     "hora": "13:00"
+    }
+   ],
+   "n": 3
+  },
   {
    "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
    "alcance": "Nacional",
@@ -55,7 +123,26 @@
      "hora": "12:34"
     }
    ],
-   "n": 1
+   "n": 4
+  },
+  {
+   "titulo": "El Gobierno organiza un amplio operativo de seguridad para la llegada del papa León XIV",
+   "alcance": "Nacional",
+   "tema": "Justicia y seguridad",
+   "medios": [
+    "Minutouno"
+   ],
+   "n_notas": 1,
+   "primera": "12:29",
+   "links": [
+    {
+     "medio": "Minutouno",
+     "titulo": "El Gobierno organiza un amplio operativo de seguridad para la llegada del papa León XIV",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlJ2QmZvbm1NVTlIaTRPOVVWX242WHJFVVlQbndVczFKRXItaTdPRnl1WjJseXFzREpGYXowT1F5TU1XVm1CQ3owSEVzRGtQdDB3VW1kU2dDTmg2Vm9FWjdvaTlyNVZsdWNQNVFucnhEUS0yeWxUS0RMbXVtZ0Q2ZlRRSGRaRDF1elNSMEJJNllZbzg0Y2VfbzN1bl9ITkdSZ2JQM181MmVrWWNoU2lTWXg5c1k4Z0w2MEpwR3RldWnSAcABQVVfeXFMT2ZSdkJmb25tTVU5SGk0TzlVVl9uNlhyRVVZUG53VXMxSkVyLWk3T0Z5dVoybHlxc0RKRmF6ME9ReU1NV1ZtQkN6MEhFc0RrUHQwd1VtZFNnQ05oNlZvRVo3b2k5cjVWbHVjUDVRbnJ4RFEtMnlsVEtETG11bWdENmZUUUhkWkQxdXpTUjBCSTZZWW84NGNlX28zdW5fSE5HUmdiUDNfNTJla1ljaFNpU1l4OXNZOGdMNjBKcEd0ZXVp?oc=5",
+     "hora": "12:29"
+    }
+   ],
+   "n": 5
   },
   {
    "titulo": "María Eugenia Vidal se comparó con otros gobernadores y exgobernadores: “Fui mejor que él”",
@@ -74,7 +161,7 @@
      "hora": "12:24"
     }
    ],
-   "n": 2
+   "n": 6
   },
   {
    "titulo": "“Nos hicieron creer que la juventud se podía volver de derecha”: Myriam Bregman apuntó contra Javier Milei en Córdoba",
@@ -93,7 +180,45 @@
      "hora": "12:09"
     }
    ],
-   "n": 3
+   "n": 7
+  },
+  {
+   "titulo": "Malvinas: cuál es el plan que prepara el Gobierno para llevar la disputa por el petróleo a un tribunal internacional",
+   "alcance": "Nacional",
+   "tema": "Minería y energía",
+   "medios": [
+    "A24"
+   ],
+   "n_notas": 1,
+   "primera": "12:01",
+   "links": [
+    {
+     "medio": "A24",
+     "titulo": "Malvinas: cuál es el plan que prepara el Gobierno para llevar la disputa por el petróleo a un tribunal internacional",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSkhIRnBtZ1NrSDUtU0FJNE83S0w1WUdLQmJsUExxMklhRUZSLTdMdEVQQmJpV3hPWlJKZ2pnTkdZLUkzZVMzd3FxMm4wa0ZpbEtFYUVseXh2aVVQSG9ZR01VNzhRTzh1WFVISHpIWEdLOGRSVDVrM2c0dnRFbU5nWGVLbHh1QzhrRmpwcUhNT0xzS2xJUjRLX2R1WTNnNTY4NXAzS0lCeW1KUkRvaDRXdURWSlo5QlpMdkg5cTQwbzhOdHV2akJtSk1aOGZQaElRcTJEb3dTN2diQdIB3wFBVV95cUxPVGpDSjEySGZuTlBGd1pyUW1LeU1mTDJacXZOOE9WdFhxNzJDSm1RZTRPcUNhVjhVYXFtSW81X2RCX0s2RFpYVkhmWUsyUjNKeWc4VWRyQjM5ZS1QUUswVHd3a1JpbHhKX3dfZDUxLV81bW9vSXZSdllUMGJtOHp2LVNXempYaGk0UHN6TWRGelp5YlgwcEt6U0NfRU1Ta25hM29rRXF3VUU0RkpockUtZUhITmZYT0o2TlMxRUZmMjJUajB5bTBOLVZPRVFfT3poRENoczJrbkNQNnRzX2xr?oc=5",
+     "hora": "12:01"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "titulo": "Sergio Berni cruzó al Gobierno: \"En vez de discutir el Pizzurno hay que preguntar dónde está el oro\"",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Minutouno"
+   ],
+   "n_notas": 1,
+   "primera": "11:39",
+   "links": [
+    {
+     "medio": "Minutouno",
+     "titulo": "Sergio Berni cruzó al Gobierno: \"En vez de discutir el Pizzurno hay que preguntar dónde está el oro\"",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkdNRkRFTDRYdlYydmFVQ01qY1BZZ0RMRjJiVElta2xnOUhjTkZRLUhXTndHNFp2WFpfQmp1VTNuOGdHX25LakdjNF9ob25xM1FUTFpQSXFzejViV2U0dEdMOHhGUTZXbU1XNTFmTkNhOWZXeUhNQjdfYWdINHdCQmpfX1Noa0VsSXM2cTJWSWZHNkhYUDIxOGlYTTIzRVJnRVhvS3ZqTHdVQkdlS0VDanlqdVZfQVhSYzVQbEdpSHdKTTl1X25FeFVFLXYxMU1DYXNpc9IB1AFBVV95cUxOSkdNRkRFTDRYdlYydmFVQ01qY1BZZ0RMRjJiVElta2xnOUhjTkZRLUhXTndHNFp2WFpfQmp1VTNuOGdHX25LakdjNF9ob25xM1FUTFpQSXFzejViV2U0dEdMOHhGUTZXbU1XNTFmTkNhOWZXeUhNQjdfYWdINHdCQmpfX1Noa0VsSXM2cTJWSWZHNkhYUDIxOGlYTTIzRVJnRVhvS3ZqTHdVQkdlS0VDanlqdVZfQVhSYzVQbEdpSHdKTTl1X25FeFVFLXYxMU1DYXNpcw?oc=5",
+     "hora": "11:39"
+    }
+   ],
+   "n": 9
   },
   {
    "titulo": "Unión por la Patria busca sesionar el 15 de octubre: “Estamos con expectativas”",
@@ -112,7 +237,7 @@
      "hora": "11:36"
     }
    ],
-   "n": 4
+   "n": 10
   },
   {
    "titulo": "Ley de Tierras: La Libertad Avanza afina su estrategia para bloquear la sesión de la oposición contra el DNU de Milei",
@@ -131,7 +256,7 @@
      "hora": "11:28"
     }
    ],
-   "n": 5
+   "n": 11
   },
   {
    "titulo": "Orsi encabeza este lunes un nuevo Consejo de Ministros con agenda abierta",
@@ -150,7 +275,7 @@
      "hora": "11:17"
     }
    ],
-   "n": 6
+   "n": 12
   },
   {
    "titulo": "El INDEC calculó cuánto vale el capital físico de la Argentina y Milei celebró un dato clave",
@@ -169,7 +294,7 @@
      "hora": "11:10"
     }
    ],
-   "n": 7
+   "n": 13
   },
   {
    "titulo": "Una escultura atribuida a Miguel Ángel en Argentina podría alcanzar un valor de 450 millones de dólares",
@@ -188,7 +313,7 @@
      "hora": "10:48"
     }
    ],
-   "n": 8
+   "n": 14
   },
   {
    "titulo": "Sergio Berni y Agustina Propato apuntaron contra el Gobierno de Milei: “Lleva a cabo un plan de desnacionalización”",
@@ -207,7 +332,7 @@
      "hora": "10:41"
     }
    ],
-   "n": 9
+   "n": 15
   },
   {
    "titulo": "Férreo respaldo de un gobernador a Javier Milei: “Para atrás no hay que volver nunca más”",
@@ -226,7 +351,7 @@
      "hora": "10:20"
     }
    ],
-   "n": 10
+   "n": 16
   },
   {
    "titulo": "Tras dos semanas de parálisis, Patricia Bullrich busca reactivar la agenda del Senado",
@@ -245,26 +370,64 @@
      "hora": "10:16"
     }
    ],
-   "n": 11
+   "n": 17
   },
   {
-   "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
-   "alcance": "Salta",
+   "titulo": "CFK, Máximo Kirchner y la teoría de la acumulación",
+   "alcance": "Nacional",
    "tema": "Elecciones y partidos",
    "medios": [
-    "El Tribuno"
+    "Letra P"
    ],
    "n_notas": 1,
-   "primera": "09:40",
+   "primera": "09:34",
    "links": [
     {
-     "medio": "El Tribuno",
-     "titulo": "El PJ se activa y ya piensa en la candidatura de Sáenz 2027",
-     "link": "https://www.eltribuno.com/salta/2026-10-11-9-40-0-el-pj-se-activa-y-ya-piensa-en-la-candidatura-de-saenz-2027",
-     "hora": "09:40"
+     "medio": "Letra P",
+     "titulo": "CFK, Máximo Kirchner y la teoría de la acumulación",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVGlVcXY4Y1J6TkcwSXd2TVQ4cmI4VkdBVzJIM1diRERLaGdybVgyRmhWYm9qRU8xWE92V3NpTFBLNEcxeVJIV1FERWRZa1pOYUg4ZzlBemtHTmVGWFNJNll0dWpDWmxlaVJsSUxNZGxJTTJsZF9kU1dUcTE3cV84dGttQnpVZkJHNWpidmx2RmFsOVM20gGaAUFVX3lxTE9BcUlZMldXNmM0RW1PbFpNOTBSUTV0eUN5NnRValVyRzhEdGJnUm1QRDRta0FMYmYxdUY0b1Zpa2FwZXdMeFNhNEFUdG1wYU5DUWpKelJYTXhGWWtDcFE0LXprWVhJZ3l6V182WWU0TTIzWHlBTXJQS1pxR25sWDNPdl92blIzTkJ3dzJVaHVyQUZPZ0RFUGZjYlE?oc=5",
+     "hora": "09:34"
     }
    ],
-   "n": 12
+   "n": 18
+  },
+  {
+   "titulo": "Escenario de cuartos o polarización: el peronismo debate la estrategia electoral de 2027",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "elDiarioAR"
+   ],
+   "n_notas": 1,
+   "primera": "09:28",
+   "links": [
+    {
+     "medio": "elDiarioAR",
+     "titulo": "Escenario de cuartos o polarización: el peronismo debate la estrategia electoral de 2027",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdC1lLVBJR0lHejIwSFBHenB4Rkx0NzY5YzhBZzdlMW1MZUs1Q2VtNXBfWmltWnhZSnFPbDl3aXoxVjJhTGxPWE9YZWdRdVg0aW8zNVJ6dkg0MWo1ZkY0TVY1ZzRlcUU1ZHhkbXVGaGlOdjhrZDRqcm91eE5tdkJ6THRmd0NwUWV2N2VYaUQ2czBLZXRfOEVQSnkzVFhCMlhLMmpaT0t4THZGTmhuQ2ViNXlmQllCMnozZnhPZEI0bW14RWPSAcgBQVVfeXFMTmZZM3ZMLXFLeWFhakZ4MVBYeU04bEFPdnYyZjB4RnVJNDllMlMxbGNLVXEyd3ZuZV9oel9WSElrTXVSamZyV05MNGJmV080ODlfa1Q0bnRkSmRhYU1NUDd3cGVmY1pjWTVOQmwwSnNIQjdtTXZrbWptX3ByNjMzWW1iV0lhWUpuV2plQUtnbnlyMXJmZGNGQ3pIWml2aG9uTFdBbjFmTEtIcm5RWkRvVnd5cm9IZnZTLW5fR0RGQ1lWaFJyNF9zSlA?oc=5",
+     "hora": "09:28"
+    }
+   ],
+   "n": 19
+  },
+  {
+   "titulo": "El gobierno de EE.UU. no ve que en el caso $LIBRA haya pruebas de un delito",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "La Nación"
+   ],
+   "n_notas": 1,
+   "primera": "09:25",
+   "links": [
+    {
+     "medio": "La Nación",
+     "titulo": "El gobierno de EE.UU. no ve que en el caso $LIBRA haya pruebas de un delito",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcDd0M1BoTi1wMlZMOVJHUzdzSDlwaGc0YUNId0hPbHdsVjJaNEtoMlhTU3pWQjdyMGN2cHRBR2RkaWNDVXhjMktJMTRLNDB4anNZa3RoMzZfZzNkS0ZkSGhKb1NlSEtEcTF4SEpVbUdXMFBBbHZvNDZfSFFXa2hkVC1hTDJfSkpiS0pBNkJyZGRFUWVwVk1yYXp2MTVZcjBRM0gyUTI4LWJ4SUpFV01xdklTbmxJek1HXzR3SVVRQ1RqVG5nOUN6cHF0c2dkNGxhTWFtc1YxTlQ4WVQ5NnlERUlubw?oc=5",
+     "hora": "09:25"
+    }
+   ],
+   "n": 20
   },
   {
    "titulo": "Argentina y Brasil: un vínculo económico sólido en medio de tensiones políticas",
@@ -283,7 +446,7 @@
      "hora": "09:10"
     }
    ],
-   "n": 13
+   "n": 21
   },
   {
    "titulo": "La relación Argentina-Brasil, más allá de la política, según CAMBRAS",
@@ -302,7 +465,7 @@
      "hora": "08:28"
     }
    ],
-   "n": 14
+   "n": 22
   },
   {
    "titulo": "Valdemar Costa Neto, el arquitecto del poder político en Brasil tras las elecciones",
@@ -321,7 +484,7 @@
      "hora": "08:13"
     }
    ],
-   "n": 15
+   "n": 23
   },
   {
    "titulo": "Presupuesto 2027: Salta inició las consultas regionales y anunció nuevas obras para los Valles Calchaquíes",
@@ -340,7 +503,7 @@
      "hora": "07:16"
     }
    ],
-   "n": 16
+   "n": 24
   },
   {
    "titulo": "Correr el velo de las políticas libertarias",
@@ -359,7 +522,26 @@
      "hora": "07:06"
     }
    ],
-   "n": 17
+   "n": 25
+  },
+  {
+   "titulo": "Las lecciones de Brasil para el peronismo",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Letra P"
+   ],
+   "n_notas": 1,
+   "primera": "07:00",
+   "links": [
+    {
+     "medio": "Letra P",
+     "titulo": "Las lecciones de Brasil para el peronismo",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd2d6RHRSQ29fQ3N5SW1waG9MWldzYlFpN0drTE9PeC1xaVRDQkpMTkdvR3ZkdWlxckN0dG1xWkZwQTRXa29lSW1KYmdlS1l5NU9SdnJKQldLR2N5Y2hjMVhDYlUwLVYzQlh6ekcxSWI0OERuZHdkU0NBWWlhUnRCM2p1ZF9rbGQ5czRJ0gGQAUFVX3lxTE5lSG1VclZENkFJUVFobVIyWmFoeWpZNjFDNUdKbE5OMG94UHlwcU5QOHhvOHZZWWdLYnBYU0F3bjJNVDBJc2dOSFN1ckdZb3FfWE04VFlVbVhiQU9wWndoT0VackdVVDlMblhxQkxiQmJ6MjByVDNTSWlodk1yM01aNDg2R2VFQ0oweHlmc0VoXw?oc=5",
+     "hora": "07:00"
+    }
+   ],
+   "n": 26
   },
   {
    "titulo": "La Casa Rosada afronta una semana clave en el Congreso, mientras busca acercar posiciones con los gobernadores para suspender las PASO",
@@ -378,7 +560,26 @@
      "hora": "06:00"
     }
    ],
-   "n": 18
+   "n": 27
+  },
+  {
+   "titulo": "En plena puja con los aliados, el Gobierno busca acelerar un acuerdo en el Senado para cambiar la ley de salud mental",
+   "alcance": "Nacional",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "03:06",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "En plena puja con los aliados, el Gobierno busca acelerar un acuerdo en el Senado para cambiar la ley de salud mental",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX2F3R2Z2REs0eFhQVGhjbGxhVDdaOVYwaTNDOUV6NGdobTV4MjhIVlJBdElPdHJzb2ItRjZpbXFMSmR4ZEZOTTFpYm03TEtDU1JhZVZVTjhQcWcxal9XRThwSTAxazBXVGZDX1lhRXdiUUMySWRlX19XbUppNGNBQkctMUZrbGNESGlXbUhEanBIbkllMGprNmFaeUVlOTBCUkNDS2p2cUlTS0JLRmxmOVNDSFNoUzNrNmwtX2tURlNoUG55UmhWcTZJWjFmNDBvZEtzVUpLRFk4QnpiemM1R2xWZExqMkVPZnpRbmZzRU8zZnPSAY4CQVVfeXFMTUVhWWFGdDFGV0tWWHA0SDBFSkJCMHBBenpxRnYtM3pNVDRwUmEzbWFOZUFqTmlLSUMzaDVfTjktRXBpMzEydUMzYWhMM1Y4aWFpTFFMQTBDenNtSmFwQzE1Qy1ZeXlYXzBpZzQxSi0zcE4zX1ZtSHZpZ0hHdXRleDNRTjBhaGNpMFdGUzhhdDRJUUo4S1BUYnVNY0NKRnV3ZnRyeW1IQV9jYUt5bnNJQkZqSzRCYmM4amt6Tm5IZWhPOXExMXh1SU90RmxPdkxndlBITFBZcnVOWW85aFNjTmZDWklLQjk5X2paQzVtaHhEWE9yQndtZ3lyek1UYWc4VDdkTDNoV2gtRFJZSjNB?oc=5",
+     "hora": "03:06"
+    }
+   ],
+   "n": 28
   },
   {
    "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -397,7 +598,26 @@
      "hora": "03:05"
     }
    ],
-   "n": 19
+   "n": 29
+  },
+  {
+   "titulo": "Euforia, intolerancia, crisis: las muchas caras de Javier Milei",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "02:32",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Euforia, intolerancia, crisis: las muchas caras de Javier Milei",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVGduR2F1Nkg3a1ZrbFRiNDk1XzRSOHdTOGFHT09DQ2FsbTllVThKUzF2QVAwMFB2RFBHMjZlUmdYcl9PU2hyaGdCY3JyemlvQVR1bXZydFZaVDFDeFRZSE9IRkNhN2ZrXzdnOVN2aHpZVk5CWE9PaXlmUEJObUEwRWJrVjN6TktNNTN3YUN3Vm85ek43NHBFRm93eWtpSXlLYmlHa2hab9IBwgFBVV95cUxOV09ROS1ZUXhKX1pBRngxa2VoeV9NNjNScy1vZXh5d1lsTHdIZkFwMXZtY2FHLXJrRmt4aXpDY0hKdHYtdlZxM25HLUVxNkZrWS0wbU8tbHFCcGpfWUVqZmQ3YzVxUllWUzZjd1BrMmJJeFRVcnF2Vm1NLTFGLTBoV1JwQjg4R0hYbF9MdzlXdm1obVNHU3RCeDgxM09HbFd6UWFFRzZiVXBxYXpPN1NCR1lFSjcwV3VZd2RTODVCbmZYdw?oc=5",
+     "hora": "02:32"
+    }
+   ],
+   "n": 30
   },
   {
    "titulo": "La interna del Gobierno amenazó con reactivarse esta semana, pero intentan apaciguarla",
@@ -416,7 +636,7 @@
      "hora": "02:31"
     }
    ],
-   "n": 20
+   "n": 31
   },
   {
    "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
@@ -435,7 +655,26 @@
      "hora": "02:30"
     }
    ],
-   "n": 21
+   "n": 32
+  },
+  {
+   "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
+   "alcance": "Nacional",
+   "tema": "Economía y finanzas",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "02:06",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPXzN2RDR6SGxIMXl3VTJOTzlydHdZMlprZmQ2a1dOdGJlWHFPeGtiSFZiRmZfTE1BdlVUenQ3N2xjNFBEWllFNXdtbE9HdVFQd2ltMkNwWXlFbXAtaXhpajVsZFpLdWdtSjhkdnFSM3NJUW82QnJaMUNha0F6QWhTX2lpWFlsQlViV2ZwdHNFMzZ1azRyd2pScC03RF9pS0xad2dZVC1PMl9SYjMtZHRJc3B0M1pJeGN0ckFsX21VajNCZmFFY25fajhrR1dxa0YxVFRoSHNhdmtHVmlNMG5tN2pCQmRvUGNzaWRVLUtOdm5aTWJIT3FFVjRYSHBTS1E2U0MwUG83T0MwUdIBpAJBVV95cUxPNDRxUU0tR2NmSUlzd0Ruc2tKODJnRXJkTEtGY2NZZFR5OHhNVWo2WWFHRGx1cVJuQTJReTZ2b25PclhPcjViNXdhZXhYeXd0TkR0dzVmMTJYU3dJRlhUYUNPaFVpbU1oTV9ZMldpSnFJT0MzM0lOWTZjTnFvS0NoQ01BTnZlOFU4QnkzMEFHU3dfMjY4ZnphUnZFOV8tNlBFUHFzelZ4LTBYUElFckJsRXcxRUtHY0lxb2ZvSU85R3FHRW01MHpmSWllNVZ0bGU2WEdzM2NxV3BUd0ZvbDNxcXlwZ0NQbnBLckpmRHJKUF9qRHZQOXBvZjlyb1dmZ0NyUTF0S2JYQ3hXYXhOSUppT3dsbDFvcHFMeWtJR3dzZzAwb3RD?oc=5",
+     "hora": "02:06"
+    }
+   ],
+   "n": 33
   },
   {
    "titulo": "La interna entre CFK y Kicillof divide cada vez más al PJ y dificulta un acuerdo electoral para el 2027",
@@ -454,7 +693,7 @@
      "hora": "02:06"
     }
    ],
-   "n": 22
+   "n": 34
   },
   {
    "titulo": "Gobierno Nacional nombró a Veterano Malvinas al frente de la Escuela de Inteligencia",
@@ -473,7 +712,7 @@
      "hora": "01:46"
     }
    ],
-   "n": 23
+   "n": 35
   },
   {
    "titulo": "El \"mata mata\" de Milei: las tres batallas incómodas camino a la reelección",
@@ -492,7 +731,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 24
+   "n": 36
   },
   {
    "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación “blue” para bajar impuestos",
@@ -511,7 +750,7 @@
      "hora": "01:37"
     }
    ],
-   "n": 25
+   "n": 37
   },
   {
    "titulo": "La interna del Gobierno Nacional repercute en la discusión del Congreso: el análisis de Cristina Pérez",
@@ -530,7 +769,7 @@
      "hora": "01:30"
     }
    ],
-   "n": 26
+   "n": 38
   },
   {
    "titulo": "Axel Kicillof ya tiene otro postulante para sucederlo en la gobernación bonaerense",
@@ -549,7 +788,7 @@
      "hora": "01:16"
     }
    ],
-   "n": 27
+   "n": 39
   },
   {
    "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
@@ -568,7 +807,26 @@
      "hora": "00:40"
     }
    ],
-   "n": 28
+   "n": 40
+  },
+  {
+   "titulo": "De Deep Purple al peronismo: el guiño musical de Miguel Ángel Tallarita en pleno show de Los Fundamentalistas",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Minutouno"
+   ],
+   "n_notas": 1,
+   "primera": "00:28",
+   "links": [
+    {
+     "medio": "Minutouno",
+     "titulo": "De Deep Purple al peronismo: el guiño musical de Miguel Ángel Tallarita en pleno show de Los Fundamentalistas",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVWxxMUhEMkZFeG8xTGdScGNnQ0pPanZFdWtrY0dMVmN6RTF3QjFhYUVFd0tVMjFTeW14djBSQ2RQbXk0YUVUVGY0Y3ljdFJTQlNrR0l4R3p0QmdjV1Y5WUwxV1FQdnluS09reDZfc0g0N28zRmZNOVItUEVUYTA0UEtQTmdWWDd3cERVYzNqdzc4b3piMmxNYThIWkZYdGozRFFLaHpJNG1IeURnVG5ZV0h0ZThkbU83b1dFOTlzOXdseHREMjRRaGFYaHFLUXdsd2pMQU85V3VBLTJreEJhTNIB4AFBVV95cUxOVWxxMUhEMkZFeG8xTGdScGNnQ0pPanZFdWtrY0dMVmN6RTF3QjFhYUVFd0tVMjFTeW14djBSQ2RQbXk0YUVUVGY0Y3ljdFJTQlNrR0l4R3p0QmdjV1Y5WUwxV1FQdnluS09reDZfc0g0N28zRmZNOVItUEVUYTA0UEtQTmdWWDd3cERVYzNqdzc4b3piMmxNYThIWkZYdGozRFFLaHpJNG1IeURnVG5ZV0h0ZThkbU83b1dFOTlzOXdseHREMjRRaGFYaHFLUXdsd2pMQU85V3VBLTJreEJhTA?oc=5",
+     "hora": "00:28"
+    }
+   ],
+   "n": 41
   },
   {
    "titulo": "La Corte Suprema repuso los límites de la Ley de Tierras y trae un viejo debate de vuelta al Congreso: los detalles",
@@ -587,7 +845,45 @@
      "hora": "00:15"
     }
    ],
-   "n": 29
+   "n": 42
+  },
+  {
+   "titulo": "\"El que no salta...\": el cancionero contra Javier Milei en el show de Los Fundamentalistas en Tucumán",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Minutouno"
+   ],
+   "n_notas": 1,
+   "primera": "00:08",
+   "links": [
+    {
+     "medio": "Minutouno",
+     "titulo": "\"El que no salta...\": el cancionero contra Javier Milei en el show de Los Fundamentalistas en Tucumán",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdTU2b0R3a0JWMGE3UHZGbjgxXzA5Y243WEZ2aGFDeDkwa0ItRnN3T1dFTHdXb1loY3Z2SXR2WklSZXpDbldYY3A4UVBGT0J0U0RldHVhdW02dUFaZVA2WDdITElsY0s1Nmd3RTZnTnJJcjZ5TXY3akx3d25VWXlQYmx5NG1WRUhXTFE5YzJYNWVzQmZET0x5U2p6OFgtcWRpbi1CR0MzdWwtY3pqa1daQzA0MG9vT0RmLXJHQWRIM3ZzUnFHUlJMUEFLN0poaEnSAc8BQVVfeXFMUHU1Nm9Ed2tCVjBhN1B2Rm44MV8wOWNuN1hGdmhhQ3g5MGtCLUZzd09XRUx3V29ZaGN2dkl0dlpJUmV6Q25XWGNwOFFQRk9CdFNEZXR1YXVtNnVBWmVQNlg3SExJbGNLNTZnd0U2Z05ySXI2eU12N2pMd3duVVl5UGJseTRtVkVIV0xROWMyWDVlc0JmRE9MeVNqejhYLXFkaW4tQkdDM3VsLWN6amtXWkMwNDBvb09EZi1yR0FkSDN2c1JxR1JSTFBBSzdKaGhJ?oc=5",
+     "hora": "00:08"
+    }
+   ],
+   "n": 43
+  },
+  {
+   "titulo": "Con poco más para dar, el modelo Milei confirma ganadores, sin olvidar al chiquitaje",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "elDiarioAR"
+   ],
+   "n_notas": 1,
+   "primera": "00:01",
+   "links": [
+    {
+     "medio": "elDiarioAR",
+     "titulo": "Con poco más para dar, el modelo Milei confirma ganadores, sin olvidar al chiquitaje",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdnRTLWlyVVJCVlo2aHJhREx5Ty10QmVJTExnMDgwSzVWbVVoVUhJVXYyMTdXcWplVG5NY2hPUmRmUHZvZmoyYV9FLU9DYmlyQlVDMHFxbV9LRWphcmRPWDdwSi0wSVVWUHAyTHBFOUNodHlqRENnQjhENkxDVWQwY2w1dUFkNm5ORlZMVzR2eTNfZHRrV1NISmdSbHFmMlJ2NWt6NFVuNllkc3lacEHSAbMBQVVfeXFMTXpJRy1fYldpbFE4bU9NMFdDXzFlaG56eG1WZFpRbkRfN2tfd1BCeF8xcGVCMHk3MFQtS0ZxUnliOTBpZ01nNjNWZllUbzVSV1lLbG9Lc215QjVaWE5sdWlnT0dYQ3FFUVBDckJPbnc0NDNxN0xpRUw0WlVQMDh0SlVCbmN4eGVlU25fWFdoUXdBM3ZhaEF4d3pBNUgwU2lLaTJTS21DSkdiamJBdXl3Y1prRTQ?oc=5",
+     "hora": "00:01"
+    }
+   ],
+   "n": 44
   },
   {
    "titulo": "El cálculo que divide a los libertarios: las PASO, el factor PJ y el poder de los gobernadores",
@@ -606,7 +902,7 @@
      "hora": "00:00"
     }
    ],
-   "n": 30
+   "n": 45
   },
   {
    "titulo": "La agroindustria brasileña se impone en la política: ¿\"soy power\" otra vez?",
@@ -625,43 +921,152 @@
      "hora": "00:00"
     }
    ],
-   "n": 31
+   "n": 46
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 23,
-   "historias": 23,
-   "salta": 5,
-   "nacional": 18
+   "notas": 36,
+   "historias": 31,
+   "salta": 4,
+   "nacional": 27
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 9
+    "historias": 11
    },
    {
     "tema": "Robos y estafas",
-    "historias": 7
+    "historias": 8
+   },
+   {
+    "tema": "Homicidios y violencia",
+    "historias": 5
    },
    {
     "tema": "Narcotráfico y contrabando",
     "historias": 3
    },
    {
-    "tema": "Homicidios y violencia",
+    "tema": "Justicia penal",
     "historias": 2
    },
    {
-    "tema": "Justicia penal",
-    "historias": 1
-   },
-   {
     "tema": "Violencia de género",
-    "historias": 1
+    "historias": 2
    }
   ],
   "historias": [
+   {
+    "titulo": "Estaba prófugo desde 2022 por presuntas estafas en Salta, cayó en Australia y será extraditado: administraba más de US$170.000 en criptomonedas",
+    "alcance": "Salta",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Infobae",
+     "La Voz del Interior",
+     "TN"
+    ],
+    "n_notas": 5,
+    "primera": "02:45",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Estaba prófugo desde 2022 por estafas con bitcoin en Salta, cayó en Australia y lo extraditarán la próxima semana",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeWcyc1J1TFVqN3ZpV0tYbmlWZk1zSzViblFKZmNFbnpWWFNDYTFiVEprb0JrcFk4eVpPamowUmhXSEFrM1pMaVFVV3piamNqbmU0SmNRQ3c4Z192YTB1QVM5V3l2S3piOHA4R0JhazdIX29MUWk5LS13T2FoYm5WY1JBRHdSMEF1VnJseFRucFRuREt0bEotLV9pSkVGaHNDVEJERkI2dDRfX0hKcmVhRUpvc3BLcTlBeERIMFY2S2FXRDVVV0xuX1o3S04yUkFKb3J4UEIwaW5TN1hsSDl3QXZjbXVwaE9iN1otNTFQOGhpMG5BanBNVXBLQk3SAZcCQVVfeXFMTjhmaTFyUk9NbjVUalZFbWVYWXAwMDM3dFNIQUh6Xy1LRjdkSHh0bzZIZzZOZElSbHF3MkU0aTZ2X09tbEZEN0J6dVYxUjR3RnBQTkVMd0lIbk9HSHpjcjZJTGVSeXY4MXBLZDA1NGQzQlZqT3hkY0tEamZGWUl6UjNVZXlqN1JkdldULWUxTzNsRGNWb3pHWDNZeUducjUwcHh1bElKZmxiTTkzVkd2T2IxdVhwd1ZWV1ZaVlhCZkZoc3Zub1JtU1N0VFJNZC1fS2dQajZJTXd2aWt5dV9zSHkyWWttQlRGTkJEVmttYUZ6Z1QtQmRkOHpYMUJMcl9jQXJobnM1TWdmVUhGREZ6RmFpX2J5bW8w?oc=5",
+      "hora": "02:45"
+     },
+     {
+      "medio": "TN",
+      "titulo": "Estaba prófugo desde 2022 por presuntas estafas en Salta, cayó en Australia y será extraditado: administraba más de US$170.000 en criptomonedas",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdGJUaTRhUlZoR0ZLTWJxZnpzaGxlck9pVWtaWFY3aVplUDR6aERRYy1zSU8yaFNLV0lDOEtQZGZkNklLRzNaNk53YTdaZVRWZGlEMTdWckdIejZJMVFMWV9jMHVSS1NDcGNLaFgxMEo3Vm93dWdYTnQtSDlYb1gtMGszMUE4d3l0bDNEU3ZteGZKTXlZYUY2NXVZUFFPSmpGd1BJT1ZaTEttWEdvMnl1R1hXNGUtSFZMRklpaHUteEotLWJ6LU9pUjNIb3lpNzN2UzBTOGtXaVQ1LVHSAe8BQVVfeXFMTi0wNjZrVzVQTFRvLTJnY19GdEN3d3ZsSTJwYkdMUkozMExfUktIYmFsM1RpYm5rQWF4WVpBRlJfZ3J0dmh0ZHJRQl9vNXktekFsam5Uek1scWxSVE91RUxlTnpLVlVxNTRBVVk1MmNwN2V4b2pla2U4X255TVptWkhHakNKREs1X1dVWmVGVDBxMTNyVHY3STB4QXpsUHlHMWx3VkpvdkRGSG96VFpGYjF0RmJXV2FMeHZLckI3cmlnbnAyN1pyYlRKbjZ4MV9ETDl1T3hReUthZG41QlBJamdfZmQ0LTVjWmZjeFFGZlE?oc=5",
+      "hora": "09:52"
+     },
+     {
+      "medio": "TN",
+      "titulo": "Estaba prófugo desde 2022 por presuntas estafas con bitcoin en Salta y lo encontraron en Australia: será extraditado",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLTA2NmtXNVBMVG8tMmdjX0Z0Q3d3dmxJMnBiR0xSSjMwTF9SS0hiYWwzVGlibmtBYXhZWkFGUl9ncnR2aHRkclFCX281eS16QWxqblR6TWxxbFJUT3VFTGVOektWVXE1NEFVWTUyY3A3ZXhvamVrZThfbnlNWm1aSEdqQ0pESzVfV1VaZUZUMHExM3JUdjdJMHhBemxQeUcxbHdWSm92REZIb3pUWkZiMXRGYldXYUx4dktyQjdyaWducDI3WnJiVEpuNngxX0RMOXVPeFF5S2FkbjVCUElqZ19mZDQtNWNaZmN4UUZmUdIB7wFBVV95cUxOLTA2NmtXNVBMVG8tMmdjX0Z0Q3d3dmxJMnBiR0xSSjMwTF9SS0hiYWwzVGlibmtBYXhZWkFGUl9ncnR2aHRkclFCX281eS16QWxqblR6TWxxbFJUT3VFTGVOektWVXE1NEFVWTUyY3A3ZXhvamVrZThfbnlNWm1aSEdqQ0pESzVfV1VaZUZUMHExM3JUdjdJMHhBemxQeUcxbHdWSm92REZIb3pUWkZiMXRGYldXYUx4dktyQjdyaWducDI3WnJiVEpuNngxX0RMOXVPeFF5S2FkbjVCUElqZ19mZDQtNWNaZmN4UUZmUQ?oc=5",
+      "hora": "09:52"
+     },
+     {
+      "medio": "TN",
+      "titulo": "Quién es Nicolás Mendioroz Juncosa, el argentino acusado de estafas con criptomonedas que fue encontrado en Australia",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWDk2MzZzMXlZRVBUby12ZnM2UmlQLTVJblJ6MVYyRE1MN3R1dVRSbEdzY19LblBkLVUzYS1xcTZBU0RuellEeXY0NVYzRWk2QnA1NnA0RFhGX01Qb1NuZWdHQzdncjhHVnFkd29BUVdJcHdJdjh0SXVRVWgtNncwc19wSHEySndMbWxQTG8yOU1DR0hpSEJkU2dncHRJSUVfTWhDVER4cnl3ZmhMdHRJd2w2RmpiRWRKR1FUeFZFdDhieC1BM05CYlZ2dTNobGRLUnpkRTRpWHRaMXB2UzlDUEljNHZ5Z242d0hIZWFR0gGCAkFVX3lxTE9SbGsyajNzU2NIQVdOalVhaTEyakJVMWMwZ3o4UW5FeFYxRWl1VDlldHYzWWNWSUxuYl9OUUN1RmNmemY5cTRJbjNpVE82ODFyVVd3WmZreWtFUnI0NjQ5RGQ3TlNQaUFRSVpTZVJZOXAzUzRNTUJxaWxiR0J0dl94RUZpZUY1NWJCalE5a0VoV3NNc0F3a2hrRHpNcjV0RTFxNzdjSndLLU1SckdoTDZOSkhTSWJQdVZZSEQwS29MWnRqVzlpb04yNUpBWHJ5SlRJandPbXVsbWdyRld1UTNYOU43OUIzY1dGbFFKam8wdkMxTmRnUy13Q181bWl1NUpkQQ?oc=5",
+      "hora": "12:58"
+     },
+     {
+      "medio": "La Voz del Interior",
+      "titulo": "Atraparon en Australia a un prófugo acusado de estafas con criptomonedas en Argentina: será extraditado",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFpIV0lmUUR1czhwOU1BSk1RODBSNjdkd2VxWU5YUmhLdVpqcEhwM01HWTVxZmg1UWRHaklIMWgyX2lBWjBWTEZQUk1QNEJOZG9hZm92RkRGUjZndVVYbkNQblhITDhHTjB6SkZpSDNtTXBRM0dNOFdNNHFXd0NWR1NkSmIwXzJTTDFSRUNvM2NEZnNlUVJHSkJacW96c0l2QW1VVmdUeXBOTVhWV2dQN2VYZkVhbkxsU1luZGg2Q196R3d3U18tR0x3?oc=5",
+      "hora": "13:23"
+     }
+    ],
+    "sigue_de_ayer": true,
+    "n": 1
+   },
+   {
+    "titulo": "La Policía Nacional inicia el desalojo del campamento de migrantes de El Guano en Ceuta",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 2,
+    "primera": "05:07",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía Nacional inicia el desalojo del campamento de migrantes de El Guano en Ceuta",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcVNUSkIxaURIa0pORGViSFZMS0NscFhkNTVfMV9FSlhkSWZIeEtzMUpIUnU1R3h4TXVtMVF5SlBuVjhST1BVMlB6LU1yVU4zcXpJUzhLZm5HcXNTUm1yeS10dXRjZFZ4MVVBaGs4aEZPamNVakVhYkZ1Z3I2QVJ3eTE4ajh2ZklFaUJNUV9QYlZlcEtkR05GY05STlJoak12SUxMLVB5NGlBSkh3YWIzeTl0Vm1mVmJLUTVvS3FNSVdSdkdYZEtlZks4V3BKZ1EzeEpqRDRB0gHwAUFVX3lxTE9PZkw1R28xSFBIYXVJWmNteDlhSThiY2J4Z3FCenNQSWlxTzlLckxCb3hVWXpEbmxkQnhFOThFM2ttdFRRa28tcm1CTmlXckVZY0prMzV5emNFRUlpM0p1MEdjY1gxRUZPU2hnajJxZUlHd0VqaVl1NHZqNXBFcDBwNUhEM0VuUG9xY1JXbXpUU1I0dFVwRW0xYjdXS1ZtX2l3NUxTODAyS19CQXdWbWdBTEF1MTNVdXBIVWwtaEUtUVE4V1hsVXlxTFQzNGM4SFFuaWhHUUFwNlh5aHNSME9HdVk3NkdacDI0aG1JSHNvdw?oc=5",
+      "hora": "05:07"
+     },
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNWdzWGY4WXY2VnBKSHJVUGMzd0xFZEhwV1JBQ05HVXQ0enhseUd4a0hhQjBibTFyZk1KYkx1UU5zWk5LN3pVc3VTUGRWUWlIdDRIaVZJRjVQeEVFRTh4V3k1NlhXazIzTGEwUjRmckg2ZlNjeXBqU29ES3BKaHFwZDVDd01hajRYNV9Oa0tVd3pFeVFtVTZHNTU5OHRaemkxZlVuWnBjWjBjMmU1dU5FeFpWTGR5c0VZR2tNYktJc1lXX3JjRWZob1Z3WTZpSjEt0gHrAUFVX3lxTFBMV2M1dW5fcjVTZFZ4eHJlSkdYY3U3RHNMd3FxRUVHMUpFUmZya3B6WldCUzhONm45VXVkcEtyUW5lSzZOSVgzcGVwZTFBdUpXd1ZTZG9UYjFqOEdVWk9QQ2hkX1hmWUFBQ1czbXJ3SF9mcGR6RFJlSUlOdUtaSGpyZHhNS0YzdlhzQjQ0aHduZjhnOW1BVTh4d3NiSUlYUGlfdnc0MWFkVzNYdk9KeG5HTVhKalo3UUlJZUt2dElPbklKVnJLNmxDNHgwakhVb2ZSbi1iR0c0NFoyVEs4TXhNNkVadTBSc19VM0U?oc=5",
+      "hora": "06:27"
+     }
+    ],
+    "n": 2
+   },
+   {
+    "titulo": "El cuerpo hallado en Las Toninas pertenece a Oscar Barbero, uno de los kayakistas desaparecidos",
+    "alcance": "Nacional",
+    "tema": "Homicidios y violencia",
+    "medios": [
+     "Minutouno"
+    ],
+    "n_notas": 1,
+    "primera": "14:14",
+    "links": [
+     {
+      "medio": "Minutouno",
+      "titulo": "El cuerpo hallado en Las Toninas pertenece a Oscar Barbero, uno de los kayakistas desaparecidos",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZUdOQzVmcldZQ1ZXQ01BZ1plS1I0LVNEWkFWaGwwNVNkeGlwMkZwcVFLbVprclN6M2JHTUh4YW1QYTJOMU54MlEtYXNYWlNzSW1sZzNPY2drbTJCMWZ5QllDMzdoSW9BUllncHJxbzhyLVhpRWc0MkUzTGM1emJmQV93LTdQejJSVUZpVVhiZGpNZkEzTXFLVllpTzl6Q0EtdHNCZUlUWDR3UTRjaEhNYWdNOFBTcndvT0NCazB1Zi05MmZKQ2wxWGRR0gHKAUFVX3lxTE9lR05DNWZyV1lDVldDTUFnWmVLUjQtU0RaQVZobDA1U2R4aXAyRnBxUUttWmtyU3ozYkdNSHhhbVBhMk4xTngyUS1hc1haU3NJbWxnM09jZ2ttMkIxZnlCWUMzN2hJb0FSWWdwcnFvOHItWGlFZzQyRTNMYzV6YmZBX3ctN1B6MlJVRmlVWGJkak1mQTNNcUtWWWlPOXpDQS10c0JlSVRYNHdRNGNoSE1hZ004UFNyd29PQ0JrMHVmLTkyZkpDbDFYZFE?oc=5",
+      "hora": "14:14"
+     }
+    ],
+    "n": 3
+   },
+   {
+    "titulo": "Cuatro lingotes de oro hallados en Caleta Olivia reavivan el caso de un misterioso robo a una minera",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "13:55",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Cuatro lingotes de oro hallados en Caleta Olivia reavivan el caso de un misterioso robo a una minera",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcGhtaFVhRk5LRHhuQUgwRWltbjkya3ZVTmd4Y1VTLTZDVjVud3dSeXAwOThCQ3VqSExwRTRjMkQzektubS04clVQWVg3SDZmb1FTdkdKLTdUQUdoSVdXTWxmUWdoeHhKTzlLRi02U3VMZ1ljWTlHdDdZNnV6SmJmdDZBNTNmLWlqV1k4ODZId3YyclcxU0ZabXhITHdOZFY2bFd6R1NoSFVtQm9jU0dFdk56UXJnQTYzbzgtT0ZmU3NjaS1tSjhiVXpmWkoyMjF0M0xPeWNkZ1RsZTNad1NNdDdPLUczV2pzamVvYdIBhwJBVV95cUxOb0xKNEttRkU2bHotU3ZsV192MjdndkVaUHFWLXpmb1Q3OXViWWdGRE53a21Zb2Q5UHZ3S3c1M2pqcUJpLWlJX0JHbFEtLW5YYUpGbHFMQlkyajNPUTFJTTl3SzdESThocGJDdU5ualdfSzY5cnBsMDFJWmkxRFN6YWpMMzlORnRkeXVXRTBTUGRtRVJPbzVBclFQMEg4NTBPM2I1OVMzV19EMFpJRnh6WHdYQ1otbWx3dk9SXzIxbU1naDZ2cDczRlVoQ3JnUTVDcFN5cnVDV0llYk5BdW5QdEFjajd0THRjZzFHdUs3X19jbnpyT0hsLXp4OWd0d2ZqTWNfYUp1OA?oc=5",
+      "hora": "13:55"
+     }
+    ],
+    "n": 4
+   },
    {
     "titulo": "Violento robo en un local de Arenales y General Paz: la dueña pide ayuda para recuperar la mercadería",
     "alcance": "Nacional",
@@ -679,7 +1084,26 @@
       "hora": "13:30"
      }
     ],
-    "n": 1
+    "n": 5
+   },
+   {
+    "titulo": "Capturan a 6 personas por robo de más de 500 mil pesos al Ayuntamiento de Cacahotán, Chiapas",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "13:19",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Capturan a 6 personas por robo de más de 500 mil pesos al Ayuntamiento de Cacahotán, Chiapas",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLXFHRHBSQ2I2RkNCYXNGb0Q5TVlPZ1pDaFI4d0dLWHAxQndaaU5fYk04c2xYZXMteDVMbXBVTjlMeUZicWhndEhqSVZGZnZpMjZpVUQ1QkZQTTFHRGlkMjNIYV9UVlJIeDE1RVRGNERybkI5WE50VnhFM0Zack1kcEFabHN4aWU3eU1MSXZOU2Iwa0JEdmRZUkNYUWQwQll3bG5xekVISDl6NTVqLXRBanN0VmdRa0hjSWtkakF6NTNCT2NVUHhuUXRQVXBTSGPSAeoBQVVfeXFMTWhpN3FxcGY0WjdlV3NZNVV4N2VBeVpzOGVfazlyZW1iZjB4Qld2eHl1RzRtNHhaZTl4LWo3SlJzRXdCZ1BTUWZmQ056dm12cFR1cVdZZ0lUcngxc0lqWnlwYTh0d3hJREdsN3BiZWVXVElNWUwyejZ2aDdsbVp4Slkyb2hKOGtCSTJKZzkxeTRpYnR1Rm5xdHJ1Z3IzblpBc2g0OUU5ZTFWUFhnYjh1SjhPRnZIb1A1Sm9CLS1lZENmNlZuUDFXZWZ1UFoxUktYaUdmUEUyaGRJbk5ndTUyajJCY1kzLTlWdU1n?oc=5",
+      "hora": "13:19"
+     }
+    ],
+    "n": 6
    },
    {
     "titulo": "Policía murió durante enfrentamiento armado con las disidencias en Tuluá, Valle del Cauca: presunto integrante del grupo armado fue abatido",
@@ -698,26 +1122,7 @@
       "hora": "13:08"
      }
     ],
-    "n": 2
-   },
-   {
-    "titulo": "Quién es Nicolás Mendioroz Juncosa, el argentino acusado de estafas con criptomonedas que fue encontrado en Australia",
-    "alcance": "Nacional",
-    "tema": "Robos y estafas",
-    "medios": [
-     "TN"
-    ],
-    "n_notas": 1,
-    "primera": "12:58",
-    "links": [
-     {
-      "medio": "TN",
-      "titulo": "Quién es Nicolás Mendioroz Juncosa, el argentino acusado de estafas con criptomonedas que fue encontrado en Australia",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWDk2MzZzMXlZRVBUby12ZnM2UmlQLTVJblJ6MVYyRE1MN3R1dVRSbEdzY19LblBkLVUzYS1xcTZBU0RuellEeXY0NVYzRWk2QnA1NnA0RFhGX01Qb1NuZWdHQzdncjhHVnFkd29BUVdJcHdJdjh0SXVRVWgtNncwc19wSHEySndMbWxQTG8yOU1DR0hpSEJkU2dncHRJSUVfTWhDVER4cnl3ZmhMdHRJd2w2RmpiRWRKR1FUeFZFdDhieC1BM05CYlZ2dTNobGRLUnpkRTRpWHRaMXB2UzlDUEljNHZ5Z242d0hIZWFR0gGCAkFVX3lxTE9SbGsyajNzU2NIQVdOalVhaTEyakJVMWMwZ3o4UW5FeFYxRWl1VDlldHYzWWNWSUxuYl9OUUN1RmNmemY5cTRJbjNpVE82ODFyVVd3WmZreWtFUnI0NjQ5RGQ3TlNQaUFRSVpTZVJZOXAzUzRNTUJxaWxiR0J0dl94RUZpZUY1NWJCalE5a0VoV3NNc0F3a2hrRHpNcjV0RTFxNzdjSndLLU1SckdoTDZOSkhTSWJQdVZZSEQwS29MWnRqVzlpb04yNUpBWHJ5SlRJandPbXVsbWdyRld1UTNYOU43OUIzY1dGbFFKam8wdkMxTmRnUy13Q181bWl1NUpkQQ?oc=5",
-      "hora": "12:58"
-     }
-    ],
-    "n": 3
+    "n": 7
    },
    {
     "titulo": "Crimen en Apolinario Saravia: un trabajador rural murió apuñalado y hay un detenido",
@@ -736,7 +1141,7 @@
       "hora": "12:44"
      }
     ],
-    "n": 4
+    "n": 8
    },
    {
     "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
@@ -755,7 +1160,7 @@
       "hora": "12:34"
      }
     ],
-    "n": 5
+    "n": 9
    },
    {
     "titulo": "Policía Nacional Civil informa sobre un operativo y la incautación de un arma de fuego",
@@ -774,7 +1179,7 @@
       "hora": "12:14"
      }
     ],
-    "n": 6
+    "n": 10
    },
    {
     "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
@@ -793,7 +1198,7 @@
       "hora": "11:42"
      }
     ],
-    "n": 7
+    "n": 11
    },
    {
     "titulo": "San Lorenzo: demoraron a una mujer que circulaba en una moto vinculada a un robo",
@@ -812,7 +1217,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 8
+    "n": 12
    },
    {
     "titulo": "La Policía polaca tiene indicios de planes de atentado contra Tusk, según Interior",
@@ -831,7 +1236,26 @@
       "hora": "10:50"
      }
     ],
-    "n": 9
+    "n": 13
+   },
+   {
+    "titulo": "Detuvieron a una \"viuda negra\" y a su pareja acusados de cometer un robo millonario en Llavallol",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Minutouno"
+    ],
+    "n_notas": 1,
+    "primera": "10:35",
+    "links": [
+     {
+      "medio": "Minutouno",
+      "titulo": "Detuvieron a una \"viuda negra\" y a su pareja acusados de cometer un robo millonario en Llavallol",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1VLb0JQeDdWT2RhWFZ6NFhWa0ZMU3EyeUdHZmMzWlZYZGdVVjBsNDFLWTh0S2NnSFlkWERJbDNUSzJrYU1lWkJ5SC1RSE8xdzVuRXp3bFBRRnRXZzhFbnczalYtNmRzQVpmVFJoR3IzRHQ5aFBvMWdpZ3hOUnlfUlZCcjFES3dPNWtYcUtndmVTNlMxdzRSVVVFYnlaOEVySlZJcGtWMFVvMjNYTmxqU0w1SzdKY3JBS29CaWctNURGSGRhUktn0gHHAUFVX3lxTE4zVUtvQlB4N1ZPZGFYVno0WFZrRkxTcTJ5R0dmYzNaVlhkZ1VWMGw0MUtZOHRLY2dIWWRYRElsM1RLMmthTWVaQnlILVFITzF3NW5FendsUFFGdFdnOEVudzNqVi02ZHNBWmZUUmhHcjNEdDloUG8xZ2lneE5SeV9SVkJyMURLd081a1hxS2d2ZVM2UzF3NFJVVUVieVo4RXJKVklwa1YwVW8yM1hObGpTTDVLN0pjckFLb0JpZy01REZIZGFSS2c?oc=5",
+      "hora": "10:35"
+     }
+    ],
+    "n": 14
    },
    {
     "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
@@ -850,47 +1274,7 @@
       "hora": "10:14"
      }
     ],
-    "n": 10
-   },
-   {
-    "titulo": "Estaba prófugo desde 2022 por presuntas estafas con bitcoin en Salta y lo encontraron en Australia: será extraditado",
-    "alcance": "Salta",
-    "tema": "Robos y estafas",
-    "medios": [
-     "TN"
-    ],
-    "n_notas": 1,
-    "primera": "09:52",
-    "links": [
-     {
-      "medio": "TN",
-      "titulo": "Estaba prófugo desde 2022 por presuntas estafas con bitcoin en Salta y lo encontraron en Australia: será extraditado",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLTA2NmtXNVBMVG8tMmdjX0Z0Q3d3dmxJMnBiR0xSSjMwTF9SS0hiYWwzVGlibmtBYXhZWkFGUl9ncnR2aHRkclFCX281eS16QWxqblR6TWxxbFJUT3VFTGVOektWVXE1NEFVWTUyY3A3ZXhvamVrZThfbnlNWm1aSEdqQ0pESzVfV1VaZUZUMHExM3JUdjdJMHhBemxQeUcxbHdWSm92REZIb3pUWkZiMXRGYldXYUx4dktyQjdyaWducDI3WnJiVEpuNngxX0RMOXVPeFF5S2FkbjVCUElqZ19mZDQtNWNaZmN4UUZmUdIB7wFBVV95cUxOLTA2NmtXNVBMVG8tMmdjX0Z0Q3d3dmxJMnBiR0xSSjMwTF9SS0hiYWwzVGlibmtBYXhZWkFGUl9ncnR2aHRkclFCX281eS16QWxqblR6TWxxbFJUT3VFTGVOektWVXE1NEFVWTUyY3A3ZXhvamVrZThfbnlNWm1aSEdqQ0pESzVfV1VaZUZUMHExM3JUdjdJMHhBemxQeUcxbHdWSm92REZIb3pUWkZiMXRGYldXYUx4dktyQjdyaWducDI3WnJiVEpuNngxX0RMOXVPeFF5S2FkbjVCUElqZ19mZDQtNWNaZmN4UUZmUQ?oc=5",
-      "hora": "09:52"
-     }
-    ],
-    "sigue_de_ayer": true,
-    "n": 11
-   },
-   {
-    "titulo": "Estaba prófugo desde 2022 por presuntas estafas en Salta, cayó en Australia y será extraditado: administraba más de US$170.000 en criptomonedas",
-    "alcance": "Salta",
-    "tema": "Robos y estafas",
-    "medios": [
-     "TN"
-    ],
-    "n_notas": 1,
-    "primera": "09:52",
-    "links": [
-     {
-      "medio": "TN",
-      "titulo": "Estaba prófugo desde 2022 por presuntas estafas en Salta, cayó en Australia y será extraditado: administraba más de US$170.000 en criptomonedas",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdGJUaTRhUlZoR0ZLTWJxZnpzaGxlck9pVWtaWFY3aVplUDR6aERRYy1zSU8yaFNLV0lDOEtQZGZkNklLRzNaNk53YTdaZVRWZGlEMTdWckdIejZJMVFMWV9jMHVSS1NDcGNLaFgxMEo3Vm93dWdYTnQtSDlYb1gtMGszMUE4d3l0bDNEU3ZteGZKTXlZYUY2NXVZUFFPSmpGd1BJT1ZaTEttWEdvMnl1R1hXNGUtSFZMRklpaHUteEotLWJ6LU9pUjNIb3lpNzN2UzBTOGtXaVQ1LVHSAe8BQVVfeXFMTi0wNjZrVzVQTFRvLTJnY19GdEN3d3ZsSTJwYkdMUkozMExfUktIYmFsM1RpYm5rQWF4WVpBRlJfZ3J0dmh0ZHJRQl9vNXktekFsam5Uek1scWxSVE91RUxlTnpLVlVxNTRBVVk1MmNwN2V4b2pla2U4X255TVptWkhHakNKREs1X1dVWmVGVDBxMTNyVHY3STB4QXpsUHlHMWx3VkpvdkRGSG96VFpGYjF0RmJXV2FMeHZLckI3cmlnbnAyN1pyYlRKbjZ4MV9ETDl1T3hReUthZG41QlBJamdfZmQ0LTVjWmZjeFFGZlE?oc=5",
-      "hora": "09:52"
-     }
-    ],
-    "sigue_de_ayer": true,
-    "n": 12
+    "n": 15
    },
    {
     "titulo": "VIDEO. El “oro verde” de Salta: cigarrillos de contrabando, ganancias millonarias y vehículos con Starlink",
@@ -909,7 +1293,7 @@
       "hora": "09:49"
      }
     ],
-    "n": 13
+    "n": 16
    },
    {
     "titulo": "Delincuentes entraron a un country de Córdoba y robaron dinero y objetos de valor en dos casas",
@@ -928,7 +1312,7 @@
       "hora": "09:23"
      }
     ],
-    "n": 14
+    "n": 17
    },
    {
     "titulo": "Fiscal general que acusó a Netanyahu afirma que la Policía actuó sin su consentimiento",
@@ -947,7 +1331,7 @@
       "hora": "09:19"
      }
     ],
-    "n": 15
+    "n": 18
    },
    {
     "titulo": "Balacera en Los Olivos: Sujeto dispara contra un hombre y un menor de edad",
@@ -966,26 +1350,26 @@
       "hora": "09:07"
      }
     ],
-    "n": 16
+    "n": 19
    },
    {
-    "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
+    "titulo": "Acuerdan prisión para el detenido como autor del asesinato de un cirujano en Marbella",
     "alcance": "Nacional",
-    "tema": "Policía y fuerzas de seguridad",
+    "tema": "Homicidios y violencia",
     "medios": [
      "Infobae"
     ],
     "n_notas": 1,
-    "primera": "06:27",
+    "primera": "08:47",
     "links": [
      {
       "medio": "Infobae",
-      "titulo": "La Policía española inicia el desalojo del último campamento de migrantes en Ceuta",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNWdzWGY4WXY2VnBKSHJVUGMzd0xFZEhwV1JBQ05HVXQ0enhseUd4a0hhQjBibTFyZk1KYkx1UU5zWk5LN3pVc3VTUGRWUWlIdDRIaVZJRjVQeEVFRTh4V3k1NlhXazIzTGEwUjRmckg2ZlNjeXBqU29ES3BKaHFwZDVDd01hajRYNV9Oa0tVd3pFeVFtVTZHNTU5OHRaemkxZlVuWnBjWjBjMmU1dU5FeFpWTGR5c0VZR2tNYktJc1lXX3JjRWZob1Z3WTZpSjEt0gHrAUFVX3lxTFBMV2M1dW5fcjVTZFZ4eHJlSkdYY3U3RHNMd3FxRUVHMUpFUmZya3B6WldCUzhONm45VXVkcEtyUW5lSzZOSVgzcGVwZTFBdUpXd1ZTZG9UYjFqOEdVWk9QQ2hkX1hmWUFBQ1czbXJ3SF9mcGR6RFJlSUlOdUtaSGpyZHhNS0YzdlhzQjQ0aHduZjhnOW1BVTh4d3NiSUlYUGlfdnc0MWFkVzNYdk9KeG5HTVhKalo3UUlJZUt2dElPbklKVnJLNmxDNHgwakhVb2ZSbi1iR0c0NFoyVEs4TXhNNkVadTBSc19VM0U?oc=5",
-      "hora": "06:27"
+      "titulo": "Acuerdan prisión para el detenido como autor del asesinato de un cirujano en Marbella",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ0htU05wamFZX0F1U21nUkVFdzF5RkFrNzY3ZHVvc1FDWGxETEhuLU8zQzJ4MkIyVUEyamlydlE0c2pjdDhtSDJNc2JHU3dHWUg0Sy1ZTWpuU1VHQmNyazdWM0s1bzZ4d2tnYUMzemRTNlg5aGNpNy0xUXE3SzJoSnBEZkhpbFBIREZQaFZKMERtRUltaFZZZ3RIN2kyQ3l5VFAxNFlJTThuWlJPcVE4NUdUN2lmM054TFM4Q2NYWnhrcXQ1S1JFZ3dBdF8zSmFCYjdV0gHuAUFVX3lxTE5OS05XT2tEQ2YwbHdIQ1NDOVlDQVlmbUxEdmtWTk1nczhmWHdWbFhxbzNrZlNuaUd5ZDZKc2lKNXhWcWluWUNkWF9vdEk3SVRvU2VoYy1ZaVlDTGticmtzbVVDNnZFYURpTEl4X21YOUxwb0Noei1PWmxONnRDdDhodGZaUzVpR1JmMUo4NFpENnlfNmNxZ2ZaUW5hckk4blpReGFGTGhqWnlRd1Z6cmtNcWljWkVYeHNrZG1IZ0VGQ2NweGN1R2hRSHdmd1BuVUo2ZDZ4b1VpaDlMSHB3QnpPcGhPZ3M0ZEZJV0Q3d2c?oc=5",
+      "hora": "08:47"
      }
     ],
-    "n": 17
+    "n": 20
    },
    {
     "titulo": "La UCRIF de la Policía suma 2.291 detenidos desde 2021 por favorecimiento de inmigración irregular y documentación falsa",
@@ -1004,7 +1388,46 @@
       "hora": "05:46"
      }
     ],
-    "n": 18
+    "n": 21
+   },
+   {
+    "titulo": "Liberado el líder del Partido de las Cucarachas detenido en un avión con destino Dehli para las protestas",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "05:07",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Liberado el líder del Partido de las Cucarachas detenido en un avión con destino Dehli para las protestas",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRDVwMHJVZ09rRDNJWnVLM1labDB5MXdoYlBmOEZaQWx0R2gwR2VERDk1UjZLWnBVYlpWaVRDU0tZRnFjeElvcjlSOVUzSWFVcGFPMlJNaFBodE1RTGlnMjJBSFd1OWgzNTlySC05OTlYMmhkSlZWYTdZWGJuOGN0eXNVNmxDdGJFS3NjQlczUGxBcjZHaTEzRVMwRnlsQ05jU1B2VGpyTmQ0RmNKSXJ2TTBXQk1nVDdWQWVseC1COHo0RTRlbllRT1JxeTFsSjJST1F1VmMtaXhBZXViMUFhZnF5OEZRODdMQlNsMmdiNNIBigJBVV95cUxOclFBQkxKT19hMzVoakNfNjl1X2d4aVh5Y09RRFpJWXBEdWZTWEplOVFKX1RRVzFZUHM5emRRMWFoc0FFS3BxN3R3bkNyc2JYOHlBZ1duLUJQZi1CdlNZRnZRVEkzQ2l5LXhqUkVuczRJRFJVWnlWS1ZxVnkza3h6bDlXN3NFX01YX1lmbWVYajB5Nm10VlFBUnd0bE9VS0s5VzJOX2p6aUJtRWNqSmwzVnBBUThvMXlMamlFWmRrWVhUYWlhQlJIM3hVbGJncm1mckNoTHoxbk5KTTN0WFR2bGV3TVVMbVVJLXF6cGg0di1YQUhlckxtWm1DNXdtWjgtN1VVWWEtdC12dw?oc=5",
+      "hora": "05:07"
+     }
+    ],
+    "sigue_de_ayer": true,
+    "n": 22
+   },
+   {
+    "titulo": "Crimen del gendarme en El Palomar: los acusados admitieron su responsabilidad, pero no irán a prisión perpetua",
+    "alcance": "Nacional",
+    "tema": "Homicidios y violencia",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "04:37",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Crimen del gendarme en El Palomar: los acusados admitieron su responsabilidad, pero no irán a prisión perpetua",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOHNfZm5YZHhjS2xCdnJYcjl0YTZYYTR0NjJuZnhHY0k0ZGxETFQyX295Qk1SbmFWV3dTdUJFcklFanhpYmx2T010a2VTTVdKV1Q0ZTgyY0RhRnpqZWFrZDFFQTB6MGtCYzhudllsWGNiTTZHNTgzR180ZWM1SkVSc0hMMEJLMERkUjNpZFBRM1JfWlZ4VHVxbnI5Xy1uZzhWV1RCWmZuSjN2S016RVl0Zi1ENGRSWTAwTU1WQ1MxcWhsZzRudm5uc3F5dXJDTDhaMTVva056ZnMxZDRNdWNvbWNLRG1XZnI4d0lpM2UxeXdVZS0wck5r0gGSAkFVX3lxTE1oSmVCRDFLUGppdlBRa0JJaWI2c1pubmpyVG9xakI2NDhtVDgzTDFIYXFFUVYxd2lFVnlwOHFnaTlad1A1ZlhuMGg0S2hfSUd6TjFoZFdyX0NGZHB1TU1weFNFRmRUUEZucy1oclI1WExHdWswT2g5aW8zbm80Y21CczZvQ3h5S1dNQTNJcmszQjFPTWNVVll6N3R5REM5dlJMUzV5aXJpWGVRQ0FpVkFmWlh5dW01dEZFYjNyQ3pSRVJ0RDdDdzRCSG1ZLVJuZVdFVDY0OHAzVHVmNlNhdmFsR2RkczI3eUVCcHdBUWpWQ3RON2Fwa2ZPeE1ScnEyeGV3X1NTQ0JZczJ2bzJ5b21vdGc?oc=5",
+      "hora": "04:37"
+     }
+    ],
+    "n": 23
    },
    {
     "titulo": "La Policía se despliega en el Guano para desalojar el último gran asentamiento ilegal de inmigrantes",
@@ -1023,7 +1446,7 @@
       "hora": "04:27"
      }
     ],
-    "n": 19
+    "n": 24
    },
    {
     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -1042,7 +1465,26 @@
       "hora": "03:05"
      }
     ],
-    "n": 20
+    "n": 25
+   },
+   {
+    "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
+    "alcance": "Nacional",
+    "tema": "Justicia penal",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "02:06",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPXzN2RDR6SGxIMXl3VTJOTzlydHdZMlprZmQ2a1dOdGJlWHFPeGtiSFZiRmZfTE1BdlVUenQ3N2xjNFBEWllFNXdtbE9HdVFQd2ltMkNwWXlFbXAtaXhpajVsZFpLdWdtSjhkdnFSM3NJUW82QnJaMUNha0F6QWhTX2lpWFlsQlViV2ZwdHNFMzZ1azRyd2pScC03RF9pS0xad2dZVC1PMl9SYjMtZHRJc3B0M1pJeGN0ckFsX21VajNCZmFFY25fajhrR1dxa0YxVFRoSHNhdmtHVmlNMG5tN2pCQmRvUGNzaWRVLUtOdm5aTWJIT3FFVjRYSHBTS1E2U0MwUG83T0MwUdIBpAJBVV95cUxPNDRxUU0tR2NmSUlzd0Ruc2tKODJnRXJkTEtGY2NZZFR5OHhNVWo2WWFHRGx1cVJuQTJReTZ2b25PclhPcjViNXdhZXhYeXd0TkR0dzVmMTJYU3dJRlhUYUNPaFVpbU1oTV9ZMldpSnFJT0MzM0lOWTZjTnFvS0NoQ01BTnZlOFU4QnkzMEFHU3dfMjY4ZnphUnZFOV8tNlBFUHFzelZ4LTBYUElFckJsRXcxRUtHY0lxb2ZvSU85R3FHRW01MHpmSWllNVZ0bGU2WEdzM2NxV3BUd0ZvbDNxcXlwZ0NQbnBLckpmRHJKUF9qRHZQOXBvZjlyb1dmZ0NyUTF0S2JYQ3hXYXhOSUppT3dsbDFvcHFMeWtJR3dzZzAwb3RD?oc=5",
+      "hora": "02:06"
+     }
+    ],
+    "n": 26
    },
    {
     "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
@@ -1062,7 +1504,26 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 21
+    "n": 27
+   },
+   {
+    "titulo": "La Policía Nacional Civil retira 14 cámaras ilegales en Santa Catarina Pinula por presuntos vínculos criminales",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "01:35",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "La Policía Nacional Civil retira 14 cámaras ilegales en Santa Catarina Pinula por presuntos vínculos criminales",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ3VnZDMydk1WZVprWDNxN3UtWGZRbHBYV0NUX3NmWUlpX1ZuUTRqUjZGUFBLZHdiUERkdlgtVnF4WVBvNGFILTR1TWJVWnRuZnBnNTJWREpZQVFsR1hBQmt1TUh2TURaeDNPMC1wVXdDRE5wVjhPcUZ4aHVrRXpxVGhYekp0MDZINkRBc0llazZoRmJJanJYODhmR3FsU2twbTE2UTFNLVlwLW90OWxFSXR6NS12V1BoMkdVeDNuZFAyX3VTMmZxX0RYM0dKclpXeEFxQ09nWjd2TzVnS3JiX3FVakhqYjh4OXNfMXFn0gGIAkFVX3lxTFBsTDU4TWQtX2x0ZmxPWVhUME5hdl9wVUVhVk80TVRHVkdaQjUxUV9Vc0ZUWXVQTHFWV0xXN3FfTnM2TWlScUFGMUpGRWpqRFFfaG5yQWVtb2g5Y3RLTnIxT1ZhYlllT2ZWbUtKSnREQ0pPa2pwZ004WXRwU3BlZzl3YUZNNzZUX1NFNUMyZGZTUHpEYjNtUThBVzI2UnFXR0lLcDgtMHE3VkZWejY5eFJiWF9Da0dUTkNsbER3WTlBWkhGRmc4T3hTV191Wm1pWWluU0JwZ1F3V0dSOEIzdTlKUWRxSmdnYlJmbVZJTktKOVFCR29WX3pBR09uWW51YnRqN3NuLTE2TQ?oc=5",
+      "hora": "01:35"
+     }
+    ],
+    "n": 28
    },
    {
     "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
@@ -1081,7 +1542,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 22
+    "n": 29
    },
    {
     "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
@@ -1100,45 +1561,89 @@
       "hora": "01:30"
      }
     ],
-    "n": 23
+    "n": 30
+   },
+   {
+    "titulo": "Ciudadano colombiano fue capturado en Estados Unidos: su cónyuge le encontró videos relacionados con presunto abuso sexual infantil",
+    "alcance": "Nacional",
+    "tema": "Violencia de género",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "00:17",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Ciudadano colombiano fue capturado en Estados Unidos: su cónyuge le encontró videos relacionados con presunto abuso sexual infantil",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOV3NGLVM2X3A3ekJleExhVzZmNW5DalFacWY3NHc5and4R0V0eWpOVkxJOVBRRUhVYkJyaF80QmdwSFU2OEw5UWRnUm8yck56ZUJjekR6VUpWZUppUjBSRmpteE5NU3VRN1QxSUNQWklYYmJSaXBJS2NhbWsxa19kQ3pxQmZ5NEtSWW1JR1ktSmVTaVR1Q1JrbGZ2aVZFTmJkZ0xxNlprNUJnb2RJRkVFM1M3SS1yQnpXV2dEUmwzNmtvTmxNdzF5OFRscGJ0cUZGZGZSNUJUZXhFNEFEdmRPUTNVRkhHVTFJSVpsRW1hcjZGZlBmUmZtN1hwTUliVUU1X0NSZFRR0gGgAkFVX3lxTE4tR2xTU0ZVcGhnMmJZTXJTQXY5b040bGtiRWNqOGxQVUVqZ182eFQtUDlwWkpibTNlYTlUaVZCNnVjTDRZSk9KSE1ISUdfWHQ3OUV0YnNYc2w1VlpjZkJxdWMtdE5SVnBVaHVDSzdJZnlBMElSdndwNmJMUzdtYkM5UjJMZmZlamFUV2VXd1FtMy0zU2lRYW9mLTU5elVxLURoYURlbHV4SGd5YTZJdHZMVENRQWJlY0hOdkNDNlB6YTZlNUp6VmtQVjMxTGdzSHBPaWN1eVBvN3laZ3J0MEE2RmRiTGFOdVVOclIzOTVHajNpODVUeGV3SVM2TDNFNEFXTFNWM2ZCdDFuc29IX3dnUV8zT21fRGVuWGJRb0tqcw?oc=5",
+      "hora": "00:17"
+     }
+    ],
+    "sigue_de_ayer": true,
+    "n": 31
    }
   ]
  },
  "palabras": [
   {
    "t": "milei",
-   "n": 8
+   "n": 12
   },
   {
    "t": "gobierno",
+   "n": 10
+  },
+  {
+   "t": "gobernadores",
    "n": 5
+  },
+  {
+   "t": "brasil",
+   "n": 4
+  },
+  {
+   "t": "busca",
+   "n": 4
   },
   {
    "t": "congreso",
    "n": 4
   },
   {
-   "t": "gobernadores",
+   "t": "contra",
    "n": 4
   },
   {
-   "t": "brasil",
-   "n": 3
-  },
-  {
-   "t": "busca",
-   "n": 3
+   "t": "javier",
+   "n": 4
   },
   {
    "t": "clave",
    "n": 3
   },
   {
-   "t": "contra",
+   "t": "electoral",
    "n": 3
   },
   {
    "t": "interna",
+   "n": 3
+  },
+  {
+   "t": "paso",
+   "n": 3
+  },
+  {
+   "t": "peronismo",
+   "n": 3
+  },
+  {
+   "t": "poder",
+   "n": 3
+  },
+  {
+   "t": "volver",
    "n": 3
   }
  ],
@@ -1146,6 +1651,11 @@
   {
    "id": "dip-miguel-angel-plaza-schaefer",
    "nombre": "Miguel Ángel Plaza Schaefer",
+   "notas": 2
+  },
+  {
+   "id": "gustavo-saenz",
+   "nombre": "Gustavo Sáenz",
    "notas": 1
   }
  ],
@@ -1165,30 +1675,30 @@
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 24,
-   "politicas": 7,
-   "seguridad": 13
-  },
-  {
-   "nombre": "Informate Salta",
-   "ambito": "Salta",
-   "notas": 22,
-   "politicas": 0,
-   "seguridad": 4
-  },
-  {
-   "nombre": "El Tribuno",
-   "ambito": "Salta",
-   "notas": 21,
-   "politicas": 2,
-   "seguridad": 2
+   "notas": 44,
+   "politicas": 11,
+   "seguridad": 23
   },
   {
    "nombre": "Cadena 3 Argentina",
    "ambito": "Nacional",
-   "notas": 14,
+   "notas": 34,
    "politicas": 4,
    "seguridad": 1
+  },
+  {
+   "nombre": "El Tribuno",
+   "ambito": "Salta",
+   "notas": 23,
+   "politicas": 2,
+   "seguridad": 2
+  },
+  {
+   "nombre": "Informate Salta",
+   "ambito": "Salta",
+   "notas": 23,
+   "politicas": 1,
+   "seguridad": 4
   },
   {
    "nombre": "TN",
@@ -1198,14 +1708,77 @@
    "seguridad": 3
   },
   {
-   "nombre": "Ambito",
+   "nombre": "Minutouno",
+   "ambito": "Nacional",
+   "notas": 7,
+   "politicas": 4,
+   "seguridad": 2
+  },
+  {
+   "nombre": "Letra P",
+   "ambito": "Nacional",
+   "notas": 5,
+   "politicas": 3,
+   "seguridad": 0
+  },
+  {
+   "nombre": "La Gaceta",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "El Cohete a la Luna",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Canal26",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "La Voz del Interior",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 0,
+   "seguridad": 1
+  },
+  {
+   "nombre": "La Nación",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 1,
+   "seguridad": 0
+  },
+  {
+   "nombre": "El Cronista",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 2,
+   "seguridad": 0
+  },
+  {
+   "nombre": "BAE Negocios",
+   "ambito": "Nacional",
+   "notas": 2,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "elDiarioAR",
    "ambito": "Nacional",
    "notas": 2,
    "politicas": 2,
    "seguridad": 0
   },
   {
-   "nombre": "El Cronista",
+   "nombre": "Ambito",
    "ambito": "Nacional",
    "notas": 2,
    "politicas": 2,
@@ -1216,6 +1789,13 @@
    "ambito": "Nacional",
    "notas": 2,
    "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "A24",
+   "ambito": "Nacional",
+   "notas": 1,
+   "politicas": 1,
    "seguridad": 0
   },
   {
@@ -1237,13 +1817,6 @@
    "ambito": "Nacional",
    "notas": 1,
    "politicas": 1,
-   "seguridad": 0
-  },
-  {
-   "nombre": "La Nación",
-   "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 0,
    "seguridad": 0
   }
  ],
