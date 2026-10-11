@@ -43,7 +43,9 @@ def cargar(nombre, defecto):
 
 # ---------- medios: dónde se publicó (no de qué habla la nota) ----------
 NACIONALES = ["infobae", "clarin", "la nacion", "pagina|12", "pagina12", "pagina/12", "ambito", "perfil",
-              "revista noticias", "cronista", "iprofesional", "c5n", "a24", "el destape", "minutouno", "lanacion"]
+              "revista noticias", "cronista", "iprofesional", "c5n", "a24", "el destape", "minutouno", "lanacion",
+              "cadena 3", "cadena3", "la politica online", "lapoliticaonline", "parlamentario", "letra p", "eldiarioar",
+              "noticias argentinas", "radio mitre", "tiempo argentino"]
 SALTENOS = ["tribuno", "intransigente", "el intra", "elintra", "informate salta", "informatesalta", "que pasa salta",
             "quepasasalta", "nuevo diario", "nuevodiario", "radio salta", "radiosalta", "salta12", "salta/12",
             "defrentesalta", "de frente"]
@@ -310,7 +312,12 @@ def armar_historias(items, tema_fn, alcance_fn, previas):
 
 def alcance_politica(g):
     ambs = {x["ambito"] for x in g}
-    return "Salta" if ambs == {"Salta"} else "Nacional" if ambs == {"Nacional"} else "Ambos"
+    if ambs == {"Salta"}:
+        return "Salta"
+    if ambs == {"Nacional"}:
+        # Nota de medios nacionales que nombra un lugar salteño: entra en el filtro «Salta» (estimación por el título).
+        return "Ambos" if any(SALTA_MARCAS.search(x["titulo"]) for x in g) else "Nacional"
+    return "Ambos"
 
 
 def alcance_seguridad(g):
