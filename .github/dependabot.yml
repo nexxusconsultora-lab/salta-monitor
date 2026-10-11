@@ -1,0 +1,9 @@
+# Dependabot abre un aviso (pull request) cuando una acción de GitHub que usan los workflows
+# tiene una versión nueva. No cambia nada solo: vos decidís si aceptarlo.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
