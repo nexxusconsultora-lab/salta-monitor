@@ -145,9 +145,15 @@ def coincide(enlace, abs_url, pagina, cfg):
 
 
 def titulo_de(enlace, abs_url):
-    t = limpiar(enlace.get("texto_enlace") or enlace.get("titulo_attr") or "", 220)
+    t = limpiar(enlace.get("texto_enlace") or "", 220)
     if of.titulo_vacio(t) or len(t) < 4:
-        nombre = urllib.parse.unquote(os.path.basename(urlparse(abs_url).path)) or abs_url
+        # enlaces tipo «descargar»: el nombre del archivo suele estar en el atributo title
+        t = limpiar(enlace.get("titulo_attr") or "", 220)
+        t = re.sub(r"^archivo nombre:\s*", "", t, flags=re.I)
+        t = re.sub(r"\.pdf$", "", t, flags=re.I).strip()
+    if of.titulo_vacio(t) or len(t) < 4:
+        partes = [x for x in urlparse(abs_url).path.split("/") if x and x.lower() != "download"]
+        nombre = urllib.parse.unquote(partes[-1]) if partes else abs_url
         t = limpiar(re.sub(r"[-_]+", " ", re.sub(r"\.\w{2,4}$", "", nombre)), 220)
     return t
 
