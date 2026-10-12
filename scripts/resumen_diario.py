@@ -28,6 +28,7 @@ UMBRAL_COBERTURA_BAJA = 100                  # menos notas recolectadas que esto
 MAX_HISTORIAS = 40                           # por ámbito
 MAX_LINKS = 10                               # por historia
 TOPE_TEMA = 20                               # historias guardadas por tema en la sección «Todos los temas»
+TOPE_SUB = 6                                 # y por subtema
 TOPE_MIN = 15                                # y por ministerio
 MAX_LINKS_TODOS = 5                          # enlaces por historia en esa sección
 REFRESCO_MIN = 25                            # no reescribe el día actual si se generó hace menos
@@ -244,6 +245,67 @@ def tema_todos(titulo_fold, nombres):
 def ministerios(texto, tabla, pre=None):
     t = texto if pre is None else pre(texto)
     return [nombre for nombre, pats in tabla if hay(t, pats)]
+
+
+
+# ---------- SUBTEMAS: dentro de cada tema, el subtema que más palabras clave tenga (se editan acá) ----------
+SUBTEMAS = {
+    "Deportes": [("Fútbol", ["futbol", "gol ", "boca", "river", "racing", "independiente", "san lorenzo", "talleres", "belgrano", "gimnasia", "velez", "central norte", "juventud antoniana", "seleccion", "liga ", "copa", "tabla", "descenso", "ascenso", "jugador", "fecha fifa", "mundial", "eliminatorias", "messi", "dt ", "atletico", "gallardo", "scaloni", "plantel", "pase de", "mercado de pases", "fichaje", "arbitro", "cancha", "estadio", "futbolista", "goleador", "clasico"]),
+                 ("Violencia en el deporte", ["hinchas", "barras", "incidentes", "violencia en"]),
+                 ("Automovilismo y motores", ["automovilismo", "turismo carretera", "formula 1", "rally", "dakar", "motogp"]),
+                 ("Tenis", ["tenis", "atp", "wimbledon", "roland garros"]), ("Rugby y hockey", ["rugby", "pumas", "hockey", "leonas"]),
+                 ("Básquet y vóley", ["basquet", "voley", "handball"]), ("Boxeo y artes marciales", ["boxeo", "ufc", "mma", "kick"]),
+                 ("Running y ciclismo", ["maraton", "atletismo", "ciclismo", "gran fondo", "running"])],
+    "Policiales y seguridad": SEG_SUBTEMAS,
+    "Accidentes y emergencias": [("Accidentes viales", ["accidente", "choque", "vuelco", "atropell", "ruta", "moto", "colectivo"]), ("Incendios", ["incendio", "fuego", "bomberos"]),
+                                 ("Rescates y derrumbes", ["rescate", "derrumbe", "explosion", "sepultad"]), ("Tragedias y víctimas", ["tragedia", "murio", "murieron", "siniestro", "victima"])],
+    "Clima y ambiente": [("Pronóstico y alertas", ["clima", "pronostico", "alerta", "lluvia", "tormenta", "granizo", "viento", "zonda"]), ("Temperaturas", ["calor", "frio", "helada", "temperatura", "ola de calor", "nevada"]),
+                         ("Sismos", ["sismo", "temblor", "terremoto"]), ("Ambiente y residuos", ["ambiente", "contaminacion", "residuos", "reciclaje", "fauna", "bosque", "deforestacion", "cambio climatico", "basura"]),
+                         ("Sequía e inundaciones", ["sequia", "inundacion", "crecida", "rio"])],
+    "Espectáculos y cultura": [("Famosos y farándula", ["famosos", "farandula", "conductor", "conductora", "novio", "noviazgo", "separacion", "romance", "vedette", "pareja", "embarazo", "hijos", "su hija", "su hijo", "wanda", "infidelidad"]),
+                               ("Cine y series", ["netflix", "serie ", "pelicula", "estreno", "cine", "streaming"]), ("Música y recitales", ["musica", "recital", "concierto", "cantante", "cumbia", "folklore", "festival", "disco ", "banda de rock"]),
+                               ("Televisión", ["television", "telefe", "reality", "masterchef", "bailando", "martin fierro", "ternas"]), ("Teatro, museos y libros", ["teatro", "museo", "exposicion", "libro", "artista"])],
+    "Justicia": [("Causas y fallos", ["causa ", "causas", "fallo", "sentencia", "juicio", "amparo"]), ("Corte y tribunales", ["corte suprema", "tribunal", "camara federal", "corte de justicia"]),
+                 ("Fiscales y denuncias", ["fiscal", "denuncia", "imputad", "procesad", "indagatoria", "procesamiento", "procurador"]), ("Jueces y designaciones", ["juez", "jueza", "pliego", "magistrad"])],
+    "Salud": [("Hospitales y atención", ["hospital", "clinica", "paciente", "cirugia", "trasplante", "sanitari"]), ("Epidemias y vacunación", ["dengue", "vacuna", "sarampion", "epidemia", "gripe", "covid", "peste"]),
+              ("Obras sociales y PAMI", ["obra social", "pami"]), ("Medicamentos y farmacias", ["medic", "farmac"]), ("Enfermedades y prevención", ["enfermedad", "cancer", "nutricion", "salud mental"])],
+    "Educación y universidades": [("Escuelas y docentes", ["escuela", "docente", "maestr", "colegio", "clases", "ciclo lectivo", "aula", "paro docente"]), ("Universidades", ["universidad", "unsa", "financiamiento universitario", "estudiantil"]),
+                                  ("Becas y ciencia", ["beca", "conicet"])],
+    "Ciencia y tecnología": [("Inteligencia artificial", ["inteligencia artificial", "chatgpt", "openai", "algoritmo"]), ("Ciberseguridad", ["ciberseguridad", "hackeo"]),
+                             ("Espacio", ["nasa", "satelite", "starlink"]), ("Dispositivos y apps", ["celular", "apple", "google", "app ", "software", "internet", "robot", "tecnolog"]), ("Ciencia", ["ciencia", "investigadores", "conicet"])],
+    "Minería y energía": [("Litio y minería", ["litio", "mineria", "minera", "yacimiento", "cobre", "oro ", "posco"]), ("Petróleo y gas", ["petroleo", "gas ", "hidrocarburo", "vaca muerta", "combustible", "nafta"]),
+                          ("Electricidad y renovables", ["electricidad", "solar", "renovable", "energia"])],
+    "Agro y producción": [("Cosechas y cultivos", ["soja", "maiz", "trigo", "cosecha", "siembra", "agricultura", "tabaco", "azucar", "limon", "citrus", "zafra", "agro"]), ("Ganadería y carne", ["ganader", "frigorifico", "carne"]),
+                          ("Vino y bodegas", ["vino", "bodega"]), ("Industria, pymes y exportaciones", ["industria", "pyme", "produccion", "exportacion", "cupo", "productores", "campo "])],
+    "Transporte e infraestructura": [("Rutas y obras viales", ["ruta ", "rutas", "vial", "vialidad", "peaje", "pavimento", "asfalto", "bacheo", "puente", "obra"]), ("Transporte público", ["colectivo", "saeta", "tren ", "transporte", "ferrocarril"]),
+                                     ("Aeropuertos y vuelos", ["aeropuerto", "vuelo", "aerolinea"]), ("Agua, luz y servicios", ["agua potable", "cloaca", "aguas del norte", "edesa", "corte de luz", "infraestructura"])],
+    "Turismo": [("Destinos", ["cafayate", "quebrada", "tren a las nubes", "destino"]), ("Hotelería y ocupación", ["hotel", "ocupacion hotelera"]), ("Feriados y fines de semana largos", ["feriado", "fin de semana largo", "vacaciones"]),
+                ("Turismo receptivo", ["turismo", "turista", "temporada alta", "receptivo"])],
+    "Trabajo y gremios": [("Paritarias y salarios", ["paritaria", "salario", "sueldo", "convenio colectivo"]), ("Gremios y paros", ["gremio", "sindicat", "cgt", "paro ", "huelga", "asamblea"]),
+                          ("Empleo y despidos", ["empleo", "desempleo", "despido", "trabajadores"]), ("Reforma laboral", ["reforma laboral"])],
+    "Economía y finanzas": [("Dólar y mercados", ["dolar", "bolsa", "bonos", "plazo fijo", "riesgo pais", "reservas", "bcra", "banco central"]), ("Inflación y precios", ["inflacion", "precios", "canasta", "consumo", "alquiler"]),
+                            ("Impuestos y tarifas", ["impuest", "tarifa", "afip", "arca ", "retenciones", "aranceles"]), ("Deuda, FMI y presupuesto", ["deuda", "fmi", "superavit", "deficit", "presupuesto", "ajuste", "recesion"]),
+                            ("Jubilaciones y crédito", ["jubilaci", "credito", "tasa de interes"])],
+    "Sociedad y género": [("Género y diversidad", ["genero", "mujer", "diversidad", "lgbt"]), ("Niñez y familia", ["ninez", "infancia", "adolescente", "familia", "adopcion"]),
+                          ("Pobreza y asistencia", ["pobreza", "comedor", "alimentos", "asistencia"]), ("Discapacidad y adultos mayores", ["discapacidad", "adultos mayores", "jubilad"]),
+                          ("Comunidades y vecinos", ["pueblos originarios", "indigena", "comunitari", "vecinos", "barrio", "solidari"]), ("Iglesia y derechos humanos", ["iglesia", "obispo", "derechos humanos", "migrante", "ong "])],
+    "Internacional": [("Estados Unidos", ["estados unidos", "eeuu", "trump"]), ("Medio Oriente", ["israel", "hamas", "gaza", "iran"]), ("Rusia y Ucrania", ["rusia", "ucrania", "putin", "zelenski"]),
+                      ("América Latina", ["brasil", "chile", "bolivia", "paraguay", "uruguay", "venezuela", "mexico", "ecuador", "colombia", "peru ", "cuba", "lula", "bolsonaro", "maduro", "mercosur"]),
+                      ("Europa y Asia", ["europa", "china", "espana", "francia", "italia", "reino unido", "japon", "union europea"]), ("Vaticano", ["papa ", "vaticano"])],
+    "Política y gobierno": [("Poder Legislativo", ["senad", "diputad", "legisl", "congreso", "concejo", "concejal", "sesion", "proyecto de ley"]), ("Gobierno y gabinete", ["gobernador", "gobierno", "ministr", "gabinete", "decreto", "casa rosada", "intendente", "municip", "licitacion"]),
+                            ("Elecciones y partidos", ["eleccion", "electoral", "candidat", "partido", "alianza", "interna", "oposicion", "oficialismo", "bloque", "peronis", "libertari", "radicalis", "campana"]),
+                            ("Corrupción y escándalos", ["corrupcion", "escandalo", "coima", "cuadernos", "sobreprecio", "denuncia"]), ("Relación Nación-provincias", ["gobernadores", "coparticipacion", "provincias", "fondos"])],
+}
+SUB_GENERAL = "General"
+
+
+def subtema_todos(tema, texto):
+    mejor, nmax = SUB_GENERAL if tema != "Policiales y seguridad" else "Otros hechos de seguridad", 0
+    for nombre, pats in SUBTEMAS.get(tema, []):
+        n = len(hay(texto, pats))
+        if n > nmax:
+            mejor, nmax = nombre, n
+    return mejor
 
 
 
@@ -503,13 +565,17 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
         m_tema = TEMA_A_MIN_PROV.get(h["tema"])
         if m_tema and m_tema not in mp and any(SALTA_MARCAS.search(x["titulo"]) for x in g):
             mp.append(m_tema)
-        return {"min_nac": mn, "min_prov": mp}
+        pers = []
+        for nom, pid in nombres.items():
+            if nom in texto and pid not in pers:
+                pers.append(pid)
+        return {"min_nac": mn, "min_prov": mp, "sub": subtema_todos(h["tema"], texto), "lugar": any(SALTA_MARCAS.search(x["titulo"]) for x in g), "personas": pers[:3]}
 
     def elegir(hs):
         # Se guardan las historias más cubiertas de CADA tema y de CADA ministerio, para que ningún tema quede vacío.
-        sel, cta, cmn, cmp_ = {}, Counter(), Counter(), Counter()
+        sel, cta, cmn, cmp_, csub = {}, Counter(), Counter(), Counter(), Counter()
         for i, h in enumerate(hs):             # hs ya viene ordenada por cobertura
-            quedar = cta[h["tema"]] < TOPE_TEMA
+            quedar = cta[h["tema"]] < TOPE_TEMA or csub[(h["tema"], h["sub"])] < TOPE_SUB
             for m in h["min_nac"]:
                 if cmn[m] < TOPE_MIN:
                     quedar = True
@@ -519,6 +585,7 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
             if quedar:
                 sel[i] = h
                 cta[h["tema"]] += 1
+                csub[(h["tema"], h["sub"])] += 1
                 for m in h["min_nac"]:
                     cmn[m] += 1
                 for m in h["min_prov"]:
@@ -528,8 +595,11 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
     hist_todos_all, top_todos = armar_historias(todos_t, lambda t: tema_todos(t, nombres_l), alcance_politica, prev_todos,
                                                 extra_fn=extra_todos, selector=elegir, max_links=MAX_LINKS_TODOS)
     cnt_tema, notas_tema = Counter(), Counter()
-    cnt_mn, cnt_mp = Counter(), Counter()
+    cnt_mn, cnt_mp, cnt_sub, cnt_per = Counter(), Counter(), Counter(), Counter()
     for h in hist_todos_all:
+        cnt_sub[(h["tema"], h["sub"])] += 1
+        for pid in h["personas"]:
+            cnt_per[pid] += 1
         cnt_tema[h["tema"]] += 1
         notas_tema[h["tema"]] += h["n_notas"]
         for m in h["min_nac"]:
@@ -541,8 +611,12 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
                     "con_ministerio_nacional": sum(1 for h in hist_todos_all if h["min_nac"]),
                     "con_ministerio_salta": sum(1 for h in hist_todos_all if h["min_prov"]),
                     "salta": sum(1 for h in hist_todos_all if h["alcance"] == "Salta"),
-                    "nacional": sum(1 for h in hist_todos_all if h["alcance"] == "Nacional")},
+                    "nacional": sum(1 for h in hist_todos_all if h["alcance"] == "Nacional"),
+                    "ambos": sum(1 for h in hist_todos_all if h["alcance"] == "Ambos"),
+                    "nombran_lugar_salta": sum(1 for h in hist_todos_all if h["lugar"])},
         "temas": [{"tema": t, "historias": n, "notas": notas_tema[t]} for t, n in cnt_tema.most_common()],
+        "subtemas": [{"tema": t, "subtema": sb, "historias": n} for (t, sb), n in sorted(cnt_sub.items(), key=lambda kv: (-kv[1], kv[0]))],
+        "personas": [{"id": pid, "nombre": por_id[pid]["name"], "historias": n} for pid, n in sorted(cnt_per.items(), key=lambda kv: (-kv[1], kv[0]))[:15] if pid in por_id],
         "ministerios_nacionales": [{"ministerio": m, "historias": cnt_mn[m]} for m, _ in MIN_NAC if cnt_mn[m]],
         "ministerios_salta": [{"ministerio": m, "historias": cnt_mp[m]} for m, _ in MIN_PROV if cnt_mp[m]],
         "historias": top_todos,
@@ -663,6 +737,33 @@ def main():
         actual = ""
     if actual != nuevo_idx:
         open(ruta_idx, "w", encoding="utf-8").write(nuevo_idx)
+        cambios += 1
+    # tendencias: por día, cuántas historias hubo de cada tema y subtema (para el radar de temas). Se fusiona con lo anterior
+    ruta_t = os.path.join(OUT, "tendencias.json")
+    previo_t = cargar(os.path.join("resumenes", "tendencias.json"), {}).get("dias", [])
+    por_dia = {x["fecha"]: x for x in previo_t if isinstance(x, dict) and x.get("fecha")}
+    for nombre in os.listdir(OUT):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", nombre):
+            continue
+        try:
+            with open(os.path.join(OUT, nombre), encoding="utf-8") as fh:
+                d = json.load(fh)
+        except (OSError, ValueError):
+            continue
+        td = d.get("todos")
+        if not td:
+            continue
+        por_dia[d["fecha"]] = {"fecha": d["fecha"], "notas": td["totales"]["notas"], "historias": td["totales"]["historias"],
+                               "temas": {x["tema"]: x["historias"] for x in td["temas"]},
+                               "subtemas": {x["tema"] + "|" + x["subtema"]: x["historias"] for x in td.get("subtemas", [])}}
+    dias_t = sorted(por_dia.values(), key=lambda x: x["fecha"])[-60:]
+    nuevo_t = json.dumps({"dias": dias_t}, ensure_ascii=False, separators=(",", ":")) + "\n"
+    try:
+        actual_t = open(ruta_t, encoding="utf-8").read()
+    except OSError:
+        actual_t = ""
+    if actual_t != nuevo_t:
+        open(ruta_t, "w", encoding="utf-8").write(nuevo_t)
         cambios += 1
     print(f"Listo. Archivos escritos: {cambios}.")
     return 0
