@@ -1,14 +1,14 @@
 {
  "fecha": "2026-10-12",
- "generado": "2026-10-12T03:48:05+00:00",
+ "generado": "2026-10-12T04:13:56+00:00",
  "totales": {
-  "recolectadas": 10,
+  "recolectadas": 15,
   "politicas": 3,
-  "seguridad": 0,
-  "descartadas": 7,
+  "seguridad": 2,
+  "descartadas": 10,
   "historias": 3,
-  "historias_seguridad": 0,
-  "medios": 6
+  "historias_seguridad": 2,
+  "medios": 8
  },
  "cobertura_baja": true,
  "temas": [
@@ -82,13 +82,57 @@
  ],
  "seguridad": {
   "totales": {
-   "notas": 0,
-   "historias": 0,
+   "notas": 2,
+   "historias": 2,
    "salta": 0,
-   "nacional": 0
+   "nacional": 2
   },
-  "subtemas": [],
-  "historias": []
+  "subtemas": [
+   {
+    "tema": "Policía y fuerzas de seguridad",
+    "historias": 2
+   }
+  ],
+  "historias": [
+   {
+    "titulo": "Un joven atropelló a un policía de Río Negro mientras intentaba evadir un control vehícular y quedó detenido",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "01:08",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Un joven atropelló a un policía de Río Negro mientras intentaba evadir un control vehícular y quedó detenido",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNa21VWEw1cnZQWlJfMG5sa2EzZW9VWHQ5MFM5dW1LaWNXMDJicXN3aVh4ZkRrbHFFa1lwQkZBTjNpU1lXVjdwdnhBSkExOGxtRC1DTkF6alBaWGQzWjBMSGVmemlIcllGbWZ3OTVadVJTUzg1NkJ4cGgyaWkwNGthaXFRWkhybGJCOW5zZFVrOXlZanRtRElSTXJOVGJ0SUNaZUlGcmpuNVpSbFhESVplOXdxd2lLLXRJRHc2NkhIWmExWk1EcVNMcUVyRkE4THBfeHZEYnRFbC1YcV9WU1lDMkpVckFWQ2RfT0V2eXZBU2pfcFhjelFJ0gGSAkFVX3lxTFBhN2Y3a05DSFpIVTlYeWtBWU9ERnVmQWYzWVc3a0MxVzBOcWtDeWtLTUx1Q09fSGlGMVR5Mnp3V0VOdTY4bzhMOHhjX2pUV25ISVNQVTZfa2F3NC1VcnVoU0dSdWhmYUREY0EyV29YdVBnWndCOUlqSXdDZHRjYkFYa1J3RURIS3JNaVU1SnZBMGU0bndfYU1QdjhGcXFCdWRXRElMNmMzSWlBZEx6UzNzY2NOUWVkcXZ4cWwyVF81NnhuUjVBS2RlT0hXYnh0WllYWkVSZXowaE1vdmN6eTNxVGc2ZVlTX2hrSnZYYURrbEZlclZFVnlyNnRZWTRkV0RwMlFrU1dIVWtiV2ctQjRjSEE?oc=5",
+      "hora": "01:08"
+     }
+    ],
+    "n": 1
+   },
+   {
+    "titulo": "Balearon a un vendedor ambulante en una zona rural de Córdoba y hay un detenido",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "00:49",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Balearon a un vendedor ambulante en una zona rural de Córdoba y hay un detenido",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVnNllVbHRfZzlpYTFGbklPMEg3SnZvSEJlM1VwUlpYbms0UjdlWGJQUzMxYTBISzEzajFvZ0xpRXdjeDhPSGJoVXRNY0wxOUk3T0xvT3NsU2E5MlRjQTZHWVRBRUdUT0ZnTDB0SDVRS1ZwbnZKSG5FYUw0dFdsZTAwY1lYSmNha01Fb0tqYk1KUXAweGtXNmRmeHpBLWgtQmxYY3FaX3FKMkxzNnBjV19jdmtGWnctd09UaDZjaUNoMW5wc0VJODNXeWx1VDYy0gHrAUFVX3lxTFBpNmctUzQ0TWpxamhhaGlIQVFyY3BQYzBLLTlHbmh2ZDl5ZWd5TVZGU2RkVDFLWUJtMFFGYnNWbTMwenFSbFJjWU02ZndIXzJUc2V2UExRN2dPamo2MU9SYWcwUmppaHF1cGFOVTlFaGJKcDZScjB6QkZ2R1RJWlhOYWN0alRiVlpycWVWZ21EZ2lKWlVQZEllRGRiWDAzWHU4THFuMzJINzdSWGxaQnZ2ZHhWSy1icFlQVzQ0UG9rNzRQelI5a0tGMEVwSFJwdmsxaW8tUkVrRlJPZ2h4SEYwWHZ4akVXc3JUQXc?oc=5",
+      "hora": "00:49"
+     }
+    ],
+    "n": 2
+   }
+  ]
  },
  "palabras": [],
  "personas": [],
@@ -99,6 +143,20 @@
  },
  "medios": [
   {
+   "nombre": "Infobae",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 1,
+   "seguridad": 2
+  },
+  {
+   "nombre": "La Gaceta",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 2,
+   "seguridad": 0
+  },
+  {
    "nombre": "Cadena 3 Argentina",
    "ambito": "Nacional",
    "notas": 3,
@@ -106,16 +164,23 @@
    "seguridad": 0
   },
   {
-   "nombre": "La Gaceta",
-   "ambito": "Nacional",
-   "notas": 2,
-   "politicas": 2,
-   "seguridad": 0
-  },
-  {
    "nombre": "Clarin",
    "ambito": "Nacional",
    "notas": 2,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "El Tribuno",
+   "ambito": "Salta",
+   "notas": 1,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Informate Salta",
+   "ambito": "Salta",
+   "notas": 1,
    "politicas": 0,
    "seguridad": 0
   },
@@ -131,13 +196,6 @@
    "ambito": "Nacional",
    "notas": 1,
    "politicas": 0,
-   "seguridad": 0
-  },
-  {
-   "nombre": "Infobae",
-   "ambito": "Nacional",
-   "notas": 1,
-   "politicas": 1,
    "seguridad": 0
   }
  ],
