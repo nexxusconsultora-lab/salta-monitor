@@ -1,24 +1,150 @@
 {
   "actualizado": "2026-10-12",
   "_como_cargar": "Agregá una fila por persona dentro de \"autoridades\". camara: Senado, Diputados, Concejo Deliberante o Corte de Justicia. cargo: por ejemplo Presidente, Vicepresidente 1°, Presidente provisorio, Secretario Administrativo, Secretario Parlamentario, Presidente de bloque. fuente: link donde se confirma. id (opcional): el id de la persona en politicians.json, para que el recuadro lleve a su ficha. Nunca cargar un nombre sin fuente. El Presidente del Senado es el vicegobernador y sale solo de politicians.json.",
-  "_ejemplo": {"camara": "Diputados", "cargo": "Secretario Administrativo", "nombre": "Nombre Apellido", "id": "", "fuente": "https://", "fecha": "2026-10-12"},
+  "_ejemplo": {
+    "camara": "Diputados",
+    "cargo": "Secretario Administrativo",
+    "nombre": "Nombre Apellido",
+    "id": "",
+    "fuente": "https://",
+    "fecha": "2026-10-12"
+  },
   "autoridades": [
-    {"camara": "Senado", "cargo": "Vicepresidente 1°", "nombre": "Mashur Lapad", "id": "sen-mashur-lapad", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Vicepresidente 2°", "nombre": "Esteban D'Andrea Cornejo", "id": "sen-esteban-dandrea-cornejo", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Vicepresidente 3°", "nombre": "Enrique Antonio Cornejo Saravia", "id": "sen-enrique-cornejo-saravia", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Secretario Legislativo", "nombre": "Luis Guillermo López Mirau", "id": "", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Secretario Administrativo", "nombre": "Diego Sebastián Pérez", "id": "", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Secretario Institucional", "nombre": "Carlos Daniel Porcelo", "id": "", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Prosecretario de Presidencia", "nombre": "Marcelo Federico Herrera", "id": "", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Senado", "cargo": "Prosecretario de Cámara", "nombre": "Pedro Gerónimo Liverato", "id": "", "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/", "fecha": "2026-01-07"},
-    {"camara": "Corte de Justicia", "cargo": "Presidenta", "nombre": "Teresa Ovejero", "id": "jud-teresa-ovejero", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vicepresidente", "nombre": "José Gabriel Chibán", "id": "jud-jose-gabriel-chiban", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vicepresidenta Segunda", "nombre": "Adriana María Rodríguez Faraldo", "id": "jud-adriana-maria-rodriguez-faraldo", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "Sergio Fabián Vittar", "id": "jud-sergio-fabian-vittar", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "Pablo López Viñals", "id": "jud-pablo-lopez-vinals", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "María Alejandra Gauffin", "id": "jud-maria-alejandra-gauffin", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "María Edit Nallim", "id": "jud-maria-edit-nallim", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "Martín Diez Villa", "id": "jud-martin-diez-villa", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"},
-    {"camara": "Corte de Justicia", "cargo": "Vocal", "nombre": "Martín Plaza", "id": "jud-martin-plaza", "fuente": "https://www.justiciasalta.gov.ar/es/autoridades", "fecha": "2026-10-12"}
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Presidenta",
+      "nombre": "Teresa Ovejero",
+      "id": "jud-teresa-ovejero",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vicepresidente",
+      "nombre": "José Gabriel Chibán",
+      "id": "jud-jose-gabriel-chiban",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vicepresidenta Segunda",
+      "nombre": "Adriana María Rodríguez Faraldo",
+      "id": "jud-adriana-maria-rodriguez-faraldo",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "Sergio Fabián Vittar",
+      "id": "jud-sergio-fabian-vittar",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "Pablo López Viñals",
+      "id": "jud-pablo-lopez-vinals",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "María Alejandra Gauffin",
+      "id": "jud-maria-alejandra-gauffin",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "María Edit Nallim",
+      "id": "jud-maria-edit-nallim",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "Martín Diez Villa",
+      "id": "jud-martin-diez-villa",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Corte de Justicia",
+      "cargo": "Vocal",
+      "nombre": "Martín Plaza",
+      "id": "jud-martin-plaza",
+      "fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+      "fecha": "2026-10-12"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Vicepresidente 1°",
+      "nombre": "Mashur Lapad",
+      "id": "sen-mashur-lapad",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Vicepresidente 2°",
+      "nombre": "Esteban D'Andrea Cornejo",
+      "id": "sen-esteban-dandrea-cornejo",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Vicepresidente 3°",
+      "nombre": "Enrique Antonio Cornejo Saravia",
+      "id": "sen-enrique-cornejo-saravia",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Secretario Legislativo",
+      "nombre": "Luis Guillermo López Mirau",
+      "id": "",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Secretario Administrativo",
+      "nombre": "Diego Sebastián Pérez",
+      "id": "",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Secretario Institucional",
+      "nombre": "Carlos Daniel Porcelo",
+      "id": "",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Prosecretario de Presidencia",
+      "nombre": "Marcelo Federico Herrera",
+      "id": "",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    },
+    {
+      "camara": "Senado",
+      "cargo": "Prosecretario de Cámara",
+      "nombre": "Pedro Gerónimo Liverato",
+      "id": "",
+      "fuente": "https://senadosalta.gob.ar/institucional/autoridades-de-camara/",
+      "fecha": "2026-01-07"
+    }
   ]
 }
