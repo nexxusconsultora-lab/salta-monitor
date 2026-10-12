@@ -201,6 +201,76 @@ def leer_pagina(camara, pagina, cfg, diagnostico=False):
     return "ok", f"{len(encontrados)} documento(s) coinciden con el filtro", len(vistos), encontrados
 
 
+def html_a_lineas(h):
+    """HTML -> texto con un renglón por bloque (párrafo, ítem de lista, fila), sin menús ni pie de página."""
+    h = re.sub(r"<(script|style|nav|header|footer|aside|noscript)\b.*?</\1>", " ", h or "", flags=re.S | re.I)
+    h = re.sub(r"</?(p|div|li|tr|br|h[1-6]|ul|ol|table|section|article)\b[^>]*>", "\n", h, flags=re.I)
+    h = html.unescape(re.sub(r"<[^>]+>", " ", h))
+    return "\n".join(re.sub(r"[ \t\r\f\v\xa0]+", " ", l).strip() for l in h.split("\n") if l.strip())
+
+
+def buscar_pdf(html_crudo, pagina):
+    """Primer PDF del MISMO sitio enlazado/incrustado en el cuerpo de la página (algunos temarios se muestran así)."""
+    cuerpo = re.sub(r"<(nav|header|footer|aside)\b.*?</\1>", " ", html_crudo or "", flags=re.S | re.I)
+    for m in re.finditer(r"""(?:src|href|data)\s*=\s*["']([^"']+?\.pdf[^"']*)["']""", cuerpo, flags=re.I):
+        u = sin_fragmento(urljoin(pagina, html.unescape(m.group(1))))
+        if url_segura(u) and mismo_sitio(u, pagina):
+            return u
+    return None
+
+
+RE_ITEM = re.compile(r"^\s*(\d{1,3})\s*[.\-)\u2013]+\s*(.{15,})$")
+RE_SALTO = re.compile(r"(?i)^(autor[ií]a|sin dict|con dict|breve fund|proyectos? de |[ivx]+\.\s|de [a-záéíóú])")
+
+
+def extraer_agenda(texto, tope=30):
+    """Ítems numerados del orden del día (\u00ab4.- Proyecto de Resolución del señor Senador…\u00bb). Si el ítem queda corto o termina
+    en «:», se le suma el renglón siguiente (suele traer el asunto). Es una lectura de texto, no un análisis del contenido."""
+    lineas = [l.strip() for l in re.split(r"[\r\n]+", texto or "") if l.strip()]
+    out, vistos = [], set()
+    for i, l in enumerate(lineas):
+        m = RE_ITEM.match(l)
+        if not m:
+            continue
+        t = m.group(2).strip()
+        if re.match(r"(?i)(sin|con)\s+dict[aá]menes", t):
+            continue
+        if (t.endswith(":") or len(t) < 90) and i + 1 < len(lineas):
+            sig = lineas[i + 1]
+            if not RE_ITEM.match(sig) and not RE_SALTO.match(sig):
+                t = t + " " + sig
+        t = limpiar(t, 260)
+        k = of.fold(t)
+        if k not in vistos:
+            vistos.add(k)
+            out.append(t)
+        if len(out) >= tope:
+            break
+    return out
+
+
+def destacar(agenda, temas, n=6):
+    """Ordena los ítems: primero los que tocan un tema vigilado, después los proyectos de ley, después resoluciones,
+    declaraciones y por último homenajes. Dentro de cada grupo se respeta el orden del documento."""
+    res = []
+    for i, t in enumerate(agenda):
+        f = of.fold(t)
+        tm = [x for x in temas if re.search(r"(?<![a-z0-9])" + re.escape(of.fold(x)) + r"(?![a-z0-9])", f)]
+        if "homenaje" in f or "reconociendo la trayectoria" in f:
+            tipo, pts = "Homenaje", -1
+        elif re.search(r"proyecto de ley|\bley\b", f):
+            tipo, pts = "Ley", 2
+        elif "resolucion" in f:
+            tipo, pts = "Resolución", 1
+        elif "declaracion" in f:
+            tipo, pts = "Declaración", 0
+        else:
+            tipo, pts = "Otro", 0
+        res.append((-(pts + (3 if tm else 0)), i, {"t": t, "tipo": tipo, "temas": tm}))
+    res.sort(key=lambda x: (x[0], x[1]))
+    return [r[2] for r in res[:n]]
+
+
 def extracto(texto, tope=1500):
     """Primeras líneas del documento, en una sola línea de texto: es lo que NEWAR muestra como «qué dice»."""
     t = re.sub(r"\s+", " ", texto or "").strip()
@@ -242,7 +312,17 @@ def analizar(doc, politicos, temas, presupuesto):
         try:
             if of.robots_permite(url):
                 presupuesto["usados"] += 1
-                paginas = [of.html_a_texto(of.descargar(url))]
+                crudo = of.descargar(url)
+                paginas = [html_a_lineas(crudo)]
+                if len(extraer_agenda(paginas[0])) < 3 and presupuesto["usados"] < MAX_LEIDOS_POR_CORRIDA:
+                    pdf = buscar_pdf(crudo, url)
+                    if pdf:
+                        pp, est, _m = of.leer_pdf_fuente(pdf, {"pdf_usado": presupuesto["usados"],
+                                                                "pdf_tope": MAX_LEIDOS_POR_CORRIDA})
+                        presupuesto["usados"] += 1
+                        if est == "ok" and pp:
+                            paginas = pp
+                            doc["url_texto"] = pdf
         except Exception:
             paginas = None
     base = doc["titulo"]
@@ -252,7 +332,7 @@ def analizar(doc, politicos, temas, presupuesto):
             doc["fecha_mencionada"] = f
         return
     doc["texto_leido"] = True
-    completo = " ".join(paginas)
+    completo = "\n".join(paginas)
     plegado = of.fold(completo)
     doc["temas"] = [t for t in temas if re.search(r"(?<![a-z0-9])" + re.escape(of.fold(t)) + r"(?![a-z0-9])", plegado)]
     ctx = of.contextos_en_paginas(paginas, politicos)
@@ -263,6 +343,9 @@ def analizar(doc, politicos, temas, presupuesto):
         doc["fecha_mencionada"] = f
     doc["paginas"] = len(paginas)
     doc["extracto"] = extracto(completo)
+    doc["agenda"] = extraer_agenda(completo)
+    doc["destacados"] = destacar(doc["agenda"], temas)
+    doc["agenda_v"] = 1
 
 
 # --------------------------------------------------------------------------------------------------
@@ -429,7 +512,7 @@ def main():
     for d in list(items.values()):
         if presupuesto["usados"] >= MAX_LEIDOS_POR_CORRIDA:
             break
-        if d.get("texto_leido") and not d.get("extracto") and d.get("extracto_intentos", 0) < 3 and es_proxima(d):
+        if d.get("agenda_v", 0) < 1 and d.get("extracto_intentos", 0) < 3 and es_proxima(d):
             previo = dict(d)
             analizar(d, politicos, temas, presupuesto)
             if not d.get("texto_leido"):
