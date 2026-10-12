@@ -201,6 +201,29 @@ def leer_pagina(camara, pagina, cfg, diagnostico=False):
     return "ok", f"{len(encontrados)} documento(s) coinciden con el filtro", len(vistos), encontrados
 
 
+def extracto(texto, tope=1500):
+    """Primeras líneas del documento, en una sola línea de texto: es lo que NEWAR muestra como «qué dice»."""
+    t = re.sub(r"\s+", " ", texto or "").strip()
+    return t[:tope] + ("…" if len(t) > tope else "")
+
+
+def fecha_de_sesion(doc):
+    """Fecha de la sesión (datetime) si el título/enlace/texto la trae como dd/mm/aaaa o dd-mm-aaaa; si no, None."""
+    for campo in (doc.get("titulo", ""), doc.get("url", ""), doc.get("fecha_mencionada", "")):
+        m = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](20\d{2})", str(campo))
+        if m:
+            try:
+                return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+            except ValueError:
+                continue
+    return None
+
+
+def es_proxima(doc):
+    f = fecha_de_sesion(doc)
+    return bool(f and f >= datetime.now().replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1))
+
+
 def analizar(doc, politicos, temas, presupuesto):
     """Abre el PDF (o la página) del documento nuevo y le saca temas vigilados, personas y fecha.
     Nunca bloquea el aviso: si falla, se avisa igual con título y enlace."""
@@ -239,6 +262,7 @@ def analizar(doc, politicos, temas, presupuesto):
     if f:
         doc["fecha_mencionada"] = f
     doc["paginas"] = len(paginas)
+    doc["extracto"] = extracto(completo)
 
 
 # --------------------------------------------------------------------------------------------------
@@ -399,6 +423,19 @@ def main():
     if a.diagnostico:
         print("\nDiagnóstico terminado (no se guardó ni se envió nada).")
         return 0
+
+    # Documentos de sesiones próximas que ya se habían leído antes de que existiera el extracto: se vuelven a leer
+    # (con tope, y hasta 3 intentos por documento) para poder mostrar «qué dice» en la página.
+    for d in list(items.values()):
+        if presupuesto["usados"] >= MAX_LEIDOS_POR_CORRIDA:
+            break
+        if d.get("texto_leido") and not d.get("extracto") and d.get("extracto_intentos", 0) < 3 and es_proxima(d):
+            previo = dict(d)
+            analizar(d, politicos, temas, presupuesto)
+            if not d.get("texto_leido"):
+                d.clear()
+                d.update(previo)
+            d["extracto_intentos"] = previo.get("extracto_intentos", 0) + 1
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
