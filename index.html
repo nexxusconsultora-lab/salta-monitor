@@ -237,6 +237,7 @@ html:has(.mgrid.mfs){overflow:hidden}
 .pzt button{width:36px;height:36px;font-size:1.15rem;line-height:1;border:1px solid var(--line);background:var(--raised);color:var(--ink);cursor:pointer;border-radius:3px;padding:0}
 .pzt button:hover{border-color:var(--clay)}
 .pzh{position:absolute;left:8px;bottom:6px;font-size:.7rem;color:var(--soft);pointer-events:none;background:var(--raised);padding:1px 6px;opacity:.92}
+.sesd{margin:.3rem 0 .5rem 1.2rem;padding:0;font-size:.88rem}.sesd li{margin:.25rem 0}
 .rgv .lb{display:none;font:10px Inter,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--raised);stroke-width:3px;pointer-events:none}
 .rgv .top .lb,.rgv.z2 .lb,.rgv .nd.sel .lb,.rgv .nd.nb .lb{display:block}
 .rgv .nd{cursor:pointer}.rgv.hv .nd{opacity:.18}.rgv.hv .nd.nb,.rgv.hv .nd.sel{opacity:1}
@@ -1013,10 +1014,16 @@ const sesFecha=d=>{const t=sesTitulo(d)+' '+String(d.url||'')+' '+String(d.fecha
  if(!y||mo<1||mo>12||da<1||da>31)return null;const f=new Date(y,mo-1,da);return isNaN(f)?null:f};
 const SES={cam:'',tem:0,q:''};
 const sesCard=d=>{const f=d._f,hoy=new Date();hoy.setHours(0,0,0,0);const cuando=f?(f>=hoy?'<span class="tag vigente">próxima · '+esc(fdate(f,{dateStyle:'medium'}))+'</span>':'<span class="tag">sesión del '+esc(fdate(f,{dateStyle:'medium'}))+'</span>'):'<span class="tag">sin fecha de sesión registrada</span>';
- const tm=(d.temas||[]).map(t=>`<a class="pill" href="#/palabra/${encodeURIComponent(t)}">${esc(t)}</a>`).join(' ');
- return`<article class="art"><div style="min-width:0"><div class="meta"><span class="tag ind">${esc(d.camara_nombre||d.camara)}</span> ${cuando} · publicado ${esc(fdate(d.first_seen,{dateStyle:'medium'}))}</div><p class="t"><a href="${esc(safe(d.url))}" target="_blank" rel="noopener noreferrer">${esc(sesTitulo(d))}</a></p>
- ${d.texto_leido?(tm?`<p class="meta">Temas vigilados que aparecen en el texto: ${tm}</p>`:'<p class="meta">Se leyó el documento: no aparece ningún tema vigilado.</p>')+((d.personas||[]).length?`<p class="meta">Nombra a: ${(d.personas||[]).map(esc).join(', ')}</p>`:''):'<p class="meta">El texto de este documento no se leyó: abrí el enlace para ver qué se trata.</p>'}
- ${d.extracto?`<details><summary class="meta">Qué dice el documento (primeras líneas)</summary><p class="meta" style="white-space:pre-wrap">${esc(d.extracto)}</p></details>`:''}</div></article>`};
+ const tm=(d.temas||[]).map(t=>`<a class="pill" href="#/palabra/${encodeURIComponent(t)}">${esc(t)}</a>`).join(' '),ag=d.agenda||[],ds=d.destacados||[];
+ let blq;
+ if(d.agenda_v){
+  blq=(ds.length?`<h4 class="sh">Temas destacados del orden del día</h4><ol class="sesd">${ds.map(x=>`<li><span class="tag ind">${esc(x.tipo)}</span> ${esc(x.t)}${(x.temas||[]).length?' '+x.temas.map(t=>`<a class="pill" href="#/palabra/${encodeURIComponent(t)}">${esc(t)}</a>`).join(' '):''}</li>`).join('')}</ol>`:'<p class="meta">Se leyó el documento pero no se pudieron identificar ítems numerados del orden del día.</p>')
+   +(ag.length>ds.length?`<details><summary class="meta">Orden del día completo (${ag.length} ítems leídos)</summary><ol class="sesd">${ag.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></details>`:'')
+   +(tm?`<p class="meta">Temas vigilados que aparecen en el texto: ${tm}</p>`:'')
+   +((d.personas||[]).length?`<p class="meta">Nombra a: ${(d.personas||[]).map(esc).join(', ')}</p>`:'')
+   +(!ag.length&&d.extracto?`<details><summary class="meta">Primeras líneas del documento</summary><p class="meta" style="white-space:pre-wrap">${esc(d.extracto)}</p></details>`:'');
+ }else blq='<p class="meta">Todavía no se leyó el texto de este documento: abrí el enlace para ver qué se trata.</p>';
+ return`<article class="art"><div style="min-width:0"><div class="meta"><span class="tag ind">${esc(d.camara_nombre||d.camara)}</span> ${cuando} · publicado ${esc(fdate(d.first_seen,{dateStyle:'medium'}))}</div><p class="t"><a href="${esc(safe(d.url))}" target="_blank" rel="noopener noreferrer">${esc(sesTitulo(d))}</a></p>${blq}</div></article>`};
 V.sesiones=()=>{const it=(S.odd&&S.odd.items)||[],hoy=new Date();hoy.setHours(0,0,0,0);
  const L=it.filter(d=>d&&d.url).map(d=>Object.assign({},d,{_f:sesFecha(d)})).filter(d=>!/^(\d{4})$/.test(sesTitulo(d))||d.texto_leido);
  const cams=[...new Set(L.map(d=>d.camara_nombre||d.camara))].sort((a,b)=>a.localeCompare(b,'es'));
@@ -1024,12 +1031,14 @@ V.sesiones=()=>{const it=(S.odd&&S.odd.items)||[],hoy=new Date();hoy.setHours(0,
   const l=L.filter(d=>(!SES.cam||(d.camara_nombre||d.camara)===SES.cam)&&(!SES.tem||(d.temas||[]).length)&&(!SES.q||fold(sesTitulo(d)+' '+(d.extracto||'')+' '+(d.temas||[]).join(' ')).includes(SES.q)));
   const prox=l.filter(d=>d._f&&d._f>=hoy).sort((a,b)=>a._f-b._f),pas=l.filter(d=>d._f&&d._f<hoy).sort((a,b)=>b._f-a._f),sin=l.filter(d=>!d._f).sort((a,b)=>String(b.first_seen).localeCompare(String(a.first_seen)));
   $('#sn').textContent=prox.length+' próximas · '+pas.length+' pasadas · '+sin.length+' sin fecha de sesión';
+  const ct={};prox.filter(d=>d.agenda_v).forEach(d=>(d.temas||[]).forEach(t=>{ct[t]=(ct[t]||0)+1}));const tt=Object.entries(ct).sort((a,b)=>b[1]-a[1]);
+  $('#sd').innerHTML=tt.length?'<p class="note"><b>Temas vigilados en las próximas sesiones:</b> '+tt.map(([t,n])=>`<a class="pill" href="#/palabra/${encodeURIComponent(t)}">${esc(t)} · ${n}</a>`).join(' ')+'. Tocá uno para ver qué personas aparecen en la prensa con esa palabra.</p>':'';
   $('#sp').innerHTML=prox.length?'':'<p class="empty">No hay documentos de sesiones próximas con estos filtros. Si hoy hay sesión y no aparece, la cámara todavía no publicó su orden del día o plan de labor.</p>';
   if(prox.length)pager($('#sp'),prox,sesCard,50);pager($('#sr'),pas.concat(sin),sesCard,30)};
   ['sc','st','sq'].forEach(i=>$('#'+i).addEventListener('input',go));go()});
- return`<h2 class="sec">Sesiones: qué se va a tratar</h2><p class="lede">Documentos que las cámaras publican antes de sesionar (orden del día, plan de labor, temario): Diputados y Senado de la Nación, y Diputados y Senado de Salta. Cada uno lleva el enlace al original, que es la fuente. Los temas marcados son <b>coincidencias de texto con palabras vigiladas</b> (se editan en data/fuentes_orden_del_dia.json), no el temario completo.</p>
+ return`<h2 class="sec">Sesiones: qué se va a tratar</h2><p class="lede">Documentos que las cámaras publican antes de sesionar (orden del día, plan de labor, temario): Diputados y Senado de la Nación, y Diputados y Senado de Salta. Cada uno lleva el enlace al original, que es la fuente. Los <b>temas destacados</b> son ítems del orden del día leídos del documento, ordenados así: primero los que tocan una palabra vigilada (se editan en data/fuentes_orden_del_dia.json), después proyectos de ley, resoluciones, declaraciones y homenajes. Es una lectura automática del texto: el documento original manda.</p>
  <div class="ctl"><select id="sc" aria-label="Cámara"><option value="">Las 4 cámaras</option>${cams.map(c=>`<option>${esc(c)}</option>`).join('')}</select><input type="search" id="sq" placeholder="Buscar en títulos y texto…" aria-label="Buscar en sesiones" autocomplete="off"><label class="chk"><input type="checkbox" id="st"> Solo los que tocan un tema vigilado</label></div><p class="note" id="sn"></p>
- <h3 class="sh">Próximas sesiones</h3><div id="sp"></div><h3 class="sh">Anteriores y sin fecha</h3><div id="sr"></div>
+ <div id="sd"></div><h3 class="sh">Próximas sesiones</h3><div id="sp"></div><h3 class="sh">Anteriores y sin fecha</h3><div id="sr"></div>
  ${L.length?'':'<p class="empty">Todavía no hay documentos guardados. Los carga el recolector «Orden del día» (Actions).</p>'}<p class="note">Limitaciones: solo se ve lo que la cámara publica como documento legible; un PDF escaneado se muestra sin texto, y una sesión sin documento publicado no aparece.</p>`};
 V.oficiales=()=>{const it=S.of.items||[];const opt=k=>[...new Set(it.map(i=>i[k]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')).map(v=>`<option>${esc(v)}</option>`).join('');
  setTimeout(()=>{const go=()=>{const f=$('#of').value,t=$('#ot').value,q=fold($('#oq').value.trim()),pp=$('#op').checked;
