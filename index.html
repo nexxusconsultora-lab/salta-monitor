@@ -601,7 +601,7 @@ window.expCSV=k=>{const C=(S.cur&&S.cur.personas)||{},L=personas.filter(p=>p.car
  bajarCSV(k==='eje'?'ejecutivo-salta.csv':'legislativo-salta.csv',[['Nombre','Cargo','Institución','Bloque o espacio','Lugar','Fuente','Menciones','Currículum'],...L.map(p=>{const c=p.cargos.find(c=>c.v===1)||p.cargos[0];return[p.nombre,c.titulo,c.p.chamber,c.bloque||c.p.espacio||'',c.lugar||'',c.p.source_url||'',(PM[p.id]||[]).length,p.ids.some(i=>C[i])?'sí':'no']})])};
 const actividad=p=>{const ms=PM[p.id]||[],hoy=new Date();hoy.setHours(0,0,0,0);const n=30,c=Array(n).fill(0);ms.forEach(m=>{const d=m._d;if(!d)return;const k=Math.round((hoy-new Date(d.getFullYear(),d.getMonth(),d.getDate()))/864e5);if(k>=0&&k<n)c[n-1-k]++});const t=c.reduce((a,b)=>a+b,0),mx=Math.max(1,...c);
  return`<h3 class="sh">Actividad en prensa, últimos 30 días</h3><svg class="spark" viewBox="0 0 ${n*10} 46" preserveAspectRatio="none" role="img" aria-label="Notas por día, últimos 30 días">${c.map((v,i)=>`<rect x="${i*10+1}" y="${(44-v/mx*42).toFixed(1)}" width="8" height="${Math.max(v?2:.8,v/mx*42).toFixed(1)}" fill="${v?'var(--indigo)':'var(--line)'}"/>`).join('')}</svg><p class="note">${t} nota${t===1?'':'s'} en 30 días${t?' · máximo '+mx+' en un día':''}. Cuenta todas las notas atribuidas a la persona, sin el filtro de precisión.</p>`};
-let RED={modo:'tela',cam:'Senado',mw:1,sel:'',n:45,per:0,foco:'',cap:{pre:1,mnac:1,mloc:0,ofi:1,blq:1,dep:1,man:1,cup:1,cam:1},pos:{},key:''};
+let RED={modo:'tela',cam:'Senado',mw:1,sel:'',n:45,per:0,foco:'',cap:{pre:1,mnac:1,mloc:0,ofi:1,blq:1,dep:1,man:1,cup:1,cam:1,tem:0},pos:{},key:''};
 const colG=p=>{const c=(p.cargos.find(x=>x.v===1)||p.cargos[0]).p.chamber;return c==='Ejecutivo'?'var(--clay)':/Senado/.test(c)?'var(--indigo)':/Diputados/.test(c)?'var(--pos)':'var(--neu)'};
 const layoutRed=(N,E,W,H)=>{const ix={};N.forEach((n,i)=>{const a=i/N.length*6.283;n.x=W/2+Math.cos(a)*W/3;n.y=H/2+Math.sin(a)*H/3;n.vx=n.vy=0;ix[n.id]=n});
  for(let t=0;t<260;t++){const k=1-t/260;
@@ -621,9 +621,9 @@ const grafoRed=()=>{let N=[],E=[];
  else{const kk=RED.modo==='de'?'lugar':'bloque',l=personas.map(p=>[p,p.cargos.find(c=>c.v===1&&c.p.chamber===RED.cam)]).filter(x=>x[1]&&x[1][kk]),bs=[...new Set(l.map(x=>x[1][kk]))];
   N=bs.map(b=>({id:'b:'+b,b:1,deg:l.filter(x=>x[1][kk]===b).length*2,lab:b})).concat(l.map(([p])=>({id:p.id,p,deg:1,lab:p.nombre})));E=l.map(([p,c])=>({a:p.id,b:'b:'+c[kk],w:1,n:[]}))}
  return{N,E}};
-const RCAP=[['pre','Prensa: notas en común','var(--soft)'],['mnac','Medios nacionales','var(--neg)'],['mloc','Medios de Salta','var(--neu)'],['ofi','Actos oficiales en común','var(--ink)'],['blq','Mismo bloque','var(--indigo)'],['dep','Mismo departamento','var(--pos)'],['man','Cadena de mando','var(--clay)'],['cup','Autoridades de cámara','var(--ink)'],['cam','Misma cámara','var(--line)']];
-const RST={pre:['var(--soft)',''],mnac:['var(--neg)','1 3'],mloc:['var(--neu)','1 3'],ofi:['var(--ink)','6 2'],blq:['var(--indigo)',''],dep:['var(--pos)','5 3'],man:['var(--clay)',''],cup:['var(--ink)','2 3'],cam:['var(--line)','']};
-const RLB={pre:e=>e.w+' nota'+(e.w===1?'':'s')+' en común',mnac:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio nacional',mloc:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio de Salta',ofi:e=>e.w+' acto'+(e.w===1?'':'s')+' oficial'+(e.w===1?'':'es')+' en común',blq:()=>'mismo bloque',dep:()=>'mismo departamento',man:e=>'cadena de mando'+(e.l?' · '+e.l:''),cup:e=>'autoridad'+(e.l?' · '+e.l:''),cam:()=>'misma cámara'};
+const RCAP=[['pre','Prensa: notas en común','var(--soft)'],['mnac','Medios nacionales','var(--neg)'],['mloc','Medios de Salta','var(--neu)'],['ofi','Actos oficiales en común','var(--ink)'],['blq','Mismo bloque','var(--indigo)'],['dep','Mismo departamento','var(--pos)'],['man','Cadena de mando','var(--clay)'],['cup','Autoridades de cámara','var(--ink)'],['tem','Mismo tema (3+ notas)','#b8860b'],['cam','Misma cámara','var(--line)']];
+const RST={pre:['var(--soft)',''],mnac:['var(--neg)','1 3'],mloc:['var(--neu)','1 3'],ofi:['var(--ink)','6 2'],blq:['var(--indigo)',''],dep:['var(--pos)','5 3'],man:['var(--clay)',''],cup:['var(--ink)','2 3'],cam:['var(--line)',''],tem:['#b8860b','4 2']};
+const RLB={pre:e=>e.w+' nota'+(e.w===1?'':'s')+' en común',mnac:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio nacional',mloc:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio de Salta',ofi:e=>e.w+' acto'+(e.w===1?'':'s')+' oficial'+(e.w===1?'':'es')+' en común',blq:()=>'mismo bloque',dep:()=>'mismo departamento',man:e=>'cadena de mando'+(e.l?' · '+e.l:''),cup:e=>'autoridad'+(e.l?' · '+e.l:''),cam:()=>'misma cámara',tem:e=>'mismo tema'+(e.l?' · '+e.l:'')};
 const camLab=c=>({'Senado':'Senado de Salta','Diputados':'Diputados de Salta','Ejecutivo':'Poder Ejecutivo'})[c]||c;
 const so=(v,l,cur)=>`<option value="${esc(v)}"${String(cur)===String(v)?' selected':''}>${esc(l)}</option>`;
 const NACMED=['Infobae','Clarín','La Nación','Página/12','Ámbito','TN','Perfil','El Cronista','C5N','Cadena 3','iProfesional','A24','El Destape','La Política Online','Parlamentario','Minuto Uno','Letra P','elDiarioAR','Noticias Argentinas','Radio Mitre','Tiempo Argentino','Canal26','BAE Negocios','El Economista','El Cohete a la Luna','Diario Registrado','Radio 10','La Voz del Interior','La Gaceta'];
@@ -654,6 +654,8 @@ const grafoTela=()=>{const N={},E=[],cp=RED.cap,add=(id,o)=>N[id]||(N[id]=Object
   Object.entries(g).forEach(([h,o])=>{const ps=Object.entries(o.p).filter(([,l])=>l.length>=(o.nac?1:2));if(ps.length<2)return;hub(h,o.lab);N[h].med=o.nac?'nac':'loc';ps.forEach(([id,l])=>L(id,h,o.nac?'mnac':'mloc',Math.min(6,l.length),l.slice(0,3)))})}
  if(cp.ofi){const lim=RED.per?Date.now()-RED.per*864e5:0,M={};((S.of&&S.of.items)||[]).forEach(x=>{if(lim&&!(Date.parse(x.fecha_publicacion||x.first_seen)>=lim))return;const a=[...new Set((x.personas||[]).map(i=>byId[i]&&byId[i].id).filter(i=>i&&N[i]))].sort();for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){const k=a[i]+'|'+a[j];(M[k]=M[k]||{a:a[i],b:a[j],w:0,n:[]});M[k].w++;M[k].n.push({title:x.titulo,link:x.url})}});
   Object.values(M).forEach(e=>E.push(Object.assign(e,{t:'ofi'})))}
+ if(cp.tem&&window.nxTema){const lim=RED.per?Date.now()-RED.per*864e5:0,cnt={};MX().filter(okPrec).forEach(m=>{const pp=byId[m._pid];if(!pp||!N[pp.id]||(lim&&!(m._d>=lim)))return;const t=window.nxTema(m);if(t==='Sin tema claro')return;const o=cnt[pp.id]=cnt[pp.id]||{};o[t]=(o[t]||0)+1});
+  Object.entries(cnt).forEach(([id,o])=>Object.entries(o).filter(([,n])=>n>=3).sort((a,b)=>b[1]-a[1]).slice(0,2).forEach(([t,n])=>{const hh='t:'+t;hub(hh,t);L(id,hh,'tem',Math.min(6,Math.sqrt(n)),[],n+' notas')}))}
  E.forEach(e=>{N[e.a].deg+=e.w;N[e.b].deg+=e.w});
  let ns=Object.values(N).filter(n=>n.deg>0),es;
  if(RED.foco&&N[RED.foco]){const k=new Set([RED.foco]);E.forEach(e=>{if(e.a===RED.foco)k.add(e.b);if(e.b===RED.foco)k.add(e.a)});ns=ns.filter(n=>k.has(n.id));es=E.filter(e=>k.has(e.a)&&k.has(e.b))}
@@ -682,7 +684,7 @@ const dibujaRed=keep=>{const el=$('#rg');if(!el)return;const tela=RED.modo==='te
  if(sel&&ix[sel]){const cs=E.filter(e=>e.a===sel||e.b===sel).sort((a,b)=>b.w-a.w).slice(0,ix[sel].b?80:20);
   pn=`<h3 class="sh">${lk(ix[sel])}${ix[sel].cup?` <span class="meta">· ${esc(ix[sel].cup)}</span>`:''}</h3>`+rgDet(ix[sel])+cs.map(e=>{const o=ix[e.a===sel?e.b:e.a];return`<div class="row2"><span class="nm">${lk(o)}</span><span class="meta">${(RLB[e.t]||RLB.pre)(e)}</span></div>${(e.n||[]).slice(0,3).map(m=>`<div class="meta"><a href="${esc(safe(m.link))}" target="_blank" rel="noopener">${esc(tituloSinMedio(m))}</a></div>`).join('')}`}).join('')}
  el.innerHTML=rgStats(N,E)+`<div class="pzw rgv" id="rgbox" tabindex="0" role="region" aria-label="Grafo de relaciones: ${N.length} nodos, ${E.length} conexiones. Rueda para acercar, arrastrar para mover.">`+`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Grafo de relaciones"><g>${ln}</g><g>${nd}</g></svg></div>${pn}`;
- pzMount($('#rgbox'),'rg',keep,rgMove);rgHl(sel);redX()};
+ pzMount($('#rgbox'),'rg',keep,rgMove);rgHl(sel);redX();try{if(window.redPlus)window.redPlus()}catch(e){console.error(e)}};
 V.red=()=>{Promise.all([autLoad(),need('of').catch(()=>0)]).then(()=>setTimeout(()=>{if(!$('#rg'))return;
   const vis=()=>{const m=RED.modo,co=m==='co'||m==='tela';$('#rcw').style.display=(m==='bl'||m==='de')?'':'none';$('#rww').style.display=co?'':'none';$('#rcow').style.display=co?'':'none';$('#rn').style.display=m==='co'?'':'none';$('#rcap').style.display=m==='tela'?'':'none'};
   const sync=()=>{RED.modo=$('#rm').value;RED.cam=$('#rc').value;RED.mw=+$('#rw').value;RED.n=+$('#rn').value;RED.per=+$('#rp').value;RED.foco=$('#rf').value;RED.sel=RED.foco;document.querySelectorAll('#rcap input').forEach(c=>{RED.cap[c.dataset.k]=c.checked?1:0});vis();dibujaRed(false)};
@@ -1465,7 +1467,7 @@ window.esCsv=()=>{const p=byId[EST.id];if(!p)return;const q=fold(EST.q).trim(),L
  const c=v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"',rows=[['n','fecha','medio','ámbito','tema','titular','declaración','propuesta','crítica','cambio_postura','tono','enlace'].map(c).join(',')].concat(L.map(f=>[f.n,esIso(f.d),f.med,f.nac?'nacional':'Salta',f.tema,f.tt,f.q,f.prop?1:0,f.crit?1:0,f.camb?1:0,f.tono,f.link].map(c).join(',')));
  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+rows.join('\r\n')],{type:'text/csv;charset=utf-8'}));a.download='dossier-'+p.id+'.csv';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);aviso('CSV descargado ('+L.length+' registros)')};
 /* Bloques extra de la consulta: agenda nacional y comparación. */
-const esExtra=(out,p,F)=>{
+const esExtra=(out,p,F)=>{try{if(window.nxConsultaHook)window.nxConsultaHook(out,p,F)}catch(e){}
  if(EST.modo==='nacional'||EST.modo==='agenda'){const A=esAgenda(14).slice(0,10);out.push('','AGENDA DE LOS MEDIOS NACIONALES (últimos 14 días, notas por tema, calculado por palabras del titular):');out.push(A.length?A.map(([t,n])=>'- '+t+': '+n+' notas').join('\n'):'(sin dato: no hay notas nacionales cargadas)')}
  if(EST.modo==='comparar'){const q=byId[EST.vs];if(!q)out.push('','COMPARACIÓN: no se eligió a la otra persona. Pedime que la indique antes de empezar.');else{const G=esFilas(q).slice(0,40);out.push('','PERSONA B PARA COMPARAR: '+q.nombre+' ('+esCargo(q)+') · '+G.length+' registros (se citan como [B n]):');G.forEach(f=>out.push('[B'+f.n+'] '+esIso(f.d)+' · '+(f.med||'sin medio')+' · '+(f.nac?'[MEDIO NACIONAL] · ':'[MEDIO DE SALTA] · ')+(f.q?'DICHO: «'+f.q+'» · ':'')+'TITULAR: '+f.tt))}}};
 
@@ -1583,7 +1585,7 @@ const esCols=(d,ser)=>{const W=700,H=190,pl=30,bw=(W-pl)/d.length,mx=Math.max(1,
 const esLines=(d,ser)=>{const W=700,H=170,pl=30,n=d.length,mx=Math.max(1,...ser.flatMap(s=>s.v)),X=i=>pl+(n>1?i*(W-pl-10)/(n-1):0),Y=v=>H-22-v/mx*(H-36);return`<svg viewBox="0 0 ${W} ${H}" class="ch" role="img" aria-label="Notas por día, nacionales y provinciales"><text x="2" y="12">${mx}</text><line x1="${pl}" x2="${W}" y1="${H-22}" y2="${H-22}" style="stroke:var(--line)"/>${ser.map(s=>`<polygon points="${X(0)},${H-22} ${s.v.map((v,i)=>X(i)+','+Y(v)).join(' ')} ${X(n-1)},${H-22}" style="fill:${s.c};opacity:.12"/><polyline fill="none" style="stroke:${s.c}" stroke-width="2.5" points="${s.v.map((v,i)=>X(i)+','+Y(v)).join(' ')}"/>`+s.v.map((v,i)=>`<circle cx="${X(i)}" cy="${Y(v)}" r="3" style="fill:${s.c}"><title>${esc(d[i].l)} · ${esc(s.l)}: ${v}</title></circle>`).join('')).join('')}${esAx(d,X,H)}</svg>`};
 const esHeat=L=>{const g=Array.from({length:7},()=>Array(24).fill(0));L.forEach(x=>{const d=new Date(x.ts);g[(d.getDay()+6)%7][d.getHours()]++});const mx=Math.max(1,...g.flat()),DS=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];return`<svg viewBox="0 0 700 190" class="ch" role="img" aria-label="Notas por día de la semana y hora">${g.map((r,y)=>`<text x="2" y="${y*22+22}">${DS[y]}</text>`+r.map((v,h)=>`<rect x="${34+h*27.2}" y="${y*22+8}" width="25" height="20" rx="2" style="fill:var(--clay);fill-opacity:${v?(.1+.9*v/mx).toFixed(2):0.04}"><title>${DS[y]} ${h}:00 h · ${v} notas</title></rect>`).join('')).join('')}${[0,3,6,9,12,15,18,21].map(h=>`<text x="${34+h*27.2+12}" y="184" text-anchor="middle">${h}h</text>`).join('')}</svg>`};
 const esRow=(n,mx,col,l,k)=>`<div class="hb clk" data-k="${esc(k)}" tabindex="0" role="button" style="--mc:${col}" aria-label="Ver detalle"><span>${l}</span><span class="bar"><i style="width:${Math.max(2,n/Math.max(1,mx)*100)}%"></i></span><span class="meta">${n}</span></div>`;
-function esPaint(){const el=$('#esb');if(!el)return;
+function esPaintE(){const el=$('#esb');if(!el)return;
  const now=Date.now(),per=ES.per,lim=now-per*864e5,all=esData().filter(x=>x.ts>=lim&&x.ts<=now+36e5),L=ES.amb?all.filter(x=>x.a===ES.amb):all;
  if(!L.length){el.innerHTML='<p class="empty">Sin notas en este período con ese filtro.</p>';return}
  const dias=[];for(let i=per-1;i>=0;i--){const d=new Date(now-i*864e5);dias.push({k:dkey(d),l:String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0')})}
@@ -1625,13 +1627,13 @@ function medCsv(){const lim=Date.now()-ES.per*864e5,M=new Map();esData().filter(
  const a=Object.assign(document.createElement('a'),{href:URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),download:'estadisticas-medios-'+dkey(new Date())+'.csv'});document.body.appendChild(a);a.click();a.remove();aviso('Se descargó la tabla de '+M.size+' medios.')}
 const esSeg=(at,l)=>`<div class="seg" role="group">${l.map(([v,t])=>`<button type="button" data-${at}="${v}" aria-pressed="false">${t}</button>`).join('')}</div>`;
 V.estadisticas=()=>{setTimeout(async()=>{
- const sync=()=>{document.querySelectorAll('#esc [data-amb]').forEach(b=>{const on=b.dataset.amb===ES.amb;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});document.querySelectorAll('#esc [data-per]').forEach(b=>{const on=+b.dataset.per===ES.per;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});const m=$('#em');if(m)m.value=ES.med},go=()=>{sync();esPaint()};
+ const sync=()=>{document.querySelectorAll('#esc [data-amb]').forEach(b=>{const on=b.dataset.amb===ES.amb;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});document.querySelectorAll('#esc [data-per]').forEach(b=>{const on=+b.dataset.per===ES.per;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});const m=$('#em');if(m)m.value=ES.med},go=()=>{sync();esPaintE()};
  $('#esc').onclick=e=>{const b=e.target.closest('button[data-amb],button[data-per],button[data-csv],button[data-go]');if(!b)return;if(b.dataset.csv!=null)return medCsv();if(b.dataset.go){const t=$('#'+b.dataset.go);if(t)t.scrollIntoView({behavior:'smooth',block:'start'});return}if(b.dataset.amb!=null)ES.amb=b.dataset.amb;else ES.per=+b.dataset.per;go()};
  $('#em').onchange=()=>{ES.med=$('#em').value;go()};
  const eb=$('#esb');eb.onclick=e=>{const r=e.target.closest('[data-k]');if(r){ES.med=r.dataset.k;go();const t=$('#es-d');if(t)t.scrollIntoView({behavior:'smooth',block:'start'});return}if(e.target.closest('[data-x]')){ES.med='';go()}};
  eb.onkeydown=e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('[data-k]')){e.preventDefault();e.target.click()}};
- sync();esPaint();
- if(!ES.arc){ES.arc=[];try{const ix=await J('archivo/index',null,true),mes=ix&&ix.meses?Object.keys(ix.meses).sort().slice(-2):[];for(const m of mes){const l=await J('archivo/'+m,[],true);ES.arc=ES.arc.concat(l||[])}}catch(e){}if($('#esb'))esPaint()}});
+ sync();esPaintE();
+ if(!ES.arc){ES.arc=[];try{const ix=await J('archivo/index',null,true),mes=ix&&ix.meses?Object.keys(ix.meses).sort().slice(-2):[];for(const m of mes){const l=await J('archivo/'+m,[],true);ES.arc=ES.arc.concat(l||[])}}catch(e){}if($('#esb'))esPaintE()}});
  const opt=[...new Map(esData().filter(x=>x.ts>Date.now()-30*864e5).map(x=>[x.k,x.src])).entries()].map(([k,s])=>[k,medioNombre(s)]).sort((a,b)=>a[1].localeCompare(b[1],'es'));
  return`<h2 class="sec">Estadísticas de medios</h2><p class="lede">Cuánto, cuándo y cómo publican los medios nacionales y de Salta. Cada medio mantiene su color de marca. <b>Tocá una barra del ranking para ver el detalle de ese medio</b>; pasá el cursor (o tocá) sobre un gráfico para ver el dato exacto. Se calcula sobre las notas recolectadas, no sobre toda la prensa.</p>
  <div id="esc"><div class="ctl">${esSeg('amb',[['','Todos'],['nac','Nacionales'],['prov','Salta']])}${esSeg('per',[[1,'24 h'],[3,'3 d'],[7,'7 d'],[14,'14 d'],[30,'30 d']])}<select id="em" aria-label="Medio en detalle"><option value="">Detalle de un medio…</option>${opt.map(([k,n])=>`<option value="${esc(k)}">${esc(n)}</option>`).join('')}</select><button type="button" data-csv="1" title="Descargar el ranking en CSV (abre en Excel)">⭳ CSV</button></div>
@@ -1725,6 +1727,291 @@ window.addEventListener('hashchange',route);
  await need('pol','agg','men','res');S.polById={};S.pol.forEach(p=>S.polById[p.id]=p);build();
  GEN=pd(S.agg&&S.agg.generated_at);updTxt();
  await route();arrancaVivo()})();
+</script>
+<script>
+/* ===== NEWAR+ (v2): anotador flotante, Estrategia+, Red+ y Estadísticas+ =====
+   Todo se calcula con los mismos datos de siempre (data/*.json). No inventa nada: lo que falta figura «sin dato».
+   Lo que escribe la persona (notas, plan, términos) queda SOLO en este navegador (localStorage). */
+(()=>{
+const NX=window.NX={},DAY=864e5,Q=s=>document.querySelector(s);
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+const pct=(a,b)=>b?Math.round(a/b*100):0;
+const bajarTxt=(nom,txt,tipo)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:tipo||'text/plain;charset=utf-8'}));a.download=nom;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)};
+const copiar=async(t,ok)=>{try{await navigator.clipboard.writeText(t);aviso(ok||'Copiado.')}catch(e){const x=document.createElement('textarea');x.value=t;document.body.appendChild(x);x.select();try{document.execCommand('copy');aviso(ok||'Copiado.')}catch(e2){aviso('No se pudo copiar.')}x.remove()}};
+const hoyTxt=()=>new Date().toLocaleDateString('es-AR',{day:'numeric',month:'long',year:'numeric'});
+
+/* ---------- 1) ANOTADOR FLOTANTE ---------- */
+const NK='newar_notas_v1',FK='newar_fab_v1';
+const nbLoad=()=>{const d=lsGet(NK,null);return d&&Array.isArray(d.notas)?d:{notas:[],sel:''}};
+let NB=nbLoad();
+const nbSave=()=>{if(!lsSet(NK,NB))aviso('El navegador no dejó guardar el anotador. Copiá tus notas a mano para no perderlas.')};
+const URLRX=/https?:\/\/[^\s<>"')\]]+/gi;
+const linksDe=t=>[...new Set((String(t||'').match(URLRX)||[]).map(u=>u.replace(/[.,;:!?]+$/,'')))];
+const dom=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return u}};
+const titOf=n=>(n.t||'').trim()||((n.x||'').trim().split('\n')[0]||'').slice(0,60)||'Sin título';
+const nbCur=()=>NB.notas.find(n=>n.id===NB.sel);
+const nbNueva=(t,x)=>{const n={id:uid(),t:t||'',x:x||'',g:[],pin:0,c:Date.now(),u:Date.now()};NB.notas.unshift(n);NB.sel=n.id;nbSave();return n};
+let NBF={q:'',tag:'',ancho:0,abierto:false};
+
+const css=document.createElement('style');css.textContent=`
+#nbfab{position:fixed;right:1rem;bottom:calc(4.4rem + env(safe-area-inset-bottom,0px));z-index:30;width:3.3rem;height:3.3rem;border-radius:50%;border:2px solid var(--ink);background:var(--clay);color:var(--onclay);font-size:1.45rem;line-height:1;cursor:grab;box-shadow:0 3px 12px rgba(0,0,0,.35);touch-action:none;user-select:none;padding:0}
+#nbfab:hover{filter:brightness(1.08)}#nbfab.dr{cursor:grabbing;transform:scale(1.08)}#nbfab b{position:absolute;top:-.3rem;right:-.3rem;min-width:1.15rem;height:1.15rem;border-radius:.6rem;background:var(--ink);color:var(--paper);font:700 .68rem/1.15rem system-ui,sans-serif;padding:0 .2rem;box-sizing:border-box}
+#nbp{position:fixed;z-index:31;right:.8rem;bottom:calc(8.2rem + env(safe-area-inset-bottom,0px));width:min(25rem,calc(100vw - 1.6rem));max-height:min(40rem,calc(100vh - 6rem));display:flex;flex-direction:column;background:var(--raised);color:var(--ink);border:2px solid var(--ink);border-radius:.6rem;box-shadow:0 8px 28px rgba(0,0,0,.4);font-size:.88rem}
+#nbp.w{width:min(46rem,calc(100vw - 1.6rem))}#nbp[hidden]{display:none}
+#nbp header{display:flex;align-items:center;gap:.3rem;padding:.45rem .6rem;border-bottom:1px solid var(--line)}#nbp header b{flex:1}
+#nbp button,#nbp input,#nbp textarea,#nbp select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:.3rem;padding:.25rem .5rem}
+#nbp button{cursor:pointer;background:var(--raised)}#nbp button:hover{background:var(--hov)}#nbp button.on{background:var(--indigo);color:var(--onind)}
+#nbp .nbs{padding:.4rem .6rem;display:flex;flex-direction:column;gap:.3rem}#nbp .nbs input{width:100%;box-sizing:border-box}
+#nbtags{display:flex;flex-wrap:wrap;gap:.25rem}#nbtags button{font-size:.75rem;padding:.1rem .45rem;border-radius:1rem}
+#nbl{overflow-y:auto;max-height:9.5rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line);flex:0 0 auto}
+#nbl .it{display:flex;gap:.4rem;align-items:baseline;padding:.3rem .6rem;cursor:pointer;border-bottom:1px solid var(--line)}#nbl .it:hover{background:var(--hov)}#nbl .it.on{background:var(--sel);font-weight:600}
+#nbl .it span.t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#nbl .it small{color:var(--soft);font-weight:400;white-space:nowrap}
+#nbe{padding:.5rem .6rem;overflow-y:auto;display:flex;flex-direction:column;gap:.35rem;flex:1 1 auto;min-height:11rem}
+#nbe input,#nbe textarea{width:100%;box-sizing:border-box}#nbe textarea{flex:1;min-height:8rem;resize:vertical;line-height:1.4}
+#nbe .ac{display:flex;flex-wrap:wrap;gap:.3rem}#nbk{display:flex;flex-direction:column;gap:.15rem;font-size:.8rem}#nbk a{word-break:break-all}
+#nbp footer{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center;padding:.4rem .6rem;border-top:1px solid var(--line);font-size:.78rem;color:var(--soft)}
+#nbsel{position:fixed;z-index:32;display:none;background:var(--ink);color:var(--paper);border:0;border-radius:1rem;padding:.3rem .7rem;font:600 .8rem system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+#nbsel.on{display:block}
+.nx-t .n{font-size:1.5rem}.nx-w{border-left:4px solid var(--clay)}.nx-g{border-left:4px solid var(--pos)}
+.nxbx{border:1px solid var(--line);border-radius:.4rem;padding:.6rem .8rem;margin:.6rem 0;background:var(--raised)}
+.nxbx h3.sh{margin-top:0}.nxbx .row2{align-items:baseline}
+.nxf{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:.4rem 0}.nxf input[type=text],.nxf input[type=date],.nxf select{font:inherit;padding:.3rem .5rem;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:.3rem}.nxf input[type=text]{flex:1 1 14rem}
+.nxf button,.nxbx button.nxb{font:inherit;padding:.3rem .6rem;border:1px solid var(--ink);background:var(--raised);color:var(--ink);cursor:pointer;border-radius:.3rem}
+.nxd{text-decoration:line-through;color:var(--soft)}.nxv{color:var(--negtx);font-weight:600}
+.nxcal{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:2px;max-width:34rem}.nxcal i{display:block;width:100%;aspect-ratio:1;border-radius:2px;background:var(--line)}
+.nxsw{display:inline-block;width:.8rem;height:.8rem;border-radius:50%;vertical-align:middle;margin-right:.3rem;border:1px solid var(--ink)}
+@media print{#nbfab,#nbp,#nbsel{display:none!important}}
+@media(max-width:640px){#nbp{right:.4rem;left:.4rem;width:auto!important;bottom:calc(7.8rem + env(safe-area-inset-bottom,0px))}}
+`;document.head.appendChild(css);
+
+document.body.insertAdjacentHTML('beforeend',`<button id="nbfab" type="button" aria-label="Abrir el anotador" title="Anotador (Alt+N). Arrastralo para moverlo.">📝</button><button id="nbsel" type="button">📝 Anotar</button>
+<section id="nbp" role="dialog" aria-label="Anotador" hidden>
+<header><b>📝 Anotador</b><button type="button" data-nb="new" title="Nota nueva" aria-label="Nota nueva">＋ Nueva</button><button type="button" data-nb="wide" title="Ancho / angosto" aria-label="Cambiar ancho">⤢</button><button type="button" data-nb="close" title="Cerrar (Esc)" aria-label="Cerrar">✕</button></header>
+<div class="nbs"><input type="search" id="nbq" placeholder="Buscar en mis notas" aria-label="Buscar en mis notas" autocomplete="off"><div id="nbtags"></div></div>
+<div id="nbl"></div><div id="nbe"></div>
+<footer><button type="button" data-nb="txt">⭳ Todo en .txt</button><button type="button" data-nb="json">⭳ Copia de seguridad</button><button type="button" data-nb="imp">⭱ Importar</button><input type="file" id="nbimp" accept=".json,application/json" hidden><span id="nbcnt"></span></footer></section>`);
+const fab=Q('#nbfab'),pan=Q('#nbp'),chip=Q('#nbsel');
+
+const nbPos=()=>{const p=lsGet(FK,null);if(p&&typeof p.x==='number'){const w=innerWidth,h=innerHeight,x=Math.min(w-fab.offsetWidth-4,Math.max(4,p.x)),y=Math.min(h-fab.offsetHeight-4,Math.max(4,p.y));fab.style.left=x+'px';fab.style.top=y+'px';fab.style.right='auto';fab.style.bottom='auto'}};
+const nbPanPos=()=>{const r=fab.getBoundingClientRect(),izq=r.left+r.width/2<innerWidth/2,arr=r.top+r.height/2<innerHeight/2;pan.style.left=izq?'.8rem':'auto';pan.style.right=izq?'auto':'.8rem';if(arr){pan.style.top=Math.min(innerHeight-120,r.bottom+8)+'px';pan.style.bottom='auto'}else{pan.style.bottom=Math.max(8,innerHeight-r.top+8)+'px';pan.style.top='auto'}if(innerWidth<=640){pan.style.left='.4rem';pan.style.right='.4rem'}};
+const nbBadge=()=>{let b=fab.querySelector('b');const n=NB.notas.length;if(!n){if(b)b.remove();return}if(!b)b=fab.appendChild(document.createElement('b'));b.textContent=n>99?'99+':n};
+const nbListar=()=>{const q=fold(NBF.q).trim(),tags=[...new Set(NB.notas.flatMap(n=>n.g||[]))].sort();
+ const ls=NB.notas.filter(n=>(!NBF.tag||(n.g||[]).includes(NBF.tag))&&(!q||fold(titOf(n)+' '+n.x+' '+(n.g||[]).join(' ')).includes(q))).sort((a,b)=>(b.pin-a.pin)||(b.u-a.u));
+ Q('#nbtags').innerHTML=tags.length?`<button type="button" data-nb="tag:" class="${NBF.tag?'':'on'}">todas</button>`+tags.map(t=>`<button type="button" data-nb="tag:${esc(t)}" class="${NBF.tag===t?'on':''}">#${esc(t)}</button>`).join(''):'';
+ Q('#nbl').innerHTML=ls.length?ls.map(n=>`<div class="it${n.id===NB.sel?' on':''}" data-nb="open:${n.id}" tabindex="0" role="button"><span>${n.pin?'★':'·'}</span><span class="t">${esc(titOf(n))}</span><small>${esc(new Date(n.u).toLocaleDateString('es-AR',{day:'numeric',month:'short'}))}</small></div>`).join(''):'<p class="note" style="padding:.4rem .6rem;margin:0">'+(NB.notas.length?'Ninguna nota coincide.':'Todavía no hay notas. Tocá «＋ Nueva», o seleccioná un texto en cualquier pantalla y tocá «📝 Anotar».')+'</p>';
+ Q('#nbcnt').textContent=NB.notas.length+' nota'+(NB.notas.length===1?'':'s')+' · se guardan solo en este navegador'};
+const nbEditor=(foco)=>{const n=nbCur(),e=Q('#nbe');if(!n){e.innerHTML='<p class="note">Elegí una nota de la lista o creá una nueva. Podés pegar enlaces, datos, números, lo que quieras: se guarda solo.</p>';return}
+ e.innerHTML=`<input type="text" id="nbt" placeholder="Título (opcional)" aria-label="Título" value="${esc(n.t)}"><textarea id="nbx" placeholder="Escribí o pegá acá: texto, datos, enlaces…" aria-label="Texto de la nota">${esc(n.x)}</textarea><input type="text" id="nbg" placeholder="Etiquetas separadas por coma (ej.: Sáenz, obra pública)" aria-label="Etiquetas" value="${esc((n.g||[]).join(', '))}">
+ <div class="ac"><button type="button" data-nb="paste">📋 Pegar del portapapeles</button><button type="button" data-nb="here">🔗 Esta pantalla</button><button type="button" data-nb="pin">${n.pin?'★ Fijada':'☆ Fijar'}</button><button type="button" data-nb="copy">Copiar</button><button type="button" data-nb="del">🗑 Borrar</button></div><div id="nbk"></div><span class="note" id="nbs">Creada el ${esc(new Date(n.c).toLocaleDateString('es-AR'))}</span>`;
+ nbLinks();if(foco)Q('#nbx').focus()};
+const nbLinks=()=>{const n=nbCur(),k=Q('#nbk');if(!k)return;const l=n?linksDe(n.x):[];k.innerHTML=l.length?'<b>Enlaces de esta nota</b>'+l.map(u=>`<a href="${esc(safe(u))}" target="_blank" rel="noopener noreferrer">${esc(dom(u))} ↗ <span class="note">${esc(u.length>60?u.slice(0,57)+'…':u)}</span></a>`).join(''):''};
+let _nbt=0;const nbTocar=()=>{const n=nbCur();if(!n)return;n.t=Q('#nbt').value;n.x=Q('#nbx').value;n.g=Q('#nbg').value.split(',').map(s=>s.trim().replace(/^#/,'')).filter(Boolean);n.u=Date.now();clearTimeout(_nbt);_nbt=setTimeout(()=>{nbSave();nbListar();nbBadge();const s=Q('#nbs');if(s)s.textContent='Guardado '+new Date().toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit'})},400);nbLinks()};
+const nbAbrir=(si)=>{const ab=si==null?pan.hidden:si;pan.hidden=!ab;NBF.abierto=ab;fab.setAttribute('aria-expanded',ab);if(ab){pan.classList.toggle('w',!!NBF.ancho);nbPanPos();if(!nbCur()&&NB.notas.length)NB.sel=NB.notas.slice().sort((a,b)=>b.u-a.u)[0].id;nbListar();nbEditor()}};
+NX.nota=(titulo,texto)=>{nbNueva(titulo,texto);nbBadge();nbAbrir(true);setTimeout(()=>{const x=Q('#nbx');if(x){x.focus();x.setSelectionRange(x.value.length,x.value.length)}},30)};
+const fuenteTxt=()=>document.title+' · '+location.href;
+const nbAgregar=(txt,conFuente)=>{let n=pan.hidden?null:nbCur();if(!n){n=NB.notas.find(x=>x.t==='Recortes')||nbNueva('Recortes','')}n.x=(n.x?n.x.replace(/\s+$/,'')+'\n\n':'')+txt+(conFuente?'\n— '+fuenteTxt():'');n.u=Date.now();NB.sel=n.id;nbSave();nbBadge();if(!pan.hidden){nbListar();nbEditor()}aviso('Agregado al anotador (nota «'+titOf(n)+'»).')};
+NX.agregar=nbAgregar;
+const nbExport=()=>NB.notas.slice().sort((a,b)=>b.u-a.u).map(n=>'## '+titOf(n)+((n.g||[]).length?'  ['+n.g.map(g=>'#'+g).join(' ')+']':'')+'\n('+new Date(n.u).toLocaleString('es-AR')+')\n\n'+n.x).join('\n\n----------------------------------------\n\n');
+
+pan.addEventListener('click',async e=>{const b=e.target.closest('[data-nb]');if(!b)return;const [a,...r]=b.dataset.nb.split(':'),v=r.join(':');
+ if(a==='close')nbAbrir(false);else if(a==='new'){nbNueva('','');nbBadge();nbListar();nbEditor(true)}
+ else if(a==='wide'){NBF.ancho=NBF.ancho?0:1;pan.classList.toggle('w',!!NBF.ancho)}
+ else if(a==='open'){NB.sel=v;nbSave();nbListar();nbEditor()}
+ else if(a==='tag'){NBF.tag=v;nbListar()}
+ else if(a==='pin'){const n=nbCur();if(n){n.pin=n.pin?0:1;nbSave();nbListar();nbEditor()}}
+ else if(a==='copy'){const n=nbCur();if(n)copiar((n.t?n.t+'\n':'')+n.x,'Nota copiada.')}
+ else if(a==='del'){const n=nbCur();if(n&&confirm('¿Borrar la nota «'+titOf(n)+'»? No se puede deshacer.')){NB.notas=NB.notas.filter(x=>x!==n);NB.sel='';nbSave();nbBadge();nbListar();nbEditor()}}
+ else if(a==='here'){const n=nbCur()||nbNueva('','');const t=Q('#nbx');n.x=(n.x?n.x.replace(/\s+$/,'')+'\n':'')+'🔗 '+fuenteTxt();n.u=Date.now();nbSave();nbListar();nbEditor(true)}
+ else if(a==='paste'){let t='';try{t=await navigator.clipboard.readText()}catch(x){}if(!t){aviso('El navegador no dejó leer el portapapeles. Tocá dentro del cuadro y pegá con Ctrl+V (o mantené apretado en el celular).');const x=Q('#nbx');if(x)x.focus();return}const n=nbCur()||nbNueva('','');n.x=(n.x?n.x.replace(/\s+$/,'')+'\n':'')+t;n.u=Date.now();nbSave();nbListar();nbEditor(true)}
+ else if(a==='txt')nbExport()?bajarTxt('anotador-newar-'+dkey(new Date())+'.txt',nbExport()):aviso('No hay notas para exportar.');
+ else if(a==='json')bajarTxt('anotador-newar-copia-'+dkey(new Date())+'.json',JSON.stringify(NB),'application/json');
+ else if(a==='imp')Q('#nbimp').click()});
+pan.addEventListener('keydown',e=>{if(e.key==='Escape'){nbAbrir(false);fab.focus()}else if((e.key==='Enter'||e.key===' ')&&e.target.matches('#nbl .it')){e.preventDefault();e.target.click()}});
+pan.addEventListener('input',e=>{if(e.target.id==='nbq'){NBF.q=e.target.value;nbListar()}else if(/^nb[txg]$/.test(e.target.id))nbTocar()});
+Q('#nbimp').addEventListener('change',async e=>{const f=e.target.files[0];e.target.value='';if(!f)return;try{const d=JSON.parse(await f.text());if(!d||!Array.isArray(d.notas))throw 0;let n=0;d.notas.forEach(x=>{if(!x||typeof x.id!=='string')return;const y=NB.notas.find(z=>z.id===x.id);if(!y){NB.notas.push({id:x.id,t:String(x.t||''),x:String(x.x||''),g:Array.isArray(x.g)?x.g.map(String):[],pin:x.pin?1:0,c:+x.c||Date.now(),u:+x.u||Date.now()});n++}else if((+x.u||0)>y.u){Object.assign(y,{t:String(x.t||''),x:String(x.x||''),g:Array.isArray(x.g)?x.g.map(String):[],u:+x.u});n++}});nbSave();nbBadge();nbListar();nbEditor();aviso('Se importaron o actualizaron '+n+' notas.')}catch(x){aviso('Ese archivo no es una copia de seguridad del anotador.')}});
+
+/* círculo: se arrastra o se toca */
+{let d=null;fab.addEventListener('pointerdown',e=>{if(e.button>0)return;const r=fab.getBoundingClientRect();d={x:e.clientX,y:e.clientY,l:r.left,t:r.top,m:false};try{fab.setPointerCapture(e.pointerId)}catch(x){}});
+ fab.addEventListener('pointermove',e=>{if(!d)return;const dx=e.clientX-d.x,dy=e.clientY-d.y;if(!d.m&&Math.hypot(dx,dy)>6){d.m=true;fab.classList.add('dr')}if(d.m){const x=Math.min(innerWidth-fab.offsetWidth-4,Math.max(4,d.l+dx)),y=Math.min(innerHeight-fab.offsetHeight-4,Math.max(4,d.t+dy));Object.assign(fab.style,{left:x+'px',top:y+'px',right:'auto',bottom:'auto'});if(!pan.hidden)nbPanPos()}});
+ const fin=e=>{if(!d)return;const m=d.m;d=null;fab.classList.remove('dr');if(m){const r=fab.getBoundingClientRect();lsSet(FK,{x:r.left,y:r.top})}else nbAbrir()};
+ fab.addEventListener('pointerup',fin);fab.addEventListener('pointercancel',()=>{d=null;fab.classList.remove('dr')});
+ fab.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();nbAbrir()}});addEventListener('resize',()=>{nbPos();if(!pan.hidden)nbPanPos()})}
+document.addEventListener('keydown',e=>{if(e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.key==='n'||e.key==='N'||e.code==='KeyN')){e.preventDefault();nbAbrir()}});
+
+/* seleccionar texto en cualquier pantalla → botón «Anotar» */
+{let tx='',t=0;const ocultar=()=>chip.classList.remove('on');
+ const ver=()=>{const s=getSelection();if(!s||s.isCollapsed||!s.rangeCount){ocultar();return}const a=s.anchorNode&&(s.anchorNode.nodeType===1?s.anchorNode:s.anchorNode.parentElement);if(!a||a.closest('#nbp,#nbsel,input,textarea,select,nav,#gs,#gsb')){ocultar();return}tx=s.toString().trim();if(tx.length<3||tx.length>3000){ocultar();return}const r=s.getRangeAt(0).getBoundingClientRect();chip.style.left=Math.max(6,Math.min(innerWidth-110,r.left+r.width/2-45))+'px';chip.style.top=Math.max(6,r.top-38)+'px';chip.classList.add('on')};
+ document.addEventListener('mouseup',()=>{clearTimeout(t);t=setTimeout(ver,60)});document.addEventListener('touchend',()=>{clearTimeout(t);t=setTimeout(ver,350)});document.addEventListener('scroll',ocultar,{passive:true});
+ chip.addEventListener('mousedown',e=>e.preventDefault());chip.addEventListener('click',()=>{if(tx)nbAgregar('«'+tx+'»',true);ocultar();try{getSelection().removeAllRanges()}catch(e){}})}
+nbPos();nbBadge();
+
+/* ---------- 2) ESTRATEGIA+ ---------- */
+const TC=new WeakMap();window.nxTema=m=>{let t=TC.get(m);if(t==null){t=esTema(tituloSinMedio(m)+' '+(m.quote||''));TC.set(m,t)}return t};
+const vivo=m=>{const p=byId[m._pid];return p&&actP(p)};
+let _C30=null;const nxC30=()=>{const l=MX(),k=l.length;if(_C30&&_C30.k===k&&Date.now()-_C30.t<6e4)return _C30.c;const c={},lim=Date.now()-30*DAY;l.forEach(m=>{if(!m._d||+m._d<lim||!okPrec(m)||!vivo(m))return;c[m._pid]=(c[m._pid]||0)+1});_C30={k,t:Date.now(),c};return c};
+let _GK=null;const grupos=()=>{const l=MX(),k=l.length+':'+(S.news||[]).length;if(_GK&&_GK.k===k)return _GK.g;const g={};l.forEach(m=>{if(!okPrec(m))return;const p=byId[m._pid];if(!p)return;const key=notaKey(m);(g[key]=g[key]||{m,s:new Set()}).s.add(p.id)});const arr=Object.values(g).filter(x=>x.s.size>1);_GK={k,g:arr};return arr};
+const coDe=id=>{const c={};grupos().forEach(g=>{if(!g.s.has(id))return;g.s.forEach(o=>{if(o===id)return;const e=c[o]=c[o]||{id:o,n:0,d:0,m:null};e.n++;const t=g.m._d?+g.m._d:0;if(t>=e.d){e.d=t;e.m=g.m}})});return Object.values(c).filter(e=>byId[e.id]).sort((a,b)=>b.n-a.n||b.d-a.d)};
+const nombreCorto=p=>p.nombre.split(' ').slice(-2).join(' ');
+
+/* modos nuevos para armar la consulta */
+Object.assign(ES_MODOS,{
+ discurso:['Escribir un discurso o intervención','Redactá un borrador de discurso de 3 minutos (y una versión de 60 segundos) para mi objetivo, usando SOLO hechos, propuestas y datos que consten en el material o que yo indique en mi contexto. Marcá con [VERIFICAR] cada dato que haya que confirmar antes de decirlo en público. Estructura: apertura con un hecho concreto, 3 ideas fuerza, respuesta anticipada a la objeción más probable y cierre con una propuesta.'],
+ mensajes:['Mensajes clave por público','Armá un cuadro de mensajes: para cada público (vecinos, equipo propio, prensa, aliados políticos, opositores moderados) 2 mensajes clave, con una prueba [n] del material que los respalde, el tono recomendado y qué evitar decir. Si no hay prueba en el material, escribí «sin dato».'],
+ periodista:['Simulacro: preguntas incómodas de un periodista','Actuá como un periodista exigente y justo. Hacé 12 preguntas incómodas pero legítimas sobre lo registrado de esta persona (cada una con la declaración o dato [n] en que se apoya) y, para cada una, proponé una respuesta modelo breve, honesta y verificable, y la trampa que hay que evitar.'],
+ alianzas:['Aliados, rivales y puentes','Con el bloque RED (si figura) y las notas, identificá con qué personas aparece más, qué conviene hacer con cada vínculo (reforzar, vigilar, evitar), qué puentes hacia otros sectores podrían abrirse y qué riesgos tiene cada alianza. No supongas vínculos que no consten en el material.'],
+ semana:['Plan de comunicación de 7 días','Armá un plan de comunicación para los próximos 7 días: un tema central por día, formato sugerido (nota, entrevista, posteo, declaración), mensaje de una frase, riesgo a monitorear y qué dato hay que verificar antes. Basate en los temas, la agenda y las señales del material y en mi plan de acción si figura.'],
+ resumen:['Resumen ejecutivo para un cliente','Redactá un resumen ejecutivo de una página para un cliente: situación en prensa (volumen y tendencia), 3 fortalezas, 3 flancos, 3 oportunidades, riesgos y 5 acciones recomendadas, cada punto con cita [n] cuando exista. Lenguaje claro, sin jerga y sin adjetivos que no consten en el material.'],
+ columna:['Redactar una columna o posteo','Redactá un borrador de columna de opinión de 400 palabras y 3 variantes de posteo para redes sobre el tema que indico en mi contexto, con argumentos y hechos del material (dejá las citas [n] para mi control interno y sacalas en la versión final). Tono respetuoso, sin descalificaciones.']});
+
+/* lo que el usuario cargó (plan y vigilancia) se suma a la consulta */
+const PK='newar_plan_v1',VK='newar_vigia_v1';
+const planGet=()=>{const d=lsGet(PK,{});return d&&typeof d==='object'&&!Array.isArray(d)?d:{}};
+const vigGet=()=>{const l=lsGet(VK,[]);return Array.isArray(l)?l.filter(s=>typeof s==='string'&&s.trim()):[]};
+const PTIPO={msg:'Mensaje clave',acc:'Acción',rie:'Riesgo a cubrir',opo:'Oportunidad'};
+window.nxConsultaHook=(out,p,F)=>{const pl=(planGet()[p.id]||[]).filter(x=>!x.done),vg=vigGet(),co=coDe(p.id).slice(0,6);
+ if(pl.length){out.push('','PLAN DE ACCIÓN VIGENTE (lo escribió quien consulta: son sus tareas e ideas, no hechos del material):');pl.forEach(x=>out.push('- '+PTIPO[x.k||'acc']+': '+x.t+(x.due?' (para el '+x.due+')':'')))}
+ if(vg.length)out.push('','TÉRMINOS QUE QUIEN CONSULTA VIGILA: '+vg.join(', '));
+ if(co.length)out.push('','RED (personas con las que aparece en una misma nota; dato del monitor): '+co.map(e=>byId[e.id].nombre+' ('+e.n+')').join('; '))};
+
+const tile=(v,l,c)=>`<div class="card nx-t${c?' '+c:''}"><div class="n">${v}</div><div class="l">${l}</div></div>`;
+function nxTermo(p,F){const now=Date.now(),a30=F.filter(f=>f.d&&+f.d>=now-30*DAY),n7=F.filter(f=>f.d&&+f.d>=now-7*DAY).length,pv=F.filter(f=>f.d&&+f.d<now-7*DAY&&+f.d>=now-14*DAY).length;
+ const C=nxC30(),mine=a30.length,all=Object.values(C).filter(v=>v>0),pc=mine&&all.length?Math.round(all.filter(v=>v<mine).length/all.length*100):0;
+ const ton={positivo:0,neutral:0,negativo:0};a30.forEach(f=>{if(ton[f.tono]!=null)ton[f.tono]++});const tt=ton.positivo+ton.neutral+ton.negativo;
+ const crit=a30.filter(f=>f.crit).length,nac=a30.filter(f=>f.nac).length,mk={};a30.forEach(f=>{const k=medioKey(f.med)||'sin';mk[k]=(mk[k]||0)+1});const top=Object.entries(mk).sort((a,b)=>b[1]-a[1])[0],ts=top&&mine>=5?pct(top[1],mine):null;
+ const fl=n7>pv?'▲':n7<pv?'▼':'=';
+ return`<h3 class="sh">Termómetro (últimos 30 días)</h3><div class="grid">${tile(mine?pc+'º':'sin dato','percentil de presencia: más notas que el '+pc+' % de la nómina con notas')}${tile(fl+' '+n7,'notas en 7 días vs. '+pv+' en los 7 previos')}${tile(tt>=5?Math.round((ton.positivo-ton.negativo)/tt*100)+' pts':'sin dato','tono neto (positivas menos negativas, '+tt+' notas con tono)')}${tile(mine?pct(crit,mine)+' %':'sin dato','titulares con posible crítica ('+crit+')',mine&&pct(crit,mine)>=25?'nx-w':'')}${tile(mine?pct(nac,mine)+' %':'sin dato','en medios nacionales ('+nac+')')}${tile(ts==null?'sin dato':ts+' %','del volumen viene de un solo medio'+(top?' ('+esc(medioNombre(top[0]))+')':''),ts!=null&&ts>=60?'nx-w':'')}</div><p class="note">Son estimaciones simples sobre los titulares guardados (el tono y las críticas salen de palabras clave). Un cuadro con borde de color marca algo para mirar: críticas desde 25 % o dependencia de un medio desde 60 %. Es una referencia orientativa, no un diagnóstico.</p>`}
+function nxAliados(p){const l=coDe(p.id).slice(0,10);return`<h3 class="sh">Con quién aparece (aliados, rivales y círculo)</h3>${l.length?`<p class="note">Personas que figuran en las mismas notas que ${esc(p.nombre)}. Que aparezcan juntas no dice si son aliadas o rivales: abrí las notas para saberlo.</p>`+l.map(e=>`<div class="row2"><span class="nm"><a href="#/estrategia/${encodeURIComponent(e.id)}">${esc(byId[e.id].nombre)}</a> <span class="meta">${esc(esCargo(byId[e.id]))}</span></span><span class="meta">${e.n} nota${e.n===1?'':'s'} en común · última ${esc(esFecha(e.m&&e.m._d))} · <a href="${esc(safe(e.m&&e.m.link))}" target="_blank" rel="noopener noreferrer">ver nota</a> · <button type="button" class="nxb" data-nx="vs:${esc(e.id)}">Comparar</button> <button type="button" class="nxb" data-nx="red:${esc(e.id)}">Ver en la red</button></span></div>`).join(''):'<p class="empty">Todavía no hay notas con otras personas de la nómina. Sin dato.</p>'}`}
+function nxTemas(p,F){const now=Date.now(),mi={},ge={};let nm=0,ng=0;F.forEach(f=>{if(f.d&&+f.d>=now-30*DAY){mi[f.tema]=(mi[f.tema]||0)+1;nm++}});
+ MX().forEach(m=>{if(!m._d||+m._d<now-30*DAY||!okPrec(m)||!vivo(m))return;const t=nxTema(m);ge[t]=(ge[t]||0)+1;ng++});
+ if(ng<30||!nm)return`<h3 class="sh">Su espacio por tema vs. la agenda de la nómina</h3><p class="empty">Hay muy pocas notas en 30 días para comparar. Sin dato.</p>`;
+ const ts=Object.keys(ge).filter(t=>t!=='Sin tema claro').sort((a,b)=>ge[b]-ge[a]).slice(0,10);
+ const rows=ts.map(t=>{const g=pct(ge[t],ng),m=pct(mi[t]||0,nm),d=m-g,lec=g>=8&&m<=g-5?'espacio para ganar':d>=10?'tema propio':'';return`<tr><td style="text-align:left">${esc(t)}</td><td>${g} %</td><td>${m} %</td><td>${d>0?'+':''}${d}</td><td>${lec}</td></tr>`}).join('');
+ return`<h3 class="sh">Su espacio por tema vs. la agenda de toda la nómina (30 días)</h3><div class="hmw"><table class="hm"><tr><th>Tema</th><th>Agenda de la nómina</th><th>Sus notas</th><th>Diferencia (pp)</th><th>Lectura</th></tr>${rows}</table></div><p class="note">«Agenda de la nómina» = qué temas concentran las notas de todas las personas vigentes (${ng}); «sus notas» = ${nm} registros de ${esc(p.nombre)}. «Espacio para ganar» = tema que pesa 8 % o más en la agenda y donde esta persona queda 5 puntos o más abajo. Los temas se detectan por palabras del titular y pueden fallar.</p>`}
+function nxLinea(p,F){const lim=Date.now()-60*DAY,it=[];F.forEach(f=>{if(f.q&&f.d&&+f.d>=lim&&f.link)it.push({t:+f.d,i:'🗣',x:'«'+f.q+'»',l:f.link,s:medioNombre(f.med)})});
+ ((S.of&&S.of.items)||[]).forEach(x=>{const ids=(x.personas||[]).map(i=>byId[i]&&byId[i].id);if(!ids.includes(p.id))return;const t=Date.parse(x.fecha_publicacion||x.first_seen);if(!(t>=lim))return;it.push({t,i:'📄',x:x.titulo||'Acto oficial',l:x.url,s:x.camara_nombre||x.fuente||'fuente oficial'})});
+ it.sort((a,b)=>b.t-a.t);return`<h3 class="sh">Línea de tiempo: dichos y actos oficiales (60 días)</h3>${it.length?it.slice(0,14).map(x=>`<div class="row2"><span class="nm">${x.i} <a href="${esc(safe(x.l))}" target="_blank" rel="noopener noreferrer">${esc(String(x.x).slice(0,160))}</a></span><span class="meta">${esc(esFecha(new Date(x.t)))} · ${esc(x.s)}</span></div>`).join(''):'<p class="empty">No hay declaraciones entre comillas ni actos oficiales registrados en 60 días. Sin dato.</p>'}<p class="note">🗣 declaración entre comillas en un medio · 📄 acto o documento oficial donde figura. Fuente: monitor de medios y de fuentes oficiales.</p>`}
+let _NF=null;const nfold=()=>{const n=(S.news||[]);if(_NF&&_NF.k===n.length)return _NF.l;const l=n.map(x=>({f:fold(x.title),t:pd(x.published_iso||x.published||x.collected_at),x}));_NF={k:n.length,l};return l};
+function nxVigia(p,F){const l=vigGet(),now=Date.now();
+ const fil=F?F.map(f=>({f:fold(f.tt+' '+f.q),t:f.d})):[];
+ const rows=l.map((t,i)=>{const tn=fold(t),g=nfold().filter(x=>x.f.includes(tn)),g7=g.filter(x=>x.t&&+x.t>=now-7*DAY).length,g30=g.filter(x=>x.t&&+x.t>=now-30*DAY).length,m=fil.filter(x=>x.f.includes(tn)),m7=m.filter(x=>x.t&&+x.t>=now-7*DAY).length,m30=m.filter(x=>x.t&&+x.t>=now-30*DAY).length;
+  return`<div class="row2"><span class="nm"><a href="#/buscar/${encodeURIComponent(t)}">${esc(t)}</a></span><span class="meta">en la prensa: ${g7} en 7 d · ${g30} en 30 d${p?` · de ${esc(nombreCorto(p))}: ${m7} en 7 d · ${m30} en 30 d`:''} <button type="button" class="nxb" data-nx="vig-del:${i}" aria-label="Quitar ${esc(t)}">✕</button></span></div>`}).join('');
+ return`<h3 class="sh">Vigilancia de temas y términos</h3><p class="note">Escribí palabras que querés seguir (un tema, una obra, un nombre). Se cuentan en los titulares del archivo general de prensa${p?' y en las notas de esta persona':''}. Se guardan en este navegador.</p><div class="nxf"><input type="text" id="nxvi" placeholder="Ej.: tarifa de agua, litio, paro docente" aria-label="Término a vigilar" data-nxenter="vig-add"><button type="button" data-nx="vig-add">＋ Vigilar</button></div>${rows||'<p class="note">Todavía no vigilás ningún término.</p>'}`}
+function nxPlan(p){const pl=planGet()[p.id]||[],hoy=dkey(new Date());
+ const rows=pl.map(x=>`<div class="row2"><span class="nm${x.done?' nxd':''}"><label><input type="checkbox" data-nx="plan-tog:${esc(x.id)}" ${x.done?'checked':''} aria-label="Hecho"> <b>${esc(PTIPO[x.k]||'Acción')}</b>: ${esc(x.t)}</label></span><span class="meta">${x.due?`<span class="${!x.done&&x.due<hoy?'nxv':''}">para el ${esc(x.due)}${!x.done&&x.due<hoy?' · vencida':''}</span> `:''}<button type="button" class="nxb" data-nx="plan-note:${esc(x.id)}" title="Mandar al anotador">📝</button> <button type="button" class="nxb" data-nx="plan-del:${esc(x.id)}" aria-label="Borrar">✕</button></span></div>`).join('');
+ return`<h3 class="sh">Plan de acción y mensajes de ${esc(nombreCorto(p))}</h3><p class="note">Tus mensajes, tareas, riesgos y oportunidades para esta persona. Lo pendiente se suma solo a la consulta para la IA. Se guarda en este navegador.</p><div class="nxf"><select id="nxpk" aria-label="Tipo">${Object.entries(PTIPO).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select><input type="text" id="nxpt" placeholder="Qué querés dejar anotado" aria-label="Texto" data-nxenter="plan-add"><input type="date" id="nxpd" aria-label="Fecha límite (opcional)"><button type="button" data-nx="plan-add">＋ Agregar</button></div>${rows||'<p class="note">Todavía no hay nada cargado para esta persona.</p>'}`}
+const resumenP=(p,F)=>{const now=Date.now(),n7=F.filter(f=>f.d&&+f.d>=now-7*DAY).length,pv=F.filter(f=>f.d&&+f.d<now-7*DAY&&+f.d>=now-14*DAY).length,n30=F.filter(f=>f.d&&+f.d>=now-30*DAY),tm={};n30.forEach(f=>tm[f.tema]=(tm[f.tema]||0)+1);const tp=Object.entries(tm).sort((a,b)=>b[1]-a[1])[0],u=F[0];
+ return p.nombre+' ('+esCargo(p)+'): '+n7+' notas en 7 días (previos: '+pv+'), '+n30.length+' en 30 días'+(tp?'; tema principal: '+tp[0]+' ('+tp[1]+')':'')+'; declaraciones entre comillas en 30 días: '+n30.filter(f=>f.q).length+'; titulares con posible crítica: '+n30.filter(f=>f.crit).length+(u?'; última nota: '+esFecha(u.d)+' en '+medioNombre(u.med):'; sin notas guardadas')};
+const briefTxt=()=>{const sg=esSig().filter(s=>byId[s.id]);if(!sg.length)return'';return['BRIEFING NEWAR · '+hoyTxt(),'(Cifras calculadas con las notas guardadas por el monitor; «sin dato» = no registrado.)',''].concat(sg.map(s=>'• '+resumenP(byId[s.id],esFilas(byId[s.id])))).join('\n')};
+function nxPendientes(){const pl=planGet(),hoy=dkey(new Date()),l=[];Object.entries(pl).forEach(([id,a])=>{if(!byId[id]||!Array.isArray(a))return;a.forEach(x=>{if(!x.done)l.push(Object.assign({id},x))})});l.sort((a,b)=>(a.due||'9999').localeCompare(b.due||'9999'));
+ return`<h3 class="sh">Pendientes de tu plan de acción</h3>${l.length?l.slice(0,15).map(x=>`<div class="row2"><span class="nm"><b>${esc(PTIPO[x.k]||'Acción')}</b>: ${esc(x.t)} <span class="meta">· <a href="#/estrategia/${encodeURIComponent(x.id)}">${esc(byId[x.id].nombre)}</a></span></span><span class="meta">${x.due?`<span class="${x.due<hoy?'nxv':''}">${esc(x.due)}${x.due<hoy?' · vencida':''}</span>`:'sin fecha'}</span></div>`).join(''):'<p class="note">No hay pendientes. Abrí a una persona y cargá su plan de acción.</p>'}`}
+function nxEstInject(parte){if(parte==='lista')return;const el=Q('#es');if(!el)return;const old=Q('#nxe');if(old)old.remove();const p=byId[EST.id];let h;
+ if(p){const F=esFilas(p);h=`<div id="nxe"><h2 class="sec" style="margin-top:1.4rem">Más herramientas de estrategia</h2><div class="ctl"><button type="button" class="nxb" data-nx="pnote">📝 Mandar un resumen al anotador</button><button type="button" class="nxb" data-nx="red:${esc(p.id)}">Ver su red de relaciones</button></div>${nxTermo(p,F)}<div class="nxbx">${nxAliados(p)}</div><div class="nxbx">${nxTemas(p,F)}</div><div class="nxbx">${nxLinea(p,F)}</div><div class="nxbx">${nxPlan(p)}</div><div class="nxbx">${nxVigia(p,F)}</div></div>`;
+  const h3=[...el.querySelectorAll('h3.sh')].find(x=>/Armar consulta/.test(x.textContent));if(h3)h3.insertAdjacentHTML('beforebegin',h);else el.insertAdjacentHTML('beforeend',h);
+  if(!S.of&&!NX._of){NX._of=1;need('of').catch(()=>0).then(()=>{if(Q('#nxe')&&EST.id===p.id)esPaint()})}}
+ else{const bt=briefTxt();h=`<div id="nxe"><h2 class="sec" style="margin-top:1.4rem">Tablero de campaña</h2><div class="nxbx"><h3 class="sh">Briefing de las personas que seguís</h3>${bt?`<pre style="white-space:pre-wrap;font:inherit;margin:.3rem 0">${esc(bt)}</pre><div class="ctl"><button type="button" class="nxb" data-nx="brief-copy">Copiar</button><button type="button" class="nxb" data-nx="brief-note">📝 Mandar al anotador</button></div>`:'<p class="note">Seguí a alguien con «☆ Seguir» y acá aparece un resumen con cifras de todos, listo para copiar o pegar en una consulta.</p>'}</div><div class="nxbx">${nxPendientes()}</div><div class="nxbx">${nxVigia(null,null)}</div></div>`;el.insertAdjacentHTML('beforeend',h)}}
+const _esPaint=window.esPaint;window.esPaint=function(parte){_esPaint.apply(this,arguments);try{nxEstInject(parte)}catch(err){console.error('NEWAR+ Estrategia',err)}};
+
+/* acciones de los botones nuevos (un solo escuchador para todo) */
+const ACT={
+ 'vig-add':()=>{const i=Q('#nxvi'),v=i&&i.value.trim();if(!v)return;const l=vigGet();if(!l.some(x=>fold(x)===fold(v))){l.push(v.slice(0,60));lsSet(VK,l.slice(0,15))}esPaint()},
+ 'vig-del':v=>{const l=vigGet();l.splice(+v,1);lsSet(VK,l);esPaint()},
+ 'plan-add':()=>{const p=byId[EST.id],t=(Q('#nxpt')||{}).value;if(!p||!t||!t.trim())return;const pl=planGet();(pl[p.id]=pl[p.id]||[]).push({id:uid(),k:Q('#nxpk').value,t:t.trim().slice(0,300),due:Q('#nxpd').value||'',done:0});lsSet(PK,pl);esPaint()},
+ 'plan-tog':v=>{const p=byId[EST.id],pl=planGet(),x=p&&(pl[p.id]||[]).find(y=>y.id===v);if(x){x.done=x.done?0:1;lsSet(PK,pl);esPaint()}},
+ 'plan-del':v=>{const p=byId[EST.id],pl=planGet();if(p&&pl[p.id]){pl[p.id]=pl[p.id].filter(y=>y.id!==v);lsSet(PK,pl);esPaint()}},
+ 'plan-note':v=>{const p=byId[EST.id],x=p&&(planGet()[p.id]||[]).find(y=>y.id===v);if(x)NX.nota((PTIPO[x.k]||'Acción')+' · '+p.nombre,x.t+(x.due?'\nPara el '+x.due:''))},
+ 'vs':v=>{esCfg('vs',v);const t=[...document.querySelectorAll('#es h3.sh')].find(x=>/Comparar con otro/.test(x.textContent));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})},
+ 'red':v=>verEnRed(v),
+ 'pnote':()=>{const p=byId[EST.id];if(p)NX.nota('Estrategia · '+p.nombre,resumenP(p,esFilas(p))+'\n\nTablero: '+location.origin+location.pathname+'#/estrategia/'+encodeURIComponent(p.id))},
+ 'brief-copy':()=>copiar(briefTxt(),'Briefing copiado.'),
+ 'brief-note':()=>NX.nota('Briefing '+hoyTxt(),briefTxt()),
+ 'est':v=>{location.hash='#/estrategia/'+encodeURIComponent(v)}};
+NX.ACT=ACT;
+document.addEventListener('click',e=>{const b=e.target.closest('[data-nx]');if(!b||b.tagName==='INPUT'&&b.type!=='checkbox')return;const[a,...r]=b.dataset.nx.split(':');const f=ACT[a];if(f){try{f(r.join(':'),b,e)}catch(x){console.error('NEWAR+',a,x)}}});
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.matches&&e.target.matches('[data-nxenter]')){e.preventDefault();const f=ACT[e.target.dataset.nxenter.split(':')[0]];if(f)f(e.target.dataset.nxenter.split(':').slice(1).join(':'))}});
+
+/* ---------- 3) RED+: puentes, grupos, conectores en común, acciones ---------- */
+const PAL=['#c0562f','#3b78b5','#4c9a6d','#9b59b6','#d4a017','#17a2b8','#c0392b','#7f8c8d'];
+const camPers=p=>{const c=(p.cargos.find(x=>x.v===1)||p.cargos[0]);return c?c.p.chamber:'sin dato'};
+const redPaintCom=()=>{const b=Q('#rgbox');if(!b||!RED._com)return;b.querySelectorAll('g.nd').forEach(g=>{const c=g.querySelector('circle');if(!c)return;if(!c.dataset.f)c.dataset.f=c.getAttribute('fill');const k=RED._com[g.dataset.id];c.setAttribute('fill',RED.com&&k!=null?PAL[k]:c.dataset.f)})};
+window.redPlus=()=>{const el=Q('#rg');if(!el||!RED._N)return;const N=RED._N,ix=RED._ix,E=RED._E.filter(e=>e.t!=='cam'&&ix[e.a]&&ix[e.b]),adj={};
+ N.forEach(n=>adj[n.id]=[]);E.forEach(e=>{adj[e.a].push([e.b,e.w||1]);adj[e.b].push([e.a,e.w||1])});
+ const nn=N.length,ne=E.length,aisl=N.filter(n=>!adj[n.id].length).length;let comp=0;const seen={};
+ N.forEach(n=>{if(seen[n.id]||!adj[n.id].length)return;comp++;const st=[n.id];seen[n.id]=1;while(st.length){const v=st.pop();adj[v].forEach(([w])=>{if(!seen[w]){seen[w]=1;st.push(w)}})}});
+ const dens=nn>1?2*ne/(nn*(nn-1)):0;
+ /* grupos: propagación de etiquetas, orden fijo para que dé siempre lo mismo */
+ const lab={};N.forEach(n=>lab[n.id]=n.id);const ord=N.map(n=>n.id).sort();
+ for(let it=0;it<14;it++){let ch=0;ord.forEach(id=>{if(!adj[id].length)return;const s={};adj[id].forEach(([o,w])=>{s[lab[o]]=(s[lab[o]]||0)+w});let best=lab[id],bw=s[lab[id]]||0;Object.keys(s).sort().forEach(l=>{if(s[l]>bw+1e-9){bw=s[l];best=l}});if(best!==lab[id]){lab[id]=best;ch++}});if(!ch)break}
+ const G={};N.forEach(n=>{if(!adj[n.id].length)return;(G[lab[n.id]]=G[lab[n.id]]||[]).push(n)});
+ const gl=Object.values(G).map(m=>({m,per:m.filter(n=>n.p)})).filter(g=>g.per.length>=3).sort((a,b)=>b.per.length-a.per.length).slice(0,8);
+ RED._com={};gl.forEach((g,i)=>g.m.forEach(n=>RED._com[n.id]=i));
+ const desc=g=>{const c={},b={};g.per.forEach(n=>{const k=camPers(n.p);c[k]=(c[k]||0)+1;const cg=n.p.cargos.find(x=>x.v===1);if(cg&&cg.bloque)b[cg.bloque]=(b[cg.bloque]||0)+1});const tc=Object.entries(c).sort((a,b)=>b[1]-a[1])[0],tb=Object.entries(b).sort((a,b)=>b[1]-a[1])[0];
+  return'predomina '+camLab(tc[0])+' ('+tc[1]+' de '+g.per.length+')'+(tb&&tb[1]>=Math.ceil(g.per.length*.4)?' · bloque '+tb[0]+' ('+tb[1]+')':'')};
+ /* puentes: intermediación (Brandes) sobre las conexiones, sin contar «misma cámara» */
+ let br=null;if(nn<=450){const ids=N.map(n=>n.id),B={};ids.forEach(i=>B[i]=0);ids.forEach(s=>{const S=[],P={},sg={},d={};ids.forEach(v=>{P[v]=[];sg[v]=0;d[v]=-1});sg[s]=1;d[s]=0;const Qq=[s];let h=0;while(h<Qq.length){const v=Qq[h++];S.push(v);adj[v].forEach(([w])=>{if(d[w]<0){d[w]=d[v]+1;Qq.push(w)}if(d[w]===d[v]+1){sg[w]+=sg[v];P[w].push(v)}})}const dl={};ids.forEach(v=>dl[v]=0);while(S.length){const w=S.pop();P[w].forEach(v=>{dl[v]+=sg[v]/sg[w]*(1+dl[w])});if(w!==s)B[w]+=dl[w]}});br=N.filter(n=>!/^c:/.test(n.id)&&B[n.id]>0).map(n=>({n,b:B[n.id]/2})).sort((a,b)=>b.b-a.b).slice(0,8)}
+ const mxb=br&&br.length?br[0].b:1,sel=RED.sel&&ix[RED.sel]&&ix[RED.sel].p?ix[RED.sel]:null;
+ let comunes='';if(RED.pa&&RED.pb&&adj[RED.pa]&&adj[RED.pb]){const A=new Set(adj[RED.pa].map(x=>x[0])),c=adj[RED.pb].map(x=>x[0]).filter(x=>A.has(x));comunes=`<h4 class="sh">Conectores en común entre ${esc(ix[RED.pa].lab)} y ${esc(ix[RED.pb].lab)}</h4>${c.length?c.slice(0,12).map(id=>`<div class="hb clk" data-rc="${esc(id)}" tabindex="0" role="button"><span>${esc(ix[id].lab)}</span><span class="meta">${ix[id].p?'persona':ix[id].med?'medio':/^t:/.test(id)?'tema':/^b:/.test(id)?'bloque':'departamento'}</span></div>`).join(''):'<p class="note">No tienen ningún vecino en común con las capas activas.</p>'}`}
+ el.insertAdjacentHTML('beforeend',`<div class="rx nx-rp" id="nxrp"><h3 class="sh" style="margin-top:0">Análisis de esta red</h3>
+ <div class="news"><div class="box"><b>${nn}</b><span>nodos</span></div><div class="box"><b>${ne}</b><span>conexiones (sin «misma cámara»)</span></div><div class="box"><b>${(dens*100).toFixed(1)} %</b><span>densidad</span></div><div class="box"><b>${comp}</b><span>islas separadas</span></div><div class="box"><b>${aisl}</b><span>sin conexiones</span></div></div>
+ ${sel?`<div class="ctl"><b>${esc(sel.lab)}:</b> <a href="#/estrategia/${encodeURIComponent(sel.id)}">Estrategia</a> <a href="#/persona/${encodeURIComponent(sel.id)}">Ficha</a><button type="button" data-nx="rx-foco:${esc(sel.id)}">Centrar la red en esta persona</button><button type="button" data-nx="rx-note:${esc(sel.id)}">📝 Anotar sus conexiones</button></div>`:''}
+ ${comunes}
+ <h4 class="sh">Quién hace de puente</h4>${br&&br.length?'<p class="note">Intermediación: cuántos de los caminos más cortos entre otras personas pasan por este nodo. Quien tiene mucha conecta sectores que sin él quedarían más separados. Tocá una fila para centrarla.</p>'+br.map(({n,b})=>`<div class="hb clk" data-rc="${esc(n.id)}" tabindex="0" role="button" style="--mc:${n.p?colG(n.p):'var(--ink)'}"><span>${esc(n.lab)}${n.med?` <span class="meta">· medio ${n.med==='nac'?'nacional':'de Salta'}</span>`:n.b?` <span class="meta">· ${/^t:/.test(n.id)?'tema':/^b:/.test(n.id)?'bloque':/^d:/.test(n.id)?'departamento':'grupo'}</span>`:''}</span><span class="bar"><i style="width:${Math.max(3,b/mxb*100)}%"></i></span><span class="meta">${Math.round(b)}</span></div>`).join(''):`<p class="note">${nn>450?'La red es muy grande para calcular puentes: elegí «Hasta 45 personas» o poné una persona en foco.':'Sin puentes con las capas activas.'}</p>`}
+ <h4 class="sh">Grupos que se detectan solos</h4>${gl.length?`<p class="note">Agrupación automática: quiénes están más conectados entre sí que con el resto. Es una pista, no una afirmación.</p><label class="chk"><input type="checkbox" id="nxcom"${RED.com?' checked':''}> Colorear el mapa por grupo</label>`+gl.map((g,i)=>`<div class="row2"><span class="nm"><i class="nxsw" style="background:${PAL[i]}"></i><b>Grupo ${i+1}</b> · ${g.per.length} personas · ${esc(desc(g))}</span><span class="meta">${g.per.slice().sort((a,b)=>b.deg-a.deg).slice(0,5).map(n=>`<a href="#" data-rc="${esc(n.id)}" onclick="return false">${esc(n.lab)}</a>`).join(' · ')}</span></div>`).join(''):'<p class="note">Con las capas y el período elegidos no se forman grupos de 3 personas o más.</p>'}
+ <div class="ctl" style="margin-top:.6rem"><button type="button" data-nx="rx-csv">⭳ Conexiones en CSV</button><button type="button" data-nx="rx-nodos">📝 Mandar este resumen al anotador</button></div></div>`);
+ redPaintCom();RED._an={nn,ne,dens,comp,br,gl:gl.map(g=>({n:g.per.length,d:desc(g),m:g.per.slice().sort((a,b)=>b.deg-a.deg).slice(0,5).map(n=>n.lab)}))}};
+document.addEventListener('change',e=>{if(e.target.id==='nxcom'){RED.com=e.target.checked?1:0;redPaintCom()}});
+Object.assign(ACT,{
+ 'rx-foco':v=>{if(!byId[v])return;RED.foco=v;RED.sel=v;const s=Q('#rf');if(s)s.value=v;dibujaRed(false)},
+ 'rx-note':v=>{const n=RED._ix&&RED._ix[v];if(!n)return;const l=RED._E.filter(e=>e.a===v||e.b===v).sort((a,b)=>b.w-a.w).map(e=>{const o=RED._ix[e.a===v?e.b:e.a];return'- '+o.lab+': '+(RLB[e.t]||RLB.pre)(e)});NX.nota('Red · '+n.lab,n.lab+' — conexiones en la red ('+hoyTxt()+')\n'+(l.join('\n')||'sin conexiones con las capas activas'))},
+ 'rx-csv':()=>{if(!RED._E)return;bajarCSV('red-conexiones-'+dkey(new Date())+'.csv',[['Desde','Hasta','Tipo','Peso','Detalle'],...RED._E.filter(e=>RED._ix[e.a]&&RED._ix[e.b]).map(e=>[RED._ix[e.a].lab,RED._ix[e.b].lab,(RCAP.find(c=>c[0]===e.t)||[0,e.t])[1],e.w,(RLB[e.t]||RLB.pre)(e)])])},
+ 'rx-nodos':()=>{const a=RED._an;if(!a)return;NX.nota('Red · resumen '+hoyTxt(),a.nn+' nodos, '+a.ne+' conexiones, densidad '+(a.dens*100).toFixed(1)+' %, '+a.comp+' islas.\n\nPuentes:\n'+((a.br||[]).map(x=>'- '+x.n.lab+' ('+Math.round(x.b)+')').join('\n')||'sin dato')+'\n\nGrupos:\n'+(a.gl.map((g,i)=>'- Grupo '+(i+1)+' ('+g.n+'): '+g.d+' · '+g.m.join(', ')).join('\n')||'sin grupos'))}});
+
+/* ---------- 4) ESTADÍSTICAS+: personas, temas, tono, medios, calendario ---------- */
+const ESP={per:30,amb:''};
+const espWin=()=>{const now=Date.now(),a=now-ESP.per*DAY,b=now-2*ESP.per*DAY,cur=[],prev=[];MX().forEach(m=>{if(!m._d||!okPrec(m)||!vivo(m))return;const t=+m._d;if(t>now||t<b)return;if(ESP.amb&&(medNac().has(medioKey(m.source))?'nac':'prov')!==ESP.amb)return;(t>=a?cur:prev).push(m)});return{cur,prev}};
+const aggP=l=>{const A={};l.forEach(m=>{const a=A[m._pid]=A[m._pid]||{id:m._pid,n:0,pos:0,neu:0,neg:0,q:0,med:{},tema:{}};a.n++;const s=m.sentiment_label;if(s==='positivo')a.pos++;else if(s==='negativo')a.neg++;else if(s==='neutral')a.neu++;if(m.quote)a.q++;const k=medioKey(m.source)||'sinmedio';a.med[k]=(a.med[k]||0)+1;const t=nxTema(m);a.tema[t]=(a.tema[t]||0)+1});return A};
+const dl=(n,p)=>{const d=n-p;return d>0?`<span class="delta up">▲ +${d}</span>`:d<0?`<span class="delta dn">▼ ${d}</span>`:'<span class="delta">=</span>'};
+const prow=(p,txt)=>`<div class="hb clk" data-nx="est:${esc(p.id)}" tabindex="0" role="button" style="--mc:${colG(p)}" aria-label="Abrir la estrategia de ${esc(p.nombre)}">${txt}</div>`;
+let _ESPR=null;
+function estPlusPaint(){const box=Q('#nxes');if(!box)return;const{cur,prev}=espWin(),A=aggP(cur),B=aggP(prev),per=ESP.per,T=cur.length;
+ const seg=(at,l,v)=>`<div class="seg" role="group">${l.map(([x,t])=>`<button type="button" class="${String(v)===String(x)?'on':''}" data-nx="esp-${at}:${x}" aria-pressed="${String(v)===String(x)}">${t}</button>`).join('')}</div>`;
+ const head=`<h2 class="sec" style="margin-top:2.2rem" id="es-p">Estadísticas de personas y poder</h2><p class="lede">Quién concentra la conversación, quién sube o cae, con qué tono, en qué temas y en qué medios. Se calcula con las notas guardadas que nombran a personas vigentes de la nómina (con la precisión elegida en Menciones). Cada cifra se compara con el período anterior de igual largo.</p><div class="ctl">${seg('per',[[7,'7 d'],[14,'14 d'],[30,'30 d'],[90,'90 d']],per)}${seg('amb',[['','Todos los medios'],['nac','Nacionales'],['prov','De Salta']],ESP.amb)}<button type="button" data-nx="esp-csv">⭳ Ranking en CSV</button></div>`;
+ if(!T){box.innerHTML=head+'<p class="empty">No hay notas en este período con ese filtro. Probá con más días. Sin dato.</p>';return}
+ const ids=Object.keys(A).filter(i=>byId[i]),rk=ids.map(i=>Object.assign({p:byId[i],pv:(B[i]||{}).n||0},A[i])).sort((a,b)=>b.n-a.n||a.p.nombre.localeCompare(b.p.nombre,'es'));_ESPR=rk;
+ const uni=new Set(cur.map(notaKey)).size,qn=cur.filter(m=>m.quote).length,nac=cur.filter(m=>medNac().has(medioKey(m.source))).length,sinT=cur.filter(m=>!m.sentiment_label).length;
+ const k=`<div class="news"><div class="box"><b>${uni}</b><span>notas distintas</span></div><div class="box"><b>${T}</b><span>menciones (${T>=prev.length?'+':''}${T-prev.length} vs. período previo)</span></div><div class="box"><b>${ids.length}</b><span>personas con presencia</span></div><div class="box"><b>${pct(qn,T)} %</b><span>con declaración entre comillas</span></div><div class="box"><b>${pct(nac,T)} %</b><span>en medios nacionales</span></div></div>`;
+ const fmin=MX().reduce((m,x)=>x._d&&(!m||+x._d<m)?+x._d:m,0),aviso2=prev.length<T*.4?`<p class="warn" role="note">El período anterior tiene pocas notas guardadas (${prev.length} contra ${T}). Puede ser que el monitor todavía no juntara datos de esas fechas: las flechas ▲ y ▼ pueden exagerar. Las notas guardadas arrancan el ${esc(esFecha(new Date(fmin)))}.</p>`:'';
+ const mxn=rk[0].n,top=rk.slice(0,15).map(r=>prow(r.p,`<span>${esc(r.p.nombre)} <span class="meta">${esc(esCargo(r.p))}</span></span><span class="bar"><i style="width:${Math.max(3,r.n/mxn*100)}%"></i></span><span class="meta">${r.n} ${dl(r.n,r.pv)}</span>`)).join('');
+ const todos=new Set([...ids,...Object.keys(B).filter(i=>byId[i])]),mv=[...todos].map(i=>({p:byId[i],a:(A[i]||{}).n||0,b:(B[i]||{}).n||0})).filter(x=>x.a+x.b>=3);
+ const sube=mv.filter(x=>x.a>x.b).sort((x,y)=>(y.a-y.b)-(x.a-x.b)).slice(0,6),baja=mv.filter(x=>x.a<x.b).sort((x,y)=>(x.a-x.b)-(y.a-y.b)).slice(0,6);
+ const mrow=x=>prow(x.p,`<span>${esc(x.p.nombre)}</span><span class="meta">${x.b} → ${x.a} ${dl(x.a,x.b)}</span>`);
+ const tn=rk.filter(r=>r.pos+r.neg+r.neu>=5).map(r=>Object.assign({bal:(r.pos-r.neg)/(r.pos+r.neg+r.neu)},r)).sort((a,b)=>b.bal-a.bal),trow=r=>prow(r.p,`<span>${esc(r.p.nombre)} ${stk(r.pos,r.neu,r.neg)}</span><span class="meta">${Math.round(r.bal*100)} pts · ${r.pos+r.neu+r.neg} notas con tono</span>`);
+ const dec=rk.filter(r=>r.q>0).sort((a,b)=>b.q-a.q).slice(0,8);
+ const dep=rk.filter(r=>r.n>=6).map(r=>{const t=Object.entries(r.med).sort((a,b)=>b[1]-a[1])[0];return{r,k:t[0],s:pct(t[1],r.n),nm:Object.keys(r.med).length}}).filter(x=>x.s>=60).sort((a,b)=>b.s-a.s||b.r.n-a.r.n).slice(0,8);
+ const cm={};personas.filter(p=>!p.homonimoDe&&p.cargos.some(c=>c.v===1)).forEach(p=>{const c=camPers(p),o=cm[c]=cm[c]||{v:0,n:0,c:0};o.v++;const r=A[p.id];if(r){o.c++;o.n+=r.n}});
+ const cams=Object.entries(cm).sort((a,b)=>b[1].n-a[1].n);
+ const tTot={};cur.forEach(m=>{const t=nxTema(m);if(t!=='Sin tema claro')tTot[t]=(tTot[t]||0)+1});const tt=Object.keys(tTot).sort((a,b)=>tTot[b]-tTot[a]).slice(0,8),pp=rk.slice(0,8),mxh=Math.max(1,...pp.flatMap(r=>tt.map(t=>r.tema[t]||0)));
+ const heat=tt.length&&pp.length?`<div class="hmw"><table class="hm"><tr><th>Tema</th>${pp.map(r=>`<th>${esc(nombreCorto(r.p))}</th>`).join('')}<th>Total</th></tr>${tt.map(t=>`<tr><td style="text-align:left">${esc(t)}</td>${pp.map(r=>{const v=r.tema[t]||0;return`<td style="background:color-mix(in srgb,var(--clay) ${Math.round(v/mxh*70)}%,transparent)">${v||''}</td>`}).join('')}<td><b>${tTot[t]}</b></td></tr>`).join('')}</table></div>`:'<p class="empty">Sin temas claros en el período.</p>';
+ /* calendario de 12 semanas */
+ const hoy=new Date();hoy.setHours(0,0,0,0);const ini=new Date(hoy.getTime()-83*DAY),pad=(ini.getDay()+6)%7,cd={},wd=[0,0,0,0,0,0,0];
+ MX().forEach(m=>{if(!m._d||!okPrec(m)||!vivo(m)||+m._d<+ini)return;if(ESP.amb&&(medNac().has(medioKey(m.source))?'nac':'prov')!==ESP.amb)return;const d=new Date(m._d);const kk=dkey(d);cd[kk]=(cd[kk]||0)+1;wd[(d.getDay()+6)%7]++});
+ const cells=[];for(let i=0;i<84;i++){const d=new Date(ini.getTime()+i*DAY);cells.push([dkey(d),cd[dkey(d)]||0])}const mxc=Math.max(1,...cells.map(c=>c[1])),sumw=wd.reduce((a,b)=>a+b,0)||1,DN=['lun','mar','mié','jue','vie','sáb','dom'];
+ const cal=`<div class="nxcal" role="img" aria-label="Menciones por día, últimas 12 semanas">${'<i style="visibility:hidden"></i>'.repeat(pad)}${cells.map(([d,v])=>`<i data-tip="${esc(d)}: ${v} menciones" style="${v?`background:color-mix(in srgb,var(--clay) ${Math.round(15+v/mxc*80)}%,var(--line))`:''}"></i>`).join('')}</div><p class="note">Cada cuadrito es un día (la columna es una semana; filas de lunes a domingo). Más oscuro = más menciones. Máximo en un día: ${mxc}.</p>${wd.map((v,i)=>`<div class="hb" style="--mc:var(--indigo)"><span>${DN[i]}</span><span class="bar"><i style="width:${Math.max(2,v/Math.max(...wd,1)*100)}%"></i></span><span class="meta">${pct(v,sumw)} %</span></div>`).join('')}`;
+ const vig=personas.filter(p=>!p.homonimoDe&&p.cargos.some(c=>c.v===1)),sin=vig.filter(p=>!A[p.id]);
+ const calid=`<div class="news"><div class="box"><b>${vig.length}</b><span>personas vigentes en la nómina</span></div><div class="box"><b>${sin.length}</b><span>sin ninguna nota en el período</span></div><div class="box"><b>${pct(sinT,T)} %</b><span>de las menciones sin tono calculado</span></div></div>`;
+ box.innerHTML=head+k+aviso2+`<h3 class="sh">Ranking de presencia (tocá una persona para abrir su estrategia)</h3>${top}
+ <div class="cols"><div><h3 class="sh">Suben</h3>${sube.length?sube.map(mrow).join(''):'<p class="note">Nadie subió con 3 o más notas.</p>'}</div><div><h3 class="sh">Bajan</h3>${baja.length?baja.map(mrow).join(''):'<p class="note">Nadie bajó con 3 o más notas.</p>'}</div></div>
+ <h3 class="sh">Tono por persona</h3><p class="note">Solo personas con 5 o más notas con tono. Puntos = % positivas menos % negativas. El tono sale de palabras clave del titular: es una pista, no una opinión.</p>${tn.length?`<div class="cols"><div><h4 class="sh">Mejor balance</h4>${tn.slice(0,6).map(trow).join('')}</div><div><h4 class="sh">Peor balance</h4>${tn.slice(-6).reverse().map(trow).join('')}</div></div>`:'<p class="empty">Todavía no hay suficientes notas con tono. Sin dato.</p>'}
+ <div class="cols"><div><h3 class="sh">Más declaraciones entre comillas</h3>${dec.length?dec.map(r=>prow(r.p,`<span>${esc(r.p.nombre)}</span><span class="meta">${r.q} de ${r.n}</span>`)).join(''):'<p class="note">Sin declaraciones en el período.</p>'}</div><div><h3 class="sh">Dependen de un solo medio</h3>${dep.length?dep.map(x=>prow(x.r.p,`<span>${esc(x.r.p.nombre)}</span><span class="meta">${x.s} % en ${esc(medioNombre(x.k))} (${x.r.n} notas)</span>`)).join(''):'<p class="note">Nadie con 6 o más notas pasa el 60 % en un solo medio.</p>'}</div></div>
+ <h3 class="sh">Presencia por cámara o poder</h3><div class="hmw"><table class="hm"><tr><th>Cámara o poder</th><th>Vigentes</th><th>Con notas</th><th>Menciones</th><th>Promedio por vigente</th></tr>${cams.map(([c,o])=>`<tr><td style="text-align:left">${esc(camLab(c))}</td><td>${o.v}</td><td>${o.c}</td><td>${o.n}</td><td>${(o.n/o.v).toFixed(1)}</td></tr>`).join('')}</table></div>
+ <h3 class="sh">Temas × personas (las 8 con más notas)</h3>${heat}
+ <h3 class="sh">Calendario de 12 semanas y día de la semana</h3>${cal}
+ <h3 class="sh">Calidad de los datos de este período</h3>${calid}${sin.length?`<p class="note">Sin notas en el período: ${sin.slice(0,14).map(p=>`<a href="#/persona/${encodeURIComponent(p.id)}">${esc(p.nombre)}</a>`).join(', ')}${sin.length>14?' y '+(sin.length-14)+' más':''}.</p>`:''}`}
+Object.assign(ACT,{
+ 'esp-per':v=>{ESP.per=+v;estPlusPaint()},'esp-amb':v=>{ESP.amb=v;estPlusPaint()},
+ 'esp-csv':()=>{if(!_ESPR||!_ESPR.length)return aviso('No hay datos para exportar.');bajarCSV('estadisticas-personas-'+ESP.per+'d-'+dkey(new Date())+'.csv',[['Persona','Cargo','Menciones','Período previo','Diferencia','Positivas','Neutrales','Negativas','Con declaración','Medios distintos'],..._ESPR.map(r=>[r.p.nombre,esCargo(r.p),r.n,r.pv,r.n-r.pv,r.pos,r.neu,r.neg,r.q,Object.keys(r.med).length])])}});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[data-nx][role=button]')){e.preventDefault();e.target.click()}});
+{const o=V.estadisticas;V.estadisticas=function(){const h=o.apply(this,arguments);setTimeout(()=>{need('news').catch(()=>0).then(()=>{try{estPlusPaint()}catch(x){console.error('NEWAR+ Estadísticas',x)}})},0);return h+'<div id="nxes"></div>'}}
+})();
 </script>
 </body>
 </html>
