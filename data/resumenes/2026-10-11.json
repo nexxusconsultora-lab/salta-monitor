@@ -1,28 +1,32 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-11T22:21:04+00:00",
+ "generado": "2026-10-12T01:28:52+00:00",
  "totales": {
-  "recolectadas": 408,
-  "politicas": 81,
-  "seguridad": 48,
-  "descartadas": 282,
-  "historias": 67,
-  "historias_seguridad": 39,
-  "medios": 26
+  "recolectadas": 467,
+  "politicas": 98,
+  "seguridad": 53,
+  "descartadas": 320,
+  "historias": 75,
+  "historias_seguridad": 44,
+  "medios": 27
  },
  "cobertura_baja": false,
  "temas": [
   {
    "tema": "Gobierno y gestión",
-   "historias": 19
+   "historias": 23
   },
   {
    "tema": "Elecciones y partidos",
-   "historias": 19
+   "historias": 20
   },
   {
    "tema": "Poder Legislativo",
-   "historias": 9
+   "historias": 10
+  },
+  {
+   "tema": "Otros temas políticos",
+   "historias": 7
   },
   {
    "tema": "Economía y finanzas",
@@ -31,10 +35,6 @@
   {
    "tema": "Justicia y seguridad",
    "historias": 6
-  },
-  {
-   "tema": "Otros temas políticos",
-   "historias": 5
   },
   {
    "tema": "Salud y educación",
@@ -55,6 +55,7 @@
     "Agencia Noticias Argentinas",
     "Ambito",
     "BAE Negocios",
+    "Cadena 3 Argentina",
     "El Cronista",
     "El Intransigente",
     "Infobae",
@@ -65,7 +66,7 @@
     "MinutoUno",
     "TN"
    ],
-   "n_notas": 13,
+   "n_notas": 16,
    "primera": "14:56",
    "links": [
     {
@@ -117,29 +118,71 @@
      "hora": "16:00"
     },
     {
-     "medio": "Infobae",
-     "titulo": "Javier Milei le deseó una pronta recuperación al Papa: “Toda la Argentina acompaña con afecto”",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcXA4ZmVkMktWNmxZdE5VLUg2MTd4Rmx4Q2l4LUczVDg0ZmFHVVBKRk9qOFVyWC1IMjRrV29MWHQwbEtucmRQc0VWWFNFS3ZjamxJVWhZa1dxS1ZYbDRNTXNtVjYzcnhUcnpCb19UMC1nbHYwQ0tVbDdVUEJzMVdOanFqZ2RwdDhVMVFRYlNiNEZZOE9pMG1RV3hpRWZOc1hrdHhjWUp0TFdldmNKa1BvU1o0N2VQdUdhMUZsLVBVTF8wUmJDdWgtZWxidTlFeEUyWHfSAewBQVVfeXFMTjlPNlJHYlN4cE00bVJOSndXcW94c1J1OTJrLThIelg3ZzN2SnJSZkc2RTM2eVdoRk4tZnRlSGU0bktHUjRsTWsxbjRsYlJVVHBGTXBMc1BReHFpWm1hWi15bXBIQ0Y3MWQ5b2U4ZjAwRXpmcEJyVHJwS1A0UUFNdEM2MmJEQ3V6eF9aQU1FSW84TGZ0N1lQbWNZdXpPb1F1bXJmWmFTUzktaFVYaS1uV3pvNVF4R3pvN2lWV0Zjb0k0X1Z5cW5COHBRUjZWUkFiYnoxLUU4U3ctcWtGNlk1MFZoOFNqeGdGaXE1MmI?oc=5",
-     "hora": "16:22"
+     "medio": "Cadena 3 Argentina",
+     "titulo": "Milei expresa sus deseos de recuperación para el Papa León XIV antes de su visita a Argentina",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDdhRVBtQlJoWGlHdXZkYUNYZ1ZSTUIyNV9TRUpKZDlEQ2twY0pKV0RUYkdodFl4RXpKeTBkWkhQdy1WNWRoMjN1SDNHU3g2OWcyUWpybGk0N3BueXJ0bGU2UzJfbFNnYkxYY2hyUWNOOXJPZWZPTC1QeGlTa3RQUHlXQnc0QVNuMXV1ZUdRQUJac210R1J2THh3VUE0UWVncTQ4TExSUjBYSkVmM2R0cDhveHUxVkRQUFpwUDJnVWpfdHYwaVpBVm1tbDBJV2h4cjAzc9IB2gFBVV95cUxNVl8zSzNWUDBadTU0cW5sSTFqM1RGcXFXNGgxSVhXTjc1Y012eHZFRzBtZ3JDcHhtWVlRN2hXYkFMTWZMUkdrLWQxdmwyN2YzODFsOWNMYy1aTnJLem1aVkw5ZENqVVNXc1RQTkZ4dHdUbXZYTDlGU3BzNlBkN3otUlZWQjByYmZRS1pSYUZTb3NQeUs0X1gyUGN5bWFzUzVpeUFENWNPN0YwZC1GenNUcmhfNmdOUF9ucEhoR2Y5bHRMcE9fM2twSVRuS3lKdFViSlpfZE5IQ20zdw?oc=5",
+     "hora": "16:09"
     },
     {
-     "medio": "La Gaceta",
-     "titulo": "El mensaje de Milei a León XIV antes de su operación: “Toda la Argentina acompaña con afecto y oración”",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1drOW1NYzZXa0tjbmVQY3NVOGlFa2dJaWdIbEJndlpVS3BkczdEdmdHZTYweWNIbzZiNjBiYnZPQWo0NHNxekFFS2dVZjVqWWFuOFo0NW1hdG9wb2NCMG54dmFid3JBdnY2aE9HbEJsSVM2S3dTUHlSemtHNWhfbnAxbkRXYzdlRTQ1QjhHY0swY2paRFBQMl9US2tIVE1UeVlPLW81MW9ZZThRMy1Rdng3Y2MyYU9EMnREaWk3cmhNZTl1UDZPeGoyekvSAdIBQVVfeXFMTURQRGlmZ0RkX29NZTFDSHVNbFlmdkdrY0M0c3FXWGhlRTFoOGJjSV9GbTZORXdiQVlQWkV1R2hodDJZbGpTYkNXMlNOaDBPWFl6LVk0SXoxYmQ2aWhzOFYxOTBOZVhjWXFvU1pxeGNHa0J6bkVOdDMyRWdkVFlBMEZxRV8zZFc2NU11SnpWSnVVRkwxS251bmtlYmFGVll3allsY3lLMnZhSzh1S0FycUNsVmQ3QjhtZ0Z4QVNucy1uOHN0TGNwNXQ2RWR2V0tFXzln?oc=5",
-     "hora": "16:30"
+     "medio": "Cadena 3 Argentina",
+     "titulo": "El mensaje de Milei para el Papa León: \"Desde nuestro país nos unimos en oración por su salud\"",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQR2lWcDhIY084dFAwRTlDOThpQ2NUbGpYR05CRmttdDg2NmJLQ2Z4ZUh0YUpKdnhPTXRycVZ4Uno1RWYwQkE2X2E1WG9wam14MlhVNGJNSlRNM25KR1FCSU9GZGtYVHp6dmltQk1WQ1V5SE0yTjAtQkdFTzNJand2cHB6MlpwM0ZWLUQxYXpnOTdtSUc3S3ZlRl8xbmd4YnhaZHpUdkZLbmd4Q2xQNHRmZURvclpyenVRWlVIYndwVWRwOGpKVEJqWXVNaUhnVFBQZENCWExFXzlVOTNvdVRDUHoxb0tpbWh0alAybFl6N3lXdURGTTRlZGd0VdIBgAJBVV95cUxNQnBiQUEzT2tvSFgxaFNiY2NFck5objdTaGczeVRHd3JlU1VJbjZ0SnZtYVFQQ0V3b1JUc2RwanB0UmQyZWpsR2tXRTVWV0p5Y3k4S3NVRkVEWktKSjJqekg1MkZDOFhxZ2IzbU92aDh6aFN5bGwteUt1VjlLNE5fbGVVdVZSNTVtdTVTZUtOSnpQWjBZSnRSM3hIaEZuZF9UYjdYMWZzT3Exb0VVQzltWnU1M3Qtbkp5TkwxUURiZXlJTUlZLTJkcThFdjJuVEpEeU9CcGVVOXZZdG1hQXROMng3NU5tejdGZktfMWlseUhsdlFOYlJzeU5XUi1Xd01k?oc=5",
+     "hora": "16:13"
     }
    ],
    "n": 1
   },
   {
-   "titulo": "Tras volver de la gira por París con Milei, el gobernador Frigerio ratificó su respaldo a la eliminación de las PASO",
+   "titulo": "Javier Milei viaja a Estados Unidos por quinta vez en el año para profundizar su agenda geopolítica",
    "alcance": "Nacional",
    "tema": "Gobierno y gestión",
    "medios": [
-    "Clarin",
-    "Infobae"
+    "A24",
+    "BAE Negocios",
+    "Cadena 3 Argentina",
+    "MinutoUno"
    ],
-   "n_notas": 2,
+   "n_notas": 4,
+   "primera": "19:13",
+   "links": [
+    {
+     "medio": "A24",
+     "titulo": "La agenda de Javier Milei y el Gobierno para esta semana: reuniones clave y viaje a Estados Unidos",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRGNCY1hscU1DQ09RQ3AyUVlTTDdjaGYxNHczUHNOby1hX2RGVjQ3Xy0xTnZhVGNBN05xYnlWRzRGSTl5VEhDUkdmcUlsZ1E1QkVCM0QwekRCZDVBSlZMT0NxX3dURmdlUGVDVHQ4WWZBZ0tyMlhVNWl2NDJmeHF0dmEycUl1c0hjS3BRSFpPdlUyQzRzelJ0M2pCbnNFMTB0UkxvWENlamRGNGRxS1luUG9ZbnJJYkpTc1h3Ykc5dFczU2fSAcgBQVVfeXFMTTlWUWNtNkQtblQ1YXBOS1kwQU5Zc1h5cnRUZ1RRYU1XMGJhTG5wbjZOR1o3SFhkY3hBOFFKR2dIbzZ6emRNYWh1elkxZ2dndnVabVBvMlBUck9GSk9zUXlSbjRXQndYYnRsZThyT3c5Sm9nRy1vYmdkMERrZnN5TXNHRkFzdG9TZ2QtRE1IS0VVZG5oV2szeXJSOTVIMjhtWFN4YVZhNlZHakx6MlA3UWtTVEMwZy1aVHNnamR6Z013cklXVjJoSUQ?oc=5",
+     "hora": "19:13"
+    },
+    {
+     "medio": "BAE Negocios",
+     "titulo": "Milei viaja otra vez a Estados Unidos: recibirá dos premios y hablará ante empresarios",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWVN5cTJKVzNmQURBRGZrYWFud09GVHlSVFJva1JHWVVwTnExdDhoWUxvQU94clNEdGJfT0JXRWVGdlVBdGR3c3NaVXFmeGhRU2tteU1QZ2psbVFHeTJ6dDI0b19hZGR3ODFHTVJvaEpmN1A4clZHaHdWVExiYkFFaVdpOHJJNGNBLXh0N0dXUkVtV2JMVTdsZG9UYmZRYVhuVnNmU1R4MEE4VGJlNFJNcjV2OE5UMzhGS2V5M3dmY1XSAboBQVVfeXFMTmdpd2VwMjhpci1oRFdkY0w0OGRQd1AyNWR3QXNXa2dkVzJ3UTdiVnhkdGh5WnFHeEVQcWxlU3VGQ1JlRVMtU1N0ajUta3FXU1ljUF8zRjQyYmpiSE5BeWx3N1I1SE40SWtISDVBWl9XeDREeEl4VmRhejBQSG1WRTctUGlFakw4enhMeXpWQlB0TTBoMmdXbm1HcjVhckFjbDBMNGQ4NmE4XzdhOXdCa0hBR3huOGlwNU93?oc=5",
+     "hora": "19:33"
+    },
+    {
+     "medio": "MinutoUno",
+     "titulo": "Javier Milei viaja a Estados Unidos por quinta vez en el año para profundizar su agenda geopolítica",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTm5pa2NMenJiamlKcGMxTzlhT0Z4Rm56THpHOXZPQTVrUDdyMXpObHNNNDFoZVRyaFhyM1YySFhXN2JUTzFhM1hRa0RVTEhMOEZTcjFJQ0hqTnV3TDdpUVlOZ3lqc0VQYzJyY0x1a1dOa3A4Y2JLSGVLNFVHQjhPWlRaWDZKNDkxckhZZFc1ZGFJVXMzVmQ1aXJRWUNrTTAxN3pCQ014bWJMSDBwalJjMEpxS0RzWnBKYTdhYk5B0gG-AUFVX3lxTE9ObmlrY0x6cmJqaUpwYzFPOWFPRnhGbnpMekc5dk9BNWtQN3Ixek5sc000MWhlVHJoWHIzVjJIWFc3YlRPMWEzWFFrRFVMSEw4RlNyMUlDSGpOdXdMN2lRWU5neWpzRVBjMnJjTHVrV05rcDhjYktIZUs0VUdCOE9aVFpYNko0OTFySFlkVzVkYUlVczNWZDVpclFZQ2tNMDE3ekJDTXhtYkxIMHBqUmMwSnFLRHNacEphN2FiTkE?oc=5",
+     "hora": "21:18"
+    },
+    {
+     "medio": "Cadena 3 Argentina",
+     "titulo": "Milei visita Estados Unidos por quinta vez en lo que va del año",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbnBlMEhhRGd2cWV5endqd0wyU2NPZUZMQjlwYkxneGpzU3EtN1UwampHLUJ0cHJtR3VxamRzVTVJMlZCSUxMYzM3aGsxb1dhLWtETlBqaWdManpWM1BFOGQ2ZjJWNGUxNFZxcE13d3B2elNCSFpzWlR2QS1mYUVnaGw5U0I2SGxnaDVyVFNSS3ZUbUJLdlI2aFZHdk1mOVdxSHpGcHRyRU5DM05KTTV3cVpXNFZmXy0wRnpCZzBiONIBxAFBVV95cUxQeVgyOGhRVTFTemx5ZG96cDduUDQyUHFYNkRzRk9tUlhSeTFZc2lvV1ZtSFlRLXdXcnBFaHo1VzNUT29DeldabmhuUG5Kby12X3VERnRrdlZUa05FcENmMnNwT1l0NEV1MldlUjJueFB1YVlKVVVyZFlFNWtRWWVqMTFGSmp2d2FMc2dnZFdWQm1IaWY4Vk1aWWhFdTdWMWtUR05YQlBsSS1PWjBPODRkM25SQXJiUDlKaXpHRzd5V1VQNldq?oc=5",
+     "hora": "21:38"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "titulo": "Tras volver de la gira por París con Milei, el gobernador Frigerio ratificó su respaldo a la eliminación de las PASO",
+   "alcance": "Ambos",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Clarin",
+    "El Intransigente",
+    "Infobae",
+    "Informate Salta"
+   ],
+   "n_notas": 4,
    "primera": "10:23",
    "links": [
     {
@@ -153,9 +196,47 @@
      "titulo": "Tras volver de la gira por París con Milei, el gobernador Frigerio ratificó su respaldo a la eliminación de las PASO",
      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeXdia2pJazlrTnkzaWhJeHdIeFl2R1RKbWpVdG5BbldXcmtVVXJsc0dQQno2UHlQQTVBMlhKOU5QcnQwZW5aYXVpSmNGLV9lekVwRy1GLTJmb3dQX1BTWV9DaW5ibFp3Ulo0a09lX2g0WklfYm1WTGp1Rll3aGh4Vk5RZndOZHVjNEpJRVhrRGRGa3ZVT0RtcnZXaEdxUTJZekJCdkZQWXIzUHZHTF9zN3lscGstY291Slo3cEhSYmFTZzFNb0thb01Wb01WWFJ1elFpamdndERMelphcGtpanhHOGZzR2p6SjNBMFljbHJLZ9IBjAJBVV95cUxPa1pUNV9rM1VXclBoQ2Zmak80dm9rbV9kZXB4NUJINHpMaTJ6X0lwQXFrcGFJWTNwNlFCN1ZlNnU1Zm8wNmt5Q0RVMDZZTDRKRVk4eDllM080d1FILTF3MFV1N3lZd3hMU1pzU2lXZ3JtNUhYbE56cTN0QzFTUzBlZEVWSkhBNVBwekFHMGJ4eXJvUENvdE0wWDBpRlI1SmpBZ3dmWnNaTWR4Q29OczEwQ01GNmo1Q3dUYUtOZ3BBcWV2dTlISFB3N3Q5WEpYTHctUzl5YzUyWUxObnlORTJvVTJTeWRvNzNaMFNZMmphS19XMWgzZGlHaV93TkhJaDdiOUx6aWVJUWJkN3BJ?oc=5",
      "hora": "13:00"
+    },
+    {
+     "medio": "Informate Salta",
+     "titulo": "Dos gobernadores avalan la eliminación de las PASO y fortalecen la reforma electoral de Milei",
+     "link": "https://informatesalta.com.ar/politica/dos-gobernadores-avalan-la-eliminacion-de-las-paso-y-fortalecen-la-reforma-electoral-de-milei_a6acbff2dbe23996013fc7a0a",
+     "hora": "17:00"
+    },
+    {
+     "medio": "El Intransigente",
+     "titulo": "Dos gobernadores ratificaron su apoyo al Gobierno para eliminar las PASO en 2027",
+     "link": "https://elintransigente.com/2026/10/11/paso-eliminacion-elecciones-2027/",
+     "hora": "19:30"
     }
    ],
-   "n": 2
+   "n": 3
+  },
+  {
+   "titulo": "Pareja cerró el Congreso de la Juventud libertaria y pidió “que continúen defendiendo las ideas” de Milei",
+   "alcance": "Ambos",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "Agencia Noticias Argentinas",
+    "El Intransigente"
+   ],
+   "n_notas": 2,
+   "primera": "00:40",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
+     "link": "https://elintransigente.com/2026/10/11/sebastian-pareja-juventud-moron/",
+     "hora": "00:40"
+    },
+    {
+     "medio": "Agencia Noticias Argentinas",
+     "titulo": "Pareja cerró el Congreso de la Juventud libertaria y pidió “que continúen defendiendo las ideas” de Milei",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQTGstT2lZY000VllvTzA1NURvUjJad0R6M3NkZlFYdXZvS3dENUNPQkdKOTZvUS1xOVpCdDhJcUc1MVU1M3VEMTlOWWRwaW50aEdVV2o0aFRhMTFMQUl3clNpRFhKRG1fTFlqSG5Bd0ljcjFwTWp6VnVoTlFRNVlzcTlKYWtaTEJ5SDRnektwUEFmWnVtMzRhMm1yWWN2TUpaUF9QbXNMSXZaUTZVRWw1ZGdKRlNHeDYyc3Nic1RmZVo4Qjlfb0luSE1lTmlmWmxsc0dmN2hWT21nb3luYlpXQUJST09VU0tLb3R6MkNtTnRPbUJnU1BTUzhiXzR5YlJv0gGPAkFVX3lxTE5YMWhkbjlOdWxMTGw5MUV1c3JWbzU1UWtQbXd0dWtScUNIVEpsMnJlN01ITTJMZC1GZXczU2dqcXlsU1BjakhTeUdBMnlpNUhrckZnSXd3WHJiOW9RNmYzMUpGR09hRDE1VlEybWRURmd2OTNXVGRmdkc0RVY2NFBBVXVhNmt2MzhlTEdpNHVuV1hYNHNlQXI0OVlqcDctN29PVzQ4QVhQakUwcVRWcWhXZVhFX0pzMmJ1bHJfM05UYXZqTjVXNXZpaGRQVEt0TlVqUFpubm1uRDdWX3AwbnA2cFY3dDlIdjIxWExvYmhraXVZcWc0ZHpYZ0hMdDBncTNabE5oQ3VBaERWZjluQmM?oc=5",
+     "hora": "17:19"
+    }
+   ],
+   "n": 4
   },
   {
    "titulo": "Una camarista federal de Salta suena como candidata a la Corte Suprema con la venia de Gustavo Sáenz",
@@ -181,7 +262,159 @@
      "hora": "09:40"
     }
    ],
-   "n": 3
+   "n": 5
+  },
+  {
+   "titulo": "El pedido de Kicillof: \"Que la bronca se convierta en esperanza y acción política\"",
+   "alcance": "Nacional",
+   "tema": "Otros temas políticos",
+   "medios": [
+    "El Destape"
+   ],
+   "n_notas": 1,
+   "primera": "20:51",
+   "links": [
+    {
+     "medio": "El Destape",
+     "titulo": "El pedido de Kicillof: \"Que la bronca se convierta en esperanza y acción política\"",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNENFdDRHZExtdGgxQVBWZnF3Q1MtM3BWSHhaTVk0V3BIOGFSUXRVNnEwZHR4eW1zSlliaUlzVGpzNDNtOGtzQkxsazJuWWQ0SDUwWk1OcG9lN3pRMWU1c0Z1LV9CWFRaMHBkdi1FeWhsUm1lb1lSckh5TUp6VmlsdEVvVnphZHZvZjdIOUs4NDlKeHFENGZyX2pOdkVFQlBUMW9hTHNRR2MxMVBiR19KYW5oeHp3Mm85VmQ5T3IxYjFienRyMnd5UHphMA?oc=5",
+     "hora": "20:51"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "titulo": "El traslado de presos de Villa Devoto reaviva la disputa entre el PRO y La Libertad Avanza",
+   "alcance": "Salta",
+   "tema": "Otros temas políticos",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "20:27",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "El traslado de presos de Villa Devoto reaviva la disputa entre el PRO y La Libertad Avanza",
+     "link": "https://elintransigente.com/2026/10/11/el-traslado-de-presos-de-villa-devoto-reaviva-la-disputa-entre-el-pro-y-la-libertad-avanza/",
+     "hora": "20:27"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "titulo": "Mayra Arena: el peronismo “no me perdona que no diga que salí de la pobreza por la notebook de Cristina”",
+   "alcance": "Nacional",
+   "tema": "Elecciones y partidos",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "20:20",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "Mayra Arena: el peronismo “no me perdona que no diga que salí de la pobreza por la notebook de Cristina”",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOR1Zpc2tXZjI2clhTenZpcjZsVjRHRmdTYWdnSnNmbnFTd2ZJbHpCc3V0Wjdmbk1ZYUtDRHZUUGlNRHJKSUotXzRjRl9Ba0V2eV9la1FjNVdtQUtvUUhuN2RRNUNvNlZsaWFmUkdjM3dtZmpLS1hfWlhaSl94bTllcXZDa0g4U2ZVUnR2b0xYNlF0ZVMyVzh5cmZja3lFdHpsQ29ER09iMVJOVlZtTWxyWnU0cXBYNWpwLUNTb1Y1QThqZUd5SzA4ZFFNVVFja0hkelh0SHRwY1JmMkV5ZlQ00gH6AUFVX3lxTE5BLV9QVnV3aXNnQ1RpSlhaZG82UXFLWXVhZHE3ZUVkWVNValhrY1J0SHdydHVMRVpjRHZEZzlrZVl5eVA5MDBHc2ZhajJkOTJ0X3lORkJlYXU3Y0x3LXIxRXVSS3dWVDR2bjREdWU2clJOb0tyVENvUGNhNHRkZGxtX2lsaFpHYUxlQnVON2hLVURSdDZzZXFfWTM3SS1vM3FaQ1hkVUJZdDlDWFQ2ZlZ5SzVhbVBPTXlVV0U0VC1pSHdQSHliVXBDbHctVlNmSWI3cXBOdWRIUHVPMmhBMmdYSjU3XzBGUGFJVTdRSGRsZU1uVXFKdWJKeVE?oc=5",
+     "hora": "20:20"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "titulo": "“La Argentina de Milei regala lo que el mundo protege”",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Página|12"
+   ],
+   "n_notas": 1,
+   "primera": "20:18",
+   "links": [
+    {
+     "medio": "Página|12",
+     "titulo": "“La Argentina de Milei regala lo que el mundo protege”",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWGtsX0ZIcy1Jbm5neU1fUENxVUNXX2RVRDZNTkROX0RiS2pDSVFaWVFnUXlZYlNST0ZKY1VVYU0xcHJjX19McWE4TjRMdExpd1RzRURlNWRZSjZJczM4bGt1b2xqZ2o3U2hQQ2hCZHpvYWs0Yi1zS1pYRmJTdHZIZkR5YnJWbEl0ZEdSWXp5V0duSHNnVkFV?oc=5",
+     "hora": "20:18"
+    }
+   ],
+   "n": 9
+  },
+  {
+   "titulo": "El Gobierno y la Iglesia argentina enviaron mensajes de afecto al Papa y evitaron hacer especulaciones sobre su visita",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "La Nación"
+   ],
+   "n_notas": 1,
+   "primera": "20:12",
+   "links": [
+    {
+     "medio": "La Nación",
+     "titulo": "El Gobierno y la Iglesia argentina enviaron mensajes de afecto al Papa y evitaron hacer especulaciones sobre su visita",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPczVUbDN6X29HMDRmVFItakJDOXhZamhTdU81QTFHNUtWTnZncjUzSk54N2l0eUJSczBxX1U3WGhReENJUk1URlhVNXREeENXZDZIRWdzLWF6OXZVU3Y0NUVKQVc0d3R3b0szN3dDa0VjdnBTUWJ6TDZDd3pVaFEtaGlvU0d5WVZyeVJTZjRCRDJPVHlTU3lrWEdnR0RTRTZObGpoRkxYbXFJTnJpNXNfNEd4MmJOaWZPTjhxRUQtNk1qUDA0dzdOSkF5Zk9kaEV5Z2Y0?oc=5",
+     "hora": "20:12"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "titulo": "Mónica Frade pidió debatir la mora, la discapacidad y el DNU 70/23 en Diputados",
+   "alcance": "Salta",
+   "tema": "Poder Legislativo",
+   "medios": [
+    "El Intransigente"
+   ],
+   "n_notas": 1,
+   "primera": "20:10",
+   "links": [
+    {
+     "medio": "El Intransigente",
+     "titulo": "Mónica Frade pidió debatir la mora, la discapacidad y el DNU 70/23 en Diputados",
+     "link": "https://elintransigente.com/2026/10/11/monica-frade-dnu-diputados/",
+     "hora": "20:10"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "titulo": "Decisión calculada: Karina Milei acelera acuerdos con los aliados de la Casa Rosada y levanta su perfil",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Clarin"
+   ],
+   "n_notas": 1,
+   "primera": "19:29",
+   "links": [
+    {
+     "medio": "Clarin",
+     "titulo": "Decisión calculada: Karina Milei acelera acuerdos con los aliados de la Casa Rosada y levanta su perfil",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX21pNXlhdFhKdWJXSGUtTUpOZkRvSlB4VUNUckg0a2VPNExmQWF3YjVWVnZ2Q3MtdUo1eVJJZWVFY1dOUHJ1dkZvUFFIZ1dqSnhzV3o5THN4azJGaUhyYzFEYjI1T1NDemtMQk44VVRmY0M0cnJBQUtLd2pTcWRsU2g2OWttYTdpVU9yZ202ZjVNajBrODQtZ2hSalNHdlBVa3JLYVRnbHRiYkZfWUQ2LXhiV2J1Unk2SjU4T1BqSVhjWjc1WU05TFc3V0pKZw?oc=5",
+     "hora": "19:29"
+    }
+   ],
+   "n": 12
+  },
+  {
+   "titulo": "El debate en el Gobierno rumbo a 2027: las dudas sobre polarizar con Kicillof y la opción que los puede “hacer transpirar”",
+   "alcance": "Nacional",
+   "tema": "Gobierno y gestión",
+   "medios": [
+    "Infobae"
+   ],
+   "n_notas": 1,
+   "primera": "18:41",
+   "links": [
+    {
+     "medio": "Infobae",
+     "titulo": "El debate en el Gobierno rumbo a 2027: las dudas sobre polarizar con Kicillof y la opción que los puede “hacer transpirar”",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWjFVZHl2TmFGdVd3cFhnek9Wc3RRT2dselBYV2JQS25PNE9ZSEh6OXlsSW41bXBrcEdMajFHYkd5MFVCM3IxY1V0T0ZycXlOZzZyYmQxUGFzU0pzeWFxMnNYVUdObUw2a1lmejVmYmxoeFM1MGdIM1RSOWt2SE5qQ3BKQlNacU1rV1psRi1NOWxqSE95QkxtWng0SmFiZU5oVHB4X2Rfck0zcnhEb0FvWE1pUWtzZUtNQlcwbmFVamFBOVNJb2NXT0FKSktxdVNQYk1FVFAzckM3WDhfeUU5SExnalNtX2s2dTg2Z3d3Zkdsd3V3c3BV0gGSAkFVX3lxTFBXOWFGVThxNlNFNldxT0RXN1VDRmZaQ040RHZEdmhjZm9WbWdWWTJtdEhkYjFaZGp4VHNKcG9wTGJzRFItZUdTSmpiNWxfN3BRX2tRTHNsemhmdDg5b25hRWlpaGlDazNhWjlmZC1HRUVIa3FTdHBKV0ZFNGtpdzlxaXJDTmpyZ0t0N3ZnSUpYTHBjRlpPdDJvVmVCaVdwNlZhMFNLMUxpb05jalVqLWJWN09mYlZZSlhLb0VPU1FOTGJaSEY1VU1pOExBa1doLXBfWGJ3YVl1MmM1Z0JoUzZyczZ2NV9jUDZ0ZDkxNy1ZVk5iZ3J6U3dvWENNZ21jcjFlT2c2NFVCSi1yZ1lodl9yRHc?oc=5",
+     "hora": "18:41"
+    }
+   ],
+   "n": 13
   },
   {
    "titulo": "El campo le aportará a Javier Milei u$s 41.500 millones en el año electoral y no espera ruido con el dólar",
@@ -200,7 +433,7 @@
      "hora": "18:18"
     }
    ],
-   "n": 4
+   "n": 14
   },
   {
    "titulo": "Sofía Gonet: el acosador de Homero Pettinato fue internado tras una denuncia judicial",
@@ -219,7 +452,7 @@
      "hora": "18:05"
     }
    ],
-   "n": 5
+   "n": 15
   },
   {
    "titulo": "Romo se cruzó con una senadora de Karina por el respaldo al Gordo Dan",
@@ -238,7 +471,7 @@
      "hora": "17:49"
     }
    ],
-   "n": 6
+   "n": 16
   },
   {
    "titulo": "Independiente: Alfaro Moreno coordinará el fútbol si Gaudio gana las elecciones",
@@ -257,7 +490,7 @@
      "hora": "17:47"
     }
    ],
-   "n": 7
+   "n": 17
   },
   {
    "titulo": "Caputo viaja a Bangkok para negociar con el FMI, en medio de las dudas sobre el crecimiento",
@@ -276,26 +509,7 @@
      "hora": "17:07"
     }
    ],
-   "n": 8
-  },
-  {
-   "titulo": "Dos gobernadores avalan la eliminación de las PASO y fortalecen la reforma electoral de Milei",
-   "alcance": "Salta",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "Informate Salta"
-   ],
-   "n_notas": 1,
-   "primera": "17:00",
-   "links": [
-    {
-     "medio": "Informate Salta",
-     "titulo": "Dos gobernadores avalan la eliminación de las PASO y fortalecen la reforma electoral de Milei",
-     "link": "https://informatesalta.com.ar/politica/dos-gobernadores-avalan-la-eliminacion-de-las-paso-y-fortalecen-la-reforma-electoral-de-milei_a6acbff2dbe23996013fc7a0a",
-     "hora": "17:00"
-    }
-   ],
-   "n": 9
+   "n": 18
   },
   {
    "titulo": "Declararon ocho testigos y se acerca el final del juicio político al juez federal de Rosario acusado por coimas",
@@ -314,7 +528,7 @@
      "hora": "16:33"
     }
    ],
-   "n": 10
+   "n": 19
   },
   {
    "titulo": "Marcelo Casaretto acusó a Rogelio Frigerio de buscar desdoblar las elecciones de 2027",
@@ -333,7 +547,7 @@
      "hora": "15:47"
     }
    ],
-   "n": 11
+   "n": 20
   },
   {
    "titulo": "Qué cambiaría en los alquileres, las prepagas y las exportaciones si se deroga el DNU de Milei",
@@ -352,7 +566,7 @@
      "hora": "15:33"
     }
    ],
-   "n": 12
+   "n": 21
   },
   {
    "titulo": "Sáenz y Durand supervisaron la recuperación del Complejo Deportivo Norte Grande y el avance del Corredor Verde de bajas emisiones",
@@ -371,7 +585,7 @@
      "hora": "15:00"
     }
    ],
-   "n": 13
+   "n": 22
   },
   {
    "titulo": "River: Juan Pablo Sorín cuestionó el ciclo de Eduardo Coudet y respaldó a Ponzio",
@@ -390,7 +604,7 @@
      "hora": "14:30"
     }
    ],
-   "n": 14
+   "n": 23
   },
   {
    "titulo": "Federico Sturzenegger desafió al kirchnerismo por el DNU de Milei: “Pro-casta”",
@@ -409,7 +623,7 @@
      "hora": "14:27"
     }
    ],
-   "n": 15
+   "n": 24
   },
   {
    "titulo": "Jorge Asís repasó los ‘errores’ de Javier Milei y sentenció: «Monetizaron con LIBRA»",
@@ -428,7 +642,7 @@
      "hora": "14:08"
     }
    ],
-   "n": 16
+   "n": 25
   },
   {
    "titulo": "Gobernadores de Salta y Antofagasta acuerdan impulsar el Corredor Bioceánico de Capricornio",
@@ -447,7 +661,7 @@
      "hora": "14:00"
     }
    ],
-   "n": 17
+   "n": 26
   },
   {
    "titulo": "Peronismo busca quitar beneficios a empresas chilenas ante “negocios ilegales” en Malvinas",
@@ -466,7 +680,7 @@
      "hora": "13:41"
     }
    ],
-   "n": 18
+   "n": 27
   },
   {
    "titulo": "Kylian Mbappe recibió críticas internas en el Real Madrid por su imagen y adaptación",
@@ -485,7 +699,7 @@
      "hora": "13:35"
     }
    ],
-   "n": 19
+   "n": 28
   },
   {
    "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
@@ -504,7 +718,7 @@
      "hora": "12:34"
     }
    ],
-   "n": 20
+   "n": 29
   },
   {
    "titulo": "El Gobierno organiza un amplio operativo de seguridad para la llegada del papa León XIV",
@@ -523,7 +737,7 @@
      "hora": "12:29"
     }
    ],
-   "n": 21
+   "n": 30
   },
   {
    "titulo": "María Eugenia Vidal se comparó con otros gobernadores y exgobernadores: “Fui mejor que él”",
@@ -542,7 +756,7 @@
      "hora": "12:24"
     }
    ],
-   "n": 22
+   "n": 31
   },
   {
    "titulo": "“Nos hicieron creer que la juventud se podía volver de derecha”: Myriam Bregman apuntó contra Javier Milei en Córdoba",
@@ -561,7 +775,7 @@
      "hora": "12:09"
     }
    ],
-   "n": 23
+   "n": 32
   },
   {
    "titulo": "Malvinas: cuál es el plan que prepara el Gobierno para llevar la disputa por el petróleo a un tribunal internacional",
@@ -580,7 +794,7 @@
      "hora": "12:01"
     }
    ],
-   "n": 24
+   "n": 33
   },
   {
    "titulo": "Sergio Berni cruzó al Gobierno: \"En vez de discutir el Pizzurno hay que preguntar dónde está el oro\"",
@@ -599,7 +813,7 @@
      "hora": "11:39"
     }
    ],
-   "n": 25
+   "n": 34
   },
   {
    "titulo": "Unión por la Patria busca sesionar el 15 de octubre: “Estamos con expectativas”",
@@ -618,7 +832,7 @@
      "hora": "11:36"
     }
    ],
-   "n": 26
+   "n": 35
   },
   {
    "titulo": "El financista ligado a “Chiqui” Tapia envió un mensaje contra la Corte Suprema y se comparó con Perón",
@@ -637,7 +851,7 @@
      "hora": "11:30"
     }
    ],
-   "n": 27
+   "n": 36
   },
   {
    "titulo": "Ley de Tierras: La Libertad Avanza afina su estrategia para bloquear la sesión de la oposición contra el DNU de Milei",
@@ -656,7 +870,7 @@
      "hora": "11:28"
     }
    ],
-   "n": 28
+   "n": 37
   },
   {
    "titulo": "Orsi encabeza este lunes un nuevo Consejo de Ministros con agenda abierta",
@@ -675,7 +889,7 @@
      "hora": "11:17"
     }
    ],
-   "n": 29
+   "n": 38
   },
   {
    "titulo": "El INDEC calculó cuánto vale el capital físico de la Argentina y Milei celebró un dato clave",
@@ -694,7 +908,7 @@
      "hora": "11:10"
     }
    ],
-   "n": 30
+   "n": 39
   },
   {
    "titulo": "Una escultura atribuida a Miguel Ángel en Argentina podría alcanzar un valor de 450 millones de dólares",
@@ -713,7 +927,7 @@
      "hora": "10:48"
     }
    ],
-   "n": 31
+   "n": 40
   },
   {
    "titulo": "Sergio Berni y Agustina Propato apuntaron contra el Gobierno de Milei: “Lleva a cabo un plan de desnacionalización”",
@@ -732,7 +946,7 @@
      "hora": "10:41"
     }
    ],
-   "n": 32
+   "n": 41
   },
   {
    "titulo": "Férreo respaldo de un gobernador a Javier Milei: “Para atrás no hay que volver nunca más”",
@@ -751,7 +965,7 @@
      "hora": "10:20"
     }
    ],
-   "n": 33
+   "n": 42
   },
   {
    "titulo": "Tras dos semanas de parálisis, Patricia Bullrich busca reactivar la agenda del Senado",
@@ -770,7 +984,7 @@
      "hora": "10:16"
     }
    ],
-   "n": 34
+   "n": 43
   },
   {
    "titulo": "Elecciones 2027: el evangelismo peronista se diferencia de los cristianos libertarios",
@@ -789,7 +1003,7 @@
      "hora": "09:58"
     }
    ],
-   "n": 35
+   "n": 44
   },
   {
    "titulo": "CFK, Máximo Kirchner y la teoría de la acumulación",
@@ -808,7 +1022,7 @@
      "hora": "09:34"
     }
    ],
-   "n": 36
+   "n": 45
   },
   {
    "titulo": "Escenario de cuartos o polarización: el peronismo debate la estrategia electoral de 2027",
@@ -827,7 +1041,7 @@
      "hora": "09:28"
     }
    ],
-   "n": 37
+   "n": 46
   },
   {
    "titulo": "El gobierno de EE.UU. no ve que en el caso $LIBRA haya pruebas de un delito",
@@ -846,7 +1060,7 @@
      "hora": "09:25"
     }
    ],
-   "n": 38
+   "n": 47
   },
   {
    "titulo": "Argentina y Brasil: un vínculo económico sólido en medio de tensiones políticas",
@@ -865,7 +1079,7 @@
      "hora": "09:10"
     }
    ],
-   "n": 39
+   "n": 48
   },
   {
    "titulo": "La relación Argentina-Brasil, más allá de la política, según CAMBRAS",
@@ -884,7 +1098,7 @@
      "hora": "08:28"
     }
    ],
-   "n": 40
+   "n": 49
   },
   {
    "titulo": "Valdemar Costa Neto, el arquitecto del poder político en Brasil tras las elecciones",
@@ -903,7 +1117,7 @@
      "hora": "08:13"
     }
    ],
-   "n": 41
+   "n": 50
   },
   {
    "titulo": "La controversia por la ley de Tierras avivó las diferencias internas en la Corte Suprema",
@@ -922,7 +1136,7 @@
      "hora": "07:40"
     }
    ],
-   "n": 42
+   "n": 51
   },
   {
    "titulo": "Presupuesto 2027: Salta inició las consultas regionales y anunció nuevas obras para los Valles Calchaquíes",
@@ -941,7 +1155,7 @@
      "hora": "07:16"
     }
    ],
-   "n": 43
+   "n": 52
   },
   {
    "titulo": "Correr el velo de las políticas libertarias",
@@ -960,7 +1174,7 @@
      "hora": "07:06"
     }
    ],
-   "n": 44
+   "n": 53
   },
   {
    "titulo": "Las lecciones de Brasil para el peronismo",
@@ -979,7 +1193,7 @@
      "hora": "07:00"
     }
    ],
-   "n": 45
+   "n": 54
   },
   {
    "titulo": "Encuesta: a un año de las elecciones, los indecisos se mantienen como la tercera fuerza política",
@@ -998,7 +1212,7 @@
      "hora": "06:06"
     }
    ],
-   "n": 46
+   "n": 55
   },
   {
    "titulo": "La Casa Rosada afronta una semana clave en el Congreso, mientras busca acercar posiciones con los gobernadores para suspender las PASO",
@@ -1017,7 +1231,7 @@
      "hora": "06:00"
     }
    ],
-   "n": 47
+   "n": 56
   },
   {
    "titulo": "En plena puja con los aliados, el Gobierno busca acelerar un acuerdo en el Senado para cambiar la ley de salud mental",
@@ -1036,7 +1250,7 @@
      "hora": "03:06"
     }
    ],
-   "n": 48
+   "n": 57
   },
   {
    "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -1055,7 +1269,7 @@
      "hora": "03:05"
     }
    ],
-   "n": 49
+   "n": 58
   },
   {
    "titulo": "Euforia, intolerancia, crisis: las muchas caras de Javier Milei",
@@ -1074,7 +1288,7 @@
      "hora": "02:32"
     }
    ],
-   "n": 50
+   "n": 59
   },
   {
    "titulo": "La interna del Gobierno amenazó con reactivarse esta semana, pero intentan apaciguarla",
@@ -1093,7 +1307,7 @@
      "hora": "02:31"
     }
    ],
-   "n": 51
+   "n": 60
   },
   {
    "titulo": "Círculo rojo: tres semanas clave para el futuro del Gobierno, el calendario electoral y la oferta opositora",
@@ -1112,7 +1326,7 @@
      "hora": "02:30"
     }
    ],
-   "n": 52
+   "n": 61
   },
   {
    "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
@@ -1131,7 +1345,7 @@
      "hora": "02:06"
     }
    ],
-   "n": 53
+   "n": 62
   },
   {
    "titulo": "La interna entre CFK y Kicillof divide cada vez más al PJ y dificulta un acuerdo electoral para el 2027",
@@ -1150,7 +1364,7 @@
      "hora": "02:06"
     }
    ],
-   "n": 54
+   "n": 63
   },
   {
    "titulo": "Gobierno Nacional nombró a Veterano Malvinas al frente de la Escuela de Inteligencia",
@@ -1169,45 +1383,7 @@
      "hora": "01:46"
     }
    ],
-   "n": 55
-  },
-  {
-   "titulo": "El \"mata mata\" de Milei: las tres batallas incómodas camino a la reelección",
-   "alcance": "Nacional",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "Infobae"
-   ],
-   "n_notas": 1,
-   "primera": "01:37",
-   "links": [
-    {
-     "medio": "Infobae",
-     "titulo": "El \"mata mata\" de Milei: las tres batallas incómodas camino a la reelección",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd0llRzlzT25od3B6U1hXREdidFdvNWVkSU9uNHZTUTkzZTR2bkoxaWJqbGUwcGZhcDBCZVR4YmRtX0NPMGhvNGp3MmpBRkotTHZJNFNwVXZ0OG95d2dLRl81Wmh3dW90aWp4VWp1TmlSRzRiQUVPVW8wQWdvU0xXVjJMaHZhbmRUZjJvZzFuZE5IM21fdXoyX0d5QjJJNmhzX2c0UlBYcC16THBnRDMxUmNZYlo4c0RY0gHTAUFVX3lxTFBQT3NCVEp3aXdTZmxaZkNqYjBxcEV3a3hhY25GcFJMeGJKYkltSU5QSHhlYTJJbmRsUDVzdUk5bXJsZ3JJbGh6a2V4aUFBZDhSY0otVjhsRmtQSmU0Z3JucTdiZmZZOXFoemtSUHJta0luR0VGVW5LS2NNLW03MnAzWDZ5a2pHVkl6UkxoQWM3akp2UHF1a0dxR1B3b3Zac3hRcng4cndjQ2lUdUxyeVFXMnpteDhqUG9wSnlMdmxkSHBCbTZuYzM4Rk5KQVJSQWFMYms?oc=5",
-     "hora": "01:37"
-    }
-   ],
-   "n": 56
-  },
-  {
-   "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación “blue” para bajar impuestos",
-   "alcance": "Nacional",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "Infobae"
-   ],
-   "n_notas": 1,
-   "primera": "01:37",
-   "links": [
-    {
-     "medio": "Infobae",
-     "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación “blue” para bajar impuestos",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaU5wSFRuUHRQX1RueG5PSnhMYU5nSGJaMGZuTzhuTEhCekpNQkhRUUR0TUJKRnp4RE00ZkhDTWxwZmhwYnVjRlQzYnBDQTJ0TkQtSjdqTnptTW1LZnc4MUdrQjlUOHFrQ0o0dUFTY1N0ZFE0T2Y1dUY5YUhvbUxoeE05eHQ0ZDdVa2ZWcEh0S3JrV1Vac0R1ZEp6cUttQXMyalBUZy1LQ1E3SGZUcmN0MVdnQW9hNHd1VGdibndYenc4ZUVGVXhFUlhnbm5XWGhvcE9qMDZYQlFIS2tENnVqTldQMzB5czhobHFwMEc0cG9CNTF4REHSAZACQVVfeXFMT013UlBIU1FDVUFTSkUtRFFVMlRqbXZ2Y0ZCdTVQU0J6UzNwQzFPRHZiUTZXMVlwR0d3NmN1Sk92d2lTaFBTQzRKTDlLUjc1MDZHU0lkX1pXZ0o1ZkhDNmpLckFVeGN3Wk41R1ZvX3MwNmVLTnpBc0xCRmljRHdiMjhkbnNtbGQyWlZnRlJKNGd4MzdIV2VUTzBTMUpfMmI0cXF5UFZKaVczUTE4SWIzVENWZHlkWFd4cHJrWVp6VnRPOGZWMlFyWVpJNUlUMDNyUGdiN3hQY044Y2E1Zy1MSHV2SmFrT3pkcDZhWkFIYVI0UTBKdnVZN3gxZXZnN2s2RW9EQVBJcWhadHFlYTQxaG4?oc=5",
-     "hora": "01:37"
-    }
-   ],
-   "n": 57
+   "n": 64
   },
   {
    "titulo": "La interna del Gobierno Nacional repercute en la discusión del Congreso: el análisis de Cristina Pérez",
@@ -1226,7 +1402,7 @@
      "hora": "01:30"
     }
    ],
-   "n": 58
+   "n": 65
   },
   {
    "titulo": "Axel Kicillof ya tiene otro postulante para sucederlo en la gobernación bonaerense",
@@ -1245,64 +1421,7 @@
      "hora": "01:16"
     }
    ],
-   "n": 59
-  },
-  {
-   "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
-   "alcance": "Salta",
-   "tema": "Poder Legislativo",
-   "medios": [
-    "El Intransigente"
-   ],
-   "n_notas": 1,
-   "primera": "00:40",
-   "links": [
-    {
-     "medio": "El Intransigente",
-     "titulo": "Sebastián Pareja encabezó el Congreso Provincial de la Juventud de La Libertad Avanza",
-     "link": "https://elintransigente.com/2026/10/11/sebastian-pareja-juventud-moron/",
-     "hora": "00:40"
-    }
-   ],
-   "n": 60
-  },
-  {
-   "titulo": "Caputo con las horas contadas: recesión, reservas y dólar desafían su continuidad",
-   "alcance": "Nacional",
-   "tema": "Economía y finanzas",
-   "medios": [
-    "Perfil"
-   ],
-   "n_notas": 1,
-   "primera": "00:36",
-   "links": [
-    {
-     "medio": "Perfil",
-     "titulo": "Caputo con las horas contadas: recesión, reservas y dólar desafían su continuidad",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTVRWHJacHJpbnhJbDBOWi1IbGUzRW1WTGxHb1dQNnhTT29nVVdfdFlvOGUtQ2NWeDVwVTZ2aDBndXE1RjFmamc4c0txM0tkWUZmOXBtcWVoMHpZTHJRZ0txRGpBYUpaaUpGWkd3aHpGRDlPeVdXclNoNnA2ZWxfYUtaWG9Qekg4dFNfUm9oTEJ3clZZNUV5ZmwzRGZ5NjlaVldlSE56YWVDT1RJREh6UDUydy1pTUJBT0hJVTYxRWFCTG1ObWQ00gHMAUFVX3lxTFBSalVxVGwwMDJ6dnQxdm9NanhDSFFrYnd3R3FEYlpyWkdIbGRuZEkwbzVhajZfSldJZXd3YzZRUmNlVnIwQmNfal9DX21icEhmcW9rS2h1ZFZmWWVncDl5cmtXa2pPVHNYT25sWDNuai1wNDZxMzE1Nm5TNVlsdF82X05hMGZreGIxV3NDOUhCZDhLeElPcFhGaVpSbzBJYkktWUVpRTFKMEhDTjJBcUhxVzNBYzhNYW4xQzFOMXM4VjZhUGZtZTVjYnJyVg?oc=5",
-     "hora": "00:36"
-    }
-   ],
-   "n": 61
-  },
-  {
-   "titulo": "De Deep Purple al peronismo: el guiño musical de Miguel Ángel Tallarita en pleno show de Los Fundamentalistas",
-   "alcance": "Nacional",
-   "tema": "Elecciones y partidos",
-   "medios": [
-    "Minutouno"
-   ],
-   "n_notas": 1,
-   "primera": "00:28",
-   "links": [
-    {
-     "medio": "Minutouno",
-     "titulo": "De Deep Purple al peronismo: el guiño musical de Miguel Ángel Tallarita en pleno show de Los Fundamentalistas",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVWxxMUhEMkZFeG8xTGdScGNnQ0pPanZFdWtrY0dMVmN6RTF3QjFhYUVFd0tVMjFTeW14djBSQ2RQbXk0YUVUVGY0Y3ljdFJTQlNrR0l4R3p0QmdjV1Y5WUwxV1FQdnluS09reDZfc0g0N28zRmZNOVItUEVUYTA0UEtQTmdWWDd3cERVYzNqdzc4b3piMmxNYThIWkZYdGozRFFLaHpJNG1IeURnVG5ZV0h0ZThkbU83b1dFOTlzOXdseHREMjRRaGFYaHFLUXdsd2pMQU85V3VBLTJreEJhTNIB4AFBVV95cUxOVWxxMUhEMkZFeG8xTGdScGNnQ0pPanZFdWtrY0dMVmN6RTF3QjFhYUVFd0tVMjFTeW14djBSQ2RQbXk0YUVUVGY0Y3ljdFJTQlNrR0l4R3p0QmdjV1Y5WUwxV1FQdnluS09reDZfc0g0N28zRmZNOVItUEVUYTA0UEtQTmdWWDd3cERVYzNqdzc4b3piMmxNYThIWkZYdGozRFFLaHpJNG1IeURnVG5ZV0h0ZThkbU83b1dFOTlzOXdseHREMjRRaGFYaHFLUXdsd2pMQU85V3VBLTJreEJhTA?oc=5",
-     "hora": "00:28"
-    }
-   ],
-   "n": 62
+   "n": 66
   },
   {
    "titulo": "La Corte Suprema repuso los límites de la Ley de Tierras y trae un viejo debate de vuelta al Congreso: los detalles",
@@ -1321,62 +1440,24 @@
      "hora": "00:15"
     }
    ],
-   "n": 63
-  },
-  {
-   "titulo": "\"El que no salta...\": el cancionero contra Javier Milei en el show de Los Fundamentalistas en Tucumán",
-   "alcance": "Nacional",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "Minutouno"
-   ],
-   "n_notas": 1,
-   "primera": "00:08",
-   "links": [
-    {
-     "medio": "Minutouno",
-     "titulo": "\"El que no salta...\": el cancionero contra Javier Milei en el show de Los Fundamentalistas en Tucumán",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdTU2b0R3a0JWMGE3UHZGbjgxXzA5Y243WEZ2aGFDeDkwa0ItRnN3T1dFTHdXb1loY3Z2SXR2WklSZXpDbldYY3A4UVBGT0J0U0RldHVhdW02dUFaZVA2WDdITElsY0s1Nmd3RTZnTnJJcjZ5TXY3akx3d25VWXlQYmx5NG1WRUhXTFE5YzJYNWVzQmZET0x5U2p6OFgtcWRpbi1CR0MzdWwtY3pqa1daQzA0MG9vT0RmLXJHQWRIM3ZzUnFHUlJMUEFLN0poaEnSAc8BQVVfeXFMUHU1Nm9Ed2tCVjBhN1B2Rm44MV8wOWNuN1hGdmhhQ3g5MGtCLUZzd09XRUx3V29ZaGN2dkl0dlpJUmV6Q25XWGNwOFFQRk9CdFNEZXR1YXVtNnVBWmVQNlg3SExJbGNLNTZnd0U2Z05ySXI2eU12N2pMd3duVVl5UGJseTRtVkVIV0xROWMyWDVlc0JmRE9MeVNqejhYLXFkaW4tQkdDM3VsLWN6amtXWkMwNDBvb09EZi1yR0FkSDN2c1JxR1JSTFBBSzdKaGhJ?oc=5",
-     "hora": "00:08"
-    }
-   ],
-   "n": 64
-  },
-  {
-   "titulo": "Con poco más para dar, el modelo Milei confirma ganadores, sin olvidar al chiquitaje",
-   "alcance": "Nacional",
-   "tema": "Gobierno y gestión",
-   "medios": [
-    "elDiarioAR"
-   ],
-   "n_notas": 1,
-   "primera": "00:01",
-   "links": [
-    {
-     "medio": "elDiarioAR",
-     "titulo": "Con poco más para dar, el modelo Milei confirma ganadores, sin olvidar al chiquitaje",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdnRTLWlyVVJCVlo2aHJhREx5Ty10QmVJTExnMDgwSzVWbVVoVUhJVXYyMTdXcWplVG5NY2hPUmRmUHZvZmoyYV9FLU9DYmlyQlVDMHFxbV9LRWphcmRPWDdwSi0wSVVWUHAyTHBFOUNodHlqRENnQjhENkxDVWQwY2w1dUFkNm5ORlZMVzR2eTNfZHRrV1NISmdSbHFmMlJ2NWt6NFVuNllkc3lacEHSAbMBQVVfeXFMTXpJRy1fYldpbFE4bU9NMFdDXzFlaG56eG1WZFpRbkRfN2tfd1BCeF8xcGVCMHk3MFQtS0ZxUnliOTBpZ01nNjNWZllUbzVSV1lLbG9Lc215QjVaWE5sdWlnT0dYQ3FFUVBDckJPbnc0NDNxN0xpRUw0WlVQMDh0SlVCbmN4eGVlU25fWFdoUXdBM3ZhaEF4d3pBNUgwU2lLaTJTS21DSkdiamJBdXl3Y1prRTQ?oc=5",
-     "hora": "00:01"
-    }
-   ],
-   "n": 65
+   "n": 67
   }
  ],
  "seguridad": {
   "totales": {
-   "notas": 48,
-   "historias": 39,
-   "salta": 4,
-   "nacional": 35
+   "notas": 53,
+   "historias": 44,
+   "salta": 5,
+   "nacional": 39
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 15
+    "historias": 16
    },
    {
     "tema": "Robos y estafas",
-    "historias": 9
+    "historias": 11
    },
    {
     "tema": "Homicidios y violencia",
@@ -1384,11 +1465,11 @@
    },
    {
     "tema": "Narcotráfico y contrabando",
-    "historias": 4
+    "historias": 5
    },
    {
     "tema": "Justicia penal",
-    "historias": 3
+    "historias": 4
    },
    {
     "tema": "Violencia de género",
@@ -1514,6 +1595,82 @@
     "n": 3
    },
    {
+    "titulo": "Pérez: cuatro detenidos en un allanamiento por presunta venta de drogas",
+    "alcance": "Nacional",
+    "tema": "Policía y fuerzas de seguridad",
+    "medios": [
+     "Cadena 3 Argentina"
+    ],
+    "n_notas": 1,
+    "primera": "20:48",
+    "links": [
+     {
+      "medio": "Cadena 3 Argentina",
+      "titulo": "Pérez: cuatro detenidos en un allanamiento por presunta venta de drogas",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnZOWHh3aUwwalMtYzRrNW55TjVMWkdIZmNKTTVNYVYwZFBZX3ZncWV2YldXMXNSbXp2MlI0Vm43clpRekRGWEJlaDZaWDhldnR0QUt3OVRhbWozdl9wX1c0dGFtcEdpZTlXdl9LMUdYcmVjc2ViLW16azNYaDhLbWJpMVNwOXU2T3Etb0p6VG4tZ0dvQTQxZWZ1MWFrRkc1WE5hZVpSdHVoTmZ2Rkw2MFdybDIwSFk0NVE?oc=5",
+      "hora": "20:48"
+     }
+    ],
+    "n": 4
+   },
+   {
+    "titulo": "El traslado de presos de Villa Devoto reaviva la disputa entre el PRO y La Libertad Avanza",
+    "alcance": "Nacional",
+    "tema": "Justicia penal",
+    "medios": [
+     "El Intransigente"
+    ],
+    "n_notas": 1,
+    "primera": "20:27",
+    "links": [
+     {
+      "medio": "El Intransigente",
+      "titulo": "El traslado de presos de Villa Devoto reaviva la disputa entre el PRO y La Libertad Avanza",
+      "link": "https://elintransigente.com/2026/10/11/el-traslado-de-presos-de-villa-devoto-reaviva-la-disputa-entre-el-pro-y-la-libertad-avanza/",
+      "hora": "20:27"
+     }
+    ],
+    "n": 5
+   },
+   {
+    "titulo": "De una extradición por bitcoin al robo a Benjamín Cruz: las 5 notas más leídas de la semana",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Informate Salta"
+    ],
+    "n_notas": 1,
+    "primera": "20:00",
+    "links": [
+     {
+      "medio": "Informate Salta",
+      "titulo": "De una extradición por bitcoin al robo a Benjamín Cruz: las 5 notas más leídas de la semana",
+      "link": "https://informatesalta.com.ar/3-estrellas/de-una-extradicion-por-bitcoin-al-robo-a-benjamin-cruz--las-5-notas-mas-leidas-de-la-semana_a6acc160dbe239960130407ed",
+      "hora": "20:00"
+     }
+    ],
+    "n": 6
+   },
+   {
+    "titulo": "Persecusión y violencia en zona sur: salteño con domiciliaria por drogas se robó un auto y se fugó",
+    "alcance": "Salta",
+    "tema": "Narcotráfico y contrabando",
+    "medios": [
+     "Que Pasa Salta"
+    ],
+    "n_notas": 1,
+    "primera": "19:45",
+    "links": [
+     {
+      "medio": "Que Pasa Salta",
+      "titulo": "Persecusión y violencia en zona sur: salteño con domiciliaria por drogas se robó un auto y se fugó",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY05Jd0pQM2Z3c1hqbFVhdW5zc0V5ZWZDcDdEb3VrNTd0MV9PSVh5ZEZZZkhHb1Y3bHd2cXBNMWJrQXBBNUdlUE9ZTTdIeUVIYkR2dmRMUjVoMUkzS1Z6bGFybHR0UndGcmFrTUM1UlAzLWVMaHA0THZnZF9IV3NvRDhxeFFOWEcyckNmSXliVmFneGJMbkhkaEl1Wjd2Vkg3S05yRmNQR2d3Ri1sWjJYQW03VHJhT1A5dE4ydEtoOS1JNVhWb2dTQXprZ2ZfU1VVMmIzd0hfM1A?oc=5",
+      "hora": "19:45"
+     }
+    ],
+    "n": 7
+   },
+   {
     "titulo": "Muertes en separos de Guanajuato: un antecedente de agresiones policiales reabre las preguntas sobre el caso de San Felipe",
     "alcance": "Nacional",
     "tema": "Policía y fuerzas de seguridad",
@@ -1530,7 +1687,7 @@
       "hora": "18:24"
      }
     ],
-    "n": 4
+    "n": 8
    },
    {
     "titulo": "Accidente fatal en la ruta 9 de Tucumán: murieron dos policías",
@@ -1549,7 +1706,26 @@
       "hora": "17:39"
      }
     ],
-    "n": 5
+    "n": 9
+   },
+   {
+    "titulo": "“Nos abrieron los lockers”: Alex Bisogno denuncia robo en gimnasio y exige respuestas",
+    "alcance": "Nacional",
+    "tema": "Robos y estafas",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "17:36",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "“Nos abrieron los lockers”: Alex Bisogno denuncia robo en gimnasio y exige respuestas",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUmNId1o4Q3JFMmhYTi1sbUtEVnZzbzJtZHVyMDVvX003cGFlZDhnakw5WmphVHJGOTBRYVh2TnBJVDNHb29CNklmdGVWS1d4ZFFMdkNlMXRycXdvWHpNRElXQVpsWUItaEhEbl9FOThHb3Z1V1Y4ZUk3QjJVMXQ2X04yaXppemhVeC1NN25Dc3Z2YVJ2Rktvc01halhpWUYwZ0FNcnlZMjRsOTI3cUNteVkwVHNTN05UZXdHUWZfcmRHbm_SAd4BQVVfeXFMTnFjcFBXRng0Rjg1ZW54MkpRUWdEdnBkSUxVR1FlXzYzX1MxbTFoZE1NUDZKUl9MQmhoMnc1YnBSSEprWGNWdHh0eVhxS0JmcWwwRHhhR29JYmNlNWxwZ0xVQ3NST3puNTNwV1JSeVZwTW5pUFNCWGxfSUdPRHBQOU92ZXZjd0toemJUUURhdE9lNk1RMmlQX3dpdTFDcXFKNzhYS0VqME9LaHBPdUpueDF0UXhGNzBkRklWcXZpU2lzRUpyM0QzYVRqSFBLT2RKS1h1ZmZaeUREUGhRVmRB?oc=5",
+      "hora": "17:36"
+     }
+    ],
+    "n": 10
    },
    {
     "titulo": "¡TRAGEDIA EN LA RUTA! Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
@@ -1568,7 +1744,7 @@
       "hora": "17:02"
      }
     ],
-    "n": 6
+    "n": 11
    },
    {
     "titulo": "Persecución en zona sudeste: demoraron a un hombre con prisión domiciliaria por narcotráfico",
@@ -1587,7 +1763,7 @@
       "hora": "16:37"
      }
     ],
-    "n": 7
+    "n": 12
    },
    {
     "titulo": "Desbarataron un laboratorio clandestino de desbloqueo de celulares en Saavedra: más de 130 dispositivos secuestrados",
@@ -1606,7 +1782,7 @@
       "hora": "16:33"
      }
     ],
-    "n": 8
+    "n": 13
    },
    {
     "titulo": "La Policía de la Ciudad incauta decenas de dispositivos electrónicos en un operativo",
@@ -1625,7 +1801,7 @@
       "hora": "16:05"
      }
     ],
-    "n": 9
+    "n": 14
    },
    {
     "titulo": "Tragedia en Moreno: un pitbull mató a un nene de 4 años y detuvieron a su madrina, que había quedado a cargo del niño",
@@ -1644,7 +1820,7 @@
       "hora": "15:27"
      }
     ],
-    "n": 10
+    "n": 15
    },
    {
     "titulo": "El cuerpo hallado en Las Toninas pertenece a Oscar Barbero, uno de los kayakistas desaparecidos",
@@ -1663,7 +1839,7 @@
       "hora": "14:14"
      }
     ],
-    "n": 11
+    "n": 16
    },
    {
     "titulo": "Cuatro lingotes de oro hallados en Caleta Olivia reavivan el caso de un misterioso robo a una minera",
@@ -1682,7 +1858,7 @@
       "hora": "13:55"
      }
     ],
-    "n": 12
+    "n": 17
    },
    {
     "titulo": "Violento robo en un local de Arenales y General Paz: la dueña pide ayuda para recuperar la mercadería",
@@ -1701,7 +1877,7 @@
       "hora": "13:30"
      }
     ],
-    "n": 13
+    "n": 18
    },
    {
     "titulo": "Capturan a 6 personas por robo de más de 500 mil pesos al Ayuntamiento de Cacahotán, Chiapas",
@@ -1720,7 +1896,7 @@
       "hora": "13:19"
      }
     ],
-    "n": 14
+    "n": 19
    },
    {
     "titulo": "Policía murió durante enfrentamiento armado con las disidencias en Tuluá, Valle del Cauca: presunto integrante del grupo armado fue abatido",
@@ -1739,7 +1915,7 @@
       "hora": "13:08"
      }
     ],
-    "n": 15
+    "n": 20
    },
    {
     "titulo": "Crimen en Apolinario Saravia: un trabajador rural murió apuñalado y hay un detenido",
@@ -1758,7 +1934,7 @@
       "hora": "12:44"
      }
     ],
-    "n": 16
+    "n": 21
    },
    {
     "titulo": "Él es el intendente Michael González, considerado el mejor policía de Colombia en 2026: lidera proyecto para prevenir el consumo y venta de drogas en menores de edad",
@@ -1777,7 +1953,7 @@
       "hora": "12:34"
      }
     ],
-    "n": 17
+    "n": 22
    },
    {
     "titulo": "Policía Nacional Civil informa sobre un operativo y la incautación de un arma de fuego",
@@ -1796,7 +1972,7 @@
       "hora": "12:14"
      }
     ],
-    "n": 18
+    "n": 23
    },
    {
     "titulo": "“La estafa del siglo”: creadoras de OnlyFans denuncian que ARCA les reclama 150 millones por ingresos que nunca vieron",
@@ -1815,7 +1991,7 @@
       "hora": "11:42"
      }
     ],
-    "n": 19
+    "n": 24
    },
    {
     "titulo": "San Lorenzo: demoraron a una mujer que circulaba en una moto vinculada a un robo",
@@ -1834,7 +2010,7 @@
       "hora": "11:00"
      }
     ],
-    "n": 20
+    "n": 25
    },
    {
     "titulo": "La Policía polaca tiene indicios de planes de atentado contra Tusk, según Interior",
@@ -1853,7 +2029,7 @@
       "hora": "10:50"
      }
     ],
-    "n": 21
+    "n": 26
    },
    {
     "titulo": "Detuvieron a una \"viuda negra\" y a su pareja acusados de cometer un robo millonario en Llavallol",
@@ -1872,7 +2048,7 @@
       "hora": "10:35"
      }
     ],
-    "n": 22
+    "n": 27
    },
    {
     "titulo": "Metán: Condenaron a tres años de prisión efectiva al audaz ladrón de un drugstore",
@@ -1891,7 +2067,7 @@
       "hora": "10:14"
      }
     ],
-    "n": 23
+    "n": 28
    },
    {
     "titulo": "VIDEO. El “oro verde” de Salta: cigarrillos de contrabando, ganancias millonarias y vehículos con Starlink",
@@ -1910,7 +2086,7 @@
       "hora": "09:49"
      }
     ],
-    "n": 24
+    "n": 29
    },
    {
     "titulo": "Delincuentes entraron a un country de Córdoba y robaron dinero y objetos de valor en dos casas",
@@ -1929,7 +2105,7 @@
       "hora": "09:23"
      }
     ],
-    "n": 25
+    "n": 30
    },
    {
     "titulo": "Fiscal general que acusó a Netanyahu afirma que la Policía actuó sin su consentimiento",
@@ -1948,7 +2124,7 @@
       "hora": "09:19"
      }
     ],
-    "n": 26
+    "n": 31
    },
    {
     "titulo": "Balacera en Los Olivos: Sujeto dispara contra un hombre y un menor de edad",
@@ -1967,7 +2143,7 @@
       "hora": "09:07"
      }
     ],
-    "n": 27
+    "n": 32
    },
    {
     "titulo": "Acuerdan prisión para el detenido como autor del asesinato de un cirujano en Marbella",
@@ -1986,7 +2162,7 @@
       "hora": "08:47"
      }
     ],
-    "n": 28
+    "n": 33
    },
    {
     "titulo": "La UCRIF de la Policía suma 2.291 detenidos desde 2021 por favorecimiento de inmigración irregular y documentación falsa",
@@ -2005,7 +2181,7 @@
       "hora": "05:46"
      }
     ],
-    "n": 29
+    "n": 34
    },
    {
     "titulo": "Liberado el líder del Partido de las Cucarachas detenido en un avión con destino Dehli para las protestas",
@@ -2025,7 +2201,7 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 30
+    "n": 35
    },
    {
     "titulo": "Crimen del gendarme en El Palomar: los acusados admitieron su responsabilidad, pero no irán a prisión perpetua",
@@ -2044,7 +2220,7 @@
       "hora": "04:37"
      }
     ],
-    "n": 31
+    "n": 36
    },
    {
     "titulo": "La Policía se despliega en el Guano para desalojar el último gran asentamiento ilegal de inmigrantes",
@@ -2063,7 +2239,7 @@
       "hora": "04:27"
      }
     ],
-    "n": 32
+    "n": 37
    },
    {
     "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
@@ -2082,7 +2258,7 @@
       "hora": "03:05"
      }
     ],
-    "n": 33
+    "n": 38
    },
    {
     "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
@@ -2101,7 +2277,7 @@
       "hora": "02:06"
      }
     ],
-    "n": 34
+    "n": 39
    },
    {
     "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
@@ -2121,7 +2297,7 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 35
+    "n": 40
    },
    {
     "titulo": "La Policía Nacional Civil retira 14 cámaras ilegales en Santa Catarina Pinula por presuntos vínculos criminales",
@@ -2140,7 +2316,7 @@
       "hora": "01:35"
      }
     ],
-    "n": 36
+    "n": 41
    },
    {
     "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
@@ -2159,7 +2335,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 37
+    "n": 42
    },
    {
     "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
@@ -2178,7 +2354,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 38
+    "n": 43
    },
    {
     "titulo": "Ciudadano colombiano fue capturado en Estados Unidos: su cónyuge le encontró videos relacionados con presunto abuso sexual infantil",
@@ -2198,69 +2374,69 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 39
+    "n": 44
    }
   ]
  },
  "palabras": [
   {
    "t": "milei",
-   "n": 31
-  },
-  {
-   "t": "javier",
-   "n": 12
+   "n": 40
   },
   {
    "t": "papa",
-   "n": 12
+   "n": 16
   },
   {
    "t": "gobierno",
-   "n": 10
+   "n": 15
+  },
+  {
+   "t": "javier",
+   "n": 14
   },
   {
    "t": "leon",
-   "n": 10
+   "n": 13
+  },
+  {
+   "t": "gobernadores",
+   "n": 7
+  },
+  {
+   "t": "recuperacion",
+   "n": 7
+  },
+  {
+   "t": "salud",
+   "n": 7
   },
   {
    "t": "acompana",
    "n": 6
   },
   {
-   "t": "gobernadores",
+   "t": "mensaje",
    "n": 6
   },
   {
-   "t": "recuperacion",
+   "t": "oracion",
    "n": 6
   },
   {
-   "t": "salud",
+   "t": "paso",
    "n": 6
+  },
+  {
+   "t": "afecto",
+   "n": 5
   },
   {
    "t": "anuncio",
    "n": 5
   },
   {
-   "t": "busca",
-   "n": 5
-  },
-  {
-   "t": "contra",
-   "n": 5
-  },
-  {
-   "t": "elecciones",
-   "n": 5
-  },
-  {
-   "t": "electoral",
-   "n": 5
-  },
-  {
-   "t": "mensaje",
+   "t": "apoyo",
    "n": 5
   }
  ],
@@ -2290,57 +2466,57 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 157,
-   "politicas": 20,
-   "seguridad": 0
+   "notas": 182,
+   "politicas": 23,
+   "seguridad": 1
   },
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 55,
-   "politicas": 13,
-   "seguridad": 29
-  },
-  {
-   "nombre": "Informate Salta",
-   "ambito": "Salta",
-   "notas": 40,
-   "politicas": 4,
-   "seguridad": 6
+   "notas": 60,
+   "politicas": 15,
+   "seguridad": 30
   },
   {
    "nombre": "Cadena 3 Argentina",
    "ambito": "Nacional",
-   "notas": 39,
+   "notas": 47,
+   "politicas": 7,
+   "seguridad": 3
+  },
+  {
+   "nombre": "Informate Salta",
+   "ambito": "Salta",
+   "notas": 42,
    "politicas": 4,
-   "seguridad": 2
+   "seguridad": 7
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 28,
+   "notas": 31,
    "politicas": 2,
    "seguridad": 2
   },
   {
+   "nombre": "La Gaceta",
+   "ambito": "Nacional",
+   "notas": 10,
+   "politicas": 4,
+   "seguridad": 0
+  },
+  {
    "nombre": "TN",
    "ambito": "Nacional",
-   "notas": 9,
+   "notas": 10,
    "politicas": 3,
    "seguridad": 3
   },
   {
-   "nombre": "La Gaceta",
-   "ambito": "Nacional",
-   "notas": 8,
-   "politicas": 3,
-   "seguridad": 0
-  },
-  {
    "nombre": "La Nación",
    "ambito": "Nacional",
-   "notas": 8,
-   "politicas": 3,
+   "notas": 9,
+   "politicas": 4,
    "seguridad": 1
   },
   {
@@ -2358,16 +2534,23 @@
    "seguridad": 0
   },
   {
+   "nombre": "El Cohete a la Luna",
+   "ambito": "Nacional",
+   "notas": 6,
+   "politicas": 0,
+   "seguridad": 0
+  },
+  {
    "nombre": "BAE Negocios",
    "ambito": "Nacional",
-   "notas": 5,
-   "politicas": 1,
+   "notas": 6,
+   "politicas": 2,
    "seguridad": 1
   },
   {
-   "nombre": "El Cohete a la Luna",
+   "nombre": "Canal26",
    "ambito": "Nacional",
-   "notas": 5,
+   "notas": 6,
    "politicas": 0,
    "seguridad": 0
   },
@@ -2379,10 +2562,24 @@
    "seguridad": 1
   },
   {
-   "nombre": "Canal26",
+   "nombre": "MinutoUno",
    "ambito": "Nacional",
-   "notas": 5,
-   "politicas": 0,
+   "notas": 4,
+   "politicas": 2,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Agencia Noticias Argentinas",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 3,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Clarin",
+   "ambito": "Nacional",
+   "notas": 4,
+   "politicas": 2,
    "seguridad": 0
   },
   {
@@ -2407,10 +2604,17 @@
    "seguridad": 0
   },
   {
-   "nombre": "Clarin",
+   "nombre": "A24",
    "ambito": "Nacional",
    "notas": 3,
-   "politicas": 1,
+   "politicas": 3,
+   "seguridad": 0
+  },
+  {
+   "nombre": "Página|12",
+   "ambito": "Nacional",
+   "notas": 3,
+   "politicas": 2,
    "seguridad": 0
   },
   {
@@ -2421,31 +2625,17 @@
    "seguridad": 0
   },
   {
-   "nombre": "MinutoUno",
-   "ambito": "Nacional",
+   "nombre": "Que Pasa Salta",
+   "ambito": "Salta",
    "notas": 2,
+   "politicas": 0,
+   "seguridad": 1
+  },
+  {
+   "nombre": "El Destape",
+   "ambito": "Nacional",
+   "notas": 1,
    "politicas": 1,
-   "seguridad": 0
-  },
-  {
-   "nombre": "Agencia Noticias Argentinas",
-   "ambito": "Nacional",
-   "notas": 2,
-   "politicas": 2,
-   "seguridad": 0
-  },
-  {
-   "nombre": "Página|12",
-   "ambito": "Nacional",
-   "notas": 2,
-   "politicas": 1,
-   "seguridad": 0
-  },
-  {
-   "nombre": "A24",
-   "ambito": "Nacional",
-   "notas": 2,
-   "politicas": 2,
    "seguridad": 0
   },
   {
@@ -2453,13 +2643,6 @@
    "ambito": "Nacional",
    "notas": 1,
    "politicas": 1,
-   "seguridad": 0
-  },
-  {
-   "nombre": "Que Pasa Salta",
-   "ambito": "Salta",
-   "notas": 1,
-   "politicas": 0,
    "seguridad": 0
   },
   {

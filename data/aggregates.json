@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T22:20:53.059759+00:00",
+  "generated_at": "2026-10-12T01:28:42.152622+00:00",
   "by_politician": {
+    "dip-jose-miguel-gauffin": {
+      "total": 23,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 19,
+      "score_sum": -6
+    },
     "eje-federico-mangione": {
       "total": 13,
       "positivo": 1,
@@ -105,13 +112,6 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": -4
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 22,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 18,
-      "score_sum": -6
     },
     "eje-nicolas-avellaneda": {
       "total": 9,
@@ -913,6 +913,36 @@
     }
   },
   "by_day": {
+    "2025-03-25": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-11": {
       "eje-federico-mangione": {
         "total": 1,
@@ -10003,32 +10033,6 @@
         "score_sum": 0
       }
     },
-    "2025-03-25": {
-      "dip-gustavo-javier-pantaleon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-roque-ramon-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-sergio-saldano": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-07-31": {
       "dip-gustavo-javier-pantaleon": {
         "total": 1,
@@ -15085,30 +15089,22 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 13
+      "count": 12
     },
     {
       "term": "josé",
-      "count": 6
-    },
-    {
-      "term": "garcía",
-      "count": 5
-    },
-    {
-      "term": "informate",
-      "count": 5
+      "count": 7
     },
     {
       "term": "orozco",
       "count": 5
     },
     {
-      "term": "tribuno",
+      "term": "garcía",
       "count": 4
     },
     {
-      "term": "laura",
+      "term": "tribuno",
       "count": 4
     },
     {
@@ -15120,15 +15116,15 @@
       "count": 4
     },
     {
+      "term": "informate",
+      "count": 4
+    },
+    {
       "term": "voces",
       "count": 4
     },
     {
       "term": "criticas",
-      "count": 4
-    },
-    {
-      "term": "mimessi",
       "count": 4
     },
     {
@@ -15141,6 +15137,14 @@
     },
     {
       "term": "corredor",
+      "count": 3
+    },
+    {
+      "term": "laura",
+      "count": 3
+    },
+    {
+      "term": "federico",
       "count": 3
     }
   ],
