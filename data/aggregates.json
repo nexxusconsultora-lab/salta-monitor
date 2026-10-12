@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-12T14:43:24.539658+00:00",
+  "generated_at": "2026-10-12T17:44:00.291569+00:00",
   "by_politician": {
+    "eje-federico-mangione": {
+      "total": 18,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 15,
+      "score_sum": -1
+    },
+    "eje-juan-vilchez": {
+      "total": 6,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 4
+    },
     "sen-daniel-moreno-ovalle": {
       "total": 30,
       "positivo": 1,
       "negativo": 2,
       "neutral": 27,
       "score_sum": 1
-    },
-    "eje-federico-mangione": {
-      "total": 16,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 14,
-      "score_sum": 0
     },
     "gustavo-saenz": {
       "total": 237,
@@ -126,13 +133,6 @@
       "negativo": 9,
       "neutral": 15,
       "score_sum": -22
-    },
-    "eje-juan-vilchez": {
-      "total": 5,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 1
     },
     "sen-manuel-pailler": {
       "total": 50,
@@ -913,6 +913,42 @@
     }
   },
   "by_day": {
+    "2024-04-04": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-luis-fernando-albeza": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-10-12": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2025-12-11": {
       "sen-daniel-moreno-ovalle": {
         "total": 2,
@@ -937,12 +973,6 @@
       "eje-federico-mangione": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-12": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2024-09-23": {
@@ -5005,24 +5035,6 @@
       "dip-maria-del-socorro-lopez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2024-04-04": {
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-luis-fernando-albeza": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2026-02-11": {
@@ -15230,6 +15242,14 @@
       "count": 7
     },
     {
+      "term": "federico",
+      "count": 6
+    },
+    {
+      "term": "mangione",
+      "count": 6
+    },
+    {
       "term": "tribuno",
       "count": 6
     },
@@ -15246,14 +15266,6 @@
       "count": 5
     },
     {
-      "term": "federico",
-      "count": 5
-    },
-    {
-      "term": "mangione",
-      "count": 5
-    },
-    {
       "term": "informate",
       "count": 5
     },
@@ -15266,11 +15278,11 @@
       "count": 5
     },
     {
-      "term": "nuevo",
+      "term": "norte",
       "count": 4
     },
     {
-      "term": "ministro",
+      "term": "nuevo",
       "count": 4
     }
   ],
