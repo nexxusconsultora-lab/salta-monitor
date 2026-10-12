@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-12T01:28:42.152622+00:00",
+  "generated_at": "2026-10-12T03:47:55.391235+00:00",
   "by_politician": {
+    "eje-federico-mangione": {
+      "total": 14,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 12,
+      "score_sum": 0
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 49,
+      "positivo": 3,
+      "negativo": 7,
+      "neutral": 39,
+      "score_sum": -9
+    },
     "dip-jose-miguel-gauffin": {
       "total": 23,
       "positivo": 0,
       "negativo": 4,
       "neutral": 19,
       "score_sum": -6
-    },
-    "eje-federico-mangione": {
-      "total": 13,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 11,
-      "score_sum": 0
     },
     "concejal-jose-garcia-alcazar": {
       "total": 24,
@@ -189,13 +196,6 @@
       "negativo": 1,
       "neutral": 5,
       "score_sum": -2
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 48,
-      "positivo": 3,
-      "negativo": 7,
-      "neutral": 38,
-      "score_sum": -9
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 11,
@@ -913,6 +913,30 @@
     }
   },
   "by_day": {
+    "2024-07-27": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-11-15": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2025-03-25": {
       "dip-jose-miguel-gauffin": {
         "total": 1,
@@ -10731,16 +10755,6 @@
         "score_sum": 0
       }
     },
-    "2025-11-15": {
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2023-03-01": {
       "dip-juan-esteban-romero": {
         "total": 1,
@@ -11602,12 +11616,6 @@
       }
     },
     "2024-11-03": {
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-07-27": {
       "sen-enrique-cornejo-saravia": {
         "total": 1,
         "score_sum": 0
@@ -15089,22 +15097,34 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 12
+      "count": 13
     },
     {
       "term": "josé",
       "count": 7
     },
     {
+      "term": "tribuno",
+      "count": 5
+    },
+    {
       "term": "orozco",
       "count": 5
     },
     {
-      "term": "garcía",
+      "term": "federico",
       "count": 4
     },
     {
-      "term": "tribuno",
+      "term": "mangione",
+      "count": 4
+    },
+    {
+      "term": "cornejo",
+      "count": 4
+    },
+    {
+      "term": "garcía",
       "count": 4
     },
     {
@@ -15133,18 +15153,6 @@
     },
     {
       "term": "norte",
-      "count": 3
-    },
-    {
-      "term": "corredor",
-      "count": 3
-    },
-    {
-      "term": "laura",
-      "count": 3
-    },
-    {
-      "term": "federico",
       "count": 3
     }
   ],
