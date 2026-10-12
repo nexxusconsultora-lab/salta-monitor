@@ -87,7 +87,7 @@ def _lotes(sitios, n=LOTE_MEDIOS):
         i += t
     return out
 
-MAX_GENERAL_ITEMS_STORED = 2000   # antes 1200: con más medios, 1200 no alcanzaba para ~3 días de notas
+MAX_GENERAL_ITEMS_STORED = 3500   # antes 1200: con más medios, 1200 no alcanzaba para ~3 días de notas
 MAX_GENERAL_ITEMS_PER_FEED = 100   # Google News no da más de ~100 por búsqueda
 
 # Palabras para la búsqueda de SEGURIDAD (delito, policía, justicia penal). Se usan en Google News junto
@@ -538,6 +538,51 @@ def build_security_provincial_url():
     return google_news_url(f"Salta ({terms}) ({sites} OR {places})")
 
 
+# Búsquedas por ÁREA (economía, salud, deportes, clima...). Antes solo se buscaba «política» y «seguridad», por eso el Diario
+# casi no tenía notas de los demás temas. Para no hacer cientos de pedidos a Google News en cada corrida, se rotan:
+# cada corrida busca AREAS_POR_CORRIDA áreas distintas y, en pocas corridas, pasan todas. Para sumar un área o cambiar
+# sus palabras, editá este diccionario. Si una búsqueda trae mucha basura, sacale palabras.
+AREA_TERMS = {
+    "Economía": ["economía", "inflación", "dólar", "precios", "impuestos", "tarifas"],
+    "Salud": ["salud", "hospital", "dengue", "vacunación", "obra social", "PAMI"],
+    "Educación": ["educación", "docentes", "universidad", "escuelas", "ciclo lectivo"],
+    "Deportes": ["fútbol", "deportes", "torneo", "selección", "campeonato"],
+    "Clima": ["clima", "pronóstico", "tormenta", "alerta meteorológica", "ola de calor"],
+    "Espectáculos y cultura": ["espectáculos", "cine", "música", "festival", "teatro"],
+    "Tecnología y ciencia": ["tecnología", "inteligencia artificial", "ciencia", "CONICET"],
+    "Energía y minería": ["litio", "minería", "energía", "petróleo", "combustibles"],
+    "Agro y producción": ["agro", "cosecha", "ganadería", "exportaciones", "pymes", "industria"],
+    "Turismo y transporte": ["turismo", "aeropuerto", "vuelos", "rutas", "transporte", "feriado"],
+    "Trabajo y gremios": ["paritarias", "gremios", "paro", "despidos", "empleo", "salarios"],
+    "Sociedad": ["género", "discapacidad", "jubilados", "pobreza", "niñez", "comedores"],
+    "Internacional": ["Estados Unidos", "Brasil", "Chile", "guerra", "Mercosur", "FMI"],
+    "Justicia": ["Corte Suprema", "fiscal", "juez", "causa judicial", "tribunal"],
+}
+AREAS_POR_CORRIDA = 3
+
+
+def areas_de_la_corrida(ahora=None, por_corrida=None):
+    """Elige qué áreas se buscan en ESTA corrida, rotando por turnos de 10 minutos."""
+    nombres = list(AREA_TERMS)
+    k = max(1, por_corrida or AREAS_POR_CORRIDA)
+    turno = int((ahora if ahora is not None else time.time()) // 600)
+    inicio = (turno * k) % len(nombres)
+    return [nombres[(inicio + i) % len(nombres)] for i in range(min(k, len(nombres)))]
+
+
+def build_area_national_url(area, sitios=None):
+    sites = " OR ".join(f"site:{s}" for s in (sitios or NATIONAL_SITES))
+    terms = " OR ".join(AREA_TERMS[area])
+    return google_news_url(f"Argentina ({terms}) ({sites})")
+
+
+def build_area_provincial_url(area):
+    sites = " OR ".join(f"site:{s}" for s in SOURCE_SITES)
+    places = " OR ".join(f'"{d}"' for d in DEPARTMENTS)
+    terms = " OR ".join(AREA_TERMS[area])
+    return google_news_url(f"Salta ({terms}) ({sites} OR {places})")
+
+
 def collect_general_news():
     """Noticias generales de Nacional y Provincia, sin atarlas a un político
     puntual — para poder ver rápido 'qué pasó' en una ventana de horas,
@@ -555,8 +600,13 @@ def collect_general_news():
     for lote in _lotes(NATIONAL_SITES):
         queries.append(("Nacional", build_security_national_url(lote), "seguridad"))
     queries.append(("Provincial", build_security_provincial_url(), "seguridad"))
+    for area in areas_de_la_corrida():
+        for lote in _lotes(NATIONAL_SITES):
+            queries.append(("Nacional", build_area_national_url(area, lote), None, area))
+        queries.append(("Provincial", build_area_provincial_url(area), None, area))
     por_id = {n["id"]: n for n in existing}
-    for category, url, tema in queries:
+    for category, url, tema, *resto in queries:
+        area = resto[0] if resto else None
         feed = fetch_feed(url)
         if not feed:
             continue
@@ -567,6 +617,9 @@ def collect_general_news():
             mid = make_id(f"{category}|{link}")
             if mid in existing_ids and tema and mid in por_id and not por_id[mid].get("tema"):
                 por_id[mid]["tema"] = tema      # la nota ya estaba (la trajo otra búsqueda): solo se la etiqueta
+                continue
+            if mid in existing_ids and area and mid in por_id and not por_id[mid].get("area"):
+                por_id[mid]["area"] = area
                 continue
             if mid in existing_ids or not link or not title:
                 continue
@@ -585,6 +638,7 @@ def collect_general_news():
                 "collected_at": datetime.now(timezone.utc).isoformat(),
                 "sentiment_label": label,
                 **({"tema": tema} if tema else {}),
+                **({"area": area} if area else {}),
             })
             existing_ids.add(mid)
             por_id[mid] = existing[-1]
