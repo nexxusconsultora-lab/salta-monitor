@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-12T04:21:19.272755+00:00",
+  "generated_at": "2026-10-12T04:28:41.109610+00:00",
   "by_politician": {
+    "sen-daniel-moreno-ovalle": {
+      "total": 30,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 27,
+      "score_sum": 1
+    },
     "eje-federico-mangione": {
       "total": 16,
       "positivo": 1,
@@ -378,13 +385,6 @@
       "negativo": 1,
       "neutral": 8,
       "score_sum": -2
-    },
-    "sen-daniel-moreno-ovalle": {
-      "total": 29,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 27,
-      "score_sum": 3
     },
     "dnac-eliana-bruno": {
       "total": 14,
@@ -913,6 +913,20 @@
     }
   },
   "by_day": {
+    "2025-12-11": {
+      "sen-daniel-moreno-ovalle": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2022-12-26": {
       "eje-federico-mangione": {
         "total": 1,
@@ -2040,20 +2054,6 @@
     "2025-12-13": {
       "eje-javier-monico": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-12-11": {
-      "eje-javier-monico": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -15258,6 +15258,10 @@
       "count": 6
     },
     {
+      "term": "página",
+      "count": 5
+    },
+    {
       "term": "ministro",
       "count": 5
     },
@@ -15267,10 +15271,6 @@
     },
     {
       "term": "informate",
-      "count": 5
-    },
-    {
-      "term": "secretaria",
       "count": 5
     }
   ],
