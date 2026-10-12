@@ -1,24 +1,24 @@
 {
  "fecha": "2026-10-11",
- "generado": "2026-10-12T03:48:05+00:00",
+ "generado": "2026-10-12T03:50:49+00:00",
  "totales": {
-  "recolectadas": 478,
-  "politicas": 100,
+  "recolectadas": 482,
+  "politicas": 97,
   "seguridad": 56,
-  "descartadas": 327,
-  "historias": 77,
-  "historias_seguridad": 46,
+  "descartadas": 333,
+  "historias": 74,
+  "historias_seguridad": 45,
   "medios": 27
  },
  "cobertura_baja": false,
  "temas": [
   {
    "tema": "Gobierno y gestión",
-   "historias": 23
+   "historias": 24
   },
   {
    "tema": "Elecciones y partidos",
-   "historias": 20
+   "historias": 16
   },
   {
    "tema": "Poder Legislativo",
@@ -1402,14 +1402,14 @@
  "seguridad": {
   "totales": {
    "notas": 56,
-   "historias": 46,
+   "historias": 45,
    "salta": 5,
-   "nacional": 41
+   "nacional": 40
   },
   "subtemas": [
    {
     "tema": "Policía y fuerzas de seguridad",
-    "historias": 18
+    "historias": 17
    },
    {
     "tema": "Robos y estafas",
@@ -1558,6 +1558,31 @@
     "n": 3
    },
    {
+    "titulo": "¡TRAGEDIA EN LA RUTA! Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
+    "alcance": "Nacional",
+    "tema": "Homicidios y violencia",
+    "medios": [
+     "Informate Salta"
+    ],
+    "n_notas": 2,
+    "primera": "17:02",
+    "links": [
+     {
+      "medio": "Informate Salta",
+      "titulo": "Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
+      "link": "https://informatesalta.com.ar/medios/dos-policias-muertos-y-dos-heridas-tras-un-violento-choque-entre-una-camioneta-del-911-y-un-camion-en-trancas_a6acbf630be23996013f96bc2",
+      "hora": "17:02"
+     },
+     {
+      "medio": "Informate Salta",
+      "titulo": "¡TRAGEDIA EN LA RUTA! Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
+      "link": "https://informatesalta.com.ar/medios/-tragedia-en-la-ruta--dos-policias-muertos-y-dos-heridas-tras-un-violento-choque-entre-una-camioneta-del-911-y-un-camion-en-trancas_a6acbf630be23996013f96bc2",
+      "hora": "17:02"
+     }
+    ],
+    "n": 4
+   },
+   {
     "titulo": "Policía incautó 450 kilos de marihuana creepy en una carretera de Antioquia",
     "alcance": "Nacional",
     "tema": "Policía y fuerzas de seguridad",
@@ -1574,7 +1599,7 @@
       "hora": "23:13"
      }
     ],
-    "n": 4
+    "n": 5
    },
    {
     "titulo": "Detenido un hombre colombiano por su presunto rol en una red de soborno y blanqueo en el gobierno de Maduro",
@@ -1593,7 +1618,7 @@
       "hora": "22:44"
      }
     ],
-    "n": 5
+    "n": 6
    },
    {
     "titulo": "Pérez: cuatro detenidos en un allanamiento por presunta venta de drogas",
@@ -1612,7 +1637,7 @@
       "hora": "20:48"
      }
     ],
-    "n": 6
+    "n": 7
    },
    {
     "titulo": "El traslado de presos de Villa Devoto reaviva la disputa entre el PRO y La Libertad Avanza",
@@ -1631,7 +1656,7 @@
       "hora": "20:27"
      }
     ],
-    "n": 7
+    "n": 8
    },
    {
     "titulo": "De una extradición por bitcoin al robo a Benjamín Cruz: las 5 notas más leídas de la semana",
@@ -1650,7 +1675,7 @@
       "hora": "20:00"
      }
     ],
-    "n": 8
+    "n": 9
    },
    {
     "titulo": "Persecusión y violencia en zona sur: salteño con domiciliaria por drogas se robó un auto y se fugó",
@@ -1669,7 +1694,7 @@
       "hora": "19:45"
      }
     ],
-    "n": 9
+    "n": 10
    },
    {
     "titulo": "Muertes en separos de Guanajuato: un antecedente de agresiones policiales reabre las preguntas sobre el caso de San Felipe",
@@ -1688,7 +1713,7 @@
       "hora": "18:24"
      }
     ],
-    "n": 10
+    "n": 11
    },
    {
     "titulo": "Accidente fatal en la ruta 9 de Tucumán: murieron dos policías",
@@ -1707,7 +1732,7 @@
       "hora": "17:39"
      }
     ],
-    "n": 11
+    "n": 12
    },
    {
     "titulo": "“Nos abrieron los lockers”: Alex Bisogno denuncia robo en gimnasio y exige respuestas",
@@ -1724,25 +1749,6 @@
       "titulo": "“Nos abrieron los lockers”: Alex Bisogno denuncia robo en gimnasio y exige respuestas",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUmNId1o4Q3JFMmhYTi1sbUtEVnZzbzJtZHVyMDVvX003cGFlZDhnakw5WmphVHJGOTBRYVh2TnBJVDNHb29CNklmdGVWS1d4ZFFMdkNlMXRycXdvWHpNRElXQVpsWUItaEhEbl9FOThHb3Z1V1Y4ZUk3QjJVMXQ2X04yaXppemhVeC1NN25Dc3Z2YVJ2Rktvc01halhpWUYwZ0FNcnlZMjRsOTI3cUNteVkwVHNTN05UZXdHUWZfcmRHbm_SAd4BQVVfeXFMTnFjcFBXRng0Rjg1ZW54MkpRUWdEdnBkSUxVR1FlXzYzX1MxbTFoZE1NUDZKUl9MQmhoMnc1YnBSSEprWGNWdHh0eVhxS0JmcWwwRHhhR29JYmNlNWxwZ0xVQ3NST3puNTNwV1JSeVZwTW5pUFNCWGxfSUdPRHBQOU92ZXZjd0toemJUUURhdE9lNk1RMmlQX3dpdTFDcXFKNzhYS0VqME9LaHBPdUpueDF0UXhGNzBkRklWcXZpU2lzRUpyM0QzYVRqSFBLT2RKS1h1ZmZaeUREUGhRVmRB?oc=5",
       "hora": "17:36"
-     }
-    ],
-    "n": 12
-   },
-   {
-    "titulo": "¡TRAGEDIA EN LA RUTA! Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
-    "alcance": "Nacional",
-    "tema": "Homicidios y violencia",
-    "medios": [
-     "Informate Salta"
-    ],
-    "n_notas": 1,
-    "primera": "17:02",
-    "links": [
-     {
-      "medio": "Informate Salta",
-      "titulo": "¡TRAGEDIA EN LA RUTA! Dos policías muertos y dos heridas tras un violento choque entre una camioneta del 911 y un camión en Trancas",
-      "link": "https://informatesalta.com.ar/medios/-tragedia-en-la-ruta--dos-policias-muertos-y-dos-heridas-tras-un-violento-choque-entre-una-camioneta-del-911-y-un-camion-en-trancas_a6acbf630be23996013f96bc2",
-      "hora": "17:02"
      }
     ],
     "n": 13
@@ -2243,25 +2249,6 @@
     "n": 39
    },
    {
-    "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
-    "alcance": "Nacional",
-    "tema": "Policía y fuerzas de seguridad",
-    "medios": [
-     "Infobae"
-    ],
-    "n_notas": 1,
-    "primera": "03:05",
-    "links": [
-     {
-      "medio": "Infobae",
-      "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQlJPdXRTNDJYWDRlcTVza2kzOGFwajl1UV90UlBzZzM2YmJCOHNJUmVBRVhYRUtETkFqWENsYTV0cWNIZm1rQlVHcDZZcEk3VzV2MWdoQWdiM3ZSWGhBX0lWdHJTSTJzVXYtWUFXZ0cySWFxczZDYmFRMmh2NDh2dUN6MmxMWWFrREJlaFhjRlVhWXE2emp0a3haQWJGYmRSMG5XeGFJcDFDU3lhR1NWc255T0pjWHljdlpoY1pDcWZjRXZzbEdfMlFER0tSU3RBQmZwemFFbTZHLU83dHRKMnJaZ1hZTk9uLU9GS1dPRlbSAYsCQVVfeXFMUFpMUDRtTXJ6cWJZYWNPVUxzZGExeUhaaFh1dEhlTWRBZDZkbHV4b09aNDU5QmJkSDBqQ2FZNmRkeXFOUzVQS2paSXlTRFFGd1NyLUE1RVVlNlozYzVUcm5saEJWMEJJRnUzR2J6cnROdWtrTjNVUWs2MENIUzFGeTdkQ1NFSmloU2YwR0JxQjI2ZVY3S19XbVAzZm1XbmVMSlNZdFUxQm5FNUt1Vi1kcjJReDN1TEtPMElxbno0ejlfNHhqQ3hJLXFzRmRweUdqYWFyeWFZQ3pkTUN3UmdDLUhJN2V4NVlGWGt4aFI2czY5dU1OM3Rkd3JLWVpmeldYNU0tOHdKbWNmV0xn?oc=5",
-      "hora": "03:05"
-     }
-    ],
-    "n": 40
-   },
-   {
     "titulo": "La familia de San Pedro que se enfrentó al poder de Camioneros y logró que estén por condenar a dos dirigentes que bloquearon su pyme",
     "alcance": "Nacional",
     "tema": "Justicia penal",
@@ -2278,7 +2265,7 @@
       "hora": "02:06"
      }
     ],
-    "n": 41
+    "n": 40
    },
    {
     "titulo": "La Policía de Bolivia detuvo a miembro clave de la banda criminal brasileña PCC durante un “incidente doméstico”",
@@ -2298,7 +2285,7 @@
      }
     ],
     "sigue_de_ayer": true,
-    "n": 42
+    "n": 41
    },
    {
     "titulo": "La Policía Nacional Civil retira 14 cámaras ilegales en Santa Catarina Pinula por presuntos vínculos criminales",
@@ -2317,7 +2304,7 @@
       "hora": "01:35"
      }
     ],
-    "n": 43
+    "n": 42
    },
    {
     "titulo": "La curiosa historia de un abogado víctima de una presunta emboscada narco y su nexo con una colega presa por sicariato",
@@ -2336,7 +2323,7 @@
       "hora": "01:30"
      }
     ],
-    "n": 44
+    "n": 43
    },
    {
     "titulo": "“Borrá eso” y “Si llamás a la Policía...”: los chats y fotos que Barrelier eliminó de su celular tras el femicidio de Agostina Vega",
@@ -2355,6 +2342,26 @@
       "hora": "01:30"
      }
     ],
+    "n": 44
+   },
+   {
+    "titulo": "Ciudadano colombiano fue capturado en Estados Unidos: su cónyuge le encontró videos relacionados con presunto abuso sexual infantil",
+    "alcance": "Nacional",
+    "tema": "Violencia de género",
+    "medios": [
+     "Infobae"
+    ],
+    "n_notas": 1,
+    "primera": "00:17",
+    "links": [
+     {
+      "medio": "Infobae",
+      "titulo": "Ciudadano colombiano fue capturado en Estados Unidos: su cónyuge le encontró videos relacionados con presunto abuso sexual infantil",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOV3NGLVM2X3A3ekJleExhVzZmNW5DalFacWY3NHc5and4R0V0eWpOVkxJOVBRRUhVYkJyaF80QmdwSFU2OEw5UWRnUm8yck56ZUJjekR6VUpWZUppUjBSRmpteE5NU3VRN1QxSUNQWklYYmJSaXBJS2NhbWsxa19kQ3pxQmZ5NEtSWW1JR1ktSmVTaVR1Q1JrbGZ2aVZFTmJkZ0xxNlprNUJnb2RJRkVFM1M3SS1yQnpXV2dEUmwzNmtvTmxNdzF5OFRscGJ0cUZGZGZSNUJUZXhFNEFEdmRPUTNVRkhHVTFJSVpsRW1hcjZGZlBmUmZtN1hwTUliVUU1X0NSZFRR0gGgAkFVX3lxTE4tR2xTU0ZVcGhnMmJZTXJTQXY5b040bGtiRWNqOGxQVUVqZ182eFQtUDlwWkpibTNlYTlUaVZCNnVjTDRZSk9KSE1ISUdfWHQ3OUV0YnNYc2w1VlpjZkJxdWMtdE5SVnBVaHVDSzdJZnlBMElSdndwNmJMUzdtYkM5UjJMZmZlamFUV2VXd1FtMy0zU2lRYW9mLTU5elVxLURoYURlbHV4SGd5YTZJdHZMVENRQWJlY0hOdkNDNlB6YTZlNUp6VmtQVjMxTGdzSHBPaWN1eVBvN3laZ3J0MEE2RmRiTGFOdVVOclIzOTVHajNpODVUeGV3SVM2TDNFNEFXTFNWM2ZCdDFuc29IX3dnUV8zT21fRGVuWGJRb0tqcw?oc=5",
+      "hora": "00:17"
+     }
+    ],
+    "sigue_de_ayer": true,
     "n": 45
    }
   ]
@@ -2365,10 +2372,6 @@
    "n": 41
   },
   {
-   "t": "gobierno",
-   "n": 17
-  },
-  {
    "t": "papa",
    "n": 17
   },
@@ -2377,8 +2380,16 @@
    "n": 16
   },
   {
+   "t": "gobierno",
+   "n": 15
+  },
+  {
    "t": "leon",
    "n": 14
+  },
+  {
+   "t": "gobernadores",
+   "n": 7
   },
   {
    "t": "paso",
@@ -2398,10 +2409,6 @@
   },
   {
    "t": "apoyo",
-   "n": 6
-  },
-  {
-   "t": "gobernadores",
    "n": 6
   },
   {
@@ -2447,16 +2454,16 @@
   {
    "nombre": "El Intransigente",
    "ambito": "Salta",
-   "notas": 193,
+   "notas": 192,
    "politicas": 22,
    "seguridad": 1
   },
   {
    "nombre": "Infobae",
    "ambito": "Nacional",
-   "notas": 59,
-   "politicas": 14,
-   "seguridad": 32
+   "notas": 55,
+   "politicas": 11,
+   "seguridad": 31
   },
   {
    "nombre": "Cadena 3 Argentina",
@@ -2468,21 +2475,21 @@
   {
    "nombre": "Informate Salta",
    "ambito": "Salta",
-   "notas": 42,
+   "notas": 45,
    "politicas": 4,
-   "seguridad": 7
+   "seguridad": 8
   },
   {
    "nombre": "El Tribuno",
    "ambito": "Salta",
-   "notas": 22,
+   "notas": 27,
    "politicas": 2,
    "seguridad": 2
   },
   {
    "nombre": "La Nación",
    "ambito": "Nacional",
-   "notas": 10,
+   "notas": 11,
    "politicas": 6,
    "seguridad": 1
   },

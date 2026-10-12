@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-12T03:47:55.391235+00:00",
+  "generated_at": "2026-10-12T03:50:39.490326+00:00",
   "by_politician": {
+    "eje-mario-mimessi": {
+      "total": 25,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 23,
+      "score_sum": -4
+    },
     "eje-federico-mangione": {
       "total": 14,
       "positivo": 1,
@@ -112,13 +119,6 @@
       "negativo": 5,
       "neutral": 12,
       "score_sum": -8
-    },
-    "eje-mario-mimessi": {
-      "total": 24,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 22,
-      "score_sum": -4
     },
     "eje-nicolas-avellaneda": {
       "total": 9,
@@ -913,6 +913,12 @@
     }
   },
   "by_day": {
+    "2022-10-04": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-07-27": {
       "eje-federico-mangione": {
         "total": 1,
@@ -15112,6 +15118,10 @@
       "count": 5
     },
     {
+      "term": "mimessi",
+      "count": 4
+    },
+    {
       "term": "federico",
       "count": 4
     },
@@ -15150,10 +15160,6 @@
     {
       "term": "operativos",
       "count": 4
-    },
-    {
-      "term": "norte",
-      "count": 3
     }
   ],
   "comentions": [
