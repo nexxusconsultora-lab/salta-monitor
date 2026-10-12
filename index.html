@@ -228,12 +228,30 @@ footer{border-top:1px solid var(--line)}
 html:has(.mgrid.mfs){overflow:hidden}
 @media(max-width:860px){.mgrid.mfs{grid-template-columns:1fr;grid-template-rows:minmax(0,3fr) minmax(0,2fr)}.mside{max-height:none}.mgrid.mfs .mside{max-height:100%}.rr{grid-template-columns:7.5rem 1fr 4.5rem}}
 @media(max-width:600px){.mlede{display:none}.mstrip{display:grid;grid-template-columns:1fr 1fr;gap:.35rem .6rem}.mstrip b{grid-column:1/-1}.mstrip span{display:flex;flex-direction:column;gap:.1rem}}
+/* Motor de zoom y movimiento (Red y organigramas) */
+.pzw{position:relative;height:72vh;min-height:380px;overflow:hidden;border:1px solid var(--line);background:var(--raised);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
+.pzw:active{cursor:grabbing}.pzw:focus-visible{outline:2px solid var(--clay)}
+.pzw svg,.rg .pzw svg{display:block;width:100%;height:100%;max-width:none!important;max-height:none;margin:0!important;border:0!important}
+.pzw.fs{position:fixed;inset:0;z-index:1000;height:100vh;min-height:0;border:0;background:var(--paper)}
+.pzt{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px;z-index:2}
+.pzt button{width:36px;height:36px;font-size:1.15rem;line-height:1;border:1px solid var(--line);background:var(--raised);color:var(--ink);cursor:pointer;border-radius:3px;padding:0}
+.pzt button:hover{border-color:var(--clay)}
+.pzh{position:absolute;left:8px;bottom:6px;font-size:.7rem;color:var(--soft);pointer-events:none;background:var(--raised);padding:1px 6px;opacity:.92}
+.rgv .lb{display:none;font:10px Inter,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--raised);stroke-width:3px;pointer-events:none}
+.rgv .top .lb,.rgv.z2 .lb,.rgv .nd.sel .lb,.rgv .nd.nb .lb{display:block}
+.rgv .nd{cursor:pointer}.rgv.hv .nd{opacity:.18}.rgv.hv .nd.nb,.rgv.hv .nd.sel{opacity:1}
+.rgv.hv line{stroke-opacity:.06}.rgv.hv line.hl{stroke-opacity:.95;stroke-width:2.4}
+#rcap{display:inline-flex;flex-wrap:wrap;gap:.2rem .8rem;align-items:center;font-size:.82rem}
+#rcap i{display:inline-block;width:.8rem;height:.25rem;margin:0 .25rem 0 .1rem;vertical-align:middle}
+#mps,#rs{min-width:12rem}
+.mpsvg .hit .b{stroke:var(--clay)!important;stroke-width:3.5!important}
+@media print{.pzw{height:auto;overflow:visible}.pzt,.pzh{display:none}}
 </style>
 <script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('newar_tema_v1')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
 </head>
 <body>
 <button class="skip" id="skip" type="button">Saltar al contenido</button>
-<nav class="top" aria-label="Secciones de NEWAR"><div class="row"><h1>NEWAR</h1><span class="upd"><b id="clock" aria-hidden="true"></b><span id="upd"></span><span id="live" role="status"></span></span><button class="lv" id="gsb" type="button" aria-label="Búsqueda global (Ctrl+K)" title="Buscar (Ctrl+K o /)">⌕</button><button class="lv" id="thb" type="button" aria-label="Cambiar entre tema oscuro y claro" title="Tema oscuro / claro">◐</button><button class="lv" id="lvb" type="button" aria-label="Actualizar datos ahora" title="Actualizar ahora">↻</button></div><div class="tabs" id="tabs"></div></nav>
+<nav class="top" aria-label="Secciones de NEWAR"><div class="row"><h1>NEWAR</h1><span class="upd"><b id="clock" aria-hidden="true"></b><span id="upd"></span><span id="live" role="status"></span></span><button class="lv" id="gsb" type="button" aria-label="Búsqueda global (Ctrl+K)" title="Buscar (Ctrl+K o /)">⌕</button><button class="lv" id="szm" type="button" aria-label="Texto más chico" title="Texto más chico">A−</button><button class="lv" id="szp" type="button" aria-label="Texto más grande" title="Texto más grande">A+</button><button class="lv" id="thb" type="button" aria-label="Cambiar entre tema oscuro y claro" title="Tema oscuro / claro">◐</button><button class="lv" id="lvb" type="button" aria-label="Actualizar datos ahora" title="Actualizar ahora">↻</button></div><div class="tabs" id="tabs"></div></nav>
 <script>document.getElementById('thb').onclick=()=>{const t=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('newar_tema_v1',t)}catch(e){}};</script>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <main class="wrap" id="app" tabindex="-1"><p class="empty">Cargando datos…</p></main>
@@ -540,7 +558,7 @@ window.expCSV=k=>{const C=(S.cur&&S.cur.personas)||{},L=personas.filter(p=>p.car
  bajarCSV(k==='eje'?'ejecutivo-salta.csv':'legislativo-salta.csv',[['Nombre','Cargo','Institución','Bloque o espacio','Lugar','Fuente','Menciones','Currículum'],...L.map(p=>{const c=p.cargos.find(c=>c.v===1)||p.cargos[0];return[p.nombre,c.titulo,c.p.chamber,c.bloque||c.p.espacio||'',c.lugar||'',c.p.source_url||'',(PM[p.id]||[]).length,p.ids.some(i=>C[i])?'sí':'no']})])};
 const actividad=p=>{const ms=PM[p.id]||[],hoy=new Date();hoy.setHours(0,0,0,0);const n=30,c=Array(n).fill(0);ms.forEach(m=>{const d=m._d;if(!d)return;const k=Math.round((hoy-new Date(d.getFullYear(),d.getMonth(),d.getDate()))/864e5);if(k>=0&&k<n)c[n-1-k]++});const t=c.reduce((a,b)=>a+b,0),mx=Math.max(1,...c);
  return`<h3 class="sh">Actividad en prensa, últimos 30 días</h3><svg class="spark" viewBox="0 0 ${n*10} 46" preserveAspectRatio="none" role="img" aria-label="Notas por día, últimos 30 días">${c.map((v,i)=>`<rect x="${i*10+1}" y="${(44-v/mx*42).toFixed(1)}" width="8" height="${Math.max(v?2:.8,v/mx*42).toFixed(1)}" fill="${v?'var(--indigo)':'var(--line)'}"/>`).join('')}</svg><p class="note">${t} nota${t===1?'':'s'} en 30 días${t?' · máximo '+mx+' en un día':''}. Cuenta todas las notas atribuidas a la persona, sin el filtro de precisión.</p>`};
-let RED={modo:'co',cam:'Senado',mw:1,sel:'',n:45,per:0,foco:''};
+let RED={modo:'tela',cam:'Senado',mw:1,sel:'',n:45,per:0,foco:'',cap:{pre:1,blq:1,dep:1,man:1,cup:1,cam:1},pos:{},key:''};
 const colG=p=>{const c=(p.cargos.find(x=>x.v===1)||p.cargos[0]).p.chamber;return c==='Ejecutivo'?'var(--clay)':/Senado/.test(c)?'var(--indigo)':/Diputados/.test(c)?'var(--pos)':'var(--neu)'};
 const layoutRed=(N,E,W,H)=>{const ix={};N.forEach((n,i)=>{const a=i/N.length*6.283;n.x=W/2+Math.cos(a)*W/3;n.y=H/2+Math.sin(a)*H/3;n.vx=n.vy=0;ix[n.id]=n});
  for(let t=0;t<260;t++){const k=1-t/260;
@@ -560,19 +578,62 @@ const grafoRed=()=>{let N=[],E=[];
  else{const kk=RED.modo==='de'?'lugar':'bloque',l=personas.map(p=>[p,p.cargos.find(c=>c.v===1&&c.p.chamber===RED.cam)]).filter(x=>x[1]&&x[1][kk]),bs=[...new Set(l.map(x=>x[1][kk]))];
   N=bs.map(b=>({id:'b:'+b,b:1,deg:l.filter(x=>x[1][kk]===b).length*2,lab:b})).concat(l.map(([p])=>({id:p.id,p,deg:1,lab:p.nombre})));E=l.map(([p,c])=>({a:p.id,b:'b:'+c[kk],w:1,n:[]}))}
  return{N,E}};
-const dibujaRed=()=>{const {N,E}=grafoRed(),W=400,H=400,el=$('#rg');if(!el)return;
- if(!N.length){el.innerHTML='<p class="empty">No hay relaciones con este filtro. Probá con menos notas en común o elegí «Todas las notas» en Precisión.</p>';return}
- layoutRed(N,E,W,H);const ix={};N.forEach(n=>ix[n.id]=n);const sel=RED.sel,nb=new Set();if(sel)E.forEach(e=>{if(e.a===sel)nb.add(e.b);if(e.b===sel)nb.add(e.a)});
- const top=new Set([...N].sort((a,b)=>b.deg-a.deg).slice(0,14).map(n=>n.id)),f=v=>v.toFixed(1);
- const sv=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Grafo de relaciones">${E.map(e=>{const a=ix[e.a],b=ix[e.b],on=sel&&(e.a===sel||e.b===sel);return`<line x1="${f(a.x)}" y1="${f(a.y)}" x2="${f(b.x)}" y2="${f(b.y)}" stroke="${on?'var(--clay)':'var(--soft)'}" stroke-opacity="${on?.95:Math.min(.7,.15+e.w*.08)}" stroke-width="${on?2.2:Math.min(3,.6+Math.sqrt(e.w)*.6)}"/>`}).join('')}${N.map(n=>{const r=n.b?9:4+Math.min(9,Math.sqrt(n.deg)*1.1),dim=sel&&n.id!==sel&&!nb.has(n.id),lab=!dim&&(n.id===sel||nb.has(n.id)||top.has(n.id)||n.b);return`<g class="nd" data-id="${esc(n.id)}" opacity="${dim?.25:1}"><circle cx="${f(n.x)}" cy="${f(n.y)}" r="${f(r)}" fill="${n.b?'var(--ink)':colG(n.p)}" stroke="var(--raised)" stroke-width="1.5"/>${lab?`<text x="${f(n.x)}" y="${f(n.y-r-2)}" text-anchor="middle">${esc(n.b?n.lab:n.lab.split(' ').slice(-2).join(' '))}</text>`:''}</g>`}).join('')}</svg>`;
- const lk=o=>o.p?`<a href="#/persona/${encodeURIComponent(o.id)}">${esc(o.lab)}</a>`:esc(o.lab);let pn='<p class="note">Tocá un círculo para ver sus conexiones y las notas que las sostienen.</p>';
- if(sel&&ix[sel]){const cs=E.filter(e=>e.a===sel||e.b===sel).sort((a,b)=>b.w-a.w).slice(0,15);
-  pn=`<h3 class="sh">${lk(ix[sel])}</h3>`+cs.map(e=>{const o=ix[e.a===sel?e.b:e.a];return`<div class="row2"><span class="nm">${lk(o)}</span><span class="meta">${e.n.length?e.w+' nota'+(e.w===1?'':'s')+' en común':(RED.modo==='de'?'mismo departamento':'mismo bloque')}</span></div>${e.n.slice(0,3).map(m=>`<div class="meta"><a href="${esc(safe(m.link))}" target="_blank" rel="noopener">${esc(tituloSinMedio(m))}</a></div>`).join('')}`}).join('')}
- el.innerHTML=sv+pn};
-V.red=()=>{setTimeout(()=>{const sync=()=>{RED.modo=$('#rm').value;RED.cam=$('#rc').value;RED.mw=+$('#rw').value;RED.n=+$('#rn').value;RED.per=+$('#rp').value;RED.foco=$('#rf').value;RED.sel=RED.foco;$('#rcw').style.display=RED.modo!=='co'?'':'none';$('#rww').style.display=RED.modo==='co'?'':'none';$('#rcow').style.display=RED.modo==='co'?'':'none';dibujaRed()};
-  ['rm','rc','rw','rn','rp','rf'].forEach(id=>$('#'+id).addEventListener('input',sync));$('#rg').addEventListener('click',e=>{const g=e.target.closest('g.nd');if(g){RED.sel=RED.sel===g.dataset.id?'':g.dataset.id;dibujaRed()}});$('#rcw').style.display=RED.modo!=='co'?'':'none';$('#rww').style.display=RED.modo==='co'?'':'none';$('#rcow').style.display=RED.modo==='co'?'':'none';dibujaRed()});
- const so=(v,t,c)=>`<option value="${v}"${c===v?' selected':''}>${t}</option>`;
- return`<h2 class="sec">Red de relaciones</h2><p class="lede">Un mapa de quiénes aparecen juntos en la prensa, comparten bloque o representan al mismo departamento. Las líneas más gruesas indican más notas en común.</p><div class="ctl"><select id="rm" aria-label="Tipo de relación">${so('co','Co-menciones en una misma nota',RED.modo)}${so('bl','Bloques de una cámara',RED.modo)}${so('de','Departamentos de una cámara',RED.modo)}</select><span id="rcw"><select id="rc" aria-label="Cámara">${so('Senado','Senado provincial',RED.cam)}${so('Diputados','Diputados provinciales',RED.cam)}${so('Concejo Deliberante','Concejo Deliberante',RED.cam)}</select></span><span id="rww"><select id="rw" aria-label="Mínimo de notas en común">${so('1','Desde 1 nota en común',''+RED.mw)}${so('2','Desde 2 notas',''+RED.mw)}${so('3','Desde 3 notas',''+RED.mw)}</select></span><span id="rcow"><select id="rn" aria-label="Cuántas personas mostrar">${so('45','Hasta 45 personas',''+RED.n)}${so('90','Hasta 90 personas',''+RED.n)}${so('170','Hasta 170 personas',''+RED.n)}</select><select id="rp" aria-label="Período">${so('0','Todo el período',''+RED.per)}${so('90','Últimos 90 días',''+RED.per)}${so('30','Últimos 30 días',''+RED.per)}${so('7','Últimos 7 días',''+RED.per)}</select><select id="rf" aria-label="Persona en foco"><option value="">Mostrar la red completa</option>${personas.filter(p=>!p.homonimoDe).map(p=>`<option value="${esc(p.id)}"${p.id===RED.foco?' selected':''}>${esc(p.nombre)}</option>`).join('')}</select></span></div>${precSel()}<div class="rg" id="rg"></div><p class="leg"><i style="background:var(--clay)"></i>Ejecutivo<i style="background:var(--indigo)"></i>Senado<i style="background:var(--pos)"></i>Diputados<i style="background:var(--neu)"></i>Concejo<i style="background:var(--ink)"></i>Bloque</p><p class="note"><b>Persona en foco:</b> muestra a esa persona con todas sus conexiones (hasta 40) y cómo se conectan entre sí.</p><p class="note"><b>Cómo leerlo:</b> una línea significa que dos personas aparecen en la misma nota de prensa o pertenecen al mismo bloque. No implica acuerdo, vínculo personal ni responsabilidad compartida. Todas las relaciones salen de datos públicos y cada una enlaza a sus notas.</p>`};
+const RCAP=[['pre','Prensa: notas en común','var(--soft)'],['blq','Mismo bloque','var(--indigo)'],['dep','Mismo departamento','var(--pos)'],['man','Cadena de mando','var(--clay)'],['cup','Autoridades de cámara','var(--ink)'],['cam','Misma cámara','var(--line)']];
+const RST={pre:['var(--soft)',''],blq:['var(--indigo)',''],dep:['var(--pos)','5 3'],man:['var(--clay)',''],cup:['var(--ink)','2 3'],cam:['var(--line)','']};
+const RLB={pre:e=>e.w+' nota'+(e.w===1?'':'s')+' en común',blq:()=>'mismo bloque',dep:()=>'mismo departamento',man:e=>'cadena de mando'+(e.l?' · '+e.l:''),cup:e=>'autoridad'+(e.l?' · '+e.l:''),cam:()=>'misma cámara'};
+const camLab=c=>({'Senado':'Senado de Salta','Diputados':'Diputados de Salta','Ejecutivo':'Poder Ejecutivo'})[c]||c;
+const grafoTela=()=>{const N={},E=[],cp=RED.cap,add=(id,o)=>N[id]||(N[id]=Object.assign({id,deg:0},o)),hub=(id,lab)=>add(id,{b:1,lab}),L=(a,b,t,w,n,l)=>{if(a!==b&&N[a]&&N[b])E.push({a,b,t,w:w||1,n:n||[],l})};
+ const vig=personas.filter(p=>!p.homonimoDe&&p.cargos.some(c=>c.v===1));vig.forEach(p=>add(p.id,{p,lab:p.nombre}));
+ vig.forEach(p=>p.cargos.filter(c=>c.v===1).forEach(c=>{const ch=c.p.chamber;
+  if(cp.cam){hub('c:'+ch,camLab(ch));L(p.id,'c:'+ch,'cam',.3)}
+  if(cp.blq&&c.bloque){const h='b:'+ch+':'+c.bloque;hub(h,c.bloque);L(p.id,h,'blq')}
+  if(cp.dep&&c.lugar&&(ch==='Senado'||ch==='Diputados')){const h='d:'+ch+':'+c.lugar;hub(h,c.lugar+(ch==='Senado'?' · Senado':' · Diputados'));L(p.id,h,'dep')}}));
+ if(cp.man){const wk=n=>(n.kids||[]).forEach(k=>{if(/^p\//.test(n.id)&&/^p\//.test(k.id))L(n.id.slice(2),k.id.slice(2),'man',1.5,[],k.lbl);wk(k)});try{wk(mpEje())}catch(e){}}
+ if(cp.cup){const vv=mpGob().vice;if(vv&&N[vv[0].id]){hub('c:Senado','Senado de Salta');N[vv[0].id].cup='Vicegobernador · preside el Senado';L(vv[0].id,'c:Senado','cup',2,[],'preside el Senado')}
+  AUT.list.forEach((a,i)=>{const id=a.id&&N[a.id]?a.id:'a:'+i,h='c:'+a.camara;hub(h,camLab(a.camara));if(!N[id])add(id,{a,lab:a.nombre});N[id].cup=a.cargo;L(id,h,'cup',2,[],a.cargo)})}
+ if(cp.pre){const lim=RED.per?Date.now()-RED.per*864e5:0,g={};
+  MEN.filter(okPrec).forEach(m=>{const pp=byId[m._pid];if(!pp||!N[pp.id]||(lim&&!(m._d>=lim)))return;const k=m.link||m.title;(g[k]=g[k]||{m,s:new Set()}).s.add(pp.id)});
+  const M={};Object.values(g).forEach(({m,s})=>{const a=[...s].sort();for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){const k=a[i]+'|'+a[j];(M[k]=M[k]||{a:a[i],b:a[j],w:0,n:[]});M[k].w++;M[k].n.push(m)}});
+  Object.values(M).filter(e=>e.w>=RED.mw).sort((a,b)=>b.w-a.w).slice(0,350).forEach(e=>E.push(Object.assign(e,{t:'pre'})))}
+ E.forEach(e=>{N[e.a].deg+=e.w;N[e.b].deg+=e.w});
+ let ns=Object.values(N).filter(n=>n.deg>0),es;
+ if(RED.foco&&N[RED.foco]){const k=new Set([RED.foco]);E.forEach(e=>{if(e.a===RED.foco)k.add(e.b);if(e.b===RED.foco)k.add(e.a)});ns=ns.filter(n=>k.has(n.id));es=E.filter(e=>k.has(e.a)&&k.has(e.b))}
+ else{const ids=new Set(ns.map(n=>n.id));es=E.filter(e=>ids.has(e.a)&&ids.has(e.b))}
+ return{N:ns,E:es}};
+const rgHl=id=>{const b=$('#rgbox');if(!b)return;const nb=new Set(id?[id]:[]);b.classList.toggle('hv',!!id);
+ b.querySelectorAll('line').forEach(l=>{const on=!!id&&(l.dataset.a===id||l.dataset.b===id);l.classList.toggle('hl',on);if(on){nb.add(l.dataset.a);nb.add(l.dataset.b)}});
+ b.querySelectorAll('g.nd').forEach(g=>g.classList.toggle('nb',nb.has(g.dataset.id)))};
+const rgMove=(id,x,y)=>{const n=RED._ix&&RED._ix[id],b=$('#rgbox');if(!n||!b)return;n.x=x;n.y=y;if(RED.pos[RED.key])RED.pos[RED.key][id]=[x,y];
+ const g=[...b.querySelectorAll('g.nd')].find(q=>q.dataset.id===id);if(g)g.setAttribute('transform','translate('+x.toFixed(1)+','+y.toFixed(1)+')');
+ b.querySelectorAll('line').forEach(l=>{if(l.dataset.a===id){l.setAttribute('x1',x.toFixed(1));l.setAttribute('y1',y.toFixed(1))}if(l.dataset.b===id){l.setAttribute('x2',x.toFixed(1));l.setAttribute('y2',y.toFixed(1))}})};
+const rgDet=n=>{if(!n.p)return n.a?`<p class="meta">${esc(n.a.cargo)} · ${esc(n.a.camara)}${n.a.fecha?' · dato al '+esc(n.a.fecha):''}</p>`:'';const c=n.p.cargos.find(x=>x.v===1);return c?`<p class="meta">${esc(c.titulo||'')}${c.bloque?' · bloque '+esc(c.bloque):''}${c.lugar?' · '+esc(c.lugar):''}${c.p&&c.p.term_end?' · mandato hasta '+esc(c.p.term_end):''}</p>`:''};
+const rgStats=(N,E)=>{const c={};E.forEach(e=>{c[e.t]=(c[e.t]||0)+1});const nd=N.slice().sort((a,b)=>b.deg-a.deg).filter(n=>!n.b).slice(0,5).map(n=>esc(n.lab)).join(', ');return`<p class="note"><b>${N.length}</b> nodos · <b>${E.length}</b> conexiones${RCAP.filter(x=>c[x[0]]).map(x=>' · '+x[1].toLowerCase()+': '+c[x[0]]).join('')}. Más conectados: ${nd}.</p>`};
+const dibujaRed=keep=>{const el=$('#rg');if(!el)return;const tela=RED.modo==='tela',G=tela?grafoTela():grafoRed(),N=G.N,E=G.E,TT={co:'pre',bl:'blq',de:'dep'};
+ if(!N.length){el.innerHTML='<p class="empty">No hay relaciones con este filtro. Probá con menos notas en común, activá más capas o elegí «Todas las notas» en Precisión.</p>';return}
+ E.forEach(e=>{e.t=e.t||TT[RED.modo]});
+ const key=[RED.modo,RED.cam,RED.mw,RED.n,RED.per,RED.foco,Object.keys(RED.cap).filter(k=>RED.cap[k]).join(),N.length,E.length].join('|'),W=tela?1100:700,H=tela?760:520,ix={};
+ N.forEach(n=>ix[n.id]=n);let pos=RED.pos[key];if(pos)N.forEach(n=>{const q=pos[n.id];if(q){n.x=q[0];n.y=q[1]}});
+ if(!pos||N.some(n=>n.x==null)){layoutRed(N,E,W,H);pos=RED.pos[key]={};N.forEach(n=>pos[n.id]=[n.x,n.y])}
+ RED.key=key;RED._ix=ix;RED._N=N;const sel=RED.sel,f=v=>v.toFixed(1),top=new Set([...N].sort((a,b)=>b.deg-a.deg).slice(0,16).map(n=>n.id));
+ const ln=E.map(e=>{const a=ix[e.a],b=ix[e.b];if(!a||!b)return'';const s=RST[e.t]||RST.pre;return`<line data-a="${esc(e.a)}" data-b="${esc(e.b)}" x1="${f(a.x)}" y1="${f(a.y)}" x2="${f(b.x)}" y2="${f(b.y)}" stroke="${s[0]}"${s[1]?` stroke-dasharray="${s[1]}"`:''} stroke-opacity="${e.t==='cam'?.3:Math.min(.8,.28+e.w*.08)}" stroke-width="${Math.min(3,.6+Math.sqrt(e.w)*.6)}"/>`}).join('');
+ const nd=N.map(n=>{const r=n.b?(/^c:/.test(n.id)?13:9):4+Math.min(9,Math.sqrt(n.deg)*1.1),mk=n.cup||n.a,t=n.b||n.a?n.lab:n.lab.split(' ').slice(-2).join(' ');
+  return`<g class="nd${n.id===sel?' sel':''}${top.has(n.id)||n.b||mk?' top':''}" data-id="${esc(n.id)}" transform="translate(${f(n.x)},${f(n.y)})"><title>${esc(n.lab+(n.cup?' · '+n.cup:''))}</title><circle r="${f(r)}" fill="${n.b?'var(--ink)':n.p?colG(n.p):'var(--paper)'}" stroke="${mk?'var(--clay)':'var(--raised)'}" stroke-width="${mk?3:1.5}"/><text class="lb" y="${f(-r-3)}" text-anchor="middle">${esc(t)}</text></g>`}).join('');
+ const lk=o=>o.p?`<a href="#/persona/${encodeURIComponent(o.id)}">${esc(o.lab)}</a>`:(o.a&&/^https?:/.test(o.a.fuente||'')?`<a href="${esc(safe(o.a.fuente))}" target="_blank" rel="noopener noreferrer">${esc(o.lab)}</a>`:esc(o.lab));
+ let pn='<p class="note">Tocá un círculo para ver sus conexiones y las notas que las sostienen. Arrastrá un círculo para acomodarlo.</p>';
+ if(sel&&ix[sel]){const cs=E.filter(e=>e.a===sel||e.b===sel).sort((a,b)=>b.w-a.w).slice(0,ix[sel].b?80:20);
+  pn=`<h3 class="sh">${lk(ix[sel])}${ix[sel].cup?` <span class="meta">· ${esc(ix[sel].cup)}</span>`:''}</h3>`+rgDet(ix[sel])+cs.map(e=>{const o=ix[e.a===sel?e.b:e.a];return`<div class="row2"><span class="nm">${lk(o)}</span><span class="meta">${(RLB[e.t]||RLB.pre)(e)}</span></div>${(e.n||[]).slice(0,3).map(m=>`<div class="meta"><a href="${esc(safe(m.link))}" target="_blank" rel="noopener">${esc(tituloSinMedio(m))}</a></div>`).join('')}`}).join('')}
+ el.innerHTML=rgStats(N,E)+`<div class="pzw rgv" id="rgbox" tabindex="0" role="region" aria-label="Grafo de relaciones: ${N.length} nodos, ${E.length} conexiones. Rueda para acercar, arrastrar para mover.">`+`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Grafo de relaciones"><g>${ln}</g><g>${nd}</g></svg></div>${pn}`;
+ pzMount($('#rgbox'),'rg',keep,rgMove);rgHl(sel)};
+V.red=()=>{autLoad().then(()=>setTimeout(()=>{if(!$('#rg'))return;
+  const vis=()=>{const m=RED.modo,co=m==='co'||m==='tela';$('#rcw').style.display=(m==='bl'||m==='de')?'':'none';$('#rww').style.display=co?'':'none';$('#rcow').style.display=co?'':'none';$('#rn').style.display=m==='co'?'':'none';$('#rcap').style.display=m==='tela'?'':'none'};
+  const sync=()=>{RED.modo=$('#rm').value;RED.cam=$('#rc').value;RED.mw=+$('#rw').value;RED.n=+$('#rn').value;RED.per=+$('#rp').value;RED.foco=$('#rf').value;RED.sel=RED.foco;document.querySelectorAll('#rcap input').forEach(c=>{RED.cap[c.dataset.k]=c.checked?1:0});vis();dibujaRed(false)};
+  ['rm','rc','rw','rn','rp','rf'].forEach(id=>$('#'+id).addEventListener('input',sync));document.querySelectorAll('#rcap input').forEach(c=>c.addEventListener('change',sync));
+  $('#rs').addEventListener('change',e=>{const q=fold(e.target.value||'').trim();if(!q||!RED._N)return;const n=RED._N.find(x=>fold(x.lab).includes(q));if(!n){e.target.value='';e.target.placeholder='No está en este grafo';return}RED.sel=n.id;dibujaRed(true);if(PZ.rg&&PZ.rg.center)PZ.rg.center(n.x,n.y,3)});
+  $('#rg').addEventListener('click',e=>{const g=e.target.closest('g.nd');if(g){RED.sel=RED.sel===g.dataset.id?'':g.dataset.id;dibujaRed(true)}});
+  $('#rg').addEventListener('mouseover',e=>{const g=e.target.closest&&e.target.closest('g.nd');rgHl(g?g.dataset.id:RED.sel)});$('#rg').addEventListener('mouseleave',()=>rgHl(RED.sel));
+  vis();dibujaRed(false)},0));
+ return`<h2 class="sec">Red de relaciones</h2><p class="lede">La tela completa del poder en Salta: quiénes aparecen juntos en la prensa, comparten bloque, representan al mismo departamento, dependen unos de otros en el gabinete o integran la cúpula de una cámara. Prendé y apagá capas para ver cada tipo de vínculo; las líneas más gruesas indican más notas en común.</p><div class="ctl"><select id="rm" aria-label="Tipo de relación">${so('tela','Tela completa: todo conectado',RED.modo)}${so('co','Solo co-menciones en una misma nota',RED.modo)}${so('bl','Solo bloques de una cámara',RED.modo)}${so('de','Solo departamentos de una cámara',RED.modo)}</select><span id="rcw"><select id="rc" aria-label="Cámara">${so('Senado','Senado provincial',RED.cam)}${so('Diputados','Diputados provinciales',RED.cam)}${so('Concejo Deliberante','Concejo Deliberante',RED.cam)}</select></span><span id="rww"><select id="rw" aria-label="Mínimo de notas en común">${so('1','Desde 1 nota en común',''+RED.mw)}${so('2','Desde 2 notas',''+RED.mw)}${so('3','Desde 3 notas',''+RED.mw)}</select></span><span id="rcow"><select id="rn" aria-label="Cuántas personas mostrar">${so('45','Hasta 45 personas',''+RED.n)}${so('90','Hasta 90 personas',''+RED.n)}${so('170','Hasta 170 personas',''+RED.n)}</select><select id="rp" aria-label="Período">${so('0','Todo el período',''+RED.per)}${so('90','Últimos 90 días',''+RED.per)}${so('30','Últimos 30 días',''+RED.per)}${so('7','Últimos 7 días',''+RED.per)}</select><select id="rf" aria-label="Persona en foco"><option value="">Mostrar la red completa</option>${personas.filter(p=>!p.homonimoDe).map(p=>`<option value="${esc(p.id)}"${p.id===RED.foco?' selected':''}>${esc(p.nombre)}</option>`).join('')}</select></span><input type="search" id="rs" placeholder="Buscar en el grafo" aria-label="Buscar una persona en el grafo" autocomplete="off"></div><div class="ctl" id="rcap" role="group" aria-label="Capas de la red">${RCAP.map(([k,l,c])=>`<label class="chk"><input type="checkbox" data-k="${k}"${RED.cap[k]?' checked':''}><i style="background:${c}"></i>${l}</label>`).join('')}</div>${precSel()}<div class="rg" id="rg"></div><p class="leg"><i style="background:var(--clay)"></i>Ejecutivo<i style="background:var(--indigo)"></i>Senado<i style="background:var(--pos)"></i>Diputados<i style="background:var(--neu)"></i>Concejo<i style="background:var(--ink)"></i>Bloque, departamento o cámara · borde naranja = integra la cúpula de una cámara</p><p class="note"><b>Persona en foco:</b> muestra a esa persona con todas sus conexiones directas. <b>Mover el mapa:</b> rueda del mouse para acercar (sin tocar Ctrl), arrastrar para desplazar, doble clic para acercar, F o ⤢ para pantalla completa. Con mucho zoom aparecen todos los nombres.</p><p class="note"><b>Cómo leerlo:</b> una línea significa que dos personas aparecen en la misma nota de prensa, pertenecen al mismo bloque o departamento, o se vinculan por un cargo. No implica acuerdo, vínculo personal ni responsabilidad compartida. Las autoridades de cámara salen de data/autoridades.json, cada una con su fuente.</p>`};
+
 V.calidad=()=>{const C=(S.cur&&S.cur.personas)||{},vig=personas.filter(p=>p.cargos.some(c=>c.v===1)),ej=vig.filter(p=>p.cargos.some(c=>c.v===1&&c.p.chamber==='Ejecutivo')),lg=vig.filter(p=>!ej.includes(p));
  const pc=(a,b)=>b?Math.round(a/b*100)+'%':'0%',cv=p=>p.ids.some(i=>C[i]),bq=p=>p.cargos.some(c=>c.p.bloque||c.p.espacio),of=p=>p.cargos.some(c=>c.v===1&&/\.gob\.ar|\.gov\.ar/.test(c.p.source_url||'')),dom={};
  personas.forEach(p=>p.cargos.forEach(c=>{try{const x=new URL(c.p.source_url).hostname.replace(/^www\./,'');dom[x]=(dom[x]||0)+1}catch(e){}}));
@@ -1058,9 +1119,66 @@ V.notas=()=>{setTimeout(ntInit);const b=ntBase(),cm={},cat=new Set(),ds=b.map(x=
  <select id="no" aria-label="Orden"><option value="rec"${NT.o==='rec'?' selected':''}>Más nuevas primero</option><option value="ant"${NT.o==='ant'?' selected':''}>Más viejas primero</option></select></div>
  <div class="ctl"><label>Desde <input type="date" id="nd1" value="${esc(NT.d1)}"></label> <label>Hasta <input type="date" id="nd2" value="${esc(NT.d2)}"></label> <button type="button" id="nx">Limpiar</button></div>
  <p class="note">Hay notas guardadas desde el ${ft(ds[Math.floor(ds.length*0.02)])} hasta el ${ft(ds[ds.length-1])}. Para ver más atrás, tocá el botón: trae el archivo mensual (se arma desde hoy, no tiene notas anteriores).</p><div class="ctl"><button type="button" id="narch">Traer notas de meses anteriores</button> <span class="note" id="nar"></span></div><div id="nl"></div>`};
+/* ===== Motor de zoom y movimiento: rueda (también Ctrl+rueda) acerca el mapa, no la página; arrastrar mueve; doble clic acerca ===== */
+const PZ={};let PZD=null;const PZP=new Map();
+function pzMount(box,key,keep,onNode){const sv=box&&box.querySelector('svg');if(!sv)return;
+ const vb=sv.viewBox.baseVal,B=[vb.x,vb.y,vb.width,vb.height],dims=()=>[box.clientWidth||600,box.clientHeight||400];
+ const fit=()=>{const[cw,ch]=dims(),s=Math.max(B[2]/cw,B[3]/ch)*1.05;return[B[0]+B[2]/2-cw*s/2,B[1]+B[3]/2-ch*s/2,cw*s,ch*s]};
+ let F=fit();const old=PZ[key],st=PZ[key]={v:(keep&&old&&old.v)?old.v:F.slice()};
+ const ap=()=>{sv.setAttribute('viewBox',st.v.map(n=>n.toFixed(1)).join(' '));box.classList.toggle('z2',F[2]/st.v[2]>2.2)};
+ const P=e=>{const r=box.getBoundingClientRect();return[e.clientX-r.left,e.clientY-r.top]};
+ const zoom=(f,px,py)=>{const[cw,ch]=dims(),v=st.v;if(px==null){px=cw/2;py=ch/2}const nw=Math.min(F[2]*4,Math.max(F[2]/14,v[2]*f)),nh=nw*ch/cw,wx=v[0]+px/cw*v[2],wy=v[1]+py/ch*v[3];st.v=[wx-px/cw*nw,wy-py/ch*nh,nw,nh];ap()};
+ const fs=()=>{box.classList.toggle('fs');document.body.style.overflow=box.classList.contains('fs')?'hidden':'';requestAnimationFrame(()=>{F=fit();st.v=F.slice();ap()})};
+ st.center=(x,y,k)=>{const[cw,ch]=dims(),w=F[2]/(k||2);st.v=[x-w/2,y-w*ch/cw/2,w,w*ch/cw];ap()};
+ ap();
+ if(!box.querySelector('.pzt'))box.insertAdjacentHTML('beforeend','<div class="pzt"><button type="button" data-z="in" aria-label="Acercar" title="Acercar (+)">+</button><button type="button" data-z="out" aria-label="Alejar" title="Alejar (−)">−</button><button type="button" data-z="fit" aria-label="Ver todo" title="Ver todo (0)">⌂</button><button type="button" data-z="fs" aria-label="Pantalla completa" title="Pantalla completa (F, Esc para salir)">⤢</button></div><div class="pzh">Rueda: zoom · Arrastrar: mover · Doble clic: acercar · F: pantalla completa</div>');
+ box.querySelector('.pzt').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const z=b.dataset.z;if(z==='in')zoom(.7);else if(z==='out')zoom(1.4);else if(z==='fit'){st.v=fit();ap()}else fs()});
+ box.addEventListener('wheel',e=>{e.preventDefault();const[x,y]=P(e);zoom(Math.exp(e.deltaY*(e.deltaMode?.05:(e.ctrlKey?.012:.0018))),x,y)},{passive:false});
+ box.addEventListener('dblclick',e=>{if(e.target.closest('.pzt,a,[data-t]'))return;const[x,y]=P(e);zoom(e.shiftKey?1.8:1/1.8,x,y)});
+ box.addEventListener('pointerdown',e=>{if(e.button>0||e.target.closest('.pzt'))return;PZP.set(e.pointerId,[e.clientX,e.clientY]);box._mv=false;
+  if(PZD&&PZD.box===box&&PZP.size===2){const a=[...PZP.values()];PZD.pd=Math.hypot(a[0][0]-a[1][0],a[0][1]-a[1][1]);PZD.nd=null;return}
+  const g=onNode&&e.target.closest&&e.target.closest('g.nd');
+  PZD={box,st,dims,ap,zoom,onNode,x:e.clientX,y:e.clientY,v0:st.v.slice(),nd:g?g.dataset.id:null,m:false,pd:0}});
+ box.addEventListener('keydown',e=>{box._mv=false;const v=st.v,k={ArrowLeft:[-.15,0],ArrowRight:[.15,0],ArrowUp:[0,-.15],ArrowDown:[0,.15]}[e.key];
+  if(k){e.preventDefault();st.v=[v[0]+k[0]*v[2],v[1]+k[1]*v[3],v[2],v[3]];ap()}
+  else if(e.key==='+'||e.key==='='){zoom(.75)}else if(e.key==='-'){zoom(1.33)}else if(e.key==='0'){st.v=fit();ap()}
+  else if((e.key==='f'||e.key==='F')&&!/INPUT|SELECT/.test(e.target.tagName)){fs()}
+  else if(e.key==='Escape'&&box.classList.contains('fs')){fs()}})}
+window.addEventListener('pointermove',e=>{const d=PZD;if(!d)return;if(PZP.has(e.pointerId))PZP.set(e.pointerId,[e.clientX,e.clientY]);
+ if(PZP.size===2){const a=[...PZP.values()],nd=Math.hypot(a[0][0]-a[1][0],a[0][1]-a[1][1]),r=d.box.getBoundingClientRect();if(d.pd&&nd>0)d.zoom(d.pd/nd,(a[0][0]+a[1][0])/2-r.left,(a[0][1]+a[1][1])/2-r.top);d.pd=nd;d.m=true;d.box._mv=true;return}
+ const dx=e.clientX-d.x,dy=e.clientY-d.y;if(!d.m&&Math.hypot(dx,dy)<5)return;d.m=true;d.box._mv=true;const[cw,ch]=d.dims();
+ if(d.nd&&d.onNode){const r=d.box.getBoundingClientRect(),s=d.st.v;d.onNode(d.nd,s[0]+(e.clientX-r.left)/cw*s[2],s[1]+(e.clientY-r.top)/ch*s[3])}
+ else{const v=d.v0;d.st.v=[v[0]-dx/cw*v[2],v[1]-dy/ch*v[3],v[2],v[3]];d.ap()}});
+const pzUp=e=>{PZP.delete(e.pointerId);if(!PZP.size)PZD=null};
+window.addEventListener('pointerup',pzUp);window.addEventListener('pointercancel',pzUp);
+document.addEventListener('click',e=>{const w=e.target.closest&&e.target.closest('.pzw');if(w&&w._mv){w._mv=false;e.stopPropagation();e.preventDefault()}},true);
+window.addEventListener('hashchange',()=>{document.body.style.overflow=''});
+/* Tamaño de la interfaz (A− / A+): reemplaza el Ctrl+rueda del navegador */
+(()=>{let s=1;try{s=+localStorage.getItem('newar_sz')||1}catch(e){}const ap=()=>{document.documentElement.style.fontSize=(s*100)+'%';try{localStorage.setItem('newar_sz',s)}catch(e){}};ap();
+ document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('#szm,#szp');if(!b)return;s=Math.min(1.5,Math.max(.8,+(s+(b.id==='szp'?.1:-.1)).toFixed(2)));ap()})})();
+
+/* ===== Cúpula de cada poder: data/autoridades.json (se carga a mano, con fuente). Lo que falta se muestra como «sin dato cargado» ===== */
+const AUT={list:[],p:null,f:''};
+const autLoad=()=>AUT.p||(AUT.p=leer('autoridades').then(j=>{AUT.list=((j&&j.autoridades)||[]).filter(a=>a&&a.nombre&&a.cargo&&a.camara);AUT.f=(j&&j.actualizado)||'';return AUT}).catch(()=>AUT));
+const AUT_RX={p:/^president[ea](?! (provis|de bloque))/,v:/^vicepresident[ea]( 1| primer|$)/,a:/administrativ/,l:/parlamentari|legislativ|institucional/};
+const AUT_SL={'Senado':[['Presidente','p'],['Vicepresidente 1°','v'],['Secretario Administrativo','a'],['Secretario Institucional','l']],'Diputados':[['Presidente','p'],['Vicepresidente 1°','v'],['Secretario Administrativo','a'],['Secretario Parlamentario','l']],'Concejo Deliberante':[['Presidente','p'],['Vicepresidente 1°','v'],['Secretario Administrativo','a'],['Secretario Legislativo','l']],'Corte de Justicia':[['Presidente','p'],['Vicepresidente','v']]};
+const autRk=c=>{c=fold(c);return /president[ea] de bloque/.test(c)?8:AUT_RX.p.test(c)?0:/provis/.test(c)?1:/^vice/.test(c)?2:/administrativ/.test(c)?3:/parlament|legislativ|institucional/.test(c)?4:6};
+function mpCup(cam,pre,vice){const L=AUT.list.filter(a=>a.camara===cam).sort((a,b)=>autRk(a.cargo)-autRk(b.cargo)||a.nombre.localeCompare(b.nombre,'es')),kids=[];
+ if(vice)kids.push(Object.assign(mpPer(vice[0],vice[1],'Presidente del Senado · '+vice[1].titulo),{id:pre+'/cup/v'}));
+ L.forEach((a,i)=>{const p=a.id&&byId[a.id];kids.push(p?Object.assign(mpPer(p,null,a.cargo),{id:pre+'/cup/'+i}):{id:pre+'/cup/'+i,t:a.nombre,sub:a.cargo,k:'per',href:/^https?:/.test(a.fuente||'')?a.fuente:''})});
+ (AUT_SL[cam]||[]).forEach(([lab,r])=>{if(r==='p'&&vice)return;if(!L.some(a=>AUT_RX[r].test(fold(a.cargo))))kids.push({id:pre+'/cup/s'+r,t:lab,sub:'sin dato cargado',k:'per dub'})});
+ return{id:pre+'/cup',t:'Mesa directiva y autoridades',sub:kids.filter(k=>k.sub!=='sin dato cargado').length+' cargadas · fuente en cada recuadro',k:'grp',lbl:'conduce',def:1,kids}}
+function mpPod(){const g=mpEje().kids[0],{vice}=mpGob(),ins=(id,t,sub,lbl,kids)=>({id,t,sub,k:'ins',lbl,def:1,kids});
+ return{id:'pod',t:'Cúpula del poder en Salta',sub:'Quién conduce cada poder y cada cámara',k:'root',def:1,kids:[
+  ins('pod/e','Poder Ejecutivo','Gobernación y gabinete','ejecuta',[g]),
+  ins('pod/l','Poder Legislativo','Legislatura bicameral','legisla',[ins('pod/s','Cámara de Senadores','','cámara alta',[mpCup('Senado','pod/s',vice)]),ins('pod/d','Cámara de Diputados','','cámara baja',[mpCup('Diputados','pod/d')])]),
+  ins('pod/j','Poder Judicial','Corte de Justicia de Salta','juzga',[mpCup('Corte de Justicia','pod/j')]),
+  ins('pod/m','Ciudad de Salta','Gobierno municipal','nivel municipal',[ins('pod/c','Concejo Deliberante','','legisla',[mpCup('Concejo Deliberante','pod/c')]),{id:'pod/i',t:'Intendencia',sub:'sin dato cargado',k:'per dub',lbl:'ejecuta'}])],
+  nota:'Gobernador, vicegobernador y gabinete salen de data/politicians.json. Presidentes, vicepresidentes y secretarios de las cámaras, del Concejo y de la Corte salen de data/autoridades.json: cada uno con su fuente. Borde punteado = sin dato cargado todavía; nunca se completa con suposiciones.'}}
+
 /* ---------- Mapas conceptuales y organigramas: SVG propio, sin librerías. Las personas salen de data/politicians.json (vigentes hoy); las noticias, del resumen diario ---------- */
 const MAPS={id:'nac',z:1,open:{},dia:'',T:null,idx:null};
-const MP_LISTA=[['nac','Poderes y niveles de gobierno'],['eje','Poder Ejecutivo de Salta'],['leg','Legislatura de Salta'],['mun','Concejo Deliberante'],['dia','Noticias del día']];
+const MP_LISTA=[['nac','Poderes y niveles de gobierno'],['pod','Cúpula de los poderes'],['eje','Poder Ejecutivo de Salta'],['leg','Legislatura de Salta'],['mun','Concejo Deliberante'],['dia','Noticias del día']];
 const mpOpen=n=>n.id in MAPS.open?MAPS.open[n.id]:!!n.def;
 const mpWrap=(txt,max,maxL)=>{const w=String(txt||'').split(/\s+/).filter(Boolean),L=[];let c='';w.forEach(x=>{if(c&&(c+' '+x).length>max){L.push(c);c=x}else c=c?c+' '+x:x});if(c)L.push(c);
  if(L.length>maxL){L.length=maxL;L[maxL-1]=L[maxL-1].replace(/.{0,2}$/,'')+'…'}return L};
@@ -1086,7 +1204,7 @@ function mpSvg(root,z){const{W,H}=mpLayout(root);let ed='',nd='';
  const walk=n=>{const kids=n._ks||[];kids.forEach(k=>{const x1=n._x+n._w+(n.kids&&n.kids.length?10:0),y1=n._y+n._h/2,x2=k._x,y2=k._y+k._h/2,mx=(x1+x2)/2;
    ed+=`<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" class="e"/>`;
    if(k.lbl)ed+=`<text x="${mx}" y="${(y1+y2)/2-3}" class="el" text-anchor="middle">${esc(k.lbl)}</text>`;walk(k)})};walk(root);
- const draw=n=>{const c=n.kids&&n.kids.length,op=c&&mpOpen(n),cls='n mp-'+String(n.k||'per').split(' ').join(' mp-');
+ const draw=n=>{const c=n.kids&&n.kids.length,op=c&&mpOpen(n),cls='n mp-'+String(n.k||'per').split(' ').join(' mp-')+(n.id===MAPS.hit?' hit':'');
   const body=`<rect x="${n._x}" y="${n._y}" width="${n._w}" height="${n._h}" rx="${n.k==='root'||n.k==='ins'?6:3}" class="b"/>`+mpTxt(n,n._x+10,n._y);
   const ext=/^https?:/.test(n.href||'');
   if(n.href)nd+=`<a href="${esc(ext?safe(n.href):n.href)}"${ext?' target="_blank" rel="noopener noreferrer"':''} class="${cls} lk"><title>${esc(n.t+(n.sub?' · '+n.sub:''))}</title>${body}</a>`;
@@ -1099,7 +1217,7 @@ const mpAll=(n,f)=>{f(n);(n.kids||[]).forEach(k=>mpAll(k,f))};
 
 /* ---- Constructores de cada mapa ---- */
 const mpVig=cam=>personas.map(p=>[p,p.cargos.find(c=>c.p.chamber===cam&&c.v===1)]).filter(x=>x[1]);
-const mpPer=(p,c,sub)=>({id:'p/'+p.id,t:p.nombre,sub:sub==null?(c.lugar||''):sub,k:'per',href:'#/persona/'+encodeURIComponent(p.id)});
+const mpPer=(p,c,sub)=>({id:'p/'+p.id,t:p.nombre,sub:sub==null?[c.lugar||'',(c.p&&c.p.term_end)?'mandato hasta '+c.p.term_end:''].filter(Boolean).join(' · '):sub,k:'per',href:'#/persona/'+encodeURIComponent(p.id)});
 const mpOrd=l=>l.sort((a,b)=>a[0].nombre.localeCompare(b[0].nombre,'es'));
 const mpBloques=(l,pre)=>{const g={};l.forEach(x=>{const b=x[1].bloque||'Sin bloque cargado';(g[b]=g[b]||[]).push(x)});
  return Object.entries(g).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0],'es')).map(([b,x],i)=>({id:pre+'/b/'+fold(b),t:b,sub:x.length+(x.length===1?' banca':' bancas'),k:'grp',lbl:i?'':'bloque',kids:mpOrd(x).map(([p,c])=>mpPer(p,c))}))};
@@ -1121,12 +1239,12 @@ function mpEje(){const{x,gob,vice}=mpGob(),ft=y=>fold(y[1].titulo),hoja=(y,l)=>O
 function mpLeg(){const sen=mpOrd(mpVig('Senado')),dip=mpOrd(mpVig('Diputados')),{vice}=mpGob();
  const cs=Object.assign({id:'leg/s',t:'Cámara de Senadores',sub:sen.length+' senadores en ejercicio · uno por departamento',k:'ins',lbl:'cámara alta',def:1,kids:mpBloques(sen,'leg/s')}),
   cd={id:'leg/d',t:'Cámara de Diputados',sub:dip.length+' diputados en ejercicio',k:'ins',lbl:'cámara baja',def:1,kids:mpBloques(dip,'leg/d')};
- if(vice)cs.kids.unshift(Object.assign(mpPer(vice[0],vice[1],vice[1].titulo),{lbl:'preside'}));
+ cs.kids.unshift(mpCup('Senado','leg/s',vice));cd.kids.unshift(mpCup('Diputados','leg/d'));
  return{id:'leg',t:'Legislatura de Salta',sub:'Poder Legislativo provincial · bicameral',k:'root',def:1,kids:[cs,cd],
   nota:'Solo legisladores vigentes según la nómina oficial. El número de bancas por bloque cambia cuando alguien pide licencia o se reasignan bloques. Tocá el círculo de cada bloque para ver sus integrantes.'}}
 function mpMun(){const c=mpOrd(mpVig('Concejo Deliberante'));
  return{id:'mun',t:'Municipalidad de la Ciudad de Salta',sub:'Gobierno municipal',k:'root',def:1,kids:[
-  {id:'mun/c',t:'Concejo Deliberante',sub:c.length+' concejales en ejercicio',k:'ins',lbl:'poder legislativo',def:1,kids:mpBloques(c,'mun/c')},
+  {id:'mun/c',t:'Concejo Deliberante',sub:c.length+' concejales en ejercicio',k:'ins',lbl:'poder legislativo',def:1,kids:[mpCup('Concejo Deliberante','mun/c')].concat(mpBloques(c,'mun/c'))},
   {id:'mun/i',t:'Intendencia',sub:'Departamento Ejecutivo municipal',k:'ins',lbl:'poder ejecutivo',def:1}],
   nota:'El Concejo Deliberante sale de data/politicians.json. La Intendencia figura solo como institución: todavía no hay intendente ni secretarios cargados.'}}
 function mpNac(){const dn=mpOrd(mpVig('Diputados de la Nación')),sn=mpOrd(mpVig('Senado de la Nación')),{gob}=mpGob(),nCon=mpVig('Concejo Deliberante').length,nS=mpVig('Senado').length,nD=mpVig('Diputados').length;
@@ -1141,7 +1259,7 @@ function mpNac(){const dn=mpOrd(mpVig('Diputados de la Nación')),sn=mpOrd(mpVig
  const prov=ins('s','Provincia de Salta','Gobierno provincial','nivel provincial',[
   ins('s/e','Poder Ejecutivo','Gobernador'+(gob?': '+gob[0].nombre:''),'ejecuta',[],'#/mapas/eje'),
   ins('s/l','Poder Legislativo','Legislatura bicameral · '+nS+' senadores y '+nD+' diputados','legisla',[],'#/mapas/leg'),
-  ins('s/j','Poder Judicial','Corte de Justicia de Salta','juzga',[])]);
+  ins('s/j','Poder Judicial','Corte de Justicia de Salta','juzga',[mpCup('Corte de Justicia','s/j')])]);
  const mun=ins('m','Ciudad de Salta','Gobierno municipal','nivel municipal',[
   ins('m/c','Concejo Deliberante',nCon+' concejales','legisla',[],'#/mapas/mun'),
   ins('m/i','Intendencia','Departamento Ejecutivo','ejecuta',[])]);
@@ -1157,26 +1275,29 @@ async function mpDia(){if(!MAPS.idx){const i=await leer('resumenes/index');MAPS.
    kids:hs.filter(h=>h.tema===t.tema).sort((a,b)=>(b.medios||[]).length-(a.medios||[]).length).slice(0,3).map((h,i)=>({id:'dia/'+fold(t.tema)+'/'+i,t:String(h.titulo||'').slice(0,110),sub:(h.medios||[]).length+((h.medios||[]).length===1?' medio':' medios'),k:'news',lbl:i?'':'más cubierta',
     href:((h.links||[])[0]||{}).link||'',kids:(h.medios||[]).slice(0,8).map((m,j)=>({id:'dia/'+fold(t.tema)+'/'+i+'/'+j,t:m,k:'med',lbl:j?'':'lo dicen'}))}))})),
   nota:'Una historia aparece una sola vez aunque la cuenten varios medios. Los temas y su clasificación se calculan por titulares (sin IA) y pueden equivocarse. Tocá un titular para abrir la nota; el círculo muestra qué medios la dicen.'}}
-const MPB={nac:mpNac,eje:mpEje,leg:mpLeg,mun:mpMun,dia:mpDia};
+const MPB={pod:mpPod,nac:mpNac,eje:mpEje,leg:mpLeg,mun:mpMun,dia:mpDia};
 async function mpPaint(){const el=$('#mpv');if(!el)return;const id=MAPS.id;let T;
- try{T=await MPB[id]()}catch(e){T=null}
+ try{await autLoad();T=await MPB[id]()}catch(e){T=null}
  if(!$('#mpv')||MAPS.id!==id)return;
  if(!T||!T.kids||!T.kids.length){el.innerHTML='<p class="empty">No hay datos suficientes para armar este mapa todavía.</p>';return}
- MAPS.T=T;const box=$('#mpbox'),sx=box?box.scrollLeft:0,sy=box?box.scrollTop:0;
- let np=0;mpAll(T,n=>{if(/^p\//.test(n.id))np++});
- el.innerHTML=`<div class="mpbox" id="mpbox" tabindex="0" role="region" aria-label="Mapa: ${esc(T.t)}. Se desplaza con el dedo o con las flechas.">${mpSvg(T,MAPS.z)}</div>
- ${T.nota?`<p class="note">${esc(T.nota)}</p>`:''}<details class="mpl"><summary>Ver el mapa como lista de texto</summary><ul>${mpLista(T)}</ul></details>`;
- const b2=$('#mpbox');if(b2){b2.scrollLeft=sx;b2.scrollTop=sy}}
-window.mpZoom=v=>{MAPS.z=Math.min(1.8,Math.max(.4,v==='fit'?(()=>{const b=$('#mpbox'),s=b&&b.querySelector('svg');if(!b||!s)return 1;const w=s.viewBox.baseVal.width;return Math.min(1.4,(b.clientWidth-8)/w)})():+v));mpPaint()};
+ MAPS.T=T;const keep=MAPS.kp===id;MAPS.kp=id;
+ el.innerHTML=`<div class="pzw" id="mpbox" tabindex="0" role="region" aria-label="Mapa: ${esc(T.t)}. Rueda para acercar, arrastrar para mover, flechas para desplazar.">${mpSvg(T,1)}</div>${T.nota?`<p class="note">${esc(T.nota)}</p>`:''}<details class="mpl"><summary>Ver el mapa como lista de texto</summary><ul>${mpLista(T)}</ul></details>`;
+ pzMount($('#mpbox'),'mp',keep);
+ if(MAPS.go){let t=null;mpAll(T,n=>{if(n.id===MAPS.go)t=n});MAPS.go=null;if(t&&t._x!=null&&PZ.mp&&PZ.mp.center)PZ.mp.center(t._x+t._w/2,t._y+t._h/2,2.2)}}
+window.mpZoom=()=>{};
+window.mpFind=q=>{q=fold(q||'').trim();const i=$('#mps');if(!q||!MAPS.T)return;let path=null;
+ const rec=(n,a)=>{if(path)return;if(n!==MAPS.T&&fold(n.t+' '+(n.sub||'')).includes(q)){path=a.concat(n);return}(n.kids||[]).forEach(k=>rec(k,a.concat(n)))};rec(MAPS.T,[]);
+ if(!path){if(i){i.value='';i.placeholder='No está en este mapa'}return}
+ path.slice(0,-1).forEach(n=>{MAPS.open[n.id]=true});MAPS.hit=path[path.length-1].id;MAPS.go=MAPS.hit;mpPaint()};
 window.mpTodo=a=>{if(!MAPS.T)return;mpAll(MAPS.T,n=>{if(n.kids&&n.kids.length)MAPS.open[n.id]=n===MAPS.T?true:!!a});mpPaint()};
 window.mpDiaSet=f=>{MAPS.dia=f;MAPS.open={};mpPaint()};
 document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('#mpv [data-t]');if(!t)return;const id=t.dataset.t,n=(()=>{let r=null;mpAll(MAPS.T,x=>{if(x.id===id)r=x});return r})();if(!n)return;MAPS.open[id]=!mpOpen(n);mpPaint()});
 document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const t=e.target.closest&&e.target.closest('#mpv [data-t]');if(!t)return;e.preventDefault();t.dispatchEvent(new MouseEvent('click',{bubbles:true}))});
-V.mapas=id=>{const m=MP_LISTA.some(x=>x[0]===id)?id:'nac';if(MAPS.id!==m){MAPS.id=m;MAPS.open={}}setTimeout(mpPaint);
+V.mapas=id=>{const m=MP_LISTA.some(x=>x[0]===id)?id:'nac';if(MAPS.id!==m){MAPS.id=m;MAPS.open={};MAPS.kp='';MAPS.hit=''}setTimeout(mpPaint);
  const dias=m==='dia'&&MAPS.idx?`<select aria-label="Día" onchange="mpDiaSet(this.value)">${MAPS.idx.slice(0,21).map(x=>`<option value="${esc(x.fecha)}"${x.fecha===MAPS.dia?' selected':''}>${esc(diaFecha(x.fecha,{weekday:'short',day:'numeric',month:'short'}))}</option>`).join('')}</select>`:'';
- return`<h2 class="sec">Mapas conceptuales y organigramas</h2><p class="lede">Quién depende de quién y cómo se relacionan los poderes y las noticias, como mapa. Cada flecha dice la relación («coordina», «preside», «bloque»). Tocá el círculo de un recuadro para abrirlo o cerrarlo, y un recuadro con nombre para ir a la ficha o a la nota.</p>
+ return`<h2 class="sec">Mapas conceptuales y organigramas</h2><p class="lede">Quién depende de quién y cómo se relacionan los poderes y las noticias, como mapa. Cada flecha dice la relación («coordina», «preside», «bloque»). Acercá con la rueda del mouse (sin Ctrl), arrastrá para moverte y usá ⤢ para pantalla completa. Tocá el círculo de un recuadro para abrirlo o cerrarlo, y un recuadro con nombre para ir a la ficha o a la nota.</p>
  <div class="ctl mptabs" role="group" aria-label="Elegir mapa">${MP_LISTA.map(([k,l])=>`<a href="#/mapas/${k}" class="mpb${k===m?' on':''}"${k===m?' aria-current="page"':''}>${esc(l)}</a>`).join('')}</div>
- <div class="ctl"><button type="button" onclick="mpZoom(MAPS.z-.15)" aria-label="Alejar">−</button><button type="button" onclick="mpZoom(MAPS.z+.15)" aria-label="Acercar">+</button><button type="button" onclick="mpZoom('fit')">Ajustar al ancho</button><button type="button" onclick="mpZoom(1)">Tamaño normal</button><button type="button" onclick="mpTodo(true)">Abrir todo</button><button type="button" onclick="mpTodo(false)">Cerrar ramas</button><button type="button" onclick="window.print()">Imprimir o guardar PDF</button>${dias}</div>
+ <div class="ctl"><input type="search" id="mps" placeholder="Buscar persona o cargo" aria-label="Buscar en el mapa" autocomplete="off" onchange="mpFind(this.value)"><button type="button" onclick="mpTodo(true)">Abrir todo</button><button type="button" onclick="mpTodo(false)">Cerrar ramas</button><button type="button" onclick="window.print()">Imprimir o guardar PDF</button>${dias}</div>
  <div id="mpv"><p class="note" role="status">Armando el mapa…</p></div>`};
 
 const TABS=[['inicio','Inicio'],['diario','Diario'],['mapas','Mapas'],['buscar','Buscar'],['notas','Notas'],['personas','Personas'],['ejecutivo','Ejecutivo'],['legislativo','Legislativo'],['menciones','Menciones'],['medios','Medios'],['temas','Temas'],['palabras','Palabras'],['cruce','Cruce'],['mayorias','Mayorías'],['hemiciclo','Hemiciclo'],['mapa','Mapa'],['verificar','Verificar'],['voz','Voz y peso'],['red','Red'],['casos','Casos'],['calidad','Calidad'],['fuentes','Fuentes'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados'],['control','Control']];
