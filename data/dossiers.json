@@ -18330,13 +18330,21 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 31,
+    "total_mentions": 33,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 2,
       "negativo": 14,
       "neutral": 17
     },
     "sentiment_by_day": {
+      "2021-03-29": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "2022-10-28": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-08-18": {
         "total": 2,
         "score_sum": 0
@@ -18417,15 +18425,23 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 7
+        "count": 9
       },
       {
         "term": "lópez",
-        "count": 7
+        "count": 9
       },
       {
         "term": "informate",
         "count": 4
+      },
+      {
+        "term": "ministro",
+        "count": 2
+      },
+      {
+        "term": "hacienda",
+        "count": 2
       },
       {
         "term": "josé",
@@ -18438,17 +18454,21 @@
       {
         "term": "diferencias",
         "count": 2
-      },
-      {
-        "term": "comisión",
-        "count": 2
-      },
-      {
-        "term": "disciplina",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Los juicios por la deuda son mecanismos de presión, la solución no vendrá por ahí",
+        "source": "La Nación",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTNSbGRnYk83T2hfSmZBbm0tX2NMcVdFazBpNVAxcDVGeENoc3B3NjVhdmgweTBDNjVTVENJZ2dOUDhfU1Mwd3BwcHJxbE8tck83R3hwQWdtMUtLQ3hDTE9GS1JrSEUwR1FiQkpET3RNVFV0TFVsblh0RFRvY3EyR3FGNVV5OERNc216QTRfUlNUSlk5WjMtMlNYc2U5NlJLRTVPU1JwcG1sbVYzcmpCNW93V3QyeUFUd1NTTDVRYzNPdlJKaVJNNXNlbkhUSFZibHUzVFM3ZWJaS1JrQmZPeg?oc=5",
+        "date": "Mon, 29 Mar 2021 07:00:00 GMT"
+      },
+      {
+        "quote": "Vivimos una etapa compleja, pero hay crecimiento económico en la Provincia",
+        "source": "Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYnlRTmxxNXA5X043dGM0LVlZRDY2N013U3JlMG9XSEdGMVdKS2EwbjRCSlE0SjROVXhmaTBIXzh1TzhMU3M4c0k2bTR1bHNXQ1pobGR0enNoMHVKUk9TTGhWS0ZkdUdWNUlnRTVpR3VaV2NhVS1Qd3hJTGo5Y19GZE9saGRwQllrM1Q4TjQ3Q0FrZmR1ZlM0U2VVQk5PRlpmY1V4TFF1SFRGUVRocU5MLXRfM3N2eUo4MUJQOVdmYU03NGI2MFB4ejZ1OVB4MXhQc1I0ZzRCRFVUTFRlM0V5dUpXc242bHhRaE5weFV5N1RDMUQyVlHSAZACQVVfeXFMTUFNVWxRNkYxRFA4dGtsb1VqT012SVhrTmU0LUJ2T1JDMlR4TmZ3QmJuaEYwZ21uU2FDellPM0NpUks4bU1sZzhiYVBWNWJfakR3dHg1RlcySkdGM3dmM1ZXU1Z0QjhzWENlX3lmLUg0cVpXajduV3pTM0tJbUZCVDhVLUliSFNPOXc0WE5ya2dYdk5KT3dHa0NrUDlseW9RQWdRTHJWazdVQjgtckFMSVFaVkEwOWtVYnZhSDFCUlBFT3Q3UGNXdG1JZS04MHYyZXdEclZRSHhRZDhTejJYdVZoNUVncUtnTkw3M3otLVBGM2ZfX2R1RTdZdVl3cjVqN29uRWVBWEY0WWk1VU5xNWo?oc=5",
+        "date": "Fri, 28 Oct 2022 07:00:00 GMT"
+      },
       {
         "quote": "Sigue imputado y en investigación",
         "source": "Informate Salta",
@@ -18481,6 +18501,12 @@
       }
     ],
     "legal_mentions": [
+      {
+        "title": "Pablo López, ministro de Hacienda bonaerense: “Los juicios por la deuda son mecanismos de presión, la solución no vendrá por ahí” - La Nación",
+        "source": "La Nación",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTNSbGRnYk83T2hfSmZBbm0tX2NMcVdFazBpNVAxcDVGeENoc3B3NjVhdmgweTBDNjVTVENJZ2dOUDhfU1Mwd3BwcHJxbE8tck83R3hwQWdtMUtLQ3hDTE9GS1JrSEUwR1FiQkpET3RNVFV0TFVsblh0RFRvY3EyR3FGNVV5OERNc216QTRfUlNUSlk5WjMtMlNYc2U5NlJLRTVPU1JwcG1sbVYzcmpCNW93V3QyeUFUd1NTTDVRYzNPdlJKaVJNNXNlbkhUSFZibHUzVFM3ZWJaS1JrQmZPeg?oc=5",
+        "date": "Mon, 29 Mar 2021 07:00:00 GMT"
+      },
       {
         "title": "José García y Pablo López: las diferencias en la Comisión de Disciplina y Juicio Político - Informate Salta",
         "source": "Informate Salta",
@@ -18537,6 +18563,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López, ministro de Hacienda bonaerense: “Los juicios por la deuda son mecanismos de presión, la solución no vendrá por ahí” - La Nación",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTNSbGRnYk83T2hfSmZBbm0tX2NMcVdFazBpNVAxcDVGeENoc3B3NjVhdmgweTBDNjVTVENJZ2dOUDhfU1Mwd3BwcHJxbE8tck83R3hwQWdtMUtLQ3hDTE9GS1JrSEUwR1FiQkpET3RNVFV0TFVsblh0RFRvY3EyR3FGNVV5OERNc216QTRfUlNUSlk5WjMtMlNYc2U5NlJLRTVPU1JwcG1sbVYzcmpCNW93V3QyeUFUd1NTTDVRYzNPdlJKaVJNNXNlbkhUSFZibHUzVFM3ZWJaS1JrQmZPeg?oc=5",
+        "source": "La Nación",
+        "date": "Mon, 29 Mar 2021 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Pablo López, ministro de Hacienda de Kicillof: “Vivimos una etapa compleja, pero hay crecimiento económico en la Provincia” - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYnlRTmxxNXA5X043dGM0LVlZRDY2N013U3JlMG9XSEdGMVdKS2EwbjRCSlE0SjROVXhmaTBIXzh1TzhMU3M4c0k2bTR1bHNXQ1pobGR0enNoMHVKUk9TTGhWS0ZkdUdWNUlnRTVpR3VaV2NhVS1Qd3hJTGo5Y19GZE9saGRwQllrM1Q4TjQ3Q0FrZmR1ZlM0U2VVQk5PRlpmY1V4TFF1SFRGUVRocU5MLXRfM3N2eUo4MUJQOVdmYU03NGI2MFB4ejZ1OVB4MXhQc1I0ZzRCRFVUTFRlM0V5dUpXc242bHhRaE5weFV5N1RDMUQyVlHSAZACQVVfeXFMTUFNVWxRNkYxRFA4dGtsb1VqT012SVhrTmU0LUJ2T1JDMlR4TmZ3QmJuaEYwZ21uU2FDellPM0NpUks4bU1sZzhiYVBWNWJfakR3dHg1RlcySkdGM3dmM1ZXU1Z0QjhzWENlX3lmLUg0cVpXajduV3pTM0tJbUZCVDhVLUliSFNPOXc0WE5ya2dYdk5KT3dHa0NrUDlseW9RQWdRTHJWazdVQjgtckFMSVFaVkEwOWtVYnZhSDFCUlBFT3Q3UGNXdG1JZS04MHYyZXdEclZRSHhRZDhTejJYdVZoNUVncUtnTkw3M3otLVBGM2ZfX2R1RTdZdVl3cjVqN29uRWVBWEY0WWk1VU5xNWo?oc=5",
+        "source": "Infobae",
+        "date": "Fri, 28 Oct 2022 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "José García y Pablo López: las diferencias en la Comisión de Disciplina y Juicio Político - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZl9TQlNkY3g3U1FJbjBRUmlucldjbGZ5S3dwUVpUUWhXRG44bjQxMHpGM0NmZTNlWDVzY1RKM1JTTTdBb1VHbUoxTHk2YXk2czN2UXlINVlnbVBSNHFFcmFyd2F5dHVkYWdHVDA2WW4wRXB0RERiN21rRmpsaEhYcXlfdUFyS3F4ZUUyWnhncUtnMGRuZnROTUdpVHVGY0VJZUhPMFZjMjV1SGp4eHkwMkJCNDMtQWhDQkY4cUFfNU44aGczbDF0c05WLXJ4cWNCUWlKY1RaaEdkN1pwRE5reEk4UXk3eGlEclHSAfgBQVVfeXFMTW9CTElFTEJzd0E0NHdmY1prOVVtZXh4NDQyeHR2d3k1RElyc194TVc2UkZWX1NBWTBsSUU3dTZaZkhsQ1Z5N3VRV01SaFdVbkhyUlctejV6OExtVlFFVU8xU1lLNzV1eVVfdzIxcWRrRktaTlhMWFlGaGZpZENTSVFrRy1ZTlBydEFEdVc2WTZTU3Q5TGRtLW1iNTE0S1RyWU1JRFpmX2VOVGV3bjJCMWN3VVZGQl9ZaEEwZ3p2R2gyWWp2MGNQb2lPRWJDR01Rd0JsWnk5dmlhMnFpZnc5QVRiMVozdGxaNGg5OUpZTWhlWXRHUTBOLTk?oc=5",
@@ -18732,20 +18772,6 @@
         "source": "eltribuno.com",
         "date": "Sun, 23 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Libertad Avanza obtiene seis bancas en el Concejo capitalino - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2hqNEFVbDJXb1pXbnNVVlg3UDY2WHJGZzQ5UnJtbUxPMTJNVmxLYTBibEFUZ093VTNxUEU3NE9jREw2bkh6aGVyQ2dLRHlWZ0FGWUlURHlsSFVoZlU0SFhHUHIxMVc5R0dnZkFXVDVBRDdLcXFURGNMZW53QUgta1A4djlOVm0yNGFuNWhzbmd3NklzYjItSVpMUkVhS3NVcXlBT3dEM2NGcHRPVFFIdE1WONIBuAFBVV95cUxNTFowN0ozeDJPa1BGcDFiS291dWFJUHpQSnFVMUhKZ3cwNDQySm9IcG9IYkZJWlJzd3VWVnp5OTUwR0Jyd1B1R3NyU0RSTjFuVUNLNUhUcHE5aGh2eWluSUk5V0N4bThfUnplRWZPT2JIVlFpY2JWM19DQjRmcms0cmp3Y1RXT0xxSmJRdkZHLXhVZTVvZU5PQ09NZ3NabDQ4RFBCM0YwYUpJRWRSWkhXcEE0VWgyTUpW?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Municipalidad se puso a disposición de la víctima del exconcejal Pablo López - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWDR4RmRQTlBwTTdMUkMxRUFJV3d0N1dzRWd0elBpX1ctSURuMlVXOUhWSXdBc2E2empqODhBZVdVRk5INWh2R0Y1M2gwYXREcXl4UUtwN3N0UzFnbUVMWjFEdlJSYlFwclZ5OUNSLVgzWVUzTEltMTNwaFlmNGlKU19nZmpGTEc2c2pNS1hoaEFpOUhiNjhJUWxTSlVDTkotUFpscGtMZmxod0pod2tNRnI4NFFfTXdlZ2FUaXZoUHdxRFdpSDVfZngyWGE3NTVwWUViR0NSRXdUZTN4TEHSAewBQVVfeXFMUHJjcDd5UFN6MVJmOVAxSlNDWU5mTjE5UDJsMzN3d3hTNkI4U3FsbjJyU2Z4VWxkaEYzT24yWE1hcG1UZ2FKZTl5OWRJdmNMSUhnVzd0NjNLdUV3TnRqUDFsbFZUd284ZmV4cW15TThlZ0pzUUZkYTg1UDZCVDhoQXY1VXo5Sk5INmFfYThWN3ZVWmhoZDhYOVdTYi0tTEc1LVU5ZXowMDMyTTFxMXd0ZndoM1EwWi1VS0pKTzJqTjhqYkRyZ0pzVmp5TmdFaEUxQU1NN2tEU3VSUXFpY2tpT05sU01ZSkxTVVZjV3Q?oc=5",
-        "source": "Informate Salta",
-        "date": "Tue, 22 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -18753,13 +18779,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 70,
+    "total_mentions": 71,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 10,
-      "neutral": 56
+      "neutral": 57
     },
     "sentiment_by_day": {
+      "2023-12-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-05-08": {
         "total": 1,
         "score_sum": 0
@@ -19013,7 +19043,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "darío",
+        "count": 2
+      },
+      {
+        "term": "madile",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Es un rejunte para tener candidatos",
@@ -19139,6 +19178,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile seguirá en la presidencia del Concejo Deliberante de la ciudad de Salta - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEdUU3ZENDZDYnpmZGNwTFEzUzd4cldwZ1QwUjFEUTVPTEpuTVJ3R2FmQUxQN1l6R0I0Y3ZLZHNrZ0FuS2FmaHA5dlY3d2xSdUZKUzZsMXhUdncwTXFNN1JnVGFsTWR0dkZnVW0tODFGOFY0Vks1YnZOMnQ5YjQ0cW5za0xaOFM5cGdmTm1oSHJxamxhZHFvQmM5VG8?oc=5",
+        "source": "Página|12",
+        "date": "Sun, 03 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Darío Madile cruzó a La Libertad Avanza: \"Es un rejunte para tener candidatos\" - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeVBHcWJ3d3dNcDZueGxzemJoeVppa0ZYMWJvblhROE9YRzhtNjhzYVZhZGRqR3ZPaDV0UHNhX2hJOGViTmZBQVhaNFJMS0dFZ3lXVFhyUkZURDluOWZycDUwRGxQdzJqZVBkcVFsaUJ6Wm5VemdkR0Q2dUV6aThrVXhtbE5nd01HajhmdktQTjJmcDIxNWN5WWpkOFVvZzdnQ1pVbXM0MkZCSFI2M0pJbkl0cUxTSG5Ia0dieHB4VHVMRVFFOVk2cDNFa23SAdIBQVVfeXFMUEZSSldzdkZTcXJ4NkFvWHJXVFNVTS1OY25DaTJyS1VTUy1nS0RVTkdaVXZ0NXNMc01OWjNicVpmS2dMZjZTcFdQMGxRVU1ka0huRk9Dc3dLMjg4T1Rxa0VWYTJ6Y0N5SWRpSjlBdmxoV21tWHl6OGQ0Z3dGYzdDR2tubUZKUENnRjZsbzBHelA2TDJhaEhBd0RYWHcwVExyb3U0aU9pWkdiUHFSVnFHS3VITnhuMWs1MUFZUkYxWVFMVlpCS0xHX2puQlRFRVhrVHBn?oc=5",
@@ -19340,13 +19386,6 @@
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbGRsZVZzbVRjOFRnTlJIcVRsOTNkckhVTnloNFd6anFZU1NIa3p4UGswakhTT29weEJhR29sc1RmNTZadXVVbGNlOTJPT2FLYlYxNzNTWW5nS3FBcXRRUWtxRkZqNkxicHk2RS1HVGJ2Z1NxME5PRWV1LUhPS1FGMlBsY0xWX3hqSnpPQWp2RTJIeE5XMjFxNUVKYXlrYlJXZ0VERExyWG9UVjZueVpfaWUyTkhKcVNRbWVpSXZZS1N5MjBDbVE?oc=5",
         "source": "HolaSalta Noticias",
         "date": "Tue, 30 Jun 2026 04:35:26 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Triduo del Milagro: Darío Madile pidió a la dirigencia acompañar a una sociedad golpeada - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjhaYmRBdkRkUl9GOVVteGZBaXBVT05iSkZDYmtFSUxyVnQzUGVQN2RyYW5uZlFnbXBTTTY3bVNjM3JjWmVjUTBUSDc0dEhNZXkxQTBOQUkxX1ZCcWVwakJacGlwc0s1WS00U05EdWZUdEU1TDNvdHhDakRwY1ltT3VyMFVqZlM3NVJ5dFVVclJnc1Zta3dpc0xoUTVac3hfYTBKSTRfbks1bEpWRjlvakZEaDMtSlNPa09OR2lJQQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 14 Sep 2026 15:52:38 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20662,13 +20701,33 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 64,
+    "total_mentions": 71,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 7,
-      "neutral": 51
+      "neutral": 58
     },
     "sentiment_by_day": {
+      "2024-04-16": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2023-12-27": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "2025-05-12": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-06-05": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2022-08-07": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-05-08": {
         "total": 1,
         "score_sum": 0
@@ -20813,10 +20872,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2023-12-27": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2025-05-15": {
         "total": 1,
         "score_sum": 0
@@ -20881,10 +20936,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2022-08-07": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2025-05-05": {
         "total": 1,
         "score_sum": 0
@@ -20897,22 +20948,50 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 8
+        "count": 15
       },
       {
         "term": "royón",
-        "count": 8
+        "count": 15
+      },
+      {
+        "term": "minería",
+        "count": 4
+      },
+      {
+        "term": "nueva",
+        "count": 3
+      },
+      {
+        "term": "secretaria",
+        "count": 3
       },
       {
         "term": "elintra",
         "count": 3
       },
       {
-        "term": "tribuno",
+        "term": "oficializó",
+        "count": 2
+      },
+      {
+        "term": "infobae",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Salta quedó libre de kirchnerismo y macrismo",
+        "source": "Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZTJfVmFlVy1Ed2lTcDNpQnFtMGlGRi1hV2Rwdm9JeXpyNnZKOXg0X0hiYTkzM1ROQUhKOWdnS05CQTNfOXJkRTFtcWVJTTZFOWhtNWh0SnVIdDU3SEZ4LVNHV3pMSU85T2JycTR5R1ZhWkNCb1lyVzhGWEVDdE9CbmlzN0JjYkN5bGdhcHpqUWpJMkE5c2tTWGpZaDQ3N0FVaThJRXdzSkw4b3drdVczTmRPSnlfNGV3ZEdIb1F5N1ZUOFF5SDYxQzdJXzZRajB3b2dYNGhzZURnMG92SG530gHkAUFVX3lxTE15Z3NOam5pOXU5N0xtRnR6NllFZXpVNWhaZXhHUW11WjRzc05CSUdYblVrQ3hKc05kNnlNSG9BMGprQWVNZTIwekJIQXMzeC1LNDBhYVZyUGdjaDQ0Wml1ZVFIZVpJMDhNVUVyQy1DLUcxWDRmeTcxRjgzYWl6NEs0eDhCY3Y5bmhXOVBKdlBYQ0NoOVNyNzhSeHhfNFBrX0tHMUx2RkZ4QkNMeFNNVzh1cXZEU29FaVVjSjlHMkJSd0FvejBRVkphTlE2YXhBQWRPV0hVYmprMWY2VlJVNjFWZkw2Mw?oc=5",
+        "date": "Mon, 12 May 2025 07:00:00 GMT"
+      },
+      {
+        "quote": "La aprobación del pliego de Michelli demostró que hay una oposición constructiva",
+        "source": "Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdXROMVZ4Sk00U3BXaG9BYWx0cFRfRzRkTUc5blVwdmpkME52eXdrSzRNUnF2MDc2V2VUem9iQ0wzQkJYRzBrX0xlcEQ5MHZMS2tSclo1eGV6RzdyanU2SHBybHpWZFVFV0h4OFR0NVFaX3VPcTNQTkVVMC00bGZDTnY4WVBqQlAwaXlfZzlFZ0NMNU5Gc2hpVEdUOFhmMmpLcHQ1cTNlUWJqeF9laG1XZS1xVmJwT3ZzOE1CbnVIQzhzTGxaaUhKZFVZNEpEaV9VQmh5RmNyVjBXVGtERXZuSm03RjZuY281V0FZ0gHwAUFVX3lxTE5iemI5STdONDF3T011X2VmSkdtRHRGTmJJV2MtS0hicjlHOGNubjNmNGZoRGVDanZpWXh0WF9lZFNqTkRJbEw5UTF1Ym85d0dfeUtTaEVxOW9ybDhjZjEzQ2hscElsOHFUQ3pGQ2RqdzFkWHRPOUE2ZF92cDM2SktFeEpIeWxkNmVBN2RER1dJZXB4Wkpza1RNaW9xbHhaTXFpMHlBZ1E5aV9Xb3ZSeVg0dWhLY0RKRllvTTd2aVZUVXpDQjZNM0JjSjd1RElYeXRYaWliNzJLclJpb3ZkaHc3c3ZESDhUeXFxNnZGcXdRRw?oc=5",
+        "date": "Fri, 05 Jun 2026 07:00:00 GMT"
+      },
       {
         "quote": "La Legislatura es la casa de la democracia, no una sede partidaria",
         "source": "Voces Criticas - Salta",
@@ -20990,18 +21069,6 @@
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc21ZQVkwMDRTUGM0SDNpQXNJU2NzWXczUHJ0ZGRBYS1rMDM4djBmRUN6U0dqSk5JTzhZSmNJMmVaQXVCNl9MX05fcFhDREpSRkpBcVl5QUM1Zjd1eE1vLXdMU0pvbDVSTXpFc0RscXFsejdSZHN3aURicEFDMV9LWThZZmJtcVFvZ3dmQ2dJUDdLSTNHQnZkLUw0Q0hRZkN2NHFEVTl6anc4dUpmYWduQ1ctM0U1Y3UtWW9fbGZNZEUtclFmYTBKdWdUdFJia2fSAd4BQVVfeXFMUHE1cGdvRG8xUXJlQzlhcjk0N1lUaHUwM05xUVVlcnl6TzctemVtdG5ZMjhvazlqQUpYNkdXbXNXOUxYX0Jrd3VZZTRmeHluZEI2VmRYeVRTY0dLTktPeVBGT3djUVhJX3c2a1BjdlJhNVJiSHkzQUItZ3BweERQT0xQb2RxelAtN3ZHSm9NbU4zYW9WWEFsT2NvYlZfLUFOdk14NzN6QnNQcWM0LTNsY0tnOXBoWk5MY19RTmJwQVlQY1l1eGRZQVhfaEZvWUwyZGw5enVVeTBzMEJUNDRR?oc=5",
         "date": "Mon, 25 Aug 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Hay que flexibilizar, sí, pero sin precarizar el trabajo",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOG9PcW5jenRpdFVzQ3daV3AwMkphWl9RUG5TVlQweU9PWF9tbmk2Rmx6bXN0MFlDcjNvWmpHQktpQ2ZEUS16dTZJVkM2dG5qTU82cWZzMWxtRW11NFdBV1RtNmNMdnhOQ1RwTWlUZGQyYXVseF83UHFWZW5VcTlSZFhzRDNqblRjVWZlNjB2MGFwY3pubnFReUVUdnVPckhkZVdKWXl6ZnBMclZnQVptdmV3ZU1GcnPSAbwBQVVfeXFMTl9vNlBzQ2c5cDJ0UGwtZ3poSjF3Vi05dmFtT01LLU1SaDMtNnI1QWFHNXhod0lES0Npd3VMWm5zQmlKN2c2QUNHX21Kb194UldrNEtHQVpzR0RMVTVabWpIQ1ZvZjI4N2wxQllDZTh4U0Q0eVJjV1l0ektDQ09fb3Z6Rjk3cHc0OTZhVmZGTlNFdm9IaWlCbXBxWHNQZk9kMWREWk9JQlUtVXpZVDM1aHVCWjB5eGFTUmN0V2Y?oc=5",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "El país no puede seguir en esta bicicleta financiera que no genera trabajo",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeEFqdjItUnBncExJRUkxQUFKcGdjQWJ4cmZNRXJZcVMxZjZFRXZZdWxKalIyZTd5SW5SNGpFYVpJRzNTN3RjbVhCeFJBWTRSdnRfQ0RoTDFxeXlPb3NGQjVXUEdnNlkxZFk0clNESC00OGc1WnN5c2dsWnJSQUxWN3k1RDg1QnZuNXRhYmNlejJjQzlBbW5wTGJGNU8xcUhLR0lycHpPYXVhYlBTNlgzM0RIUzBsYk5tc3pZLURaUmZiTDNnRDU0TThpMTZtTkN4TVFwaw?oc=5",
-        "date": "Thu, 16 Oct 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21025,6 +21092,55 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Tras la salida de Flavia Royón, el Gobierno oficializó al nuevo secretario de Minería - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeS1la29UbC11dFZGVFlmc1h5MjE1VHZZQkU4ODBuR1B2Uy1JeXc1ckExSmNXR1ZpTktZeGdvYm1fLVB4SnVoV1pMNnpEek1BTHNVdjFSS3JDZXlHODZyUEVfOVlxYlRyYmVHV1FPaEc4WjNmYlNIdHVUcS00RUg5Vkk1M2drei1ub0xFaVJSWnBiWkZhTGR5Vm9MUzN2NnhqU1Jsdzk3VWF3OWhaazZmbVczdFhzUzk4SG1CUjdQbTM0WlgyUEVySdIB4wFBVV95cUxQaXlHZzNVMjZSeUlfYzdJRW5uYTA4WGJzQ3liZDJZR1ZkRHlUVUlrWHpQZG5TRjdlZ1Y5TkNMYmlwRE9YYWN4QjBBb1pnZzhKcW4zbGF3UHo4Z0dEQjYxaEY2dWZpOHlMZWVjQ3AzVFVLcGJyRzF6TWNraG9JaXZYTkoyWlNJbnZYM0xTVlpucEhqMzltSWdaUUdtdUVVR1FINk9EOWxKWTZWSkR4TU1YbFd6MjdqZ1A5UWU3TjY0S3BOT09oSXQ5UC1SQmNxVEl4NmdJcXJJUTdDWXVOR09Tb3Zocw?oc=5",
+        "source": "Infobae",
+        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gobierno confirmó a Flavia Royón como nueva secretaria de Minería de la Nación - Ambito",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEFRdkZlN0pJN1VXdG9hLWpqS3FFNTI1azlNaVFwdjN6LTMtNVRPQkYtMDFhSUQ1WktRdFo3aHJJVHlIZnRZUTF3QkVYNnRhYk1ZWDJPcUl2dVFBbFNpR2ZlajgtaUZkWTVMaWRGZEtjTEJJNU1NVXM3RDBnUVVwQmw5cWliZFRWTWFaaV90WnVLN2lXSGpvd2JR?oc=5",
+        "source": "Ambito",
+        "date": "Wed, 27 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Flavia Royón, diputada electa: \"Salta quedó libre de kirchnerismo y macrismo” - Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZTJfVmFlVy1Ed2lTcDNpQnFtMGlGRi1hV2Rwdm9JeXpyNnZKOXg0X0hiYTkzM1ROQUhKOWdnS05CQTNfOXJkRTFtcWVJTTZFOWhtNWh0SnVIdDU3SEZ4LVNHV3pMSU85T2JycTR5R1ZhWkNCb1lyVzhGWEVDdE9CbmlzN0JjYkN5bGdhcHpqUWpJMkE5c2tTWGpZaDQ3N0FVaThJRXdzSkw4b3drdVczTmRPSnlfNGV3ZEdIb1F5N1ZUOFF5SDYxQzdJXzZRajB3b2dYNGhzZURnMG92SG530gHkAUFVX3lxTE15Z3NOam5pOXU5N0xtRnR6NllFZXpVNWhaZXhHUW11WjRzc05CSUdYblVrQ3hKc05kNnlNSG9BMGprQWVNZTIwekJIQXMzeC1LNDBhYVZyUGdjaDQ0Wml1ZVFIZVpJMDhNVUVyQy1DLUcxWDRmeTcxRjgzYWl6NEs0eDhCY3Y5bmhXOVBKdlBYQ0NoOVNyNzhSeHhfNFBrX0tHMUx2RkZ4QkNMeFNNVzh1cXZEU29FaVVjSjlHMkJSd0FvejBRVkphTlE2YXhBQWRPV0hVYmprMWY2VlJVNjFWZkw2Mw?oc=5",
+        "source": "Perfil",
+        "date": "Mon, 12 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Flavia Royón: “La aprobación del pliego de Michelli demostró que hay una oposición constructiva” - Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdXROMVZ4Sk00U3BXaG9BYWx0cFRfRzRkTUc5blVwdmpkME52eXdrSzRNUnF2MDc2V2VUem9iQ0wzQkJYRzBrX0xlcEQ5MHZMS2tSclo1eGV6RzdyanU2SHBybHpWZFVFV0h4OFR0NVFaX3VPcTNQTkVVMC00bGZDTnY4WVBqQlAwaXlfZzlFZ0NMNU5Gc2hpVEdUOFhmMmpLcHQ1cTNlUWJqeF9laG1XZS1xVmJwT3ZzOE1CbnVIQzhzTGxaaUhKZFVZNEpEaV9VQmh5RmNyVjBXVGtERXZuSm03RjZuY281V0FZ0gHwAUFVX3lxTE5iemI5STdONDF3T011X2VmSkdtRHRGTmJJV2MtS0hicjlHOGNubjNmNGZoRGVDanZpWXh0WF9lZFNqTkRJbEw5UTF1Ym85d0dfeUtTaEVxOW9ybDhjZjEzQ2hscElsOHFUQ3pGQ2RqdzFkWHRPOUE2ZF92cDM2SktFeEpIeWxkNmVBN2RER1dJZXB4Wkpza1RNaW9xbHhaTXFpMHlBZ1E5aV9Xb3ZSeVg0dWhLY0RKRllvTTd2aVZUVXpDQjZNM0JjSjd1RElYeXRYaWliNzJLclJpb3ZkaHc3c3ZESDhUeXFxNnZGcXdRRw?oc=5",
+        "source": "Perfil",
+        "date": "Fri, 05 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Milei oficializó la designación de Flavia Royón en la Secretaría de Minería - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV2tkaFdjVVhtOGY4ZTVKLVRtUXNHUlh1cVpIZVh5Zm5DaUkyaGgxTVpNbmFiOVhuVXFNT1NUYmtfUlFyQkkwWWJMRW5WMUFjM2FFU0U1SzVwa1pEcFZ6QXBnX3VyOWE3YkZIck5WM29LRVZYNGNDV29faXRSNFg5UzNzTE9ZR1A3YmNDOENYUlZyLWlJbDhxMmFqd0Q0b2ZadVpTMGpHLXJGcmV1M25PZmRCNWJfbFJia3RnadIB1wFBVV95cUxPdVJIVG5Fdzlwc1plQS1WQVZjaDZZOXp2SFA5MWduM1hSMWpLUkp6S3NZSmZBRnQ3ZFdRWmdBWlF1Rm9WS0RkYjN0UDRRTlgyMjVRR0VxZnhOUUo3S21tMHJrdk9rQmpSaUluMkYyNlEzSm16UUpDalg3UzhCbmNBbk93RGZ4NDFYM0h5U1ZIaTFod0ZjVUdkcXFYbDd1RmpVT2l0Nk90TVJPVEJ0cmVNZ3c5bkxPcm1TY1BsWjRqUFpuOTV1dURyZmhuZmZLcUlLVm9BN0F3bw?oc=5",
+        "source": "Infobae",
+        "date": "Wed, 27 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Quién es Flavia Royón, la nueva secretaria de Energía - Clarin.com",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGVQdk1ZVXhzWTd6OTY5NkJmZVlEcjU2U1lSN2ZSdG0ySWRkWFZKTDloNkNWbXhqVWpiRGJKeE9jQXFoR1hLNl9sek1WN2hlNEN5bExLTHNhUlFvdmNzWTViR21RN3otTkFhS091Y2JmODlZaVJicHR6VkJvdnR4bEQzbnZHcng2UlZRNEc2ZHE?oc=5",
+        "source": "Clarin.com",
+        "date": "Sun, 07 Aug 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Quién es Flavia Royón, nueva secretaria de Energía - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmItQ3hVMDlORFBFaTBiMDFYakFYNDVaUmlVaV9COWRmRm9mZGFlOEwtbkMzMm9iblZDQU1mVDdjdVdkQ2tSLV9jbmxwYVoxbWlEbkw5VkdGYlU1VjFpejNaVVRqdHExYjJqajBMd1NRUDdNemFOQkFKTk1fTmpFMkN3SkhPcXBKUDcwd1Bn?oc=5",
+        "source": "Página|12",
+        "date": "Sun, 07 Aug 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "|VIDEO| Flavia Royón cruzó a La Libertad Avanza: “La Legislatura es la casa de la democracia, no una sede partidaria” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONTZKQVp6M3Z3WGtqdG1sWFo2MzZ1bHdRS3dUUy1UUTFtQll2OGhoUW1JQWhRYWptdElCUjlKTUwzZFkzbE1Hd1FySnE2MkhDSlZseUpUMWtEUlV5RnNoaEl6SVA3U2NhZ2daMUtxblBhZGV2Z3RLT1Z3S05WSkdtaHRSSDk0X2RNVm54NVY3RE1wS1ZqeEE4RU1iblNCYklla0had2FIdVRLTmVSOGZDWDg5aUJ0T3dlMFpFb3hmbUVtSV9BRXdqYmpiOUdpOHI3TW1tbEJSQlp3Z1FpeTVleTVBamxhckZnYklvSDd1ZWtqdDBXY1Qtb0NXdG7SAYICQVVfeXFMTXZRYXN4WmhLU09paFlaVk56RHROQVVKSDdGVFUtZjgxaGJEdnZxNWNVNFBzYjk0NXR5aVo2bnZYQ3VWUllGb0E3LTZhVGVuSElUSlBGZjJpdW1LS1ZHU29MZTZfY2RlTVVlcGk3dXlPVGRMb0E3dnNWRU96eVFVeG1ZY3hxdVBzeDJtTHg2SzVIMmVCSjRoVnk2aGhJYi1ONEdwQ1Q5R3VsQVc3TG5hNUp3eHU5YkhNWGk3YW42bzVCX19VbkZFZjJQZEpaWVVKclRLeVlzRmVBTGNEVVRZMlFZNU1hYW5HYnY4MHJvN3RxS1lCN1B6cXBEQkZDLU9vT2VR?oc=5",
@@ -21185,55 +21301,6 @@
         "source": "Elintra.com.ar",
         "date": "Mon, 13 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón considera que «hay que dejar atrás al populismo porque no funcionó» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbllNM1VtemNwd1lHVGFYVVVDZHZXSmlBVFRHblNHRmM4NDB4MXZqM1pSR2lURkhyWm0xTlFEVGx3Y1FpU2s2blMzbHZxaUhpclR3WkVsVTJpWm5ENDhNLTRFT1NCOC1td3FEN0YtcjlLWGFmWXh2cU53alBmbTRyNk5kZDYtbFM1LTMwQ1QyUEt0Q1pqNkMtSDVzZkFZd3JnY21NcUY3ckF5X0lwNVo4a0tSTQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 05 Sep 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gran reconocimiento de la Mesa Federal de Proveedores Mineros a la gestión de Flavia Royón - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWUtTNXNvVnlybFREZnRmZnhZd0ZONkVUZE1XUmQtbTk4VlpXczJvNTZ1a3ZzTDYzcFV1aWNCQWNLZGNZeWJnSjBCSmFUNGQxaEczQlEzUmx6S0x5QXRBSmQ5QUt5bTdVRVhKcjFFazhTNWJCSWJlSlowU3RRMkFMV3R1YlhxdFMtc1ZGQ19qaUdEMVZYTXNmWFV3NnF3b1FIMU4tOTNDZER5bDhVWVlyR21qaVloeVpfWXZGWXZNWnAyc3M0a3otU1pNbFg3WWptbUJ1LXRXRQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 13 Feb 2024 08:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Flavia Royón presidirá Minería en el Senado tras ser sobreseída en una causa por sus vínculos con el sector - Gente de Salta",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTFTcy01Rms1OWwtV2I1dUN0ZkZFZHE1SXkyX1g4TmRUbVF2TFRDNG5iNUhSNkRVM0xUNnI1VDhrLWpRZTFoMFRueGE3WGtlWHE0bEc3Tkx0RzRVMFZNZ3NiYnhodVlfZVBwbFN6NzFBd25CeHU3aUhvLWRfTWx1cFlnWlk5ZXMwWDI5OWpBQV9yajVWVmdweVJqTGFPNUw0d1c5NFVhaHM0cTY1cmkwRm9CNFdncG1BT1ZidjB0SGJnMVlISURMeGFudTbSAdIBQVVfeXFMUEZiWDVpRGFVbTVOTEtHTmtPUnJ5LVRqMGJ3SW5wMXdUeHQ1U2g0NFEtd3IyTGYtZ3djMHFvUFRHVEZXY0IxU3VhVmpwaEhYam1aTmlqWEVPYVAwOWMtNlVIbmJsTi1WZ2dvajNEVDdHeG1PbkZPZnRiWlFyeEw3dHpyTUVkeWN0RnQwT0ZHY2d4MlpLUm5oVExhYXk1MHVrTlpnc25ZZ3VxY2xlcHNGdDdxTU9DNUpkUkFVMkhlOFhvSENORkZ0MjN3MVpPMEJfcXJB?oc=5",
-        "source": "Gente de Salta",
-        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSNGdNeEFHb0NUeFc0WS00S1V1OXczaGx0bFVqQmJrXzhfaHNiU3lqOVVTRUJEWllhSjBQYUVGQ05kRmI0amRxaHJFSFB6N3ExeHgtN2NR?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 08 May 2024 14:05:21 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Flavia Royón: \"Están reteniendo fondos para sostener un superávit que termina siendo ficticio\" - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWW1oWlRFY1AxS2VWaDA5RzdxWWpJckZPOFdvTVc0VWRobXRJSjBPMko1cnZRajgyREFHWVZObjA0ejZnX1UxQmFBSE1TREFpZnhlUHNLRWR2N0pHYW4wYVdpMHJtTkl0cTFwZEdjX1NwYVV5cmlZQ3hZN05pSHlOYmcxbmNNM0JtbmlQemFsLUZYS3R4QkZib2hCcGJIaVNISGJjN0tmcGlKTE1XQ2o3OEYzVHZ3cFdrNURZTmZId2xfUUI3Z2NmeUpfejBBZ9IB0wFBVV95cUxQcXFpQjlGVHBPU1MwRDFPNUVrZGZjOFRIdXZQdm1IVmhQaC11RVVnTEwyTjBSNGV4ekxvTEI3RS1mWC05Y1pjcDZFRWlqbUs0al9EQTlJMjR0TGtyYVdxZWxtRGZfYUVSWEo3WTBDbWRNSE91LTQwTE8wanlzT0hpUmFMVWZjc0JwYzhPSGFkY2FvU2hMWGxITWh3bjZpYldfaFlvU2NYcEVHVjE5di1RQ1p5bWMxWXM2OVVSRUpWRThxenljOTJ2aGJFampwVERnWkln?oc=5",
-        "source": "eltribuno.com",
-        "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón asumió una comisión clave del Senado y llamó a construir una agenda energética desde las provinci - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZjlYaDRseTVtdkd3SzlFWnJySUZlbUJHRkZSdEhDS0g4UEJ5MGtuWWpGUUR3cjhPREstbW9adEtDN2NBeWtJbTFKUzl0VFRIeXBUWklOQkVQS1ZjaFNDbjQ0SHF4Q2JmT3ZoRDlDVnVUajhLWXd4WTFUS1M1c1RiNFhLVlhSc0c2MzlKUmhtSTdTcVlkc05qVmFxYmpBN0RVZzRIblNzVnBoSlVidUpjN056UnFJbnU2d1pWV3lVXzI0dS1GYXVZNkhOQUU2a0RwOWtHS2N5aTdUTGUxWUUyQ3NPU2dfeGlXQXZEUnZIX19Fem420gH6AUFVX3lxTE93OUVfdDJWMXhTUHZvVUxKam1PSG1nOTBNTVFIZUhWemlFY1kxaEZuVHFhdFR3ajFDaGl5c0hxT1NtaTN1NUJucS1WQkxDTDNOSGVTQ0xRWGNzTGdwQ0ZtNXNlcEZJeEd3dThVMTd1Z2xOcHFjelUzTHU5QjJ2TVNFSlVvSHpzWjFwWGhqXzRvdWowX0RQLWNyVmNRTDA3djY3Z0VzbnlZcnRmelhsVWdOWnZzY0Rpc3AxT0g0VlEtQTc0Szl4UklLeFFpWTUtZld5U2w0cGtMRkhmUmdqRkNqMEpmT0ZEVUgydkdKU0xtS3h4cFM5OThqUkE?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 27 Aug 2026 01:46:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Flavia Royón: \"Esta elección es la más importante de los últimos 20 años porque define las reglas - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVnhsVU5yOHE5M0tQWC16UV9DZ0psdmNlT1EzQ3BrNWcyRkFqWWJlUksxdkEyNzBlYUs2N1Y0ZWJaaXFQWWdkVG9CeF8zTUVDUE9tSUpUbXdJbXlNMm91UDZMT1U0VDF5MV9LTnRWcDIwRFBaODQ1MTMwcU40NlMwb1ZuYWkyVHBZakE4RlNabHRhc3pMakxyeWxadWZ1YmNZYkdSOVdzdlo4R3FfMjJtYURhaHJkNUk3ZTdzQnZZM2xiaEhFWklJQmg4a2NSSkV0T1RlZl9ndXB3ZVZKeVRaTzZPTFdoV0FKWmFnR3FTOXM4TGxzVUNLUE1aSXRSZTV6VUYxWDFn0gGLAkFVX3lxTFBfYWJnamFpaURIV1hWOHN4Tk9BeHBuTnBBMlFVUlRuMkFRNVl4RkVHeVBDVEo3WXJxQWtLM0tpVzRVQ1E3aEFfdDdiaWZ2TzhWb0hmb3VKY3h6NGI4TFpYWjN4Yk9UblVHb0t2Z05YOUhaZzZDRmxNTzFqa21acHNwSkxSUnZuZ05mTERNTGR1V2FtM3NVZE91SHBYeVNmamU4ZHFMQ0RWRTdhZVl3RDZQcE5qUWU2OHFTN1NXaE50R3hoeEJaZzZrNnBaTnNfdGZoelIxNjFGV2l3enVqLUY1U1Y5MXJDblRXZFZTeUVQckdMSjN6X25hVjUzdUV4MDlnUHNUN01mVHFQdw?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 28 Sep 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -21241,13 +21308,21 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 52,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 8,
-      "neutral": 37
+      "neutral": 39
     },
     "sentiment_by_day": {
+      "2025-05-23": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-01-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-12-22": {
         "total": 1,
         "score_sum": 0
@@ -21436,11 +21511,19 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 5
+        "count": 7
       },
       {
         "term": "orozco",
-        "count": 5
+        "count": 7
+      },
+      {
+        "term": "libertad",
+        "count": 3
+      },
+      {
+        "term": "senadora",
+        "count": 2
       },
       {
         "term": "milei",
@@ -21451,15 +21534,17 @@
         "count": 2
       },
       {
-        "term": "libertad",
-        "count": 2
-      },
-      {
         "term": "avanza",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Senadora de cartón",
+        "source": "Página|12",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNHFWV0tEVmdNU1JaTDBWQVlxaTA5YTRBRHVFWDJoZWNfNmlfNHotWHpZOEN2OXljYkh4cU1BdjJTeDFDLWpMV0RHSEFwcW1UZER3MU1JbF9RaEtjLVhvWXZkTGJJTzc4LWVFOUQ4dlkxYV9kZFUyX3lYRTNVd2lTeTNRUFNILUtVNVNUWGk4aVJNYTlZbkVxYVFVaVlQbDNTNzk5S1pvLWFxeUdGM3B0R2tQZTFvREpfMFhFcEJGTE1GNGxfdmc?oc=5",
+        "date": "Sat, 24 Jan 2026 08:00:00 GMT"
+      },
       {
         "quote": "Si hay un perdedor acá, es la Argentina",
         "source": "Elintra.com.ar",
@@ -21543,12 +21628,6 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV09nTDVVbDlaZ1NNVW5pRm1zQWhrdkVCLUFmQy1NVEFlUE1hLXFCVGR5SzkxdTl4cXp0N3JkMnBsRkwxWHJyOGRWcmwtdm9GNDZ5UXBuZWxBS0JnbzBPQzdmMnZHNVlweHl4R0Zzc3FPd3IxN2t3SUZHMkVCNVNUTXItc3lvRGVhZmlxOFB3UFpJczRvS2tRaEJsMGRVcDNVcGY3X0ZnWkhWNmctaGk1SGJCS2ZNVHFTaWZpdjBMcENlbEdHMlVTb1BOTDTSAdIBQVVfeXFMUHNxbXlQVk1FWTZhUG5sRkVWdmJzYmxpVXZZcy1qWkhyQ1hkWGxWUUtIYUdzQW1XRC1keWZxQ2JDcTVOMGQ4c01NQ2VhYS1VT2F3SVlMSWY3cVRUVks5QU5Cb2o2b0F1RlZ0SzNkeDRZcDQ0MWpXT3hwQTMtZ0w0ZFhUcExaV3ZnNDhRbmRHbXJyZVRndkZOa1NMSUo5RTVJdnR5ZU9CaXNaNnB1ZmlfTDVvY1pEcnpsRlFPRWlJXzlncXpwQWgxQzhrNmF0ci12eENB?oc=5",
         "date": "Tue, 23 Sep 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Estos gremios le hicieron muchísimo daño a la Argentina",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUEJqVWxCODNqU3draUlpWXRhZmJfQ2tMQjdfbXJQc19oMHVwaHhxckhodDlELUdPdm1mcXNzTTB0cUl5QmV6UFlQOWIxUmVqcXJEN0Y2RXR1eUljQzgxdko2MG90bnpIOEZuWTNZd0dVMk1GS0pVOUhud20yT1VTb1AtMkpaY3RWaWRBT0ttWEMwa0JUYzl4Q1QtZzlwWDhyT1d0SDRBLWJDRVpmRnh5VE14QWhIQ1lLcnfSAb8BQVVfeXFMTXZZZGlDTW1DYXNJLU84ckY2RDFLODA1Mm9GOGpULW5COXBsVnpHOThoYVJGYnd1VXNYeXE3NmdDNjVkMkU4NmxWQ0padTVWTjJwaVNzcm1GOG9JM2tPcksxU3VaOUtPQ0VkdGJBdkR1SklkaWVMdkRBSTFIU3BwSzQ0V1Q4SjdYS0xQdVhTMWRPRnB2bXlmOHFTVlBMRHQ3UFBXMXdCeXczRDF4VHZvU2JVdlAzLWRFV2R3MkJNVTQ?oc=5",
-        "date": "Tue, 23 Dec 2025 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21572,6 +21651,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El silencio incómodo de Emilia Orozco, la diputada libertaria que preside la Comisión de Libertad de Expresión - La Nación",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcHNCd0ZUeC1DYmx2VnE0MGpqZDZhWTNlMDdJUmwzQTZLN0FHNW0zSklmRG5POUlJR3F4bDViUkZoek9mMk1ha0JFZmxhXy1TY1pnNzFUZ0tlWU1RQV9ldXpTcFZybTl3VXpnSktvMTZIX1NhMWhBYzBjUlJCWEZwZTQzWmdER2tBRkJLQWpfYmhzM2puRzRqcU56c1JJMmVIWlZUcFVVMHVTZ3RWWF95ZkFfRXFMNDdrYzY3Z1Z4aWYxU1RudlprTUJIbXpmcXJQU2VtRFZwT0NGdnFWZ3g5RlA2SQ?oc=5",
+        "source": "La Nación",
+        "date": "Fri, 23 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "“Senadora de cartón”: El caso de Emilia Orozco y el debate sobre la realidad del simulacro - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNHFWV0tEVmdNU1JaTDBWQVlxaTA5YTRBRHVFWDJoZWNfNmlfNHotWHpZOEN2OXljYkh4cU1BdjJTeDFDLWpMV0RHSEFwcW1UZER3MU1JbF9RaEtjLVhvWXZkTGJJTzc4LWVFOUQ4dlkxYV9kZFUyX3lYRTNVd2lTeTNRUFNILUtVNVNUWGk4aVJNYTlZbkVxYVFVaVlQbDNTNzk5S1pvLWFxeUdGM3B0R2tQZTFvREpfMFhFcEJGTE1GNGxfdmc?oc=5",
+        "source": "Página|12",
+        "date": "Sat, 24 Jan 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Quién es Emilia Orozco, la senadora de Milei que truchó una oficina del Congreso - NewsDigitales",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTJjdVQwQzlTdFdlMEt5WXBMNWRHTF9fMEJoTFFHbXVRT1pFTlJPNnk3bjloNHVWSlpUdUdKVGs4dWVMem82UHJZa3NEQ3N4UTREOU5VbXJCQUR5RktDc0VQc2UxdjdlUlpTbzVza3RXUWxENm1wV25sWENHcmlBdGRzenU1eUx4b0VrTzhvQzVSR1lzY3NKR0xOZEx0Z2VmNEZiTkJQS0xWT2NpZDg5X21DM3hON1daNUtnS2lLdw?oc=5",
@@ -21767,20 +21860,6 @@
         "source": "saltacomparativa.com.ar",
         "date": "Mon, 27 Apr 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Con Emilia Orozco a la cabeza, La Libertad Avanza inauguró un nuevo local en Orán - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0lodUtmaEZNTy1RVWtFd2xzblJfY2FzaG9Qc0hPX0ZaN3d0cXd1aVA4bVZ4eWRRLUpiQlY5bk1pOWw5R0dHTDZFMEZWXzJlUlVBMVBwdUVXTnczT196cE5lVzlJUHMxWGdfWGc2S1NzdTZwU3dHTWxncjBubGRIVU5nYURUMnhSaG5aUGRlcUNnZnJsZG5yMjFMNTMtVWhQNVFIRTFaS0RNdjB0RjlneUo2aWstUQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 28 Oct 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Denunciaron a Emilia Orozco y Carlos Zapata por el escándalo Anses - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb08wejRDSFNHSEVOdHIxbV9zbTdLcWVTN0huQkxFSGd4WnQyMlhLTHg2ZjNqa0ltc25Dalo5aGJBN0x5eHQzMHNuS3NlRXlFdElqc2Z3d29EZWl6cThiU2xuT3NOZVpQbXVmY1cyZkgwUnhmOTVkbHJ0bVZIdmxta0V0ZkhaZEV4U0lVQjZaeDJ0R3pKM0txZXVzSlJNMy1CMzI4?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Sat, 14 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -21788,22 +21867,22 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 15
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2026-02-27": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-10-10": {
         "total": 2,
         "score_sum": 0
       },
       "2026-07-20": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2026-02-27": {
         "total": 1,
         "score_sum": 0
       },
@@ -21874,15 +21953,15 @@
     },
     "top_topics": [
       {
-        "term": "orozco",
-        "count": 3
-      },
-      {
         "term": "guzmán",
-        "count": 3
+        "count": 4
       },
       {
         "term": "coraita",
+        "count": 4
+      },
+      {
+        "term": "orozco",
         "count": 3
       },
       {
@@ -21953,6 +22032,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Video Gonzalo Guzmán Coraita defendió la reforma penal juvenil - Clarin.com",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUy0tYWZlNkNva3EzbHdLYk5YbTdmeWRsODA0a2FBa0xRY04tOWpJUktNWHExWUxXM1dKa2ltWnlJNUNmdVg3eEhwYTB4M0ZCQ1d0cXp3TmhzelVfRjNTSzV3MXJGeWhVeTlhYmg1dnhsSzJVY1ZFNVlCZzJpQkJoUWFtU0x0WGpBYmV6ZGxnbGhJSEpQaFB6MVlTQ3dPSmVfbWNF?oc=5",
+        "source": "Clarin.com",
+        "date": "Fri, 27 Feb 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Orozco, Guzmán Coraita y Cornejo en Vialidad Nacional: Salta es la provincia con más fondos asignados de Nació - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWndpR3dEZk9hczJkdFl6XzdMRG5hXzdDU2VnaUMybUI1bGtacEtHT002RVpVcW5JTlNHOGhrZ3FOUTFzTFg4dHRKdU1qX29KemFsWDdEQWZrSHZLNlptVTNzWGd1UjRvSU9vTVlJZklaV2RWQUx6UC1LbGYzdkc0ZVlKMmJxM04wN1VkRnJ1T2JCZnpGVS1oQW16OFlodzRyZURGeFRJd2ZXYjhrVVNhSGR3QzZEbE5BNVN6eDdPTnRSUjNLbUZlM0otUFV2cVM2WkdhWDNFb21aWmVzejlpZVo2aHVNU1QtOWhJb3NJWTnSAfYBQVVfeXFMTkwya1AzVFNzZF9FNGNXOWpaeUo1Ti11LUltVG9mWk9LTHhETWlyU2k0ZXFtSGFlNkNnXzY4V0lESWkyX19OWXpPdUM3MnI3cVNESkx4UWlydzlMZVBteURUekEwanYxX3JTSzdXVGhCNmx0NGt3QUQxbkplN0QtblFLTlZrc28tYTZQelRSS3hCVXhKcUEyaVF4dXJZai1nTExfenE3QWFlWE9DbHNFRFNGZTE4TUVTT09TdnRYTVJJT1NJcGZUMTJRU25obTF2RWVrNGtmd3pQNUdubW5BRWNkWkJmZmdOUzVrMk9yZ0YwcGVFd2tn?oc=5",
@@ -22571,13 +22657,17 @@
     "id": "dnac-julio-moreno-ovalle",
     "name": "Julio Moreno Ovalle",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 2
+      "neutral": 3
     },
     "sentiment_by_day": {
+      "2024-09-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-01-11": {
         "total": 1,
         "score_sum": 0
@@ -22587,8 +22677,27 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "julio",
+        "count": 2
+      },
+      {
+        "term": "moreno",
+        "count": 2
+      },
+      {
+        "term": "ovalle",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "En la pandemia se hacían grandes reuniones y nadie dice nada",
+        "source": "Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNF85bFNkN0VMakh5eVdZdXpoUjltRk5VRjR0X25tYURSQ0VSTFFnSWVVUXZqMnFaRG1xOGlCMm9HcDA0MUNMYjJWb25MYjR3UDlacDZqLVlWTFNob2swdGctV0NYQUl2OFh3aXNCM0hRUFRYTWJOZXJoV2w5MTk1ZDFsZ3BoLURtOC1vQ3d3MnpMZWF6bHRiamx0WlBKNlU0R095cE5FOW5HZXBuWXg2OHJiSFg4alRQVDhDQWtYZnZ5clp5azIyUnl3SnljY1BzTXBCTVNjMVVHQdIB3wFBVV95cUxNakZSREp1TERod3Y0VWl2eE0ta2RlM1prVFEtQXpvUGdtLVBCZTMxSm5nMzQ4OF9LWjhmY0dDRkNfTWhzcjZMRXVmbHdFUjltZjZpZVVmRE1HMDlMVFQ5UHBoVlR4Z2hlRTFZdlhldzA1MWl2OHRMMkNqLURtNHZodWl2SmZBaWI5Sk1OWnBuMUNMQWhWaFJJVmkyYUlkMHQ0WndtYjd4UXJGQ1pxMlM4SVgwUmFhMEVWbUNmQlJHMjg0eFFGNWM1SU81VVRpRThsZTdwY2R0UXlNMzVGMk1B?oc=5",
+        "date": "Mon, 23 Sep 2024 07:00:00 GMT"
+      },
       {
         "quote": "Tenemos que apoyar la Ley Ómnibus, que va a refundar el país",
         "source": "Voces Criticas - Salta",
@@ -22604,6 +22713,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Julio Moreno Ovalle: \"En la pandemia se hacían grandes reuniones y nadie dice nada\" - Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNF85bFNkN0VMakh5eVdZdXpoUjltRk5VRjR0X25tYURSQ0VSTFFnSWVVUXZqMnFaRG1xOGlCMm9HcDA0MUNMYjJWb25MYjR3UDlacDZqLVlWTFNob2swdGctV0NYQUl2OFh3aXNCM0hRUFRYTWJOZXJoV2w5MTk1ZDFsZ3BoLURtOC1vQ3d3MnpMZWF6bHRiamx0WlBKNlU0R095cE5FOW5HZXBuWXg2OHJiSFg4alRQVDhDQWtYZnZ5clp5azIyUnl3SnljY1BzTXBCTVNjMVVHQdIB3wFBVV95cUxNakZSREp1TERod3Y0VWl2eE0ta2RlM1prVFEtQXpvUGdtLVBCZTMxSm5nMzQ4OF9LWjhmY0dDRkNfTWhzcjZMRXVmbHdFUjltZjZpZVVmRE1HMDlMVFQ5UHBoVlR4Z2hlRTFZdlhldzA1MWl2OHRMMkNqLURtNHZodWl2SmZBaWI5Sk1OWnBuMUNMQWhWaFJJVmkyYUlkMHQ0WndtYjd4UXJGQ1pxMlM4SVgwUmFhMEVWbUNmQlJHMjg0eFFGNWM1SU81VVRpRThsZTdwY2R0UXlNMzVGMk1B?oc=5",
+        "source": "Perfil",
+        "date": "Mon, 23 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Julio Moreno Ovalle: \"Tenemos que apoyar la Ley Ómnibus, que va a refundar el país\" - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRnFONVg5TzRaemFUYWZHTFp5NUtzTUVFQ1FLNWVSVFVicDAwcDI1ZUticWdlZjM4TXEwcTBRNmFJdm8yZkV5UzlpZm91WVNQTE1DVWJ3amJNZ1duUWRPRVpncjVMdFpLenpmckFseUwwSHE4R0huM0I2aHVkSnpjanhXbjdmb1VVQTlzeFdxRmc0aXJPX0Y3ZkgtTEFScS1NQjlfVjQ5dmp6VnU4MlJWNUhDTlhTbVJRY1FzRHVmNUVKc3dUWDRBOFpIOVdvME5N0gHWAUFVX3lxTFA5bHl3WENmM1BRS2l2ajZYR1FRQmJtbGxLa2k4NEdxS1Q5NDRYN2JYSEh0TzRReEVjN1JrcmxYc0liRmVoeHJESlE5bnNHdUxBdUdRU3lDWmRmcktRUmtHMTI0TjVCb3IyNnRvTENfUVlfWjRFXzBwM1RZOUFxQTcxWE5FMnJqZ0l5bHA3Qm9iNGRQUGFRcHB0ZERPVXVyUEZubGVScG82VkF0T3FjUG5oMU5fdFZodEEtdGNhU0QybENxNFZQeVF4QURoN1dheHA0VllyTlE?oc=5",
