@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-12T04:18:10.611560+00:00",
+  "generated_at": "2026-10-12T04:21:19.272755+00:00",
   "by_politician": {
+    "eje-federico-mangione": {
+      "total": 16,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 14,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 237,
+      "positivo": 47,
+      "negativo": 27,
+      "neutral": 163,
+      "score_sum": 90
+    },
     "dnac-julio-moreno-ovalle": {
       "total": 3,
       "positivo": 0,
@@ -85,13 +99,6 @@
       "neutral": 23,
       "score_sum": -4
     },
-    "eje-federico-mangione": {
-      "total": 14,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 12,
-      "score_sum": 0
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 49,
       "positivo": 3,
@@ -112,13 +119,6 @@
       "negativo": 9,
       "neutral": 15,
       "score_sum": -22
-    },
-    "gustavo-saenz": {
-      "total": 236,
-      "positivo": 46,
-      "negativo": 27,
-      "neutral": 163,
-      "score_sum": 89
     },
     "eje-juan-vilchez": {
       "total": 5,
@@ -913,6 +913,24 @@
     }
   },
   "by_day": {
+    "2022-12-26": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-09-12": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-12": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-09-23": {
       "dnac-julio-moreno-ovalle": {
         "total": 1,
@@ -15216,6 +15234,18 @@
       "count": 7
     },
     {
+      "term": "federico",
+      "count": 6
+    },
+    {
+      "term": "mangione",
+      "count": 6
+    },
+    {
+      "term": "tribuno",
+      "count": 6
+    },
+    {
       "term": "nación",
       "count": 6
     },
@@ -15228,32 +15258,20 @@
       "count": 6
     },
     {
+      "term": "ministro",
+      "count": 5
+    },
+    {
+      "term": "salud",
+      "count": 5
+    },
+    {
+      "term": "informate",
+      "count": 5
+    },
+    {
       "term": "secretaria",
       "count": 5
-    },
-    {
-      "term": "ashur",
-      "count": 5
-    },
-    {
-      "term": "diputado",
-      "count": 5
-    },
-    {
-      "term": "tribuno",
-      "count": 5
-    },
-    {
-      "term": "perfil",
-      "count": 4
-    },
-    {
-      "term": "defendió",
-      "count": 4
-    },
-    {
-      "term": "emilia",
-      "count": 4
     }
   ],
   "comentions": [

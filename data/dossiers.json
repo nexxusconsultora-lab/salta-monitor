@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 236,
+    "total_mentions": 237,
     "sentiment_breakdown": {
-      "positivo": 46,
+      "positivo": 47,
       "negativo": 27,
       "neutral": 163
     },
     "sentiment_by_day": {
+      "2026-10-12": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-10-11": {
         "total": 3,
         "score_sum": 16
@@ -254,7 +258,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 19
+        "count": 20
       },
       {
         "term": "gustavo",
@@ -379,6 +383,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "De dónde salió la bandera de apoyo a Sáenz en el PJ",
+        "link": "https://www.eltribuno.com/salta/2026-10-12-0-0-0-de-donde-salio-la-bandera-de-apoyo-a-saenz-en-el-pj",
+        "source": "El Tribuno - Salta",
+        "date": "Mon, 12 Oct 2026 04:13:07 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz y Durand supervisaron la recuperación del Complejo Deportivo Norte Grande y el avance del Corredor Verde de bajas emisiones",
         "link": "https://informatesalta.com.ar/municipal/saenz-y-durand-supervisaron-la-recuperacion-del-complejo-deportivo-norte-grande-y-el-avance-del-corredor-verde-de-bajas-emisiones_a6acb9daebe23996013da11bb",
@@ -580,13 +591,6 @@
         "link": "https://www.eltribuno.com/salta/2026-10-5-22-9-0-karina-milei-y-diego-santilli-llegan-a-salta-para-inaugurar-una-nueva-planta-de-litio-en-el-salar-del-hombre-muerto",
         "source": "El Tribuno - Salta",
         "date": "Tue, 06 Oct 2026 01:09:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Con Gustavo Sáenz en la comitiva, Nación reúne a gobernadores en París para discutir el Presupuesto - elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiLUVtODFtOW9MUWZJR3FmWWVvdWxtUjc4TTZRcms1VC1zbnFlSzZFd3hxR2tmVmMwRUw0ZVV5bXlYNXNGc2dtWk1VWGhjc2YtdHVtREktbmZWNjViSzVybFFjU3ZnZUkyWlZxVDZzRFZOaHc?oc=5",
-        "source": "elintra.com.ar",
-        "date": "Thu, 01 Oct 2026 15:31:10 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -27673,13 +27677,21 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 14,
+    "total_mentions": 16,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 1,
-      "neutral": 12
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2022-12-26": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2024-09-12": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-07-27": {
         "total": 1,
         "score_sum": 0
@@ -27736,34 +27748,34 @@
     "top_topics": [
       {
         "term": "federico",
-        "count": 13
+        "count": 15
       },
       {
         "term": "mangione",
-        "count": 13
+        "count": 15
       },
       {
         "term": "salud",
-        "count": 6
+        "count": 8
+      },
+      {
+        "term": "ministro",
+        "count": 5
+      },
+      {
+        "term": "tribuno",
+        "count": 5
       },
       {
         "term": "elintra",
         "count": 4
       },
       {
-        "term": "tribuno",
-        "count": 4
-      },
-      {
-        "term": "ministro",
-        "count": 3
-      },
-      {
-        "term": "instalamos",
+        "term": "informate",
         "count": 2
       },
       {
-        "term": "norte",
+        "term": "instalamos",
         "count": 2
       }
     ],
@@ -27790,6 +27802,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Asumió el nuevo ministro de Salud, Federico Mangione - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0N2d1VjZXNFejQ3ZjUySXJtMzVZeHVaaWpYQkloWld5a1NqSUFLa25zNFU4Tmd1cmN6MUpaQkdKOXdFMjhEdVc0NV9NTGVhZENWNTZPbkphc1NSUW1XVkhzWnZITVVfNjVxQVRpTndBS01QMzZyQjBUUEZKaDRfa3dXOGZDb0pJYlZ0amY4RmV2cEVKQUYtQzQyd3QxSjNwVDZ3?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 26 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El ministro de Salud, Federico Mangione, debió ser operado del corazón - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ2JOZEFNRDRWenJLSGdSeHQ0SkZFcE1XMmRBczVxVERRdTROcHU3QmpwdHU4TzdPTHFUeWtWY2lqOHktMG9PTzFDSmxjTVBTa2pTWE1iYTg4R0RRd0JJX1l2dnA0bGFQVXRQa1AxRjRrLUpyMmN4UGlMandXMHF3bjl3X1BPQjAzNUFjU01rMDdWSlFJRlRvSWxxRzVfd3ZBeEpvR1h0eWYwVk1ncVRHRVFPZ2NUUW9TMDJzeUpjSWNmN3ZsZDRWSnp0VznSAdsBQVVfeXFMTUxteW4xc05XaTVNNzlRN25sazNjamRISlhkWU54a2N1bVdQZGplSHhQdzVOWUIwdzVRYTFLOV9jRDlmRk40QVVWZ2JubDg1ckNqUzNKU3l2VmFreHdhcVBzMy1OVGJNN2s0a3pKYUhLT0VPQmdmMEJZc2dCeFR4dFZ5RlJPODR6NzV5bUNSWENNQkJ2VWVNTUQyX05TRXA0ZnVmY3ZVd0pwdzJlMGgyOWJ2M3REWjNnZjMxTVRucGppYkNXNklfVC16Q0t1UzFlYnhMbzFMUkctUFU0?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 12 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Federico Mangione recorrió una clínica médica en General Güemes con el vicegobernador - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQemQtNFF5WUh2UHdSd3dpVmZDWkhVdGYyUVF3dDJwNHdRbE43RnpTdHF0T2dQRV8tTVk1d1VaMTI5QUZldktDOWE4VmRMdUUxcDBBTjY3LU00RTJWSFAzV0RjUjdrVV9jYm56SHBzNlFKRF9SX3p0cUFTRW5iWUQ3RWNUNDhYcXlpUjBvenBobldiNlExeGg3MXJUal9YNmVDOTY2RVAtNTBvU2FoZ2tKcE4ybzBUTTJpZE9uRg?oc=5",
