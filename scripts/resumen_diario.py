@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resumen diario de política y de seguridad (Salta y toda la Argentina) a partir de lo que ya recolecta monitor.py.
+"""Resumen diario de TODOS los temas (política, seguridad, economía, deportes, salud, etc.), con clasificación por ministerio nacional y de Salta (Salta y toda la Argentina) a partir de lo que ya recolecta monitor.py.
 
 Qué hace
 - Lee data/news_general.json (titulares, medio, fecha, link), data/politicians.json,
@@ -18,6 +18,7 @@ Uso (desde la raíz del repo):
 import argparse, json, math, os, re, sys, unicodedata
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 OUT = os.path.join(DATA, "resumenes")
@@ -26,6 +27,9 @@ DESDE_DEFECTO = "2026-09-30"                 # --todo no mira notas más viejas 
 UMBRAL_COBERTURA_BAJA = 100                  # menos notas recolectadas que esto = día incompleto
 MAX_HISTORIAS = 40                           # por ámbito
 MAX_LINKS = 10                               # por historia
+TOPE_TEMA = 20                               # historias guardadas por tema en la sección «Todos los temas»
+TOPE_MIN = 15                                # y por ministerio
+MAX_LINKS_TODOS = 5                          # enlaces por historia en esa sección
 REFRESCO_MIN = 25                            # no reescribe el día actual si se generó hace menos
 
 
@@ -130,14 +134,132 @@ TEMAS = [
     ("Internacional", ["israel", "hamas", "estados unidos", "eeuu", "trump", "guerra", "embajad", "ucrania", "china"]),
 ]
 
+# ---------- TODOS los temas (clasificación automática por palabras clave del título; se editan acá) ----------
+# Cada titular recibe UN tema principal: el que más palabras clave tenga (el peso multiplica). Si hay empate, gana el que está primero.
+# Lo que no encaja en ninguno queda en «Otros temas». Es una estimación por el título: puede equivocarse.
+TEMAS_TODOS = [
+    # (tema, peso, palabras clave)
+    ("Deportes", 2, ["futbol", "gol ", "goleador", "seleccion", "messi", "mundial", "torneo", "liga ", "copa", "partido de", "clasico",
+                     "tenis", "rugby", "basquet", "voley", "automovilismo", "turismo carretera", "formula 1", "boca", "river", "racing",
+                     "independiente", "san lorenzo", "talleres", "belgrano", "gimnasia", "velez", "central norte", "juventud antoniana",
+                     "olimpic", "atletismo", "boxeo", "ciclismo", "hockey", "dt ", "refuerzo", "pase de", "campeonato", "ascenso", "entrenador", "atletico", "jugador", "gran fondo", "scaloni", "mercado de pases", "fichaje", "tabla anual", "arbitro", "cancha", "hinchas", "barras", "estadio", "gimnasia y tiro", "ciclismo", "maraton", "plantel", "dirigente deportivo", "futbolista", "fecha fifa", "gallardo", "eliminatorias", "tabla de posiciones", "descenso"]),
+    ("Policiales y seguridad", 1.5, SEGURIDAD),
+    ("Accidentes y emergencias", 1.5, ["accidente", "choque", "vuelco", "incendio", "atropell", "derrumbe", "explosion", "rescate", "bomberos",
+                                       "defensa civil", "siniestro", "emergencia", "murio", "murieron", "tragedia"]),
+    ("Clima y ambiente", 1.5, ["clima", "pronostico", "lluvia", "tormenta", "alerta meteorologica", "alerta amarilla", "alerta naranja", "calor",
+                               "frio", "temperatura", "granizo", "helada", "zonda", "sequia", "ambiente", "contaminacion", "residuos",
+                               "reciclaje", "fauna", "bosque", "deforestacion", "cambio climatico", "sismo", "temblor", "terremoto",
+                               "inundacion", "crecida", "nevada", "ola de calor"]),
+    ("Espectáculos y cultura", 1.5, ["netflix", "serie ", "pelicula", "estreno", "show ", "famosos", "farandula", "instagram", "reality",
+                                     "masterchef", "cantante", "recital", "concierto", "festival", "musica", "teatro", "cine", "libro",
+                                     "artista", "actriz", "actor ", "television", "streaming", "tiktok", "youtube", "cumbia", "folklore",
+                                     "pena ", "cumpleanos", "casamiento", "separacion", "horoscopo", "receta", "museo", "exposicion", "nieta de", "hija de", "hijo de", "conductor", "conductora", "novio", "noviazgo", "romance", "telefe", "vedette", "modelo", "polemica", "mediatic", "influencer", "bailando", "pareja", "embarazo", "fans", "banda de rock", "disco ", "sus hijos", "su hija", "su hijo", "mama", "bebe", "infidelidad", "martin fierro", "ternas", "wanda nara", "se separo", "primer hijo"]),
+    ("Justicia", 1, ["justicia", "juez", "jueza", "fiscal", "causa ", "causas", "tribunal", "corte suprema", "juicio", "imputad", "procesad", "denuncia",
+                     "amparo", "fallo", "sentencia", "camara federal", "procurador", "indagatoria", "procesamiento"]),
+    ("Salud", 1, ["salud", "hospital", "sanitari", "medic", "vacuna", "dengue", "sarampion", "epidemia", "enfermedad", "cancer", "paciente",
+                  "obra social", "pami", "farmac", "nutricion", "covid", "gripe", "clinica", "cirugia", "trasplante"]),
+    ("Educación y universidades", 1, ["educacion", "escuela", "docente", "universidad", "alumnos", "clases", "ciclo lectivo", "colegio", "beca",
+                                      "unsa", "estudiantil", "maestr", "paro docente", "financiamiento universitario", "aula"]),
+    ("Ciencia y tecnología", 1, ["inteligencia artificial", "tecnologia", "ciberseguridad", "celular", "apple", "google", "openai", "satelite",
+                                 "nasa", "robot", "internet", "software", "starlink", "ciencia", "investigadores", "conicet", "hackeo",
+                                 "algoritmo", "chatgpt", "tecnologico", "aplicacion", "app "]),
+    ("Minería y energía", 1, ["litio", "mineria", "minera", "energia", "petroleo", "gas ", "hidrocarburo", "posco", "vaca muerta",
+                              "electricidad", "combustible", "nafta", "yacimiento", "solar", "renovable", "cobre", "oro "]),
+    ("Agro y producción", 1, ["agro", "campo ", "soja", "maiz", "trigo", "cosecha", "ganader", "exportacion", "industria", "pyme",
+                              "produccion", "tabaco", "azucar", "limon", "citrus", "vino", "bodega", "frigorifico", "carne", "productores",
+                              "siembra", "agricultura", "zafra", "cupo"]),
+    ("Transporte e infraestructura", 1, ["ruta ", "rutas", "vial", "vialidad", "obra", "puente", "aeropuerto", "vuelo", "aerolinea", "tren ",
+                                         "colectivo", "saeta", "transporte", "peaje", "pavimento", "cloaca", "agua potable", "aguas del norte",
+                                         "edesa", "corte de luz", "infraestructura", "bacheo", "asfalto", "ferrocarril"]),
+    ("Turismo", 1, ["turismo", "turista", "hotel", "vacaciones", "fin de semana largo", "feriado", "cafayate", "quebrada", "tren a las nubes",
+                    "ocupacion hotelera", "destino", "temporada alta", "receptivo"]),
+    ("Trabajo y gremios", 1, ["paritaria", "gremio", "sindicat", "cgt", "despido", "desempleo", "empleo", "trabajadores", "paro ", "huelga",
+                              "convenio colectivo", "salario", "sueldo", "reforma laboral", "asamblea"]),
+    ("Economía y finanzas", 1, ["economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
+                                "jubilaci", "inversion", "retenciones", "aranceles", "caputo", "bcra", "banco central", "plazo fijo",
+                                "riesgo pais", "bolsa", "bonos", "reservas", "consumo", "precios", "canasta", "alquiler",
+                                "credito", "tasa de interes", "afip ", "arca ", "indec ", "pbi ", "superavit", "deficit"]),
+    ("Sociedad y género", 1, ["genero", "mujer", "discapacidad", "adultos mayores", "ninez", "infancia", "adolescente", "familia", "comunidad",
+                              "pueblos originarios", "indigena", "vecinos", "barrio", "solidari", "ong ", "iglesia", "obispo", "derechos humanos",
+                              "migrante", "pobreza", "comedor", "alimentos", "adopcion", "diversidad", "lgbt", "comunitari"]),
+    ("Internacional", 1, ["israel", "hamas", "gaza", "estados unidos", "eeuu", "trump", "guerra", "ucrania", "rusia", "china", "europa", "brasil",
+                          "chile", "bolivia", "paraguay", "uruguay", "venezuela", "mexico", "onu", "otan", "union europea", "maduro", "putin",
+                          "zelenski", "espana", "francia", "italia", "reino unido", "japon", "iran", "papa ", "vaticano", "cancilleria", "lula", "bolsonaro", "san pablo", "sao paulo", "ecuador", "colombia", "peru ", "cuba", "peste neumonica"]),
+    ("Política y gobierno", 1, POLITICA),
+]
+TEMA_OTROS = "Otros temas"
+
+# ---------- Ministerios (se editan acá). Solo palabras de cargos y organismos; no se nombra a personas salvo apellidos muy estables ----------
+# NACIONALES: estructura según la Ley de Ministerios vigente al armar esta lista. REVISAR si el Gobierno nacional cambia ministerios.
+MIN_NAC = [
+    ("Jefatura de Gabinete", ["jefe de gabinete", "jefatura de gabinete", "adorni", "gabinete nacional", "vocero presidencial"]),
+    ("Interior", ["ministerio del interior", "ministro del interior", "santilli", "renaper ", "registro nacional de las personas", "vicejefe de gabinete del interior"]),
+    ("Relaciones Exteriores", ["cancilleria", "canciller", "relaciones exteriores", "comercio internacional", "embajad", "quirno", "mercosur"]),
+    ("Economía", ["ministerio de economia", "ministro de economia", "caputo", "arca ", "afip ", "bcra ", "banco central", "indec ", "hacienda", "secretaria de energia",
+                  "tesoro", "inflacion", "dolar", "deuda", "retenciones", "aranceles", "fmi", "riesgo pais", "presupuesto nacional", "tarifas"]),
+    ("Defensa", ["ministerio de defensa", "ministro de defensa", "presti", "fuerzas armadas", "ejercito", "armada ", "fuerza aerea", "cazas", "servicio militar"]),
+    ("Seguridad Nacional", ["ministerio de seguridad nacional", "ministra de seguridad", "monteoliva", "gendarmeria", "prefectura", "policia federal",
+                            "fuerzas federales", "policia de seguridad aeroportuaria", "bullrich"]),
+    ("Justicia", ["ministerio de justicia", "ministro de justicia", "servicio penitenciario federal", "reforma judicial", "codigo penal", "indulto", "mahiques"]),
+    ("Salud", ["ministerio de salud", "ministro de salud", "lugones", "anmat", "pami ", "garrahan", "calendario de vacunacion", "sarampion"]),
+    ("Capital Humano", ["capital humano", "pettovello", "anses ", "asignacion universal", "asignaciones familiares", "progresar", "secretaria de trabajo",
+                        "secretaria de educacion", "financiamiento universitario", "planes sociales", "jubilaciones", "pensiones"]),
+    ("Desregulación y Transformación del Estado", ["sturzenegger", "desregulacion", "desregula", "hojarasca", "privatizacion", "reforma del estado", "empleo publico"]),
+]
+# SALTA: los ministerios son los que figuran en data/politicians.json (cargos vigentes). Se aplican solo a notas de Salta.
+MIN_PROV = [
+    ("Jefatura de Gabinete (Salta)", ["jefe de gabinete de salta", "jefatura de gabinete de salta", "camacho"]),
+    ("Gobierno y Justicia (Salta)", ["ministerio de gobierno", "gobierno y justicia", "jarsun", "secretaria de gobierno", "registro civil", "derechos humanos"]),
+    ("Economía y Servicios Públicos (Salta)", ["economia y servicios publicos", "dib ashur", "rentas ", "aguas del norte", "edesa", "ente regulador", "servicios publicos", "ingresos brutos"]),
+    ("Desarrollo Social (Salta)", ["desarrollo social", "mimessi", "tarjeta alimentaria", "asistencia social", "comedores", "adultos mayores"]),
+    ("Producción y Minería (Salta)", ["produccion y mineria", "lupion", "litio", "mineria", "minera", "agro", "ganader", "zafra", "cosecha", "carrizo"]),
+    ("Salud Pública (Salta)", ["salud publica", "mangione", "hospital", "ministerio de salud", "dengue", "vacunacion", "sarampion", "ambulancia"]),
+    ("Educación y Cultura (Salta)", ["educacion y cultura", "fiore", "ministerio de educacion", "escuela", "docente", "ciclo lectivo", "colegio", "clases"]),
+    ("Turismo y Deportes (Salta)", ["turismo y deportes", "arancibia", "turismo", "turista", "ocupacion hotelera", "fin de semana largo", "secretaria de deportes"]),
+    ("Seguridad (Salta)", ["ministerio de seguridad", "avellaneda", "vilchez", "policia de salta", "policia", "comisaria", "inseguridad", "penitenciario", "bomberos"]),
+]
+SIN_MIN = "Sin ministerio identificado"
+# En notas que nombran un lugar de Salta, el tema indica el área de gobierno provincial que corresponde (salud, educación, seguridad...).
+# No quiere decir que la nota hable del ministerio: es el área que atiende ese tema.
+TEMA_A_MIN_PROV = {
+    "Salud": "Salud Pública (Salta)", "Educación y universidades": "Educación y Cultura (Salta)",
+    "Policiales y seguridad": "Seguridad (Salta)", "Turismo": "Turismo y Deportes (Salta)", "Deportes": "Turismo y Deportes (Salta)",
+    "Minería y energía": "Producción y Minería (Salta)", "Agro y producción": "Producción y Minería (Salta)",
+    "Economía y finanzas": "Economía y Servicios Públicos (Salta)", "Sociedad y género": "Desarrollo Social (Salta)",
+    "Justicia": "Gobierno y Justicia (Salta)",
+}
+
+
+def tema_todos(titulo_fold, nombres):
+    mejor, smax = TEMA_OTROS, 0.0
+    for nombre, peso, pats in TEMAS_TODOS:
+        sc = len(hay(titulo_fold, pats)) * peso
+        if nombre == "Política y gobierno" and any(n in titulo_fold for n in nombres):
+            sc += peso
+        if sc > smax:
+            mejor, smax = nombre, sc
+    return mejor
+
+
+def ministerios(texto, tabla, pre=None):
+    t = texto if pre is None else pre(texto)
+    return [nombre for nombre, pats in tabla if hay(t, pats)]
+
+
+
 STOP = set("""para como pero porque sobre entre desde hasta cuando donde este esta estos estas esto esos esas ellos ellas sera fue fueron
 ser han hay muy mas menos tras ante bajo segun sino cada todo todos toda todas otra otro otros otras tambien ademas aunque luego
 solo sido tiene tienen tener quien quienes cual cuales ese esa nuestro nuestra salta argentina nacional provincial provincia
 infobae clarin tribuno perfil ambito noticias nueva nuevo nuevos nuevas anos dias dijo dice dicen habia hizo hace hacen""".split())
 
 
+@lru_cache(maxsize=4096)
+def _rx(p):
+    return re.compile(r"(?<![a-z0-9])" + re.escape(p.strip()) + (r"" if p.endswith(" ") is False and len(p.strip()) > 3 else r"(?![a-z0-9])"))
+
+
 def hay(texto, patrones):
-    return [p for p in patrones if re.search(r"(?<![a-z0-9])" + re.escape(p.strip()) + (r"" if p.endswith(" ") is False and len(p.strip()) > 3 else r"(?![a-z0-9])"), texto)]
+    return [p for p in patrones if _rx(p).search(texto)]
 
 
 def es_politica(titulo_fold, nombres):
@@ -280,7 +402,7 @@ def fecha_ar(iso):
         return None
 
 
-def armar_historias(items, tema_fn, alcance_fn, previas):
+def armar_historias(items, tema_fn, alcance_fn, previas, extra_fn=None, selector=None, max_links=None):
     """Agrupa los titulares en historias: una por noticia, con TODOS los medios que la dicen y el titular de cada uno."""
     historias = []
     for g in agrupar(items):
@@ -295,15 +417,20 @@ def armar_historias(items, tema_fn, alcance_fn, previas):
         tok = set().union(*[x["tok"] for x in g])
         sigue = any(len(tok & p) >= 3 and len(tok & p) / min(len(tok), len(p)) >= 0.55 for p in previas if p)
         h = {"titulo": titulo, "alcance": alcance_fn(g), "tema": tema_fn(" ".join(fold(x["titulo"]) for x in g[:3])),
-             "medios": medios_g, "n_notas": len(g), "primera": g[0]["hora"], "links": links[:MAX_LINKS]}
+             "medios": medios_g, "n_notas": len(g), "primera": g[0]["hora"], "links": links[:(max_links or MAX_LINKS)]}
+        if extra_fn:
+            h.update(extra_fn(g, h))
         if sigue:
             h["sigue_de_ayer"] = True
         historias.append(h)
     clave = lambda h: (-len(h["medios"]), -h["n_notas"], [-ord(c) for c in h["primera"]], h["titulo"])
     historias.sort(key=clave)
     top = []
-    for amb in ("Salta", "Nacional", "Ambos"):
-        top += [h for h in historias if h["alcance"] == amb][:MAX_HISTORIAS]
+    if selector:
+        top = selector(historias)
+    else:
+        for amb in ("Salta", "Nacional", "Ambos"):
+            top += [h for h in historias if h["alcance"] == amb][:MAX_HISTORIAS]
     top.sort(key=clave)
     for i, h in enumerate(top, 1):
         h["n"] = i
@@ -331,15 +458,15 @@ def tokens_previos(fecha):
     ayer = (datetime.fromisoformat(fecha) - timedelta(days=1)).strftime("%Y-%m-%d")
     d = cargar(os.path.join("resumenes", ayer + ".json"), None)
     if not d:
-        return [], []
+        return [], [], []
     f = lambda hs: [raices(fold(" ".join([h["titulo"]] + [l["titulo"] for l in h.get("links", [])[:3]]))) for h in hs]
-    return f(d.get("historias", [])), f((d.get("seguridad") or {}).get("historias", []))
+    return f(d.get("historias", [])), f((d.get("seguridad") or {}).get("historias", [])), f((d.get("todos") or {}).get("historias", []))
 
 
 def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
     dia = [n for n in noticias if fecha_ar(n.get("published_iso")) == fecha]
     por_id = {p["id"]: p for p in politicos}
-    todas, politicas, seguras, medios, vistos_t = 0, [], [], defaultdict(lambda: {"ambito": "", "notas": 0, "politicas": 0, "seguridad": 0}), set()
+    todas, politicas, seguras, todos_t, medios, vistos_t = 0, [], [], [], defaultdict(lambda: {"ambito": "", "notas": 0, "politicas": 0, "seguridad": 0}), set()
     nombres_l = list(nombres)
     for n in dia:
         todas += 1
@@ -356,15 +483,70 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
         vistos_t.add((fold(medio), tf))
         base = {"titulo": t, "tf": tf, "tok": raices(tf), "medio": medio, "ambito": amb,
                 "link": n.get("link", ""), "hora": hora(n.get("published_iso")), "iso": n.get("published_iso", "")}
+        todos_t.append(base)
         if es_politica(tf, nombres_l):
             m["politicas"] += 1
             politicas.append(base)
         if es_seguridad(tf):
             m["seguridad"] += 1
             seguras.append(base)
-    prev_pol, prev_seg = tokens_previos(fecha)
+    prev_pol, prev_seg, prev_todos = tokens_previos(fecha)
     historias, top = armar_historias(politicas, tema_de, alcance_politica, prev_pol)
     hist_seg, top_seg = armar_historias(seguras, subtema_seg, alcance_seguridad, prev_seg)
+    # ---- TODOS los temas, con ministerio nacional y de Salta ----
+    sin_salud_pub = lambda t: t.replace("ministerio de salud publica", "").replace("salud publica", "")
+
+    def extra_todos(g, h):
+        texto = " ".join(fold(x["titulo"]) for x in g[:3])
+        mn = ministerios(texto, MIN_NAC, sin_salud_pub)
+        mp = ministerios(texto, MIN_PROV) if h["alcance"] in ("Salta", "Ambos") else []
+        m_tema = TEMA_A_MIN_PROV.get(h["tema"])
+        if m_tema and m_tema not in mp and any(SALTA_MARCAS.search(x["titulo"]) for x in g):
+            mp.append(m_tema)
+        return {"min_nac": mn, "min_prov": mp}
+
+    def elegir(hs):
+        # Se guardan las historias más cubiertas de CADA tema y de CADA ministerio, para que ningún tema quede vacío.
+        sel, cta, cmn, cmp_ = {}, Counter(), Counter(), Counter()
+        for i, h in enumerate(hs):             # hs ya viene ordenada por cobertura
+            quedar = cta[h["tema"]] < TOPE_TEMA
+            for m in h["min_nac"]:
+                if cmn[m] < TOPE_MIN:
+                    quedar = True
+            for m in h["min_prov"]:
+                if cmp_[m] < TOPE_MIN:
+                    quedar = True
+            if quedar:
+                sel[i] = h
+                cta[h["tema"]] += 1
+                for m in h["min_nac"]:
+                    cmn[m] += 1
+                for m in h["min_prov"]:
+                    cmp_[m] += 1
+        return list(sel.values())
+
+    hist_todos_all, top_todos = armar_historias(todos_t, lambda t: tema_todos(t, nombres_l), alcance_politica, prev_todos,
+                                                extra_fn=extra_todos, selector=elegir, max_links=MAX_LINKS_TODOS)
+    cnt_tema, notas_tema = Counter(), Counter()
+    cnt_mn, cnt_mp = Counter(), Counter()
+    for h in hist_todos_all:
+        cnt_tema[h["tema"]] += 1
+        notas_tema[h["tema"]] += h["n_notas"]
+        for m in h["min_nac"]:
+            cnt_mn[m] += 1
+        for m in h["min_prov"]:
+            cnt_mp[m] += 1
+    todos = {
+        "totales": {"notas": len(todos_t), "historias": len(hist_todos_all), "guardadas": len(top_todos), "temas": len(cnt_tema),
+                    "con_ministerio_nacional": sum(1 for h in hist_todos_all if h["min_nac"]),
+                    "con_ministerio_salta": sum(1 for h in hist_todos_all if h["min_prov"]),
+                    "salta": sum(1 for h in hist_todos_all if h["alcance"] == "Salta"),
+                    "nacional": sum(1 for h in hist_todos_all if h["alcance"] == "Nacional")},
+        "temas": [{"tema": t, "historias": n, "notas": notas_tema[t]} for t, n in cnt_tema.most_common()],
+        "ministerios_nacionales": [{"ministerio": m, "historias": cnt_mn[m]} for m, _ in MIN_NAC if cnt_mn[m]],
+        "ministerios_salta": [{"ministerio": m, "historias": cnt_mp[m]} for m, _ in MIN_PROV if cnt_mp[m]],
+        "historias": top_todos,
+    }
     temas = Counter(h["tema"] for h in historias)
     subtemas = Counter(h["tema"] for h in hist_seg)
     palabras = Counter()
@@ -396,12 +578,13 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
             "subtemas": [{"tema": t, "historias": n} for t, n in subtemas.most_common()],
             "historias": top_seg,
         },
+        "todos": todos,
         "palabras": [{"t": w, "n": n} for w, n in sorted(palabras.items(), key=lambda kv: (-kv[1], kv[0]))[:15] if n >= 3],
         "personas": [{"id": pid, "nombre": por_id[pid]["name"], "notas": n} for pid, n in sorted(personas.items(), key=lambda kv: (-kv[1], kv[0]))[:15] if pid in por_id],
         "oficiales": {"total": len(of), "con_personas_o_salta": len(destac),
                       "destacadas": [{"titulo": i.get("titulo", ""), "fuente": i.get("fuente", ""), "link": i.get("url", "")} for i in destac[:8]]},
         "medios": sorted([{"nombre": k, **v} for k, v in medios.items()], key=lambda x: -x["notas"]),
-        "metodo": "Titulares agrupados por palabras en común (una historia por noticia, con todos los medios que la dicen); lo político y lo de seguridad se detectan por palabras clave. No usa IA ni lee el texto de las notas.",
+        "metodo": "Titulares agrupados por palabras en común (una historia por noticia, con todos los medios que la dicen); el tema, lo político, lo de seguridad y el ministerio (nacional o de Salta) se detectan por palabras clave del título. No usa IA ni lee el texto de las notas.",
     }
 
 
@@ -456,7 +639,7 @@ def main():
             if a1 == a2:
                 continue
         with open(ruta, "w", encoding="utf-8") as fh:
-            json.dump(nuevo, fh, ensure_ascii=False, indent=1)
+            json.dump(nuevo, fh, ensure_ascii=False, separators=(",", ":"))
             fh.write("\n")
         cambios += 1
         t = nuevo["totales"]
@@ -468,7 +651,7 @@ def main():
             try:
                 with open(os.path.join(OUT, nombre), encoding="utf-8") as fh:
                     d = json.load(fh)
-                idx.append({"fecha": d["fecha"], **d["totales"], "cobertura_baja": d.get("cobertura_baja", False)})
+                idx.append({"fecha": d["fecha"], **d["totales"], "temas_todos": (d.get("todos") or {}).get("totales", {}).get("temas"), "cobertura_baja": d.get("cobertura_baja", False)})
             except (OSError, ValueError, KeyError):
                 continue
     idx.sort(key=lambda x: x["fecha"], reverse=True)
