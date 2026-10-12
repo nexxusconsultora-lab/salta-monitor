@@ -934,6 +934,46 @@ def _collect_from_url(url, p, mentions, existing_ids):
     return new_count
 
 
+# Tercera pasada: la misma persona, pero buscada por nombre en los medios NACIONALES (NATIONAL_SITES).
+# Sin esto, la Red solo veía a los salteños en medios de Salta. Solo se busca con nombres de 2 o más
+# palabras (un apellido suelto trae homónimos) y las notas pasan por person_match estricto, como siempre.
+# Tiene un tope de tiempo y arranca en un lugar distinto de la lista en cada corrida, así todas las
+# personas se cubren a lo largo del día aunque una corrida no alcance.
+NACIONAL_TOPE_SEGUNDOS = 240
+NACIONAL_POR_CORRIDA = 40
+
+
+def build_national_person_url(politician):
+    nombres = sorted({a.strip() for a in politician.get("aliases", []) if len(a.split()) >= 2}, key=len, reverse=True)[:4]
+    if not nombres:
+        return None
+    names = " OR ".join(f'"{a}"' for a in nombres)
+    sites = " OR ".join(f"site:{s}" for s in NATIONAL_SITES)
+    return google_news_url(f"({names}) ({sites})")
+
+
+def collect_by_politician_national(politicians, mentions, existing_ids):
+    inicio = time.time()
+    n = len(politicians)
+    if not n:
+        return 0
+    desde = (int(inicio // 300) * NACIONAL_POR_CORRIDA) % n
+    orden = politicians[desde:] + politicians[:desde]
+    new_count = hechos = 0
+    for p in orden[:NACIONAL_POR_CORRIDA]:
+        if time.time() - inicio > NACIONAL_TOPE_SEGUNDOS:
+            print("[aviso] búsqueda nacional por persona: se cortó por tiempo; sigue en la próxima corrida")
+            break
+        url = build_national_person_url(p)
+        if not url:
+            continue
+        new_count += _collect_from_url(url, p, mentions, existing_ids)
+        hechos += 1
+        time.sleep(0.3)
+    print(f"Búsqueda nacional por persona: {hechos} personas consultadas, {new_count} menciones nuevas")
+    return new_count
+
+
 def collect_by_politician(politicians, mentions, existing_ids):
     """Dos pasadas por político: una de alta precisión (medios verificados)
     y otra amplia (toda la provincia y sus departamentos), para no perder
@@ -1400,6 +1440,7 @@ def main():
         # después Google News (cuyos enlaces son redirecciones).
         new_by_feeds = collect_from_direct_feeds(active, mentions, existing_ids, media_batches)
         new_by_search = collect_by_politician(active, mentions, existing_ids)
+        new_by_search += collect_by_politician_national(active, mentions, existing_ids)
 
         mentions.sort(key=lambda m: m.get("collected_at", ""), reverse=True)
         mentions = mentions[:MAX_MENTIONS_STORED]
