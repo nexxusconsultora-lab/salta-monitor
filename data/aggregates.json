@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-12T21:22:57.652273+00:00",
+  "generated_at": "2026-10-13T02:33:48.767549+00:00",
   "by_politician": {
+    "eje-ignacio-jarsun": {
+      "total": 15,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 10,
+      "score_sum": -6
+    },
+    "dip-sergio-mauricio-lopez": {
+      "total": 12,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": 2
+    },
+    "gustavo-saenz": {
+      "total": 239,
+      "positivo": 48,
+      "negativo": 28,
+      "neutral": 163,
+      "score_sum": 89
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 50,
+      "positivo": 3,
+      "negativo": 7,
+      "neutral": 40,
+      "score_sum": -9
+    },
     "dip-guillermo-alejandro-kripper": {
       "total": 11,
       "positivo": 0,
@@ -42,13 +70,6 @@
       "negativo": 2,
       "neutral": 27,
       "score_sum": 1
-    },
-    "gustavo-saenz": {
-      "total": 237,
-      "positivo": 47,
-      "negativo": 27,
-      "neutral": 163,
-      "score_sum": 90
     },
     "dnac-julio-moreno-ovalle": {
       "total": 3,
@@ -92,13 +113,6 @@
       "neutral": 29,
       "score_sum": 6
     },
-    "eje-ignacio-jarsun": {
-      "total": 14,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 9,
-      "score_sum": -6
-    },
     "dip-gaston-guillermo-galindez": {
       "total": 15,
       "positivo": 0,
@@ -126,13 +140,6 @@
       "negativo": 2,
       "neutral": 23,
       "score_sum": -4
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 49,
-      "positivo": 3,
-      "negativo": 7,
-      "neutral": 39,
-      "score_sum": -9
     },
     "dip-jose-miguel-gauffin": {
       "total": 23,
@@ -329,13 +336,6 @@
       "negativo": 0,
       "neutral": 7,
       "score_sum": 4
-    },
-    "dip-sergio-mauricio-lopez": {
-      "total": 11,
-      "positivo": 2,
-      "negativo": 1,
-      "neutral": 8,
-      "score_sum": 2
     },
     "dip-alejandro-jesus-esper": {
       "total": 4,
@@ -913,6 +913,52 @@
     }
   },
   "by_day": {
+    "2026-06-19": {
+      "eje-ignacio-jarsun": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-12": {
+      "dip-sergio-mauricio-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
+    "2026-10-13": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-09-08": {
       "dip-guillermo-alejandro-kripper": {
         "total": 2,
@@ -953,20 +999,6 @@
       "sen-walter-cruz": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-10-12": {
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-juan-vilchez": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2025-12-11": {
@@ -3210,24 +3242,6 @@
       },
       "sen-juan-cruz-cura": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2026-06-19": {
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-lino-fernando-yonar": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -15252,6 +15266,14 @@
       "count": 8
     },
     {
+      "term": "lópez",
+      "count": 7
+    },
+    {
+      "term": "sáenz",
+      "count": 6
+    },
+    {
       "term": "tribuno",
       "count": 6
     },
@@ -15268,35 +15290,27 @@
       "count": 6
     },
     {
-      "term": "lópez",
-      "count": 6
-    },
-    {
-      "term": "josé",
-      "count": 6
+      "term": "ministro",
+      "count": 5
     },
     {
       "term": "página",
       "count": 5
     },
     {
-      "term": "informate",
+      "term": "josé",
       "count": 5
     },
     {
-      "term": "orozco",
+      "term": "ignacio",
       "count": 4
     },
     {
-      "term": "norte",
+      "term": "años",
       "count": 4
     },
     {
-      "term": "nuevo",
-      "count": 4
-    },
-    {
-      "term": "ministro",
+      "term": "pasa",
       "count": 4
     }
   ],

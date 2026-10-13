@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 237,
+    "total_mentions": 239,
     "sentiment_breakdown": {
-      "positivo": 47,
-      "negativo": 27,
+      "positivo": 48,
+      "negativo": 28,
       "neutral": 163
     },
     "sentiment_by_day": {
+      "2026-10-13": {
+        "total": 2,
+        "score_sum": -1
+      },
       "2026-10-12": {
         "total": 1,
         "score_sum": 1
@@ -258,7 +262,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 18
+        "count": 20
       },
       {
         "term": "molinos",
@@ -269,6 +273,10 @@
         "count": 5
       },
       {
+        "term": "años",
+        "count": 4
+      },
+      {
         "term": "pavimentación",
         "count": 4
       },
@@ -277,19 +285,27 @@
         "count": 4
       },
       {
-        "term": "planta",
-        "count": 4
+        "term": "esperar",
+        "count": 3
       },
       {
-        "term": "litio",
-        "count": 4
-      },
-      {
-        "term": "durand",
+        "term": "otros",
         "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "No podemos esperar otros 50 años",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQmdvRDRRTzh2Y3FzUVVvYlRkUGtTbWxmZzAwUFVwV1JRUGlIQnR4N2dmWmJCX3VCWXIwVl82S1dhRUpwdjlRa1RJRzExaEFzVlRTRUNlMl9lYlF4a2xNX0F3eFJQQTRsS1lod0JjcXI1U3lwNTN0Q0d1cWtsRllwR1dOME1pUzRoQXNPZlV5R1BEdw?oc=5",
+        "date": "Tue, 13 Oct 2026 00:35:03 GMT"
+      },
+      {
+        "quote": "No podemos esperar otros 50 años",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-inversiones-para-los-ramales-ferroviarios-de-salta---no-podemos-esperar-otros-50-anos-_a6acd77f3e5cd2a0ccbcd9ffe",
+        "date": "Tue, 13 Oct 2026 00:00:00 GMT"
+      },
       {
         "quote": "Raíces Argentinas",
         "source": "El Tribuno - Salta",
@@ -367,22 +383,24 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/politica/escudero-aseguro-que--no-hay-objecion-constitucional--para-la-reeleccion-de-gustavo-saenz_a6ab433ec67dbc0c38dfb2fdd",
         "date": "Wed, 23 Sep 2026 20:30:00 GMT"
-      },
-      {
-        "quote": "Un chico en un club, es un chico menos en la calle",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/gobierno/-un-chico-en-un-club--es-un-chico-menos-en-la-calle---saenz-presento-la-segunda-etapa-del-plan-meta_a6ab2f8d59606ad8515d1ba84",
-        "date": "Wed, 23 Sep 2026 00:00:00 GMT"
-      },
-      {
-        "quote": "La paciencia se va agotando",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSjc0UGJnZk9vVEhVM2h5UkRKc1FsQ1hfemljZXRiS3FER3pteTIxM2hhMG1Cd2V1SFJpMjVPakI4TmlNa0ctOWstUFFOeS1IVUt4dEo2WXNoMXJaQ2pnVWkzMVJiTWo4YnVDSURyNS1qdkRpMFc2MUR3RmRDNmdYMzRDbHVMUQ?oc=5",
-        "date": "Thu, 17 Sep 2026 11:34:40 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "\"No podemos esperar otros 50 años\": el reclamo de Sáenz por los trenes de carga en Salta - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQmdvRDRRTzh2Y3FzUVVvYlRkUGtTbWxmZzAwUFVwV1JRUGlIQnR4N2dmWmJCX3VCWXIwVl82S1dhRUpwdjlRa1RJRzExaEFzVlRTRUNlMl9lYlF4a2xNX0F3eFJQQTRsS1lod0JjcXI1U3lwNTN0Q0d1cWtsRllwR1dOME1pUzRoQXNPZlV5R1BEdw?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 13 Oct 2026 00:35:03 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Sáenz reclamó inversiones para los ramales ferroviarios de Salta: “No podemos esperar otros 50 años”",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-inversiones-para-los-ramales-ferroviarios-de-salta---no-podemos-esperar-otros-50-anos-_a6acd77f3e5cd2a0ccbcd9ffe",
+        "source": "Informate Salta",
+        "date": "Tue, 13 Oct 2026 00:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "De dónde salió la bandera de apoyo a Sáenz en el PJ",
         "link": "https://www.eltribuno.com/salta/2026-10-12-0-0-0-de-donde-salio-la-bandera-de-apoyo-a-saenz-en-el-pj",
@@ -578,20 +596,6 @@
         "source": "El Intra",
         "date": "Tue, 06 Oct 2026 18:51:35 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Trae alfajores: ¿que fué a hacer Flavia Royón en París con Gustavo Sáenz y Javier Milei?",
-        "link": "https://elintra.com.ar/2026/10/06/paris-flavia-royon-comitiva/",
-        "source": "El Intra",
-        "date": "Tue, 06 Oct 2026 11:01:00 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Karina Milei y Diego Santilli llegan a Salta para inaugurar una nueva planta de litio en el Salar del Hombre Muerto",
-        "link": "https://www.eltribuno.com/salta/2026-10-5-22-9-0-karina-milei-y-diego-santilli-llegan-a-salta-para-inaugurar-una-nueva-planta-de-litio-en-el-salar-del-hombre-muerto",
-        "source": "El Tribuno - Salta",
-        "date": "Tue, 06 Oct 2026 01:09:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -1738,13 +1742,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 49,
+    "total_mentions": 50,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 7,
-      "neutral": 39
+      "neutral": 40
     },
     "sentiment_by_day": {
+      "2026-10-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-11-15": {
         "total": 1,
         "score_sum": 0
@@ -1966,6 +1974,13 @@
     ],
     "recent_articles": [
       {
+        "title": "El Ateneo Libertario llegó a Metán y reunió a referentes del sur de Salta para elaborar propuestas",
+        "link": "https://www.eltribuno.com/municipios/2026-10-12-21-29-0-el-ateneo-libertario-llego-a-metan-y-reunio-a-referentes-del-sur-de-salta-para-elaborar-propuestas",
+        "source": "El Tribuno - Municipios",
+        "date": "Tue, 13 Oct 2026 00:29:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "VIDEO. Roque Cornejo contra \"la casta salteña\": \"Demuestran emocionalidad por la pobreza que el - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNlVWMmNOVGgybkVMUGFaRzRsVDBhM3hYcnBEcmNYMk5sTWtwOUlGeWgxMlQ0T2NBeERUM3puVFlxTU5iRXJsLXo2M3kwS3lTc21OZ19iNW1hUHUxNEkyb2ZLM3d3ZkRscjBRSE1Vd1RjNlozVmxDX0pDRktwQm4tM0ZzM0FmckVXTkxvQ1pzck1VUW5XNjBDUHU3SnhBM2VlMU9ULXZreTRSaTFLMEVWN0lxa2JBXzUtZzFUa0Jkc0Z4aWhxck91NlE0X1lSaHVDQ0c2VHpMcGljWnlGNy1sM1RvSDdwNGxrQm55ckpINnpQdTjSAfgBQVVfeXFMTnZrcXlQSG1GMDduZmowNWE5aG5qNy1LTTZsWV9SUEVYMmx0a19wNUc3S1QtM0JtSV9tR2ZGVVJJSWZUR3lEOGRuVUM3UHBQRmF3UG9WRXpvNHVSYmZhWW8tZFdrdHhpTlM0VG0zY0hYRlgwQWtFc21HZldYOGVHOGNMaTdZc09kTXhKTjFDUXVmLS00bS1vZllrVHQ2d0g4d29idlVxRnJDX3ZIMHc5RjM0aDMwX2xiMzNMdWhhMmtYTUoyMjZxTUJTa2tGWW5vVURxb1B4NHFaTW9mQl9yR1d3ejN0Tm1UQ3F0bWNmLTZzVHZBTDBYam8?oc=5",
         "source": "El Tribuno",
@@ -2167,13 +2182,6 @@
         "source": "El Tintero de Salta",
         "date": "Mon, 26 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones en Salta: La Libertad Avanza denuncia violencia, votos sin DNI y votos de fallecidos - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc2xPeURUSlpjdHJpQkJhWFNENnQ4NkZhWnItU2JhbmJ4TzFtZFdJX3RRZEJBTWhxRUEyUmVMMVpBVHZkN2NGMVBjREotdmcxWWE4MUx3VFktVmV1YV91OFlhOTN4THNMcktwVXphWFpObDZXbUcwaDFicjZyNGpWS0ttS05IMEpEMm93dDNpaEpwZkNXcDVGU2daQ2tRTWwzb0dJaUJCVXZIODBqMEFGN21EVm9kOFd3RW52a1MyUjVHaGE2NkRuVDd4dGhhVTJ0YWlZZGQ4Z2M2SE9Q?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 26 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -8913,19 +8921,11 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 5
+        "count": 3
       },
       {
         "term": "exeni",
-        "count": 5
-      },
-      {
-        "term": "pasa",
-        "count": 2
-      },
-      {
-        "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -13929,11 +13929,11 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "orozco",
-        "count": 3
+        "count": 2
       },
       {
         "term": "voces",
@@ -21532,7 +21532,7 @@
       },
       {
         "term": "libertad",
-        "count": 3
+        "count": 2
       },
       {
         "term": "senadora",
@@ -21544,10 +21544,6 @@
       },
       {
         "term": "elintra",
-        "count": 2
-      },
-      {
-        "term": "avanza",
         "count": 2
       }
     ],
@@ -25457,13 +25453,17 @@
     "id": "dip-sergio-mauricio-lopez",
     "name": "Sergio Mauricio López",
     "role": "Diputado/a provincial por Metán",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 1,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2026-10-12": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-09-01": {
         "total": 1,
         "score_sum": 0
@@ -25509,7 +25509,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "sergio",
+        "count": 2
+      },
+      {
+        "term": "lópez",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Quiero ser una oposición inteligente, que controle y proponga",
@@ -25520,6 +25529,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sergio López confirmó que La Libertad Avanza buscará la intendencia de Metán en 2027 - Expresión del Sur",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2pMSENjc0J2aUtnR3l1aVppc0h6OFplalVuMURRcW5VT0F6ZEZGbkV2MnNVbUdmWUhaSXVuLUtTOXlrUGxCMUE0a2NGNXg4bklmZGNfeHNLb0RfR0tROFJEdFoxbGZGRnBwUXJuaDlrNGluZ2hHZVNLQnZmU2ZRU1NtckJlS1lTMHc3Zk53UnlzNk4yWWFqUHk5N0IyQ0JWR0FDZGszUzZMZUlibU5EWU5MWUNpY3FWYkt4bXpjSDVCUGl1?oc=5",
+        "source": "Expresión del Sur",
+        "date": "Mon, 12 Oct 2026 21:35:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Una comisión para investigar la conducta del diputado Sergio López - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYWFST3FsQmhSMXZFY1cxeVpJUFM1OXMzZ2huSUpsU3JrOU1YZlNmU18zUnhhMktFR0c5ZlRhV0h2dEl5em92b0VxbDR0YlhKOXpVTFVIdnhPUjRXZ3FqeGdENzJDNkJsS291U0IzdnJJQWVUbGw5ZVpFZU5Sc0hrY3BzSkhQZzBLUVNZZDVoZk95VTdkcWRDQS1ubzRETHVrVTRj?oc=5",
@@ -26621,13 +26637,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2026-06-19": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2020-10-27": {
         "total": 1,
         "score_sum": -2
@@ -26660,10 +26680,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2026-06-19": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-05-12": {
         "total": 1,
         "score_sum": -2
@@ -26688,11 +26704,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 14
+        "count": 15
       },
       {
         "term": "ignacio",
-        "count": 11
+        "count": 12
       },
       {
         "term": "elintra",
@@ -26715,7 +26731,7 @@
         "count": 3
       },
       {
-        "term": "caso",
+        "term": "ministro",
         "count": 2
       }
     ],
@@ -26748,6 +26764,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Noticia: El ministro Ignacio Jarsún recibió a Mariana Aranda - Gobierno de la Provincia de Salta, Argentina",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWExEenhJb2VWcERRR3pQUTZJLVdPRjk0RGI3VUR6RElXWk85clhKS1hWTE1xcTVWWkVIcVUyakdJblB5QVdHQUtpc0t4dlhDWmJMWE8tVlMyVVRPVE5lYzRjZGhCUi1sYk91MzBjdFgzX1ltMUo1T1dHRnVrLXd3TEY5NWRLbXBwQVF6djl3RXJRbG1RSW9lVG9JajR4NGR6?oc=5",
+        "source": "Gobierno de la Provincia de Salta, Argentina",
+        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Caso Rocío Abigail Riquel: denuncian al diputado Ignacio Jarsún por \"incitar a la violencia\" - Perfil",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb01CdnRuTGY4VnQ4V29IMTdRUEc4S1A4Z3Z6bDh4NTdmOUl1Z3FjVk8xc09ZZm9QOEV2SzY5eV9hN2dJeEVBOXUwcTdRZ21qZ1VDck43RlRKTlFtRDZmX1dya3NuczlUUS1kMTlhQU54Z0lJSVlsTjZNTzl0ZDI2WnljNF9XMXB5MFYtRmd6UXpZelZsUTItdEtTVFZiNHR4YVk1a0ZXaExLbmlzVWZpa3VXYlFrTkotMGRQMlFaZzhrZ3cxSnpWMTRIYXY2cFpF?oc=5",
