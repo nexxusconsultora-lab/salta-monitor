@@ -645,6 +645,7 @@ const grafoTela=()=>{const N={},E=[],cp=RED.cap,add=(id,o)=>N[id]||(N[id]=Object
  if(cp.man){const wk=n=>(n.kids||[]).forEach(k=>{if(/^p\//.test(n.id)&&/^p\//.test(k.id))L(n.id.slice(2),k.id.slice(2),'man',1.5,[],k.lbl);wk(k)});try{wk(mpEje())}catch(e){}}
  if(cp.cup){const vv=mpGob().vice;if(vv&&N[vv[0].id]){hub('c:Senado','Senado de Salta');N[vv[0].id].cup='Vicegobernador · preside el Senado';L(vv[0].id,'c:Senado','cup',2,[],'preside el Senado')}
   AUT.list.forEach((a,i)=>{const id=a.id&&N[a.id]?a.id:'a:'+i,h='c:'+a.camara;hub(h,camLab(a.camara));if(!N[id])add(id,{a,lab:a.nombre});N[id].cup=a.cargo;L(id,h,'cup',2,[],a.cargo)})}
+ if((cp.jud||cp.jco)&&window.judRed){try{window.judRed(N,E,add,hub,L,cp)}catch(e){console.error('NEWAR Judicial (red)',e)}}
  if(cp.pre){const lim=RED.per?Date.now()-RED.per*864e5:0,g={};
   MX().filter(okPrec).forEach(m=>{const pp=byId[m._pid];if(!pp||!N[pp.id]||(lim&&!(m._d>=lim)))return;const k=notaKey(m);(g[k]=g[k]||{m,s:new Set()}).s.add(pp.id)});
   const M={};Object.values(g).forEach(({m,s})=>{const a=[...s].sort();for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){const k=a[i]+'|'+a[j];(M[k]=M[k]||{a:a[i],b:a[j],w:0,n:[]});M[k].w++;M[k].n.push(m)}});
@@ -2013,5 +2014,6 @@ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.tar
 {const o=V.estadisticas;V.estadisticas=function(){const h=o.apply(this,arguments);setTimeout(()=>{need('news').catch(()=>0).then(()=>{try{estPlusPaint()}catch(x){console.error('NEWAR+ Estadísticas',x)}})},0);return h+'<div id="nxes"></div>'}}
 })();
 </script>
+<script src="judicial.js"></script>
 </body>
 </html>
