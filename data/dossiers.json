@@ -20710,13 +20710,21 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 72,
+    "total_mentions": 74,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 7,
-      "neutral": 59
+      "negativo": 8,
+      "neutral": 60
     },
     "sentiment_by_day": {
+      "2022-09-01": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2024-02-10": {
+        "total": 2,
+        "score_sum": -2
+      },
       "2025-10-21": {
         "total": 1,
         "score_sum": 0
@@ -20857,10 +20865,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2024-02-10": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-09-25": {
         "total": 2,
         "score_sum": 5
@@ -20961,15 +20965,23 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 17
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 17
+      },
+      {
+        "term": "secretaria",
+        "count": 5
       },
       {
         "term": "minería",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "energía",
+        "count": 3
       },
       {
         "term": "tribuno",
@@ -20980,19 +20992,17 @@
         "count": 3
       },
       {
-        "term": "secretaria",
-        "count": 3
-      },
-      {
-        "term": "romero",
-        "count": 2
-      },
-      {
-        "term": "senado",
+        "term": "clarin",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "falencias en infraestructuras y limitaciones de presupuesto",
+        "source": "Clarin.com",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPejZJajJEcHBMT3ljeUN4UW96ZlZfUU9Rc0NFaVhUdE9LSXd1QWZhNGdVX1dGSkNRdHlhQUlQdmVpdjdVbzVXQ1M1andmWC1MTF84VlpmSHJvQjJsUnQ2R3EyeE1OTW9fcFNYOXAwTVdBajBQSnVadTR6OE9lT1FqQ1VFTWZZVUszdlJGdGs0VllxWEpKSXFjRkpTc0VkRm9ieDg2VnJVbGZiYkVYWjRkQzVjTHllX09ZU0RING12RVZZQm9RZUpscm12dHBmOG9vNFNYUFZzQzZzUQ?oc=5",
+        "date": "Thu, 01 Sep 2022 07:00:00 GMT"
+      },
       {
         "quote": "Es una opción muy valiosa",
         "source": "El Tribuno",
@@ -21076,12 +21086,6 @@
         "source": "Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdnBmMEs3b1otRHd6OXl2S0NaUE56UnQ5dGMzQWRvMFJWWnVkRGJfdjN4akJwUGtmY2tTamJ3TmhTWWh0NHp1QmkxRG9MdGxlVTk4LVVZckNhdjd1aEV5NFdSY3owT251WWQzLUMxZlp5LXlTZmdtT2FIdEJRdjZRcGxLckN4aWFvZzlJLURvUjdnZExMZjh1QmVsdklsLVdh?oc=5",
         "date": "Tue, 28 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Esta reforma fortalece el federalismo ambiental",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVjBOS1hMUTdGQmFPOWlHLWVuWVhIWEtrUDA3QXVHZmdOQjU0dzFsekR3bDNaaVFfRktZQzdUdjFwZUVsTmdMQjRBZlloaUZEajlHV3NyRkNhODA1WDZyblpKR0d3TUJzTDNuRy1uLXpGNnRCZHljendaQXc5dmFtYURReFprXy1GTGtDTDg3Rm1tcUlMZk8tc2xlZHBjR0xtWjhZcHkwcDJkbFFoa1k3NW5qSWVHbnk3SnZZODZkekpwNkRKbi1RX3F3NVhraHY0bmlzS0VlUjM?oc=5",
-        "date": "Thu, 26 Feb 2026 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21105,6 +21109,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La secretaria de Energía, Flavia Royón, advirtió sobre “falencias en infraestructuras y limitaciones de presupuesto” - Clarin.com",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPejZJajJEcHBMT3ljeUN4UW96ZlZfUU9Rc0NFaVhUdE9LSXd1QWZhNGdVX1dGSkNRdHlhQUlQdmVpdjdVbzVXQ1M1andmWC1MTF84VlpmSHJvQjJsUnQ2R3EyeE1OTW9fcFNYOXAwTVdBajBQSnVadTR6OE9lT1FqQ1VFTWZZVUszdlJGdGs0VllxWEpKSXFjRkpTc0VkRm9ieDg2VnJVbGZiYkVYWjRkQzVjTHllX09ZU0RING12RVZZQm9RZUpscm12dHBmOG9vNFNYUFZzQzZzUQ?oc=5",
+        "source": "Clarin.com",
+        "date": "Thu, 01 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El MENSAJE de Flavia Royón tras su renuncia como secretaria de Minería - TN",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ1o2V2ZKYW1BWmJxa0FrWmY3QUhEVzJZN3M1dzFLQ3BwWk54RXBSUEQwM0U1Q3liVmhPRm1uNm8ybm1QaTdULW9zcTBoaWdrS1hocG5Jc2xXaFM4U0RoRkVpcnBqdUxCS0dCUlNtUUhZbk1BXy1TUzVRSE5ucHBhMHRZT0tLSXI4THJhV0ZfMFJpZnFyRUVmR25iazIzSU9BUkJUNHY2bVY3bTRnLVJXeUIzSWNmSzJUUm83ckpPTzh6NXkzaDFiNVJWNGdhZHRfZ2M4dXZB0gHqAUFVX3lxTE83dDE4NjYzUDJ4NFpTREpFN2F4YUZLYnZ3SUFWb21ZNTRjYTQ1cVpBT3gyV0NJUl9BN3VYVHY4UDd0WFBYV1JFRUt2T1VuSnFuTnptaUFDUG1yNVVvbzlLREZ3YXl2Zno3aHpvdnZ2elZ6alY2Rmg2UmRFQ1o2MXJvRU0zN0NtcVFHSDRQQ0h2WGo3LVhmRmlSZXh5RTRvS2pFcTdHeDh2M0g5SkFsZFQ2dVNxc1RaTGkzWW9ZSlRaNGJRM3lvRmdqUTlDYk9XMjF4MFdLeEJJRzVWZG9kWjFyR29VdEtISTVTUQ?oc=5",
+        "source": "TN",
+        "date": "Sat, 10 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Juan Carlos Romero volvió a respaldar a Flavia Royón como candidata al Senado: “Es una opción muy valiosa” - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcHNETDJoUDhzMEZ4ejgwLUd5S1ZJRVY1eHM3X2lielhESVV0TzZDMklheGRLZHlCV1pmWVYzakFPbmNWS2VqMFVwRWFLTjM2eTZjMzMyUFNrRVowdk1MY19NVVNaOTBEbEczb3VlaldLeFFLaU9SQnB6UW9IYVI5R0ZaTFNXNXY2eW81cC1SNXU3N1FSd21jekdLZGlYYXBRcVRMZWdPamp2eDBzWUxVT1hKNm1XYmptY1FQWkNZMGlobEdBRGhLckhOUzZsNTFZdi1KMTB6V09Nd9IB3wFBVV95cUxQTmtOcE5obzJZZHl2S2xPRktLYjc4aF9KVHplMnA4VGQyNHhJXzM3dWZvN3Y4Z1I3UmxXandYZXZzNzV3TXdrU1IxR2JGLVpSeDR5S1dtaG9vYjhkaU5CUDc5a0ZDTm1qWTBueExiekJEX28xdWt6dXBDMmVFMW1mUVZ5SC1CMHZxbFNpS0ktYk1uem5nRm1QVmstSFc2U191QWhUZGRzaFRwaFZJZW4xWHRFaVhvaG1JNENZWDlyY1hLbjdKLXd4V3FmVm0xLVNTcExtX3hGVjU4WlZHSVhJ?oc=5",
@@ -21299,20 +21317,6 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRi15ZnBiTERrWC0zVm5uQjFfV2RreWZGWGpTOXNIT2VfMWJ4cDRzeUVwODIwa3ZUU3FIYVNCRzhpM1dwVXFVNVVGQmliUUFWaWtsZjUydDlQVUJyTlpFaWhCazZtSVFvbG4zZ0pyLUZZZlhYNFQ2WHFOWnMwb191OUVCSGVtb2VJWkZCVURLMVZ4NW94ZnltMGJUb0Q?oc=5",
         "source": "Elintra.com.ar",
         "date": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón, la única salteña que votó contra la Ley de Inviolabilidad de la Propiedad Privada - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2VQQmtYZnFtV0dmNXdRNnVBQmhQaGNNRVlmalYxVE1VWms4aTZNQmxGcmozTFNsOUkyRG5vWmNaZDlLVlg5VUFBRk13NmU2UWh1c29VV21LakJhT0hZSHhjYW5TSmZoUUJNNG1MSjZoaUR4dXZmRGl4aVRoYk82U0NEY203blQxUmxHZFJySVhhdzVrZEU5LVR0UnFtSW5SQkZ5M0NrWTI3dmZ3dUx6d2pqWk9ESnNGZk1XOHVpbWhCYVEtZ2ZlYQ?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Fri, 07 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón contó cómo se salvó Atucha gracias al ingenio argentino - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUFlR3MtVmFRQjlsNXdjUU00X29nVUU3dDZiMnl3OU50QXdvZHRKem1PcFh1OV9jLVdjZFI1MDhqaXZaRFpRajI5YWsxdGpzdFlkSU4zS2xkSS1oWlJqV0RHbnh4WVJ5NEIwVDN6Z0lnZVVaSDg0bEM3WVV0UUFvY2I5LWdhUFRGWFkwZHI4d1QzLTJBeXlJQ0Y2Rk41dDZuc3NseFdR?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 29 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]

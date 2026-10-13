@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-13T02:37:11.497744+00:00",
+  "generated_at": "2026-10-13T02:41:54.324326+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 74,
+      "positivo": 6,
+      "negativo": 8,
+      "neutral": 60,
+      "score_sum": 1
+    },
     "eje-federico-mangione": {
       "total": 19,
       "positivo": 1,
@@ -42,13 +49,6 @@
       "negativo": 0,
       "neutral": 11,
       "score_sum": 0
-    },
-    "snac-flavia-royon": {
-      "total": 72,
-      "positivo": 6,
-      "negativo": 7,
-      "neutral": 59,
-      "score_sum": 3
     },
     "concejal-laura-jorge-saravia": {
       "total": 42,
@@ -913,6 +913,22 @@
     }
   },
   "by_day": {
+    "2022-09-01": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-02-10": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": -2
+      }
+    },
     "2026-07-18": {
       "eje-federico-mangione": {
         "total": 1,
@@ -5799,12 +5815,6 @@
     },
     "2021-06-29": {
       "dip-marianela-ibarra-afranllie": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-02-10": {
-      "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
       }
@@ -11295,12 +11305,6 @@
         "score_sum": 0
       }
     },
-    "2022-09-01": {
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2014-11-01": {
       "sen-carlos-lopez": {
         "total": 1,
@@ -15258,16 +15262,16 @@
   ],
   "trending_terms": [
     {
-      "term": "elintra",
-      "count": 9
-    },
-    {
       "term": "flavia",
-      "count": 8
+      "count": 10
     },
     {
       "term": "royón",
-      "count": 8
+      "count": 10
+    },
+    {
+      "term": "elintra",
+      "count": 9
     },
     {
       "term": "federico",
@@ -15284,6 +15288,10 @@
     {
       "term": "lópez",
       "count": 7
+    },
+    {
+      "term": "secretaria",
+      "count": 6
     },
     {
       "term": "sáenz",
@@ -15306,15 +15314,11 @@
       "count": 5
     },
     {
-      "term": "ignacio",
+      "term": "clarin",
       "count": 4
     },
     {
-      "term": "años",
-      "count": 4
-    },
-    {
-      "term": "pasa",
+      "term": "minería",
       "count": 4
     }
   ],
