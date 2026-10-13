@@ -1,0 +1,157 @@
+{
+  "_leeme": "Datos curados del Poder Judicial (Nación y Salta) que lee la pestaña Judicial. Cada dato lleva su fuente y la fecha en que se verificó. Lo que no se pudo verificar en una fuente oficial NO se completa: figura como 'sin_dato'. Para cambiar una persona de vigente a no vigente, poné \"vigente\": false y, si querés, \"hasta\": \"AAAA-MM-DD\" y \"motivo\" (cambió el cargo, dejó el cargo, falleció). Las autoridades de la Corte de Justicia de Salta NO están acá: se leen de data/autoridades.json, que se actualiza solo.",
+  "actualizado": "2026-10-12",
+  "nacional": {
+    "autoridades": [
+      {"id": "jud-n-rosatti", "nombre": "Horacio Rosatti", "cargo": "Presidente", "organismo": "Corte Suprema de Justicia de la Nación", "vigente": true, "desde": "2021-10-01", "nota": "Ministro de la Corte desde junio de 2016; preside el tribunal desde el 1 de octubre de 2021.", "fuente": "https://www.csjn.gov.ar/institucional/jueces", "verificado": "2026-10-12"},
+      {"id": "jud-n-rosenkrantz", "nombre": "Carlos Fernando Rosenkrantz", "cargo": "Vicepresidente", "organismo": "Corte Suprema de Justicia de la Nación", "vigente": true, "desde": "2024", "nota": "Ministro de la Corte desde agosto de 2016; vicepresidente (designado nuevamente en 2024).", "fuente": "https://www.csjn.gov.ar/institucional/jueces", "verificado": "2026-10-12"},
+      {"id": "jud-n-lorenzetti", "nombre": "Ricardo Lorenzetti", "cargo": "Ministro", "organismo": "Corte Suprema de Justicia de la Nación", "vigente": true, "desde": "2004-12", "nota": "Ministro de la Corte desde diciembre de 2004.", "fuente": "https://www.csjn.gov.ar/institucional/jueces", "verificado": "2026-10-12"},
+      {"id": "jud-n-mahiques", "nombre": "Juan Bautista Mahiques", "cargo": "Ministro de Justicia", "organismo": "Ministerio de Justicia de la Nación (Poder Ejecutivo)", "vigente": true, "desde": "", "nota": "El Ministerio de Justicia pertenece al Poder Ejecutivo, no al Poder Judicial; se lo incluye porque administra registros, la política criminal y la relación con el Poder Judicial.", "fuente": "https://www.argentina.gob.ar/justicia", "verificado": "2026-10-12"},
+      {"id": "jud-n-defensor", "nombre": "Julián Horacio Langevin", "cargo": "Defensor General de la Nación (interino)", "organismo": "Ministerio Público de la Defensa", "vigente": true, "desde": "", "nota": "Figura como interino en el sitio oficial del organismo.", "fuente": "https://www.mpd.gov.ar/", "verificado": "2026-10-12"}
+    ],
+    "sin_dato": [
+      {"cargo": "Procurador/a General de la Nación", "organismo": "Ministerio Público Fiscal", "motivo": "El sitio oficial (mpf.gob.ar) no nombra a la persona en su página principal.", "fuente": "https://www.mpf.gob.ar/procuracion-general/"},
+      {"cargo": "Presidente/a del Consejo de la Magistratura", "organismo": "Consejo de la Magistratura de la Nación", "motivo": "El sitio oficial publica la integración en una página aparte que no se pudo leer.", "fuente": "https://consejomagistratura.gov.ar/index.php/integrantes_del_consejo/"},
+      {"cargo": "Ministros/as de la Corte Suprema (cargos restantes)", "organismo": "Corte Suprema de Justicia de la Nación", "motivo": "El sitio oficial lista tres ministros; la ley fija cinco integrantes. No se encontró en fuente oficial información sobre nominaciones en curso.", "fuente": "https://www.csjn.gov.ar/institucional/jueces"}
+    ],
+    "corte_integrantes_legales": 5,
+    "estructura": [
+      {"t": "Corte Suprema de Justicia de la Nación", "d": "Cabeza del Poder Judicial de la Nación. Última instancia en todo el país, intérprete final de la Constitución. Art. 108 de la Constitución.", "url": "https://www.csjn.gov.ar/"},
+      {"t": "Consejo de la Magistratura de la Nación", "d": "Selecciona jueces mediante concursos, administra el Poder Judicial y ejerce la disciplina de los magistrados (Comisiones de Selección, Disciplina y Acusación, y Administración y Financiera).", "url": "https://consejomagistratura.gov.ar/"},
+      {"t": "Jurado de Enjuiciamiento", "d": "Juzga a los magistrados que fueron acusados y puede removerlos. Lo integran legisladores, magistrados y abogados."},
+      {"t": "Cámaras de apelaciones y de casación", "d": "Revisan lo resuelto por los juzgados de primera instancia, en cada fuero y en cada jurisdicción federal del país."},
+      {"t": "Juzgados de primera instancia", "d": "Federales (en todo el país) y nacionales (en la Ciudad de Buenos Aires). Son la primera puerta de las causas."},
+      {"t": "Ministerio Público Fiscal", "d": "Acusa en nombre de la sociedad e investiga delitos. Lo encabeza el/la Procurador/a General de la Nación.", "url": "https://www.mpf.gob.ar/"},
+      {"t": "Ministerio Público de la Defensa", "d": "Defensa pública y protección de derechos. Lo encabeza el Defensor General de la Nación (Ley 27.149).", "url": "https://www.mpd.gov.ar/"}
+    ],
+    "fueros": ["Civil", "Comercial", "Penal (criminal y correccional)", "Penal económico", "Laboral", "Seguridad social", "Contencioso administrativo federal", "Electoral", "Civil y comercial federal", "Criminal y correccional federal"],
+    "ministerio_justicia": {
+      "titular": "Juan Bautista Mahiques",
+      "fuente": "https://www.argentina.gob.ar/justicia",
+      "secretarias": ["Secretaría de Justicia", "Secretaría de Políticas de Vinculación Ciudadana", "Secretaría de Coordinación Administrativa", "Unidad Gabinete de Asesores", "Subsecretaría de Derechos Humanos"],
+      "organismos": [
+        {"t": "Procuración del Tesoro de la Nación", "url": "https://www.ptn.gob.ar/"},
+        {"t": "Escribanía General del Gobierno de la Nación", "url": "https://www.argentina.gob.ar/justicia/escribania-general-del-gobierno-de-la-nacion"},
+        {"t": "Centro Internacional para la Promoción de los Derechos Humanos (CIPDH)", "url": "http://www.cipdh.gob.ar/"},
+        {"t": "Programa de Coordinación Nacional para el Combate del Lavado de Activos y la Financiación del Terrorismo", "url": "https://www.argentina.gob.ar/justicia/combate-lavado-de-activos-y-la-financiacion-del-terrorismo"}
+      ],
+      "registros": [
+        {"t": "Registro Nacional de la Propiedad del Automotor (DNRPA)", "url": "https://www.argentina.gob.ar/propiedadautomotor"},
+        {"t": "Inspección General de Justicia (IGJ)", "url": "https://www.argentina.gob.ar/justicia/igj"},
+        {"t": "Registro Nacional de Reincidencia", "url": "https://www.argentina.gob.ar/justicia/reincidencia"},
+        {"t": "Registro Nacional de Tierras Rurales", "url": "https://www.argentina.gob.ar/justicia/tierrasrurales"},
+        {"t": "Registro de la Propiedad Inmueble de la Capital Federal", "url": "http://www.dnrpi.jus.gov.ar/"},
+        {"t": "Registro de Derecho de Autor", "url": "https://www.argentina.gob.ar/justicia/derechodeautor"},
+        {"t": "RENCAP (control de admisión y permanencia)", "url": "https://www.argentina.gob.ar/justicia/rencap"},
+        {"t": "Registro Único de Aspirantes a Guarda con Fines Adoptivos", "url": "https://www.argentina.gob.ar/justicia/adopcion"},
+        {"t": "Registro Nacional de Sociedades, Concursos y Quiebras", "url": "https://www.argentina.gob.ar/justicia/direccion-registro-nacional-sociedades-concursos-quiebras"},
+        {"t": "RePET (personas vinculadas a terrorismo y su financiamiento)", "url": "https://repet.jus.gob.ar/"},
+        {"t": "Registro Nacional de Información de Personas Menores Extraviadas", "url": "https://www.argentina.gob.ar/justicia/chicosextraviados"}
+      ]
+    }
+  },
+  "salta": {
+    "corte": {"integrantes_legales": 9, "presidencia_anios": 2, "sede": "Complejo Judicial, Av. República de Bolivia 4671, Salta", "ley_organica": "Ley 5.642", "fuente": "https://www.justicia.ar/poderes-judiciales/salta"},
+    "organos": [
+      {"t": "Corte de Justicia", "d": "Máximo tribunal de la provincia, con jurisdicción en todo el territorio. Nueve integrantes según la Ley Orgánica; la presidencia dura dos años.", "url": "https://www.justiciasalta.gov.ar/es/autoridades"},
+      {"t": "Consejo de la Magistratura", "d": "Hace los concursos para magistrados inferiores, Jueces de Paz Letrados y funcionarios del Ministerio Público, y envía ternas vinculantes al Poder Ejecutivo.", "url": "https://cmagistraturasalta.gov.ar/"},
+      {"t": "Escuela de la Magistratura", "d": "Capacitación de magistrados y funcionarios.", "url": "https://escuelamagistratura.gov.ar/"},
+      {"t": "Jurado de Enjuiciamiento de Magistrados", "d": "Órgano de la estructura del Poder Judicial que juzga a magistrados acusados.", "url": "https://www.justiciasalta.gov.ar/es/estructura"},
+      {"t": "Tribunal Electoral", "d": "Órgano de la estructura del Poder Judicial.", "url": "https://www.justiciasalta.gov.ar/es/estructura"},
+      {"t": "Tribunal de Superintendencia del Notariado", "d": "Órgano de la estructura del Poder Judicial.", "url": "https://www.justiciasalta.gov.ar/es/estructura"},
+      {"t": "Ministerio Público Fiscal", "d": "Investiga y acusa. Sitio propio.", "url": "https://fiscalespenalesalta.gob.ar/"},
+      {"t": "Ministerio Público de la Defensa", "d": "Defensa pública. Sitio propio.", "url": "https://mpdsalta.gov.ar/"},
+      {"t": "Ministerio Público Tutelar", "d": "Asesorías de incapaces y protección de derechos de niños y personas con capacidad restringida. Sitio propio.", "url": "https://mpasesoriasalta.gov.ar/"},
+      {"t": "Secretaría de Derechos Humanos", "d": "Área de la estructura de la Corte.", "url": "https://www.justiciasalta.gov.ar/es/estructura"},
+      {"t": "Secretaría de Jurisprudencia", "d": "Publica los fallos.", "url": "https://www.justiciasalta.gov.ar/es/estructura"}
+    ],
+    "sin_dato": [
+      {"cargo": "Procurador/a General de la Provincia", "organismo": "Ministerio Público Fiscal de Salta", "motivo": "No figura en la página de autoridades de la Corte; falta cargarlo desde una fuente oficial."},
+      {"cargo": "Defensor/a General de la Provincia", "organismo": "Ministerio Público de la Defensa de Salta", "motivo": "No figura en la página de autoridades de la Corte; falta cargarlo desde una fuente oficial."},
+      {"cargo": "Asesor/a General de Incapaces", "organismo": "Ministerio Público Tutelar de Salta", "motivo": "No figura en la página de autoridades de la Corte; falta cargarlo desde una fuente oficial."},
+      {"cargo": "Presidente/a del Consejo de la Magistratura de Salta", "organismo": "Consejo de la Magistratura de Salta", "motivo": "La página de autoridades de la Corte solo enlaza al sitio del Consejo."}
+    ],
+    "fueros": ["Civil", "Contencioso administrativo", "Laboral", "Penal"],
+    "distritos": [
+      {"t": "Distrito Centro", "sedes": [["Capital", "Av. Bolivia 4671"], ["Cafayate", "Vicario Toscano 276"]]},
+      {"t": "Distrito Orán", "sedes": [["San Ramón de la Nueva Orán", "Egües y Lamadrid"]]},
+      {"t": "Distrito Tartagal", "sedes": [["Tartagal", "Av. Mosconi 1461"]]},
+      {"t": "Distrito Sur", "sedes": [["Metán", "Mitre Oeste 30"], ["Anta", "Belgrano 210"]]}
+    ],
+    "distritos_fuente": "https://www.justiciasalta.gov.ar/es/autoridades",
+    "servicios": [
+      "Guía Judicial", "Oficina de Violencia Familiar y de Género", "Oficina de Género", "Registro de Aspirantes a Guardas con fines de Adopción", "Registro de Deudores Alimentarios", "Certificado de Deudores Alimentarios", "Suspensión de Juicios a Prueba", "Mediación", "Jurisprudencia", "Biblioteca", "Registro Público de Procesos Colectivos", "Certificación de Antecedentes Penales", "Jueces de Paz", "Tribunales de Tratamiento de Drogas", "Estadísticas", "Subastas Electrónicas", "Contrataciones", "Llamado a Concurso", "Acordadas"
+    ],
+    "redes": [
+      {"t": "X (prensa judicial)", "v": "@prensaju"},
+      {"t": "Instagram", "v": "poder_judicial_salta"},
+      {"t": "YouTube", "v": "prensajudicialsalta"},
+      {"t": "Facebook", "v": "PoderJudicialSalta"}
+    ]
+  },
+  "convocatorias": [
+    {"t": "Concurso para Juez de la Cámara de Apelaciones en lo Civil y Comercial (Salta)", "desde": "2026-11-02", "hasta": "2026-11-13", "d": "Período de inscripción.", "ambito": "Salta", "fuente": "https://www.justicia.ar/poderes-judiciales/salta", "verificado": "2026-10-12"}
+  ],
+  "enlaces": [
+    {"g": "Consulta de causas", "t": "Consulta pública de causas (Poder Judicial de la Nación)", "u": "https://scw.pjn.gov.ar/scw/home.seam", "a": "Nación"},
+    {"g": "Consulta de causas", "t": "Consulta de causas de Salta (plataforma judicial)", "u": "https://plataforma.justiciasalta.gov.ar/iol-ui/p/inicio", "a": "Salta"},
+    {"g": "Consulta de causas", "t": "Índice de consultas de causas de todo el país", "u": "https://www.justicia.ar/herramientas/consulta-publica-de-causas", "a": "Nación"},
+    {"g": "Portales", "t": "Poder Judicial de la Nación", "u": "https://www.pjn.gov.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Corte Suprema de Justicia de la Nación", "u": "https://www.csjn.gov.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Justicia Argentina (portal de todos los poderes judiciales)", "u": "https://www.justicia.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Ministerio de Justicia de la Nación", "u": "https://www.argentina.gob.ar/justicia", "a": "Nación"},
+    {"g": "Portales", "t": "Consejo de la Magistratura de la Nación", "u": "https://consejomagistratura.gov.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Ministerio Público Fiscal de la Nación", "u": "https://www.mpf.gob.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Ministerio Público de la Defensa de la Nación", "u": "https://www.mpd.gov.ar/", "a": "Nación"},
+    {"g": "Portales", "t": "Poder Judicial de Salta", "u": "https://www.justiciasalta.gov.ar/", "a": "Salta"},
+    {"g": "Portales", "t": "Consejo de la Magistratura de Salta", "u": "https://cmagistraturasalta.gov.ar/", "a": "Salta"},
+    {"g": "Portales", "t": "Ministerio Público Fiscal de Salta", "u": "https://fiscalespenalesalta.gob.ar/", "a": "Salta"},
+    {"g": "Portales", "t": "Ministerio Público de la Defensa de Salta", "u": "https://mpdsalta.gov.ar/", "a": "Salta"},
+    {"g": "Portales", "t": "Ministerio Público Tutelar de Salta", "u": "https://mpasesoriasalta.gov.ar/", "a": "Salta"},
+    {"g": "Portales", "t": "Escuela de la Magistratura de Salta", "u": "https://escuelamagistratura.gov.ar/", "a": "Salta"},
+    {"g": "Sentencias y normas", "t": "Sentencias publicadas por todos los poderes judiciales", "u": "https://www.justicia.ar/herramientas/sentencias", "a": "Nación"},
+    {"g": "Sentencias y normas", "t": "Leyes argentinas (Infoleg / normativa)", "u": "https://www.argentina.gob.ar/normativa", "a": "Nación"},
+    {"g": "Sentencias y normas", "t": "Ley Orgánica del Poder Judicial de Salta (Ley 5.642)", "u": "https://www.justiciasalta.gov.ar/", "a": "Salta"},
+    {"g": "Estadísticas", "t": "Estadísticas del Poder Judicial de la Nación", "u": "https://estadisticas.pjn.gov.ar/07_estadisticas/estadisticas/07_estadisticas/index.php", "a": "Nación"},
+    {"g": "Estadísticas", "t": "Estadísticas judiciales (iniciativa de Justicia Argentina)", "u": "https://www.justicia.ar/iniciativas/estadisticas", "a": "Nación"},
+    {"g": "Estadísticas", "t": "Estadísticas del Poder Judicial de Salta (menú Información > Estadísticas)", "u": "https://www.justiciasalta.gov.ar/", "a": "Salta"},
+    {"g": "Trámites y ayuda", "t": "Certificado de antecedentes penales (Reincidencia)", "u": "https://www.argentina.gob.ar/justicia/reincidencia/antecedentespenales", "a": "Nación"},
+    {"g": "Trámites y ayuda", "t": "Centros de Acceso a Justicia", "u": "https://www.argentina.gob.ar/justicia/afianzar/caj", "a": "Nación"},
+    {"g": "Trámites y ayuda", "t": "Atención a víctimas", "u": "https://www.argentina.gob.ar/justicia/podemos-ayudarte", "a": "Nación"},
+    {"g": "Trámites y ayuda", "t": "Guía de acceso a justicia", "u": "https://www.justicia.ar/herramientas/guia-de-acceso-a-justicia", "a": "Nación"},
+    {"g": "Trámites y ayuda", "t": "Protección contra la violencia doméstica", "u": "https://www.justicia.ar/herramientas/proteccion-contra-la-violencia-domestica", "a": "Nación"},
+    {"g": "Trámites y ayuda", "t": "Glosario jurídico (Justicia Argentina)", "u": "https://www.justicia.ar/herramientas/glosario", "a": "Nación"},
+    {"g": "Directorios", "t": "Autoridades de todos los poderes judiciales", "u": "https://www.justicia.ar/herramientas/directorios/autoridades", "a": "Nación"},
+    {"g": "Directorios", "t": "Sitios web y redes de los poderes judiciales", "u": "https://www.justicia.ar/herramientas/directorios/sitios-redes", "a": "Nación"},
+    {"g": "Directorios", "t": "Mapa de fiscalías (Ministerio Público Fiscal)", "u": "https://www.mpf.gob.ar/mapa-fiscalias/", "a": "Nación"},
+    {"g": "Directorios", "t": "Novedades de Justicia Argentina", "u": "https://www.justicia.ar/novedades", "a": "Nación"},
+    {"g": "Directorios", "t": "Novedades del Ministerio de Justicia", "u": "https://www.argentina.gob.ar/justicia/noticias", "a": "Nación"}
+  ],
+  "glosario": [
+    {"t": "Imputado/a", "d": "Persona a la que se le atribuye haber participado en un delito en una investigación. Es una etapa inicial: no significa que sea culpable."},
+    {"t": "Indagatoria", "d": "Declaración que el juez le toma a una persona sospechada, después de informarle de qué se la acusa. La persona puede negarse a declarar."},
+    {"t": "Procesamiento", "d": "Resolución del juez que considera que hay elementos suficientes para seguir adelante con la causa contra una persona. Todavía no es una condena."},
+    {"t": "Sobreseimiento", "d": "Resolución que cierra la causa a favor de la persona porque el hecho no existió, no es delito o no lo cometió."},
+    {"t": "Falta de mérito", "d": "El juez no tiene pruebas suficientes para procesar ni para sobreseer; la investigación sigue abierta."},
+    {"t": "Elevación a juicio", "d": "Fin de la investigación: la causa pasa al tribunal que hará el juicio oral."},
+    {"t": "Juicio oral", "d": "Etapa en la que el tribunal escucha pruebas y testigos en audiencias públicas antes de dictar sentencia."},
+    {"t": "Condena / sentencia", "d": "Decisión que pone fin a un juicio. Una condena puede ser apelada: mientras no esté firme, se presume la inocencia."},
+    {"t": "Sentencia firme", "d": "Ya no se puede recurrir. Recién ahí la decisión queda definitiva."},
+    {"t": "Querella / querellante", "d": "Víctima (o quien la representa) que participa de la causa como parte acusadora, además del fiscal."},
+    {"t": "Denuncia", "d": "Aviso a la justicia o a la policía de un posible delito. Cualquiera puede denunciar: una denuncia no prueba nada por sí sola."},
+    {"t": "Fiscal", "d": "Funcionario del Ministerio Público que investiga y acusa en nombre de la sociedad."},
+    {"t": "Defensor oficial", "d": "Abogado del Estado que defiende gratis a quien no tiene abogado propio."},
+    {"t": "Camarista", "d": "Juez de una cámara de apelaciones, que revisa lo resuelto por jueces de primera instancia."},
+    {"t": "Recurso extraordinario", "d": "Vía para llegar a la Corte Suprema cuando hay una cuestión constitucional o federal. La Corte decide si lo toma."},
+    {"t": "Amparo", "d": "Juicio rápido para frenar una violación de un derecho constitucional cuando no hay otra vía eficaz."},
+    {"t": "Medida cautelar", "d": "Orden provisoria del juez para evitar un daño mientras se resuelve el fondo del caso."},
+    {"t": "Prisión preventiva", "d": "Detención de una persona antes de la sentencia, por riesgo de fuga o de entorpecer la investigación. No es una condena."},
+    {"t": "Acordada", "d": "Decisión de gobierno o administración que toma el tribunal en conjunto (no es un fallo sobre un caso)."},
+    {"t": "Inconstitucionalidad", "d": "Declaración de que una norma contradice la Constitución. En Argentina cualquier juez puede declararla para un caso concreto."},
+    {"t": "Jury / juicio por jurados", "d": "Juicio en el que ciudadanos comunes deciden si la persona es culpable o no culpable."},
+    {"t": "Jurado de Enjuiciamiento", "d": "Órgano que juzga a un juez acusado y puede removerlo del cargo."},
+    {"t": "Pliego", "d": "Propuesta de designación de un juez o fiscal que el Poder Ejecutivo envía al Senado para que preste su acuerdo."},
+    {"t": "Terna", "d": "Lista de tres candidatos que el Consejo de la Magistratura envía al Poder Ejecutivo para cubrir un cargo de juez."},
+    {"t": "Feria judicial", "d": "Períodos del año (invierno y enero) en que los tribunales reducen su actividad a las causas urgentes."}
+  ]
+}
