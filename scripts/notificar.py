@@ -183,7 +183,20 @@ EMOJI_AREA = {
     "Deportes": "⚽", "Espectáculos y cultura": "🎭", "Otros temas": "📌",
 }
 # Áreas que no entran en «Lo más importante» ni se muestran antes que las demás
-AREAS_SUAVES = {"Deportes", "Espectáculos y cultura", "Otros temas"}
+# (la prioridad es lo que pasa en la Argentina: lo del exterior va al final, en «Por área»)
+AREAS_SUAVES = {"Deportes", "Espectáculos y cultura", "Internacional", "Otros temas"}
+# «alcance = Salta» solo dice que la publicaron medios salteños (también publican Boca, River, famosos y política nacional).
+# Para «En Salta» se usa: el título nombra un lugar de Salta, o la publican solo medios de Salta y es un tema de servicio local.
+TEMAS_LOCALES = {"Policiales y seguridad", "Accidentes y emergencias", "Clima y ambiente", "Transporte e infraestructura", "Turismo",
+                 "Educación y universidades", "Salud", "Minería y energía", "Agro y producción", "Sociedad y género"}
+
+
+def es_salta(h):
+    if h.get("lugar"):
+        return True
+    return h.get("alcance") == "Salta" and ("lugar" not in h or h.get("tema") in TEMAS_LOCALES)
+
+
 TG_TOP = 5            # historias en «Lo más importante»
 TG_SALTA = 6          # historias en «En Salta»
 TG_X_AREA = 2         # historias por área (en las áreas más movidas)
@@ -198,7 +211,7 @@ def _titular_html(h, marca=True):
     t = limpiar(h.get("titulo"), TG_TIT)
     u = _link(h)
     base = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
-    if marca and h.get("alcance") == "Salta":
+    if marca and es_salta(h):
         base = "📍 " + base
     if h.get("sigue_de_ayer"):
         base += " 🔁"
@@ -221,7 +234,7 @@ def armar_html(dia, fecha, edicion="manana"):
     t = dia.get("totales") or {}
     notas = tt.get("notas") or t.get("recolectadas") or 0
     titulo = ("📰 <b>Resumen de ayer</b> · " if edicion == "manana" else "🗞️ <b>Novedades de hoy</b> · ") + _e(cab)
-    n_salta = len([h for h in hist if h.get("alcance") == "Salta"])
+    n_salta = len([h for h in hist if es_salta(h)])
     out = [titulo,
            f"📊 <b>{len(hist)}</b> historias" + (f" de {notas} notas" if notas else "")
            + (f" · 📡 {t.get('medios')} medios" if t.get("medios") else "") + f" · 📍 {n_salta} en Salta"]
@@ -237,7 +250,7 @@ def armar_html(dia, fecha, edicion="manana"):
         out.append("Sin historias.")
 
     # 2) En Salta, de cualquier área
-    salta = ordenar([h for h in hist if h.get("alcance") == "Salta" and h.get("tema") not in AREAS_SUAVES])[:TG_SALTA]
+    salta = ordenar([h for h in hist if es_salta(h) and h.get("tema") not in AREAS_SUAVES])[:TG_SALTA]
     out += ["", LINEA, "📍 <b>EN SALTA</b>"]
     for h in salta:
         out.append(f"• {EMOJI_AREA.get(h.get('tema'), '📌')} {_titular_html(h, marca=False)}")
