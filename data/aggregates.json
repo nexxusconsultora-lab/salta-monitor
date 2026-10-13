@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-13T02:41:54.324326+00:00",
+  "generated_at": "2026-10-13T03:00:34.137930+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 55,
+      "positivo": 7,
+      "negativo": 8,
+      "neutral": 40,
+      "score_sum": -3
+    },
     "snac-flavia-royon": {
       "total": 74,
       "positivo": 6,
@@ -84,13 +91,6 @@
       "negativo": 4,
       "neutral": 16,
       "score_sum": 0
-    },
-    "snac-emilia-orozco": {
-      "total": 54,
-      "positivo": 7,
-      "negativo": 8,
-      "neutral": 39,
-      "score_sum": -3
     },
     "concejal-dario-madile": {
       "total": 71,
@@ -913,6 +913,12 @@
     }
   },
   "by_day": {
+    "2023-08-13": {
+      "snac-emilia-orozco": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
     "2022-09-01": {
       "snac-flavia-royon": {
         "total": 1,
@@ -4280,12 +4286,6 @@
     "2024-12-27": {
       "dip-german-dario-ralle": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-08-13": {
-      "snac-emilia-orozco": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -15302,6 +15302,10 @@
       "count": 6
     },
     {
+      "term": "orozco",
+      "count": 5
+    },
+    {
       "term": "ministro",
       "count": 5
     },
@@ -15314,11 +15318,7 @@
       "count": 5
     },
     {
-      "term": "clarin",
-      "count": 4
-    },
-    {
-      "term": "minería",
+      "term": "diputada",
       "count": 4
     }
   ],

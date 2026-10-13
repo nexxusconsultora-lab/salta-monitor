@@ -21325,13 +21325,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 54,
+    "total_mentions": 55,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 8,
-      "neutral": 39
+      "neutral": 40
     },
     "sentiment_by_day": {
+      "2023-08-13": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2025-05-23": {
         "total": 1,
         "score_sum": 0
@@ -21363,10 +21367,6 @@
       "2026-10-05": {
         "total": 1,
         "score_sum": 1
-      },
-      "2023-08-13": {
-        "total": 2,
-        "score_sum": 0
       },
       "2023-08-03": {
         "total": 1,
@@ -21528,11 +21528,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 7
+        "count": 8
       },
       {
         "term": "orozco",
-        "count": 7
+        "count": 8
+      },
+      {
+        "term": "diputada",
+        "count": 2
       },
       {
         "term": "libertad",
@@ -21664,6 +21668,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La precandidata a diputada Emilia Orozco entró a votar acompañada de su perro - saltacomparativa.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWhOblVqeVoxZUUzN1VWQml1WWUxeHJtSkNqY1J0NV9Jc1E4MmZTZlMyZDZsaHFGT2RDWmx6VEVYeEN4amdhQlJmdHZkNFROaHFwUjBMMnprY3RXNWRRaUo4dTBudFI2OEEtakdWeThHYVUyYTBad2lUSXFsUzV6cllPeVR2X0dMM09aMTdFejZCMEFaTFliLVJZc2ZwMjRYN1VneF9wZFppN0NCbkJ1Tlg4czhyd2xMNmh1eUVZT2hlYno3c2c2V2M0cExEQ1U4UTh6Yw?oc=5",
+        "source": "saltacomparativa.com.ar",
+        "date": "Sun, 13 Aug 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El silencio incómodo de Emilia Orozco, la diputada libertaria que preside la Comisión de Libertad de Expresión - La Nación",
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcHNCd0ZUeC1DYmx2VnE0MGpqZDZhWTNlMDdJUmwzQTZLN0FHNW0zSklmRG5POUlJR3F4bDViUkZoek9mMk1ha0JFZmxhXy1TY1pnNzFUZ0tlWU1RQV9ldXpTcFZybTl3VXpnSktvMTZIX1NhMWhBYzBjUlJCWEZwZTQzWmdER2tBRkJLQWpfYmhzM2puRzRqcU56c1JJMmVIWlZUcFVVMHVTZ3RWWF95ZkFfRXFMNDdrYzY3Z1Z4aWYxU1RudlprTUJIbXpmcXJQU2VtRFZwT0NGdnFWZ3g5RlA2SQ?oc=5",
@@ -21866,13 +21877,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Mon, 07 Apr 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Duras críticas a los legisladores olmedistas por el acting de Emilia Orozco en el nuevo puente de Vaqueros - saltacomparativa.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZFRlRmVXTlM5V0dMNzBOOTI5TGhORE9LOE52aG9SMDZmMGdBVC11RHh3UEJyRzdaRndmNkpJRzJpUk9KS0drTjN2QUFXckNKanVSbUJsLVRqWmFGUEUwQ01vUEJoQWJiSGJMZWpnenBkcmNCUTFtcGpLTmE5Wm1waFlvTzdwcmNKV2JiY21aa3Y3OTRrRllJWDlISk1mLXdGV2lxZmdIQThEMjVwTWZNRVlycnR6UWhXdzg0eERfVUNiMXk1N1VzUnVueVpDTl8ySEppNmd4MjdmNi03ME43bzVidnNVX0hWN01OOVhmejVSNjM0YVZySkl3?oc=5",
-        "source": "saltacomparativa.com.ar",
-        "date": "Mon, 27 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
