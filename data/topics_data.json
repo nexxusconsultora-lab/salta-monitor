@@ -1,20 +1,28 @@
 {
-  "generated_at": "2026-10-13T18:34:17.014317+00:00",
+  "generated_at": "2026-10-13T23:08:41.615794+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 340,
+      "total_mentions": 349,
       "sentiment_breakdown": {
         "positivo": 20,
         "negativo": 29,
-        "neutral": 291
+        "neutral": 300
       },
       "sentiment_by_day": {
+        "2026-10-09": {
+          "total": 43,
+          "score_sum": -4
+        },
         "2026-10-13": {
-          "total": 11,
+          "total": 18,
           "score_sum": 2
+        },
+        "2026-10-08": {
+          "total": 26,
+          "score_sum": -12
         },
         "2026-10-12": {
           "total": 10,
@@ -24,17 +32,9 @@
           "total": 13,
           "score_sum": -2
         },
-        "2026-10-09": {
-          "total": 42,
-          "score_sum": -4
-        },
         "2026-10-11": {
           "total": 16,
           "score_sum": 0
-        },
-        "2026-10-08": {
-          "total": 25,
-          "score_sum": -12
         },
         "2026-10-05": {
           "total": 5,
@@ -168,15 +168,15 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 169
+          "count": 176
         },
         {
           "term": "presupuesto",
-          "count": 98
+          "count": 100
         },
         {
           "term": "intransigente",
-          "count": 58
+          "count": 59
         },
         {
           "term": "discapacidad",
@@ -298,6 +298,69 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Belgrano Cargas: Sáenz dijo que gestiona en Nación modificaciones - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLUdxTlpBaC1nUm4wRndxcHVJRUVxV3Fjc3hzYUtoVXhqdkhYbUtMRjI4emNod1U3Z0RuMzJOWEJIOG9rLUdIV0pOY2NFTXdteWluM2pFUWU1OVNIc0Y4dkJZTUxPTGNIZUJ4TG5qTGprdzgwaXBIQmh6RlRUR2lvanlzT1Z5eGwtemh2RnBVWDFwMjNpbVVPMzhIZW5oN0RWRG0zbEVZSHRiWm45QnZGUW5n0gG3AUFVX3lxTE9heDJZWnJ1WS1TUUhTV3g2bW1TWW1yc0Zjd2thelo2ZnFQS2VjeGxFZ0FPamZIVVpsRWxSUUx2cjZyYUVXajZPTjdKekUzOXQwWnhfQnBoNXJwaG9DQ0RuaXN2djhScUtFSVZ4SVlvT2pwUk9DbDQ0WkkwS2RYcFJnQlE5TXp6bElJZEQ0czV3ODNuRmZaQU5DS291NDZ4WEhjclA4bzVvYkFLN1FyRGFzMGZ3S2xCNA?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 09 Oct 2026 04:48:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Curioso descargo de un abogado atrapado con droga - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTTY1N2hENFB0d2JERFhsamxybnp5c0JrNzhXZkdzNmhPNEpVM1dENTJNbkJ0TEV1bDkwUGZNYmViOFNMMTRRaUJuWlRxeE1NWHlhVzh4YkdsbjhrSmdiQTVkYzNEcWxVWlFwSU5uRFU3dWdEeGRHZUVrRFJLbEwwUWt3Y2czNFRWU00wbW1ZUG9tdjRIZVZjVWZyQVhqWWs4RDdueF930gGrAUFVX3lxTE0xQUEtTUQ2R19MWGliRHUwR1pCaUJPQUJxMjRtdUNVNy1QNXpNelJvMUJNR0NDa3N4ZEJ1Y000aElUempjRms3RDVoYllFVkRHOU9KVUh6NVItUXdlWndNa1hueVZTU2pCaEFabjlHdmkyek9pOXlCcVFzdjR4SmxQYjBoQ0RzcVhHRHloSk9zYXBRTldSQmtUVzdGQVhQOXpvaVliaEM2Mk9EZw?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Adrián Ravier ratificó la postura argentina contra la explotación de hidrocarburos en Malvinas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWURlcHBlTDFLTWhicFZnbVM4VTRxN0ZzcEtwVVF3VEJfdnVRa1NOSmktdVJ2QVVHSExBaExHdEROLXZ1SGJXOXlXczdFWklNV0pVTkI5SlVmY0FtNkU5bDA1X0loMmNJYm1lYkJYNHZWLTNYMDV2dWRiNGVuUks2emZWei1saDZwV3RiQWM3NEk4UHo3ZVVjRFFUX2dDSEt5N0lTSk51MDF0SmVnd0U1SktiVFlHU0c0ZndIU3FQQ0E0ZUxLS0RKeU5mdFhLaXJPbFpWM3JvX1V3T3Uzc2FrWFByNmI?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 20:28:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Rompió el silencio: qué dice el comunicado de Darío Giordano, padre de Valentín y Franco Yankelevich - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcG96aDF5dVNPZ0wtZ2dhQ2NqUGU3d3hwYjZXVDdWVHA5VG1FNmR5TXFEMjZjSG51MEw5amNJWVNLUzZxTl9teVYxNG1BQy1wSS11cHBYMHFCVEdqVzFsa1o1YnNuQV9xbUJONnozSkpBemJBMEw3bllaU1ptejROSG9JdFJiTWFWY0tqcFZ3YzJYWDhIZWVDVmpKWS10bDQzZWtXWUpqU0lKVU5xZVEwWnlySmdyS05reFFVOTNndDdEZk1LcDB3TGZZR3R6eVJadWhTSzktLU1LM3RQa2RkNTh6UVJ6Y3Naamtr0gHwAUFVX3lxTE5oLXdrbldVYXBhUUNoeEI4aWFSRUgyT1o3REx5VkE5Qy02ZUNkYm1MZExlbG5sX0RTT2VEejNiLWZJeU5RblJvUnBleVhlZVZQTFRNTko2TGpEX2ZtTlhmbTJWZ3RFbEdMaUNRaHl6NWh6ZFctczZoRWlkbHVDR0t1SHo3SE1RTG0xT216UnNfT1Buazdpei1xWFVjRkc5Yl9YN2tPWkZoY1hPbWZLeDMycmZNRlBVV2NLdGNrSldKY1dGSE5Jb2E5bEhvcWFleFZuMTdicE9YV1JUQ0RLZmZudlZQeDQwZlpOYW8tcDNMZA?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 09:32:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Tras el abrazo, la UNSa marcha por el presupuesto universitario y rechaza el ajuste - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM2hTQUtESngwUFI4azdNS0tGWGpEallnRmRVVE5rdmNGd3h2dnJEVGZuM1p3cXRoQWpzTXhUeDF2S0JrZUk4MmVlUFVLVmxlTzYzal9BaThtN3d6XzVWUVJTT0IyRmxrRXRLU2xCbHlYd0hMSThMVTBnckpNaFk1ak44dVo4QS12QkZjMUVfR2FQaU42Nl8yMEJWY1hCUDBvOTRwLXBqWlktOGZ2b2pINW5ERWIySElvWnlnQ0NyUlcyTlRuVEcyQXJVNFd3QQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 16:54:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Inflación de septiembre de 2026: estos fueron los rubros que más aumentaron - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVHBsUlFJRnI0N3lHT2p1V2I1Z0tpZjZzMWJlaFBNOWxYUHlENmtqS01MZTdaanBUSmhNOVY3SGtZT2l0U09WXzl3ajRxSEx6eU1Nc3A5SEEwcXRRNDlCV3ZGeGJIajJ0WU1KYmJ2UllqNnlUaGIzMjVxc1kzRlQyOXR4Y2ZISTh5SF9URlVBTmE2TVpMZEljZFA2NUd2N0VVQ1h4SWRHSXhIeHA4ejNtTnhFTjRoZnlXUnJjTDk0SWZ5VWp3akJLUkg2SUVGZw?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 21:08:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "AYSA quedó adjudicada al holding de Filiberti por una oferta de US$340 millones - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aRkdOcGR0M0JTSWh0azFsMjFBTFJCZ1NzeklFeEpIdUlVWEhmNWswZEw3YXhVUTNDX3dCRFpwbWstMnNzMlNxTDU4NXl3R3l4S3ZQcjRIZlpqWE1wUHNtUUtzeThldmFzVlZNenJ4bEI?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 08 Oct 2026 18:05:52 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Gustavo Sáenz entre aprovechar una oportunidad inigualable o mantener el status quo - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jam9wVUxOLWlzNFNBRXFOTXpWS3lUeDlrcjl0UE15UlNEYUJUaGJIdkIwYTZrRHZ0T1h1UXVoM3FBMm5FaFhRVUJPdnpWVnNVRFZ5b3VTclFQU084SmNvQTcyY284VkVna3l3aWMzb2RtUWNzeXhSVw?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Tue, 13 Oct 2026 20:53:21 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "VIVO. Presupuesto 2027: el oficialismo busca emitir dictamen el 28 de octubre y aprobarlo el 18 de noviembre - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdlFCVEt5RTNLaEdXTk9xZHJqQTVycTR5SDd0ZDNHS051SHkteFV6QjJIQVhsNmdSQktfRERFcVIxY1psOVJyNHM3aHNBaWhKT3RmVWpVbjM5ZGFGd3d4WE5GemRXZU5XRThYYXJqbGs2NlVTTU5CWkh3SVlfSk5PbnZvWGxpM0tLdGV4VEkxZzhQN19OU2pnUktSNXBaYWlWX1hBLURXOWNpbk0tN0tDa3pKV2lDVDlOLVE5N3R4OTBtUlY3aU1Ld0JDZlBLMTZzWkE3WG1pOFA5SGVIUzdnb0lsVVdJZ3dhS3BfTlNn0gHzAUFVX3lxTFBHYkIwbTRSdEtmVXVOQmlHTnM3b1Y1dmtqc1YxcVJ0WnlJMVNHckQwVXMwYUc4c2NvU1F2Y0podXg4ZjV6bzZCZTlVQmN4aUVkZjZuaTBJTV9mSzZ2aDVSYy1CRmRrelR3SlYwaE1yTmplSmFPbjZBQ0k1a2lLazZjbzNuMG14Z0J4a1hnUWxleUpzVHc0cGNYOG9ld0NnQWVPYjJMcEpObVMyNG9pQ29pVHdZbTJSTlNQWTBFTWhMRmd5aGtDcVFTVTJuSHY3Y0RYVm04NkJCZTRkWXloTlpGRjEwUmN4VGdnWHI1N2YxNHg4Yw?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 16:23:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "A menos de un mes de haberse casado por civil, Julieta Prandi anunció su separación de Emanuel Ortega - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc3RnZFlzRDNOQVRXaEQxUVphZTFQbmFjR3ZKNExEYXJYbTFzekxIWjdoc25VVXRtcWpSVmFuVTd5d0pxMEdvWUFGVHctYWx1WlREcmR2dXUxLUJ0X1hLRktXZlNYWFlNeklZMXRjMXNRU3N3TVFSMlExc29iNDlGS08waUFMZzV0LUV2VDNweFhGa19wZ3d4RGZ0ak1rVldSTjlScW9PdEVEVEcyYWh6eEdjdlhreGZuWXBQVUQ3Ry1rX0JyWm5ianI0d0czdE9RUHNJWEF3c2ZxLURiLVRYZjZ5Y09taWh5V2ZZN2tB0gHzAUFVX3lxTE43ZTFCNnM1NUJaNW1qMHpNcGFaeXZQSkV1VXREODZRRGtoODlsZjZsMVBub2RlanpwcUZwTldSYzB2ZFVUaVp1clZ5Z2VQcGdNSU1oZlhpZmxpaUM4dHliWkJjLUd2RGFDMy1pdnY0YWFWZ19FdXFNWVU4bVVSNnV5c19qSFBNaXFZQXlpSV9iTng3RGlabW5TSHYyR2RMQmdYVEZldXJEcUJYa09lX0M0T2NLWV9yTVg2N1BlUUY0cF9ZeVQ1dENRc3ZMaGVNNW15R2picVI5VEoyZ1NWZTVVN2o0V2FYZ1NWRnhZZThxWlR4UQ?oc=5",
@@ -443,69 +506,6 @@
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVNCV2RZTXFvRS1wWWFfR1ZNS0lVNUJVTi1EZ24yMDZYaFNnWllJaVJSMUV6X2xOeVhTcDdoS2hYWHJDSjY4NnJ5V2pLd3NiVlBGTlBsN1lVOS0yRnRZOGR5TnE0MTJzQ1k4aUZZSnI4dFA3WlN0OFhYck5NQXhHS0tvSEdIQQ?oc=5",
           "source": "El Intransigente",
           "date": "Sun, 11 Oct 2026 02:28:38 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Antonio López, el salteño que pasó por MasterChef, reveló que estuvo al borde de la muerte y enfrenta una dura - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQ3A1NEcxeWNtZ3IzY1NPbUpXR21vZWczQnZkZENqcXpoMU5SZ1c0eGRrVlZyZi1RekJxTmtZcFI1S2Y5SVBVVWQzY0lFOFRwME9tRzhFbmpCTmw0Y0tOOW5wSi1KbzhjczNPT0wwVHJsaWVVWGx2bFJ1eGRHYTRxVFRVS1BSd3ZJRlU4R05MZDZvNFFnZVRtSkZLRFZ4YTgyUEE4eFVFc2VUemRCSTg3WFBlRllQZzJHZ1QxYzZNYUNQZnlmNUh1SFE0Mnc1RXNDSTEzN2xJLXBkQVp4MzN0NDRGSjhjcVJWRGtJbmhPRXl2YkJkemcyR2NKTnBkenpYNlFWZ0FKZS0yUdIBjwJBVV95cUxQdUxUQTJGY2l3WHVvb2g0MEx6ZnVLcS1YaXRKZ0pSZHZFQk5zV1lPX1EtSXRIaWgxR0NyOGhPOUxMd21kYWVOQ1dIeDAxYktBWTJBdFJabmlKbWJZTnZzWnVmdUZKWkpSNGFXLVplT0dldV9OWUVUc0lhQ2hXZUFubmh1cW80VjV5Z1hHS0loQ2QtWF9xVnQ1ZHo0VjMzdWU1NW9Pc3RBSVBjT0JPaDNTV2JuVlJFVWczRE1FTnUtTjVxZXE1czQwd2lEWWcxUThZRTE3Nml1ZERaWktUTGJxQkhPcGJPRDFyQTMtcTRxMlk0MWxZOXZrWFo2UklrMU5Kbm8xWUhsV0ZtMF92ZzVB?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 12 Oct 2026 01:03:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Indio Eterno: ante 40 mil fanáticos, así fue la despedida del año para Los Fundamentalistas en Tucumán - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQWlYVEMyQzdENk1NOF9qQUNub0pibE1uc0tfWVRqenhiRjMyTkxmZi1nRGZmZEUxUGJ2SVItcTRnZ2JxUXZPaVR5SF9wYTVfanhzUmxyUHpJeVk0OG5CaURnbzUxUkpBMlFuZlFoVkp1VnVSWlJPbUNWZnc3ZUlCMUJZZzRzbFM2dHZKWDVFOElrSjRvWHZUTW9WcVZ5ci1WWHNLWHVCUU42MzlzZkRtWV9kOGpTcTFlWWlNUDNpcXhsc0pQVi1yLVpGel9QVV8xdGhVZEt3aGRrejY5LUpqUDB6U0lSZ3dib1ZrWFR6WQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 20:38:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "La histórica Esquina de las Flores de Salta estrena nueva imagen: así quedó tras su renovación - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOREdKT3hvSDVCdEpkdWtCejkzUUpraGxHbTJLTDF1Wmc1b3BLS0dqalE2dnQ2c1BOOGJESXFONHdhUndrTEFrSVpJd3VDSURfZ0VrMDk2M0lzTE51YVk3elR5R21GRUZ0RzF3MmhYdWtOTjRKci1pNnRiakJWd2tkcWc3UVlYaGZMRUVZdmx0NUFWMnA3eTBLNkFGNEVCUzFQelQwWks5QXpDZ0ltbXZLRDBZZHlwb2VUSGEyTnFudzF3QUnSAcgBQVVfeXFMT3VaY1NUNnllRFVsTFExamRVaVJvb2hCMjFqNjV3b1FTR0Jmd1pmWkZPOFd2QVVwLVFwNEh6RUVVLTFIaG0xamtCaHc4em9DX1hWTHhLVXl2M0c3bE1KYmREcFd1ZFZkUWFRUlRBNHZJbm0tVGxWSFRzMDBZaF9sODkwR0hpUVJZajBOb2pBWE55THpMRDZiWjJFLXQxMVd2ZnR3NUxhMHA0YjFTRUp0SjhMaFU1ZFJaeV9NcnVHZkQyMEVVM0dLMXU?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 16:14:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Amplia repercusión por el caso de Medioroz, quien estafó con bitcoin - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUW1JdlM3a3J0b21ucHpKclVvX01KNHJ0RVo1N0ZVYjVobnptcUFENVkyOGRrWGxNWF9wTkJ2RzUtX25UR3lwa2k0bkgtME5WOVNNdS03T2dRQ1pvV3BHb1hYQjlPS3hfUHh5bTlmZEJxblZLbVJBdGMxVmdHR016NTE0bUp2NHRqNjk0SFNvSzFMMTdEcG1zZzc2dXdXNTYzc1N1dEgxdDJkT3NUYmFDTjZTa08xY3VXbXRhV2Fua9IBxAFBVV95cUxOWWVkcnFQdm56Vkp5a1F2cXhzZFQtaHdCa2tmTzY2LXNXZlhzYVozS3pMd1ZZSXdkSkp2Vkc1Rm9OVVhvZV9fZG82cFVGd29jbE5GMWNHbUVFYk9mNmVlOUppblg5b081emJzSzNUVzNVazU4ZmJmVk1US2dLNmhDcS1aWHowdUJfenVtM3JVdWdDcVdja29uMWZZLW9PdWlpSEt4by00ZmhnLWE4eWhkQVV5OGFnakxoZDhLdEc2WGhQSFlf?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 12 Oct 2026 04:13:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Milei visita EEUU por quinta vez en 2026 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUdtRElHY3JqMFh1QW9Fckt0RUQwazc0MjI2N2ptbThFX21JMThCYm11TFNOMXQ1TWZXZURoNHp0THBxRnhzTkxJOEdVbnM4ZzZnV0c2eVk0Rm5xY3FJMjF3Q3Yzb2YyS0lST1M2SFBfaHpJY3kwVEhQTzkyTXJFMGZhbjhIYkRtMUVuNTJPTFR3YlRTeU5Ya2xHamo2MTTSAZ8BQVVfeXFMTXFHbURJR2NyajBYdUFvRXJLdEVEMGs3NDIyNjdqbW04RV9tSTE4QmJtdUxTTjF0NU1mV2VEaDR6dExwcUZ4c05MSThHVW5zOGc2Z1dHNnlZNEZucWNxSTIxd0N2M29mMktJUk9TNkhQX2h6SWN5MFRIUE85Mk1yRTBmYW44SGJEbTFFbjUyT0xUd2JUU3lOWGtsR2pqNjE0?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 12 Oct 2026 04:13:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "¿Quién aconsejó al general Manuel Belgrano dar batalla en Tucumán? - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRnU5YVNtQkE0Q2wzLUd6NDc1QlQ5Unl1SEw2VW0yX2l1SDFodUJoRU5VNDJyOUwwYm9FRUZTY3MxSXFMNVY0TXVneVdHQ1dORGs1OXl2ZFBEWUlmZ2NzMU1IdldGMzF0Y0NyTkdjOGhpRlZWSHZGbDFRcExjQzl6LVFZNXZOckxHQ1hNLWRrVG9GOTZsdE1iMkVLcWc2MlA2WnZ4NTZaYVN5RzVTYThuaFNocm9xd9IBuwFBVV95cUxONEF1SHRoajdONzBocnpjeFdCYU1TMXRWLW5hd2hPdFV1Q3Z5OWtTTkpDdlhqU190UERONEhicmI1SU90WDJnbEctVURSMFFMWlFnejJXMjMzQ0FnaE9yX2ZKbWZNVm9EVEJSa2xoVHU0djFaVS1fVnNNMTgwTGZtaWpheXRPM21jT3JfZ1VwNWJ5LTdsTGlvNmdfQVYwMjRUTDkxV013WVJ4N1ZfUk9OMlB3SjBiTXRTZlRB?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 04:38:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "“Operación Vuelo 718”: un relato del horror de la dictadura vuelve a las librerías - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb3R0Zl9OXzJ5Z1RxeWR3VFFKdWFsUzBtU0VST0lJZmJGQzVhSHNrM3g1TVR5VVdmQ3VmTFdIcnZ3TFA0dTB6OHFtUm1SSDYzZHhiSkUzUHNvbVdXbmFMV2xRZlZ3OWlwZjVHdUtObWppSnlVYmkxd0JVR0lvRy1IMjNyRGJBVVJrV0hZc0dzRjZ6OUY2M016dW1DMUVtZW5kWDV3c2h6b2ktaDI3OVVILU9jck11VjVDUHJMYjZHUjJrVExVMVQ2R9IBzgFBVV95cUxPdVpYUm04RDhSdHNIV2twV29SSTNnajV3NlBtUEhJcFZIVkZTUldiNWtWZ3k2Wm5obHZfalBZTnQ2V3RDd2IwTVM0bFdGd1R2ZkZLU0JYTDVYbFlEeUNHYW1QdnNxMXdxZlZYR0pTbkFSNldzZEhXa1AtU0V2SDdhX3ktVkljb3BQejdQU05oWmIyYTNmUUlseGJfZ1FaZ2hsbHAyT0NvT0tTS0VweDdWblJrQWNkRjA1Rmx2a1JyV3VOa2ZWLTU0SXBjNG1Ndw?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 12 Oct 2026 03:43:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "TelePASE en Salta: cómo funciona y cuánto cuesta pasar por Cabeza de Buey - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkhaeFFGOW1IQXRRd0stdHAxT2daTF9oRDNGQURmR29ZeG5UVGMtc2Z2NEhPLU5mVzFhQkd1V1VGOWlzeHJXSjBKeGVJQ1JrYWxEaTNsY19lbUdVajBIcE5ncTQ5a0RJOEx3ZG96RGpSd0IxYVZZVlpfLVJfelVSQjFHX052TmhuUUhlVjNtbmFWZkx2aXh3bjA5Y1hOY3JIa2MwVGNCVHU5bW9tOEdjeG9MNmdrNjZ6bktxUE93NA?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 19:04:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Messi vuelve a jugar este sábado tras su emotivo adiós a la Selección - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPazF1YXpCOEhjT1JkeUMyaWh5SllPbmZualFxejdNcFpSR2hfQmRRbFlzVlBsVFFDRGVVcGp4dlpCSzdEUWJ5cjExLVNBNjhwZWVoOFZzQTFHN3o4YXZHX3pNc1RvSFZ1bFktUVJfZ3JZeGl2cnYzQ2dOdXUxbElVWWtGUWRTckRhakZmOEhKeVZOd0kySkQ5TXpGQWFfaFp3eDhRcFduNlo4QlEycXNGSTdVWGQyUGljQVF6cmpGWdIBxAFBVV95cUxQQUFsdDdRNi1SOFFIcW9kZUtkRzdfeXRaTjF4NmRzZV91X01nNHJEemtvd3M1WkpldUVGWTFta1h3S1Z0aGJpVF9RS1BFMFhtZlVlRFhIdmxLY1pUeExuYW5Gb25MU18zT3JReVdrSmtsUHpZVkRxQjdtcXZBQUFIVTM2bk1OSkxLdXBGbnNJS3Y0Vlp0S0lkX1ZheVhqR2tZaFFFY1ZlZU4yR09fbDN6bUNkNHREVFBNd3gwOV9yaFE2UnFt?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 21:14:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

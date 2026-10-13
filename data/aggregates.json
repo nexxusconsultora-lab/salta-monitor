@@ -1,19 +1,89 @@
 {
-  "generated_at": "2026-10-13T18:34:15.926970+00:00",
+  "generated_at": "2026-10-13T23:08:40.625506+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 77,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 61,
+      "score_sum": 5
+    },
+    "eje-mario-mimessi": {
+      "total": 26,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 23,
+      "score_sum": -3
+    },
+    "dip-hector-raul-vargas": {
+      "total": 1,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "score_sum": 1
+    },
+    "dip-ernesto-rosario-tapia": {
+      "total": 1,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "score_sum": 1
+    },
+    "dip-miguel-angel-plaza-schaefer": {
+      "total": 3,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 1,
+      "score_sum": -1
+    },
+    "dip-fabio-enrique-lopez": {
+      "total": 9,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 1
+    },
+    "dip-patricio-penalba-arias": {
+      "total": 11,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 10,
+      "score_sum": 1
+    },
+    "sen-edgardo-guaymas": {
+      "total": 5,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 1
+    },
+    "sen-manrique-burgos": {
+      "total": 22,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 19,
+      "score_sum": 1
+    },
+    "eje-federico-mangione": {
+      "total": 20,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 17,
+      "score_sum": -1
+    },
+    "gustavo-saenz": {
+      "total": 247,
+      "positivo": 51,
+      "negativo": 30,
+      "neutral": 166,
+      "score_sum": 88
+    },
     "eje-cristina-fiore": {
       "total": 23,
       "positivo": 1,
       "negativo": 9,
       "neutral": 13,
       "score_sum": -19
-    },
-    "gustavo-saenz": {
-      "total": 245,
-      "positivo": 50,
-      "negativo": 30,
-      "neutral": 165,
-      "score_sum": 82
     },
     "sen-manuel-pailler": {
       "total": 51,
@@ -29,13 +99,6 @@
       "neutral": 5,
       "score_sum": 4
     },
-    "snac-flavia-royon": {
-      "total": 75,
-      "positivo": 6,
-      "negativo": 9,
-      "neutral": 60,
-      "score_sum": -1
-    },
     "dip-gustavo-orlando-orozco": {
       "total": 40,
       "positivo": 1,
@@ -49,13 +112,6 @@
       "negativo": 8,
       "neutral": 40,
       "score_sum": -3
-    },
-    "eje-federico-mangione": {
-      "total": 19,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 16,
-      "score_sum": -1
     },
     "eje-ignacio-jarsun": {
       "total": 15,
@@ -154,13 +210,6 @@
       "negativo": 0,
       "neutral": 5,
       "score_sum": 6
-    },
-    "eje-mario-mimessi": {
-      "total": 25,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 23,
-      "score_sum": -4
     },
     "dip-jose-miguel-gauffin": {
       "total": 23,
@@ -610,13 +659,6 @@
       "neutral": 38,
       "score_sum": -2
     },
-    "dip-miguel-angel-plaza-schaefer": {
-      "total": 2,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 1,
-      "score_sum": -2
-    },
     "dip-manuel-norberto-paz": {
       "total": 1,
       "positivo": 0,
@@ -679,13 +721,6 @@
       "negativo": 3,
       "neutral": 18,
       "score_sum": -4
-    },
-    "dip-patricio-penalba-arias": {
-      "total": 10,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 10,
-      "score_sum": 0
     },
     "dip-juan-esteban-romero": {
       "total": 61,
@@ -750,13 +785,6 @@
       "neutral": 37,
       "score_sum": 4
     },
-    "sen-manrique-burgos": {
-      "total": 21,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 19,
-      "score_sum": 0
-    },
     "sen-hector-dauria": {
       "total": 8,
       "positivo": 1,
@@ -791,13 +819,6 @@
       "negativo": 0,
       "neutral": 14,
       "score_sum": 2
-    },
-    "dip-fabio-enrique-lopez": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 0
     },
     "dip-claudia-gloria-seco": {
       "total": 2,
@@ -897,13 +918,6 @@
       "neutral": 1,
       "score_sum": 0
     },
-    "sen-edgardo-guaymas": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
-    },
     "sen-jose-guaimas": {
       "total": 1,
       "positivo": 0,
@@ -913,6 +927,70 @@
     }
   },
   "by_day": {
+    "2024-02-09": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2026-10-13": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-hector-raul-vargas": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-ernesto-rosario-tapia": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-miguel-angel-plaza-schaefer": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 6
+      },
+      "gustavo-saenz": {
+        "total": 10,
+        "score_sum": -2
+      },
+      "eje-cristina-fiore": {
+        "total": 3,
+        "score_sum": -7
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-09-09": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -937,24 +1015,6 @@
     },
     "2024-05-30": {
       "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-13": {
-      "eje-cristina-fiore": {
-        "total": 3,
-        "score_sum": -7
-      },
-      "gustavo-saenz": {
-        "total": 8,
-        "score_sum": -8
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": 0
       }
@@ -4553,12 +4613,6 @@
         "score_sum": 0
       },
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-02-09": {
-      "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
       }
@@ -15289,15 +15343,47 @@
   "trending_terms": [
     {
       "term": "flavia",
-      "count": 11
+      "count": 14
     },
     {
       "term": "royón",
-      "count": 11
+      "count": 14
     },
     {
       "term": "sáenz",
+      "count": 10
+    },
+    {
+      "term": "reunió",
       "count": 9
+    },
+    {
+      "term": "emergencias",
+      "count": 8
+    },
+    {
+      "term": "climáticas",
+      "count": 8
+    },
+    {
+      "term": "comité",
+      "count": 8
+    },
+    {
+      "term": "intendentes",
+      "count": 8
+    },
+    {
+      "term": "valle",
+      "count": 8
+    },
+    {
+      "term": "calchaquí",
+      "count": 8
+    },
+    {
+      "term": "mangione",
+      "count": 6
     },
     {
       "term": "elintra",
@@ -15308,44 +15394,12 @@
       "count": 6
     },
     {
-      "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "secretaria",
-      "count": 5
-    },
-    {
-      "term": "federico",
-      "count": 5
-    },
-    {
-      "term": "mangione",
-      "count": 5
-    },
-    {
       "term": "tribuno",
       "count": 5
     },
     {
-      "term": "página",
+      "term": "orozco",
       "count": 5
-    },
-    {
-      "term": "fiore",
-      "count": 4
-    },
-    {
-      "term": "ignacio",
-      "count": 4
-    },
-    {
-      "term": "nueva",
-      "count": 4
-    },
-    {
-      "term": "clarin",
-      "count": 4
     }
   ],
   "comentions": [
