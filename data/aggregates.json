@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-13T23:08:40.625506+00:00",
+  "generated_at": "2026-10-13T23:16:01.787427+00:00",
   "by_politician": {
+    "dip-guillermo-alejandro-kripper": {
+      "total": 12,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 12,
+      "score_sum": 0
+    },
     "snac-flavia-royon": {
       "total": 77,
       "positivo": 7,
@@ -133,13 +140,6 @@
       "negativo": 7,
       "neutral": 40,
       "score_sum": -9
-    },
-    "dip-guillermo-alejandro-kripper": {
-      "total": 11,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 11,
-      "score_sum": 0
     },
     "concejal-laura-jorge-saravia": {
       "total": 42,
@@ -927,6 +927,12 @@
     }
   },
   "by_day": {
+    "2025-02-05": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-02-09": {
       "snac-flavia-royon": {
         "total": 2,
@@ -15382,11 +15388,11 @@
       "count": 8
     },
     {
-      "term": "mangione",
-      "count": 6
+      "term": "elintra",
+      "count": 7
     },
     {
-      "term": "elintra",
+      "term": "mangione",
       "count": 6
     },
     {
