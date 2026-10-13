@@ -3,24 +3,28 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 247,
+    "total_mentions": 251,
     "sentiment_breakdown": {
-      "positivo": 51,
-      "negativo": 30,
-      "neutral": 166
+      "positivo": 53,
+      "negativo": 31,
+      "neutral": 167
     },
     "sentiment_by_day": {
       "2026-10-13": {
-        "total": 10,
+        "total": 11,
         "score_sum": -2
+      },
+      "2025-11-04": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "2026-10-11": {
+        "total": 4,
+        "score_sum": 17
       },
       "2026-10-12": {
         "total": 1,
         "score_sum": 1
-      },
-      "2026-10-11": {
-        "total": 3,
-        "score_sum": 16
       },
       "2026-10-10": {
         "total": 3,
@@ -262,38 +266,44 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 21
+        "count": 22
+      },
+      {
+        "term": "belgrano",
+        "count": 5
+      },
+      {
+        "term": "cargas",
+        "count": 5
+      },
+      {
+        "term": "años",
+        "count": 5
+      },
+      {
+        "term": "gustavo",
+        "count": 5
       },
       {
         "term": "molinos",
         "count": 5
       },
       {
-        "term": "gustavo",
-        "count": 4
-      },
-      {
-        "term": "belgrano",
-        "count": 4
-      },
-      {
-        "term": "cargas",
+        "term": "otros",
         "count": 4
       },
       {
         "term": "reelección",
         "count": 4
-      },
-      {
-        "term": "años",
-        "count": 4
-      },
-      {
-        "term": "pavimentación",
-        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Hubo diálogo y consenso con Milei",
+        "source": "Salta 4400",
+        "link": "https://salta4400.com/politica/2025/11/04/gustavo-saenz-hubo-dialogo-y-consenso-con-milei/",
+        "date": "Tue, 04 Nov 2025 12:36:12 +0000"
+      },
       {
         "quote": "No podemos esperar otros 50 años",
         "source": "Que Pasa Salta",
@@ -377,16 +387,38 @@
         "source": "El Intra",
         "link": "https://elintra.com.ar/2026/09/24/gustavo-saenz-advirtio-que-el-clima-social-va-a-ser-mucho-mas-duro-si-no-se-reactiva-la-economia/",
         "date": "Thu, 24 Sep 2026 16:33:50 +0000"
-      },
-      {
-        "quote": "no hay objeción constitucional",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/politica/escudero-aseguro-que--no-hay-objecion-constitucional--para-la-reeleccion-de-gustavo-saenz_a6ab433ec67dbc0c38dfb2fdd",
-        "date": "Wed, 23 Sep 2026 20:30:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Belgrano Cargas: Salta teme otros 50 años de postergación y exige obras obligatorias",
+        "link": "https://www.gentedesalta.com/economia/belgrano-cargas-salta-teme-otros-50-anos-postergacion-exige-obras-obligatorias-n12883",
+        "source": "Gente de Salta",
+        "date": "Tue, 13 Oct 2026 11:41:00 -0300",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz: “Hubo diálogo y consenso con Milei”",
+        "link": "https://salta4400.com/politica/2025/11/04/gustavo-saenz-hubo-dialogo-y-consenso-con-milei/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:36:12 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Roberto Dib Ashur criticó el modelo económico libertario",
+        "link": "https://salta4400.com/politica/2025/11/04/roberto-dib-ashur-critico-el-modelo-economico-libertario/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:49:42 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Paso de Sico: gobernadores de Salta y Antofagasta avanzan en agenda de integración",
+        "link": "https://fmalba.com.ar/paso-de-sico-gobernadores-de-salta-y-antofagasta-avanzan-en-agenda-de-integracion/",
+        "source": "FM Alba",
+        "date": "Sun, 11 Oct 2026 20:13:31 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Flavia Royón negó cualquier tipo de acuerdo político con Juan Carlos Romero",
         "link": "https://elintra.com.ar/2026/10/13/flavia-royon-nego-cualquier-tipo-de-acuerdo-politico-con-juan-carlos-romero/",
@@ -567,34 +599,6 @@
         "link": "https://www.eltribuno.com/salta/2026-10-9-0-0-0-belgrano-cargas-saenz-dijo-que-gestiona-en-nacion-modificaciones",
         "source": "El Tribuno - Salta",
         "date": "Fri, 09 Oct 2026 04:48:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Nuevo edificio para el Ministerio Público",
-        "link": "https://www.eltribuno.com/salta/2026-10-9-0-0-0-nuevo-edificio-para-el-ministerio-publico",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 09 Oct 2026 04:48:11 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Inauguraron el Edificio Malvinas Argentinas en Ciudad Judicial: qué dependencias funcionarán allí",
-        "link": "https://informatesalta.com.ar/justicia/inauguraron-el-edificio-malvinas-argentinas-en-ciudad-judicial--que-dependencias-funcionaran-alli_a6ac8299403bfb696adc5c761",
-        "source": "Informate Salta",
-        "date": "Thu, 08 Oct 2026 23:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz y Ada Zunino inauguraron el edificio Malvinas Argentinas en Ciudad Judicial",
-        "link": "https://www.eltribuno.com/salta/2026-10-8-21-41-0-saenz-y-ada-zunino-inauguraron-el-edificio-malvinas-argentinas-en-ciudad-judicial",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 09 Oct 2026 00:41:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz: los 180 días de austeridad llegan a su límite cuando comienza la carrera electoral",
-        "link": "https://elintra.com.ar/2026/10/08/saenz-los-180-dias-de-austeridad-llegan-a-su-limite-cuando-comienza-la-carrera-electoral/",
-        "source": "El Intra",
-        "date": "Thu, 08 Oct 2026 14:34:07 +0000",
         "sentiment_label": "neutral"
       }
     ]
@@ -18385,13 +18389,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 14,
+      "negativo": 15,
       "neutral": 17
     },
     "sentiment_by_day": {
+      "2025-07-24": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2021-03-29": {
         "total": 1,
         "score_sum": 2
@@ -18480,15 +18488,19 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 9
+        "count": 10
       },
       {
         "term": "lópez",
-        "count": 9
+        "count": 10
       },
       {
         "term": "informate",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "concejales",
+        "count": 3
       },
       {
         "term": "ministro",
@@ -18504,10 +18516,6 @@
       },
       {
         "term": "garcía",
-        "count": 2
-      },
-      {
-        "term": "diferencias",
         "count": 2
       }
     ],
@@ -18618,6 +18626,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Concejales rechazaron la renuncia de Pablo López - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTE9IY3NWVURHVnFqd3lEOHZQZlV4WWVmWWk1X1pOY1dEdV8tNGdILXBaaEVnbU5vRnNjR01hbTlua0hWUm50TGF3Ny1IMFFrT2t5d3UxUVBWV3VXV1VrOXFhOXBvc3NBR0VEWENKVDBhLUtlTlFoWFc3STltUlBMcW5CZWlKenpXcGdRcUxMUnN0TzJXTl91cE1DZzA5Uy1VUUhpVmh3NEs4SHd2NU9mOXNIWjdzVERsNUJ3c3V6dXRSeFFGUnfSAcYBQVVfeXFMT0xPSGNzVlVER1Zxand5RDh2UGZVeFllZllpNV9aTmNXRHVfLTRnSC1wWmhFZ21Ob0ZzY0dNYW05bmtIVlJudExhdzctSDBRa09reXd1MVFQVld1V1dVazlxYTlwb3NzQUdFRFhDSlQwYS1LZU5RaFhXN0k5bVJQTHFuQmVpSnp6V3BnUXFMTFJzdE8yV05fdXBNQ2cwOVMtVVFIaVZodzRLOEh3djVPZjlzSFo3c1REbDVCd3N1enV0UnhRRlJ3?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 24 Jul 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Pablo López, ministro de Hacienda bonaerense: “Los juicios por la deuda son mecanismos de presión, la solución no vendrá por ahí” - La Nación",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTNSbGRnYk83T2hfSmZBbm0tX2NMcVdFazBpNVAxcDVGeENoc3B3NjVhdmgweTBDNjVTVENJZ2dOUDhfU1Mwd3BwcHJxbE8tck83R3hwQWdtMUtLQ3hDTE9GS1JrSEUwR1FiQkpET3RNVFV0TFVsblh0RFRvY3EyR3FGNVV5OERNc216QTRfUlNUSlk5WjMtMlNYc2U5NlJLRTVPU1JwcG1sbVYzcmpCNW93V3QyeUFUd1NTTDVRYzNPdlJKaVJNNXNlbkhUSFZibHUzVFM3ZWJaS1JrQmZPeg?oc=5",
@@ -18819,13 +18834,6 @@
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcVpKZGFpMEpDaWRhV0tFUXlRMjV3VXhiQnkwMWw2N0t4Z1FQNFZNUGVFXzRKNjEwSnhMZEtHMFE0RThuVlNXWUc3U0JzQy0tak5LQW14NDd5OGFGcTBFbmNOUWZFWkwxRzJGLUxBTkt4SkVWeXB4Um40ZlFBUTFuUTNLb1d0MmZiaWJfdGg1cDE0MUpmWlJNeXhtUWczUk5kamtNV1duSmR1ZlgyYk9BQW5fQWZZMHFBU2RPbW1GZUpNUHhoTHJiUHhUMNIB0AFBVV95cUxPMW9MeVYxRHl3R05rWk1VczRkdDlHMnVvXzNOeWkxYkNJV2NHMnJoMlRicDdscVcxdmt0bURjNG9YbW5GMUFlNk82V2VTZ2xUZy1rV2QteVhjdS1EYlRzaE1GcW03al90cWN0eEhDdk1hX2pWemw0ZVVaZk9sUDVBNkdhWnlzT05QcWtHYW4zV0FXaFZ6S3h0Z09ZbDRoQUdTUVFwY01LdjJ5a1J6LWl2aU0wTVlZV256c3RCWUswSzhqaFlfdy14NFZxbW1lYmJC?oc=5",
         "source": "eltribuno.com",
         "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones en Salta: quiénes son candidatos a concejal en Capital - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZG5uWnpXR25qN1psMzhTYjYwUHROTTNza0RIcURiam1ET1hZa0RYaTVhS1Qwejk2eUp4cGtDNnZzTzViTnhZVFBsLVdaeHVhUHlEYXJmeldBOFE4VUlvQTZHNnozczlYTWJHSHFhcVNEM051VkJMT2swdW10cGo0anlvZS12d3FJNkR3OURUVzZTeFo5UFM0cW15eGpfX2V4U2RMbUM2TjRuVFl0NUlwcGxLVdIBuAFBVV95cUxOelVIS1lTM0Y0R1dGNmRVaHZqeUZuTDJFa1NTT0RjNE9MaHVEQkxVdWEtQjBEbUZYM1ZtSHJsRXlzcF9KRVl2VTF6OHd2M0tRREJFWk1MX0hTV0pkYkJpakw4WVhtcHJIYW1qRzU4MkhrRG1GeHlHZGJYclBwX1hSMnZRazhTTl9jYnlFY1JEN1JraWVzakVPNXMwR3BpQ0w3d0ltRzNwTkhfYVBHaWg5SzRuTzRpS0Zu?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 23 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20739,13 +20747,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 77,
+    "total_mentions": 78,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 61
+      "neutral": 62
     },
     "sentiment_by_day": {
+      "2025-11-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-02-09": {
         "total": 2,
         "score_sum": 0
@@ -21002,11 +21014,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 17
+        "count": 18
       },
       {
         "term": "royón",
-        "count": 17
+        "count": 18
       },
       {
         "term": "secretaria",
@@ -21146,6 +21158,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón debe elegir entre dos cargos",
+        "link": "https://salta4400.com/politica/2025/11/04/flavia-royon-debe-elegir-entre-dos-cargos/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:29:07 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Milei sube la apuesta con los gobernadores: echó a la salteña Flavia Royón - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaU9yQlZ5NVJ5YnhLMGZ4d2JrenZ0YzcwRkQ1clJYV19vdFRUdTRzWFM5Y1BkQVp1NzNhSnhvSUJ1UElRcG5vTmREYkhoamt1SUtEMGZDS0ZMZDIwYTMzSkN3cE9vdjJndUNBbWtremdfcDdnZVZKdkM4T0F1a3JyZldlMkVSYWFTZEY2QXlleEd5ZzZvdzBDaUdPeW84eXN4Ym5pNFZHdlg2S1RPWVZnSlhB?oc=5",
@@ -21348,13 +21367,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 26 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón pidió la renuncia de Adorni - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFlFZ1J6eUFzLTBIS2lXUFBWelVIUE9DTTgxSjFFZVpVUEpVOUlVYWdWRjA2Y3BmODNhMUY0ZlJBbkV3a3cxY3c1aEQ3VEoyNHNlWUdLV3M4N2dhT3RJWnI3X0M5WTZFSE0tSmJ3UUpuYTdNLVBocU10LXdRUWhndg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -21362,13 +21374,21 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 55,
+    "total_mentions": 57,
     "sentiment_breakdown": {
       "positivo": 7,
-      "negativo": 8,
-      "neutral": 40
+      "negativo": 9,
+      "neutral": 41
     },
     "sentiment_by_day": {
+      "2025-11-04": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-05-04": {
+        "total": 1,
+        "score_sum": -4
+      },
       "2023-08-13": {
         "total": 3,
         "score_sum": 0
@@ -21565,11 +21585,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 7
+        "count": 9
       },
       {
         "term": "orozco",
-        "count": 7
+        "count": 9
+      },
+      {
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "diputada",
@@ -21697,6 +21721,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco recorre Salta y suena para gobernadora",
+        "link": "https://salta4400.com/politica/2025/11/04/emilia-orozco-recorre-salta-y-suena-para-gobernadora/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:46:51 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Emilia Orozco apuntó contra el Senado y denunció ‘operetas’ mediáticas",
+        "link": "https://salta4400.com/politica/2026/05/04/emilia-orozco-polemica-senado-operetas/",
+        "source": "Salta 4400",
+        "date": "Mon, 04 May 2026 13:10:29 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La precandidata a diputada Emilia Orozco entró a votar acompañada de su perro - saltacomparativa.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWhOblVqeVoxZUUzN1VWQml1WWUxeHJtSkNqY1J0NV9Jc1E4MmZTZlMyZDZsaHFGT2RDWmx6VEVYeEN4amdhQlJmdHZkNFROaHFwUjBMMnprY3RXNWRRaUo4dTBudFI2OEEtakdWeThHYVUyYTBad2lUSXFsUzV6cllPeVR2X0dMM09aMTdFejZCMEFaTFliLVJZc2ZwMjRYN1VneF9wZFppN0NCbkJ1Tlg4czhyd2xMNmh1eUVZT2hlYno3c2c2V2M0cExEQ1U4UTh6Yw?oc=5",
@@ -21891,20 +21929,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUdIBZkFVX3lxTE1YdHlqUHVzLTRvdUY4MGg1RjlBXy15V0hBRTBoX3hBZVRRSjA4eFh3eWVybHpkREUzeEpnLW9JREIyVVl1a2R3NEdVemRJd24xTzhVNUFnRVVMSTE5YzZydXBXVEdaUQ?oc=5",
         "source": "Que Pasa Salta",
         "date": "Sun, 13 Aug 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones legislativas 2025: Emilia Orozco es la candidata a senadora por La Libertad Avanza - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQ1VpTEREMzRYc1NVZm1ZLXRfcEI4Qzl5WWhrdWxacFUzNk5SaTAtU0dwX1J2U3dRR1pZbzA0YUZBVVJkYWo2UEY2bk80emdONWtabEktUEwzajdUVlBGR1FIVElNa1c0bVAzNG1lc1Z3aXEzc1B6NDRVdzBaZDNiRmhRcWdPajl6SkotZDBMa1N6RTdJb0lfbXo2bUJuQ1R6Y2h3N3p1SGItVzktY1ZoNzljQWg5Zjk2bWJGdjJRS2RyRjZlY1VSUXBSWnZkZXAwVEV3ZlBuUFY2UdIB3wFBVV95cUxNWkhBanRxYjRwYzJPaGpONGlRYkw1cXdoSTlIeXROSDFnSWZ3ODktSjQ5Tkhhak5uUlUwVkppS1VHQzJicGVPX3dEeVZ6RElXMmp2NnlWU1phdkN0U2FQYUpPaE5DeGtxLUFocXY1SFdWMlJTNlE2NVpfd1BKUmpJSHBBYzlJMEdUMGZHMUs1TzRsYVJIN1VVZkpaaFNuX0RoOXhhQUJON0hvZ1FlNmpYYlViQlRKQTNyMklYMGp6SnZQdEpiNDNXc0U4VXlzZ2w3a0FkOVRSNW5ka0xlcHhr?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 17 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Apuntan contra Emilia Orozco por bajar a una candidata de Olmedo en Pichanal - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHN5dUE0bUhLNHZiZ1lPNDF6a2lfSHhaWGZsUkZoX2xYZTNJZ2tpZkFITjRRRTN5ZTBtVFdfOWMtTE1lUERiSWYteERyd0RlSUVSX2ZsaF9HMDctMXFxUHpkdk1CUUJyeUlTS0h6OTRJQ0tKZUE2N1VPbUE4c0Qtc2dXVlRkc1BoZHZwTXpBNE0zSnljbER5YjBBRURnb3BMbHhFNHhVQkpMLVVhU2ZtTg?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Mon, 07 Apr 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -23129,13 +23153,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 18,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 3,
-      "neutral": 11
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "2025-11-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-27": {
         "total": 1,
         "score_sum": 0
@@ -23197,8 +23225,23 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "bernardo",
+        "count": 2
+      },
+      {
+        "term": "biella",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Bernardo Biella va a defender al Garrahan",
+        "source": "Salta 4400",
+        "link": "https://salta4400.com/politica/2025/11/04/pamela-calletti-bernardo-biella-va-a-defender-al-garrahan/",
+        "date": "Tue, 04 Nov 2025 12:15:01 +0000"
+      },
       {
         "quote": "Jamás el gobernador me dijo cómo tengo que votar",
         "source": "Elintra.com.ar",
@@ -23244,6 +23287,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pamela Calletti: “Bernardo Biella va a defender al Garrahan”",
+        "link": "https://salta4400.com/politica/2025/11/04/pamela-calletti-bernardo-biella-va-a-defender-al-garrahan/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:15:01 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bernardo Biella: “Jamás el gobernador me dijo cómo tengo que votar” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamhDaWVLc0MydnRURXpfRk1XYk12dVlIa1M2TXpORnN0dnRmNG0tTHV1U2pWbmtLd3ZzSlNGdHE5RXNQc3VxSGNZSHp0UmlRMXNyTWtXekZVbE9hRmtiSTJtTGUxUWZTWHNaMmJfWk56WDlBQlpxVUt2YnA5d0RwTlJUQ1RBaEFHYjVNcmQ5c0QyVjFhUFRsREYtTDlZdGdY?oc=5",
@@ -23376,13 +23426,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 10,
+    "total_mentions": 11,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2020-06-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2019-07-06": {
         "total": 1,
         "score_sum": 0
@@ -23420,7 +23474,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "pablo",
+        "count": 2
+      },
+      {
+        "term": "outes",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "El modelo de Milei está fracasando",
@@ -23437,6 +23500,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Últimas noticias de Pablo Outes hoy - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HLVlFSi05YS1wX1pnN013NGUtdC1sc29UdDNOeVdyOFZaRERhNmpKN2RWdzRBY3N6SzVsTnhmbm4zR3R0eGtxdWFkeFQzTG9nLU9SLVc2dHNuMDEzRWpwYVN4SQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 24 Jun 2020 20:04:18 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Las cartas de Pablo Outes a su hija Soledad reconstruyen la memoria - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWm5zS1Vheldmc3FVcVZTT1NISHktSTVyWkRfbGQ1QXFvcGhtU0g0TXhVVUJsWldfdXNremh5NndMU0Rkd1NuY1N5VnBCYkt3d3hiU3IwRWI5RW9LVUk1M1ZWeWRPWnJIMng3TDZEeHZ4OU1OMl94TmcwQmZjbUJ1QzFhcTJMMXVObElkU3JmeERuUzVhOWo3NzhRRDZ2bThaZWRoT1FwWjBZRUhWcW55bzM5dmdYdw?oc=5",
@@ -26890,13 +26960,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 1,
+      "negativo": 2,
       "neutral": 29
     },
     "sentiment_by_day": {
+      "2025-11-04": {
+        "total": 1,
+        "score_sum": -3
+      },
       "2025-05-08": {
         "total": 1,
         "score_sum": 0
@@ -27013,7 +27087,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 30
+        "count": 31
       },
       {
         "term": "tribuno",
@@ -27021,7 +27095,7 @@
       },
       {
         "term": "roberto",
-        "count": 9
+        "count": 10
       },
       {
         "term": "informate",
@@ -27133,6 +27207,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Roberto Dib Ashur criticó el modelo económico libertario",
+        "link": "https://salta4400.com/politica/2025/11/04/roberto-dib-ashur-critico-el-modelo-economico-libertario/",
+        "source": "Salta 4400",
+        "date": "Tue, 04 Nov 2025 12:49:42 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Roberto Dib Ashur presentará su libro \"Un nuevo rumbo para Argentina\" en la Feria Internacional del Libro - Ambito",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1laNWtmakttX3BuSTktYzZTT200Qzd1cmI1SXQ3UWQzeVlBMC0yU25QM0Y2MEpVT29YTmNxM0NYSHhyd2NsbV91VWJINHZVOTg4UHJYdEs4UnFtamJ5eEFwREtab1FETkhKc2RtV3dGUGJGQVFHQ2hmaEE1bW5ocmVISXgydTlvMVNVX3dZUDlHd0pVT1BNU3A5Z2ZHY3l6WHRvQk1qa090QWJYeEFKZVpxWU9vVkl0QzZ4dkxKRzJxUXFBS3dOajBLZzRYQkNDTE5yeGJ1SGd1ZHJ2aXhjWtIB5gFBVV95cUxPV3A2UVBOajE1S3NSWUFTTXF0MzMtZXRkMlFUS2RuTkxmSVNOS2RtWWRQd1BTbm93bVFfa3BndXBKbU1kT0lOUVhuMXN1YzNYR2o2Z0w4MFRFYmRueWVZU3UySmFDREljZ0E1YUI4OGt0RUpua014aHIyZzF5T0RwQnRsbXdFM1I4UUU5NFRGSEpkZ0pIUXhHVmt0ZGhSODBjZlRrckxvQ2RrcW1Rb2llVXRvNkhDU01YeWszTmNtcXJuN2V6WU9DTUpEcnd2X2ZQSGphM2FoWS1tQXV6bmU3VXE2SkZzdw?oc=5",
@@ -27334,13 +27415,6 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkhKRDhuQWcwRm1nVXYtZkdXVXR4dDRrWVQtUnVmam5kSmljMEZJNnI5U0h3TW12TGNWRUdUQWNoeW9oNF9GclppMzdJa2pTcl9RQnNjdlV5OHNadXpPM1pMRzVfaTI0MEZPN0dHOWwwaExtV3JDbzFkNFVJeWdBQXJwdndmTGtWQ3VHZVpR?oc=5",
         "source": "El Tribuno",
         "date": "Sun, 27 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Dib Ashur detalló el plan económico para 2027: presupuesto, deuda provincial, obra pública y SAETA - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMFAwRExLeUJvWGdrcVA2ZDE2aWRKWk8tQUZGVXZVbjU1ckFWczZyZHFCeEZsU294Q2VpNjVvMkhmU0hJM01zR2hQc2JrZmpCOHFVVm9oaHFPWi1FNFJBUUM3dTBwUHUtZXNTb0xJTnVqUDgxQ2RZN0V2N3VrSG9uQjRRZG0tNWtwa0hwc05sSnI3R0ZUb3NfY0w0WFFnX0Z2RWh0MU9xZ1plVWJGVEc3NGE3NUd1bThiX2VtUk9UQ0hITW1ibTVqazZNLXNxYUxCZHZjOGVwONIB3AFBVV95cUxPNG4wWlNzeGhyX3VVZXZFcHNmeEJabFN6Tlk2T09fUW5ZcmtoRC1mMktoZEhyRnJUaHBLdU1RVWVpN1d5V2tIcU9PcFJVazhpRWdrekt5Ni15UzhIb3I0VTViREJ3cUEyVDUzQ2lXdTUyT0Zpb3o1WUdtbEUzck1BV1JqM3dLQ3ZoSVFYWWNTOERvTzhvbjhlQWtIelJWQXlfaGtaRHBOclpWVDRmMk5mYW01M2NUTVRqME1OMXlrd0NOX0w4eERMTW1LTUR5ZHF2SDhITERRUF9UbXhw?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 25 Sep 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
