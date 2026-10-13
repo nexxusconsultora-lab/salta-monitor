@@ -80,8 +80,10 @@ POLITICA = [
     "milei", "karina milei", "villarruel", "macri", "kicillof", "cristina fernandez", "massa", "bullrich", "caputo",
     "pettovello", "adorni", "francos", "grabois", "monteoliva", "sturzenegger", "menem", "saenz", "emiliano durand",
     "bettina romero", "sergio camacho", "marocco", "jarsun", "dib ashur", "royon", "orozco", "zapata",
-    "voto ", "votos", "votantes", "votacion", "votar", "maria eugenia vidal", "cfk", "lla ", "llaryora", "pullaro", "jaldo", "sadir", "cornejo", "zdero", "frigerio", "weretilneck", "quintela", "ziliotto", "insfran",
+    "bregman", "izquierda ", "municipal", "municipios", "fuerzas armadas", "defensa nacional", "submarinos", "voto ", "votos", "votantes", "votacion", "votar", "maria eugenia vidal", "cristina", "cfk", "lla ", "llaryora", "pullaro", "jaldo", "sadir", "cornejo", "zdero", "frigerio", "weretilneck", "quintela", "ziliotto", "insfran",
 ]
+FIGURAS_NACIONALES = ["milei", "karina", "kicillof", "caputo", "bullrich", "macri", "massa", "cristina", "kirchner", "villarruel", "adorni",
+                      "pettovello", "francos", "santilli", "sturzenegger", "llaryora", "saenz", "jarsun"]
 # Palabras que, solas, hacen pensar en deportes o espectáculos; descartan salvo que haya un término político FUERTE.
 NO_POLITICA = [
     "river", "boca", "racing", "independiente", "san lorenzo", "estudiantes", "velez", "talleres", "belgrano", "gimnasia",
@@ -119,7 +121,10 @@ SALTA_MARCAS = re.compile(
     r"\bSalta\b|salteñ|\bOrán\b|Tartagal|Embarcación|\bMetán\b|Cafayate|Rosario de la Frontera|General Güemes|Pichanal|"
     r"Salvador Mazza|Aguaray|Mosconi|Rosario de Lerma|Campo Quijano|San Antonio de los Cobres|\bCachi\b|Molinos|\bIruya\b|"
     r"Santa Victoria|Joaquín V\. González|Apolinario Saravia|Vaqueros|La Merced|El Carril|Aguas Blancas|Colonia Santa Rosa|"
-    r"Hipólito Yrigoyen|Coronel Moldes|Chicoana|La Caldera|Guachipas|Seclantás|La Poma|Los Toldos|Nazareno|Cerrillos")
+    r"Hipólito Yrigoyen|Coronel Moldes|Chicoana|La Caldera|Guachipas|Seclantás|La Poma|Los Toldos|Nazareno|Cerrillos|"
+    r"Portezuelo|Rotonda de los Gauchos|Limache|Castañares|Tres Cerritos|Grand Bourg|Villa Las Rosas|Valles Calchaquíes|Calchaquí|"
+    r"Cabeza de Buey|Ruta Nacional 81|Gustavo Sáenz|\bSáenz\b|Jarsún|Dib Ashur|\bIPS\b|\bSAETA\b|Güemes|Quebrada del Toro|"
+    r"Tren a las Nubes|Virgen del Milagro|Cerro San Bernardo|Campo Santo|El Tala|Pocitos|Profesor Salvador Mazza")
 
 TEMAS = [
     ("Economía y finanzas", ["economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
@@ -141,58 +146,58 @@ TEMAS = [
 # Lo que no encaja en ninguno queda en «Otros temas». Es una estimación por el título: puede equivocarse.
 TEMAS_TODOS = [
     # (tema, peso, palabras clave)
-    ("Deportes", 2, ["futbol", "goles", "gol de", "el gol", "un gol", "goleador", "seleccion", "messi", "mundialista", "el mundial", "del mundial", "mundial 20", "mundial de futbol", "mundial de rugby", "mundial de clubes", "mundial femenino", "mundial sub", "copa del mundo", "torneo", "liga ", "copa", "partido de", "superclasico", "el clasico",
+    ("Deportes", 2, ["culturismo", "hincha", "deporte", "deportiv", "futbol", "goles", "gol de ", "el gol ", "un gol ", "goleador", "seleccion", "messi", "mundialista", "el mundial", "del mundial", "mundial 20", "mundial de futbol", "mundial de rugby", "mundial de clubes", "mundial femenino", "mundial sub", "copa del mundo", "torneo", "liga ", "copa", "partido de", "superclasico", "el clasico",
                      "colapinto", "verstappen", "alpine", "f1 ", "delantero", "arquero", "mediocampista", "atajada", "goleada",
                      "boxes", "gran premio", "le mans", "motogp", "pole position", "libertadores", "patinaje", "natacion", "esqui", "surf", "padel", "golf ", "triatlon", "judo", "esgrima", "handball",
                      "tenis", "rugby", "basquet", "voley", "automovilismo", "turismo carretera", "formula 1", "boca", "river", "racing",
                      "independiente", "san lorenzo", "talleres", "belgrano", "gimnasia", "velez", "central norte", "juventud antoniana",
-                     "olimpic", "atletismo", "boxeo", "ciclismo", "hockey", "dt ", "refuerzo", "pase de", "campeonato", "ascenso", "entrenador", "atletico", "jugador", "gran fondo", "scaloni", "mercado de pases", "fichaje", "tabla anual", "arbitro", "cancha", "hinchas", "barras", "estadio", "gimnasia y tiro", "ciclismo", "maraton", "plantel", "dirigente deportivo", "futbolista", "fecha fifa", "gallardo", "eliminatorias", "tabla de posiciones", "descenso"]),
+                     "olimpic", "atletismo", "boxeo", "ciclismo", "hockey", "dt ", "nuevo refuerzo", "primer refuerzo", "los refuerzos", "pase de", "campeonato", "ascenso", "entrenador", "atletico", "jugador", "gran fondo", "scaloni", "mercado de pases", "fichaje", "tabla anual", "arbitro", "cancha", "hinchas", "barras", "estadio", "gimnasia y tiro", "ciclismo", "maraton", "plantel", "dirigente deportivo", "futbolista", "fecha fifa", "gallardo", "eliminatorias", "tabla de posiciones", "descenso"]),
     ("Policiales y seguridad", 1.5, SEGURIDAD + [
         "masacre", "mato a ", "mataron", "carcel", "penitenciari", "alcohol al volante", "trapitos",
-        "robad", "robar", "sin vida", "hallaron muerta", "expareja", "apunalaron", "apunalo", "demorad"]),
-    ("Accidentes y emergencias", 1.5, ["accidente", "choque", "vuelco", "incendio", "atropell", "derrumbe", "explosion", "rescate", "bomberos",
+        "prender fuego", "prendio fuego", "rocio con nafta", "punalad", "mato a su", "quemacoches", "incendiaron", "robad", "robar", "sin vida", "hallaron muerta", "expareja", "apunalaron", "apunalo", "demorad"]),
+    ("Accidentes y emergencias", 1.5, ["volco", "volcaron", "accidente", "choque", "vuelco", "incendio", "atropell", "derrumbe", "explosion", "rescate", "bomberos",
                                        "defensa civil", "siniestro", "emergencia", "murio tras", "murio en", "murio al", "murieron en", "murieron tras", "murieron al", "mueren", "tragedia",
                                        "explot", "garrafa", "herid", "muere", "ahog", "electrocut", "intoxic", "pitbull", "atacado por"]),
-    ("Clima y ambiente", 1.5, ["clima", "pronostico", "lluvias", "con lluvia", "lluvia y ", "lluvia en ", "chaparron", "llovizna", "temporal", "tornado", "ciclon", "vientos", "humedad", "smn", "meteorolog", "nublado", "niebla", "el nino", "tormenta", "alerta meteorologica", "alerta amarilla", "alerta naranja", "calor",
+    ("Clima y ambiente", 1.5, ["super nino", "clima", "pronostico", "lluvias", "con lluvia", "lluvia y ", "lluvia en ", "chaparron", "llovizna", "temporal", "tornado", "ciclon", "vientos", "humedad", "smn", "meteorolog", "nublado", "niebla", "el nino", "tormenta", "alerta meteorologica", "alerta amarilla", "alerta naranja", "calor",
                                "frio", "temperatura", "granizo", "helada", "zonda", "sequia", "ambiente", "contaminacion", "residuos",
                                "reciclaje", "fauna", "bosque", "deforestacion", "cambio climatico", "sismo", "temblor", "terremoto",
                                "inundacion", "crecida", "nevada", "ola de calor"]),
     ("Espectáculos y cultura", 1.5, ["netflix", "serie ", "pelicula", "estreno", "show ", "famosos", "farandula", "instagram", "reality",
                                      "masterchef", "cantante", "recital", "concierto", "festival", "musica", "teatro", "cine", "libro",
                                      "artista", "actriz", "actor ", "television", "streaming", "tiktok", "youtube", "cumbia", "folklore",
-                                     "pena ", "cumpleanos", "casamiento", "separacion", "horoscopo", "receta de", "recetas de", "receta facil", "museo", "exposicion", "nieta de", "hija de", "hijo de", "conductor", "conductora", "novio", "noviazgo", "romance", "telefe", "vedette", "modelo", "polemica", "mediatic", "influencer", "bailando", "pareja", "embarazo", "fans", "banda de rock", "disco ", "sus hijos", "su hija", "su hijo", "mama", "bebe", "infidelidad", "martin fierro", "ternas", "wanda nara", "se separo", "primer hijo",
+                                     "pena ", "cumpleanos", "casamiento", "separacion", "horoscopo", "receta de", "recetas de", "receta facil", "museo", "exposicion", "nieta de", "hija de", "hijo de", "conductor", "conductora", "novio", "noviazgo", "romance", "telefe", "vedette", "la modelo", "top model", "polemica", "mediatic", "influencer", "bailando", "pareja", "embarazo", "fans", "banda de rock", "disco ", "bebe", "infidelidad", "martin fierro", "ternas", "wanda nara", "se separo", "primer hijo",
                                      "cantautor", "musico", "musicos", "nobel de literatura", "grammy", "lollapalooza", "premios", "narrativa", "novela", "poesia", "poeta", "escritor", "escritora", "elenco", "miniserie", "thriller",
                                      "filme", "taquilla", "headliner", "entradas", "donde ver", "pogo", "orquesta", "ballet", "danza"]),
-    ("Justicia", 1, ["magistratura", "magistrad", "jueces", "supremo", "la corte", "corte de justicia", "casacion", "camara de apelaciones", "fiscalia", "ministerio publico", "cautelar", "prision preventiva", "indulto",
-                     "justicia", "juez", "jueza", "fiscal", "causa ", "causas", "tribunal", "corte suprema", "juicio", "imputad", "procesad", "denuncia",
+    ("Justicia", 1, ["poder judicial", "organos judiciales", "magistratura", "magistrad", "jueces", "supremo", "la corte", "corte de justicia", "casacion", "camara de apelaciones", "fiscalia", "ministerio publico", "cautelar", "prision preventiva", "indulto",
+                     "justicia", "juez", "jueza", "el fiscal", "la fiscal", "fiscal federal", "fiscal general", "fiscal de", "fiscales", "causa ", "causas", "tribunal", "corte suprema", "juicio", "imputad", "procesad", "denuncia",
                      "amparo", "fallo", "sentencia", "camara federal", "procurador", "indagatoria", "procesamiento"]),
-    ("Salud", 1, ["obras sociales", "diabet", "hipertens", "alzheimer", "oncolog", "pediatr", "psicolog", "psiquiatr", "dialisis", "terapia intensiva", "guardia medica", "centro de salud", "sobrepeso", "obesidad", "cambio de sexo", "quirurgic", "dieta", "salud", "hospital", "sanitari", "medic", "vacuna", "dengue", "sarampion", "epidemia", "enfermedad", "cancer", "paciente",
+    ("Salud", 1, ["ceguera", "dolor cronico", "bienestar emocional", "emocional", "tratamiento", "terapia", "obras sociales", "diabet", "hipertens", "alzheimer", "oncolog", "pediatr", "psicolog", "psiquiatr", "dialisis", "terapia intensiva", "guardia medica", "centro de salud", "sobrepeso", "obesidad", "cambio de sexo", "quirurgic", "dieta", "salud", "hospital", "sanitari", "medic", "vacuna", "dengue", "sarampion", "epidemia", "enfermedad", "cancer", "paciente",
                   "obra social", "pami", "farmac", "nutricion", "covid", "gripe", "clinica", "cirugia", "trasplante"]),
     ("Educación y universidades", 1, ["educativ", "escolar", "universitari", "secretaria de educacion", "educacion", "escuela", "docente", "universidad", "alumnos", "clases", "ciclo lectivo", "colegio", "beca",
                                       "unsa", "estudiantil", "maestr", "paro docente", "financiamiento universitario", "aula"]),
-    ("Ciencia y tecnología", 1, ["nobel de fisica", "nobel de quimica", "nobel de medicina", "astronauta", "artemis", "cohete", "espacial", "semana del espacio", "semana mundial del espacio", "moleculas", "ia ", "data center", "robotaxi", "tesla", "anthropic", "ciberataque",
+    ("Ciencia y tecnología", 1, ["marte", "galaxia", "astronomia", "universo", "nobel de fisica", "nobel de quimica", "nobel de medicina", "astronauta", "artemis", "cohete", "espacial", "semana del espacio", "semana mundial del espacio", "moleculas", "ia ", "data center", "robotaxi", "tesla", "anthropic", "ciberataque",
                                  "inteligencia artificial", "tecnologia", "ciberseguridad", "celular", "apple", "google", "openai", "satelite",
                                  "nasa", "robot", "internet", "software", "starlink", "ciencia", "investigadores", "conicet", "hackeo",
                                  "algoritmo", "chatgpt", "tecnologico", "aplicacion", "app "]),
     ("Minería y energía", 1, ["barril", "brent", "crudo", "gasoducto", "oleoducto", "ypf", "litio", "mineria", "minera", "energia", "petroleo", "gas ", "hidrocarburo", "posco", "vaca muerta",
                               "electricidad", "combustible", "nafta", "yacimiento", "solar", "renovable", "cobre", "oro blanco", "mina de oro", "minas de oro", "rio tinto"]),
-    ("Agro y producción", 1, ["stellantis", "automotriz", "cierre de plantas", "fabrica", "autopartis", "metalurgic", "textil", "manufactur", "agro", "campo ", "soja", "maiz", "trigo", "cosecha", "ganader", "exportacion", "industria", "pyme",
+    ("Agro y producción", 1, ["campos", "tierras rurales", "autos", "automovil", "0km", "concesionari", "stellantis", "automotriz", "cierre de plantas", "fabrica", "autopartis", "metalurgic", "textil", "manufactur", "agro", "campo ", "soja", "maiz", "trigo", "cosecha", "ganader", "exportacion", "industria", "pyme",
                               "produccion", "tabaco", "azucar", "limon", "citrus", "vino", "bodega", "frigorifico", "carne", "productores",
                               "siembra", "agricultura", "zafra", "cupo"]),
-    ("Transporte e infraestructura", 1, ["ferroviari", "ramales", "aeroestacion", "avion", "subte", "autopista", "trenes", "ruta ", "rutas", "vial", "vialidad", "obra", "puente", "aeropuerto", "vuelo", "aerolinea", "tren ",
+    ("Transporte e infraestructura", 1, ["telepase", "cortes de luz", "epec", "edenor", "edesur", "cammesa", "flybondi", "ferroviari", "ramales", "aeroestacion", "avion", "subte", "autopista", "trenes", "ruta ", "rutas", "vial", "vialidad", "obra", "puente", "aeropuerto", "vuelo", "aerolinea", "tren ",
                                          "colectivo", "saeta", "transporte", "peaje", "pavimento", "cloaca", "agua potable", "aguas del norte",
                                          "edesa", "corte de luz", "infraestructura", "bacheo", "asfalto", "ferrocarril"]),
-    ("Turismo", 1, ["arancibia", "promocion de salta", "promocion turistica", "conectividad", "turismo", "turista", "hotel", "vacaciones", "fin de semana largo", "feriado", "cafayate", "quebrada", "tren a las nubes",
+    ("Turismo", 1, ["parque nacional", "iguazu", "cataratas", "arancibia", "promocion de salta", "promocion turistica", "conectividad", "turismo", "turista", "hotel", "vacaciones", "fin de semana largo", "feriado", "cafayate", "quebrada", "tren a las nubes",
                     "ocupacion hotelera", "destino", "temporada alta", "receptivo"]),
-    ("Trabajo y gremios", 1, ["empleadas domesticas", "empleada domestica", "personal domestico", "trabajo domestico", "emplead", "laboral", "informalidad", "cuentapropis", "monotribut", "uocra", "cuanto gana", "aguinaldo", "desocupacion", "puestos de trabajo", "paro nacional", "ate ", "ctera", "conadu", "paritaria", "gremio", "sindicat", "cgt", "despido", "desempleo", "empleo", "trabajadores", "paro ", "huelga",
+    ("Trabajo y gremios", 1, ["albanil", "plomero", "electricista", "empleadas domesticas", "empleada domestica", "personal domestico", "trabajo domestico", "emplead", "laboral", "informalidad", "cuentapropis", "monotribut", "uocra", "cuanto gana", "aguinaldo", "desocupacion", "puestos de trabajo", "paro nacional", "ate ", "ctera", "conadu", "paritaria", "gremio", "sindicat", "cgt", "despido", "desempleo", "empleo", "trabajadores", "paro ", "huelga",
                               "convenio colectivo", "salario", "sueldo", "reforma laboral", "asamblea"]),
-    ("Economía y finanzas", 1, ["economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
-                                "previsional", "jubilatori", "cotiza", "euro ", "tasas", "ahorr", "invertir", "invierto", "finanzas", "financier", "mercados",
+    ("Economía y finanzas", 1, ["equilibrio fiscal", "politica fiscal", "ajuste fiscal", "gasto publico", "transferencias", "coparticipacion", "rigi", "fechas de cobro", "calendario de pagos", "morosidad", "endeudad", "economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
+                                "banco mundial", "crecimiento", "comercio", "previsional", "jubilatori", "cotiza", "euro ", "tasas", "ahorr", "invertir", "invierto", "finanzas", "financier", "mercados",
                                 "anses", "jubilad", "auh", "haberes", "retro suplemento", "moratoria", "empresas", "pension", "bono previsional",
                                 "jubilaci", "inversion", "retenciones", "aranceles", "caputo", "bcra", "banco central", "plazo fijo",
                                 "riesgo pais", "bolsa", "bonos", "reservas", "consumo", "precios", "canasta", "alquiler",
                                 "credito", "tasa de interes", "afip ", "arca ", "indec ", "pbi ", "superavit", "deficit"]),
-    ("Sociedad y género", 1, ["el papa", "papa leon", "papa francisco", "leon xiv", "visita del papa", "peregrin", "aborto", "activista", "desalojo", "vejez", "demograf", "genero", "mujer", "discapacidad", "adultos mayores", "ninez", "infancia", "adolescente", "familia", "comunidad",
+    ("Sociedad y género", 1, ["vivienda", "virgen", "devocion", "procesion", "novena", "personas mayores", "potenciar trabajo", "planes sociales", "el papa", "papa leon", "papa francisco", "leon xiv", "visita del papa", "peregrin", "aborto", "activista", "desalojo", "vejez", "demograf", "genero", "mujer", "discapacidad", "adultos mayores", "ninez", "infancia", "adolescente", "familia", "comunidad",
                               "pueblos originarios", "indigena", "vecinos", "barrio", "solidari", "ong ", "iglesia", "obispo", "derechos humanos",
                               "migrante", "pobreza", "comedor", "alimentos", "adopcion", "diversidad", "lgbt", "comunitari"]),
     ("Internacional", 1, ["israel", "hamas", "gaza", "estados unidos", "eeuu", "trump", "guerra", "ucrania", "rusia", "china", "europa", "brasil",
@@ -261,7 +266,7 @@ EXTRANJERO = [
     "marruec", "argelia", "libia", "etiopia", "china", "chino ", "chinos", "japon", "corea", "india ", "pakistan", "afganistan",
     "tailandia", "vietnam", "filipinas", "indonesia", "taiwan", "hong kong", "australia", "nueva zelanda", "birmania", "nepal", "bangladesh",
     "sri lanka", "myanmar", "mongolia", "camboya", "malasia", "yemen", "jordania", "sudan", "somalia", "cartagena",
-    "alcalde", "alcaldesa", "congresista", "millones de soles", "jep ", "onp ",
+    "vox ", "abinader", "delcy rodriguez", "alcalde", "alcaldesa", "congresista", "millones de soles", "jep ", "onp ",
     # regiones, ciudades y organismos
     "europa", "asia", "africa", "union europea", "otan", "onu ", "naciones unidas", "ocde", "madrid", "barcelona", "londres", "paris",
     "berlin", "moscu", "kiev", "kyiv", "pekin", "tokio", "washington", "nueva york", "california", "texas", "pensilvania", "miami",
@@ -291,6 +296,16 @@ ARG_PATRONES = [
     "aeroparque", "ezeiza", "vaca muerta", "concordia", "mercosur", "rio uruguay", "rio de la plata", "avenida ", "intendente",
     "provincia de ", "la plata", "quilmes", "lanus", "devoto", "marcos paz", "escobar", "san isidro",
     "exportaciones a ", "exportaciones hacia", "importaciones desde",
+    # ciudades y barrios
+    "bahia blanca", "rio cuarto", "villa maria", "lomas de zamora", "la matanza", "berazategui", "florencio varela", "vicente lopez",
+    "almirante brown", "esteban echeverria", "caballito", "puerto madero", "santiago del estero", "carlos paz", "ushuaia",
+    "rio gallegos", "comodoro rivadavia", "trelew", "puerto madryn", "posadas", "san nicolas", "tandil", "olavarria",
+    "pergamino", "porteno", "olivos", "obelisco", "parque nacional", "iguazu",
+    # instituciones, plata y vida cotidiana de acá
+    "inta ", "enacom", "enargas", "iosfa", "banco nacion", "banco provincia", "banco galicia", "mercado libre", "mercadolibre",
+    "aerolineas argentinas", "flybondi", "telefe", "monotribut", "paritaria", "dolar blue", "dolar mep", "cepo", "brecha cambiaria",
+    "merval", "riesgo pais", "rigi", "ley bases", "asignacion universal", "prepaga", "quini 6", "quiniela", "potenciar trabajo",
+    "alfajor", "dulce de leche", "fernet", "choripan", "empanada", "fiesta nacional", "federacion argentina",
 ]
 # «El Gobierno» a secas es el argentino; «el Gobierno de Colombia» o «el Gobierno chileno» no.
 ARG_GOBIERNO = re.compile(r"(?:(?<![a-z0-9])el gobierno|^gobierno)(?! de | del | (?:chileno|mexicano|peruano|colombiano|brasileno|venezolano|cubano|boliviano|paraguayo|uruguayo|"
@@ -302,11 +317,21 @@ def _union(pats):
     return re.compile("|".join(_rx(p).pattern for p in pats))
 
 
+@lru_cache(maxsize=None)
+def _en_exterior():
+    return re.compile("|".join(r"(?<![a-z0-9])en " + _rx(p).pattern for p in EXTRANJERO))
+
+
+def gobierno_argentino(tf):
+    """«El Gobierno» a secas es el de acá, salvo que la nota transcurra «en Rusia», «en Brasil», etc."""
+    return bool(ARG_GOBIERNO.search(tf)) and not _en_exterior().search(tf)
+
+
 def solo_extranjero(titulo_fold, nombres=()):
     """True si el título nombra algo del exterior y nada argentino (ver EXTRANJERO / ARG_PATRONES)."""
     if not _union(tuple(EXTRANJERO)).search(titulo_fold):
         return False
-    if _union(tuple(ARG_PATRONES)).search(titulo_fold) or ARG_GOBIERNO.search(titulo_fold):
+    if _union(tuple(ARG_PATRONES)).search(titulo_fold) or gobierno_argentino(titulo_fold):
         return False
     return not any(n in titulo_fold for n in nombres)
 
@@ -316,10 +341,15 @@ TEMAS_SIN_PAIS = {"Deportes", "Espectáculos y cultura", "Ciencia y tecnología"
 
 def tema_todos(titulo_fold, nombres):
     mejor, smax = TEMA_OTROS, 0.0
+    con_arg = bool(_union(tuple(ARG_PATRONES)).search(titulo_fold) or gobierno_argentino(titulo_fold))
     for nombre, peso, pats in TEMAS_TODOS:
         sc = len(hay(titulo_fold, pats)) * peso
+        if nombre == "Internacional" and con_arg:
+            sc *= 0.5          # «Argentina e Israel firmaron...»: es una nota argentina, el tema es el de acá
         if nombre == "Política y gobierno" and any(n in titulo_fold for n in nombres):
             sc += peso
+        if nombre == "Política y gobierno" and sc and hay(titulo_fold, FIGURAS_NACIONALES):
+            sc += 0.75         # «Milei... Kast...»: gana la política ante el empate con un tema de 1 punto
         if sc > smax or (sc == smax and sc > 0 and mejor == "Internacional" and nombre == "Política y gobierno"):
             mejor, smax = nombre, sc
     if mejor not in TEMAS_SIN_PAIS and solo_extranjero(titulo_fold, nombres):
@@ -473,6 +503,27 @@ def raices(titulo_fold):
     return {w[:6] if len(w) >= 7 else w for w in tokens(titulo_fold)}
 
 
+_PROPIO = re.compile(r"(?<![\wáéíóúüñ])([A-ZÁÉÍÓÚÑ][a-záéíóúüñ]{2,}|[A-ZÁÉÍÓÚÑ]{3,})")
+
+
+def propios(titulo):
+    """Nombres propios del título (lugares y personas), sin contar la primera palabra ni la que sigue a «:», «.» o «¿»."""
+    res = set()
+    for m in _PROPIO.finditer(str(titulo or "")):
+        previo = titulo[:m.start()].rstrip()
+        if not previo or previo[-1] in ":.¿¡\"“«-–|":
+            continue
+        res.add(fold(m.group(1)))
+    return res
+
+
+def distintos(t1, t2):
+    """True si los dos títulos nombran lugares o personas y no comparten ninguno: son notas distintas aunque se parezcan
+    («Clima en Santa Fe: cómo estará el tiempo...» y «Clima en Córdoba: cómo estará el tiempo...»)."""
+    a, b = propios(t1), propios(t2)
+    return bool(a) and bool(b) and not (a & b)
+
+
 def agrupar(items):
     """Une titulares que cuentan la misma noticia. Dos criterios, ambos conservadores:
     (a) 3 o más palabras significativas en común y al menos el 55 % de las del título más corto;
@@ -495,6 +546,8 @@ def agrupar(items):
         for j in range(i + 1, n):
             inter = tk[i] & tk[j]
             if len(inter) < 2:
+                continue
+            if distintos(items[i]["titulo"], items[j]["titulo"]):
                 continue
             menor = min(len(tk[i]), len(tk[j]))
             mismo = items[i]["medio"] == items[j]["medio"] and fold(items[i]["titulo"]) != fold(items[j]["titulo"])
@@ -631,10 +684,11 @@ def resumen_del_dia(fecha, noticias, politicos, oficiales, nombres):
         base = {"titulo": t, "tf": tf, "tok": raices(tf), "medio": medio, "ambito": amb,
                 "link": n.get("link", ""), "hora": hora(n.get("published_iso")), "iso": n.get("published_iso", "")}
         todos_t.append(base)
-        if es_politica(tf, nombres_l):
+        fuera = solo_extranjero(tf, nombres_l)      # nota solo del exterior: va a «Internacional», no a política ni seguridad de acá
+        if es_politica(tf, nombres_l) and not fuera:
             m["politicas"] += 1
             politicas.append(base)
-        if es_seguridad(tf):
+        if es_seguridad(tf) and not fuera:
             m["seguridad"] += 1
             seguras.append(base)
     prev_pol, prev_seg, prev_todos = tokens_previos(fecha)
