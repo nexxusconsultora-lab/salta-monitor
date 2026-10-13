@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-10-13T04:01:23.467421+00:00",
+  "generated_at": "2026-10-13T11:43:23.239793+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 329,
+      "total_mentions": 336,
       "sentiment_breakdown": {
         "positivo": 20,
         "negativo": 29,
-        "neutral": 280
+        "neutral": 287
       },
       "sentiment_by_day": {
-        "2026-10-09": {
-          "total": 42,
-          "score_sum": -4
-        },
         "2026-10-13": {
-          "total": 2,
+          "total": 7,
           "score_sum": 2
         },
         "2026-10-12": {
-          "total": 9,
+          "total": 10,
           "score_sum": 0
+        },
+        "2026-10-10": {
+          "total": 13,
+          "score_sum": -2
+        },
+        "2026-10-09": {
+          "total": 42,
+          "score_sum": -4
         },
         "2026-10-11": {
           "total": 16,
@@ -31,10 +35,6 @@
         "2026-10-08": {
           "total": 25,
           "score_sum": -12
-        },
-        "2026-10-10": {
-          "total": 12,
-          "score_sum": -2
         },
         "2026-10-05": {
           "total": 5,
@@ -168,15 +168,15 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 160
+          "count": 166
         },
         {
           "term": "presupuesto",
-          "count": 96
+          "count": 97
         },
         {
           "term": "intransigente",
-          "count": 57
+          "count": 58
         },
         {
           "term": "discapacidad",
@@ -206,6 +206,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "operativo lavandina",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAySmEzdGV5NEJsbkE3b0V2TDhGcnlyTUtkcklxbmZrNGxNdEhsY0tRM2JNSXg4RnVqWXNmZnVGQ0VnZm85VHhEclpWTHRsSWtWTExlbGhQQVE5UkxXVTNQVFRvWG9YdEJicVFDNmtNS01Kd1pJN3BDcFVnZHNYUQ?oc=5",
+          "date": "Tue, 13 Oct 2026 03:29:23 GMT"
+        },
         {
           "quote": "Operación Vuelo 718",
           "source": "El Tribuno",
@@ -289,15 +295,58 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEhBUExDc0Rza0FEY21fMnNjRUxxRzFRZ1hlTE9IdnpXOG9XVFRRajdrMW5ZSUhlTVRJV2VBQVltVC1HYzU3QnpWcUR6eHJlWHZ3eUViMkpDdDJkSFo2S1VDMDJWWmVfTldMUm9XOEg3a2dHSWo5cDREX1Y2bHl3WDNINE1uLUw1aXNNdlpRVm0tVmJad19iRXBrWmFYbURVM2lybE5lUWZjM0pQTXhtLURwNGtMcjF5TkhIcERTRkRJNm00Z1RlandudS02MTZE?oc=5",
           "date": "Thu, 08 Oct 2026 10:12:00 GMT"
-        },
-        {
-          "quote": "Violan la ley y dictan un decreto que es inconstitucional",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uOEd5VFZEMXBLOEhVcUFvRmQ0VDFFUjhWU0pfX1F1ZFNaeUVSOWZtV1R0QVliR2txeHNYOGtEUWMzV2gybE5XQ2xSYzZhQ1p0aUREMGhQT3NWWWFKbVYxY1ZzSU0tSXdEWmhJeWdYZG52WVUzZzZTd1Zn?oc=5",
-          "date": "Thu, 08 Oct 2026 05:59:24 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Cristina Kirchner y el “operativo lavandina” que Jony Viale atribuyó al peronismo - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAySmEzdGV5NEJsbkE3b0V2TDhGcnlyTUtkcklxbmZrNGxNdEhsY0tRM2JNSXg4RnVqWXNmZnVGQ0VnZm85VHhEclpWTHRsSWtWTExlbGhQQVE5UkxXVTNQVFRvWG9YdEJicVFDNmtNS01Kd1pJN3BDcFVnZHNYUQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 13 Oct 2026 03:29:23 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta busca extender el Scoring a los municipios - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV1dEZUNSdjBhdmxBMFcyRTZPMTZSRHh3U0M0bjhGM1FJLXpCN1hNOUlXRVRPYlpkYVJ5NlM3c19XX0p3MDMzcHBZNzNaZ3ltSG45cVFnaUI5RndhWW40VGdLcUlsX2ZZSGYxUWt1akdmZlFZTVJLTDNKQ2ZRNDZEc1NvcUZ6RWdaVFktZ0ViZmt2OFlIV0Jyc2Y1Vkx0VFM0aVp30gGjAUFVX3lxTE1XV0RlQ1J2MGF2bEEwVzJFNk8xNlJEeHdTQzRuOEYzUUktekI3WE05SVdFVE9iWmRhUnk2UzdzX1dfSncwMzNwcFk3M1pneW1IbjlxUWdpQjlGd2FZbjRUZ0txSWxfZllIZjFRa3VqR2ZmUVlNUktMM0pDZlE0NkRzU29xRnpFZ1pUWS1nRWJma3Y4WUhXQnJzZjVWTHRUUzRpWnc?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Primavera fría y la atención puesta en el Súper Niño - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORUVudkpSOXBxX0xGTkRSUHRkcVRJUUo5LVMxeUpmNHhUMWtHdExybGM3bGZQUlhkaTNXY3V1SFE1TjlOTFd0QnQtRXJhNUhCM296c2ZnZjhOUzRDUjFReW84SElHaGRVcXV3WTNxamxFc3ZsVFppbFo0UGxjZ1ExVXM4SDl4XzBMTnJ2Tnc0RmtndE1CU1VUcVZCcjMxVDZhN3RkMWJhT0TSAagBQVVfeXFMTkVFbnZKUjlwcV9MRk5EUlB0ZHFUSVFKOS1TMXlKZjR4VDFrR3RMcmxjN2xmUFJYZGkzV2N1dUhRNU45TkxXdEJ0LUVyYTVIQjNvenNmZ2Y4TlM0Q1IxUXlvOEhJR2hkVXF1d1kzcWpsRXN2bFRaaWxaNFBsY2dRMVVzOEg5eF8wTE5ydk53NEZrZ3RNQlNVVHFWQnIzMVQ2YTd0ZDFiYU9E?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La recaudación provincial cayó un 14% con respecto a 2023 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeE9FblRJZ0VsWTZsNnpQVnIwRTVCRGk3akRsTE5QN0ZhT0J3aFV0c200Y1RJakE5R094VGVaR3UtM3BJXzFBQzRBOW5aZjhZV05NUVZZd1cwZ0ZWb0VPcVdUaFBHaVNyS1lhaEpGbUdubWJIeGRmc1Jka3FMODNRcmJWejBzY0RhUm9BUmxvMEs4S3ZGdDlEdzVTRUIycHc4WU9mREhQcWktTGUzLUHSAa4BQVVfeXFMTXhPRW5USWdFbFk2bDZ6UFZyMEU1QkRpN2pEbExOUDdGYU9Cd2hVdHNtNGNUSWpBOUdPeFRlWkd1LTNwSV8xQUM0QTluWmY4WVdOTVFWWXdXMGdGVm9FT3FXVGhQR2lTcktZYWhKRm1Hbm1iSHhkZnNSZGtxTDgzUXJiVnowc2NEYVJvQVJsbzBLOEt2RnQ5RHc1U0VCMnB3OFlPZkRIUHFpLUxlMy1B?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Fútbol amateur: cuatro muertes súbitas en Salta y la advertencia de un cardiólogo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkFwZUFKUGZldmdEd1puN2VnR1JwdFI0bUNZdGVhX1dvQWRrTUc0VW9SQW1LTU5TLVVnS0stR3BjLUhWSUN3d2dzc1dOSjFvUzVQdVZ0bVBjQllJWFhoT3JYMm5KRHpINjZHQW5ncjdzN2tLUEl5LTV6WDg2aTlSUHRDbnRoN1pOZVRyMmd1WEZfNXhHcTJ5VWtycVpxT3FYdmpxbkJiSGtaLUxfNlJTak5pSmtmNzRpVDFRM0dEU3l1WW1wc0hCb29vVmdlNGfSAdQBQVVfeXFMTTdXc1F3SndVSXV5eERfcEFNejZQV200d3JpczF1dWlXck80aUprRExnS2tXRDZoNmx1VnBhejdrTXNkSXdtd29ua2E1WmFucFRzVkRxTlRGX2hqNXB1LUFhU2Y1LUZwbkdMWmVRZWw0OVNpZ0FpTlE0V19oT1VwV21wUk1pN2RHbGc1NXJMX1R6a2Rnd2JxWUhPbGJKYnhZeXljZmk3NzNFRU1qV2dULThickJVaW16OVp5Y2lWTVk1WF92NjAzOEFpRzRnTnRhRGJMSlQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Mon, 12 Oct 2026 19:26:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El fin de un ciclo para Naciones Unidas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRkZqMllFY3hnaWFpWHFONkYyaGJ1OXVsSjJQajBhc1d3YjBfOUV3dl8yNUJHWkVkcF9fYk1pS3JSTkFta0dmSTNYVURISnJZTDVkV0RjRmFmSHlCZ2FlNUpwckJiZzVGVFJLbjR1eUE3Z2t0XzBJUmRhSEVKSHdQTkQ1aFh2cDFBd2JQWmpTaHVmYWM3Q0Y40gGcAUFVX3lxTE4xM19uanFhVGlYa3VPQVZRRTQxNFVITmRnWUp0eFl5VW0tWDhWbkxldnRWT2xEci1wQ3lreks4SmdCZXprX0haUDNFRDdsX09UQnZNeEl5Y1NRWVQ4cTd3VHdKQ256SUJLeXR6VFZvN3lxZF9hd1NZU2ZwY19wRkx4NjVTcy16WnNJLWtyRFBCT25YbFVNdUVUSmlnaQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 10 Oct 2026 04:47:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto: se abre el debate en Diputados con poco margen para cambios - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzh5cFR5YlNELXhTNDY2ZGFHSjg1TV9LMldONEU5bzNFMzZoRUZIUzVFaUY4R0t0UGRxWm1Ja1o0amtwcHlKZW00bUxYczJjVTRNQWxyNGlWNm04QmRoZXBiSGFtNHRXMzVSTm1xOGwtRy0zUkZmYWNOdm1fQ0xYUUVjUVBwcm40RWFXVVd2X2JMN3Q1bUdmeDRoMU1oWmtkV3BrMlcyY0lTNjFkcHRLUHhfT20xZ3Q0MU0yanBHd2t0VzDSAcgBQVVfeXFMTkszbDF6U0NoMWNqQjlFZ0VsZjJPSUd2TkRzRTQ4LVBHMHNxTkZjeWQwUTNxUTZlY2IxRzUzdy1DSlZxODgzN1IwZENTUWl0V2lIcDNfTHRTWUhSRW1WNzAwQnltUW1xYzQ5ZzctYkJZUHdjWWNrRFNHMVFrQ0RvMEdIX2ZMS0R4TjBKTFJpUzFKeDhZei1GZ3FWVVVMYnphZ1hGRl9lNjJ4YzIyT2x3Z2xEU0xaeEk3THdMT2M3RE1YVFltUzhHemE?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Salud Mental: más de 104 mil consultas en Salta y dónde buscar ayuda - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkVZcTdTenpaYVdhVW8yc3dCTFhRbHdBZE9CbmJxNzhGVU1oVEJ6WjdHcWxMTkx2dUcyY3g3Unp5OURCYjJWZTFKaEptOHRzZmhiX1BJd3RlQ1VfZVk0TDc2MDQ0c2QyODBRWEFoVkJ1UkkwOTN1ZE1VX0tFU010X0VyNkpZelpRdXVGQ3RpMzdpZWc4MEk3WUJnSWRWWnpJd3lNOU9sMHFPU3YxV3d5Q3BHSnlDamc?oc=5",
@@ -458,55 +507,6 @@
           "source": "El Tribuno",
           "date": "Fri, 09 Oct 2026 20:43:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"Nunca es tarde para empezar a moverte hacia una mejor versión de vos\". Los consejos para los de más - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUU9iZXkzZDZUdVdsNk5PVlBncHZtT2JOWUJkd2NBZVd1VnVvME5QMkRZSDIyRmJjNVBsQUJzNS13djFFVVg5ZGJhLVYxcmZiSElqLWo5VDJfXzZ5cmRKQm9xR2ZuWFRmcXNBcnotUy1DMUhsWDhCYjFPU0d6dExjb0hKdkt6YW1sQkdyZ0N6eFdrdExIcmZ2QkhFNURKY3dPRDYzZk5XMVcxZ0c4c2dxd2I4OXh6WnhRRnBNNHpCQXM0eGUtaGtRSnJlUXZnc3B5Z1c3RThrS0V1RzlSMFh5Qm5zalJiVWF1VGRiVW9vR0RFeVgxQVFn0gH8AUFVX3lxTE1kaUZLR05WczMyVEs0SW1aR0V3X01zTC1oaExhX1N4eTZELXQ2VElsSHF6djBlWThwRDg5ZklhM3ZWbS1GRklfamFkbjl0WXBWbk94Z3Y1TkVpb2dkN0RHRTZ3WENtS0hmb1dkdU5wQ256b2ZyM2VfNmEzNGVnMnpTclVOa1lPNURFYUUtREM2Z1RGMGN2b0t2dTlBd19PZnF1MHBnb0toVGRJSjU4X1pDN2pMNEk3V2laMG9lbGlOb2tpRWhBRDdibTVIVWNBTjNaSDNNQ1NGYktWSUJVVmVMNjhudTJ1MFZ3dDBwSC1UMkxsbnRtQm9waVpuaA?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 12:12:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"Nunca es tarde para empezar a moverte hacia una mejor versión de vos\". Los consejos para los de más - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZGlGS0dOVnMzMlRLNEltWkdFd19Nc0wtaGhMYV9TeHk2RC10NlRJbEhxenYwZVk4cEQ4OWZJYTN2Vm0tRkZJX2phZG45dFlwVm5PeGd2NU5FaW9nZDdER0U2d1hDbUtIZm9XZHVOcENuem9mcjNlXzZhMzRlZzJ6U3JVTmtZTzVERWFFLURDNmdURjBjdm9LdnU5QXdfT2ZxdTBwZ29LaFRkSUo1OF9aQzdqTDRJN1dpWjBvZWxpTm9raUVoQUQ3Ym01SFVjQU4zWkgzTUNTRmJLVklCVVZlTDY4bnUydTBWd3QwcEgtVDJMbG50bUJvcGlabmjSAfwBQVVfeXFMTWRpRktHTlZzMzJUSzRJbVpHRXdfTXNMLWhoTGFfU3h5NkQtdDZUSWxIcXp2MGVZOHBEODlmSWEzdlZtLUZGSV9qYWRuOXRZcFZuT3hndjVORWlvZ2Q3REdFNndYQ21LSGZvV2R1TnBDbnpvZnIzZV82YTM0ZWcyelNyVU5rWU81REVhRS1EQzZnVEYwY3ZvS3Z1OUF3X09mcXUwcGdvS2hUZElKNThfWkM3akw0STdXaVowb2VsaU5va2lFaEFEN2JtNUhVY0FOM1pIM01DU0ZiS1ZJQlVWZUw2OG51MnUwVnd0MHBILVQyTGxudG1Cb3BpWm5o?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 12:12:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Molinos reunirá a intendentes y legisladores para definir prioridades del Presupuesto Provincial 2027 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcWRMZFBZX2p6cEpQZHZUMjltQTQwRnotX2haRDVNc0lFSnJDZ2k1ZGpDTkdab0F4VzBiUjhsY2dGWkk3NjIyeldMRDhZU0hlSV9KOXQ1cGhZcUctTEpSdGNBdzhaYlNoQ2dYc3NES1k4R24wMFA1Zld0MF9aaU5uNzM4bTFodHZtRmF3TUxfRTFxTVlkbHBLM2RiaThLWjV6blZEZWtjSEV5UUVfUnhWbkZjUlFkM0dqNEtXTENUcVFHZ3E2S3BSYkp1Qkx6RjVQTGx1ZE44Q28zWloxSTJCeUZ1Z2dQR2lfaUI4NVFsMlZrUdIB8gFBVV95cUxOcWRMZFBZX2p6cEpQZHZUMjltQTQwRnotX2haRDVNc0lFSnJDZ2k1ZGpDTkdab0F4VzBiUjhsY2dGWkk3NjIyeldMRDhZU0hlSV9KOXQ1cGhZcUctTEpSdGNBdzhaYlNoQ2dYc3NES1k4R24wMFA1Zld0MF9aaU5uNzM4bTFodHZtRmF3TUxfRTFxTVlkbHBLM2RiaThLWjV6blZEZWtjSEV5UUVfUnhWbkZjUlFkM0dqNEtXTENUcVFHZ3E2S3BSYkp1Qkx6RjVQTGx1ZE44Q28zWloxSTJCeUZ1Z2dQR2lfaUI4NVFsMlZrUQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 08 Oct 2026 11:01:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Felipe Varela en Salta: el hombre que no venía matando - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYkRNYXV1WTRFaXJKUTItMF82ZVFmUWNLLWk2WFJ1ci1xRWRsbG1DTDFuaUt0al9EdDQ1R210SE9lWDZUUzlKY0c4ZW1MSlcyWEZKMWdnUG1GUHlabWUtd05wR3BrUDZQNHlkcnE0ZThBbEsxeENxTUdHTTNrX0FCdGRDUF9CZ2hPWnl0MWpsU0ZkUXk4N25TVmhyZnRWT3ByM2E2SERzQdIBrAFBVV95cUxORFNVLTRtejgwM1NJYjRqcU1Ocl9BM01zTWRuZE9tclhabExuelFSWjEwNkFlZFkxZ2E4bEZtd0tCemI0dmdqNHdHbDlnQklIbFhTaFBSUDRGeFZPcFhmUm9RbkdVYXZ2N1daa25LYUxYcS1iajBIWkFnLV9UTUNIRTlLRC1OUGtuazQtbDRFd19VbXNtbGFtZUIwUDc4N1podGRtTlpua0NfRlBv?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 04:38:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Fin de semana largo: Salta espera más turistas y ya mira al verano - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFotbHhyYXRKc3dQVFNUTzI1LXVTLVZPdFJrNEJacmJ3Qjg3RUpTRi1wSVQ3Z2laX2p5STN1NldTYzFvQlBXdHFGajlwczJkWnFKeVNuTFAyT3RFWEVGTUphS0xJTUxFSTZMNjFsVFU0V1A2NWtScDRpMEZzNUdCaXBXWGFkMW5qb2tNWUdwVkJYWXp1WVhCMlp3dHlUcGhrb2Y3aFI3aWNzWnRPb2xtVVdEQVjSAboBQVVfeXFMTk1DYWRyTXRtU1ZLcl84a0xCT2ZTZWRZRnNQc1BQME1PaEJ0X1Bzbl9qaXNqd3F3amVpaWhGS1lPUjJtTEN4djhqdFpVMjh0OURsN3diZ0xTMGtKSjF1RE40Mk9MSENzMThYSWNhRXlja1hIZ0JHWVZlblZDQ3oyRk9kWW5BUDRRSFNwMFBvazF4X3JfOHRkV2R2T0tUeTBZQTdkeUdMVEtFNHU3eV96Zk8zb3o5NnFpQ1Nn?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 10 Oct 2026 04:47:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Licitarán un acueducto para los Valles Calchaquíes - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVW85dXphb0swTDVVUXBieERBaE5LcUd0X0Yta1BpdlpRRTNUc3lzMm9XMG9lcnFaVzZtRzFlNjkzeTZrODg4WVhVNW9UcW82SVc3ZWVUdGxxMnlBTWZMVzZhWW9ic2RTdXF5bE5XeGxzWEx0SEFoRW9JQU5LNWh6bmRoU1lCUmJZTGRSVVltLTU4YnJzbWJ5Q3RobXh6d29YUzhYWnVkZ9IBrAFBVV95cUxPcVRIRUdYbDBHdW90clBhNmhxT3dMYXNLSklZdVgyd3pzVlJiekVlcGdrVklocG02Z0JEYW1KMnowWm1la1JPZzdibHktWWJUWndLR0RuVXMtcS1zUXRRVGVsWV9OVEVGc2ZUTHJUUE1iWXJDTnFpd0dRY0Z6c0Nja291ZW55Sng3M00tMDJBNjV1MlJZbjgxY1ZVTTNiUTFHRV8tSm5aOGFrQ3Mx?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 10 Oct 2026 04:47:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Crecen los reclamos por las restricciones en la frontera norte - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNblN1eG85STJyaS1WdVdsVWI0RFI5LUhTWGNtajZUSnRWTWNlSktrdzRwUTJIWi1CY2JDbWFRY0Mwa2c5ZWRnVVBTQ0psbjU2R2p2YlFuakRwRm1WdXZuYXBUSE5TN25qWTZfZWZ5NXlRLXhQMnZoajdCbWVTd1VKT0FNZzlmUDduVXNMc1BQcUFyVjNHYk5icFFwb1lESXctNXBFUmFtc2pHQdIBrwFBVV95cUxNanZWUUMzOV8wUXd6U3h3N2ljbjlqMVJiUWpUZVZJUmI3c3d1M3B4aDdHMlpIVmJvY2gtSFNfWmY3eDhhYUdYMnJpb0w5ekRjSE9WSWhKQXdRYWI1TEtuelpZTEZza2hpd2dzc1BrcWI2T1RtbURwdDB1NzJkLXlXVVdkTjk5S2RuU2s2UERlaTBXR19nd2tYZ3hvNVV3aWY4MkFUcEtwWUxKdG45QzBR?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 04:38:00 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },

@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-13T04:01:22.635281+00:00",
+  "generated_at": "2026-10-13T11:43:22.323009+00:00",
   "by_politician": {
+    "eje-juan-vilchez": {
+      "total": 7,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 4
+    },
+    "gustavo-saenz": {
+      "total": 240,
+      "positivo": 48,
+      "negativo": 28,
+      "neutral": 164,
+      "score_sum": 89
+    },
     "snac-flavia-royon": {
       "total": 75,
       "positivo": 6,
@@ -43,13 +57,6 @@
       "neutral": 9,
       "score_sum": 2
     },
-    "gustavo-saenz": {
-      "total": 239,
-      "positivo": 48,
-      "negativo": 28,
-      "neutral": 163,
-      "score_sum": 89
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 50,
       "positivo": 3,
@@ -70,13 +77,6 @@
       "negativo": 11,
       "neutral": 31,
       "score_sum": -24
-    },
-    "eje-juan-vilchez": {
-      "total": 6,
-      "positivo": 2,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 4
     },
     "sen-daniel-moreno-ovalle": {
       "total": 30,
@@ -913,6 +913,46 @@
     }
   },
   "by_day": {
+    "2026-07-02": {
+      "eje-juan-vilchez": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 4
+      }
+    },
+    "2026-10-13": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": -1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-05-14": {
       "snac-flavia-royon": {
         "total": 1,
@@ -1007,16 +1047,6 @@
       "gustavo-saenz": {
         "total": 1,
         "score_sum": 1
-      }
-    },
-    "2026-10-13": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": -1
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-09-08": {
@@ -1365,36 +1395,6 @@
       "concejal-malvina-gareca": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2026-07-02": {
-      "eje-juan-vilchez": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-eduardo-jose-virgili": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 3,
-        "score_sum": 4
       }
     },
     "2025-03-08": {
@@ -15282,6 +15282,10 @@
       "count": 10
     },
     {
+      "term": "sáenz",
+      "count": 7
+    },
+    {
       "term": "federico",
       "count": 7
     },
@@ -15290,15 +15294,7 @@
       "count": 7
     },
     {
-      "term": "tribuno",
-      "count": 7
-    },
-    {
-      "term": "lópez",
-      "count": 7
-    },
-    {
-      "term": "orozco",
+      "term": "ministro",
       "count": 6
     },
     {
@@ -15306,19 +15302,23 @@
       "count": 6
     },
     {
-      "term": "sáenz",
+      "term": "lópez",
       "count": 6
     },
     {
-      "term": "pablo",
-      "count": 6
+      "term": "ignacio",
+      "count": 5
     },
     {
       "term": "norte",
       "count": 5
     },
     {
-      "term": "ministro",
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "tribuno",
       "count": 5
     },
     {
@@ -15326,7 +15326,7 @@
       "count": 5
     },
     {
-      "term": "josé",
+      "term": "pablo",
       "count": 5
     }
   ],
