@@ -65,6 +65,13 @@ NATIONAL_SITES = [
     # Diarios REGIONALES (Córdoba y Tucumán): el responsable pidió sumarlos; pueden traer política de su provincia.
     # Si molestan en el Diario, borrá estas dos líneas.
     "lavoz.com.ar", "lagaceta.com.ar",
+    # Sumados el 12/10/2026 a pedido del responsable (candidatos de data/fuentes_candidatas.json).
+    # Si alguno no trae notas o molesta, borrá su línea. Más medios = más búsquedas por corrida.
+    "infonews.com", "politicargentina.com", "realpolitik.com.ar", "infocielo.com", "mejorinformado.com",
+    "bloomberglinea.com", "econojournal.com.ar", "mercado.com.ar", "forbesargentina.com",
+    "infocampo.com.ar", "ole.com.ar", "tycsports.com",
+    # Norte Argentino (vecinos de Salta)
+    "eltribunodejujuy.com", "elancasti.com.ar", "elliberal.com.ar", "contextotucuman.com",
 ]
 
 # Candidatos NACIONALES que todavía NO se buscan. Para activar uno: abrí el sitio en el navegador,
@@ -112,6 +119,11 @@ SOURCE_SITES = [
     "nuevodiariodesalta.com.ar",  # confirmado 9/10/2026: Nuevo Diario de Salta, publica a diario
     "radiosalta.com.ar",
     "defrentesalta.com.ar",   # confirmado por el responsable el 11/10/2026
+    # Sumados el 12/10/2026 a pedido del responsable. Todos aparecen como fuente en data/mentions.json
+    # o en data/fuentes_candidatas.json. Si alguno no trae notas, borrá su línea.
+    "salta4400.com", "gentedesalta.com", "datasalta.com", "todosalta.com.ar",
+    "ariesonline.com.ar", "saltacomparativa.com.ar", "lahoradesalta.com.ar", "vocescriticas.com",
+    "fmalba.com.ar", "cuartopodersalta.com.ar", "elvocerohoy.com", "examedia.com.ar",
 ]
 
 # Departamentos y localidades de la provincia, para una segunda búsqueda
@@ -147,6 +159,16 @@ MEDIA_HOMEPAGES = [
     ("Salta12", "https://www.salta12.com.ar/"),
     ("Nuevo Diario de Salta", "https://www.nuevodiariosalta.com.ar/"),
     ("Radio Salta", "https://www.radiosalta.com.ar/"),
+    # Sumados el 12/10/2026. Si no tienen RSS, el monitor lo anota en data/medios_status.json y sigue.
+    ("Voces Críticas", "https://www.vocescriticas.com/"),
+    ("Aries On Line", "https://www.ariesonline.com.ar/"),
+    ("Salta Comparativa", "https://www.saltacomparativa.com.ar/"),
+    ("La Hora de Salta", "https://www.lahoradesalta.com.ar/"),
+    ("FM Alba", "https://www.fmalba.com.ar/"),
+    ("Salta 4400", "https://www.salta4400.com/"),
+    ("Gente de Salta", "https://www.gentedesalta.com/"),
+    ("Data Salta", "https://www.datasalta.com/"),
+    ("Todo Salta", "https://www.todosalta.com.ar/"),
 ]
 FEED_RETRY_HOURS = 6
 FEED_FALLBACK_PATHS = ["feed/", "rss", "feed", "rss.xml", "feed.xml", "rss/"]
