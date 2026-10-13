@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "newar-offline.html"
 # Mismos nombres que usa index.html en SRC (archivo sin .json)
 DATOS = ["politicians", "curriculums", "aggregates", "mentions", "dossiers", "topics_data",
-         "events", "news_general", "topic_mentions", "oficiales", "oficiales_status", "orden_del_dia", "nomina_status", "resoluciones"]
+         "events", "news_general", "topic_mentions", "oficiales", "oficiales_status", "orden_del_dia", "nomina_status", "resoluciones", "judicial"]
 
 
 def main() -> int:
@@ -45,6 +45,11 @@ def main() -> int:
         print("ERROR: no encontré el <script> principal de index.html; ¿cambió su inicio?", file=sys.stderr)
         return 1
     html = html.replace(marca, f"<script>window.NEWAR_EMBED={blob};</script>\n" + marca)
+
+    # 1b) Módulo Judicial: judicial.js va dentro del mismo archivo
+    js = RAIZ / "judicial.js"
+    if js.exists():
+        html = html.replace('<script src="judicial.js"></script>', "<script>\n" + js.read_text(encoding="utf-8").replace("</script", "<\\/script") + "\n</script>")
 
     # 2) Tipografías como data: URI (bajo file:// el navegador no siempre carga fuentes externas)
     html = re.sub(r'<link rel="preload" href="fonts/[^>]+>\n', "", html)
