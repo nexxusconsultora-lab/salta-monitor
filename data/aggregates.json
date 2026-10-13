@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-13T02:33:48.767549+00:00",
+  "generated_at": "2026-10-13T02:37:11.497744+00:00",
   "by_politician": {
+    "eje-federico-mangione": {
+      "total": 19,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 16,
+      "score_sum": -1
+    },
     "eje-ignacio-jarsun": {
       "total": 15,
       "positivo": 1,
@@ -49,13 +56,6 @@
       "negativo": 11,
       "neutral": 31,
       "score_sum": -24
-    },
-    "eje-federico-mangione": {
-      "total": 18,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 15,
-      "score_sum": -1
     },
     "eje-juan-vilchez": {
       "total": 6,
@@ -913,6 +913,20 @@
     }
   },
   "by_day": {
+    "2026-07-18": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2026-06-19": {
       "eje-ignacio-jarsun": {
         "total": 2,
@@ -11221,16 +11235,6 @@
         "score_sum": 0
       }
     },
-    "2026-07-18": {
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "2015-10-11": {
       "sen-carlos-lopez": {
         "total": 1,
@@ -15266,23 +15270,23 @@
       "count": 8
     },
     {
+      "term": "federico",
+      "count": 7
+    },
+    {
+      "term": "mangione",
+      "count": 7
+    },
+    {
+      "term": "tribuno",
+      "count": 7
+    },
+    {
       "term": "lópez",
       "count": 7
     },
     {
       "term": "sáenz",
-      "count": 6
-    },
-    {
-      "term": "tribuno",
-      "count": 6
-    },
-    {
-      "term": "federico",
-      "count": 6
-    },
-    {
-      "term": "mangione",
       "count": 6
     },
     {
