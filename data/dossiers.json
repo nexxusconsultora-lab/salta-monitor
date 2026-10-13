@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 240,
+    "total_mentions": 245,
     "sentiment_breakdown": {
-      "positivo": 48,
-      "negativo": 28,
-      "neutral": 164
+      "positivo": 50,
+      "negativo": 30,
+      "neutral": 165
     },
     "sentiment_by_day": {
       "2026-10-13": {
-        "total": 3,
-        "score_sum": -1
+        "total": 8,
+        "score_sum": -8
       },
       "2026-10-12": {
         "total": 1,
@@ -262,15 +262,23 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 21
+        "count": 23
       },
       {
         "term": "molinos",
         "count": 5
       },
       {
-        "term": "gustavo",
-        "count": 5
+        "term": "belgrano",
+        "count": 4
+      },
+      {
+        "term": "cargas",
+        "count": 4
+      },
+      {
+        "term": "reelección",
+        "count": 4
       },
       {
         "term": "años",
@@ -283,14 +291,6 @@
       {
         "term": "ruta",
         "count": 4
-      },
-      {
-        "term": "esperar",
-        "count": 3
-      },
-      {
-        "term": "otros",
-        "count": 3
       }
     ],
     "quotes": [
@@ -387,6 +387,41 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Ramal C14: Empresarios piden respuestas sobre el futuro del Belgrano Cargas",
+        "link": "https://informatesalta.com.ar/sociedad/ramal-c14--empresarios-piden-respuestas-sobre-el-futuro-del-belgrano-cargas_a6ace3753036f6bc8fa11bc17",
+        "source": "Informate Salta",
+        "date": "Tue, 13 Oct 2026 15:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Sáenz apoya la reelección de Milei y utiliza a Marocco para acercarse a Kicillof",
+        "link": "https://elintra.com.ar/2026/10/13/saenz-apoya-la-reeleccion-de-milei-y-utiliza-a-marocco-para-acercarse-a-kicillof/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 13:40:22 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Hernández Berni pidió que el compañero de fórmula de Sáenz sea del interior",
+        "link": "https://elintra.com.ar/2026/10/13/hernandez-berni-pidio-que-el-companero-de-formula-de-saenz-sea-del-interior/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 14:16:37 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Belgrano Cargas: Sáenz reclamó incluir como obligatorias las obras de los ramales C-14 y C-15",
+        "link": "https://elintra.com.ar/2026/10/13/belgrano-cargas-saenz-reclamo-incluir-como-obligatorias-las-obras-de-los-ramales-c-14-y-c-15/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 15:35:14 +0000",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "La caída del consumo golpea a Salta mientras persisten reclamos por la presión impositiva",
+        "link": "https://elintra.com.ar/2026/10/13/la-caida-del-consumo-golpea-a-salta-mientras-persisten-reclamos-por-la-presion-impositiva/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 17:27:32 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Sáenz reclama cambios en los pliegos del Belgrano Cargas",
         "link": "https://www.eltribuno.com/salta/2026-10-13-0-0-0-saenz-reclama-cambios-en-los-pliegos-del-belgrano-cargas",
@@ -561,41 +596,6 @@
         "source": "El Intra",
         "date": "Thu, 08 Oct 2026 17:31:19 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco, más distanciada que nunca de Karina Milei",
-        "link": "https://elintra.com.ar/2026/10/07/karina-milei-emilia-orozco-distancia/",
-        "source": "El Intra",
-        "date": "Wed, 07 Oct 2026 18:44:00 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "A los 78 años, Antonio Marocco se vuelve a anotar para ser vicegobernador",
-        "link": "https://elintra.com.ar/2026/10/07/antonio-marocco-vicegobernacion-salta/",
-        "source": "El Intra",
-        "date": "Wed, 07 Oct 2026 20:32:53 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Gustavo Sáenz destacó la nueva planta de litio de POSCO en Salta: “La minería dejó de ser una promesa de escritorio”",
-        "link": "https://www.eltribuno.com/salta/2026-10-6-20-27-0-gustavo-saenz-destaco-la-nueva-planta-de-litio-de-posco-en-salta-la-mineria-dejo-de-ser-una-promesa-de-escritorio",
-        "source": "El Tribuno - Salta",
-        "date": "Tue, 06 Oct 2026 23:27:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz inauguró planta de litio en la Puna: miles de empleos y ambicioso plan de expansión - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbkU0c1NKNHN2c0p6MURqUmJraUU3ajd2VUhpb0NoVWZyREFSX29xUFRsU2pMb3NqZjVwekJEOVdtZDh5b1REM2wzVVlmdTdxYmxpNl9QTUVwdW82dTR2X2thcFFBR1RVSGs5V1JUcnd6Y2pKNEFaOWZzVVM1cW5Tb2J3b0tadXo1MGFkMFZzdGJlX0RDenEwQ1NXZWVod3d1bTc0?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 06 Oct 2026 19:05:03 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz tras la inauguración de POSCO: “Significa más producción, más empleo y más oportunidades para la región”",
-        "link": "https://informatesalta.com.ar/mineria/saenz-tras-la-inauguracion-de-posco---significa-mas-produccion--mas-empleo-y-mas-oportunidades-para-la-region-_a6ac54b3e6b27e8e08ec563af",
-        "source": "Informate Salta",
-        "date": "Tue, 06 Oct 2026 19:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -1913,11 +1913,11 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 7
+        "count": 6
       },
       {
         "term": "cornejo",
-        "count": 7
+        "count": 6
       },
       {
         "term": "elintra",
@@ -4754,13 +4754,17 @@
     "id": "sen-manuel-pailler",
     "name": "Manuel Oscar Pailler",
     "role": "Senador/a provincial por General José de San Martín",
-    "total_mentions": 50,
+    "total_mentions": 51,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 1,
-      "neutral": 45
+      "neutral": 46
     },
     "sentiment_by_day": {
+      "2026-10-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-03-08": {
         "total": 1,
         "score_sum": 0
@@ -5009,6 +5013,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Hernández Berni pidió que el compañero de fórmula de Sáenz sea del interior",
+        "link": "https://elintra.com.ar/2026/10/13/hernandez-berni-pidio-que-el-companero-de-formula-de-saenz-sea-del-interior/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 14:16:37 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Manuel Pailler respalda la extensión del Plan Güemes a Salvador Mazza - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNXc1bWowc2xyZk5acEpJQ3VOcGJMOVlIRVpUT292R3NacXh2dXhWam5jM2d6RWthV3VBVFNGbGdncUl5RVB1VEVIOFBQdHZiNHpYRHpaQ01sbWhOMnZ1cHktZXhhb19VMXBhbXVxbXRSa1BHaFV1elFEWXpQRVdpN1N3czYzYm01bjNxU1J4cXRvSzNkYl9CUVpCbmZ3M0k0WDBSR0xjUmhmc2k5b3FHUjhR0gG3AUFVX3lxTE40VkptUWMtX0NObEY4eDNOUWRrOGNyX09ZZnYtRXJXZXFwV1FncFprNzZ3UGVVSUFkR1psYkRPR2tsa3RZSGE0amVnQ2R0TUR3YlhBa0UwbVl3ZU5FZHQtaXNXMjBaaTJ5ck0yVlY0WkNWY2oxOGZ5clBDMFZCelpJX1VjLVQ1cXBJT3R3Tk1xY1B4Sm9VOWxXQmtwVVYtOUhxOGVNUWtjV2N1eFBkUGtSQmNiMXlCOA?oc=5",
         "source": "Salta 4400",
@@ -5209,13 +5220,6 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdldRX1ZCc1dWWFplT1NWeFZBdnZkS0phM1NoMjFBX2o3MzNzdFlabW04MTJMQWVXWTc1QXdtaDhrMjI2RzU3ZUYwTXRHZ0wxZWlkNkhRTXlXeGRhdExTbTdocEVOUGMweWUtVWNTOGoyR1A4NmVJbWNDM2c2b1hqMHZLQnF5UV9aUFZDajNnTEpQX3hid3R5b3owb2oyOEJmYmxyZHYzTlBiM0tmcDJvajJvNUZreUtESEExYnZwdF9sYW45YmJHMHZhdWTSAdIBQVVfeXFMTUdZWEMwS21faHljVG1DS2JHRC1HaERkWGxoRlJOSmJqNmRFM2JRODJsTUVBc25Tb09YYVpqeS1YVS1NVGFTRXJwMW1UQm1raUxXNWI0Y2NHMjdMVkFIZUFQT0wxNjZoUTk2elIwLTZNZXpQMUUyMUVoYkYxWENqVGNscEd4aG00dkc0TXlqbGVMUkJDR2pERzY0UHNHdmxRLW43MFdyTWhjUUh1aFZhRzh5UURNWGdDd2hiQl9MZXdOWm9PdTdqQWRvQkpURDhsaVFB?oc=5",
         "source": "El Tribuno",
         "date": "Mon, 08 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salvador Mazza: VYACE, la escuela especial que no para de emprender - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkhRRGpNQlJUNm5hV0p4bkM5LTJzWGFEbUE1YjB0dW9kb0VkY3VSVHBKWnAwUnFWdE9ubG5DYm9DWURWZjJMMDdSd2NYWWtkRzJGMmpUZDVxUE9VcllTNEdFZ1NpS2J1N3ZVbm1YMXJXc01JRjhobWZmOWo5aEtGUXBNWUZYZUZfQ01OcFZOa3hLWWlnWFlEUExxTUFaRnd6X2lQcWtiQ01fcVM2cVJNdUF3?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 27 May 2022 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -8438,11 +8442,11 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 3
+        "count": 2
       },
       {
         "term": "cartuccia",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
@@ -9482,11 +9486,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 8
+        "count": 7
       },
       {
         "term": "juárez",
-        "count": 8
+        "count": 7
       },
       {
         "term": "durand",
@@ -9505,11 +9509,7 @@
         "count": 2
       },
       {
-        "term": "aries",
-        "count": 2
-      },
-      {
-        "term": "line",
+        "term": "pasa",
         "count": 2
       }
     ],
@@ -13932,27 +13932,27 @@
     },
     "top_topics": [
       {
-        "term": "gustavo",
-        "count": 3
-      },
-      {
-        "term": "orozco",
-        "count": 3
-      },
-      {
-        "term": "voces",
-        "count": 3
-      },
-      {
-        "term": "criticas",
-        "count": 3
-      },
-      {
         "term": "denuncia",
         "count": 2
       },
       {
         "term": "violencia",
+        "count": 2
+      },
+      {
+        "term": "gustavo",
+        "count": 2
+      },
+      {
+        "term": "orozco",
+        "count": 2
+      },
+      {
+        "term": "voces",
+        "count": 2
+      },
+      {
+        "term": "criticas",
         "count": 2
       }
     ],
@@ -14702,15 +14702,15 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 7
+        "count": 6
       },
       {
         "term": "álvarez",
-        "count": 7
+        "count": 6
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "cuestionó",
@@ -20987,11 +20987,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 18
+        "count": 17
       },
       {
         "term": "royón",
-        "count": 18
+        "count": 17
       },
       {
         "term": "secretaria",
@@ -21550,18 +21550,14 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 8
+        "count": 7
       },
       {
         "term": "orozco",
-        "count": 8
+        "count": 7
       },
       {
         "term": "diputada",
-        "count": 2
-      },
-      {
-        "term": "libertad",
         "count": 2
       },
       {
@@ -21570,10 +21566,6 @@
       },
       {
         "term": "milei",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -28044,13 +28036,25 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 18,
+    "total_mentions": 23,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 5,
-      "neutral": 12
+      "negativo": 9,
+      "neutral": 13
     },
     "sentiment_by_day": {
+      "2026-09-09": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "2024-05-30": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-10-13": {
+        "total": 3,
+        "score_sum": -7
+      },
       "2025-12-08": {
         "total": 1,
         "score_sum": 0
@@ -28122,39 +28126,51 @@
     },
     "top_topics": [
       {
-        "term": "cristina",
-        "count": 18
+        "term": "fiore",
+        "count": 22
       },
       {
-        "term": "fiore",
-        "count": 18
+        "term": "cristina",
+        "count": 21
       },
       {
         "term": "elintra",
-        "count": 11
+        "count": 13
+      },
+      {
+        "term": "williams",
+        "count": 4
+      },
+      {
+        "term": "becker",
+        "count": 4
       },
       {
         "term": "docentes",
         "count": 4
       },
       {
-        "term": "tribuno",
+        "term": "renuncia",
         "count": 3
       },
       {
-        "term": "renuncia",
-        "count": 2
-      },
-      {
-        "term": "diario",
-        "count": 2
-      },
-      {
-        "term": "ministra",
-        "count": 2
+        "term": "tribuno",
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Los paros no solucionan nada",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/educacion/-los-paros-no-solucionan-nada---arremetio-fiore-contra-la-medida-de-adp_a6ace32da036f6bc8fa10160f",
+        "date": "Tue, 13 Oct 2026 14:00:00 GMT"
+      },
+      {
+        "quote": "Se cansó de ser víctima de una campaña de desprestigio total",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/educacion/renuncia-de-williams-becker---se-canso-de-ser-victima-de-una-campana-de-desprestigio-total-_a6ace3962036f6bc8fa1268b9",
+        "date": "Tue, 13 Oct 2026 15:00:00 GMT"
+      },
       {
         "quote": "Tenemos una crisis de salud cada vez más preocupante",
         "source": "Elintra.com.ar",
@@ -28168,8 +28184,50 @@
         "date": "Mon, 08 Jan 2024 08:00:00 GMT"
       }
     ],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Denuncian a Cristina Fiore y a Alejandro Williams Becker por supuesto fraude contra el Estado - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzT0xXRXluX2RXV2Y4YTlLRm5JVTJRWnVZWTdxT0x0MXJkWWM3Q0g1NGt4SDNudVpqZTIwTkVpOGpCNEEzdnhJQUhsaHZncmhfQVYzMk5qcU1XSm9NbVk2SVltS0dOM2NkZE16SUV4LTU?oc=5",
+        "date": "Wed, 09 Sep 2026 07:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Denuncian a Cristina Fiore y a Alejandro Williams Becker por supuesto fraude contra el Estado - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzT0xXRXluX2RXV2Y4YTlLRm5JVTJRWnVZWTdxT0x0MXJkWWM3Q0g1NGt4SDNudVpqZTIwTkVpOGpCNEEzdnhJQUhsaHZncmhfQVYzMk5qcU1XSm9NbVk2SVltS0dOM2NkZE16SUV4LTU?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Cristina Fiore pusó en marcha los boletines digitales en Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0M1cXJnSDBYOXFCNV96bjlIQU5fR1g2c0t1T1Vub3BPWWZDNEx3TzBfRkpMdE9wcDY2T29sdzFLUldyWVE1cmEta0FLamktakctZ1FHR0JwUER4SzVqbVV4UElLeXJiUE9VQkdfdk94d0Q0ZnNBTENUbnRpVmtZS1FyRzV1cFA5R1BLZjN6LWdWNDJnZGhzR3FNU0xoQQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 30 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "“Los paros no solucionan nada”, arremetió Fiore contra la medida de ADP",
+        "link": "https://informatesalta.com.ar/educacion/-los-paros-no-solucionan-nada---arremetio-fiore-contra-la-medida-de-adp_a6ace32da036f6bc8fa10160f",
+        "source": "Informate Salta",
+        "date": "Tue, 13 Oct 2026 14:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Renuncia de Williams Becker: “Se cansó de ser víctima de una campaña de desprestigio total”",
+        "link": "https://informatesalta.com.ar/educacion/renuncia-de-williams-becker---se-canso-de-ser-victima-de-una-campana-de-desprestigio-total-_a6ace3962036f6bc8fa1268b9",
+        "source": "Informate Salta",
+        "date": "Tue, 13 Oct 2026 15:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Cristina Fiore habló sobre la salida de Williams Becker del Ministerio de Educación",
+        "link": "https://elintra.com.ar/2026/10/13/cristina-fiore-hablo-sobre-la-salida-de-williams-becker-del-ministerio-de-educacion/",
+        "source": "El Intra",
+        "date": "Tue, 13 Oct 2026 16:32:47 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Cristina Fiore defendió el cierre de comisiones en los profesorados - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3NxSFJFZmszM0phQlFCdkVidVdrV0pJTHgtM1U0bFY5cUphMEdBX3o1OHAzQ3ZJbVBVbHNSd2tiS3ZHdUhIUWNTR1JEbEN5Y0tySTY4NXF4UGxTaVlIQlRJcVZmWURCeWk1R2ZybFRCXzY0RHRkeTc3dGhFZlhtTUdBV0syQm5pc05KeDJVQThCV3V1dWRIUFQ2R1Jfb1g4WFBqMQ?oc=5",
