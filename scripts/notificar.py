@@ -173,60 +173,95 @@ def _item_html(h, n=None):
     return [f"{pre}{titulo}{marca}", f"    <i>{_e(quien)}</i>" if quien else ""]
 
 
+# Emoji de cada área (los nombres salen de resumen_diario.py; un área nueva usa 📌)
+EMOJI_AREA = {
+    "Política y gobierno": "🏛️", "Economía y finanzas": "💰", "Policiales y seguridad": "🚨",
+    "Justicia": "⚖️", "Salud": "🩺", "Educación y universidades": "🎓", "Minería y energía": "⛏️",
+    "Agro y producción": "🌾", "Turismo": "🧳", "Transporte e infraestructura": "🚌",
+    "Trabajo y gremios": "👷", "Clima y ambiente": "🌦️", "Accidentes y emergencias": "🚑",
+    "Sociedad y género": "👥", "Ciencia y tecnología": "🔬", "Internacional": "🌎",
+    "Deportes": "⚽", "Espectáculos y cultura": "🎭", "Otros temas": "📌",
+}
+# Áreas que no entran en «Lo más importante» ni se muestran antes que las demás
+AREAS_SUAVES = {"Deportes", "Espectáculos y cultura", "Otros temas"}
+TG_TOP = 5            # historias en «Lo más importante»
+TG_SALTA = 6          # historias en «En Salta»
+TG_X_AREA = 2         # historias por área (en las áreas más movidas)
+TG_AREAS_GRANDES = 8  # cuántas áreas muestran TG_X_AREA historias; el resto muestra 1
+TG_MAX_AREAS = 14     # no se muestran más áreas que estas (se omite «Otros temas»)
+TG_TIT = 95          # largo máximo de cada titular (se lee de un vistazo)
+LINEA = "━━━━━━━━━━━━━━"
+
+
+def _titular_html(h, marca=True):
+    """Titular corto y con enlace a la nota. 📍 = pasó en Salta; 🔁 = sigue de ayer."""
+    t = limpiar(h.get("titulo"), TG_TIT)
+    u = _link(h)
+    base = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
+    if marca and h.get("alcance") == "Salta":
+        base = "📍 " + base
+    if h.get("sigue_de_ayer"):
+        base += " 🔁"
+    n = len(h.get("medios") or [])
+    return base + (f" <i>· {n} medios</i>" if n > 1 else "")
+
+
 def armar_html(dia, fecha, edicion="manana"):
-    """Versión para Telegram: negritas, enlaces a la nota, agrupada por tema. Cada línea es autónoma
-    (sin etiquetas abiertas entre líneas) para poder partirla en mensajes sin romper el formato."""
+    """Versión para Telegram, pensada para captar la idea rápido: primero lo más importante, después lo que
+    pasó en Salta y por último un resumen área por área, todo con emojis y titulares cortos con enlace.
+    Cada línea es autónoma (sin etiquetas abiertas entre líneas) para poder partirla sin romper el formato."""
     d = datetime.strptime(fecha, "%Y-%m-%d")
     cab = f"{DIAS[d.weekday()]} {d.strftime('%d/%m/%Y')}"
-    seg = dia.get("seguridad") or {}
-    hs = seg.get("historias") or []
-    salta = ordenar([h for h in hs if h.get("alcance") == "Salta"])
-    pais = ordenar([h for h in hs if h.get("alcance") != "Salta"])
-    pol = ordenar(dia.get("historias") or [])
+    todos = dia.get("todos") or {}
+    hist = todos.get("historias") or []
+    if not hist:      # resúmenes viejos sin «todos»: se arma con política + seguridad
+        hist = [dict(h, tema=h.get("tema") or "Política y gobierno") for h in (dia.get("historias") or [])] + \
+               [dict(h, tema="Policiales y seguridad") for h in ((dia.get("seguridad") or {}).get("historias") or [])]
+    tt = todos.get("totales") or {}
     t = dia.get("totales") or {}
+    notas = tt.get("notas") or t.get("recolectadas") or 0
     titulo = ("📰 <b>Resumen de ayer</b> · " if edicion == "manana" else "🗞️ <b>Novedades de hoy</b> · ") + _e(cab)
+    n_salta = len([h for h in hist if h.get("alcance") == "Salta"])
     out = [titulo,
-           f"🏛️ Política: <b>{len(pol)}</b> historias · 🚨 Seguridad: <b>{len(hs)}</b> ({len(salta)} en Salta)"
-           + (f" · 📡 {t.get('medios')} medios" if t.get("medios") else "")]
+           f"📊 <b>{len(hist)}</b> historias" + (f" de {notas} notas" if notas else "")
+           + (f" · 📡 {t.get('medios')} medios" if t.get("medios") else "") + f" · 📍 {n_salta} en Salta"]
     if dia.get("cobertura_baja"):
         out.append("⚠️ <i>Se recolectaron pocas notas: el resumen puede estar incompleto.</i>")
 
-    temas = [x.get("tema") for x in (dia.get("temas") or []) if x.get("tema")]
-    if temas:
-        out += ["", "🏷️ <b>Temas del día</b>: " + " · ".join(
-            f"{_e(x['tema'])} ({x['historias']})" for x in (dia.get("temas") or [])[:6] if x.get("tema"))]
-
-    out += ["", "━━━━━━━━━━━━━━", "🏛️ <b>POLÍTICA</b>"]
-    if not pol:
+    # 1) Lo más importante: lo que cubrieron más medios, sin deportes ni espectáculos
+    top = ordenar([h for h in hist if h.get("tema") not in AREAS_SUAVES])[:TG_TOP]
+    out += ["", LINEA, "⚡ <b>LO MÁS IMPORTANTE</b>"]
+    for i, h in enumerate(top, 1):
+        out.append(f"{i}. {EMOJI_AREA.get(h.get('tema'), '📌')} {_titular_html(h, marca=False)}")
+    if not top:
         out.append("Sin historias.")
-    usados = 0
-    for tema in temas:
-        grupo = [h for h in pol if h.get("tema") == tema][:TG_POR_TEMA]
-        grupo = [h for h in grupo if usados < TG_POLITICA]
-        if not grupo:
-            continue
-        out += ["", f"▸ <b>{_e(tema)}</b>"]
-        for h in grupo:
-            out += [x for x in _item_html(h) if x]
-            usados += 1
-    resto = [h for h in pol if h.get("tema") not in temas][:max(0, TG_POLITICA - usados)]
-    for h in resto:
-        out += [x for x in _item_html(h) if x]
 
-    out += ["", "━━━━━━━━━━━━━━", "🚨 <b>SEGURIDAD · PROVINCIA DE SALTA</b>"]
-    for i, h in enumerate(salta[:TG_SEG_SALTA], 1):
-        out += [x for x in _item_html(h, i) if x]
+    # 2) En Salta, de cualquier área
+    salta = ordenar([h for h in hist if h.get("alcance") == "Salta" and h.get("tema") not in AREAS_SUAVES])[:TG_SALTA]
+    out += ["", LINEA, "📍 <b>EN SALTA</b>"]
+    for h in salta:
+        out.append(f"• {EMOJI_AREA.get(h.get('tema'), '📌')} {_titular_html(h, marca=False)}")
     if not salta:
-        out.append("Sin historias.")
-    out += ["", "🇦🇷 <b>SEGURIDAD · RESTO DEL PAÍS</b>"]
-    for i, h in enumerate(pais[:TG_SEG_PAIS], 1):
-        out += [x for x in _item_html(h, i) if x]
-    if not pais:
-        out.append("Sin historias.")
+        out.append("Sin historias de Salta.")
 
-    out += ["", "━━━━━━━━━━━━━━",
-            f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas conceptuales</a>',
-            "<i>Estimación por titulares, sin IA. 🔁 = sigue de ayer.</i>"]
+    # 3) Por área: las 2 historias principales de cada una, ordenadas por cantidad
+    vistos = {h.get("titulo") for h in top + salta}      # lo ya mostrado arriba no se repite
+    por = {}
+    for h in hist:
+        por.setdefault(h.get("tema") or "Otros temas", []).append(h)
+    areas = [a for a in sorted(por, key=lambda a: (a in AREAS_SUAVES, -len(por[a]), a)) if a != "Otros temas"][:TG_MAX_AREAS]
+    out += ["", LINEA, "🗂️ <b>POR ÁREA</b>"]
+    for k, a in enumerate(areas):
+        nuevos = [h for h in ordenar(por[a]) if h.get("titulo") not in vistos][:(TG_X_AREA if k < TG_AREAS_GRANDES else 1)]
+        if not nuevos:
+            continue
+        out += ["", f"{EMOJI_AREA.get(a, '📌')} <b>{_e(a)}</b> ({len(por[a])})"]
+        for h in nuevos:
+            out.append("• " + _titular_html(h))
+
+    out += ["", LINEA,
+            f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · ⚖️ <a href="{SITIO}#/judicial">Justicia</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas</a>',
+            "<i>Estimación por titulares, sin IA. 📍 = en Salta · 🔁 = sigue de ayer.</i>"]
     return titulo, "\n".join(out)
 
 
