@@ -258,7 +258,7 @@ EXTRANJERO = [
     # países y gentilicios (el recorte final cubre «mexicano», «peruana», «chilenas»...)
     "mexic", "guatemal", "honduras", "hondureno", "nicaragua", "costa rica", "costarric", "panama", "panameno", "panamena", "cuba", "haiti", "dominican",
     "puerto rico", "venezol", "venezuel", "colombi", "ecuador", "ecuator", "peru", "bolivia", "chile", "paraguay", "uruguay", "brasil",
-    "estados unidos", "estadounidense", "eeuu", "ee.uu", "ee uu", "canad", "espana", "francia", "frances", "italia", "aleman",
+    "estados unidos", "estadounidense", "eeuu", "ee.uu", "ee. uu", "ee uu", "canad", "espana", "francia", "frances", "italia", "aleman",
     "portugal", "portugues", "reino unido", "gran bretana", "britanic", "inglaterra", "irland", "belg", "holand", "paises bajos",
     "suiz", "austria", "suec", "norueg", "dinamarca", "finland", "polonia", "ucrani", "rusia", "rusa ", "rusas", "ruso", "bielorrusia",
     "turqu", "grecia", "griego", "hungr", "rumania", "montenegro", "serbia", "croacia", "andorra", "israel", "palestin", "gaza",
