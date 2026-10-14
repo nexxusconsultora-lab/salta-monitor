@@ -30,6 +30,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -51,7 +52,7 @@ TG_SEG_SALTA = 10
 TG_SEG_PAIS = 6
 TG_POR_TEMA = 4
 MAX_MEDIOS = 6
-MAX_TITULO = 180
+MAX_TITULO = 400                # los titulares van enteros (los más largos de origen miden ~200)
 MAX_BYTES_PARTE = 3500          # ntfy corta en 4096 bytes y Telegram en 4096 caracteres
 INTENTOS = 3
 ESPERA_BASE = float(os.environ.get("NOTIFICAR_ESPERA", "3"))   # segundos; los tests la bajan
@@ -162,7 +163,7 @@ def _link(h):
 
 
 def _item_html(h, n=None):
-    t = limpiar(h.get("titulo"), 170)
+    t = limpiar(h.get("titulo"), MAX_TITULO)
     u = _link(h)
     titulo = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
     medios = [limpiar(m, 30) for m in (h.get("medios") or []) if m]
@@ -197,17 +198,147 @@ def es_salta(h):
     return h.get("alcance") == "Salta" and ("lugar" not in h or h.get("tema") in TEMAS_LOCALES)
 
 
-TG_TOP = 5            # historias en «Lo más importante»
-TG_SALTA = 6          # historias en «En Salta»
-TG_X_AREA = 2         # historias por área (en las áreas más movidas)
-TG_AREAS_GRANDES = 8  # cuántas áreas muestran TG_X_AREA historias; el resto muestra 1
+# Ediciones del día (hora de Argentina). «desde» = minuto del día desde el que cuentan las notas como nuevas
+# (media hora antes de la edición anterior, por si una corrida programada se demora).
+EDICIONES = {
+    "manana":   {"titulo": "🌅 Buen día · Resumen de ayer",            "dia": "ayer", "desde": None,           "hora": "09:00"},
+    "mediodia": {"titulo": "☀️ Mediodía · Lo nuevo de la mañana",      "dia": "hoy",  "desde": 0,              "hora": "12:00"},
+    "tarde":    {"titulo": "🌇 Tarde · Lo nuevo desde el mediodía",    "dia": "hoy",  "desde": 11 * 60 + 30,   "hora": "17:00"},
+    "noche":    {"titulo": "🌙 Noche · Cierre del día",                "dia": "hoy",  "desde": 16 * 60 + 30,   "hora": "21:00"},
+}
+TG_TOP = 8            # historias en «Lo más importante»
+TG_ECO = 10           # historias en «Economía y finanzas»
+TG_SALTA = 8          # historias en «En Salta»
+TG_MADRUGADA = 5      # historias en «Desde la medianoche» (solo edición de la mañana)
+TG_X_AREA = 3         # historias por área (en las áreas más movidas)
+TG_AREAS_GRANDES = 6  # cuántas áreas muestran TG_X_AREA historias; el resto muestra 1
 TG_MAX_AREAS = 14     # no se muestran más áreas que estas (se omite «Otros temas»)
-TG_TIT = 95          # largo máximo de cada titular (se lee de un vistazo)
+TG_TIT = 400          # largo máximo de cada titular: en la práctica, el titular completo (nunca «…»)
 LINEA = "━━━━━━━━━━━━━━"
+DIAS_CORTOS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
 
 
-def _titular_html(h, marca=True):
-    """Titular corto y con enlace a la nota. 📍 = pasó en Salta; 🔁 = sigue de ayer."""
+def plano(x):
+    """Minúsculas y sin tildes, para comparar textos."""
+    x = unicodedata.normalize("NFD", str(x or "").lower())
+    return "".join(c for c in x if unicodedata.category(c) != "Mn")
+
+
+# ---- qué NO se manda: relleno y gacetillas de prensa del gobierno provincial / municipal ----
+RELLENO = re.compile(r"(quiniela|loteria|numeros ganadores|resultados? del (quini|loto|brinco)|horoscopo|efemerides|un dia como hoy|"
+                     r"temas del dia|segui en vivo|sigue en vivo|minuto a minuto|donde ver|a que hora juega|ver online|frase del dia|santoral)")
+ACTOR_PROV = re.compile(r"(gobierno de salta|gobierno provincial|gobernador|saenz|municipalidad|intendente|ministerio de|ministro de|ministra de|"
+                        r"secretaria de|secretario de|subsecretari|concejo deliberante|municipio)")
+VERBO_PRENSA = re.compile(r"(inauguro|entrego|entregaron|firmo|firmaron|encabezo|recorrio|visito|participo|brindo|acompano|superviso|puso en marcha|"
+                          r"pusieron en marcha|lanzo|lanzaron|capacitacion|capacitan|jornada|taller|reunion|agenda|habilito|dejo habilitad|continua|"
+                          r"llevo adelante|llevaron adelante|realizo|realizaron|reconocimiento|homenaje|beneficia|fortalece|fortalecen|avanza la obra|"
+                          r"avanzan las obras|operativo de|programa )")
+NOTICIA_DURA = re.compile(r"(policia|detenid|murio|muerte|accidente|robo|denuncia|paro |incendio|violencia|femicid|hospital|crisis|recorte|"
+                          r"despid|polemica|critic|rechaz|reclam|protesta|investig|imputad|procesad|aumento|suba)")
+MEDIOS_SALTA = ("el tribuno", "informate salta", "que pasa salta", "el intransigente")
+
+
+def es_relleno(h):
+    return bool(RELLENO.search(plano(h.get("titulo"))))
+
+
+def es_gacetilla(h):
+    """Prensa del gobierno provincial o municipal publicada por medios de Salta («Sáenz inauguró…», «jornada de…»).
+    Se detecta por el título y solo si NINGÚN medio de afuera de Salta la levantó. Las notas con conflicto, plata o policía se mantienen."""
+    medios = h.get("medios") or []
+    if not medios or not all(plano(m).startswith(MEDIOS_SALTA) for m in medios):
+        return False
+    t = plano(h.get("titulo"))
+    return bool(ACTOR_PROV.search(t) and VERBO_PRENSA.search(t) and not NOTICIA_DURA.search(t))
+
+
+# ---- economía y finanzas ----
+FIN_FUERTE = re.compile(r"(dolar|\bbonos?\b|riesgo pais|reservas|bcra|banco central|inflacion|\btasas?\b|merval|acciones|cedear|plazo fijo|\bfmi\b|deuda|"
+                        r"swap|cepo|brecha|retenciones|aranceles|superavit|deficit|recaudacion|\barca\b|afip|jubilaciones|aguinaldo|salarios?|paritari|"
+                        r"presupuesto|emision|prestamos?|creditos?|hipotecari|bolsa|wall street|petroleo|brent|\bfed\b|tarifas|inversion|rigi|"
+                        r"exportaciones|importaciones|\bpbi\b|actividad economica|desempleo|pobreza|canasta|morosidad|plata)")
+FIN_MERCADOS = re.compile(r"(wall street|bolsa|petroleo|brent|\bfed\b|dolar|bonos|tasas? de interes|riesgo pais|swap|mercados?)")
+
+
+def n_fin(h):
+    return len(FIN_FUERTE.findall(plano(h.get("titulo"))))
+
+
+def es_finanzas(h):
+    tema = h.get("tema")
+    if tema in ("Deportes", "Espectáculos y cultura"):
+        return False
+    if tema == "Economía y finanzas":
+        return True
+    if tema == "Internacional":
+        return bool(FIN_MERCADOS.search(plano(h.get("titulo"))))
+    return n_fin(h) >= 2
+
+
+# ---- horas y repetidas ----
+def _min(hhmm):
+    m = re.fullmatch(r"(\d{1,2}):(\d{2})", str(hhmm or "").strip())
+    return int(m.group(1)) * 60 + int(m.group(2)) if m else None
+
+
+def hora_nota(h):
+    """Minuto del día de la nota más reciente de la historia (None si no hay hora)."""
+    hs = [x for x in (_min(l.get("hora")) for l in (h.get("links") or [])) if x is not None]
+    return max(hs) if hs else _min(h.get("primera"))
+
+
+def _hhmm(m):
+    return f"{m // 60:02d}:{m % 60:02d}"
+
+
+_STOP = {"para", "como", "sobre", "tras", "este", "esta", "entre", "desde", "hasta", "pero", "cuando", "donde", "porque", "ayer",
+         "segun", "ante", "todo", "toda", "todos", "cada", "tiene", "tienen", "hace", "hacen", "sera", "fueron", "mientras"}
+
+
+def firma(titulo):
+    return frozenset(w for w in re.findall(r"[a-z0-9]{4,}", plano(titulo)) if w not in _STOP)
+
+
+def parecida(a, b, comunes=frozenset()):
+    """Dos titulares hablan de lo mismo si comparten bastantes palabras clave. Las palabras que aparecen en muchos titulares
+    del día («argentina», «milei», el mes...) no cuentan, para no juntar notas distintas que solo se parecen en eso."""
+    ra, rb = a - comunes, b - comunes
+    if len(ra) < 3 or len(rb) < 3:
+        return False
+    i = len(ra & rb)
+    return i >= 3 and i >= 0.4 * min(len(ra), len(rb))
+
+
+def palabras_comunes(historias, limite=12):
+    from collections import Counter
+    c = Counter(w for h in historias for w in firma(h.get("titulo")))
+    return frozenset(w for w, n in c.items() if n > limite)
+
+
+SERVICIO = re.compile(r"(cuanto cobra|cuanto cobran|cuanto gana|cuando cobro|cuando cobran|fechas? de cobro|calendario de|paso a paso|"
+                      r"como anotarse|quienes cobran|que dia cobro|es feriado|hay clases|cuanto cuesta|como saber)")
+
+
+def rankear(historias):
+    """Más importantes primero: cuántos medios la cubren, más medio punto si nombra figuras y medio si toca un ministerio;
+    las notas de servicio («cuánto cobran», «cómo anotarse») valen un punto menos."""
+    def clave(h):
+        return (-(len(h.get("medios") or []) + 0.5 * bool(h.get("personas")) + 0.5 * bool(h.get("min_nac"))
+                  - (1.0 if SERVICIO.search(plano(h.get("titulo"))) else 0.0)),
+                -int(h.get("n_notas") or 0), -(hora_nota(h) or 0))
+    return sorted(historias or [], key=clave)
+
+
+# ---- cómo se ve cada historia ----
+def _pie(h, n_max=3):
+    medios = [limpiar(m, 28) for m in (h.get("medios") or []) if m]
+    quien = ", ".join(medios[:n_max]) + (f" +{len(medios) - n_max}" if len(medios) > n_max else "")
+    hh = hora_nota(h)
+    return " · ".join(x for x in (quien, _hhmm(hh) if hh is not None else "") if x)
+
+
+def _titular_html(h, marca=True, pie=True, n_max=3):
+    """Titular COMPLETO con enlace a la nota, y debajo los medios y la hora. 📍 = pasó en Salta; 🔁 = sigue de ayer."""
     t = limpiar(h.get("titulo"), TG_TIT)
     u = _link(h)
     base = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
@@ -215,92 +346,196 @@ def _titular_html(h, marca=True):
         base = "📍 " + base
     if h.get("sigue_de_ayer"):
         base += " 🔁"
-    n = len(h.get("medios") or [])
-    return base + (f" <i>· {n} medios</i>" if n > 1 else "")
+    p = _pie(h, n_max) if pie else ""
+    return base + (f"\n    <i>{_e(p)}</i>" if p else "")
 
 
-def armar_html(dia, fecha, edicion="manana"):
-    """Versión para Telegram, pensada para captar la idea rápido: primero lo más importante, después lo que
-    pasó en Salta y por último un resumen área por área, todo con emojis y titulares cortos con enlace.
-    Cada línea es autónoma (sin etiquetas abiertas entre líneas) para poder partirla sin romper el formato."""
+def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
+    """Mensaje de Telegram. Devuelve (título, texto, historias_de_hoy_mostradas).
+    Orden: lo más importante → economía y finanzas → en Salta → por área. Los titulares van completos y se manda MÁS
+    de un mensaje si hace falta (nunca se corta un titular). Cada ítem es un bloque («título» + línea de medios y hora).
+    - edición «manana»: resumen de ayer + lo que pasó desde la medianoche (con `hoy`).
+    - otras ediciones: solo lo nuevo desde la edición anterior y que no se haya mandado ya hoy (`enviados`)."""
+    ed = EDICIONES.get(edicion) or EDICIONES["manana"]
     d = datetime.strptime(fecha, "%Y-%m-%d")
-    cab = f"{DIAS[d.weekday()]} {d.strftime('%d/%m/%Y')}"
-    todos = dia.get("todos") or {}
-    hist = todos.get("historias") or []
-    if not hist:      # resúmenes viejos sin «todos»: se arma con política + seguridad
-        hist = [dict(h, tema=h.get("tema") or "Política y gobierno") for h in (dia.get("historias") or [])] + \
-               [dict(h, tema="Policiales y seguridad") for h in ((dia.get("seguridad") or {}).get("historias") or [])]
-    tt = todos.get("totales") or {}
+    cab = f"{DIAS_CORTOS[d.weekday()]} {d.strftime('%d/%m')}"
+
+    def historias(doc):
+        todos = (doc or {}).get("todos") or {}
+        hs = todos.get("historias") or []
+        if not hs:      # resúmenes viejos sin «todos»: se arma con política + seguridad
+            hs = [dict(h, tema=h.get("tema") or "Política y gobierno") for h in ((doc or {}).get("historias") or [])] + \
+                 [dict(h, tema="Policiales y seguridad") for h in (((doc or {}).get("seguridad") or {}).get("historias") or [])]
+        return [h for h in hs if not es_relleno(h) and not es_gacetilla(h)]
+
+    comunes = palabras_comunes(historias(dia) + (historias(hoy) if hoy else []))
+
+    def nuevas(hs, desde=None, hasta=None):
+        res = []
+        for h in hs:
+            m = hora_nota(h)
+            if desde is not None and m is not None and m < desde:
+                continue
+            if hasta is not None and m is not None and m > hasta:
+                continue
+            f = firma(h.get("titulo"))
+            if any(parecida(f, e, comunes) for e in enviados):
+                continue
+            res.append(h)
+        return res
+
+    base = nuevas(historias(dia), desde=ed["desde"])
+    madrugada = rankear(nuevas(historias(hoy), hasta=9 * 60 + 15))[:TG_MADRUGADA] if (edicion == "manana" and hoy) else []
+    tt = (dia.get("todos") or {}).get("totales") or {}
     t = dia.get("totales") or {}
     notas = tt.get("notas") or t.get("recolectadas") or 0
-    titulo = ("📰 <b>Resumen de ayer</b> · " if edicion == "manana" else "🗞️ <b>Novedades de hoy</b> · ") + _e(cab)
-    n_salta = len([h for h in hist if es_salta(h)])
-    out = [titulo,
-           f"📊 <b>{len(hist)}</b> historias" + (f" de {notas} notas" if notas else "")
-           + (f" · 📡 {t.get('medios')} medios" if t.get("medios") else "") + f" · 📍 {n_salta} en Salta"]
-    if dia.get("cobertura_baja"):
+
+    titulo = f"<b>{ed['titulo']}</b> · {_e(cab)}"
+    n_salta = len([h for h in base if es_salta(h)])
+    cuenta = f"📊 <b>{len(base)}</b> historias" + (" nuevas" if ed["desde"] is not None else "") \
+        + (f" de {notas} notas" if (notas and ed["desde"] is None) else "") + f" · 📍 {n_salta} en Salta"
+    out = [titulo, cuenta]
+    if dia.get("cobertura_baja") and ed["desde"] is None:
         out.append("⚠️ <i>Se recolectaron pocas notas: el resumen puede estar incompleto.</i>")
 
-    # 1) Lo más importante: lo que cubrieron más medios, sin deportes ni espectáculos
-    top = ordenar([h for h in hist if h.get("tema") not in AREAS_SUAVES])[:TG_TOP]
-    out += ["", LINEA, "⚡ <b>LO MÁS IMPORTANTE</b>"]
+    mostradas = []          # todo lo que sale en el mensaje
+    firmas = []
+
+    def ya(h):
+        f = firma(h.get("titulo"))
+        return any(parecida(f, e, comunes) for e in firmas)
+
+    def tomar(h):
+        mostradas.append(h)
+        firmas.append(firma(h.get("titulo")))
+
+    # 0) solo a la mañana: lo que pasó desde la medianoche
+    if madrugada:
+        out.extend(["", LINEA, "🌙 <b>DESDE LA MEDIANOCHE</b>"])
+        for h in madrugada:
+            tomar(h)
+            out.append(f"• {EMOJI_AREA.get(h.get('tema'), '📌')} " + _titular_html(h))
+
+    # 1) lo más importante (sin deportes, espectáculos ni exterior; la plata va en su propio bloque)
+    top = []
+    for h in rankear([h for h in base if h.get("tema") not in AREAS_SUAVES and not es_finanzas(h)]):
+        if len(top) >= TG_TOP:
+            break
+        if not ya(h):
+            top.append(h)
+            tomar(h)
+    out.extend(["", LINEA, "⚡ <b>LO MÁS IMPORTANTE</b>"])
     for i, h in enumerate(top, 1):
-        out.append(f"{i}. {EMOJI_AREA.get(h.get('tema'), '📌')} {_titular_html(h, marca=False)}")
+        out.append(f"{i}. {EMOJI_AREA.get(h.get('tema'), '📌')} " + _titular_html(h, marca=True))
     if not top:
-        out.append("Sin historias.")
+        out.append("Sin historias nuevas." if ed["desde"] is not None else "Sin historias.")
 
-    # 2) En Salta, de cualquier área
-    salta = ordenar([h for h in hist if es_salta(h) and h.get("tema") not in AREAS_SUAVES])[:TG_SALTA]
-    out += ["", LINEA, "📍 <b>EN SALTA</b>"]
-    for h in salta:
-        out.append(f"• {EMOJI_AREA.get(h.get('tema'), '📌')} {_titular_html(h, marca=False)}")
-    if not salta:
-        out.append("Sin historias de Salta.")
+    # 2) economía y finanzas: lo más cubierto y lo que más habla de plata
+    eco = []
+    for h in sorted([h for h in base if es_finanzas(h) and h not in top],
+                    key=lambda h: (-(len(h.get("medios") or []) + 0.5 * min(n_fin(h), 3)), -(hora_nota(h) or 0))):
+        if len(eco) >= TG_ECO:
+            break
+        if not ya(h):
+            eco.append(h)
+            tomar(h)
+    if eco:
+        out.extend(["", LINEA, "💰 <b>ECONOMÍA Y FINANZAS</b>"])
+        for i, h in enumerate(eco, 1):
+            out.append(f"{i}. " + _titular_html(h))
 
-    # 3) Por área: las 2 historias principales de cada una, ordenadas por cantidad
-    vistos = {h.get("titulo") for h in top + salta}      # lo ya mostrado arriba no se repite
+    # 3) en Salta, de cualquier área
+    salta = []
+    for h in rankear([h for h in base if es_salta(h) and h.get("tema") not in AREAS_SUAVES]):
+        if len(salta) >= TG_SALTA:
+            break
+        if h not in top and h not in eco and not ya(h):
+            salta.append(h)
+            tomar(h)
+    if salta:
+        out.extend(["", LINEA, "📍 <b>EN SALTA</b>"])
+        for h in salta:
+            out.append(f"• {EMOJI_AREA.get(h.get('tema'), '📌')} " + _titular_html(h, marca=False))
+
+    # 4) por área: lo que falta, sin repetir el mismo tema en varias áreas
     por = {}
-    for h in hist:
-        por.setdefault(h.get("tema") or "Otros temas", []).append(h)
-    areas = [a for a in sorted(por, key=lambda a: (a in AREAS_SUAVES, -len(por[a]), a)) if a != "Otros temas"][:TG_MAX_AREAS]
-    out += ["", LINEA, "🗂️ <b>POR ÁREA</b>"]
+    for h in base:
+        if h not in mostradas:
+            por.setdefault(h.get("tema") or "Otros temas", []).append(h)
+    areas = [a for a in sorted(por, key=lambda a: (a in AREAS_SUAVES, -len(por[a]), a)) if a not in ("Otros temas", "Economía y finanzas")][:TG_MAX_AREAS]
+    bloques = []
     for k, a in enumerate(areas):
-        nuevos = [h for h in ordenar(por[a]) if h.get("titulo") not in vistos][:(TG_X_AREA if k < TG_AREAS_GRANDES else 1)]
-        if not nuevos:
-            continue
-        out += ["", f"{EMOJI_AREA.get(a, '📌')} <b>{_e(a)}</b> ({len(por[a])})"]
-        for h in nuevos:
-            out.append("• " + _titular_html(h))
+        elegidas = []
+        for h in rankear(por[a]):
+            if len(elegidas) >= (TG_X_AREA if k < TG_AREAS_GRANDES else 1):
+                break
+            if not ya(h):
+                elegidas.append(h)
+                tomar(h)
+        if elegidas:
+            bloques.append(["", f"{EMOJI_AREA.get(a, '📌')} <b>{_e(a)}</b> ({len(por[a])})"] +
+                           ["• " + _titular_html(h, pie=True, n_max=2) for h in elegidas])
+    if bloques:
+        out.extend(["", LINEA, "🗂️ <b>POR ÁREA</b>"])
+        for b_ in bloques:
+            out.extend(b_)
 
-    out += ["", LINEA,
-            f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · ⚖️ <a href="{SITIO}#/judicial">Justicia</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas</a>',
-            "<i>Estimación por titulares, sin IA. 📍 = en Salta · 🔁 = sigue de ayer.</i>"]
-    return titulo, "\n".join(out)
+    out.extend(["", LINEA,
+                f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · ⚖️ <a href="{SITIO}#/judicial">Justicia</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas</a>',
+                "<i>Estimación por titulares, sin IA. 📍 = en Salta · 🔁 = sigue de ayer.</i>"])
+    de_hoy = [h for h in mostradas if (edicion != "manana") or h in madrugada]
+    return titulo, "\n".join(out), de_hoy
 
 
 def sin_etiquetas(texto):
     return _html.unescape(re.sub(r"<[^>]+>", "", texto))
 
 
-def partir(texto, medir=None, tope=MAX_BYTES_PARTE):
+def partir(texto, medir=None, tope=MAX_BYTES_PARTE, pegar=False):
     """Parte el texto en trozos de hasta `tope` unidades, cortando entre líneas.
-    Por defecto mide bytes; para Telegram se mide el texto visible (las direcciones de los enlaces no cuentan)."""
+    Por defecto mide bytes; para Telegram se mide el texto visible (las direcciones de los enlaces no cuentan).
+    Con pegar=True nunca se separa un titular de su línea de medios (la que empieza con 4 espacios) ni un rótulo
+    de sección de su primer ítem."""
     medir = medir or (lambda t: len(t.encode("utf-8")))
+    if not pegar:
+        unidades = texto.split("\n")
+    else:
+        bloques = []
+        for linea in texto.split("\n"):
+            if linea.startswith("    ") and bloques:
+                bloques[-1] += "\n" + linea
+            else:
+                bloques.append(linea)
+        unidades, pendiente = [], []
+        for b_ in bloques:
+            es_rotulo = (b_.strip() == "" or b_.startswith("━") or re.match(r"^\S+ <b>[^<]+</b>( \(\d+\))?$", b_))
+            if es_rotulo:
+                pendiente.append(b_)
+            else:
+                unidades.append("\n".join(pendiente + [b_]))
+                pendiente = []
+        if pendiente:
+            unidades.append("\n".join(pendiente))
+        # un área («🩺 Salud (14)» y sus notas) viaja completa: se pegan las notas siguientes a su rótulo
+        juntas = []
+        for u in unidades:
+            if juntas and not u.startswith(("\n", "━")) and re.search(r"(?m)^\S+ <b>[^<]+</b> \(\d+\)$", juntas[-1]):
+                juntas[-1] += "\n" + u
+            else:
+                juntas.append(u)
+        unidades = juntas
     partes, actual = [], ""
-    for linea in texto.split("\n"):
-        if actual and medir(actual + "\n" + linea) > tope:
+    for u in unidades:
+        if actual and medir(actual + "\n" + u) > tope:
             partes.append(actual)
-            actual = linea
+            actual = u.lstrip("\n")
         else:
-            actual = linea if not actual else actual + "\n" + linea
+            actual = u if not actual else actual + "\n" + u
     if actual:
         partes.append(actual)
     return partes
 
 
-# ----------------------------------------------------------------------------------------------
-# Envío
-# ----------------------------------------------------------------------------------------------
 def post_json(url, cuerpo, cabeceras, secretos):
     datos = json.dumps(cuerpo, ensure_ascii=False).encode("utf-8")
     cab = {"Content-Type": "application/json; charset=utf-8", "User-Agent": "NEWAR-notificador/1.0"}
@@ -362,6 +597,8 @@ def canales_configurados():
 
         def enviar_telegram(titulo, partes):
             for i, parte in enumerate(partes, 1):
+                if i > 1:
+                    time.sleep(min(ESPERA_BASE, 1.0))      # Telegram: ~1 mensaje por segundo al mismo chat, y se mantiene el orden
                 cab = "" if len(partes) == 1 else f"<i>({i}/{len(partes)})</i>\n"
                 cuerpo = {"chat_id": chat, "text": cab + parte, "parse_mode": "HTML",
                           "disable_web_page_preview": True}
@@ -379,18 +616,28 @@ def canales_configurados():
 
 
 # ----------------------------------------------------------------------------------------------
+def edicion_por_hora(ahora_ar):
+    """Si no se indica, la edición se elige por la hora de Argentina (una corrida programada que se demora sigue cayendo bien)."""
+    m = ahora_ar.hour * 60 + ahora_ar.minute
+    return "manana" if m < 10 * 60 + 30 else "mediodia" if m < 14 * 60 + 30 else "tarde" if m < 19 * 60 else "noche"
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Notifica el resumen de ayer al celular")
-    ap.add_argument("--forzar", action="store_true", help="enviar aunque ya se haya avisado ese día")
-    ap.add_argument("--fecha", help="AAAA-MM-DD (por defecto: ayer, hora de Argentina)")
+    ap = argparse.ArgumentParser(description="Notifica el resumen del día al celular (4 ediciones: 9, 12, 17 y 21 h)")
+    ap.add_argument("--forzar", action="store_true", help="enviar aunque ya se haya avisado esa edición (y sin descontar lo ya enviado)")
+    ap.add_argument("--fecha", help="AAAA-MM-DD (por defecto: ayer en la edición de la mañana, hoy en las demás)")
     ap.add_argument("--simular", action="store_true", help="mostrar el texto sin enviar nada")
-    ap.add_argument("--edicion", choices=["manana", "tarde"], default="manana",
-                    help="manana = resumen de ayer (por defecto); tarde = novedades de HOY hasta ahora")
+    ap.add_argument("--edicion", choices=list(EDICIONES), default=None,
+                    help="manana (09:00, resumen de ayer) · mediodia (12:00) · tarde (17:00) · noche (21:00). Por defecto, según la hora")
     a = ap.parse_args()
 
-    base_dia = datetime.now(AR) - (timedelta(days=0) if a.edicion == "tarde" else timedelta(days=1))
+    ahora_ar = datetime.now(AR)
+    edicion = a.edicion or edicion_por_hora(ahora_ar)
+    ed = EDICIONES[edicion]
+    base_dia = ahora_ar - (timedelta(days=1) if ed["dia"] == "ayer" else timedelta(days=0))
     fecha = a.fecha or base_dia.strftime("%Y-%m-%d")
-    clave = fecha if a.edicion == "manana" else fecha + "-tarde"      # una vez por edición y por día
+    hoy_fecha = a.fecha if (a.fecha and ed["dia"] == "hoy") else ahora_ar.strftime("%Y-%m-%d")
+    clave = fecha if edicion == "manana" else f"{fecha}-{edicion}"      # una vez por edición, por día y por canal
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha):
         print("ERROR: la fecha tiene que ser AAAA-MM-DD.")
         return 1
@@ -400,12 +647,18 @@ def main():
         print(f"ERROR: no existe el resumen de {fecha} (data/resumenes/{fecha}.json). "
               f"Corré antes: python scripts/resumen_diario.py")
         return 1
+    hoy = leer_json(os.path.join(RESUMENES, f"{hoy_fecha}.json"), None) if edicion == "manana" else None
+    hoy = hoy if isinstance(hoy, dict) else None
+
+    reg = leer_json(REGISTRO, {})
+    enviados_reg = reg.get("enviados") if isinstance(reg.get("enviados"), dict) else {}
+    ya_enviados = [] if (a.forzar or a.simular) else [frozenset(x) for x in (enviados_reg.get(hoy_fecha) or []) if isinstance(x, list)]
 
     titulo, texto = armar_texto(dia, fecha)
-    if a.edicion == "tarde":
-        titulo = titulo.replace("Resumen de ayer", "Novedades de hoy")
-    titulo_tg, texto_tg = armar_html(dia, fecha, a.edicion)
+    titulo = titulo.replace("Resumen de ayer", ed["titulo"].split(" · ", 1)[-1] if edicion != "manana" else "Resumen de ayer")
+    titulo_tg, texto_tg, de_hoy = armar_html(dia, fecha, edicion, hoy, ya_enviados)
     if a.simular:
+        print(f"[edición: {edicion} · {ed['hora']}]")
         print(titulo + "\n" + "-" * len(titulo) + "\n" + texto)
         print("\n===== TELEGRAM (HTML) =====\n" + texto_tg)
         return 0
@@ -419,8 +672,12 @@ def main():
         print("ERROR: no hay ningún canal configurado. Cargá NTFY_TOPIC o TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID "
               "en Settings → Secrets and variables → Actions (guía: GUIA_NOTIFICACIONES.md).")
         return 1
+    if edicion in ("mediodia", "tarde"):          # ntfy (política + seguridad) solo a la mañana y a la noche
+        canales = {k: v for k, v in canales.items() if k == "telegram"}
+        if not canales:
+            print("Edición solo para Telegram y no hay Telegram configurado. Nada que hacer.")
+            return 0
 
-    reg = leer_json(REGISTRO, {})
     avisos = reg.get("avisos") if isinstance(reg.get("avisos"), dict) else {}
     hechos = avisos.get(clave) if isinstance(avisos.get(clave), dict) else {}
     pendientes = [c for c in canales if a.forzar or c not in hechos]
@@ -429,7 +686,7 @@ def main():
         return 0
 
     partes = partir(texto)
-    partes_tg = partir(texto_tg, medir=lambda t: len(sin_etiquetas(t)), tope=3800)
+    partes_tg = partir(texto_tg, medir=lambda t: len(sin_etiquetas(t)), tope=4000, pegar=True)   # Telegram admite 4096
     fallos = []
     for c in pendientes:
         pc = partes_tg if c == "telegram" else partes
@@ -442,7 +699,11 @@ def main():
             continue
         hechos[c] = ahora()
         avisos[clave] = hechos
-        reg["avisos"] = dict(sorted(avisos.items())[-60:])       # se guardan los últimos 60 días
+        reg["avisos"] = dict(sorted(avisos.items())[-80:])       # se guardan los últimos avisos
+        if c == "telegram":                                     # lo mandado se descuenta en las próximas ediciones del día
+            lista = [sorted(firma(h.get("titulo"))) for h in de_hoy]
+            enviados_reg[hoy_fecha] = (enviados_reg.get(hoy_fecha) or []) + lista
+            reg["enviados"] = dict(sorted(enviados_reg.items())[-3:])
         guardar_registro(reg)
         print("   enviado.")
     if fallos:
