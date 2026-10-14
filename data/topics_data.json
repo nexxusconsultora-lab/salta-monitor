@@ -1,20 +1,24 @@
 {
-  "generated_at": "2026-10-14T02:51:26.102454+00:00",
+  "generated_at": "2026-10-14T07:18:11.234161+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 352,
+      "total_mentions": 354,
       "sentiment_breakdown": {
         "positivo": 21,
         "negativo": 29,
-        "neutral": 302
+        "neutral": 304
       },
       "sentiment_by_day": {
         "2026-10-13": {
-          "total": 21,
+          "total": 22,
           "score_sum": 4
+        },
+        "2026-10-11": {
+          "total": 17,
+          "score_sum": 0
         },
         "2026-10-09": {
           "total": 43,
@@ -31,10 +35,6 @@
         "2026-10-10": {
           "total": 13,
           "score_sum": -2
-        },
-        "2026-10-11": {
-          "total": 16,
-          "score_sum": 0
         },
         "2026-10-05": {
           "total": 5,
@@ -168,7 +168,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 179
+          "count": 181
         },
         {
           "term": "presupuesto",
@@ -298,6 +298,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Adrián Ravier ratificó la postura argentina contra la explotación de hidrocarburos en Malvinas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOE1NaHBuLS02UWtJS19WMjM3TWZLQm9OaklESFhTQkdJazlSZ3h0TUZaWG1TZGVKZTI5REQ4VW5YYUxWaDN4bzRzdUs2X3NtTWVqQXZfQWJkS0JoRDZGX2Y2T25wVHN4SXRQT0RQcVdVQ253Z1dlMWo5d0NtQjBnUmRCanR6REJ1ZEpTVmcydGJXeWE5WkpEakVBZFJ5S3lHbnZhR3pNUjBpSExHM0pRd2Q5NTZIc3REMU8taHJsemU2YTAyaGo0ekVjdFFhUEJBOTN6Y2lkUU9KNXZxMExmWm1LV2JLYlpXc3c?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 13 Oct 2026 20:28:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Cómo es el nuevo edificio del Ministerio Público - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRmJOS2FQMlhfOXNidHRmWGFLODV5cEQwckgwU0M5dXRxaUh1SFRBUnktVVctblhSUDRuaU5DbUZaMEZpVS10a3hheWQtNFJIR2djS01rTVZQQjdvVXhMa242d1owQ1pLR3dQRXdWbUdkNUc0bFZuRzAtVDBpVFREM2lrZ1cyc0M0OXBBXzZFbFJHT1ItNVVtaDhrUGdqRlFk0gGmAUFVX3lxTE5GZ0JRZXVPSUNDeE1SODhDZzAxM0JzYS1RXzl2VnpmeXBhNjlMZWI0UmtDZ29KU1RLWUZVQzhVTHNBR2RwdGhqbXpmVkFfVG9kUExPVy1xdVRvSzJNLWdPbW5NUVg4dnZuZkxkQkdtbXpUMDJ6N1FtRGZBVDd4MVNoal8wUWJ4TGlzVjhya1J2M19nWFNLTmJvclY3cG5TVWhSWkZPc1E?oc=5",
+          "source": "El Tribuno",
+          "date": "Sun, 11 Oct 2026 04:38:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Tragedia en la Ruta 40: un motociclista cayó por un barranco y Salta alcanzó las 100 víctimas fatales en lo qu - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT0toOHp4Z0VMTmNTS2ROMjlUSFlBQmRLUnNTR2ZIX01qcV9vcnQtT1hfbEdTSzh6UDE3TmlpY3ozTDYxS25kOUhwX3BGdjRQcTRBNERNcnhtM2VXYUlHRUJ4YnFsTjAtMUdJaGJzcEYxT0VXUmlhQ0dSamp4S3NtLWN5aWNfTEV5azctamJGbnpsMVE1Qm9mWk9aVHpsQjZxRnhvMjV0Q0prS3c1bW9KdG9ud3VrdHJoTTFVWHRFSVJ1OGxnS21feG5pd3dXa2UzNkF0VUpzTjFKM3NOSGhPM0VR0gHnAUFVX3lxTE5DTkpkQmNITnJidnZWYkZDejVoVmZlc2J6cmF1RkFEdmZhakEycWEzcFVTRzNTWXFoTmNoakVpRHhwcFVJRnNwQlNSbDVWTXFKZEl2YWpwOGhrMlFUd1RUVUc5X1lXSG0taU93NTh2a1JzWVBLR0REMi1sV1JQUlhpbjBTWE1XamphTFFwS1Q3U1hTa0pGa3ZIZzZWVms3S1dxZTF0MjhfOVhWM0F1dVRJcEJtdDN2aGttMi1RdE1McjZvbGNzakRwVmZsYkt0MjhCeWY4eURoN0liVE9QQjVuZlUzNWdURQ?oc=5",
@@ -492,20 +506,6 @@
           "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNU3VWeFppMnNHN0Z5WjFlbkFub2ZyU2V2a2h1SzRBajNKRVRrVE1XZmFHTEtSbUF0VjlQWklGX0tvdEI0QkhMZS0wSUdYc2ZsWDlhY3p3OTVocnZkVXNnNW9IdGR6ZlZtS2haVmo0cjhZdjJ0RlpqV3h4a2ZOQ3FyUUlWdERKT0gyN1cwM1R1LTY3TnBiY2RleEo3ZFJqQjRzUzFWUDdoTGY0VFNyU3kyYWJHOUEyS0txajdmMXczWURPdG5ETUxiY20xN0ZQcWFJR0NwNlRaSGkzekpPZ082dVlLUEdTZXFyVGVSZU01QXlvQQ?oc=5",
           "source": "El Tribuno",
           "date": "Mon, 12 Oct 2026 01:15:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El papa León XIV será hospitalizado mañana para operarse de un nódulo en el pulmón - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONFpKSmZGaWI5Nm1ob0Zna0Q3NElYR0VKLUdQSVEwMjMyazhRMHZZaDV6SnNmZmw2X3FMa0VENkhtN3FrTVpWU0dZMDRyekRpYWZQUHRlaHRSaC1BWWZ1endNXzBLdmUzSkZLOEllOC03V29YcEhOcVJ3eTQ3cHdPMDdwOEE2OTlFazVXZTFMSEp3cXgzemRzMVltQkM3WWQwSHdvUm1LRWRjdHU2dUg4d0pxTE9QNzNoS0ozNFFCYkJoTlFOck5QeE5HMXl1ZDFMMDFpU3RKRlpJZ9IB3wFBVV95cUxPSzE1WGJxVkl3MEs4US1ybzRrMU5ReW9KYW5obTdmXzU2RWZSS2p5czlSNk5yUmprRmRmUnoyb2xSYk01NHNsUHhNSThjR1lFMUw0TXFyckNWbVdiNkprR0Zsc3ZXZzhzMm9nTDJ5Mm1wdUN2eDhwNlFTYmg0TnJuc1VId1R0c2JDalRMdkhrQnhvOTV2ZEdYc215WV85X3QwWDNkM0d4ZUpMZFlMMGIycng3eUQ3M0ZRaWQ1aVUzS2pLdXBzXzdoTllRclJvMEdqbFQ2Z3AyWUgwVXdJUzJv?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 12 Oct 2026 12:12:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Operativos: Demoraron a 145 personas en Salta - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGZrNU1vRk5wRk9FSFJZQzVoSzAyQU5NZExuVkxlbDdfN1NjdTlRSzlCOWNSVFhFc0U0TkxpazVMZEFuUjFNdkx0MDd0ZzVtWVJ4N2YxeS0xaWxKdXZzRzJWYWtFZ2JEbFpOdHNlMk4yN1BnRnZmWmpMLXYxMFpsQlhZak5jaTl1dHVjNWZISTFURDh4UmJTaVAydlNNZknSAaQBQVVfeXFMT2lkd1FZWHpDd2lfc2tiem5Xd0ZHQ0xsNWVGM2ktWHpfbDhDUWpQRmJMNEM3NDY2ZFVEMjhHcHl0ZnA1cnVoMGFHakx0WEl2Nk4xaHozWlZRdDh4VlkwSklTcHN5Z2U2RWZ2dV81cEx1WU9ra050dElvcm91NmVHM0QwOF9xcXFBb1R5LUNjbWdqV2xzLTZsM1A2NzdBeWR3VVQ0ZG4?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 11 Oct 2026 04:38:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
