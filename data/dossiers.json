@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 254,
+    "total_mentions": 255,
     "sentiment_breakdown": {
       "positivo": 56,
-      "negativo": 31,
+      "negativo": 32,
       "neutral": 167
     },
     "sentiment_by_day": {
       "2026-10-14": {
-        "total": 3,
-        "score_sum": 13
+        "total": 4,
+        "score_sum": 7
       },
       "2026-10-13": {
         "total": 11,
@@ -270,7 +270,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 23
+        "count": 24
       },
       {
         "term": "belgrano",
@@ -395,6 +395,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El PJ salteño respaldó el reclamo de Sáenz por los ramales ferroviarios",
+        "link": "https://elintra.com.ar/2026/10/14/salta-pj-reclamo-ramales-ferroviarios/",
+        "source": "El Intra",
+        "date": "Wed, 14 Oct 2026 18:00:58 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Sáenz volvió a presionar a Nación por el Belgrano Cargas: “Profundizan el atraso\"",
         "link": "https://informatesalta.com.ar/politica/saenz-volvio-a-presionar-a-nacion-por-el-belgrano-cargas---profundizan-el-atraso-_a6acfa945a75ded0dcfe11b3c",
@@ -597,13 +604,6 @@
         "source": "Informate Salta",
         "date": "Fri, 09 Oct 2026 13:45:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Confirman que Durand irá por la reelección en la Capital acompañando a Gustavo Sáenz",
-        "link": "https://informatesalta.com.ar/politica/confirman-que-durand-ira-por-la-reeleccion-en-la-capital-acompanando-a-gustavo-saenz_a6ac8f2257b9b1420a8a2e5b3",
-        "source": "Informate Salta",
-        "date": "Fri, 09 Oct 2026 14:15:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -16447,19 +16447,15 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 6
+        "count": 5
       },
       {
         "term": "garcía",
-        "count": 6
+        "count": 5
       },
       {
         "term": "informate",
-        "count": 4
-      },
-      {
-        "term": "concejal",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -20526,11 +20522,11 @@
     "top_topics": [
       {
         "term": "rodrigo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "quinteros",
-        "count": 4
+        "count": 3
       },
       {
         "term": "olmedo",
@@ -20796,13 +20792,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 78,
+    "total_mentions": 79,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 62
+      "neutral": 63
     },
     "sentiment_by_day": {
+      "2026-08-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-11-04": {
         "total": 1,
         "score_sum": 0
@@ -21063,11 +21063,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 17
+        "count": 18
       },
       {
         "term": "royón",
-        "count": 17
+        "count": 18
       },
       {
         "term": "secretaria",
@@ -21090,7 +21090,7 @@
         "count": 3
       },
       {
-        "term": "milei",
+        "term": "nuevo",
         "count": 2
       }
     ],
@@ -21207,6 +21207,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La Justicia sobreseyó a Flavia Royón en una causa por tráfico de influencias - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUMyYlVVYUplN2tVV29ZbVhrc295RUJ4NEYyb0QtVC1IZVU0ZFNwMXNGZ3pHYzZCdlp6MzVoRlRkUjRCcUJaVGMwQXBvMGFXQ3dJZjlMczB5TVdaT2FBVmtVUHRNVEhadHBHVXN4LU83RnhUa2YyRWxfVmpIMGo3cl9qVEZKM1Eza3h2c3RJYU43MnBSdXAxZ0FaZHQzanVnaTk5RzUzR3p6MUlMcW9RUQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón debe elegir entre dos cargos",
         "link": "https://salta4400.com/politica/2025/11/04/flavia-royon-debe-elegir-entre-dos-cargos/",
@@ -21408,13 +21415,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkhCcC1CVmNUVUpiWkdXaTBIQ2hfa1F0VXhsSmd1dGJtX2xIRkxLOVlrb2VYYnJUQml5WUVYSlFrZ0NMdkJ4X2NzcjFqMEtKUTlUdGFJTDljOFBMS2pEbzNMMXdHOXBKb25FRl9yQ2RxX2VtZVZxSDlQdjFiT0ppbFF3ZEQ0REhhSTRUZERGcUl2NzhJNHM4YzdKeWlYdTh1Nk1HWlhpbUtjeGFUcVZsMGpYOE5ONEFQbWVSb29IeF9RT00?oc=5",
         "source": "Elintra.com.ar",
         "date": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Hoy se vota el Presupuesto 2026 en el Senado: ¿de qué lado estará Flavia Royón? - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkFRMndWb0ZKeHdoRDFOQjJmVHNDc0xIODhjbTBTZlJHOHdqYzNFelItcXRFaU9MY29NSnZmNkw3SjdJMGFWaDJ1cjZfYVBhT3hHZFdjblZqdEdLNDJZRWxnTG95ak53cDVTYjRaTzZpWXBwcmh0bENoNVNER0M1RW5HTlJSLUg0MFVaX3BVOUxya2czb3NqMTFpUS01akVFSmNZNGNtOXQxSXJHSXVQdQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 26 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21990,15 +21990,15 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 17
+      "neutral": 18
     },
     "sentiment_by_day": {
       "2026-10-14": {
-        "total": 1,
+        "total": 2,
         "score_sum": 0
       },
       "2026-02-27": {
@@ -22081,11 +22081,11 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 4
+        "count": 5
       },
       {
         "term": "coraita",
-        "count": 4
+        "count": 5
       },
       {
         "term": "gonzalo",
@@ -22113,6 +22113,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Cuando hay listas únicas no es que hay colas de votantes que van a votar",
+        "source": "Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2h4Y010cVlELUdVOVlBNHJZNHpyREMycHRrUXBjYXQtaXhTRFN6aHlBSjEtS2pwVkljWWJvQ0drS09JaThMbC1ZYmhaMEIxVmNXYngwQWRJR0lGNm9mQmFocWFmYnhFaDhhN3J0NmdwODhuMFlWNzhWM0NmTmxDN2NWRGpVQ1F4UW1pdDNJQmt6R3VUa3VwbnFVbEpaYXljQmtfZ29XNjZOcmR5X3Q3b0g0R1l0U2lLSUJNckhNQQ?oc=5",
+        "date": "Wed, 14 Oct 2026 20:11:18 GMT"
+      },
       {
         "quote": "Yo no canto sin papeles",
         "source": "Gente de Salta",
@@ -22159,6 +22165,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Guzmán Coraita: “Cuando hay listas únicas no es que hay colas de votantes que van a votar” - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2h4Y010cVlELUdVOVlBNHJZNHpyREMycHRrUXBjYXQtaXhTRFN6aHlBSjEtS2pwVkljWWJvQ0drS09JaThMbC1ZYmhaMEIxVmNXYngwQWRJR0lGNm9mQmFocWFmYnhFaDhhN3J0NmdwODhuMFlWNzhWM0NmTmxDN2NWRGpVQ1F4UW1pdDNJQmt6R3VUa3VwbnFVbEpaYXljQmtfZ29XNjZOcmR5X3Q3b0g0R1l0U2lLSUJNckhNQQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Wed, 14 Oct 2026 20:11:18 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gonzalo Guzmán Coraita: «LLA Salta está sólida y unificada»",
         "link": "https://elintra.com.ar/2026/10/14/gonzalo-guzman-coraita-lla-salta-esta-solida-y-unificada/",
@@ -25628,14 +25641,10 @@
     "top_topics": [
       {
         "term": "sergio",
-        "count": 3
+        "count": 2
       },
       {
         "term": "lópez",
-        "count": 3
-      },
-      {
-        "term": "diputado",
         "count": 2
       }
     ],
@@ -27937,13 +27946,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 2,
-      "neutral": 18
+      "neutral": 19
     },
     "sentiment_by_day": {
+      "2026-10-14": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-09-12": {
         "total": 1,
         "score_sum": 0
@@ -28028,7 +28041,7 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 19
+        "count": 20
       },
       {
         "term": "federico",
@@ -28055,11 +28068,17 @@
         "count": 3
       },
       {
-        "term": "medicamentos",
+        "term": "casos",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "estar conscientes",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/salud/casos-de-muerte-subita-en-salta--mangione-llamo-a--estar-conscientes--de-los-riesgos_a6acf962fa75ded0dcfd9ab18",
+        "date": "Wed, 14 Oct 2026 18:00:00 GMT"
+      },
       {
         "quote": "Tengo que decidir entre comprar medicamentos o arreglar el techo",
         "source": "Elintra.com.ar",
@@ -28088,6 +28107,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Casos de muerte súbita en Salta: Mangione llamó a “estar conscientes” de los riesgos",
+        "link": "https://informatesalta.com.ar/salud/casos-de-muerte-subita-en-salta--mangione-llamo-a--estar-conscientes--de-los-riesgos_a6acf962fa75ded0dcfd9ab18",
+        "source": "Informate Salta",
+        "date": "Wed, 14 Oct 2026 18:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Federico Mangione: “Tengo que decidir entre comprar medicamentos o arreglar el techo” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTk92MWxKaGNnbnlNSkZDUk9nX05QWGV0SURNaVlYSWxhZnZnYnpTck9mWjNLbnZ5ZHZpd2xON01hRkhJa1N6V2FRSWpQWFNfdXFZSll6NnMwZVJtTEx1V0lTZ3lOZk0xaHM5bHJwUHVSQ1RFcE9VSnR5T29VNG9zMnUwYnFXeWR6VDFOUnJqSml2UVVhZ0FrVHlOYTdybHFfNzZ0cUtzTXlGa2hIaDJmUlVyZVdYX2JG?oc=5",
@@ -28241,20 +28267,20 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 10,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "2026-10-14": {
+        "total": 2,
+        "score_sum": -11
+      },
       "2024-05-07": {
         "total": 2,
         "score_sum": 0
-      },
-      "2026-10-14": {
-        "total": 1,
-        "score_sum": -11
       },
       "2026-09-09": {
         "total": 1,
@@ -28336,11 +28362,11 @@
     "top_topics": [
       {
         "term": "fiore",
-        "count": 24
+        "count": 25
       },
       {
         "term": "cristina",
-        "count": 23
+        "count": 24
       },
       {
         "term": "elintra",
@@ -28363,7 +28389,7 @@
         "count": 4
       },
       {
-        "term": "renuncia",
+        "term": "docente",
         "count": 3
       }
     ],
@@ -28395,6 +28421,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Cristina Fiore critica el paro docente después de que Salta abandonara el juicio por el incentivo",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/10/14/cristina-fiore-critica-el-paro-docente-despues-de-que-salta-abandonara-el-juicio-por-el-incentivo/",
+        "date": "Wed, 14 Oct 2026 19:33:44 +0000"
+      },
+      {
         "title": "Denuncian a Cristina Fiore y a Alejandro Williams Becker por supuesto fraude contra el Estado - Elintra.com.ar",
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzT0xXRXluX2RXV2Y4YTlLRm5JVTJRWnVZWTdxT0x0MXJkWWM3Q0g1NGt4SDNudVpqZTIwTkVpOGpCNEEzdnhJQUhsaHZncmhfQVYzMk5qcU1XSm9NbVk2SVltS0dOM2NkZE16SUV4LTU?oc=5",
@@ -28402,6 +28434,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cristina Fiore critica el paro docente después de que Salta abandonara el juicio por el incentivo",
+        "link": "https://elintra.com.ar/2026/10/14/cristina-fiore-critica-el-paro-docente-despues-de-que-salta-abandonara-el-juicio-por-el-incentivo/",
+        "source": "El Intra",
+        "date": "Wed, 14 Oct 2026 19:33:44 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cristina Fiore Viñuales - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QajlnUUdOTnNRa3Vla3A2c3ptTTRnb3pSa3k2ZkgxTkpSdUdNeGxlRmQzd2d5c2tWQVc2RWY1aHotWjVjUVdBckViRXRFZTd5eEZseEV4TkJ1dTBOWGJwOHpFOVg?oc=5",
