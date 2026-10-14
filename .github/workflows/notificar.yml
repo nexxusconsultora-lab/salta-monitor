@@ -1,26 +1,28 @@
 name: Notificar el resumen diario al celular
 
-# Manda el resumen del día anterior (política + seguridad) SOLO a tu celular.
+# Manda 4 ediciones por día SOLO a tu celular: 09:00 (resumen de ayer + lo de la madrugada), 12:00, 17:00 y 21:00 (lo nuevo).
 # Los datos de entrega (tema de ntfy o bot de Telegram) viven en «Secrets» de GitHub: no están en el repo.
 # Ver GUIA_NOTIFICACIONES.md para configurarlo en 5 minutos.
 on:
   schedule:
-    # 11:40 UTC = 08:40 en Argentina (UTC-3). Para cambiar la hora, sumale 3 a la hora que quieras.
-    # GitHub puede demorar unos minutos las corridas programadas: es normal.
-    - cron: "40 11 * * *"
-    # 22:00 UTC = 19:00 en Argentina: segunda edición «Novedades de hoy» con lo que pasó durante el día.
-    - cron: "0 22 * * *"
+    # Hora de Argentina = UTC-3. Cada corrida sale 15 minutos antes de la hora que querés, porque GitHub suele
+    # demorar las corridas programadas (a veces más de 15 minutos): así el mensaje llega cerca de la hora indicada.
+    # Para cambiar una hora, sumale 3 a la hora que quieras (en UTC) y restale 15 minutos.
+    - cron: "45 11 * * *"   # 08:45 AR → edición de las 09:00 (resumen de ayer + madrugada)
+    - cron: "45 14 * * *"   # 11:45 AR → edición de las 12:00
+    - cron: "45 19 * * *"   # 16:45 AR → edición de las 17:00
+    - cron: "45 23 * * *"   # 20:45 AR → edición de las 21:00
   workflow_dispatch:
     inputs:
       forzar:
-        description: "Enviar aunque ese día ya se haya avisado"
+        description: "Enviar aunque esa edición ya se haya avisado (y sin descontar lo ya enviado)"
         type: boolean
         default: false
       edicion:
-        description: "Qué mandar: mañana = resumen de ayer; tarde = novedades de hoy"
+        description: "Qué mandar: auto = la que corresponde a esta hora; o elegí una"
         type: choice
-        options: ["manana", "tarde"]
-        default: "manana"
+        options: ["auto", "manana", "mediodia", "tarde", "noche"]
+        default: "auto"
 
 permissions:
   contents: write
@@ -58,7 +60,8 @@ jobs:
         run: |
           ARGS=""
           if [ "$FORZAR" = "true" ]; then ARGS="--forzar"; fi
-          if [ "$EDICION" = "tarde" ] || [ "$HORARIO" = "0 22 * * *" ]; then ARGS="$ARGS --edicion tarde"; fi
+          # sin elegir edición, el script la decide por la hora de Argentina (aunque la corrida se demore)
+          if [ -n "$EDICION" ] && [ "$EDICION" != "auto" ]; then ARGS="$ARGS --edicion $EDICION"; fi
           python scripts/notificar.py $ARGS
 
       - name: Guardar el registro de avisos
