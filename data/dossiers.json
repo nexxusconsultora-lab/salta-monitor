@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 255,
+    "total_mentions": 258,
     "sentiment_breakdown": {
-      "positivo": 56,
-      "negativo": 32,
-      "neutral": 167
+      "positivo": 57,
+      "negativo": 33,
+      "neutral": 168
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 3,
+        "score_sum": 5
+      },
       "2026-10-14": {
         "total": 4,
         "score_sum": 7
@@ -281,6 +285,10 @@
         "count": 6
       },
       {
+        "term": "ramales",
+        "count": 5
+      },
+      {
         "term": "molinos",
         "count": 5
       },
@@ -294,10 +302,6 @@
       },
       {
         "term": "años",
-        "count": 4
-      },
-      {
-        "term": "gustavo",
         "count": 4
       }
     ],
@@ -395,6 +399,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El Gobierno nacional convoca a mineras y logísticas para reactivar y potenciar los ramales C14 y C15 en Salta",
+        "link": "https://www.gentedesalta.com/economia/el-gobierno-nacional-convoca-mineras-logisticas-reactivar-potenciar-ramales-c14-c15-salta-n12947",
+        "source": "Gente de Salta",
+        "date": "Thu, 15 Oct 2026 10:51:00 -0300",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
+        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Tras el fuerte reclamo en Salta, el Gobierno nacional llamará a los sectores productivos por los ramales C14 y C15",
+        "link": "https://www.eltribuno.com/salta/2026-10-15-10-5-0-tras-el-fuerte-reclamo-en-salta-el-gobierno-nacional-llamara-a-los-sectores-productivos-por-los-ramales-c14-y-c15",
+        "source": "El Tribuno - Salta",
+        "date": "Thu, 15 Oct 2026 13:05:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "El PJ salteño respaldó el reclamo de Sáenz por los ramales ferroviarios",
         "link": "https://elintra.com.ar/2026/10/14/salta-pj-reclamo-ramales-ferroviarios/",
@@ -583,27 +608,6 @@
         "source": "Informate Salta",
         "date": "Fri, 09 Oct 2026 21:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Banco Macro inauguró el ciclo \"Raíces Argentinas\" con Salta como provincia protagonista",
-        "link": "https://www.eltribuno.com/salta/2026-10-9-14-15-0-banco-macro-inauguro-el-ciclo-raices-argentinas-con-salta-como-provincia-protagonista",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 09 Oct 2026 17:15:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz anunció que Salta terminará con fondos provinciales la pavimentación de la ruta 40 entre Molinos y Secla - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSXJNZEZ1VGNMT3Z1ZjJpNWQ4UGtyazVsOFlQZ2hNaW5XalNjUlRkald4X1NUYlVXaUp3NlRDbmtGM1I4M2ZMdmIyQTIwTWNxM29LRFdaTnV5dUhyaW9ESmMwU05GRUJSYU5SeE5jX3VuZG9aRWhhalFvblFHcDg1LXVHWnhZMGFjQm5WYXZJZEwtMUJOSnF4MFo1dUdyT0xzOF8zazN3U2kwaDUtWFlFcEsxVEFGck00VEJUYk42UDRVWWUzaHFya1htUzdiTDU0aFRPVW5iTVZFQ1c0QTFFazdrcGdnTUY3TEN5RWVaWjRkcUtl0gH6AUFVX3lxTFBRLVFZYWlTN2w4NV9vUFQtZ1UyeGdjcnRybG5tWXhYdE1TTXQxdGRDOVlrVWMzYlVxb2hUMWJObkE1b3l5b2w5Q1N5TDNpMEkyZi04SDE4cEhXRmduUG0wYWJPNjJoWDlZaUpuODhfbFJaV2JsVWdwMzZtX3U1NW9KYkRjdS1hSVl4V2QtdFlfZk43T2g5N1Z2TWp6dWwzUlBWbUxLc1ZZR1k2U2FxY2x4aTJ2NUNBUU1nUjV5Y0ZHZXplMGF3cjJfVjZkZHp5OV9VWWZoSkE3RWhCUVBOSTFaZ28xT0RqRXlmY21iX0FXUjVadk96eHd4YWc?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 09 Oct 2026 12:09:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz sobre el ramal C-14: “El norte no pueden esperar 50 años más\"",
-        "link": "https://informatesalta.com.ar/gobierno/saenz-sobre-el-ramal-c-14---el-norte-no-pueden-esperar-50-anos-mas-_a6ac8e6ea7b9b1420a89ea889",
-        "source": "Informate Salta",
-        "date": "Fri, 09 Oct 2026 13:45:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -1009,13 +1013,17 @@
     "id": "sen-gonzalo-caro-davalos",
     "name": "Gonzalo Caro Dávalos",
     "role": "Senador/a provincial por Cerrillos",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 6,
       "neutral": 43
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2026-10-01": {
         "total": 1,
         "score_sum": -1
@@ -1225,6 +1233,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
+        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "El Niño: intendentes y senadores del Valle de Lerma se reunieron con el Comité de Emergencia Climática",
         "link": "https://informatesalta.com.ar/legislativa/el-nino--intendentes-y-senadores-del-valle-de-lerma-se-reunieron-con-el-comite-de-emergencia-climatica_a6abebbde06fa52caf46936af",
         "source": "Informate Salta",
@@ -1426,13 +1441,6 @@
         "source": "El Tribuno",
         "date": "Tue, 07 Apr 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Buscan prohibir celulares en las cárceles de Salta - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLXFDeF9neThPUWxrTC1rQlNjeTc0LTc1S0dEeWdmX2h1dVV6NENNNGc5eWp1VXdJaTlPRVJoSmRxNU94ellRelZoWTNrSVVSQVlWNVdpRmdVd0Rwd0REbjRsME1WUlVzWExUenIxT0NqN0tiZ3g4RFBwNHZ3cnV0a25RaWR3Zjc4ZDl6LXR5RUstT0x3NkZMU2xrdnFpd9IBowFBVV95cUxNZjRBM2RGLVdBX1F6WWpPLWtMcmVIUkdhYVVWcHJkaGlKMkpSQS1NVS1MclFGV3cyRVdDeHdNT0d5NXY0T3p1N1B4YTRZZzRhTjE5d3I2LWVOd3lRcDZleEQ3cmlTVWlmOG1OQWF1TWxTTXFwdklDS1otYXJDVEJrWDVXRlR6LVlYUE84OEZCNjkwRWVXeE42SENtNGNGUFlpRWNJ?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -9369,13 +9377,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 47,
+    "total_mentions": 48,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 5,
+      "negativo": 6,
       "neutral": 36
     },
     "sentiment_by_day": {
+      "2025-10-21": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2023-11-24": {
         "total": 2,
         "score_sum": 0
@@ -9544,11 +9556,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 3
+        "count": 4
       },
       {
         "term": "juárez",
-        "count": 3
+        "count": 4
       }
     ],
     "quotes": [
@@ -9645,6 +9657,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Denuncia contra Mónica Juárez - El Tribuno",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFhHRkxjeVlhZVA1ajFOVDFMZU5IdnFjRldnaFFCcmNCUGJfempQbFB4VGRQRzB4aGlQbExDOUVtZWlNUzdfOWV4MmtvSHN5cGMtVi1oSXlVTm9rczd1d21UWjZFUWY1Sk5fUzQ2czRmWk9hT05YeFRoTEFVdl9rS0pGejHSAYoBQVVfeXFMTktfSmdHSGU5cVpSY0xNNTF5WXJFTjR2YTJfVHQ1QzNDTlBDTldXMWZWNkgybnROTzFpb0JuZXdsYm4tUjlfVC0wY3FTWTRGVGdCbXBUN0diQXBxTlFGMW9QNEo3azR6c3RWeVlBRkNBOXNJdno3TEYwXzNRQmVmdG1ZNGVSaUFxbDB3?oc=5",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT"
+      },
+      {
         "title": "Mónica Juárez volvió a denunciar violencia en el bloque oficialista de Diputados - Aries On Line",
         "source": "Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS3o3Z3ljS2hRRXlUanBoMlA0TzluZzVZcFZ1YXduakFLdHJZak9WczZCRjB1N3A2b2x1ZlNmZ09mTkt1QVNETDNaVkJnX0hhbEdyblBfUWVMR0FJdUszQUp5emFtMkYyMExxZF9ZTlMyRm85Ry1KX294RTE2R2haR3VhUGZIdGlJU2pVdEUta1RoWEFUSkhvYzluNWhNNmtwOWJZZ1B1ZEdydW5SUnNIV3JiZGNkXzhSV0JuQ0EzNV_SAbgBQVVfeXFMTUNqWUE1eEVCaGJGRmdJTFF3YWpoOTNYaGphcVVTZ0hxZEdwQ1RjalJ4eHpzWVRDM3RxSkJKQUsxV2d0dGhhVE1pb3RWcEdaX0c0R2Q1a2luSEhVNVY1bS1scjAwV0VYVEl2WFY4MWdTWFIybGRzamdvQmZ3RDR6MV9qSmtkNkI2eVJaUHRrMWRHbEZZNWR6X0syV2hmRUI3RUJQTUtuVVkyVmJDeDg0Z0E1Rk9SRENXUg?oc=5",
@@ -9652,6 +9670,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Denuncia contra Mónica Juárez - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFhHRkxjeVlhZVA1ajFOVDFMZU5IdnFjRldnaFFCcmNCUGJfempQbFB4VGRQRzB4aGlQbExDOUVtZWlNUzdfOWV4MmtvSHN5cGMtVi1oSXlVTm9rczd1d21UWjZFUWY1Sk5fUzQ2czRmWk9hT05YeFRoTEFVdl9rS0pGejHSAYoBQVVfeXFMTktfSmdHSGU5cVpSY0xNNTF5WXJFTjR2YTJfVHQ1QzNDTlBDTldXMWZWNkgybnROTzFpb0JuZXdsYm4tUjlfVC0wY3FTWTRGVGdCbXBUN0diQXBxTlFGMW9QNEo3azR6c3RWeVlBRkNBOXNJdno3TEYwXzNRQmVmdG1ZNGVSaUFxbDB3?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Tras renovar su banca en Diputados, Mónica Juárez se mostró optimista por lo que viene: \"Es momento de hacer historia\" - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUFJwRDJHQlphSWxRZUpwTVFEdEZMaElHcjhsQmFCSlFES2NuMmRlYVU2MXA4ZG5WNXhPcTZzb1pRVzNNU2Z0MDctRm1tZVhJZWFoTllGemtEVjVPeFdjMHNUZjNZWVVUSXBZc3RpcWp6TjFnRnN4YXZNSHhYa01paWt6LWFkSmJyLXhGazA0MDRzbHFRcWpPTEdVaUlqUGNKQ294Tzk4WkhxMExqaWZQVERWd0lXZTZfX2dsMHU4aVdSUlhYWDl6cVRHR1AwNWpXYWhFVmF6b0VMODcxaUx4LUdVTEQ5dUNnTHQ4WmxRQ3ZEczZrajFLY1JpNFRwM01m0gGGAkFVX3lxTFBJLWxoY1htMTJ0YldOREFMS1ZOM1NRUG5wVUhlXzd2cVlRRVhXbVFhcXQ0VnU0anRVSHNDTVBFQXBlbGduZnZKRV9pS2lBWUVtY3ZmYkMzZWdkc0pHUldlTmNmNXJKZGhHNGNCUGliVHNZOXFTQTd5elVBZnlRZVZTem9TUFA0WE54bTRJSjdCM2k5Wmo4Yzkwajh0amdVNU9LLWZWZHM3OHRhR1JqdzFqNFJyeUJrS2swTkxoRGdmMkgwV0pEN3lSZUM0UUFPVkh0dHp3Ump2MUlxbzRSUGZtaU14Tk5RZ3czeUhhRGhqZ1Z3VmFvMXktdUU3aEpSVjhqZTRxWEE?oc=5",
@@ -9854,13 +9879,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Fri, 05 Jul 2024 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Mónica Juárez - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGlXanVwQ2l2ZVppb28tWkNIeFIyNkpQNDRGTlZlbmU1dnY0ZWxEODdyaWh6SVBPQk80Z3dFekZ4cnNzQ0xHbXJTTTRKWXdZS0k4NmladTJKSXlQMWcxMlNRYTVLY1ZEVEZZTTRaanNETE9kcC1tWEtsaGtLMHVWVl9n?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 11 Mar 2026 07:28:52 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -10859,13 +10877,17 @@
     "id": "dip-luis-fernando-albeza",
     "name": "Luis Fernando Albeza",
     "role": "Diputado/a provincial por Cerrillos",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 3,
       "neutral": 11
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2020-06-16": {
         "total": 1,
         "score_sum": 0
@@ -10922,6 +10944,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
+        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Últimas noticias de Luis Albeza hoy - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LdkEwWmZ2d1NRczc2OENtbXpCUUp1T1RPcGJ2OXFVRTN5N21uWVYxaWdNVVpPYnZkUDBOX0pldnJPeXp2Zlp4Tjg3dC1PQXZtbklUZjJkSXppVjRLTldONkVyaw?oc=5",
@@ -11761,13 +11790,17 @@
     "id": "dip-daniel-alejandro-segura-gimenez",
     "name": "Daniel Alejandro Segura Giménez",
     "role": "Diputado/a provincial por Gral. Güemes",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-03-19": {
         "total": 1,
         "score_sum": 0
@@ -11831,6 +11864,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Una decisión de Daniel Segura sacude el tablero en Güemes: anticipó una pelea dentro del oficialismo - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDBmUi1jS2pYbDAxQXBjR2NCWG4xS3ZtZzdvWE5hMlJWVEFlUm5qVVR2YjBuWlhsLTE0cXl3R2t6UGUwMzV1MlRsZGZvbndPYVBvY2QyZWxHVEtiVUxFTWdYVXdlNC1fcmZVMDFHS0IyRjJDN0Q4NHpzLXJQbU1PY3hvaGFXQmJGSTJsdE1KWlFBd3VKOUlEN0hTeVFBNnZwYkM3dmVPUThRWGV3T0FMSVM3MzdMYVkyTDQ1dDZKQi10VWlrNkk5Y1FqN0NpMmNjcWtGNWpoMXhNMTBRRWN4MjhVSVdacnAyZVRN0gHwAUFVX3lxTE1XcDFXU21xTDhkSGZzbXRCUFVlYk9RQUVuNEFXbTV3OHRvam54RExEdkRCOVE4dlpQS3hmU3FTSW9DSGFTanBjcktyR3pXVlkyNHdqMFN1SXlBMi1FVFJDUkZsUFQ4amJVZ2h4SGp0VzY2VzV3cTlkalMzTWlHWE9ENlZTOUFYdDBXUTRzWjFoOGNYay1pSllwdEFQT3dKcE5nVUc1YVRxbzZ0NGt3U1pFUXVGNGd6NTZCNEczV1RxS0FQQ203WHcyS1NXazJUcWtqVXhKV0RlTW94WWh2NHJ6QWlWUVNBMjNfOUNZNkFVLQ?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 15 Oct 2026 10:28:04 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Padre del diputado Daniel Segura, mencionado en el caso María Cash, recibirá $100 millones del Estado - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblZ4U0d6TjRXbkh2Q0dHcWpZQVVKMzB4LWh4OE5xa2JEaEpjZEZnNFBHV1JON1FCYVZ6WjM4V1FiWGNlbmlIcDlqSGxvQ1VvMGdrMEVNLWVkR2NERXhUVkhQTTFhLVpxdWpBQVpPRlllSXJCeXoxRTczSXhZX0NrbGRLS1J0OXVNNC1BUGlqdVY3YWgyQnlHRXFyamt4YnVDbHFYYVRLb3lZTDR6dHlQeG9RVlF2ME80M2Q1S3haYXFSLVFRblJPdk1GcjJndw?oc=5",
@@ -16462,15 +16502,15 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 5
+        "count": 4
       },
       {
         "term": "garcía",
-        "count": 5
+        "count": 4
       },
       {
         "term": "informate",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -17902,10 +17942,6 @@
       },
       {
         "term": "deliberante",
-        "count": 2
-      },
-      {
-        "term": "municipio",
         "count": 2
       }
     ],
@@ -22368,13 +22404,17 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 2,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "2025-09-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-24": {
         "total": 1,
         "score_sum": -2
@@ -22423,6 +22463,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "Eliana Bruno",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tYUZ3djR5aGUyRklhOVNxUEJJQS1ZYzBrdHV4ZEpWUnBZYnNaX1N5ZVlBeVZHeVdRdEFQR0YwNG5oWmc5ZzREdktZZ1BVb3Z2amc?oc=5",
+        "date": "Thu, 11 Sep 2025 01:20:57 GMT"
+      },
+      {
         "quote": "prohibiciones y ninguneos",
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkS9IBhAJBVV95cUxQLWIxc0h6dHhUUzM3WFFkNW1BaEJjMFVkbVJTSkVpUjJINUg4M1pKT0s5UFlGSWV3MGFxU0tHbkZ1VGRHYXhuaTRaQ2FpRWhjZU9zc3Z6bl95Q21YUWhCNm9OUmFXdUpBTXFLZEVBdkdPd3ZfNmVkSFhIZUxlYkpMY2o4Z0IxajJEYXR0MXIxLXBEV3U4dWpYT3l1Rlo3S3hyZGttX2dvaXRuRHAxb2N2RDZMakRHM3VLRVRjUlpfRjZzaHRnb3NGaEFzWW9NakhqMGtaWHdRRnBFbXM0OUpVR0xheHF5Mmg3dFVGZXRHZ0pCRXFnT2thV3FiNWxfRnpTMGFkSw?oc=5",
@@ -22449,6 +22495,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "All posts tagged \"Eliana Bruno\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tYUZ3djR5aGUyRklhOVNxUEJJQS1ZYzBrdHV4ZEpWUnBZYnNaX1N5ZVlBeVZHeVdRdEFQR0YwNG5oWmc5ZzREdktZZ1BVb3Z2amc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 11 Sep 2025 01:20:57 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con La Libertad Avanza en crisis, Eliana Bruno se acerca cada vez más al saencismo - elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUlqRTFmRnRlV0x1MTBjR1o2dmp6b25UZ2xOcm5PTTVyelNuZER2OXhXbHg4eXNfMDJFZVY5REVOaDFEeXYwTVAxLUk3S2tBY3otMUx1bm9NaHkyaE9qM1VjcEFyWDNTQkZCQ3BpYXJUNzFzSmhEZ2VvaXVxaVZlV2pGNDVDbXJYM3dBNWFnNExlTm56SWVibjI3clNEU0RlaGpsUllib19iZERfSlRqbmtXNlliZUE?oc=5",
@@ -23245,13 +23298,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 3,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2016-08-27": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-14": {
         "total": 1,
         "score_sum": 0
@@ -23321,7 +23378,16 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "bernardo",
+        "count": 2
+      },
+      {
+        "term": "biella",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Bernardo Biella va a defender al Garrahan",
@@ -23374,6 +23440,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bernardo Biella, protagonista de medio siglo de la vida política y cultural de Salta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV3dSdGxOOW9mNVBJb1lYN2NCSms0ZkpDcnQ4RXV6T0VSQXJUR2ZNaFdBZ09jNVlaSzFzRWxwQ0VhelkyZVBTOVN2ek9QSlVQOUNmQVdYSFNWV2VZLURac2x6RWNJZlZqeHB2SEVMWlI3QlZ0SWxLN3hzNE1PT0U4ZjJsNEJvVzBJMjlFZDk4UElwSzB2cVB5dFkxTE5rVnZDUzc4bXF0MXBoRk4xcnZORndFdEZPdzZ5TVM5UklrTHdaWlhkNDNkeG52cw?oc=5",
+        "source": "El Tribuno",
+        "date": "Sat, 27 Aug 2016 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Belgrano Cargas: Dos grupos de empresarios estarían interesados en los ramales C-14 y 15",
         "link": "https://informatesalta.com.ar/sociedad/belgrano-cargas--dos-grupos-de-empresarios-estarian-interesados-en-los-ramales-c-14-y-15_a6acf9120a75ded0dcfd7baee",
@@ -25311,13 +25384,17 @@
     "id": "dip-carlos-ignacio-jorge-de-la-zerda",
     "name": "Carlos Ignacio Jorge de la Zerda",
     "role": "Diputado/a provincial por Cerrillos",
-    "total_mentions": 1,
+    "total_mentions": 2,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 1
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2026-10-01": {
         "total": 1,
         "score_sum": 0
@@ -25327,6 +25404,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
+        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "DE CAMPOS, Carlos Jorge - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbkhxNUFPbmlDWmhuOUJZRnUzbEFWaG12RjllWWlLX1NVYl82cWh0TThuY2c0S2ZzekctNng2Q09nLXdhR2NOYUNvbVo4em51X0hSQ1RTdll5V2U4bWd6OWtUTFZUTFRPSS1EV19GQ0NKT0xIUDd3LXRZQldBUmpCZHE5dGwyUQ?oc=5",
@@ -25767,13 +25851,17 @@
     "id": "dip-marianela-marinaro-chain",
     "name": "Marianela Marinaro Chain",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 2
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 4
+      },
       "2025-03-24": {
         "total": 1,
         "score_sum": 0
@@ -25787,6 +25875,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "¿Multas o educación? En el sur salteño discuten cómo frenar las picadas ilegales",
+        "link": "https://informatesalta.com.ar/legislativa/-multas-o-educacion--en-el-sur-salteno-discuten-como-frenar-las-picadas-ilegales_a6acebbf320a9aaff76a7e4c4",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 11:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Rosario: Marianela Marinaro busca liderar el proyecto de Kuldeep en Diputados - Expresión del Sur",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdDQ1NXd4NExGX3JRbkFJVmZ6WERDMkw1eTZWSmEyNElld3k1VVV6cVR1Nm95UTY1b2tFdlNlZVk3aW1BZVM2TkhlWHpCY2t0ZW9KVXdoaXh0WGFBRUJ3RUlETTVQMFNwdFYzdURnNl90ZDVXc3BxRmxlM2pJWE1qNmFvUkI5Yi0xcTc1YVVpSl9WQXpVUXBHN0gtYllHb0ZWb0RzU0NPd21VME4yeUR4TWhkRWJkR2NXdGo3RHBsVzJTUWtCQVE?oc=5",
@@ -26424,13 +26519,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
-      "positivo": 2,
+      "positivo": 3,
       "negativo": 1,
       "neutral": 12
     },
     "sentiment_by_day": {
+      "2026-07-29": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-10-11": {
         "total": 1,
         "score_sum": 8
@@ -26491,15 +26590,15 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 14
+        "count": 15
       },
       {
         "term": "marocco",
-        "count": 14
+        "count": 15
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 7
       },
       {
         "term": "vicegobernador",
@@ -26519,6 +26618,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No conozco ningún acuerdo",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaUxrR3hOdGstWVNDZ0t0cTF1WGdhVm1GMmxHZUNxQVFvTXpQT1UwUVRRS3JsUkczVnk3RzJNdENtMGY4N01fektBc1U5UFpfOTBQTExuWUY0ZjczaDNmQ2Rqd05TaDI1WE8zb1pTai1KaE43eUNkZ2kybjBycG9YQ3duclUtQnlsTEVZYVVKRDcybmt0MzMxZWUzc2h2VjFGdjlvQXhHQzZYWFhVanRuNGxlS204YkoyOHl5QzA3Zllxc3lYNWZ6bmxUeGhhbmpkY1JLM0pn?oc=5",
+        "date": "Wed, 29 Jul 2026 07:00:00 GMT"
+      },
       {
         "quote": "No negociamos nada",
         "source": "Elintra.com.ar",
@@ -26540,6 +26645,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "\"No conozco ningún acuerdo\": Antonio Marocco se desmarca de Milei y lanza señales sobre su futuro electoral - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaUxrR3hOdGstWVNDZ0t0cTF1WGdhVm1GMmxHZUNxQVFvTXpQT1UwUVRRS3JsUkczVnk3RzJNdENtMGY4N01fektBc1U5UFpfOTBQTExuWUY0ZjczaDNmQ2Rqd05TaDI1WE8zb1pTai1KaE43eUNkZ2kybjBycG9YQ3duclUtQnlsTEVZYVVKRDcybmt0MzMxZWUzc2h2VjFGdjlvQXhHQzZYWFhVanRuNGxlS204YkoyOHl5QzA3Zllxc3lYNWZ6bmxUeGhhbmpkY1JLM0pn?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 29 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Gobernadores de Salta y Antofagasta acuerdan impulsar el Corredor Bioceánico de Capricornio",
         "link": "https://informatesalta.com.ar/gobierno/gobernadores-de-salta-y-antofagasta-acuerdan-impulsar-el-corredor-bioceanico-de-capricornio_a6acb9b39be23996013d959a0",
@@ -26813,13 +26925,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 18,
+    "total_mentions": 19,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 4,
       "neutral": 13
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2026-09-18": {
         "total": 1,
         "score_sum": 0
@@ -26903,6 +27019,10 @@
         "count": 7
       },
       {
+        "term": "agua",
+        "count": 4
+      },
+      {
         "term": "diputado",
         "count": 4
       },
@@ -26912,10 +27032,6 @@
       },
       {
         "term": "falta",
-        "count": 3
-      },
-      {
-        "term": "agua",
         "count": 3
       },
       {
@@ -26952,6 +27068,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
+        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "«Nación no pone una moneda»: Ignacio Jarsún objetó la paralización de la obra pública - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWlLOEVLTmxHN2tISmd2NkJYWGJuR3dBV0ZpUGI5Vmljd0R6MldkbWQxZkxrSDRvWjhQZnZrSzZMOExFZGFKSE5ucm1HUF9iT0E3azZpdE1SMEhSa1N6NWtJWEhLMlhIbnpkS1gwSGk3eElmMHE1TXk0a2l4eGd6elhCLXhUd19JaWhIcl8yNTdrbXhuT21mbUdQakRDeVVDTnBVLUNFbmVlU1BKRXp0U1dFM2hFRnBm?oc=5",
@@ -27084,13 +27207,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 34,
+    "total_mentions": 36,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 2,
-      "neutral": 31
+      "neutral": 32
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 2,
+        "score_sum": 1
+      },
       "2020-07-21": {
         "total": 1,
         "score_sum": 0
@@ -27215,7 +27342,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 33
+        "count": 34
       },
       {
         "term": "tribuno",
@@ -27226,12 +27353,12 @@
         "count": 10
       },
       {
-        "term": "informate",
+        "term": "millones",
         "count": 5
       },
       {
-        "term": "millones",
-        "count": 4
+        "term": "informate",
+        "count": 5
       },
       {
         "term": "argentina",
@@ -27341,6 +27468,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Provincia y municipios definen acciones para potenciar el turismo en Salta",
+        "link": "https://informatesalta.com.ar/turismo/provincia-y-municipios-definen-acciones-para-potenciar-el-turismo-en-salta_a6ad0c95a7c6277e88cca7d5d",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 12:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Escuela fantasma en Salta: Dib Ashur confirmó que investigan designaciones por $300 millones mensuales",
+        "link": "https://elintra.com.ar/2026/10/15/escuela-fantasma-en-salta-dib-ashur-confirmo-que-investigan-designaciones-por-300-millones-mensuales/",
+        "source": "El Intra",
+        "date": "Thu, 15 Oct 2026 14:12:29 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Diputados analizará con Dib Ashur el préstamo por $ 2.100 millones - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeUlzV0NmRWJCMGJ3Ukhwb2JGSjlMQjlxOFBNQXh5aUhOVDI3NzlHWnhPWVVIY1RLOFpfa041Smh6UktiWWNhc0xfclUxM0xYRldMS3NOMDVvcVJQN2tZODZJWXN4UjdnVjcxNlhtMERoSHdNNXUyQk9LTWZCZExmRW1QTkZxWVBsVHc4NmV3Y21IRTJXeU1aSG5OZzhmdC0xTEMzOTNpdUZfd0xYU2o0R3NR0gG3AUFVX3lxTFBwMjlBYzcxMU1yRTZFeGJMQ1BYcHZTVk8yY3p5R19JV3BOMXJ5Tlo0ZHFPMzJWakd3b2pzSlM1QzFPS2dBOXRVcExNZHc0OFlGQ3g1el81Y21yUVVjMEJpSEJzWVNCY2VmUUhiMV9yUk5oMGdhZE5MbmkwRTNiMzdDd3o3MzhCYk56Nkk5c2h6aXgzSXUzTjZuWmdDQlhNektlb09YZWpNZGhMMU10RnJ1cm9FQXJ2VQ?oc=5",
@@ -27535,20 +27676,6 @@
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Yd1BhclJGNWtqSm5KNjd5cXlid2MwSzM4Ui1pQkpoTnZYVDFlLUlCaFFqUlY2SE9mQmVwX0R6X0VHSVBGaGE1UWdUNmVGWjRWTjk3bmFaWEJiVTI2V2lhLUZnNm5IMDhiSmZMWlg3cGJmUk5jQzdhZV9DcHU?oc=5",
         "source": "El Tribuno",
         "date": "Mon, 12 Feb 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "DIB ASHUR, Pablo - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53NE93Rng5VGVzdVp2d0lNSVRhNnFrNzQ5S0pNcF9VOUdOVTRpNnc5cmFLdzM5dkwzbnJsRXJEUVRub1ZaaVdLMXFMNGVuUi1sWGpLX250ZTQ3OWVCbmo0clJNMWcyRDNzUW1MNE9TQkdwRUZTajdr?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 26 Nov 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "DIB ASHUR, Luis - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MemM0ZjlRNUNVcW4tYUE2dXg2NW9raUhxRDkyQVQ5dDdZanJwUmVlaU5XT29rMndtdVZxYUViRzJCZEdRa0NubUZCV0ZEUkhIczNBRXZlT1V6YTVWS1A4cWk2dVItQ1ppbjRfeDJCaXJocWc3NkE?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 20 Jun 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -28306,13 +28433,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 26,
+    "total_mentions": 27,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 10,
-      "neutral": 15
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2022-12-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-14": {
         "total": 2,
         "score_sum": -11
@@ -28401,15 +28532,15 @@
     "top_topics": [
       {
         "term": "fiore",
-        "count": 25
+        "count": 26
       },
       {
         "term": "cristina",
-        "count": 24
+        "count": 25
       },
       {
         "term": "elintra",
-        "count": 13
+        "count": 14
       },
       {
         "term": "tribuno",
@@ -28473,6 +28604,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cristina Fiore defendió la reunión política para conformar una oposición fuerte - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3hQUzJDWDJqMTBuMHpiVmNtR0VsZ3NDX2ZRb3IyTVloRUZfb3dkaG1BY29yRGNENHFxMFdROW5KQXZ0Y2t1UGtUaXBSUzVDbHdmWU9DdllpeUwtcnRqVXBqUlJEa3VlYVVpVGNUUnpaNHFzdVJ0ODdYNnZKcGI0Zlk5Rmx2QWxXb1V1NFNaRXBNb2lHSEFjbzJhZU9YaEt5bUJzOVdCVkktaWk0bnFmOU5PQzI?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 09 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cristina Fiore critica el paro docente después de que Salta abandonara el juicio por el incentivo",
         "link": "https://elintra.com.ar/2026/10/14/cristina-fiore-critica-el-paro-docente-despues-de-que-salta-abandonara-el-juicio-por-el-incentivo/",
@@ -28661,13 +28799,17 @@
     "id": "eje-manuela-arancibia",
     "name": "Manuela Arancibia",
     "role": "Ministra de Turismo y Deportes",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 0,
       "neutral": 5
     },
     "sentiment_by_day": {
+      "2026-10-15": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2025-02-13": {
         "total": 1,
         "score_sum": 0
@@ -28701,6 +28843,10 @@
       {
         "term": "arancibia",
         "count": 4
+      },
+      {
+        "term": "turismo",
+        "count": 2
       }
     ],
     "quotes": [
@@ -28725,6 +28871,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Provincia y municipios definen acciones para potenciar el turismo en Salta",
+        "link": "https://informatesalta.com.ar/turismo/provincia-y-municipios-definen-acciones-para-potenciar-el-turismo-en-salta_a6ad0c95a7c6277e88cca7d5d",
+        "source": "Informate Salta",
+        "date": "Thu, 15 Oct 2026 12:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Manuela Arancibia: \"Hemos incorporado tres rutas nuevas aéreas y vamos por más\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOF9RS2tFaU5wVE9kYTFSNWFJQm5sNW9LQ3d3R1pHenNLM1NpYWd3enowWEtjSl90dWswX093ZnNmVjVta09HMlNXTGN6MXFFWHZuaFk5MktDNkttaV9DRmo1bGZOZEc5aEtYeWZJcFRfRlNpQzh5YkNuYUJfWWVHWlR0ekkwZG8?oc=5",
