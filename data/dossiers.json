@@ -281,10 +281,6 @@
         "count": 6
       },
       {
-        "term": "años",
-        "count": 5
-      },
-      {
         "term": "molinos",
         "count": 5
       },
@@ -293,11 +289,15 @@
         "count": 4
       },
       {
-        "term": "milei",
+        "term": "otros",
         "count": 4
       },
       {
-        "term": "otros",
+        "term": "años",
+        "count": 4
+      },
+      {
+        "term": "gustavo",
         "count": 4
       }
     ],
@@ -1936,11 +1936,11 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "contra",
@@ -1948,10 +1948,6 @@
       },
       {
         "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -9548,27 +9544,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 4
+        "count": 3
       },
       {
         "term": "juárez",
-        "count": 4
-      },
-      {
-        "term": "durand",
-        "count": 2
-      },
-      {
-        "term": "cornejo",
-        "count": 2
-      },
-      {
-        "term": "aborto",
-        "count": 2
-      },
-      {
-        "term": "cruce",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -15733,13 +15713,17 @@
     "id": "concejal-eliana-del-valle-chuchuy",
     "name": "Eliana del Valle Chuchuy",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 0,
       "neutral": 2
     },
     "sentiment_by_day": {
+      "2026-10-14": {
+        "total": 1,
+        "score_sum": 4
+      },
       "2025-04-09": {
         "total": 1,
         "score_sum": 0
@@ -15760,6 +15744,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Concejales capitalinos también se sumaron a agravar las sanciones contra el maltrato animal",
+        "link": "https://informatesalta.com.ar/legislativa/concejales-capitalinos-tambien-se-sumaron-a-agravar-las-sanciones-contra-el-maltrato-animal-_a6ad00786a9c508f45c534e61",
+        "source": "Informate Salta",
+        "date": "Wed, 14 Oct 2026 23:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Eliana Chuchuy: \"Estamos sacando de la clandestinidad a quienes se ganan el pan día a día\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYtIByAFBVV95cUxOclZyUG5QRm1EN2FzalJFYlhCYVQ2TXJJV3VQaXNZaWZWMV9tMFZvOXhnZGRnZm9NT0NMOEhReWduN05RSjBONzBkaHlBUThtMVJuS3owZGV3WGZzZWYtNlZjaU5zcEs5VVlZT0JYTURDcTR6Y2htTXItOTVXMUZMZHVPTzZzS2pkeE9EUkJZVGZYUWhNelZNdTdfUi1EUDZTQ3poZ0U4UUJ4NTJOR283cXJZaUh3V0lHc1FHbTZHR01pcnluUHhiYg?oc=5",
@@ -18533,15 +18524,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 10
+        "count": 9
       },
       {
         "term": "lópez",
-        "count": 10
+        "count": 9
       },
       {
         "term": "informate",
-        "count": 5
+        "count": 4
       },
       {
         "term": "concejales",
@@ -20792,13 +20783,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 79,
+    "total_mentions": 80,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 63
+      "neutral": 64
     },
     "sentiment_by_day": {
+      "2025-09-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-24": {
         "total": 1,
         "score_sum": 0
@@ -21063,11 +21058,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 18
+        "count": 19
       },
       {
         "term": "royón",
-        "count": 18
+        "count": 19
       },
       {
         "term": "secretaria",
@@ -21095,6 +21090,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Más formación es más oportunidades para Salta",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZU1TTEpDX0FjYUxxRS0weGppTlAzSGZia3k0R1ZmRGpvYlVsZHczZjNOYnpJNVNDb2l3UUJzSXpHcktTWm5MNWkwWVpFcDVXQUxqYUVHS2l4U3k2eHBQUElWRThlajUwUDdRdy1Xc2tERHVybHFkTlFmUEs1MUI2WDNQd1IwXzBONHZROE1TVkw0WTNhaHhWUGY1SndCT0F4VlMxRVBmanE2WEIxQUxYbnk1cjJzMFNlWmVKWmkwTXh6RzgzeWRtX0ZZMNIBywFBVV95cUxQZU1TTEpDX0FjYUxxRS0weGppTlAzSGZia3k0R1ZmRGpvYlVsZHczZjNOYnpJNVNDb2l3UUJzSXpHcktTWm5MNWkwWVpFcDVXQUxqYUVHS2l4U3k2eHBQUElWRThlajUwUDdRdy1Xc2tERHVybHFkTlFmUEs1MUI2WDNQd1IwXzBONHZROE1TVkw0WTNhaHhWUGY1SndCT0F4VlMxRVBmanE2WEIxQUxYbnk1cjJzMFNlWmVKWmkwTXh6RzgzeWRtX0ZZMA?oc=5",
+        "date": "Fri, 26 Sep 2025 07:00:00 GMT"
+      },
       {
         "quote": "falencias en infraestructuras y limitaciones de presupuesto",
         "source": "Clarin.com",
@@ -21178,12 +21179,6 @@
         "source": "Radio Ciudad Oran",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmNybzBZZHB0ZDBQV3kxUWM3MXNkQlRHeUI3X19ZYlZYb252VE5YSXBHRTNLa3JPMjBBRF9Kbjd1NVZ3aDZLTWdZaEI5SlZJdHZoVmhJQmRiUk5USndxaG8wLW5IRXpBSFhaZUxVc1pudUlPSnFNTDZMckZTeDdBTlFJYW4xMFU4Q19meUxQZkpBSE9NRnozMGU5ZmRGdUltMEVyQXZxOHFNQ3NUY0Qw?oc=5",
         "date": "Thu, 09 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "El mensaje quedó claro, los pueblos no vuelven atrás",
-        "source": "Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdnBmMEs3b1otRHd6OXl2S0NaUE56UnQ5dGMzQWRvMFJWWnVkRGJfdjN4akJwUGtmY2tTamJ3TmhTWWh0NHp1QmkxRG9MdGxlVTk4LVVZckNhdjd1aEV5NFdSY3owT251WWQzLUMxZlp5LXlTZmdtT2FIdEJRdjZRcGxLckN4aWFvZzlJLURvUjdnZExMZjh1QmVsdklsLVdh?oc=5",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21207,6 +21202,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón: \"Más formación es más oportunidades para Salta\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZU1TTEpDX0FjYUxxRS0weGppTlAzSGZia3k0R1ZmRGpvYlVsZHczZjNOYnpJNVNDb2l3UUJzSXpHcktTWm5MNWkwWVpFcDVXQUxqYUVHS2l4U3k2eHBQUElWRThlajUwUDdRdy1Xc2tERHVybHFkTlFmUEs1MUI2WDNQd1IwXzBONHZROE1TVkw0WTNhaHhWUGY1SndCT0F4VlMxRVBmanE2WEIxQUxYbnk1cjJzMFNlWmVKWmkwTXh6RzgzeWRtX0ZZMNIBywFBVV95cUxQZU1TTEpDX0FjYUxxRS0weGppTlAzSGZia3k0R1ZmRGpvYlVsZHczZjNOYnpJNVNDb2l3UUJzSXpHcktTWm5MNWkwWVpFcDVXQUxqYUVHS2l4U3k2eHBQUElWRThlajUwUDdRdy1Xc2tERHVybHFkTlFmUEs1MUI2WDNQd1IwXzBONHZROE1TVkw0WTNhaHhWUGY1SndCT0F4VlMxRVBmanE2WEIxQUxYbnk1cjJzMFNlWmVKWmkwTXh6RzgzeWRtX0ZZMA?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 26 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La Justicia sobreseyó a Flavia Royón en una causa por tráfico de influencias - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUMyYlVVYUplN2tVV29ZbVhrc295RUJ4NEYyb0QtVC1IZVU0ZFNwMXNGZ3pHYzZCdlp6MzVoRlRkUjRCcUJaVGMwQXBvMGFXQ3dJZjlMczB5TVdaT2FBVmtVUHRNVEhadHBHVXN4LU83RnhUa2YyRWxfVmpIMGo3cl9qVEZKM1Eza3h2c3RJYU43MnBSdXAxZ0FaZHQzanVnaTk5RzUzR3p6MUlMcW9RUQ?oc=5",
@@ -21409,13 +21411,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 09 Jan 2026 08:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Flavia Royón negó que sus votos dependan de los fondos de Nación le promete a la provincia - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkhCcC1CVmNUVUpiWkdXaTBIQ2hfa1F0VXhsSmd1dGJtX2xIRkxLOVlrb2VYYnJUQml5WUVYSlFrZ0NMdkJ4X2NzcjFqMEtKUTlUdGFJTDljOFBMS2pEbzNMMXdHOXBKb25FRl9yQ2RxX2VtZVZxSDlQdjFiT0ppbFF3ZEQ0REhhSTRUZERGcUl2NzhJNHM4YzdKeWlYdTh1Nk1HWlhpbUtjeGFUcVZsMGpYOE5ONEFQbWVSb29IeF9RT00?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -21638,11 +21633,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 10
+        "count": 9
       },
       {
         "term": "orozco",
-        "count": 10
+        "count": 9
       },
       {
         "term": "contra",
@@ -21654,10 +21649,6 @@
       },
       {
         "term": "senadora",
-        "count": 2
-      },
-      {
-        "term": "milei",
         "count": 2
       }
     ],
@@ -26807,13 +26798,21 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 15,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 10
+      "neutral": 12
     },
     "sentiment_by_day": {
+      "2024-05-08": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-06-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-06-19": {
         "total": 2,
         "score_sum": 0
@@ -26874,11 +26873,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 15
+        "count": 17
       },
       {
         "term": "ignacio",
-        "count": 12
+        "count": 14
       },
       {
         "term": "elintra",
@@ -26887,6 +26886,10 @@
       {
         "term": "diputado",
         "count": 4
+      },
+      {
+        "term": "tribuno",
+        "count": 3
       },
       {
         "term": "falta",
@@ -26899,10 +26902,6 @@
       {
         "term": "nacho",
         "count": 3
-      },
-      {
-        "term": "ministro",
-        "count": 2
       }
     ],
     "quotes": [
@@ -26934,6 +26933,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tejIxalJnOTJ2MnNXOVBCNnczQVQycUFvcXhiRDUtNFd0UjdQNnFaOGZqNER3aFJocWhZT3FjUGYxcy04WHhSZDlVWnZaamZ2bGh0TkhUYko?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 08 May 2024 00:18:23 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Muerte de Thiago: Ignacio Jarsún pidió investigar responsabilidades y la Secretaría de Niñez no dio declaracio - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNZjhXMXdhUVJFRnpQbzRHLTVtZDRxbU1oY2FCVUNPcDVha0pQMmc4dGhuQVZEY080MnNXV2wtM1dRSGJqOWdHRkdLaUJ6eE0tYWF3amE2NDZoQXpzWXluaUpnTnJiWlZJZElVUTBSdTFyOFFNcDNHVll5b1ZEdElUVWdoNGRKWnJ0ZlRZN3ZBUGRkVldvakZFYzJJRm45bGlEYU5UdkczSjNHMGkzTmcxT3ZaclBKU0QxbGpYS0E0by1uQWVrMVllN2FmR2hMUEYzbkdPU2c1TGtpaDZuUGI0SE9JYjdpMURwQjBRQk9WcmFmNVlxWUg0Z0NHbm5GYktqSzBPZnBPZTI1UWh0Z3pYOGJIaXdQcFZzZFB3ZElQLVJtaWRTSFZnVUpKMXUyNDhRNTFEdl9ZdVQwOUxOZlhESGI2SdIByAJBVV95cUxOUXpXbUttdjNQcXhVT0JoUTVkZnplWHRwTDJBeWNfU1ZrMUlMb3lwZW14bzgyTkV2UDFKMk9lRnRHNjlBNVFuNkRGY19EalFSUEs4bWFZX0EyVWZYaG14SnlkbWVjaUgzT2ZWaS1xeDNOWUc4bDB0eWVXcFVzOEZWcGRKQkZyQVlYcVc3T0FpTnVWUFNBV0FpSkFWWjhBdG5mUUNCT1JBTEd0WjM2ZDJfX3B6Y3Y1cE1KZVIyOWJBV0NoZEhaY3ZCaGl5T2RKemtGMUZGOFJPOW0yTUpSTGJYUHNFaTE1UkFxV25SZVNxZ0FqZUtfZF90cmtqMDBiNEVyRkEyU3FvWTJ6NVVqb3BUR1RDUkZqY25idW8wWklWY3c4M18yd3JKOXdwc2lveHl3SnZDTkNhZHNvdFQxeFBNWm1nbFpWeW1q?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 25 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Noticia: El ministro Ignacio Jarsún recibió a Mariana Aranda - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWExEenhJb2VWcERRR3pQUTZJLVdPRjk0RGI3VUR6RElXWk85clhKS1hWTE1xcTVWWkVIcVUyakdJblB5QVdHQUtpc0t4dlhDWmJMWE8tVlMyVVRPVE5lYzRjZGhCUi1sYk91MzBjdFgzX1ltMUo1T1dHRnVrLXd3TEY5NWRLbXBwQVF6djl3RXJRbG1RSW9lVG9JajR4NGR6?oc=5",

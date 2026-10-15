@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-14T21:35:08.767818+00:00",
+  "generated_at": "2026-10-15T00:07:24.591654+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 357,
+      "total_mentions": 360,
       "sentiment_breakdown": {
         "positivo": 21,
-        "negativo": 29,
-        "neutral": 307
+        "negativo": 30,
+        "neutral": 309
       },
       "sentiment_by_day": {
+        "2026-10-14": {
+          "total": 4,
+          "score_sum": -2
+        },
         "2026-10-13": {
           "total": 24,
           "score_sum": 4
-        },
-        "2026-10-14": {
-          "total": 1,
-          "score_sum": 0
         },
         "2026-10-11": {
           "total": 17,
@@ -176,11 +176,11 @@
         },
         {
           "term": "presupuesto",
-          "count": 102
+          "count": 103
         },
         {
           "term": "intransigente",
-          "count": 60
+          "count": 62
         },
         {
           "term": "discapacidad",
@@ -188,7 +188,7 @@
         },
         {
           "term": "informate",
-          "count": 37
+          "count": 38
         },
         {
           "term": "pasa",
@@ -210,6 +210,18 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "no todos quieren trabajar en relación de dependencia",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUUE5RnFxeUdNSUc4LWhBZjN3OEs5dnlxWjBZR3ZWVXp3aWlZNXllOVI4SzJUOUhVQkI2UElWUmpRMElfTTVtQ3E2QzFVTFBfbXVBc3RYaHdJa2NmNzJXZGQ1UEhCdklYRnJxejBTTTF5TDNUaTdRaUxKcHR6V3l4NUpIRHVJZkJPQnhTNGdHTGZHNWZXLWQ1Z1FmWGpQVm5Kdl9vaEx3emxmdXpZY2VxMndmUTRUcEo5M3U1QWFlTFdvbjVEeW5mM1Z3VnpGX1YtNGZuX1B3aTVGLUJsMWtxRkhRNUVneE5kYVd4UzV0Nk5jN3c5S1FV0gH3AUFVX3lxTE5RQTlGcXF5R01JRzgtaEFmM3c4Szl2eXFaMFlHdlZVendpaVk1eWU5UjhLMlQ5SFVCQjZQSVZSalEwSV9NNW1DcTZDMVVMUF9tdUFzdFhod0lrY2Y3MldkZDVQSEJ2SVhGcnF6MFNNMXlMM1RpN1FpTEpwdHpXeXg1SkhEdUlmQk9CeFM0Z0dMZkc1ZlctZDVnUWZYalBWbkp2X29oTHd6bGZ1elljZXEyd2ZRNFRwSjkzdTVBYWVMV29uNUR5bmYzVndWekZfVi00Zm5fUHdpNUYtQmwxa3FGSFE1RWd4TmRhV3hTNXQ2TmM3dzlLUVU?oc=5",
+          "date": "Wed, 14 Oct 2026 20:00:00 GMT"
+        },
+        {
+          "quote": "No podemos convalidar el tratamiento",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkVXX3VWOTJpb2ZrMjM1QWUzRTFRMnR1YVhPRkN2QjczZUtMMVgzT2QxdWJhRnpKOVpvRUpJQUpWcG40QnJTUWtEZ3hxM0h5WXYwWlpHU1hlSnVGdEtvMTI4ME1ncjd0dm10ZlBIeElfc29taHBNWmRnN2M2dUFvcXlDNUVzSDVTMjNYQWd2Q1JSSk9pdkpUelZ3WVQyUTNhT0JJOWhrNkY0QURIYklDeDNIaExXUXBnZVU5WEJ6c0ROeWJoMFU3NjhkeVBSdy03?oc=5",
+          "date": "Wed, 14 Oct 2026 23:54:15 GMT"
+        },
         {
           "quote": "No te cases ni te embarques",
           "source": "El Intransigente",
@@ -287,21 +299,30 @@
           "source": "El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlVLcTRqWEdfaVpXeVhJaF80Z1hDNnljenZXUjdfREh5bnp0U0w1U05lUnpJdWluUGZZZFJQOHF6S1NKMlg0R1JXOVlYOEJXX0dKckdLdVBpSk1vLTRZcHRtdkV2Tl9Ya204dUJsSUNzd2hiV3lFVDRRdVFBc1BkcVVnemVsZ291UWh4cXhXMkRJSTY4cE1YMWJBb3JaTm1RaThZMGNCd9IBrAFBVV95cUxQNWVrNHhNeG1RVndVdmwtVnpWR1RyQUZockFFZllPSXR3OHdhal8yd2k0a0JuSm1McExSVXdKazdfWk5uZXZONFFuTFVaQmJiRkJZMHIyQXZQcXlRenZLaEo0d1VRck1wRXNpVjZ2eFdZNDNGMHJ4SmZqSDNqWkx6SUstRW9yQm9IaFphTGFzem42bVRLTDk2M0hILUhGdFQ3UDdGTWlYV2lReXU5?oc=5",
           "date": "Sat, 03 Oct 2026 04:48:00 GMT"
-        },
-        {
-          "quote": "El Papa se encontrará con una Argentina divida por la grieta",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY3lJeEZXekNHdmJyd2tacVh3bVo2SzRtcWZHRWZNN2R6ajFGYm1lM1FScUFuZnpET053V0VVemZ4b1lDWXEyQ3JVTjhjLXVtZU0wNlJOTWNWMnpvQkt3UnJlYTRGaGQ3Z3Z6NDhmV1kyR2tWQlljZFlMeXhvd29XZlVGLVhVNk5VYkxpQmFxMlNRdEZ5RWlEa2FKWFEtaE93OXFZazJuX0lRVDhfWHJrcy1PY9IBuAFBVV95cUxOMDJxSFZwYXFkdUFOR1ZlVFktYWF1NTFHcWJCU0xNUDNPZFhZdjhFZjhrZkExLWt5d1ZwYjNmTGgzWGh3VTkyV1RWTE9wUm5aMktLNEw4cXFmU0lfdjRsYlU0aFp6YW9ieDZHVUZDWGpjc3J4LW1VYlNTeHFTRHBYMUN1bTVBVTdvVE9pTldHNzBMRVlNdG5Bbnc4U1gzQ2dEVzhDUTNERXZWSTNZMkZqODBfcEw5Y2N5?oc=5",
-          "date": "Sat, 03 Oct 2026 04:48:00 GMT"
-        },
-        {
-          "quote": "Lo repudio, creo que está mal",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2J3U2dxcTltcDRad0huZ3NHc2d4YzBySmpfUTF1Ylhlc1dHZlpadjR2OVB3UWlucnlRekZKRVFlanBKd1I1ejZoMHdLSmt1VTY2cVd0Q3VFQkZ5X1VnWjdWZ1NXOFlkZ2NQbml3aEVTcU55VEY2M2VuV0ZJLWxzQXcxWHpoanRtNFEySGZOa2FUS3VHbGhGMDh1cVlsb3FaTF9uVmJrQ182dnNwSG9Ia3RBRzhXUTAwa1BoUFJWUmVzTjJ6bkVIMi1RWEJURGFHZTBLV3o0R2Y4dVFC?oc=5",
-          "date": "Thu, 08 Oct 2026 00:21:45 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "El secretario de Trabajo defendió el empleo informal: «No todo el mundo quiere un jefe» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTXYtRGlYWklaRFgtVFl6eXA1Y2tLS1RGTmFaRWlwOWdHT0ZDdXlwdkZvSFIxNm9tVllFTUdtQVQ2TlkwcFJxMDlPY2RwVlhrWVU5WmVtcmVJWjZkbHpVM2FrTlVVcFB5U2xFSHlyeUI3eUxhSHoxdFlnRnEtRVdvTw?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 14 Oct 2026 22:22:52 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Para el secretario de Trabajo, “no todos quieren trabajar en relación de dependencia” - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUUE5RnFxeUdNSUc4LWhBZjN3OEs5dnlxWjBZR3ZWVXp3aWlZNXllOVI4SzJUOUhVQkI2UElWUmpRMElfTTVtQ3E2QzFVTFBfbXVBc3RYaHdJa2NmNzJXZGQ1UEhCdklYRnJxejBTTTF5TDNUaTdRaUxKcHR6V3l4NUpIRHVJZkJPQnhTNGdHTGZHNWZXLWQ1Z1FmWGpQVm5Kdl9vaEx3emxmdXpZY2VxMndmUTRUcEo5M3U1QWFlTFdvbjVEeW5mM1Z3VnpGX1YtNGZuX1B3aTVGLUJsMWtxRkhRNUVneE5kYVd4UzV0Nk5jN3c5S1FV0gH3AUFVX3lxTE5RQTlGcXF5R01JRzgtaEFmM3c4Szl2eXFaMFlHdlZVendpaVk1eWU5UjhLMlQ5SFVCQjZQSVZSalEwSV9NNW1DcTZDMVVMUF9tdUFzdFhod0lrY2Y3MldkZDVQSEJ2SVhGcnF6MFNNMXlMM1RpN1FpTEpwdHpXeXg1SkhEdUlmQk9CeFM0Z0dMZkc1ZlctZDVnUWZYalBWbkp2X29oTHd6bGZ1elljZXEyd2ZRNFRwSjkzdTVBYWVMV29uNUR5bmYzVndWekZfVi00Zm5fUHdpNUYtQmwxa3FGSFE1RWd4TmRhV3hTNXQ2TmM3dzlLUVU?oc=5",
+          "source": "Informate Salta",
+          "date": "Wed, 14 Oct 2026 20:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Provincias Unidas rechazó el Presupuesto 2027 en educación: “No podemos convalidar el tratamiento” - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkVXX3VWOTJpb2ZrMjM1QWUzRTFRMnR1YVhPRkN2QjczZUtMMVgzT2QxdWJhRnpKOVpvRUpJQUpWcG40QnJTUWtEZ3hxM0h5WXYwWlpHU1hlSnVGdEtvMTI4ME1ncjd0dm10ZlBIeElfc29taHBNWmRnN2M2dUFvcXlDNUVzSDVTMjNYQWd2Q1JSSk9pdkpUelZ3WVQyUTNhT0JJOWhrNkY0QURIYklDeDNIaExXUXBnZVU5WEJ6c0ROeWJoMFU3NjhkeVBSdy03?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 14 Oct 2026 23:54:15 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Salta incorporó $5097 millones al Presupuesto y casi $2800 millones vienen de un préstamo - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3J2MVkwUEFKUmc2cmtQSVNVdFdFLTRNRXUtTlBQOWtNdl8yWXA3UXhXV19vcko2aW9mUld6SjNXZndDYUJ6a2N6VU5VYTIxOV9VTlExWmVZTHZYYXRvS3g5QzdrcnZnekVZNDJzWGdOemkxU3lnb1VNMFZtMllSRzNnby1BVHBRYk42M1NVQ0FpVG5GcXNsRXlVY2JvLXZINm1LYjZHanFwOHpHay1oWjRtbnhmYU1zeWR0b2QzYw?oc=5",
@@ -489,27 +510,6 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRkZqMllFY3hnaWFpWHFONkYyaGJ1OXVsSjJQajBhc1d3YjBfOUV3dl8yNUJHWkVkcF9fYk1pS3JSTkFta0dmSTNYVURISnJZTDVkV0RjRmFmSHlCZ2FlNUpwckJiZzVGVFJLbjR1eUE3Z2t0XzBJUmRhSEVKSHdQTkQ1aFh2cDFBd2JQWmpTaHVmYWM3Q0Y40gGcAUFVX3lxTE4xM19uanFhVGlYa3VPQVZRRTQxNFVITmRnWUp0eFl5VW0tWDhWbkxldnRWT2xEci1wQ3lreks4SmdCZXprX0haUDNFRDdsX09UQnZNeEl5Y1NRWVQ4cTd3VHdKQ256SUJLeXR6VFZvN3lxZF9hd1NZU2ZwY19wRkx4NjVTcy16WnNJLWtyRFBCT25YbFVNdUVUSmlnaQ?oc=5",
           "source": "El Tribuno",
           "date": "Sat, 10 Oct 2026 04:47:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto: se abre el debate en Diputados con poco margen para cambios - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzh5cFR5YlNELXhTNDY2ZGFHSjg1TV9LMldONEU5bzNFMzZoRUZIUzVFaUY4R0t0UGRxWm1Ja1o0amtwcHlKZW00bUxYczJjVTRNQWxyNGlWNm04QmRoZXBiSGFtNHRXMzVSTm1xOGwtRy0zUkZmYWNOdm1fQ0xYUUVjUVBwcm40RWFXVVd2X2JMN3Q1bUdmeDRoMU1oWmtkV3BrMlcyY0lTNjFkcHRLUHhfT20xZ3Q0MU0yanBHd2t0VzDSAcgBQVVfeXFMTkszbDF6U0NoMWNqQjlFZ0VsZjJPSUd2TkRzRTQ4LVBHMHNxTkZjeWQwUTNxUTZlY2IxRzUzdy1DSlZxODgzN1IwZENTUWl0V2lIcDNfTHRTWUhSRW1WNzAwQnltUW1xYzQ5ZzctYkJZUHdjWWNrRFNHMVFrQ0RvMEdIX2ZMS0R4TjBKTFJpUzFKeDhZei1GZ3FWVVVMYnphZ1hGRl9lNjJ4YzIyT2x3Z2xEU0xaeEk3THdMT2M3RE1YVFltUzhHemE?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 13 Oct 2026 04:31:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salud Mental: más de 104 mil consultas en Salta y dónde buscar ayuda - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkVZcTdTenpaYVdhVW8yc3dCTFhRbHdBZE9CbmJxNzhGVU1oVEJ6WjdHcWxMTkx2dUcyY3g3Unp5OURCYjJWZTFKaEptOHRzZmhiX1BJd3RlQ1VfZVk0TDc2MDQ0c2QyODBRWEFoVkJ1UkkwOTN1ZE1VX0tFU010X0VyNkpZelpRdXVGQ3RpMzdpZWc4MEk3WUJnSWRWWnpJd3lNOU9sMHFPU3YxV3d5Q3BHSnlDamc?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 09 Oct 2026 22:01:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Unión por la Patria pidió cambios al Presupuesto 2027 por los fondos universitarios - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSnM2blp2bG1sWUlDZktuWDIwYndsVF9MN0hoWEtNeFd0TVBnVHQybGpmenBkUkY3d0NWbHEyTnFSV1BObVRNYlVCUkZOeDNiN1FKa2VHZmVKak90bkRYcWRYSUU0ODNsblJvTzdxMmpORml2TUhaTWc5eUlOcW85NkxTaU1zZ1Y2?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 13 Oct 2026 03:17:23 GMT",
           "sentiment_label": "neutral"
         }
       ]
