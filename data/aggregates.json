@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-15T00:07:23.579011+00:00",
+  "generated_at": "2026-10-15T02:52:05.899559+00:00",
   "by_politician": {
+    "dip-gustavo-bernardo-dantur": {
+      "total": 7,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 7,
+      "score_sum": 0
+    },
+    "eje-juan-vilchez": {
+      "total": 8,
+      "positivo": 3,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 5
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 10,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 2
+    },
     "eje-ignacio-jarsun": {
       "total": 17,
       "positivo": 1,
@@ -106,13 +127,6 @@
       "neutral": 10,
       "score_sum": 0
     },
-    "dip-gustavo-bernardo-dantur": {
-      "total": 6,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 6,
-      "score_sum": 0
-    },
     "dip-german-dario-ralle": {
       "total": 18,
       "positivo": 1,
@@ -204,13 +218,6 @@
       "neutral": 46,
       "score_sum": 7
     },
-    "eje-juan-vilchez": {
-      "total": 7,
-      "positivo": 2,
-      "negativo": 0,
-      "neutral": 5,
-      "score_sum": 4
-    },
     "dip-gustavo-orlando-orozco": {
       "total": 40,
       "positivo": 1,
@@ -301,13 +308,6 @@
       "negativo": 0,
       "neutral": 7,
       "score_sum": 2
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 9,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 1
     },
     "dip-sergio-gerardo-oliva": {
       "total": 3,
@@ -927,6 +927,34 @@
     }
   },
   "by_day": {
+    "2025-11-26": {
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-camila-lobo": {
+        "total": 3,
+        "score_sum": -2
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2026-10-15": {
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-05-08": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -3525,20 +3553,6 @@
     },
     "2025-07-27": {
       "eje-roberto-dib-ashur": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2025-11-26": {
-      "eje-roberto-dib-ashur": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 3,
-        "score_sum": -2
-      },
-      "dip-guillermo-alejandro-kripper": {
         "total": 2,
         "score_sum": 0
       }
@@ -15455,19 +15469,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 13
-    },
-    {
-      "term": "flavia",
-      "count": 9
-    },
-    {
-      "term": "royón",
-      "count": 9
-    },
-    {
-      "term": "reunió",
-      "count": 9
+      "count": 11
     },
     {
       "term": "emergencias",
@@ -15479,6 +15481,10 @@
     },
     {
       "term": "comité",
+      "count": 8
+    },
+    {
+      "term": "reunió",
       "count": 8
     },
     {
@@ -15494,7 +15500,11 @@
       "count": 8
     },
     {
-      "term": "tribuno",
+      "term": "flavia",
+      "count": 7
+    },
+    {
+      "term": "royón",
       "count": 7
     },
     {
@@ -15506,11 +15516,15 @@
       "count": 7
     },
     {
-      "term": "cristina",
+      "term": "nuevo",
       "count": 6
     },
     {
-      "term": "milei",
+      "term": "tribuno",
+      "count": 6
+    },
+    {
+      "term": "cristina",
       "count": 6
     }
   ],
