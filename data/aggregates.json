@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-15T04:33:45.194458+00:00",
+  "generated_at": "2026-10-15T09:25:47.655058+00:00",
   "by_politician": {
+    "eje-ignacio-jarsun": {
+      "total": 18,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 13,
+      "score_sum": -6
+    },
     "dip-gustavo-bernardo-dantur": {
       "total": 7,
       "positivo": 0,
@@ -21,13 +28,6 @@
       "negativo": 0,
       "neutral": 8,
       "score_sum": 2
-    },
-    "eje-ignacio-jarsun": {
-      "total": 17,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 12,
-      "score_sum": -6
     },
     "snac-flavia-royon": {
       "total": 80,
@@ -927,6 +927,52 @@
     }
   },
   "by_day": {
+    "2026-09-18": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-pablo-outes": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 16,
+        "score_sum": -2
+      },
+      "sen-jorge-soto": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
     "2025-11-26": {
       "dip-gustavo-bernardo-dantur": {
         "total": 1,
@@ -7072,48 +7118,6 @@
       },
       "gustavo-saenz": {
         "total": 6,
-        "score_sum": 0
-      }
-    },
-    "2026-09-18": {
-      "dnac-pablo-outes": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 2,
-        "score_sum": 2
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 16,
-        "score_sum": -2
-      },
-      "sen-jorge-soto": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "sen-juan-cruz-cura": {
-        "total": 3,
         "score_sum": 0
       }
     },
