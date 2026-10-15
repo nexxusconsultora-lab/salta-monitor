@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "newar-offline.html"
 # Mismos nombres que usa index.html en SRC (archivo sin .json)
 DATOS = ["politicians", "curriculums", "aggregates", "mentions", "dossiers", "topics_data",
-         "events", "news_general", "topic_mentions", "oficiales", "oficiales_status", "orden_del_dia", "nomina_status", "resoluciones", "judicial"]
+         "events", "news_general", "topic_mentions", "oficiales", "oficiales_status", "orden_del_dia", "nomina_status", "resoluciones", "judicial", "geo_argentina", "provincias_ar"]
 
 
 def main() -> int:
@@ -50,6 +50,11 @@ def main() -> int:
     js = RAIZ / "judicial.js"
     if js.exists():
         html = html.replace('<script src="judicial.js"></script>', "<script>\n" + js.read_text(encoding="utf-8").replace("</script", "<\\/script") + "\n</script>")
+
+    # 1c) Módulo Argentina (mapa bicontinental): argentina.js también va dentro del archivo
+    js = RAIZ / "argentina.js"
+    if js.exists():
+        html = html.replace('<script src="argentina.js"></script>', "<script>\n" + js.read_text(encoding="utf-8").replace("</script", "<\\/script") + "\n</script>")
 
     # 2) Tipografías como data: URI (bajo file:// el navegador no siempre carga fuentes externas)
     html = re.sub(r'<link rel="preload" href="fonts/[^>]+>\n', "", html)
