@@ -156,6 +156,9 @@ nav .tabs a.on{color:var(--ink);background:var(--sel);border-color:var(--clay);f
  .wrap{max-width:1380px;margin:0 0 0 176px;padding:1.25rem 1.5rem 3rem}
 }
 @media(max-width:899px){nav .tabs{overflow-x:auto}.wrap{max-width:none}}
+nav .tabs .tg{display:none}
+@media(min-width:900px){nav .tabs .tg{display:block;font:600 .62rem Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);opacity:.8;padding:.95rem 1rem .25rem 1.3rem}nav .tabs .tg:first-child{padding-top:.4rem}}
+@media(max-width:640px){nav h1{flex:none}nav .upd{flex:1 1 auto;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}nav .upd b{display:none}}
 /* contenido */
 .wrap{padding-top:1.1rem}
 h2.sec{display:flex;align-items:center;gap:.55rem;font:700 .74rem Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--ink);border-bottom:1px solid var(--line);padding:0 0 .55rem;margin:1.6rem 0 .9rem}
@@ -1742,12 +1745,17 @@ const redX=()=>{const el=$('#rg');if(!el||!RED._N)return;redGuardar();const N=RE
   el.addEventListener('keydown',e=>{const b=e.target.closest&&e.target.closest('[data-rc]');if(b&&(e.key==='Enter'||e.key===' ')){e.preventDefault();b.click()}})}
  redPath()};
 const TABS=[['inicio','Inicio'],['diario','Diario'],['estrategia','Estrategia'],['sesiones','Sesiones'],['mapas','Mapas'],['buscar','Buscar'],['notas','Notas'],['personas','Personas'],['ejecutivo','Ejecutivo'],['legislativo','Legislativo'],['menciones','Menciones'],['medios','Medios'],['estadisticas','Estadísticas'],['temas','Temas'],['palabras','Palabras'],['cruce','Cruce'],['mayorias','Mayorías'],['hemiciclo','Hemiciclo'],['mapa','Mapa'],['verificar','Verificar'],['voz','Voz y peso'],['red','Red'],['casos','Casos'],['calidad','Calidad'],['fuentes','Fuentes'],['eventos','Eventos'],['resumen','Resumen'],['oficiales','Oficiales'],['destacados','Destacados'],['control','Control']];
+/* menú lateral por secciones: solo agrupa y rotula; el orden dentro de cada sección es el de TABS y lo que no figura va al final en «Más» */
+const TGRP=[['Panorama',['inicio','diario','resumen','destacados']],['Buscar y seguir',['buscar','notas','menciones','medios','temas','palabras','eventos']],['Personas y poder',['personas','ejecutivo','legislativo','judicial','mayorias','hemiciclo','voz','verificar','cruce','red','estrategia','sesiones']],['Mapas y datos',['mapas','mapa','argentina','estadisticas']],['Trabajo',['casos','calidad','fuentes','oficiales','control']]];
+const navTabs=tab=>{const usado=new Set(),a=t=>`<a href="#/${t[0]}" class="${t[0]===tab?'on':''}"${t[0]===tab?' aria-current="page"':''}>${t[1]}</a>`;let h='';
+ for(const[g,ks]of TGRP){const xs=TABS.filter(t=>ks.includes(t[0]));if(!xs.length)continue;xs.forEach(t=>usado.add(t[0]));h+=`<span class="tg" aria-hidden="true">${g}</span>`+xs.map(a).join('')}
+ const resto=TABS.filter(t=>!usado.has(t[0]));if(resto.length)h+='<span class="tg" aria-hidden="true">Más</span>'+resto.map(a).join('');return h};
 const NEEDS={mapas:[],inicio:['top','ev','of'],medios:['news'],estadisticas:['news'],sesiones:['odd'],personas:[],persona:['dos','of','cur'],ejecutivo:['cur'],legislativo:['cur'],menciones:[],palabras:[],palabra:[],cruce:[],red:[],calidad:['cur'],mayorias:[],mapa:['ind','cen'],hemiciclo:[],diario:[],estrategia:[],verificar:[],voz:[],casos:[],buscar:['cur'],notas:['news'],fuentes:[],temas:['top','tm'],tema:['top','tm'],eventos:['ev'],resumen:['news'],oficiales:['of','ofst'],destacados:[],control:['top','ev','news','of','ofst','dos','tm','nomst']};
 const SITIO='https://nexxusconsultora-lab.github.io/salta-monitor/';
 let firstRoute=true,rt=0;
 async function route(){const my=++rt;const keep=KEEP;KEEP=false;const [v,arg,arg2]=(location.hash.replace(/^#\/?/,'')||'inicio').split('/');const name=V[v]?v:'inicio',id=arg?decodeURIComponent(arg):'',id2=arg2?decodeURIComponent(arg2):'';
  const tab=(name==='persona')?'personas':(name==='tema'?'temas':(name==='palabra'?'palabras':name));
- $('#tabs').innerHTML=TABS.map(([k,l])=>`<a href="#/${k}" class="${k===tab?'on':''}"${k===tab?' aria-current="page"':''}>${l}</a>`).join('');{const a=$('#tabs .on');if(a&&a.scrollIntoView)a.scrollIntoView({inline:'center',block:'nearest'})}
+ $('#tabs').innerHTML=navTabs(tab);{const a=$('#tabs .on');if(a&&a.scrollIntoView)a.scrollIntoView({inline:'center',block:'nearest'})}
  const ns=NEEDS[name]||[];
  if(ns.some(k=>!(k in S))){$('#app').innerHTML='<p class="empty" role="status">Cargando datos…</p>';await need(...ns);if(my!==rt)return}
  const fr=GEN&&Date.now()-GEN>36*36e5?`<p class="warn" role="status"><b>Los datos no se actualizan desde ${esc(rel(GEN).replace('hace ',''))}.</b> La última corrida del recolector fue el ${esc(fdate(GEN))}. Lo que ves refleja esa fecha, no el día de hoy (por eso los gráficos de «últimos días» pueden estar vacíos). Revisá la pestaña <a href="#/control">Control</a>.</p>`:'';
@@ -2059,5 +2067,6 @@ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.tar
 })();
 </script>
 <script src="judicial.js"></script>
+<script src="argentina.js"></script>
 </body>
 </html>
