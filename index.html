@@ -272,6 +272,56 @@ nav .tabs a:hover{color:var(--ink);background:var(--raised)}[data-tip]{cursor:de
 .seg-w{border:1px solid var(--line);background:var(--raised);padding:1rem 1.1rem;margin:1rem 0}.seg-w .row2{display:flex;justify-content:space-between;align-items:center;gap:.6rem}.spw2{display:flex;align-items:center;gap:.5rem;flex:none}
 .dlt{font-size:.72rem;padding:.05rem .45rem;border-radius:99px;margin-left:.3rem;border:1px solid var(--line);white-space:nowrap;font-weight:600}.dlt.up{color:var(--pos)}.dlt.dn{color:var(--neg)}
 .tabl th button{font:inherit;font-weight:700;background:none;border:0;cursor:pointer;color:inherit;padding:0}.tabl th button.on{text-decoration:underline}.bi{display:inline-block;height:.5rem;background:var(--indigo);margin-right:.4rem;vertical-align:middle}
+/* ===== Sala de control (modo HUD futurista): se activa en pantalla completa o con el botón ◈ ===== */
+:is(body.hud,.mgrid.mfs,.pzw.fs){--paper:#04070F;--raised:#0A1424;--bar:#070D19;--line:#16304F;--field:#2A5A86;--ink:#E8F4FF;--soft:#8FA9C8;--clay:#22E3FF;--onclay:#021018;--indigo:#8FA8FF;--onind:#04101D;--pos:#1FD48A;--postx:#4DE8AE;--neg:#FF3E6C;--neu:#6C7F9E;--warn:#1A1B12;--negtx:#FF7C9B;--hov:#0F2038;--sel:rgba(34,227,255,.14);--glow:rgba(34,227,255,.38);color-scheme:dark}
+body.hud{background:radial-gradient(1100px 560px at 6% -8%,rgba(34,227,255,.13),transparent 60%),radial-gradient(900px 600px at 100% 108%,rgba(143,168,255,.13),transparent 60%),#04070F;background-attachment:fixed}
+body.hud::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(34,227,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(34,227,255,.05) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%);mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%)}
+body.hud::after{content:"";position:fixed;left:0;right:0;top:-20%;height:18%;pointer-events:none;z-index:1;background:linear-gradient(transparent,rgba(34,227,255,.045),transparent);animation:hscan 10s linear infinite}
+@keyframes hscan{to{top:112%}}
+body.hud .wrap{position:relative;z-index:2;max-width:none;padding:1.4rem 2rem 5rem}
+body.hud nav.top{position:sticky;z-index:6;background:rgba(4,8,16,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid rgba(34,227,255,.38);box-shadow:0 1px 22px -6px var(--glow),0 12px 40px -14px rgba(0,0,0,.9)}
+body.hud nav h1{letter-spacing:.34em;background:linear-gradient(90deg,#fff,var(--clay) 55%,var(--indigo));-webkit-background-clip:text;background-clip:text;color:transparent}
+body.hud nav h1::before{background:var(--clay);box-shadow:0 0 14px var(--clay),0 0 2px #fff}
+body.hud #clock{color:var(--clay);text-shadow:0 0 10px var(--glow)}
+body.hud nav .tabs a{letter-spacing:.07em;text-transform:uppercase;font-size:.72rem}
+body.hud nav .tabs a:hover{background:rgba(34,227,255,.08);color:#fff}
+body.hud nav .tabs a.on{color:#fff;text-shadow:0 0 12px var(--glow);background:linear-gradient(90deg,rgba(34,227,255,.18),transparent);box-shadow:0 0 22px -8px var(--glow)}
+@media(min-width:900px){body.hud nav .tabs{bottom:2.4rem;background:linear-gradient(180deg,rgba(7,13,25,.96),rgba(4,7,15,.96));border-right:1px solid rgba(34,227,255,.28);box-shadow:inset -1px 0 26px -14px var(--glow)}body.hud nav .tabs .tg{color:var(--clay);opacity:.75;letter-spacing:.24em}}
+body.hud :is(h1,h2,h3,.serif){font-family:Inter,system-ui,sans-serif}
+body.hud h2.sec{color:var(--clay);letter-spacing:.24em;text-shadow:0 0 16px var(--glow);border-bottom:0;position:relative;padding-bottom:.65rem}
+body.hud h2.sec::before{box-shadow:0 0 10px var(--clay)}
+body.hud h2.sec::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--clay),rgba(34,227,255,0) 85%)}
+body.hud .sh{color:var(--clay);opacity:.92;letter-spacing:.16em;border-bottom-color:rgba(34,227,255,.22)}
+body.hud :is(.card,.box,.person,.rx,.seg-w,.cs,.veredicto,.pnl,.pgrid .prow,.kt,.vd-card,.nxbx){position:relative;border:1px solid rgba(34,227,255,.16);border-radius:2px;background:linear-gradient(var(--clay),var(--clay)) top left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/1px 12px no-repeat,linear-gradient(160deg,rgba(14,28,50,.92),rgba(7,14,26,.92));box-shadow:0 10px 30px -16px rgba(0,0,0,.95),inset 0 0 44px -26px var(--glow)}
+body.hud :is(a.card:hover,.news .box:hover,.pgrid .prow:hover){border-color:rgba(34,227,255,.55);box-shadow:0 0 0 1px rgba(34,227,255,.35),0 0 26px -6px var(--glow)}
+body.hud :is(.card .n,.box b,.kv,.hc1){color:#fff;text-shadow:0 0 14px var(--glow)}
+body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button,.pcbar button,.more,.pinb,#gs input){background:rgba(10,20,36,.88);color:var(--ink);border-color:rgba(34,227,255,.3);border-radius:2px}
+body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button,.more,.pinb):hover{border-color:var(--clay);box-shadow:0 0 16px -3px var(--glow)}
+body.hud :is(.ctl button.on,.seg button.on,.chips button.on,.ctl .seg button.on){background:linear-gradient(135deg,var(--clay),var(--indigo));color:#04101D;border-color:transparent;box-shadow:0 0 20px -3px var(--glow)}
+body.hud select option{background:#0A1424;color:var(--ink)}
+body.hud :is(.ch,.pzw,.mg,.rg svg){border-color:rgba(34,227,255,.3);background:linear-gradient(180deg,rgba(14,28,50,.6),rgba(6,12,22,.7))}
+body.hud :is(.ch rect,.ch polyline,.ch circle,.dn circle){filter:drop-shadow(0 0 3px rgba(34,227,255,.32))}
+body.hud .hb .bar i{box-shadow:0 0 12px -2px var(--mc,var(--clay))}
+body.hud .hm th{background:#0C1A30;color:var(--clay);letter-spacing:.07em;font-size:.7rem;text-transform:uppercase}
+body.hud .hm th:first-child,body.hud .hm td:first-child{background:#0A1424}
+body.hud *{scrollbar-color:rgba(34,227,255,.4) transparent}
+body.hud ::selection{background:rgba(34,227,255,.35);color:#fff}
+body.hud :is(#up,.toast){bottom:3.4rem}body.hud #up{right:5.4rem}body.hud .pcbar{bottom:3rem}
+.mgrid.mfs,.pzw.fs{background:radial-gradient(900px 500px at 8% -10%,rgba(34,227,255,.12),transparent 60%),linear-gradient(rgba(34,227,255,.04) 1px,transparent 1px) 0 0/44px 44px,linear-gradient(90deg,rgba(34,227,255,.04) 1px,transparent 1px) 0 0/44px 44px,#04070F}
+:is(.mgrid.mfs,.pzw.fs) :is(.mside,.kt,.rr){border-color:rgba(34,227,255,.28)}:is(.mgrid.mfs,.pzw.fs) :is(h1,h2,h3,.sh){font-family:Inter,system-ui,sans-serif;color:var(--clay)}
+#hudb.on{background:var(--clay);color:#021018;border-color:var(--clay);box-shadow:0 0 16px -2px var(--glow,#22E3FF)}
+#hudbar{position:fixed;left:0;right:0;bottom:0;height:2.4rem;z-index:40;display:flex;align-items:center;gap:1rem;padding:0 1rem env(safe-area-inset-bottom,0px);background:rgba(4,8,16,.93);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid rgba(34,227,255,.42);box-shadow:0 -8px 30px -10px rgba(34,227,255,.38);font:600 .74rem/1 ui-monospace,"Cascadia Mono",Consolas,monospace;color:#E8F4FF;letter-spacing:.06em}
+#hudbar .hl{display:flex;align-items:center;gap:.45rem;color:#22E3FF;white-space:nowrap}#hudbar .hl i{width:.5rem;height:.5rem;border-radius:50%;background:#FF3E6C;box-shadow:0 0 10px #FF3E6C;animation:hpulse 1.4s ease-in-out infinite}
+@keyframes hpulse{50%{opacity:.25}}
+#hudbar .tk{flex:1;min-width:0;overflow:hidden;white-space:nowrap;-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+#hudbar .tkt{display:inline-flex;animation:htk 120s linear infinite}#hudbar .tk:hover .tkt{animation-play-state:paused}
+@keyframes htk{to{transform:translateX(-50%)}}
+#hudbar .tkt a{display:inline-flex;align-items:center;gap:.45rem;margin-right:2.4rem;color:#E8F4FF;text-decoration:none;font-weight:500}#hudbar .tkt a:hover{color:#22E3FF}
+#hudbar .tkt i{width:.5rem;height:.5rem;border-radius:50%;flex:none}#hudbar .tkt b{color:#22E3FF;font-weight:700}
+#hudbar .hc{white-space:nowrap;color:#8FA9C8}#hudbar .hc b{color:#fff;margin-right:.5rem;font-size:.85rem;text-shadow:0 0 10px rgba(34,227,255,.5)}
+@media print{body.hud::before,body.hud::after,#hudbar{display:none!important}}
+@media(prefers-reduced-motion:reduce){body.hud::after{display:none}#hudbar .tkt{animation:none}#hudbar .hl i{animation:none}}
+@media(max-width:640px){#hudbar .hc span{display:none}body.hud .wrap{padding:1rem .9rem 5rem}}
 </style>
 <script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('newar_tema_v1')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
 </head>
@@ -2064,6 +2114,35 @@ Object.assign(ACT,{
  'esp-csv':()=>{if(!_ESPR||!_ESPR.length)return aviso('No hay datos para exportar.');bajarCSV('estadisticas-personas-'+ESP.per+'d-'+dkey(new Date())+'.csv',[['Persona','Cargo','Menciones','Período previo','Diferencia','Positivas','Neutrales','Negativas','Con declaración','Medios distintos'],..._ESPR.map(r=>[r.p.nombre,esCargo(r.p),r.n,r.pv,r.n-r.pv,r.pos,r.neu,r.neg,r.q,Object.keys(r.med).length])])}});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[data-nx][role=button]')){e.preventDefault();e.target.click()}});
 {const o=V.estadisticas;V.estadisticas=function(){const h=o.apply(this,arguments);setTimeout(()=>{need('news').catch(()=>0).then(()=>{try{estPlusPaint()}catch(x){console.error('NEWAR+ Estadísticas',x)}})},0);return h+'<div id="nxes"></div>'}}
+})();
+</script>
+<script>
+/* ===== Sala de control (HUD): pantalla completa futurista, con barra de titulares en vivo y reloj ===== */
+(()=>{
+const HUD={on:false,how:'',noAuto:false,fse:false,iv:0,rt:0};
+const fsAhora=()=>!!document.fullscreenElement||(matchMedia('(hover:hover) and (pointer:fine)').matches&&innerWidth>=screen.width-1&&innerHeight>=screen.height-1);
+const reloj=()=>{const e=document.getElementById('hudclock');if(!e)return;const n=new Date(),o={timeZone:'America/Argentina/Salta'};e.innerHTML='<b>'+n.toLocaleTimeString('es-AR',Object.assign({hour12:false},o))+'</b><span>'+n.toLocaleDateString('es-AR',Object.assign({weekday:'short',day:'2-digit',month:'short'},o))+'</span>'};
+const ticker=()=>{const el=document.getElementById('hudtk');if(!el)return;const l=(S.news||[]).slice().sort((a,b)=>(pd(b.published_iso||b.collected_at)||0)-(pd(a.published_iso||a.collected_at)||0)).slice(0,16);
+ if(!l.length){el.innerHTML='<span>Esperando datos…</span>';return}
+ const it=l.map(n=>`<a href="${esc(safe(n.link))}" target="_blank" rel="noopener noreferrer"><i style="background:${medioColor(n.source)}"></i><b>${esc(medioNombre(n.source))}</b>${esc(tituloSinMedio(n))}</a>`).join('');
+ el.innerHTML=`<div class="tkt" style="animation-duration:${Math.max(80,Math.round(l.reduce((a,n)=>a+String(n.title||'').length,0)/5))}s">${it}${it}</div>`};
+const set=(on,how)=>{if(on===HUD.on)return;HUD.on=on;HUD.how=on?how:'';document.body.classList.toggle('hud',on);
+ const b=document.getElementById('hudb');if(b){b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)}
+ let bar=document.getElementById('hudbar');
+ if(on){if(!bar){bar=document.createElement('div');bar.id='hudbar';bar.setAttribute('role','status');bar.setAttribute('aria-label','Barra de estado de la sala de control');bar.innerHTML='<span class="hl"><i></i>EN VIVO</span><div class="tk" id="hudtk"></div><span class="hc" id="hudclock"></span>';document.body.appendChild(bar)}
+  reloj();clearInterval(HUD.iv);HUD.iv=setInterval(reloj,1000);ticker();need('news').then(ticker).catch(()=>{});clearInterval(HUD.rt);HUD.rt=setInterval(ticker,3e5)}
+ else{clearInterval(HUD.iv);clearInterval(HUD.rt);if(bar)bar.remove()}};
+NX_HUD=window.NX_HUD={set,state:HUD};
+const btn=document.getElementById('thb');
+if(btn&&!document.getElementById('hudb'))btn.insertAdjacentHTML('afterend','<button class="lv" id="hudb" type="button" aria-pressed="false" aria-label="Sala de control: pantalla completa futurista" title="Sala de control (Alt+H): pantalla completa con estilo HUD">◈</button>');
+const toggle=()=>{if(HUD.on){if(fsAhora())HUD.noAuto=true;if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen().catch(()=>{});set(false)}
+ else{set(true,'api');try{const r=document.documentElement.requestFullscreen;if(r)r.call(document.documentElement).catch(()=>{})}catch(e){}}};
+document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('#hudb'))toggle()});
+document.addEventListener('keydown',e=>{if(e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.code==='KeyH'||e.key==='h'||e.key==='H')){e.preventDefault();toggle()}});
+document.addEventListener('fullscreenchange',()=>{if(document.fullscreenElement===document.documentElement){HUD.fse=true;if(!HUD.on)set(true,'api')}else if(HUD.fse){HUD.fse=false;if(HUD.on&&HUD.how==='api')set(false)}});
+const auto=()=>{const f=fsAhora();if(!f)HUD.noAuto=false;let off=false;try{off=localStorage.getItem('newar_hud_auto_v1')==='0'}catch(e){}
+ if(f&&!HUD.on&&!HUD.noAuto&&!off)set(true,'auto');else if(!f&&HUD.on&&HUD.how==='auto')set(false)};
+addEventListener('resize',auto);setTimeout(auto,900);
 })();
 </script>
 <script src="judicial.js"></script>
