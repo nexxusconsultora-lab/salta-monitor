@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T15:11:26+00:00",
+ "actualizado": "2026-10-15T15:04:32+00:00",
  "nota": "Indicadores provinciales del INDEC. 'ultimo' es el último período publicado; no es de hoy.",
  "indicadores": [
   {
@@ -11,20 +11,35 @@
    "fuente": "INDEC · EPH continua, vía datos.gob.ar",
    "enlace": "https://datos.gob.ar/series/api/series/?ids=64.2_POBLACION_NUA_0_0_34_96",
    "ultimo": {
-    "fecha": "2026-01-01",
-    "periodo": "2026-01-01",
-    "valor": 29.7
+    "fecha": "2025-07-01",
+    "periodo": "2025-07-01",
+    "valor": 29.5
    },
    "serie": [
     {
-     "fecha": "2022-07-01",
-     "periodo": "2022-07-01",
-     "valor": 34.5
+     "fecha": "2018-07-01",
+     "periodo": "2018-07-01",
+     "valor": 26.4
     },
     {
-     "fecha": "2023-01-01",
-     "periodo": "2023-01-01",
-     "valor": 40.1
+     "fecha": "2019-01-01",
+     "periodo": "2019-01-01",
+     "valor": 37.7
+    },
+    {
+     "fecha": "2019-07-01",
+     "periodo": "2019-07-01",
+     "valor": 41.8
+    },
+    {
+     "fecha": "2020-07-01",
+     "periodo": "2020-07-01",
+     "valor": 45.5
+    },
+    {
+     "fecha": "2022-01-01",
+     "periodo": "2022-01-01",
+     "valor": 38.9
     },
     {
      "fecha": "2023-07-01",
@@ -32,29 +47,14 @@
      "valor": 37.5
     },
     {
-     "fecha": "2024-01-01",
-     "periodo": "2024-01-01",
-     "valor": 42.4
-    },
-    {
      "fecha": "2024-07-01",
      "periodo": "2024-07-01",
      "valor": 52.2
     },
     {
-     "fecha": "2025-01-01",
-     "periodo": "2025-01-01",
-     "valor": 41.2
-    },
-    {
      "fecha": "2025-07-01",
      "periodo": "2025-07-01",
      "valor": 29.5
-    },
-    {
-     "fecha": "2026-01-01",
-     "periodo": "2026-01-01",
-     "valor": 29.7
     }
    ]
   },
@@ -185,19 +185,14 @@
    },
    "serie": [
     {
-     "fecha": "2023-07-01",
-     "periodo": "2023-07-01",
-     "valor": 43.5
-    },
-    {
-     "fecha": "2023-10-01",
-     "periodo": "2023-10-01",
-     "valor": 46.1
-    },
-    {
      "fecha": "2024-07-01",
      "periodo": "2024-07-01",
      "valor": 43.5
+    },
+    {
+     "fecha": "2024-10-01",
+     "periodo": "2024-10-01",
+     "valor": 43.8
     },
     {
      "fecha": "2025-01-01",
@@ -208,6 +203,11 @@
      "fecha": "2025-04-01",
      "periodo": "2025-04-01",
      "valor": 42.5
+    },
+    {
+     "fecha": "2025-07-01",
+     "periodo": "2025-07-01",
+     "valor": 41.7
     },
     {
      "fecha": "2025-10-01",
@@ -228,7 +228,6 @@
   }
  ],
  "no_actualizados": [
-  "pobreza_personas",
   "desempleo"
  ]
 }
