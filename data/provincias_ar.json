@@ -1,0 +1,159 @@
+{
+ "fuente_poblacion": "INDEC, Censo Nacional de Población, Hogares y Viviendas 2022, resultados definitivos (población censada, no la estimada). Cifras tomadas de la difusión del 21/11/2023 y cotejadas contra otras notas; Neuquén (710.814) se tomó de LM Neuquén y Río Negro porque la lista que se usó de base traía el valor provisorio. La suma de las 24 jurisdicciones da 45.892.285, igual al total censado que publicó el INDEC.",
+ "enlace_fuente": "https://censo.gob.ar/",
+ "verificado_contra": "suma nacional (45.892.285). No se pudo abrir censo.gob.ar desde el entorno de trabajo (bloquea accesos automáticos): conviene cotejar contra el cuadro resumen oficial.",
+ "total_censado": 45892285,
+ "nota_poblacion": "Tierra del Fuego, Antártida e Islas del Atlántico Sur es una sola jurisdicción para el INDEC; su población vive en la isla grande de Tierra del Fuego.",
+ "congreso": {
+  "diputados": 257,
+  "senadores": 72,
+  "fuente": "Constitución Nacional (arts. 45 y 54) y Ley 22.847: composición legal por distrito, no resultados electorales. El total de 257 coincide con la suma; el dato de Salta (7 diputados y 3 senadores) coincide con la nómina de data/politicians.json. El resto no se recotejó contra la web de la Cámara."
+ },
+ "ejecutivo_nota": "Gobernador, vicegobernador, partido y mandato de cada provincia: sin dato verificado todavía. No se cargó nada de memoria. Cuando haya fuente oficial por provincia, se completa el campo «ejecutivo» de cada una (ver GUIA_MAPA_ARGENTINA.md).",
+ "provincias": {
+  "buenos-aires": {
+   "poblacion": 17523996,
+   "diputados": 70,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "caba": {
+   "poblacion": 3121707,
+   "diputados": 25,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "catamarca": {
+   "poblacion": 429562,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "chaco": {
+   "poblacion": 1129606,
+   "diputados": 7,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "chubut": {
+   "poblacion": 592621,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "cordoba": {
+   "poblacion": 3840905,
+   "diputados": 18,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "corrientes": {
+   "poblacion": 1212696,
+   "diputados": 7,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "entre-rios": {
+   "poblacion": 1425578,
+   "diputados": 9,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "formosa": {
+   "poblacion": 607419,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "jujuy": {
+   "poblacion": 811611,
+   "diputados": 6,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "la-pampa": {
+   "poblacion": 361859,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "la-rioja": {
+   "poblacion": 383865,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "mendoza": {
+   "poblacion": 2043540,
+   "diputados": 10,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "misiones": {
+   "poblacion": 1278873,
+   "diputados": 7,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "neuquen": {
+   "poblacion": 710814,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "rio-negro": {
+   "poblacion": 750768,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "salta": {
+   "poblacion": 1441351,
+   "diputados": 7,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "san-juan": {
+   "poblacion": 822853,
+   "diputados": 6,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "san-luis": {
+   "poblacion": 542069,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "santa-cruz": {
+   "poblacion": 337226,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "santa-fe": {
+   "poblacion": 3544908,
+   "diputados": 19,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "santiago-del-estero": {
+   "poblacion": 1060906,
+   "diputados": 7,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "tierra-del-fuego": {
+   "poblacion": 185732,
+   "diputados": 5,
+   "senadores": 3,
+   "ejecutivo": null
+  },
+  "tucuman": {
+   "poblacion": 1731820,
+   "diputados": 9,
+   "senadores": 3,
+   "ejecutivo": null
+  }
+ }
+}
