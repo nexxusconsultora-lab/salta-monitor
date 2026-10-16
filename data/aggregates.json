@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-10-16T17:43:35.710601+00:00",
+  "generated_at": "2026-10-16T20:09:55.829842+00:00",
   "by_politician": {
+    "dip-gustavo-orlando-orozco": {
+      "total": 41,
+      "positivo": 1,
+      "negativo": 11,
+      "neutral": 29,
+      "score_sum": -24
+    },
+    "eje-cristina-fiore": {
+      "total": 33,
+      "positivo": 1,
+      "negativo": 11,
+      "neutral": 21,
+      "score_sum": -32
+    },
+    "eje-federico-mangione": {
+      "total": 25,
+      "positivo": 1,
+      "negativo": 3,
+      "neutral": 21,
+      "score_sum": -2
+    },
+    "eje-mario-mimessi": {
+      "total": 27,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 24,
+      "score_sum": -3
+    },
+    "eje-ignacio-jarsun": {
+      "total": 21,
+      "positivo": 2,
+      "negativo": 4,
+      "neutral": 15,
+      "score_sum": 0
+    },
+    "eje-sergio-camacho": {
+      "total": 14,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 10,
+      "score_sum": 9
+    },
+    "dip-eduardo-jose-virgili": {
+      "total": 12,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 9,
+      "score_sum": 1
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 54,
+      "positivo": 4,
+      "negativo": 10,
+      "neutral": 40,
+      "score_sum": -9
+    },
     "gustavo-saenz": {
-      "total": 275,
+      "total": 276,
       "positivo": 64,
-      "negativo": 38,
+      "negativo": 39,
       "neutral": 173,
-      "score_sum": 107
+      "score_sum": 103
     },
     "eje-juan-vilchez": {
       "total": 9,
@@ -22,20 +78,6 @@
       "neutral": 42,
       "score_sum": -3
     },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 53,
-      "positivo": 4,
-      "negativo": 9,
-      "neutral": 40,
-      "score_sum": -8
-    },
-    "eje-cristina-fiore": {
-      "total": 32,
-      "positivo": 1,
-      "negativo": 11,
-      "neutral": 20,
-      "score_sum": -32
-    },
     "snac-flavia-royon": {
       "total": 82,
       "positivo": 7,
@@ -50,13 +92,6 @@
       "neutral": 16,
       "score_sum": 5
     },
-    "eje-federico-mangione": {
-      "total": 24,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 20,
-      "score_sum": -2
-    },
     "dip-guillermo-alejandro-kripper": {
       "total": 12,
       "positivo": 0,
@@ -69,13 +104,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 12,
-      "score_sum": 0
-    },
-    "eje-ignacio-jarsun": {
-      "total": 20,
-      "positivo": 2,
-      "negativo": 4,
-      "neutral": 14,
       "score_sum": 0
     },
     "eje-roberto-dib-ashur": {
@@ -197,13 +225,6 @@
       "neutral": 26,
       "score_sum": -2
     },
-    "eje-sergio-camacho": {
-      "total": 13,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 9,
-      "score_sum": 9
-    },
     "eje-antonio-marocco": {
       "total": 16,
       "positivo": 3,
@@ -302,13 +323,6 @@
       "neutral": 17,
       "score_sum": -34
     },
-    "eje-mario-mimessi": {
-      "total": 26,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 23,
-      "score_sum": -3
-    },
     "dip-hector-raul-vargas": {
       "total": 1,
       "positivo": 1,
@@ -364,13 +378,6 @@
       "negativo": 1,
       "neutral": 46,
       "score_sum": 7
-    },
-    "dip-gustavo-orlando-orozco": {
-      "total": 40,
-      "positivo": 1,
-      "negativo": 10,
-      "neutral": 29,
-      "score_sum": -22
     },
     "concejal-laura-jorge-saravia": {
       "total": 42,
@@ -525,13 +532,6 @@
       "negativo": 13,
       "neutral": 47,
       "score_sum": -21
-    },
-    "dip-eduardo-jose-virgili": {
-      "total": 11,
-      "positivo": 1,
-      "negativo": 1,
-      "neutral": 9,
-      "score_sum": 0
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 9,
@@ -927,26 +927,52 @@
     }
   },
   "by_day": {
-    "2026-10-16": {
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": -4
-      },
-      "eje-juan-vilchez": {
+    "2022-01-20": {
+      "dip-gustavo-orlando-orozco": {
         "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-10-16": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-federico-mangione": {
+        "total": 2,
         "score_sum": -1
       },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 1
+      },
       "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": -8
+      },
+      "eje-juan-vilchez": {
         "total": 1,
         "score_sum": -1
       },
       "dnac-bernardo-biella": {
         "total": 2,
         "score_sum": 3
-      },
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": -1
       },
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -15698,12 +15724,12 @@
   ],
   "trending_terms": [
     {
-      "term": "diputados",
-      "count": 19
+      "term": "sáenz",
+      "count": 17
     },
     {
-      "term": "sáenz",
-      "count": 18
+      "term": "diputados",
+      "count": 17
     },
     {
       "term": "elintra",
@@ -15711,15 +15737,7 @@
     },
     {
       "term": "ramales",
-      "count": 12
-    },
-    {
-      "term": "cristina",
-      "count": 9
-    },
-    {
-      "term": "fiore",
-      "count": 9
+      "count": 11
     },
     {
       "term": "obras",
@@ -15730,11 +15748,15 @@
       "count": 8
     },
     {
-      "term": "milei",
-      "count": 8
+      "term": "vecinos",
+      "count": 7
     },
     {
-      "term": "vecinos",
+      "term": "cristina",
+      "count": 7
+    },
+    {
+      "term": "fiore",
       "count": 7
     },
     {
@@ -15750,11 +15772,15 @@
       "count": 7
     },
     {
-      "term": "tribuno",
+      "term": "curá",
       "count": 7
     },
     {
-      "term": "curá",
+      "term": "podemos",
+      "count": 7
+    },
+    {
+      "term": "mirar",
       "count": 7
     }
   ],

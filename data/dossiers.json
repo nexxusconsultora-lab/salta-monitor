@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 275,
+    "total_mentions": 276,
     "sentiment_breakdown": {
       "positivo": 64,
-      "negativo": 38,
+      "negativo": 39,
       "neutral": 173
     },
     "sentiment_by_day": {
       "2026-10-16": {
-        "total": 3,
-        "score_sum": -4
+        "total": 4,
+        "score_sum": -8
       },
       "2026-10-15": {
         "total": 16,
@@ -282,7 +282,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 25
+        "count": 26
       },
       {
         "term": "belgrano",
@@ -293,16 +293,16 @@
         "count": 7
       },
       {
+        "term": "reclamo",
+        "count": 6
+      },
+      {
         "term": "años",
         "count": 6
       },
       {
         "term": "ramales",
         "count": 6
-      },
-      {
-        "term": "reclamo",
-        "count": 5
       },
       {
         "term": "milei",
@@ -407,6 +407,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz y los libertarios: el reclamo ferroviario que divide aguas en Salta",
+        "link": "https://elintra.com.ar/2026/10/16/saenz-reclamo-ferroviario-salta/",
+        "source": "El Intra",
+        "date": "Fri, 16 Oct 2026 19:36:18 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Sáenz les pasó factura a los libertarios salteños por no acompañar el reclamo de los trenes - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdjlXazFxQ1FZSUJiWDQyMmFZMF92alFOQ1pJQ1Z5QU9SaGdqTzBaRkhleWF6dXZQOEdSc1BLQ0RXeEpTSWNGaS1UZGVfcDdRS0t2cFdTblFyM3NHMzVDc3ljT3RBOXJ0Qm1HRXFfdU9uOHJUdWs2ZklrZ3Y1OFNOaHZYc1lOS3BjczRxN2dhV1Jad9IBkgFBVV95cUxNdjlXazFxQ1FZSUJiWDQyMmFZMF92alFOQ1pJQ1Z5QU9SaGdqTzBaRkhleWF6dXZQOEdSc1BLQ0RXeEpTSWNGaS1UZGVfcDdRS0t2cFdTblFyM3NHMzVDc3ljT3RBOXJ0Qm1HRXFfdU9uOHJUdWs2ZklrZ3Y1OFNOaHZYc1lOS3BjczRxN2dhV1Jadw?oc=5",
@@ -609,13 +616,6 @@
         "source": "El Intra",
         "date": "Tue, 13 Oct 2026 19:54:41 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz entre aprovechar una oportunidad inigualable o mantener el status quo",
-        "link": "https://elintra.com.ar/2026/10/13/salta-presupuesto-2027-negociacion/",
-        "source": "El Intra",
-        "date": "Tue, 13 Oct 2026 20:48:16 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -1795,16 +1795,16 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 9,
+      "negativo": 10,
       "neutral": 40
     },
     "sentiment_by_day": {
       "2026-10-16": {
-        "total": 1,
-        "score_sum": -1
+        "total": 2,
+        "score_sum": -2
       },
       "2026-10-15": {
         "total": 1,
@@ -1978,11 +1978,11 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 3
+        "count": 4
       },
       {
         "term": "cornejo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "milei",
@@ -2040,6 +2040,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Tensión en el Senado de Salta por un pedido de informes de Roque Cornejo",
+        "link": "https://elintra.com.ar/2026/10/16/libertad-avanza-salta-senado/",
+        "source": "El Intra",
+        "date": "Fri, 16 Oct 2026 19:32:52 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Roque Cornejo defendió la licitación del Belgrano Cargas: «Tuvo que llegar Milei»",
         "link": "https://elintra.com.ar/2026/10/16/roque-cornejo-defendio-la-licitacion-del-belgrano-cargas-tuvo-que-llegar-milei/",
@@ -2241,13 +2248,6 @@
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3cXZtSWR0UTA0d290NzRDYTg3Zk9pS18zV2puSUNJNmZnYlZteElDSWlEM2QteTJqcWw0eGw5VzVTdS02MVRMRXpmQWQ5MFJ0ek9oUmNDajB2M0FvQnY0azhpaE1NbzZIMEZNU256bUVpaUJ50gF6QVVfeXFMTlhfbEFMYjJxektqN1VSMmdYQ2NyZE9NbmdFeWp4bFF6TWJKNEpLWkZkSUxXZnhYSDh6dDVxbm1FZ0lDekNYbTN1RWd1VF9lSVdHdm5tMklJR1hSYWx4TE9VdWVvUlpZT2UwbjZteGpmTjZWdDRLX0lwNlE?oc=5",
         "source": "Perfil",
         "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones en Salta 2025: el oficialismo ganó la mayoría de las bancas para la Legislatura, pero La Libertad Avanza se impuso en la capital - Chequeado",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMlluXzNlVS1mMVl0ZEx4MmRYVGcwNm1FdkhCZS01OUZic2NlMGFZckFTQnZ2RDFKZEI2TUUtdUZUYkRfdnZ0WmRNYm9WU0RMb096dFdrak1HaHc3ZWoycFl0QjN1cnFxQ3dMZk1XU3ZGRGtVWTJxZzItdE5RUWdyamhzYm5zSmUyRkVDcUhveXRvUWcySmtiV3J3eTZQQUkxdXp4RmhJZXdTT2Fw?oc=5",
-        "source": "Chequeado",
-        "date": "Tue, 06 May 2025 14:23:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -14018,13 +14018,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 40,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 10,
+      "negativo": 11,
       "neutral": 29
     },
     "sentiment_by_day": {
+      "2022-01-20": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2024-09-24": {
         "total": 1,
         "score_sum": -2
@@ -14176,19 +14180,19 @@
     },
     "top_topics": [
       {
+        "term": "gustavo",
+        "count": 3
+      },
+      {
+        "term": "orozco",
+        "count": 3
+      },
+      {
         "term": "denuncia",
         "count": 2
       },
       {
         "term": "violencia",
-        "count": 2
-      },
-      {
-        "term": "gustavo",
-        "count": 2
-      },
-      {
-        "term": "orozco",
         "count": 2
       },
       {
@@ -14301,6 +14305,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Polémico: Gustavo Orozco defendió a Sáenz por la falta de agua y acusó a los intendentes de ladrones - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORHpIcW83a1kwT1B0cm5EY2JuS2gyM3kxX0dTdnMxVmVxbVI5Z3A2SFRrWWVIRmRNcmdWWEJSTnUwTHVpVUFxNkVrcjNkcjBDRHVNTU1TcXljRVNfaWQybW8tRjFRcDlTODllbHNycDBqS2djN20wT202aGZrS0xoX19fd0pvWXdFVU1mX09QcVB2NGtNOVh5TE9MbXdMenhuYlNqZW5CMWkyNDFKSTN5WnB0UHhsVWVpZDdCU1Rfb1VoWWFPZjNOU1VkWmt0c1JyblVOM0ttb2xzUdIB3wFBVV95cUxPZjRLWTdOVEZHSllLbVNiNWNFeUpCY3RhZzB1RDN0Zk5FYk5CTUlPdlNLZnZLYmUwNzFsYXVrdnJzLURuMW5BanFna0tqenAwdDJiQ1E3NTVBU0RyRWs0c0lWeTBWeFJqR0pmRnNFZWdncHlOYTYwN19ZT2pYQktBSGMtV2VPdTl4QXNjX25fLTc0Z0lKNHpuNko1bVBUZG9iNkFMejNOd1RQQkQxY1FsVXhxWTJrX2VFSEk0VmhvNGl6d09lU0FlOE1weTJyOVlqZkJ1OEdxc1UtWkxYTDVj?oc=5",
+        "source": "Salta 4400",
+        "date": "Thu, 20 Jan 2022 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Sale a la luz una nueva denuncia por violencia del legislador Gustavo Orozco - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOWpkUXQ1a0ViS3owNGZnSWc0VkVibkN2NjZ3a1kzel9PeGNMMWExd3dBa2sxSXhMN2RfVmFCeE9UTkFzcVlKYmdVQ3c1X0xqMW9yOERvbFlHNmNwUmZPazdoMi1MaHdJaF9LUkw4QmZFb0tSZTJFbUhvb0phR1g1VzR4a3R1eDlEejJjWWc4RjIxTnRnVnYwNFM4VWM2S0VBLVNrVUF2U29pRnZIMGhfMjl4SE1UTFJVaXIyanhXSVdPR1VmYzRVWXBWMi1MQdIB0wFBVV95cUxNTlBNbVNXYjRhQ1c4ZXp5UlFjYnJKc0lUeFk4bUYwOEJVNEQxSnpfLVU2RHpZcWlmNW1kazVyNGU1bEpmVVBkdXdyVnUzR282NEgyNHE2ek5zZUxBbUNJbzNyd2tvdDlVNUt6UmFpWWVZclU4TkhPczNzc19TeWlPb3l1VzhtYjZhdWQwS3BQZ2hRVV9LX0NsR1VHLWJIczFEN3J2Y2xDSS1RNHBLQmRTUUdNVGNoTWZ4aTV3S3FZVERnRFBtb2FqNWlvc0NwY202a21z?oc=5",
@@ -14503,13 +14514,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Mon, 13 Mar 2023 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "El Tribunal Electoral entregará los diplomas a diputados y senadores electos el 11 de mayo - saltacomparativa.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZlJXMEl4WER4U2RDMTkxTVF6blJuWFUzZ0lrcWw5aXVIV3E2cjVXREM4ZVV0SVJzVkZJVlhJWUJOUFgyQ1h6OXFHSWlmYXdIb3VJSnJlcVoxZXBWN2diYWFpbGJ3QjIwTDRKZ1dWOWNqMG5qdnU2aWpVbnNyZHhkdkItZnpyUEhkTTlZMktvSkx3WlBhS2E5R001N0ZpZmY1WXBZMVJFVExWVTZ2OVpYUlJWLVRnRndRc1Y2RlJ1R2wwSXlBZ2VEeXVLVmZZaTM0LXhYR05sbjRNY0xPYU56UEo5WVA?oc=5",
-        "source": "saltacomparativa.com.ar",
-        "date": "Thu, 26 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -26683,13 +26687,17 @@
     "id": "dip-eduardo-jose-virgili",
     "name": "Eduardo José Virgili",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 1,
       "neutral": 9
     },
     "sentiment_by_day": {
+      "2026-10-16": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-10-07": {
         "total": 1,
         "score_sum": 4
@@ -26764,6 +26772,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Eduardo Virgili celebró la permanencia del DNU 70/2023: «No vamos a retroceder»",
+        "link": "https://elintra.com.ar/2026/10/16/eduardo-virgili-celebro-la-permanencia-del-dnu-70-2023-no-vamos-a-retroceder/",
+        "source": "El Intra",
+        "date": "Fri, 16 Oct 2026 18:05:00 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sin el apoyo de LLA, diputados aprobó un proyecto que  protege la producción de la banana",
         "link": "https://informatesalta.com.ar/legislativa/sin-el-apoyo-de-lla--diputados-aprobo-un-proyecto-que--protege-la-produccion-de-la-banana_a6ac579bc6b27e8e08ed1fc0f",
@@ -27062,13 +27077,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 1,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2026-10-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-15": {
         "total": 3,
         "score_sum": 8
@@ -27104,8 +27123,16 @@
     },
     "top_topics": [
       {
+        "term": "presupuesto",
+        "count": 3
+      },
+      {
         "term": "camacho",
         "count": 3
+      },
+      {
+        "term": "reunión",
+        "count": 2
       },
       {
         "term": "sergio",
@@ -27117,10 +27144,6 @@
       },
       {
         "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "presupuesto",
         "count": 2
       }
     ],
@@ -27140,6 +27163,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
+        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
+        "source": "Informate Salta",
+        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sergio Camacho defendió las obras de Sáenz y cuestionó a los libertarios",
         "link": "https://elintra.com.ar/2026/10/15/camacho-obras-salta-libertarios/",
@@ -27237,13 +27267,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 4,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "2026-10-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-11-27": {
         "total": 1,
         "score_sum": 0
@@ -27384,6 +27418,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
+        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
+        "source": "Informate Salta",
+        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ignacio Jarsún reemplazaría a Ricardo Villada como ministro de Gobierno - Salta Comparativa",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVk1sWHhTOEZoTms3SWRvMkVWODllQmJpQlU4OUU4QVpwYlB4V1ZzYUJQdlJpNXFMWG13VVh6ZFNGbTVPaGlJeGVYeXoxMzFHQWhBQ3ZMeUdaeDlpbnZoU1p6Nmh5TDBuRjhNbWh6WEpqV0NnVXpTdFBia0owQXZpcHpOaE96YzdDQmRmVl9xRVhBdkN3dmhFS3habU15dm5JNnp3NVU3cWNKTjZFNnlTRFFnaEcxdnN3YnRHRlg1eVlINWtHRFl6bHUtaw?oc=5",
@@ -28011,13 +28052,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 26,
+    "total_mentions": 27,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 2,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2026-10-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-13": {
         "total": 1,
         "score_sum": 1
@@ -28194,6 +28239,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
+        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
+        "source": "Informate Salta",
+        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emergencias climáticas: el Comité de Emergencias se reunió con intendentes del Valle Calchaquí",
         "link": "https://informatesalta.com.ar/gobierno/emergencias-climaticas--el-comite-de-emergencias-se-reunio-con-intendentes-del-valle-calchaqui_a6ace8aff20a9aaff7696a0d9",
@@ -28422,15 +28474,15 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 24,
+    "total_mentions": 25,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 3,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
       "2026-10-16": {
-        "total": 1,
+        "total": 2,
         "score_sum": -1
       },
       "2026-07-20": {
@@ -28591,6 +28643,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
+        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
+        "source": "Informate Salta",
+        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tuberculosis en la cárcel: la justicia investiga el brote que informó Mangione",
         "link": "https://informatesalta.com.ar/justicia/tuberculosis-en-la-carcel--la-justicia-investiga-el-brote-que-informo-mangione_a6ad165167f0e2f8050dce3b6",
@@ -28765,13 +28824,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 11,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
+      "2026-10-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-09-27": {
         "total": 1,
         "score_sum": 0
@@ -28899,15 +28962,15 @@
         "count": 3
       },
       {
+        "term": "realizó",
+        "count": 2
+      },
+      {
+        "term": "reunión",
+        "count": 2
+      },
+      {
         "term": "educación",
-        "count": 2
-      },
-      {
-        "term": "escuelas",
-        "count": 2
-      },
-      {
-        "term": "fantasmas",
         "count": 2
       }
     ],
@@ -28952,6 +29015,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
+        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
+        "source": "Informate Salta",
+        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Empezó a sonar el nombre de Cristina Fiore como próxima ministra de Educación - Salta Comparativa",
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOFAtVUJ2M0JITmlMSXpSdmgxQTBnZUNjMmI0VWZtM3JfY2p2bEhfVEw5WE9ESkg1bVZrYS1hb3F1TDNYZ1prMC1seU9JaUpfdVBqNFkwSVJCOGZxUjZfbkM0c2gzbTBVV2F5MGRvZnBaaUFheXNCVDJ1OXhFQVNrTkNCRlM4RDREb1FxMkRhNEo1anFRRzdJOUFPWEZvT0N3amZsckMxWmZ2UEx3MUZ6endFeHBTUnlIZU8xN2VTTmhwWjIyNHJ1R011c290TWFXTTl3?oc=5",
@@ -29153,13 +29223,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50U1ZVSXV0OWxvZldmZUlGOGtxUXhGdjZmS0pUNml2blBGd19jTkJ0SWF4QnhJZkozeGFqcTRnSDFzbWVZaGFtamJ0XzZvbEVWaHRCNW9pSng?oc=5",
         "source": "El Tribuno",
         "date": "Tue, 07 May 2024 19:05:38 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Cristina Fiore: \"La unidad educativa 7160 no es una escuela fantasma y los que allí figuran no son - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdHhsaGdZMzJMVzdvVzRYTTFaX2dHc2VUQ0p5S3BsOUcwc1hZcDhfZm8xZXZDcTVQSExQa1I1UnM1T2lQVDhsMGdrQm1fMUM4TnV5X3RQMGZZVW9KUksyVE9WRmZOQ0JJZWg4MlpqbXFXOUJVaVRZY2dhZUUtUHNNVW1haUQ4OTBmTXo5UXloMTA0ZWtDZTRBYV95UGJzWjV1UjFlX3A4SEtEQTZhazROV3hMTU1DYU45c0VranNtN3VraDlqel9lMXV2MEdRaklialdEU0lWcm0zb0EzZmdPY1NDek5UZUHSAewBQVVfeXFMTUdvcFFOcF81SG1YZHBpcXRfd0VhVEljSVZ1Y2xWbGlKZmJWWlNKYUs2Z2YxWFdfdEZsM1czMmhXcW81SlhfVjN1VjZJazNsNDB1YnNCM0E4X2lvMFF4QTJ5VVRrNHVxVnhHX2l6dTcwT09NbTZDOEdqenRMbnM3MUkxQ0drdzNlWU5NNzhZYjhLWkpfRUhNVEpmUWt4NFljSmhhSUtTNGpuem9fTWlNWkhRWHlHdUdHQ3d6b2JGSEpkeW5JcjA0QlRESF9jczRvRW9SNXRHc2JwMktodWp4NmZ2SlJnYnFnc0JTY2w?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 26 Sep 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
