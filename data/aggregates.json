@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-16T03:35:58.260225+00:00",
+  "generated_at": "2026-10-16T08:32:27.637571+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 31,
+      "positivo": 1,
+      "negativo": 11,
+      "neutral": 19,
+      "score_sum": -32
+    },
+    "dip-guillermo-alejandro-kripper": {
+      "total": 12,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 12,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 273,
+      "positivo": 63,
+      "negativo": 37,
+      "neutral": 173,
+      "score_sum": 108
+    },
     "eje-ana-paula-benavides": {
       "total": 12,
       "positivo": 0,
@@ -35,13 +56,6 @@
       "negativo": 1,
       "neutral": 1,
       "score_sum": -2
-    },
-    "gustavo-saenz": {
-      "total": 272,
-      "positivo": 63,
-      "negativo": 36,
-      "neutral": 173,
-      "score_sum": 110
     },
     "eje-federico-mangione": {
       "total": 23,
@@ -119,13 +133,6 @@
       "negativo": 0,
       "neutral": 6,
       "score_sum": 17
-    },
-    "eje-cristina-fiore": {
-      "total": 30,
-      "positivo": 1,
-      "negativo": 11,
-      "neutral": 18,
-      "score_sum": -32
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 21,
@@ -364,13 +371,6 @@
       "negativo": 10,
       "neutral": 29,
       "score_sum": -22
-    },
-    "dip-guillermo-alejandro-kripper": {
-      "total": 11,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 11,
-      "score_sum": 0
     },
     "concejal-laura-jorge-saravia": {
       "total": 42,
@@ -927,6 +927,44 @@
     }
   },
   "by_day": {
+    "2026-09-22": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": -8
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": -5
+      }
+    },
+    "2022-09-19": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-16": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-rodrigo-javier-garcia": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2022-07-07": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -949,20 +987,6 @@
     },
     "2025-10-17": {
       "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-16": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dip-rodrigo-javier-garcia": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
@@ -6633,20 +6657,6 @@
       "sen-manuel-pailler": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-09-22": {
-      "gustavo-saenz": {
-        "total": 7,
-        "score_sum": -8
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": -5
       }
     },
     "2025-03-27": {
@@ -15667,11 +15677,11 @@
     },
     {
       "term": "sáenz",
-      "count": 16
+      "count": 17
     },
     {
       "term": "elintra",
-      "count": 12
+      "count": 13
     },
     {
       "term": "ramales",
@@ -15682,12 +15692,16 @@
       "count": 9
     },
     {
-      "term": "nuevo",
+      "term": "cristina",
       "count": 8
     },
     {
-      "term": "tribuno",
+      "term": "fiore",
       "count": 8
+    },
+    {
+      "term": "nuevo",
+      "count": 7
     },
     {
       "term": "turismo",
@@ -15702,11 +15716,7 @@
       "count": 7
     },
     {
-      "term": "cristina",
-      "count": 7
-    },
-    {
-      "term": "fiore",
+      "term": "tribuno",
       "count": 7
     },
     {
