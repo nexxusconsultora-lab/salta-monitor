@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-10-16T08:32:27.637571+00:00",
+  "generated_at": "2026-10-16T13:33:17.610847+00:00",
   "by_politician": {
     "eje-cristina-fiore": {
-      "total": 31,
+      "total": 32,
       "positivo": 1,
       "negativo": 11,
-      "neutral": 19,
+      "neutral": 20,
       "score_sum": -32
+    },
+    "snac-flavia-royon": {
+      "total": 82,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 66,
+      "score_sum": 5
+    },
+    "dnac-bernardo-biella": {
+      "total": 25,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 16,
+      "score_sum": 5
+    },
+    "eje-federico-mangione": {
+      "total": 24,
+      "positivo": 1,
+      "negativo": 3,
+      "neutral": 20,
+      "score_sum": -2
     },
     "dip-guillermo-alejandro-kripper": {
       "total": 12,
@@ -36,13 +57,6 @@
       "neutral": 14,
       "score_sum": 0
     },
-    "snac-flavia-royon": {
-      "total": 81,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 65,
-      "score_sum": 5
-    },
     "eje-roberto-dib-ashur": {
       "total": 40,
       "positivo": 4,
@@ -56,13 +70,6 @@
       "negativo": 1,
       "neutral": 1,
       "score_sum": -2
-    },
-    "eje-federico-mangione": {
-      "total": 23,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 20,
-      "score_sum": -1
     },
     "sen-jorge-soto": {
       "total": 44,
@@ -98,13 +105,6 @@
       "negativo": 1,
       "neutral": 12,
       "score_sum": -1
-    },
-    "dnac-bernardo-biella": {
-      "total": 23,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 16,
-      "score_sum": 2
     },
     "dnac-carlos-raul-zapata": {
       "total": 26,
@@ -927,6 +927,44 @@
     }
   },
   "by_day": {
+    "2023-09-27": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-05-13": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-16": {
+      "dnac-bernardo-biella": {
+        "total": 2,
+        "score_sum": 3
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-rodrigo-javier-garcia": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2026-09-22": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -949,20 +987,6 @@
       "dip-guillermo-alejandro-kripper": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-16": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dip-rodrigo-javier-garcia": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2022-07-07": {
@@ -6137,12 +6161,6 @@
         "score_sum": 0
       },
       "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-05-13": {
-      "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 0
       }
@@ -15673,7 +15691,7 @@
   "trending_terms": [
     {
       "term": "diputados",
-      "count": 20
+      "count": 19
     },
     {
       "term": "sáenz",
@@ -15681,23 +15699,23 @@
     },
     {
       "term": "elintra",
-      "count": 13
+      "count": 12
     },
     {
       "term": "ramales",
       "count": 12
     },
     {
-      "term": "obras",
+      "term": "cristina",
       "count": 9
     },
     {
-      "term": "cristina",
-      "count": 8
+      "term": "fiore",
+      "count": 9
     },
     {
-      "term": "fiore",
-      "count": 8
+      "term": "obras",
+      "count": 9
     },
     {
       "term": "nuevo",
