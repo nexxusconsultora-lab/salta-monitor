@@ -1,0 +1,1358 @@
+{
+ "actualizado": "2026-10-16",
+ "nota": "Cifras cargadas a mano desde la fuente enlazada en cada fila, con la fecha de la nota que las publica. Pueden quedar desactualizadas: abrí el enlace antes de usarlas. Agregá o corregí cifras en este archivo (data/consultoras.json) o desde la pestaña Consultoras.",
+ "indicadores": [
+  {
+   "id": "asalariados_salta",
+   "t": "Salta: asalariados registrados",
+   "u": "trabajadores",
+   "g": "Salta"
+  },
+  {
+   "id": "expo_mineras_salta",
+   "t": "Salta: exportaciones mineras anuales",
+   "u": "millones de USD",
+   "g": "Salta"
+  },
+  {
+   "id": "ipc_noa_acum",
+   "t": "Inflación acumulada 2026, región Noroeste (donde está Salta)",
+   "u": "%",
+   "g": "Salta"
+  },
+  {
+   "id": "ciclo_saenz",
+   "t": "Salta: cree que el ciclo de Sáenz está cumplido",
+   "u": "%",
+   "g": "Salta"
+  },
+  {
+   "id": "tercer_mandato_rechazo",
+   "t": "Salta: en desacuerdo con un tercer mandato de Sáenz",
+   "u": "%",
+   "g": "Salta"
+  },
+  {
+   "id": "tercer_mandato_apoyo",
+   "t": "Salta: a favor de un tercer mandato de Sáenz",
+   "u": "%",
+   "g": "Salta"
+  },
+  {
+   "id": "riesgo_pais",
+   "t": "Riesgo país (EMBI, JP Morgan)",
+   "u": "pb",
+   "g": "Mercados"
+  },
+  {
+   "id": "ipc_mensual",
+   "t": "IPC mensual (INDEC)",
+   "u": "%",
+   "g": "Precios y empleo"
+  },
+  {
+   "id": "ipc_interanual",
+   "t": "IPC interanual (INDEC)",
+   "u": "%",
+   "g": "Precios y empleo"
+  },
+  {
+   "id": "pobreza_1s_2026",
+   "t": "Pobreza en personas, 1.er semestre 2026 (31 aglomerados)",
+   "u": "%",
+   "g": "Precios y empleo"
+  },
+  {
+   "id": "indigencia_1s_2026",
+   "t": "Indigencia en personas, 1.er semestre 2026",
+   "u": "%",
+   "g": "Precios y empleo"
+  },
+  {
+   "id": "inflacion_2026",
+   "t": "Inflación 2026: pronóstico (dic/dic)",
+   "u": "%",
+   "g": "Proyecciones"
+  },
+  {
+   "id": "pbi_2026",
+   "t": "PBI 2026: pronóstico de crecimiento",
+   "u": "%",
+   "g": "Proyecciones"
+  },
+  {
+   "id": "actividad",
+   "t": "Actividad económica (interanual)",
+   "u": "%",
+   "g": "Proyecciones"
+  },
+  {
+   "id": "aprob_gestion",
+   "t": "Aprobación de la gestión nacional",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "desaprob_gestion",
+   "t": "Desaprobación de la gestión nacional",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "imagen_pos_milei",
+   "t": "Imagen positiva de Javier Milei",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "potencial_voto_milei",
+   "t": "Potencial de voto de Javier Milei",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "cambio_2027",
+   "t": "Votaría un cambio de gobierno en 2027",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "voto_peronismo_2027",
+   "t": "Intención de voto 2027: peronismo",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "voto_lla_2027",
+   "t": "Intención de voto 2027: La Libertad Avanza",
+   "u": "%",
+   "g": "Opinión pública"
+  },
+  {
+   "id": "kicillof_voto_seguro",
+   "t": "Axel Kicillof: voto seguro",
+   "u": "%",
+   "g": "Opinión pública"
+  }
+ ],
+ "fuentes": [
+  {
+   "id": "zuban",
+   "nombre": "Zuban Córdoba y Asociados",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas nacionales y provinciales de imagen, aprobación y voto.",
+   "busca": "\"Zuban Córdoba\" encuesta",
+   "alias": [
+    "Zuban Córdoba",
+    "Zubán Córdoba"
+   ],
+   "url": ""
+  },
+  {
+   "id": "poliarquia",
+   "nombre": "Poliarquía",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Índice de confianza, aprobación de gestión y estudios de opinión.",
+   "busca": "Poliarquía encuesta",
+   "alias": [
+    "Poliarquía",
+    "Poliarquia"
+   ],
+   "url": "https://www.poliarquia.com/"
+  },
+  {
+   "id": "mfit",
+   "nombre": "Management & Fit",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas de imagen, aprobación y electorales.",
+   "busca": "\"Management & Fit\" encuesta",
+   "alias": [
+    "Management & Fit",
+    "Management and Fit"
+   ],
+   "url": ""
+  },
+  {
+   "id": "opina",
+   "nombre": "Opina Argentina",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas de opinión pública y de intención de voto.",
+   "busca": "\"Opina Argentina\" encuesta",
+   "alias": [
+    "Opina Argentina"
+   ],
+   "url": ""
+  },
+  {
+   "id": "synopsis",
+   "nombre": "Synopsis Consultores",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas políticas y de humor social.",
+   "busca": "Synopsis consultora encuesta",
+   "alias": [
+    "Synopsis"
+   ],
+   "url": ""
+  },
+  {
+   "id": "isonomia",
+   "nombre": "Isonomía Consultores",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas políticas y de humor social.",
+   "busca": "Isonomía encuesta",
+   "alias": [
+    "Isonomía",
+    "Isonomia"
+   ],
+   "url": ""
+  },
+  {
+   "id": "cb",
+   "nombre": "CB Consultora Opinión Pública",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas de imagen y expectativas.",
+   "busca": "\"CB Consultora\" encuesta",
+   "alias": [
+    "CB Consultora"
+   ],
+   "url": ""
+  },
+  {
+   "id": "aresco",
+   "nombre": "Aresco",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas políticas nacionales.",
+   "busca": "Aresco encuesta Argentina",
+   "alias": [
+    "Aresco"
+   ],
+   "url": ""
+  },
+  {
+   "id": "giacobbe",
+   "nombre": "Giacobbe & Asociados",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas de opinión pública.",
+   "busca": "Giacobbe encuesta",
+   "alias": [
+    "Giacobbe"
+   ],
+   "url": ""
+  },
+  {
+   "id": "analogias",
+   "nombre": "Analogías",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas y estudios de opinión.",
+   "busca": "Analogías consultora encuesta",
+   "alias": [
+    "Analogías",
+    "Analogias"
+   ],
+   "url": ""
+  },
+  {
+   "id": "atlas",
+   "nombre": "AtlasIntel",
+   "tipo": "Encuestadora",
+   "pais": "Global",
+   "que": "Encuestas políticas en Latinoamérica (con Bloomberg).",
+   "busca": "AtlasIntel Argentina encuesta",
+   "alias": [
+    "AtlasIntel",
+    "Atlas Intel"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ipsos",
+   "nombre": "Ipsos Argentina",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Estudios de opinión, consumo y mercado.",
+   "busca": "Ipsos Argentina encuesta",
+   "alias": [
+    "Ipsos"
+   ],
+   "url": "https://www.ipsos.com/es-ar"
+  },
+  {
+   "id": "utdt",
+   "nombre": "Universidad Di Tella (ICG)",
+   "tipo": "Universidad",
+   "pais": "Argentina",
+   "que": "Índice de Confianza en el Gobierno, mensual.",
+   "busca": "\"Di Tella\" Índice de Confianza en el Gobierno",
+   "alias": [
+    "Di Tella",
+    "UTDT"
+   ],
+   "url": "https://www.utdt.edu/"
+  },
+  {
+   "id": "udesa",
+   "nombre": "Universidad de San Andrés",
+   "tipo": "Universidad",
+   "pais": "Argentina",
+   "que": "Encuesta de Satisfacción Política y Opinión Pública.",
+   "busca": "\"San Andrés\" encuesta satisfacción política",
+   "alias": [
+    "San Andrés",
+    "UdeSA"
+   ],
+   "url": "https://udesa.edu.ar/"
+  },
+  {
+   "id": "dalessio",
+   "nombre": "D'Alessio IROL / Berensztein",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Análisis político y económico, encuestas.",
+   "busca": "\"D'Alessio\" Berensztein encuesta",
+   "alias": [
+    "D'Alessio",
+    "Berensztein"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ferreres",
+   "nombre": "Orlando Ferreres & Asociados",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Indicadores de actividad e inflación.",
+   "busca": "\"Ferreres\" consultora Argentina",
+   "alias": [
+    "Ferreres"
+   ],
+   "url": ""
+  },
+  {
+   "id": "lcg",
+   "nombre": "LCG",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Seguimiento de precios de alimentos y actividad.",
+   "busca": "LCG consultora inflación alimentos",
+   "alias": [
+    "LCG"
+   ],
+   "url": ""
+  },
+  {
+   "id": "equilibra",
+   "nombre": "Equilibra",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Informes macroeconómicos y proyecciones.",
+   "busca": "Equilibra consultora economía",
+   "alias": [
+    "Equilibra"
+   ],
+   "url": ""
+  },
+  {
+   "id": "econviews",
+   "nombre": "Econviews",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Informes macro y de mercado.",
+   "busca": "Econviews consultora",
+   "alias": [
+    "Econviews"
+   ],
+   "url": ""
+  },
+  {
+   "id": "analytica",
+   "nombre": "Analytica",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Informes macroeconómicos.",
+   "busca": "Analytica consultora economía Argentina",
+   "alias": [
+    "Analytica"
+   ],
+   "url": ""
+  },
+  {
+   "id": "outlier",
+   "nombre": "Outlier",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Análisis de mercados y riesgo país.",
+   "busca": "Outlier consultora Argentina",
+   "alias": [
+    "Outlier"
+   ],
+   "url": ""
+  },
+  {
+   "id": "invecq",
+   "nombre": "Invecq",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Consultora de inversiones y macro.",
+   "busca": "Invecq consultora",
+   "alias": [
+    "Invecq"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ieral",
+   "nombre": "IERAL (Fundación Mediterránea)",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Estudios de economía regional y federal.",
+   "busca": "IERAL Fundación Mediterránea informe",
+   "alias": [
+    "IERAL",
+    "Fundación Mediterránea"
+   ],
+   "url": "https://www.ieral.org/"
+  },
+  {
+   "id": "cepa",
+   "nombre": "Centro de Economía Política Argentina",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Informes económicos y fiscales.",
+   "busca": "CEPA Centro de Economía Política informe",
+   "alias": [
+    "CEPA",
+    "Centro de Economía Política"
+   ],
+   "url": "https://centrocepa.com.ar/"
+  },
+  {
+   "id": "fundar",
+   "nombre": "Fundar",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Investigación en políticas públicas.",
+   "busca": "Fundar think tank informe Argentina",
+   "alias": [
+    "Fundar"
+   ],
+   "url": "https://fund.ar/"
+  },
+  {
+   "id": "idesa",
+   "nombre": "IDESA",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Estudios fiscales y sociales.",
+   "busca": "IDESA informe",
+   "alias": [
+    "IDESA"
+   ],
+   "url": "https://idesa.org/"
+  },
+  {
+   "id": "cippec",
+   "nombre": "CIPPEC",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Políticas públicas y federalismo.",
+   "busca": "CIPPEC informe",
+   "alias": [
+    "CIPPEC"
+   ],
+   "url": "https://www.cippec.org/"
+  },
+  {
+   "id": "jpm",
+   "nombre": "J.P. Morgan",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Pronósticos para Argentina y el índice EMBI (riesgo país).",
+   "busca": "\"JP Morgan\" Argentina",
+   "alias": [
+    "JP Morgan",
+    "JPMorgan",
+    "J.P. Morgan"
+   ],
+   "url": "https://www.jpmorgan.com/insights"
+  },
+  {
+   "id": "gs",
+   "nombre": "Goldman Sachs",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Pronósticos macro para Argentina y América Latina.",
+   "busca": "\"Goldman Sachs\" Argentina",
+   "alias": [
+    "Goldman Sachs",
+    "Goldman"
+   ],
+   "url": "https://www.goldmansachs.com/insights/"
+  },
+  {
+   "id": "ms",
+   "nombre": "Morgan Stanley",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Informes de mercado y de minería sobre Argentina.",
+   "busca": "\"Morgan Stanley\" Argentina",
+   "alias": [
+    "Morgan Stanley"
+   ],
+   "url": "https://www.morganstanley.com/ideas"
+  },
+  {
+   "id": "citi",
+   "nombre": "Citi",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Pronósticos y estrategia de mercados emergentes.",
+   "busca": "Citi Argentina proyección",
+   "alias": [
+    "Citi",
+    "Citigroup"
+   ],
+   "url": "https://www.citigroup.com/global/insights"
+  },
+  {
+   "id": "barclays",
+   "nombre": "Barclays",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Pronósticos macro para Argentina.",
+   "busca": "Barclays Argentina inflación proyección",
+   "alias": [
+    "Barclays"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ubs",
+   "nombre": "UBS",
+   "tipo": "Banco de inversión",
+   "pais": "Global",
+   "que": "Pronósticos y recomendaciones de inversión.",
+   "busca": "UBS Argentina proyección",
+   "alias": [
+    "UBS"
+   ],
+   "url": ""
+  },
+  {
+   "id": "mckinsey",
+   "nombre": "McKinsey & Company",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Informes de industria, productividad y economía (McKinsey Global Institute).",
+   "busca": "McKinsey Argentina",
+   "alias": [
+    "McKinsey"
+   ],
+   "url": "https://www.mckinsey.com/featured-insights"
+  },
+  {
+   "id": "bcg",
+   "nombre": "Boston Consulting Group",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Estudios de industria y transformación.",
+   "busca": "\"Boston Consulting Group\" Argentina",
+   "alias": [
+    "Boston Consulting",
+    "BCG"
+   ],
+   "url": ""
+  },
+  {
+   "id": "bain",
+   "nombre": "Bain & Company",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Estudios de industria y mercado.",
+   "busca": "\"Bain & Company\" Argentina",
+   "alias": [
+    "Bain & Company",
+    "Bain"
+   ],
+   "url": ""
+  },
+  {
+   "id": "deloitte",
+   "nombre": "Deloitte",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Perspectivas económicas de Argentina y estudios sectoriales.",
+   "busca": "Deloitte Argentina informe",
+   "alias": [
+    "Deloitte"
+   ],
+   "url": "https://www.deloitte.com/latam/es/"
+  },
+  {
+   "id": "pwc",
+   "nombre": "PwC",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Encuestas a CEOs, M&A y estudios sectoriales.",
+   "busca": "PwC Argentina informe",
+   "alias": [
+    "PwC"
+   ],
+   "url": "https://www.pwc.com.ar/"
+  },
+  {
+   "id": "kpmg",
+   "nombre": "KPMG",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Estudios impositivos y de industria.",
+   "busca": "KPMG Argentina informe",
+   "alias": [
+    "KPMG"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ey",
+   "nombre": "EY",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Estudios de industria y economía.",
+   "busca": "\"EY\" Argentina informe economía",
+   "alias": [
+    "EY Argentina",
+    "Ernst & Young"
+   ],
+   "url": ""
+  },
+  {
+   "id": "eurasia",
+   "nombre": "Eurasia Group",
+   "tipo": "Consultora global",
+   "pais": "Global",
+   "que": "Análisis de riesgo político.",
+   "busca": "\"Eurasia Group\" Argentina",
+   "alias": [
+    "Eurasia Group"
+   ],
+   "url": ""
+  },
+  {
+   "id": "fitch",
+   "nombre": "Fitch Ratings",
+   "tipo": "Calificadora",
+   "pais": "Global",
+   "que": "Calificación crediticia soberana.",
+   "busca": "\"Fitch\" calificación Argentina",
+   "alias": [
+    "Fitch"
+   ],
+   "url": "https://www.fitchratings.com/"
+  },
+  {
+   "id": "sp",
+   "nombre": "S&P Global Ratings",
+   "tipo": "Calificadora",
+   "pais": "Global",
+   "que": "Calificación crediticia soberana.",
+   "busca": "\"S&P Global\" calificación Argentina",
+   "alias": [
+    "S&P Global",
+    "S&P"
+   ],
+   "url": "https://www.spglobal.com/ratings"
+  },
+  {
+   "id": "moodys",
+   "nombre": "Moody's",
+   "tipo": "Calificadora",
+   "pais": "Global",
+   "que": "Calificación crediticia soberana.",
+   "busca": "\"Moody's\" calificación Argentina",
+   "alias": [
+    "Moody's",
+    "Moodys"
+   ],
+   "url": "https://www.moodys.com/"
+  },
+  {
+   "id": "fmi",
+   "nombre": "Fondo Monetario Internacional",
+   "tipo": "Organismo internacional",
+   "pais": "Global",
+   "que": "Perspectivas de la economía mundial y revisiones del programa con Argentina.",
+   "busca": "FMI Argentina pronóstico",
+   "alias": [
+    "FMI",
+    "Fondo Monetario"
+   ],
+   "url": "https://www.imf.org/en/Countries/ARG"
+  },
+  {
+   "id": "bm",
+   "nombre": "Banco Mundial",
+   "tipo": "Organismo internacional",
+   "pais": "Global",
+   "que": "Pronósticos, pobreza y estudios por país.",
+   "busca": "\"Banco Mundial\" Argentina",
+   "alias": [
+    "Banco Mundial"
+   ],
+   "url": "https://www.worldbank.org/en/country/argentina"
+  },
+  {
+   "id": "bid",
+   "nombre": "BID",
+   "tipo": "Organismo internacional",
+   "pais": "Global",
+   "que": "Informes macroeconómicos regionales.",
+   "busca": "BID Argentina informe crecimiento",
+   "alias": [
+    "BID",
+    "Banco Interamericano"
+   ],
+   "url": "https://www.iadb.org/es"
+  },
+  {
+   "id": "cepal",
+   "nombre": "CEPAL",
+   "tipo": "Organismo internacional",
+   "pais": "Global",
+   "que": "Balance preliminar y proyecciones regionales.",
+   "busca": "CEPAL Argentina proyección",
+   "alias": [
+    "CEPAL"
+   ],
+   "url": "https://www.cepal.org/es"
+  },
+  {
+   "id": "bcra",
+   "nombre": "BCRA (REM)",
+   "tipo": "Organismo local",
+   "pais": "Argentina",
+   "que": "Relevamiento de Expectativas de Mercado y estadísticas monetarias.",
+   "busca": "BCRA REM expectativas",
+   "alias": [
+    "BCRA",
+    "REM"
+   ],
+   "url": "https://www.bcra.gob.ar/"
+  },
+  {
+   "id": "cices",
+   "nombre": "CICES · Consejo Económico y Social de Salta",
+   "tipo": "Think tank",
+   "pais": "Salta",
+   "que": "Reporte Económico Bimestral de Salta: precios, empleo registrado (SRT) y actividad de la provincia.",
+   "busca": "\"Consejo Económico y Social\" Salta CICES",
+   "alias": [
+    "CICES",
+    "Consejo Económico y Social de Salta",
+    "Consejo Económico y Social"
+   ],
+   "url": "https://www.consejosalta.org.ar/"
+  },
+  {
+   "id": "iie_unsa",
+   "nombre": "IIE Salta · Universidad Nacional de Salta",
+   "tipo": "Universidad",
+   "pais": "Salta",
+   "que": "Instituto de Investigaciones Económicas: estudios de la economía salteña y del NOA.",
+   "busca": "\"IIE\" Salta Universidad Nacional de Salta economía",
+   "alias": [
+    "IIE Salta",
+    "Instituto de Investigaciones Económicas"
+   ],
+   "url": ""
+  },
+  {
+   "id": "unsa",
+   "nombre": "Universidad Nacional de Salta",
+   "tipo": "Universidad",
+   "pais": "Salta",
+   "que": "Investigaciones, observatorios y estudios regionales.",
+   "busca": "\"Universidad Nacional de Salta\" UNSa estudio",
+   "alias": [
+    "UNSa",
+    "Universidad Nacional de Salta"
+   ],
+   "url": "https://www.unsa.edu.ar/"
+  },
+  {
+   "id": "ucasal",
+   "nombre": "Universidad Católica de Salta",
+   "tipo": "Universidad",
+   "pais": "Salta",
+   "que": "Estudios sociales y económicos de la región.",
+   "busca": "\"Universidad Católica de Salta\" UCASAL estudio",
+   "alias": [
+    "UCASAL",
+    "Universidad Católica de Salta"
+   ],
+   "url": "https://www.ucasal.edu.ar/"
+  },
+  {
+   "id": "dges",
+   "nombre": "Dirección General de Estadísticas de Salta",
+   "tipo": "Organismo estadístico",
+   "pais": "Salta",
+   "que": "Estadísticas oficiales de la provincia de Salta.",
+   "busca": "\"Dirección General de Estadísticas\" Salta",
+   "alias": [
+    "Dirección General de Estadísticas",
+    "Estadísticas de Salta"
+   ],
+   "url": ""
+  },
+  {
+   "id": "salta_gob",
+   "nombre": "Gobierno de Salta",
+   "tipo": "Organismo provincial",
+   "pais": "Salta",
+   "que": "Comunicados, decretos y datos oficiales de la provincia.",
+   "busca": "Gobierno de Salta informe datos",
+   "alias": [
+    "Gobierno de Salta"
+   ],
+   "url": "https://www.salta.gob.ar/"
+  },
+  {
+   "id": "boletin_salta",
+   "nombre": "Boletín Oficial de Salta",
+   "tipo": "Organismo provincial",
+   "pais": "Salta",
+   "que": "Decretos, leyes y designaciones de la provincia.",
+   "busca": "\"Boletín Oficial\" Salta decreto",
+   "alias": [
+    "Boletín Oficial de Salta",
+    "Boletín Oficial"
+   ],
+   "url": "https://boletinoficialsalta.gob.ar/"
+  },
+  {
+   "id": "camara_comercio_salta",
+   "nombre": "Cámara de Comercio e Industria de Salta",
+   "tipo": "Cámara empresaria",
+   "pais": "Salta",
+   "que": "Opinión y datos del comercio y la industria salteños.",
+   "busca": "\"Cámara de Comercio e Industria de Salta\"",
+   "alias": [
+    "Cámara de Comercio e Industria de Salta",
+    "Cámara de Comercio de Salta"
+   ],
+   "url": ""
+  },
+  {
+   "id": "uis",
+   "nombre": "Unión Industrial de Salta",
+   "tipo": "Cámara empresaria",
+   "pais": "Salta",
+   "que": "Estado de la industria salteña.",
+   "busca": "\"Unión Industrial de Salta\"",
+   "alias": [
+    "Unión Industrial de Salta"
+   ],
+   "url": ""
+  },
+  {
+   "id": "gebhard",
+   "nombre": "Consultora Benjamín Gebhard",
+   "tipo": "Encuestadora",
+   "pais": "Salta",
+   "que": "Encuestas sobre gestión e imagen en Salta y sucesión 2027.",
+   "busca": "\"Gebhard\" encuesta Salta",
+   "alias": [
+    "Gebhard"
+   ],
+   "url": ""
+  },
+  {
+   "id": "tendencias",
+   "nombre": "Tendencias",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas nacionales online: intención de voto, voto seguro y rechazo.",
+   "busca": "consultora Tendencias encuesta intención de voto",
+   "alias": [
+    "consultora Tendencias",
+    "Tendencias"
+   ],
+   "url": ""
+  },
+  {
+   "id": "escenarios",
+   "nombre": "Escenarios Consultora",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas políticas nacionales y provinciales (incluyó Salta).",
+   "busca": "\"Escenarios\" consultora encuesta Salta",
+   "alias": [
+    "Escenarios"
+   ],
+   "url": ""
+  },
+  {
+   "id": "fgonzalez",
+   "nombre": "Federico González y Asociados",
+   "tipo": "Encuestadora",
+   "pais": "Argentina",
+   "que": "Encuestas electorales, incluidas provincias como Salta.",
+   "busca": "\"Federico González\" encuesta",
+   "alias": [
+    "Federico González"
+   ],
+   "url": ""
+  },
+  {
+   "id": "ecogo",
+   "nombre": "Eco Go",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Estimaciones semanales y mensuales de inflación.",
+   "busca": "\"Eco Go\" consultora inflación",
+   "alias": [
+    "Eco Go",
+    "EcoGo"
+   ],
+   "url": ""
+  },
+  {
+   "id": "cyt",
+   "nombre": "C&T Asesores Económicos",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Estimación mensual de inflación y actividad.",
+   "busca": "\"C&T\" Asesores Económicos inflación",
+   "alias": [
+    "C&T"
+   ],
+   "url": ""
+  },
+  {
+   "id": "lyp",
+   "nombre": "Fundación Libertad y Progreso",
+   "tipo": "Think tank",
+   "pais": "Argentina",
+   "que": "Estimaciones de inflación y estudios de políticas públicas.",
+   "busca": "\"Libertad y Progreso\" inflación",
+   "alias": [
+    "Libertad y Progreso"
+   ],
+   "url": ""
+  },
+  {
+   "id": "abeceb",
+   "nombre": "Abeceb",
+   "tipo": "Consultora económica",
+   "pais": "Argentina",
+   "que": "Informes de comercio exterior, sectores y macro.",
+   "busca": "Abeceb informe",
+   "alias": [
+    "Abeceb"
+   ],
+   "url": ""
+  },
+  {
+   "id": "uca",
+   "nombre": "UCA · Observatorio de la Deuda Social",
+   "tipo": "Universidad",
+   "pais": "Argentina",
+   "que": "Pobreza, empleo y desigualdad (Universidad Católica Argentina).",
+   "busca": "UCA Observatorio de la Deuda Social",
+   "alias": [
+    "UCA",
+    "Observatorio de la Deuda Social"
+   ],
+   "url": "https://uca.edu.ar/"
+  },
+  {
+   "id": "indec",
+   "nombre": "INDEC",
+   "tipo": "Organismo estadístico",
+   "pais": "Argentina",
+   "que": "IPC, pobreza, EPH, EMAE, censo: el dato oficial nacional (con aperturas por región y aglomerado).",
+   "busca": "INDEC informe",
+   "alias": [
+    "INDEC"
+   ],
+   "url": "https://www.indec.gob.ar/"
+  },
+  {
+   "id": "idecba",
+   "nombre": "IDECBA (Ciudad de Buenos Aires)",
+   "tipo": "Organismo estadístico",
+   "pais": "Argentina",
+   "que": "Inflación porteña, adelanto previo al IPC nacional.",
+   "busca": "IDECBA inflación Ciudad",
+   "alias": [
+    "IDECBA"
+   ],
+   "url": ""
+  },
+  {
+   "id": "caem",
+   "nombre": "CAEM · Cámara Argentina de Empresas Mineras",
+   "tipo": "Cámara empresaria",
+   "pais": "Argentina",
+   "que": "Informes de exportaciones, empleo y proyectos mineros por provincia (incluye Salta).",
+   "busca": "CAEM minería informe",
+   "alias": [
+    "CAEM"
+   ],
+   "url": "https://caem.com.ar/"
+  },
+  {
+   "id": "came",
+   "nombre": "CAME",
+   "tipo": "Cámara empresaria",
+   "pais": "Argentina",
+   "que": "Ventas minoristas pyme y estudios sectoriales.",
+   "busca": "CAME ventas minoristas pymes",
+   "alias": [
+    "CAME"
+   ],
+   "url": ""
+  }
+ ],
+ "cifras": [
+  {
+   "ind": "riesgo_pais",
+   "fuente": "jpm",
+   "fecha": "2026-09-28",
+   "valor": 628,
+   "detalle": "Cierre de la rueda.",
+   "url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-escala-a-636-puntos-basicos-y-alcanza-un-nuevo-maximo-en-la-plaza-financiera-a35.phtml",
+   "fecha_ref": "fecha de la nota",
+   "id": "c01"
+  },
+  {
+   "ind": "riesgo_pais",
+   "fuente": "jpm",
+   "fecha": "2026-09-29",
+   "valor": 607,
+   "detalle": "Cierre de la rueda.",
+   "url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-escala-a-636-puntos-basicos-y-alcanza-un-nuevo-maximo-en-la-plaza-financiera-a35.phtml",
+   "fecha_ref": "fecha de la nota",
+   "id": "c02"
+  },
+  {
+   "ind": "riesgo_pais",
+   "fuente": "jpm",
+   "fecha": "2026-10-01",
+   "valor": 636,
+   "detalle": "Cierre de la rueda del 1 de octubre.",
+   "url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-escala-a-636-puntos-basicos-y-alcanza-un-nuevo-maximo-en-la-plaza-financiera-a35.phtml",
+   "fecha_ref": "fecha de la nota",
+   "id": "c03"
+  },
+  {
+   "ind": "inflacion_2026",
+   "fuente": "gs",
+   "fecha": "2026-01-06",
+   "valor": 20,
+   "detalle": "Informe regional de enero de 2026; advierte riesgos al alza si hay tensión cambiaria.",
+   "url": "https://www.iproup.com/finanzas/63618-goldman-sachs-proyecta-inflacion-pbi-dolar-economia-argentina-2026",
+   "fecha_ref": "fecha de la nota",
+   "id": "c04"
+  },
+  {
+   "ind": "inflacion_2026",
+   "fuente": "jpm",
+   "fecha": "2026-02-11",
+   "valor": 26,
+   "detalle": "Tras el 2,9 % de enero; ve desaceleración a 1,5 % mensual en el segundo semestre.",
+   "url": "https://eleconomista.com.ar/finanzas/bancos-wall-street-avisan-inflacion-mantendra-arriba-2-mitad-ano-n92595/amp",
+   "fecha_ref": "fecha de la nota",
+   "id": "c05"
+  },
+  {
+   "ind": "inflacion_2026",
+   "fuente": "jpm",
+   "fecha": "2026-03",
+   "valor": 26.5,
+   "detalle": "Informe de marzo de 2026 (la nota no indica el día); inflación a diciembre de 2026.",
+   "url": "https://eleconomista.com.ar/finanzas/jp-morgan-tampoco-ve-inflacion-3-marzo-recien-caera-15-segundo-semestre-n93357/amp",
+   "fecha_ref": "mes de la nota",
+   "id": "c06"
+  },
+  {
+   "ind": "inflacion_2026",
+   "fuente": "gs",
+   "fecha": "2026-05-11",
+   "valor": 29,
+   "detalle": "Subió su pronóstico desde 22,5 % tras la guerra en Medio Oriente.",
+   "url": "https://eleconomista.com.ar/economia/goldman-sachs-advierte-milei-escandalos-politicos-el-margen-error-ha-reducido-n94836",
+   "fecha_ref": "fecha de la nota",
+   "id": "c07"
+  },
+  {
+   "ind": "pbi_2026",
+   "fuente": "gs",
+   "fecha": "2026-01-06",
+   "valor": 2.7,
+   "detalle": "Pronóstico de crecimiento 2026.",
+   "url": "https://www.iproup.com/finanzas/63618-goldman-sachs-proyecta-inflacion-pbi-dolar-economia-argentina-2026",
+   "fecha_ref": "fecha de la nota",
+   "id": "c08"
+  },
+  {
+   "ind": "pbi_2026",
+   "fuente": "gs",
+   "fecha": "2026-05-11",
+   "valor": 2.7,
+   "detalle": "Mantuvo el pronóstico de 2,7 %.",
+   "url": "https://eleconomista.com.ar/economia/goldman-sachs-advierte-milei-escandalos-politicos-el-margen-error-ha-reducido-n94836",
+   "fecha_ref": "fecha de la nota",
+   "id": "c09"
+  },
+  {
+   "ind": "pbi_2026",
+   "fuente": "jpm",
+   "fecha": "2026-10",
+   "valor": 1.5,
+   "detalle": "Recortó el crecimiento de 2026 a 1,5 %; la nota no indica el día (fines de septiembre u octubre de 2026).",
+   "url": "https://eleconomista.com.ar/economia/la-actividad-enfrenta-vientos-contra-jp-morgan-pulverizo-proyeccion-crecimiento-argentina-15-n98444",
+   "fecha_ref": "mes aproximado",
+   "id": "c10"
+  },
+  {
+   "ind": "pbi_2026",
+   "fuente": "fmi",
+   "fecha": "2026-10-13",
+   "valor": 2.1,
+   "detalle": "Perspectivas de octubre: recortó desde 3,5 %.",
+   "url": "https://www.noticiasnqn.com.ar/amp/noticias/2026/10/13/356367-el-fmi-recorto-al-2_1por_ciento-su-pronostico-de-crecimiento-para-argentina-en-2026",
+   "fecha_ref": "fecha de la nota",
+   "id": "c11"
+  },
+  {
+   "ind": "actividad",
+   "fuente": "deloitte",
+   "fecha": "2026-10",
+   "valor": 1.7,
+   "detalle": "Nivel de actividad de enero a julio de 2026 contra igual período del año anterior.",
+   "url": "https://www.deloitte.com/latam/es/services/financial-advisory/perspectives/perspectivas-economicas-de-argentina-octubre-2026.html",
+   "fecha_ref": "informe de octubre de 2026",
+   "id": "c12"
+  },
+  {
+   "ind": "aprob_gestion",
+   "fuente": "zuban",
+   "fecha": "2026-08-02",
+   "valor": 33.4,
+   "detalle": "Aprobación de la gestión nacional.",
+   "url": "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280",
+   "fecha_ref": "fecha de la nota",
+   "id": "c13"
+  },
+  {
+   "ind": "desaprob_gestion",
+   "fuente": "zuban",
+   "fecha": "2026-08-02",
+   "valor": 65.3,
+   "detalle": "Desaprobación de la gestión nacional.",
+   "url": "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280",
+   "fecha_ref": "fecha de la nota",
+   "id": "c14"
+  },
+  {
+   "ind": "imagen_pos_milei",
+   "fuente": "zuban",
+   "fecha": "2026-08-02",
+   "valor": 33.4,
+   "detalle": "Imagen positiva (la negativa fue 61,3 %).",
+   "url": "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280",
+   "fecha_ref": "fecha de la nota",
+   "id": "c15"
+  },
+  {
+   "ind": "imagen_pos_milei",
+   "fuente": "zuban",
+   "fecha": "2026-09-27",
+   "valor": 36.1,
+   "detalle": "Relevamiento de septiembre, 2.000 casos recogidos de forma virtual.",
+   "url": "https://www.conclusion.com.ar/politica/nueva-encuesta-mas-de-6-de-cada-10-argentinos-desaprueban-la-gestion-de-milei-mientras-crecen-opositores/09/2026/",
+   "fecha_ref": "fecha de la nota",
+   "id": "c16"
+  },
+  {
+   "ind": "potencial_voto_milei",
+   "fuente": "zuban",
+   "fecha": "2026-09-27",
+   "valor": 38,
+   "detalle": "Potencialidad de voto; relevamiento de septiembre, 2.000 casos virtuales.",
+   "url": "https://www.conclusion.com.ar/politica/nueva-encuesta-mas-de-6-de-cada-10-argentinos-desaprueban-la-gestion-de-milei-mientras-crecen-opositores/09/2026/",
+   "fecha_ref": "fecha de la nota",
+   "id": "c17"
+  },
+  {
+   "ind": "cambio_2027",
+   "fuente": "zuban",
+   "fecha": "2026-08-02",
+   "valor": 61.9,
+   "detalle": "Votaría por un cambio de gobierno (33,4 % por la continuidad).",
+   "url": "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280",
+   "fecha_ref": "fecha de la nota",
+   "id": "c18"
+  },
+  {
+   "id": "c19",
+   "ind": "ipc_mensual",
+   "fuente": "indec",
+   "fecha": "2026-10-13",
+   "valor": 1.9,
+   "detalle": "IPC de septiembre de 2026 (agosto: 1,7 %). Núcleo: 1,7 %.",
+   "url": "https://elancasti.com.ar/politica-y-economia/subio-la-inflacion-septiembre-y-acumulo-334-interanual-n623767",
+   "fecha_ref": "fecha de la nota"
+  },
+  {
+   "id": "c20",
+   "ind": "ipc_interanual",
+   "fuente": "indec",
+   "fecha": "2026-10-13",
+   "valor": 33.4,
+   "detalle": "Septiembre de 2026 contra septiembre de 2025 (agosto: 33,5 %). Acumulado del año: 23,6 %.",
+   "url": "https://elancasti.com.ar/politica-y-economia/subio-la-inflacion-septiembre-y-acumulo-334-interanual-n623767",
+   "fecha_ref": "fecha de la nota"
+  },
+  {
+   "id": "c21",
+   "ind": "ipc_noa_acum",
+   "fuente": "indec",
+   "fecha": "2026-10-13",
+   "valor": 24.6,
+   "detalle": "Acumulado enero–septiembre de 2026 en el Noroeste (Salta, Jujuy, Tucumán, Catamarca, La Rioja y Santiago del Estero). Noreste: 26,6 %; GBA: 23,8 %.",
+   "url": "https://siap.blogdelcontador.com.ar/?p=117800",
+   "fecha_ref": "fecha de la nota"
+  },
+  {
+   "id": "c22",
+   "ind": "pobreza_1s_2026",
+   "fuente": "indec",
+   "fecha": "2026-09-24",
+   "valor": 32.3,
+   "detalle": "Primer semestre de 2026, 31 aglomerados urbanos (segundo semestre de 2025: 28,2 %).",
+   "url": "https://www.forbesargentina.com/today/la-pobreza-subio-323-primer-semestre-2026-afecta-casi-10-millones-personas-n98687",
+   "fecha_ref": "fecha de la nota"
+  },
+  {
+   "id": "c23",
+   "ind": "indigencia_1s_2026",
+   "fuente": "indec",
+   "fecha": "2026-09-24",
+   "valor": 7.5,
+   "detalle": "Primer semestre de 2026 (segundo semestre de 2025: 6,3 %).",
+   "url": "https://www.forbesargentina.com/today/la-pobreza-subio-323-primer-semestre-2026-afecta-casi-10-millones-personas-n98687",
+   "fecha_ref": "fecha de la nota"
+  },
+  {
+   "id": "c24",
+   "ind": "inflacion_2026",
+   "fuente": "bcra",
+   "fecha": "2026-10",
+   "valor": 30.3,
+   "detalle": "REM: los analistas proyectan entre 30 % y 30,3 % para todo 2026 (se carga el extremo superior).",
+   "url": "https://eleconomista.com.ar/economia/inflacion-septiembre-mercado-anticipa-una-aceleracion-hay-dato-genera-preocupacion-n98807/amp",
+   "fecha_ref": "mes de la nota"
+  },
+  {
+   "id": "c25",
+   "ind": "desaprob_gestion",
+   "fuente": "udesa",
+   "fecha": "2026-08-11",
+   "valor": 61,
+   "detalle": "Encuesta nacional de 1.000 casos, margen de error ±3,15 %.",
+   "url": "https://www.perfil.com/noticias/nea/encuesta-leve-diferencia-entre-el-peronismo-y-lla-y-un-curioso-empate-en-el-tercer-lugar.phtml",
+   "fecha_ref": "fin del relevamiento (5 al 11 de agosto)"
+  },
+  {
+   "id": "c26",
+   "ind": "voto_peronismo_2027",
+   "fuente": "udesa",
+   "fecha": "2026-08-11",
+   "valor": 26,
+   "detalle": "Intención de voto para las presidenciales de 2027.",
+   "url": "https://www.perfil.com/noticias/nea/encuesta-leve-diferencia-entre-el-peronismo-y-lla-y-un-curioso-empate-en-el-tercer-lugar.phtml",
+   "fecha_ref": "fin del relevamiento (5 al 11 de agosto)"
+  },
+  {
+   "id": "c27",
+   "ind": "voto_lla_2027",
+   "fuente": "udesa",
+   "fecha": "2026-08-11",
+   "valor": 24,
+   "detalle": "Intención de voto para las presidenciales de 2027.",
+   "url": "https://www.perfil.com/noticias/nea/encuesta-leve-diferencia-entre-el-peronismo-y-lla-y-un-curioso-empate-en-el-tercer-lugar.phtml",
+   "fecha_ref": "fin del relevamiento (5 al 11 de agosto)"
+  },
+  {
+   "id": "c28",
+   "ind": "kicillof_voto_seguro",
+   "fuente": "tendencias",
+   "fecha": "2026-08-29",
+   "valor": 23.9,
+   "detalle": "Voto seguro (potencial: 20,2 %; rechazo: 47,6 %). Encuesta online nacional del 24 al 29 de agosto.",
+   "url": "https://www.perfil.com/noticias/politica/una-encuesta-muestra-un-cambio-en-la-intencion-de-voto-para-las-elecciones-2027.phtml",
+   "fecha_ref": "fin del relevamiento (24 al 29 de agosto)"
+  },
+  {
+   "id": "c29",
+   "ind": "expo_mineras_salta",
+   "fuente": "caem",
+   "fecha": "2025",
+   "valor": 502,
+   "detalle": "Exportaciones mineras de Salta en 2025 (Jujuy: 963; Catamarca: 353; San Juan: 1.758; Santa Cruz: 2.394). Informe de CAEM de mayo de 2026.",
+   "url": "https://mase.lmneuquen.com/mineria-argentina-record-exportaciones-2026",
+   "fecha_ref": "año de los datos"
+  },
+  {
+   "id": "c30",
+   "ind": "asalariados_salta",
+   "fuente": "cices",
+   "fecha": "2026-04",
+   "valor": 243959,
+   "detalle": "Total de asalariados registrados en Salta hasta abril de 2026, según el 3.er Reporte Económico Bimestral (datos de la SRT).",
+   "url": "https://www.consejosalta.org.ar/wp-content/uploads/RPEC-may-jun-26-1.pdf",
+   "fecha_ref": "mes de los datos; reporte de mayo–junio de 2026"
+  },
+  {
+   "id": "c31",
+   "ind": "ciclo_saenz",
+   "fuente": "gebhard",
+   "fecha": "2026",
+   "valor": 75,
+   "detalle": "«Más del 75 %» considera cumplido el ciclo de Sáenz (se carga el piso).",
+   "url": "https://www.letrap.com.ar/politica/encuesta-salta-mas-del-75-cree-que-el-ciclo-gustavo-saenz-esta-cumplido-n5424075",
+   "fecha_ref": "año de la nota; no indica el mes"
+  },
+  {
+   "id": "c32",
+   "ind": "tercer_mandato_rechazo",
+   "fuente": "gebhard",
+   "fecha": "2026",
+   "valor": 72,
+   "detalle": "En desacuerdo con que Sáenz compita por un tercer mandato.",
+   "url": "https://www.letrap.com.ar/politica/encuesta-salta-mas-del-75-cree-que-el-ciclo-gustavo-saenz-esta-cumplido-n5424075",
+   "fecha_ref": "año de la nota; no indica el mes"
+  },
+  {
+   "id": "c33",
+   "ind": "tercer_mandato_apoyo",
+   "fuente": "gebhard",
+   "fecha": "2026",
+   "valor": 26,
+   "detalle": "A favor de un tercer mandato de Sáenz.",
+   "url": "https://www.letrap.com.ar/politica/encuesta-salta-mas-del-75-cree-que-el-ciclo-gustavo-saenz-esta-cumplido-n5424075",
+   "fecha_ref": "año de la nota; no indica el mes"
+  }
+ ]
+}
