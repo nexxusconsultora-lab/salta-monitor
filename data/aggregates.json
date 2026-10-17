@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-17T00:58:08.586725+00:00",
+  "generated_at": "2026-10-17T05:29:49.197150+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 17,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 13,
+      "score_sum": 13
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 19,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 14,
+      "score_sum": -5
+    },
     "concejal-pablo-emanuel-lopez": {
       "total": 35,
       "positivo": 2,
@@ -246,13 +260,6 @@
       "neutral": 26,
       "score_sum": -2
     },
-    "eje-antonio-marocco": {
-      "total": 16,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 12,
-      "score_sum": 13
-    },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 12,
       "positivo": 0,
@@ -483,13 +490,6 @@
       "negativo": 6,
       "neutral": 54,
       "score_sum": -12
-    },
-    "dip-griselda-edith-galleguillos": {
-      "total": 18,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 13,
-      "score_sum": -5
     },
     "concejal-ines-bennassar": {
       "total": 25,
@@ -927,6 +927,38 @@
     }
   },
   "by_day": {
+    "2023-03-25": {
+      "eje-antonio-marocco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-11-24": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-enzo-gabriel-alabi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2020-07-31": {
       "concejal-pablo-emanuel-lopez": {
         "total": 1,
@@ -1637,24 +1669,6 @@
       "sen-sergio-saldano": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2023-11-24": {
-      "dip-monica-gabriela-juarez": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dip-enzo-gabriel-alabi": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2024-12-03": {
@@ -2893,16 +2907,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-03-25": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
         "total": 1,
         "score_sum": 0
       }
@@ -15749,11 +15753,11 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 18
+      "count": 19
     },
     {
       "term": "diputados",
-      "count": 17
+      "count": 16
     },
     {
       "term": "elintra",
