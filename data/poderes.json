@@ -1,0 +1,58 @@
+{
+  "_leeme": "Datos curados que usan las pestañas Ejecutivo y Legislativo (módulo poderes.js). Cada persona lleva su fuente y la fecha en que se verificó. Lo que no se pudo verificar NO se completa. Para marcar que alguien dejó el cargo: \"vigente\": false, y si querés \"hasta\": \"AAAA-MM-DD\" y \"motivo\". Los ministros y secretarios de SALTA salen de data/politicians.json, no de acá.",
+  "actualizado": "2026-10-17",
+  "ejecutivo_nacional": {
+    "aviso": "El gabinete nacional se cargó desde una nota de prensa del 9 de marzo de 2026 (salvo el Ministro de Justicia, verificado en el sitio oficial el 12 de octubre de 2026). Puede haber cambiado desde entonces: confirmalo en el sitio oficial antes de usarlo.",
+    "autoridades": [
+      {"id": "en-milei", "nombre": "Javier Milei", "cargo": "Presidente de la Nación", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09"},
+      {"id": "en-adorni", "nombre": "Manuel Adorni", "cargo": "Jefe de Gabinete de Ministros", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09", "nota": "Asumió tras la salida de Guillermo Francos."},
+      {"id": "en-caputo", "nombre": "Luis Caputo", "cargo": "Ministro de Economía", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09"},
+      {"id": "en-lugones", "nombre": "Mario Lugones", "cargo": "Ministro de Salud", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09"},
+      {"id": "en-pettovello", "nombre": "Sandra Pettovello", "cargo": "Ministra de Capital Humano", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09"},
+      {"id": "en-sturzenegger", "nombre": "Federico Sturzenegger", "cargo": "Ministro de Desregulación y Transformación del Estado", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09"},
+      {"id": "en-monteoliva", "nombre": "Alejandra Monteoliva", "cargo": "Ministra de Seguridad", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09", "nota": "Asumió en diciembre de 2025, cuando Patricia Bullrich pasó al Senado."},
+      {"id": "en-presti", "nombre": "Carlos Alberto Presti", "cargo": "Ministro de Defensa", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09", "nota": "Asumió en diciembre de 2025, cuando Luis Petri pasó a Diputados."},
+      {"id": "en-quirno", "nombre": "Pablo Quirno", "cargo": "Ministro de Relaciones Exteriores, Comercio Internacional y Culto", "vigente": true, "fuente": "https://www.ellitoral.com/politica/gabinete-milei-gobierno-casa-rosada-fichas-movimientos-cambios-mahiques-justicia-caputo-pettovello-sturzenegger_0_EqOr2iPsAQ.html", "verificado": "2026-03-09", "nota": "Pasó de Economía a la Cancillería el 28 de octubre de 2025."},
+      {"id": "en-mahiques", "nombre": "Juan Bautista Mahiques", "cargo": "Ministro de Justicia", "vigente": true, "fuente": "https://www.argentina.gob.ar/justicia", "verificado": "2026-10-12"}
+    ],
+    "sin_dato": [
+      {"cargo": "Vicepresidente/a de la Nación", "motivo": "No se pudo verificar en una fuente oficial; falta cargarlo."},
+      {"cargo": "Secretarías con rango ministerial y organismos descentralizados", "motivo": "No están cargados todavía."}
+    ]
+  },
+  "ejecutivo_salta_estructura": [
+    {"t": "Gobernador y Vicegobernador", "d": "El Gobernador ejerce el Poder Ejecutivo; el Vicegobernador preside el Senado provincial."},
+    {"t": "Jefatura de Gabinete de Ministros", "d": "Coordina a los ministerios."},
+    {"t": "Ministerios", "d": "Gobierno y Justicia; Economía y Servicios Públicos; Desarrollo Social; Producción y Minería; Salud Pública; Educación y Cultura; Turismo y Deportes; Seguridad."},
+    {"t": "Secretarías y subsecretarías", "d": "Dependen de los ministerios o del Gobernador. Solo algunas están cargadas en NEWAR."}
+  ],
+  "legislativo_estructura": {
+    "nacional": [
+      {"t": "Congreso de la Nación", "d": "Bicameral: Cámara de Diputados (257 bancas) y Senado (72 bancas). Salta elige 7 diputados y 3 senadores."},
+      {"t": "Cámara de Diputados de la Nación", "d": "Representa al pueblo; cada provincia tiene bancas según su población.", "url": "https://www.diputados.gob.ar/"},
+      {"t": "Senado de la Nación", "d": "Representa a las provincias; cada una tiene 3 senadores.", "url": "https://www.senado.gob.ar/"}
+    ],
+    "salta": [
+      {"t": "Legislatura de Salta", "d": "Bicameral: Cámara de Senadores (23 senadores, uno por departamento) y Cámara de Diputados (60 diputados)."},
+      {"t": "Cámara de Senadores de Salta", "d": "Preside el Vicegobernador de la Provincia.", "url": "https://senadosalta.gob.ar/"},
+      {"t": "Cámara de Diputados de Salta", "d": "Cámara baja provincial.", "url": "https://www.diputadosalta.gob.ar/"},
+      {"t": "Concejo Deliberante de la Ciudad de Salta", "d": "Legislativo municipal (21 concejales).", "url": "https://cdsalta.gob.ar/"}
+    ]
+  },
+  "enlaces": [
+    {"p": "eje", "g": "Gobierno de Salta", "t": "Noticias del Gobierno de Salta", "u": "https://www.salta.gob.ar/prensa/noticias", "a": "Salta"},
+    {"p": "eje", "g": "Gobierno de Salta", "t": "Nómina de autoridades del Poder Ejecutivo (2021)", "u": "https://www.salta.gob.ar/organismos/nomina-autoridades-poder-ejecutivo", "a": "Salta"},
+    {"p": "eje", "g": "Gobierno de Salta", "t": "Organigrama 2026 de la Jefatura de Gabinete", "u": "https://www.salta.gob.ar/public/descargas/organismos/ORGANIGRAMA-SALTA-JEFATURA-GABINETE-MINISTROS-2026-02-24.pdf", "a": "Salta"},
+    {"p": "eje", "g": "Gobierno de Salta", "t": "Ministerio de Economía y Servicios Públicos: noticias", "u": "https://economiasalta.gob.ar/noticias/", "a": "Salta"},
+    {"p": "eje", "g": "Boletines oficiales", "t": "Boletín Oficial de la Provincia de Salta", "u": "https://boletinoficialsalta.gob.ar/boletin_suplemento.php", "a": "Salta"},
+    {"p": "eje", "g": "Boletines oficiales", "t": "Boletín Oficial de la República Argentina", "u": "https://www.boletinoficial.gob.ar/seccion/primera", "a": "Nación"},
+    {"p": "eje", "g": "Nación", "t": "Ministerio de Justicia de la Nación", "u": "https://www.argentina.gob.ar/justicia", "a": "Nación"},
+    {"p": "eje", "g": "Nación", "t": "Leyes argentinas (normativa)", "u": "https://www.argentina.gob.ar/normativa", "a": "Nación"},
+    {"p": "leg", "g": "Salta", "t": "Cámara de Senadores de Salta", "u": "https://senadosalta.gob.ar/", "a": "Salta"},
+    {"p": "leg", "g": "Salta", "t": "Cámara de Diputados de Salta", "u": "https://www.diputadosalta.gob.ar/", "a": "Salta"},
+    {"p": "leg", "g": "Salta", "t": "Concejo Deliberante de la Ciudad de Salta", "u": "https://cdsalta.gob.ar/", "a": "Salta"},
+    {"p": "leg", "g": "Nación", "t": "Honorable Cámara de Diputados de la Nación", "u": "https://www.diputados.gob.ar/", "a": "Nación"},
+    {"p": "leg", "g": "Nación", "t": "Honorable Senado de la Nación", "u": "https://www.senado.gob.ar/", "a": "Nación"},
+    {"p": "leg", "g": "Nación", "t": "Leyes argentinas (normativa)", "u": "https://www.argentina.gob.ar/normativa", "a": "Nación"}
+  ]
+}
