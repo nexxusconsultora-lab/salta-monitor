@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T14:53:42+00:00",
+ "actualizado": "2026-10-17T13:45:46+00:00",
  "nota": "Indicadores provinciales del INDEC. 'ultimo' es el último período publicado; no es de hoy.",
  "indicadores": [
   {
@@ -185,19 +185,14 @@
    },
    "serie": [
     {
-     "fecha": "2023-07-01",
-     "periodo": "2023-07-01",
-     "valor": 43.5
-    },
-    {
-     "fecha": "2023-10-01",
-     "periodo": "2023-10-01",
-     "valor": 46.1
-    },
-    {
      "fecha": "2024-07-01",
      "periodo": "2024-07-01",
      "valor": 43.5
+    },
+    {
+     "fecha": "2024-10-01",
+     "periodo": "2024-10-01",
+     "valor": 43.8
     },
     {
      "fecha": "2025-01-01",
@@ -208,6 +203,11 @@
      "fecha": "2025-04-01",
      "periodo": "2025-04-01",
      "valor": 42.5
+    },
+    {
+     "fecha": "2025-07-01",
+     "periodo": "2025-07-01",
+     "valor": 41.7
     },
     {
      "fecha": "2025-10-01",
@@ -228,7 +228,6 @@
   }
  ],
  "no_actualizados": [
-  "pobreza_personas",
   "desempleo"
  ]
 }
