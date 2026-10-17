@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-17T18:15:27.505900+00:00",
+  "generated_at": "2026-10-17T18:49:56.329024+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 287,
+      "positivo": 66,
+      "negativo": 45,
+      "neutral": 176,
+      "score_sum": 119
+    },
     "eje-roberto-dib-ashur": {
       "total": 44,
       "positivo": 5,
@@ -28,13 +35,6 @@
       "negativo": 1,
       "neutral": 13,
       "score_sum": 32
-    },
-    "gustavo-saenz": {
-      "total": 286,
-      "positivo": 66,
-      "negativo": 44,
-      "neutral": 176,
-      "score_sum": 122
     },
     "dip-jose-miguel-gauffin": {
       "total": 24,
@@ -927,25 +927,11 @@
     }
   },
   "by_day": {
-    "2025-01-31": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-sergio-saldano": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-10-17": {
+      "gustavo-saenz": {
+        "total": 8,
+        "score_sum": 5
+      },
       "eje-manuela-arancibia": {
         "total": 1,
         "score_sum": 19
@@ -962,10 +948,6 @@
         "total": 1,
         "score_sum": 19
       },
-      "gustavo-saenz": {
-        "total": 7,
-        "score_sum": 8
-      },
       "eje-cristina-fiore": {
         "total": 2,
         "score_sum": 2
@@ -977,6 +959,24 @@
       "dnac-pablo-outes": {
         "total": 1,
         "score_sum": -3
+      }
+    },
+    "2025-01-31": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
       }
     },
     "2024-07-31": {
@@ -15869,43 +15869,23 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 31
+      "count": 28
     },
     {
       "term": "elintra",
-      "count": 18
+      "count": 16
     },
     {
       "term": "diputados",
-      "count": 17
+      "count": 16
     },
     {
       "term": "gustavo",
-      "count": 12
+      "count": 13
     },
     {
       "term": "ramales",
       "count": 11
-    },
-    {
-      "term": "impulso",
-      "count": 10
-    },
-    {
-      "term": "turismo",
-      "count": 10
-    },
-    {
-      "term": "potenciar",
-      "count": 9
-    },
-    {
-      "term": "belgrano",
-      "count": 9
-    },
-    {
-      "term": "cargas",
-      "count": 9
     },
     {
       "term": "salteños",
@@ -15916,15 +15896,35 @@
       "count": 9
     },
     {
-      "term": "cristina",
-      "count": 8
-    },
-    {
-      "term": "fiore",
+      "term": "reclamo",
       "count": 8
     },
     {
       "term": "antes",
+      "count": 7
+    },
+    {
+      "term": "cristina",
+      "count": 7
+    },
+    {
+      "term": "fiore",
+      "count": 7
+    },
+    {
+      "term": "belgrano",
+      "count": 7
+    },
+    {
+      "term": "cargas",
+      "count": 7
+    },
+    {
+      "term": "sólo",
+      "count": 7
+    },
+    {
+      "term": "quórum",
       "count": 7
     }
   ],
