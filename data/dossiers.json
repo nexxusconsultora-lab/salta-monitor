@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 278,
+    "total_mentions": 279,
     "sentiment_breakdown": {
       "positivo": 65,
       "negativo": 40,
-      "neutral": 173
+      "neutral": 174
     },
     "sentiment_by_day": {
       "2026-10-16": {
-        "total": 6,
+        "total": 7,
         "score_sum": 3
       },
       "2026-10-15": {
@@ -282,7 +282,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 26
+        "count": 27
+      },
+      {
+        "term": "ramales",
+        "count": 7
       },
       {
         "term": "belgrano",
@@ -305,11 +309,7 @@
         "count": 6
       },
       {
-        "term": "ramales",
-        "count": 6
-      },
-      {
-        "term": "obras",
+        "term": "gustavo",
         "count": 5
       }
     ],
@@ -407,6 +407,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunirá con Santilli por los ramales C14 y C15",
+        "link": "https://www.eltribuno.com/salta/2026-10-16-20-43-0-gustavo-saenz-se-reunira-con-santilli-por-los-ramales-c14-y-c15",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 16 Oct 2026 23:43:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Urtubey recorre Salta rumbo a 2027, pero Kosiner marca distancia con Sáenz: “No hay punto de contacto con Milei”",
         "link": "https://www.gentedesalta.com/politica/urtubey-recorre-salta-rumbo-2027-pero-kosiner-marca-distancia-saenz-no-hay-punto-contacto-milei-n12986",
@@ -609,13 +616,6 @@
         "source": "Salta 4400",
         "date": "Tue, 04 Nov 2025 12:36:12 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Roberto Dib Ashur criticó el modelo económico libertario",
-        "link": "https://salta4400.com/politica/2025/11/04/roberto-dib-ashur-critico-el-modelo-economico-libertario/",
-        "source": "Salta 4400",
-        "date": "Tue, 04 Nov 2025 12:49:42 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -18598,13 +18598,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 34,
+    "total_mentions": 35,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 15,
+      "negativo": 16,
       "neutral": 17
     },
     "sentiment_by_day": {
+      "2020-07-31": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-07-24": {
         "total": 1,
         "score_sum": -2
@@ -18697,11 +18701,11 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 7
+        "count": 8
       },
       {
         "term": "lópez",
-        "count": 7
+        "count": 8
       },
       {
         "term": "informate",
@@ -18729,6 +18733,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Buscan obstruir la gobernabilidad",
+        "source": "Ambito",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTdyc3c5blR3MWVyTUFPdk11T0pMSjh6aU44Y1RSY1NJYWNBeW5XTnhPWnBKNHVFQWwxajNnT0dGeHZtcWxsTGJrMXhBMks4cFhiUXdoZjZoRUJBQlU2Tk1PYlFZSmw0djZRMldDZkhKdDBNQk1WLW84V1lUOXVMdS1MdG0zc3I2WGpVNFY4Z29tOGJJeDVxN25NTWJZNTE0aFJlMm96OGdZSmh3UzgtekM2MDBzSWMwTy1KUWpFRVZqTnhlOHdJ0gHMAUFVX3lxTE95VFNRRVp0SXVTSjRkX0NtQUxzZVJZckkyM1ktUEhWbVZ3RTZCMkhQU2NXVHBrelFOOHdtR2otaE0yV3RJelV6QzFPN1pfOHVRUWlEQkhqUzJ2NE1xVDRETDFrZk9EMXlkaDduTW9zazZVTVN5akNoSFpjeW5TaDU2M2pGSmRfUW42eG1YcW95OFhSS2h2LTZ5SnVnang4M2Rpdk1GZUF4NWFMQjI1Qmk0QkN0bllXTy1zcU9hdFpVanhJS1EzMnZZdUI0UQ?oc=5",
+        "date": "Fri, 31 Jul 2020 07:00:00 GMT"
+      },
       {
         "quote": "Los juicios por la deuda son mecanismos de presión, la solución no vendrá por ahí",
         "source": "La Nación",
@@ -18835,6 +18845,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López criticó a legisladores opositores: \"Buscan obstruir la gobernabilidad\" - Ambito",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTdyc3c5blR3MWVyTUFPdk11T0pMSjh6aU44Y1RSY1NJYWNBeW5XTnhPWnBKNHVFQWwxajNnT0dGeHZtcWxsTGJrMXhBMks4cFhiUXdoZjZoRUJBQlU2Tk1PYlFZSmw0djZRMldDZkhKdDBNQk1WLW84V1lUOXVMdS1MdG0zc3I2WGpVNFY4Z29tOGJJeDVxN25NTWJZNTE0aFJlMm96OGdZSmh3UzgtekM2MDBzSWMwTy1KUWpFRVZqTnhlOHdJ0gHMAUFVX3lxTE95VFNRRVp0SXVTSjRkX0NtQUxzZVJZckkyM1ktUEhWbVZ3RTZCMkhQU2NXVHBrelFOOHdtR2otaE0yV3RJelV6QzFPN1pfOHVRUWlEQkhqUzJ2NE1xVDRETDFrZk9EMXlkaDduTW9zazZVTVN5akNoSFpjeW5TaDU2M2pGSmRfUW42eG1YcW95OFhSS2h2LTZ5SnVnang4M2Rpdk1GZUF4NWFMQjI1Qmk0QkN0bllXTy1zcU9hdFpVanhJS1EzMnZZdUI0UQ?oc=5",
+        "source": "Ambito",
+        "date": "Fri, 31 Jul 2020 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Concejales rechazaron la renuncia de Pablo López - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTE9IY3NWVURHVnFqd3lEOHZQZlV4WWVmWWk1X1pOY1dEdV8tNGdILXBaaEVnbU5vRnNjR01hbTlua0hWUm50TGF3Ny1IMFFrT2t5d3UxUVBWV3VXV1VrOXFhOXBvc3NBR0VEWENKVDBhLUtlTlFoWFc3STltUlBMcW5CZWlKenpXcGdRcUxMUnN0TzJXTl91cE1DZzA5Uy1VUUhpVmh3NEs4SHd2NU9mOXNIWjdzVERsNUJ3c3V6dXRSeFFGUnfSAcYBQVVfeXFMT0xPSGNzVlVER1Zxand5RDh2UGZVeFllZllpNV9aTmNXRHVfLTRnSC1wWmhFZ21Ob0ZzY0dNYW05bmtIVlJudExhdzctSDBRa09reXd1MVFQVld1V1dVazlxYTlwb3NzQUdFRFhDSlQwYS1LZU5RaFhXN0k5bVJQTHFuQmVpSnp6V3BnUXFMTFJzdE8yV05fdXBNQ2cwOVMtVVFIaVZodzRLOEh3djVPZjlzSFo3c1REbDVCd3N1enV0UnhRRlJ3?oc=5",
@@ -19037,13 +19054,6 @@
         "source": "eltribuno.com",
         "date": "Thu, 17 Jul 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Hay 20 listas que van por las bancas que renovará el Concejo Deliberante capitalino - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcVpKZGFpMEpDaWRhV0tFUXlRMjV3VXhiQnkwMWw2N0t4Z1FQNFZNUGVFXzRKNjEwSnhMZEtHMFE0RThuVlNXWUc3U0JzQy0tak5LQW14NDd5OGFGcTBFbmNOUWZFWkwxRzJGLUxBTkt4SkVWeXB4Um40ZlFBUTFuUTNLb1d0MmZiaWJfdGg1cDE0MUpmWlJNeXhtUWczUk5kamtNV1duSmR1ZlgyYk9BQW5fQWZZMHFBU2RPbW1GZUpNUHhoTHJiUHhUMNIB0AFBVV95cUxPMW9MeVYxRHl3R05rWk1VczRkdDlHMnVvXzNOeWkxYkNJV2NHMnJoMlRicDdscVcxdmt0bURjNG9YbW5GMUFlNk82V2VTZ2xUZy1rV2QteVhjdS1EYlRzaE1GcW03al90cWN0eEhDdk1hX2pWemw0ZVVaZk9sUDVBNkdhWnlzT05QcWtHYW4zV0FXaFZ6S3h0Z09ZbDRoQUdTUVFwY01LdjJ5a1J6LWl2aU0wTVlZV256c3RCWUswSzhqaFlfdy14NFZxbW1lYmJC?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -27562,13 +27572,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 40,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 2,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "2025-10-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-16": {
         "total": 1,
         "score_sum": 2
@@ -27701,7 +27715,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 11
+        "count": 12
       },
       {
         "term": "millones",
@@ -27710,6 +27724,10 @@
       {
         "term": "roberto",
         "count": 4
+      },
+      {
+        "term": "argentina",
+        "count": 3
       },
       {
         "term": "turismo",
@@ -27725,10 +27743,6 @@
       },
       {
         "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "escuela",
         "count": 2
       }
     ],
@@ -27827,6 +27841,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Noticia: El ministro Dib Ashur compartió su experiencia con alumnos del Polivalente de Artes - Gobierno de la Provincia de Salta, Argentina",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZWJIUzk5YUQ2RGJxVnpBQjZUMGRJLUc0eHZEdmRldjl3TDdQNmVQYU5yMUJMNGt6Mm1qVEVqX0pDRHZhZ182bl9XaXVIRWdjRk9WVXJJTFdJUjdiSUFQV01TVXJhV2xDUFRkelFjTS11cjNYMXpYemdyVzVTamN1MG45U0JFZUctbzBOZkZMZEVFbFkwODQ4VzE5UFVKZmxoaEZfd2RIcnFFSUo5Wkt0dElfbzF6czkyVFdvQ1VHQ3RjRDM1dVM4NnBHYw?oc=5",
+        "source": "Gobierno de la Provincia de Salta, Argentina",
+        "date": "Fri, 03 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Caída de ventas en turismo y gastronomía: el Gobierno apuesta a Impulso Salta y PreSalta",
         "link": "https://informatesalta.com.ar/turismo/caida-de-ventas-en-turismo-y-gastronomia--el-gobierno-apuesta-a-impulso-salta-y-presalta_a6ad1598b7f0e2f8050d8d5f6",
@@ -28028,13 +28049,6 @@
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92NnE0NjFVbUdwRXhtbW9HeHk4Nkd1OFF1YTJyQWlUN2dIM2xGdTlsbVhpZ2d6WWt3aWxsUmhIRGt5OXdGRU84NlBHaTl1bEd5MXNtWXl0Ni1qcnhXMG9OcE15cGE0Und6ckxNV0VNbHNTN3RWU0RTLQ?oc=5",
         "source": "El Tribuno",
         "date": "Wed, 08 May 2024 17:47:44 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "DIB ASHUR, Rosa Elisabeth - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTW83RnZhSXo2RnhPYWNLYk5wb3c3VFZrXzV4WTZKZGtRemdjdndadFpsa3Fhcy1PZnN4amQzQXBRQVFWV3lqZlZpSUxuNTdFMXJXUG9vNGJNOWduMG0yV1FiTEdiZmdsakJtYmJBaU1pZHJQSnBkdllLQTBwU19NX0Jpdw?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 12 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
