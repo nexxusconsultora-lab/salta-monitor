@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-17T13:15:37.520131+00:00",
+  "generated_at": "2026-10-17T13:19:07.876194+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 61,
+      "positivo": 8,
+      "negativo": 10,
+      "neutral": 43,
+      "score_sum": -3
+    },
     "snac-flavia-royon": {
       "total": 84,
       "positivo": 7,
@@ -168,13 +175,6 @@
       "negativo": 1,
       "neutral": 5,
       "score_sum": 4
-    },
-    "snac-emilia-orozco": {
-      "total": 60,
-      "positivo": 8,
-      "negativo": 10,
-      "neutral": 42,
-      "score_sum": -3
     },
     "dnac-bernardo-biella": {
       "total": 25,
@@ -927,6 +927,20 @@
     }
   },
   "by_day": {
+    "2026-02-11": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-17": {
       "snac-flavia-royon": {
         "total": 1,
@@ -5913,16 +5927,6 @@
         "score_sum": 0
       },
       "dip-maria-del-socorro-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-02-11": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
         "total": 1,
         "score_sum": 0
       }
@@ -15854,6 +15858,10 @@
     {
       "term": "vecinos",
       "count": 8
+    },
+    {
+      "term": "defendió",
+      "count": 7
     },
     {
       "term": "sólo",

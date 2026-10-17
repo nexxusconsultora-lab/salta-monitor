@@ -21616,13 +21616,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 60,
+    "total_mentions": 61,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 10,
-      "neutral": 42
+      "neutral": 43
     },
     "sentiment_by_day": {
+      "2026-02-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-15": {
         "total": 2,
         "score_sum": -1
@@ -21835,11 +21839,19 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 9
+        "count": 10
       },
       {
         "term": "orozco",
-        "count": 9
+        "count": 10
+      },
+      {
+        "term": "contra",
+        "count": 3
+      },
+      {
+        "term": "apuntó",
+        "count": 2
       },
       {
         "term": "quién",
@@ -21854,19 +21866,17 @@
         "count": 2
       },
       {
-        "term": "contra",
-        "count": 2
-      },
-      {
         "term": "diputada",
-        "count": 2
-      },
-      {
-        "term": "senadora",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "industria del juicio",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQzRCaUkxalNUcUpaWEhJd0VSM1lwRXVjZkpDSF9jSmZLV0xRd0o0b01RQzRDSkFRVkswcEh6QlZtZ2VOeWRUUzBPR2dJYnUyaXBjSDRyNm81b09QR3lzQ1l2TGFiWWxNdDZHOUJqSU1tQm9ENnFMaDh4U2k2b29heFZQOUVJSmZ3eDNSdzl2QS1hVlhsa1lNYTUyS0hMUTZRN05zZnZrRDRtLVJSM0djWF9wZEoxY1psZ3FFWVhjTmxOM2VtOG10OUYwU0Z5QnA3bnc?oc=5",
+        "date": "Wed, 11 Feb 2026 08:00:00 GMT"
+      },
       {
         "quote": "Senadora de cartón",
         "source": "Página|12",
@@ -21950,15 +21960,15 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOenp1a1RVWmtfMDdERTRjaVJfaUlIWjc4Ym5OWGxTVDF2blVfTy1pOFhtZTJyMHFPU1RyVTNTLXVOcUhiX016eXpsb1hTSzJscjJlZ2dxNTIteTRVT1FOcGdJanVHd1hHTU5LX2ZybHJGVmZ1S09UcUYwRVNOQXBvczNfZUFMR1ZYUk9KejV2U3NOV1QtckRiQmJvTnhtaEFER2NiTF83ZDh5enYyZnhWanpsck1KdngxVnZMTDhUTTR0ZGRCZWtoaEhNTHhkT2VpeEcxVDJR?oc=5",
         "date": "Thu, 28 Nov 2024 08:00:00 GMT"
-      },
-      {
-        "quote": "Voy a asumir como senadora, no somos candidaturas testimoniales",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV09nTDVVbDlaZ1NNVW5pRm1zQWhrdkVCLUFmQy1NVEFlUE1hLXFCVGR5SzkxdTl4cXp0N3JkMnBsRkwxWHJyOGRWcmwtdm9GNDZ5UXBuZWxBS0JnbzBPQzdmMnZHNVlweHl4R0Zzc3FPd3IxN2t3SUZHMkVCNVNUTXItc3lvRGVhZmlxOFB3UFpJczRvS2tRaEJsMGRVcDNVcGY3X0ZnWkhWNmctaGk1SGJCS2ZNVHFTaWZpdjBMcENlbEdHMlVTb1BOTDTSAdIBQVVfeXFMUHNxbXlQVk1FWTZhUG5sRkVWdmJzYmxpVXZZcy1qWkhyQ1hkWGxWUUtIYUdzQW1XRC1keWZxQ2JDcTVOMGQ4c01NQ2VhYS1VT2F3SVlMSWY3cVRUVks5QU5Cb2o2b0F1RlZ0SzNkeDRZcDQ0MWpXT3hwQTMtZ0w0ZFhUcExaV3ZnNDhRbmRHbXJyZVRndkZOa1NMSUo5RTVJdnR5ZU9CaXNaNnB1ZmlfTDVvY1pEcnpsRlFPRWlJXzlncXpwQWgxQzhrNmF0ci12eENB?oc=5",
-        "date": "Tue, 23 Sep 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
+      {
+        "title": "Emilia Orozco defendió la reforma laboral y apuntó contra la “industria del juicio” - El Tribuno",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQzRCaUkxalNUcUpaWEhJd0VSM1lwRXVjZkpDSF9jSmZLV0xRd0o0b01RQzRDSkFRVkswcEh6QlZtZ2VOeWRUUzBPR2dJYnUyaXBjSDRyNm81b09QR3lzQ1l2TGFiWWxNdDZHOUJqSU1tQm9ENnFMaDh4U2k2b29heFZQOUVJSmZ3eDNSdzl2QS1hVlhsa1lNYTUyS0hMUTZRN05zZnZrRDRtLVJSM0djWF9wZEoxY1psZ3FFWVhjTmxOM2VtOG10OUYwU0Z5QnA3bnc?oc=5",
+        "date": "Wed, 11 Feb 2026 08:00:00 GMT"
+      },
       {
         "title": "Emilia Orozco denunciará las amenazas - El Tribuno",
         "source": "El Tribuno",
@@ -21979,6 +21989,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco defendió la reforma laboral y apuntó contra la “industria del juicio” - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQzRCaUkxalNUcUpaWEhJd0VSM1lwRXVjZkpDSF9jSmZLV0xRd0o0b01RQzRDSkFRVkswcEh6QlZtZ2VOeWRUUzBPR2dJYnUyaXBjSDRyNm81b09QR3lzQ1l2TGFiWWxNdDZHOUJqSU1tQm9ENnFMaDh4U2k2b29heFZQOUVJSmZ3eDNSdzl2QS1hVlhsa1lNYTUyS0hMUTZRN05zZnZrRDRtLVJSM0djWF9wZEoxY1psZ3FFWVhjTmxOM2VtOG10OUYwU0Z5QnA3bnc?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 11 Feb 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La pelea por quién representa a Javier Milei en Salta ya es un espectáculo penoso",
         "link": "https://elintra.com.ar/2026/10/15/quinteros-pelea-libertaria-salta/",
@@ -22180,13 +22197,6 @@
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVmNYQlo0WHdFZTRLUndtTGFqQUYwTFFYRExIX3dKRVlvdzJacGtueTBITm5zX3U4b2NrZ2l1V2VRNVpiekczenZiek1zX2dOcmx5UU9WZUlfTzRCWDBRNUpzdDVWZnk3OUc3UEpQbVFhaDFudXkxRTZsSHZUSVdWNndiMmNuQTlmU2tTSXQ1Z2liaXVNWGdqOTBtMnBGVGNxVDZWd3JibnQ0c29rWnlFSVZNU1NkYWptZUpqQkpzM0hSMGtKcmJ4UEdNSVZzWGRWQlhtd0NIRG9Xd3NCNlBOMGlIU2RwaU9qbEZIZ9IB8gFBVV95cUxNYUVJU2ZtWm9qX3cxVFI5ZFo2UkpWWXlZeWZ2b2xFVHl1aDBoTkVXTEo1ZUdXa0gzNlpOV09hNFo4cGdEam9KZWxwTjJqcXRuRlNGX3R4RkNZUkozel9YcURVYi00YXh6YVFVcExscDA5aU9ZblZidHNFajNXNkVwQzF6UW9xOXFURzVRQWdTclVhZEE1S2dwdzJHQnlFeXNJeVNvRHNhTkdQQVZ3dkRvUldQQXJSLTBSeVJTaUhaZVowRmF0c3pvS1pQWDJmVzdpZjRBQm1qaG9SMEtseVEwNGViTzZ3MW5QTFIzQjNIMXJnZw?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 16 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Emilia Orozco: \"Si no trabajamos en conjunto las soluciones no van a llegar\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZU1GU2hmUkUzSmFPSUJ0RVNoandKZmYyTVVLYndHOTdNVkJacXJKRVRINTJzbmRvZjBOR1NDVzNfaElCamZSc211LV82TjdBazlYdkttakY1eXBTbXdiV3pFUWg0RGNaT19MTUVkLXI1VE80cVhPdHdBWWhCakxrVjQ0eGI2NkNJN1NkeFQtbDB1c1RMd09JQ2JrQzNRSk03UGJpMGFyTVFsUTVFZjN1bDNYSm96MnVKQW9INm52WUtVVG1pWHJBTA?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 19 Nov 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
