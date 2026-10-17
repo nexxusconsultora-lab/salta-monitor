@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-17T21:52:47.523181+00:00",
+  "generated_at": "2026-10-17T23:08:20.588990+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 86,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 70,
+      "score_sum": 5
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 56,
+      "positivo": 4,
+      "negativo": 10,
+      "neutral": 42,
+      "score_sum": -9
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 27,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 19,
+      "score_sum": 0
+    },
     "eje-cristina-fiore": {
       "total": 36,
       "positivo": 2,
@@ -91,13 +112,6 @@
       "negativo": 4,
       "neutral": 20,
       "score_sum": -6
-    },
-    "snac-flavia-royon": {
-      "total": 85,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 69,
-      "score_sum": 5
     },
     "concejal-dario-madile": {
       "total": 72,
@@ -210,13 +224,6 @@
       "negativo": 1,
       "neutral": 9,
       "score_sum": 1
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 54,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 40,
-      "score_sum": -9
     },
     "eje-juan-vilchez": {
       "total": 9,
@@ -363,13 +370,6 @@
       "positivo": 0,
       "negativo": 0,
       "neutral": 7,
-      "score_sum": 0
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 26,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 18,
       "score_sum": 0
     },
     "dip-sergio-mauricio-lopez": {
@@ -927,6 +927,124 @@
     }
   },
   "by_day": {
+    "2026-08-24": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-alejandro-jesus-esper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-luis-arias": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-25": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-17": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 8,
+        "score_sum": 5
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 19
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 19
+      },
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": 19
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 19
+      },
+      "eje-cristina-fiore": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": -3
+      }
+    },
     "2024-03-23": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -1037,40 +1155,6 @@
         "score_sum": 2
       }
     },
-    "2026-10-17": {
-      "gustavo-saenz": {
-        "total": 8,
-        "score_sum": 5
-      },
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 19
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 19
-      },
-      "eje-sergio-camacho": {
-        "total": 2,
-        "score_sum": 19
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 19
-      },
-      "eje-cristina-fiore": {
-        "total": 2,
-        "score_sum": 2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": -3
-      }
-    },
     "2025-01-31": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -1129,16 +1213,6 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-25": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
       }
@@ -1941,68 +2015,6 @@
       "snac-emilia-orozco": {
         "total": 1,
         "score_sum": 5
-      }
-    },
-    "2026-08-24": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-javier-monico": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-alejandro-jesus-esper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-ines-bennassar": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-jose-luis-arias": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2024-05-07": {
@@ -15895,7 +15907,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 24
+      "count": 25
     },
     {
       "term": "elintra",
@@ -15908,6 +15920,10 @@
     {
       "term": "diputados",
       "count": 10
+    },
+    {
+      "term": "estuvieron",
+      "count": 8
     },
     {
       "term": "reclamo",
@@ -15930,27 +15946,23 @@
       "count": 7
     },
     {
+      "term": "flavia",
+      "count": 6
+    },
+    {
+      "term": "royón",
+      "count": 6
+    },
+    {
+      "term": "diario",
+      "count": 6
+    },
+    {
       "term": "cristina",
       "count": 6
     },
     {
       "term": "fiore",
-      "count": 6
-    },
-    {
-      "term": "nuevo",
-      "count": 6
-    },
-    {
-      "term": "impulso",
-      "count": 6
-    },
-    {
-      "term": "turismo",
-      "count": 6
-    },
-    {
-      "term": "antes",
       "count": 6
     }
   ],
