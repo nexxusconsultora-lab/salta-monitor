@@ -56,6 +56,11 @@ def main() -> int:
     if js.exists():
         html = html.replace('<script src="argentina.js"></script>', "<script>\n" + js.read_text(encoding="utf-8").replace("</script", "<\\/script") + "\n</script>")
 
+    # 1d) Capa visual moderna (modern.js)
+    js = RAIZ / "modern.js"
+    if js.exists():
+        html = html.replace('<script src="modern.js"></script>', "<script>\n" + js.read_text(encoding="utf-8").replace("</script", "<\\/script") + "\n</script>")
+
     # 2) Tipografías como data: URI (bajo file:// el navegador no siempre carga fuentes externas)
     html = re.sub(r'<link rel="preload" href="fonts/[^>]+>\n', "", html)
 
