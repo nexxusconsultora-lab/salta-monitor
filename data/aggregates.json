@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-17T13:10:50.238852+00:00",
+  "generated_at": "2026-10-17T13:15:37.520131+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 84,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 68,
+      "score_sum": 5
+    },
     "gustavo-saenz": {
-      "total": 281,
+      "total": 282,
       "positivo": 65,
-      "negativo": 42,
+      "negativo": 43,
       "neutral": 174,
-      "score_sum": 108
+      "score_sum": 105
     },
     "dip-guillermo-alejandro-kripper": {
       "total": 13,
@@ -14,13 +21,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 281,
-      "positivo": 65,
-      "negativo": 42,
-      "neutral": 174,
-      "score_sum": 108
     },
     "dnac-carlos-raul-zapata": {
       "total": 29,
@@ -35,13 +35,6 @@
       "negativo": 3,
       "neutral": 17,
       "score_sum": -3
-    },
-    "snac-flavia-royon": {
-      "total": 83,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 67,
-      "score_sum": 5
     },
     "concejal-laura-jorge-saravia": {
       "total": 43,
@@ -253,6 +246,13 @@
       "neutral": 10,
       "score_sum": -1
     },
+    "sen-juan-cruz-cura": {
+      "total": 86,
+      "positivo": 11,
+      "negativo": 7,
+      "neutral": 68,
+      "score_sum": 11
+    },
     "sen-mashur-lapad": {
       "total": 61,
       "positivo": 4,
@@ -434,6 +434,13 @@
       "negativo": 0,
       "neutral": 15,
       "score_sum": 0
+    },
+    "dip-jose-miguel-gauffin": {
+      "total": 23,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 19,
+      "score_sum": -6
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 57,
@@ -921,9 +928,13 @@
   },
   "by_day": {
     "2026-10-17": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
       "gustavo-saenz": {
-        "total": 2,
-        "score_sum": -6
+        "total": 3,
+        "score_sum": -9
       },
       "dnac-pablo-outes": {
         "total": 1,
@@ -946,16 +957,6 @@
       "concejal-camila-lobo": {
         "total": 3,
         "score_sum": -2
-      }
-    },
-    "2026-10-17": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": -6
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": -3
       }
     },
     "2024-05-19": {
@@ -2646,6 +2647,16 @@
     },
     "2023-11-11": {
       "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-04-09": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
       }
@@ -6042,6 +6053,24 @@
         "score_sum": 0
       }
     },
+    "2026-05-05": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2026-03-11": {
       "concejal-laura-garcia": {
         "total": 1,
@@ -6392,6 +6421,12 @@
         "score_sum": 0
       },
       "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-07-31": {
+      "dip-omar-exeni-arminana": {
         "total": 1,
         "score_sum": 0
       }
@@ -15785,8 +15820,12 @@
       "count": 17
     },
     {
+      "term": "elintra",
+      "count": 16
+    },
+    {
       "term": "ramales",
-      "count": 12
+      "count": 13
     },
     {
       "term": "salteños",
@@ -15801,24 +15840,20 @@
       "count": 9
     },
     {
-      "term": "curá",
+      "term": "belgrano",
+      "count": 8
+    },
+    {
+      "term": "cargas",
+      "count": 8
+    },
+    {
+      "term": "reclamo",
       "count": 8
     },
     {
       "term": "vecinos",
       "count": 8
-    },
-    {
-      "term": "belgrano",
-      "count": 7
-    },
-    {
-      "term": "cargas",
-      "count": 7
-    },
-    {
-      "term": "reclamo",
-      "count": 7
     },
     {
       "term": "sólo",
@@ -15830,6 +15865,10 @@
     },
     {
       "term": "turismo",
+      "count": 7
+    },
+    {
+      "term": "quórum",
       "count": 7
     }
   ],
