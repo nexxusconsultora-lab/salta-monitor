@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-17T21:06:35.479658+00:00",
+  "generated_at": "2026-10-17T21:52:47.523181+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 36,
+      "positivo": 2,
+      "negativo": 11,
+      "neutral": 23,
+      "score_sum": -30
+    },
+    "dip-luis-gerardo-mendana": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 3,
+      "score_sum": -4
+    },
     "eje-ignacio-jarsun": {
       "total": 24,
       "positivo": 2,
@@ -98,13 +112,6 @@
       "negativo": 10,
       "neutral": 17,
       "score_sum": -24
-    },
-    "eje-cristina-fiore": {
-      "total": 35,
-      "positivo": 2,
-      "negativo": 11,
-      "neutral": 22,
-      "score_sum": -30
     },
     "snac-emilia-orozco": {
       "total": 61,
@@ -673,13 +680,6 @@
       "neutral": 7,
       "score_sum": 0
     },
-    "dip-luis-gerardo-mendana": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 2,
-      "score_sum": -4
-    },
     "dip-nestor-eduardo-parra-ruiz-de-los-llanos": {
       "total": 3,
       "positivo": 0,
@@ -927,6 +927,22 @@
     }
   },
   "by_day": {
+    "2024-03-23": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-08-27": {
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2023-01-04": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -4202,12 +4218,6 @@
       }
     },
     "2020-02-10": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-08-27": {
       "eje-roberto-dib-ashur": {
         "total": 1,
         "score_sum": 0
@@ -15885,47 +15895,27 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 29
+      "count": 24
     },
     {
       "term": "elintra",
-      "count": 18
-    },
-    {
-      "term": "diputados",
-      "count": 16
+      "count": 17
     },
     {
       "term": "gustavo",
-      "count": 14
+      "count": 13
     },
     {
-      "term": "ramales",
-      "count": 11
-    },
-    {
-      "term": "salteños",
-      "count": 9
-    },
-    {
-      "term": "podemos",
-      "count": 9
+      "term": "diputados",
+      "count": 10
     },
     {
       "term": "reclamo",
       "count": 8
     },
     {
-      "term": "antes",
-      "count": 7
-    },
-    {
-      "term": "cristina",
-      "count": 7
-    },
-    {
-      "term": "fiore",
-      "count": 7
+      "term": "salteños",
+      "count": 8
     },
     {
       "term": "belgrano",
@@ -15940,8 +15930,28 @@
       "count": 7
     },
     {
-      "term": "quórum",
-      "count": 7
+      "term": "cristina",
+      "count": 6
+    },
+    {
+      "term": "fiore",
+      "count": 6
+    },
+    {
+      "term": "nuevo",
+      "count": 6
+    },
+    {
+      "term": "impulso",
+      "count": 6
+    },
+    {
+      "term": "turismo",
+      "count": 6
+    },
+    {
+      "term": "antes",
+      "count": 6
     }
   ],
   "comentions": [
