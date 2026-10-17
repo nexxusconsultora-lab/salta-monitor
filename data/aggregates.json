@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-17T05:29:49.197150+00:00",
+  "generated_at": "2026-10-17T09:40:14.734804+00:00",
   "by_politician": {
+    "eje-ana-paula-benavides": {
+      "total": 13,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 13,
+      "score_sum": 0
+    },
+    "eje-roberto-dib-ashur": {
+      "total": 42,
+      "positivo": 4,
+      "negativo": 2,
+      "neutral": 36,
+      "score_sum": 13
+    },
+    "eje-ignacio-jarsun": {
+      "total": 23,
+      "positivo": 2,
+      "negativo": 4,
+      "neutral": 17,
+      "score_sum": 0
+    },
     "eje-antonio-marocco": {
       "total": 17,
       "positivo": 3,
@@ -22,26 +43,12 @@
       "neutral": 17,
       "score_sum": -36
     },
-    "eje-roberto-dib-ashur": {
-      "total": 41,
-      "positivo": 4,
-      "negativo": 2,
-      "neutral": 35,
-      "score_sum": 13
-    },
     "gustavo-saenz": {
       "total": 279,
       "positivo": 65,
       "negativo": 40,
       "neutral": 174,
       "score_sum": 114
-    },
-    "eje-ignacio-jarsun": {
-      "total": 22,
-      "positivo": 2,
-      "negativo": 4,
-      "neutral": 16,
-      "score_sum": 0
     },
     "eje-nicolas-avellaneda": {
       "total": 11,
@@ -135,13 +142,6 @@
       "score_sum": 5
     },
     "dip-guillermo-alejandro-kripper": {
-      "total": 12,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 12,
-      "score_sum": 0
-    },
-    "eje-ana-paula-benavides": {
       "total": 12,
       "positivo": 0,
       "negativo": 0,
@@ -927,6 +927,52 @@
     }
   },
   "by_day": {
+    "2022-12-22": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-09-10": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-09-19": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2023-03-25": {
       "eje-antonio-marocco": {
         "total": 2,
@@ -8287,24 +8333,6 @@
         "score_sum": 0
       }
     },
-    "2026-09-19": {
-      "dip-laura-deolinda-cartuccia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "2026-09-16": {
       "dip-laura-deolinda-cartuccia": {
         "total": 1,
@@ -8851,20 +8879,6 @@
         "score_sum": 0
       },
       "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-09-10": {
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
       }
@@ -15761,7 +15775,7 @@
     },
     {
       "term": "elintra",
-      "count": 12
+      "count": 13
     },
     {
       "term": "ramales",
