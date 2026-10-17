@@ -230,6 +230,7 @@ def main():
         arco_pts.append(px(cx_polo + arco * math.sin(dl), cy_polo + arco * math.cos(dl)))
     guia = {
         "polo": list(px(cx_polo, cy_polo)),
+        "radio60": round(arco * esc, 1),
         "arco60": "M" + "L".join(f"{x} {y}" for x, y in arco_pts),
         "lado_o": "M" + f"{px(cx_polo, cy_polo)[0]} {px(cx_polo, cy_polo)[1]}L{arco_pts[0][0]} {arco_pts[0][1]}",
         "lado_e": "M" + f"{px(cx_polo, cy_polo)[0]} {px(cx_polo, cy_polo)[1]}L{arco_pts[-1][0]} {arco_pts[-1][1]}",
@@ -244,7 +245,7 @@ def main():
     etiquetas = [
         {"t": "Islas Malvinas", "c": en_mapa(-59.5, -51.7), "dy": -10},
         {"t": "Islas Georgias del Sur", "c": en_mapa(-36.5, -54.3), "dy": 16},
-        {"t": "Islas Sandwich del Sur", "c": en_mapa(-26.5, -58.0), "dy": 16},
+        {"t": "Islas Sandwich del Sur", "c": en_mapa(-26.5, -58.0), "dy": 16, "dx": -48},
         {"t": "Sector Antártico Argentino", "c": en_inset(-49.5, -64.0), "dy": 0, "inset": True},
         {"t": "60°S", "c": en_inset(-74.0, -60.0), "dy": -4, "inset": True},
     ]
@@ -256,6 +257,9 @@ def main():
                  "proyección acimutal equidistante polar, a la mitad de la escala, como inset. Las superficies se calcularon sobre los "
                  "contornos originales con una proyección de área equivalente y pueden diferir de las cifras oficiales."),
         "escala_antartida": ESC_ANT,
+        # kilómetros reales por unidad del mapa en la parte americana (la cónica de Lambert distorsiona unos pocos %: la regla es aproximada);
+        # en el recuadro antártico la escala es otra y la regla no vale
+        "km_por_unidad": round(1 / esc / 1000, 4),
         "viewBox": [0, 0, round(W, 1), round(H, 1)],
         "guia": guia,
         "provincias": dict(sorted(provs.items())),
