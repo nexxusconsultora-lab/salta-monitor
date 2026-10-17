@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 279,
+    "total_mentions": 280,
     "sentiment_breakdown": {
       "positivo": 65,
-      "negativo": 40,
+      "negativo": 41,
       "neutral": 174
     },
     "sentiment_by_day": {
+      "2026-10-17": {
+        "total": 1,
+        "score_sum": -3
+      },
       "2026-10-16": {
         "total": 7,
         "score_sum": 3
@@ -285,27 +289,27 @@
         "count": 27
       },
       {
+        "term": "belgrano",
+        "count": 8
+      },
+      {
+        "term": "cargas",
+        "count": 8
+      },
+      {
+        "term": "años",
+        "count": 7
+      },
+      {
+        "term": "reclamo",
+        "count": 7
+      },
+      {
         "term": "ramales",
         "count": 7
       },
       {
-        "term": "belgrano",
-        "count": 7
-      },
-      {
-        "term": "cargas",
-        "count": 7
-      },
-      {
         "term": "milei",
-        "count": 6
-      },
-      {
-        "term": "reclamo",
-        "count": 6
-      },
-      {
-        "term": "años",
         "count": 6
       },
       {
@@ -314,6 +318,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No podemos esperar otros 50 años",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
+        "date": "Sat, 17 Oct 2026 12:00:00 GMT"
+      },
       {
         "quote": "No hay punto de contacto con Milei",
         "source": "Gente de Salta",
@@ -397,16 +407,17 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/gobierno/frente-a-milei--saenz-puso-sobre-la-mesa-el-federalismo---desde-salta--tenemos-mucho-para-aportar-_a6abe6f7b06fa52caf454b92f",
         "date": "Thu, 01 Oct 2026 14:37:00 GMT"
-      },
-      {
-        "quote": "Emiliano y Sáenz son parte del mismo equipo; van juntos como candidatos",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMXNRUGQ4RVNfaG1ubnJuT3ZZUHRMX1lLVnVOMmFsNVg4OU1rWVZKVDREaFNjSW9fSDlEMUxBYkJleHdLd2oyM05sZHJKX3ZSakxfY3VYbDhmc05pZjJiNHR0b090Qnp2X2c5VEk3UUE3ajdnNHI4WFJ6S0xfclNpUG1Ra08?oc=5",
-        "date": "Wed, 30 Sep 2026 12:34:54 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“No podemos esperar otros 50 años”: el reclamo de Outes por el Belgrano Cargas",
+        "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 12:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gustavo Sáenz se reunirá con Santilli por los ramales C14 y C15",
         "link": "https://www.eltribuno.com/salta/2026-10-16-20-43-0-gustavo-saenz-se-reunira-con-santilli-por-los-ramales-c14-y-c15",
@@ -609,13 +620,6 @@
         "source": "Gente de Salta",
         "date": "Tue, 13 Oct 2026 11:41:00 -0300",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz: “Hubo diálogo y consenso con Milei”",
-        "link": "https://salta4400.com/politica/2025/11/04/gustavo-saenz-hubo-dialogo-y-consenso-con-milei/",
-        "source": "Salta 4400",
-        "date": "Tue, 04 Nov 2025 12:36:12 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -8936,13 +8940,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 37,
+    "total_mentions": 38,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 35
+      "neutral": 36
     },
     "sentiment_by_day": {
+      "2023-04-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2019-11-13": {
         "total": 1,
         "score_sum": 0
@@ -9092,7 +9100,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "omar",
+        "count": 2
+      },
+      {
+        "term": "exeni",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Voy a ser la voz de los pequeños comerciantes en la Legislatura",
@@ -9200,6 +9217,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "A puro baile: Rossana Del Frari junto a Omar Exeni bailaron y conversaron con los vecinos de Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdENtbHc1ek1pM1FUeU03ckRBaW9hdmlmWHFNdHRnQWEtaEljYWZxRjFvLWlEbG5lX1hoX2NhNzcyXzIxeUlsMmZYT2tBajdrem9QZVJqVjZiRjJCdzdpVzNpdEd1RGF2LVBxd1JfVnA4OGo2WV8yd0thODZuWnNzVHdRRldqSkJPdGhLQUxEaFB5WnhFX2FmWkJSN1MwRi1UU0M1V205aEYybHU5aVlqZk9KanV0SHpxaGxqdlFvVGdTVXU4azhQMm5mLUc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 10 Apr 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Omar Exeni: \"Voy a ser la voz de los pequeños comerciantes en la Legislatura\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZUJzbFphRllnUUFZc0xuaTlKeGduVlNReVZMSHFaeVRtbF9KMnBZbEhyVkxqMTV0V2x1bWtqdWxkaC1ySTVSR3JHdWltdFRiVGtjeXhpR2JDa0l4YmRXQXltdHczNW9fbTBjMzFZS2M0eUI0ZlAtTTM1NU5weXdBczd6YkpKWWZmMVJrWVRCa1I3MjJWeDdIamUtNDZEZGwxOU1BcTRwdlYtRm1yNDlkWno4THNFLTNRRHFv0gG7AUFVX3lxTFBlQnNsWmFGWWdRQVlzTG5pOUp4Z25WU1F5VkxIcVp5VG1sX0oycFlsSHJWTGoxNXRXbHVta2p1bGRoLXJJNVJHckd1aW10VGJUa2N5eGlHYkNrSXhiZFdBeW10dzM1b19tMGMzMVlLYzR5QjRmUC1NMzU1TnB5d0FzN3piSkpZZmYxUmtZVEJrUjcyMlZ4N0hqZS00NkRkbDE5TUFxNHB2Vi1GbXI0OWRaejhMc0UtM1FEcW8?oc=5",
@@ -9401,13 +9425,6 @@
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQODQtT1JrS0hqc1c3cnZ5M183M1NvMEFnN240bXNDVk43cUNCSGk2QmVIV2pHbXpEb0JDazFoRW5hazU3dGNYamgyaXdackh5Y25BRHBBSFRTZmQ5OUNBNW5WU3BnUTh1TGxRZnVIYnJSUGwweUpJTERtX0FBSkl2c1ZCU2hzUnNxYllleXBycVFzU0Excy03b3hYX3FnUS0yZlpUdmpPNkQ4V0JXRTQ5RlczaFZtMXBNWXFPY2wwTmRIQzJRc3lLVWExN094LVJyUE8wS2tSQlVLZ9IB6AFBVV95cUxObzlsRzY3YjlLWFBkaUYyYTZqUDMwaVp2UEdkYmpQZWhBTU9adWZROG1ocWJjWlQybXcwM3F0MmZtXzVQTDVOLUgwM1g0anJUaDBJd3Bzcm9jNnk0RVJEUlJvdnE3ZDlVSWxzWWRNTWRVTlJDcFhqamc2aFpobHVFSU1sVkdyaXFNV0ZnQm92UVV6SUtMSV9rRUxnTjlaUFB2VDRrVkRjaTlQWDdrRXM5VTFUT2lRV21Xb25RVkV5SlJ4Xy11M1VsRlZLYVlpamV6ZnVDTEYzRUgzclNOcXRkbFhNdHRLMWpI?oc=5",
         "source": "Informate Salta",
         "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Omar Exeni: \"Un municipio moderno y participativo\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmtUeFBxSWNOLU5iWWt3OUJwd1ZPNVhhTmRnNEIya3JuMWdNWlZpYWxQOWxfRnU3X3RfdUtOMjZEdFhhekxNU003QWFRLWRIUWtTSmZQTm9EbnFDTmJPYjNsT3IyMFFnZFBRZFFWRzA1czQ3R3d1QmZlQXZpcFFXTk5rZzFpbkVkSmZCc1ZIc2pQbmEwZkZlTkpWc9IBoAFBVV95cUxPZGRGajhLTE9BbmlLWDJaX3BNUE44LTBCSFF0empKSWNHV2ZlS21hSU9PQ1JfRjlBdG1KaWdEdFhfOGFiQmdWT3paU1hIMXhwMm85YllyVk1PVDAtNFJXQ3JxRl9TMEQzOHRmVXZqcktJN3djR1FiQzhfVVV1WGRfc292QXJFUk0teWRnZXk5U3hJTW84QjRma2xxbGxqdG82?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 31 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -17879,13 +17896,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 42,
+    "total_mentions": 43,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 11,
+      "negativo": 12,
       "neutral": 31
     },
     "sentiment_by_day": {
+      "2025-07-24": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-09-08": {
         "total": 1,
         "score_sum": 0
@@ -18038,11 +18059,11 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 2
+        "count": 3
       },
       {
         "term": "jorge",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -18126,6 +18147,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Polémica defensa de la concejal Laura Jorge, de LLA, a su espacio político por el concejal López - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnh4TmZsUjVwUGVQQnpDMEhYZXh4dGZFajllZFVPcVRRT2E1LVZsVk5TS0F0R0lob0o3TThfUE5nSU83RGh2dUVFRUpCaVBCb3BsOTRkRXA3SFBRTzdzMGp6cXcxeHV5SHBfZ0lzN2wxVzBPZElmMTdMOXFFRmtRLW5Icno0Y1hSczRVaXhTV0MzRXBlaEVQNW1sT1dCdl9ZZ01hN0hRU3Y2aWZZbFlQR0NDVzROY3BWcFJsWVN2RHJUdkYzczFwYw?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 24 Jul 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La interna de La Libertad Avanza Salta: Laura Jorge toma partido por Olmedo y Orozco - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsVG51ajlITG9PdkVob09JQnFzUTJKZlprRDNIWWhBbE92RDU5VUlJcG55dzk4dE9UNl80NUxvczNDOHEyM0VEV3hnV3YzVmtRRW5XRmZNVi1TZUVjaHdJSXBxa3dJYzMzM1BmRA?oc=5",
@@ -18328,13 +18356,6 @@
         "source": "Informate Salta",
         "date": "Wed, 05 Oct 2022 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Comisión de Juicio Político desestimó la denuncia contra José García - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDBzRlFDTk44bkM0dl8ydkNwWll1SXM5TnlveHVVZlBoNGJ4RnhJeWN1bDEzLTZjUURGUWNBbWZiUm91Q04wZkJjTnZRM1hTV0xwc3d4cmF5bHJVLVh1MVZtbzh5VGZVR3VrRE1mNG9fb0NlSGJSZ1ZYNkVTVC1xMHA1NVByZ3JkQnltbzRWRnp3UHQ5XzVwUFc4cEVlV1lMVWI2ak9Yaks2cVh4UU5keXJMMEFsV3FIUkNtb3REbHVPSF9iSENVOEpuYlhPV1RTanlVcUR30gHkAUFVX3lxTE02VFVsb09vcUpvQkJ1dHZyR1gxcmlVbElYMGpXalYyNFZERlVVVkkzYkFQM0FpVGtfbENBb2pDTllBQ2VDWEp5d0JSdTM3OG42X0w5N1JXR1dQOW5nckI2Q0FXYks5WjBGWHJrSFd4X2tLWHh1cm10dDRlTUhndHN3WERvNzZTSHF2ODljNFN2cmtmZ1lyRDdGeFFrYk82NGl6eEF5ZU1wdklSbVFrWlNFMmFTYlM1bWkwbDlkRGNRdG9ZT3hOeE5jRG1hMWVuZHAtZlFjb2pXcEkweFc2Y1drSUVBZQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20944,13 +20965,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 82,
+    "total_mentions": 83,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 66
+      "neutral": 67
     },
     "sentiment_by_day": {
+      "2026-08-05": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-05-13": {
         "total": 1,
         "score_sum": 0
@@ -21227,11 +21252,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 19
+        "count": 20
       },
       {
         "term": "royón",
-        "count": 19
+        "count": 20
       },
       {
         "term": "secretaria",
@@ -21371,6 +21396,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La Mesa Empresaria y Productiva de Salta se reunió con la senadora nacional Flavia Royón - IN Salta",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOExmOEpOMHZ5dS1mUndvQ3Ytb281Qk5zVWRGTm5DXzg2S3VlbnFNTzBMaFlBUll3dl9qanlMbTFkM3VtY1l4VUdRdWtKa1FVZ3EwR2lLZUdhUnlsaHRVWXBTMXlvZ1RWMi03aVozUzdpRW1XUFhTanRfMjhBTFBLbXpzRmNfV0hGbmZLMmt4ZUtoWkxIc0JYbUZRNGYwTGRpSE1kZUpwcUVRVHlBZllkQnRBcUVPTmdP0gHHAUFVX3lxTE03aU1Hakp2LXY2eUhoVEkteHliOUpXMDVrQTJwc0ljTXBPSkpqSm5ZdV9wR2otUncwN1FORGNDTEM3ak9ka2J1UFg5Q0FGRF9acGxtVV8tS2IzZEtNUHB0ZW9lMWRuZmNoZDZLSXdHMS1qXy1mS1VUNEQwbjZWQUU2cnV6QW51cGZ3alUtVUhBb3VlZjFaVlZZcEdMRW16UmdpZWczT19yYUxTYUFUWWlidVpFVmhOS3daUHJlOHBubklOandhNFE?oc=5",
+        "source": "IN Salta",
+        "date": "Wed, 05 Aug 2026 03:06:44 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón y Emilia Orozco, las salteñas que ganan espacios clave en el Congreso - Gente de Salta",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2l3ZjhGOF9VQ21xeTVlSjFuVzJkUFkySXpFc3J6S1FVVm9KZTZ5bVRDS013MFJKdFZvNm1YRmhTT1k0RWV2ZkxkMFFiODV1SzhyQk5fSVM4a21tbjhJWFV6d0VKWGtYRUJ6akI0NDhybTR3TC1QRnllR2JJMWM5WldwMG1lSkpfYWwtMVVQQzI4LWM3Z3Z2ZHRSQTZyd2pCN0s4Z3NKNUpLMTdBMnfSAbMBQVVfeXFMTVBjUGlfZUk3X2JoeVBfT2dzeldJeU5mVTIzNlNZaG9HRjZUeTU5MGF5eGVXcDcxNGZWUUhRZjQzTENXbGNMYjlEeGItcmQxOHZzWWlONWRPSXl6ZzVRVjlKS2VqZ19KbEdVNmpmY1BOWDlKMUNORGpZdHA5RzJyMVdfQ2V6bU5ZdlI3NmxrSTE2T0NBZkJhM0VPeEpWREtzQnFuWTJ2WjZ1TlZySHZ5X3RKTzg?oc=5",
@@ -21572,13 +21604,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZkEyUDVyT3hWc2hxYUhHOHhDbF9ZTFYxWWw1ZVdwRE9UOU9wQ1l4UTFzLXNvRzRlTjBqLU1idVZwWmxIUllaNXdUbExpbU5EZkxRTzNrM3FUbWp2WVpjd21pTXpKYTVuVFBabkF5ZTZvdi1yWVcxY1FZaU1xVnhfSWJQSmtGaHZ1a1lzSTFmMEdjLWU0NzZ6b3lPcE13S25xbEw0bmd4OWF6Y2NfaXI4S0JDa0dxQ21YYUQtSkVIb2hUckw2cXZVT1pB0gHPAUFVX3lxTFBRQldUSWhuUTFTa09GdEs2bEh0MWZvQ19hWS0wcXViblpXcmtjbkZyank1UVJXUWItdl9sUnBLTEo0cmhxenY5WE5FUDBTNGlDU181Y2FCSjlxYW5SR21PNzNGUzRBODVJWmpOZHpvX2xWVXpZd0hCQVlUX1MtTWx3VGdCTXhJVGtNTE90VjVuX0RHa2V4b2V3WnBvZTk4X0EzNW5fbE02eG5VWDlaN2REUkdjanltT3c0Q2FNdmYwMmhxVHhPdFAybVhqTnhlRQ?oc=5",
         "source": "El Tribuno",
         "date": "Sun, 17 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón: \"Es una pena que nos sigan instalando solo dos modelos políticos\" - quepasasalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMkxEak8yRjFfaklUWlYzaVAtR3A0R1dDU1NUY000bDFST1BqUHFCRzhfY2hNa3RNUDV0YkdnMmR6X09BV2RTLTdUTGFRUVRoWVUwQ3RRTWI0OGphRWs3SkJRQjBQbVZENUVyaHhtTHAyNDVwa3NPcm9HZXM1RE1MSlBnQjdTN1hkcE83dG5LM00yZmRmUXFfZ09aMVZaQm9jc2x5RnhBUWJ0eVlMY0pJS1NfazRBcWVnSUE?oc=5",
-        "source": "quepasasalta.com.ar",
-        "date": "Mon, 08 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -22742,13 +22767,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 3,
-      "neutral": 16
+      "neutral": 17
     },
     "sentiment_by_day": {
+      "2026-07-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 0
@@ -22814,7 +22843,12 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "diputados",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Ahora o nunca",
@@ -22855,6 +22889,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tras jurar en Diputados, Gabriela Flores defendió las reformas de Milei - Informate Salta - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcFV1N1VPQVRaamR5djBMNHNTVUtUbUVzOW5WQmdKeE4ybzAteExJcmRxZmRvaFpnNDd2aDFBb1dVNUlkak5VTml6Rmtzam40WnJ3TjFQSGdYcjJvZXBwNFhtU3hhUDlOR2lZa3FXandGODYwNU1xWXhmS3F0MjdSU2VuaWFfUFptNXhxbk15UlpUc3FGTHloNXdsTmNXMy01dThSQ25MdlBtUXZrM09xb09fNldaM1MwanhQaHp6dW9QaXdPRHU1ZGxJQkZXdlg0WmJ0UEJPcmVucUJKbkRLUGVnWFhOZEpPUi1URlhKaVc?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 09 Jul 2026 11:39:45 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Discapacidad y DNU 70/23: sólo dos diputados salteños estuvieron presentes en el recinto",
         "link": "https://informatesalta.com.ar/legislativa/discapacidad-y-dnu-70-23--solo-dos-diputados-saltenos-estuvieron-presentes-en-el-recinto_a6ad12b377f0e2f8050ca0048",
@@ -23084,13 +23125,25 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 26,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 20
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "2024-05-19": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-03-04": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2023-01-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 0
@@ -23196,8 +23249,35 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "carlos",
+        "count": 3
+      },
+      {
+        "term": "zapata",
+        "count": 3
+      },
+      {
+        "term": "sólo",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      },
+      {
+        "term": "salteños",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "respuestas inmediatas",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORV9VRDFNSDRMMWx4VEEySS1jbU94NTVyaC1VbUowLUZPaWpyMXZWMUhfVGlXcTYxTDAwa0x1YkpSOU1aS2NtZmVrMHR1bzJIOFo3US1WdjRRdlhnbzRMWXg5dzJZTmYzcWpheVdzOFZ4SXpEbUN4U0h2STI4UllYMUw2QzAyUUxEUjB1NU1fMHpjenZuc1dPaXBlQllmNDVhdzQxVmRDSWJlUENBWlY0d0E0VTY5M3RsTEtJVG9jNDI?oc=5",
+        "date": "Wed, 04 Jan 2023 08:00:00 GMT"
+      },
       {
         "quote": "El que aportó, tendrá aportes y el que no, tendrá PUAM",
         "source": "Elintra.com.ar",
@@ -23268,6 +23348,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Carlos Zapata asegura que la Ley Bases quiere cortar el financiamiento a empresas que sólo dan pérdidas - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbVVlZ1cxOHlzWkttMDZZV3lkQmFWMnVOVDZNWkdJZVN6cWdMMktjVEJOOXEtNEZTTm9ObUxBNllmbEplMTF1V0NJdjlOeEQ3ZW01Z0lPbEllQ3k0ZGVhUnpLeGZKOUk3b0plWnRYLTZmZUhlOE9xNmxoeC1CQXdFUHZ3VnpHcVNrSG5xWjBEVXpEVEJ2R0ozQzhNRE5fWUhnRUZhc3Q5RGpNeU1id01fMUQ4b3czYmo5SEFUZGxiQkVxcGZFU3FEb0pQeWpRZ3RlZXdXNg?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 19 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Carlos Zapata - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ueEV3dXY4ZjFNczFVZl9zWWkyU281U1pjeElsMWdTNXg3cU5xTmJRMkdwcXlLMmE4UXlkcWExd0ZETkV3OFpnMGZoVDdnaTVwMlZvYjlGUElFTUJYVERDWk11aWJGLUFmbHdXSnZrT2FkNkZhcEZqeg?oc=5",
+        "source": "Informate Salta",
+        "date": "Wed, 04 Mar 2026 12:51:44 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Carlos Zapata pide dejar de lado la grieta para dar “respuestas inmediatas” a los salteños - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORV9VRDFNSDRMMWx4VEEySS1jbU94NTVyaC1VbUowLUZPaWpyMXZWMUhfVGlXcTYxTDAwa0x1YkpSOU1aS2NtZmVrMHR1bzJIOFo3US1WdjRRdlhnbzRMWXg5dzJZTmYzcWpheVdzOFZ4SXpEbUN4U0h2STI4UllYMUw2QzAyUUxEUjB1NU1fMHpjenZuc1dPaXBlQllmNDVhdzQxVmRDSWJlUENBWlY0d0E0VTY5M3RsTEtJVG9jNDI?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 04 Jan 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Discapacidad y DNU 70/23: sólo dos diputados salteños estuvieron presentes en el recinto",
         "link": "https://informatesalta.com.ar/legislativa/discapacidad-y-dnu-70-23--solo-dos-diputados-saltenos-estuvieron-presentes-en-el-recinto_a6ad12b377f0e2f8050ca0048",
@@ -23797,13 +23898,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 1,
+      "negativo": 2,
       "neutral": 12
     },
     "sentiment_by_day": {
+      "2026-10-17": {
+        "total": 1,
+        "score_sum": -3
+      },
       "2026-10-15": {
         "total": 2,
         "score_sum": 0
@@ -23851,11 +23956,21 @@
     },
     "top_topics": [
       {
+        "term": "outes",
+        "count": 2
+      },
+      {
         "term": "diputados",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "No podemos esperar otros 50 años",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
+        "date": "Sat, 17 Oct 2026 12:00:00 GMT"
+      },
       {
         "quote": "El modelo de Milei está fracasando",
         "source": "Elintra.com.ar",
@@ -23871,6 +23986,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“No podemos esperar otros 50 años”: el reclamo de Outes por el Belgrano Cargas",
+        "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 12:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Discapacidad y DNU 70/23: sólo dos diputados salteños estuvieron presentes en el recinto",
         "link": "https://informatesalta.com.ar/legislativa/discapacidad-y-dnu-70-23--solo-dos-diputados-saltenos-estuvieron-presentes-en-el-recinto_a6ad12b377f0e2f8050ca0048",
