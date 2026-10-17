@@ -31,6 +31,12 @@ for k, g in gp.items():
     ok(g["partes"] and all(len(x["d"]) > 20 for x in g["partes"]), f"{k}: trazado vacío")
     ok(len(g.get("c", [])) == 2, f"{k}: falta el punto del rótulo")
 ok({x["k"] for x in gp["tierra-del-fuego"]["partes"]} >= {"isla_grande", "atlantico_sur", "antartida"}, "Tierra del Fuego debe tener isla grande, Atlántico Sur y Antártida")
+# la superficie oficial y la calculada sobre el mapa no deberían divergir mucho (avisa, no falla: Formosa y Tierra del Fuego ya se explicaron)
+for k, g in gp.items():
+    sp = g["superficie_km2"]; calc = sp.get("continental", 0) + sp.get("isla_grande", 0); of = pp[k].get("superficie_oficial_km2")
+    ok(of is not None, f"{k}: falta superficie_oficial_km2")
+    if of and abs(calc - of) / of > 0.06:
+        errores.append(f"{k}: superficie calculada {calc:,} vs oficial {of:,} (más de 6 % de diferencia)")
 # todo nombre de ejecutivo cargado debe traer fuente
 for k, p in pp.items():
     e = p.get("ejecutivo")
