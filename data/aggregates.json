@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:03:12.585875+00:00",
+  "generated_at": "2026-10-17T13:07:07.784130+00:00",
   "by_politician": {
     "dip-guillermo-alejandro-kripper": {
       "total": 13,
@@ -8,26 +8,12 @@
       "neutral": 13,
       "score_sum": 0
     },
-    "dip-jose-miguel-gauffin": {
-      "total": 24,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 20,
-      "score_sum": -6
-    },
-    "dnac-bernardo-biella": {
-      "total": 27,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 18,
-      "score_sum": 5
-    },
-    "sen-juan-cruz-cura": {
-      "total": 87,
-      "positivo": 11,
-      "negativo": 7,
-      "neutral": 69,
-      "score_sum": 11
+    "gustavo-saenz": {
+      "total": 281,
+      "positivo": 65,
+      "negativo": 42,
+      "neutral": 174,
+      "score_sum": 108
     },
     "dnac-carlos-raul-zapata": {
       "total": 29,
@@ -70,13 +56,6 @@
       "negativo": 2,
       "neutral": 12,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 280,
-      "positivo": 65,
-      "negativo": 41,
-      "neutral": 174,
-      "score_sum": 111
     },
     "eje-ana-paula-benavides": {
       "total": 13,
@@ -196,6 +175,13 @@
       "negativo": 10,
       "neutral": 42,
       "score_sum": -3
+    },
+    "dnac-bernardo-biella": {
+      "total": 25,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 16,
+      "score_sum": 5
     },
     "dip-rodrigo-javier-garcia": {
       "total": 3,
@@ -945,56 +931,14 @@
         "score_sum": -2
       }
     },
-    "2024-07-31": {
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-05-05": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-esteban-dandrea-cornejo": {
-        "total": 2,
-        "score_sum": 0
-      },
+    "2026-10-17": {
       "gustavo-saenz": {
         "total": 2,
-        "score_sum": -2
+        "score_sum": -6
       },
-      "sen-alejandra-navarro": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2024-04-09": {
-      "dnac-bernardo-biella": {
+      "dnac-pablo-outes": {
         "total": 1,
-        "score_sum": 0
-      },
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-07-06": {
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
+        "score_sum": -3
       }
     },
     "2024-05-19": {
@@ -1109,16 +1053,6 @@
       "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-17": {
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": -3
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": -3
       }
     },
     "2022-12-22": {
@@ -15830,16 +15764,12 @@
       "count": 20
     },
     {
-      "term": "elintra",
-      "count": 20
-    },
-    {
       "term": "diputados",
       "count": 17
     },
     {
       "term": "ramales",
-      "count": 11
+      "count": 12
     },
     {
       "term": "salteños",
@@ -15862,6 +15792,18 @@
       "count": 8
     },
     {
+      "term": "belgrano",
+      "count": 7
+    },
+    {
+      "term": "cargas",
+      "count": 7
+    },
+    {
+      "term": "reclamo",
+      "count": 7
+    },
+    {
       "term": "sólo",
       "count": 7
     },
@@ -15875,14 +15817,6 @@
     },
     {
       "term": "quórum",
-      "count": 7
-    },
-    {
-      "term": "mirar",
-      "count": 7
-    },
-    {
-      "term": "costado",
       "count": 7
     }
   ],

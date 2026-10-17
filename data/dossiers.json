@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 280,
+    "total_mentions": 281,
     "sentiment_breakdown": {
       "positivo": 65,
-      "negativo": 41,
+      "negativo": 42,
       "neutral": 174
     },
     "sentiment_by_day": {
       "2026-10-17": {
-        "total": 1,
-        "score_sum": -3
+        "total": 2,
+        "score_sum": -6
       },
       "2026-10-16": {
         "total": 7,
@@ -286,26 +286,26 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 27
+        "count": 28
       },
       {
         "term": "belgrano",
-        "count": 8
+        "count": 9
       },
       {
         "term": "cargas",
+        "count": 9
+      },
+      {
+        "term": "reclamo",
+        "count": 8
+      },
+      {
+        "term": "ramales",
         "count": 8
       },
       {
         "term": "años",
-        "count": 7
-      },
-      {
-        "term": "reclamo",
-        "count": 7
-      },
-      {
-        "term": "ramales",
         "count": 7
       },
       {
@@ -411,6 +411,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Belgrano Cargas: Sáenz llevará a Nación el reclamo de Salta por los ramales C14 y C15",
+        "link": "https://informatesalta.com.ar/gobierno/belgrano-cargas--saenz-llevara-a-nacion-el-reclamo-de-salta-por-los-ramales-c14-y-c15_a6ad35f395c37e150eb6de8ec",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 13:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "“No podemos esperar otros 50 años”: el reclamo de Outes por el Belgrano Cargas",
         "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
@@ -613,13 +620,6 @@
         "source": "Informate Salta",
         "date": "Wed, 14 Oct 2026 09:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Belgrano Cargas: Salta teme otros 50 años de postergación y exige obras obligatorias",
-        "link": "https://www.gentedesalta.com/economia/belgrano-cargas-salta-teme-otros-50-anos-postergacion-exige-obras-obligatorias-n12883",
-        "source": "Gente de Salta",
-        "date": "Tue, 13 Oct 2026 11:41:00 -0300",
-        "sentiment_label": "neutral"
       }
     ]
   },
