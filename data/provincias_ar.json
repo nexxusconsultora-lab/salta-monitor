@@ -1,159 +1,257 @@
 {
  "fuente_poblacion": "INDEC, Censo Nacional de Población, Hogares y Viviendas 2022, resultados definitivos (población censada, no la estimada). Cifras tomadas de la difusión del 21/11/2023 y cotejadas contra otras notas; Neuquén (710.814) se tomó de LM Neuquén y Río Negro porque la lista que se usó de base traía el valor provisorio. La suma de las 24 jurisdicciones da 45.892.285, igual al total censado que publicó el INDEC.",
  "enlace_fuente": "https://censo.gob.ar/",
- "verificado_contra": "suma nacional (45.892.285). No se pudo abrir censo.gob.ar desde el entorno de trabajo (bloquea accesos automáticos): conviene cotejar contra el cuadro resumen oficial.",
+ "verificado_contra": "(1) La suma de las 24 jurisdicciones da 45.892.285, igual al total de personas censadas que publica el INDEC (46.234.830 es la cifra con estimación de viviendas con ocupantes ausentes). (2) Diez jurisdicciones coinciden con la tabla de Wikipedia que cita al INDEC; Salta (1.441.351) coincide con data/censo_salta.json; esa tabla trae 1.440.672 para Salta, que es el valor provisorio. (3) Neuquén: 710.814 (LM Neuquén y Río Negro); la lista base traía el provisorio. No se pudo abrir censo.gob.ar (bloquea accesos automáticos): el cuadro oficial queda como cotejo opcional.",
  "total_censado": 45892285,
  "nota_poblacion": "Tierra del Fuego, Antártida e Islas del Atlántico Sur es una sola jurisdicción para el INDEC; su población vive en la isla grande de Tierra del Fuego.",
  "congreso": {
   "diputados": 257,
   "senadores": 72,
-  "fuente": "Constitución Nacional (arts. 45 y 54) y Ley 22.847: composición legal por distrito, no resultados electorales. El total de 257 coincide con la suma; el dato de Salta (7 diputados y 3 senadores) coincide con la nómina de data/politicians.json. El resto no se recotejó contra la web de la Cámara."
+  "fuente": "Constitución Nacional (art. 54: tres senadores por distrito) y el decreto-ley de 1983 que fijó la composición de la Cámara de Diputados (257 bancas). Cotejado distrito por distrito: sumando las dos mitades que se renuevan cada dos años (cohortes 2017 y 2023, según notas periodísticas como la de La Voz de San Justo) da los mismos 24 valores; el total de 257 y Salta (7 diputados y 3 senadores, data/politicians.json) también coinciden. Es la composición legal, no resultados electorales."
  },
- "ejecutivo_nota": "Gobernador, vicegobernador, partido y mandato de cada provincia: sin dato verificado todavía. No se cargó nada de memoria. Cuando haya fuente oficial por provincia, se completa el campo «ejecutivo» de cada una (ver GUIA_MAPA_ARGENTINA.md).",
+ "ejecutivo_nota": "Ejecutivos: 8 jurisdicciones cargadas desde la tabla de gobernadores de Wikipedia (fuente secundaria, consultada el 15/10/2026; el vicegobernador de Salta de esa tabla coincide con data/politicians.json). Salta sale de politicians.json. Las otras 15 siguen sin dato verificado: no se cargó nada de memoria. Cuando haya fuente oficial por provincia se completa el campo «ejecutivo».",
  "provincias": {
   "buenos-aires": {
    "poblacion": 17523996,
    "diputados": 70,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Axel Kicillof",
+    "vicegobernador": "Verónica Magario",
+    "partido": "Partido Justicialista",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 307571
   },
   "caba": {
    "poblacion": 3121707,
    "diputados": 25,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Jorge Macri",
+    "vicegobernador": "Clara Muzzio",
+    "partido": "Propuesta Republicana",
+    "mandato_hasta": "7/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia.",
+    "cargo_titular": "Jefe de Gobierno",
+    "cargo_vice": "Vicejefa de Gobierno"
+   },
+   "superficie_oficial_km2": 203
   },
   "catamarca": {
    "poblacion": 429562,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 102602
   },
   "chaco": {
    "poblacion": 1129606,
    "diputados": 7,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 99633
   },
   "chubut": {
    "poblacion": 592621,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 224686
   },
   "cordoba": {
    "poblacion": 3840905,
    "diputados": 18,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Martín Llaryora",
+    "vicegobernador": "Myrian Prunotto",
+    "partido": "Partido Justicialista",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 165321
   },
   "corrientes": {
    "poblacion": 1212696,
    "diputados": 7,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 88199
   },
   "entre-rios": {
    "poblacion": 1425578,
    "diputados": 9,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 78781
   },
   "formosa": {
    "poblacion": 607419,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 72066
   },
   "jujuy": {
    "poblacion": 811611,
    "diputados": 6,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 53219
   },
   "la-pampa": {
    "poblacion": 361859,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 143440
   },
   "la-rioja": {
    "poblacion": 383865,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 89680
   },
   "mendoza": {
    "poblacion": 2043540,
    "diputados": 10,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Alfredo Cornejo",
+    "vicegobernador": "Hebe Casado",
+    "partido": "Unión Cívica Radical",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 148827
   },
   "misiones": {
    "poblacion": 1278873,
    "diputados": 7,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 29801
   },
   "neuquen": {
    "poblacion": 710814,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Rolando Figueroa",
+    "vicegobernador": "Vacante",
+    "partido": "Comunidad",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 94078
   },
   "rio-negro": {
    "poblacion": 750768,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Alberto Weretilneck",
+    "vicegobernador": "Pedro Pesatti",
+    "partido": "Juntos Somos Río Negro",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 203013
   },
   "salta": {
    "poblacion": 1441351,
    "diputados": 7,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 155488
   },
   "san-juan": {
    "poblacion": 822853,
    "diputados": 6,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 89651
   },
   "san-luis": {
    "poblacion": 542069,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 76748
   },
   "santa-cruz": {
    "poblacion": 337226,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 243943
   },
   "santa-fe": {
    "poblacion": 3544908,
    "diputados": 19,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Maximiliano Pullaro",
+    "vicegobernador": "Vacante (Gisela Scaglia renunció el 9/12/2025 para asumir como diputada nacional)",
+    "partido": "Unión Cívica Radical",
+    "mandato_hasta": "10/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 133007
   },
   "santiago-del-estero": {
    "poblacion": 1060906,
    "diputados": 7,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 136351
   },
   "tierra-del-fuego": {
    "poblacion": 185732,
    "diputados": 5,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": {
+    "gobernador": "Gustavo Melella",
+    "vicegobernador": "Mónica Urquiza",
+    "partido": "FORJA",
+    "mandato_hasta": "17/12/2027",
+    "fuente": "https://es.wikipedia.org/wiki/Anexo:Gobernadores_y_Jefe_de_Gobierno_de_Argentina",
+    "verificado": false,
+    "nota": "Fuente secundaria (Wikipedia, tabla de gobernadores consultada el 15/10/2026); pendiente de cotejo con el sitio oficial de la provincia."
+   },
+   "superficie_oficial_km2": 21263
   },
   "tucuman": {
    "poblacion": 1731820,
    "diputados": 9,
    "senadores": 3,
-   "ejecutivo": null
+   "ejecutivo": null,
+   "superficie_oficial_km2": 22524
   }
+ },
+ "fuente_superficie": "Superficies oficiales (IGN) tal como las difunde el Ministerio de Educación en educ.ar («Datos de las provincias argentinas»), cotejadas con otra tabla independiente. Tierra del Fuego: 21.263 km² es la parte americana (la isla grande); las otras cifras que circulan para esa isla varían (21.263 a 21.571 km²). CABA: 203 km². Las superficies calculadas sobre el mapa coinciden con estas dentro de ±2 % salvo Formosa (+4,9 %) y Tierra del Fuego (−2,6 %).",
+ "enlaces_oficiales": {
+  "censo_resumen": "https://censo.gob.ar/",
+  "soberania_indec": "https://www.indec.gob.ar/ftp/cuadros/poblacion/censo2022_viviendas_colectivas.pdf",
+  "sector_antartico_cancilleria": "https://cancilleria.gob.ar/es/iniciativas/dna/divulgacion/sector-antartico-argentino",
+  "tratado_antartico_cancilleria": "https://cancilleria.gob.ar/es/iniciativas/dna/divulgacion/tratado-antartico",
+  "superficies_educar": "https://www.educ.ar/recursos/70370/datos-de-las-provincias-argentinas"
  }
 }
