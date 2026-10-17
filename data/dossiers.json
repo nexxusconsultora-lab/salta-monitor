@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 285,
+    "total_mentions": 286,
     "sentiment_breakdown": {
-      "positivo": 65,
+      "positivo": 66,
       "negativo": 44,
       "neutral": 176
     },
     "sentiment_by_day": {
       "2026-10-17": {
-        "total": 6,
-        "score_sum": -11
+        "total": 7,
+        "score_sum": 8
       },
       "2026-10-16": {
         "total": 7,
@@ -286,7 +286,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 32
+        "count": 33
       },
       {
         "term": "belgrano",
@@ -305,12 +305,12 @@
         "count": 9
       },
       {
-        "term": "años",
+        "term": "gustavo",
         "count": 7
       },
       {
-        "term": "gustavo",
-        "count": 6
+        "term": "años",
+        "count": 7
       },
       {
         "term": "milei",
@@ -318,6 +318,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Impulso Salta",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
+      },
       {
         "quote": "No podemos esperar otros 50 años",
         "source": "Informate Salta",
@@ -401,16 +407,17 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/gobierno/saenz-en-la-argentina-week---salta-ofrece-confianza-y-grandes-oportunidades-_a6abe446c06fa52caf4486603",
         "date": "Thu, 01 Oct 2026 11:37:00 GMT"
-      },
-      {
-        "quote": "Desde Salta, tenemos mucho para aportar",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/gobierno/frente-a-milei--saenz-puso-sobre-la-mesa-el-federalismo---desde-salta--tenemos-mucho-para-aportar-_a6abe6f7b06fa52caf454b92f",
-        "date": "Thu, 01 Oct 2026 14:37:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Definición histórica: el plan de Sáenz para asegurar los trenes mineros hacia Chile y Bolivia - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSDREYUxublVEZG12N2pUNHNheUFRZDBJZHFabHk4bjRUQ0gtc3NkRU9rdmt2YWN1ZGxaSHpXNTdIeG54QlJkblI1V1BBMmpLYUxLYWE0YjY1YVFXZ0U5WS00SDZIYUVFR2w3cHo2cTRDNnhEczVWSU1XR1l5Wl92eXd0b3UwOERaUGV6MDZhQ2lOZU1WMlRxNEM2U0ppSy1rcEpCXzFYaEcwcGJLeU1UZ0Z1enFtbTl0ek9uVXRSaFhBTEVCejcxNHRyanNwaVXSAc8BQVVfeXFMUEg0RGFMbm5VRGRtdjdqVDRzYXlBUWQwSWRxWmx5OG40VENILXNzZEVPa3ZrdmFjdWRsWkh6VzU3SHhueEJSZG5SNVdQQTJqS2FMS2FhNGI2NWFRV2dFOVktNEg2SGFFRUdsN3B6NnE0QzZ4RHM1VklNV0dZeVpfdnl3dG91MDhEWlBlejA2YUNpTmVNVjJUcTRDNlNKaUsta3BKQl8xWGhHMHBiS3lNVGdGdXpxbW05dHpPblV0UmhYQUxFQno3MTR0cmpzcGlV?oc=5",
@@ -613,13 +620,6 @@
         "source": "Informate Salta",
         "date": "Thu, 15 Oct 2026 13:00:38 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Tras el fuerte reclamo en Salta, el Gobierno nacional llamará a los sectores productivos por los ramales C14 y C15",
-        "link": "https://www.eltribuno.com/salta/2026-10-15-10-5-0-tras-el-fuerte-reclamo-en-salta-el-gobierno-nacional-llamara-a-los-sectores-productivos-por-los-ramales-c14-y-c15",
-        "source": "El Tribuno - Salta",
-        "date": "Thu, 15 Oct 2026 13:05:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -27077,13 +27077,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 17,
+    "total_mentions": 18,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 1,
       "neutral": 13
     },
     "sentiment_by_day": {
+      "2026-10-17": {
+        "total": 1,
+        "score_sum": 19
+      },
       "2023-03-25": {
         "total": 2,
         "score_sum": 0
@@ -27147,6 +27151,10 @@
     },
     "top_topics": [
       {
+        "term": "sáenz",
+        "count": 2
+      },
+      {
         "term": "antonio",
         "count": 2
       },
@@ -27156,6 +27164,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Impulso Salta",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
+      },
       {
         "quote": "No conozco ningún acuerdo",
         "source": "Elintra.com.ar",
@@ -27183,6 +27197,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Antonio Marocco continuará acompañando a Sáenz en la fórmula para la gobernación - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeHZNei0zQVZaVENkajczQXVFTXF2MVVJc3FUVjhZS19mOWpmb3N5eF9xNlB4SnlSNFJ1MWZqQXBFaUE3NkozNmZfbkJRbmpiUHByN3IzaGJjeS1uZExxV2FIdy1IWFA5bGhhUXVwMzZ4RlFtOEZDWGIwYkI3NDBqZk5QQjlrb2lYOWVQNXBGYWxIb1VBSFpLRTk5TnJVVjRDdmNlS19peHhSZ1ZwWmpDdDhabldWUQ?oc=5",
@@ -27308,16 +27329,16 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 1,
       "neutral": 11
     },
     "sentiment_by_day": {
       "2026-10-17": {
-        "total": 1,
-        "score_sum": 0
+        "total": 2,
+        "score_sum": 19
       },
       "2026-10-16": {
         "total": 1,
@@ -27358,6 +27379,22 @@
     },
     "top_topics": [
       {
+        "term": "sáenz",
+        "count": 3
+      },
+      {
+        "term": "impulso",
+        "count": 2
+      },
+      {
+        "term": "potenciar",
+        "count": 2
+      },
+      {
+        "term": "turismo",
+        "count": 2
+      },
+      {
         "term": "presupuesto",
         "count": 2
       },
@@ -27368,13 +27405,15 @@
       {
         "term": "obras",
         "count": 2
-      },
-      {
-        "term": "sáenz",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Impulso Salta",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
+      },
       {
         "quote": "Salta fue la primera provincia del país en firmar 3 convenios",
         "source": "Elintra.com.ar",
@@ -27390,6 +27429,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Presupuesto 2027: el Gobierno provincial se reunió con intendentes y legisladores del sur salteño",
         "link": "https://elintra.com.ar/2026/10/17/presupuesto-2027-el-gobierno-provincial-se-reunio-con-intendentes-y-legisladores-del-sur-salteno/",
@@ -27833,13 +27879,21 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 42,
+    "total_mentions": 44,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 2,
-      "neutral": 36
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "2025-01-31": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-10-17": {
+        "total": 1,
+        "score_sum": 19
+      },
       "2026-09-10": {
         "total": 1,
         "score_sum": 0
@@ -27980,18 +28034,26 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 12
+        "count": 13
       },
       {
         "term": "millones",
         "count": 5
       },
       {
-        "term": "argentina",
+        "term": "turismo",
+        "count": 4
+      },
+      {
+        "term": "impulso",
         "count": 3
       },
       {
-        "term": "turismo",
+        "term": "potenciar",
+        "count": 3
+      },
+      {
+        "term": "argentina",
         "count": 3
       },
       {
@@ -27999,19 +28061,17 @@
         "count": 3
       },
       {
-        "term": "impulso",
-        "count": 2
-      },
-      {
-        "term": "diputados",
-        "count": 2
-      },
-      {
-        "term": "nuevo",
+        "term": "ministro",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Impulso Salta",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
+      },
       {
         "quote": "tenemos un año complicado hacia adelante",
         "source": "El Tribuno",
@@ -28106,6 +28166,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Dib Ashur le respondió al ministro Caputo por su pedido de reducir Ingresos Brutos - IN Salta",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenZtX3pZZV9haDBzdTBtVTljOENIcjVJeHNJYXY0TFIzRkJXMS1UOWFhel9MNUhxT1BYOFRqZmFDMmV3dU9DVW5Rd2pfVERNSVFKaVRHcldGQ0tMTHhEN2cyOVY3YzBBVUVhZHV0aXJ6dkw1SEN4Qk5iWVF0dktLSG9UcmpwRUhUNWd3a2x5TmZFOXc2VzNMY1NaclVlYmwtSVlHVm5qcXFGeW5RSEg5X9IBvwFBVV95cUxQWlFUZWZZQjNJbGFkaUFObjZGdWRzSXJrbDQxR3ZQU2luc1gyZ3JqeXFZeF9MQUlFSDQxYlI0MUZDRFBqSVA0a3RuNklQRnppM2JoTGJVQ3BJUzdvbTMwTTdtT0VfbVF6VlVwRDVBVU9pNXNHSnFRcEF0UlVXOEk2QjlUbnJQMXBRR3NLTWp3aV9uby0yWnZLRG4yQ09jSVlWQnMxU09vZmFycE9yaTFabmU4RWVYd0lzYVV6WV9Obw?oc=5",
+        "source": "IN Salta",
+        "date": "Fri, 31 Jan 2025 03:03:35 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Antes de endeudar a la provincia por 250 millones de dólares, Dib Ashur negoció solo con dos bloques - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yQndlS0xKZHJLYlc4WlRsb3lhR1dUVUNJZ1ZPeFAzNEhtN1AycWlnLWdNVWlqd0x1NnFiUDN5Z29vR2R1STkyNlRNOFpUZnpoR0FWaGRFRHFGYUFZYkxtT0JCRGRWcklJZWgxa3JQOVZIaU54?oc=5",
@@ -28300,20 +28374,6 @@
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEUxWjlWanBqUE9xTkJaVUJ2aHdFQU1BTGM4MFdTNGZDZ283SXdCTE1LemlGdTVZdEVXQzNPYi14Q04xUThrVGJTelFSNU5jQ2FvOUtZdk9pNVpDcXNzX2F3TTZRNmZsX3hfdERnb1BGdWQzUVp3MVgySlItVm1zWWVacERTVHdfV2NQcUFoOWZjUDJZd3lNZDdlRW9XZw?oc=5",
         "source": "FM Alba",
         "date": "Fri, 13 Sep 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Dib Ashur cuestionó el modelo de Milei: “El perdedor de la economía argentina es el 50%” - Aries On Line",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFllZTQwTVp1OXlKaEdUbUtKMGtEcWNfUXg2bGhhaVNoenh4NXRVMEdMRXdlQ3pEN0JkWlNONEZqNVNSRFppWHNLM1k4aHh3VkNlRzI3eC1RdnRTVUlTQXhsZEJWVUxsS3E5WU5ZRjVIMDhUN1A1dzRtUFd0MTY2LUlpY05jRDVvN1RjWlBSbG9xdTlUbGgtelg0VVhsUlhLZHluX0dhVE4tZFhnODdVcjdzcTF4cXhmZnNQZGR4WXl1UdIBugFBVV95cUxQeEo2MndJUmFkSmNKQlY3TXpRZEFuWmo3dmp6NjNfTXZsRTQydFVaSV9HNnNoTFFrYXhJMXB1U3RPUUhVVjZMclhMbDRWbzVQS2N4WWNiX3hRTmpBTS1kYU8zVFlzY2ttUHZqcFhQcGVxdFg3dEhZZzRvcjFTRVRSMjVwaWxRZXBNUlNuVThoZGRBdDd1ZHRxeU9GWDVhOVowSnFlVElHZHNJYnpGLUE1UjJKTjFVOGJLZHc?oc=5",
-        "source": "Aries On Line",
-        "date": "Fri, 04 Sep 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Dib Ashur: \"Vienen meses complejos. Los municipios sufren como sufre un hogar, alcanza cada vez menos&qu - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUEI4c2JHc25QcWpnd2l4X0x0UXcwTlBvcXdxTzVPTnZoYWhNZU1xdWJjZ2FLaTFXWEd1NlB6NjhQT0U0dkZPZmY2RnpWU0VuampRWE5Ub3EtX0puMUJNVG02UGZyZmQyOWlQTDJoenQ0YWtFSDN2NEw0dEd3bkR6UVRzZ2Frb1h6N1EwRFhzcDRHc1EyWWYzcUtWQ1lTY3luaDlEcnJMSkxtM05xbnBEN3IxWVFQNXdOT3haUXRJMFo3VzVXd3V0QUh5c0xQMl9SQTI5VjhUOVBueld5ajIyZdIB5gFBVV95cUxQemU0OHRXc08xZ0pLcl9MdnJKMlZiM0d6MDZ3X2V2eTdYWkxvRGljV3FhMWR6NzdwRnNZTjE5YkxaLVVXZHR4aE1MV0czLWRZeDl3cG1lTTNIRFlRWjJ0VllFb2dkMWRoX2JlOXhsMjE5X0duSWg4RDh6dTJ0R3EtYWJhbXNDdFlsTGlVbk5zQ2J6X29zTDJjY2o5Ykk3ckw4THZJU05nQ3g5aC00QW9ETTRqbkltQlNiUFg1TUVzcE1nV2FDQ1BXSlJvaHNoQVo1THNfLThaTmJrRTNrWjlBYlZFT19iZw?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 21 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -29489,13 +29549,17 @@
     "id": "eje-manuela-arancibia",
     "name": "Manuela Arancibia",
     "role": "Ministra de Turismo y Deportes",
-    "total_mentions": 10,
+    "total_mentions": 11,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 0,
       "neutral": 6
     },
     "sentiment_by_day": {
+      "2026-10-17": {
+        "total": 1,
+        "score_sum": 19
+      },
       "2026-10-15": {
         "total": 4,
         "score_sum": 11
@@ -29527,6 +29591,14 @@
     },
     "top_topics": [
       {
+        "term": "turismo",
+        "count": 4
+      },
+      {
+        "term": "potenciar",
+        "count": 3
+      },
+      {
         "term": "manuela",
         "count": 3
       },
@@ -29535,15 +29607,21 @@
         "count": 3
       },
       {
-        "term": "turismo",
-        "count": 3
+        "term": "sáenz",
+        "count": 2
       },
       {
-        "term": "potenciar",
+        "term": "impulso",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Impulso Salta",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
+      },
       {
         "quote": "Hablamos del futuro de miles de familias de salteños",
         "source": "Elintra.com.ar",
@@ -29571,6 +29649,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
+        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
+        "source": "Informate Salta",
+        "date": "Sat, 17 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Manuela Arancibia: “Hablamos del futuro de miles de familias de salteños” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYko4RFpqeGFpOHZXLTNsM3FWLWQ4TzFtb0NIRlozS29tUFh0WnlKdzZNMTdxWm9CWnpHZnU1Qk9NdFRlN2c5SWt5N0pvSkJpaUlxaDVWQ0p1NGdRbGVzeHE4NDllMmU1MmJDYkNvYkw1MDhoQldibWZVU21JQzVHS1V3clVGTEtnMlBRaHViTkt3emk0WW52U3J4RUI0eDJsZU5oVFJnQVc?oc=5",
