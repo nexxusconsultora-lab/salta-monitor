@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 288,
+    "total_mentions": 289,
     "sentiment_breakdown": {
       "positivo": 67,
       "negativo": 45,
-      "neutral": 176
+      "neutral": 177
     },
     "sentiment_by_day": {
+      "2026-06-17": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-10-14": {
         "total": 5,
         "score_sum": 9
@@ -262,10 +266,6 @@
         "total": 3,
         "score_sum": 0
       },
-      "2026-06-17": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-05-26": {
         "total": 3,
         "score_sum": 0
@@ -286,7 +286,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 34
+        "count": 35
       },
       {
         "term": "belgrano",
@@ -318,6 +318,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Está destrozada",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjTVBIWVhLMVFFLVVyR3hMeUZaVnJoZnhLcTR0M0dsYTRkVUk4MEtMUXhGRjM5QXRmOE1ESXc2UlJaNTk1Wnh3dUcwY1JjbE1jT0RjNG0yaXB1cEdOMk9IaTlXS0hXLTdGQ3BnVnk4NmFUZHdNMExlYldrVXk?oc=5",
+        "date": "Wed, 17 Jun 2026 07:00:00 GMT"
+      },
       {
         "quote": "Impulso Salta",
         "source": "Informate Salta",
@@ -401,16 +407,17 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/mineria/saenz-tras-la-inauguracion-de-posco---significa-mas-produccion--mas-empleo-y-mas-oportunidades-para-la-region-_a6ac54b3e6b27e8e08ec563af",
         "date": "Tue, 06 Oct 2026 19:30:00 GMT"
-      },
-      {
-        "quote": "Salta ofrece confianza y grandes oportunidades",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/gobierno/saenz-en-la-argentina-week---salta-ofrece-confianza-y-grandes-oportunidades-_a6abe446c06fa52caf4486603",
-        "date": "Thu, 01 Oct 2026 11:37:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz anunció que la Provincia intervendrá la Ruta 34: \"Está destrozada\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjTVBIWVhLMVFFLVVyR3hMeUZaVnJoZnhLcTR0M0dsYTRkVUk4MEtMUXhGRjM5QXRmOE1ESXc2UlJaNTk1Wnh3dUcwY1JjbE1jT0RjNG0yaXB1cEdOMk9IaTlXS0hXLTdGQ3BnVnk4NmFUZHdNMExlYldrVXk?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz impulsa otro mandato de Fabián Vittar y abre el proceso para renovar su cargo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdWdEa2FqQm1wNF81cjN3MEI4NG9qY2hMY1V0S1JuMDdtQnlOMEQwYVhxTzBkUEdGWUhYeFIxUHNreTdyVVRoYVFheHhRbFBNcVR2YlNERzlrZmdrTzdYUzRUbHd3cXpkdzljM2tqOS1ZNkZTcTB1ckY1MkdqZ19hejg3RW9nMC1yNFZTRUN3cFNpT25veVp3Tl83SEc5Slp0WFhPYmJPN3U4blFKaTcxWVBDakVPWFN2NXpldEVhMkRnM0ZF?oc=5",
@@ -612,13 +619,6 @@
         "link": "https://informatesalta.com.ar/turismo/saenz-encabezo-el-lanzamiento-de-impulso-salta-para-potenciar-el-turismo---de-que-trata-_a6ad0ff877f0e2f8050bb4699",
         "source": "Informate Salta",
         "date": "Thu, 15 Oct 2026 16:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "¿Se harán las obras del Belgrano Cargas? Camacho dio detalles de las negociaciones",
-        "link": "https://informatesalta.com.ar/reclamo/-se-haran-las-obras-del-belgrano-cargas--camacho-dio-detalles-de-las-negociaciones_a6ad0e9771b3ce6c914e192e3",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 17:00:00 GMT",
         "sentiment_label": "positivo"
       }
     ]

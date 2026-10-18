@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-18T16:13:56.131047+00:00",
+  "generated_at": "2026-10-18T17:14:41.070734+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 289,
+      "positivo": 67,
+      "negativo": 45,
+      "neutral": 177,
+      "score_sum": 121
+    },
     "eje-nicolas-avellaneda": {
       "total": 12,
       "positivo": 4,
@@ -21,13 +28,6 @@
       "negativo": 0,
       "neutral": 9,
       "score_sum": 4
-    },
-    "gustavo-saenz": {
-      "total": 288,
-      "positivo": 67,
-      "negativo": 45,
-      "neutral": 176,
-      "score_sum": 121
     },
     "eje-ignacio-jarsun": {
       "total": 25,
@@ -927,6 +927,16 @@
     }
   },
   "by_day": {
+    "2026-06-17": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-18": {
       "eje-nicolas-avellaneda": {
         "total": 1,
@@ -10851,16 +10861,6 @@
         "score_sum": -2
       }
     },
-    "2026-06-17": {
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-06-22": {
       "dip-esteban-amat-lacroix": {
         "total": 1,
@@ -15949,7 +15949,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 22
+      "count": 23
     },
     {
       "term": "elintra",
@@ -15961,7 +15961,7 @@
     },
     {
       "term": "pasa",
-      "count": 7
+      "count": 8
     },
     {
       "term": "reclamo",
