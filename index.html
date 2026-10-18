@@ -911,7 +911,7 @@ V.mapa=()=>{mapaGeoLoad();const D={},sinDep=[];
  const top=x=>{const n={};x.d.forEach(y=>{const b=y[1].bloque||'Sin dato de bloque';n[b]=(n[b]||0)+1});const e=Object.entries(n).sort((a,b)=>b[1]-a[1]);if(!e.length)return null;return e.length>1&&e[0][1]===e[1][1]?'Empate':e[0][0]};
  const info=k=>{const x=D[k];if(MAPA.col==='sen'){const b=x.s[0]?(x.s[0][1].bloque||'Sin dato de bloque'):null;return{b,bg:b?colB(b):null}}if(MAPA.col==='dip'){const b=top(x);return{b,bg:b&&b!=='Empate'?colB(b):b==='Empate'?'#5F6B7C':null}}return{b:null,bg:null}};
  const lblDe=k=>{const x=D[k],i=info(k),nom=(MAPAG&&MAPAG.deptos&&MAPAG.deptos[k]?MAPAG.deptos[k].nombre:MAPA_POS[k][2]);return nom+': '+x.s.length+' senador/a, '+x.d.length+' diputado/s, '+prensa[k]+' mención/es de sus representantes (30 días)'+(i.b?' · '+i.b:'')};
- const fillN=v=>'color-mix(in srgb,var(--clay) '+Math.round(v*85)+'%,var(--raised))';
+ const fillN=v=>window.NXRAMP?NXRAMP(v):'color-mix(in srgb,var(--clay) '+Math.round(v*85)+'%,var(--raised))';
  const CEN=S.cen&&S.cen.deptos?S.cen:null,IND=S.ind&&S.ind.indicadores&&S.ind.indicadores.length?S.ind:null,cc=CEN?(CEN.campos||[]).filter(c=>c.mapa!==false):[];
  if(MAPA.col.indexOf('c:')===0&&!cc.some(c=>'c:'+c.k===MAPA.col))MAPA.col='sen';
  const cv=(k,key)=>{const v=CEN&&CEN.deptos&&CEN.deptos[k]?CEN.deptos[k][key]:null;return typeof v==='number'?v:null},cmax=key=>Math.max(1e-9,...Object.keys(D).map(k=>cv(k,key)||0));
@@ -2164,6 +2164,7 @@ addEventListener('resize',auto);setTimeout(auto,900);
 })();
 </script>
 <script src="newar-clientes.js"></script>
+<script src="newar-consultoras.js"></script>
 <script src="judicial.js"></script>
 <script src="argentina.js"></script>
 <script src="modern.js"></script>
