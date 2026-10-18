@@ -27030,13 +27030,17 @@
     "id": "dip-eduardo-jose-virgili",
     "name": "Eduardo José Virgili",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 12,
+    "total_mentions": 13,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 1,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2025-05-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-16": {
         "total": 1,
         "score_sum": 1
@@ -27086,8 +27090,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "eduardo",
+        "count": 2
+      },
+      {
+        "term": "virgili",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "En el norte, la salida laboral es el narcotráfico",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS1NxTFZtdjVEU21XOFhMa25IZU5aTG55Ujd4MHV3bG1RUXNITlp2RU00eEJXbU5lZ25lRXZYLWx4ZmdkbHBpc2ZBUGhtQUV5bVV2Y2tHRlBUX3d5cnZYT0w4cUtzSi1LT093bEZRR0daaHlUUEM4V3l2eC0zbmNubkdGX1Qxb3ZGaTVLMWlDekd1bTN0aDZLQzM1QmZodEVX?oc=5",
+        "date": "Sun, 04 May 2025 07:00:00 GMT"
+      },
       {
         "quote": "No estamos bien todavía",
         "source": "elintra.com.ar",
@@ -27115,6 +27134,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Eduardo Virgili: “En el norte, la salida laboral es el narcotráfico” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS1NxTFZtdjVEU21XOFhMa25IZU5aTG55Ujd4MHV3bG1RUXNITlp2RU00eEJXbU5lZ25lRXZYLWx4ZmdkbHBpc2ZBUGhtQUV5bVV2Y2tHRlBUX3d5cnZYT0w4cUtzSi1LT093bEZRR0daaHlUUEM4V3l2eC0zbmNubkdGX1Qxb3ZGaTVLMWlDekd1bTN0aDZLQzM1QmZodEVX?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 04 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Eduardo Virgili celebró la permanencia del DNU 70/2023: «No vamos a retroceder»",
         "link": "https://elintra.com.ar/2026/10/16/eduardo-virgili-celebro-la-permanencia-del-dnu-70-2023-no-vamos-a-retroceder/",
@@ -27205,21 +27231,13 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 21,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 1,
-      "neutral": 16
+      "neutral": 14
     },
     "sentiment_by_day": {
-      "2023-05-14": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2023-05-23": {
-        "total": 2,
-        "score_sum": 0
-      },
       "2022-11-07": {
         "total": 1,
         "score_sum": 0
@@ -27256,6 +27274,10 @@
         "total": 1,
         "score_sum": -2
       },
+      "2023-05-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-08-27": {
         "total": 1,
         "score_sum": 0
@@ -27288,15 +27310,15 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 5
+        "count": 3
       },
       {
         "term": "marocco",
-        "count": 5
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 2
       },
       {
         "term": "sáenz",
@@ -27304,12 +27326,6 @@
       }
     ],
     "quotes": [
-      {
-        "quote": "ser elegidos",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2lsZUpzN0U2QW1SazN6UjhmZ0tfN1U1dzRqYXdyS1FDWFo4UHEwMy1ud3c0WmhBRkF6N3NXUkJOaWVnNFJFaGZScVgzakJQcmo2cnhtYS1BS2I2eW5MRjV2d0FGZDBnOEZMMjFYa01rM1dLelJjZUNkS3FGYlhnZDEtZ1NhWWp6R29Id1BmWlNXQXJZendGZ3o5d1RVMU1KcGFtSkZldks4dGFBTS0wZUR4LXFJekNH?oc=5",
-        "date": "Sun, 14 May 2023 07:00:00 GMT"
-      },
       {
         "quote": "Impulso Salta",
         "source": "Informate Salta",
@@ -27343,20 +27359,6 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
-      {
-        "title": "Elecciones en Salta: Antonio Marocco votó y habló de la posibilidad de “ser elegidos” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2lsZUpzN0U2QW1SazN6UjhmZ0tfN1U1dzRqYXdyS1FDWFo4UHEwMy1ud3c0WmhBRkF6N3NXUkJOaWVnNFJFaGZScVgzakJQcmo2cnhtYS1BS2I2eW5MRjV2d0FGZDBnOEZMMjFYa01rM1dLelJjZUNkS3FGYlhnZDEtZ1NhWWp6R29Id1BmWlNXQXJZendGZ3o5d1RVMU1KcGFtSkZldks4dGFBTS0wZUR4LXFJekNH?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sun, 14 May 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Antonio Marocco visitó a Alberto Fernández: de qué hablaron - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZU5FbDBhS2dGQkRHbFlWNERSOWhvTEthRC1BZXU3RW1uTU96Z2xLWktaUTZaU0pIa1VMTU56aW1ETEYwSzBjZk5yZjJrWER1RTBweVJmclRiNjhHRmlYUU45Z1lrT2pTY1dVT1NhRVRSU0VhT3ljb1FlZkxkZnlPenhPelh4dUR1NnQwNDZ2aG9FTHJGTWFhNw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 23 May 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
       {
         "title": "Antonio Marocco asegura que Salta y una ciudad de Bolivia son “hermanas” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY29rb0ZOeDZjOEJ5d2dabXd5TDA0OUpSMzhSNXlQNVZCZzAyZ29lVUktenNUNXppd2dsUHVQbnVWQXFlN0c1MTRIZG5OSUF0V0tqQUJnYjVnWTdUOFdPMlVKdWVGWGhmbDdPMzVnUTZfOFdtZkFEQU1TdC0yY3ZBN1JRRE9YeWRpTllCRE9MYm5oQUNpcVE?oc=5",
