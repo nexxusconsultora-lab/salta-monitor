@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-18T13:58:05.943431+00:00",
+  "generated_at": "2026-10-18T15:51:53.614885+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 37,
+      "positivo": 2,
+      "negativo": 11,
+      "neutral": 24,
+      "score_sum": -30
+    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 10,
       "positivo": 1,
@@ -70,13 +77,6 @@
       "negativo": 4,
       "neutral": 19,
       "score_sum": 0
-    },
-    "eje-cristina-fiore": {
-      "total": 36,
-      "positivo": 2,
-      "negativo": 11,
-      "neutral": 23,
-      "score_sum": -30
     },
     "dip-luis-gerardo-mendana": {
       "total": 5,
@@ -927,6 +927,12 @@
     }
   },
   "by_day": {
+    "2023-12-05": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-05-07": {
       "dip-guillermo-mario-durand-cornejo": {
         "total": 1,
@@ -15984,15 +15990,15 @@
       "count": 6
     },
     {
+      "term": "cristina",
+      "count": 5
+    },
+    {
+      "term": "fiore",
+      "count": 5
+    },
+    {
       "term": "cornejo",
-      "count": 5
-    },
-    {
-      "term": "nuevo",
-      "count": 5
-    },
-    {
-      "term": "ashur",
       "count": 5
     }
   ],
