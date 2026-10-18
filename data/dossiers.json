@@ -8519,13 +8519,17 @@
     "id": "dip-laura-deolinda-cartuccia",
     "name": "Laura Deolinda Cartuccia",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 3,
+      "negativo": 4,
       "neutral": 18
     },
     "sentiment_by_day": {
+      "2025-04-30": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 0
@@ -8614,11 +8618,11 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 3
+        "count": 4
       },
       {
         "term": "cartuccia",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
@@ -8626,6 +8630,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Se ha vuelto insostenible",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbk0yYy1ZM3Z1bmViVFJRVG1IYnFaa3A1QkZpdnc1SzdoRnJOV3hWOFZsTHNyVnowSVVjOTVJWHRxSEloWDBDVXZTNmFab2FuY0ZGbU5meUM4aFprUmVxSGxNUUNkcWVHTTBJcTNJcDhWZnNnTW9QaXl4a044T2lYZ2xORzNoSzJfaDFZal9iM055VzVRY2xqY1JteTA?oc=5",
+        "date": "Wed, 30 Apr 2025 07:00:00 GMT"
+      },
       {
         "quote": "Estamos reclamando recursos que nos corresponden",
         "source": "Elintra.com.ar",
@@ -8684,6 +8694,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Cartuccia contó por qué denunció que sufre acoso: \"Se ha vuelto insostenible\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbk0yYy1ZM3Z1bmViVFJRVG1IYnFaa3A1QkZpdnc1SzdoRnJOV3hWOFZsTHNyVnowSVVjOTVJWHRxSEloWDBDVXZTNmFab2FuY0ZGbU5meUM4aFprUmVxSGxNUUNkcWVHTTBJcTNJcDhWZnNnTW9QaXl4a044T2lYZ2xORzNoSzJfaDFZal9iM055VzVRY2xqY1JteTA?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 30 Apr 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Laura Cartuccia le pide cuentas a Durand por los desagües antes de las lluvias - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSlRxMHg2STVsYkZFR3k4ZVhLaWNlcUlhYU92LU1UbTEtV2QxVWZTdl9makx2OEstekhTSGtnSGFUZ1ZsRExIWFlEME5lcFJ0MWRSUVVDU0ZNSEM3WVoxVUcwSDY4dF84U0JmTlJsTzBLbUdRdW5Eb2Nfal9LT1BRNkczYTVwSFo4UnBZcC1HLTBobXF4c2JaQktfcllDcTcwMHlFV2JvXzliQzI2Wkc5YW1BQQ?oc=5",
@@ -18765,19 +18782,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 8
+        "count": 7
       },
       {
         "term": "lópez",
-        "count": 8
+        "count": 7
       },
       {
         "term": "informate",
         "count": 4
-      },
-      {
-        "term": "concejales",
-        "count": 2
       },
       {
         "term": "ministro",
@@ -18793,6 +18806,10 @@
       },
       {
         "term": "garcía",
+        "count": 2
+      },
+      {
+        "term": "diferencias",
         "count": 2
       }
     ],
@@ -21908,11 +21925,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 9
+        "count": 8
       },
       {
         "term": "orozco",
-        "count": 9
+        "count": 8
       },
       {
         "term": "apuntó",
@@ -21920,14 +21937,6 @@
       },
       {
         "term": "contra",
-        "count": 2
-      },
-      {
-        "term": "quién",
-        "count": 2
-      },
-      {
-        "term": "milei",
         "count": 2
       },
       {
@@ -27145,13 +27154,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 18,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 1,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2022-11-07": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-17": {
         "total": 1,
         "score_sum": 19
@@ -27219,15 +27232,19 @@
     },
     "top_topics": [
       {
-        "term": "sáenz",
-        "count": 2
-      },
-      {
         "term": "antonio",
-        "count": 2
+        "count": 3
       },
       {
         "term": "marocco",
+        "count": 3
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
         "count": 2
       }
     ],
@@ -27265,6 +27282,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Antonio Marocco asegura que Salta y una ciudad de Bolivia son “hermanas” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY29rb0ZOeDZjOEJ5d2dabXd5TDA0OUpSMzhSNXlQNVZCZzAyZ29lVUktenNUNXppd2dsUHVQbnVWQXFlN0c1MTRIZG5OSUF0V0tqQUJnYjVnWTdUOFdPMlVKdWVGWGhmbDdPMzVnUTZfOFdtZkFEQU1TdC0yY3ZBN1JRRE9YeWRpTllCRE9MYm5oQUNpcVE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 07 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz lanzó \"Impulso Salta\": programa para potenciar el turismo antes de la temporada 2026-2027",
         "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
@@ -27636,13 +27660,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 24,
+    "total_mentions": 25,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 4,
-      "neutral": 18
+      "neutral": 19
     },
     "sentiment_by_day": {
+      "2022-12-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-01-04": {
         "total": 1,
         "score_sum": 0
@@ -27739,15 +27767,27 @@
     "top_topics": [
       {
         "term": "ignacio",
-        "count": 10
+        "count": 11
       },
       {
         "term": "jarsún",
-        "count": 10
+        "count": 11
       },
       {
         "term": "ministro",
         "count": 3
+      },
+      {
+        "term": "aguas",
+        "count": 2
+      },
+      {
+        "term": "norte",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "tribuno",
@@ -27755,18 +27795,6 @@
       },
       {
         "term": "caso",
-        "count": 2
-      },
-      {
-        "term": "abigail",
-        "count": 2
-      },
-      {
-        "term": "denuncian",
-        "count": 2
-      },
-      {
-        "term": "diputado",
         "count": 2
       }
     ],
@@ -27805,6 +27833,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Quién es Ignacio Jarsún, el nuevo director de Aguas del Norte - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd2U4NS03UzE3YjdEeldFUzhJeEJCMXpZNVN5SS1JYVpYNXZGeWdxbmh5eDhoMjg1WEFXS3NUMUhPeld6SFBoQ3hhUHIxRVRiejZreFhVQnp3ZnRIWmdKSWktemdIOUt0QUVNenNicXBaV2JXSVpqZlVUZTg0V281ZUlqRVhzQW81RVJCOEJEa2daVnhhcW04MWJoMA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 16 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Alcanzará? Ignacio Jarsún ya recorre diferentes puntos de la provincia y controla la situación hídrica - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTEZwM0xabTRTVnVlUXVNTlZOQ1p6V1RVMXlhbm5KVkhyNF8yWktNV01QSkx5cjQ2UzJMclctR002UzlfUm5GVWh3c2NIRlM4VDJ0NWpIc1A1Tlk2NjVOb3Y4XzhlU0hWTHFTRFFHNU1FZWRQRGUza19nR2V6VG1BMzNzYUVnbVI3cUVqbktwTERaRk0yaTdERDBXVlpuNVNmYUVCbUFVOHVNX0o1VFUtUWxtV3BDUE5MR0lSRHZHQ0dQdm5XclltSFdRNEpKTzJFVXFReld2b0RtTTE40gHiAUFVX3lxTE1xb1plVC1Wbk5wYjd4em9yNFo3QXRRMVpadkZyRzNBc3YtNUJpMVpMOFVic282Z1ljOFJ0THRFaFU3end4eEpWTmVZSzdEX0lJelAyZkFGQzFiMVJkRVctQ2xGb0E4dXhWdWducjZ2aHNWSjF2WTU1VVZnbV9OazNaTG5zT1JEOUZmZ3E4V015NnQ2aXZWNXowQmpfWlFscVhVSDFzXzI3WW5jcUw0QW1SRElJNVowZjhvXzBlYlp0c2dZc0FLcGJDdlFPeXNfYVFWWkVTOG05SFREczFSVVFDNXc?oc=5",
@@ -28142,7 +28177,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 15
+        "count": 14
       },
       {
         "term": "turismo",
@@ -28150,7 +28185,7 @@
       },
       {
         "term": "millones",
-        "count": 5
+        "count": 4
       },
       {
         "term": "impulso",
