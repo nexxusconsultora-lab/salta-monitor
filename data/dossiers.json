@@ -286,7 +286,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 35
+        "count": 34
       },
       {
         "term": "belgrano",
@@ -21686,13 +21686,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 61,
+    "total_mentions": 62,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 10,
-      "neutral": 43
+      "neutral": 44
     },
     "sentiment_by_day": {
+      "2026-04-29": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-02-11": {
         "total": 1,
         "score_sum": 0
@@ -21853,10 +21857,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2026-04-29": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-07-22": {
         "total": 1,
         "score_sum": -2
@@ -21909,11 +21909,19 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 8
+        "count": 9
       },
       {
         "term": "orozco",
-        "count": 8
+        "count": 9
+      },
+      {
+        "term": "milei",
+        "count": 2
+      },
+      {
+        "term": "tribuno",
+        "count": 2
       },
       {
         "term": "apuntó",
@@ -22051,6 +22059,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco se reunió con Karina Milei en el Congreso - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY2U1OEwwWXo0Zm05bC10UGhsM0V1dGE3cFVnOXdRa3ZTWU5iZGRkalRfYmRBQkU5OThEM1lvYzV1eGNVdTFBaHZTODNtMTF1RUZ6c2djdU9sMkQ2SHhWZ2hreVhfTGw5bUpGc3pJS042dnM3dV9PcnVKZUxwZmdLQnBpaG9YRlRuMzZkbHpJTWZwd2J0bkdBYlR5dmJFYlR0WXl3dWZLMHXSAa4BQVVfeXFMTUN1Xy0yZTM1TmVqMWJjTUUzNldDSXVIbmpSN05XVVd6NjU0LVYtMjZCckhRRDdzbTFMRTZyb2x4djJDOExia0tRdHdKdWdqb1dqN2I3TzZ5dVFmbEJUWm9WdEtNMmlpMUdnbnBkU2xiSmYyM1gxUXgwSTQwWDlqSWJ4OEhBdHBTVGU4UGc3dkIyUFhqVWtVUGZZb1h3NVVoUFNNZWNBYS1oMUlHUHlR?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 29 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco defendió la reforma laboral y apuntó contra la “industria del juicio” - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQzRCaUkxalNUcUpaWEhJd0VSM1lwRXVjZkpDSF9jSmZLV0xRd0o0b01RQzRDSkFRVkswcEh6QlZtZ2VOeWRUUzBPR2dJYnUyaXBjSDRyNm81b09QR3lzQ1l2TGFiWWxNdDZHOUJqSU1tQm9ENnFMaDh4U2k2b29heFZQOUVJSmZ3eDNSdzl2QS1hVlhsa1lNYTUyS0hMUTZRN05zZnZrRDRtLVJSM0djWF9wZEoxY1psZ3FFWVhjTmxOM2VtOG10OUYwU0Z5QnA3bnc?oc=5",
@@ -22252,13 +22267,6 @@
         "link": "https://elintra.com.ar/2026/09/25/hablo-emilia-orozco-tras-su-foto-con-karina-milei-nos-dio-fuerzas/",
         "source": "El Intra",
         "date": "Fri, 25 Sep 2026 18:48:41 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO: “Milei necesita legisladores que lo acompañen para seguir cambiando la Argentina”, afirmó Emilia Orozco - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVmNYQlo0WHdFZTRLUndtTGFqQUYwTFFYRExIX3dKRVlvdzJacGtueTBITm5zX3U4b2NrZ2l1V2VRNVpiekczenZiek1zX2dOcmx5UU9WZUlfTzRCWDBRNUpzdDVWZnk3OUc3UEpQbVFhaDFudXkxRTZsSHZUSVdWNndiMmNuQTlmU2tTSXQ1Z2liaXVNWGdqOTBtMnBGVGNxVDZWd3JibnQ0c29rWnlFSVZNU1NkYWptZUpqQkpzM0hSMGtKcmJ4UEdNSVZzWGRWQlhtd0NIRG9Xd3NCNlBOMGlIU2RwaU9qbEZIZ9IB8gFBVV95cUxNYUVJU2ZtWm9qX3cxVFI5ZFo2UkpWWXlZeWZ2b2xFVHl1aDBoTkVXTEo1ZUdXa0gzNlpOV09hNFo4cGdEam9KZWxwTjJqcXRuRlNGX3R4RkNZUkozel9YcURVYi00YXh6YVFVcExscDA5aU9ZblZidHNFajNXNkVwQzF6UW9xOXFURzVRQWdTclVhZEE1S2dwdzJHQnlFeXNJeVNvRHNhTkdQQVZ3dkRvUldQQXJSLTBSeVJTaUhaZVowRmF0c3pvS1pQWDJmVzdpZjRBQm1qaG9SMEtseVEwNGViTzZ3MW5QTFIzQjNIMXJnZw?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 16 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -26014,13 +26022,17 @@
     "id": "dip-guillermo-alejandro-kripper",
     "name": "Guillermo Alejandro Kripper",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2025-02-05": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-11-26": {
         "total": 3,
         "score_sum": 0
@@ -26065,11 +26077,15 @@
     "top_topics": [
       {
         "term": "guillermo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "kripper",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "competir",
@@ -26090,10 +26106,6 @@
       {
         "term": "diputados",
         "count": 2
-      },
-      {
-        "term": "examedia",
-        "count": 2
       }
     ],
     "quotes": [
@@ -26112,6 +26124,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Guillermo Kripper pica en punta como el candidato a senador por el saencismo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVldnRzhlYTBCNmRCV0xMRlc5cm1nMzh3cUFicS1MT3BiN0psaW5aY3BIdDlsUndVOFRPVktmYlY2YVZOU0dRbjRERVdyQml0QUJmZEVTZzR4X0VVRGVEWlk0d214ZHUwQ21tVERyajZvTnlOS3JtclgyOUJiQnFQTzZpMWJQSjdXRmtNYXRxUlB4OU9RYlNRVERqSDhjMVo3SnNWVWhJZWgyc01ES0NpUA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 05 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cambios en el Concejo: asumió Camila Lobo en cuenta de Guillermo Kripper - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY1c0UWlqTHM1b01UNVZVUWdaRlhQX1VKRzZpdUNic3VOV2llaENUZ3FIQmdoRXJsa2dtRmV6eFc4Qk9jYTlIX08zWWE4NjQ5WnRieHNLdkJEZ0IxNUpxWk9pZ3plQzk2Tm93a1Vja0V6T1RMTDU3eHgxNk5xMlVHMDJicFVlRzBXNndUVURCd3ozRDE2WDh6MVBmYXc1dlptUXduU00wNkt5RXo0akFuNW1GZFNrQdIBrgFBVV95cUxOM0dCSXJzMEpYbVJsOFpkUEdZX2tpTjVqbGg4R0lZbjVpYjZOMXBiUlE4bk5lblZkeDVVZ1RlOWE2aHU3RkNTd19xYWxDX1Z4OGloNjk0MHhHaXBjN2Z5VVhGZ3BtU05UV3p3LW5lelRVMjRDQTdUbS0xWDJrR0dhWHhpeGZ6eVE5QmpOY3A0TzV0aEdnUHdzdFNQalE0QmtqYm0zZVluaDJmUXFxamc?oc=5",
@@ -30054,10 +30073,6 @@
     "top_topics": [
       {
         "term": "policía",
-        "count": 2
-      },
-      {
-        "term": "ignacio",
         "count": 2
       }
     ],

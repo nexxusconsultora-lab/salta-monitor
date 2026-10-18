@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-18T17:14:41.070734+00:00",
+  "generated_at": "2026-10-18T19:30:36.327069+00:00",
   "by_politician": {
+    "dip-guillermo-alejandro-kripper": {
+      "total": 14,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 14,
+      "score_sum": 0
+    },
+    "snac-emilia-orozco": {
+      "total": 62,
+      "positivo": 8,
+      "negativo": 10,
+      "neutral": 44,
+      "score_sum": -3
+    },
     "gustavo-saenz": {
       "total": 289,
       "positivo": 67,
@@ -140,20 +154,6 @@
       "negativo": 10,
       "neutral": 17,
       "score_sum": -24
-    },
-    "snac-emilia-orozco": {
-      "total": 61,
-      "positivo": 8,
-      "negativo": 10,
-      "neutral": 43,
-      "score_sum": -3
-    },
-    "dip-guillermo-alejandro-kripper": {
-      "total": 13,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 13,
-      "score_sum": 0
     },
     "dnac-carlos-raul-zapata": {
       "total": 29,
@@ -927,6 +927,22 @@
     }
   },
   "by_day": {
+    "2025-02-05": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-04-29": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-06-17": {
       "gustavo-saenz": {
         "total": 2,
@@ -7981,16 +7997,6 @@
         "score_sum": 0
       },
       "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-04-29": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
       }
@@ -15949,11 +15955,11 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 23
+      "count": 22
     },
     {
       "term": "elintra",
-      "count": 18
+      "count": 19
     },
     {
       "term": "gustavo",
@@ -15961,10 +15967,6 @@
     },
     {
       "term": "pasa",
-      "count": 8
-    },
-    {
-      "term": "reclamo",
       "count": 7
     },
     {
@@ -15980,15 +15982,11 @@
       "count": 6
     },
     {
+      "term": "reclamo",
+      "count": 6
+    },
+    {
       "term": "antes",
-      "count": 6
-    },
-    {
-      "term": "belgrano",
-      "count": 6
-    },
-    {
-      "term": "cargas",
       "count": 6
     },
     {
@@ -16004,7 +16002,15 @@
       "count": 5
     },
     {
-      "term": "cornejo",
+      "term": "nuevo",
+      "count": 5
+    },
+    {
+      "term": "ashur",
+      "count": 5
+    },
+    {
+      "term": "carlos",
       "count": 5
     }
   ],
