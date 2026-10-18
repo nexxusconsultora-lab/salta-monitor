@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-18T15:51:53.614885+00:00",
+  "generated_at": "2026-10-18T16:13:56.131047+00:00",
   "by_politician": {
+    "eje-nicolas-avellaneda": {
+      "total": 12,
+      "positivo": 4,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 4
+    },
     "eje-cristina-fiore": {
       "total": 37,
       "positivo": 2,
@@ -189,13 +196,6 @@
       "negativo": 16,
       "neutral": 17,
       "score_sum": -36
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 11,
-      "positivo": 3,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 3
     },
     "eje-gustavo-carrizo": {
       "total": 5,
@@ -927,6 +927,12 @@
     }
   },
   "by_day": {
+    "2026-10-18": {
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2023-12-05": {
       "eje-cristina-fiore": {
         "total": 1,
