@@ -3,20 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 291,
+    "total_mentions": 292,
     "sentiment_breakdown": {
       "positivo": 68,
-      "negativo": 45,
+      "negativo": 46,
       "neutral": 178
     },
     "sentiment_by_day": {
+      "2026-10-18": {
+        "total": 2,
+        "score_sum": 1
+      },
       "2025-05-11": {
         "total": 1,
         "score_sum": 0
-      },
-      "2026-10-18": {
-        "total": 1,
-        "score_sum": 2
       },
       "2026-06-17": {
         "total": 2,
@@ -317,12 +317,12 @@
         "count": 10
       },
       {
-        "term": "años",
+        "term": "nación",
         "count": 7
       },
       {
-        "term": "nación",
-        "count": 6
+        "term": "años",
+        "count": 7
       }
     ],
     "quotes": [
@@ -419,6 +419,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sistema Ferroviario: Nación convoca a una reunión clave por el C-14 y el C-15",
+        "link": "https://fmalba.com.ar/sistema-ferroviario-nacion-convoca-a-una-reunion-clave-por-el-c-14-y-el-c-15/",
+        "source": "FM Alba",
+        "date": "Sun, 18 Oct 2026 23:08:38 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La reacción de Gustavo Sáenz, gobernador de Salta, por la sorpresa que dio LLA en la capital - A24.com",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd3FjWWdPenVrRjhqc3BkWjRGdmNkMnIwMnFoV2FBMmh5dmVGbUxoZENUTzVuOHp2WVJlWjBYbERjTHZmUXlyaHpQQlZlYXFfRlNCTHNaWnFQYXAxWllDVmpkSkhxUnZrYXNBUTVKQXBNb291em5QTFYzSjJQa0NXZjlkT2M2MDVTYlJYMjFmQ2pNUHc5T3hwMlJEZHNKbW5CaF81UzBlcTdYb3J1dmdpS2d0cmQ1UdIBuwFBVV95cUxNOU1rdG5UdkhHNmk3ejZCNVhOaHNxVVFMVzFZQWFmcXE4dVlCd1d2bTlfWFhNVXhKY2xCdkZ3TlNSREM0d09zWmpSQVZiYjVjYl8zQXVGemFwckxCZlJBV3dXdnpETERNYVJtR3d6MU0wUWRLS0UyMC1ZQUd6ZlBjb3dxMkVCQTR6RXdkU0pEWWlGT1YxYXdCTlBYd1FYOGIzNFpoN1IyTERrbndvSnlHclFrUElpVnZDZF9z?oc=5",
@@ -621,13 +628,6 @@
         "source": "El Intra",
         "date": "Thu, 15 Oct 2026 20:06:37 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Sáenz, por el C14 y el C15: “No íbamos a permitir estar 50 años más esperando”",
-        "link": "https://www.eltribuno.com/salta/2026-10-15-15-46-0-video-saenz-por-el-c14-y-el-c15-no-ibamos-a-permitir-estar-50-anos-mas-esperando",
-        "source": "El Tribuno - Salta",
-        "date": "Thu, 15 Oct 2026 18:46:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -27205,13 +27205,21 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 19,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 1,
-      "neutral": 14
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2023-05-14": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2023-05-23": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2022-11-07": {
         "total": 1,
         "score_sum": 0
@@ -27248,10 +27256,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2023-05-23": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2025-08-27": {
         "total": 1,
         "score_sum": 0
@@ -27284,15 +27288,15 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 3
+        "count": 5
       },
       {
         "term": "marocco",
-        "count": 3
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 4
       },
       {
         "term": "sáenz",
@@ -27300,6 +27304,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "ser elegidos",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2lsZUpzN0U2QW1SazN6UjhmZ0tfN1U1dzRqYXdyS1FDWFo4UHEwMy1ud3c0WmhBRkF6N3NXUkJOaWVnNFJFaGZScVgzakJQcmo2cnhtYS1BS2I2eW5MRjV2d0FGZDBnOEZMMjFYa01rM1dLelJjZUNkS3FGYlhnZDEtZ1NhWWp6R29Id1BmWlNXQXJZendGZ3o5d1RVMU1KcGFtSkZldks4dGFBTS0wZUR4LXFJekNH?oc=5",
+        "date": "Sun, 14 May 2023 07:00:00 GMT"
+      },
       {
         "quote": "Impulso Salta",
         "source": "Informate Salta",
@@ -27333,6 +27343,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Elecciones en Salta: Antonio Marocco votó y habló de la posibilidad de “ser elegidos” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2lsZUpzN0U2QW1SazN6UjhmZ0tfN1U1dzRqYXdyS1FDWFo4UHEwMy1ud3c0WmhBRkF6N3NXUkJOaWVnNFJFaGZScVgzakJQcmo2cnhtYS1BS2I2eW5MRjV2d0FGZDBnOEZMMjFYa01rM1dLelJjZUNkS3FGYlhnZDEtZ1NhWWp6R29Id1BmWlNXQXJZendGZ3o5d1RVMU1KcGFtSkZldks4dGFBTS0wZUR4LXFJekNH?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 14 May 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Antonio Marocco visitó a Alberto Fernández: de qué hablaron - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZU5FbDBhS2dGQkRHbFlWNERSOWhvTEthRC1BZXU3RW1uTU96Z2xLWktaUTZaU0pIa1VMTU56aW1ETEYwSzBjZk5yZjJrWER1RTBweVJmclRiNjhHRmlYUU45Z1lrT2pTY1dVT1NhRVRSU0VhT3ljb1FlZkxkZnlPenhPelh4dUR1NnQwNDZ2aG9FTHJGTWFhNw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 23 May 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Antonio Marocco asegura que Salta y una ciudad de Bolivia son “hermanas” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY29rb0ZOeDZjOEJ5d2dabXd5TDA0OUpSMzhSNXlQNVZCZzAyZ29lVUktenNUNXppd2dsUHVQbnVWQXFlN0c1MTRIZG5OSUF0V0tqQUJnYjVnWTdUOFdPMlVKdWVGWGhmbDdPMzVnUTZfOFdtZkFEQU1TdC0yY3ZBN1JRRE9YeWRpTllCRE9MYm5oQUNpcVE?oc=5",

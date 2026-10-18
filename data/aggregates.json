@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-18T21:49:20.549727+00:00",
+  "generated_at": "2026-10-18T23:34:41.897685+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 21,
+      "positivo": 4,
+      "negativo": 1,
+      "neutral": 16,
+      "score_sum": 32
+    },
+    "gustavo-saenz": {
+      "total": 292,
+      "positivo": 68,
+      "negativo": 46,
+      "neutral": 178,
+      "score_sum": 122
+    },
     "snac-gonzalo-guzman-coraita": {
       "total": 28,
       "positivo": 4,
       "negativo": 4,
       "neutral": 20,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 291,
-      "positivo": 68,
-      "negativo": 45,
-      "neutral": 178,
-      "score_sum": 123
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 57,
@@ -63,13 +70,6 @@
       "negativo": 4,
       "neutral": 19,
       "score_sum": 0
-    },
-    "eje-antonio-marocco": {
-      "total": 19,
-      "positivo": 4,
-      "negativo": 1,
-      "neutral": 14,
-      "score_sum": 32
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 22,
@@ -927,6 +927,60 @@
     }
   },
   "by_day": {
+    "2023-05-14": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-05-23": {
+      "eje-antonio-marocco": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2026-10-18": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-05-09": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -1053,20 +1107,6 @@
       "dip-jorge-miguel-restom": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-18": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2025-02-05": {
@@ -4315,36 +4355,6 @@
         "score_sum": 0
       }
     },
-    "2023-05-14": {
-      "eje-mario-mimessi": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2018-06-30": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -4807,12 +4817,6 @@
       "eje-antonio-marocco": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2023-05-23": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-08-27": {
@@ -15970,20 +15974,16 @@
   ],
   "trending_terms": [
     {
-      "term": "sáenz",
-      "count": 22
+      "term": "elintra",
+      "count": 21
     },
     {
-      "term": "elintra",
-      "count": 19
+      "term": "sáenz",
+      "count": 21
     },
     {
       "term": "gustavo",
       "count": 13
-    },
-    {
-      "term": "pasa",
-      "count": 7
     },
     {
       "term": "potenciar",
@@ -15995,6 +15995,10 @@
     },
     {
       "term": "cargas",
+      "count": 6
+    },
+    {
+      "term": "pasa",
       "count": 6
     },
     {
