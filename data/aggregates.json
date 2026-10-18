@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-18T19:30:36.327069+00:00",
+  "generated_at": "2026-10-18T21:49:20.549727+00:00",
   "by_politician": {
+    "snac-gonzalo-guzman-coraita": {
+      "total": 28,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 20,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 291,
+      "positivo": 68,
+      "negativo": 45,
+      "neutral": 178,
+      "score_sum": 123
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 57,
+      "positivo": 4,
+      "negativo": 10,
+      "neutral": 43,
+      "score_sum": -9
+    },
     "dip-guillermo-alejandro-kripper": {
       "total": 14,
       "positivo": 0,
@@ -14,13 +35,6 @@
       "negativo": 10,
       "neutral": 44,
       "score_sum": -3
-    },
-    "gustavo-saenz": {
-      "total": 289,
-      "positivo": 67,
-      "negativo": 45,
-      "neutral": 177,
-      "score_sum": 121
     },
     "eje-nicolas-avellaneda": {
       "total": 12,
@@ -84,20 +98,6 @@
       "negativo": 9,
       "neutral": 72,
       "score_sum": 5
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 56,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 42,
-      "score_sum": -9
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 27,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 19,
-      "score_sum": 0
     },
     "dip-luis-gerardo-mendana": {
       "total": 5,
@@ -927,6 +927,148 @@
     }
   },
   "by_day": {
+    "2024-05-09": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luis-altamirano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-05-11": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-claudio-jose-cansino": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-carlos-maximiliano-casasola": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-18": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2025-02-05": {
       "dip-guillermo-alejandro-kripper": {
         "total": 1,
@@ -951,12 +1093,6 @@
       "dip-esteban-amat-lacroix": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-18": {
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2023-12-05": {
@@ -5055,76 +5191,6 @@
         "score_sum": 0
       }
     },
-    "2025-05-11": {
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-claudio-jose-cansino": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-carlos-maximiliano-casasola": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jorge-miguel-restom": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-11-28": {
       "snac-flavia-royon": {
         "total": 1,
@@ -5271,56 +5337,6 @@
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2024-05-09": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luis-altamirano": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2024-01-13": {
@@ -15970,6 +15986,18 @@
       "count": 7
     },
     {
+      "term": "potenciar",
+      "count": 6
+    },
+    {
+      "term": "belgrano",
+      "count": 6
+    },
+    {
+      "term": "cargas",
+      "count": 6
+    },
+    {
       "term": "turismo",
       "count": 6
     },
@@ -15982,15 +16010,7 @@
       "count": 6
     },
     {
-      "term": "reclamo",
-      "count": 6
-    },
-    {
       "term": "antes",
-      "count": 6
-    },
-    {
-      "term": "presupuesto",
       "count": 6
     },
     {
@@ -16007,10 +16027,6 @@
     },
     {
       "term": "ashur",
-      "count": 5
-    },
-    {
-      "term": "carlos",
       "count": 5
     }
   ],

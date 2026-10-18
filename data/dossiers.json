@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 289,
+    "total_mentions": 291,
     "sentiment_breakdown": {
-      "positivo": 67,
+      "positivo": 68,
       "negativo": 45,
-      "neutral": 177
+      "neutral": 178
     },
     "sentiment_by_day": {
+      "2025-05-11": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-10-18": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-06-17": {
         "total": 2,
         "score_sum": 0
@@ -286,7 +294,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 34
+        "count": 36
       },
       {
         "term": "belgrano",
@@ -297,16 +305,16 @@
         "count": 11
       },
       {
+        "term": "gustavo",
+        "count": 10
+      },
+      {
         "term": "reclamo",
         "count": 10
       },
       {
         "term": "ramales",
         "count": 10
-      },
-      {
-        "term": "gustavo",
-        "count": 9
       },
       {
         "term": "años",
@@ -411,6 +419,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La reacción de Gustavo Sáenz, gobernador de Salta, por la sorpresa que dio LLA en la capital - A24.com",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd3FjWWdPenVrRjhqc3BkWjRGdmNkMnIwMnFoV2FBMmh5dmVGbUxoZENUTzVuOHp2WVJlWjBYbERjTHZmUXlyaHpQQlZlYXFfRlNCTHNaWnFQYXAxWllDVmpkSkhxUnZrYXNBUTVKQXBNb291em5QTFYzSjJQa0NXZjlkT2M2MDVTYlJYMjFmQ2pNUHc5T3hwMlJEZHNKbW5CaF81UzBlcTdYb3J1dmdpS2d0cmQ1UdIBuwFBVV95cUxNOU1rdG5UdkhHNmk3ejZCNVhOaHNxVVFMVzFZQWFmcXE4dVlCd1d2bTlfWFhNVXhKY2xCdkZ3TlNSREM0d09zWmpSQVZiYjVjYl8zQXVGemFwckxCZlJBV3dXdnpETERNYVJtR3d6MU0wUWRLS0UyMC1ZQUd6ZlBjb3dxMkVCQTR6RXdkU0pEWWlGT1YxYXdCTlBYd1FYOGIzNFpoN1IyTERrbndvSnlHclFrUElpVnZDZF9z?oc=5",
+        "source": "A24.com",
+        "date": "Sun, 11 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz y el CFI sellan acuerdos para potenciar financiamiento a MiPyMEs en Salta",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-y-el-cfi-sellan-acuerdos-para-potenciar-financiamiento-a-mipymes-en-salta_a6ad5334e59b6c25c2222b59a",
+        "source": "Informate Salta",
+        "date": "Sun, 18 Oct 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz anunció que la Provincia intervendrá la Ruta 34: \"Está destrozada\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjTVBIWVhLMVFFLVVyR3hMeUZaVnJoZnhLcTR0M0dsYTRkVUk4MEtMUXhGRjM5QXRmOE1ESXc2UlJaNTk1Wnh3dUcwY1JjbE1jT0RjNG0yaXB1cEdOMk9IaTlXS0hXLTdGQ3BnVnk4NmFUZHdNMExlYldrVXk?oc=5",
@@ -606,20 +628,6 @@
         "source": "El Tribuno - Salta",
         "date": "Thu, 15 Oct 2026 18:46:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "¿Marcha atrás? Nación convoca a sectores por la situación de los ramales C-14 y 15",
-        "link": "https://informatesalta.com.ar/nacional/-marcha-atras--nacion-convoca-a-sectores-por-la-situacion-de-los-ramales-c-14-y-15_a6ad0f1fe1b3ce6c914e54326",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 15:37:48 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz encabezó el lanzamiento de Impulso Salta para potenciar el turismo, ¿de qué trata?",
-        "link": "https://informatesalta.com.ar/turismo/saenz-encabezo-el-lanzamiento-de-impulso-salta-para-potenciar-el-turismo---de-que-trata-_a6ad0ff877f0e2f8050bb4699",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 16:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -1799,13 +1807,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 56,
+    "total_mentions": 57,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 10,
-      "neutral": 42
+      "neutral": 43
     },
     "sentiment_by_day": {
+      "2026-10-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-25": {
         "total": 1,
         "score_sum": 0
@@ -1990,11 +2002,19 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 4
+        "count": 5
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "belgrano",
+        "count": 2
+      },
+      {
+        "term": "cargas",
+        "count": 2
       },
       {
         "term": "sáenz",
@@ -2010,6 +2030,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "hubo una mala interpretación",
+        "source": "El Tribuno - Salta",
+        "link": "https://www.eltribuno.com/salta/2026-10-18-0-0-0-ferrocarril-belgrano-admiten-fallas-pero-confian-en-acuerdos",
+        "date": "Sun, 18 Oct 2026 05:35:00 GMT"
+      },
       {
         "quote": "Jamás le falté el respeto",
         "source": "Informate Salta",
@@ -2062,6 +2088,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Belgrano Cargas: Según Roque Cornejo, \"hubo una mala interpretación\", pero confía en acuerdos",
+        "link": "https://www.eltribuno.com/salta/2026-10-18-0-0-0-ferrocarril-belgrano-admiten-fallas-pero-confian-en-acuerdos",
+        "source": "El Tribuno - Salta",
+        "date": "Sun, 18 Oct 2026 05:35:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Roque Cornejo rompió el silencio tras el cruce con Sáenz: “Jamás le falté el respeto” - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWHRRZE4taS1jQ2dTaU9XampEQ1hkVjhqaERiNjNJb28zVU83TERTVlF1ZjhoeG95MVFCc3lXclJ3WDNUdHFGQzhrSDZkcWdBaU4ySmhISjVucXlHaTFCZkhodWhkMGl3Mk4xM3UxbUQ1QUFiREhDemlMX2RsdEJTV3FjQzRzblBFeXRMMXBRX0s5RnRrcno0RDl5TUNXODNSaTc2NzM4bm5rYTBxVWY3cGgwMWZpRG5PLUlzcGJ6cF9KNG5zeHhaR1R2Y1huTUhHXzN2eWJWaDJwQS1nTnREX0lSWW3SAfMBQVVfeXFMTWpjNmhUOUgtaWRrWnk1cHNzX3lzTEY1cVRoODVxSGxTQzNOVnRaWXp4REVrLWp6VUJibkwwdGhYVGJvMjVyWEJ3V2ZUUWdXVlBzV3Q0ZWlTWm81OHI3d1VzOHlsaEhkekhoT1BGWUxOSGJ5SExmZDBQeUFBM1BxMklRM3ZUeXhMWEpIR3R0STdxWkJqSGN0LTJBeEtTNHFNU1U4RUU5cFIwTmxLQUlpTDQwcWdRUV9DVk0yWV9yTEV6aGNLNnU0a0FNdUtqbUFxYklzWXhRejl3cmhRdE1fVW80djl5bnN3N2daRmNkVjJmUm4w?oc=5",
@@ -2263,13 +2296,6 @@
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ISk91eDVoeThQc21kOC0wd19uYUxrQUxoODFuSGs5NWxKT1RBQXF2ckxzZEtvSFFka0lFNXl4Y0gzaVdONEtZa0hFY0tDMzZvYlJPRXFMamVraDRWenc?oc=5",
         "source": "La Política Online",
         "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Quiénes se van de la Legislatura: el listado completo de diputados que dejan su banca - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMjFfeGlybC1ObXpQRVNNUV9xTlR2ZGVSaWM2dFBwS0lySmp3dEdtWklQZFlOc1JHS0tVVjN5S2RZRXBVYnhLZWpkV0J4SzVrOV9iYkRLSTVhcXBoWmplcDVyUU1SWHY0dGhVU1VDYWNoRjlSVlBQa3hYV2FGdXB3bzlSeFZnNzdFRDZHTklGaG9wbEtMeGJMdlp4YVAtcXh6Mk1uak9ZcUx1LTRzOXNmYk5CMlRhVkFnbm1qWUxGRjJqSzFu?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Mon, 17 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -16662,11 +16688,11 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 4
+        "count": 3
       },
       {
         "term": "garcía",
-        "count": 4
+        "count": 3
       },
       {
         "term": "político",
@@ -22275,13 +22301,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 19
+      "neutral": 20
     },
     "sentiment_by_day": {
+      "2024-05-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-17": {
         "total": 1,
         "score_sum": 0
@@ -22370,15 +22400,15 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 3
+        "count": 4
       },
       {
         "term": "coraita",
-        "count": 3
+        "count": 4
       },
       {
         "term": "gonzalo",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -22434,6 +22464,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gonzalo Guzmán Coraita - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmQ3NCYkJDa3JWUHE0MHk5cDFMSWRTTGdIR0Q2MU9IbEdwUHY0ZjhEczczZHBFM1RlS1JoVm5FTFUtSzRFbWQ4ZlhzUDYwVi1YYlluNnByamNPbVVtZ2p2QnBMQQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Thu, 09 May 2024 13:24:24 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Los libertarios quieren ganar terreno en el interior salteño: estuvieron en Cafayate y San Carlos",
         "link": "https://www.eltribuno.com/salta/2026-10-17-18-25-0-los-libertarios-quieren-ganar-terreno-en-el-interior-salteno-estuvieron-en-cafayate-y-san-carlos",
