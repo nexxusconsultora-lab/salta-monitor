@@ -165,8 +165,8 @@ TEMAS_TODOS = [
     ("Espectáculos y cultura", 1.5, ["netflix", "serie ", "pelicula", "estreno", "show ", "famosos", "farandula", "instagram", "reality",
                                      "masterchef", "cantante", "recital", "concierto", "festival", "musica", "teatro", "cine", "libro",
                                      "artista", "actriz", "actor ", "television", "streaming", "tiktok", "youtube", "cumbia", "folklore",
-                                     "pena ", "cumpleanos", "casamiento", "separacion", "horoscopo", "receta de", "recetas de", "receta facil", "museo", "exposicion", "nieta de", "hija de", "hijo de", "conductor", "conductora", "novio", "noviazgo", "romance", "telefe", "vedette", "la modelo", "top model", "polemica", "mediatic", "influencer", "bailando", "pareja", "embarazo", "fans", "banda de rock", "disco ", "bebe", "infidelidad", "martin fierro", "ternas", "wanda nara", "se separo", "primer hijo",
-                                     "cantautor", "musico", "musicos", "nobel de literatura", "grammy", "lollapalooza", "premios", "narrativa", "novela", "poesia", "poeta", "escritor", "escritora", "elenco", "miniserie", "thriller",
+                                     "pena ", "cumpleanos", "casamiento", "separacion", "horoscopo", "receta de", "recetas de", "receta facil", "museo", "exposicion", "nieta de", "hija de", "hijo de", "conductor", "conductora", "novio", "noviazgo", "romance", "telefe", "vedette", "la modelo", "top model", "polemica", "mediatic", "influencer", "bailando", "embarazo", "fans", "banda de rock", "disco ", "bebe", "infidelidad", "martin fierro", "ternas", "wanda nara", "se separo", "primer hijo",
+                                     "fanatic", "canciones", "cancion", "famosa", "famosas", "bts", "cantautor", "musico", "musicos", "nobel de literatura", "grammy", "lollapalooza", "premios", "narrativa", "novela", "poesia", "poeta", "escritor", "escritora", "elenco", "miniserie", "thriller",
                                      "filme", "taquilla", "headliner", "entradas", "donde ver", "pogo", "orquesta", "ballet", "danza"]),
     ("Justicia", 1, ["poder judicial", "organos judiciales", "magistratura", "magistrad", "jueces", "supremo", "la corte", "corte de justicia", "casacion", "camara de apelaciones", "fiscalia", "ministerio publico", "cautelar", "prision preventiva", "indulto",
                      "justicia", "juez", "jueza", "el fiscal", "la fiscal", "fiscal federal", "fiscal general", "fiscal de", "fiscales", "causa ", "causas", "tribunal", "corte suprema", "juicio", "imputad", "procesad", "denuncia",
@@ -184,21 +184,21 @@ TEMAS_TODOS = [
     ("Agro y producción", 1, ["campos", "tierras rurales", "autos", "automovil", "0km", "concesionari", "stellantis", "automotriz", "cierre de plantas", "fabrica", "autopartis", "metalurgic", "textil", "manufactur", "agro", "campo ", "soja", "maiz", "trigo", "cosecha", "ganader", "exportacion", "industria", "pyme",
                               "produccion", "tabaco", "azucar", "limon", "citrus", "vino", "bodega", "frigorifico", "carne", "productores",
                               "siembra", "agricultura", "zafra", "cupo"]),
-    ("Transporte e infraestructura", 1, ["telepase", "cortes de luz", "epec", "edenor", "edesur", "cammesa", "flybondi", "ferroviari", "ramales", "aeroestacion", "avion", "subte", "autopista", "trenes", "ruta ", "rutas", "vial", "vialidad", "obra", "puente", "aeropuerto", "vuelo", "aerolinea", "tren ",
+    ("Transporte e infraestructura", 1, ["monopatin", "vtv", "telepase", "cortes de luz", "epec", "edenor", "edesur", "cammesa", "flybondi", "ferroviari", "ramales", "aeroestacion", "avion", "subte", "autopista", "trenes", "ruta ", "rutas", "vial", "vialidad", "obra", "puente", "aeropuerto", "vuelo", "aerolinea", "tren ",
                                          "colectivo", "saeta", "transporte", "peaje", "pavimento", "cloaca", "agua potable", "aguas del norte",
                                          "edesa", "corte de luz", "infraestructura", "bacheo", "asfalto", "ferrocarril"]),
     ("Turismo", 1, ["parque nacional", "iguazu", "cataratas", "arancibia", "promocion de salta", "promocion turistica", "conectividad", "turismo", "turista", "hotel", "vacaciones", "fin de semana largo", "feriado", "cafayate", "quebrada", "tren a las nubes",
                     "ocupacion hotelera", "destino", "temporada alta", "receptivo"]),
     ("Trabajo y gremios", 1, ["albanil", "plomero", "electricista", "empleadas domesticas", "empleada domestica", "personal domestico", "trabajo domestico", "emplead", "laboral", "informalidad", "cuentapropis", "monotribut", "uocra", "cuanto gana", "aguinaldo", "desocupacion", "puestos de trabajo", "paro nacional", "ate ", "ctera", "conadu", "paritaria", "gremio", "sindicat", "cgt", "despido", "desempleo", "empleo", "trabajadores", "paro ", "huelga",
                               "convenio colectivo", "salario", "sueldo", "reforma laboral", "asamblea"]),
-    ("Economía y finanzas", 1, ["equilibrio fiscal", "politica fiscal", "ajuste fiscal", "gasto publico", "transferencias", "coparticipacion", "rigi", "fechas de cobro", "calendario de pagos", "morosidad", "endeudad", "economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
+    ("Economía y finanzas", 1, ["ayuda escolar", "asignacion", "privatiz", "consorcio", "equilibrio fiscal", "politica fiscal", "ajuste fiscal", "gasto publico", "transferencias", "coparticipacion", "rigi", "fechas de cobro", "calendario de pagos", "morosidad", "endeudad", "economi", "inflacion", "dolar", "presupuesto", "ajuste", "recesion", "fmi", "deuda", "impuest", "tarifa",
                                 "banco mundial", "crecimiento", "comercio", "previsional", "jubilatori", "cotiza", "euro ", "tasas", "ahorr", "invertir", "invierto", "finanzas", "financier", "mercados",
                                 "anses", "jubilad", "auh", "haberes", "retro suplemento", "moratoria", "empresas", "pension", "bono previsional",
                                 "jubilaci", "inversion", "retenciones", "aranceles", "caputo", "bcra", "banco central", "plazo fijo",
                                 "riesgo pais", "bolsa", "bonos", "reservas", "consumo", "precios", "canasta", "alquiler",
                                 "credito", "tasa de interes", "afip ", "arca ", "indec ", "pbi ", "superavit", "deficit"]),
-    ("Sociedad y género", 1, ["vivienda", "virgen", "devocion", "procesion", "novena", "personas mayores", "potenciar trabajo", "planes sociales", "el papa", "papa leon", "papa francisco", "leon xiv", "visita del papa", "peregrin", "aborto", "activista", "desalojo", "vejez", "demograf", "genero", "mujer", "discapacidad", "adultos mayores", "ninez", "infancia", "adolescente", "familia", "comunidad",
-                              "pueblos originarios", "indigena", "vecinos", "barrio", "solidari", "ong ", "iglesia", "obispo", "derechos humanos",
+    ("Sociedad y género", 1, ["iglesia ", "vivienda", "virgen", "devocion", "procesion", "novena", "personas mayores", "potenciar trabajo", "planes sociales", "el papa", "papa leon", "papa francisco", "leon xiv", "visita del papa", "peregrin", "aborto", "activista", "desalojo", "vejez", "demograf", "genero", "mujer", "discapacidad", "adultos mayores", "ninez", "infancia", "adolescente", "familia", "comunidad",
+                              "pueblos originarios", "indigena", "vecinos", "barrio", "solidari", "ong ", "iglesia ", "obispo", "derechos humanos",
                               "migrante", "pobreza", "comedor", "alimentos", "adopcion", "diversidad", "lgbt", "comunitari"]),
     ("Internacional", 1, ["israel", "hamas", "gaza", "estados unidos", "eeuu", "trump", "guerra", "ucrania", "rusia", "china", "europa", "brasil",
                           "chile", "bolivia", "paraguay", "uruguay", "venezuela", "mexico", "onu", "otan", "union europea", "maduro", "putin",
@@ -264,7 +264,8 @@ EXTRANJERO = [
     "turqu", "grecia", "griego", "hungr", "rumania", "montenegro", "serbia", "croacia", "andorra", "israel", "palestin", "gaza",
     "cisjordania", "libano", "siria", "irak", "teheran", "arabia", "emiratos", "qatar", "egipt", "sudafrica", "nigeria", "kenia",
     "marruec", "argelia", "libia", "etiopia", "china", "chino ", "chinos", "japon", "corea", "india ", "pakistan", "afganistan",
-    "tailandia", "vietnam", "filipinas", "indonesia", "taiwan", "hong kong", "australia", "nueva zelanda", "birmania", "nepal", "bangladesh",
+    "tailandia", "vietnam", "filipinas", "indonesia", "taiwan", "hong kong", "australia", "nueva zelanda", "birmania", "ormuz", "hormuz", "ayatola", "jamenei", "tennessee", "ohio", "arizona", "nevada", "luisiana", "alabama", "oklahoma", "kentucky", "michigan", "illinois", "nueva jersey",
+    "massachusetts", "nepal", "bangladesh",
     "sri lanka", "myanmar", "mongolia", "camboya", "malasia", "yemen", "jordania", "sudan", "somalia", "cartagena",
     "vox ", "abinader", "delcy rodriguez", "alcalde", "alcaldesa", "congresista", "millones de soles", "jep ", "onp ",
     # regiones, ciudades y organismos
@@ -403,7 +404,7 @@ SUBTEMAS = {
                             ("Jubilaciones y crédito", ["jubilaci", "credito", "tasa de interes"])],
     "Sociedad y género": [("Género y diversidad", ["genero", "mujer", "diversidad", "lgbt"]), ("Niñez y familia", ["ninez", "infancia", "adolescente", "familia", "adopcion"]),
                           ("Pobreza y asistencia", ["pobreza", "comedor", "alimentos", "asistencia"]), ("Discapacidad y adultos mayores", ["discapacidad", "adultos mayores", "jubilad"]),
-                          ("Comunidades y vecinos", ["pueblos originarios", "indigena", "comunitari", "vecinos", "barrio", "solidari"]), ("Iglesia y derechos humanos", ["el papa", "papa leon", "leon xiv", "peregrin", "iglesia", "obispo", "derechos humanos", "migrante", "ong "])],
+                          ("Comunidades y vecinos", ["pueblos originarios", "indigena", "comunitari", "vecinos", "barrio", "solidari"]), ("Iglesia y derechos humanos", ["el papa", "papa leon", "leon xiv", "peregrin", "iglesia ", "obispo", "derechos humanos", "migrante", "ong "])],
     "Internacional": [("Estados Unidos", ["estados unidos", "eeuu", "trump"]), ("Medio Oriente", ["israel", "hamas", "gaza", "iran"]), ("Rusia y Ucrania", ["rusia", "ucrania", "putin", "zelenski"]),
                       ("América Latina", ["brasil", "chile", "bolivia", "paraguay", "uruguay", "venezuela", "mexico", "ecuador", "colombia", "peru ", "cuba", "lula", "bolsonaro", "maduro", "mercosur"]),
                       ("Europa y Asia", ["europa", "china", "espana", "francia", "italia", "reino unido", "japon", "union europea"]), ("Vaticano", ["papa ", "vaticano"])],
@@ -486,10 +487,18 @@ def medio_canonico(source):
 
 def limpiar_titulo(titulo, medio):
     t = str(titulo or "").strip()
+    # «Título - El Economista - Últimas noticias económicas de…»: se corta desde el nombre del medio en adelante
+    partes = t.split(" - ")
+    fm = fold(medio)
+    for k in range(1, len(partes)):
+        fk = fold(partes[k]).strip()
+        if len(fk) >= 4 and len(fk) <= 40 and fm and (fk in fm or fm in fk):
+            t = " - ".join(partes[:k]).strip()
+            break
     if " - " in t:
         cola = t.rsplit(" - ", 1)[1].strip()
         fc, fm = fold(cola), fold(medio)
-        if len(cola) <= 35 and (fc in fm or fm in fc or re.search(r"\.(com|ar|net)\b", fc) or fc.split(" ")[0] in fm):
+        if len(cola) <= 35 and (fc in fm or fm in fc or re.search(r"\.(com|ar|net)\b", fc) or (len(fc.split(" ")[0]) >= 4 and fc.split(" ")[0] in fm)):
             t = t.rsplit(" - ", 1)[0].strip()
     return t
 

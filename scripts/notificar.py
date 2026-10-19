@@ -213,6 +213,7 @@ TG_MADRUGADA = 5      # historias en «Desde la medianoche» (solo edición de l
 TG_X_AREA = 3         # historias por área (en las áreas más movidas)
 TG_AREAS_GRANDES = 6  # cuántas áreas muestran TG_X_AREA historias; el resto muestra 1
 TG_MAX_AREAS = 14     # no se muestran más áreas que estas (se omite «Otros temas»)
+ATRASO_AVISO_H = 3    # si el resumen tiene más horas de atraso, el mensaje lo avisa
 TG_TIT = 400          # largo máximo de cada titular: en la práctica, el titular completo (nunca «…»)
 LINEA = "━━━━━━━━━━━━━━"
 DIAS_CORTOS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
@@ -226,7 +227,8 @@ def plano(x):
 
 # ---- qué NO se manda: relleno y gacetillas de prensa del gobierno provincial / municipal ----
 RELLENO = re.compile(r"(quiniela|loteria|numeros ganadores|resultados? del (quini|loto|brinco)|horoscopo|efemerides|un dia como hoy|"
-                     r"temas del dia|segui en vivo|sigue en vivo|minuto a minuto|donde ver|a que hora juega|ver online|frase del dia|santoral)")
+                     r"temas del dia|segui en vivo|sigue en vivo|minuto a minuto|donde ver|a que hora juega|ver online|frase del dia|santoral|"
+                     r"contenido no encontrado|^ultimas noticias|^noticias de |clasificados|empleos y servicios)")
 ACTOR_PROV = re.compile(r"(gobierno de salta|gobierno provincial|gobernador|saenz|municipalidad|intendente|ministerio de|ministro de|ministra de|"
                         r"secretaria de|secretario de|subsecretari|concejo deliberante|municipio)")
 VERBO_PRENSA = re.compile(r"(inauguro|entrego|entregaron|firmo|firmaron|encabezo|recorrio|visito|participo|brindo|acompano|superviso|puso en marcha|"
@@ -257,7 +259,7 @@ FIN_FUERTE = re.compile(r"(dolar|\bbonos?\b|riesgo pais|reservas|bcra|banco cent
                         r"swap|cepo|brecha|retenciones|aranceles|superavit|deficit|recaudacion|\barca\b|afip|jubilaciones|aguinaldo|salarios?|paritari|"
                         r"presupuesto|emision|prestamos?|creditos?|hipotecari|bolsa|wall street|petroleo|brent|\bfed\b|tarifas|inversion|rigi|"
                         r"exportaciones|importaciones|\bpbi\b|actividad economica|desempleo|pobreza|canasta|morosidad|plata)")
-FIN_MERCADOS = re.compile(r"(wall street|bolsa|petroleo|brent|\bfed\b|dolar|bonos|tasas? de interes|riesgo pais|swap|mercados?)")
+FIN_MERCADOS = re.compile(r"(wall street|bolsa|brent|precio del petroleo|\bfed\b|dolar|bonos|tasas? de interes|riesgo pais|swap|mercados?)")
 
 
 def n_fin(h):
@@ -337,11 +339,20 @@ def _pie(h, n_max=3):
     return " · ".join(x for x in (quien, _hhmm(hh) if hh is not None else "") if x)
 
 
-def _titular_html(h, marca=True, pie=True, n_max=3):
+NUMEROS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+
+
+def _num(i):
+    return NUMEROS[i - 1] if 1 <= i <= len(NUMEROS) else f"{i}."
+
+
+def _titular_html(h, marca=True, pie=True, n_max=3, destacar=False):
     """Titular COMPLETO con enlace a la nota, y debajo los medios y la hora. 📍 = pasó en Salta; 🔁 = sigue de ayer."""
     t = limpiar(h.get("titulo"), TG_TIT)
     u = _link(h)
     base = f'<a href="{_html.escape(u, quote=True)}">{_e(t)}</a>' if u else _e(t)
+    if destacar:
+        base = f"<b>{base}</b>"          # la historia más importante del mensaje se lee primero
     if marca and es_salta(h):
         base = "📍 " + base
     if h.get("sigue_de_ayer"):
@@ -350,7 +361,16 @@ def _titular_html(h, marca=True, pie=True, n_max=3):
     return base + (f"\n    <i>{_e(p)}</i>" if p else "")
 
 
-def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
+def atraso_horas(doc):
+    """Horas desde que se generó el resumen (None si no se sabe). Sirve para avisar si el monitor dejó de actualizar."""
+    try:
+        g = datetime.fromisoformat(str((doc or {}).get("generado")))
+        return max(0.0, (datetime.now(AR) - g).total_seconds() / 3600)
+    except (TypeError, ValueError):
+        return None
+
+
+def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=(), atraso=None):
     """Mensaje de Telegram. Devuelve (título, texto, historias_de_hoy_mostradas).
     Orden: lo más importante → economía y finanzas → en Salta → por área. Los titulares van completos y se manda MÁS
     de un mensaje si hace falta (nunca se corta un titular). Cada ítem es un bloque («título» + línea de medios y hora).
@@ -395,6 +415,8 @@ def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
     cuenta = f"📊 <b>{len(base)}</b> historias" + (" nuevas" if ed["desde"] is not None else "") \
         + (f" de {notas} notas" if (notas and ed["desde"] is None) else "") + f" · 📍 {n_salta} en Salta"
     out = [titulo, cuenta]
+    if atraso is not None and atraso > ATRASO_AVISO_H:
+        out.append(f"⚠️ <i>Los datos tienen {atraso:.0f} h de atraso: puede que el monitor esté fallando (GitHub → Actions → Monitor de medios).</i>")
     if dia.get("cobertura_baja") and ed["desde"] is None:
         out.append("⚠️ <i>Se recolectaron pocas notas: el resumen puede estar incompleto.</i>")
 
@@ -426,7 +448,7 @@ def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
             tomar(h)
     out.extend(["", LINEA, "⚡ <b>LO MÁS IMPORTANTE</b>"])
     for i, h in enumerate(top, 1):
-        out.append(f"{i}. {EMOJI_AREA.get(h.get('tema'), '📌')} " + _titular_html(h, marca=True))
+        out.append(f"{_num(i)} {EMOJI_AREA.get(h.get('tema'), '📌')} " + _titular_html(h, marca=True, destacar=(i == 1)))
     if not top:
         out.append("Sin historias nuevas." if ed["desde"] is not None else "Sin historias.")
 
@@ -442,7 +464,7 @@ def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
     if eco:
         out.extend(["", LINEA, "💰 <b>ECONOMÍA Y FINANZAS</b>"])
         for i, h in enumerate(eco, 1):
-            out.append(f"{i}. " + _titular_html(h))
+            out.append(f"{_num(i)} " + _titular_html(h, destacar=(i == 1)))
 
     # 3) en Salta, de cualquier área
     salta = []
@@ -473,16 +495,16 @@ def armar_html(dia, fecha, edicion="manana", hoy=None, enviados=()):
                 elegidas.append(h)
                 tomar(h)
         if elegidas:
-            bloques.append(["", f"{EMOJI_AREA.get(a, '📌')} <b>{_e(a)}</b> ({len(por[a])})"] +
-                           ["• " + _titular_html(h, pie=True, n_max=2) for h in elegidas])
+            items = ["• " + _titular_html(h, pie=True, n_max=2) for h in elegidas]
+            items[0] = "<blockquote expandable>" + items[0]          # la cita plegable agrupa las notas del área
+            items[-1] += "</blockquote>"
+            bloques.append(["", f"{EMOJI_AREA.get(a, '📌')} <b>{_e(a)}</b> ({len(por[a])})"] + items)
     if bloques:
         out.extend(["", LINEA, "🗂️ <b>POR ÁREA</b>"])
         for b_ in bloques:
             out.extend(b_)
 
-    out.extend(["", LINEA,
-                f'🔎 <a href="{SITIO}#/diario">Todo el detalle</a> · ⚖️ <a href="{SITIO}#/judicial">Justicia</a> · 🗺️ <a href="{SITIO}#/mapas">Mapas</a>',
-                "<i>Estimación por titulares, sin IA. 📍 = en Salta · 🔁 = sigue de ayer.</i>"])
+    out.extend(["", LINEA, "<i>Estimación por titulares, sin IA · 📍 en Salta · 🔁 sigue de ayer · tocá un área para ver sus notas.</i>"])
     de_hoy = [h for h in mostradas if (edicion != "manana") or h in madrugada]
     return titulo, "\n".join(out), de_hoy
 
@@ -595,6 +617,10 @@ def canales_configurados():
             raise ErrorEnvio("TELEGRAM_BOT_TOKEN no tiene la forma de un token de bot (123456789:ABC...).")
         base_t = url_valida(api, "TELEGRAM_API_URL")
 
+        teclado = {"inline_keyboard": [
+            [{"text": "🔎 Panel completo", "url": SITIO + "#/diario"}, {"text": "⚖️ Justicia", "url": SITIO + "#/judicial"}],
+            [{"text": "🗺️ Mapas", "url": SITIO + "#/mapas"}, {"text": "📈 Radar de temas", "url": SITIO + "#/temas"}]]}
+
         def enviar_telegram(titulo, partes):
             for i, parte in enumerate(partes, 1):
                 if i > 1:
@@ -602,6 +628,8 @@ def canales_configurados():
                 cab = "" if len(partes) == 1 else f"<i>({i}/{len(partes)})</i>\n"
                 cuerpo = {"chat_id": chat, "text": cab + parte, "parse_mode": "HTML",
                           "disable_web_page_preview": True}
+                if i == len(partes):
+                    cuerpo["reply_markup"] = teclado          # los botones van solo en el último mensaje
                 try:
                     post_json(f"{base_t}/bot{bot}/sendMessage", cuerpo, {}, secretos)
                 except ErrorEnvio as e:
@@ -656,7 +684,8 @@ def main():
 
     titulo, texto = armar_texto(dia, fecha)
     titulo = titulo.replace("Resumen de ayer", ed["titulo"].split(" · ", 1)[-1] if edicion != "manana" else "Resumen de ayer")
-    titulo_tg, texto_tg, de_hoy = armar_html(dia, fecha, edicion, hoy, ya_enviados)
+    atraso = None if a.fecha else atraso_horas(hoy if (edicion == "manana" and hoy) else dia)
+    titulo_tg, texto_tg, de_hoy = armar_html(dia, fecha, edicion, hoy, ya_enviados, atraso)
     if a.simular:
         print(f"[edición: {edicion} · {ed['hora']}]")
         print(titulo + "\n" + "-" * len(titulo) + "\n" + texto)
