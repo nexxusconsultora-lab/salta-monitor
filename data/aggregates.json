@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-10-19T07:16:31.693328+00:00",
+  "generated_at": "2026-10-19T14:48:23.441049+00:00",
   "by_politician": {
+    "eje-ana-paula-benavides": {
+      "total": 14,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 14,
+      "score_sum": 0
+    },
+    "dip-gustavo-bernardo-dantur": {
+      "total": 8,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 8,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 296,
+      "positivo": 69,
+      "negativo": 46,
+      "neutral": 181,
+      "score_sum": 123
+    },
+    "dnac-bernardo-biella": {
+      "total": 26,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 16,
+      "score_sum": 1
+    },
+    "eje-ignacio-jarsun": {
+      "total": 28,
+      "positivo": 3,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": 3
+    },
     "dnac-carlos-raul-zapata": {
       "total": 30,
       "positivo": 1,
       "negativo": 5,
       "neutral": 24,
       "score_sum": -8
-    },
-    "gustavo-saenz": {
-      "total": 294,
-      "positivo": 68,
-      "negativo": 46,
-      "neutral": 180,
-      "score_sum": 122
     },
     "eje-roberto-dib-ashur": {
       "total": 47,
@@ -28,13 +56,6 @@
       "negativo": 1,
       "neutral": 10,
       "score_sum": 1
-    },
-    "eje-ignacio-jarsun": {
-      "total": 27,
-      "positivo": 2,
-      "negativo": 4,
-      "neutral": 21,
-      "score_sum": 0
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 28,
@@ -183,13 +204,6 @@
       "neutral": 12,
       "score_sum": -4
     },
-    "eje-ana-paula-benavides": {
-      "total": 13,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 13,
-      "score_sum": 0
-    },
     "dip-griselda-edith-galleguillos": {
       "total": 19,
       "positivo": 1,
@@ -238,13 +252,6 @@
       "negativo": 1,
       "neutral": 5,
       "score_sum": 4
-    },
-    "dnac-bernardo-biella": {
-      "total": 25,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 16,
-      "score_sum": 5
     },
     "dip-rodrigo-javier-garcia": {
       "total": 3,
@@ -364,13 +371,6 @@
       "negativo": 6,
       "neutral": 43,
       "score_sum": 1
-    },
-    "dip-gustavo-bernardo-dantur": {
-      "total": 7,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 7,
-      "score_sum": 0
     },
     "dip-sergio-mauricio-lopez": {
       "total": 13,
@@ -927,18 +927,42 @@
     }
   },
   "by_day": {
+    "2024-12-03": {
+      "eje-ana-paula-benavides": {
+        "total": 3,
+        "score_sum": 0
+      }
+    },
+    "2024-03-28": {
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-10-19": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 1
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
     "2025-12-23": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
         "score_sum": 0
       },
       "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-19": {
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
@@ -2422,12 +2446,6 @@
       },
       "sen-sergio-saldano": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-12-03": {
-      "eje-ana-paula-benavides": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -6071,12 +6089,6 @@
       "sen-carlos-lopez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2024-03-28": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-03-26": {
@@ -16005,22 +16017,14 @@
     },
     {
       "term": "elintra",
-      "count": 21
+      "count": 17
     },
     {
       "term": "gustavo",
-      "count": 13
+      "count": 14
     },
     {
       "term": "pasa",
-      "count": 7
-    },
-    {
-      "term": "carlos",
-      "count": 6
-    },
-    {
-      "term": "informate",
       "count": 6
     },
     {
@@ -16028,36 +16032,44 @@
       "count": 6
     },
     {
-      "term": "belgrano",
-      "count": 6
-    },
-    {
-      "term": "cargas",
-      "count": 6
-    },
-    {
       "term": "turismo",
       "count": 6
     },
     {
-      "term": "flavia",
-      "count": 6
+      "term": "jarsún",
+      "count": 5
     },
     {
-      "term": "royón",
-      "count": 6
+      "term": "cristina",
+      "count": 5
+    },
+    {
+      "term": "fiore",
+      "count": 5
+    },
+    {
+      "term": "lanzó",
+      "count": 5
+    },
+    {
+      "term": "impulso",
+      "count": 5
+    },
+    {
+      "term": "programa",
+      "count": 5
     },
     {
       "term": "antes",
-      "count": 6
-    },
-    {
-      "term": "ashur",
       "count": 5
     },
     {
-      "term": "jarsún",
+      "term": "temporada",
       "count": 5
+    },
+    {
+      "term": "tribuno",
+      "count": 4
     }
   ],
   "comentions": [
