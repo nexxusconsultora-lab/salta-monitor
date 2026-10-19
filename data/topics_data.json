@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-19T02:24:23.474064+00:00",
+  "generated_at": "2026-10-19T07:16:32.649956+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 376,
+      "total_mentions": 377,
       "sentiment_breakdown": {
         "positivo": 22,
         "negativo": 30,
-        "neutral": 324
+        "neutral": 325
       },
       "sentiment_by_day": {
+        "2026-09-26": {
+          "total": 6,
+          "score_sum": 0
+        },
         "2026-09-15": {
           "total": 6,
           "score_sum": 6
@@ -116,10 +120,6 @@
           "total": 6,
           "score_sum": 0
         },
-        "2026-09-26": {
-          "total": 5,
-          "score_sum": 0
-        },
         "2024-12-19": {
           "total": 1,
           "score_sum": 0
@@ -188,7 +188,7 @@
         },
         {
           "term": "presupuesto",
-          "count": 111
+          "count": 112
         },
         {
           "term": "intransigente",
@@ -204,11 +204,11 @@
         },
         {
           "term": "pasa",
-          "count": 34
+          "count": 35
         },
         {
           "term": "milei",
-          "count": 24
+          "count": 25
         },
         {
           "term": "elintra",
@@ -314,6 +314,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "El 28% de los salteños pide a Milei que los jubilados sean prioridad en el Presupuesto 2027 - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYUYyREFyZVBmS1loeDlFTUtEUVZwblpvNHdaR3JEamlybVpUemc5cnVWUFVWV1UtcTdPaHh1a1FJNTNtdFQxd1JvY2FBaTljazJTYV9VU0pHMUtOalpkMWtRaXlpUFA1YzZkTldnSzhZN3VsemItQzZwMVZ0ek9Vc29DcXQxN1NtQnF0XzJhV3FudkdvLTI2MHVnS2rSAZwBQVVfeXFMTWFGMkRBcmVQZktZaHg5RU1LRFFWcG5abzR3WkdyRGppcm1aVHpnOXJ1VlBVVldVLXE3T2h4dWtRSTUzbXRUMXdSb2NhQWk5Y2syU2FfVVNKRzFLTmpaZDFrUWl5aVBQNWM2ZE5XZ0s4WTd1bHpiLUM2cDFWdHpPVXNvQ3F0MTdTbUJxdF8yYVdxbnZHby0yNjB1Z0tq?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Sat, 26 Sep 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Gobierno proyecta una inflación del 18%, un dólar a $1.847 y un crecimiento del 4% del PBI - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHZLUlRqV3J4bHM1QnBLRUxfMnBEb1hNRnYxSjlVMHRoOWF1Mk1SamxKSnFxRThUWVBEYXp6VkxjN2lUVUlxREUwWU9rd09jQ0tYMXBfT1h4SzVaSmhOalRtUXAwSUIwbzJvNmh1anRZWUtROHpJNGc1X2hYODJIMm95UjItSWdFZGltRWl4ZGRkcENqZ2hON1dvdnRLaG5DLW1MTUl5VndDNUJQcjJ6cGV1N0tQRVFhd254YWtmT3VSeHBwNXJBTVk2VDLSAcwBQVVfeXFMTzh2S1JUaldyeGxzNUJwS0VMXzJwRG9YTUZ2MUo5VTB0aDlhdTJNUmpsSkpxcUU4VFlQRGF6elZMYzdpVFVJcURFMFlPa3dPY0NLWDFwX09YeEs1WkpoTmpUbVFwMElCMG8ybzZodWp0WVlLUTh6STRnNV9oWDgySDJveVIyLUlnRWRpbUVpeGRkZHBDamdoTjdXb3Z0S2huQy1tTE1JeVZ3QzVCUHIyenBldTdLUEVRYXdueGFrZk91UnhwcDVyQU1ZNlQy?oc=5",
@@ -515,13 +522,6 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTTY1N2hENFB0d2JERFhsamxybnp5c0JrNzhXZkdzNmhPNEpVM1dENTJNbkJ0TEV1bDkwUGZNYmViOFNMMTRRaUJuWlRxeE1NWHlhVzh4YkdsbjhrSmdiQTVkYzNEcWxVWlFwSU5uRFU3dWdEeGRHZUVrRFJLbEwwUWt3Y2czNFRWU00wbW1ZUG9tdjRIZVZjVWZyQVhqWWs4RDdueF930gGrAUFVX3lxTE0xQUEtTUQ2R19MWGliRHUwR1pCaUJPQUJxMjRtdUNVNy1QNXpNelJvMUJNR0NDa3N4ZEJ1Y000aElUempjRms3RDVoYllFVkRHOU9KVUh6NVItUXdlWndNa1hueVZTU2pCaEFabjlHdmkyek9pOXlCcVFzdjR4SmxQYjBoQ0RzcVhHRHloSk9zYXBRTldSQmtUVzdGQVhQOXpvaVliaEM2Mk9EZw?oc=5",
           "source": "El Tribuno",
           "date": "Tue, 13 Oct 2026 04:31:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Adrián Ravier ratificó la postura argentina contra la explotación de hidrocarburos en Malvinas - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWURlcHBlTDFLTWhicFZnbVM4VTRxN0ZzcEtwVVF3VEJfdnVRa1NOSmktdVJ2QVVHSExBaExHdEROLXZ1SGJXOXlXczdFWklNV0pVTkI5SlVmY0FtNkU5bDA1X0loMmNJYm1lYkJYNHZWLTNYMDV2dWRiNGVuUks2emZWei1saDZwV3RiQWM3NEk4UHo3ZVVjRFFUX2dDSEt5N0lTSk51MDF0SmVnd0U1SktiVFlHU0c0ZndIU3FQQ0E0ZUxLS0RKeU5mdFhLaXJPbFpWM3JvX1V3T3Uzc2FrWFByNmI?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 13 Oct 2026 20:28:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

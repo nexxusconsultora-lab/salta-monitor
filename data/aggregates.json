@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-19T02:24:22.432540+00:00",
+  "generated_at": "2026-10-19T07:16:31.693328+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 30,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 24,
+      "score_sum": -8
+    },
+    "gustavo-saenz": {
+      "total": 294,
+      "positivo": 68,
+      "negativo": 46,
+      "neutral": 180,
+      "score_sum": 122
+    },
     "eje-roberto-dib-ashur": {
       "total": 47,
       "positivo": 6,
       "negativo": 2,
       "neutral": 39,
       "score_sum": 34
-    },
-    "gustavo-saenz": {
-      "total": 293,
-      "positivo": 68,
-      "negativo": 46,
-      "neutral": 179,
-      "score_sum": 122
     },
     "dip-eduardo-jose-virgili": {
       "total": 13,
@@ -161,13 +168,6 @@
       "negativo": 10,
       "neutral": 17,
       "score_sum": -24
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 29,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 23,
-      "score_sum": -8
     },
     "dip-omar-exeni-arminana": {
       "total": 38,
@@ -927,6 +927,22 @@
     }
   },
   "by_day": {
+    "2025-12-23": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-19": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2022-12-07": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -8060,12 +8076,6 @@
       }
     },
     "2024-11-28": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-12-23": {
       "snac-emilia-orozco": {
         "total": 1,
         "score_sum": 0
@@ -15999,11 +16009,19 @@
     },
     {
       "term": "gustavo",
-      "count": 12
+      "count": 13
     },
     {
       "term": "pasa",
       "count": 7
+    },
+    {
+      "term": "carlos",
+      "count": 6
+    },
+    {
+      "term": "informate",
+      "count": 6
     },
     {
       "term": "potenciar",
@@ -16039,14 +16057,6 @@
     },
     {
       "term": "jarsún",
-      "count": 5
-    },
-    {
-      "term": "informate",
-      "count": 5
-    },
-    {
-      "term": "cristina",
       "count": 5
     }
   ],
