@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-18T23:47:24.857838+00:00",
+  "generated_at": "2026-10-19T01:54:18.010264+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 293,
+      "positivo": 68,
+      "negativo": 46,
+      "neutral": 179,
+      "score_sum": 122
+    },
     "dip-eduardo-jose-virgili": {
       "total": 13,
       "positivo": 2,
@@ -14,13 +21,6 @@
       "negativo": 4,
       "neutral": 21,
       "score_sum": 0
-    },
-    "gustavo-saenz": {
-      "total": 292,
-      "positivo": 68,
-      "negativo": 46,
-      "neutral": 178,
-      "score_sum": 122
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 28,
@@ -927,6 +927,20 @@
     }
   },
   "by_day": {
+    "2026-10-18": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2025-05-04": {
       "dip-eduardo-jose-virgili": {
         "total": 1,
@@ -991,20 +1005,6 @@
       "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-18": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2024-05-09": {
@@ -15984,16 +15984,20 @@
   ],
   "trending_terms": [
     {
-      "term": "elintra",
-      "count": 21
-    },
-    {
       "term": "sáenz",
       "count": 21
     },
     {
+      "term": "elintra",
+      "count": 21
+    },
+    {
       "term": "gustavo",
-      "count": 13
+      "count": 12
+    },
+    {
+      "term": "pasa",
+      "count": 7
     },
     {
       "term": "potenciar",
@@ -16005,10 +16009,6 @@
     },
     {
       "term": "cargas",
-      "count": 6
-    },
-    {
-      "term": "pasa",
       "count": 6
     },
     {
