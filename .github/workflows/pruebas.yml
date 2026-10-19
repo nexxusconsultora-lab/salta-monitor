@@ -1,0 +1,44 @@
+name: Pruebas
+
+# Corre solo cuando alguien cambia el clasificador, los avisos, el bot o las propias pruebas.
+# Si queda en ROJO, el cambio rompió algo que andaba bien: abrí la corrida y mirá qué prueba falló
+# (dice el titular o la pregunta exacta). Los datos que carga el monitor no disparan esta corrida.
+on:
+  push:
+    paths:
+      - "scripts/**"
+      - "cloudflare-worker/**"
+      - "tests/**"
+      - "assets/**"
+      - "index.html"
+      - ".github/workflows/pruebas.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "cloudflare-worker/**"
+      - "tests/**"
+      - "assets/**"
+      - "index.html"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Pruebas del clasificador y de los avisos
+        run: python -m unittest discover -s tests -v
+
+      - name: Pruebas del bot de Telegram (usa el Node que ya trae GitHub)
+        run: node --version && node --test tests/test_bot.test.mjs
