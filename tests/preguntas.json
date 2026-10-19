@@ -1,0 +1,433 @@
+[
+[
+"qué pasó hoy",
+{
+"cmd": "ver",
+"dia": "hoy"
+}
+],
+[
+"¿Qué pasa?",
+{
+"cmd": "ver"
+}
+],
+[
+"lo último",
+{
+"cmd": "ver",
+"orden": "hora"
+}
+],
+[
+"últimas noticias",
+{
+"cmd": "ver",
+"orden": "hora"
+}
+],
+[
+"qué pasó ayer",
+{
+"cmd": "ver",
+"dia": "ayer"
+}
+],
+[
+"novedades de la tarde",
+{
+"cmd": "ver",
+"franja": "tarde"
+}
+],
+[
+"qué pasó esta mañana",
+{
+"cmd": "ver",
+"franja": "manana"
+}
+],
+[
+"anoche",
+{
+"cmd": "ver",
+"dia": "ayer",
+"franja": "noche"
+}
+],
+[
+"novedades de la tarde en Salta",
+{
+"cmd": "ver",
+"franja": "tarde",
+"salta": true
+}
+],
+[
+"economía",
+{
+"cmd": "ver",
+"finanzas": true
+}
+],
+[
+"economía en Salta",
+{
+"cmd": "ver",
+"finanzas": true,
+"salta": true
+}
+],
+[
+"noticias de salud",
+{
+"cmd": "ver",
+"area": "Salud"
+}
+],
+[
+"policiales en Salta",
+{
+"cmd": "ver",
+"area": "Policiales y seguridad",
+"salta": true
+}
+],
+[
+"política ayer",
+{
+"cmd": "ver",
+"area": "Política y gobierno",
+"dia": "ayer"
+}
+],
+[
+"qué dice Infobae",
+{
+"cmd": "libre",
+"arg": "Infobae",
+"medioPosible": true
+}
+],
+[
+"qué publicó El Tribuno",
+{
+"cmd": "libre",
+"arg": "Tribuno",
+"medioPosible": true
+}
+],
+[
+"según Clarín",
+{
+"cmd": "libre",
+"arg": "Clarín",
+"medioPosible": true
+}
+],
+[
+"dólar",
+{
+"cmd": "libre",
+"arg": "dólar"
+}
+],
+[
+"paro docente en Salta",
+{
+"cmd": "libre",
+"arg": "paro docente",
+"salta": true
+}
+],
+[
+"jubilados ayer",
+{
+"cmd": "libre",
+"arg": "jubilados",
+"dia": "ayer"
+}
+],
+[
+"quién es Sáenz",
+{
+"cmd": "quien",
+"arg": "Sáenz"
+}
+],
+[
+"quién es el gobernador de Salta",
+{
+"cmd": "quien",
+"arg": "el gobernador Salta"
+}
+],
+[
+"qué se dice de Cornejo",
+{
+"cmd": "libre",
+"arg": "Cornejo"
+}
+],
+[
+"quiénes están en las noticias",
+{
+"cmd": "personas"
+}
+],
+[
+"personajes",
+{
+"cmd": "personas"
+}
+],
+[
+"de qué se habla hoy",
+{
+"cmd": "temas"
+}
+],
+[
+"tendencias",
+{
+"cmd": "temas"
+}
+],
+[
+"quién cubrió el paro de ATE",
+{
+"cmd": "cobertura",
+"arg": "paro de ATE"
+}
+],
+[
+"qué medios hablaron del dólar",
+{
+"cmd": "cobertura",
+"arg": "dólar"
+}
+],
+[
+"cómo salió Boca",
+{
+"cmd": "deporte",
+"arg": "Boca"
+}
+],
+[
+"resultado de River",
+{
+"cmd": "deporte",
+"arg": "River"
+}
+],
+[
+"quién ganó el clásico",
+{
+"cmd": "deporte",
+"arg": "clásico"
+}
+],
+[
+"hola",
+{
+"cmd": "ayuda"
+}
+],
+[
+"gracias",
+{
+"cmd": "social"
+}
+],
+[
+"qué podés hacer",
+{
+"cmd": "ayuda"
+}
+],
+[
+"ejemplos",
+{
+"cmd": "ejemplos"
+}
+],
+[
+"qué pasó el 10 de octubre",
+{
+"cmd": "fecha_vieja"
+}
+],
+[
+"noticias de la semana pasada",
+{
+"cmd": "fecha_vieja"
+}
+],
+[
+"/hoy",
+{
+"cmd": "ver",
+"blando": true
+}
+],
+[
+"/economia",
+{
+"cmd": "ver",
+"finanzas": true
+}
+],
+[
+"/salud",
+{
+"cmd": "ver",
+"area": "Salud"
+}
+],
+[
+"/politica salta",
+{
+"cmd": "ver",
+"area": "Política y gobierno",
+"salta": true
+}
+],
+[
+"/ver plata salta ayer tarde +8",
+{
+"cmd": "ver",
+"finanzas": true,
+"salta": true,
+"dia": "ayer",
+"franja": "tarde",
+"offset": 8
+}
+],
+[
+"/buscar dólar +8",
+{
+"cmd": "buscar",
+"arg": "dólar",
+"offset": 8
+}
+],
+[
+"/persona gustavo-saenz",
+{
+"cmd": "persona",
+"arg": "gustavo-saenz"
+}
+],
+[
+"/ultimas",
+{
+"cmd": "ver",
+"orden": "hora"
+}
+],
+[
+"/estado",
+{
+"cmd": "estado"
+}
+],
+[
+"/personas",
+{
+"cmd": "personas"
+}
+],
+[
+"/temas",
+{
+"cmd": "temas"
+}
+],
+[
+"clima en Salta",
+{
+"cmd": "ver",
+"area": "Clima y ambiente",
+"salta": true
+}
+],
+[
+"qué hay de deportes",
+{
+"cmd": "ver",
+"area": "Deportes"
+}
+],
+[
+"seguridad hoy",
+{
+"cmd": "ver",
+"area": "Policiales y seguridad",
+"dia": "hoy"
+}
+],
+[
+"contame de Milei",
+{
+"cmd": "libre",
+"arg": "Milei"
+}
+],
+[
+"busca paro de transporte",
+{
+"cmd": "libre",
+"arg": "paro de transporte"
+}
+],
+[
+"noticias de Salta",
+{
+"cmd": "ver",
+"salta": true
+}
+],
+[
+"qué pasa con el dólar",
+{
+"cmd": "libre",
+"arg": "el dólar"
+}
+],
+[
+"info sobre jubilaciones",
+{
+"cmd": "libre",
+"arg": "jubilaciones"
+}
+],
+[
+"novedades",
+{
+"cmd": "ver"
+}
+],
+[
+"titulares de ayer",
+{
+"cmd": "ver",
+"dia": "ayer"
+}
+],
+[
+"ahora",
+{
+"cmd": "ver",
+"orden": "hora"
+}
+],
+[
+"qué dice el gobierno",
+{
+"cmd": "libre",
+"arg": "gobierno",
+"medioPosible": true
+}
+]
+]
