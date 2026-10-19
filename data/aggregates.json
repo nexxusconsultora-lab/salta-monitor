@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-19T02:20:20.732809+00:00",
+  "generated_at": "2026-10-19T02:24:22.432540+00:00",
   "by_politician": {
+    "eje-roberto-dib-ashur": {
+      "total": 47,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 39,
+      "score_sum": 34
+    },
     "gustavo-saenz": {
       "total": 293,
       "positivo": 68,
@@ -84,13 +91,6 @@
       "negativo": 4,
       "neutral": 18,
       "score_sum": -7
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 46,
-      "positivo": 6,
-      "negativo": 2,
-      "neutral": 38,
-      "score_sum": 34
     },
     "eje-sergio-camacho": {
       "total": 17,
@@ -927,6 +927,12 @@
     }
   },
   "by_day": {
+    "2022-12-07": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-18": {
       "gustavo-saenz": {
         "total": 3,
@@ -16028,6 +16034,10 @@
       "count": 6
     },
     {
+      "term": "ashur",
+      "count": 5
+    },
+    {
       "term": "jarsún",
       "count": 5
     },
@@ -16037,10 +16047,6 @@
     },
     {
       "term": "cristina",
-      "count": 5
-    },
-    {
-      "term": "fiore",
       "count": 5
     }
   ],
