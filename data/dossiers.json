@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 305,
+    "total_mentions": 306,
     "sentiment_breakdown": {
       "positivo": 72,
       "negativo": 48,
-      "neutral": 185
+      "neutral": 186
     },
     "sentiment_by_day": {
+      "2026-07-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-20": {
         "total": 2,
         "score_sum": 0
@@ -302,23 +306,23 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 44
+        "count": 42
       },
       {
         "term": "gustavo",
         "count": 14
       },
       {
+        "term": "ramales",
+        "count": 10
+      },
+      {
         "term": "belgrano",
-        "count": 11
+        "count": 9
       },
       {
         "term": "cargas",
-        "count": 11
-      },
-      {
-        "term": "ramales",
-        "count": 11
+        "count": 9
       },
       {
         "term": "reclamo",
@@ -326,7 +330,7 @@
       },
       {
         "term": "obras",
-        "count": 8
+        "count": 7
       },
       {
         "term": "nación",
@@ -427,6 +431,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El gobernador Sáenz anunció un bono eléctrico provincial para jubilados y pensionados de Salta - Gobierno de la Provincia de Salta, Argentina",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVkxDZXRFWHZNOExYZGJQU1d5VzFQTVhTOWYySDdjQk96akpoU0dUVkJJRGFGUG9JTmJkMG5qQTdMLXFwelVCNzNQSExxZWFZTXlMemhENHdCSWdpMGxxamNqbkF5eDVtZ1hxc2JNSUUzdWV4eGFHRUdvaGZyeFFQRE41dHQtTEsxaEdJZEgzUXNMV1JPNGlwQWpSNy03ak9hZi11ZnpFYjRkM1h5dnhoOXpqeDZ2OUNPTjVBNnRTUW9JRzBJc1dWQ3FJdVNOcUJFMzl6cW5jeldtQQ?oc=5",
+        "source": "Gobierno de la Provincia de Salta, Argentina",
+        "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz habilitó dos cargos en Diputados y transfirió $36,4 millones para financiarlos",
         "link": "https://elintra.com.ar/2026/10/20/gustavo-saenz-habilito-dos-cargos-en-diputados-y-transfirio-364-millones-para-financiarlos/",
@@ -629,13 +640,6 @@
         "source": "Informate Salta",
         "date": "Fri, 16 Oct 2026 20:42:34 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz y los libertarios: el reclamo ferroviario que divide aguas en Salta",
-        "link": "https://elintra.com.ar/2026/10/16/saenz-reclamo-ferroviario-salta/",
-        "source": "El Intra",
-        "date": "Fri, 16 Oct 2026 19:36:18 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -14889,13 +14893,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 58,
+    "total_mentions": 59,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 11,
+      "negativo": 12,
       "neutral": 43
     },
     "sentiment_by_day": {
+      "2024-06-20": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-05-06": {
         "total": 5,
         "score_sum": 0
@@ -15085,8 +15093,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "agustina",
+        "count": 2
+      },
+      {
+        "term": "álvarez",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "vivimos en el mundo del revés",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ1A4UlFlZTNEQVBnb1ZFYTE5M1dxQUpBVjZlWmthdHlScndmdWNvX1EzTngwSDVHTUFnM2oxN2JpYXA1bWJVSHhfeHVKR2J2a2l6MWJ2dTBleXc5VzBvWTNPQ0I5RVh5TGc4MGFKYnNSM1BpWmhwcWZ1d20xajVQaEtvVU9vTWFYMmtORTVJYTFMaGlmM3ZCSVZ2SEh2Qzc4MTA1WFE0TW1MZ0FZREdIVWNyVVZid2VGSjY5cWJHTkYzYTNM?oc=5",
+        "date": "Thu, 20 Jun 2024 07:00:00 GMT"
+      },
       {
         "quote": "Háganse cargo de sus actos",
         "source": "Elintra.com.ar",
@@ -15170,16 +15193,17 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVzhTODc1eDFYREl2ek5kbzFSSHlhQzNYYVZ0YnBvUGY0djIyQXZJR2ZZUXpfMGh1T3Q2R3dvRVdIZEZRUjRuSXJWOG1yb3R3T21jRXA1TzdtbzJDR3d4cFg2VUxFU2Y0eE95bWNvMTdRZF9UdzYtdG5MOEl6UGtrc3dMam1xZmJ3aXloOHhKdF92VDZ6YTEtUmJhTTQwREdWeERPa2c0SVFFT1lwQkNNWHJYdEt3aFVhNFFXQ1ZUTGw0UkFIbjE2Ql9jZkZGOG8?oc=5",
         "date": "Wed, 25 Oct 2023 07:00:00 GMT"
-      },
-      {
-        "quote": "coherencia",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXpNT1M2QmtwRHZLbVd4RmoyNHVCSzZIX0ZvU2VkMHhGQlRCYWJDZnJ5SHpXaEc5aXB5UmFFaGNpVGxqemlsWGF4VFgtZ1oxVzJvQU8yS1kydGIyelc5aW5Ha3JDeXFYdERySXdvZW1mdmxKeFlwUUJ6eWoyaFZ2dkZ2UUdXUV80T1RCYmJPekVKMTZQTERzTXN2c1NtTlJYVWxudzZpcjJlNXZsOC1RUzNDZFhJbVFuWFFFRVNIUHEzWV9CcGVvbF930gHYAUFVX3lxTE5OblhsTDg3N3R5T3hqVUdSam9EeVJtU1VDY3RicENpWXk3Z1BQay1Ec2I1SmpNaFN3QXZ2c0gxeGFnMFpHay1oNmdBV29vYndNQ0IwVFVPZFNtUVFCMG9NR3drelh4eTU3TDZpc2lwY3N4WmJqV1ZnNDNzRHlnaFczVWZaWEpSMURsY2Y5YU1qVmhpdEFkX1l0MzdOTGhaTDRnVGs1ampINmtIQVhMVnVUNURRYVZhaVVZU1RiSXVhWFlxMGwtNW1icTRfMDdpalp0QWNuOHpnYw?oc=5",
-        "date": "Wed, 06 May 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Agustina Álvarez, enojada por las críticas a Patricia Bullrich: “vivimos en el mundo del revés” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ1A4UlFlZTNEQVBnb1ZFYTE5M1dxQUpBVjZlWmthdHlScndmdWNvX1EzTngwSDVHTUFnM2oxN2JpYXA1bWJVSHhfeHVKR2J2a2l6MWJ2dTBleXc5VzBvWTNPQ0I5RVh5TGc4MGFKYnNSM1BpWmhwcWZ1d20xajVQaEtvVU9vTWFYMmtORTVJYTFMaGlmM3ZCSVZ2SEh2Qzc4MTA1WFE0TW1MZ0FZREdIVWNyVVZid2VGSjY5cWJHTkYzYTNM?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 20 Jun 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Orozco celebró el pase de Agustina Álvarez a La Libertad Avanza y apuntó contra la crisis del PRO en Salta - Gente de Salta",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3lXd0ZKM2VTTzR2QUxjdzBqWVBzLUMtSXhld2s3bDVzMHhlbGxmLWJwYUcwWFdybWhhXzN0Wm44cTR3YzF5dVZtTXFfOHA4V2ZTYS1NY2RXUXVOMWUyUUxSdFdyTjdEWEdobmZkbjlVOVZxS2xNcWhKemZiWHFpZ3FNYkIwZV9fYnRsSjB5QUZYZVpIWC1BMEwtYVlac0djWFRkWkNpbXNMa3VEUDhaWGdYOHV2ZFctNjBrbtIBwgFBVV95cUxNdG1yWlE0ZEdDSkpRQUtoMGVXUGhHTDluNk9UMXU1NnpHQVpEOE1ySG1ianBocFRRclo1V3ROUkZGeWxhY2dTU3R2QUh1WEJTWGVKSm9nY3JXQXVYSXhJeFBha3JvYVFXdFBfWk1MRVVMZlZPdm1YcVFOSkQ4WFNBOHhBV0d5UnI4VktvbFRqeGt4a1ctWllTMjZjQ1h3OUREQ0NhNWgwUG5PTkk2OG8waEFXd0xIUl9kaG8tNnM0TTNmdw?oc=5",
@@ -15382,13 +15406,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 28 Aug 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Agustina Álvarez criticó a La Libertad Avanza por no querer conformar una alianza opositora en Salta - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUEUzaUtPOXZtbkE0V2ZFdEpkeFNJQWFLS3JFM3FxMnFQanVzY1VEU3pzVy13VWs0STBwNE56N0ctTFJ5cTc2MF96WWxwRS1ZWGk2Z19KeldYSEFIMEhXQlctQjgtLXU0bk1jMlRvTnZJc0NYYXFJM2JuOFlvcUhPSERuQVNySDYtZF9EdldvaG13OUQ5N1pjNzVuRUVUWk1zRVNRY2kzcXJkNUp2QWZRZDlIY2lyOUk2YTdiZVdyd0EtZC1Tbklrbnp0cDY?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 17 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -25838,13 +25855,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-12-28": {
         "total": 1,
         "score_sum": 0
@@ -25941,7 +25962,7 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 2
+        "count": 3
       },
       {
         "term": "gauffín",
@@ -25992,6 +26013,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffin vinculó el caso Gerala con los pedidos de informes que no responde Mangione",
+        "link": "https://elintra.com.ar/2026/10/20/jose-gauffin-vinculo-el-caso-gerala-con-los-pedidos-de-informes-que-no-responde-mangione/",
+        "source": "El Intra",
+        "date": "Tue, 20 Oct 2026 18:12:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "José Gauffín no estará para la votación del Presupuesto 2023 - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2RralBtWHdzUkZKRGJ2Mm50U1ZmSFdfTUlwb0UzVFVGZGFhSUI4dUhOUHhvd1NFaHl3cTV0U2w1Ni1NbFNNakd3Yi1zSkRROHBDOXM3YnU5eWl6SmVWUlZodDBKcDZuTXNvR3lKOFNua3lpU2ZYRExLOERrakNvQWJaa3I1S20zYVJWbFI4OG5SUy1QZE9NelN6WQ?oc=5",
@@ -26500,13 +26528,17 @@
     "id": "dip-franco-agustin-lastra",
     "name": "Franco Agustín Lastra",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 3,
+    "total_mentions": 4,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 3
+      "neutral": 4
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-01": {
         "total": 1,
         "score_sum": 0
@@ -26522,8 +26554,22 @@
     },
     "top_topics": [],
     "quotes": [],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "LLA Salta impulsa un requisito para empresas mineras y denuncia que el oficialismo frenó el proyecto",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/10/20/lla-salta-impulsa-un-requisito-para-empresas-mineras-y-denuncia-que-el-oficialismo-freno-el-proyecto/",
+        "date": "Tue, 20 Oct 2026 17:08:00 +0000"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "LLA Salta impulsa un requisito para empresas mineras y denuncia que el oficialismo frenó el proyecto",
+        "link": "https://elintra.com.ar/2026/10/20/lla-salta-impulsa-un-requisito-para-empresas-mineras-y-denuncia-que-el-oficialismo-freno-el-proyecto/",
+        "source": "El Intra",
+        "date": "Tue, 20 Oct 2026 17:08:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El estudiante crónico vs. “La señora”: Franco Lastra se enfrentó con Mónica Juárez",
         "link": "https://elintra.com.ar/2026/10/01/monica-juarez-cruce-diputados/",
@@ -29356,20 +29402,20 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 2,
+        "score_sum": -4
+      },
       "2025-09-25": {
         "total": 1,
         "score_sum": 0
-      },
-      "2026-10-20": {
-        "total": 1,
-        "score_sum": -4
       },
       "2026-10-16": {
         "total": 2,
@@ -29467,15 +29513,19 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 7
+        "count": 8
       },
       {
         "term": "federico",
-        "count": 3
+        "count": 4
       },
       {
         "term": "salud",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "presupuesto",
+        "count": 2
       },
       {
         "term": "ministro",
@@ -29527,6 +29577,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Federico Mangione detalló el presupuesto de Salud en Diputados - HolaSalta Noticias",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZTh2R193MUtSR3FJVWd6THVYTDROMDJ2c3FaeUMzNVRvWlVFVjd2bVA3VkRVMDlJaHpOMTFRMHItS3l0Ri1RQ21TaWFQZEx0aXB1dmpyVHVpWjFNYnhqT1ZPakFZVkFkUk5reU1PNldFd1IxOG4wVWZ0NXZpUVpWTWNidGNKOVAxTGxWS2NocEZVWFVFdE9uTWJlOHpoV2NxMlVrQlBPcXYzV2dsc1J3ZzRZOTdFdXV2aVJRUEs2T002X2ppVVBPV0FkTDlVS01ndTIwR0hpc0xPMkhtdjBBS2NNYw?oc=5",
+        "source": "HolaSalta Noticias",
+        "date": "Tue, 20 Oct 2026 16:12:49 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El ministro Federico Mangione contra los anestesistas: “No me van a manejar el Ministerio de Salud” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaHFpdUdPMGFkaDZrb2poWUl1eXVBU1ZWZjVVMTlNTWpXS2JKRFZfY2dIeWRWcUd4bXoyRXR4OG1VQWN5VnVsX2U0OUJFdXg5ZkZDVUVqTTdTaGt0Nm5QVE5jbUliU3JrdUNTZEY5b0RrV1I4ZmpERl9fckNQN2dVWWpEUkZIWGIzTm5ZNDBUejU1RUh6dDhHajBkc0p4TDBjU1lxX2tLLTI2S1EwMEFNQWNxYzJFYXZ1ZlE0bTduRG5kUHZ5YzI4NU9JXy05QWYxVEVueG00TDdCc01OUVdYZlFGbnhBTWZV0gHuAUFVX3lxTFBnZjJzZ0VmREZEMEtwTjctbThLTUZfOF96bTRxZER5T2lRWko1XzU5MG9CRTdWUzRpS0x2eExNR3VveVl3TVhfMUg5SF9PXzZSQ0FKZWxxdEJCUEJ6V2hRelo3Q3hDMmZXaERKT1pzcTJyTmdOV2pzRlhJMThTYXBXMU82eHJybWRaaUg4UEpWMWZuaEV6NFhTT1EtVUZWZDUtZGF3N2pEMEl0QkNLemRGUzVOZUgwb3V4ZFZxZUY5dXpFRng2SHl6Tkp1eHRpTmMySEF3Y3lDSlVCOVdWd1cwT1ptYkpKQmZUbmYzZ1E?oc=5",
@@ -29852,27 +29909,19 @@
     },
     "top_topics": [
       {
-        "term": "fiore",
-        "count": 17
+        "term": "cristina",
+        "count": 13
       },
       {
-        "term": "cristina",
-        "count": 16
+        "term": "fiore",
+        "count": 13
       },
       {
         "term": "elintra",
-        "count": 6
-      },
-      {
-        "term": "educación",
         "count": 4
       },
       {
-        "term": "williams",
-        "count": 3
-      },
-      {
-        "term": "becker",
+        "term": "educación",
         "count": 3
       },
       {
@@ -29881,6 +29930,14 @@
       },
       {
         "term": "ministra",
+        "count": 2
+      },
+      {
+        "term": "realizó",
+        "count": 2
+      },
+      {
+        "term": "reunión",
         "count": 2
       }
     ],

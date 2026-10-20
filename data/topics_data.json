@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-10-20T18:00:26.635248+00:00",
+  "generated_at": "2026-10-20T21:34:10.918408+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 384,
+      "total_mentions": 387,
       "sentiment_breakdown": {
         "positivo": 22,
         "negativo": 30,
-        "neutral": 332
+        "neutral": 335
       },
       "sentiment_by_day": {
+        "2026-10-15": {
+          "total": 4,
+          "score_sum": 0
+        },
         "2026-10-20": {
-          "total": 2,
+          "total": 4,
           "score_sum": 0
         },
         "2026-10-19": {
@@ -43,10 +47,6 @@
         "2026-10-14": {
           "total": 7,
           "score_sum": -2
-        },
-        "2026-10-15": {
-          "total": 3,
-          "score_sum": 0
         },
         "2026-10-09": {
           "total": 44,
@@ -192,7 +192,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 170
+          "count": 169
         },
         {
           "term": "presupuesto",
@@ -200,11 +200,11 @@
         },
         {
           "term": "intransigente",
-          "count": 63
+          "count": 66
         },
         {
           "term": "informate",
-          "count": 42
+          "count": 40
         },
         {
           "term": "discapacidad",
@@ -322,6 +322,27 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Sesión sin quórum: la oposición mostró a diputados de LLA burlándose tras las cortinas - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WNGhNdDNmcFppZlRlZ1c4SlE0a2EyU21YUFNzWDFUSlNtVzNMOWJ0amNsel9XOUhWU2M5d29JU0pSSHZaMHl3eXNma19DNkNZa2I0a1VUVWVBREpQS3VoTHpJUlR0RXVyYU1GS0pYZ2pwOTB6d0tGUw?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 15 Oct 2026 23:34:50 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Financiamiento universitario: la Justicia aceptó la apelación del Gobierno - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUW1xcnc2SXZhQVNIYzIydWpfMlI1QTZEZlowWVZSM2dpNkhXaFZ2VEtuMU9CdVBhSW10dld5U3ZxcmY3Nmp0a0dnbVZudHZ1NmM5aEdwYW5KUnhVMUo0Wnl3R0JqZWZnbGhVN1prbUE0M2Z1ekxuLVNqLTNaTTR3SE4tdG9CWURoQ1l6cC1WQ0pkTWtJNGlKeXlVT2g3Vmh0dXJyVG1majJ1RVQtTHF0VlBLU0RrX1lMM1E?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 20 Oct 2026 20:33:11 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027 : Carlos Torrendell tildó de «casta» a dirigentes universitarios - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNanhVZEJuRDdlNzF4U0pWd2lYdXpuZGdxU0VyejNhWk9xMmRSaGNtS0gzalkydGZhTUlQTWRaeXl5TTl5c0ZuLUVSWm5LYmZYc2FQcTJTT05GRTlhd2x3cUVvSzRKOE5jRXlTeWlEMkRfbEQ4QkJCT2hkcWhhdExpMkloUTRLWUFUYTI1NE5KOEVGZkU5a294UFJJM1BOYXVheTlQQ2kwdWhKU2Vi?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 20 Oct 2026 19:55:13 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Presupuesto 2027: Camacho afirmó que solo 6 municipios piden asistencia fija - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTXJuaW42dlRaN2V6NUVPYmFQd1dYRU5JRmFkeXJXVy1EWXpzY1dpSmFaWWpnaVpONjBKUVRmVS1wWVNSX2VNQzRLS05uemJ6QmpkbFVIMlJYcG9hUkdfR1ZINzd3eGtKdm9Gem5iX1ZWVDVnZEoybnhqVml6czJ2eU5jZzlDWWttbHhKYkxqdUlYUWZldlplcFJESFFoOUlkUl9DZUptSjQtdjRpUXUtOGhzQU8tUXhvT0gxRzJpc2JLMjNBZFd4ZmtTRGVkS0s3dnozV1VNWTTSAecBQVVfeXFMT0VzQXl5SHItd3BDZ19lYjBjZ2FmWU5zN1JOUUxzcU1nRmJkV25YdFB2b3pEYWZhZFpTNXZhOGllNHpMNFZBZlltY0dNdTdSWWhNMVNoWnFDTkdIcDdETVp4OW1VSHVOOURaWjl2RHR2WGZuRDBvMF9PNlN5U1FEQVM1d3VfT2ZHSmpUek1xMEZUams3XzltMHBPVWRhQUl1UzdjVDFDcGRhZF9oUDU1VUVkVW5zNm03bW1zeUpFOFhRUWNjMHpfdzJqUFhFcEQtU21SOFN3RXNoeDlmdlF2X1VNenZJQi13?oc=5",
@@ -510,27 +531,6 @@
           "source": "El Intransigente",
           "date": "Wed, 14 Oct 2026 23:54:15 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "Salta incorporó $5097 millones al Presupuesto y casi $2800 millones vienen de un préstamo - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3J2MVkwUEFKUmc2cmtQSVNVdFdFLTRNRXUtTlBQOWtNdl8yWXA3UXhXV19vcko2aW9mUld6SjNXZndDYUJ6a2N6VU5VYTIxOV9VTlExWmVZTHZYYXRvS3g5QzdrcnZnekVZNDJzWGdOemkxU3lnb1VNMFZtMllSRzNnby1BVHBRYk42M1NVQ0FpVG5GcXNsRXlVY2JvLXZINm1LYjZHanFwOHpHay1oWjRtbnhmYU1zeWR0b2QzYw?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Tue, 13 Oct 2026 17:32:26 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Martes 13: de dónde viene la frase “No te cases ni te embarques” y qué significa - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54cmVsVFd4bUVsYlRqZklXSmlFQTNHN0Z3V0NwRUVWTGwtREd1Q1h5Um9pTzRkSExhc3dydWgtMkMzdnU0aTFjMDF4X09qQldtUlBVYXF0cWJyM19hZ2RQT3R3S0hsWnZJSWRablQ1Z1N4T1d2cU1STQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 13 Oct 2026 13:24:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Discapacidad: Presupuesto seguro para prestaciones - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkV0LTBZYlNuNmpFWXBWbjdBdklHU2FYVGVJZWhKOXpzZk92RHRlU0J2dHFuOGhTd1B6emQ2bFpHdjJyaUd5c1BadkVIMEhhVTRGQUFpWGNkUkdKTEkwYUl5cUNlU0VhN204Nnp2MjhNNEJXZWVsVFRVdXlKX3FDelUzcElwQ0NCbkJ0dnNjWVdGdE1HSWF0bUpLNVdlelduWUhodVR3c1JYME3SAasBQVVfeXFMTTJFdC0wWWJTbjZqRVlwVm43QXZJR1NhWFRlSWVoSjl6c2ZPdkR0ZVNCdnRxbjhoU3dQenpkNmxaR3YycmlHeXNQWnZFSDBIYVU0RkFBaVhjZFJHSkxJMGFJeXFDZVNFYTdtODZ6djI4TTRCV2VlbFRUVXV5Sl9xQ3pVM3BJcENDQm5CdHZzY1lXRnRNR0lhdG1KSzVXZXpXbllIaHVUd3NSWDBN?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 14 Oct 2026 05:01:00 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },

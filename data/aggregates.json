@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-10-20T18:00:25.634340+00:00",
+  "generated_at": "2026-10-20T21:34:09.912076+00:00",
   "by_politician": {
     "eje-federico-mangione": {
-      "total": 27,
+      "total": 28,
       "positivo": 1,
+      "negativo": 4,
+      "neutral": 23,
+      "score_sum": -6
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 59,
+      "positivo": 4,
+      "negativo": 12,
+      "neutral": 43,
+      "score_sum": -23
+    },
+    "gustavo-saenz": {
+      "total": 306,
+      "positivo": 72,
+      "negativo": 48,
+      "neutral": 186,
+      "score_sum": 124
+    },
+    "dip-franco-agustin-lastra": {
+      "total": 4,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 0
+    },
+    "dip-jose-miguel-gauffin": {
+      "total": 26,
+      "positivo": 0,
       "negativo": 4,
       "neutral": 22,
       "score_sum": -6
@@ -42,20 +70,6 @@
       "negativo": 1,
       "neutral": 2,
       "score_sum": 1
-    },
-    "gustavo-saenz": {
-      "total": 305,
-      "positivo": 72,
-      "negativo": 48,
-      "neutral": 185,
-      "score_sum": 124
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 25,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 21,
-      "score_sum": -6
     },
     "dip-griselda-edith-galleguillos": {
       "total": 21,
@@ -105,13 +119,6 @@
       "negativo": 3,
       "neutral": 7,
       "score_sum": -5
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 58,
-      "positivo": 4,
-      "negativo": 11,
-      "neutral": 43,
-      "score_sum": -21
     },
     "eje-antonio-marocco": {
       "total": 20,
@@ -624,13 +631,6 @@
       "neutral": 4,
       "score_sum": 0
     },
-    "dip-franco-agustin-lastra": {
-      "total": 3,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 3,
-      "score_sum": 0
-    },
     "sen-luciano-elvira": {
       "total": 16,
       "positivo": 2,
@@ -927,6 +927,60 @@
     }
   },
   "by_day": {
+    "2026-10-20": {
+      "eje-federico-mangione": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "dip-franco-agustin-lastra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2024-06-20": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-16": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-09-25": {
       "eje-federico-mangione": {
         "total": 1,
@@ -999,24 +1053,6 @@
       "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-20": {
-      "eje-ignacio-lupion": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2022-12-28": {
@@ -10079,24 +10115,6 @@
         "score_sum": 0
       }
     },
-    "2024-06-20": {
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-06-11": {
       "concejal-dario-madile": {
         "total": 1,
@@ -16143,7 +16161,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 15
+      "count": 16
     },
     {
       "term": "elintra",
@@ -16156,6 +16174,10 @@
     {
       "term": "diario",
       "count": 6
+    },
+    {
+      "term": "diputados",
+      "count": 5
     },
     {
       "term": "nuevo",
@@ -16174,11 +16196,15 @@
       "count": 5
     },
     {
-      "term": "contra",
+      "term": "mangione",
       "count": 4
     },
     {
-      "term": "diputados",
+      "term": "josé",
+      "count": 4
+    },
+    {
+      "term": "contra",
       "count": 4
     },
     {
@@ -16191,14 +16217,6 @@
     },
     {
       "term": "pablo",
-      "count": 4
-    },
-    {
-      "term": "jarsún",
-      "count": 4
-    },
-    {
-      "term": "orozco",
       "count": 4
     }
   ],
