@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-19T23:50:58.443652+00:00",
+  "generated_at": "2026-10-20T02:15:36.584303+00:00",
   "by_politician": {
+    "eje-ignacio-lupion": {
+      "total": 3,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 2
+    },
+    "snac-flavia-royon": {
+      "total": 90,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 74,
+      "score_sum": 5
+    },
+    "gustavo-saenz": {
+      "total": 303,
+      "positivo": 72,
+      "negativo": 48,
+      "neutral": 183,
+      "score_sum": 124
+    },
     "eje-roberto-dib-ashur": {
       "total": 48,
       "positivo": 6,
@@ -36,26 +57,12 @@
       "neutral": 37,
       "score_sum": -2
     },
-    "gustavo-saenz": {
-      "total": 302,
-      "positivo": 72,
-      "negativo": 48,
-      "neutral": 182,
-      "score_sum": 124
-    },
     "dip-gaston-guillermo-galindez": {
       "total": 17,
       "positivo": 1,
       "negativo": 0,
       "neutral": 16,
       "score_sum": 2
-    },
-    "snac-flavia-royon": {
-      "total": 89,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 73,
-      "score_sum": 5
     },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 13,
@@ -512,13 +519,6 @@
       "neutral": 21,
       "score_sum": -10
     },
-    "eje-ignacio-lupion": {
-      "total": 2,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 2,
-      "score_sum": 0
-    },
     "concejal-maria-florencia-leon": {
       "total": 6,
       "positivo": 1,
@@ -927,6 +927,44 @@
     }
   },
   "by_day": {
+    "2026-09-03": {
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-alejandra-navarro": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2025-10-20": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-20": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-07-24": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -3640,28 +3678,6 @@
       },
       "concejal-gustavo-farquharson": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-09-03": {
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-alejandra-navarro": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -16049,7 +16065,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 14
+      "count": 15
     },
     {
       "term": "gustavo",
@@ -16057,26 +16073,22 @@
     },
     {
       "term": "elintra",
-      "count": 8
-    },
-    {
-      "term": "pasa",
       "count": 7
     },
     {
-      "term": "informate",
+      "term": "pasa",
       "count": 5
     },
     {
-      "term": "ashur",
+      "term": "ignacio",
       "count": 4
     },
     {
-      "term": "orozco",
+      "term": "gente",
       "count": 4
     },
     {
-      "term": "obras",
+      "term": "informate",
       "count": 4
     },
     {
@@ -16088,10 +16100,6 @@
       "count": 4
     },
     {
-      "term": "gente",
-      "count": 3
-    },
-    {
       "term": "diario",
       "count": 3
     },
@@ -16100,11 +16108,19 @@
       "count": 3
     },
     {
+      "term": "orozco",
+      "count": 3
+    },
+    {
       "term": "pymes",
       "count": 3
     },
     {
       "term": "respaldo",
+      "count": 3
+    },
+    {
+      "term": "obras",
       "count": 3
     }
   ],
