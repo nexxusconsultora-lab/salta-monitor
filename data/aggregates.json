@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-20T02:15:36.584303+00:00",
+  "generated_at": "2026-10-20T07:44:38.013529+00:00",
   "by_politician": {
+    "dip-juan-jose-esteban": {
+      "total": 10,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 7,
+      "score_sum": -5
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 58,
+      "positivo": 4,
+      "negativo": 11,
+      "neutral": 43,
+      "score_sum": -21
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 50,
+      "positivo": 7,
+      "negativo": 6,
+      "neutral": 37,
+      "score_sum": 2
+    },
     "eje-ignacio-lupion": {
       "total": 3,
       "positivo": 1,
@@ -49,13 +70,6 @@
       "negativo": 12,
       "neutral": 30,
       "score_sum": -26
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 49,
-      "positivo": 6,
-      "negativo": 6,
-      "neutral": 37,
-      "score_sum": -2
     },
     "dip-gaston-guillermo-galindez": {
       "total": 17,
@@ -463,13 +477,6 @@
       "neutral": 3,
       "score_sum": 0
     },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 57,
-      "positivo": 4,
-      "negativo": 11,
-      "neutral": 42,
-      "score_sum": -21
-    },
     "eje-oriana-nevora": {
       "total": 8,
       "positivo": 1,
@@ -581,13 +588,6 @@
       "negativo": 0,
       "neutral": 2,
       "score_sum": 0
-    },
-    "dip-juan-jose-esteban": {
-      "total": 9,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 7,
-      "score_sum": -3
     },
     "sen-sergio-saldano": {
       "total": 32,
@@ -927,6 +927,68 @@
     }
   },
   "by_day": {
+    "2026-10-20": {
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-05-06": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 5,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-francisco-fabio-rodriguez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2024-06-05": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2026-09-03": {
       "eje-ignacio-lupion": {
         "total": 1,
@@ -955,12 +1017,6 @@
     },
     "2025-10-20": {
       "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-20": {
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
@@ -5389,48 +5445,6 @@
         "score_sum": 0
       }
     },
-    "2026-05-06": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-eduardo-jose-virgili": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-francisco-fabio-rodriguez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2024-04-08": {
       "dip-monica-gabriela-juarez": {
         "total": 1,
@@ -5957,12 +5971,6 @@
       "dip-laura-deolinda-cartuccia": {
         "total": 1,
         "score_sum": -1
-      }
-    },
-    "2024-06-05": {
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-05-21": {
@@ -16076,15 +16084,27 @@
       "count": 7
     },
     {
+      "term": "gente",
+      "count": 5
+    },
+    {
       "term": "pasa",
       "count": 5
     },
     {
-      "term": "ignacio",
+      "term": "orozco",
       "count": 4
     },
     {
-      "term": "gente",
+      "term": "nuevo",
+      "count": 4
+    },
+    {
+      "term": "diario",
+      "count": 4
+    },
+    {
+      "term": "ignacio",
       "count": 4
     },
     {
@@ -16100,15 +16120,7 @@
       "count": 4
     },
     {
-      "term": "diario",
-      "count": 3
-    },
-    {
-      "term": "nuevo",
-      "count": 3
-    },
-    {
-      "term": "orozco",
+      "term": "contra",
       "count": 3
     },
     {
@@ -16117,10 +16129,6 @@
     },
     {
       "term": "respaldo",
-      "count": 3
-    },
-    {
-      "term": "obras",
       "count": 3
     }
   ],
