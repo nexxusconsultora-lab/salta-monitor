@@ -306,35 +306,35 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 41
+        "count": 40
       },
       {
         "term": "gustavo",
-        "count": 13
+        "count": 12
       },
       {
         "term": "ramales",
         "count": 10
       },
       {
-        "term": "belgrano",
-        "count": 9
-      },
-      {
-        "term": "cargas",
-        "count": 9
-      },
-      {
         "term": "reclamo",
         "count": 9
       },
       {
-        "term": "obras",
-        "count": 7
+        "term": "belgrano",
+        "count": 8
+      },
+      {
+        "term": "cargas",
+        "count": 8
       },
       {
         "term": "nación",
         "count": 7
+      },
+      {
+        "term": "obras",
+        "count": 6
       }
     ],
     "quotes": [
@@ -18923,11 +18923,11 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 5
+        "count": 4
       },
       {
         "term": "lópez",
-        "count": 5
+        "count": 4
       },
       {
         "term": "intendenta",
@@ -21178,8 +21178,8 @@
       "neutral": 76
     },
     "sentiment_by_day": {
-      "2026-10-20": {
-        "total": 1,
+      "2025-10-21": {
+        "total": 2,
         "score_sum": 0
       },
       "2025-10-26": {
@@ -21253,10 +21253,6 @@
       "2024-02-10": {
         "total": 2,
         "score_sum": -2
-      },
-      "2025-10-21": {
-        "total": 1,
-        "score_sum": 0
       },
       "2024-04-16": {
         "total": 1,
@@ -21478,15 +21474,19 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 14
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 14
       },
       {
-        "term": "senadora",
+        "term": "pasa",
         "count": 5
+      },
+      {
+        "term": "congreso",
+        "count": 4
       },
       {
         "term": "diario",
@@ -21497,24 +21497,20 @@
         "count": 4
       },
       {
-        "term": "nacional",
-        "count": 3
-      },
-      {
-        "term": "congreso",
-        "count": 3
-      },
-      {
         "term": "nuevo",
         "count": 3
+      },
+      {
+        "term": "nacional",
+        "count": 2
       }
     ],
     "quotes": [
       {
-        "quote": "Hay que analizar un mecanismo",
-        "source": "Infobae",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMkpfVl9mTlR4QUZkNkhCZC0ySGFCdi1qMVdnSVBiRnJKY3pNOG5RLVZmNWxwOVBTTVd4MFNXZ3U0WFduOWZIUXJfZURsUFRPbU5pSnhFZmdPRDVmMWpzenF0ZnQ4T2YxVDJlZ3pZQXFyc0daa1VWa0dvdi1CM1JDMVVvclA1RUlaUk9QakFUX0sxa1NVQnQ3Q0RWdnk5RDVZMWVnSVZqT3BUUkpDbGtYUjJoNl9ELUNCSXJVa2MzemI1UnlNQzdKRjFyTXJwSDNhY1lpNU12OFlBZzdlMjJR0gH6AUFVX3lxTE5CdXVpUjJSM0xzaWxNRS1GU3VWU2I2UkE2QVZxRXlZc2lsWmktcjlTN2k5by1GS0ZiTWVGU1FKSmdUeGo2YUtKcDY5akNoczNkaFR0SGRKOUpKeFgteDR4cl9EU3BsNkNQUC1ncTlRczZUdk84bnFWdXA3ZUhyOENzTFNwMGE2cWVhSy1tMmFHUXBEa1RhMU1pazJWWE54eWVwUUtzNXJZU1ZHYzRVdE04ZENDNEZDYVlwcmY1UlNDVU9wT2ptdmlJUjhxcEhIb1RxY2w5dEZqVzE1YzJ6RlFxS3o1dm9xb3VvTnkwN1hyY2J2Mk5ENFFKVVE?oc=5",
-        "date": "Tue, 20 Oct 2026 00:57:00 GMT"
+        "quote": "La voz de Salta tiene que hacerse escuchar en el Congreso",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT"
       },
       {
         "quote": "Tenemos que llevar la voz de la provincia al Congreso",
@@ -21623,10 +21619,10 @@
     ],
     "recent_articles": [
       {
-        "title": "La senadora nacional Flavia Royón propuso que las PASO sean voluntarias: “Hay que analizar un mecanismo” - Infobae",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMkpfVl9mTlR4QUZkNkhCZC0ySGFCdi1qMVdnSVBiRnJKY3pNOG5RLVZmNWxwOVBTTVd4MFNXZ3U0WFduOWZIUXJfZURsUFRPbU5pSnhFZmdPRDVmMWpzenF0ZnQ4T2YxVDJlZ3pZQXFyc0daa1VWa0dvdi1CM1JDMVVvclA1RUlaUk9QakFUX0sxa1NVQnQ3Q0RWdnk5RDVZMWVnSVZqT3BUUkpDbGtYUjJoNl9ELUNCSXJVa2MzemI1UnlNQzdKRjFyTXJwSDNhY1lpNU12OFlBZzdlMjJR0gH6AUFVX3lxTE5CdXVpUjJSM0xzaWxNRS1GU3VWU2I2UkE2QVZxRXlZc2lsWmktcjlTN2k5by1GS0ZiTWVGU1FKSmdUeGo2YUtKcDY5akNoczNkaFR0SGRKOUpKeFgteDR4cl9EU3BsNkNQUC1ncTlRczZUdk84bnFWdXA3ZUhyOENzTFNwMGE2cWVhSy1tMmFHUXBEa1RhMU1pazJWWE54eWVwUUtzNXJZU1ZHYzRVdE04ZENDNEZDYVlwcmY1UlNDVU9wT2ptdmlJUjhxcEhIb1RxY2w5dEZqVzE1YzJ6RlFxS3o1dm9xb3VvTnkwN1hyY2J2Mk5ENFFKVVE?oc=5",
-        "source": "Infobae",
-        "date": "Tue, 20 Oct 2026 00:57:00 GMT",
+        "title": "Flavia Royón: \"La voz de Salta tiene que hacerse escuchar en el Congreso\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       },
       {
@@ -22061,11 +22057,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 6
+        "count": 4
       },
       {
         "term": "orozco",
-        "count": 6
+        "count": 4
       },
       {
         "term": "milei",
@@ -22073,14 +22069,6 @@
       },
       {
         "term": "tribuno",
-        "count": 2
-      },
-      {
-        "term": "apuntó",
-        "count": 2
-      },
-      {
-        "term": "contra",
         "count": 2
       }
     ],
@@ -23899,14 +23887,10 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 3
-      },
-      {
-        "term": "diputados",
         "count": 2
       },
       {
-        "term": "bernardo",
+        "term": "diputados",
         "count": 2
       }
     ],
@@ -24232,14 +24216,6 @@
     "top_topics": [
       {
         "term": "outes",
-        "count": 3
-      },
-      {
-        "term": "pablo",
-        "count": 2
-      },
-      {
-        "term": "pasa",
         "count": 2
       },
       {
@@ -26351,19 +26327,19 @@
     "id": "dip-guillermo-alejandro-kripper",
     "name": "Guillermo Alejandro Kripper",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
-      "2025-02-05": {
-        "total": 1,
+      "2025-11-26": {
+        "total": 4,
         "score_sum": 0
       },
-      "2025-11-26": {
-        "total": 3,
+      "2025-02-05": {
+        "total": 1,
         "score_sum": 0
       },
       "2022-09-19": {
@@ -26406,11 +26382,31 @@
     "top_topics": [
       {
         "term": "guillermo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "kripper",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "cambios",
+        "count": 2
+      },
+      {
+        "term": "concejo",
+        "count": 2
+      },
+      {
+        "term": "asumió",
+        "count": 2
+      },
+      {
+        "term": "camila",
+        "count": 2
+      },
+      {
+        "term": "lobo",
+        "count": 2
       },
       {
         "term": "elintra",
@@ -26433,6 +26429,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Cambios en el Concejo Deliberante: asumió Camila Lobo en reemplazo de Guillermo Kripper - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQm1fZm9LcU5pSzFObFJKQVFGSExZdjFuVXhtMGRORFl2MVVIQTh4NkxPOW42NUFISzhUTUJuRlhNbzRjdTJnWE9sRkxadW9TQkZEWE9YTGN6XzRUOGtmRnR1c3dUaUc3NFRGWUdNbEllSHJlakZNQUhyY0VUMGdaS2RIUkN0OFRDSjZKaFF0UTAyVjJSY2ZjeUhn0gGaAUFVX3lxTE5CbV9mb0txTmlLMU5sUkpBUUZITFl2MW5VeG0wZE5EWXYxVUhBOHg2TE85bjY1QUhLOFRNQm5GWE1vNGN1MmdYT2xGTFp1b1NCRkRYT1hMY3pfNFQ4a2ZGdHVzd1RpRzc0VEZZR01sSWVIcmVqRk1BSHJjRVQwZ1pLZEhSQ3Q4VENKNkpoUXRRMDJWMlJjZmN5SGc?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Guillermo Kripper pica en punta como el candidato a senador por el saencismo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVldnRzhlYTBCNmRCV0xMRlc5cm1nMzh3cUFicS1MT3BiN0psaW5aY3BIdDlsUndVOFRPVktmYlY2YVZOU0dRbjRERVdyQml0QUJmZEVTZzR4X0VVRGVEWlk0d214ZHUwQ21tVERyajZvTnlOS3JtclgyOUJiQnFQTzZpMWJQSjdXRmtNYXRxUlB4OU9RYlNRVERqSDhjMVo3SnNWVWhJZWgyc01ES0NpUA?oc=5",
@@ -28627,7 +28630,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 14
+        "count": 13
       },
       {
         "term": "turismo",
@@ -28650,11 +28653,11 @@
         "count": 3
       },
       {
-        "term": "económico",
+        "term": "diario",
         "count": 2
       },
       {
-        "term": "roberto",
+        "term": "aries",
         "count": 2
       }
     ],

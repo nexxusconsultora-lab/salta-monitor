@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T23:14:57.257349+00:00",
+  "generated_at": "2026-10-20T23:18:52.515984+00:00",
   "by_politician": {
-    "snac-flavia-royon": {
-      "total": 92,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 76,
-      "score_sum": 5
+    "dip-guillermo-alejandro-kripper": {
+      "total": 15,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 15,
+      "score_sum": 0
     },
     "dip-jose-miguel-gauffin": {
       "total": 27,
@@ -14,6 +14,13 @@
       "negativo": 5,
       "neutral": 22,
       "score_sum": -8
+    },
+    "snac-flavia-royon": {
+      "total": 92,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 76,
+      "score_sum": 5
     },
     "eje-federico-mangione": {
       "total": 28,
@@ -210,13 +217,6 @@
       "negativo": 10,
       "neutral": 43,
       "score_sum": -9
-    },
-    "dip-guillermo-alejandro-kripper": {
-      "total": 14,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 14,
-      "score_sum": 0
     },
     "snac-emilia-orozco": {
       "total": 62,
@@ -927,6 +927,48 @@
     }
   },
   "by_day": {
+    "2025-11-26": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-camila-lobo": {
+        "total": 3,
+        "score_sum": -2
+      }
+    },
+    "2026-08-04": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-10-21": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-20": {
       "snac-flavia-royon": {
         "total": 1,
@@ -2209,24 +2251,6 @@
         "score_sum": 0
       }
     },
-    "2025-11-26": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "dip-gustavo-bernardo-dantur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-camila-lobo": {
-        "total": 3,
-        "score_sum": -2
-      }
-    },
     "2024-05-19": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
@@ -2808,20 +2832,6 @@
       },
       "snac-flavia-royon": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2025-10-21": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -16176,6 +16186,10 @@
       "count": 11
     },
     {
+      "term": "pasa",
+      "count": 7
+    },
+    {
       "term": "gustavo",
       "count": 7
     },
@@ -16197,10 +16211,6 @@
     },
     {
       "term": "nuevo",
-      "count": 5
-    },
-    {
-      "term": "pasa",
       "count": 5
     },
     {
