@@ -50,7 +50,7 @@
       var pol = n.t === 'p' ? polById[String(n.id).slice(2)] : null;
       out.nodos[n.id] = {
         id: n.id, tipo: tipoDe(n.t), ambito: ambitoDe(n.a), label: n.l || n.id, cargo: n.r || (pol && pol.cargo) || '', vigente: n.v == null ? null : !!n.v,
-        origen: n.k || '', n: n.n || 0, nn: n.nn || 0, ns: n.ns || 0, primera: n.p || '', ultima: n.u || '', nuevo: !!n.nuevo,
+        origen: n.k || '', ext: !!n.x, n: n.n || 0, nn: n.nn || 0, ns: n.ns || 0, primera: n.p || '', ultima: n.u || '', nuevo: !!n.nuevo,
         notasEj: (n.ej || []).map(evid), ficha: pol ? { url: safeUrl(pol.source_url), verificado: pol.verificado_en || '', aliases: pol.aliases || [], distrito: pol.distrito || pol.department || '', vigencia: pol.vigencia || '', bloque: pol.bloque || '', ambito: pol.ambito || '' } : null
       };
     });
@@ -58,7 +58,7 @@
       if (!p || !p.id || out.nodos['p:' + p.id]) return;
       out.nodos['p:' + p.id] = {
         id: 'p:' + p.id, tipo: 'persona', ambito: p.ambito === 'Nacional' ? 'Nación' : 'Salta', label: p.name || p.id, cargo: p.cargo || '', vigente: p.vigencia ? p.vigencia === 'vigente' : null,
-        origen: 'padron', n: 0, nn: 0, ns: 0, primera: '', ultima: '', nuevo: false, notasEj: [],
+        origen: 'padron', ext: false, n: 0, nn: 0, ns: 0, primera: '', ultima: '', nuevo: false, notasEj: [],
         ficha: { url: safeUrl(p.source_url), verificado: p.verificado_en || '', aliases: p.aliases || [], distrito: p.distrito || p.department || '', vigencia: p.vigencia || '', bloque: p.bloque || '', ambito: p.ambito || '' }
       };
     });
@@ -106,10 +106,11 @@
   }
 
   /* ------------------------------------------------------------------ filtros, búsqueda, rutas */
-  function filtroBase() { return { terr: '', par: { pp: 1, pt: 1, pf: 1, pc: 1, tt: 1 }, dias: 0, estado: '', viaTemas: true, viaFrases: false, viaPorConocer: false }; }
+  function filtroBase() { return { terr: '', par: { pp: 1, pt: 1, pf: 1, pc: 1, tt: 1 }, dias: 0, estado: '', sinExt: false, viaTemas: true, viaFrases: false, viaPorConocer: false }; }
   function pasa(D, e, F) {
     if (F.terr && e.terr !== F.terr) return false;
     if (F.par && !F.par[e.par]) return false;
+    if (F.sinExt && (D.nodos[e.a].ext || D.nodos[e.b].ext)) return false;
     if (F.dias) { if (e.edad == null || e.edad > F.dias) return false; }
     if (F.estado === 'vigente' && e.vencida) return false;
     if (F.estado === 'vencida' && !e.vencida) return false;
@@ -283,11 +284,11 @@
         '<div><label for="' + id0 + 'fd">Período (última coaparición)</label><select id="' + id0 + 'fd" data-f="dias">' + opt('0', 'Todo el relevado (' + (D.ventana || '?') + ' días)', String(f.dias)) + opt('7', 'Últimos 7 días', String(f.dias)) + opt('14', 'Últimos 14 días', String(f.dias)) + opt('30', 'Últimos 30 días', String(f.dias)) + '</select></div>' +
         '<div><label for="' + id0 + 'fe">Estado</label><select id="' + id0 + 'fe" data-f="estado">' + opt('', 'Todos', f.estado) + opt('vigente', 'Sólo vigentes', f.estado) + opt('vencida', 'Sólo vencidos (sin notas hace más de ' + VENCE_DIAS + ' días)', f.estado) + opt('incompleta', 'Sólo con evidencia incompleta', f.estado) + '</select></div>' +
         '<fieldset><legend>Tipo de vínculo (entre qué se da la coaparición)</legend>' + Object.keys(PAR_NOM).map(function (k) { return '<label class="i"><input type="checkbox" data-par="' + k + '"' + (f.par[k] ? ' checked' : '') + '> ' + PAR_NOM[k] + '</label>'; }).join('') + '</fieldset>' +
-        '<button type="button" data-act="limpiar">Quitar filtros</button></form>';
+        '<label class="i"><input type="checkbox" data-sinext' + (f.sinExt ? ' checked' : '') + '> Ocultar probables figuras extranjeras</label><button type="button" data-act="limpiar">Quitar filtros</button></form>';
     }
     function badgesN(n) {
       var cl = n.ambito === 'Salta' ? 'sal' : n.ambito === 'Nación' ? 'nac' : 'mix';
-      return '<span class="b ' + cl + '">' + esc(n.ambito) + '</span><span class="b ind">' + esc(TIPO_NOM[n.tipo]) + '</span>' + (n.vigente === false ? '<span class="b venc">cargo no vigente</span>' : '');
+      return '<span class="b ' + cl + '">' + esc(n.ambito) + '</span><span class="b ind">' + esc(TIPO_NOM[n.tipo]) + '</span>' + (n.vigente === false ? '<span class="b venc">cargo no vigente</span>' : '') + (n.ext ? '<span class="b inc" title="El escáner detectó que sus notas hablan de política exterior">probable figura extranjera</span>' : '');
     }
     function badgesE(e) {
       return '<span class="b ' + (e.terr === 'Cruce' ? 'cru' : e.terr === 'Salta' ? 'sal' : 'nac') + '">' + (e.terr === 'Cruce' ? 'Cruce Nación↔Salta' : esc(e.terr)) + '</span>' +
@@ -398,7 +399,7 @@
       return '<details class="lim" open><summary>Qué significa y qué no (límites del escáner)</summary><ul>' +
         '<li>Una <b>coaparición</b> sólo indica presencia conjunta en fuentes. No es alianza, relación personal ni causalidad.</li>' +
         '<li>Los vínculos salen de títulos de notas de los últimos ' + (D.ventana || '?') + ' días; no se lee el cuerpo de las notas.</li>' +
-        '<li>Hay <b>frases automáticas ruidosas</b> (expresiones repetidas que no son temas políticos) y figuras extranjeras mezcladas.</li>' +
+        '<li>Hay <b>frases automáticas ruidosas</b> (expresiones repetidas que no son temas políticos) y figuras extranjeras mezcladas (se marcan como «probable figura extranjera» y se pueden ocultar).</li>' +
         '<li>Los <b>nombres por identificar</b> son pistas: no se asocian con personas del padrón por coincidencia de nombre.</li>' +
         '<li>Cada vínculo guarda sólo sus 2 notas más recientes. «Vencido» = sin notas nuevas hace más de ' + VENCE_DIAS + ' días.</li>' +
         '<li>No hay fechas de inicio/fin de cargos compartidos ni afiliaciones: ese tipo de vínculo documentado todavía no está cargado.</li></ul>' +
@@ -452,6 +453,7 @@
       var t = ev.target, k;
       if ((k = t.getAttribute('data-f'))) { S.F[k] = k === 'dias' ? +t.value : t.value; pintar('#' + t.id); }
       else if ((k = t.getAttribute('data-par'))) { S.F.par[k] = t.checked ? 1 : 0; pintar(); }
+      else if (t.hasAttribute('data-sinext')) { S.F.sinExt = t.checked; pintar(); }
       else if ((k = t.getAttribute('data-via'))) { S.F[k] = t.checked; pintar(); }
     });
     root.addEventListener('click', function (ev) {
