@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-10-20T23:18:52.515984+00:00",
+  "generated_at": "2026-10-20T23:22:54.832100+00:00",
   "by_politician": {
     "dip-guillermo-alejandro-kripper": {
-      "total": 15,
+      "total": 16,
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 15,
-      "score_sum": 0
+      "score_sum": -2
+    },
+    "snac-flavia-royon": {
+      "total": 93,
+      "positivo": 7,
+      "negativo": 9,
+      "neutral": 77,
+      "score_sum": 5
+    },
+    "dip-carlos-ignacio-jorge-de-la-zerda": {
+      "total": 3,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 1,
+      "score_sum": 4
+    },
+    "dip-fabio-enrique-lopez": {
+      "total": 10,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 8,
+      "score_sum": -1
     },
     "dip-jose-miguel-gauffin": {
       "total": 27,
@@ -386,13 +407,6 @@
       "neutral": 2,
       "score_sum": 4
     },
-    "dip-carlos-ignacio-jorge-de-la-zerda": {
-      "total": 2,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 1,
-      "score_sum": 6
-    },
     "dip-luis-fernando-albeza": {
       "total": 15,
       "positivo": 1,
@@ -441,13 +455,6 @@
       "negativo": 1,
       "neutral": 1,
       "score_sum": -1
-    },
-    "dip-fabio-enrique-lopez": {
-      "total": 9,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 1
     },
     "dip-patricio-penalba-arias": {
       "total": 11,
@@ -945,16 +952,6 @@
         "score_sum": -2
       }
     },
-    "2026-08-04": {
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-10-21": {
       "snac-flavia-royon": {
         "total": 2,
@@ -970,6 +967,18 @@
       }
     },
     "2026-10-20": {
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-carlos-ignacio-jorge-de-la-zerda": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
@@ -16186,6 +16195,10 @@
       "count": 11
     },
     {
+      "term": "diputados",
+      "count": 8
+    },
+    {
       "term": "pasa",
       "count": 7
     },
@@ -16198,15 +16211,19 @@
       "count": 6
     },
     {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "royón",
+      "count": 5
+    },
+    {
       "term": "josé",
       "count": 5
     },
     {
       "term": "contra",
-      "count": 5
-    },
-    {
-      "term": "diputados",
       "count": 5
     },
     {
@@ -16220,14 +16237,6 @@
     {
       "term": "gente",
       "count": 5
-    },
-    {
-      "term": "flavia",
-      "count": 4
-    },
-    {
-      "term": "royón",
-      "count": 4
     },
     {
       "term": "mangione",

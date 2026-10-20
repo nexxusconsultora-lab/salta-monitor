@@ -13651,13 +13651,17 @@
     "id": "dip-fabio-enrique-lopez",
     "name": "Fabio Enrique López",
     "role": "Diputado/a provincial por Molinos",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-13": {
         "total": 1,
         "score_sum": 1
@@ -13699,6 +13703,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Diputados piden sanciones a padres y adultos que se pongan violentos en eventos deportivos y culturales",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-piden-sanciones-a-padres-y-adultos-que-se-pongan-violentos-en-eventos-deportivos-y-culturales_a6ad7e06ab7bd4e5edcd9cb36",
+        "source": "Informate Salta",
+        "date": "Tue, 20 Oct 2026 23:15:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Emergencias climáticas: el Comité de Emergencias se reunió con intendentes del Valle Calchaquí",
         "link": "https://informatesalta.com.ar/gobierno/emergencias-climaticas--el-comite-de-emergencias-se-reunio-con-intendentes-del-valle-calchaqui_a6ace8aff20a9aaff7696a0d9",
@@ -21171,15 +21182,19 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 92,
+    "total_mentions": 93,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 76
+      "neutral": 77
     },
     "sentiment_by_day": {
       "2025-10-21": {
         "total": 2,
+        "score_sum": 0
+      },
+      "2026-10-20": {
+        "total": 1,
         "score_sum": 0
       },
       "2025-10-26": {
@@ -21485,6 +21500,10 @@
         "count": 5
       },
       {
+        "term": "senadora",
+        "count": 5
+      },
+      {
         "term": "congreso",
         "count": 4
       },
@@ -21493,8 +21512,8 @@
         "count": 4
       },
       {
-        "term": "pasa",
-        "count": 4
+        "term": "nacional",
+        "count": 3
       },
       {
         "term": "nuevo",
@@ -21511,6 +21530,12 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
         "date": "Tue, 21 Oct 2025 07:00:00 GMT"
+      },
+      {
+        "quote": "Hay que analizar un mecanismo",
+        "source": "Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMkpfVl9mTlR4QUZkNkhCZC0ySGFCdi1qMVdnSVBiRnJKY3pNOG5RLVZmNWxwOVBTTVd4MFNXZ3U0WFduOWZIUXJfZURsUFRPbU5pSnhFZmdPRDVmMWpzenF0ZnQ4T2YxVDJlZ3pZQXFyc0daa1VWa0dvdi1CM1JDMVVvclA1RUlaUk9QakFUX0sxa1NVQnQ3Q0RWdnk5RDVZMWVnSVZqT3BUUkpDbGtYUjJoNl9ELUNCSXJVa2MzemI1UnlNQzdKRjFyTXJwSDNhY1lpNU12OFlBZzdlMjJR0gH6AUFVX3lxTE5CdXVpUjJSM0xzaWxNRS1GU3VWU2I2UkE2QVZxRXlZc2lsWmktcjlTN2k5by1GS0ZiTWVGU1FKSmdUeGo2YUtKcDY5akNoczNkaFR0SGRKOUpKeFgteDR4cl9EU3BsNkNQUC1ncTlRczZUdk84bnFWdXA3ZUhyOENzTFNwMGE2cWVhSy1tMmFHUXBEa1RhMU1pazJWWE54eWVwUUtzNXJZU1ZHYzRVdE04ZENDNEZDYVlwcmY1UlNDVU9wT2ptdmlJUjhxcEhIb1RxY2w5dEZqVzE1YzJ6RlFxS3o1dm9xb3VvTnkwN1hyY2J2Mk5ENFFKVVE?oc=5",
+        "date": "Tue, 20 Oct 2026 00:57:00 GMT"
       },
       {
         "quote": "Tenemos que llevar la voz de la provincia al Congreso",
@@ -21589,12 +21614,6 @@
         "source": "quepasasalta.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMkxEak8yRjFfaklUWlYzaVAtR3A0R1dDU1NUY000bDFST1BqUHFCRzhfY2hNa3RNUDV0YkdnMmR6X09BV2RTLTdUTGFRUVRoWVUwQ3RRTWI0OGphRWs3SkJRQjBQbVZENUVyaHhtTHAyNDVwa3NPcm9HZXM1RE1MSlBnQjdTN1hkcE83dG5LM00yZmRmUXFfZ09aMVZaQm9jc2x5RnhBUWJ0eVlMY0pJS1NfazRBcWVnSUE?oc=5",
         "date": "Mon, 08 Sep 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "El empleo no se crea ni se destruye solamente por una reforma laboral",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeWdRVnhnSnNsdW14WV8wSDNkdC1Rb3dvdGhiZVhPMUZaQjNyN0MyaWNBYkZSdVJscXJxMy0wSDhlOEFHR1F6YW10REx1M3VVQWg3YWRnVVVnSlg4WEtsSncwbW1pR0dmWHBhSVhZZm80VDYzNmM2ZzVOZTBYeGJHV0Q1NEN6ZlJCRk5sN3JqVkhEOUNFYmtTOUloenRpX2t0R3ZxQ3R0YWVSMkRnY1NrWlhCTDZTV0ljNTFYRFlrUGswQnhPdHdISEotWjVSaTRmVHc?oc=5",
-        "date": "Wed, 11 Feb 2026 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21623,6 +21642,13 @@
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
         "source": "Que Pasa Salta",
         "date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "La senadora nacional Flavia Royón propuso que las PASO sean voluntarias: “Hay que analizar un mecanismo” - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMkpfVl9mTlR4QUZkNkhCZC0ySGFCdi1qMVdnSVBiRnJKY3pNOG5RLVZmNWxwOVBTTVd4MFNXZ3U0WFduOWZIUXJfZURsUFRPbU5pSnhFZmdPRDVmMWpzenF0ZnQ4T2YxVDJlZ3pZQXFyc0daa1VWa0dvdi1CM1JDMVVvclA1RUlaUk9QakFUX0sxa1NVQnQ3Q0RWdnk5RDVZMWVnSVZqT3BUUkpDbGtYUjJoNl9ELUNCSXJVa2MzemI1UnlNQzdKRjFyTXJwSDNhY1lpNU12OFlBZzdlMjJR0gH6AUFVX3lxTE5CdXVpUjJSM0xzaWxNRS1GU3VWU2I2UkE2QVZxRXlZc2lsWmktcjlTN2k5by1GS0ZiTWVGU1FKSmdUeGo2YUtKcDY5akNoczNkaFR0SGRKOUpKeFgteDR4cl9EU3BsNkNQUC1ncTlRczZUdk84bnFWdXA3ZUhyOENzTFNwMGE2cWVhSy1tMmFHUXBEa1RhMU1pazJWWE54eWVwUUtzNXJZU1ZHYzRVdE04ZENDNEZDYVlwcmY1UlNDVU9wT2ptdmlJUjhxcEhIb1RxY2w5dEZqVzE1YzJ6RlFxS3o1dm9xb3VvTnkwN1hyY2J2Mk5ENFFKVVE?oc=5",
+        "source": "Infobae",
+        "date": "Tue, 20 Oct 2026 00:57:00 GMT",
         "sentiment_label": "neutral"
       },
       {
@@ -21819,13 +21845,6 @@
         "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONTZKQVp6M3Z3WGtqdG1sWFo2MzZ1bHdRS3dUUy1UUTFtQll2OGhoUW1JQWhRYWptdElCUjlKTUwzZFkzbE1Hd1FySnE2MkhDSlZseUpUMWtEUlV5RnNoaEl6SVA3U2NhZ2daMUtxblBhZGV2Z3RLT1Z3S05WSkdtaHRSSDk0X2RNVm54NVY3RE1wS1ZqeEE4RU1iblNCYklla0had2FIdVRLTmVSOGZDWDg5aUJ0T3dlMFpFb3hmbUVtSV9BRXdqYmpiOUdpOHI3TW1tbEJSQlp3Z1FpeTVleTVBamxhckZnYklvSDd1ZWtqdDBXY1Qtb0NXdG7SAYICQVVfeXFMTXZRYXN4WmhLU09paFlaVk56RHROQVVKSDdGVFUtZjgxaGJEdnZxNWNVNFBzYjk0NXR5aVo2bnZYQ3VWUllGb0E3LTZhVGVuSElUSlBGZjJpdW1LS1ZHU29MZTZfY2RlTVVlcGk3dXlPVGRMb0E3dnNWRU96eVFVeG1ZY3hxdVBzeDJtTHg2SzVIMmVCSjRoVnk2aGhJYi1ONEdwQ1Q5R3VsQVc3TG5hNUp3eHU5YkhNWGk3YW42bzVCX19VbkZFZjJQZEpaWVVKclRLeVlzRmVBTGNEVVRZMlFZNU1hYW5HYnY4MHJvN3RxS1lCN1B6cXBEQkZDLU9vT2VR?oc=5",
         "source": "Voces Criticas - Salta",
         "date": "Fri, 08 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salta pisa fuerte en el Senado: Flavia Royón asume en Minería - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGREX3Y1NVl2SzQ2cWJLMGhpczVQODNnZkZGX2d6eWdpNjJnOGQ5WWpoVnR2TVphejVQVmdwbTlZSDlpRnZJUjlGZFZ6b3p5Ni00Q3dmSjRGU0l3REVkSFliRXI5aDd0NUtRODIySzZiNTRrZ2hvd3Z0MjhHNmFqdkRtcFZPLXdLbjRlQkVOX3VldWpIejgxTzRaOA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 27 Aug 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -26287,13 +26306,17 @@
     "id": "dip-carlos-ignacio-jorge-de-la-zerda",
     "name": "Carlos Ignacio Jorge de la Zerda",
     "role": "Diputado/a provincial por Cerrillos",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 1
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 6
@@ -26307,6 +26330,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Diputados piden sanciones a padres y adultos que se pongan violentos en eventos deportivos y culturales",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-piden-sanciones-a-padres-y-adultos-que-se-pongan-violentos-en-eventos-deportivos-y-culturales_a6ad7e06ab7bd4e5edcd9cb36",
+        "source": "Informate Salta",
+        "date": "Tue, 20 Oct 2026 23:15:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
         "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
@@ -26327,16 +26357,20 @@
     "id": "dip-guillermo-alejandro-kripper",
     "name": "Guillermo Alejandro Kripper",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 15
     },
     "sentiment_by_day": {
       "2025-11-26": {
         "total": 4,
         "score_sum": 0
+      },
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": -2
       },
       "2025-02-05": {
         "total": 1,
@@ -26435,6 +26469,13 @@
         "source": "Que Pasa Salta",
         "date": "Wed, 26 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
+      },
+      {
+        "title": "Diputados piden sanciones a padres y adultos que se pongan violentos en eventos deportivos y culturales",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-piden-sanciones-a-padres-y-adultos-que-se-pongan-violentos-en-eventos-deportivos-y-culturales_a6ad7e06ab7bd4e5edcd9cb36",
+        "source": "Informate Salta",
+        "date": "Tue, 20 Oct 2026 23:15:00 GMT",
+        "sentiment_label": "negativo"
       },
       {
         "title": "Guillermo Kripper pica en punta como el candidato a senador por el saencismo - Elintra.com.ar",
