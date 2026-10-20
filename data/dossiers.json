@@ -18784,13 +18784,25 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 35,
+    "total_mentions": 38,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 16,
-      "neutral": 17
+      "negativo": 18,
+      "neutral": 18
     },
     "sentiment_by_day": {
+      "2026-10-19": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "2025-02-05": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "2025-07-21": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2020-07-31": {
         "total": 1,
         "score_sum": -2
@@ -18851,10 +18863,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2025-07-21": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2024-05-08": {
         "total": 1,
         "score_sum": 0
@@ -18887,10 +18895,26 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 2
+        "count": 5
       },
       {
         "term": "lópez",
+        "count": 5
+      },
+      {
+        "term": "intendenta",
+        "count": 2
+      },
+      {
+        "term": "carlos",
+        "count": 2
+      },
+      {
+        "term": "denunció",
+        "count": 2
+      },
+      {
+        "term": "pasa",
         "count": 2
       }
     ],
@@ -19007,6 +19031,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La Intendenta de San Carlos denunció al concejal Pablo López - FM Noticias 88.1 Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ2hGdEVxWmZVMlhBckM3T1d5d1JfMEUtRllNQktaeUkzcEtPdmxJWEFDWXI2MTliUG1FaTYxd0RNSGxzTW1udVNfUmZHWjI3aG9aZ0p5QVZmS3cteXhRdkZnakt5NmRDMHh1VE5PTElaQ0VDVUNiM0w0RlhqQkh3VmRMcVRvTTRMelV0eVdJWTE1Zjh2SGtxVGJFVC0yNEHSAZ8BQVVfeXFMT2doRnRFcVpmVTJYQXJDN09XeXdSXzBFLUZZTUJLWnlJM3BLT3ZsSVhBQ1lyNjE5YlBtRWk2MXdETUhsc01tbnVTX1JmR1oyN2hvWmdKeUFWZkt3LXl4UXZGZ2pLeTZkQzB4dVROT0xJWkNFQ1VDYjNMNEZYakJId1ZkTHFUb000THpVdHlXSVkxNWY4dkhrcVRiRVQtMjRB?oc=5",
+        "source": "FM Noticias 88.1 Salta",
+        "date": "Mon, 19 Oct 2026 23:30:55 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "La intendenta de San Carlos denunció a Pablo López por calumnias e injurias - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaklIMmN4WGJKN0lwcHpUbTVPYUZzS0FmYU5ONzgxNnd2cGlod0ZTM3hWMDRLcEkwNGJjVEhqYVFZa21nZXF0dk1UNTlGalZiekt6QXBKNnROSlZvRG1RblM1X2NFa0NFai1KcEZJb2YxSDZLdVRkRTBzTV96UUg3cXBDT0NTdUNCU0dMVENud05lUU1NZU42YjdRenctTl9fVGU2OEE0ZFVvcDYyaDAxNC1hMS1LVlVHeDhuUW4yYmI?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 05 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Quién es Alejandro Papadópulos, el reemplazo de Pablo López en Concejo Delibertante - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYlRrS0RkQnplYnBRQzlrYjB5VC1FS2tPV1JLSXpYcFJyNm42aGVPS1AyVG96Qks0aVVtUnJpS2MxeWI4dDZUVURMSUx0Vy1pVmxfR1EzRUVNRS1lYU01emEtc21KdW1JWmpvLWVTYV9xa3BmR3VXajJXT2luT25raWdDbFd1OVJtYl8wY1dtRjZfZFpINS15UUY4bXp1Q3YtTVNMMmxDbDdMYmFNUGp2SDE4bEM?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 21 Jul 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Pablo López criticó a legisladores opositores: \"Buscan obstruir la gobernabilidad\" - Ambito",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTdyc3c5blR3MWVyTUFPdk11T0pMSjh6aU44Y1RSY1NJYWNBeW5XTnhPWnBKNHVFQWwxajNnT0dGeHZtcWxsTGJrMXhBMks4cFhiUXdoZjZoRUJBQlU2Tk1PYlFZSmw0djZRMldDZkhKdDBNQk1WLW84V1lUOXVMdS1MdG0zc3I2WGpVNFY4Z29tOGJJeDVxN25NTWJZNTE0aFJlMm96OGdZSmh3UzgtekM2MDBzSWMwTy1KUWpFRVZqTnhlOHdJ0gHMAUFVX3lxTE95VFNRRVp0SXVTSjRkX0NtQUxzZVJZckkyM1ktUEhWbVZ3RTZCMkhQU2NXVHBrelFOOHdtR2otaE0yV3RJelV6QzFPN1pfOHVRUWlEQkhqUzJ2NE1xVDRETDFrZk9EMXlkaDduTW9zazZVTVN5akNoSFpjeW5TaDU2M2pGSmRfUW42eG1YcW95OFhSS2h2LTZ5SnVnang4M2Rpdk1GZUF4NWFMQjI1Qmk0QkN0bllXTy1zcU9hdFpVanhJS1EzMnZZdUI0UQ?oc=5",
@@ -19194,27 +19239,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQ0VIMXQxamNMemdSSE5WWkItbkF4WkpTV3lQRVFxUEFJVFg3LXhLelFMQ2FQM1FManRLeHlqVkZlUGNMNDdTaE1zR1I5dTRfU2dxTmd6c095MDNaRU94WGdaVkVrMnd5NF9DQ0dQNUFzcl9VZ1dVbDBQMmpnekt3SGwybkV5UU40LURZUGphcmV0X2kzTU9NM1VheUxxdTJsbEVmcUhXMlFTTHFfSjREQWQ3RmxqQmFORjJaUjBZZnE4dllHeWdHejc5dTJWWG04aFM1Q3M0QUtoSW9idjBndEJmM1nSAeoBQVVfeXFMTXdRTi1ORmtxSWROM2RmTUZrV3pxbmV2YUVaZVUtazVJdE11dkNZdV9QU2N2SEp5aHBHTXVRNGdhNzFMam54QnRNbFA3ckRoY3kxVUtfcFlvRGFHZkFoTTRXREJFLWxQZFB5dXVfU09wR2ZfaDBKMExvM2ZIa3R2dEx1SXpUR2xTN19LOUtoeWJMSkhETUZpWkdEQXhFNWdoVG1DLUFBZUozMHdKckRTX2hFU1JnYlZlNlhXOEtKLWpzaXdtT25naGxMbDNjdkthd282TEp6WWlRRGFjXzZGX0RZbEVQYWpPMzVB?oc=5",
         "source": "eltribuno.com",
         "date": "Fri, 18 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "AUDIOS SEXUALES. El concejal de LLA Pablo López renunció al Concejo Deliberante: afirmó ser víctima de hostigamiento - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbUQ2ZzBaaU96NnBsYlpJT1F3QkxmX0x3X2luMXcwVjJuT0p5RDZxQ0oweFB1eFl0WnoxMXZhYVM2dlRYRHgwdlhLbE8zSHhTbTVzVTRZRV9qWWk1bmh3ekc1RE5NOWlOSklvZC1CSnF2WC0zYlVSa0gxd0JmeWFsNkxvVHQ0THJNTjc3Tm1KMXgxYTdaYVI3OEFLR3h5M2gzNzBsVFpoVC0wcUFIYUlTeV9MVmlqSzdXR2c1UnY2MG9rYW0zTUE?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "El escándalo sexual explotó a nivel nacional y obligó a los libertarios a echar a López del partido - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVXkySFB5MGRkakJ6dzB6aVZUSHJ6SFQ3SEU3UVI3b0xyc2NXV0taQW02Rnl5dHowN2F1SnRLV2ZJLXl2eHVFUlZhMEgzb0JuWmtUb0h5VGlrTFF6MFVjcl94WURjeUhmSk11V3doaTJfakx3YkxKUW1SeXdXMXFNcU9CYUFtMm9uUktBUmxwaWNkNXRGMm1XaExrdXIyd2pIc25lMmd3ZFZPb2E0UzBHMFRNWFctcHdkcFY5bnhXSkVZWWh4dDJFMVoyLWxmdEpzRkNKbExGRE1oM1NzaVlmTtIB5gFBVV95cUxNTmdRLS1wVDhJNVNzNk1nVXltd0c3cjR2QnJTZXNWTk9YdDUxcVJSbVVwc2RybFo2NFRucmFNS3VVaC11amd5c2RsbVN3UDN6WTJkM21qeTIwY0FRcVFqVkYwWXBtaUtpQnpING9PMWYtcV9EWE9UbVVoWDgwRjU3dUhLQmZsOXVWckdBeU1GT09TRkxCOTF5U1ZlOWhhalE1eFJFR1RydGNlb2pya21Pd3NLc2JYc1MxYUR0cjNoQmZrczFGdmdHRldIS0phTFV6dWNxUGVGSVlkRFNiZUFCaVJObnZlQQ?oc=5",
-        "source": "eltribuno.com",
-        "date": "Sat, 19 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "AUDIOS SEXUALES. Tras el escándalo de Pablo López La Libertad Avanza Salta difundió un comunicado - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVXU4eEhLWERmelI4cTBId0N6b2dvQVZMNk5tRUI5Q05QbnRFOWRYaXVWVUdSV092emFST0VJRXI0UFJfa3pnenBueVQxMS15VmZ2U1lKSnUzZFpPZFJyekhIMGVoM3pOYWw1SlRzemVuQk5hTGtRTWxqRzFkZFlaREpUd01xck81MUNrandGVWJpMFQza1JDSlJkNHU4V1c1OWRWNXpIRGl5Tk5KdUs3X1hiaFJHcVhxWFFRdkVYbUhOWkZfaHItM3JMS3pIa2U4T1ZucjhMV05FTXE0NWEw0gHkAUFVX3lxTE93NzNpR2F1SDlWOTJpai1CclNLRVEwaUhiY0VfbzBfTURRMm1KUVlyYm83a3NlMTMtcC1uaG9FT3hRMk1UVG9yWElCUWtFOW5pZWxXckJ2VERCdEppSjNPZUxMTzZhdmdqdEF3NTNic2ZFRi1yenprbnFDT1ZTNGZIQXJqQjNqdDhfYWNNOUVzR3RUZWJ4bWZEZF9KbVQ0VmF5UUJ5UzVaaUZ1bVNkRHFBZ01rQlA4MlBOM1B5bnhRWllveVFXekVXRUt6WWVkdjcwNHh5VzNySUg1TE5Rc0VaSGhSeg?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -25439,13 +25463,17 @@
     "id": "dip-griselda-edith-galleguillos",
     "name": "Griselda Edith Galleguillos",
     "role": "Diputado/a provincial por Rosario de Lerma",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 15
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2026-09-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-12-30": {
         "total": 1,
         "score_sum": 0
@@ -25526,10 +25554,14 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galleguillos",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -25586,6 +25618,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Griselda Galleguillos respaldó el financiamiento de Salta: «Es la urgencia» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSHRNcjJxaDBwYlA1TXU0SU0zbnUzcUtCWGpZZXdvX0dHV2VTSFZ5V2JRTWkwakFYclQyTlpCOXNDUEZQeU5XS29XQXh3V1lLQW9NcDFsTnAyQkVNeWQyeXlSS21GTzdZMlNFRlg3NEU0SXFrcG9SV0FLckdrR2pNcDR5TmI0dzY3UkVtdUVEQzRvZTh5SV8td054ME1tclVOZkRIMWFJdWN3a28?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Reír para no llorar: Griselda Galleguillos se entrena para “enfrentar” a Socorro Villamayor - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOU95N3N5RTdhaDVITXVJUFptbGY0MjhyUnQwOXZ4WTN4V3dKTzVuMGJqTl9FRDRpSmpzUUVQZEIxemc3NFVIOU1RR1o2dnJQWTdMUWZ2My1tdDJTOFh2dzlQb3ZsNGt1Vi15WnRBRkxYM2l2WXZjWmVTalg1NnhKTjl0aGxHQ0hQYVU5aUdvTlV4aXV0UGhhWmpELVJxb2ZBN1g4VUlwRTR3T05MUHlzQjgyNTZqZFdQVzNGZ2g0Y0Y?oc=5",
@@ -25788,13 +25827,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 24,
+    "total_mentions": 25,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
+      "2022-12-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-07-31": {
         "total": 1,
         "score_sum": 0
@@ -25884,7 +25927,20 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "josé",
+        "count": 2
+      },
+      {
+        "term": "gauffín",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "poco transparente",
@@ -25925,6 +25981,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffín no estará para la votación del Presupuesto 2023 - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2RralBtWHdzUkZKRGJ2Mm50U1ZmSFdfTUlwb0UzVFVGZGFhSUI4dUhOUHhvd1NFaHl3cTV0U2w1Ni1NbFNNakd3Yi1zSkRROHBDOXM3YnU5eWl6SmVWUlZodDBKcDZuTXNvR3lKOFNua3lpU2ZYRExLOERrakNvQWJaa3I1S20zYVJWbFI4OG5SUy1QZE9NelN6WQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 28 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "En contramano de Gustavo Sáenz, para el diputado José Gauffín, el voto electrónico puede ser “poco transparente” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLUNoTEY4czBvTy1OQjdGTkJpZ210RWZYYmUybzRRTHlILVpLVnoxc2tPa0NQTlVkcFZxakd0YW1xOU40ZGV0T2ptZE43OTIyX1diT3dZak9rNHEzVTc0RDBKWmVkWlVOYUJqMmF0a3BaUmdkZE9kc1ZPVS1nUVE2YzVqdlJxaGVBeVppNExOM1FtTmhpbldXS3FWdDkwbmNPOXhDY1pnM01PRGNxXzVRZ291Vl8xeGhOWnpZc20zUlk0VUJzSmNtYzViU3lQUjR2ZDVKVjUxcGprWHc?oc=5",

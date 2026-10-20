@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-10-20T12:05:11.656493+00:00",
+  "generated_at": "2026-10-20T13:05:49.975092+00:00",
   "by_politician": {
+    "dip-jose-miguel-gauffin": {
+      "total": 25,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": -6
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 21,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 16,
+      "score_sum": -5
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 38,
+      "positivo": 2,
+      "negativo": 18,
+      "neutral": 18,
+      "score_sum": -40
+    },
     "eje-ignacio-jarsun": {
       "total": 29,
       "positivo": 3,
       "negativo": 4,
       "neutral": 22,
       "score_sum": 3
-    },
-    "dip-griselda-edith-galleguillos": {
-      "total": 20,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 15,
-      "score_sum": -5
     },
     "snac-flavia-royon": {
       "total": 91,
@@ -246,13 +260,6 @@
       "neutral": 6,
       "score_sum": 36
     },
-    "dip-jose-miguel-gauffin": {
-      "total": 24,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 20,
-      "score_sum": -6
-    },
     "concejal-dario-madile": {
       "total": 72,
       "positivo": 4,
@@ -266,13 +273,6 @@
       "negativo": 10,
       "neutral": 17,
       "score_sum": -24
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 35,
-      "positivo": 2,
-      "negativo": 16,
-      "neutral": 17,
-      "score_sum": -36
     },
     "eje-gustavo-carrizo": {
       "total": 5,
@@ -927,6 +927,64 @@
     }
   },
   "by_day": {
+    "2022-12-28": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-09-08": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-19": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 9,
+        "score_sum": 2
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dnac-bernardo-biella": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
+    "2025-02-05": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-07-21": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2025-08-27": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -1279,24 +1337,6 @@
         "score_sum": 0
       }
     },
-    "2026-10-19": {
-      "gustavo-saenz": {
-        "total": 9,
-        "score_sum": 2
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dnac-bernardo-biella": {
-        "total": 2,
-        "score_sum": -4
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 3
-      }
-    },
     "2025-11-28": {
       "snac-flavia-royon": {
         "total": 2,
@@ -1555,12 +1595,6 @@
         "score_sum": 0
       },
       "sen-luis-altamirano": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-02-05": {
-      "dip-guillermo-alejandro-kripper": {
         "total": 1,
         "score_sum": 0
       }
@@ -3135,16 +3169,6 @@
       "gustavo-saenz": {
         "total": 1,
         "score_sum": 1
-      }
-    },
-    "2026-09-08": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2024-04-04": {
@@ -8333,12 +8357,6 @@
         "score_sum": -2
       },
       "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-07-21": {
-      "concejal-pablo-emanuel-lopez": {
         "total": 1,
         "score_sum": 0
       }
@@ -16102,12 +16120,16 @@
       "count": 16
     },
     {
+      "term": "elintra",
+      "count": 9
+    },
+    {
       "term": "gustavo",
       "count": 8
     },
     {
-      "term": "elintra",
-      "count": 7
+      "term": "pasa",
+      "count": 6
     },
     {
       "term": "diario",
@@ -16122,6 +16144,18 @@
       "count": 5
     },
     {
+      "term": "financiamiento",
+      "count": 4
+    },
+    {
+      "term": "carlos",
+      "count": 4
+    },
+    {
+      "term": "pablo",
+      "count": 4
+    },
+    {
       "term": "jarsún",
       "count": 4
     },
@@ -16134,27 +16168,11 @@
       "count": 4
     },
     {
-      "term": "pasa",
-      "count": 4
-    },
-    {
       "term": "tribuno",
       "count": 4
     },
     {
-      "term": "diputados",
-      "count": 3
-    },
-    {
-      "term": "flavia",
-      "count": 3
-    },
-    {
-      "term": "royón",
-      "count": 3
-    },
-    {
-      "term": "mónica",
+      "term": "josé",
       "count": 3
     }
   ],
