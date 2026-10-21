@@ -85,7 +85,8 @@
       if (w <= 1) motivos.push('una sola nota: es una pista, no un patrón');
       var indirecta = par !== 'pp';
       var terr = (a.cruce || (a.nn > 0 && a.ns > 0)) ? 'Cruce' : (a.nn > 0 ? 'Nación' : 'Salta');
-      var e = { id: k, a: a.a, b: a.b, w: w, nn: a.nn || 0, ns: a.ns || 0, primera: pri, ultima: ult, ev: ev, par: par, terr: terr, cruce: !!a.cruce, nueva: !!a.nueva,
+      var conf = (a.c === 'alta' || a.c === 'media' || a.c === 'baja') ? a.c : null;
+      var e = { id: k, conf: conf, medios: a.m == null ? null : a.m, dias: a.d == null ? null : a.d, a: a.a, b: a.b, w: w, nn: a.nn || 0, ns: a.ns || 0, primera: pri, ultima: ult, ev: ev, par: par, terr: terr, cruce: !!a.cruce, nueva: !!a.nueva,
         vencida: vencida, incompleta: motivos.length > 0, motivos: motivos, indirecta: indirecta, edad: tu == null ? null : Math.round((out.ref - tu) / DAY) };
       out.aristas.push(e);
       (out.ady[a.a] = out.ady[a.a] || []).push(e); (out.ady[a.b] = out.ady[a.b] || []).push(e);
@@ -106,7 +107,7 @@
   }
 
   /* ------------------------------------------------------------------ filtros, búsqueda, rutas */
-  function filtroBase() { return { terr: '', par: { pp: 1, pt: 1, pf: 1, pc: 1, tt: 1 }, dias: 0, estado: '', sinExt: false, viaTemas: true, viaFrases: false, viaPorConocer: false }; }
+  function filtroBase() { return { terr: '', par: { pp: 1, pt: 1, pf: 1, pc: 1, tt: 1 }, dias: 0, estado: '', conf: '', sinExt: false, viaTemas: true, viaFrases: false, viaPorConocer: false }; }
   function pasa(D, e, F) {
     if (F.terr && e.terr !== F.terr) return false;
     if (F.par && !F.par[e.par]) return false;
@@ -115,6 +116,8 @@
     if (F.estado === 'vigente' && e.vencida) return false;
     if (F.estado === 'vencida' && !e.vencida) return false;
     if (F.estado === 'incompleta' && !e.incompleta) return false;
+    if (F.conf === 'media' && e.conf === 'baja') return false;
+    if (F.conf === 'alta' && e.conf !== 'alta') return false;
     return true;
   }
   function conexiones(D, id, F) { return (D.ady[id] || []).filter(function (e) { return pasa(D, e, F || filtroBase()); }); }
@@ -249,6 +252,26 @@
     '.nxc svg.ego{width:100%;height:auto;max-height:420px;background:var(--paper,#F3EEE2);border:1px solid var(--nxc-b);border-radius:3px}.nxc svg.ego text{font-size:11px;fill:var(--ink,#211D1A)}.nxc .sr{position:absolute;left:-9999px}';
   function estilo() { if (document.getElementById('nxc-css')) return; var s = document.createElement('style'); s.id = 'nxc-css'; s.textContent = CSS; document.head.appendChild(s); }
 
+  /* ------------------------------------------------------------------ en común y novedades */
+  function enComun(D, ida, idb, F) {
+    var f = F || filtroBase(), mapa = {}, directo = null;
+    (D.ady[ida] || []).forEach(function (e) { var o = otro(e, ida); if (o === idb) { directo = e; return; } if (pasa(D, e, f)) mapa[o] = e; });
+    var res = [];
+    (D.ady[idb] || []).forEach(function (e) { var o = otro(e, idb); if (o === ida || !mapa[o] || !pasa(D, e, f)) return; res.push({ id: o, ea: mapa[o], eb: e, min: Math.min(mapa[o].w, e.w) }); });
+    res.sort(function (x, y) { return y.min - x.min; });
+    return { directo: directo, comunes: res };
+  }
+  function novedades(D, F, dias) {
+    var f = F || filtroBase(), lim = dias || 7;
+    return D.aristas.filter(function (e) { return pasa(D, e, f) && (e.nueva || (e.edad != null && e.edad <= lim)); })
+      .sort(function (x, y) { return (y.ultima || '').localeCompare(x.ultima || '') || y.w - x.w; });
+  }
+  function copiar(texto, boton) {
+    function ok(m) { if (boton) { var t = boton.textContent; boton.textContent = m; setTimeout(function () { if (boton.isConnected) boton.textContent = t; }, 1800); } }
+    try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(texto).then(function () { ok('Copiado'); }, function () { ok('No se pudo copiar'); }); return; } } catch (e) { }
+    try { var ta = document.createElement('textarea'); ta.value = texto; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); var r = document.execCommand('copy'); document.body.removeChild(ta); ok(r ? 'Copiado' : 'No se pudo copiar'); } catch (e2) { ok('No se pudo copiar'); }
+  }
+
   /* ------------------------------------------------------------------ interfaz */
   var uid = 0;
   function mount(el, params) {
@@ -269,6 +292,7 @@
       if (p.par) { Object.keys(f.par).forEach(function (k) { f.par[k] = 0; }); String(p.par).split(',').forEach(function (k) { if (f.par.hasOwnProperty(k)) f.par[k] = 1; }); }
       if (p.dias) f.dias = +p.dias || 0;
       if (p.estado) f.estado = p.estado;
+      if (p.conf) f.conf = p.conf;
       if (p.actor) { var a = resolver(D, p.actor); if (a) S.a = a.id; else S.msg = 'No encontré un único actor para «' + p.actor + '». Elegilo en el buscador.'; }
       if (p.destino) { var b = resolver(D, p.destino); if (b) S.b = b.id; else S.msg = 'No encontré un único actor para «' + p.destino + '». Elegilo en el buscador.'; }
       if (S.a && S.b) S.vista = 'ruta'; else if (p.vista) S.vista = p.vista;
@@ -283,6 +307,7 @@
         '<div><label for="' + id0 + 'ft">Territorio del vínculo</label><select id="' + id0 + 'ft" data-f="terr">' + opt('', 'Todos', f.terr) + opt('Salta', 'Sólo notas de medios de Salta', f.terr) + opt('Nación', 'Sólo notas de medios nacionales', f.terr) + opt('Cruce', 'Cruce Nación↔Salta (ambos tipos de medios)', f.terr) + '</select></div>' +
         '<div><label for="' + id0 + 'fd">Período (última coaparición)</label><select id="' + id0 + 'fd" data-f="dias">' + opt('0', 'Todo el relevado (' + (D.ventana || '?') + ' días)', String(f.dias)) + opt('7', 'Últimos 7 días', String(f.dias)) + opt('14', 'Últimos 14 días', String(f.dias)) + opt('30', 'Últimos 30 días', String(f.dias)) + '</select></div>' +
         '<div><label for="' + id0 + 'fe">Estado</label><select id="' + id0 + 'fe" data-f="estado">' + opt('', 'Todos', f.estado) + opt('vigente', 'Sólo vigentes', f.estado) + opt('vencida', 'Sólo vencidos (sin notas hace más de ' + VENCE_DIAS + ' días)', f.estado) + opt('incompleta', 'Sólo con evidencia incompleta', f.estado) + '</select></div>' +
+        '<div><label for="' + id0 + 'fc">Confianza mínima</label><select id="' + id0 + 'fc" data-f="conf">' + opt('', 'Cualquiera', f.conf) + opt('media', 'Media o alta', f.conf) + opt('alta', 'Sólo alta', f.conf) + '</select></div>' +
         '<fieldset><legend>Tipo de vínculo (entre qué se da la coaparición)</legend>' + Object.keys(PAR_NOM).map(function (k) { return '<label class="i"><input type="checkbox" data-par="' + k + '"' + (f.par[k] ? ' checked' : '') + '> ' + PAR_NOM[k] + '</label>'; }).join('') + '</fieldset>' +
         '<label class="i"><input type="checkbox" data-sinext' + (f.sinExt ? ' checked' : '') + '> Ocultar probables figuras extranjeras</label><button type="button" data-act="limpiar">Quitar filtros</button></form>';
     }
@@ -292,6 +317,7 @@
     }
     function badgesE(e) {
       return '<span class="b ' + (e.terr === 'Cruce' ? 'cru' : e.terr === 'Salta' ? 'sal' : 'nac') + '">' + (e.terr === 'Cruce' ? 'Cruce Nación↔Salta' : esc(e.terr)) + '</span>' +
+        (e.conf ? '<span class="b ' + (e.conf === 'alta' ? 'nue' : e.conf === 'baja' ? 'venc' : 'ind') + '" title="Confianza según notas, medios y días distintos que sostienen el vínculo">confianza ' + e.conf + '</span>' : '') +
         (e.indirecta ? '<span class="b ind" title="Vincula a un actor con un tema, una frase o un nombre sin identificar, no a dos personas">indirecto</span>' : '') +
         (e.vencida ? '<span class="b venc">vencido</span>' : '<span class="b nue">vigente</span>') + (e.incompleta ? '<span class="b inc">incompleto</span>' : '') + (e.nueva ? '<span class="b nue">nuevo</span>' : '');
     }
@@ -341,7 +367,7 @@
         '<dt>Evidencia</dt><dd>' + (e.indirecta ? 'indirecta: ' + (e.par === 'pt' || e.par === 'pf' ? 'une a un actor con un tema o frase, no con otra persona' : e.par === 'pc' ? 'involucra un nombre sin identificar' : 'involucra temas') : 'presencia conjunta de dos personas en la misma nota') + '</dd>' +
         '<dt>Primera / última</dt><dd>' + fmtF(e.primera) + ' / ' + fmtF(e.ultima) + (e.edad != null ? ' (hace ' + e.edad + ' días respecto del escaneo)' : '') + '</dd>' +
         '<dt>Notas</dt><dd>' + e.w + ' en total: ' + e.nn + ' de medios nacionales, ' + e.ns + ' de medios de Salta</dd>' +
-        '<dt>Estado</dt><dd>' + (e.vencida ? 'vencido: sin notas nuevas hace más de ' + VENCE_DIAS + ' días' : 'vigente en la ventana relevada') + '</dd></dl>';
+        '<dt>Confianza</dt><dd>' + (e.conf ? esc(e.conf) + ': ' + e.w + ' notas, ' + (e.medios == null ? '?' : e.medios) + ' medios distintos, ' + (e.dias == null ? '?' : e.dias) + ' días distintos (alta: 3 o más de cada uno; media: 2 o más notas en 2 o más medios; baja: el resto). Mide cuánto respaldo tiene la coaparición, no si la relación es real.' : 'no informada por el archivo') + '</dd><dt>Estado</dt><dd>' + (e.vencida ? 'vencido: sin notas nuevas hace más de ' + VENCE_DIAS + ' días' : 'vigente en la ventana relevada') + '</dd></dl>';
       if (e.incompleta) h += '<h4>Evidencia incompleta</h4><ul>' + e.motivos.map(function (m) { return '<li>' + esc(m) + '</li>'; }).join('') + '</ul>';
       h += '<h4>Notas que sustentan el vínculo</h4>';
       if (!e.ev.length) h += '<p class="vac">El archivo no incluye notas de respaldo para este vínculo. No se puede revisar la fuente.</p>';
@@ -360,7 +386,7 @@
       h += '<h3>Conexiones directas (' + es.length + (es.length !== tot ? ' de ' + tot + ' sin filtrar' : '') + ')</h3>';
       if (!tot) h += '<div class="vac" role="status">Sin conexiones detectadas. ' + esc(n.label) + ' no coaparece con otros actores en las notas relevadas. No se inventan vínculos.</div>';
       else if (!es.length) h += '<div class="vac" role="status">Ningún vínculo cumple los filtros. <button data-act="limpiar">Quitar filtros</button></div>';
-      else h += '<p><button data-act="csv">Descargar CSV de estas conexiones</button></p>' + tablaEdges(n, es);
+      else h += '<p><button data-act="csv">Descargar CSV de estas conexiones</button> <button data-act="copiar">Copiar resumen</button></p>' + tablaEdges(n, es);
       h += S.sel ? '<div id="' + id0 + 'dw">' + detalleVinculo(S.sel) + '</div>' : (es.length ? '<p class="vac">Elegí «Evidencia» en un vínculo para ver las notas que lo sustentan.</p>' : '');
       if (n.notasEj && n.notasEj.length) h += '<h3>Notas recientes donde aparece</h3><ul class="ev">' + n.notasEj.slice(0, 5).map(function (x) { return '<li>' + (x.url ? '<a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.titulo) + '</a>' : esc(x.titulo)) + '<br><small>' + esc(x.medio) + ' · ' + fmtF(x.fecha) + '</small></li>'; }).join('') + '</ul>';
       return h;
@@ -385,6 +411,49 @@
       return h;
     }
     function nombreBtn(id) { var n = D.nodos[id]; return n ? '<button class="lnk" data-act="actor" data-id="' + esc(id) + '">' + esc(n.label) + '</button>' : esc(id); }
+    function lineaE(n, e) { var o = D.nodos[otro(e, n)]; return '- ' + o.label + ' (' + TIPO_NOM[o.tipo].toLowerCase() + '): ' + e.w + ' nota' + (e.w === 1 ? '' : 's') + (e.medios != null ? ' en ' + e.medios + ' medio' + (e.medios === 1 ? '' : 's') : '') + ', última ' + (e.ultima || 'sin fecha') + (e.conf ? ', confianza ' + e.conf : '') + (e.vencida ? ', vencida' : ''); }
+    function textoResumen() {
+      var t = 'Explorador de conexiones · datos del ' + (D.generado || '').slice(0, 10) + '\nAviso: una coaparición sólo indica presencia conjunta en notas; no prueba una relación.\n\n';
+      if (S.vista === 'novedades') {
+        var nv = novedades(D, S.F, 7); t += 'Vínculos con notas en los últimos 7 días (' + nv.length + '):\n';
+        return t + nv.slice(0, 40).map(function (e) { return '- ' + D.nodos[e.a].label + ' ↔ ' + D.nodos[e.b].label + ': ' + e.w + ' notas, última ' + e.ultima + (e.conf ? ', confianza ' + e.conf : ''); }).join('\n');
+      }
+      if (S.vista === 'comun' && S.a && S.b) {
+        var c = enComun(D, S.a, S.b, S.F); t += 'Conexiones en común entre ' + D.nodos[S.a].label + ' y ' + D.nodos[S.b].label + ' (' + c.comunes.length + '):\n';
+        return t + c.comunes.slice(0, 40).map(function (x) { return '- ' + D.nodos[x.id].label + ': con el primero ' + x.ea.w + ' notas, con el segundo ' + x.eb.w; }).join('\n');
+      }
+      if (S.a && D.nodos[S.a]) {
+        var es = conexiones(D, S.a, S.F).sort(function (x, y) { return y.w - x.w; });
+        return t + explicaActor(D, S.a, S.F) + '\n\n' + es.slice(0, 20).map(function (e) { return lineaE(S.a, e); }).join('\n');
+      }
+      return t + 'Sin actor elegido.';
+    }
+    function vistaComun() {
+      var h = '<p>Elegí dos actores para ver con quién coinciden: personas, temas o nombres que aparecen en notas junto a <b>ambos</b>. Sirve para detectar intermediarios o terrenos compartidos; no prueba que haya relación entre ellos.</p>';
+      if (!S.a || !S.b) return h + '<div class="vac" role="status">Falta elegir ' + (!S.a && !S.b ? 'los dos actores' : !S.a ? 'el primer actor' : 'el segundo actor') + '.</div>';
+      if (S.a === S.b) return h + '<div class="vac" role="status">Elegiste el mismo actor dos veces.</div>';
+      var A = D.nodos[S.a], B = D.nodos[S.b], r = enComun(D, S.a, S.b, S.F);
+      h += '<h3>' + esc(A.label) + ' y ' + esc(B.label) + '</h3>';
+      h += r.directo ? '<p>Aparecen juntos en ' + plural(r.directo.w, 'nota', 'notas') + ' (última ' + fmtF(r.directo.ultima) + ') ' + badgesE(r.directo) + '</p>' : '<p>No aparecen juntos en ninguna nota relevada.</p>';
+      if (!r.comunes.length) return h + '<div class="vac" role="status">No hay actores que coaparezcan con ambos con los filtros actuales. Eso no prueba que no se conozcan.</div>';
+      h += '<p><button data-act="copiar">Copiar resumen</button></p><p role="status">' + plural(r.comunes.length, 'actor en común', 'actores en común') + ':</p><ul class="ev">';
+      r.comunes.slice(0, 40).forEach(function (x) {
+        var n = D.nodos[x.id];
+        h += '<li>' + nombreBtn(x.id) + ' <small>(' + esc(TIPO_NOM[n.tipo].toLowerCase()) + ' · ' + esc(n.ambito) + ')</small><br><small>con ' + esc(A.label) + ': ' + plural(x.ea.w, 'nota', 'notas') + (x.ea.conf ? ', confianza ' + x.ea.conf : '') + ' · con ' + esc(B.label) + ': ' + plural(x.eb.w, 'nota', 'notas') + (x.eb.conf ? ', confianza ' + x.eb.conf : '') + '</small></li>';
+      });
+      return h + '</ul>' + (r.comunes.length > 40 ? '<p><small>Se muestran 40 de ' + r.comunes.length + '.</small></p>' : '');
+    }
+    function vistaNovedades() {
+      var nv = novedades(D, S.F, 7);
+      var h = '<p>Vínculos con notas en los últimos 7 días antes del escaneo (' + fmtF(D.generado) + '), o marcados como nuevos. Respeta los filtros de arriba. Si los datos están viejos, la lista sale vacía: no es que no haya novedades, es que hay que volver a escanear.</p>';
+      if (!nv.length) return h + '<div class="vac" role="status">Sin vínculos recientes con los filtros actuales.</div>';
+      var cr = nv.filter(function (e) { return e.terr === 'Cruce' && e.par === 'pp'; });
+      h += '<p><button data-act="copiar">Copiar resumen</button></p><p role="status">' + plural(nv.length, 'vínculo reciente', 'vínculos recientes') + (cr.length ? ', ' + cr.length + ' entre personas con notas de Nación y de Salta' : '') + '.</p><ul class="ev">';
+      nv.slice(0, 40).forEach(function (e) {
+        h += '<li>' + nombreBtn(e.a) + ' ↔ ' + nombreBtn(e.b) + ' ' + badgesE(e) + '<br><small>' + plural(e.w, 'nota', 'notas') + ' · última ' + fmtF(e.ultima) + '</small></li>';
+      });
+      return h + '</ul>' + (nv.length > 40 ? '<p><small>Se muestran 40 de ' + nv.length + '.</small></p>' : '');
+    }
     function vistaPanorama() {
       var h = '<p class="aviso" role="note">Estos son resultados del escáner automático, no una validación. Que haya muchos vínculos o puentes no los vuelve más ciertos: cada uno se revisa con sus notas.</p>';
       h += '<p>Relevado el ' + fmtF(D.generado) + ': ' + D.notas.toLocaleString('es-AR') + ' notas de los últimos ' + D.ventana + ' días · ' + Object.keys(D.nodos).length + ' actores · ' + D.aristas.length + ' vínculos · ' + D.puentes.length + ' temas puente.</p>';
@@ -410,13 +479,13 @@
       return '<div class="cb"><label for="' + id0 + idx + '">' + lab + '</label><input type="text" id="' + id0 + idx + '" data-pk="' + key + '" role="combobox" aria-expanded="false" aria-controls="' + id0 + idx + 'l" aria-autocomplete="list" autocomplete="off" value="' + esc(n ? n.label : '') + '" placeholder="Escribí un nombre…"><ul class="lb" id="' + id0 + idx + 'l" role="listbox" hidden></ul></div>';
     }
     function pintar(foco) {
-      var tabs = [['actor', 'Actor y conexiones'], ['ruta', 'Rutas entre dos actores'], ['panorama', 'Panorama del escáner']];
+      var tabs = [['actor', 'Actor y conexiones'], ['ruta', 'Rutas entre dos actores'], ['comun', 'En común'], ['novedades', 'Novedades'], ['panorama', 'Panorama del escáner']], dos = S.vista === 'ruta' || S.vista === 'comun';
       var h = '<h2 id="' + id0 + 't">Explorador de conexiones</h2>' +
         '<p class="aviso" role="note"><b>Una coaparición sólo indica presencia conjunta en fuentes.</b> No significa alianza, relación personal ni causalidad. Cada vínculo muestra las notas que lo sustentan.</p>' + limites() +
-        '<div class="bar">' + picker('a', S.vista === 'ruta' ? 'Actor de origen' : 'Buscar actor', S.a, 'a') + (S.vista === 'ruta' ? picker('b', 'Actor de destino', S.b, 'b') : '') + '</div>' +
+        '<div class="bar">' + picker('a', dos ? (S.vista === 'ruta' ? 'Actor de origen' : 'Primer actor') : 'Buscar actor', S.a, 'a') + (dos ? picker('b', S.vista === 'ruta' ? 'Actor de destino' : 'Segundo actor', S.b, 'b') : '') + '</div>' +
         (S.msg ? '<p class="aviso" role="alert">' + esc(S.msg) + '</p>' : '') + filtros() +
         '<div role="tablist" aria-label="Vistas">' + tabs.map(function (t) { return '<button role="tab" id="' + id0 + 'tb' + t[0] + '" aria-selected="' + (S.vista === t[0]) + '" tabindex="' + (S.vista === t[0] ? 0 : -1) + '" data-act="vista" data-id="' + t[0] + '">' + t[1] + '</button>'; }).join('') + '</div>' +
-        '<div role="tabpanel" aria-labelledby="' + id0 + 'tb' + S.vista + '">' + (S.vista === 'actor' ? vistaActor() : S.vista === 'ruta' ? vistaRuta() : vistaPanorama()) + '</div>';
+        '<div role="tabpanel" aria-labelledby="' + id0 + 'tb' + S.vista + '">' + (S.vista === 'actor' ? vistaActor() : S.vista === 'ruta' ? vistaRuta() : S.vista === 'comun' ? vistaComun() : S.vista === 'novedades' ? vistaNovedades() : vistaPanorama()) + '</div>';
       root.innerHTML = h;
       if (foco) { var f = root.querySelector(foco); if (f) f.focus(); }
     }
@@ -431,7 +500,7 @@
       lb.hidden = false; inp.setAttribute('aria-expanded', 'true'); pickIdx = -1;
     }
     function elegir(inp, id) {
-      S[inp.getAttribute('data-pk')] = id; S.sel = ''; S.msg = ''; if (S.vista === 'panorama') S.vista = 'actor';
+      S[inp.getAttribute('data-pk')] = id; S.sel = ''; S.msg = ''; if (S.vista === 'panorama' || S.vista === 'novedades') S.vista = 'actor';
       pintar('#' + inp.id);
       var estado = root.querySelector('[role=tabpanel]'); if (estado) estado.setAttribute('tabindex', '-1');
     }
@@ -466,6 +535,7 @@
       else if (a === 'limpiar') { S.F = Object.assign(filtroBase(), { viaTemas: S.F.viaTemas, viaFrases: S.F.viaFrases, viaPorConocer: S.F.viaPorConocer }); pintar(); }
       else if (a === 'todas') { S.mostrarTodas = true; pintar(); }
       else if (a === 'csv') csv();
+      else if (a === 'copiar') copiar(textoResumen(), b);
     });
     function csv() {
       var n = D.nodos[S.a], es = conexiones(D, S.a, S.F), q = function (v) { return '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"'; };
@@ -481,8 +551,8 @@
   var API = {
     version: VERSION, mount: function (el, p) { activo = mount(el, p); return activo; },
     abrir: function (p) { if (activo) activo.abrir(p); else { location.hash = '#/conexiones' + (p && p.actor ? '/' + encodeURIComponent(p.actor) + (p.destino ? '/' + encodeURIComponent(p.destino) : '') : ''); } },
-    core: { adaptar: adaptar, filtroBase: filtroBase, conexiones: conexiones, buscar: buscar, resolver: resolver, rutas: rutas, explicaActor: explicaActor, explicaRuta: explicaRuta, explicaVinculo: explicaVinculo, VENCE_DIAS: VENCE_DIAS },
-    parametros: { actor: 'texto o id (p:..., n:..., t:...)', destino: 'texto o id', territorio: 'salta|nacion|cruce', par: 'pp,pt,pf,pc,tt', dias: '7|14|30', estado: 'vigente|vencida|incompleta', vista: 'actor|ruta|panorama' }
+    core: { adaptar: adaptar, filtroBase: filtroBase, conexiones: conexiones, buscar: buscar, resolver: resolver, rutas: rutas, explicaActor: explicaActor, explicaRuta: explicaRuta, explicaVinculo: explicaVinculo, VENCE_DIAS: VENCE_DIAS, enComun: enComun, novedades: novedades },
+    parametros: { actor: 'texto o id (p:..., n:..., t:...)', destino: 'texto o id', territorio: 'salta|nacion|cruce', par: 'pp,pt,pf,pc,tt', dias: '7|14|30', estado: 'vigente|vencida|incompleta', conf: 'media|alta', vista: 'actor|ruta|comun|novedades|panorama' }
   };
   if (typeof window !== 'undefined') window.NewarConexiones = API;
   if (typeof module !== 'undefined' && module.exports) module.exports = API;
@@ -493,5 +563,10 @@
       setTimeout(function () { var el = document.getElementById(cont); if (el) API.mount(el, { actor: id ? decodeURIComponent(id) : '', destino: id2 ? decodeURIComponent(id2) : '' }); }, 0);
       return '<div id="' + cont + '"></div>';
     };
+    /* Entrar directo por un enlace #/conexiones/...: si la página ya eligió la vista antes de que este módulo se registrara, se vuelve a rutear una vez. */
+    try {
+      var reintento = function () { if (/^#\/conexiones(\/|$)/.test(location.hash) && !document.querySelector('.nxc')) { try { window.dispatchEvent(new HashChangeEvent('hashchange')); } catch (e) { } } };
+      if (document.readyState === 'complete') setTimeout(reintento, 300); else window.addEventListener('load', function () { setTimeout(reintento, 600); });
+    } catch (e) { }
   }
 })();
