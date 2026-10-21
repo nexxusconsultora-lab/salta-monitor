@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-10-20T23:22:54.832100+00:00",
+  "generated_at": "2026-10-21T00:09:32.976822+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 22,
+      "positivo": 4,
+      "negativo": 1,
+      "neutral": 17,
+      "score_sum": 32
+    },
     "dip-guillermo-alejandro-kripper": {
-      "total": 16,
+      "total": 17,
       "positivo": 0,
       "negativo": 1,
-      "neutral": 15,
+      "neutral": 16,
       "score_sum": -2
     },
     "snac-flavia-royon": {
@@ -35,13 +42,6 @@
       "negativo": 5,
       "neutral": 22,
       "score_sum": -8
-    },
-    "snac-flavia-royon": {
-      "total": 92,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 76,
-      "score_sum": 5
     },
     "eje-federico-mangione": {
       "total": 28,
@@ -147,13 +147,6 @@
       "negativo": 3,
       "neutral": 7,
       "score_sum": -5
-    },
-    "eje-antonio-marocco": {
-      "total": 20,
-      "positivo": 4,
-      "negativo": 1,
-      "neutral": 15,
-      "score_sum": 32
     },
     "dnac-pablo-outes": {
       "total": 15,
@@ -934,9 +927,49 @@
     }
   },
   "by_day": {
+    "2023-05-14": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-05-23": {
+      "eje-antonio-marocco": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2025-11-26": {
       "dip-guillermo-alejandro-kripper": {
-        "total": 4,
+        "total": 5,
         "score_sum": 0
       },
       "dip-gustavo-bernardo-dantur": {
@@ -954,7 +987,7 @@
     },
     "2025-10-21": {
       "snac-flavia-royon": {
-        "total": 2,
+        "total": 3,
         "score_sum": 0
       },
       "dip-monica-gabriela-juarez": {
@@ -978,10 +1011,6 @@
       "dip-fabio-enrique-lopez": {
         "total": 1,
         "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
       },
       "eje-federico-mangione": {
         "total": 2,
@@ -4766,36 +4795,6 @@
         "score_sum": 0
       }
     },
-    "2023-05-14": {
-      "eje-mario-mimessi": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2018-06-30": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -5258,12 +5257,6 @@
       "eje-antonio-marocco": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2023-05-23": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-07-10": {
@@ -16195,12 +16188,12 @@
       "count": 11
     },
     {
-      "term": "diputados",
-      "count": 8
+      "term": "pasa",
+      "count": 9
     },
     {
-      "term": "pasa",
-      "count": 7
+      "term": "diputados",
+      "count": 8
     },
     {
       "term": "gustavo",
@@ -16231,10 +16224,6 @@
       "count": 5
     },
     {
-      "term": "informate",
-      "count": 5
-    },
-    {
       "term": "gente",
       "count": 5
     },
@@ -16244,6 +16233,10 @@
     },
     {
       "term": "carlos",
+      "count": 4
+    },
+    {
+      "term": "pablo",
       "count": 4
     }
   ],
