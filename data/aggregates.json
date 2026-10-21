@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-21T19:02:09.626697+00:00",
+  "generated_at": "2026-10-21T20:59:05.934715+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 319,
+      "positivo": 76,
+      "negativo": 51,
+      "neutral": 192,
+      "score_sum": 128
+    },
+    "eje-sergio-camacho": {
+      "total": 20,
+      "positivo": 4,
+      "negativo": 3,
+      "neutral": 13,
+      "score_sum": 25
+    },
     "eje-federico-mangione": {
       "total": 32,
       "positivo": 2,
@@ -78,13 +92,6 @@
       "neutral": 18,
       "score_sum": 32
     },
-    "gustavo-saenz": {
-      "total": 315,
-      "positivo": 74,
-      "negativo": 51,
-      "neutral": 190,
-      "score_sum": 122
-    },
     "snac-emilia-orozco": {
       "total": 69,
       "positivo": 8,
@@ -105,13 +112,6 @@
       "negativo": 10,
       "neutral": 44,
       "score_sum": -9
-    },
-    "eje-sergio-camacho": {
-      "total": 19,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 12,
-      "score_sum": 25
     },
     "eje-ignacio-jarsun": {
       "total": 31,
@@ -927,6 +927,40 @@
     }
   },
   "by_day": {
+    "2026-10-21": {
+      "gustavo-saenz": {
+        "total": 13,
+        "score_sum": 4
+      },
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": -1
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-erica-yanina-castro-nieva": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-federico-mangione": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 2,
+        "score_sum": 5
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-05-04": {
       "eje-federico-mangione": {
         "total": 1,
@@ -1091,40 +1125,6 @@
       "sen-daniel-moreno-ovalle": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-21": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-erica-yanina-castro-nieva": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-federico-mangione": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 2,
-        "score_sum": 5
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 9,
-        "score_sum": -2
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": -1
       }
     },
     "2024-08-12": {
@@ -16339,23 +16339,27 @@
     },
     {
       "term": "sáenz",
-      "count": 19
+      "count": 21
     },
     {
       "term": "orozco",
-      "count": 13
+      "count": 12
     },
     {
       "term": "flavia",
-      "count": 11
+      "count": 10
     },
     {
       "term": "royón",
-      "count": 11
+      "count": 10
     },
     {
       "term": "pasa",
       "count": 10
+    },
+    {
+      "term": "gustavo",
+      "count": 9
     },
     {
       "term": "pidió",
@@ -16378,16 +16382,12 @@
       "count": 8
     },
     {
-      "term": "gustavo",
-      "count": 8
-    },
-    {
       "term": "diputados",
-      "count": 8
+      "count": 7
     },
     {
-      "term": "gente",
-      "count": 7
+      "term": "camacho",
+      "count": 6
     },
     {
       "term": "salud",
