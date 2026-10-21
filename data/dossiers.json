@@ -30769,16 +30769,16 @@
     "id": "eje-nicolas-avellaneda",
     "name": "Nicolás Avellaneda",
     "role": "Ministro de Seguridad",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 0,
       "neutral": 9
     },
     "sentiment_by_day": {
       "2026-10-21": {
-        "total": 2,
-        "score_sum": 5
+        "total": 3,
+        "score_sum": 9
       },
       "2026-10-18": {
         "total": 1,
@@ -30828,6 +30828,18 @@
     "top_topics": [
       {
         "term": "seguridad",
+        "count": 3
+      },
+      {
+        "term": "ataque",
+        "count": 2
+      },
+      {
+        "term": "fuerza",
+        "count": 2
+      },
+      {
+        "term": "pública",
         "count": 2
       },
       {
@@ -30838,6 +30850,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tras el ataque, el Ministerio de Seguridad respalda el uso de la fuerza pública",
+        "link": "https://informatesalta.com.ar/policiales/tras-el-ataque--el-ministerio-de-seguridad-respalda-el-uso-de-la-fuerza-publica_a6ad8e953da877e356cd87826",
+        "source": "Informate Salta",
+        "date": "Wed, 21 Oct 2026 18:15:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Tras el ataque, Seguridad ratifica respaldo a policía en el uso de la fuerza pública",
         "link": "https://informatesalta.com.ar/policiales/tras-el-ataque--seguridad-ratifica-respaldo-a-policia-en-el-uso-de-la-fuerza-publica_a6ad8e953da877e356cd87826",
