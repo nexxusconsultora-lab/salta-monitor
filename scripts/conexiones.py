@@ -346,6 +346,22 @@ VERBAL = re.compile(r"(o|aron|ieron|ara|era|ira|aria|eria|iria|ando|iendo)$")
 VERBAL = re.compile(r"(aron|ieron|ando|iendo|aria|eria|iria)$|^(dejo|denuncio|rechazo|prohibieron|ingresar|reclamo|pidio|dijo|anuncio)$")
 
 
+# Nombres que NO son actores políticos (deportistas, espectáculos, víctimas de casos, lugares): se descartan siempre.
+NO_POLITICOS = {norm(x) for x in ("Lionel Messi", "Julieta Prandi", "Salvador Mazza", "Fernando Báez Sosa", "Báez Sosa")}
+# Figuras extranjeras conocidas: se marcan como tales aunque el título no lo diga.
+EXTRANJEROS = {norm(x) for x in ("Marco Rubio", "Pedro Sánchez", "Daniel Noboa", "Iván Cepeda", "Luz Adriana Camargo",
+                                 "Flávio Bolsonaro", "Eduardo Bolsonaro", "Rafael Grossi")}
+
+
+def confianza(w, medios, dias):
+    """Nivel de respaldo de una conexión según cuántas notas, medios y días distintos la sostienen."""
+    if w >= 3 and medios >= 3 and dias >= 3:
+        return "alta"
+    if w >= 2 and medios >= 2:
+        return "media"
+    return "baja"
+
+
 def candidatos_de(titulo, conocidas_norm, ignorar):
     """Nombres propios de 2-4 palabras no conocidos. Devuelve [(nombre, cargo|None)]."""
     out = {}
@@ -371,7 +387,7 @@ def candidatos_de(titulo, conocidas_norm, ignorar):
             continue
         nombre = " ".join(toks)
         nn = norm(nombre)
-        if nn in ignorar:
+        if nn in ignorar or nn in NO_POLITICOS:
             continue
         # si ya es (o contiene a) una persona conocida, no es candidato
         if nn in conocidas_norm or any(c in nn.split() and len(c) > 4 for c in conocidas_norm if " " not in c):
@@ -486,7 +502,7 @@ def main():
         cargo = st["cargos"].most_common(1)[0][0] if st["cargos"] else ""
         ext = sum(1 for x in st["h"] if EXT.search(x["f"])) >= 0.5 * len(st["h"])
         nodos[cid] = {"id": cid, "t": "c", "l": st["nombre"], "a": "mix", "k": "por conocer", "r": cargo}
-        if ext:
+        if ext or norm(st["nombre"]) in EXTRANJEROS:
             nodos[cid]["x"] = 1        # figura extranjera probable
 
     # ---- grafo
@@ -572,6 +588,11 @@ def main():
     for e in L:
         o = {"a": e["a"], "b": e["b"], "w": e["w"], "nn": e["nn"], "ns": e["ns"], "p": e["p"].strftime("%Y-%m-%d"),
              "u": e["u"].strftime("%Y-%m-%d"), "e": recientes(e["h"])}
+        meds = set().union(*[x["medios"] for x in e["h"]])
+        dias_e = {x["ts"].strftime("%Y-%m-%d") for x in e["h"]}
+        o["m"] = len(meds)
+        o["d"] = len(dias_e)
+        o["c"] = confianza(e["w"], len(meds), len(dias_e))
         if e["p"] >= corte_nuevas:
             o["nueva"] = 1
         aa, bb = amb_de.get(e["a"]), amb_de.get(e["b"])
