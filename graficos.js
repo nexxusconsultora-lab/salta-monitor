@@ -43,6 +43,9 @@ const TONO={positivo:'Positivo',neutral:'Neutral',negativo:'Negativo','sin tono'
 /* ---------- Fuentes de datos ---------- */
 const pLg=()=>personas.map(p=>[p,(p.cargos||[]).find(c=>c.v===1&&c.p&&c.p.chamber!=='Ejecutivo')]).filter(x=>x[1]);
 const ofItems=()=>{const W=win();return((S.of&&S.of.items)||[]).filter(x=>{const ts=Date.parse(x.fecha_publicacion||'')||Date.parse(x.first_seen||'')||0;return ts>=W[0]&&ts<W[1]})};
+let CXD=null;try{fetch('data/conexiones.json').then(r=>r.ok?r.json():null).then(d=>{CXD=d}).catch(()=>{})}catch(e){}
+const CXN='Fuente: data/conexiones.json (escáner de coapariciones en títulos de notas'+'; una coaparición no prueba una relación). Si el gráfico sale vacío, esperá unos segundos y volvé a abrirlo.';
+const cxCuenta=f=>CXD?cuenta(CXD.aristas,f):[];
 const SRC={
  prensa_medio:{g:'Prensa',t:'Notas por medio',u:'notas',f:{per:1,amb:1,q:1},fn:()=>cuenta(filtraNotas(),n=>n.mn)},
  prensa_tono:{g:'Prensa',t:'Notas por tono',tono:1,u:'notas',f:{per:1,amb:1,q:1},fn:()=>cuenta(filtraNotas(),n=>TONO[n.sent]||n.sent),fijo:1},
@@ -64,6 +67,9 @@ const SRC={
  evolucion:{g:'Prensa',t:'Evolución semanal de palabras (líneas)',u:'notas',f:{per:1,amb:1,terms:1},linea:1,nota:'Cuenta, semana por semana, las notas cuyo título contiene cada palabra. La última semana puede estar incompleta.'},
  of_fuente:{g:'Publicaciones oficiales',t:'Publicaciones por fuente',u:'publicaciones',f:{per:1},fn:()=>cuenta(ofItems(),x=>x.fuente||'Sin fuente')},
  of_tipo:{g:'Publicaciones oficiales',t:'Publicaciones por tipo de acto',u:'publicaciones',f:{per:1},fn:()=>cuenta(ofItems(),x=>x.tipo_acto||'Sin tipo')},
+ con_conf:{g:'Conexiones',t:'Conexiones por nivel de confianza',u:'conexiones',f:{},fn:()=>cxCuenta(e=>({alta:'Alta',media:'Media',baja:'Baja'}[e.c]||'Sin dato')),fijo:1,nota:CXN+' La confianza mide cuántas notas, medios y días distintos sostienen la coaparición (alta: 3 o más de cada uno; media: 2 o más notas en 2 o más medios; baja: el resto).'},
+ con_terr:{g:'Conexiones',t:'Conexiones: Salta, Nación o cruce',u:'conexiones',f:{},fn:()=>cxCuenta(e=>e.cruce||(e.nn>0&&e.ns>0)?'Cruce Nación↔Salta':e.nn>0?'Solo medios nacionales':'Solo medios de Salta'),fijo:1,nota:CXN},
+ con_actores:{g:'Conexiones',t:'Actores con más conexiones de confianza alta',u:'conexiones',f:{},fn:()=>{if(!CXD)return[];const m={},N={};CXD.nodos.forEach(n=>{if(n.t==='p'||n.k==='por conocer')N[n.id]=n.l});CXD.aristas.forEach(e=>{if(e.c!=='alta')return;[e.a,e.b].forEach(i=>{if(N[i])m[i]=(m[i]||0)+1})});return Object.keys(m).map(i=>({l:N[i],v:m[i]}))},nota:CXN+' Solo cuenta personas (y nombres por identificar) con conexiones de confianza alta; la lista no dice qué tipo de relación hay.'},
  of_amb:{g:'Publicaciones oficiales',t:'Publicaciones: Salta vs Nación',u:'publicaciones',f:{per:1},fn:()=>cuenta(ofItems(),x=>/salta/i.test(x.jurisdiccion||'')?'Salta':'Nación'),fijo:1}
 };
 const depto=x=>{x=String(x||'').trim();if(!x)return'Sin dato de departamento';return/^(capital|ciudad de salta|salta|salta capital)$/i.test(fold(x))?'Capital (ciudad de Salta)':x};
