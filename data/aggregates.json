@@ -1,26 +1,40 @@
 {
-  "generated_at": "2026-10-21T21:03:09.068819+00:00",
+  "generated_at": "2026-10-21T22:19:29.623169+00:00",
   "by_politician": {
+    "eje-sergio-camacho": {
+      "total": 21,
+      "positivo": 4,
+      "negativo": 3,
+      "neutral": 14,
+      "score_sum": 25
+    },
+    "concejal-jose-garcia-alcazar": {
+      "total": 31,
+      "positivo": 0,
+      "negativo": 10,
+      "neutral": 21,
+      "score_sum": -24
+    },
+    "concejal-eliana-del-valle-chuchuy": {
+      "total": 5,
+      "positivo": 3,
+      "negativo": 0,
+      "neutral": 2,
+      "score_sum": 8
+    },
+    "gustavo-saenz": {
+      "total": 321,
+      "positivo": 77,
+      "negativo": 52,
+      "neutral": 192,
+      "score_sum": 129
+    },
     "eje-nicolas-avellaneda": {
       "total": 15,
       "positivo": 6,
       "negativo": 0,
       "neutral": 9,
       "score_sum": 13
-    },
-    "gustavo-saenz": {
-      "total": 319,
-      "positivo": 76,
-      "negativo": 51,
-      "neutral": 192,
-      "score_sum": 128
-    },
-    "eje-sergio-camacho": {
-      "total": 20,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 13,
-      "score_sum": 25
     },
     "eje-federico-mangione": {
       "total": 32,
@@ -316,13 +330,6 @@
       "neutral": 58,
       "score_sum": -15
     },
-    "concejal-jose-garcia-alcazar": {
-      "total": 27,
-      "positivo": 0,
-      "negativo": 10,
-      "neutral": 17,
-      "score_sum": -24
-    },
     "eje-gustavo-carrizo": {
       "total": 5,
       "positivo": 1,
@@ -371,13 +378,6 @@
       "negativo": 2,
       "neutral": 12,
       "score_sum": -1
-    },
-    "concejal-eliana-del-valle-chuchuy": {
-      "total": 4,
-      "positivo": 2,
-      "negativo": 0,
-      "neutral": 2,
-      "score_sum": 6
     },
     "sen-carlos-guitian": {
       "total": 11,
@@ -927,14 +927,70 @@
     }
   },
   "by_day": {
+    "2026-07-17": {
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-walter-cruz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2024-04-15": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-12-23": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-10-25": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-08-30": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-09-02": {
+      "concejal-eliana-del-valle-chuchuy": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2026-10-21": {
+      "gustavo-saenz": {
+        "total": 15,
+        "score_sum": 5
+      },
       "eje-nicolas-avellaneda": {
         "total": 3,
         "score_sum": 9
-      },
-      "gustavo-saenz": {
-        "total": 13,
-        "score_sum": 4
       },
       "eje-sergio-camacho": {
         "total": 2,
@@ -2473,20 +2529,6 @@
       "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-07-17": {
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-walter-cruz": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2025-01-31": {
@@ -8747,12 +8789,6 @@
         "score_sum": 0
       }
     },
-    "2022-10-25": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2022-08-25": {
       "dip-gustavo-orlando-orozco": {
         "total": 1,
@@ -12145,12 +12181,6 @@
     },
     "2021-06-11": {
       "sen-hector-dauria": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-04-15": {
-      "sen-carlos-guitian": {
         "total": 1,
         "score_sum": 0
       }
@@ -16335,15 +16365,19 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 29
+      "count": 34
     },
     {
       "term": "sáenz",
-      "count": 21
+      "count": 22
     },
     {
       "term": "orozco",
       "count": 12
+    },
+    {
+      "term": "pasa",
+      "count": 11
     },
     {
       "term": "flavia",
@@ -16354,8 +16388,8 @@
       "count": 10
     },
     {
-      "term": "pasa",
-      "count": 10
+      "term": "josé",
+      "count": 9
     },
     {
       "term": "gustavo",
@@ -16382,16 +16416,12 @@
       "count": 8
     },
     {
-      "term": "diputados",
+      "term": "camacho",
       "count": 7
     },
     {
-      "term": "camacho",
-      "count": 6
-    },
-    {
-      "term": "salud",
-      "count": 6
+      "term": "diputados",
+      "count": 7
     }
   ],
   "comentions": [
