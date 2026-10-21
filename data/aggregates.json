@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-10-21T09:44:43.303535+00:00",
+  "generated_at": "2026-10-21T14:35:30.888095+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 97,
+      "positivo": 8,
+      "negativo": 10,
+      "neutral": 79,
+      "score_sum": 6
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 58,
+      "positivo": 4,
+      "negativo": 10,
+      "neutral": 44,
+      "score_sum": -9
+    },
+    "gustavo-saenz": {
+      "total": 313,
+      "positivo": 73,
+      "negativo": 51,
+      "neutral": 189,
+      "score_sum": 121
+    },
+    "eje-sergio-camacho": {
+      "total": 19,
+      "positivo": 4,
+      "negativo": 3,
+      "neutral": 12,
+      "score_sum": 25
+    },
+    "eje-roberto-dib-ashur": {
+      "total": 50,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 41,
+      "score_sum": 31
+    },
+    "eje-federico-mangione": {
+      "total": 29,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 23,
+      "score_sum": -9
+    },
     "eje-ignacio-jarsun": {
       "total": 31,
       "positivo": 3,
@@ -14,13 +56,6 @@
       "negativo": 2,
       "neutral": 14,
       "score_sum": -4
-    },
-    "snac-flavia-royon": {
-      "total": 94,
-      "positivo": 7,
-      "negativo": 9,
-      "neutral": 78,
-      "score_sum": 5
     },
     "dip-gustavo-orlando-orozco": {
       "total": 44,
@@ -42,13 +77,6 @@
       "negativo": 2,
       "neutral": 38,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 310,
-      "positivo": 73,
-      "negativo": 49,
-      "neutral": 188,
-      "score_sum": 124
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 29,
@@ -99,13 +127,6 @@
       "neutral": 22,
       "score_sum": -8
     },
-    "eje-federico-mangione": {
-      "total": 28,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 23,
-      "score_sum": -6
-    },
     "concejal-agustina-alvarez-eichele": {
       "total": 59,
       "positivo": 4,
@@ -126,20 +147,6 @@
       "negativo": 2,
       "neutral": 25,
       "score_sum": -3
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 49,
-      "positivo": 6,
-      "negativo": 2,
-      "neutral": 41,
-      "score_sum": 34
-    },
-    "eje-sergio-camacho": {
-      "total": 18,
-      "positivo": 4,
-      "negativo": 2,
-      "neutral": 12,
-      "score_sum": 26
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 23,
@@ -231,13 +238,6 @@
       "negativo": 1,
       "neutral": 10,
       "score_sum": 1
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 57,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 43,
-      "score_sum": -9
     },
     "snac-emilia-orozco": {
       "total": 62,
@@ -927,6 +927,116 @@
     }
   },
   "by_day": {
+    "2026-10-19": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 9,
+        "score_sum": 2
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dnac-bernardo-biella": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
+    "2025-07-04": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-06-29": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-21": {
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": -3
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-20": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-carlos-ignacio-jorge-de-la-zerda": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-federico-mangione": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "dip-franco-agustin-lastra": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2022-12-17": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -1053,60 +1163,8 @@
         "score_sum": -2
       }
     },
-    "2026-10-20": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-carlos-ignacio-jorge-de-la-zerda": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-fabio-enrique-lopez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "eje-federico-mangione": {
-        "total": 2,
-        "score_sum": -4
-      },
-      "dip-franco-agustin-lastra": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ignacio-lupion": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "2021-02-11": {
       "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-21": {
-      "gustavo-saenz": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
         "total": 1,
         "score_sum": 0
       }
@@ -1331,28 +1389,6 @@
       "concejal-laura-jorge-saravia": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-19": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 9,
-        "score_sum": 2
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dnac-bernardo-biella": {
-        "total": 2,
-        "score_sum": -4
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 3
       }
     },
     "2025-02-05": {
@@ -12828,12 +12864,6 @@
         "total": 1,
         "score_sum": 0
       }
-    },
-    "2025-07-04": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
     }
   },
   "politicians": [
@@ -16220,15 +16250,23 @@
   ],
   "trending_terms": [
     {
-      "term": "elintra",
-      "count": 14
+      "term": "sáenz",
+      "count": 18
     },
     {
-      "term": "sáenz",
-      "count": 14
+      "term": "elintra",
+      "count": 16
     },
     {
       "term": "pasa",
+      "count": 10
+    },
+    {
+      "term": "flavia",
+      "count": 9
+    },
+    {
+      "term": "royón",
       "count": 9
     },
     {
@@ -16248,16 +16286,20 @@
       "count": 7
     },
     {
-      "term": "flavia",
-      "count": 6
-    },
-    {
-      "term": "royón",
+      "term": "pidió",
       "count": 6
     },
     {
       "term": "gente",
       "count": 6
+    },
+    {
+      "term": "informate",
+      "count": 5
+    },
+    {
+      "term": "mangione",
+      "count": 5
     },
     {
       "term": "pablo",
@@ -16266,18 +16308,6 @@
     {
       "term": "josé",
       "count": 5
-    },
-    {
-      "term": "contra",
-      "count": 5
-    },
-    {
-      "term": "jarsún",
-      "count": 4
-    },
-    {
-      "term": "orozco",
-      "count": 4
     }
   ],
   "comentions": [
