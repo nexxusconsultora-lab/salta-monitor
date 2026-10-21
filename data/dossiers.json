@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 306,
+    "total_mentions": 309,
     "sentiment_breakdown": {
-      "positivo": 72,
-      "negativo": 48,
-      "neutral": 186
+      "positivo": 73,
+      "negativo": 49,
+      "neutral": 187
     },
     "sentiment_by_day": {
+      "2026-10-21": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-07-16": {
         "total": 1,
         "score_sum": 0
@@ -306,11 +310,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 40
+        "count": 42
       },
       {
         "term": "gustavo",
-        "count": 12
+        "count": 13
       },
       {
         "term": "ramales",
@@ -338,6 +342,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "La gente no llega a fin de mes ni al día 20, no tiene para comer",
+        "source": "Gente de Salta",
+        "link": "https://www.gentedesalta.com/politica/fin-sonrisas-gustavo-saenz-javier-milei-la-gente-llega-fin-mes-ni-dia-20-tiene-comer-n13121",
+        "date": "Wed, 21 Oct 2026 00:14:00 -0300"
+      },
       {
         "quote": "Está destrozada",
         "source": "Que Pasa Salta",
@@ -421,16 +431,31 @@
         "source": "El Tribuno - Salta",
         "link": "https://www.eltribuno.com/salta/2026-10-6-20-27-0-gustavo-saenz-destaco-la-nueva-planta-de-litio-de-posco-en-salta-la-mineria-dejo-de-ser-una-promesa-de-escritorio",
         "date": "Tue, 06 Oct 2026 23:27:00 GMT"
-      },
-      {
-        "quote": "Significa más producción, más empleo y más oportunidades para la región",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/mineria/saenz-tras-la-inauguracion-de-posco---significa-mas-produccion--mas-empleo-y-mas-oportunidades-para-la-region-_a6ac54b3e6b27e8e08ec563af",
-        "date": "Tue, 06 Oct 2026 19:30:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Fin de las sonrisas entre Gustavo Sáenz y Javier Milei: \"La gente no llega a fin de mes ni al día 20, no tiene para comer\"",
+        "link": "https://www.gentedesalta.com/politica/fin-sonrisas-gustavo-saenz-javier-milei-la-gente-llega-fin-mes-ni-dia-20-tiene-comer-n13121",
+        "source": "Gente de Salta",
+        "date": "Wed, 21 Oct 2026 00:14:00 -0300",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Salta y el Consejo Federal de Inversiones impulsan el acceso al crédito y fortalecen a los proveedores locales",
+        "link": "https://www.lahoradesalta.com.ar/salta-y-el-consejo-federal-de-inversiones-impulsan-el-acceso-al-credito-y-fortalecen-a-los-proveedores-locales/",
+        "source": "La Hora de Salta",
+        "date": "Wed, 21 Oct 2026 01:11:04 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Sáenz pidió reconsiderar la normativa de ARCA y Aduanas para proteger el comercio fronterizo",
+        "link": "https://www.lahoradesalta.com.ar/saenz-pidio-reconsiderar-la-normativa-de-arca-y-aduanas-para-proteger-el-comercio-fronterizo/",
+        "source": "La Hora de Salta",
+        "date": "Wed, 21 Oct 2026 02:41:05 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El gobernador Sáenz anunció un bono eléctrico provincial para jubilados y pensionados de Salta - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVkxDZXRFWHZNOExYZGJQU1d5VzFQTVhTOWYySDdjQk96akpoU0dUVkJJRGFGUG9JTmJkMG5qQTdMLXFwelVCNzNQSExxZWFZTXlMemhENHdCSWdpMGxxamNqbkF5eDVtZ1hxc2JNSUUzdWV4eGFHRUdvaGZyeFFQRE41dHQtTEsxaEdJZEgzUXNMV1JPNGlwQWpSNy03ak9hZi11ZnpFYjRkM1h5dnhoOXpqeDZ2OUNPTjVBNnRTUW9JRzBJc1dWQ3FJdVNOcUJFMzl6cW5jeldtQQ?oc=5",
@@ -619,27 +644,6 @@
         "source": "Informate Salta",
         "date": "Sat, 17 Oct 2026 12:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Gustavo Sáenz se reunirá con Santilli por los ramales C14 y C15",
-        "link": "https://www.eltribuno.com/salta/2026-10-16-20-43-0-gustavo-saenz-se-reunira-con-santilli-por-los-ramales-c14-y-c15",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 16 Oct 2026 23:43:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Urtubey recorre Salta rumbo a 2027, pero Kosiner marca distancia con Sáenz: “No hay punto de contacto con Milei”",
-        "link": "https://www.gentedesalta.com/politica/urtubey-recorre-salta-rumbo-2027-pero-kosiner-marca-distancia-saenz-no-hay-punto-contacto-milei-n12986",
-        "source": "Gente de Salta",
-        "date": "Fri, 16 Oct 2026 16:52:00 -0300",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Un logro de todos: POSCO Argentina reconoció el compromiso y esfuerzo detrás de la Planta II de Sal de Oro",
-        "link": "https://informatesalta.com.ar/mineria/un-logro-de-todos--posco-argentina-reconocio-el-compromiso-y-esfuerzo-detras-de-la-planta-ii-de-sal-de-oro_a6ad28b6d668d7bc2995b29c2",
-        "source": "Informate Salta",
-        "date": "Fri, 16 Oct 2026 20:42:34 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -22418,13 +22422,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
+      "2026-08-07": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-05-09": {
         "total": 1,
         "score_sum": 0
@@ -22517,14 +22525,18 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 3
+        "count": 4
       },
       {
         "term": "coraita",
-        "count": 3
+        "count": 4
       },
       {
         "term": "gonzalo",
+        "count": 3
+      },
+      {
+        "term": "cuando",
         "count": 2
       }
     ],
@@ -22581,6 +22593,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gonzalo Guzmán Coraita se ofendió cuando lo trataron de «cipayo» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2h6RUJUV3NrSFl5MEVXQmZaNmR0ZXhNZ3IxdUp4aXROb0pCdmZJQ1ZJdUhaY3paU2FZb1pjMl9feEVpTlRVSlNuN2FHOHBkVFk0YUxHRlUtc1gtVllnaGtuOURhMUQyUFVtQ1ZhZzVacGd3Q18tSXByWlBOLTFYUXVZUURYc3dfX09NU1o0RlJpS3JQSl90Y0ZhZlNsZw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 07 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gonzalo Guzmán Coraita - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmQ3NCYkJDa3JWUHE0MHk5cDFMSWRTTGdIR0Q2MU9IbEdwUHY0ZjhEczczZHBFM1RlS1JoVm5FTFUtSzRFbWQ4ZlhzUDYwVi1YYlluNnByamNPbVVtZ2p2QnBMQQ?oc=5",
@@ -30469,13 +30488,17 @@
     "id": "eje-nicolas-avellaneda",
     "name": "Nicolás Avellaneda",
     "role": "Ministro de Seguridad",
-    "total_mentions": 12,
+    "total_mentions": 13,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 0,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2026-10-21": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-18": {
         "total": 1,
         "score_sum": 1
@@ -30525,6 +30548,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Tras el efectivo apuñalado, Salta mete mano dura: llegan las Taser y peligran los ascensos si no saben disparar",
+        "link": "https://informatesalta.com.ar/gobierno/tras-el-efectivo-apunalado--salta-mete-mano-dura--llegan-las-taser-y-peligran-los-ascensos-si-no-saben-disparar_a6ad81d65b7bd4e5edcee2838",
+        "source": "Informate Salta",
+        "date": "Wed, 21 Oct 2026 01:51:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Más de 100 infracciones y 170 identificados tras controles nocturnos en barrios de la Capital",
         "link": "https://informatesalta.com.ar/policiales/mas-de-100-infracciones-y-170-identificados-tras-controles-nocturnos-en-barrios-de-la-capital_a6ad4cf5359b6c25c22fbe805",

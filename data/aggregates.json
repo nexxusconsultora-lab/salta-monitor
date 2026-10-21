@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-21T00:09:32.976822+00:00",
+  "generated_at": "2026-10-21T04:45:52.744586+00:00",
   "by_politician": {
+    "snac-gonzalo-guzman-coraita": {
+      "total": 29,
+      "positivo": 4,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": 0
+    },
+    "gustavo-saenz": {
+      "total": 309,
+      "positivo": 73,
+      "negativo": 49,
+      "neutral": 187,
+      "score_sum": 124
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 13,
+      "positivo": 4,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 4
+    },
     "eje-antonio-marocco": {
       "total": 22,
       "positivo": 4,
@@ -56,13 +77,6 @@
       "negativo": 12,
       "neutral": 43,
       "score_sum": -23
-    },
-    "gustavo-saenz": {
-      "total": 306,
-      "positivo": 72,
-      "negativo": 48,
-      "neutral": 186,
-      "score_sum": 124
     },
     "dip-franco-agustin-lastra": {
       "total": 4,
@@ -218,13 +232,6 @@
       "neutral": 10,
       "score_sum": 1
     },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 28,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 20,
-      "score_sum": 0
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 57,
       "positivo": 4,
@@ -238,13 +245,6 @@
       "negativo": 10,
       "neutral": 44,
       "score_sum": -3
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 12,
-      "positivo": 4,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 4
     },
     "eje-cristina-fiore": {
       "total": 37,
@@ -927,6 +927,34 @@
     }
   },
   "by_day": {
+    "2026-08-07": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-21": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2023-05-14": {
       "eje-antonio-marocco": {
         "total": 1,
@@ -1259,20 +1287,6 @@
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-08-07": {
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-12-02": {
@@ -16181,23 +16195,27 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 14
+      "count": 15
     },
     {
       "term": "elintra",
-      "count": 11
+      "count": 12
+    },
+    {
+      "term": "gustavo",
+      "count": 8
     },
     {
       "term": "pasa",
-      "count": 9
+      "count": 8
     },
     {
       "term": "diputados",
       "count": 8
     },
     {
-      "term": "gustavo",
-      "count": 7
+      "term": "gente",
+      "count": 6
     },
     {
       "term": "diario",
@@ -16221,10 +16239,6 @@
     },
     {
       "term": "nuevo",
-      "count": 5
-    },
-    {
-      "term": "gente",
       "count": 5
     },
     {
