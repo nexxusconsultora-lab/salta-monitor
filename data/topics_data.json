@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-21T04:45:53.536604+00:00",
+  "generated_at": "2026-10-21T09:44:44.157659+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 387,
+      "total_mentions": 388,
       "sentiment_breakdown": {
         "positivo": 22,
-        "negativo": 30,
+        "negativo": 31,
         "neutral": 335
       },
       "sentiment_by_day": {
-        "2026-10-15": {
-          "total": 4,
-          "score_sum": 0
-        },
         "2026-10-20": {
+          "total": 5,
+          "score_sum": -2
+        },
+        "2026-10-15": {
           "total": 4,
           "score_sum": 0
         },
@@ -196,11 +196,11 @@
         },
         {
           "term": "presupuesto",
-          "count": 87
+          "count": 86
         },
         {
           "term": "intransigente",
-          "count": 65
+          "count": 66
         },
         {
           "term": "informate",
@@ -322,6 +322,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Guillermo Michel acusó a Rogelio Frigerio de mentir sobre las cuentas de Entre Ríos - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcWc4NC0wMjA1THNBbHlmNFB5ZWdQMWUzZjVlYmJFcXZMNHg3VmtkOEUySklmbE1sRE9NNjRTeFJCWEVrYzBpSTI1QjhVVUZ1Rkx2aElTSVJsSnNNUlFWR0ZjVktCSEdxb05qb21sRTNvZktwY0h6c3owY1FqSmoxTmsxQkZULUhzMW02VFRWaTdhc2Jna3hTaUg1S3RhMjFQSjA1aFEtZFFLbHIxUFB2SEs5TzUxTVJ4aDFuYWl3aw?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 20 Oct 2026 18:12:14 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Sesión sin quórum: la oposición mostró a diputados de LLA burlándose tras las cortinas - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WNGhNdDNmcFppZlRlZ1c4SlE0a2EyU21YUFNzWDFUSlNtVzNMOWJ0amNsel9XOUhWU2M5d29JU0pSSHZaMHl3eXNma19DNkNZa2I0a1VUVWVBREpQS3VoTHpJUlR0RXVyYU1GS0pYZ2pwOTB6d0tGUw?oc=5",
@@ -524,13 +531,6 @@
           "source": "Informate Salta",
           "date": "Wed, 14 Oct 2026 20:00:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Provincias Unidas rechazó el Presupuesto 2027 en educación: “No podemos convalidar el tratamiento” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkVXX3VWOTJpb2ZrMjM1QWUzRTFRMnR1YVhPRkN2QjczZUtMMVgzT2QxdWJhRnpKOVpvRUpJQUpWcG40QnJTUWtEZ3hxM0h5WXYwWlpHU1hlSnVGdEtvMTI4ME1ncjd0dm10ZlBIeElfc29taHBNWmRnN2M2dUFvcXlDNUVzSDVTMjNYQWd2Q1JSSk9pdkpUelZ3WVQyUTNhT0JJOWhrNkY0QURIYklDeDNIaExXUXBnZVU5WEJ6c0ROeWJoMFU3NjhkeVBSdy03?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 14 Oct 2026 23:54:15 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },

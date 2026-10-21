@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 309,
+    "total_mentions": 310,
     "sentiment_breakdown": {
       "positivo": 73,
       "negativo": 49,
-      "neutral": 187
+      "neutral": 188
     },
     "sentiment_by_day": {
       "2026-10-21": {
-        "total": 3,
+        "total": 4,
         "score_sum": 0
       },
       "2026-07-16": {
@@ -436,6 +436,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Comercio fronterizo: planteo a ARCA",
+        "link": "https://www.eltribuno.com/salta/2026-10-20-23-57-0-comercio-fronterizo-planteo-a-arca",
+        "source": "El Tribuno - Salta",
+        "date": "Wed, 21 Oct 2026 04:58:39 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Fin de las sonrisas entre Gustavo Sáenz y Javier Milei: \"La gente no llega a fin de mes ni al día 20, no tiene para comer\"",
         "link": "https://www.gentedesalta.com/politica/fin-sonrisas-gustavo-saenz-javier-milei-la-gente-llega-fin-mes-ni-dia-20-tiene-comer-n13121",
         "source": "Gente de Salta",
@@ -636,13 +643,6 @@
         "link": "https://informatesalta.com.ar/gobierno/belgrano-cargas--saenz-llevara-a-nacion-el-reclamo-de-salta-por-los-ramales-c14-y-c15_a6ad35f395c37e150eb6de8ec",
         "source": "Informate Salta",
         "date": "Sat, 17 Oct 2026 13:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "“No podemos esperar otros 50 años”: el reclamo de Outes por el Belgrano Cargas",
-        "link": "https://informatesalta.com.ar/sociedad/-no-podemos-esperar-otros-50-anos---el-reclamo-de-outes-por-el-belgrano-cargas_a6ad28ba1668d7bc2995b3f29",
-        "source": "Informate Salta",
-        "date": "Sat, 17 Oct 2026 12:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -8664,15 +8664,15 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cartuccia",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -9028,13 +9028,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 37
+      "neutral": 38
     },
     "sentiment_by_day": {
+      "2021-02-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2019-11-13": {
         "total": 2,
         "score_sum": 0
@@ -9191,14 +9195,20 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 2
+        "count": 3
       },
       {
         "term": "exeni",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "La nueva política pide a gritos que se limiten los mandatos",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcVZWV2EyQTBoVm92bXFHNUNxem1nNVJfalJRSWloeTYxVldGdDdPcDFzeUlhakRWUmJmR3Q3Z0xfcG1hQjl1ZHF0LUs4am9UNU5TNDZBZ3FBekVhdlVqNlFNV2M5QlM0d2t0a3BzOHNSZmpsRndGZU1JTTFwMG5aYXVwa3AxdEpSQ0NNNTFfQmUtdzZRQWd1Z19ndGU3a3Q3NUNuaDBfOHJPRXZzbXZCOWItYWNPcHB3RTNxSkkyd0FSMFlyYkpJODJUbVJYU3lYOWR3YllCZU3SAecBQVVfeXFMTXQxSDNqbXhnSDM4NlNlMmFSYzZ6al9XdkVVSlZ3U0VuSVAzRkh1azZ3UDhKYlByUWdVYTl6WlFuRl8wVTlJcEppTmp4ZERXSjMtOFI5bFR0QUJySklhOWMxZGlVcV9qUnVTODl6d3pzUWdVTlBXUUNOZlRPWVloZ294QUNFV0N3XzRrcXEwRDNzVzY5Qmp6cGIxMlRnZDBrQ0hQRkd4b2s5TGdHekdVRHhuLVBxZWh3QTBhYVhxZXA4OGxLbzNIcDdQOGFyUmEtZTlzV2RVa08xLXNpSXRKOHljUUF3dnNV?oc=5",
+        "date": "Thu, 11 Feb 2021 08:00:00 GMT"
+      },
       {
         "quote": "Voy a ser la voz de los pequeños comerciantes en la Legislatura",
         "source": "Que Pasa Salta",
@@ -9282,12 +9292,6 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVTB1Q2U5eUp3YW5xaXJ2OGNKRGpzUmh3dEhoVjBDSUZIeTVGaFh5U0QyRFk4Nm5BYzlVY0xFRV9XdXY2dDhWcXB5bjU3YXpQMGd3UjZWZ1VBRHlQQ3h0ZDhpM0VKaWNzTy0zajg4aDVDWU9xRVVrNzdINmRQbUl4ZW1GeHVRVnE1RVZ1dmlkdGp5QnVOVl9mSDBuTk9IYUVlMWd3S0pRYjFOTXl0d3pXWk1idTU3akYwdmlxdV9GNmXSAcYBQVVfeXFMUFZyRHJycEpWQVVpREZqODI5bFo3cDAtcWdWLVBWcG12RklHczNTaDlBLVk3ODR3XzhGU1Q1SFpYUnFFc183LWF4cW9BSkdBWkVRdUlnZS1HMXVZdWF5MExDTS15dXFzQ1dkdDQ1OGpBR3JEb3dDMEItT0pvVU9ucXo4dGtoU1VuaDIyWG9HdElaNTJ6emVhdDNReXI3Y3d4UC04aWxxcGFIZm1tN3k1QzZKZlhsOE1JbmJyb2tNZzhBVkVRY3JB?oc=5",
         "date": "Sun, 11 May 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "diputado de las Pymes",
-        "source": "Cuarto: Salta a diario",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQay1hbHVrRjdQd1ZVT0NEUnloLTF3bTQxU3pSTURCUzMyYVNxVXpTQUpFOXJQaXpmT0JXU1V6bVNGc3NYZFhiWUZRajlybS1RRnhXeWZWX3VPUWRPV2VhUlNYTTdzMXo5NTBSTGJwbm9fWnBCaFpvMFoyQnVIM3Q2NDJZZHhvRkJlWWxIXzR4M3hacHA3NElIOUYwV1hBejNaT0FJcWdqb0s5clZhNzBCWHNsaF82RmlrMF82Nw?oc=5",
-        "date": "Mon, 17 Feb 2020 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -9305,6 +9309,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Omar Exeni: “La nueva política pide a gritos que se limiten los mandatos” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcVZWV2EyQTBoVm92bXFHNUNxem1nNVJfalJRSWloeTYxVldGdDdPcDFzeUlhakRWUmJmR3Q3Z0xfcG1hQjl1ZHF0LUs4am9UNU5TNDZBZ3FBekVhdlVqNlFNV2M5QlM0d2t0a3BzOHNSZmpsRndGZU1JTTFwMG5aYXVwa3AxdEpSQ0NNNTFfQmUtdzZRQWd1Z19ndGU3a3Q3NUNuaDBfOHJPRXZzbXZCOWItYWNPcHB3RTNxSkkyd0FSMFlyYkpJODJUbVJYU3lYOWR3YllCZU3SAecBQVVfeXFMTXQxSDNqbXhnSDM4NlNlMmFSYzZ6al9XdkVVSlZ3U0VuSVAzRkh1azZ3UDhKYlByUWdVYTl6WlFuRl8wVTlJcEppTmp4ZERXSjMtOFI5bFR0QUJySklhOWMxZGlVcV9qUnVTODl6d3pzUWdVTlBXUUNOZlRPWVloZ294QUNFV0N3XzRrcXEwRDNzVzY5Qmp6cGIxMlRnZDBrQ0hQRkd4b2s5TGdHekdVRHhuLVBxZWh3QTBhYVhxZXA4OGxLbzNIcDdQOGFyUmEtZTlzV2RVa08xLXNpSXRKOHljUUF3dnNV?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 11 Feb 2021 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con Omar Exeni, los pequeños comerciantes tendrán una voz en Diputados - IN Salta",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMm1IbVJYSXprdGZqdzZKSTZ0ODNDVDlNN2hJUUo5dlNIQ3p6VDRWSlZDemUwdFNJanBTeXNTYWdHaGRRRzZZamYtLWtQVEZJUXFfYzExajlFazFuNFJ1cGFSNE1xeFdmT1lvNzVLeU1TSlZDTVljb0VQbDY4STc1MVJORnc0c0I5UFBjY3NEc1hONXZvZHVKVC1FYUhkWE1Xem5RSTV5Z1PSAa4BQVVfeXFMUEgwaEd0YU5SSFlKdXJiZnlPX0dVekRfMWtlT1F1d0FUdm13TEhYOU9adEtjcldnZ2x3dHVXUC1PbDlwQlJTdkIwSUhkR2IxeEtzMy1HZGFYZWFHZXlYQWRiUFVLUjZoeE0zNjZHWW55WXVMMzNsLXJ4OFdTN0kwRkZBanRjXzBjZzNjblZrSU9IZ1NMVGVUa3ZzSUdNX205dDhkeTN1RFlkZTdMWG1n?oc=5",
@@ -9507,13 +9518,6 @@
         "source": "Elintra.com.ar",
         "date": "Mon, 05 Dec 2022 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El elogio del doctor Salgado para Omar Exeni: \"Ojalá seas muy imitado\" - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT0hMamFXM0tCRmJqS0p1QkFxN2QzdkRUWGJLbFNlLU9SalZGLTBWTVE4blRNd05zWlZBVXNEX1VpM2c1aXVxMWNVVG1OZFJpeVZCUlBRUlprbFBoTHBtNndfNkVVSzV5MC03a1pjWXFxQzdKa1h5WTV2Sm52cEw3SUpvZ2NtUmxUejA3N3E5eXEzY0JyQlExeWR5TUpwcGNVaWZaY09Zek03TFBPZ1VySGFPMDV0d1djNHpReVYydndnNUc0LUtScnVTdnBmUk5i0gHfAUFVX3lxTE56NmE4Q2FzYTVjS3hwd1RfUkFXUmNRc3UwQXZ4ZkluUW01azhidzFxNzFzMnFLaUhySmtVRlJLVEU3UHJYUnU3MGRJbzlzQjJvMkpfYjVXanRXa1dsdnB1U0xsemJWMTZaMU1fS1JtRFhMY1RGbXpMamx0SkczbVRzR0d5QlpkSHdLY0RhOEI4NVRiNXNLN2EtWFBSaHluakhiRXpnX2lVYUJQTzF1eENqdkdhMjJCT0lydFVnTWljQXpGLUtxT1hpbnN6U2NNcGxZOGg4UjNwQjlSMWlYLUE?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -9577,13 +9581,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 51,
+    "total_mentions": 52,
     "sentiment_breakdown": {
-      "positivo": 7,
+      "positivo": 8,
       "negativo": 7,
       "neutral": 37
     },
     "sentiment_by_day": {
+      "2026-10-20": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-08-07": {
         "total": 1,
         "score_sum": -2
@@ -9768,11 +9776,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 5
+        "count": 6
       },
       {
         "term": "juárez",
-        "count": 5
+        "count": 6
       },
       {
         "term": "informate",
@@ -9784,6 +9792,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No podemos dejar solas a las familias que atraviesan esta enfermedad",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWW45ajZ2RnNYcUlUQS1KTFhfU1hvREVqTlNvdndvYmRuMFJ4QzMwdjNONGVUTmE0UU5MbS02OHFzb25xa2hZRVRQMVpHRUJYVUg5QVZ2Y1JydXcwOUtkM1htZHRNanJCRzV0TkdXMFFDNDBaekdyMC1PSzd4YnN2VExiNXE1SjdZY2J1LWpZc1FmaDI0TUdSRXBUSHRuTm5KbzRIR1RLak1zalZ1dHN6UzBVNmJCdlliclpjc0JZYnY3QdIBugFBVV95cUxPRHBZRlNqcjJQTDRsdlJkazkwSnZBVVZ1dHhzeVJtZVBWRkdXX3VhWEZ0UTI3MTU0UWpieWY4RTZYSGtCWEhwbXlNRERITnJtZE9uY1NickNoVDRhWWhXakpfZnZYZWlUWlY4bGNZckZPSW9pcUlKUmkyTGlvbnBjU0E0dHVRZDRjRTZ1eXZrQ3QxeWtVVkEzREdNYmN4QVBOVUl3eEd2WEdvMEZQTzBFYzcyS2JiMFY2aVE?oc=5",
+        "date": "Tue, 20 Oct 2026 22:58:00 GMT"
+      },
       {
         "quote": "No representan a los salteños",
         "source": "Informate Salta",
@@ -9867,12 +9881,6 @@
         "source": "informatesalta.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVnJYU1lBNGFVUUdyYVREekd0Y2NNTnpTWldKRlB1NzlqekRwanhFck52YVBMV2FIVDQ1bldtd3lXX0VVY1RDdUlfc1FNREx4RncxdTZxaXQtNmtUeDZTTnBzZVpQS1EtR0VGQm5JNWlyOGlQdHJJWVgwQzQzeUw0a1RMYWg3cUFRMlVvR2hVb2lZWFNFMWhPWTFHa19sdTdDdHdkN2tyZmFkRXVsN25ZcUhUUWRjcW5uUGFCTHJtTlNHWE9OQTlWUlg4VEpDSEVqYmU4Z3pEZlNFUDBVNnhqdWo3ZHFtcnZHMFHSAfgBQVVfeXFMTWhSYng1bzdHRVdONzRIdjBWY3BJbHZHX3g1UFItbXZFRnE5RXUzOXFjX0dhamw4ZDhCUFhidHBFNTdoV1ZnZEY3X0MtUTFNT2lIbnlfakZVeVd1b0NHQ0xEdHNXeU9XV2VyX1ZZSnU4dlVNaEZMeEJDZlAxMERxNFc4MmdVQ2ZiMHZSRVFGbEtlVXRWS1VPTU5Sai1tbjJ1NHh2S0pKZmJHTzEydzc2UzF1Y29FUHNuQ2ZjdUU0cUxUdUNiZXRiMlpBOHpsVlVVX1ZOZ1VGZ1dWZW01UUJDU0dJZkRBWVpyRlZMa0J6SDE4UGhnWkFpRFA?oc=5",
         "date": "Thu, 15 Dec 2022 08:00:00 GMT"
-      },
-      {
-        "quote": ": Mónica Juárez se unió al partido de Jarsún",
-        "source": "NOVA Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVjEzNFJsM3Fmb0dPWmhLeFl1cWhJR2NCSWFhTmZvWGdRN0FnTERtWHd0REdnVjBiaHc5aFBzZF9zVU1QLU9hMHNOOHRIanc3bmtINkFvRkVSTXlIZnFhMlN0SUFXZVJ4b0EyODhZMDNvQUlQN2I4aXpjZjZybGxRUGQtcUY5YUMtU2Jhd194ZzdBeExocmtwalpWeFJDMVFRSXhzd2JqcjBDbVhabFk0MnhmN3FQdzliYU9pMmdnQXlxVWF3emFpSUcxUWtyNkVTQ0JUZDln?oc=5",
-        "date": "Fri, 28 Jun 2019 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -9890,6 +9898,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez impulsa una ley de Alzheimer en Salta: “No podemos dejar solas a las familias que atraviesan esta enfermedad” - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWW45ajZ2RnNYcUlUQS1KTFhfU1hvREVqTlNvdndvYmRuMFJ4QzMwdjNONGVUTmE0UU5MbS02OHFzb25xa2hZRVRQMVpHRUJYVUg5QVZ2Y1JydXcwOUtkM1htZHRNanJCRzV0TkdXMFFDNDBaekdyMC1PSzd4YnN2VExiNXE1SjdZY2J1LWpZc1FmaDI0TUdSRXBUSHRuTm5KbzRIR1RLak1zalZ1dHN6UzBVNmJCdlliclpjc0JZYnY3QdIBugFBVV95cUxPRHBZRlNqcjJQTDRsdlJkazkwSnZBVVZ1dHhzeVJtZVBWRkdXX3VhWEZ0UTI3MTU0UWpieWY4RTZYSGtCWEhwbXlNRERITnJtZE9uY1NickNoVDRhWWhXakpfZnZYZWlUWlY4bGNZckZPSW9pcUlKUmkyTGlvbnBjU0E0dHVRZDRjRTZ1eXZrQ3QxeWtVVkEzREdNYmN4QVBOVUl3eEd2WEdvMEZQTzBFYzcyS2JiMFY2aVE?oc=5",
+        "source": "Aries On Line",
+        "date": "Tue, 20 Oct 2026 22:58:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez cuestionó a La Libertad Avanza: \"No representan a los salteños\" - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUVpIenlhanZYM2dQbS1oc2V5Tkw4Y3FuaWh2eWl0X2xXc0U0RmtOUmpPVnZsWnplazNTcVZFVHYxMllZOWo3M2hvNWRFSHRuczJDeUF2cG8zNVV1NHkwTnh4R21lbEhmWDhfa1QxOVJQb2pxOE02NTZsWDdkbTJiNnN0VUhrQTJDWE4wRzExX2x6VWhaM2JHOHFQQkliQ3AxNDVTRWFzVGVrNEZCbVhsa2E2Q2c4Yk5wX0lVZVd5X0d3ekp6cXJGMzdPWGVDX0JyMGM0S2ZLQ2tKbGYxNGVJVFNB0gHwAUFVX3lxTE9Nbk1VWkpnZ2JyRXE4Y3BjNUlBV1VfNEtSWW5HX0VIWjdvdEhpWjE0LUJ5X2JrZXpZM0RtTkotX0wteU45Qk5VSDdwc1UxRFJRYWVDVXY2Yy1faGpoTl9zSXNEZENkYnJDbGJkYWpKb3AtTWxlam9uLWVwLVNoeHRUWEJTbWplOUJscS1BcXZNNTVmRTRDaTV6WGNleGZIcG1WR0RBSWhNRGJxODNETkIxN1M3UGtETTdfMnRJdWFyNFE1cUptdGQ0MEpRMk8ydHhfZEJpWXRJcWhlTkpaemxGVElNZEphV2FsMkJwbFp6Zg?oc=5",
@@ -10091,13 +10106,6 @@
         "link": "https://elintra.com.ar/2026/09/28/monica-juarez-se-suma-a-la-campana-de-dante-gebel-mientras-respalda-a-saenz/",
         "source": "El Intra",
         "date": "Mon, 28 Sep 2026 13:58:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mónica Juárez cargó contra los juzgados de familia - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkZqTVpCTUtiYnZUb0R6ajhPRDQ1SFlYUENwMGNtMlBURUhEUW1HTkZvZTlDdWM0VzFnQ1NxbUZEX1J2VnNFMS1zeS00WC1TZGo5ZFI0dGp0eVFtMGlxczI0Tkt0VVB0SWk1MFRKTnIzb0prQWRueU5Vclp3ZGNPT1Q5LUVxbXZ3R0hWN2pB?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 13 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -14177,13 +14185,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 12,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2024-03-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-06-30": {
         "total": 1,
         "score_sum": 0
@@ -14348,14 +14360,20 @@
     "top_topics": [
       {
         "term": "gustavo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "orozco",
-        "count": 3
+        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "uniforme azul",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2V4dzl4VjVHbURkY1Z6ZzZ6cVdLYk9Za0JQOS1OMWhfMEVXal91bnRYeU5ERmgwUEVYUW45MWZSVjFYM1RLcEJ2WHlKdlFINE5ZWm0xQjkzelpfNjRGREMxamZQdTdONTVOYXRIUFZQRTlGRzJPZE10cEM3T3NoVDZELVNMdU5JclhRMF9NSmdXa00wNzhab2pWa3MzcENCRjBaSUlyNE1Qd205QVJDOEZkWQ?oc=5",
+        "date": "Thu, 28 Mar 2024 07:00:00 GMT"
+      },
       {
         "quote": "Gustavo Orozco nunca vino a hablar de problemas, sino a traer soluciones",
         "source": "Voces Criticas - Salta",
@@ -14462,6 +14480,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Orozco habló del “orgullo” que siente por haber vestido el “uniforme azul” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2V4dzl4VjVHbURkY1Z6ZzZ6cVdLYk9Za0JQOS1OMWhfMEVXal91bnRYeU5ERmgwUEVYUW45MWZSVjFYM1RLcEJ2WHlKdlFINE5ZWm0xQjkzelpfNjRGREMxamZQdTdONTVOYXRIUFZQRTlGRzJPZE10cEM3T3NoVDZELVNMdU5JclhRMF9NSmdXa00wNzhab2pWa3MzcENCRjBaSUlyNE1Qd205QVJDOEZkWQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 28 Mar 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Orozco pedirá licencia antes de ser desaforado en Diputados - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTBwOUxvTW0xWVNKUjd0Mnl6MTJHT3JDRDNmOU52RWJHWUpwY21RdXNrcFhMQmlXdkZoZkZZR20xR2dzRXZ2Uk9pTHpnTGVOMTBjdGJ4N3pBU3pUdVdETVNYcnpHTFhDMFdkVEFhdnJadVpXZ1c3X2VaWWpZNHY4TjJNTmJzcG1feWNkOFppMlFvQmtrZGYxOHdfREJabWc2RUd3Zg?oc=5",
@@ -14663,13 +14688,6 @@
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaDdaNGxibjQ2cXRMenY1Uy1aUV8yTTY3c2xQNUhRQVFQbkZKak1GaVNybnNWLTZXSGhRVlpzQXJ2Nm9LZ3MwNE9WUjF4aHNHMm9COWlybm5vdDEybF9NTVVZcFNMcElOYXZFS0VMWWJnQmpDdE5pTWItZy1xU0VPamtrazd6dWlOUUZNaU13UWdreklLT25FXzhQXzNtZ0VXQUFfYzVxOUFvX0xHZ2N5RkxOV1lUNDA?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 03 Apr 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Orozco - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MdHNZdU5aNjdoZFVmOTdlSGJHTU1EMVMwTWxLVEhnWHFud29GN3UxSmpFc1dqc09WbXktWUV3NnQxZk9Ub1JsWXFKODFWYlY2U1VfeU42M2c5WlZZdGRlRjlSY3NfaEFJSlhHdW1zNFJNOG5yd2xEalpB?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 04 Mar 2026 19:44:16 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21186,13 +21204,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 93,
+    "total_mentions": 94,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 9,
-      "neutral": 77
+      "neutral": 78
     },
     "sentiment_by_day": {
+      "2026-08-27": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2025-10-21": {
         "total": 3,
         "score_sum": 0
@@ -21291,10 +21313,6 @@
       },
       "2026-05-08": {
         "total": 1,
-        "score_sum": 0
-      },
-      "2026-08-27": {
-        "total": 2,
         "score_sum": 0
       },
       "2026-05-19": {
@@ -21489,22 +21507,26 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 15
+        "count": 16
       },
       {
         "term": "royón",
-        "count": 15
+        "count": 16
       },
       {
         "term": "pasa",
         "count": 6
       },
       {
+        "term": "diario",
+        "count": 5
+      },
+      {
         "term": "congreso",
         "count": 5
       },
       {
-        "term": "diario",
+        "term": "nuevo",
         "count": 4
       },
       {
@@ -21512,11 +21534,7 @@
         "count": 4
       },
       {
-        "term": "nuevo",
-        "count": 3
-      },
-      {
-        "term": "tiene",
+        "term": "frente",
         "count": 2
       }
     ],
@@ -21633,6 +21651,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón quedó al frente de la Comisión de Minería, Energía y Combustibles del Senado - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tUTd3cHc5N3MxOU1JWDlSTDZQSjJ6RW9QRFdRSzVpUUxOSlNfLWxjZG05Vk9QckkxaHU5RXJzbEQ5d2plcUNuVzBHTjlLTHlBSzQ2VWRsaGIyVFk?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón: \"La voz de Salta tiene que hacerse escuchar en el Congreso\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
@@ -21834,13 +21859,6 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmItQ3hVMDlORFBFaTBiMDFYakFYNDVaUmlVaV9COWRmRm9mZGFlOEwtbkMzMm9iblZDQU1mVDdjdVdkQ2tSLV9jbmxwYVoxbWlEbkw5VkdGYlU1VjFpejNaVVRqdHExYjJqajBMd1NRUDdNemFOQkFKTk1fTmpFMkN3SkhPcXBKUDcwd1Bn?oc=5",
         "source": "Página|12",
         "date": "Sun, 07 Aug 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "|VIDEO| Flavia Royón cruzó a La Libertad Avanza: “La Legislatura es la casa de la democracia, no una sede partidaria” - Voces Criticas - Salta",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONTZKQVp6M3Z3WGtqdG1sWFo2MzZ1bHdRS3dUUy1UUTFtQll2OGhoUW1JQWhRYWptdElCUjlKTUwzZFkzbE1Hd1FySnE2MkhDSlZseUpUMWtEUlV5RnNoaEl6SVA3U2NhZ2daMUtxblBhZGV2Z3RLT1Z3S05WSkdtaHRSSDk0X2RNVm54NVY3RE1wS1ZqeEE4RU1iblNCYklla0had2FIdVRLTmVSOGZDWDg5aUJ0T3dlMFpFb3hmbUVtSV9BRXdqYmpiOUdpOHI3TW1tbEJSQlp3Z1FpeTVleTVBamxhckZnYklvSDd1ZWtqdDBXY1Qtb0NXdG7SAYICQVVfeXFMTXZRYXN4WmhLU09paFlaVk56RHROQVVKSDdGVFUtZjgxaGJEdnZxNWNVNFBzYjk0NXR5aVo2bnZYQ3VWUllGb0E3LTZhVGVuSElUSlBGZjJpdW1LS1ZHU29MZTZfY2RlTVVlcGk3dXlPVGRMb0E3dnNWRU96eVFVeG1ZY3hxdVBzeDJtTHg2SzVIMmVCSjRoVnk2aGhJYi1ONEdwQ1Q5R3VsQVc3TG5hNUp3eHU5YkhNWGk3YW42bzVCX19VbkZFZjJQZEpaWVVKclRLeVlzRmVBTGNEVVRZMlFZNU1hYW5HYnY4MHJvN3RxS1lCN1B6cXBEQkZDLU9vT2VR?oc=5",
-        "source": "Voces Criticas - Salta",
-        "date": "Fri, 08 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24183,13 +24201,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 13
+      "neutral": 14
     },
     "sentiment_by_day": {
+      "2024-02-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-05-11": {
         "total": 1,
         "score_sum": 0
@@ -24246,6 +24268,10 @@
     "top_topics": [
       {
         "term": "outes",
+        "count": 3
+      },
+      {
+        "term": "pablo",
         "count": 2
       },
       {
@@ -24281,6 +24307,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pablo Outes: «Si no nos preocupamos nosotros por Salta, no lo hace nadie» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeXRBclNkRDM2cFNxV2ZWZkdCQjdmcjhHRnBNQTJSSmV4OGRiZ1VtbXdYeVRtRTA4OThzamFUU0FyVmFGWDdjMlptS1NqN1psRUpnalJkRTNobnI0WFQxaDREN1M2N2NLT0xfZ1BVQU5CdXdvZ3V4cDBlQ2M5amg0NkRZZUFIdmtBRFF3dzFYUU9IYmthdGRvUDlZSzJQc3hDLVkwVHpoOA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 06 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Soy optimista. Esta elección consolida a Salta con voz propia\": votó Pablo Outes - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2xFUlNKejhtY3hzSWpaWmt3cUZfdG9Pc1l1UGZ1S1ZNR3JaX0hQMGpaN2pMOVZuOWMyOWtzUmFJY0R6RDZRM3U2bmdnLTdVOXY1dWZINVZxRGkycmkzMGRSdk1jTDlrZzc2bDZTMnhIc2hlZXRSZ240UWl3RlM0N2RtVXJoMi12WnVJV1hhbzM0R1dnZ2FNc2xtUmdUVTNjSmJXSjkwUlFWeUFDRjRlNTVJN2dWWjFjR1VR0gG7AUFVX3lxTE9vbEVSU0p6OG1jeHNJalpaa3dxRl90b09zWXVQZnVLVk1HclpfSFAwalo3akw5Vm45YzI5a3NSYUljRHpENlEzdTZuZ2ctN1U5djV1Zkg1VnFEaTJyaTMwZFJ2TWNMOWtnNzZsNlMyeEhzaGVldFJnbjRRaXdGUzQ3ZG1VcmgyLXZadUlXWGFvMzRHV2dnYU1zbG1SZ1RVM2NKYldKOTBSUVZ5QUNGNGU1NUk3Z1ZaMWNHVVE?oc=5",
@@ -28134,13 +28167,21 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 29,
+    "total_mentions": 31,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 4,
-      "neutral": 22
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2022-12-17": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-08-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-08-27": {
         "total": 1,
         "score_sum": 0
@@ -28257,34 +28298,34 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 12
+        "count": 14
       },
       {
         "term": "ignacio",
-        "count": 10
+        "count": 11
+      },
+      {
+        "term": "aguas",
+        "count": 3
+      },
+      {
+        "term": "norte",
+        "count": 3
+      },
+      {
+        "term": "nacho",
+        "count": 3
       },
       {
         "term": "elintra",
         "count": 3
       },
       {
-        "term": "nacho",
+        "term": "nuevo",
         "count": 2
       },
       {
-        "term": "gracias",
-        "count": 2
-      },
-      {
-        "term": "aguas",
-        "count": 2
-      },
-      {
-        "term": "norte",
-        "count": 2
-      },
-      {
-        "term": "ministro",
+        "term": "pasa",
         "count": 2
       }
     ],
@@ -28329,6 +28370,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún reemplazará a García Salado en Aguas del Norte - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOODVsOWZWcUVtTTc5cXQtNi1tcnZxa0R6ajR5SWItMkZFMVNnQTBKY3FaaTZjQXdLQ09CRlpaZE9CcE1qNmVuWW8yN0lTcVIwQjJXbEg3TjZzOTlrbktlaFBtNVpBaGVzM09ZSTcyRjQzb21GUG4zZkpOUlhOeFZZM2Ryd2pXTWRWSkhRMnJPN3F0SWhVV3plOTdGNVQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Sat, 17 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "''Nacho'' Jarsún, contundente con la senadora libertaria: ''Ya hizo su Tik Tok'' - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ3JJWVV3U0ZSTFpnWjV2LW5uWVN3SUV3UTFjMDZmUGFnUThRZXlQcUt3QTVXdFExYm9XTHVpNzRlSHUwRjRCaWt1OG1UTGk5THBob1FLV29YY2ZDMWg1b0Vra21DSDg1azFZTUxOS0FnQ21kU25sa0VaaU91b3IzeVpzbXJwajZKTGo2aG1QWjNPY0xHaUhmSUxTX3B3VTQyVUc4UVdjZVBMaWxBa3dubWl30gGyAUFVX3lxTE5DcklZVXdTRlJMWmdaNXYtbm5ZU3dJRXdRMWMwNmZQYWdROFFleVBxS3dBNVd0UTFib1dMdWk3NGVIdTBGNEJpa3U4bVRMaTlMcGhvUUtXb1hjZkMxaDVvRWtrbUNIODVrMVlNTE5LQWdDbWRTbmxrRVppT3VvcjN5WnNtcnBqNkpMajZobVBaM09jTEdpSGZJTFNfcHdVNDJVRzhRV2NlUExpbEFrd25taXc?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Nacho\" Jarsún cruzó a los diputados libertarios de Salta - El Vocero - El Vocero",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVZlQzNjYW9UN18zMDBRVko5NUJLbHdSM3NpbEdWcXExeTlUQkdBR3c0dXpha3FhSTdra2VsOV9GTmF4ZW9YTjlXNFRFRHVYTDgwRXNqWklua2UybjFja3NCVTFCTmdfNDVteEpaUjh5clBxaVpQYkR3VU5WSENXQjNOS01nUUU5aGNWNlppSXJrYzl1dlZzdlZEbw?oc=5",
@@ -28524,13 +28579,6 @@
         "source": "Informate Salta",
         "date": "Mon, 14 May 2018 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Ignacio Jarsún anticipó la fecha de elecciones y pidió por la candidatura de Gustavo Sáenz - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtdFItUmdPM3FHRlAtdkFPOWpJRWZ1Yl93ZzNfWnpyekxhOFAxbzF6dVZqT1pGOUE4M3VDYXU4aHZBRnBhYW00djNDdng3X1ZkWkdsOHZDTk9fU1dranZnSDJrVmk5Rk5RRzZkZ0UyRmo?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sun, 04 Oct 2026 03:22:30 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -28713,7 +28761,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 13
+        "count": 12
       },
       {
         "term": "turismo",
