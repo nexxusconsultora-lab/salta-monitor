@@ -3,16 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 321,
+    "total_mentions": 325,
     "sentiment_breakdown": {
-      "positivo": 77,
+      "positivo": 78,
       "negativo": 52,
-      "neutral": 192
+      "neutral": 195
     },
     "sentiment_by_day": {
+      "2026-10-22": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-10-21": {
-        "total": 15,
-        "score_sum": 5
+        "total": 17,
+        "score_sum": 6
       },
       "2026-07-16": {
         "total": 1,
@@ -310,11 +314,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 49
+        "count": 51
       },
       {
         "term": "gustavo",
-        "count": 17
+        "count": 18
       },
       {
         "term": "belgrano",
@@ -329,16 +333,16 @@
         "count": 9
       },
       {
+        "term": "obras",
+        "count": 8
+      },
+      {
         "term": "reclamo",
         "count": 8
       },
       {
-        "term": "pidió",
-        "count": 6
-      },
-      {
         "term": "pasa",
-        "count": 6
+        "count": 7
       }
     ],
     "quotes": [
@@ -435,6 +439,34 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz acordó obras obligatorias para el C14 y financiamiento internacional para el C15 - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRW9fZkdDUElHS0Q4UmJtSldRa2p4Y1pDTXlGVFJMVE90V21laXA4ajhPQ1Iyb01NTG16U3otTlVrbjY1N1hOVWU4MGk3bnRZVG5Ed29qbzVvc0ZFbnZDOVp0TGdsZUhseW5PYm9sX0Rad2xpV0VFYW5mbm5sWFlSZTROQUdzMnVobURmeXpKaE1DbnFZT3ZSRkFFRTFCSExqRnd3c1FyT2hrMWpvRTEtZmJuT3FvdGpfV0FNYks2RG1JWDREcW0w0gHHAUFVX3lxTE1Fb19mR0NQSUdLRDhSYm1KV1FranhjWkNNeUZUUkxUT3RXbWVpcDhqOE9DUjJvTU1MbXpTei1OVWtuNjU3WE5VZTgwaTdudFlUbkR3b2pvNW9zRkVudkM5WnRMZ2xlSGx5bk9ib2xfRFp3bGlXRUVhbmZubmxYWVJlNE5BR3MydWhtRGZ5ekpoTUNucVlPdlJGQUVFMUJITGpGd3dzUXJPaGsxam9FMS1mYm5PcW90al9XQU1iSzZEbUlYNERxbTA?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Thu, 22 Oct 2026 00:17:46 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "ARCA suspendió por 120 días las nuevas restricciones en la frontera con Bolivia, anunció Gustavo Sáenz - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTndvNUxEV19ZNHpRenVRbXI3YUQwUm05bmZ2N1NBcHluY2M0bkJBbEMyUnZCdWs4NnRBbWVmZmxRaFVwYlFQQW1tLXYwQXZUSWlFZVRBYm1iUWF2aXN3WmhYRTBZYnJwM2RXSDZjaTdWLS1xa3VPbXpaQjJPX2ZaLXJZdk81czJXZlpiY2dFdE5FaGg4eUY0LUNIOXNCcGNKdUNHc19nVGtVbkJKSkxjS0ZrS1Bhc1FFb2VQSlZxLU8zNDR1QVgzTEFEY0xzTTBzWXfSAdcBQVVfeXFMT2Y2a2ZwZUZIcTVnMm9NTEVROGdDdXlfdGIzNjBoOXJBQ0RJT2JQOXZCN05XaDV4T09Ua0lSSDJUSEdydEd0MHdPVTFxVHYzbkJSN1A3cFdmbHQyV3FZcWgyN2x4MHF4dGZLT21Zc2NQY2hOTUZUMUx5ZS1QVkg4c1ZKU1Fxc1hSZ09RWGVxSjVnZmhVZkRDZFlGNWNPQmo3aW14U1pJa0oweVdTLUR2bm5fTlFsVVdTbkhkdEpuY0lBa0hRTHlpV3dITzlfX09wZXlrbHRnZXM?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 21 Oct 2026 21:31:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Régimen de Tráfico Vecinal Fronterizo: ARCA posterga por tres meses la aplicación de los cambios",
+        "link": "https://fmalba.com.ar/regimen-de-trafico-vecinal-fronterizo-arca-posterga-por-tres-meses-la-aplicacion-de-los-cambios/",
+        "source": "FM Alba",
+        "date": "Wed, 21 Oct 2026 23:47:44 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Respuesa a medias: Nación promete una adenda para el C14 y dejó sin obligatoriedad las obras del C15",
+        "link": "https://www.eltribuno.com/salta/2026-10-21-21-3-0-respuesa-a-medias-nacion-promete-una-adenda-para-el-c14-y-dejo-sin-obligatoriedad-las-obras-del-c15",
+        "source": "El Tribuno - Salta",
+        "date": "Thu, 22 Oct 2026 00:03:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tras los reclamos de Salta, ARCA postergó el decreto que afectaba a comerciantes en la frontera",
         "link": "https://informatesalta.com.ar/politica/tras-los-reclamos-de-salta--arca-postergo-el-decreto-que-afectaba-a-comerciantes-en-la-frontera_a6ad92e87da877e356cf0434e",
@@ -616,34 +648,6 @@
         "source": "El Tribuno",
         "date": "Mon, 19 Oct 2026 10:45:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "EN VIVO. Sáenz encabeza la firma de convenios estratégicos con el CFI",
-        "link": "https://www.eltribuno.com/salta/2026-10-19-7-45-0-en-vivo-saenz-encabeza-la-firma-de-convenios-estrategicos-con-el-cfi",
-        "source": "El Tribuno - Salta",
-        "date": "Mon, 19 Oct 2026 10:45:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Infieles por paloma mensajera: Emiliano Durand, Gustavo Sáenz y la plaza Gurruchaga",
-        "link": "https://elintra.com.ar/2026/10/18/plaza-gurruchaga-durand/",
-        "source": "El Intra",
-        "date": "Mon, 19 Oct 2026 02:45:21 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz se reunirá con Caputo y Santilli por las obras de los ramales C14 y C15 - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3J3YnZWR2FOZkJuZ1RTajBQbGxGRFJ6dEw0My1uLXpSS04wSmRZcWt4c0VXYzJhZmtmMmJMY0NUYWZtQXBRMjlnYnFMWFlXVlZFd05rcGQtX3Fja3o1NFA4QzZEbDB2TzF5NlUtaDZCMnBJTV96OGhUTVQzalJqZTVGanh0cUN1SEtLcnRMTEfSAZABQVVfeXFMTUNyd2J2VkdhTmZCbmdUU2owUGxsRkRSenRMNDMtbi16UktOMEpkWXFreHNFV2MyYWZrZjJiTGNDVGFmbUFwUTI5Z2JxTFhZV1ZWRXdOa3BkLV9xY2t6NTRQOEM2RGwwdk8xeTZVLWg2QjJwSU1fejhoVE1UM2pSamU1Rmp4dHFDdUhLS3J0TExH?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Sun, 18 Oct 2026 16:30:04 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sistema Ferroviario: Nación convoca a una reunión clave por el C-14 y el C-15",
-        "link": "https://fmalba.com.ar/sistema-ferroviario-nacion-convoca-a-una-reunion-clave-por-el-c-14-y-el-c-15/",
-        "source": "FM Alba",
-        "date": "Sun, 18 Oct 2026 23:08:38 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -16155,20 +16159,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "contra",
-        "count": 2
-      },
-      {
-        "term": "maltrato",
-        "count": 2
-      },
-      {
-        "term": "animal",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Se contempla el abandono como infracción",
@@ -17751,13 +17742,17 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 41,
+    "total_mentions": 42,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 7,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2024-02-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-08-16": {
         "total": 1,
         "score_sum": 0
@@ -18012,6 +18007,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Malvina Gareca puso el grito en cielo por el insulto de Javier Milei a las personas con Síndrome de Down - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWk4eE9VT3RoeUxnZmZSeTZ3OWhTNHNGdVNGNk51NEY5R0lIYkJ6RUtISzJkQklpVlE5YndpUWFYczZTSmJuNUgzWVU0TllKbWs4YlBHRkZTaFJTR2cwZXNlZXpjTF9KQzhDZEVXX0VMNHJxZHYxM2tOZzF3Ny1MaU9ydzVnaUNCTlBGRGI1eHJXdG14bmJ0d1RTcFRhZW9udTVWb0d4T1lhd1NUeEpWWnRfY2ZCcXJFMkhpMl9aVzBZX2dWMUFGM0lJVWQ3QkFEYk5RX0pn?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 28 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Violencia de género en el Concejo Deliberante salteño | Para Malvina Gareca la situación es \"gravísima\" e \"inadmisible\" - Cuarto: Salta a diario",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPREZ6TnpHU1lUWllJekkyS2xpbDJodENFSnlUV2Ziek02RS1VYzRsa00tM0ZXUDFrNFVhd3JBUmpRWmtFYXNIS1VmY2FUbHJrYzlxSk5MY3RqVWt1Y2V0U1lWa19HUFMwdUVORklVNUJuZGtUcFA0S3pQclplbE1Kbnl5T1dtaWNPeGJjU0pZeXVaVnRzSkNpVkRoV1VZTG9XM2U4SVZOaDBzdXJuM01mZ3BQd3pPZ1gxVUg1bERBemJaRnVLT01sai1Xc0lOT0xmdjhtM2Jnbw?oc=5",
         "source": "Cuarto: Salta a diario",
@@ -18213,13 +18215,6 @@
         "source": "Informate Salta",
         "date": "Wed, 15 Apr 2026 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Tensión por el Defensor del Pueblo: Álvarez criticó la demora y volvió a cuestionar a Del Frari - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSGZXeEJOUXJ0MTNUXzBRLXQ0a0JqYmIwVW8ybm0wbUVMMXlrNW44dzVRdTJiQkxBV051dmw1ak9TeWV0VDBZTERVdkpEdkN4YV8tc24yclZHc0xaOFdlY1J6cGlLb2lMRFlMOVU0MGpydEFUdXJIU3B2Rl9xVjY2d2lWR0hSWlpQQnpJa3B0eXdtTlZkTDRSVVYwV0xPMFhfWGJkSGNYckVPbURiNUx3VkZUSVhfeV9tTWIwaDFYS2ozRG91R3pocjV4WUxqdERXME5uZTFxc1llbmphVTZWdVhITHlpOUVIY1RaMUdoZ2tad1HSAYICQVVfeXFMUFFvd3R2ck8temRrQmVBdGpBcXpXM0ViTjNkekdxc1hKbUJHSktGRTJfLVVTUE1sTGZSM3F3QThPeTlORTFwVW9oQjlUV2lPYk5OOXV0aUJ4Y1pXaWFHYTF3QXJ6eVNrRG82NVh3SVEtV1F6MmVwZGctN3NtSTlLSjJIbjlZamk5YTBfMWVxdTQ2ekdCVGdlbGNrUmlHSGhkNFBKRnh0aUxHVlZZZV9Ga0tINGhkWnNQazlkaVd5dHNMS2tEbzdwVkhYeDBoTEVRRzNJdHNzNnJVZDNtY0NVZ18wbGxKRDYxYUY4Qy1CbXFOM0lxbEZmS0FwcGdCNGJzakJn?oc=5",
-        "source": "Informate Salta",
-        "date": "Mon, 17 Nov 2025 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -18227,13 +18222,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 13,
+      "negativo": 14,
       "neutral": 32
     },
     "sentiment_by_day": {
+      "2025-02-17": {
+        "total": 4,
+        "score_sum": -4
+      },
       "2026-07-17": {
         "total": 1,
         "score_sum": -2
@@ -18297,10 +18296,6 @@
       "2024-05-17": {
         "total": 1,
         "score_sum": 0
-      },
-      "2025-02-17": {
-        "total": 3,
-        "score_sum": -2
       },
       "2024-03-18": {
         "total": 1,
@@ -18398,11 +18393,15 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 3
+        "count": 4
       },
       {
         "term": "jorge",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "concejal",
+        "count": 2
       },
       {
         "term": "saravia",
@@ -18496,6 +18495,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Deserción en Juntos por el Cambio: la concejal Laura Jorge renunció a la UCR y se unió a La Libertad Avanza - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNVVOSGlfN0NvVEVOR1N3ZVpCb1RyVEUwRkxpSF9WUVB4eEJoRk5sVThDelV0bm55enEtNW9NMk0xYlM4MFlRMTBLbnNKRl8xWjc2Smhwb28tSHhZdWY4ZmVFOTNsdnFva0pHT0tIeXF2bS1nNXJyT0NXZnpJdzdoNENYWmJTaFlCUGxxdzVqQ1NmN2FwQmVtbVpTemkzYTdCa2hzeTFXVHVVai13YmRFZ2p5ODMyVU5sOHp5Y052VUZvYUdjdDNTNEJZX01HWV9RQnV0dF9pdFRMeU9xWVNwNEV5TUZxUVY0MWpwOGpSVzhBN2xyV1HSAfsBQVVfeXFMT2xlZnhTdnVsV3Q5WXVWVEszelh3TTVFemlVLTBQMDFZRHVpUEl5OVFkOEI0aVlmMktIYy1Ud1U1TTd3ckc0V2thOVRfa2dpdF95V0pVdnVSQzUxSHNRc3V0dHhhMFJ5bTZ0SzRxaklpcXR3aDRLTm5pbzg0eTFIaDZiYXRjUkNjcXlqd0IybHUxdUdyWjMtLWl1dmFPR3gwTHhuVEFBN3ZlekJnbWU0M2wxZzZNSkVxeVREV1BrdEktejBsNkRWeTBuN2pDVjc5WnB1Z0toeUpLN2xaYUVkU2RPalBjMDBrRy0xb0pOZjNDX08zNmdSdXJHX3c?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Mon, 17 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Laura Jorge Saravia cuestionó los aranceles del Certificado de Antecedentes Penales - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSGswbFJ3enNoRFNLT2lNblBYM3J5cmNxcVhnaHFMSmZiZWp4b1djd0dZMHMycjJIQ0RBdXAzcjYzWXNoT0Z2eGxLaXpELV9IckZ1dmE0LThhVl9zQXJodnMtZF8wNjhaRTh3V2FuWHhEMUNSc29xcVNLY2o0czZ4Q054d25LWlI0LUlramhiNDZGSHVoTHVpbHg4RVdvV1VRWUpEajZNdVBOWHRFM3M4UUM1VTFBVGhTREE?oc=5",
@@ -18697,13 +18703,6 @@
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOTRQVFY5XzhpbEdMNHM2cENua2oyNF8tMHlNY3FZNFhJT3NGUGZyeHBGaFdLN3JMYmpZQWdGVG1mc3d4TzhCekZlQTNFWUhaU1lvYjE3YWlwY1lMaXZuVEJHaDc4dDFJNkgzSUxrTHBYTFJVcmZBTjNQOXdWaUJqeElQbE84cDQ2SGJNeG5zUmxMSGwxSW53VFF1NlRfWW1MWDdoSC1ycGU5dWlrbmV3TmdR0gG3AUFVX3lxTFBnUk1YdEhHZFF4SldFSF9JcjB6RzBFdnNQOUJ4Y1l2b1dnTU5heWpYdm8wRlJrcmRxQk1qYkNVQmMwQmRpLUpkT3hIN2V5RzlIT2llRFNYTWVpSzR2X21ybUx0dDdNelc4bEt6LXNkN0JtbmlRdTBtTl9OWnEwWjBLY3o1bDBzSTNwRFNsdUh3NGhUSWUwTm5BVzUyMjI5em5GUUE0cFpSN3JuNTVsby1HZ01nZ1RQdw?oc=5",
         "source": "eltribuno.com",
         "date": "Thu, 28 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salta libre de humo: ahora se suma la prohibición del vapeo en espacios públicos cerrados - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaW1oU2dhRHdYNUtlOUx5LWNnX0lHQmhKOGdZZGlEbXZCd09EN21RTm8xUERtMUx4R2hNUlR3LVE5MTVSQ25hTGxFLWFNcGhrM2hXN05fbkJ3V3NsazQtcVRJYWdFeVpFU3NITXIwXzN5bnJQUTBRcTFzeWI2TUJzWHd6T1RtXzVBdmRYYUYzQnVFSGZQV1EzSGZhZ3BneHVYbzM4WlVBV1NLb19KVm43d2x2d0p0aFRGMXBuZDJoSVNJeWZSc3NVbkc5ekdTeG9pcERCUdIB2gFBVV95cUxQM0xKa0lpMVp3NVhGZUpVRnJJZXVIQXhRZ0c3NFlnS3BuWlpvWWwtSlI3MW5uak9ldUk3Z0tIRlVka01FN3duREh4cWFIZTZMWFQ2YV8tS1FxLU96TGN2ckIzUFhadVh2UzlMdVQwb1lXTTJSRThITnlneDdNSlVsM3dndmJDR1Z5MWtzbmE3WVFKNG5oajRaOWppY04wTXllTTJnQ1UydHlfelNpU1RXM0dJYTRPSjR3Z3pRdXowY3BydFZhOURTVTM2Rkx1T0xSUWpVNXo3bUtWdw?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 12 Jun 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21637,15 +21636,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 20
+        "count": 19
       },
       {
         "term": "royón",
-        "count": 20
-      },
-      {
-        "term": "pasa",
-        "count": 6
+        "count": 19
       },
       {
         "term": "senadora",
@@ -21653,6 +21648,10 @@
       },
       {
         "term": "congreso",
+        "count": 5
+      },
+      {
+        "term": "pasa",
         "count": 5
       },
       {
@@ -28544,11 +28543,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 14
+        "count": 12
       },
       {
         "term": "ignacio",
-        "count": 11
+        "count": 9
       },
       {
         "term": "aguas",
@@ -28832,13 +28831,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 3,
-      "neutral": 43
+      "neutral": 44
     },
     "sentiment_by_day": {
+      "2026-02-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-04-13": {
         "total": 1,
         "score_sum": 0
@@ -29019,11 +29022,15 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 14
+        "count": 15
       },
       {
         "term": "turismo",
         "count": 5
+      },
+      {
+        "term": "elintra",
+        "count": 3
       },
       {
         "term": "sáenz",
@@ -29044,13 +29051,15 @@
       {
         "term": "potenciar",
         "count": 3
-      },
-      {
-        "term": "millones",
-        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Puede suceder en cualquier momento",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY1V4c0t3TUxKRnV2NGowakVFOEtiYzZsSy1mMW95N1E2YVh0Rk1HY3g1NVdDblBSeEV6VFVPSXZEdlZhR2xfbW9lRVhQQXFUOHEtNHI3TXJnTWdFeEszQ0JScU9HcElWV0Vfalp5UXJTQktqUHVRNWZHSlFaYnUxeTZEWlNvdGpiR1VSU1Zn?oc=5",
+        "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+      },
       {
         "quote": "Dicen por ahí",
         "source": "Elintra.com.ar",
@@ -29134,12 +29143,6 @@
         "source": "Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFllZTQwTVp1OXlKaEdUbUtKMGtEcWNfUXg2bGhhaVNoenh4NXRVMEdMRXdlQ3pEN0JkWlNONEZqNVNSRFppWHNLM1k4aHh3VkNlRzI3eC1RdnRTVUlTQXhsZEJWVUxsS3E5WU5ZRjVIMDhUN1A1dzRtUFd0MTY2LUlpY05jRDVvN1RjWlBSbG9xdTlUbGgtelg0VVhsUlhLZHluX0dhVE4tZFhnODdVcjdzcTF4cXhmZnNQZGR4WXl1UdIBugFBVV95cUxQeEo2MndJUmFkSmNKQlY3TXpRZEFuWmo3dmp6NjNfTXZsRTQydFVaSV9HNnNoTFFrYXhJMXB1U3RPUUhVVjZMclhMbDRWbzVQS2N4WWNiX3hRTmpBTS1kYU8zVFlzY2ttUHZqcFhQcGVxdFg3dEhZZzRvcjFTRVRSMjVwaWxRZXBNUlNuVThoZGRBdDd1ZHRxeU9GWDVhOVowSnFlVElHZHNJYnpGLUE1UjJKTjFVOGJLZHc?oc=5",
         "date": "Fri, 04 Sep 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Hay fondos que tienen asignación específica y no están llegando",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRW03dV9pYm9rZlFJU3BLX1loaVVfVW5pOVpmbTV3eHdXTFNVX2lIWjVKY0dDeUpWcFd1bS03UUNRZ0p1UjFMVDdDMDNnUmR1ZldNSDVYcTlMaWYtSU93UkdXb2JwUlB1MS0wLVMyRE5HNkNjczh4bVNZQ2pRcER6aDQtSUo5WEtFZWxxX3pkdktEMnRpZUM1Y0E1NEMtNEd0TnE2TDY1YXBtaF9zLU1XNllfTXNJNzhtc1VuUU930gHDAUFVX3lxTE1UMl9ZcmlIbEZfMEZSclA3TEZUSG1BMlp2TnhQcVZ2alpRNU1rXzBiUldaR3VPb0htWTZoYzRfNURwaWduTENhQ09EMVltNC1qbHNWeEtNV1I0NncwLW1qYmY5SGg1MU5aZks2eWxCVE5JX3Rfa01GeU1sSmt3MFU2NWhQSy1mVkNTS3NhbHhsdC1qeHN1dlV6R1gtUkc1TGVlVUR6Z1EyQWNvWExHUE1zeGNjMnNzSkdrNVRDUVpfQ216TQ?oc=5",
-        "date": "Wed, 12 Aug 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -29151,6 +29154,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Dib Ashur se va: “Puede suceder en cualquier momento” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY1V4c0t3TUxKRnV2NGowakVFOEtiYzZsSy1mMW95N1E2YVh0Rk1HY3g1NVdDblBSeEV6VFVPSXZEdlZhR2xfbW9lRVhQQXFUOHEtNHI3TXJnTWdFeEszQ0JScU9HcElWV0Vfalp5UXJTQktqUHVRNWZHSlFaYnUxeTZEWlNvdGpiR1VSU1Zn?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 24 Feb 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Dicen por ahí\": la firma de Dib Ashur se hace desear, la ausencia de Manuela en Pascuas, los nombramientos de emergencia de Sáenz y el intendente que dará el sí - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQazRZMnk5LWtfbDdGSy1tb1VhVXhaUkdTRU5mejVfb3I2WEk3eGw1UmVsdmZCUkZvb2lOYlk2MnlvZFM5bVA0YjZvR2YtZXBUZk5HZHpySkVOQ3pPWnpPSllxR2pfSFNjdk9uUTZaWG9aZUZxU1o2YXZsOU9mSndmZ3h0S2ZfN2hXMVJudXVvVzZ4R1VkLUpFMkxfNnpoN0xxYkhiQWlyMUFoTnJneGc4WUY3YkVyOWZ2d2xOTklGRnJLWF85YVdTQWgwaXFqNDJ5V3MwYUdGM2lHVTdwSUk1b2Jydkp6eDc0OGE1dUtENWxRSkRHUmJtVlc5TVRXV0oxd01MT2x4V0tkNnBaQWJWYkxkLUM0S3dFZno4?oc=5",
@@ -29352,13 +29362,6 @@
         "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObXNiNUp6MFgyQlh2NGNWdlZsWVE3aXV0dVZybklrZmo2UW5nLUk5b0RCT3ZRdVMzeTUxbHRTZjhmRzV5eWJwNEJqMVZVYUViSGlJTU9MclF2TWgxZERZUV9DN0U5VW1SQ1R2RTIxRDNkMTQ4N1o4YlUxV1JHZ3plWVpTd2xtSGNPWm1ReFlmNWJUa3J0VVV3V0tPZWhSZTVHTEdBTHFKbkU1YTlCb3hEUENjU3BYNmlNdlNpRHFQaXZDdzlucHdZZjFON2ZoMjVMRWZoaUhCMXl3UFlvenN5TElGaGJUS2FGZy1aV2J5SlJWZGNJWmxucmh3UXAzek9qZ09IX00wZ2zSAZcCQVVfeXFMTmkzYS1teGhoZHFuZFdRWWl1MkUyS0tJZ1NiY0ZzVXZWcFkxdXJkMjJYX2h4RXF1YzkwMXNNaFRUbjZ1d1JZV2pNcE9sQS1OREFXNnZQR1l0d0ZZZV94eVh3R2NUVU9aMWs4OWJ6X0JNOXdXTXNQc0N3c0t6MmsxdFYxc0lpUHpLd2lXZmJjRjRQRGV1ZkV3d1NZTlBBaHhYRkFuV0VpMTQwVTdTdVNNZlpkQ1liZER1S29SMXRXTXpOeTBZaWYyQ1UzaGcxZ3p6VjdNN0IzeEg1M20zWHFDdi0tYkRzOC03MFNxYTlCMUlXNEdsbDVEWDhuWnY5TWJROU44QVg3WkRKMVV6UktuclQ1RzdjS1Zn?oc=5",
         "source": "Informate Salta",
         "date": "Mon, 10 Feb 2020 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El ministro Roberto Dib Ashur habló sobre la modificación en la recaudación tributaria - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUDhIdVN2c0ZWbEFFTnYtaHgzVFQ3eEZkWUx1U25lWEFwYWUwX0MtdWkzRXM0bXVtWUJUNDNBSURYemR4NmZ1Vnpac25PN2hhUFFhRm42a0tjLVhFS2dROGp2VnI1M09lVjVqaFhidXZ5cjZscldRbUxxdXItdExfbDNXbUhSdkZHR1NiN1dQR1NqOEdNNEZnenlDV3pBbEVtWnZjU0pNN2hkQldtaXBnZ2lPanZnOER5MmUydnR3?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 27 Aug 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -29739,20 +29742,20 @@
     "id": "eje-ignacio-lupion",
     "name": "Ignacio Lupión",
     "role": "Ministro de Producción y Minería",
-    "total_mentions": 4,
+    "total_mentions": 5,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 1,
-      "neutral": 2
+      "neutral": 3
     },
     "sentiment_by_day": {
+      "2026-09-03": {
+        "total": 2,
+        "score_sum": 2
+      },
       "2026-10-20": {
         "total": 1,
         "score_sum": -1
-      },
-      "2026-09-03": {
-        "total": 1,
-        "score_sum": 2
       },
       "2024-09-23": {
         "total": 1,
@@ -29766,6 +29769,10 @@
     "top_topics": [
       {
         "term": "lupión",
+        "count": 3
+      },
+      {
+        "term": "ignacio",
         "count": 2
       }
     ],
@@ -29785,6 +29792,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Ignacio Lupión realizó un análisis favorable sobre los diferentes esquemas del RIGI - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Ya2VqbE4yaVgxeTNVVmRFT3lNQUZ6eXZDNFpNay15VUxPS09NQlFJZFlxN2hVbVNRN3VYVWFLbWQ1cXRDeWNqYnBUUzZGSEdWcXlQdg?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 03 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ramales C14 y 15: “Queremos soluciones a largo plazo, no parches”, demandó Lupión",
         "link": "https://informatesalta.com.ar/gobierno/ramales-c14-y-15---queremos-soluciones-a-largo-plazo--no-parches---demando-lupion_a6ad75bd9b7bd4e5edca8b52b",
