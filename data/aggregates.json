@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-22T19:34:52.931402+00:00",
+  "generated_at": "2026-10-22T20:50:33.638865+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 340,
+      "positivo": 83,
+      "negativo": 55,
+      "neutral": 202,
+      "score_sum": 132
+    },
+    "eje-roberto-dib-ashur": {
+      "total": 56,
+      "positivo": 7,
+      "negativo": 4,
+      "neutral": 45,
+      "score_sum": 32
+    },
+    "dip-german-dario-ralle": {
+      "total": 19,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 18,
+      "score_sum": 2
+    },
     "eje-oriana-nevora": {
       "total": 10,
       "positivo": 1,
@@ -14,13 +35,6 @@
       "negativo": 6,
       "neutral": 26,
       "score_sum": -8
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 55,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 45,
-      "score_sum": 30
     },
     "eje-ignacio-jarsun": {
       "total": 32,
@@ -49,13 +63,6 @@
       "negativo": 12,
       "neutral": 33,
       "score_sum": -26
-    },
-    "gustavo-saenz": {
-      "total": 338,
-      "positivo": 82,
-      "negativo": 55,
-      "neutral": 201,
-      "score_sum": 128
     },
     "dip-mirtha-esther-miller": {
       "total": 1,
@@ -469,13 +476,6 @@
       "negativo": 2,
       "neutral": 9,
       "score_sum": 0
-    },
-    "dip-german-dario-ralle": {
-      "total": 18,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 17,
-      "score_sum": 2
     },
     "dip-hector-raul-vargas": {
       "total": 1,
@@ -934,6 +934,44 @@
     }
   },
   "by_day": {
+    "2026-10-22": {
+      "gustavo-saenz": {
+        "total": 17,
+        "score_sum": 2
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-mirtha-esther-miller": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-12-12": {
       "eje-oriana-nevora": {
         "total": 1,
@@ -1123,40 +1161,6 @@
     "2025-11-12": {
       "dip-gustavo-orlando-orozco": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2026-10-22": {
-      "gustavo-saenz": {
-        "total": 15,
-        "score_sum": -2
-      },
-      "dip-mirtha-esther-miller": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -16549,6 +16553,10 @@
       "count": 9
     },
     {
+      "term": "nación",
+      "count": 8
+    },
+    {
       "term": "mangione",
       "count": 8
     },
@@ -16570,10 +16578,6 @@
     },
     {
       "term": "flavia",
-      "count": 8
-    },
-    {
-      "term": "royón",
       "count": 8
     }
   ],
