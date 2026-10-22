@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-10-22T10:37:46.910281+00:00",
+  "generated_at": "2026-10-22T15:41:56.164340+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 398,
+      "total_mentions": 402,
       "sentiment_breakdown": {
-        "positivo": 22,
+        "positivo": 24,
         "negativo": 34,
-        "neutral": 342
+        "neutral": 344
       },
       "sentiment_by_day": {
+        "2026-10-16": {
+          "total": 6,
+          "score_sum": 0
+        },
+        "2026-10-22": {
+          "total": 3,
+          "score_sum": 6
+        },
         "2026-10-17": {
           "total": 3,
           "score_sum": -2
@@ -43,10 +51,6 @@
         "2026-10-20": {
           "total": 5,
           "score_sum": -2
-        },
-        "2026-10-16": {
-          "total": 5,
-          "score_sum": 0
         },
         "2026-09-26": {
           "total": 6,
@@ -200,11 +204,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 167
+          "count": 169
         },
         {
           "term": "intransigente",
-          "count": 69
+          "count": 70
         },
         {
           "term": "presupuesto",
@@ -212,11 +216,11 @@
         },
         {
           "term": "informate",
-          "count": 40
+          "count": 41
         },
         {
           "term": "discapacidad",
-          "count": 33
+          "count": 36
         },
         {
           "term": "milei",
@@ -224,7 +228,7 @@
         },
         {
           "term": "pasa",
-          "count": 22
+          "count": 23
         },
         {
           "term": "elintra",
@@ -238,6 +242,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Todo este problema es porque cumplimos la ley",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdGp0X1RmX3h1czNZZnpQSHc4clNaM2JITTF3ODR1WjhGeU1RRWZ0cUJyY0dfVmlZcHdGazVIZFNJVlpsNFI4X0ZGN29Fd2lUaWk0clhkejBaOTVXQ2tEMVhkQmJrNzRPVmF6bEtudk5FUVFQdWJnM0FvR0s4WWRjQ21kczFtMnM3YzUycTM2WjRuYXFzZWRXWHJVZkFQT3ZVNlFVQnlobExDNnJjTDIwam9WZ0lNaXhxZ3l3RksybERQQTkwaVFuRm1wRUMzRWpRNnp4Q09HUjd6YmtqcURFbUc4Y3lVNnc?oc=5",
+          "date": "Fri, 16 Oct 2026 03:42:43 GMT"
+        },
         {
           "quote": "No vamos a crecer",
           "source": "El Intransigente",
@@ -321,15 +331,37 @@
           "source": "El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU21LODJIdzBSV3doSHlWeDJHcXFIa0lVeVpRMzNtRVJ4NU5hSlJZOFFmNmxYS0thanB4NWozX2x5WXNnNTZmdWNEMGo5dVhZVlNEWU1WUDBWc2wzQWlSZ2NzcTcxUEVXSHZiaExPMGdEdnlnc0lGV2FNZTJuM3hQSjAtMkk4b212TS1HS0tja0NUa0paQWhJbHd4eVlCZVF4eVRZUjBUeWRubVV2Z3N6Z2FBR2x0aWdlc1pHaDNMOVFfYnFCaU9ieHU2UG4xTlFldmfSAdIBQVVfeXFMUFNtSzgySHcwUld3aEh5VngyR3FxSGtJVXlaUTMzbUVSeDVOYUpSWThRZjZsWEtLYWpweDVqM19seVlzZzU2ZnVjRDBqOXVYWVZTRFlNVlAwVnNsM0FpUmdjc3E3MVBFV0h2YmhMTzBnRHZ5Z3NJRldhTWUybjN4UEowLTJJOG9tdk0tR0tLY2tDVGtKWkFoSWx3eHlZQmVReHlUWVIwVHlkbm1VdmdzemdhQUdsdGlnZXNaR2gzTDlRX2JxQmlPYnh1NlBuMU5RZXZn?oc=5",
           "date": "Fri, 09 Oct 2026 21:06:00 GMT"
-        },
-        {
-          "quote": "Es realmente una zona fantástica, un laboratorio natural",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdU9LRi04TVdkY2NpOENNMmxveVV6QjVzQmo0YUVaRHhpRGxOWWtqM256VWpzSkZFSW9wdDc3aFBVcHVxWkhqcDdiWWJ3RXU5NlBuaEdyTDNTMUZIOE9QWHR4V09nbV83SXE1anBmU19YTDNwNDJZVHBtZENuSTVzdzRXLTdLMmFBak9pOWR0eUc2c21XSldWRFRrUnFkWkw5YTdIUlNtUHpkOVg0bXdYbDlSei1YT3FLV3pzR1J2TS1YWWJvU3JSOGdYaDRSMlRWWEJGU2E4MHUwaWpYZ0JZSWljaDZEWFplWng3ZFNESjNaNno4?oc=5",
-          "date": "Fri, 09 Oct 2026 22:23:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Alejandro Álvarez defendió al Gobierno por la marcha universitaria: “Todo este problema es porque cumplimos la ley” - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdGp0X1RmX3h1czNZZnpQSHc4clNaM2JITTF3ODR1WjhGeU1RRWZ0cUJyY0dfVmlZcHdGazVIZFNJVlpsNFI4X0ZGN29Fd2lUaWk0clhkejBaOTVXQ2tEMVhkQmJrNzRPVmF6bEtudk5FUVFQdWJnM0FvR0s4WWRjQ21kczFtMnM3YzUycTM2WjRuYXFzZWRXWHJVZkFQT3ZVNlFVQnlobExDNnJjTDIwam9WZ0lNaXhxZ3l3RksybERQQTkwaVFuRm1wRUMzRWpRNnp4Q09HUjd6YmtqcURFbUc4Y3lVNnc?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 16 Oct 2026 03:42:43 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Nueva ley de discapacidad: Diputados la aprobó con 237 votos y ahora pasa al Senado - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT2NrY0tLMU1BYndwVGp0eXk2NFh6d3RXR1pUR3dvU0ozcVU3YTF0SEs4TGh2MkZtc2h6OG5HZ3lsMUNiS1hnb0V4T2FiWjN5TmoyRm5XTVZLQTY2eGRLSzZvQnp2QWxLTkY0U0Zzc29RUGQyVEJhLWlnbjdoX01CdEVRNFVUR3Vxb0VsTUpjM25tTEhlblhpM3lHdG1CenF2QklMSGJfYlVsc2EzUmF5RllmTWFUNi1nLUI2RkhSdTg0czF5TElwMFZYbHBfTXNtOThR0gHYAUFVX3lxTE05WUxhb0puMmRiRHVBRzZnek1xdHdTVmstZV9LZjJManl3WWxaTW9yNWpPd1oxazBRUUVnRFN0VzMxY25jR3dJYlVSdjJDV3Z5bXJ3dEgxWVpSNGF5dDdReVdQLVJtYmZLdVN5UDNiLV9qNVhydGdQbUk3SUYzUTUwc3NCQmpQUVlVUG1faWFmckduSmFRdnJfRjNDMUYwTllmbzdvNmsyUmNvRTdqMzQycDZHTl9feHJVX2NMTlJJa0Rrdjh5UVZhVHBlbXRCa2JMTnlXSUxiaQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 22 Oct 2026 03:59:00 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Respaldo opositor: se aprobó el proyecto sobre discapacidad - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONThsMTNEY1dYOUJ6VkdaTjdvdjk2MGtVQzJhOUJRN1l1Mk1YejQ5ZzlMV1ZRbTBmNWIzR1lzWmpYc0dBUWlaUDV5Y3V0Zm5YdjlIc0otbFMzUDBweHhJMTNoaC1fRWhxRGNtMFVxdlU0c050YUlCUmdmc0pGOUs5Zk1TQTJsR0VhQmRlRkxJbmlBZFN5NmFHWnJjaktaWmFTMkNvTmlRWG1kU0xoRnpidDV30gG3AUFVX3lxTE0zX3VPOVoydWNQenpMQWl3RjdxQVZfNl9nNy0xMkJCVEVlYWZmRHBRNEZ1WVFLODVyTDBnOWd2RnV0eU5iT1VpTWdBNFU4LUZXdDhIQWpWTEFOUnNrT0poNU9WeUl6RURTbWdUOGpsRlFHZ3hUaVNxOHJHMENlTVZ0SkExY3ZLRkJDQW9xNWZoRnJTSzJ2Tk5peG90TEJhUlVLS0hGOERJLVotQTBBMDhSdWlHSmE3WQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 22 Oct 2026 04:35:00 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Nueva ley de Discapacidad: Qué cambia y cómo votaron los diputados salteños - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNC13ZURvUlB1Z3gxYkVTQ3c4MjJrcWV5MkVMU1pkS1pRTGRyYWFfbm1yY0VRMFoxVXdUTFRsaURmRHJsOXNFdHF2ak9BdkpUbThtVDRVT1BDaGowWjRFal9sQzhJdnRSRkowU2QtZzI1NlpFWUhTRWJDV015WTYxWTJybl8xc183R0s3SUtSTkpnWFFNWlgxUDY2TnFhNy1TM1p2SURxeFlWN2FjRUV6T0JjUF9LMWZ4VHhYeXVSLVp4a0RLTGxseEpudzRUVVRVU0JlaGx5cVBDdUHSAeoBQVVfeXFMTjNmUEtkNzd4TjNOaFFocmlwS3FFVHZEeDQ5MzJkS2pEbnlEbllOWGl6bnVTbDFWaVAzRFA2NmEwT1hXd1hDR1JhanZ5ZzhYWElPbElyWVY5TW9rcm56VmNPUkF5NEZFNXdjSW9ZSkpVZE1xQkRBZ0xWaWVuQUVWQ1JLVU45LW5jcm5GcVYtQWg0Vm5ZT0o5LWtlU2VrcHRPaFFKZV9SSXpTd1VzTFNqN1hMUU9IWGJ2ZXBfWFpjemNsWlh0TEtkbUNmcld2UVR0N2Jfa2NxSmJJOENyV2l0UWZjNnNpdEttTW93?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 22 Oct 2026 11:43:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Gustavo Sáenz llevará a Nación el reclamo por inversiones obligatorias en los ramales C14 y C15 - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSllrN2lWbV84UEVVWlIxY0NLWUEwMlV2ZEJ2c3dsS0t4TnBramIwNW5iU0ZuY3NyYnhEODBmRzlvZTlCamgwV2NZbXNHZHE4Q0NSeEVOd2puM1FPdnZENG9CWldZWXE1aC01QzNKZURSUjFlaFo5WGFwRG1SRkZXQnN4Z20tWDRyS2xIN3VReFRDWTUyZTFoV0FmWmVXZk03M282RGxOejFReFV3aGNwUkZkS3FNWHNoakU3WEFHTlBqSGVzMkF5OTZn?oc=5",
@@ -510,34 +542,6 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWEZIMl9WV2xVOUhhZVFIYjVBTC1BMzU2b1hoMmEwUjJNTWh0MkZMRmgyU3ZVemQ1clpUUTRGODA5NE1NMFpYc3hqZHcyUUI2Y05Ic0F5d3hoS1VwNDU1SUlZT2ZqN1o1SjJrMFE2TVpkLW42bE1PYlh5R1lENGh2UzNUYk5BWTVobUFmejVWVU5hMG04YXhB0gGcAUFVX3lxTE9lN3BCR1hpaGN1QUljb1M5aDJ6cldVaVhsY25oU05pZjY0OHI1S294WkgwbEN4QnRIZFpsOTdvNjF5TkwzZlNuOVdwdHJYYmNKdUpZVmJpRTBzVjhyYzlJYWxyVE8tZEI3eWxHYVdaN0hmMVRzbTlvOXpITGlwUk9nQ0x5ODJLelhoU2M3dGVYSF9lUUVtWHdwMWJwbw?oc=5",
           "source": "El Tribuno",
           "date": "Sat, 17 Oct 2026 04:40:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Discapacidad: Presupuesto seguro para prestaciones - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWtNYkZHWG5FbnJjMzh1WU5tZ0NqSDFINElWUjk0VkVKbjZmNlQwQnZsblphaVU5eUJuRE1aVEt1alNhZnFXOXdqczNxX2ZGRFZLQ1Q0bWdMZ0pTRGJKdEFUZXlvdUo0OGJKb3MzYW9OYjlXYUpGdS0xcEtpeGpBUktnQXc2SmNHcHpBZXBVUFRVQTgtNXpYcng3bWNTZ2VKZ2EtWVF30gGrAUFVX3lxTE0yRXQtMFliU242akVZcFZuN0F2SUdTYVhUZUllaEo5enNmT3ZEdGVTQnZ0cW44aFN3UHp6ZDZsWkd2MnJpR3lzUFp2RUgwSGFVNEZBQWlYY2RSR0pMSTBhSXlxQ2VTRWE3bTg2enYyOE00QldlZWxUVFV1eUpfcUN6VTNwSXBDQ0JuQnR2c2NZV0Z0TUdJYXRtSks1V2V6V25ZSGh1VHdzUlgwTQ?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 14 Oct 2026 05:01:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Se definieron las prioridades para el 2027: qué obras se vienen para el sur de la Provincia - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeG9kM2IxNk1EOEE3eERiajNDTEMwMHZDVjlia3hIeEx0OHNUYVJVeGxzZ0R1LXA3b1NXaEdQZ3RpQkdiY0VINk03WjFZN3ZRRUxrdmVIdWUybHB6bnBFRTdLTHhOUmp1TTEtMTZOUGh2OU5HOUZWdjMxdUZoTDhfU1huMFpTclZyTVdqRDhvYTBsb3JXU1VLQWRvYXV4U0RrZnN5WHhvX3VCRG1GMVlsV1RyUVNuT1FLX3U3aXgyV3Atbmd4bXFkSTdNNkzSAcwBQVVfeXFMTnhvZDNiMTZNRDhBN3hEYmozQ0xDMDB2Q1Y5Ymt4SHhMdDhzVGFSVXhsc2dEdS1wN29TV2hHUGd0aUJHYmNFSDZNN1oxWTd2UUVMa3ZlSHVlMmxwem5wRUU3S0x4TlJqdU0xLTE2TlBodjlORzlGVnYzMXVGaEw4X1NYbjBaU3JWck1XakQ4b2EwbG9yV1NVS0Fkb2F1eFNEa2ZzeVh4b191QkRtRjFZbFdUclFTbk9RS191N2l4MldwLW5neG1xZEk3TTZM?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Fri, 16 Oct 2026 21:57:39 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONmFWWUNyd1BYaUkxN1FUcFZkeGFRUkRvRWk1cXAtN29lZmcyM1hPNEltTjdNRnJ4QUZLY2lZaGM1b0lLTlhNdENRMV9YSzJjU2VNWHZzeTVzSHJzSWtGLUZDVUxKdVRFTVQwUXNpYk50YndEenVJN0VXYmowVXNoa2IwUEdoeXVJSXJXVFI0THNLY3FTT0FsTXptWmdCMktMN21Ka3VzX1J4OFgwTl81Z3YwUUdMTWJId0FnM3lMUEpZQ2ZWWjdwQUp0eXdXQko2VWI1WFk1bW56YjZ2VFAtQmVDSXVJZ9IB5gFBVV95cUxONmFWWUNyd1BYaUkxN1FUcFZkeGFRUkRvRWk1cXAtN29lZmcyM1hPNEltTjdNRnJ4QUZLY2lZaGM1b0lLTlhNdENRMV9YSzJjU2VNWHZzeTVzSHJzSWtGLUZDVUxKdVRFTVQwUXNpYk50YndEenVJN0VXYmowVXNoa2IwUEdoeXVJSXJXVFI0THNLY3FTT0FsTXptWmdCMktMN21Ka3VzX1J4OFgwTl81Z3YwUUdMTWJId0FnM3lMUEpZQ2ZWWjdwQUp0eXdXQko2VWI1WFk1bW56YjZ2VFAtQmVDSXVJZw?oc=5",
-          "source": "Informate Salta",
-          "date": "Fri, 16 Oct 2026 18:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el sur salteño definió prioridades junto al Gobierno - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQME9yMDRWTXhkMTVZYzQ3eWV6ajRVTmdTSkZDX3MwX1kzQWktcUlSTGNjcjNVOUtUQWZuRHlzenpCY0cxTTVJeVdpTnJCaFFJQ25fRjg3Qlo1eG44ZXd1ZEZ0SmNwN3RubmwtaHpyQl94X08xdXJSV2d5TUNsV0VWcXBBbGVzdW53eGtRSHE3R2VwOFYwUGxTRUxXYVlKOTUxSjhxUUFuU21pWlBhaHM1Ung3Y1QwT01vb3JQcXJRTk5UaXc?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 16 Oct 2026 18:13:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
