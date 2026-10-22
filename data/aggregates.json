@@ -1,12 +1,61 @@
 {
-  "generated_at": "2026-10-22T20:50:33.638865+00:00",
+  "generated_at": "2026-10-22T22:46:43.411392+00:00",
   "by_politician": {
+    "concejal-gonzalo-nieva": {
+      "total": 50,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 41,
+      "score_sum": -20
+    },
+    "dip-adrian-alfredo-valenzuela-giantomasi": {
+      "total": 9,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 7,
+      "score_sum": -6
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 59,
+      "positivo": 4,
+      "negativo": 10,
+      "neutral": 45,
+      "score_sum": -9
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 18,
+      "positivo": 8,
+      "negativo": 0,
+      "neutral": 10,
+      "score_sum": 15
+    },
+    "eje-mario-mimessi": {
+      "total": 29,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 25,
+      "score_sum": -2
+    },
+    "dip-luis-gerardo-mendana": {
+      "total": 6,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 3,
+      "score_sum": -3
+    },
+    "dip-german-dario-ralle": {
+      "total": 20,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 18,
+      "score_sum": 3
+    },
     "gustavo-saenz": {
-      "total": 340,
-      "positivo": 83,
+      "total": 341,
+      "positivo": 84,
       "negativo": 55,
       "neutral": 202,
-      "score_sum": 132
+      "score_sum": 133
     },
     "eje-roberto-dib-ashur": {
       "total": 56,
@@ -14,13 +63,6 @@
       "negativo": 4,
       "neutral": 45,
       "score_sum": 32
-    },
-    "dip-german-dario-ralle": {
-      "total": 19,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 18,
-      "score_sum": 2
     },
     "eje-oriana-nevora": {
       "total": 10,
@@ -112,13 +154,6 @@
       "negativo": 4,
       "neutral": 22,
       "score_sum": 0
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 17,
-      "positivo": 7,
-      "negativo": 0,
-      "neutral": 10,
-      "score_sum": 14
     },
     "eje-sergio-camacho": {
       "total": 22,
@@ -267,13 +302,6 @@
       "neutral": 12,
       "score_sum": 0
     },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 58,
-      "positivo": 4,
-      "negativo": 10,
-      "neutral": 44,
-      "score_sum": -9
-    },
     "dip-guillermo-alejandro-kripper": {
       "total": 17,
       "positivo": 0,
@@ -308,13 +336,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 0
-    },
-    "eje-mario-mimessi": {
-      "total": 28,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 25,
-      "score_sum": -3
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 23,
@@ -364,13 +385,6 @@
       "negativo": 11,
       "neutral": 24,
       "score_sum": -30
-    },
-    "dip-luis-gerardo-mendana": {
-      "total": 5,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 3,
-      "score_sum": -4
     },
     "dnac-maria-gabriela-flores": {
       "total": 22,
@@ -603,13 +617,6 @@
       "neutral": 20,
       "score_sum": 2
     },
-    "dip-adrian-alfredo-valenzuela-giantomasi": {
-      "total": 8,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 6,
-      "score_sum": -6
-    },
     "dip-claudio-jose-cansino": {
       "total": 2,
       "positivo": 0,
@@ -651,13 +658,6 @@
       "negativo": 0,
       "neutral": 14,
       "score_sum": 4
-    },
-    "concejal-gonzalo-nieva": {
-      "total": 49,
-      "positivo": 0,
-      "negativo": 8,
-      "neutral": 41,
-      "score_sum": -18
     },
     "dip-esteban-amat-lacroix": {
       "total": 52,
@@ -934,18 +934,60 @@
     }
   },
   "by_day": {
+    "2024-03-18": {
+      "concejal-gonzalo-nieva": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-05-07": {
+      "dip-adrian-alfredo-valenzuela-giantomasi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-25": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-22": {
-      "gustavo-saenz": {
-        "total": 17,
+      "eje-nicolas-avellaneda": {
+        "total": 3,
         "score_sum": 2
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-german-dario-ralle": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 18,
+        "score_sum": 3
       },
       "eje-roberto-dib-ashur": {
         "total": 2,
         "score_sum": 1
-      },
-      "dip-german-dario-ralle": {
-        "total": 1,
-        "score_sum": 0
       },
       "dip-mirtha-esther-miller": {
         "total": 1,
@@ -958,10 +1000,6 @@
       "dnac-bernardo-biella": {
         "total": 1,
         "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 2,
-        "score_sum": 1
       },
       "eje-federico-mangione": {
         "total": 1,
@@ -2816,20 +2854,6 @@
         "score_sum": 0
       },
       "dip-guillermo-mario-durand-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-25": {
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
       }
@@ -9442,16 +9466,6 @@
     },
     "2023-11-21": {
       "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-03-18": {
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-jorge-saravia": {
         "total": 1,
         "score_sum": 0
       }
@@ -16522,11 +16536,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 47
+      "count": 48
     },
     {
       "term": "sáenz",
-      "count": 29
+      "count": 28
     },
     {
       "term": "gustavo",
@@ -16545,10 +16559,6 @@
       "count": 9
     },
     {
-      "term": "josé",
-      "count": 9
-    },
-    {
       "term": "pidió",
       "count": 9
     },
@@ -16557,7 +16567,7 @@
       "count": 8
     },
     {
-      "term": "mangione",
+      "term": "josé",
       "count": 8
     },
     {
@@ -16578,6 +16588,10 @@
     },
     {
       "term": "flavia",
+      "count": 8
+    },
+    {
+      "term": "royón",
       "count": 8
     }
   ],
