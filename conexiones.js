@@ -249,7 +249,18 @@
     '.nxc .ev{list-style:none;margin:.3rem 0;padding:0}.nxc .ev li{border-left:3px solid var(--nxc-b);padding:.25rem .6rem;margin:.35rem 0;font-size:.86rem}.nxc .ev small{color:var(--soft)}' +
     '.nxc .vac{padding:1rem;border:1px dashed var(--soft);border-radius:3px;color:var(--soft);font-size:.92rem}.nxc .err{padding:.8rem 1rem;border:1px solid var(--neg,#8B3A3A);color:var(--negtx,#8B3A3A);border-radius:3px;background:var(--raised)}' +
     '.nxc .ruta{border:1px solid var(--nxc-b);border-radius:3px;margin:.6rem 0;padding:.6rem .8rem;background:var(--raised,#FBF8F1)}.nxc .ruta ol{margin:.3rem 0;padding-left:1.2rem}.nxc .dl{display:grid;grid-template-columns:max-content 1fr;gap:.2rem .8rem;font-size:.88rem;margin:.4rem 0}.nxc .dl dt{color:var(--soft)}.nxc .dl dd{margin:0}' +
-    '.nxc svg.ego{width:100%;height:auto;max-height:420px;background:var(--paper,#F3EEE2);border:1px solid var(--nxc-b);border-radius:3px}.nxc svg.ego text{font-size:11px;fill:var(--ink,#211D1A)}.nxc .sr{position:absolute;left:-9999px}';
+    '.nxc svg.ego{width:100%;height:auto;max-height:420px;background:var(--paper,#F3EEE2);border:1px solid var(--nxc-b);border-radius:3px}.nxc svg.ego text{font-size:11px;fill:var(--ink,#211D1A)}.nxc .sr{position:absolute;left:-9999px}' +
+    '.nxc{--paper:#111418;--raised:#1C2127;--ink:#E5E8EB;--soft:#A7B6C2;--line:#2F343C;--nxc-b:#2F343C;--clay:#EC9A3C;--indigo:#2D72D2;--onind:#fff;--pos:#3DCC91;--neg:#E76A6E;--negtx:#FA999C;--neu:#ABB3BF;--warn:#2A2416;--onclay:#111418;background:#111418;color:#E5E8EB;border:1px solid #2F343C;border-radius:3px;padding:1rem 1.1rem;font-family:Inter,"Segoe UI",system-ui,sans-serif}' +
+    '.nxc h2{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#A7B6C2;font-weight:600;border-bottom:1px solid #2F343C;padding-bottom:.5rem;margin:0 0 .8rem}.nxc h3{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:#A7B6C2;font-weight:600}.nxc h4{color:#CED9E0}' +
+    '.nxc a{color:#8ABBFF}.nxc button{border-color:#5F6B7C;background:#252A31}.nxc button:hover{background:#2F343C}.nxc button.pri{background:#2D72D2;border-color:#2D72D2;color:#fff}.nxc button.pri:hover{background:#215DB0}' +
+    '.nxc input[type=text],.nxc select{background:#111418;border-color:#5F6B7C}.nxc [role=tablist]{border-bottom:1px solid #2F343C}.nxc [role=tab]{font-size:.82rem;letter-spacing:.03em;border-radius:0}.nxc [role=tab][aria-selected=true]{background:#2D72D2;color:#fff;border-color:#2D72D2}' +
+    '.nxc .card,.nxc .ruta,.nxc .filt,.nxc details.lim{background:#1C2127}.nxc .aviso{background:#2A2416;border-left-color:#EC9A3C;color:#F5D9A8}.nxc .ev li{border-left-color:#2D72D2}.nxc tr.sel{background:#243447}' +
+    '.nxc .b.nue{color:#3DCC91}.nxc .b.sal{color:#3DCC91}.nxc .b.nac{color:#8ABBFF}.nxc .b.mix,.nxc .b.cru{color:#EC9A3C}.nxc .b.ind{color:#A7B6C2}' +
+    '.nxc .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1px;background:#2F343C;border:1px solid #2F343C;margin:.4rem 0 .8rem}.nxc .kpis div{background:#1C2127;padding:.55rem .7rem}.nxc .kpis b{display:block;font-size:1.35rem;font-weight:600;font-variant-numeric:tabular-nums}.nxc .kpis span{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:#A7B6C2}' +
+    '.nxc .redwrap{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(260px,1fr);gap:1rem;align-items:start}@media(max-width:900px){.nxc .redwrap{grid-template-columns:1fr}}' +
+    '.nxc .redmap{border:1px solid #2F343C;background:#0E1318;position:relative}.nxc svg.redsvg{display:block;width:100%;height:auto;touch-action:none;cursor:grab;max-height:78vh}.nxc svg.redsvg:active{cursor:grabbing}' +
+    '.nxc .leyenda{display:flex;flex-wrap:wrap;gap:.3rem 1rem;padding:.45rem .7rem;border-top:1px solid #2F343C;font-size:.72rem;color:#A7B6C2}.nxc .leyenda i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-1px}.nxc .leyenda i.sq{border-radius:0}.nxc .leyenda i.ro{background:none;border:2px dashed #C274C2}.nxc .leyenda b.dash{letter-spacing:-1px}' +
+    '.nxc .ctlbar{display:flex;flex-wrap:wrap;gap:.4rem;margin:.4rem 0}.nxc .tw{overflow-x:auto;max-width:100%}';
   function estilo() { if (document.getElementById('nxc-css')) return; var s = document.createElement('style'); s.id = 'nxc-css'; s.textContent = CSS; document.head.appendChild(s); }
 
   /* ------------------------------------------------------------------ en común y novedades */
@@ -272,12 +283,95 @@
     try { var ta = document.createElement('textarea'); ta.value = texto; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); var r = document.execCommand('copy'); document.body.removeChild(ta); ok(r ? 'Copiado' : 'No se pudo copiar'); } catch (e2) { ok('No se pudo copiar'); }
   }
 
+  /* ------------------------------------------------------------------ mapa de red (análisis sobre el subgrafo visible) */
+  var RED_TIPOS = { persona: 'Personas', tema: 'Temas', frase: 'Frases', por_conocer: 'Por identificar' };
+  function redBase() { return { tipos: { persona: 1, tema: 1, frase: 0, por_conocer: 1 }, max: 60, radio: 1, color: 'terr', foco: '', sel: '' }; }
+  function gradoPond(D, edges) { var g = {}; edges.forEach(function (e) { g[e.a] = (g[e.a] || 0) + e.w; g[e.b] = (g[e.b] || 0) + e.w; }); return g; }
+  function subgrafoRed(D, F, opt) {
+    var f = F || filtroBase(), o = opt || redBase(), ok = function (id) { var n = D.nodos[id]; return n && o.tipos[n.tipo]; };
+    var cand = D.aristas.filter(function (e) { return pasa(D, e, f) && ok(e.a) && ok(e.b); }), ids = {}, i;
+    if (o.foco && D.nodos[o.foco]) {
+      var front = [o.foco]; ids[o.foco] = 0;
+      for (var r = 0; r < (o.radio || 1); r++) {
+        var nx = [];
+        cand.forEach(function (e) { var a = ids[e.a] != null, b = ids[e.b] != null; if (a && !b && front.indexOf(e.a) >= 0) { ids[e.b] = r + 1; nx.push(e.b); } else if (b && !a && front.indexOf(e.b) >= 0) { ids[e.a] = r + 1; nx.push(e.a); } });
+        front = nx;
+      }
+    } else { cand.forEach(function (e) { ids[e.a] = 0; ids[e.b] = 0; }); }
+    var edges = cand.filter(function (e) { return ids[e.a] != null && ids[e.b] != null; }), deg = gradoPond(D, edges), lista = Object.keys(ids);
+    var recortado = false;
+    if (lista.length > o.max) {
+      lista.sort(function (x, y) { return (x === o.foco ? -1 : y === o.foco ? 1 : 0) || (deg[y] || 0) - (deg[x] || 0) || (x < y ? -1 : 1); });
+      lista = lista.slice(0, o.max); recortado = true;
+      var keep = {}; lista.forEach(function (x) { keep[x] = 1; });
+      edges = edges.filter(function (e) { return keep[e.a] && keep[e.b]; }); deg = gradoPond(D, edges);
+    }
+    lista = lista.filter(function (x) { return deg[x] || x === o.foco; }).sort();
+    return { ids: lista, edges: edges, deg: deg, recortado: recortado };
+  }
+  function hash01(str) { var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 10000) / 10000; }
+  function layoutRed(ids, edges, W, H) {
+    var n = ids.length, pos = {}, idx = {}, i, it;
+    ids.forEach(function (id, k) { idx[id] = k; var a = 2 * Math.PI * k / Math.max(1, n) + hash01(id) * .6, r = Math.min(W, H) * (.25 + .2 * hash01(id + 'r')); pos[id] = { x: W / 2 + r * Math.cos(a), y: H / 2 + r * Math.sin(a), dx: 0, dy: 0 }; });
+    if (n < 2) return pos;
+    var k0 = Math.sqrt(W * H / n) * 1.15, t = W / 8, iters = n > 80 ? 160 : 240;
+    for (it = 0; it < iters; it++) {
+      for (i = 0; i < n; i++) { pos[ids[i]].dx = 0; pos[ids[i]].dy = 0; }
+      for (i = 0; i < n; i++) for (var j = i + 1; j < n; j++) {
+        var A = pos[ids[i]], B = pos[ids[j]], dx = A.x - B.x, dy = A.y - B.y, d2 = dx * dx + dy * dy + .01, d = Math.sqrt(d2), f = k0 * k0 / d2;
+        A.dx += dx * f; A.dy += dy * f; B.dx -= dx * f; B.dy -= dy * f;
+      }
+      edges.forEach(function (e) {
+        var A = pos[e.a], B = pos[e.b]; if (!A || !B) return;
+        var dx = A.x - B.x, dy = A.y - B.y, d = Math.sqrt(dx * dx + dy * dy) + .01, f = d * d / k0 * (.22 + .1 * Math.log(1 + e.w));
+        A.dx -= dx / d * f; A.dy -= dy / d * f; B.dx += dx / d * f; B.dy += dy / d * f;
+      });
+      for (i = 0; i < n; i++) {
+        var P = pos[ids[i]]; P.dx += (W / 2 - P.x) * .02; P.dy += (H / 2 - P.y) * .02;
+        var m = Math.sqrt(P.dx * P.dx + P.dy * P.dy) + .01, c = Math.min(m, t);
+        P.x += P.dx / m * c; P.y += P.dy / m * c;
+        P.x = Math.max(30, Math.min(W - 30, P.x)); P.y = Math.max(30, Math.min(H - 30, P.y));
+      }
+      t *= .985;
+    }
+    return pos;
+  }
+  function comunidades(ids, edges) {
+    var lab = {}, ady = {}; ids.forEach(function (id) { lab[id] = id; ady[id] = []; });
+    edges.forEach(function (e) { if (ady[e.a] && ady[e.b]) { ady[e.a].push([e.b, e.w]); ady[e.b].push([e.a, e.w]); } });
+    for (var r = 0; r < 14; r++) {
+      var cambio = false;
+      ids.forEach(function (id) {
+        var c = {}; ady[id].forEach(function (x) { c[lab[x[0]]] = (c[lab[x[0]]] || 0) + x[1]; });
+        var best = lab[id], bv = -1; Object.keys(c).sort().forEach(function (k) { if (c[k] > bv) { bv = c[k]; best = k; } });
+        if (best !== lab[id]) { lab[id] = best; cambio = true; }
+      });
+      if (!cambio) break;
+    }
+    var grupos = {}; ids.forEach(function (id) { (grupos[lab[id]] = grupos[lab[id]] || []).push(id); });
+    var orden = Object.keys(grupos).sort(function (a, b) { return grupos[b].length - grupos[a].length || (a < b ? -1 : 1); }), num = {};
+    orden.forEach(function (k, i) { num[k] = i; });
+    var de = {}; ids.forEach(function (id) { de[id] = num[lab[id]]; });
+    return { de: de, grupos: orden.map(function (k) { return grupos[k]; }) };
+  }
+  function intermediacion(ids, edges) {
+    var ady = {}, bc = {}; ids.forEach(function (id) { ady[id] = []; bc[id] = 0; });
+    edges.forEach(function (e) { if (ady[e.a] && ady[e.b]) { ady[e.a].push(e.b); ady[e.b].push(e.a); } });
+    ids.forEach(function (s) {
+      var S = [], P = {}, sg = {}, d = {}, Q = [s]; ids.forEach(function (v) { P[v] = []; sg[v] = 0; d[v] = -1; }); sg[s] = 1; d[s] = 0;
+      for (var qi = 0; qi < Q.length; qi++) { var v = Q[qi]; S.push(v); ady[v].forEach(function (w) { if (d[w] < 0) { d[w] = d[v] + 1; Q.push(w); } if (d[w] === d[v] + 1) { sg[w] += sg[v]; P[w].push(v); } }); }
+      var dl = {}; ids.forEach(function (v) { dl[v] = 0; });
+      while (S.length) { var w = S.pop(); P[w].forEach(function (v) { dl[v] += sg[v] / sg[w] * (1 + dl[w]); }); if (w !== s) bc[w] += dl[w]; }
+    });
+    var n = ids.length, norm = n > 2 ? (n - 1) * (n - 2) : 1, out = {}; ids.forEach(function (id) { out[id] = bc[id] / norm; }); return out;
+  }
+
   /* ------------------------------------------------------------------ interfaz */
   var uid = 0;
   function mount(el, params) {
     if (!el) return null; estilo(); params = params || {};
     var id0 = 'nxc' + (++uid), D = null;
-    var S = { vista: params.vista || 'actor', a: '', b: '', sel: '', F: filtroBase(), mostrarTodas: false };
+    var S = { vista: params.vista || 'actor', a: '', b: '', sel: '', F: filtroBase(), mostrarTodas: false, red: redBase(), vb: null, lay: null };
     var ctl = { abrir: abrir, estado: function () { return S; }, datos: function () { return D; } };
     el.innerHTML = '<section class="nxc" id="' + id0 + '" aria-labelledby="' + id0 + 't"><h2 id="' + id0 + 't">Explorador de conexiones</h2><p class="vac" role="status">Cargando conexiones…</p></section>';
     var root = el.querySelector('.nxc');
@@ -296,6 +390,7 @@
       if (p.actor) { var a = resolver(D, p.actor); if (a) S.a = a.id; else S.msg = 'No encontré un único actor para «' + p.actor + '». Elegilo en el buscador.'; }
       if (p.destino) { var b = resolver(D, p.destino); if (b) S.b = b.id; else S.msg = 'No encontré un único actor para «' + p.destino + '». Elegilo en el buscador.'; }
       if (S.a && S.b) S.vista = 'ruta'; else if (p.vista) S.vista = p.vista;
+      if (S.vista === 'red' && S.a) { S.red.foco = S.a; S.red.sel = S.a; }
     }
     function abrir(p) { if (!D) { params = Object.assign({}, params, p); return; } S.sel = ''; S.msg = ''; aplicarParams(p || {}); pintar(); }
 
@@ -418,6 +513,10 @@
         var nv = novedades(D, S.F, 7); t += 'Vínculos con notas en los últimos 7 días (' + nv.length + '):\n';
         return t + nv.slice(0, 40).map(function (e) { return '- ' + D.nodos[e.a].label + ' ↔ ' + D.nodos[e.b].label + ': ' + e.w + ' notas, última ' + e.ultima + (e.conf ? ', confianza ' + e.conf : ''); }).join('\n');
       }
+      if (S.vista === 'red') {
+        var dr = datosRed(), sb = dr.sub, rk = sb.ids.slice().sort(function (x, y) { return (sb.deg[y] || 0) - (sb.deg[x] || 0); }).slice(0, 10);
+        return t + 'Mapa de red' + (S.red.foco && D.nodos[S.red.foco] ? ' centrado en ' + D.nodos[S.red.foco].label : '') + ': ' + sb.ids.length + ' actores, ' + sb.edges.length + ' vínculos, ' + sb.edges.filter(function (e) { return e.conf === 'alta'; }).length + ' de confianza alta.\nActores con más notas en sus vínculos:\n' + rk.map(function (id) { return '- ' + D.nodos[id].label + ' (' + sb.deg[id] + ' notas, intermediación ' + Math.round((dr.lay.bc[id] || 0) * 100) + ')'; }).join('\n');
+      }
       if (S.vista === 'comun' && S.a && S.b) {
         var c = enComun(D, S.a, S.b, S.F); t += 'Conexiones en común entre ' + D.nodos[S.a].label + ' y ' + D.nodos[S.b].label + ' (' + c.comunes.length + '):\n';
         return t + c.comunes.slice(0, 40).map(function (x) { return '- ' + D.nodos[x.id].label + ': con el primero ' + x.ea.w + ' notas, con el segundo ' + x.eb.w; }).join('\n');
@@ -454,6 +553,96 @@
       });
       return h + '</ul>' + (nv.length > 40 ? '<p><small>Se muestran 40 de ' + nv.length + '.</small></p>' : '');
     }
+    /* ---- mapa de red ---- */
+    var BG = '#0E1318', C_SAL = '#32A467', C_NAC = '#4C90F0', C_MIX = '#EC9A3C', C_NEU = '#8F99A8', GRP = ['#4C90F0', '#32A467', '#EC9A3C', '#C274C2', '#2EB8B8', '#E76A6E', '#C9B84A', '#8F99A8'];
+    var VW = 1000, VH = 620;
+    function colorNodo(n, grp) { if (grp != null) return GRP[grp % GRP.length]; return n.tipo !== 'persona' && n.tipo !== 'por_conocer' ? C_NEU : n.ambito === 'Salta' ? C_SAL : n.ambito === 'Nación' ? C_NAC : C_MIX; }
+    function datosRed() {
+      var R0 = S.red, sub = subgrafoRed(D, S.F, R0), key = [R0.foco, R0.radio, R0.max, JSON.stringify(R0.tipos), JSON.stringify(S.F), sub.ids.length, sub.edges.length].join('|');
+      if (!S.lay || S.lay.key !== key) { S.lay = { key: key, pos: layoutRed(sub.ids, sub.edges, VW, VH), com: comunidades(sub.ids, sub.edges), bc: intermediacion(sub.ids, sub.edges) }; S.vb = null; }
+      return { sub: sub, lay: S.lay };
+    }
+    function svgRed(dr, exportar) {
+      var sub = dr.sub, pos = dr.lay.pos, sel = S.red.sel && pos[S.red.sel] ? S.red.sel : '', vec = {}, vb = S.vb || { x: 0, y: 0, w: VW, h: VH }, maxd = 1;
+      sub.ids.forEach(function (id) { maxd = Math.max(maxd, sub.deg[id] || 0); });
+      if (sel) { vec[sel] = 1; sub.edges.forEach(function (e) { if (e.a === sel) vec[e.b] = 1; if (e.b === sel) vec[e.a] = 1; }); }
+      var rank = sub.ids.slice().sort(function (x, y) { return (sub.deg[y] || 0) - (sub.deg[x] || 0); }), top = {}; rank.slice(0, 22).forEach(function (x) { top[x] = 1; });
+      var h = '<svg class="redsvg" xmlns="http://www.w3.org/2000/svg" viewBox="' + (exportar ? '0 0 ' + VW + ' ' + VH : vb.x.toFixed(1) + ' ' + vb.y.toFixed(1) + ' ' + vb.w.toFixed(1) + ' ' + vb.h.toFixed(1)) + '" width="' + (exportar ? VW : '100%') + '"' + (exportar ? ' height="' + VH + '"' : '') + ' role="group" aria-label="Mapa de red: ' + sub.ids.length + ' actores y ' + sub.edges.length + ' vínculos. La misma información está en la tabla de nodos clave."' + ' style="background:' + BG + '">';
+      h += '<rect x="-4000" y="-4000" width="9000" height="9000" fill="' + BG + '"' + (exportar ? '' : ' data-bgdrag="1"') + '/>';
+      sub.edges.forEach(function (e) {
+        var A = pos[e.a], B = pos[e.b]; if (!A || !B) return;
+        var dim = sel && !(e.a === sel || e.b === sel), cruce = e.terr === 'Cruce' && e.par === 'pp';
+        var col = cruce ? C_MIX : e.conf === 'alta' ? '#9DB4CF' : e.conf === 'media' ? '#6C8199' : '#4C5866';
+        var w = .7 + Math.min(4, Math.log(1 + e.w) * .8);
+        h += '<line x1="' + A.x.toFixed(1) + '" y1="' + A.y.toFixed(1) + '" x2="' + B.x.toFixed(1) + '" y2="' + B.y.toFixed(1) + '" stroke="' + col + '" stroke-width="' + w.toFixed(2) + '"' + (e.conf === 'baja' || e.vencida ? ' stroke-dasharray="4 4"' : '') + ' opacity="' + (dim ? .07 : (e.conf === 'baja' || e.vencida ? .5 : .85)) + '"/>';
+      });
+      sub.ids.forEach(function (id) {
+        var n = D.nodos[id], P = pos[id], r = 5 + 9 * Math.sqrt((sub.deg[id] || 0) / maxd), c = colorNodo(n, S.red.color === 'grupo' ? dr.lay.com.de[id] : null), dim = sel && !vec[id], isSel = id === sel;
+        var x = P.x.toFixed(1), y = P.y.toFixed(1), forma;
+        if (n.tipo === 'tema') forma = '<rect x="' + (P.x - r).toFixed(1) + '" y="' + (P.y - r).toFixed(1) + '" width="' + (2 * r).toFixed(1) + '" height="' + (2 * r).toFixed(1) + '" fill="' + c + '" fill-opacity=".85"/>';
+        else if (n.tipo === 'frase') forma = '<polygon points="' + x + ',' + (P.y - r * 1.25).toFixed(1) + ' ' + (P.x + r * 1.25).toFixed(1) + ',' + y + ' ' + x + ',' + (P.y + r * 1.25).toFixed(1) + ' ' + (P.x - r * 1.25).toFixed(1) + ',' + y + '" fill="' + c + '" fill-opacity=".85"/>';
+        else if (n.tipo === 'por_conocer') forma = '<circle cx="' + x + '" cy="' + y + '" r="' + r.toFixed(1) + '" fill="' + BG + '" stroke="' + c + '" stroke-width="2" stroke-dasharray="3 2"/>';
+        else forma = '<circle cx="' + x + '" cy="' + y + '" r="' + r.toFixed(1) + '" fill="' + c + '"/>';
+        var etiqueta = isSel || vec[id] || top[id] || sub.ids.length <= 25;
+        h += '<g' + (exportar ? '' : ' data-act="red-nodo" data-id="' + esc(id) + '" tabindex="0" role="button" aria-label="' + esc(n.label) + ', ' + esc(TIPO_NOM[n.tipo]) + ', ' + (sub.deg[id] || 0) + ' notas en vínculos. Enter para ver el detalle."') + ' style="cursor:pointer" opacity="' + (dim ? .22 : 1) + '"><title>' + esc(n.label) + ' · ' + esc(TIPO_NOM[n.tipo]) + '</title>' + forma +
+          (isSel ? '<circle cx="' + x + '" cy="' + y + '" r="' + (r + 5).toFixed(1) + '" fill="none" stroke="#fff" stroke-width="1.5"/>' : '') +
+          (etiqueta ? '<text x="' + x + '" y="' + (P.y + r + 12).toFixed(1) + '" text-anchor="middle" font-size="11" font-family="Inter,Segoe UI,sans-serif" fill="#E5E8EB" stroke="' + BG + '" stroke-width="3" paint-order="stroke">' + esc(n.label.length > 26 ? n.label.slice(0, 25) + '…' : n.label) + '</text>' : '') + '</g>';
+      });
+      return h + '</svg>';
+    }
+    function panelNodo(dr) {
+      var id = S.red.sel, n = id && D.nodos[id];
+      if (!n) return '<div class="card"><h3 style="margin-top:0">Detalle</h3><p class="vac">Elegí un nodo del mapa (clic o Enter) para ver sus vínculos y las notas que los sustentan. Doble clic o «Centrar» para ver sólo su entorno.</p></div>';
+      var es = conexiones(D, id, S.F).sort(function (x, y) { return y.w - x.w; }), h = '<div class="card"><h3 style="margin-top:0">' + esc(n.label) + '</h3><div>' + badgesN(n) + '</div>';
+      h += '<dl class="dl"><dt>Cargo</dt><dd>' + esc(n.cargo || 'sin dato') + '</dd><dt>Notas</dt><dd>' + (n.n ? n.n + ' (' + n.nn + ' de medios nacionales, ' + n.ns + ' de Salta)' : 'sin notas en la ventana') + '</dd><dt>Última</dt><dd>' + fmtF(n.ultima) + '</dd><dt>Grupo</dt><dd>' + (dr.lay.com.de[id] != null ? '#' + (dr.lay.com.de[id] + 1) + ' (' + dr.lay.com.grupos[dr.lay.com.de[id]].length + ' actores)' : 'fuera del mapa') + '</dd></dl>';
+      h += '<p><button class="pri" data-act="red-foco" data-id="' + esc(id) + '">Centrar el mapa aquí</button> <button data-act="ver-actor" data-id="' + esc(id) + '">Ver evidencia</button></p>';
+      h += '<h4>Vínculos (' + es.length + ')</h4>' + (es.length ? '<ul class="ev">' + es.slice(0, 8).map(function (e) { var o = D.nodos[otro(e, id)]; return '<li><button class="lnk" data-act="red-nodo" data-id="' + esc(o.id) + '">' + esc(o.label) + '</button> ' + badgesE(e) + '<br><small>' + plural(e.w, 'nota', 'notas') + ' · última ' + fmtF(e.ultima) + '</small></li>'; }).join('') + '</ul>' + (es.length > 8 ? '<p><small>Se muestran 8 de ' + es.length + '. «Ver evidencia» muestra todos.</small></p>' : '') : '<p class="vac">Sin vínculos con los filtros actuales.</p>');
+      return h + '</div>';
+    }
+    function vistaRed() {
+      var R0 = S.red, dr = datosRed(), sub = dr.sub, h = '';
+      function opt(v, t, cur) { return '<option value="' + esc(v) + '"' + (String(cur) === String(v) ? ' selected' : '') + '>' + t + '</option>'; }
+      var dens = sub.ids.length > 1 ? 2 * sub.edges.length / (sub.ids.length * (sub.ids.length - 1)) : 0, cru = sub.edges.filter(function (e) { return e.terr === 'Cruce' && e.par === 'pp'; }).length, alta = sub.edges.filter(function (e) { return e.conf === 'alta'; }).length;
+      h += '<div class="kpis"><div><b>' + sub.ids.length + '</b><span>actores</span></div><div><b>' + sub.edges.length + '</b><span>vínculos</span></div><div><b>' + alta + '</b><span>confianza alta</span></div><div><b>' + cru + '</b><span>persona↔persona con cruce Nación–Salta</span></div><div><b>' + (dens * 100).toFixed(1) + '%</b><span>densidad</span></div><div><b>' + dr.lay.com.grupos.length + '</b><span>grupos</span></div></div>';
+      h += '<form class="filt" onsubmit="return false"><fieldset><legend>Qué mostrar</legend>' + Object.keys(RED_TIPOS).map(function (k) { return '<label class="i"><input type="checkbox" data-rt="' + k + '"' + (R0.tipos[k] ? ' checked' : '') + '> ' + RED_TIPOS[k] + '</label>'; }).join('') + '</fieldset>' +
+        '<div><label for="' + id0 + 'rm">Máximo de actores</label><select id="' + id0 + 'rm" data-rm="1">' + opt(30, '30', R0.max) + opt(60, '60', R0.max) + opt(100, '100', R0.max) + '</select></div>' +
+        '<div><label for="' + id0 + 'rr">Alcance desde el actor centrado</label><select id="' + id0 + 'rr" data-rr="1">' + opt(1, 'Vecinos directos', R0.radio) + opt(2, 'Vecinos y sus vecinos', R0.radio) + '</select></div>' +
+        '<div><label for="' + id0 + 'rc">Colorear por</label><select id="' + id0 + 'rc" data-rc="1">' + opt('terr', 'Territorio (Salta / Nación / mixto)', R0.color) + opt('grupo', 'Grupo detectado', R0.color) + '</select></div></form>';
+      h += '<p class="ctlbar"><button data-act="red-zoom" data-id="+" aria-label="Acercar">＋</button> <button data-act="red-zoom" data-id="-" aria-label="Alejar">－</button> <button data-act="red-zoom" data-id="0">Reencuadrar</button> ' + (R0.foco ? '<button class="pri" data-act="red-global">Volver a la red completa</button> ' : '') + '<button data-act="red-svg">Descargar imagen (SVG)</button> <button data-act="red-csv">Descargar vínculos (CSV)</button> <button data-act="copiar">Copiar resumen</button></p>';
+      if (R0.foco && D.nodos[R0.foco]) h += '<p class="aviso" role="status">Mostrando el entorno de <b>' + esc(D.nodos[R0.foco].label) + '</b> (' + (R0.radio === 2 ? 'dos pasos' : 'vecinos directos') + ').</p>';
+      if (sub.recortado) h += '<p class="aviso" role="status">Hay más actores que el máximo elegido: se muestran los de mayor peso (notas en sus vínculos). Subí «Máximo de actores» o centrá el mapa en alguien para ver el resto.</p>';
+      if (!sub.ids.length) return h + '<div class="vac" role="status">Ningún vínculo cumple los filtros y tipos elegidos. Probá quitar filtros o activar más tipos.</div>';
+      h += '<div class="redwrap"><div class="redmap">' + svgRed(dr, false) + '<div class="leyenda" aria-hidden="true"><span><i style="background:' + C_SAL + '"></i>Salta</span><span><i style="background:' + C_NAC + '"></i>Nación</span><span><i style="background:' + C_MIX + '"></i>Mixto / cruce</span><span><i class="sq" style="background:' + C_NEU + '"></i>Tema</span><span><i class="ro"></i>Por identificar</span><span><b>—</b> confianza alta</span><span><b class="dash">- -</b> baja o vencida</span></div></div><div>' + panelNodo(dr) + '</div></div>';
+      var rank = sub.ids.slice().sort(function (x, y) { return (sub.deg[y] || 0) - (sub.deg[x] || 0); }).slice(0, 12);
+      h += '<h3>Nodos clave</h3><p><small>Ordenados por notas en sus vínculos. «Intermediación» (0–100) mide cuánto conecta a otros actores que de otro modo estarían más lejos en <b>este</b> mapa; cambia si cambian los filtros. Es una medida de estructura, no de influencia real.</small></p>';
+      h += '<div class="tw"><table><thead><tr><th>Actor</th><th>Tipo</th><th>Territorio</th><th>Vínculos</th><th>Notas</th><th>Intermediación</th></tr></thead><tbody>' + rank.map(function (id) { var n = D.nodos[id], gr = 0; sub.edges.forEach(function (e) { if (e.a === id || e.b === id) gr++; }); return '<tr' + (id === R0.sel ? ' class="sel"' : '') + '><td>' + nombreBtnRed(id) + '</td><td>' + esc(TIPO_NOM[n.tipo]) + '</td><td>' + esc(n.ambito) + '</td><td>' + gr + '</td><td>' + (sub.deg[id] || 0) + '</td><td>' + Math.round((dr.lay.bc[id] || 0) * 100) + '</td></tr>'; }).join('') + '</tbody></table></div>';
+      h += '<h3>Grupos detectados</h3><p><small>Se agrupan actores que coaparecen mucho entre sí (propagación de etiquetas). Es un agrupamiento automático por coaparición: puede juntar actores sin relación entre sí y separar a otros que sí la tienen.</small></p><ul class="ev">' +
+        dr.lay.com.grupos.filter(function (g) { return g.length > 1; }).slice(0, 8).map(function (g, i) { var ord = g.slice().sort(function (x, y) { return (sub.deg[y] || 0) - (sub.deg[x] || 0); }); return '<li><b style="color:' + GRP[i % GRP.length] + '">Grupo ' + (i + 1) + '</b> · ' + g.length + ' actores: ' + ord.slice(0, 8).map(function (x) { return esc(D.nodos[x].label); }).join(', ') + (g.length > 8 ? '…' : '') + '</li>'; }).join('') + '</ul>';
+      return h;
+    }
+    function nombreBtnRed(id) { var n = D.nodos[id]; return '<button class="lnk" data-act="red-nodo" data-id="' + esc(id) + '">' + esc(n.label) + '</button>'; }
+    function redZoom(f) {
+      var vb = S.vb || { x: 0, y: 0, w: VW, h: VH }; if (f === 0) { S.vb = null; } else {
+        var nw = Math.max(VW / 8, Math.min(VW * 1.5, vb.w / f)), nh = nw * VH / VW; S.vb = { x: vb.x + (vb.w - nw) / 2, y: vb.y + (vb.h - nh) / 2, w: nw, h: nh };
+      }
+      var sv = root.querySelector('svg.redsvg'); if (sv) { var v = S.vb || { x: 0, y: 0, w: VW, h: VH }; sv.setAttribute('viewBox', v.x.toFixed(1) + ' ' + v.y.toFixed(1) + ' ' + v.w.toFixed(1) + ' ' + v.h.toFixed(1)); }
+    }
+    function bajar(nombre, tipo, contenido) { var a = document.createElement('a'); a.href = 'data:' + tipo + ';charset=utf-8,' + encodeURIComponent(contenido); a.download = nombre; document.body.appendChild(a); a.click(); a.remove(); }
+    function redCsv() {
+      var dr = datosRed(), q = function (v) { return '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"'; };
+      var l = [['desde', 'hasta', 'tipo_vinculo', 'notas', 'medios', 'dias', 'confianza', 'territorio', 'primera', 'ultima', 'estado'].join(',')];
+      dr.sub.edges.forEach(function (e) { l.push([D.nodos[e.a].label, D.nodos[e.b].label, PAR_NOM[e.par], e.w, e.medios, e.dias, e.conf, e.terr, e.primera, e.ultima, e.vencida ? 'vencido' : 'vigente'].map(q).join(',')); });
+      bajar('red-conexiones.csv', 'text/csv', '﻿' + l.join('\n'));
+    }
+    function redSvg() { bajar('red-conexiones.svg', 'image/svg+xml', '<?xml version="1.0" encoding="UTF-8"?>\n' + svgRed(datosRed(), true)); }
+    (function () {
+      var drag = null;
+      root.addEventListener('wheel', function (ev) { if (!ev.target.closest || !ev.target.closest('svg.redsvg')) return; ev.preventDefault(); redZoom(ev.deltaY < 0 ? 1.2 : 1 / 1.2); }, { passive: false });
+      root.addEventListener('pointerdown', function (ev) { var sv = ev.target.closest && ev.target.closest('svg.redsvg'); if (!sv || ev.target.closest('[data-act]')) return; var vb = S.vb || { x: 0, y: 0, w: VW, h: VH }; drag = { x: ev.clientX, y: ev.clientY, vb: vb, sv: sv, k: vb.w / sv.getBoundingClientRect().width, mv: false }; try { sv.setPointerCapture(ev.pointerId); } catch (e) { } });
+      root.addEventListener('pointermove', function (ev) { if (!drag) return; var dx = ev.clientX - drag.x, dy = ev.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.mv = true; S.vb = { x: drag.vb.x - dx * drag.k, y: drag.vb.y - dy * drag.k, w: drag.vb.w, h: drag.vb.h }; drag.sv.setAttribute('viewBox', S.vb.x.toFixed(1) + ' ' + S.vb.y.toFixed(1) + ' ' + S.vb.w.toFixed(1) + ' ' + S.vb.h.toFixed(1)); });
+      root.addEventListener('pointerup', function () { drag = null; });
+      root.addEventListener('dblclick', function (ev) { var g = ev.target.closest && ev.target.closest('[data-act=red-nodo]'); if (g) { S.red.foco = g.getAttribute('data-id'); S.red.sel = S.red.foco; pintar(); } });
+    })();
     function vistaPanorama() {
       var h = '<p class="aviso" role="note">Estos son resultados del escáner automático, no una validación. Que haya muchos vínculos o puentes no los vuelve más ciertos: cada uno se revisa con sus notas.</p>';
       h += '<p>Relevado el ' + fmtF(D.generado) + ': ' + D.notas.toLocaleString('es-AR') + ' notas de los últimos ' + D.ventana + ' días · ' + Object.keys(D.nodos).length + ' actores · ' + D.aristas.length + ' vínculos · ' + D.puentes.length + ' temas puente.</p>';
@@ -479,13 +668,13 @@
       return '<div class="cb"><label for="' + id0 + idx + '">' + lab + '</label><input type="text" id="' + id0 + idx + '" data-pk="' + key + '" role="combobox" aria-expanded="false" aria-controls="' + id0 + idx + 'l" aria-autocomplete="list" autocomplete="off" value="' + esc(n ? n.label : '') + '" placeholder="Escribí un nombre…"><ul class="lb" id="' + id0 + idx + 'l" role="listbox" hidden></ul></div>';
     }
     function pintar(foco) {
-      var tabs = [['actor', 'Actor y conexiones'], ['ruta', 'Rutas entre dos actores'], ['comun', 'En común'], ['novedades', 'Novedades'], ['panorama', 'Panorama del escáner']], dos = S.vista === 'ruta' || S.vista === 'comun';
+      var tabs = [['red', 'Mapa de red'], ['actor', 'Actor y conexiones'], ['ruta', 'Rutas entre dos actores'], ['comun', 'En común'], ['novedades', 'Novedades'], ['panorama', 'Panorama del escáner']], dos = S.vista === 'ruta' || S.vista === 'comun';
       var h = '<h2 id="' + id0 + 't">Explorador de conexiones</h2>' +
         '<p class="aviso" role="note"><b>Una coaparición sólo indica presencia conjunta en fuentes.</b> No significa alianza, relación personal ni causalidad. Cada vínculo muestra las notas que lo sustentan.</p>' + limites() +
         '<div class="bar">' + picker('a', dos ? (S.vista === 'ruta' ? 'Actor de origen' : 'Primer actor') : 'Buscar actor', S.a, 'a') + (dos ? picker('b', S.vista === 'ruta' ? 'Actor de destino' : 'Segundo actor', S.b, 'b') : '') + '</div>' +
         (S.msg ? '<p class="aviso" role="alert">' + esc(S.msg) + '</p>' : '') + filtros() +
         '<div role="tablist" aria-label="Vistas">' + tabs.map(function (t) { return '<button role="tab" id="' + id0 + 'tb' + t[0] + '" aria-selected="' + (S.vista === t[0]) + '" tabindex="' + (S.vista === t[0] ? 0 : -1) + '" data-act="vista" data-id="' + t[0] + '">' + t[1] + '</button>'; }).join('') + '</div>' +
-        '<div role="tabpanel" aria-labelledby="' + id0 + 'tb' + S.vista + '">' + (S.vista === 'actor' ? vistaActor() : S.vista === 'ruta' ? vistaRuta() : S.vista === 'comun' ? vistaComun() : S.vista === 'novedades' ? vistaNovedades() : vistaPanorama()) + '</div>';
+        '<div role="tabpanel" aria-labelledby="' + id0 + 'tb' + S.vista + '">' + (S.vista === 'actor' ? vistaActor() : S.vista === 'ruta' ? vistaRuta() : S.vista === 'comun' ? vistaComun() : S.vista === 'red' ? vistaRed() : S.vista === 'novedades' ? vistaNovedades() : vistaPanorama()) + '</div>';
       root.innerHTML = h;
       if (foco) { var f = root.querySelector(foco); if (f) f.focus(); }
     }
@@ -500,7 +689,7 @@
       lb.hidden = false; inp.setAttribute('aria-expanded', 'true'); pickIdx = -1;
     }
     function elegir(inp, id) {
-      S[inp.getAttribute('data-pk')] = id; S.sel = ''; S.msg = ''; if (S.vista === 'panorama' || S.vista === 'novedades') S.vista = 'actor';
+      S[inp.getAttribute('data-pk')] = id; S.sel = ''; S.msg = ''; if (S.vista === 'red' && inp.getAttribute('data-pk') === 'a') { S.red.foco = id; S.red.sel = id; } if (S.vista === 'panorama' || S.vista === 'novedades') S.vista = 'actor';
       pintar('#' + inp.id);
       var estado = root.querySelector('[role=tabpanel]'); if (estado) estado.setAttribute('tabindex', '-1');
     }
@@ -514,6 +703,7 @@
         else if (ev.key === 'Escape') cerrarLb(t);
       } else if (t.getAttribute && t.getAttribute('role') === 'tab' && (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft')) {
         var tabs = [].slice.call(root.querySelectorAll('[role=tab]')), i = tabs.indexOf(t); i = (i + (ev.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length; S.vista = tabs[i].getAttribute('data-id'); pintar('#' + tabs[i].id);
+      } else if ((ev.key === 'Enter' || ev.key === ' ') && t.getAttribute && t.getAttribute('data-act') === 'red-nodo' && t.tagName !== 'BUTTON') { ev.preventDefault(); S.red.sel = t.getAttribute('data-id'); pintar('[data-act=red-nodo][data-id="' + S.red.sel.replace(/"/g, '') + '"]');
       } else if (ev.key === 'Enter' && t.getAttribute && t.getAttribute('data-edge')) { S.sel = t.getAttribute('data-edge'); pintar('#' + id0 + 'det'); }
     });
     root.addEventListener('mousedown', function (ev) { var li = ev.target.closest && ev.target.closest('ul.lb li[data-id]'); if (li) { ev.preventDefault(); elegir(li.parentNode.parentNode.querySelector('input'), li.getAttribute('data-id')); } });
@@ -524,6 +714,10 @@
       else if ((k = t.getAttribute('data-par'))) { S.F.par[k] = t.checked ? 1 : 0; pintar(); }
       else if (t.hasAttribute('data-sinext')) { S.F.sinExt = t.checked; pintar(); }
       else if ((k = t.getAttribute('data-via'))) { S.F[k] = t.checked; pintar(); }
+      else if ((k = t.getAttribute('data-rt'))) { S.red.tipos[k] = t.checked ? 1 : 0; pintar(); }
+      else if (t.hasAttribute('data-rm')) { S.red.max = +t.value; pintar('#' + t.id); }
+      else if (t.hasAttribute('data-rr')) { S.red.radio = +t.value; pintar('#' + t.id); }
+      else if (t.hasAttribute('data-rc')) { S.red.color = t.value; pintar('#' + t.id); }
     });
     root.addEventListener('click', function (ev) {
       var g = ev.target.closest && ev.target.closest('[data-edge]'); if (g && !ev.target.closest('[data-act]')) { S.sel = g.getAttribute('data-edge'); pintar('#' + id0 + 'det'); return; }
@@ -535,6 +729,13 @@
       else if (a === 'limpiar') { S.F = Object.assign(filtroBase(), { viaTemas: S.F.viaTemas, viaFrases: S.F.viaFrases, viaPorConocer: S.F.viaPorConocer }); pintar(); }
       else if (a === 'todas') { S.mostrarTodas = true; pintar(); }
       else if (a === 'csv') csv();
+      else if (a === 'red-nodo') { S.red.sel = id; pintar('[data-act=red-nodo][data-id="' + id.replace(/"/g, '') + '"]'); }
+      else if (a === 'red-foco') { S.red.foco = id; S.red.sel = id; pintar(); }
+      else if (a === 'red-global') { S.red.foco = ''; pintar(); }
+      else if (a === 'ver-actor') { S.a = id; S.sel = ''; S.vista = 'actor'; S.mostrarTodas = false; pintar('#' + id0 + 'a'); }
+      else if (a === 'red-zoom') redZoom(id === '+' ? 1.3 : id === '-' ? 1 / 1.3 : 0);
+      else if (a === 'red-svg') redSvg();
+      else if (a === 'red-csv') redCsv();
       else if (a === 'copiar') copiar(textoResumen(), b);
     });
     function csv() {
@@ -551,8 +752,8 @@
   var API = {
     version: VERSION, mount: function (el, p) { activo = mount(el, p); return activo; },
     abrir: function (p) { if (activo) activo.abrir(p); else { location.hash = '#/conexiones' + (p && p.actor ? '/' + encodeURIComponent(p.actor) + (p.destino ? '/' + encodeURIComponent(p.destino) : '') : ''); } },
-    core: { adaptar: adaptar, filtroBase: filtroBase, conexiones: conexiones, buscar: buscar, resolver: resolver, rutas: rutas, explicaActor: explicaActor, explicaRuta: explicaRuta, explicaVinculo: explicaVinculo, VENCE_DIAS: VENCE_DIAS, enComun: enComun, novedades: novedades },
-    parametros: { actor: 'texto o id (p:..., n:..., t:...)', destino: 'texto o id', territorio: 'salta|nacion|cruce', par: 'pp,pt,pf,pc,tt', dias: '7|14|30', estado: 'vigente|vencida|incompleta', conf: 'media|alta', vista: 'actor|ruta|comun|novedades|panorama' }
+    core: { adaptar: adaptar, filtroBase: filtroBase, conexiones: conexiones, buscar: buscar, resolver: resolver, rutas: rutas, explicaActor: explicaActor, explicaRuta: explicaRuta, explicaVinculo: explicaVinculo, VENCE_DIAS: VENCE_DIAS, enComun: enComun, novedades: novedades, subgrafoRed: subgrafoRed, layoutRed: layoutRed, comunidades: comunidades, intermediacion: intermediacion, redBase: redBase },
+    parametros: { actor: 'texto o id (p:..., n:..., t:...)', destino: 'texto o id', territorio: 'salta|nacion|cruce', par: 'pp,pt,pf,pc,tt', dias: '7|14|30', estado: 'vigente|vencida|incompleta', conf: 'media|alta', vista: 'red|actor|ruta|comun|novedades|panorama' }
   };
   if (typeof window !== 'undefined') window.NewarConexiones = API;
   if (typeof module !== 'undefined' && module.exports) module.exports = API;
@@ -560,7 +761,7 @@
   if (VV && !VV.conexiones) {
     VV.conexiones = function (id, id2) {
       var cont = 'nxc-host-' + (++uid);
-      setTimeout(function () { var el = document.getElementById(cont); if (el) API.mount(el, { actor: id ? decodeURIComponent(id) : '', destino: id2 ? decodeURIComponent(id2) : '' }); }, 0);
+      setTimeout(function () { var el = document.getElementById(cont); if (el) API.mount(el, { actor: id ? decodeURIComponent(id) : '', destino: id2 ? decodeURIComponent(id2) : '', vista: id ? undefined : 'red' }); }, 0);
       return '<div id="' + cont + '"></div>';
     };
     /* Entrar directo por un enlace #/conexiones/...: si la página ya eligió la vista antes de que este módulo se registrara, se vuelve a rutear una vez. */
