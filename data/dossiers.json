@@ -314,11 +314,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 55
+        "count": 53
       },
       {
         "term": "gustavo",
-        "count": 22
+        "count": 21
       },
       {
         "term": "nación",
@@ -23382,10 +23382,6 @@
       {
         "term": "flores",
         "count": 2
-      },
-      {
-        "term": "diputados",
-        "count": 2
       }
     ],
     "quotes": [
@@ -23806,14 +23802,6 @@
       {
         "term": "informate",
         "count": 2
-      },
-      {
-        "term": "sólo",
-        "count": 2
-      },
-      {
-        "term": "salteños",
-        "count": 2
       }
     ],
     "quotes": [
@@ -24209,10 +24197,6 @@
       {
         "term": "biella",
         "count": 2
-      },
-      {
-        "term": "discapacidad",
-        "count": 2
       }
     ],
     "quotes": [
@@ -24557,10 +24541,6 @@
       {
         "term": "pablo",
         "count": 3
-      },
-      {
-        "term": "diputados",
-        "count": 2
       },
       {
         "term": "elintra",
@@ -25622,13 +25602,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 19,
+    "total_mentions": 20,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 1,
       "neutral": 17
     },
     "sentiment_by_day": {
+      "2023-05-19": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-07-09": {
         "total": 1,
         "score_sum": -2
@@ -25709,15 +25693,15 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 4
+        "count": 5
       },
       {
         "term": "galíndez",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       },
       {
         "term": "sáenz",
@@ -25770,6 +25754,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Torta para la militancia: Gastón Galíndez encabezó la celebración del PJ por la elección del 14 de mayo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOejUyUXBhNjlOcmd4T2pBZnlETUdmV29FV1E4OHVRYlQzMDBMc2FDeXc0RDBwM1JXeFM3cjJGcmJRcWNEQU9BSGp0eDgwanVmazdwOFdfNk94d0NPXzZmUFhabG9lMF9Dc1dnZVlMYVAxc2d5MFNkclpDeTI3emJTQ3YyR3QxNEVBSWg4aFZlNFcxY3lGbkJBNU9Jd0VmNzhWXzc4cm5tX0ViOXlzZWhRaEYtTF9mejZsZzFPeEh5N1ZXX3FLLVV6MHdWY0JGR1JLN2Qw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 19 May 2023 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "“Los debates son bastante flojos”: La lapidaria crítica de Gastón Galindez - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMjFLUmtNRkpoaGVkMkpoM2pES2t3V1RWZ1lTU092ZE5DUENPQU9KMU9Bc3ZlaG5MTG9NU3hmV292WE9rU2FKRjNHVW1DdUVva0NNV25RODBrN3hGV1pGUnM5b2hybHJFNW1NcDBfbmtSbDJXSFA5OVEzbDhhZGZhdUVVN25zczlrczY4UVlMYXhZZkl5TzdzNzlXMm5Bd1NEZDJZUzd1RWVGQQ?oc=5",
@@ -29240,7 +29231,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 15
+        "count": 14
       },
       {
         "term": "turismo",
@@ -30062,13 +30053,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 35,
+    "total_mentions": 36,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 6,
+      "negativo": 7,
       "neutral": 26
     },
     "sentiment_by_day": {
+      "2026-10-23": {
+        "total": 1,
+        "score_sum": -4
+      },
       "2023-09-25": {
         "total": 1,
         "score_sum": 2
@@ -30193,34 +30188,34 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 11
+        "count": 10
       },
       {
         "term": "federico",
-        "count": 8
+        "count": 7
       },
       {
         "term": "salud",
-        "count": 6
-      },
-      {
-        "term": "ministro",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
         "count": 3
       },
       {
-        "term": "ministerio",
+        "term": "ministro",
+        "count": 3
+      },
+      {
+        "term": "papa",
         "count": 2
       },
       {
-        "term": "contra",
+        "term": "francisco",
         "count": 2
       },
       {
-        "term": "pidió",
+        "term": "aseguró",
         "count": 2
       }
     ],
@@ -30271,6 +30266,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El gerente del Papa Francisco aseguró que lleva cuatro años reclamando más seguridad en el hospital",
+        "link": "https://informatesalta.com.ar/sociedad/el-gerente-del-papa-francisco-aseguro-que-lleva-cuatro-anos-reclamando-mas-seguridad-en-el-hospital_a6ada853db05b71125bcaf6a1",
+        "source": "Informate Salta",
+        "date": "Fri, 23 Oct 2026 00:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Federico Mangione aseguró no estar “de acuerdo” con la eliminación de la Ley del aborto - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSy1fTFRyU0EtQVhNS2VwdjhhR3lteXQzZVBaQXRsNVhVREN1S2NYUVNEVFJ3VE95eWZydVFReGZtb0NVY0FodDZjMzk0VE12RWlIdmVfVE5tWXpiY216NWZfWjVkMGdCNG5wUUhwVTQ3MzZGSFlhbmlKRkFlR3VSNGNISllkWmxhWFd2OFN0WFVnQkpWMENNNjBWbDJwek85RFFCaFVtbktEblJKeGRUNEc3S3NIdGlmaXpfWXBn?oc=5",
@@ -30472,13 +30474,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNWtiaW8tOVhJMnp6UFlMZUJHaloybFR4dnl4SmlYaXZpUElTMnVPTXVsVHJfOWwzMVpsOV9UOG1LMnFjWnpqenJndXVIa2pXdkp4S043N0hjeWJ5QURqN00wWENiME0wNkllcWFDdm8yejZGWFEtWHdTODF1X05CZzBOci1wUV9HSmxpWkFlcG83Sk8waHZCdWQ5VjB0c3ZGalIxVkVZTDZnTTRubXB1dHJZWlozX3V1dWVtR1ZWd3l2akpucFQwbVM4c21wdEFhcXZaVmlBWkdtUlUwTjZoR1hpekN1VG_SAewBQVVfeXFMUEdvSFFoenVzNzVjc05GZ1pLbTY5MWdIOHpWd0ZqMXY0M1dBQnBkdlQ0Q2szZHRxNFEtT1RNR1IxSWstSXFXMXZVbG9IWDloTmhKNGF4QXF5d1ZveFpnNDBnN2RLa3JGSG5FNTNQVDFMZ2FqTHFIbFB4bzhoR3Vrdy1CRlBnblZtQ3RHdzcwUXJQblZISzZ3X0FyeDN3dS16LU5pUGRoVGZsZEw3eW5jNlVLdVlZOHhnWWw0LWl6c3VCQklUSTZlaWxEOHM1UDdtamRjUC1Kbzd3RW5aX0gwaVNEdUFrSHZkTzd3clg?oc=5",
         "source": "El Tribuno",
         "date": "Tue, 12 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "“No utilicen a la salud políticamente”: Federico Mangione habló de la situación sanitaria en la provincia - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMmxNbndRbWNmYlpjZFJGRExGU2pfQjNLTk5KWEE4NjJReExhM2ZPMnEzaWlOTFB4Um94dng0eUlyU2tpdzJSV0pFOGRoZmZGUElIWU0wbGxFb1JscFQ4Q0pHRjBPTlYyN0l4YVkwajZVZDBfd3Y1bmx2QVB4WnNtamdsYTFqcXM3RnlIT2ozN3h1SVQzMTh3ZE5zejhyN0k1Mm5qejY4LWQtMmw3ZVZZR3hpTUNrWl96YWFKUlJpMnZGSGhWemdlMV9HZldDaEMtMlZv?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 28 Sep 2026 20:34:54 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31782,13 +31777,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 0,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "2022-12-01": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-12-03": {
         "total": 3,
         "score_sum": 0
@@ -31841,15 +31840,15 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 3
+        "count": 4
       },
       {
         "term": "benavides",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -31874,6 +31873,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides contó los cambios que se aplicarán en la reforma de la Carta Orgánica - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSm9aSzBmN2R4SkhBWTdXU1VmZ0JQMWJWVzkxdm1BMFRYWTVfSnZKZUMwWWM5YXhmZ3pDOHV1Tk85X3hHcWlDMFhpQ2Z6MkJ4Wk9VM2FLRkR1VDJCbWJVLTAzWmc2dC15NUp5alBFMy1MZmlCSnpveEQyLUdwcHZ6NVM1cU1XQXJvSV9pczZVR0RjN2xXWVVZU2h0N3FkVTFzRUFKRms5Szl4NlgtSVBhRE92WUlOZmNMd3N3WA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 01 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Paula Benavides ocuparía el lugar de secretaria de Gobierno provincial - saltacomparativa.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZy1LSmt1M0JKQTN5Vlp5V3VJUXVzNTNaT0dxZFlhUHNwZnRybDdpOC1tQzhPdEFmRW5hWkx1MHVCOTRQN04zS0w0TEJLY0xudzZzU2hINUluUHJWWXJqSGs3UDJ4NV9qVGRhYTF0T0E5TU8xeHNFdVc4YThWTG95WHRBNFFLbENvX0Rpc2JuWV8xd3dsTmhLR1pMUWE2MjA0TXZVbHhZVURkNTJ1S0FUaU9neTdndWEzcDlMRE9HSTVnOG5lRWstczZR?oc=5",
