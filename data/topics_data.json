@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-10-23T15:57:49.805569+00:00",
+  "generated_at": "2026-10-23T18:48:16.706057+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 404,
+      "total_mentions": 406,
       "sentiment_breakdown": {
         "positivo": 24,
         "negativo": 34,
-        "neutral": 346
+        "neutral": 348
       },
       "sentiment_by_day": {
+        "2026-10-22": {
+          "total": 4,
+          "score_sum": 6
+        },
         "2026-10-23": {
-          "total": 1,
+          "total": 2,
           "score_sum": 0
         },
         "2016-12-08": {
@@ -23,10 +27,6 @@
         "2026-10-16": {
           "total": 6,
           "score_sum": 0
-        },
-        "2026-10-22": {
-          "total": 3,
-          "score_sum": 6
         },
         "2026-10-17": {
           "total": 3,
@@ -236,11 +236,11 @@
         },
         {
           "term": "pasa",
-          "count": 23
+          "count": 24
         },
         {
           "term": "elintra",
-          "count": 18
+          "count": 19
         }
       ],
       "politicians_involved": [
@@ -250,6 +250,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Debemos discernir entre lo urgente, la coyuntura y lo importante",
+          "source": "Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UdIBkgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UQ?oc=5",
+          "date": "Fri, 23 Oct 2026 18:27:19 GMT"
+        },
         {
           "quote": "Todo este problema es porque cumplimos la ley",
           "source": "El Intransigente",
@@ -333,15 +339,23 @@
           "source": "El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZGlGS0dOVnMzMlRLNEltWkdFd19Nc0wtaGhMYV9TeHk2RC10NlRJbEhxenYwZVk4cEQ4OWZJYTN2Vm0tRkZJX2phZG45dFlwVm5PeGd2NU5FaW9nZDdER0U2d1hDbUtIZm9XZHVOcENuem9mcjNlXzZhMzRlZzJ6U3JVTmtZTzVERWFFLURDNmdURjBjdm9LdnU5QXdfT2ZxdTBwZ29LaFRkSUo1OF9aQzdqTDRJN1dpWjBvZWxpTm9raUVoQUQ3Ym01SFVjQU4zWkgzTUNTRmJLVklCVVZlTDY4bnUydTBWd3QwcEgtVDJMbG50bUJvcGlabmjSAfwBQVVfeXFMTWRpRktHTlZzMzJUSzRJbVpHRXdfTXNMLWhoTGFfU3h5NkQtdDZUSWxIcXp2MGVZOHBEODlmSWEzdlZtLUZGSV9qYWRuOXRZcFZuT3hndjVORWlvZ2Q3REdFNndYQ21LSGZvV2R1TnBDbnpvZnIzZV82YTM0ZWcyelNyVU5rWU81REVhRS1EQzZnVEYwY3ZvS3Z1OUF3X09mcXUwcGdvS2hUZElKNThfWkM3akw0STdXaVowb2VsaU5va2lFaEFEN2JtNUhVY0FOM1pIM01DU0ZiS1ZJQlVWZUw2OG51MnUwVnd0MHBILVQyTGxudG1Cb3BpWm5o?oc=5",
           "date": "Sun, 11 Oct 2026 12:12:00 GMT"
-        },
-        {
-          "quote": "Ya no estamos juntos",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU21LODJIdzBSV3doSHlWeDJHcXFIa0lVeVpRMzNtRVJ4NU5hSlJZOFFmNmxYS0thanB4NWozX2x5WXNnNTZmdWNEMGo5dVhZVlNEWU1WUDBWc2wzQWlSZ2NzcTcxUEVXSHZiaExPMGdEdnlnc0lGV2FNZTJuM3hQSjAtMkk4b212TS1HS0tja0NUa0paQWhJbHd4eVlCZVF4eVRZUjBUeWRubVV2Z3N6Z2FBR2x0aWdlc1pHaDNMOVFfYnFCaU9ieHU2UG4xTlFldmfSAdIBQVVfeXFMUFNtSzgySHcwUld3aEh5VngyR3FxSGtJVXlaUTMzbUVSeDVOYUpSWThRZjZsWEtLYWpweDVqM19seVlzZzU2ZnVjRDBqOXVYWVZTRFlNVlAwVnNsM0FpUmdjc3E3MVBFV0h2YmhMTzBnRHZ5Z3NJRldhTWUybjN4UEowLTJJOG9tdk0tR0tLY2tDVGtKWkFoSWx3eHlZQmVReHlUWVIwVHlkbm1VdmdzemdhQUdsdGlnZXNaR2gzTDlRX2JxQmlPYnh1NlBuMU5RZXZn?oc=5",
-          "date": "Fri, 09 Oct 2026 21:06:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Mangione pidió más fondos para Salud y anunció el cobro a obras sociales - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWmd0YXQxUjZ4cU9kODQ3Y1lVTDBKRWwyRnk5LXBveDQ0emRDVElmRy1ZREFUa3ByQjRQb2p6cktMdGZqcEtteGJuU3BLZ3pDSmhiWFFKRVpCNUJMcmVBTGktbE9ndEtMV1R0Q21rQ3ZkV01xVHNzWk5lRkowcXU2OFdrLTBYR29jQ2t0Q1hmbG14dXB2dy1nTnV3?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Sergio Camacho: \"Debemos discernir entre lo urgente, la coyuntura y lo importante\" - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UdIBkgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UQ?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Fri, 23 Oct 2026 18:27:19 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El peronismo reunió a Kicillof, Massa y Máximo Kirchner para debatir las PASO - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNakVyVTZrR2NNVzZ3dGZNX2RMYlFrOUQySXJocUJKd0JKRlVlbGloN19OVHUwdGM2V1dVNkhHdmZ4eTFUeVA0VHh6ejg5WlJ6SEFpUUFJNUNmOUZodDV1czM3REJfOGVydFFSMDR1VXRTN1VYa0tuOVhqMXJ3S25SYXpoSGxINVZxR3lnRFJBekY3cExXWFAzVkpHNDdEbGc4UXdsZExhOFE?oc=5",
@@ -536,20 +550,6 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYUYyREFyZVBmS1loeDlFTUtEUVZwblpvNHdaR3JEamlybVpUemc5cnVWUFVWV1UtcTdPaHh1a1FJNTNtdFQxd1JvY2FBaTljazJTYV9VU0pHMUtOalpkMWtRaXlpUFA1YzZkTldnSzhZN3VsemItQzZwMVZ0ek9Vc29DcXQxN1NtQnF0XzJhV3FudkdvLTI2MHVnS2rSAZwBQVVfeXFMTWFGMkRBcmVQZktZaHg5RU1LRFFWcG5abzR3WkdyRGppcm1aVHpnOXJ1VlBVVldVLXE3T2h4dWtRSTUzbXRUMXdSb2NhQWk5Y2syU2FfVVNKRzFLTmpaZDFrUWl5aVBQNWM2ZE5XZ0s4WTd1bHpiLUM2cDFWdHpPVXNvQ3F0MTdTbUJxdF8yYVdxbnZHby0yNjB1Z0tq?oc=5",
           "source": "Que Pasa Salta",
           "date": "Sat, 26 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno proyecta una inflación del 18%, un dólar a $1.847 y un crecimiento del 4% del PBI - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHZLUlRqV3J4bHM1QnBLRUxfMnBEb1hNRnYxSjlVMHRoOWF1Mk1SamxKSnFxRThUWVBEYXp6VkxjN2lUVUlxREUwWU9rd09jQ0tYMXBfT1h4SzVaSmhOalRtUXAwSUIwbzJvNmh1anRZWUtROHpJNGc1X2hYODJIMm95UjItSWdFZGltRWl4ZGRkcENqZ2hON1dvdnRLaG5DLW1MTUl5VndDNUJQcjJ6cGV1N0tQRVFhd254YWtmT3VSeHBwNXJBTVk2VDLSAcwBQVVfeXFMTzh2S1JUaldyeGxzNUJwS0VMXzJwRG9YTUZ2MUo5VTB0aDlhdTJNUmpsSkpxcUU4VFlQRGF6elZMYzdpVFVJcURFMFlPa3dPY0NLWDFwX09YeEs1WkpoTmpUbVFwMElCMG8ybzZodWp0WVlLUTh6STRnNV9oWDgySDJveVIyLUlnRWRpbUVpeGRkZHBDamdoTjdXb3Z0S2huQy1tTE1JeVZ3QzVCUHIyenBldTdLUEVRYXdueGFrZk91UnhwcDVyQU1ZNlQy?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Tue, 15 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno provincial se reunió con intendentes y legisladores del sur salteño - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSExXZkZEZmhMYUNsM2ZLRGdDRUpCLXFSMlZqc1VHLVpuRk9RSU9BQi1KOHNJOGRRRjZacXpxVGRYNTFibkc1ZzFDZ2hGVXhtZGlPQVJ3TXZxVzZpUVkzaW96Z2hkbVR4TEJBWHhRM2xRRVhRcWxqdHJqSXRHZmJDN2s2aUVabUYySm82QkFOM1k3Y0xQMmdxZU0xdEpUTGJSblU4ZzBKdzQzelpuUzYyVEM2Y3VlV2ZhMnpoeF9VTWd4RlhSMFRONUJUVQ?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Sat, 17 Oct 2026 16:16:35 GMT",
           "sentiment_label": "neutral"
         }
       ]
