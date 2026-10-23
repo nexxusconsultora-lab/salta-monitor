@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-23T18:55:11.095105+00:00",
+  "generated_at": "2026-10-23T18:59:25.438834+00:00",
   "by_politician": {
-    "dnac-bernardo-biella": {
-      "total": 30,
-      "positivo": 6,
-      "negativo": 5,
-      "neutral": 19,
-      "score_sum": -1
+    "snac-flavia-royon": {
+      "total": 101,
+      "positivo": 8,
+      "negativo": 10,
+      "neutral": 83,
+      "score_sum": 6
+    },
+    "eje-cristina-fiore": {
+      "total": 44,
+      "positivo": 2,
+      "negativo": 12,
+      "neutral": 30,
+      "score_sum": -32
+    },
+    "eje-federico-mangione": {
+      "total": 41,
+      "positivo": 3,
+      "negativo": 9,
+      "neutral": 29,
+      "score_sum": -16
     },
     "gustavo-saenz": {
       "total": 346,
@@ -71,13 +85,6 @@
       "neutral": 26,
       "score_sum": -16
     },
-    "eje-federico-mangione": {
-      "total": 40,
-      "positivo": 3,
-      "negativo": 9,
-      "neutral": 28,
-      "score_sum": -16
-    },
     "concejal-agustina-alvarez-eichele": {
       "total": 61,
       "positivo": 4,
@@ -106,26 +113,12 @@
       "neutral": 18,
       "score_sum": 30
     },
-    "eje-cristina-fiore": {
-      "total": 41,
-      "positivo": 2,
-      "negativo": 12,
-      "neutral": 27,
-      "score_sum": -32
-    },
     "dip-jose-miguel-gauffin": {
       "total": 28,
       "positivo": 0,
       "negativo": 5,
       "neutral": 23,
       "score_sum": -8
-    },
-    "snac-flavia-royon": {
-      "total": 100,
-      "positivo": 8,
-      "negativo": 10,
-      "neutral": 82,
-      "score_sum": 6
     },
     "eje-ignacio-jarsun": {
       "total": 33,
@@ -934,24 +927,74 @@
     }
   },
   "by_day": {
-    "2025-12-23": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dnac-carlos-raul-zapata": {
+    "2022-08-08": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2026-09-21": {
+      "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 0
       },
-      "snac-emilia-orozco": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 9,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2023-12-11": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
         "total": 1,
         "score_sum": 0
       }
     },
-    "2024-05-06": {
-      "dnac-bernardo-biella": {
+    "2025-07-17": {
+      "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 3,
+        "score_sum": -4
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-14": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 2
       }
     },
     "2026-08-13": {
@@ -3126,32 +3169,6 @@
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-09-21": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 9,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 2,
-        "score_sum": 0
       }
     },
     "2026-02-11": {
@@ -5583,12 +5600,6 @@
       }
     },
     "2019-11-12": {
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-12-11": {
       "eje-mario-mimessi": {
         "total": 1,
         "score_sum": 0
@@ -8642,12 +8653,6 @@
         "score_sum": 0
       }
     },
-    "2026-07-14": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2025-05-29": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -9018,12 +9023,6 @@
         "score_sum": 2
       },
       "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2022-08-08": {
-      "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
       }
@@ -10762,16 +10761,6 @@
     },
     "2019-11-03": {
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-07-17": {
-      "concejal-pablo-emanuel-lopez": {
-        "total": 3,
-        "score_sum": -4
-      },
-      "concejal-malvina-gareca": {
         "total": 1,
         "score_sum": 0
       }
@@ -16688,7 +16677,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 54
+      "count": 56
     },
     {
       "term": "sáenz",
@@ -16697,6 +16686,10 @@
     {
       "term": "gustavo",
       "count": 15
+    },
+    {
+      "term": "nación",
+      "count": 10
     },
     {
       "term": "orozco",
@@ -16708,7 +16701,7 @@
     },
     {
       "term": "mangione",
-      "count": 8
+      "count": 9
     },
     {
       "term": "josé",
@@ -16717,10 +16710,6 @@
     {
       "term": "emilia",
       "count": 8
-    },
-    {
-      "term": "contra",
-      "count": 7
     },
     {
       "term": "nuevo",
@@ -16744,6 +16733,10 @@
     },
     {
       "term": "avanza",
+      "count": 7
+    },
+    {
+      "term": "ashur",
       "count": 7
     }
   ],
