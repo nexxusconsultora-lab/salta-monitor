@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 345,
+    "total_mentions": 346,
     "sentiment_breakdown": {
       "positivo": 87,
-      "negativo": 56,
+      "negativo": 57,
       "neutral": 202
     },
     "sentiment_by_day": {
+      "2026-08-13": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-23": {
         "total": 4,
         "score_sum": 4
@@ -318,11 +322,15 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 53
+        "count": 54
       },
       {
         "term": "gustavo",
         "count": 22
+      },
+      {
+        "term": "nación",
+        "count": 12
       },
       {
         "term": "belgrano",
@@ -330,10 +338,6 @@
       },
       {
         "term": "cargas",
-        "count": 11
-      },
-      {
-        "term": "nación",
         "count": 11
       },
       {
@@ -443,6 +447,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz le reclamó a Nación que devuelva lo que Salta invierte en rutas - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYmxjOHpLTUdOVjJBdk14TnFvVFRMelVfaWNBYVhsUDRKakVLTWJtaU02Rm9KZDNYbnY5RzFqc0prVld0VzdYX1JQMTAtRG5RLTBiTW9fN2pJQzA0ZnRFc2ZZVjd5eGI4VExmLUxFaTRlREk5SmdDRHNBMHVBeVJsNEZKRlRXdTlkby03NzBsSTd3dXg5YnpyMTI5LU5yUWRaNGo0MDVIQQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Franco Hernández Berni ratificó su apoyo a la reelección de Sáenz y cuestionó a La Libertad Avanza",
         "link": "https://elintra.com.ar/2026/10/23/franco-hernandez-berni-ratifico-su-apoyo-a-la-reeleccion-de-saenz-y-cuestiono-a-la-libertad-avanza/",
@@ -645,13 +656,6 @@
         "source": "El Intra",
         "date": "Wed, 21 Oct 2026 20:37:50 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz lleva a Diego Santilli su cadena de ruego por el Belgrano Cargas",
-        "link": "https://elintra.com.ar/2026/10/21/belgrano-cargas-saenz-santilli-inversion-ramales-c14-c15-privatizacion/",
-        "source": "El Intra",
-        "date": "Wed, 21 Oct 2026 20:39:27 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -24210,13 +24214,21 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 28,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 4,
-      "neutral": 18
+      "negativo": 5,
+      "neutral": 19
     },
     "sentiment_by_day": {
+      "2025-12-23": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "2024-05-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-22": {
         "total": 1,
         "score_sum": 0
@@ -24306,7 +24318,20 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "bernardo",
+        "count": 3
+      },
+      {
+        "term": "biella",
+        "count": 3
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Si cortamos, colapsa el sistema público",
@@ -24371,6 +24396,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bernardo Biella denunció un soborno político durante el tratamiento del Presupuesto 2026 - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzZ6VWF6V20tdEcyb3ZZdnh6N2M0VVQzQ2lOeEU4c05raFVGLTctazZZc1RmRnp3QnBsWERWOC1mcWl5V1hLVkR0NTN3NkFUYy1pQzdWcWswNzlsRnV2ZGVlT0tER01kWnpqYjNpVUhzeE5PZ0llMDBISG9GTFh0YTFrcTdBdGd4SC1FaV96N0Y0WVljWHV3RlBhVkxXeVdYQ09Tc0dVSEk3dVB1cEV1NVcwejh4bFE5Y0E1NWJKeEU?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Vacuna contra el coronavirus: Bernardo Biella manifestó cuáles son los síntomas a prestar atención - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWkgwd1RHVmlUeVhvMWxxcHNHempzamxkbFBSMVZMUVluWmtQS3BJR0d5RW5VWjJaUU5NSnZXZm5jSGtYamtxX0xpMFJvZ3hXVmJYMFp1NnhITHpMdGJjdnU1aHhuWWxWT2xqNldQZU5YV19hc0NVZi1RMFRsdWhFTmo4NUJWTjc5VlQ5b3h4ZTk1UHF1dTNVcHZvOGRyQU10UXhrUWpnMVdISGc1MzZNX0dkYWlxbDcyd3BsVXE0c0ZoMVJfc1BVT3ppdkE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 06 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bernardo Biella defendió la nueva Ley de Discapacidad: «Es mucho mejor»",
         "link": "https://elintra.com.ar/2026/10/22/bernardo-biella-defendio-la-nueva-ley-de-discapacidad-es-mucho-mejor/",

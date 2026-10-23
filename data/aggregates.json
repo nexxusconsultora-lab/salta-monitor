@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-23T18:48:15.468594+00:00",
+  "generated_at": "2026-10-23T18:55:11.095105+00:00",
   "by_politician": {
+    "dnac-bernardo-biella": {
+      "total": 30,
+      "positivo": 6,
+      "negativo": 5,
+      "neutral": 19,
+      "score_sum": -1
+    },
+    "gustavo-saenz": {
+      "total": 346,
+      "positivo": 87,
+      "negativo": 57,
+      "neutral": 202,
+      "score_sum": 135
+    },
     "eje-oriana-nevora": {
       "total": 11,
       "positivo": 1,
@@ -70,13 +84,6 @@
       "negativo": 12,
       "neutral": 45,
       "score_sum": -23
-    },
-    "gustavo-saenz": {
-      "total": 345,
-      "positivo": 87,
-      "negativo": 56,
-      "neutral": 202,
-      "score_sum": 137
     },
     "concejal-maria-florencia-leon": {
       "total": 7,
@@ -238,13 +245,6 @@
       "negativo": 7,
       "neutral": 37,
       "score_sum": 6
-    },
-    "dnac-bernardo-biella": {
-      "total": 28,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 18,
-      "score_sum": 1
     },
     "dip-juan-jose-esteban": {
       "total": 11,
@@ -934,6 +934,40 @@
     }
   },
   "by_day": {
+    "2025-12-23": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-05-06": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-13": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 3,
+        "score_sum": -4
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-04-17": {
       "eje-oriana-nevora": {
         "total": 1,
@@ -2844,16 +2878,6 @@
         "score_sum": 0
       }
     },
-    "2025-12-23": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2022-12-07": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -3926,16 +3950,6 @@
         "score_sum": 0
       },
       "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-13": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 3,
-        "score_sum": -4
-      },
-      "sen-sergio-saldano": {
         "total": 1,
         "score_sum": 0
       }
@@ -16674,11 +16688,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 52
+      "count": 54
     },
     {
       "term": "sáenz",
-      "count": 27
+      "count": 28
     },
     {
       "term": "gustavo",
@@ -16687,6 +16701,10 @@
     {
       "term": "orozco",
       "count": 10
+    },
+    {
+      "term": "nación",
+      "count": 9
     },
     {
       "term": "mangione",
@@ -16701,8 +16719,12 @@
       "count": 8
     },
     {
-      "term": "nación",
-      "count": 8
+      "term": "contra",
+      "count": 7
+    },
+    {
+      "term": "nuevo",
+      "count": 7
     },
     {
       "term": "sergio",
@@ -16722,14 +16744,6 @@
     },
     {
       "term": "avanza",
-      "count": 7
-    },
-    {
-      "term": "ashur",
-      "count": 7
-    },
-    {
-      "term": "belgrano",
       "count": 7
     }
   ],
