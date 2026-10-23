@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-10-23T19:52:47.466233+00:00",
+  "generated_at": "2026-10-23T22:48:29.047031+00:00",
   "by_politician": {
+    "eje-javier-monico": {
+      "total": 12,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 11,
+      "score_sum": 2
+    },
+    "eje-federico-mangione": {
+      "total": 42,
+      "positivo": 4,
+      "negativo": 9,
+      "neutral": 29,
+      "score_sum": -15
+    },
+    "eje-sergio-camacho": {
+      "total": 24,
+      "positivo": 5,
+      "negativo": 3,
+      "neutral": 16,
+      "score_sum": 27
+    },
+    "concejal-rodrigo-alfredo-perez-quinteros": {
+      "total": 12,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 10,
+      "score_sum": -2
+    },
+    "gustavo-saenz": {
+      "total": 349,
+      "positivo": 87,
+      "negativo": 57,
+      "neutral": 205,
+      "score_sum": 135
+    },
     "eje-mario-mimessi": {
       "total": 31,
       "positivo": 2,
@@ -22,33 +57,12 @@
       "neutral": 30,
       "score_sum": -32
     },
-    "eje-federico-mangione": {
-      "total": 41,
-      "positivo": 3,
-      "negativo": 9,
-      "neutral": 29,
-      "score_sum": -16
-    },
-    "gustavo-saenz": {
-      "total": 346,
-      "positivo": 87,
-      "negativo": 57,
-      "neutral": 202,
-      "score_sum": 135
-    },
     "eje-oriana-nevora": {
       "total": 11,
       "positivo": 1,
       "negativo": 1,
       "neutral": 9,
       "score_sum": 0
-    },
-    "eje-sergio-camacho": {
-      "total": 23,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 16,
-      "score_sum": 25
     },
     "dnac-pablo-outes": {
       "total": 20,
@@ -568,20 +582,6 @@
       "neutral": 5,
       "score_sum": -2
     },
-    "concejal-rodrigo-alfredo-perez-quinteros": {
-      "total": 11,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 10,
-      "score_sum": -1
-    },
-    "eje-javier-monico": {
-      "total": 11,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 11,
-      "score_sum": 0
-    },
     "concejal-ines-bennassar": {
       "total": 25,
       "positivo": 0,
@@ -934,6 +934,58 @@
     }
   },
   "by_day": {
+    "2024-08-03": {
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2026-10-23": {
+      "eje-federico-mangione": {
+        "total": 6,
+        "score_sum": -7
+      },
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": 4
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-cristina-fiore": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-06-12": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -1038,48 +1090,6 @@
         "score_sum": 0
       },
       "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-23": {
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-federico-mangione": {
-        "total": 5,
-        "score_sum": -8
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 4,
-        "score_sum": 4
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-cristina-fiore": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "concejal-jose-garcia-alcazar": {
         "total": 1,
         "score_sum": 0
       }
@@ -16698,30 +16708,26 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 50
+      "count": 46
     },
     {
       "term": "sáenz",
-      "count": 25
+      "count": 22
     },
     {
       "term": "gustavo",
-      "count": 14
+      "count": 13
     },
     {
       "term": "nación",
       "count": 10
     },
     {
-      "term": "josé",
-      "count": 8
-    },
-    {
       "term": "orozco",
       "count": 8
     },
     {
-      "term": "sergio",
+      "term": "mangione",
       "count": 7
     },
     {
@@ -16733,11 +16739,11 @@
       "count": 7
     },
     {
-      "term": "cristina",
+      "term": "está",
       "count": 6
     },
     {
-      "term": "mangione",
+      "term": "cristina",
       "count": 6
     },
     {
@@ -16745,16 +16751,20 @@
       "count": 6
     },
     {
-      "term": "camacho",
-      "count": 6
-    },
-    {
-      "term": "pasa",
-      "count": 6
-    },
-    {
       "term": "libertad",
       "count": 6
+    },
+    {
+      "term": "avanza",
+      "count": 6
+    },
+    {
+      "term": "fiore",
+      "count": 5
+    },
+    {
+      "term": "diario",
+      "count": 5
     }
   ],
   "comentions": [

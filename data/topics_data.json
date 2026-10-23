@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-23T19:52:48.320802+00:00",
+  "generated_at": "2026-10-23T22:48:29.949630+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 407,
+      "total_mentions": 408,
       "sentiment_breakdown": {
-        "positivo": 24,
+        "positivo": 25,
         "negativo": 35,
         "neutral": 348
       },
       "sentiment_by_day": {
+        "2026-10-23": {
+          "total": 3,
+          "score_sum": 4
+        },
         "2026-10-18": {
           "total": 1,
           "score_sum": -2
@@ -19,10 +23,6 @@
         "2026-10-22": {
           "total": 4,
           "score_sum": 6
-        },
-        "2026-10-23": {
-          "total": 2,
-          "score_sum": 0
         },
         "2016-12-08": {
           "total": 1,
@@ -220,7 +220,7 @@
         },
         {
           "term": "intransigente",
-          "count": 71
+          "count": 72
         },
         {
           "term": "presupuesto",
@@ -232,7 +232,7 @@
         },
         {
           "term": "discapacidad",
-          "count": 29
+          "count": 30
         },
         {
           "term": "milei",
@@ -240,7 +240,7 @@
         },
         {
           "term": "pasa",
-          "count": 23
+          "count": 22
         },
         {
           "term": "elintra",
@@ -346,6 +346,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "El diputado que destrabó la Ley de Discapacidad explicó cómo logró los acuerdos - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamVoMjdtWUFfeEQ5LUMxcFlFd3l4OUlheEpGWFdQSmpsSktwWklvS3ZmaE0tOW5UMVhQcjNobHI3cGhMZ1BMNFFCVkJTZ3REVGc0b0xHSG1BVkQ2dzZlbXdnRnR4b0JoMGs1aE1kYTJjQ0FnRmZfYWtIV05mclJrNEVjLWE4RTlBLVREQU9UWDM5QVRfTF80UFcwakJEQ2FSOVF4UVNhSDVTVVk?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 23 Oct 2026 16:53:24 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Oposición revisa su estrategia tras el fracaso de la sesión por el DNU 70/23 - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU2JmTmplblItbGFCeGc3aWlrSWxhY3NaeUh5OTVSOExtWUxHSXFfRmpGemxSNmJ6QVA2WktpVGRrY0gxcXlFWlFsV2ItbWtDVFN0aHREbi1DX0Zvd0dXYXlXcUdxZkM1cWp4bkg2ZnplRUMwQlhkd2tuRWoyOG5VU2w3RQ?oc=5",
@@ -547,13 +554,6 @@
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObHpPcGJDN3Zod0xzQkJwOHk3MXFxSzF5RTNmdUs5WTh6dEZzU0Z2WkFLMGRqQ1VrRDZGU0VjVUNySjFJQ0NKbjR2RjByV1FxbjdGX3dQYWtlRzg0RFF0WnhYdWRweGZvSV96aE1rZjdsUTd0QXBNZEJMa3VhUXNwNmtB?oc=5",
           "source": "El Intransigente",
           "date": "Mon, 19 Oct 2026 13:39:19 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "La UCR pide fondos para discapacidad - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSjdvRlgyNU40R0JyTEo5Z3p6NHVKY292cF9yOTY5ZGxuQzdRTE9BV3ZsSnBoMnlNUGlldUM5a0VUN05lUzRhTU5URHJ1ay1MbEphRnlBR2pRdTBPRWw3SmhLMGw0MC1WcjhSQU1JZDh5SUdQWTJpMHhlR1ZUbS1RdnAteHRPLVdodjlXQTB2NHNjSVVN0gGaAUFVX3lxTFBlMmFuZUNkcjhCUG1sQ1daU1QwRVh5eXFKaDNBbm1aa2VTZ00zM25NeW1sY3hFNnVNSDFmMURScU9saFE1Y0pkSFJ5UmozRjJ6cVBaZ2hMVlhtS0p6MW9LTk5OS1R4S3kxT3YxNW5kV0wxLVNWenNwR05BU1BRekNUS1FvRkhELVR6YV93LUhQY2ZNWDdONTQtT2c?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 19 Oct 2026 05:12:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
