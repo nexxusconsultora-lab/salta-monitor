@@ -1838,6 +1838,7 @@ window.addEventListener('hashchange',route);
 (async()=>{
  await need('pol','agg','men','res');S.polById={};S.pol.forEach(p=>S.polById[p.id]=p);build();
  GEN=pd(S.agg&&S.agg.generated_at);updTxt();
+ if(document.readyState!=='complete')await new Promise(r=>addEventListener('load',r,{once:true}));/* espera a que carguen los módulos (graficos.js, conexiones.js…) antes de elegir la vista */
  await route();arrancaVivo()})();
 </script>
 <script>
@@ -2175,6 +2176,8 @@ addEventListener('resize',auto);setTimeout(auto,900);
 <script src="graficos.js"></script>
 <script src="poderes.js"></script>
 <script src="conexiones.js"></script>
+<script src="briefing.js"></script>
+<script src="visual.js"></script>
 <script src="pulso.js"></script>
 <script src="comandos-voz.js"></script>
 </body>
