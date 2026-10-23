@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-23T18:59:25.438834+00:00",
+  "generated_at": "2026-10-23T19:52:47.466233+00:00",
   "by_politician": {
+    "eje-mario-mimessi": {
+      "total": 31,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 27,
+      "score_sum": -2
+    },
     "snac-flavia-royon": {
       "total": 101,
       "positivo": 8,
@@ -141,13 +148,6 @@
       "neutral": 4,
       "score_sum": 1
     },
-    "eje-mario-mimessi": {
-      "total": 30,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 26,
-      "score_sum": -2
-    },
     "snac-emilia-orozco": {
       "total": 76,
       "positivo": 8,
@@ -238,6 +238,13 @@
       "negativo": 7,
       "neutral": 37,
       "score_sum": 6
+    },
+    "dnac-bernardo-biella": {
+      "total": 28,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 18,
+      "score_sum": 1
     },
     "dip-juan-jose-esteban": {
       "total": 11,
@@ -927,6 +934,16 @@
     }
   },
   "by_day": {
+    "2026-06-12": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2022-08-08": {
       "snac-flavia-royon": {
         "total": 2,
@@ -2918,6 +2935,16 @@
     "2024-12-03": {
       "eje-ana-paula-benavides": {
         "total": 3,
+        "score_sum": 0
+      }
+    },
+    "2025-12-23": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
         "score_sum": 0
       }
     },
@@ -12621,12 +12648,6 @@
         "score_sum": 0
       }
     },
-    "2026-06-12": {
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-08-24": {
       "sen-juan-cruz-cura": {
         "total": 1,
@@ -16677,43 +16698,27 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 56
+      "count": 50
     },
     {
       "term": "sáenz",
-      "count": 28
+      "count": 25
     },
     {
       "term": "gustavo",
-      "count": 15
+      "count": 14
     },
     {
       "term": "nación",
       "count": 10
-    },
-    {
-      "term": "orozco",
-      "count": 10
-    },
-    {
-      "term": "nación",
-      "count": 9
-    },
-    {
-      "term": "mangione",
-      "count": 9
     },
     {
       "term": "josé",
       "count": 8
     },
     {
-      "term": "emilia",
+      "term": "orozco",
       "count": 8
-    },
-    {
-      "term": "nuevo",
-      "count": 7
     },
     {
       "term": "sergio",
@@ -16724,20 +16729,32 @@
       "count": 7
     },
     {
-      "term": "obras",
+      "term": "emilia",
       "count": 7
+    },
+    {
+      "term": "cristina",
+      "count": 6
+    },
+    {
+      "term": "mangione",
+      "count": 6
+    },
+    {
+      "term": "nuevo",
+      "count": 6
+    },
+    {
+      "term": "camacho",
+      "count": 6
+    },
+    {
+      "term": "pasa",
+      "count": 6
     },
     {
       "term": "libertad",
-      "count": 7
-    },
-    {
-      "term": "avanza",
-      "count": 7
-    },
-    {
-      "term": "ashur",
-      "count": 7
+      "count": 6
     }
   ],
   "comentions": [
