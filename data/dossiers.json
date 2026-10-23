@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 341,
+    "total_mentions": 342,
     "sentiment_breakdown": {
-      "positivo": 84,
+      "positivo": 85,
       "negativo": 55,
       "neutral": 202
     },
     "sentiment_by_day": {
+      "2026-10-23": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-10-22": {
         "total": 18,
         "score_sum": 3
@@ -322,15 +326,15 @@
       },
       {
         "term": "nación",
-        "count": 12
+        "count": 11
       },
       {
         "term": "belgrano",
-        "count": 11
+        "count": 10
       },
       {
         "term": "cargas",
-        "count": 11
+        "count": 10
       },
       {
         "term": "ramales",
@@ -346,6 +350,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No hay Plan B",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
+        "date": "Fri, 23 Oct 2026 10:05:00 GMT"
+      },
       {
         "quote": "Están cerrando empresas",
         "source": "Informate Salta",
@@ -429,16 +439,17 @@
         "source": "Salta 4400",
         "link": "https://salta4400.com/politica/2025/11/04/gustavo-saenz-hubo-dialogo-y-consenso-con-milei/",
         "date": "Tue, 04 Nov 2025 12:36:12 +0000"
-      },
-      {
-        "quote": "No podemos esperar otros 50 años",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQmdvRDRRTzh2Y3FzUVVvYlRkUGtTbWxmZzAwUFVwV1JRUGlIQnR4N2dmWmJCX3VCWXIwVl82S1dhRUpwdjlRa1RJRzExaEFzVlRTRUNlMl9lYlF4a2xNX0F3eFJQQTRsS1lod0JjcXI1U3lwNTN0Q0d1cWtsRllwR1dOME1pUzRoQXNPZlV5R1BEdw?oc=5",
-        "date": "Tue, 13 Oct 2026 00:35:03 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Elecciones: “No hay Plan B”, afirmó Jarsún apoyando la reelección de Sáenz",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
+        "source": "Informate Salta",
+        "date": "Fri, 23 Oct 2026 10:05:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Salvador Mazza alertó por el impacto de las restricciones fronterizas: “Están cerrando empresas”",
         "link": "https://informatesalta.com.ar/politica/salvador-mazza-alerto-por-el-impacto-de-las-restricciones-fronterizas---estan-cerrando-empresas-_a6ada77785c9f5798b2eb9389",
@@ -641,13 +652,6 @@
         "source": "Que Pasa Salta",
         "date": "Wed, 21 Oct 2026 12:54:58 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz cuestionó los cambios de ARCA y pidió proteger el comercio fronterizo - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM3hiMkFjenNKUzA3QmVVN0xheFItRjZVYTltSERoUGQ3dGZvZEkwZ05ZM3pvZmxIZVhITjNfZ0hrU2FORi1NcU1GaExTU2Rna0U0amF0TzNsYmJGcWNWdDJuOFItdHk1UV9OY3dra01sSGozMkJhblowaG9Vd3l0VTUyZjU0MURGSkRhRDBGUWY1dzBrZUk0VnFDZFhqWUdDUThLdEN1QUFHekFLanFNVU5lLXp5SXFBN2diRFpuNUlPNkh6MHhjTHY4NzBNbXZ5ZVppVWJDY9IB5gFBVV95cUxNYmVDblkxT21aT2tUM3JvbTIyTXFFMThTcGd1SzRjQTl2QVlUbVQ5Zm8xMXBFNE54V0hYS3g2M2ZZVjJFS3YxdWN6ay1Nb2VPRzZjTjMzRHlGMncwY0ZKakJGRDh3MldyTy1LdS1jemFFTzNyQ0VXTFlBeHdILW5mZk1CLUxPVktuRThrUWo4cEtzUGo5d21OYmhPV0VlOGp3UWVLLU5tcklVb0pEQWF0S1I5ZWhyZ0lOdWhPVUYwTXRBUnNfWVJseDdLWlhnUFVhb0V2RFNuSENjLVVfSnZZWlE2VmMwQQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 21 Oct 2026 10:21:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -16832,13 +16836,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 10,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2026-10-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 0
@@ -16970,6 +16978,10 @@
         "count": 3
       },
       {
+        "term": "avanza",
+        "count": 2
+      },
+      {
         "term": "político",
         "count": 2
       }
@@ -17075,6 +17087,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Avanza el proyecto para prohibir la venta de bebidas energizantes a menores en Salta",
+        "link": "https://www.eltribuno.com/politica/2026-10-23-8-12-0-avanza-el-proyecto-para-prohibir-la-venta-de-bebidas-energizantes-a-menores-en-salta",
+        "source": "El Tribuno - Política",
+        "date": "Fri, 23 Oct 2026 11:12:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Libertad Avanza, en Salta a la casta bien amarillita la tenés adentro\", dijo el concejal José García - El Vocero - El Vocero",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS2Z5LUJZRWUxRXh1eHVPWTlaVHNfVXlHUC1IaXBnaGNKRU1mdTM4ZFdTcmV0a3dSUWVmUmhfRm00ajRHUnNWWHR6dE5RaFJ0QWxRNmM1MU1Ec3NMTVd5d3hCeUh2TXVnbHBodS13VTY1UmhETHVCRFpqUHVTVi1MZDMzNEFONXFSS29MdzdBaEd2Tko3ZjU2ZnYxYmk1ZnJXaENadElNZEN0T2pYbklPLVg2UkpFRzMtTUFNaw?oc=5",
@@ -17276,13 +17295,6 @@
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDBzRlFDTk44bkM0dl8ydkNwWll1SXM5TnlveHVVZlBoNGJ4RnhJeWN1bDEzLTZjUURGUWNBbWZiUm91Q04wZkJjTnZRM1hTV0xwc3d4cmF5bHJVLVh1MVZtbzh5VGZVR3VrRE1mNG9fb0NlSGJSZ1ZYNkVTVC1xMHA1NVByZ3JkQnltbzRWRnp3UHQ5XzVwUFc4cEVlV1lMVWI2ak9Yaks2cVh4UU5keXJMMEFsV3FIUkNtb3REbHVPSF9iSENVOEpuYlhPV1RTanlVcUR30gHkAUFVX3lxTE02VFVsb09vcUpvQkJ1dHZyR1gxcmlVbElYMGpXalYyNFZERlVVVkkzYkFQM0FpVGtfbENBb2pDTllBQ2VDWEp5d0JSdTM3OG42X0w5N1JXR1dQOW5nckI2Q0FXYks5WjBGWHJrSFd4X2tLWHh1cm10dDRlTUhndHN3WERvNzZTSHF2ODljNFN2cmtmZ1lyRDdGeFFrYk82NGl6eEF5ZU1wdklSbVFrWlNFMmFTYlM1bWkwbDlkRGNRdG9ZT3hOeE5jRG1hMWVuZHAtZlFjb2pXcEkweFc2Y1drSUVBZQ?oc=5",
         "source": "Informate Salta",
         "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Por incitar a la violencia, denunciaron penalmente a José García y pedirán comisión de Juicio Político - Informate Salta - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWnlpNTBNbGppWERiYXlsS2phMWs4SV9SbDg4elkzNTRPTWw0bmUzWmtvdkpBbHVYZXJzVDdLMWpsaVFGeW9xS3RZN2pJYkwwcjM2NHBZMjY5R3RTQTk5a2NrQkFlZU1UU19mWXNjbEVCZXcwQ1phQzVFajdEcVo0NDdKZFpzNVV5Y1UtOGhuRktjOVk3Y21aTk5FeTBqaHpYQ0htRHpSVlRpaGxXMUNrMHR5SXowTENCQ3g3dldvX0x4UjhnMl9yajQwYm8xZFg4UV9UNzZ5RmRXV3dsblBWQ05menV1UTJzTlVLVURhQVpyQzl4WVNaWkFvZUhtekFuZ1BkQkxSdkNwMmJ2RkJZX2FB?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 13 Aug 2026 10:15:32 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -21387,13 +21399,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 99,
+    "total_mentions": 100,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 10,
-      "neutral": 81
+      "neutral": 82
     },
     "sentiment_by_day": {
+      "2025-10-29": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-10-27": {
         "total": 1,
         "score_sum": 0
@@ -21706,11 +21722,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 18
+        "count": 19
       },
       {
         "term": "royón",
-        "count": 18
+        "count": 19
       },
       {
         "term": "senadora",
@@ -21726,7 +21742,7 @@
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "nacional",
@@ -21850,6 +21866,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón: la dama de los cargos - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EQnVvLWhHSzFLXy16MWdGYnAwNXJCVlBmcTJEbldHdVpWU1pDcXgtYmdac3kyNGlveHdKZUx1c1ZCSGFNcVd1WWNXT3daSkg2U3M0amV5N2hwUXFtSTFBQ1RUX0lIY3BUMVQzZlpZU1FmNVdlcDMtdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco, Gonzalo Guzmán Coraita y Flavia Royón los nuevos senadores nacionales por Salta - Agenda Salta",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLVFwX3hSSTNRZEVXODZFVWtmN1BxeWZhOUNpUzBrb21MN0N0dEVNWjY3bEVoUEtBSU9tN2pWRTE2UDZLcHlHVjR1UTZINl9FWEEzWXA0ZXEtUkhVX0VmdVZPbzFDQXBYanhHWTY0THlxX2JfQ1cybjFSQ2lLeUdudTVGY0stZFN5NWZMNUl3TVV1cmtjbnlCUlRwSFBOQS1pSmZNTmhlYUVaX3p3Q1Jpa29HaFVoa0lXbGZFd2xVMG01SlV5T1g2a1dRUW44cGtRUVRtZm9oRUp0aVRBU0RDLVRUQ04?oc=5",
@@ -22051,13 +22074,6 @@
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeS1la29UbC11dFZGVFlmc1h5MjE1VHZZQkU4ODBuR1B2Uy1JeXc1ckExSmNXR1ZpTktZeGdvYm1fLVB4SnVoV1pMNnpEek1BTHNVdjFSS3JDZXlHODZyUEVfOVlxYlRyYmVHV1FPaEc4WjNmYlNIdHVUcS00RUg5Vkk1M2drei1ub0xFaVJSWnBiWkZhTGR5Vm9MUzN2NnhqU1Jsdzk3VWF3OWhaazZmbVczdFhzUzk4SG1CUjdQbTM0WlgyUEVySdIB4wFBVV95cUxQaXlHZzNVMjZSeUlfYzdJRW5uYTA4WGJzQ3liZDJZR1ZkRHlUVUlrWHpQZG5TRjdlZ1Y5TkNMYmlwRE9YYWN4QjBBb1pnZzhKcW4zbGF3UHo4Z0dEQjYxaEY2dWZpOHlMZWVjQ3AzVFVLcGJyRzF6TWNraG9JaXZYTkoyWlNJbnZYM0xTVlpucEhqMzltSWdaUUdtdUVVR1FINk9EOWxKWTZWSkR4TU1YbFd6MjdqZ1A5UWU3TjY0S3BOT09oSXQ5UC1SQmNxVEl4NmdJcXJJUTdDWXVOR09Tb3Zocw?oc=5",
         "source": "Infobae",
         "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gobierno confirmó a Flavia Royón como nueva secretaria de Minería de la Nación - Ambito",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEFRdkZlN0pJN1VXdG9hLWpqS3FFNTI1azlNaVFwdjN6LTMtNVRPQkYtMDFhSUQ1WktRdFo3aHJJVHlIZnRZUTF3QkVYNnRhYk1ZWDJPcUl2dVFBbFNpR2ZlajgtaUZkWTVMaWRGZEtjTEJJNU1NVXM3RDBnUVVwQmw5cWliZFRWTWFaaV90WnVLN2lXSGpvd2JR?oc=5",
-        "source": "Ambito",
-        "date": "Wed, 27 Dec 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -26279,13 +26295,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 5,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "2024-08-07": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-04": {
         "total": 1,
         "score_sum": -2
@@ -26390,22 +26410,36 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
+        "count": 4
+      },
+      {
+        "term": "gauffín",
         "count": 3
+      },
+      {
+        "term": "contra",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
+        "count": 2
       },
       {
         "term": "gauffin",
         "count": 2
-      },
-      {
-        "term": "gauffín",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "nunca un gobernador tuvo tanto poder concentrado",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTThyTXFQN3RFV29jTzhyQld0aUFoQUJLNTNNQ21yQWR3N3FLOGc0ZG5QMTNWMDdOSGFOVkpoQU1pVzdfRUNRRlFZc1JyOGFzTHdoR09FTTRwMzB2ZC1DWmlqUWZJUXZjTlFtblZsTWk0RGRlVTBmVjBITWdJaDhsQk5WZlYyRFJSeWVGMHp4U3ZoTlJNR0VtU1lIQTlHS29LMUFLV0Utd3FUZkljOTZ6TGx2TGVGdVZ5WkE?oc=5",
+        "date": "Wed, 07 Aug 2024 07:00:00 GMT"
+      },
       {
         "quote": "Si fuera senador por Salta, votaría en contra",
         "source": "Elintra.com.ar",
@@ -26451,6 +26485,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffín, otra vez contra Sáenz: “nunca un gobernador tuvo tanto poder concentrado” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTThyTXFQN3RFV29jTzhyQld0aUFoQUJLNTNNQ21yQWR3N3FLOGc0ZG5QMTNWMDdOSGFOVkpoQU1pVzdfRUNRRlFZc1JyOGFzTHdoR09FTTRwMzB2ZC1DWmlqUWZJUXZjTlFtblZsTWk0RGRlVTBmVjBITWdJaDhsQk5WZlYyRFJSeWVGMHp4U3ZoTlJNR0VtU1lIQTlHS29LMUFLV0Utd3FUZkljOTZ6TGx2TGVGdVZ5WkE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 07 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "José Gauffin se suma al rechazo de la Ley de Tierras: \"Si fuera senador por Salta, votaría en contra\" - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZXZMb2xKSHk4a1BCd3djX3NlM0I5eGZDcWlpeVBwXzNHWjUxeG5NWkpES1oweTN1ODFlTGJuc0dvNVBDRDZFUlBKRG9OM2ZPWXlORFdQOTNrNmg3a3E2RTVkQy12NzhrUVJ1VVgwWU5BMzRxUXJvUVdWaDNqN2NRTC1jZVhudUQxaENHWV9Kd1VnWjAyRnNCTTZDRC04Qk1iOGo5cFRxUjhyMHhPN0RMcmRDS1RyVWNSWkh6UWc0c2xoWV9TTFpkaUxXRlo?oc=5",
@@ -26841,11 +26882,11 @@
     "top_topics": [
       {
         "term": "guillermo",
-        "count": 5
+        "count": 4
       },
       {
         "term": "kripper",
-        "count": 5
+        "count": 4
       },
       {
         "term": "cambios",
@@ -28629,13 +28670,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 4,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-10-23": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2022-07-18": {
         "total": 1,
         "score_sum": 0
@@ -28764,7 +28809,7 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 11
+        "count": 12
       },
       {
         "term": "ignacio",
@@ -28796,6 +28841,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No hay Plan B",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
+        "date": "Fri, 23 Oct 2026 10:05:00 GMT"
+      },
       {
         "quote": ", llegó el sí de Ignacio Jarsún y será candidato:",
         "source": "Elintra.com.ar",
@@ -28836,6 +28887,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Elecciones: “No hay Plan B”, afirmó Jarsún apoyando la reelección de Sáenz",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
+        "source": "Informate Salta",
+        "date": "Fri, 23 Oct 2026 10:05:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Un paseo especial: acompañado de su familia, Ignacio Jarsún aprovechó el sol de Salta - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdTYWFrLVVLU2djeVQzMnBpTEJmS2JFUnd5X1lKSlhPeFA2eDlaMlIzNnAyb2hTSTZHbzg4TlIwR1QtSjU4ZG5hY2lTYXFTSS10SzVNMTNrdUt0alZEZ1lxSFlqYnh0VEVwcGRxRUVjb1ViRGJITjczWHY3WDNGazNyb3FWQXJ6RE83TFJWb3ZxWjRDSzBwa1hDeXNHd1ZLaU5oX29RczBPNUpFa015cnN1eGlGd0NzVXc?oc=5",
@@ -29037,13 +29095,6 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdjZwNkFfMDJ1VHdFV09mMHp3VHlxZEFaQ29xTUo2eE1VY3ZSdmxONzIweW16V3kzWWNDVWNPOVZwRG5TWG80SHRoZjVET2hpMWl2Ylp1VkI5S0taRGVHaHptdU1vTGJoNW5zTHFxazB0TWFtMksyNFJJVEc5OFh2SldYOFZzbjFqWWRxbUdDN1ZpdTVQaU04U0Y1SHVRLWo3Qng2VzhZaldVZWpNbHo3b0JRNDhBQUxBNlctcDAxdjBBaGx4X2ZmQ1g2Zmo?oc=5",
         "source": "Nuevo Diario de Salta",
         "date": "Wed, 23 Sep 2026 09:58:18 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Los primeros anuncios de “Nacho” Jarsún como ministro: Qué pasa con Trabajo, AMT y SAETA - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMV9sajZMQ1ZGekRJdFRrOV9PTjhsX1BNYkR5SkJQMVNKdnVSUk02ZWs5VG1DeGZtRkFvTlR0c0VfRHlXd0NsZjRVcEVzMGlIYk1zVnEtdmRuWXF3SkhPaFpkQm5hQ24xd3QzLUZwLWJUM3pSNmJFLXQ1YkFZa1dMWlA4TF9tVlNDM1Z3RUNVd0hJcjJwb05pVk5rWWdkNnZoN0N5cTkxbjNaVGtxLUF6RV8yeDdPNEdrd0VaRHI5UjMyMzFIRndxdDBBckkwd1A1VVBfRkRZRjVzdEdMSGV1YUpXMFFvMXd30gH3AUFVX3lxTE9JX2I1OGZhS0JpZXI3RHFTSzZuWGZMQjhyQS12OTR4Y2VqTjE3VzdiVEFQelJNbVFhekJsMG9KSFJ6ZUpKaEx4eHVJUjloa3RTOFE2ZXgwbVgtQWw3QXVoeW15OTcwMjdCWUdfRUJrS1U1Nzc4ajJDdy1qUU0zVHJ3WFkwb1VQTnFLeldWMUQ0Ym01N0FJSUNqaWpna0RIZWRCaE1GZTZBX0Q4ZnJlM3R0VnFBaWkta3lnNGRrSDMySEltRnVtQnNuMU9SZVNsMldsazBlcm94aDBsWDdTTjRBRTZnRmFjU0I1SlBnWmE2ZjlNTTN5NGM?oc=5",
-        "source": "Informate Salta",
-        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -30537,13 +30588,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 38,
+    "total_mentions": 39,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 12,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-10-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-04-30": {
         "total": 1,
         "score_sum": -2
@@ -30672,19 +30727,19 @@
     "top_topics": [
       {
         "term": "cristina",
-        "count": 7
+        "count": 6
       },
       {
         "term": "fiore",
-        "count": 7
-      },
-      {
-        "term": "elintra",
-        "count": 3
+        "count": 6
       },
       {
         "term": "educación",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "ministra",
@@ -30692,6 +30747,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Esto no es un juego",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/educacion-advirtio-por-el-uso-de-ia-para-humillar-a-companeras---esto-no-es-un-juego-_a6adb3792bf5b0cd3a0491584",
+        "date": "Fri, 23 Oct 2026 11:00:00 GMT"
+      },
       {
         "quote": "Los paros no solucionan nada",
         "source": "Informate Salta",
@@ -30738,6 +30799,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Educación advirtió por el uso de IA para humillar a compañeras: “Esto no es un juego”",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/educacion-advirtio-por-el-uso-de-ia-para-humillar-a-companeras---esto-no-es-un-juego-_a6adb3792bf5b0cd3a0491584",
+        "source": "Informate Salta",
+        "date": "Fri, 23 Oct 2026 11:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cristina Fiore anunció que recibió denuncia de maltrato infantil a niños en Instituciones de Primera Infancia - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdm9CQnMxM2VkWW81bC1oRGxZdlZnQ2ZVNjNGV2hKYWt6cTYyYjQyVzZVWmtGVGhUX3hPTy1PUy1sNWM4ZVpROEFSSlpFMXUxZEdMNTFVYmVEcEphSFg4Zk40SF9EelRHYUdTWHVUVzZ1bDQyUWRjbWlPbGZMWDhZaDYxaGMzcTYwcEk3NkpPNmJSOS1uSjBvcUhZU3VldHRvOTBta2xKeFZRUzM0X2laUnB5OWRack1EQV80a2NILThPQTg1S3c?oc=5",
@@ -30940,13 +31008,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 01 Oct 2026 16:55:34 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Cristina Fiore | La posible ministra de Educación salteña que quiere usar el manual del Medioevo - Cuarto: Salta a diario",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeV9hYnFLWFNXdW15T05QS2lEWEkybkQwZVNwaW1wVE5Xbkx1ZjdOTXFnUXlLYU9lZXgtTE5PaFFZUUFKY3NhYzZ0MXBwV19aVEU0ZTllQUcwOFJ3enRUaWpZLUxwWVFuSm5HT0xXZXZqNkNScFc5T0FhRkh6TFl2RFQ5V2FteFhtYTgxcDhBNUh5Ykt2RmFJVThrRGt0MlJQY0VuN1lMSFFSMXNYZ0EzRm00Y1BYa1FwNmladUd3?oc=5",
-        "source": "Cuarto: Salta a diario",
-        "date": "Thu, 28 Sep 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
