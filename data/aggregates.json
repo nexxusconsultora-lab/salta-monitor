@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-24T19:45:52.064028+00:00",
+  "generated_at": "2026-10-24T22:00:57.971510+00:00",
   "by_politician": {
+    "eje-ignacio-jarsun": {
+      "total": 35,
+      "positivo": 5,
+      "negativo": 4,
+      "neutral": 26,
+      "score_sum": 7
+    },
+    "dip-sergio-mauricio-lopez": {
+      "total": 14,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 10,
+      "score_sum": 0
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 22,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 17,
+      "score_sum": -5
+    },
     "eje-cristina-fiore": {
       "total": 46,
       "positivo": 2,
@@ -91,13 +112,6 @@
       "negativo": 1,
       "neutral": 15,
       "score_sum": -2
-    },
-    "eje-ignacio-jarsun": {
-      "total": 34,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 25,
-      "score_sum": 7
     },
     "dnac-maria-gabriela-flores": {
       "total": 23,
@@ -442,13 +456,6 @@
       "neutral": 19,
       "score_sum": -7
     },
-    "dip-griselda-edith-galleguillos": {
-      "total": 21,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 16,
-      "score_sum": -5
-    },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 13,
       "positivo": 0,
@@ -532,13 +539,6 @@
       "negativo": 6,
       "neutral": 43,
       "score_sum": 1
-    },
-    "dip-sergio-mauricio-lopez": {
-      "total": 13,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 9,
-      "score_sum": 0
     },
     "dip-hector-raul-vargas": {
       "total": 1,
@@ -934,6 +934,60 @@
     }
   },
   "by_day": {
+    "2024-03-13": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-24": {
+      "dip-sergio-mauricio-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": 3
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-04-23": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-03-12": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -998,36 +1052,6 @@
       "eje-sergio-camacho": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-24": {
-      "gustavo-saenz": {
-        "total": 7,
-        "score_sum": 3
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ignacio-lupion": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-09-05": {
@@ -11516,16 +11540,6 @@
         "score_sum": 0
       }
     },
-    "2025-04-23": {
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-09-13": {
       "gustavo-saenz": {
         "total": 2,
@@ -16830,7 +16844,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 40
+      "count": 41
     },
     {
       "term": "sáenz",
@@ -16838,7 +16852,7 @@
     },
     {
       "term": "norte",
-      "count": 13
+      "count": 14
     },
     {
       "term": "grande",
@@ -16869,6 +16883,10 @@
       "count": 10
     },
     {
+      "term": "contra",
+      "count": 8
+    },
+    {
       "term": "cristina",
       "count": 8
     },
@@ -16877,15 +16895,11 @@
       "count": 8
     },
     {
-      "term": "contra",
-      "count": 7
-    },
-    {
       "term": "gustavo",
       "count": 6
     },
     {
-      "term": "nación",
+      "term": "mangione",
       "count": 5
     }
   ],
