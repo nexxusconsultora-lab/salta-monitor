@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-10-23T22:48:29.949630+00:00",
+  "generated_at": "2026-10-24T01:14:55.059776+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 408,
+      "total_mentions": 412,
       "sentiment_breakdown": {
         "positivo": 25,
         "negativo": 35,
-        "neutral": 348
+        "neutral": 352
       },
       "sentiment_by_day": {
         "2026-10-23": {
-          "total": 3,
+          "total": 5,
           "score_sum": 4
+        },
+        "2026-10-22": {
+          "total": 5,
+          "score_sum": 6
+        },
+        "2016-09-18": {
+          "total": 1,
+          "score_sum": 0
         },
         "2026-10-18": {
           "total": 1,
           "score_sum": -2
-        },
-        "2026-10-22": {
-          "total": 4,
-          "score_sum": 6
         },
         "2016-12-08": {
           "total": 1,
@@ -216,7 +220,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 169
+          "count": 168
         },
         {
           "term": "intransigente",
@@ -224,11 +228,11 @@
         },
         {
           "term": "presupuesto",
-          "count": 59
+          "count": 60
         },
         {
           "term": "informate",
-          "count": 34
+          "count": 36
         },
         {
           "term": "discapacidad",
@@ -244,7 +248,7 @@
         },
         {
           "term": "elintra",
-          "count": 19
+          "count": 21
         }
       ],
       "politicians_involved": [
@@ -346,6 +350,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Últimas noticias de Salta - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pWTJvb29XNnZ1TlhUcTBScTU4LW0xczNza0J3TTMxY0pMVDF0SHlXWVpEMk9nWFJkaElzZWVPUzk3VFNULXJoWg?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 23 Oct 2026 16:29:50 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Bernardo Biella defendió la nueva Ley de Discapacidad: «Es mucho mejor» - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSTFZN2xaSzIySkNuRF9ldnVnM3QxdUtkRzlIblc1ZENocWZSNnNxNXNrM3NIVEVBOXNlMHBGT1RoNEVwclVFNE1BVjl4RWN4WVRFMEJRT2NsR0pMc3V4Y2JOZ042ekpjdlNQbTBtTDVRcUp4SmpoWS1PdlMzNHpIVlZ4SGRHMkw2dU1taUZwV2MyUkJhLXdDWUJwTUU1V3BGR2xSbVJ3?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Thu, 22 Oct 2026 22:13:38 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Una adolescente cruzó mal la calle y la atropelló una moto - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB5SjNQbXNsRkJRY2dGQnRjTFkwcTlnWktXb0tmRFBDdHREUGpEeV95YjA3S29IN0tlMDRwYlVnQ1NBRDI2?oc=5",
+          "source": "Informate Salta",
+          "date": "Sun, 18 Sep 2016 00:42:52 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Continúa el armado del presupuesto 2027, esta vez en el Valle de Lerma - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNME5OaTBXWlRCQlYzcXoxYk5wMUpxc3dWa2lBZ0NvYXd2djRXNF9oSFUwMXdyRkdLVDJ6dFczSHFoNmF1X0kzVUhYVHVzaHBTZHJUVXl1QTl5Tjh2Z2d5TU5NTERUaU1IdjhkX0dIMFVOT2hJU0NrcWd0YnJuMFdFSnhfVlpjTTN5akpTYWhnTmZSRlFYS3RvQjZIalVnSWkyMndKSndXN05rRGFhdkZvSVlYMDI0LUw2cl9POV9ZZjV2eGtZSTVwOTdNYUdHdzRs?oc=5",
+          "source": "Informate Salta",
+          "date": "Fri, 23 Oct 2026 22:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El diputado que destrabó la Ley de Discapacidad explicó cómo logró los acuerdos - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamVoMjdtWUFfeEQ5LUMxcFlFd3l4OUlheEpGWFdQSmpsSktwWklvS3ZmaE0tOW5UMVhQcjNobHI3cGhMZ1BMNFFCVkJTZ3REVGc0b0xHSG1BVkQ2dzZlbXdnRnR4b0JoMGs1aE1kYTJjQ0FnRmZfYWtIV05mclJrNEVjLWE4RTlBLVREQU9UWDM5QVRfTF80UFcwakJEQ2FSOVF4UVNhSDVTVVk?oc=5",
@@ -526,34 +558,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX2pmNDZBQndHT3BHMTVwMEh0bEtPZDU3a0U2anlhREZDTjk2c0pOLWhvSUxlTWhSSWdEM2d5VWNZdDUzRmdwaE5sNUhNdmdVQWRIaDZTTWhGTlQ5N1pQcTZEM2kyQy1OczR6eURoZUhSNm51a1BucTNIaER2eV9Iakdsb3F1NmZ1czVPSm5FUzdpMERfUTJhWWZ1WEprNURadWZB0gGoAUFVX3lxTE4zU29jNGNRV1NNdUFMc2I5anl6cVJoanVsa3g5STVCOFc2TTF3ZWs5bGh6UTR3SFNTNDJjcWRhbFEzTlotNWxVdnpCQjVmVE1fUjBqMGpsdEk2ZEN1b3RpTFVnN0RMWGdsOGd2Y29wX1pxMlJmalZfSEMwU0h3TUtMZmVJczI4NmZBRGlOMDBSRnotV1U5ZHh5eFQ3TjFRaTlyWXhwT1d3bA?oc=5",
           "source": "El Tribuno",
           "date": "Tue, 20 Oct 2026 04:31:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Las afirmaciones económicas de Javier Milei y Caputo, contrastadas con datos oficiales - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MUnBGX0dLTVduY0xFSWJOT1BmX2RpLTViX1NJSXpJRURCOURDd19ZSXpsQXp4b0EtT3hmZm5CNGlualNEdktpa1lROFJiUG1udXBlNGNuRG9obTBocGM5X0N0dmNGUlI1emR3NC1LTnd5cElNNERF?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 19 Oct 2026 13:48:58 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONUxxTnQ1aVNIaEI2ZGZBbFpybE9QX0tsQjFzOTV4UWlQSXNoMkNhVTUxcnRlVGtodlUzT2dMZFVVWmhzU2ZBc2V5dTdlc0ZDSmVaYk5pVFZWOV9iZENGUjBjQzhoczlUOC1xVW5FT2p3WUo4aS1zRWwzMXFETjdaSzh0Um8xbG12ekNMNTVxNlNGS3QxOWRvMVNtTnlDc3JpcE82cWEtVllKbGZ3RXVOMDRsV1hGemFlVFk5VzFtQ1hnVzl5Qkt5cVlmejJtdUN3ZlJubEtJVdIB5gFBVV95cUxONmFWWUNyd1BYaUkxN1FUcFZkeGFRUkRvRWk1cXAtN29lZmcyM1hPNEltTjdNRnJ4QUZLY2lZaGM1b0lLTlhNdENRMV9YSzJjU2VNWHZzeTVzSHJzSWtGLUZDVUxKdVRFTVQwUXNpYk50YndEenVJN0VXYmowVXNoa2IwUEdoeXVJSXJXVFI0THNLY3FTT0FsTXptWmdCMktMN21Ka3VzX1J4OFgwTl81Z3YwUUdMTWJId0FnM3lMUEpZQ2ZWWjdwQUp0eXdXQko2VWI1WFk1bW56YjZ2VFAtQmVDSXVJZw?oc=5",
-          "source": "Informate Salta",
-          "date": "Fri, 16 Oct 2026 18:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Tras el retuit borrado de Macri, los Passaglia fustigaron a Javier Milei: “Fracasando” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52NGstQ2VFcTFZbkd2Nkk0MnpOM3dMMkQwcVk0M2NYeGpHaFk2VjdXT3EwYTd0aW5XajlYRGMwOXpocmlxSVdySk91UHBmYkM1bWhGcTZqM1p6UnpNaFdGMVk3ZFUzVk5IcTN0VEh6WHd0UzB2eENj?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 19 Oct 2026 12:19:14 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Encuestas sobre Milei: cuatro mediciones mantienen la desaprobación en torno al 60% - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObHpPcGJDN3Zod0xzQkJwOHk3MXFxSzF5RTNmdUs5WTh6dEZzU0Z2WkFLMGRqQ1VrRDZGU0VjVUNySjFJQ0NKbjR2RjByV1FxbjdGX3dQYWtlRzg0RFF0WnhYdWRweGZvSV96aE1rZjdsUTd0QXBNZEJMa3VhUXNwNmtB?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 19 Oct 2026 13:39:19 GMT",
           "sentiment_label": "neutral"
         }
       ]
