@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 350,
+    "total_mentions": 352,
     "sentiment_breakdown": {
-      "positivo": 88,
-      "negativo": 57,
+      "positivo": 89,
+      "negativo": 58,
       "neutral": 205
     },
     "sentiment_by_day": {
+      "2026-10-24": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-10-23": {
         "total": 8,
         "score_sum": 7
@@ -341,19 +345,25 @@
         "count": 11
       },
       {
+        "term": "obras",
+        "count": 8
+      },
+      {
         "term": "arca",
         "count": 8
       },
       {
         "term": "ramales",
         "count": 7
-      },
-      {
-        "term": "obras",
-        "count": 7
       }
     ],
     "quotes": [
+      {
+        "quote": "Las escuelas no funcionan sin nosotros y cobramos 130 mil pesos",
+        "source": "Gente de Salta",
+        "link": "https://www.gentedesalta.com/sociedad/las-escuelas-funcionan-nosotros-cobramos-130-mil-pesos-ordenanzas-salta-plantan-pase-planta-permanente-n13232",
+        "date": "Sat, 24 Oct 2026 01:07:00 -0300"
+      },
       {
         "quote": "No hay Plan B",
         "source": "Informate Salta",
@@ -437,16 +447,24 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/politica/saenz-volvio-a-presionar-a-nacion-por-el-belgrano-cargas---profundizan-el-atraso-_a6acfa945a75ded0dcfe11b3c",
         "date": "Wed, 14 Oct 2026 16:30:00 GMT"
-      },
-      {
-        "quote": "Hubo diálogo y consenso con Milei",
-        "source": "Salta 4400",
-        "link": "https://salta4400.com/politica/2025/11/04/gustavo-saenz-hubo-dialogo-y-consenso-con-milei/",
-        "date": "Tue, 04 Nov 2025 12:36:12 +0000"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "\"Las escuelas no funcionan sin nosotros y cobramos 130 mil pesos\": Ordenanzas de Salta se plantan por el pase a planta permanente",
+        "link": "https://www.gentedesalta.com/sociedad/las-escuelas-funcionan-nosotros-cobramos-130-mil-pesos-ordenanzas-salta-plantan-pase-planta-permanente-n13232",
+        "source": "Gente de Salta",
+        "date": "Sat, 24 Oct 2026 01:07:00 -0300",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Moldes reunió al gabinete: obras, fondos y señales políticas para el 2027",
+        "link": "https://www.eltribuno.com/municipios/2026-10-24-0-0-0-moldes-reunio-al-gabinete-obras-fondos-y-senales-politicas-para-el-2027",
+        "source": "El Tribuno - Municipios",
+        "date": "Sat, 24 Oct 2026 04:06:41 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "El Parlamento del Norte Grande apoyó a Sáenz en el reclamo por el Ramal C14 y C15",
         "link": "https://informatesalta.com.ar/politica/el-parlamento-del-norte-grande-apoyo-a-saenz-en-el-reclamo-por-el-ramal-c14-y-c15_a6adbdc2cbf5b0cd3a088dabe",
@@ -642,20 +660,6 @@
         "source": "FM Alba",
         "date": "Wed, 21 Oct 2026 23:47:44 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Respuesa a medias: Nación promete una adenda para el C14 y dejó sin obligatoriedad las obras del C15",
-        "link": "https://www.eltribuno.com/salta/2026-10-21-21-3-0-respuesa-a-medias-nacion-promete-una-adenda-para-el-c14-y-dejo-sin-obligatoriedad-las-obras-del-c15",
-        "source": "El Tribuno - Salta",
-        "date": "Thu, 22 Oct 2026 00:03:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tras los reclamos de Salta, ARCA postergó el decreto que afectaba a comerciantes en la frontera",
-        "link": "https://informatesalta.com.ar/politica/tras-los-reclamos-de-salta--arca-postergo-el-decreto-que-afectaba-a-comerciantes-en-la-frontera_a6ad92e87da877e356cf0434e",
-        "source": "Informate Salta",
-        "date": "Wed, 21 Oct 2026 21:30:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -23455,13 +23459,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 22,
+    "total_mentions": 23,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 3,
+      "negativo": 4,
       "neutral": 18
     },
     "sentiment_by_day": {
+      "2026-04-10": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-04-09": {
         "total": 2,
         "score_sum": 0
@@ -23534,11 +23542,11 @@
     "top_topics": [
       {
         "term": "gabriela",
-        "count": 2
+        "count": 3
       },
       {
         "term": "flores",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -23581,6 +23589,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides criticó al Gobierno nacional y apuntó contra Gabriela Flores - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOV9sRUxIdHI5ZmFJM2dnNk52XzRrLWxRZm53QWVPZDJGamVpNDUxSWlZRnA0NWNJcHRUaTZTeXE2eXpBTEdpSzRFeWMxVkZmNXYxWVJwZmRfRVR3Y3hzTHAzQ3VpTlJLTWl1TTNZUkFOUzFPM2s2SHM4QTRWbTJfTTluZTloSEhueUJ2UW5XazVneE1oMHkzWHlEVUJSVUZXazk4OVZOcXlYU2NmSmNPYQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Salta: La diputada libertaria María Gabriela Flores admitió usar pasajes del Congreso para su hijo - Salta Sur",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc0UwTzR1M2xQSks2aG5sZXZDVFJuQ25yY2JELUpjVTVxZEpQRmw4dGluN1lraTc0cnRUSV9tSWRDQlBvVUZWZEhrZ3JDRW5wd3JHOWpERHluT3BIQk9ScUJIR0JESkdlekFybnRCTGI0NTlmQlVpamdGMEl4Y1QzWmMwejVacnF6eXRXWWRwOG5pcGVGT19Na3NySWRDZEV2dVgway1MejJVbm15UENIWE82M0hHQkxoNm0taEI2WdIBxAFBVV95cUxOMEg3SW93M0lzMTEzQ1VRN01CUjBtWF83aUVDRkdGYUF6d2UwVXAxamhSQ0loNFlraEw5SjZJUUxid3BZVUlTdU1ja0xreGpnNzRNVTZkd2xjejh4ZDZEczU2ZDZFSDNaNXBJdUNzU0wwTml4SXJIT2Izaks4YlNGQTdoNk5sZUJGZXVuVzJmY2JBekd6U2N3WUlXVUtISWtlRzU1SThOSkhFTDBnY3hsZGlRSDlsWUp5ZXR6UTR5YllGSTVp?oc=5",
@@ -26218,11 +26233,11 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 3
+        "count": 2
       },
       {
         "term": "galleguillos",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
@@ -28356,11 +28371,11 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 6
+        "count": 5
       },
       {
         "term": "marocco",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
@@ -28368,14 +28383,6 @@
       },
       {
         "term": "sáenz",
-        "count": 3
-      },
-      {
-        "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "diario",
         "count": 2
       }
     ],
@@ -28923,13 +28930,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 4,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "2022-12-15": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-10-23": {
         "total": 1,
         "score_sum": 2
@@ -29062,15 +29073,15 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 11
+        "count": 12
       },
       {
         "term": "ignacio",
-        "count": 7
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "nacho",
@@ -29136,6 +29147,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún sigue recordando sus logros cuando fue intendente en Rosario de Lerma - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTWFPZ29FNlF2QVF2VHBHQjhkeFpKdGpUXzgtZjhqN3p2VjhILXl2SU9nbTVjQXA0c1pyYk5iTWZuX0Y1M1d2VFh5U2RFOFhaQ200Z001dXFlZWFtUWxrZEpMZUQwVTdkS0pYazZ6bU1KeFEwbU1Lakh3LUx3cmxKQmc5ZWx1eXRkYV9HZEhyVjN2b1pNa3BGeWlFT203bGI4dG5aVjdpTl84WE1kbFpJbnZ3dExodEh6VkxF?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 15 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Elecciones: “No hay Plan B”, afirmó Jarsún apoyando la reelección de Sáenz",
         "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
@@ -29338,13 +29356,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 12 May 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Cooperativas preparan medidas y acciones legales en Tartagal; piden intervención de Ignacio Jarsún - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdjZwNkFfMDJ1VHdFV09mMHp3VHlxZEFaQ29xTUo2eE1VY3ZSdmxONzIweW16V3kzWWNDVWNPOVZwRG5TWG80SHRoZjVET2hpMWl2Ylp1VkI5S0taRGVHaHptdU1vTGJoNW5zTHFxazB0TWFtMksyNFJJVEc5OFh2SldYOFZzbjFqWWRxbUdDN1ZpdTVQaU04U0Y1SHVRLWo3Qng2VzhZaldVZWpNbHo3b0JRNDhBQUxBNlctcDAxdjBBaGx4X2ZmQ1g2Zmo?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Wed, 23 Sep 2026 09:58:18 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -32283,13 +32294,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 15
     },
     "sentiment_by_day": {
+      "2026-04-10": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2022-12-01": {
         "total": 1,
         "score_sum": 0
@@ -32346,15 +32361,15 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 3
+        "count": 4
       },
       {
         "term": "benavides",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -32379,6 +32394,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides criticó al Gobierno nacional y apuntó contra Gabriela Flores - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOV9sRUxIdHI5ZmFJM2dnNk52XzRrLWxRZm53QWVPZDJGamVpNDUxSWlZRnA0NWNJcHRUaTZTeXE2eXpBTEdpSzRFeWMxVkZmNXYxWVJwZmRfRVR3Y3hzTHAzQ3VpTlJLTWl1TTNZUkFOUzFPM2s2SHM4QTRWbTJfTTluZTloSEhueUJ2UW5XazVneE1oMHkzWHlEVUJSVUZXazk4OVZOcXlYU2NmSmNPYQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Paula Benavides contó los cambios que se aplicarán en la reforma de la Carta Orgánica - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSm9aSzBmN2R4SkhBWTdXU1VmZ0JQMWJWVzkxdm1BMFRYWTVfSnZKZUMwWWM5YXhmZ3pDOHV1Tk85X3hHcWlDMFhpQ2Z6MkJ4Wk9VM2FLRkR1VDJCbWJVLTAzWmc2dC15NUp5alBFMy1MZmlCSnpveEQyLUdwcHZ6NVM1cU1XQXJvSV9pczZVR0RjN2xXWVVZU2h0N3FkVTFzRUFKRms5Szl4NlgtSVBhRE92WUlOZmNMd3N3WA?oc=5",
