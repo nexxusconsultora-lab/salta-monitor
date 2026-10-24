@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-24T17:30:34.584383+00:00",
+  "generated_at": "2026-10-24T19:45:52.064028+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 46,
+      "positivo": 2,
+      "negativo": 12,
+      "neutral": 32,
+      "score_sum": -32
+    },
+    "concejal-laura-jorge-saravia": {
+      "total": 47,
+      "positivo": 0,
+      "negativo": 14,
+      "neutral": 33,
+      "score_sum": -30
+    },
+    "gustavo-saenz": {
+      "total": 358,
+      "positivo": 91,
+      "negativo": 59,
+      "neutral": 208,
+      "score_sum": 141
+    },
+    "dip-gaston-guillermo-galindez": {
+      "total": 22,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 18,
+      "score_sum": 5
+    },
     "eje-oriana-nevora": {
       "total": 12,
       "positivo": 1,
@@ -28,20 +56,6 @@
       "negativo": 13,
       "neutral": 61,
       "score_sum": -9
-    },
-    "eje-cristina-fiore": {
-      "total": 45,
-      "positivo": 2,
-      "negativo": 12,
-      "neutral": 31,
-      "score_sum": -32
-    },
-    "gustavo-saenz": {
-      "total": 356,
-      "positivo": 90,
-      "negativo": 59,
-      "neutral": 207,
-      "score_sum": 138
     },
     "eje-antonio-marocco": {
       "total": 26,
@@ -112,13 +126,6 @@
       "negativo": 1,
       "neutral": 1,
       "score_sum": 1
-    },
-    "dip-gaston-guillermo-galindez": {
-      "total": 21,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 17,
-      "score_sum": 5
     },
     "dip-edgar-gonzalo-dominguez": {
       "total": 2,
@@ -357,13 +364,6 @@
       "negativo": 3,
       "neutral": 29,
       "score_sum": -4
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 46,
-      "positivo": 0,
-      "negativo": 14,
-      "neutral": 32,
-      "score_sum": -30
     },
     "concejal-malvina-gareca": {
       "total": 42,
@@ -934,6 +934,102 @@
     }
   },
   "by_day": {
+    "2026-03-12": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-05-21": {
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-22": {
+      "gustavo-saenz": {
+        "total": 19,
+        "score_sum": 3
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 3,
+        "score_sum": 2
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-german-dario-ralle": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "dip-mirtha-esther-miller": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-24": {
+      "gustavo-saenz": {
+        "total": 7,
+        "score_sum": 3
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2025-09-05": {
       "eje-oriana-nevora": {
         "total": 1,
@@ -1092,32 +1188,6 @@
       "concejal-jose-garcia-alcazar": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-24": {
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 6,
-        "score_sum": 0
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ignacio-lupion": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2026-03-25": {
@@ -1620,52 +1690,6 @@
         "score_sum": 0
       },
       "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-10-22": {
-      "eje-nicolas-avellaneda": {
-        "total": 3,
-        "score_sum": 2
-      },
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "dip-luis-gerardo-mendana": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "dip-german-dario-ralle": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "gustavo-saenz": {
-        "total": 18,
-        "score_sum": 3
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "dip-mirtha-esther-miller": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "eje-sergio-camacho": {
         "total": 1,
         "score_sum": 0
       }
@@ -6366,12 +6390,6 @@
         "score_sum": 0
       }
     },
-    "2026-03-12": {
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-07-31": {
       "concejal-jose-garcia-alcazar": {
         "total": 1,
@@ -7138,12 +7156,6 @@
       "dip-laura-deolinda-cartuccia": {
         "total": 1,
         "score_sum": -1
-      }
-    },
-    "2025-05-21": {
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2022-09-29": {
@@ -16818,11 +16830,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 43
+      "count": 40
     },
     {
       "term": "sáenz",
-      "count": 27
+      "count": 25
     },
     {
       "term": "norte",
@@ -16837,11 +16849,11 @@
       "count": 12
     },
     {
-      "term": "orozco",
-      "count": 11
+      "term": "emilia",
+      "count": 10
     },
     {
-      "term": "emilia",
+      "term": "orozco",
       "count": 10
     },
     {
@@ -16857,24 +16869,24 @@
       "count": 10
     },
     {
-      "term": "gustavo",
-      "count": 9
+      "term": "cristina",
+      "count": 8
+    },
+    {
+      "term": "fiore",
+      "count": 8
     },
     {
       "term": "contra",
       "count": 7
     },
     {
-      "term": "cristina",
-      "count": 7
-    },
-    {
-      "term": "fiore",
-      "count": 7
-    },
-    {
-      "term": "mangione",
+      "term": "gustavo",
       "count": 6
+    },
+    {
+      "term": "nación",
+      "count": 5
     }
   ],
   "comentions": [

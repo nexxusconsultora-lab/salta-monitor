@@ -3,16 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 356,
+    "total_mentions": 358,
     "sentiment_breakdown": {
-      "positivo": 90,
+      "positivo": 91,
       "negativo": 59,
-      "neutral": 207
+      "neutral": 208
     },
     "sentiment_by_day": {
+      "2026-10-22": {
+        "total": 19,
+        "score_sum": 3
+      },
       "2026-10-24": {
-        "total": 6,
-        "score_sum": 0
+        "total": 7,
+        "score_sum": 3
       },
       "2026-10-23": {
         "total": 8,
@@ -21,10 +25,6 @@
       "2026-08-13": {
         "total": 1,
         "score_sum": -2
-      },
-      "2026-10-22": {
-        "total": 18,
-        "score_sum": 3
       },
       "2026-10-21": {
         "total": 17,
@@ -326,15 +326,15 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 53
+        "count": 52
       },
       {
         "term": "gustavo",
-        "count": 24
+        "count": 23
       },
       {
         "term": "nación",
-        "count": 11
+        "count": 10
       },
       {
         "term": "belgrano",
@@ -353,11 +353,17 @@
         "count": 8
       },
       {
-        "term": "ramales",
+        "term": "pasa",
         "count": 6
       }
     ],
     "quotes": [
+      {
+        "quote": "No soy rueda de auxilio de nadie",
+        "source": "El Intransigente",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVB0U3VyTWtzUUlmZDRfMndaZUloV1puZ1RtZlNCZVhpa2xUbEZfU1lLTWJrWUdhT0NDZGVzb0JPcmxEaDZ1eU9qcUVYZzA3UWlJT2RZM0NScXhDdXpQbWlMWG44RE1PMHVkQ28xVkN2MTlkTWI3UThyUTduRDF2cGtQMjhpY09ZcVlJaTJrQTFZeWt0NTJmaE10SjYxN0xhVzRB?oc=5",
+        "date": "Thu, 22 Oct 2026 16:40:29 GMT"
+      },
       {
         "quote": "Las escuelas no funcionan sin nosotros y cobramos 130 mil pesos",
         "source": "Gente de Salta",
@@ -441,16 +447,24 @@
         "source": "El Tribuno - Salta",
         "link": "https://www.eltribuno.com/salta/2026-10-15-15-46-0-video-saenz-por-el-c14-y-el-c15-no-ibamos-a-permitir-estar-50-anos-mas-esperando",
         "date": "Thu, 15 Oct 2026 18:46:00 GMT"
-      },
-      {
-        "quote": "Profundizan el atraso",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/politica/saenz-volvio-a-presionar-a-nacion-por-el-belgrano-cargas---profundizan-el-atraso-_a6acfa945a75ded0dcfe11b3c",
-        "date": "Wed, 14 Oct 2026 16:30:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz marcó distancia de Javier Milei: “No soy rueda de auxilio de nadie” - El Intransigente",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVB0U3VyTWtzUUlmZDRfMndaZUloV1puZ1RtZlNCZVhpa2xUbEZfU1lLTWJrWUdhT0NDZGVzb0JPcmxEaDZ1eU9qcUVYZzA3UWlJT2RZM0NScXhDdXpQbWlMWG44RE1PMHVkQ28xVkN2MTlkTWI3UThyUTduRDF2cGtQMjhpY09ZcVlJaTJrQTFZeWt0NTJmaE10SjYxN0xhVzRB?oc=5",
+        "source": "El Intransigente",
+        "date": "Thu, 22 Oct 2026 16:40:29 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Salta recibirá casi US$ 1,4 millones de Estados Unidos para un plan de IA y modernización digital",
+        "link": "https://informatesalta.com.ar/gobierno/salta-recibira-casi-us--1-4-millones-de-estados-unidos-para-un-plan-de-ia-y-modernizacion-digital_a6add095a30605f2dd3321af2",
+        "source": "Informate Salta",
+        "date": "Sat, 24 Oct 2026 19:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Salta recibe fondos para estudiar la IA mientras Cristina Fiore advierte sobre abusos",
         "link": "https://elintra.com.ar/2026/10/24/salta-recibe-fondos-para-estudiar-la-ia-mientras-cristina-fiore-advierte-sobre-abusos/",
@@ -646,20 +660,6 @@
         "source": "La Hora de Salta",
         "date": "Thu, 22 Oct 2026 01:55:16 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Nación promete una adenda para el C14 y la posibilidad de lograr financiamiento para el C15",
-        "link": "https://www.eltribuno.com/salta/2026-10-21-21-3-0-nacion-promete-una-adenda-para-el-c14-y-la-posibilidad-de-lograr-financiamiento-para-el-c15",
-        "source": "El Tribuno - Salta",
-        "date": "Thu, 22 Oct 2026 00:03:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz advirtió que Argentina podría entrar en recesión: \"La situación es compleja\"",
-        "link": "https://www.eltribuno.com/salta/2026-10-21-23-27-0-gustavo-saenz-advirtio-que-argentina-podria-entrar-en-recesion-la-situacion-es-compleja",
-        "source": "El Tribuno - Salta",
-        "date": "Thu, 22 Oct 2026 02:27:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -18366,13 +18366,17 @@
     "id": "concejal-laura-jorge-saravia",
     "name": "Laura Jorge Saravia",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 14,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "2025-05-21": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-02-17": {
         "total": 4,
         "score_sum": -4
@@ -18537,10 +18541,18 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 2
+        "count": 3
       },
       {
         "term": "jorge",
+        "count": 3
+      },
+      {
+        "term": "saravia",
+        "count": 2
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -18627,6 +18639,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Laura Jorge Saravia: «Me fui a LLA porque me di cuenta que soy más liberal que radical» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTTJrSHhHbkV4WHBUT2hmaEMxRmJXZlRWSERPNXVSeVRqNW4yN0w5LXZQbFlPQ3lwQkY3QUV3azh2ZlZZY2t0R3MxdHJSSHRfbUNjc3hWai1kdkIzQU9uS3N6MnByWm04LUdmRTAyZ1Z1TE5QNF9oRVZpM3Y2cmFJYVNUeGJEaml2dHZZWUszbjk4RkNRdmZ3cldYNmRBQXR5X0Y4SjhpV0Z1dzFVU0tmTjNNZjNLcnJ0X2dn?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 21 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Deserción en Juntos por el Cambio: la concejal Laura Jorge renunció a la UCR y se unió a La Libertad Avanza - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNVVOSGlfN0NvVEVOR1N3ZVpCb1RyVEUwRkxpSF9WUVB4eEJoRk5sVThDelV0bm55enEtNW9NMk0xYlM4MFlRMTBLbnNKRl8xWjc2Smhwb28tSHhZdWY4ZmVFOTNsdnFva0pHT0tIeXF2bS1nNXJyT0NXZnpJdzdoNENYWmJTaFlCUGxxdzVqQ1NmN2FwQmVtbVpTemkzYTdCa2hzeTFXVHVVai13YmRFZ2p5ODMyVU5sOHp5Y052VUZvYUdjdDNTNEJZX01HWV9RQnV0dF9pdFRMeU9xWVNwNEV5TUZxUVY0MWpwOGpSVzhBN2xyV1HSAfsBQVVfeXFMT2xlZnhTdnVsV3Q5WXVWVEszelh3TTVFemlVLTBQMDFZRHVpUEl5OVFkOEI0aVlmMktIYy1Ud1U1TTd3ckc0V2thOVRfa2dpdF95V0pVdnVSQzUxSHNRc3V0dHhhMFJ5bTZ0SzRxaklpcXR3aDRLTm5pbzg0eTFIaDZiYXRjUkNjcXlqd0IybHUxdUdyWjMtLWl1dmFPR3gwTHhuVEFBN3ZlekJnbWU0M2wxZzZNSkVxeVREV1BrdEktejBsNkRWeTBuN2pDVjc5WnB1Z0toeUpLN2xaYUVkU2RPalBjMDBrRy0xb0pOZjNDX08zNmdSdXJHX3c?oc=5",
@@ -18828,13 +18847,6 @@
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYUNRMzhDNnVsYTJ5LWFtMzM2ZXk0OHlrREdZdHNrWnl4MTVyeFRqcC1UbXRyelIwNzZBUHF1NFgxM0U3aVZMeVJTeVo2b09OUzk0ZGdzYTlSM2J6Q3BFcTkwODdXR1R3Ty1uT0FuR09QX3V4Y3FSLXB6QkI1eWZ0b2NQcy1kTXQ3RkZMOXNBTTVSNVVLOTNkWk8tQXVSX3JmSkVRbk1YU3QxZDRtS3pmZmh5NUlDc1EyRXdOTThSVnpieW9SbkdCd0ZuT1hsZGtDUkZ3NzNyVWJweWVMZFV3cHp2OXhTYTdHMVZqUVh30gH8AUFVX3lxTE11akVMQkhjeU5MTDRRMEc0ajBSaW9OUTNKcnV1SzY4UmpQSUJfeWF5aWQwZUIxa3ZKUldONGdUYklBUWtYWVEtYWJnN21HRi1QNTl3eWRSODU2RnAyVzcyWkVfQzFGdUZ4ZlNqRHAwWDFrLTF5cy00YW9xaTI0NnpTaGdXc2c3cldiNFFFVHc5aTZZa0kwbFM4cjVaeElZUHI5R2V2bEhTTXpkbmNnREFfdGdVV05hYW81RGRJd0JvWExIYnhJSlQtRzVvYXg0azZTWkZLbWVsR0JPTXRiRE9JYlYyWlF4UzZjLU9OZW9qZmN5NTlBWmZsUEc2Tg?oc=5",
         "source": "Informate Salta",
         "date": "Wed, 04 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Federico Núñez Burgos juró como Defensor del Pueblo de la Ciudad - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOTRQVFY5XzhpbEdMNHM2cENua2oyNF8tMHlNY3FZNFhJT3NGUGZyeHBGaFdLN3JMYmpZQWdGVG1mc3d4TzhCekZlQTNFWUhaU1lvYjE3YWlwY1lMaXZuVEJHaDc4dDFJNkgzSUxrTHBYTFJVcmZBTjNQOXdWaUJqeElQbE84cDQ2SGJNeG5zUmxMSGwxSW53VFF1NlRfWW1MWDdoSC1ycGU5dWlrbmV3TmdR0gG3AUFVX3lxTFBnUk1YdEhHZFF4SldFSF9JcjB6RzBFdnNQOUJ4Y1l2b1dnTU5heWpYdm8wRlJrcmRxQk1qYkNVQmMwQmRpLUpkT3hIN2V5RzlIT2llRFNYTWVpSzR2X21ybUx0dDdNelc4bEt6LXNkN0JtbmlRdTBtTl9OWnEwWjBLY3o1bDBzSTNwRFNsdUh3NGhUSWUwTm5BVzUyMjI5em5GUUE0cFpSN3JuNTVsby1HZ01nZ1RQdw?oc=5",
-        "source": "eltribuno.com",
-        "date": "Thu, 28 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -25850,13 +25862,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 1,
-      "neutral": 17
+      "neutral": 18
     },
     "sentiment_by_day": {
+      "2026-10-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-23": {
         "total": 1,
         "score_sum": 3
@@ -25945,11 +25961,11 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 5
+        "count": 6
       },
       {
         "term": "galíndez",
-        "count": 4
+        "count": 5
       },
       {
         "term": "sáenz",
@@ -26006,6 +26022,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gastón Galíndez anticipó el Congreso del PJ y abrió la discusión por los frentes electorales para 2027",
+        "link": "https://elintra.com.ar/2026/10/24/gaston-galindez-anticipo-el-congreso-del-pj-y-abrio-la-discusion-por-los-frentes-electorales-para-2027/",
+        "source": "El Intra",
+        "date": "Sat, 24 Oct 2026 15:37:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Parlamento del Norte Grande apoyó a Sáenz en el reclamo por el Ramal C14 y C15",
         "link": "https://informatesalta.com.ar/politica/el-parlamento-del-norte-grande-apoyo-a-saenz-en-el-reclamo-por-el-ramal-c14-y-c15_a6adbdc2cbf5b0cd3a088dabe",
@@ -28423,15 +28446,15 @@
         "count": 4
       },
       {
-        "term": "sáenz",
-        "count": 3
-      },
-      {
         "term": "norte",
         "count": 2
       },
       {
         "term": "grande",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
         "count": 2
       }
     ],
@@ -28757,7 +28780,7 @@
       },
       {
         "term": "sáenz",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
@@ -28776,7 +28799,7 @@
         "count": 2
       },
       {
-        "term": "gustavo",
+        "term": "queda",
         "count": 2
       }
     ],
@@ -29641,7 +29664,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 14
+        "count": 13
       },
       {
         "term": "roberto",
@@ -29649,10 +29672,6 @@
       },
       {
         "term": "elintra",
-        "count": 3
-      },
-      {
-        "term": "turismo",
         "count": 3
       },
       {
@@ -29669,6 +29688,10 @@
       },
       {
         "term": "pasa",
+        "count": 2
+      },
+      {
+        "term": "turismo",
         "count": 2
       }
     ],
@@ -30984,13 +31007,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 12,
-      "neutral": 31
+      "neutral": 32
     },
     "sentiment_by_day": {
+      "2026-03-12": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-24": {
         "total": 1,
         "score_sum": 0
@@ -31139,15 +31166,19 @@
     "top_topics": [
       {
         "term": "fiore",
-        "count": 8
+        "count": 9
       },
       {
         "term": "cristina",
-        "count": 7
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "docentes",
+        "count": 2
       },
       {
         "term": "escuela",
@@ -31237,6 +31268,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cristina Fiore culpó a Nación por los bajos ingresos de los docentes - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOREFXQnlaaVhONTdiN0s0cTBUWEpiYW0yeEFxODRicTlfRzJvMnBSNVRYNEZqSG9iZS1WLU53d3pzelRpTm8zSHAwSkI4bzhHVmkwdkcteWxCd0lVQURVVWREQ1p6QXY2Z0RXbnlHNUF1bG16SXdBZ1E5cXc1NEc4MlJJVk9NQkhaOXVoc2NkZVloZW1FWW9wOGxfUWljQ08za0xpTFlB?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 12 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta recibe fondos para estudiar la IA mientras Cristina Fiore advierte sobre abusos",
         "link": "https://elintra.com.ar/2026/10/24/salta-recibe-fondos-para-estudiar-la-ia-mientras-cristina-fiore-advierte-sobre-abusos/",
@@ -31438,13 +31476,6 @@
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWE9tbm52Wjk0dDNBSHNwaVplc0R3VklGRTN5SUctVFFObzhJckZSSUY3Q2U0VFNzelU4UGNTVUY5VTlNdFVtMVRkWVBhUWNVczBiSTJIQTZfQzJXTXI4QVFQZ05WTnBpcloxdzNVX3VRRy1yR21LVUo0al9HRVN4LV9CbnhXcnpfTlAyQnhhZGNCNW5iMnlWTjVIYjNtZW5uRGRaNVpn0gGeAUFVX3lxTFBBeHpBeEtUWEFhdHViMEJnb3JYWUd3djJyZUJ1TDZTMzBUczQ3MW0xQWJNRzQyaFVwTkh4M1FPV0RyX0k3UHlqTUZvbjZqN0tPWUIwQ1JaZ0VsMlZCV0hya1VSY003SDFoR1UyY0JSTVdjeDVmcVBCNXBiSk9RTTE2a0FsWlIzbmFsd05ZdzlKckhYNEI4Zkh1Z21aVjZR?oc=5",
         "source": "Aries On Line",
         "date": "Tue, 15 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Paritarias: Cristina Fiore se reunirá con los docentes el 17 de enero - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2I0Q0VmRVBDOF9QZUtvellqc0Jra185QzI0VTJraGo4cUpTSW9NemVPRklyNDNfc2pKQmVoenl6QW1jWUZ4MzBMU0tHaGhnSklTc0NwdmpsRGZ1d3BXTkdaQkdjX21hWERPR2YyR0FfaUNDRTZBMHkwUmFjb0NyYnFmSWRzT0JQNFI0ZjNvYkl4Z003UmJEXzA5TVhEVkV5U0RIcEpn?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 05 Jan 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
