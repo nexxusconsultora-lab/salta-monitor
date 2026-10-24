@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-24T06:01:19.191268+00:00",
+  "generated_at": "2026-10-24T10:51:22.485467+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 102,
+      "positivo": 8,
+      "negativo": 11,
+      "neutral": 83,
+      "score_sum": 4
+    },
     "eje-ana-paula-benavides": {
       "total": 16,
       "positivo": 0,
@@ -126,13 +133,6 @@
       "negativo": 2,
       "neutral": 27,
       "score_sum": -2
-    },
-    "snac-flavia-royon": {
-      "total": 101,
-      "positivo": 8,
-      "negativo": 10,
-      "neutral": 83,
-      "score_sum": 6
     },
     "eje-cristina-fiore": {
       "total": 44,
@@ -934,6 +934,24 @@
     }
   },
   "by_day": {
+    "2026-03-25": {
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": -4
+      },
+      "dip-fabio-enrique-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2026-04-10": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -9158,24 +9176,6 @@
         "score_sum": 0
       }
     },
-    "2026-03-25": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-fabio-enrique-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-patricio-penalba-arias": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 2
-      }
-    },
     "2026-06-13": {
       "snac-flavia-royon": {
         "total": 2,
@@ -16766,15 +16766,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 48
+      "count": 39
     },
     {
       "term": "sáenz",
-      "count": 30
-    },
-    {
-      "term": "gustavo",
-      "count": 12
+      "count": 28
     },
     {
       "term": "reclamo",
@@ -16801,28 +16797,32 @@
       "count": 10
     },
     {
-      "term": "nación",
-      "count": 9
-    },
-    {
-      "term": "orozco",
-      "count": 8
+      "term": "gustavo",
+      "count": 10
     },
     {
       "term": "contra",
-      "count": 7
+      "count": 6
     },
     {
       "term": "mangione",
-      "count": 7
+      "count": 6
     },
     {
-      "term": "pablo",
-      "count": 7
+      "term": "nación",
+      "count": 6
     },
     {
-      "term": "emilia",
-      "count": 7
+      "term": "cristina",
+      "count": 6
+    },
+    {
+      "term": "está",
+      "count": 5
+    },
+    {
+      "term": "fiore",
+      "count": 5
     }
   ],
   "comentions": [

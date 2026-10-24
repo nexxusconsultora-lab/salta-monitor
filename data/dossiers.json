@@ -21524,13 +21524,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 101,
+    "total_mentions": 102,
     "sentiment_breakdown": {
       "positivo": 8,
-      "negativo": 10,
+      "negativo": 11,
       "neutral": 83
     },
     "sentiment_by_day": {
+      "2026-03-25": {
+        "total": 2,
+        "score_sum": -4
+      },
       "2022-08-08": {
         "total": 2,
         "score_sum": 0
@@ -21791,10 +21795,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2026-03-25": {
-        "total": 1,
-        "score_sum": -2
-      },
       "2025-10-09": {
         "total": 1,
         "score_sum": -2
@@ -21847,15 +21847,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 19
+        "count": 20
       },
       {
         "term": "royón",
-        "count": 19
+        "count": 20
       },
       {
         "term": "senadora",
-        "count": 5
+        "count": 6
       },
       {
         "term": "pasa",
@@ -21972,6 +21972,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Audiencia por la Ley de Glaciares: denuncian a la senadora Flavia Royón - Página|12",
+        "source": "Página|12",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHBQX0xMZk8xT2ZROHRhRld1ZkFuVFhQTjFpMWdXVm1tQzNHblB4b29WbmJiTW9BYU9rZEhfNVFVNi13XzlvUnQxZkFtengtT0ZTTmRualBQYXFTUmM1QzBham0wNHp4NGxOcXpNcHE1TGN0UHY1N0JkcWlfVllpRkdsTi1JS0hhQ1pwdVhndnoxZnlLTlZXeGxoeFMtdF9qcUpNZlozSExJdC1KaEpB?oc=5",
+        "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+      },
+      {
         "title": "Flavia Royón presidirá Minería en el Senado tras ser sobreseída en una causa por sus vínculos con el sector - Gente de Salta",
         "source": "Gente de Salta",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTFTcy01Rms1OWwtV2I1dUN0ZkZFZHE1SXkyX1g4TmRUbVF2TFRDNG5iNUhSNkRVM0xUNnI1VDhrLWpRZTFoMFRueGE3WGtlWHE0bEc3Tkx0RzRVMFZNZ3NiYnhodVlfZVBwbFN6NzFBd25CeHU3aUhvLWRfTWx1cFlnWlk5ZXMwWDI5OWpBQV9yajVWVmdweVJqTGFPNUw0d1c5NFVhaHM0cTY1cmkwRm9CNFdncG1BT1ZidjB0SGJnMVlISURMeGFudTbSAdIBQVVfeXFMUEZiWDVpRGFVbTVOTEtHTmtPUnJ5LVRqMGJ3SW5wMXdUeHQ1U2g0NFEtd3IyTGYtZ3djMHFvUFRHVEZXY0IxU3VhVmpwaEhYam1aTmlqWEVPYVAwOWMtNlVIbmJsTi1WZ2dvajNEVDdHeG1PbkZPZnRiWlFyeEw3dHpyTUVkeWN0RnQwT0ZHY2d4MlpLUm5oVExhYXk1MHVrTlpnc25ZZ3VxY2xlcHNGdDdxTU9DNUpkUkFVMkhlOFhvSENORkZ0MjN3MVpPMEJfcXJB?oc=5",
@@ -21991,6 +21997,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Audiencia por la Ley de Glaciares: denuncian a la senadora Flavia Royón - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHBQX0xMZk8xT2ZROHRhRld1ZkFuVFhQTjFpMWdXVm1tQzNHblB4b29WbmJiTW9BYU9rZEhfNVFVNi13XzlvUnQxZkFtengtT0ZTTmRualBQYXFTUmM1QzBham0wNHp4NGxOcXpNcHE1TGN0UHY1N0JkcWlfVllpRkdsTi1JS0hhQ1pwdVhndnoxZnlLTlZXeGxoeFMtdF9qcUpNZlozSExJdC1KaEpB?oc=5",
+        "source": "Página|12",
+        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Quién es Flavia Royón, la nueva secretaria de Energía que reemplazará a Darío Martínez - La Nación",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRndjbFV2SlFvaldndVJjZmxzV2V2Z255S2o4dzZ0RWlQZnFrbTIzX2JFUDk4b3Y1WndKTFBlQjRfNDJHU0ZMVnM0QXJIM3BsSVZJU25yY3RZblhiN2d4b1B6WjRPeDZ6eDF3ZWhTV1h6ODRnMElCUXVrTFNqVDYxVHdHUFhERUh5TzBERklnQjhhU2JKbzBLaFRTdEhhWUlzUHNJU2JUVmxEY2VURDBpbE15bkpCdHJwWE9VVmFpT2tWMGpsbkE2YXJkRkFYRllC?oc=5",
@@ -22193,13 +22206,6 @@
         "source": "TN",
         "date": "Sat, 10 Feb 2024 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Juan Carlos Romero volvió a respaldar a Flavia Royón como candidata al Senado: “Es una opción muy valiosa” - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcHNETDJoUDhzMEZ4ejgwLUd5S1ZJRVY1eHM3X2lielhESVV0TzZDMklheGRLZHlCV1pmWVYzakFPbmNWS2VqMFVwRWFLTjM2eTZjMzMyUFNrRVowdk1MY19NVVNaOTBEbEczb3VlaldLeFFLaU9SQnB6UW9IYVI5R0ZaTFNXNXY2eW81cC1SNXU3N1FSd21jekdLZGlYYXBRcVRMZWdPamp2eDBzWUxVT1hKNm1XYmptY1FQWkNZMGlobEdBRGhLckhOUzZsNTFZdi1KMTB6V09Nd9IB3wFBVV95cUxQTmtOcE5obzJZZHl2S2xPRktLYjc4aF9KVHplMnA4VGQyNHhJXzM3dWZvN3Y4Z1I3UmxXandYZXZzNzV3TXdrU1IxR2JGLVpSeDR5S1dtaG9vYjhkaU5CUDc5a0ZDTm1qWTBueExiekJEX28xdWt6dXBDMmVFMW1mUVZ5SC1CMHZxbFNpS0ktYk1uem5nRm1QVmstSFc2U191QWhUZGRzaFRwaFZJZW4xWHRFaVhvaG1JNENZWDlyY1hLbjdKLXd4V3FmVm0xLVNTcExtX3hGVjU4WlZHSVhJ?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -29073,11 +29079,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 12
+        "count": 11
       },
       {
         "term": "ignacio",
-        "count": 8
+        "count": 7
       },
       {
         "term": "elintra",
@@ -29570,7 +29576,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 15
+        "count": 14
       },
       {
         "term": "roberto",
@@ -29578,7 +29584,7 @@
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
         "term": "turismo",
@@ -32361,15 +32367,15 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 4
+        "count": 3
       },
       {
         "term": "benavides",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
