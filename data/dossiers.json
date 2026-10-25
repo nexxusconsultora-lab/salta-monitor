@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 358,
+    "total_mentions": 359,
     "sentiment_breakdown": {
       "positivo": 91,
       "negativo": 59,
-      "neutral": 208
+      "neutral": 209
     },
     "sentiment_by_day": {
+      "2019-11-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-22": {
         "total": 19,
         "score_sum": 3
@@ -330,11 +334,11 @@
       },
       {
         "term": "gustavo",
-        "count": 22
+        "count": 23
       },
       {
         "term": "nación",
-        "count": 10
+        "count": 11
       },
       {
         "term": "belgrano",
@@ -353,7 +357,7 @@
         "count": 8
       },
       {
-        "term": "pasa",
+        "term": "pidió",
         "count": 6
       }
     ],
@@ -451,6 +455,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Elecciones en Salta: ganó Gustavo Sáenz y se convirtió en el nuevo gobernador - La Nación",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaUJWa1BzZUlmM3hQZXBWV2E2eG9KUVY5MEEzQkV2QWVPclo0N0pjMDR6MFVZLWctMlZkclpfR2FoS3RyU2FoNlhQR0FDNkJVZEZBTmJkaDQ4WEktelJBMkw4dWxLd3Y4SVZIOXBjZUV3NThtNjMzemU2MGM3UFMxYkxwRGtWVlFWZF8wcjhDQkdYVzNGVk1RR0JnTk9MQQ?oc=5",
+        "source": "La Nación",
+        "date": "Mon, 11 Nov 2019 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz marcó distancia de Javier Milei: “No soy rueda de auxilio de nadie” - El Intransigente",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVB0U3VyTWtzUUlmZDRfMndaZUloV1puZ1RtZlNCZVhpa2xUbEZfU1lLTWJrWUdhT0NDZGVzb0JPcmxEaDZ1eU9qcUVYZzA3UWlJT2RZM0NScXhDdXpQbWlMWG44RE1PMHVkQ28xVkN2MTlkTWI3UThyUTduRDF2cGtQMjhpY09ZcVlJaTJrQTFZeWt0NTJmaE10SjYxN0xhVzRB?oc=5",
@@ -653,13 +664,6 @@
         "source": "Gente de Salta",
         "date": "Wed, 21 Oct 2026 23:25:00 -0300",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Privatización del Belgrano Cargas: Nación garantizó inversiones para los ramales productivos C-14 y C-15",
-        "link": "https://www.lahoradesalta.com.ar/privatizacion-del-belgrano-cargas-nacion-garantizo-inversiones-para-los-ramales-productivos-c-14-y-c-15/",
-        "source": "La Hora de Salta",
-        "date": "Thu, 22 Oct 2026 01:55:16 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -13625,13 +13629,17 @@
     "id": "dip-gustavo-bernardo-dantur",
     "name": "Gustavo Bernardo Dantur",
     "role": "Diputado/a provincial por Metán",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-10-25": {
+        "total": 1,
+        "score_sum": -1
+      },
       "2024-03-28": {
         "total": 1,
         "score_sum": 0
@@ -13661,6 +13669,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Caso Metán: familiares cuestionaron las demoras y reclamaron un médico legista permanente",
+        "link": "https://informatesalta.com.ar/sociedad/caso-metan--familiares-cuestionaron-las-demoras-y-reclamaron-un-medico-legista-permanente_a6ade2b1f9bb51fe003fcb5ed",
+        "source": "Informate Salta",
+        "date": "Sun, 25 Oct 2026 16:30:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gustavo Dantur apuntó contra Milei: «si hubiesen estado en la época del covid hubiese sido un desastre» - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTHJnc3dyUV9FOXNvNmhMek4zZlY0TWJyNk0wR1FXUkI4QWxabGowaGp1cV9vQ0dVWlk2UmtFN1NpY1hFdGNpeVNVNXJuVzJJYXZpOGw1bDczRXRyQkJqR2pTME5NcnFycjlUT0FkS1NIYU5lZk1wbURLd3Y4X1N4a3ozay1FOUlwXzc2Z1VJMjNuTEgwN2pkMTdWWGpfeVEtUXFsWWw1dnZ5TmY4UC1QVmZvakwtYU0wbGc5WHo1bk52VXZIVHZ3d3NRVDhJWDVP?oc=5",
@@ -29093,13 +29108,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 35,
+    "total_mentions": 36,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 4,
       "neutral": 26
     },
     "sentiment_by_day": {
+      "2026-10-25": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2024-03-13": {
         "total": 1,
         "score_sum": 0
@@ -29240,11 +29259,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 10
+        "count": 11
       },
       {
         "term": "ignacio",
-        "count": 6
+        "count": 7
       },
       {
         "term": "elintra",
@@ -29310,6 +29329,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún mueve sus fichas con Juntos por Salta y apunta a la intendencia capitalina.",
+        "link": "https://elintra.com.ar/2026/10/25/salta-ignacio-jarsun-juntos-por-salta-intendencia-capital-2027/",
+        "source": "El Intra",
+        "date": "Sun, 25 Oct 2026 15:46:51 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Multa a Aguas del Norte: Ignacio Jarsún ignoró los pedidos de la Justicia y ahora deberá pagar 500 mil pesos diarios - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUmF3Q3QxaHJtZzFxRVFxdjIwWmVXQlNXNnhVdVBUcnJQa00wOXFBaHQtY2hLUjJ6Z1JQRU9SNnNsNHBvSnB4LTVUN0FsdmVJd3N1VEl5c2Iya21YdXBaek4wZWtucWJabGtBVWdoSGhrbXAwbTVyYkd4ME9jZVg1enhTbTlzeVBaN1FPekZVcEtQTHV3RG1KUHRtN0liOXJDNklLLXVZcF84OXhMMHd4NU41REhwVFZDb1pEbUkzN1FmTnBzeUo1UXpCaFFxQk9kVkdnQWZsMGJWSTFSdENxOUtwOTk?oc=5",
@@ -29512,13 +29538,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 28 Aug 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Mariana Aranda, la mujer que caminó desde Mosconi clamando justicia, fue recibida por Ignacio Jarsún - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ1NpUlNtRzlaY0dlSEkyNnZQc0R5OEgtaDMtdmlQTVpvaUc4d3dWc0pYTnp1OVhDaGIzV0xoWkVFS2hxYTAxTVBaMHEtM05QUjNhM0FhdWQ5VHd5UjhvZjJEcmVyRzZIekdWQkhUQWlSTVUwcUdncndJQnhjSEpDLVVBdWg0b1RqeHlncWJSSnh0UmtmbkxfaW8xbkMxRFdOLUlTS003ME5sNG1sMVFmZU5iQ0trQUU3Rkc1cGgtV3dFZUR1ajlLQlFCeW5IXzZ6VUdTdUVQUmU3ZnZDWFVxVVRsR2k4d01P0gHuAUFVX3lxTE1CWUE0anplbHNSTkh3UjhHU0pReUhMR1FlUjFCTlRuN0VnSzhJd2Y1RHM2enlJZWJ2QTh4QkdTbThDQ05UVkxhT1RkVlBDWFU0Mlh1R19ySlByckE3R3FRc2Qwb01xS0UwRk5Ra2hHb0xLeVJ4VVBMUURVbVVVcllReExnODZOMHIzRjBzX1d1V1gtLTZHbVNfQmpkTjBNX05Gbk9KQzNFSGFiQ1k2S2JXa3BENzJUeTNCZzhFR2FMXzJRWjRFY2lOLVBIQ05SV2V6a1dzeDYtUHdYdXdQMWxoTXlKd0Vib0dBQXpMckE?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -29526,13 +29545,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 58,
+    "total_mentions": 59,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 4,
-      "neutral": 47
+      "neutral": 48
     },
     "sentiment_by_day": {
+      "2025-02-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-04-15": {
         "total": 1,
         "score_sum": 0
@@ -29733,7 +29756,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 11
+        "count": 12
       },
       {
         "term": "roberto",
@@ -29765,6 +29788,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "El camino no es de rodillas, sino construyendo",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaFRCbk9JM3dJUjVtWGtOaklVeXkwQlpCUXBQcGZKaGRJa0RIbHNuTTZkV2R1Z0V5UVdhQTlneWRhQ1Jhd1lNbG1RaTVXZnYycHM1ckprQzdzTzE4UUlVU3FxNk5SMGdDQ1VFQWowTndQZlctNmFtZUswTFI3dkpKdW5ad0dmOE43clNCUTBrcXBUbU8ySHJwTFZORDdBN3Bm0gGYAUFVX3lxTE1ISjJDUS1NVVFJVkFSMk95eURNOW1uRnk2aGEwRGl0b3BTRmFVUDQ5ckUyTFRNeVdSMEdxNmJsb2N0VzRfQjBVWk12cVJyMGxfenZtZi1YblRldVh5d1lKWlFuYzE0OHY0MENBbGpsdFYwNTQ0eHU3aXVEaVpPclp1UmJxaXhKYW42dV81RVE0QWt5OUV0WW8t?oc=5",
+        "date": "Fri, 28 Feb 2025 08:00:00 GMT"
+      },
       {
         "quote": "En temas financieros no tiene capacidad",
         "source": "Elintra.com.ar",
@@ -29848,12 +29877,6 @@
         "source": "Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObXNiNUp6MFgyQlh2NGNWdlZsWVE3aXV0dVZybklrZmo2UW5nLUk5b0RCT3ZRdVMzeTUxbHRTZjhmRzV5eWJwNEJqMVZVYUViSGlJTU9MclF2TWgxZERZUV9DN0U5VW1SQ1R2RTIxRDNkMTQ4N1o4YlUxV1JHZ3plWVpTd2xtSGNPWm1ReFlmNWJUa3J0VVV3V0tPZWhSZTVHTEdBTHFKbkU1YTlCb3hEUENjU3BYNmlNdlNpRHFQaXZDdzlucHdZZjFON2ZoMjVMRWZoaUhCMXl3UFlvenN5TElGaGJUS2FGZy1aV2J5SlJWZGNJWmxucmh3UXAzek9qZ09IX00wZ2zSAZcCQVVfeXFMTmkzYS1teGhoZHFuZFdRWWl1MkUyS0tJZ1NiY0ZzVXZWcFkxdXJkMjJYX2h4RXF1YzkwMXNNaFRUbjZ1d1JZV2pNcE9sQS1OREFXNnZQR1l0d0ZZZV94eVh3R2NUVU9aMWs4OWJ6X0JNOXdXTXNQc0N3c0t6MmsxdFYxc0lpUHpLd2lXZmJjRjRQRGV1ZkV3d1NZTlBBaHhYRkFuV0VpMTQwVTdTdVNNZlpkQ1liZER1S29SMXRXTXpOeTBZaWYyQ1UzaGcxZ3p6VjdNN0IzeEg1M20zWHFDdi0tYkRzOC03MFNxYTlCMUlXNEdsbDVEWDhuWnY5TWJROU44QVg3WkRKMVV6UktuclQ1RzdjS1Zn?oc=5",
         "date": "Mon, 10 Feb 2020 08:00:00 GMT"
-      },
-      {
-        "quote": "Nación le recortó 240 mil millones de pesos a Salta",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDRsV0xRM1VmTXZlQzYyblpfb2R2VlR3Z05TRmlsWHFaei1IeE5scFpjUXh5cnN0aWlPUHduREoxb09tTTZiM3pETnZuUFFKRHNBazZST0JuNGJZSE5sVFY0UDYwTklwMnRVdmtOc3d2SXpGYUpPMUdTSExNekIzbkJBaUtOM241VXJkMHYybFVfRjBaYkpRRdIBmAFBVV95cUxQeDRsV0xRM1VmTXZlQzYyblpfb2R2VlR3Z05TRmlsWHFaei1IeE5scFpjUXh5cnN0aWlPUHduREoxb09tTTZiM3pETnZuUFFKRHNBazZST0JuNGJZSE5sVFY0UDYwTklwMnRVdmtOc3d2SXpGYUpPMUdTSExNekIzbkJBaUtOM241VXJkMHYybFVfRjBaYkpRRQ?oc=5",
-        "date": "Tue, 11 Mar 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -29865,6 +29888,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Dib Ashur: “El camino no es de rodillas, sino construyendo” - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaFRCbk9JM3dJUjVtWGtOaklVeXkwQlpCUXBQcGZKaGRJa0RIbHNuTTZkV2R1Z0V5UVdhQTlneWRhQ1Jhd1lNbG1RaTVXZnYycHM1ckprQzdzTzE4UUlVU3FxNk5SMGdDQ1VFQWowTndQZlctNmFtZUswTFI3dkpKdW5ad0dmOE43clNCUTBrcXBUbU8ySHJwTFZORDdBN3Bm0gGYAUFVX3lxTE1ISjJDUS1NVVFJVkFSMk95eURNOW1uRnk2aGEwRGl0b3BTRmFVUDQ5ckUyTFRNeVdSMEdxNmJsb2N0VzRfQjBVWk12cVJyMGxfenZtZi1YblRldVh5d1lKWlFuYzE0OHY0MENBbGpsdFYwNTQ0eHU3aXVEaVpPclp1UmJxaXhKYW42dV81RVE0QWt5OUV0WW8t?oc=5",
+        "source": "Aries On Line",
+        "date": "Fri, 28 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emiliano Estrada le apuntó a Roberto Dib Ashur: “En temas financieros no tiene capacidad” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdVhxa3E2QTBpeTJNVENNRThlUVRscVNCUTlrRXd5RW1Ob1Z4MGthZ25BMk1vTm9MamNzNjQ0Qlc2QlNfdmJHQURUR1ZDZUotLWVyOElMbWhJMngyUjNXY09Dc1k1eWQxei0yOUV2ZDV3T2V5d0tmVVR1dlJrYUVPSFl3ak4wbFlLbFlZUDZBaG9oeGNtd2hXQXBMNGttOFg4OHQ2SXIxQjVfYzhOa1BJYmJIZGxIcUlBZkJjamdB?oc=5",
@@ -30066,13 +30096,6 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOWF6YUJiUF8wd1VmNmpCRkF4SW5zYUR2ZGtoaFMwdXNaWi1HWDVjZ1hpTnVQYnlyNHNLbXJkSE9oUTE1T1lSRHEyN0hHbWZVazExckQ1YVAxZXdmV2p1TU5KM0h6Z3lTbGZ3cFRyblFlV19YSExfd0doWU5TWnozZTVQWTA2QUpmdFI3aldIVzY2MUl1UkZVSUR5alM1WkgtdU9JbEZmWmJNbDEzMFRCTVlvakxhSGNkRURsR2hYZVhjWDhOamtxZWJ0Z0fSAdIBQVVfeXFMTkFTMC03S0huOXpLS1dtODZXdDhDUzRwbTBLcjlmUlo5VVpncWhZWnhReDE3SVBiMHpkcFotV1FiM0w2MlpleWpBcFFFdGhIUVpsUEFCaTZOVnNsVFNoMDliX05zQWxZSC1oeTBhZDJXa1M3TG56QkZHSlBmcGdYODhkWUxzUGNGZXdVdXQ2bHpGdWN1cWNjenNSUy05NHp5elVzTkNPNkhVaDJtNlRFZWU1S2ozZ1Z5WGtOY0RjdEJEckVpVW9lVkRlMWdhd3lzSXBB?oc=5",
         "source": "Ambito",
         "date": "Mon, 16 Mar 2020 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Dib Ashur va a la Legislatura con los números para el 2020 - Página|12",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVk0bDVDaklUcUliVThGNjFsbGpzR1o3ZEpDSXFMV1lqNmlmSmxia3pxWTdjQWlaTk9jd2xEQmdqMTBMWnpUQnBhZ1ZhSEFEMmlwYnVSenl3QW9IT3lMYld4Sm9Td2dOeGNnQUJMMHdXYWk4SmR5cGVXRDRxZHAtdXBic1hFX0w1N1E1YjFMaXZXUFRFdGRqaU1B?oc=5",
-        "source": "Página|12",
-        "date": "Mon, 16 Dec 2019 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31239,11 +31262,11 @@
     "top_topics": [
       {
         "term": "fiore",
-        "count": 8
+        "count": 7
       },
       {
         "term": "cristina",
-        "count": 7
+        "count": 6
       },
       {
         "term": "elintra",
@@ -31259,10 +31282,6 @@
       },
       {
         "term": "fantasma",
-        "count": 2
-      },
-      {
-        "term": "ministra",
         "count": 2
       },
       {
