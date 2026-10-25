@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-25T21:57:56.085153+00:00",
+  "generated_at": "2026-10-25T22:04:20.474716+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 27,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 19,
+      "score_sum": 35
+    },
+    "sen-enrique-cornejo-saravia": {
+      "total": 38,
+      "positivo": 1,
+      "negativo": 9,
+      "neutral": 28,
+      "score_sum": -16
+    },
+    "eje-juan-vilchez": {
+      "total": 10,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 6,
+      "score_sum": 4
+    },
     "dnac-pablo-outes": {
       "total": 21,
       "positivo": 0,
@@ -91,13 +112,6 @@
       "negativo": 2,
       "neutral": 31,
       "score_sum": 4
-    },
-    "sen-enrique-cornejo-saravia": {
-      "total": 37,
-      "positivo": 1,
-      "negativo": 9,
-      "neutral": 27,
-      "score_sum": -16
     },
     "dip-sergio-mauricio-lopez": {
       "total": 14,
@@ -259,6 +273,13 @@
       "negativo": 5,
       "neutral": 26,
       "score_sum": -8
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 40,
+      "positivo": 2,
+      "negativo": 19,
+      "neutral": 19,
+      "score_sum": -42
     },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 6,
@@ -483,13 +504,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 12
-    },
-    "eje-juan-vilchez": {
-      "total": 9,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 5,
-      "score_sum": 4
     },
     "sen-jorge-soto": {
       "total": 44,
@@ -920,6 +934,40 @@
     }
   },
   "by_day": {
+    "2024-01-31": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-07-15": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-25": {
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2023-08-01": {
       "dnac-pablo-outes": {
         "total": 1,
@@ -1046,16 +1094,6 @@
       "sen-mashur-lapad": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-25": {
-      "dip-gustavo-bernardo-dantur": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2023-10-21": {
@@ -13498,6 +13536,12 @@
         "score_sum": 0
       }
     },
+    "2023-10-05": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2024-07-08": {
       "gustavo-saenz": {
         "total": 1,
@@ -16890,7 +16934,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 24
+      "count": 26
     },
     {
       "term": "sáenz",
@@ -16922,7 +16966,7 @@
     },
     {
       "term": "contra",
-      "count": 6
+      "count": 7
     },
     {
       "term": "gustavo",
