@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-25T22:28:47.436398+00:00",
+  "generated_at": "2026-10-26T00:40:08.913933+00:00",
   "by_politician": {
+    "concejal-pablo-emanuel-lopez": {
+      "total": 41,
+      "positivo": 2,
+      "negativo": 20,
+      "neutral": 19,
+      "score_sum": -44
+    },
     "eje-oriana-nevora": {
       "total": 14,
       "positivo": 1,
@@ -280,13 +287,6 @@
       "negativo": 5,
       "neutral": 26,
       "score_sum": -8
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 40,
-      "positivo": 2,
-      "negativo": 19,
-      "neutral": 19,
-      "score_sum": -42
     },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 6,
@@ -934,6 +934,16 @@
     }
   },
   "by_day": {
+    "2023-10-05": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2025-09-21": {
       "eje-oriana-nevora": {
         "total": 1,
@@ -13552,12 +13562,6 @@
         "score_sum": 0
       }
     },
-    "2023-10-05": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "2024-07-08": {
       "gustavo-saenz": {
         "total": 1,
@@ -16954,7 +16958,7 @@
     },
     {
       "term": "sáenz",
-      "count": 22
+      "count": 19
     },
     {
       "term": "norte",
@@ -16981,10 +16985,6 @@
       "count": 10
     },
     {
-      "term": "gustavo",
-      "count": 7
-    },
-    {
       "term": "contra",
       "count": 7
     },
@@ -17007,6 +17007,10 @@
     {
       "term": "millones",
       "count": 5
+    },
+    {
+      "term": "gustavo",
+      "count": 4
     }
   ],
   "comentions": [

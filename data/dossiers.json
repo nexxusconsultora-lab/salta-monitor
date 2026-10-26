@@ -338,7 +338,7 @@
       },
       {
         "term": "nación",
-        "count": 11
+        "count": 10
       },
       {
         "term": "belgrano",
@@ -19172,13 +19172,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 40,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 19,
+      "negativo": 20,
       "neutral": 19
     },
     "sentiment_by_day": {
+      "2023-10-05": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2022-08-03": {
         "total": 1,
         "score_sum": -2
@@ -19291,14 +19295,22 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 5
+        "count": 6
       },
       {
         "term": "lópez",
-        "count": 5
+        "count": 6
       },
       {
         "term": "elintra",
+        "count": 3
+      },
+      {
+        "term": "concejo",
+        "count": 2
+      },
+      {
+        "term": "concejal",
         "count": 2
       },
       {
@@ -19311,10 +19323,6 @@
       },
       {
         "term": "denunció",
-        "count": 2
-      },
-      {
-        "term": "pasa",
         "count": 2
       }
     ],
@@ -19437,6 +19445,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El escándalo de Insaurralde llegó al Concejo Deliberante: el concejal Pablo López pidió tener memoria” a la hora de votar - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaU92T0dQUEJNZWtDdzhfWlpYX2FRUTFNLVVlU3BxRVplT0VSb3N4VjZnbWJncTRpZlNyVXB3ZE1qcXVmYXB2THptNHpUTGFoZlNTOVJ5M2daR184T0xRbHFldW00Rl83T1NFQVFoaUtpSGRuR25wM3pUVkNnVXlhWHJuUDYzaXNqbmxacG9jOEhENEpMV0UyaVlFUkpXdmpTMjRpeWdpNDl4QTNSU0NpeElveFU4UTBJTWpmNWJ1WTRhUXByLVN3REdPcmlWMTNvYVZZT0pBODVZd0FpcVdOdk1vUE10Y09oVVE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 05 Oct 2023 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Pablo López reclamó que le prometieron “heladera llena y está cada vez más vacía” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVGl5UC1LcFRydWU5SnJvSVBUbkFRTEFuTnVhajI5WFF5aDljakJGcWcwMzAzR0ZLTlZOQXhpQUhUMzNlZ2Fna2xybzVfVVd0Ti1XM0dxYV9DRjh5MGRQNUxyMVBUWlhOWGVicXpuZkRBY1FBU3VPbGdWRm9GdkRzZkdKS2JjUHVIZ0F5Zm96UTdlX1dGVUlDc2J5WVZ4MktLSy1lWUh3OHhVNnFWMG05cHhkSHA?oc=5",
@@ -19639,13 +19654,6 @@
         "source": "MinutoUno",
         "date": "Fri, 08 Aug 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "La denuncia penal contra el exconcejal Pablo Emanuel López y la ética profesional - Vail Doubles",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUEtEbnQyTzFlMno3YWU2Yy1nNWJFMklsQXRsOFRUQXhQNDk2a0dpVHplQ1dEQ1REMkkweFAxWDd0M1BIWDRjSjdUQ3V5WXVXTTNVb3BNd245a3I5Z1hqRHNxMzhJcmZYTGFvSDlBWjdZODJBeWx4ejhLRjdMMWNTNjk4dnVwZ1pkS1pEell3M1pLOVBiY2lGWGlPZ0lGM2RpNmM2T2JoUkgxNEtsZjZNRXVpdFdOSHl1TGRXcnJfcWZ5YnVTTDdjaw?oc=5",
-        "source": "Vail Doubles",
-        "date": "Fri, 18 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -29333,18 +29341,14 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 11
+        "count": 9
       },
       {
         "term": "ignacio",
-        "count": 7
+        "count": 6
       },
       {
         "term": "elintra",
-        "count": 4
-      },
-      {
-        "term": "nacho",
         "count": 3
       },
       {
@@ -29353,6 +29357,10 @@
       },
       {
         "term": "norte",
+        "count": 2
+      },
+      {
+        "term": "nacho",
         "count": 2
       }
     ],
