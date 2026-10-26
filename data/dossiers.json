@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 360,
+    "total_mentions": 366,
     "sentiment_breakdown": {
       "positivo": 91,
       "negativo": 59,
-      "neutral": 210
+      "neutral": 216
     },
     "sentiment_by_day": {
+      "2026-10-26": {
+        "total": 6,
+        "score_sum": 0
+      },
       "2026-10-19": {
         "total": 10,
         "score_sum": 2
@@ -334,19 +338,19 @@
       },
       {
         "term": "gustavo",
-        "count": 21
+        "count": 22
       },
       {
         "term": "nación",
-        "count": 10
+        "count": 11
       },
       {
         "term": "belgrano",
-        "count": 8
+        "count": 9
       },
       {
         "term": "cargas",
-        "count": 8
+        "count": 9
       },
       {
         "term": "arca",
@@ -362,6 +366,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Señor del Tabaco",
+        "source": "Gente de Salta",
+        "link": "https://www.gentedesalta.com/sociedad/quien-senor-tabaco-hizo-enojar-saenz-cruzo-milei-tiene-una-batalla-feroz-fisco-ahora-caso-una-famosa-vedette-n13297",
+        "date": "Mon, 26 Oct 2026 10:13:00 -0300"
+      },
       {
         "quote": "El verdadero motor de esta provincia son ustedes",
         "source": "El Tribuno",
@@ -445,16 +455,52 @@
         "source": "Gente de Salta",
         "link": "https://www.gentedesalta.com/politica/urtubey-recorre-salta-rumbo-2027-pero-kosiner-marca-distancia-saenz-no-hay-punto-contacto-milei-n12986",
         "date": "Fri, 16 Oct 2026 16:52:00 -0300"
-      },
-      {
-        "quote": "No íbamos a permitir estar 50 años más esperando",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM2RBbjZEN3NCQVhyZkQzd1dYRDB5WXlHMm9abGhKNkdnSHJUbWtCNG5lSDRuUWY5RDktSGpBbmlGTFp1QzhHSTg5WXEwUDZVT2h0dWJZc0NYQVZuNUR1RGFlWVRKM1hMVG15QnN2Tml2dms1aHpRc01RZzJqbG9wUzdpS0ZqT2VsZU0tVXA4NXY5cUFhZ203Uk1nNE4wQS1jMmdWMDRPNHMxXzNndThWY1FlWkZBbXFEd2dNbHlBMVlyMFHSAcgBQVVfeXFMT05PMEh3dW9scnVRc1dTZjVRTm0wbnBFYWg5cjNTNkdtZ3MyVGp3QTdaczRqTmczTnZnX3VTdDVvTXBBUnRZMUJEak5vejVIUDEzRnBsSC15XzNKN2xnRnZfN19qMGxyQ0p4bjBST3VtWFhWZEdDN08xWFpxU1VJdlNqT1UxRXdEcVl3elhFWTBtdHI0cXNCdThyRHViV09EOU51eElfRzJXMkE4RVpzVk92TXZWWXVVNVQ5UC1tQmZGUVVRbjFBRXc?oc=5",
-        "date": "Thu, 15 Oct 2026 18:46:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Quién es el \"Señor del Tabaco\" que hizo enojar a Sáenz, cruzó a Milei, tiene una batalla feroz con el fisco y ahora se casó con una famosa vedette",
+        "link": "https://www.gentedesalta.com/sociedad/quien-senor-tabaco-hizo-enojar-saenz-cruzo-milei-tiene-una-batalla-feroz-fisco-ahora-caso-una-famosa-vedette-n13297",
+        "source": "Gente de Salta",
+        "date": "Mon, 26 Oct 2026 10:13:00 -0300",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "El hospital de Coronel Moldes se quedó sin la obra prometida y la Provincia la rescindió",
+        "link": "https://salta4400.com/sociedad/2026/10/26/el-hospital-de-coronel-moldes-se-quedo-sin-la-obra-prometida-y-la-provincia-la-rescindio/",
+        "source": "Salta 4400",
+        "date": "Mon, 26 Oct 2026 13:28:00 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Salta anuncia asistencia infantil, pero cinco departamentos quedaron fuera del programa",
+        "link": "https://salta4400.com/salta/2026/10/26/salta-anuncia-asistencia-infantil-pero-cinco-departamentos-quedaron-fuera-del-programa/",
+        "source": "Salta 4400",
+        "date": "Mon, 26 Oct 2026 14:28:24 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Inició el montaje del tercer tramo del puente Bailey que conecta Los Toldos con La Mamora en Bolivia",
+        "link": "https://www.lahoradesalta.com.ar/inicio-el-montaje-del-tercer-tramo-del-puente-bailey-que-conecta-los-toldos-con-la-mamora-en-bolivia/",
+        "source": "La Hora de Salta",
+        "date": "Mon, 26 Oct 2026 13:04:45 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Belgrano Cargas: Nación evalúa demorar la licitación para sumar más oferentes",
+        "link": "https://informatesalta.com.ar/nacional/belgrano-cargas--nacion-evalua-demorar-la-licitacion-para-sumar-mas-oferentes_a6adf5b8bc0a5eb653b495b1e",
+        "source": "Informate Salta",
+        "date": "Mon, 26 Oct 2026 13:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz, el Presupuesto 2027 y los intendentes que empiezan a ordenar el poder",
+        "link": "https://elintra.com.ar/2026/10/26/gustavo-saenz-el-presupuesto-2027-y-los-intendentes-que-empiezan-a-ordenar-el-poder/",
+        "source": "El Intra",
+        "date": "Mon, 26 Oct 2026 17:22:11 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“El verdadero motor de esta provincia son ustedes”: Sáenz firmó convenios con el CFI por $4.000 millones para - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLU54UFc1cndOcUVrZmJOOGNUWU1WX0RKa3ljaWZPY0VGdzFtOUJMbzVxb0xpMnd4U09XN3ZRS2w5OXM2VldSVTcyNVViOTN1bi1PaWJ2SnplWUtxWW9BZ0xaS0FMcFJsU203eFNDYl9FMFhfOFBFRHYyTzdLTS1RSjZVTnZ3V1lhNGlXWld5SFJKR3JMQWNCNWJKa2Jobm81LWt2NXV2UjNRTXJBWUw0SGRqVEh5X1RhalHSAb8BQVVfeXFMT3Vkcmt0MnhrU191MWtFdjJZQWtTTnA2LWJwc2l0bE9LS1U1XzV6NWlTcXFrLTZLeDdPeDB6OWcxTmRhcDdyWmJMTC1INmxtQXhqclhWWHc0LVB3eDVlMFBNdEh3Nm1KM0xVNkFsS0tMMUlOY2p5UGhHS0V1WjdZRWxxV3diWkg2d29xcWtGOVFJam5iZWV1a0lYQWhvV0o4Rm1velhpSVl6N05tVmlCa2xkY2ozZXI3eC1rRENlM1U?oc=5",
@@ -622,48 +668,6 @@
         "source": "El Intra",
         "date": "Thu, 22 Oct 2026 16:40:16 +0000",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Gustavo Sáenz dejó abierta la puerta a 2027 y cuestionó la polarización nacional",
-        "link": "https://elintra.com.ar/2026/10/22/gustavo-saenz-dejo-abierta-la-puerta-a-2027-y-cuestiono-la-polarizacion-nacional/",
-        "source": "El Intra",
-        "date": "Thu, 22 Oct 2026 16:58:50 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Quiénes son las cinco juezas del Tribunal Electoral de Salta: Cuatro recibieron el aval de Sáenz",
-        "link": "https://www.gentedesalta.com/politica/quienes-son-cinco-juezas-tribunal-electoral-salta-cuatro-recibieron-aval-saenz-n13165",
-        "source": "Gente de Salta",
-        "date": "Thu, 22 Oct 2026 16:46:00 -0300",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz se planta ante Nación para defender el comercio en la frontera salteña",
-        "link": "https://salta4400.com/salta/2026/10/22/gustavo-saenz-se-planta-ante-nacion-para-defender-el-comercio-en-la-frontera-saltena/",
-        "source": "Salta 4400",
-        "date": "Thu, 22 Oct 2026 13:41:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz festejó la tregua de ARCA en la frontera de Aguas Blancas y Salvador Mazza",
-        "link": "https://elintra.com.ar/2026/10/22/saenz-festejo-la-tregua-de-arca-en-la-frontera-de-aguas-blancas-y-salvador-mazza/",
-        "source": "El Intra",
-        "date": "Thu, 22 Oct 2026 13:15:00 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz mantiene en marcha una obra estratégica pese a las demoras nacionales",
-        "link": "https://elintra.com.ar/2026/10/22/gustavo-saenz-mantiene-en-marcha-una-obra-estrategica-pese-a-las-demoras-nacionales/",
-        "source": "El Intra",
-        "date": "Thu, 22 Oct 2026 14:09:40 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sergio Camacho aseguró que Sáenz «va a estar encima» de Nación para garantizar inversiones en el Belgrano Cargas",
-        "link": "https://elintra.com.ar/2026/10/22/sergio-camacho-aseguro-que-saenz-va-a-estar-encima-de-nacion-para-garantizar-inversiones-en-el-belgrano-cargas/",
-        "source": "El Intra",
-        "date": "Thu, 22 Oct 2026 15:19:34 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6435,13 +6439,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 87,
+    "total_mentions": 88,
     "sentiment_breakdown": {
       "positivo": 11,
       "negativo": 7,
-      "neutral": 69
+      "neutral": 70
     },
     "sentiment_by_day": {
+      "2026-10-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-10-19": {
         "total": 1,
         "score_sum": 0
@@ -6747,7 +6755,12 @@
         "score_sum": -2
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "curá",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "No podemos mirar al costado",
@@ -6842,6 +6855,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salida laboral: El senador Curá acercó a Pichanal un curso de electricidad",
+        "link": "https://informatesalta.com.ar/interior/salida-laboral--el-senador-cura-acerco-a-pichanal-un-curso-de-electricidad_a6adf6c18c0a5eb653b504d3b",
+        "source": "Informate Salta",
+        "date": "Mon, 26 Oct 2026 17:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Juan Cruz Curá quedó rendido ante una poderosa figura internacional - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejVPLVhMclZwZU82eTJxdEM2enFlVVh6MGRNRzVmZS1UZDV3SVp1VGViQlEyckYwbC1IY1VabzBpM1VXbU1kRGlPOU55Unp5VWJ0aVhIX3NpWi1qdTNTaUo1bzhWMEtDLVFKY1kzeERHZTJxdXlqQlhqb2hGeHZGWDBQVW1KN0hnTW8zcmJlbjhMV3NPaFB6ZUNUeVhncFhFRDFYSw?oc=5",
@@ -7044,13 +7064,6 @@
         "source": "Voces Criticas - Salta",
         "date": "Thu, 17 Sep 2026 23:22:14 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Juan Cruz Curá argumentó su voto a favor del endeudamiento provincial: «la Provincia sufrió una recesión» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQemlvbWJpVTBCT0UwTW5Cb09leWMtcUI5YjVJV0k4OUprazlUc0ZvTlB2cl8tVUhTVVFTdU95aDNtZ3RhU3Boa29xMVNJMHBfdkxmS3JGM1MtS1Q5Vy1tSmd1dWQ3UFJoWW01WTNpVE9na2swcnY4bGdkMEhndFZ6LTZvdUI1YWpIdEdGaXF4M1hGRlhtLXJCb29pNVRpcnF2ellMd1p2ZlIwSEFMQ3Y3Nl9kOWNFNFRJdzd4MDdxWHN6OVhYZURPdERMY2FnM3pjSmRV?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 22 Apr 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -15134,13 +15147,17 @@
     "id": "concejal-agustina-alvarez-eichele",
     "name": "Agustina Álvarez Eichele",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 62,
+    "total_mentions": 63,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 12,
-      "neutral": 46
+      "neutral": 47
     },
     "sentiment_by_day": {
+      "2022-11-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-06-24": {
         "total": 1,
         "score_sum": 0
@@ -15349,15 +15366,19 @@
     "top_topics": [
       {
         "term": "agustina",
-        "count": 4
+        "count": 5
       },
       {
         "term": "álvarez",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "patricia",
@@ -15470,6 +15491,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Agustina Álvarez vuelve a la carga contra la Municipalidad de Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRlJUT1FEYzlTak5vdVlOR1NxWnpaR0tkR09CZkZTNDFXbVV2UGV2T0llWUZVM1BhVS14ZXZRNVhPbXNBMDQtM1ZWTVZMV2xkcjAzTklQY29PUEJyNF9XRG5QWWJkQmZIa0VyVjRyUFdSdmJVMGQzZU5DcWh3MXJ5QnlzVzBSREdjV1ZwNHZ1a0xZaVRCaVlKM1NXMVBiT1pJZmV4SQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 10 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez plantó bandera al lado de Patricia Bullrich: \"Necesitamos ser más contundentes\" - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQblcydXRpMHBxck1mdkNTYWtpclBVdnpId0pIdnpteHdTOGFWcGVPMW9JeGxad3ZTLWhRTmE0ekdpUk1xUl8xNEVub05kR2pQMjlHb19rLWNZdXRlU3JyeG9za25WWmFyeTdaTDhvbEczUzhNLTRkU3ZtXzE4Z3dUUkdBQzZWWi1QRWZTNlhza0xyRGtKYm9iUkRQbUlYVWNFSGE1NW5TcWh6SFc5dUhBVHNZREE5ejdNc0g2em1TdHhRY0NEdUlJ?oc=5",
@@ -15671,13 +15699,6 @@
         "link": "https://informatesalta.com.ar/sociedad/salta-reclama-a-nacion-por-fondos-para-enfrentar-el-nino---nosotros-tambien-somos-argentinos-_a6ab50db4f24c6ff379670760",
         "source": "Informate Salta",
         "date": "Thu, 24 Sep 2026 12:01:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Álvarez explicó por qué Salta quedó afuera del programa por el Súper Niño: “es una cuestión técnica”",
-        "link": "https://informatesalta.com.ar/legislativa/alvarez-explico-por-que-salta-quedo-afuera-del-programa-por-el-super-nino---es-una-cuestion-tecnica--_a6ab4420867dbc0c38dfef74d",
-        "source": "Informate Salta",
-        "date": "Wed, 23 Sep 2026 21:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -28543,13 +28564,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 2,
-      "neutral": 19
+      "neutral": 20
     },
     "sentiment_by_day": {
+      "2025-09-21": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-01-31": {
         "total": 1,
         "score_sum": 0
@@ -28650,15 +28675,19 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 5
+        "count": 6
       },
       {
         "term": "marocco",
-        "count": 5
+        "count": 6
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "vicegobernador",
+        "count": 2
       },
       {
         "term": "norte",
@@ -28720,6 +28749,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El vicegobernador Antonio Marocco se casó con su compañera de largos años - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUDNhMjF2ZENad2Iwa3pQcDVfUWpHSnIwaWVxaWFWa3U5Yk5RWXdWZjREbExZTmJmNzI4UkJUWkFGV2x3ZlBfTTQwWENKVm5hbS1LT2lYdXRyb19rcHhyNjVyVHVXb3AzdUNGYzl3U0swblB6ME5PUEpvQUtsY0J6czdrN1VpdEYwaXRYWGM2TnhZX21YajdScUlDTHdOR21BN1IydkZzZXRtSzdY?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 21 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Antonio Marocco pide mayor responsabilidad para combatir el Dengue - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPakF5TmxkRVJGTUd1R3RDZXd0TUt6eUptazkyVkFWWTRPMl80c25BcDd2NlJfZU83Vkg3SE0zcnBXcUdIcHpFVmwwWTJhbXBmZTg0aDE4dGMwTzBtdlNhRlhiOHhwcGVNMTAtSDRuY2gtbjQwMDRwM1JwT1NXeUFxQjZIdnJ3Q3Z2VXpOb1lPUTlGb2NoZy01ZkxjNzZQMzhCdGlR?oc=5",
@@ -29246,13 +29282,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 4,
-      "neutral": 26
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "2026-10-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-25": {
         "total": 1,
         "score_sum": 1
@@ -29401,11 +29441,15 @@
       },
       {
         "term": "ignacio",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
         "count": 3
+      },
+      {
+        "term": "intendente",
+        "count": 2
       },
       {
         "term": "aguas",
@@ -29421,6 +29465,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Nunca dije eso",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/politica/jarsun-desmintio-que-quiera-ser-intendente-de-salta---nunca-dije-eso-_a6adf6655c0a5eb653b4e1d55",
+        "date": "Mon, 26 Oct 2026 15:00:00 GMT"
+      },
       {
         "quote": "No hay Plan B",
         "source": "Informate Salta",
@@ -29467,6 +29517,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Jarsún desmintió que quiera ser intendente de Salta: “Nunca dije eso”",
+        "link": "https://informatesalta.com.ar/politica/jarsun-desmintio-que-quiera-ser-intendente-de-salta---nunca-dije-eso-_a6adf6655c0a5eb653b4e1d55",
+        "source": "Informate Salta",
+        "date": "Mon, 26 Oct 2026 15:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ignacio Jarsún mueve sus fichas con Juntos por Salta y apunta a la intendencia capitalina.",
         "link": "https://elintra.com.ar/2026/10/25/salta-ignacio-jarsun-juntos-por-salta-intendencia-capital-2027/",
@@ -29669,13 +29726,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 31 Jan 2023 08:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "“No le debo nada»: Ignacio Jarsún cuestionó a Alfredo Olmedo por tratarlo de «traidor» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNVJqMkc0Ui11a2JJTE5NVTBaSTR1QVhoVEhxTEVhY2VaWmRFVl9SZ0drMGlpTEFOeVNTU0l3Z3J6SG5aVTQ2QzQwdXZrWGFhSVBscG1FbGI5MkhjS0ZraF9yVl95UXNvdmFLRmg4RWxZbGNZUkNMT0wxTWVpcktRLUpCNUtZMXpNU3dwbndwdU1KWldZQmRhN2t4Q2J0azRZQ0VhWnQtellXTkNKcE1maWhoay1LZTA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -29683,13 +29733,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 61,
+    "total_mentions": 62,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 4,
-      "neutral": 50
+      "neutral": 51
     },
     "sentiment_by_day": {
+      "2026-10-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-09-08": {
         "total": 1,
         "score_sum": 0
@@ -29902,7 +29956,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 13
+        "count": 14
       },
       {
         "term": "roberto",
@@ -29921,15 +29975,15 @@
         "count": 3
       },
       {
+        "term": "recursos",
+        "count": 2
+      },
+      {
         "term": "tiene",
         "count": 2
       },
       {
         "term": "hace",
-        "count": 2
-      },
-      {
-        "term": "senado",
         "count": 2
       }
     ],
@@ -30034,6 +30088,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Federico Mangione responsabilizó a Dib Ashur ante la falta de recursos para Salud",
+        "link": "https://elintra.com.ar/2026/10/26/federico-mangione-responsabilizo-a-dib-ashur-ante-la-falta-de-recursos-para-salud/",
+        "source": "El Intra",
+        "date": "Mon, 26 Oct 2026 15:30:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Roberto Dib Ashur pidió a Diputados 150 millones de dólares para rollear deuda y hacer obras - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXaDlsREZwcVR6Y2JvN2dUUUlSLXdReUxOU3FCYVhUWktYLTk5TVBsaXk4WWVtR2xEMFhQOUJhcDdlQm1Ebmpxek1TUnZzTksyZWNWVmRhTzhPSXNCRUVTdTJURndxTkx6UVE?oc=5",
@@ -30236,13 +30297,6 @@
         "source": "El Tribuno",
         "date": "Fri, 25 Sep 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Roberto Dib Ashur criticó el modelo económico libertario",
-        "link": "https://salta4400.com/politica/2025/11/04/roberto-dib-ashur-critico-el-modelo-economico-libertario/",
-        "source": "Salta 4400",
-        "date": "Tue, 04 Nov 2025 12:49:42 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -30786,13 +30840,21 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 42,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 9,
-      "neutral": 29
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2026-10-22": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "2026-10-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-23": {
         "total": 6,
         "score_sum": -7
@@ -30804,10 +30866,6 @@
       "2023-09-25": {
         "total": 1,
         "score_sum": 2
-      },
-      "2026-10-22": {
-        "total": 1,
-        "score_sum": -2
       },
       "2024-02-14": {
         "total": 1,
@@ -30925,15 +30983,19 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 14
+        "count": 16
       },
       {
         "term": "federico",
-        "count": 8
+        "count": 10
       },
       {
         "term": "salud",
-        "count": 6
+        "count": 8
+      },
+      {
+        "term": "ministro",
+        "count": 4
       },
       {
         "term": "elintra",
@@ -30948,11 +31010,7 @@
         "count": 3
       },
       {
-        "term": "ministro",
-        "count": 3
-      },
-      {
-        "term": "está",
+        "term": "noticias",
         "count": 2
       }
     ],
@@ -31033,6 +31091,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Federico Mangione será el Ministro de Salud de Salta - FM Noticias 88.1 Salta",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRzhFa3FhNGJjaWxSR0psNzdIRmw5OEpOdVJhckhiTVFwRWhfV2FRQnNpUjVwenlZTDFuMnVpVVF6MVhLT0ZnZFVxWE5jZHN5clRjbU1JMUZ5MlJLN1czWU9xc0Z1VVp6X2ZSS3ZVa1E2X01VbHFPZVJ4Y0lhaUpkYnM3bzctT2djNGJrUDBzclZsQ0tIVHfSAZYBQVVfeXFMT0c4RWtxYTRiY2lsUkdKbDc3SEZsOThKTnVSYXJIYk1RcEVoX1dhUUJzaVI1cHp5WUwxbjJ1aVVRejFYS09GZ2RVcVhOY2RzeXJUY21NSTFGeTJSSzdXM1lPcXNGdVVael9mUkt2VWtRNl9NVWxxT2VSeGNJYWlKZGJzN283LU9nYzRia1Awc3JWbENLSFR3?oc=5",
+        "source": "FM Noticias 88.1 Salta",
+        "date": "Thu, 22 Oct 2026 21:06:36 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Federico Mangione responsabilizó a Dib Ashur ante la falta de recursos para Salud",
+        "link": "https://elintra.com.ar/2026/10/26/federico-mangione-responsabilizo-a-dib-ashur-ante-la-falta-de-recursos-para-salud/",
+        "source": "El Intra",
+        "date": "Mon, 26 Oct 2026 15:30:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“Sí está en condiciones de viajar”, analizó Mangione sobre la salud del Papa León XIV",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-si-esta-en-condiciones-de-viajar---analizo-mangione-sobre-la-salud-del-papa-leon-xiv_a6adb80f0bf5b0cd3a0653d3e",
@@ -31228,20 +31300,6 @@
         "source": "Informate Salta",
         "date": "Thu, 12 Sep 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Federico Mangione recorrió una clínica médica en General Güemes con el vicegobernador - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQemQtNFF5WUh2UHdSd3dpVmZDWkhVdGYyUVF3dDJwNHdRbE43RnpTdHF0T2dQRV8tTVk1d1VaMTI5QUZldktDOWE4VmRMdUUxcDBBTjY3LU00RTJWSFAzV0RjUjdrVV9jYm56SHBzNlFKRF9SX3p0cUFTRW5iWUQ3RWNUNDhYcXlpUjBvenBobldiNlExeGg3MXJUal9YNmVDOTY2RVAtNTBvU2FoZ2tKcE4ybzBUTTJpZE9uRg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 27 Jul 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mañana se conmemora el Día del Farmacéutico Argentino",
-        "link": "https://informatesalta.com.ar/sociedad/manana-se-conmemora-el-dia-del-farmaceutico-argentino_a6acbf037be23996013f739a9",
-        "source": "Informate Salta",
-        "date": "Sun, 11 Oct 2026 22:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -32776,11 +32834,11 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 3
+        "count": 2
       },
       {
         "term": "benavides",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
