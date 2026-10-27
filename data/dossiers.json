@@ -19236,13 +19236,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 41,
+    "total_mentions": 42,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 20,
-      "neutral": 19
+      "neutral": 20
     },
     "sentiment_by_day": {
+      "2022-12-22": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-10-05": {
         "total": 1,
         "score_sum": -2
@@ -19359,15 +19363,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 6
+        "count": 7
       },
       {
         "term": "lópez",
-        "count": 6
+        "count": 7
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "concejo",
@@ -19391,6 +19395,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "La gente no tiene agua",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWUwSDBjUHpCWnBYWWpuMWRucEp3UXc5LVZBdFUyQV96Mk1qSFBkWERtT2hHZWlwYktEUzNWQ0RUbkNoV1ZPcExNWk1VMjl1WDBKUXl2VGJsaV9INHFWSDBNRXJXekhQVXh4TWh5c0MxWEVHSTYwYTF0RDVnV2JFb0hrVnBKVF9OR2k3X1hnTTNBU2hEWWhLaHF2dlpBTV9UOURpZmxuaE1PRzVN?oc=5",
+        "date": "Thu, 22 Dec 2022 08:00:00 GMT"
+      },
       {
         "quote": "heladera llena y está cada vez más vacía",
         "source": "Elintra.com.ar",
@@ -19509,6 +19519,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López cruzó a los gritos a Guillermo Kripper: “La gente no tiene agua” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWUwSDBjUHpCWnBYWWpuMWRucEp3UXc5LVZBdFUyQV96Mk1qSFBkWERtT2hHZWlwYktEUzNWQ0RUbkNoV1ZPcExNWk1VMjl1WDBKUXl2VGJsaV9INHFWSDBNRXJXekhQVXh4TWh5c0MxWEVHSTYwYTF0RDVnV2JFb0hrVnBKVF9OR2k3X1hnTTNBU2hEWWhLaHF2dlpBTV9UOURpZmxuaE1PRzVN?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 22 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El escándalo de Insaurralde llegó al Concejo Deliberante: el concejal Pablo López pidió tener memoria” a la hora de votar - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaU92T0dQUEJNZWtDdzhfWlpYX2FRUTFNLVVlU3BxRVplT0VSb3N4VjZnbWJncTRpZlNyVXB3ZE1qcXVmYXB2THptNHpUTGFoZlNTOVJ5M2daR184T0xRbHFldW00Rl83T1NFQVFoaUtpSGRuR25wM3pUVkNnVXlhWHJuUDYzaXNqbmxacG9jOEhENEpMV0UyaVlFUkpXdmpTMjRpeWdpNDl4QTNSU0NpeElveFU4UTBJTWpmNWJ1WTRhUXByLVN3REdPcmlWMTNvYVZZT0pBODVZd0FpcVdOdk1vUE10Y09oVVE?oc=5",
@@ -19710,13 +19727,6 @@
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWUszMEdFLWRoLWpPYUF5Xzhhek1FRHl0eHA3bndpWFhZMXRoeDE3SUVtUUJicTBJQXVPM1hkYlZvd2NxbFNCcXhKUDF0cUhDd2NucGlESzRPalZNUzVxOFJuXzhuZmo5dkhELVJscUxfdGZ3UTlzV2N1V1cwdG1ZVWxPc3M0QkNWeTFTdUZmTVZaVktXTzJydS1EQkVzNlV1SExwZlBIcnVJM3EzSWNHNGRnNGZnbzFVeU5J?oc=5",
         "source": "Data Diario",
         "date": "Thu, 17 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Libertarios de Salta vuelven a ser noticia: concejal de LLA amenazó a periodista de radio - MinutoUno",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTNzQ0RiSTB4Z1ZkSHJmZURMcEFyT3RJcG9TaUpfOVJjVnJNU09DS3VGZ2w3bE1ZWjM0bnBhbDJZb3J1YmMxMVQtbmFsb0dKLVRZYzhaZzRWWUtkUjdQTDc4dUx1NWJ3eVFVb2NTdFpEa0NjUzdDRERwdkFlUFhRTDRDbkV0WF82amxJVmd5RjNFSTVCQWlRVk1nRVBiZVJaaVE4NWkzX0NUalZuQlY0eEFOZWc1cDlDRm9N0gG7AUFVX3lxTE1hM3NDRGJJMHhnVmRIcmZlRExwQXJPdElwb1NpSl85UmNWck1TT0NLdUZnbDdsTVlaMzRucGFsMllvcnViYzExVC1uYWxvR0otVFljOFpnNFZZS2RSN1BMNzh1THU1Ynd5UVVvY1N0WkRrQ2NTN0NERHB2QWVQWFFMNENuRXRYXzZqbElWZ3lGM0VJNUJBaVFWTWdFUGJlUlppUTg1aTNfQ1RqVm5CVjR4QU5lZzVwOUNGb00?oc=5",
-        "source": "MinutoUno",
-        "date": "Fri, 08 Aug 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24941,15 +24951,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 7
+        "count": 6
       },
       {
         "term": "outes",
-        "count": 7
+        "count": 6
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 5
       }
     ],
     "quotes": [
