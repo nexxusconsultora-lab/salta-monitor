@@ -9,8 +9,8 @@ on:
       - "scripts/internacional.py"
       - ".github/workflows/internacional.yml"
   schedule:
-    # Cada 30 minutos (hora UTC de GitHub; no es exacto cuando hay mucha carga).
-    - cron: "7,37 * * * *"
+    # Cada hora (hora UTC de GitHub; no es exacto cuando hay mucha carga).
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -23,7 +23,7 @@ concurrency:
 jobs:
   internacional:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
