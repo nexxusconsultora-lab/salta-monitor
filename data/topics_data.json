@@ -1,20 +1,24 @@
 {
-  "generated_at": "2026-10-27T01:03:20.737539+00:00",
+  "generated_at": "2026-10-27T06:15:10.142394+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 431,
+      "total_mentions": 434,
       "sentiment_breakdown": {
         "positivo": 26,
-        "negativo": 35,
-        "neutral": 370
+        "negativo": 36,
+        "neutral": 372
       },
       "sentiment_by_day": {
         "2026-10-26": {
-          "total": 10,
-          "score_sum": 2
+          "total": 12,
+          "score_sum": 0
+        },
+        "2026-10-27": {
+          "total": 1,
+          "score_sum": 0
         },
         "2026-09-21": {
           "total": 11,
@@ -232,7 +236,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 171
+          "count": 174
         },
         {
           "term": "intransigente",
@@ -256,11 +260,11 @@
         },
         {
           "term": "pasa",
-          "count": 21
+          "count": 20
         },
         {
           "term": "discapacidad",
-          "count": 19
+          "count": 18
         }
       ],
       "politicians_involved": [
@@ -270,6 +274,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Hay más víctimas y tienen que salir a buscar justicia",
+          "source": "El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYlE5VTJiOFRnTGRBOW9Eei15Qi1RVThMN1hrRU1uMGROcGRXVjd0S2RJT2FXWkJpd1Y1Y3d4bnp4OUprcVYxWDRpdHIwX005LVNDTDlpX3JMRUNTX0o3bEFvTWl4T2N5MUFlbGhuTkxmZXRvSHdpUzdzQWZRTlFmUXR4OFVETzlGZlctVmVTbUVHM0dPU1FMX01mLW1nZFFBLWotamcwMXBYbEptd2N1OHhaVWxSR2dYVmMySUpTVnM0MmtiTHp2N0k0R3hNVUNrRDFuanBjd1F1NGpEdTkyVE9EUXNQYUZFR25YX1NrZ19fb2x4b1E?oc=5",
+          "date": "Mon, 26 Oct 2026 18:29:00 GMT"
+        },
         {
           "quote": "Nunca dije eso",
           "source": "Informate Salta",
@@ -353,15 +363,30 @@
           "source": "El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb3R0Zl9OXzJ5Z1RxeWR3VFFKdWFsUzBtU0VST0lJZmJGQzVhSHNrM3g1TVR5VVdmQ3VmTFdIcnZ3TFA0dTB6OHFtUm1SSDYzZHhiSkUzUHNvbVdXbmFMV2xRZlZ3OWlwZjVHdUtObWppSnlVYmkxd0JVR0lvRy1IMjNyRGJBVVJrV0hZc0dzRjZ6OUY2M016dW1DMUVtZW5kWDV3c2h6b2ktaDI3OVVILU9jck11VjVDUHJMYjZHUjJrVExVMVQ2R9IBzgFBVV95cUxPdVpYUm04RDhSdHNIV2twV29SSTNnajV3NlBtUEhJcFZIVkZTUldiNWtWZ3k2Wm5obHZfalBZTnQ2V3RDd2IwTVM0bFdGd1R2ZkZLU0JYTDVYbFlEeUNHYW1QdnNxMXdxZlZYR0pTbkFSNldzZEhXa1AtU0V2SDdhX3ktVkljb3BQejdQU05oWmIyYTNmUUlseGJfZ1FaZ2hsbHAyT0NvT0tTS0VweDdWblJrQWNkRjA1Rmx2a1JyV3VOa2ZWLTU0SXBjNG1Ndw?oc=5",
           "date": "Mon, 12 Oct 2026 03:43:00 GMT"
-        },
-        {
-          "quote": "Nunca es tarde para empezar a moverte hacia una mejor versión de vos",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUU9iZXkzZDZUdVdsNk5PVlBncHZtT2JOWUJkd2NBZVd1VnVvME5QMkRZSDIyRmJjNVBsQUJzNS13djFFVVg5ZGJhLVYxcmZiSElqLWo5VDJfXzZ5cmRKQm9xR2ZuWFRmcXNBcnotUy1DMUhsWDhCYjFPU0d6dExjb0hKdkt6YW1sQkdyZ0N6eFdrdExIcmZ2QkhFNURKY3dPRDYzZk5XMVcxZ0c4c2dxd2I4OXh6WnhRRnBNNHpCQXM0eGUtaGtRSnJlUXZnc3B5Z1c3RThrS0V1RzlSMFh5Qm5zalJiVWF1VGRiVW9vR0RFeVgxQVFn0gH8AUFVX3lxTE1kaUZLR05WczMyVEs0SW1aR0V3X01zTC1oaExhX1N4eTZELXQ2VElsSHF6djBlWThwRDg5ZklhM3ZWbS1GRklfamFkbjl0WXBWbk94Z3Y1TkVpb2dkN0RHRTZ3WENtS0hmb1dkdU5wQ256b2ZyM2VfNmEzNGVnMnpTclVOa1lPNURFYUUtREM2Z1RGMGN2b0t2dTlBd19PZnF1MHBnb0toVGRJSjU4X1pDN2pMNEk3V2laMG9lbGlOb2tpRWhBRDdibTVIVWNBTjNaSDNNQ1NGYktWSUJVVmVMNjhudTJ1MFZ3dDBwSC1UMkxsbnRtQm9waVpuaA?oc=5",
-          "date": "Sun, 11 Oct 2026 12:12:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Juan Carlos Romero advirtió que la economía se está frenando: \"Espero que el Gobierno tome alguna medida& - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOHZ5aWNTeUM4YTh4N3ExTENRV2diQ21NZlhuVzNiZENoajhoMXZKWnJvck8yaXNkY2tUR3l3aFNnZlBFVndfS2FJTmRWV2xBQkhaWko4T2tfUWJ5ME5ITnNfU1pRX25VTWV4Qnh6ajAwam9QWGtJTkRiNWg3QXhhZWIzUGlhQ3VTbUMzN3JtcktDTmJjNFI0ZFZXYTFHeWJpT1IxdHB3VkQ0UUlpSUwzSERfTVVkZjFUS1JTWEpFRVl2UHRsXzZ3ZVdDckIyZy1TRnkzUnhPYXBSR0I1NjRfdncyWmVXeGQtVHJ2a3g2WHRqamZVMWVr0gH8AUFVX3lxTE5HZERvcUkxaU5ablpmLXp4djk5Xzh1MDJfeUkzUjdlWTFmNExFa2xTdzl1a3NHZFJlVkRxNDJLUFNMcUt5WTJhaUtaaUt3R0FXb0VQNlZsMEZndHBjZkEzUG5hbzN1N2FNRl9Na3B3N1JRUXBjQVJPekxKTkpwWW9KX3k0LVJ2ZE1HNWZlTWZHSzk2MUdMdTlxX0xFanpLVV9SV0RESERaNHVuN3Q4S2ZNN0d2eERjUDN6ZEhtWHBWOTdMbGk5RGEtZ0x1ZXltMHVQYmR1emlUamxlSmtHU3FwWVA1bmZOclM2NnhoS1RaZDJRSmdGR0JaMkZZOQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Mon, 26 Oct 2026 21:23:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "\"Hay más víctimas y tienen que salir a buscar justicia\": el reclamo de un afectado en la causa de Mendioroz Juncosa - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYlE5VTJiOFRnTGRBOW9Eei15Qi1RVThMN1hrRU1uMGROcGRXVjd0S2RJT2FXWkJpd1Y1Y3d4bnp4OUprcVYxWDRpdHIwX005LVNDTDlpX3JMRUNTX0o3bEFvTWl4T2N5MUFlbGhuTkxmZXRvSHdpUzdzQWZRTlFmUXR4OFVETzlGZlctVmVTbUVHM0dPU1FMX01mLW1nZFFBLWotamcwMXBYbEptd2N1OHhaVWxSR2dYVmMySUpTVnM0MmtiTHp2N0k0R3hNVUNrRDFuanBjd1F1NGpEdTkyVE9EUXNQYUZFR25YX1NrZ19fb2x4b1E?oc=5",
+          "source": "El Tribuno",
+          "date": "Mon, 26 Oct 2026 18:29:00 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Qué temas tratarán hoy los diputados - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbGhQR3JxOFVUNUc2cXF5UnI3RUVVY0ZkOUZEM2M2VEVuLWd3XzRSQzZ3d2ZYUDB2aXI1Z0dkRVlSSEZYZ2tDazJRVVVteGZlamZpZWlpbGNUQzhTQ0VYWjJmYURiZ09wc3ZEbnNkOUg4Y2FreGdkeWhrbHlQRUxLZktOTXNhNjc5T3JYMnF30gGTAUFVX3lxTE1ha0x1QldWMU5aeXBFbnlaVVdtdzhMQ3dlMVlOY0lnUXdZZTloZkN6UktNUDhPYmF1SmExVHFNLU1KUXFoZTRRZlBBUmd4ZkdZMTlHTjg4cXp0LUV6TmtqXzBmVlNJNWhJNEVrN1dLbUtWMG1WeGhWY0VDakJsY2RQcThNM2NCTlM5M3ppQ1VIUmdENA?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 27 Oct 2026 04:50:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Legisladores salteños tienen fecha para comenzar a debatir el presupuesto 2027 - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQa3QzMVE2cGZUTGlIOXJDVTN5NERnYkN5SzZmQzZ5dTRzSjJnZnA0MDdWRWgxazFESzN6S3Fsc1JrcHBNa21rRmdGVDhnVmIxR181blR2UlJxQkwxMWNSbXFLQlJnZDMtQi1SNDNPUDBxSXhzQ2FrSTkzaVFHSGRfYWhJY1loXzRiZEp3b052MGY5bkI2d1R6MUFkRlBMWTBWYTlOcWdVVEdqeHlHTlk2amM3WURLdnA4eXBqN05wSU9SUG1yTjlZbENRMThSYWt1WENld2o1cDA3Uzd0ckc40gHuAUFVX3lxTE1ieVNoemFfZGM5aHVaVF8yb05vai01QUNXNTNDdHhNQW9qYzRyWWlzSHI4VkJLRDBUSU5TYVF1R0hIWlpSRERhU0xDNENzdXpPNW85SzNqamRrR0NnZkxHOHRmdkVWWExwSF9JVjluZnI5MHNyMVdNTFBqWDlTcTFnS1NkUmoyT1dld0lmS29RZlV6eTdPOFVobU9waklxcVctYUJTUm5jeVJZVzhzWDd3ZjRqSUh2TGdYb3VKOE5qeXR5TDNmRlR2dkVlWmR0eWNpS1hWNy00b0J2dTBxaVdodnI0cm80VHBWNFFVVXc?oc=5",
@@ -549,27 +574,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UdIBkgFBVV95cUxPUTNnM2xrOGFVT1RUSi0tQ0pmTEdQbGhkVnJxbFZ6dVFpcjlRRVRkRndrR0hIam9YaEhZVkdpTzR4emZXNEhoT3lOS2JYMHI0Z1VZTmZMeEI1Y2l4UGdsYUdxNUZOQlZnX0lZQy0ydXZqR0tFQWwydHh4WUNhcXFWZFlLSWlISVdPdG9BTjdkcjM2UQ?oc=5",
           "source": "Que Pasa Salta",
           "date": "Fri, 23 Oct 2026 18:27:19 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El peronismo reunió a Kicillof, Massa y Máximo Kirchner para debatir las PASO - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNakVyVTZrR2NNVzZ3dGZNX2RMYlFrOUQySXJocUJKd0JKRlVlbGloN19OVHUwdGM2V1dVNkhHdmZ4eTFUeVA0VHh6ejg5WlJ6SEFpUUFJNUNmOUZodDV1czM3REJfOGVydFFSMDR1VXRTN1VYa0tuOVhqMXJ3S25SYXpoSGxINVZxR3lnRFJBekY3cExXWFAzVkpHNDdEbGc4UXdsZExhOFE?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 23 Oct 2026 01:44:55 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Elintra.com.ar | Últimas noticias de Salta - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB5QWVfRF92NHJ2ZEJmelZwRjU1Tl9oRWprdFdyd3BtRGQ4YkctbFBNQVJvVThUc3B3ZG1J?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Thu, 08 Dec 2016 23:42:14 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Alejandro Álvarez defendió al Gobierno por la marcha universitaria: “Todo este problema es porque cumplimos la ley” - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdGp0X1RmX3h1czNZZnpQSHc4clNaM2JITTF3ODR1WjhGeU1RRWZ0cUJyY0dfVmlZcHdGazVIZFNJVlpsNFI4X0ZGN29Fd2lUaWk0clhkejBaOTVXQ2tEMVhkQmJrNzRPVmF6bEtudk5FUVFQdWJnM0FvR0s4WWRjQ21kczFtMnM3YzUycTM2WjRuYXFzZWRXWHJVZkFQT3ZVNlFVQnlobExDNnJjTDIwam9WZ0lNaXhxZ3l3RksybERQQTkwaVFuRm1wRUMzRWpRNnp4Q09HUjd6YmtqcURFbUc4Y3lVNnc?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 16 Oct 2026 03:42:43 GMT",
           "sentiment_label": "neutral"
         }
       ]
