@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-10-27T00:21:58.485795+00:00",
+  "generated_at": "2026-10-27T01:03:19.881178+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 376,
+      "positivo": 94,
+      "negativo": 59,
+      "neutral": 223,
+      "score_sum": 149
+    },
+    "snac-emilia-orozco": {
+      "total": 88,
+      "positivo": 9,
+      "negativo": 14,
+      "neutral": 65,
+      "score_sum": -8
+    },
     "concejal-pablo-emanuel-lopez": {
       "total": 42,
       "positivo": 2,
       "negativo": 20,
       "neutral": 20,
       "score_sum": -44
-    },
-    "gustavo-saenz": {
-      "total": 373,
-      "positivo": 94,
-      "negativo": 59,
-      "neutral": 220,
-      "score_sum": 149
     },
     "eje-roberto-dib-ashur": {
       "total": 64,
@@ -49,13 +56,6 @@
       "negativo": 9,
       "neutral": 29,
       "score_sum": -16
-    },
-    "snac-emilia-orozco": {
-      "total": 83,
-      "positivo": 9,
-      "negativo": 13,
-      "neutral": 61,
-      "score_sum": -6
     },
     "eje-federico-mangione": {
       "total": 44,
@@ -133,6 +133,13 @@
       "negativo": 1,
       "neutral": 6,
       "score_sum": 4
+    },
+    "dnac-pablo-outes": {
+      "total": 21,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 19,
+      "score_sum": -4
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 32,
@@ -927,6 +934,122 @@
     }
   },
   "by_day": {
+    "2019-11-11": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-06-23": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-05-21": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-carlos-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-15": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-03-05": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-08-27": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-08-24": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-10-29": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2022-12-22": {
       "concejal-pablo-emanuel-lopez": {
         "total": 1,
@@ -1499,16 +1622,6 @@
       "eje-ignacio-jarsun": {
         "total": 1,
         "score_sum": 3
-      }
-    },
-    "2019-11-11": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-02-28": {
@@ -2251,20 +2364,6 @@
         "score_sum": 0
       },
       "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-10-29": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
         "total": 1,
         "score_sum": 0
       }
@@ -3448,24 +3547,6 @@
     "2025-07-21": {
       "concejal-pablo-emanuel-lopez": {
         "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2025-08-27": {
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
         "score_sum": 0
       }
     },
@@ -6453,16 +6534,6 @@
         "score_sum": 0
       }
     },
-    "2026-08-15": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-07-27": {
       "eje-roberto-dib-ashur": {
         "total": 2,
@@ -6689,12 +6760,6 @@
       "eje-antonio-marocco": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2025-03-05": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2026-07-10": {
@@ -7773,16 +7838,6 @@
         "score_sum": 0
       },
       "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-06-23": {
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
         "total": 1,
         "score_sum": 0
       }
@@ -9389,28 +9444,6 @@
         "score_sum": 0
       },
       "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-05-21": {
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-carlos-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
         "total": 1,
         "score_sum": 0
       }
@@ -17051,15 +17084,27 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 27
+      "count": 31
     },
     {
       "term": "sáenz",
-      "count": 12
+      "count": 15
     },
     {
       "term": "gustavo",
-      "count": 8
+      "count": 11
+    },
+    {
+      "term": "emilia",
+      "count": 7
+    },
+    {
+      "term": "orozco",
+      "count": 7
+    },
+    {
+      "term": "pasa",
+      "count": 7
     },
     {
       "term": "flavia",
@@ -17070,8 +17115,16 @@
       "count": 7
     },
     {
-      "term": "pasa",
-      "count": 6
+      "term": "gobernador",
+      "count": 5
+    },
+    {
+      "term": "pablo",
+      "count": 5
+    },
+    {
+      "term": "cruzó",
+      "count": 5
     },
     {
       "term": "argentina",
@@ -17088,26 +17141,6 @@
     {
       "term": "contra",
       "count": 5
-    },
-    {
-      "term": "ashur",
-      "count": 5
-    },
-    {
-      "term": "pablo",
-      "count": 4
-    },
-    {
-      "term": "cruzó",
-      "count": 4
-    },
-    {
-      "term": "milei",
-      "count": 4
-    },
-    {
-      "term": "salud",
-      "count": 4
     }
   ],
   "comentions": [
