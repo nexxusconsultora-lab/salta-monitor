@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-27T18:13:05.786194+00:00",
+  "generated_at": "2026-10-27T22:20:04.118223+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 435,
+      "total_mentions": 437,
       "sentiment_breakdown": {
         "positivo": 26,
         "negativo": 36,
-        "neutral": 373
+        "neutral": 375
       },
       "sentiment_by_day": {
+        "2026-10-27": {
+          "total": 3,
+          "score_sum": 0
+        },
         "2026-09-17": {
           "total": 15,
           "score_sum": -6
         },
         "2026-10-26": {
           "total": 12,
-          "score_sum": 0
-        },
-        "2026-10-27": {
-          "total": 1,
           "score_sum": 0
         },
         "2026-09-21": {
@@ -236,11 +236,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 173
+          "count": 171
         },
         {
           "term": "intransigente",
-          "count": 65
+          "count": 62
         },
         {
           "term": "presupuesto",
@@ -264,13 +264,13 @@
         },
         {
           "term": "discapacidad",
-          "count": 18
+          "count": 16
         }
       ],
       "politicians_involved": [
         {
           "name": "Gustavo Sáenz",
-          "count": 5
+          "count": 6
         }
       ],
       "quotes": [
@@ -366,6 +366,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Buscan cambiar un requisito para ingresar al IPS al jubilarse: qué debatirá hoy Diputados - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nbTJER0ZDOGZmLUhPbG14ejFrN21yTE5yb3gwNndGdG8taUp0WHJpZGREZXZWUGZOQ0ZORHFfNkRBWEtDV2poZkhiQnFuVnA3VXJTQlZENFpUVnN4Q3c3UVJZSkZRTmtlRFFSRzg4TnJrcVNRTDdGeWJPTkzSAXxBVV95cUxNZ20yREdGQzhmZi1IT2xteHoxazdtckxOcm94MDZ3RnRvLWlKdFhyaWRkRGV2VlBmTkNGTkRxXzZEQVhLQ1dqaGZIYkJxblZwN1VyU0JWRDRaVFZzeEN3N1FSWUpGUU5rZURRUkc4OE5ya3FTUUw3RnliT05M?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Tue, 27 Oct 2026 19:41:42 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Apoyando a Sáenz, Rosso prevé dejar la intendencia de Güemes y llegar a Diputados - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObkl0cDBqUlpFVng1dHhUaTZ1VmFjZmpaTjd4dVc5UnZWOFBsRW9sSTdKcS1jejNNR1hzU0N3N0Q5VElIV01jQWRqNnhXLTNqb291cjZjX1Zpbmh0dWgxMHRBaXJrZnYxZzdISXBsM1NGeXMxR0V0dHNnVVlDYVVNQlBQOVJaQ0s0QXN3V05aOE9hWDhwUURxY1pRZG01eFE3N3Fpa2UwLUZyZmdlSkE2VjVEN2hZRkRWdmE4emZsQXlfSWFBaXBZY0RKaTYzNE1sZjh3NjQ0R3B1by1aMFFvaTVEUGFfck3SAfYBQVVfeXFMUE5GcGhlN0NlcWFNZS1wMnlJOFhQX211V3EtbTVialVhallnRTAxc1lLYmRDWTZJOGlybU02WEc5MkV1RDRMR2Y1bkRnMV9DNVUyc1dCcXVvc2k5NUJ3Nk1oSFRrNnR1c1Myc2JsTDQwN0FsYnB2ZFVCQ0Z6UHgtTFZRZkxWSW5lNTZ0ZVp3azI2bVdBZURtdVl2dEc2bk42bmxYX0pIekdlcDNBSjBqWHBqbnpCV3d3bHBqZnVla0t4VTFobkNMamVJS0oxd1J2ZzMyaEZZVzFleUtidFNoVW14ejJuRG82SjBabzlQMkZrUHlpd2FR?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 27 Oct 2026 16:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Confirmaron una nueva Marcha Federal Universitaria: cuándo será y qué reclaman - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYUQzWnFjcWhOOWFHVHNUUk9tR0ozbVp4SUd2cS1FbHBZUHlDRnFoN2FueW84S0ZmZEk4a1QyZXRfcHVwYzBKZGNfUDQteF9wSUJVS0ZvSEpkUVNSOGtVbW5LNmJDQkt0STcyd1Q3UGhUd2sxRnZrWW44VnJRQUozMHE3cGtCMXNrMmJN0gGLAUFVX3lxTE1hRDNacWNxaE45YUdUc1RST21HSjNtWnhJR3ZxLUVscFlQeUNGcWg3YW55bzhLRmZkSThrVDJldF9wdXBjMEpkY19QNC14X3BJQlVLRm9ISmRRU1I4a1Vtbks2YkNCS3RJNzJ3VDdQaFR3azFGdmtZbjhWclFBSjMwcTdwa0Ixc2syYk0?oc=5",
@@ -561,20 +575,6 @@
           "source": "El Intransigente",
           "date": "Fri, 23 Oct 2026 16:53:24 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "Oposición revisa su estrategia tras el fracaso de la sesión por el DNU 70/23 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU2JmTmplblItbGFCeGc3aWlrSWxhY3NaeUh5OTVSOExtWUxHSXFfRmpGemxSNmJ6QVA2WktpVGRrY0gxcXlFWlFsV2ItbWtDVFN0aHREbi1DX0Zvd0dXYXlXcUdxZkM1cWp4bkg2ZnplRUMwQlhkd2tuRWoyOG5VU2w3RQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Sun, 18 Oct 2026 04:26:23 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Mangione pidió más fondos para Salud y anunció el cobro a obras sociales - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWmd0YXQxUjZ4cU9kODQ3Y1lVTDBKRWwyRnk5LXBveDQ0emRDVElmRy1ZREFUa3ByQjRQb2p6cktMdGZqcEtteGJuU3BLZ3pDSmhiWFFKRVpCNUJMcmVBTGktbE9ndEtMV1R0Q21rQ3ZkV01xVHNzWk5lRkowcXU2OFdrLTBYR29jQ2t0Q1hmbG14dXB2dy1nTnV3?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Thu, 22 Oct 2026 07:00:00 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
