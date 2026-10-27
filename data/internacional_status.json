@@ -1,141 +1,3975 @@
 {
- "generated_at": "2026-10-27T00:14:12.505392+00:00",
+ "generated_at": "2026-10-27T00:14:56.714642+00:00",
  "medios": {
-  "The Economist": {
+  "The New York Times": {
    "state": "ok",
    "via": "rss",
-   "items": 80,
-   "nuevas": 28,
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 249,
+   "nuevas": 161,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "The Wall Street Journal": {
    "state": "ok",
    "via": "rss",
-   "items": 60,
-   "nuevas": 60,
-   "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
-  },
-  "Miami Herald": {
-   "state": "ok",
-   "via": "google_news",
-   "items": 40,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
-  },
-  "Financial Times": {
-   "state": "ok",
-   "via": "rss",
-   "items": 25,
-   "nuevas": 8,
-   "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
-  },
-  "The New York Times": {
-   "state": "ok",
-   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
    "items": 80,
-   "nuevas": 5,
+   "nuevas": 74,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "The Washington Post": {
    "state": "ok",
    "via": "google_news",
-   "items": 40,
-   "nuevas": 6,
-   "message": "HTTP Error 502: Bad Gateway",
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "Bloomberg": {
    "state": "ok",
    "via": "rss",
-   "items": 40,
-   "nuevas": 18,
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 22,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CNBC": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 120,
+   "nuevas": 110,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CNN": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 92,
+   "nuevas": 92,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "NPR": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "publico",
+   "items": 50,
+   "nuevas": 46,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CBS News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 49,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ABC News (EE.UU.)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 50,
+   "nuevas": 50,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Fox News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 50,
+   "nuevas": 50,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Politico": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Los Angeles Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 57,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Foreign Policy": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 25,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Atlantic": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 25,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Miami Herald": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "Reuters": {
    "state": "ok",
    "via": "google_news",
-   "items": 40,
-   "nuevas": 12,
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 1,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "Associated Press": {
    "state": "ok",
    "via": "google_news",
-   "items": 40,
-   "nuevas": 3,
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CBC News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Norteamérica",
+   "tipo": "publico",
+   "items": 40,
+   "nuevas": 38,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Globe and Mail": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "BBC News": {
    "state": "ok",
    "via": "rss",
-   "items": 28,
-   "nuevas": 0,
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 300,
+   "nuevas": 208,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
-  },
-  "BBC Mundo": {
-   "state": "ok",
-   "via": "rss",
-   "items": 34,
-   "nuevas": 1,
-   "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "The Guardian": {
    "state": "ok",
    "via": "rss",
-   "items": 40,
-   "nuevas": 7,
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 229,
+   "nuevas": 163,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
-  "Al Jazeera": {
+  "The Economist": {
    "state": "ok",
    "via": "rss",
-   "items": 25,
-   "nuevas": 5,
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 210,
+   "nuevas": 147,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Financial Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 100,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Sky News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 39,
+   "nuevas": 34,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Telegraph": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Independent": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Euronews": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Euronews (español)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "DW (inglés)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "DW Español": {
    "state": "ok",
    "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
    "items": 12,
-   "nuevas": 4,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "France 24 (inglés)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 24,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "France 24 Español": {
    "state": "ok",
    "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
    "items": 24,
-   "nuevas": 22,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
-  "El País (América)": {
+  "Le Monde": {
    "state": "ok",
    "via": "rss",
-   "items": 40,
-   "nuevas": 2,
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 36,
+   "nuevas": 29,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Le Figaro": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 17,
+   "nuevas": 17,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Der Spiegel (inglés)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Politico Europe": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Euractiv": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ANSA": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 28,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El País (España)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 192,
+   "nuevas": 135,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Mundo (España)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 60,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ABC (España)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 50,
+   "nuevas": 50,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Vanguardia": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "20minutos": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 26,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "RTVE": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Confidencial": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Expansión": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Kyiv Independent": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 15,
+   "nuevas": 15,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Moscow Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Meduza": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "TASS": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "BBC Mundo": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   },
   "CNN en Español": {
    "state": "ok",
    "via": "google_news",
-   "items": 40,
-   "nuevas": 8,
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-10-27T00:14:12.505392+00:00"
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Infobae (América)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Buenos Aires Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "MercoPress": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Folha de S.Paulo": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 60,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "g1 (Globo)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Estadão": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Universal (México)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Milenio": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Jornada": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Tercera": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Emol": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Tiempo": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Espectador": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Comercio (Perú)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El País (Uruguay)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Nacional (Venezuela)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "14ymedio": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Bloomberg Línea": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "South China Morning Post": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 56,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Nikkei Asia": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Japan Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Straits Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 53,
+   "nuevas": 53,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Hindu": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 60,
+   "nuevas": 59,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Times of India": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "NDTV": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ABC News (Australia)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Oceanía",
+   "tipo": "publico",
+   "items": 25,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Sydney Morning Herald": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 40,
+   "nuevas": 40,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "NZ Herald": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Korea Herald": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Korea Times": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "China Daily": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Xinhua": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CGTN": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Dawn": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 57,
+   "nuevas": 50,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Al Jazeera": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "publico",
+   "items": 25,
+   "nuevas": 3,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Al Arabiya English": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Times of Israel": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Jerusalem Post": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Haaretz": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Middle East Eye": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Arab News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Hürriyet Daily News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Tehran Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "AllAfrica": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Africanews": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Daily Maverick": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Mail & Guardian": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 23,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "News24": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The East African": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 2,
+   "nuevas": 2,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Channel NewsAsia": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "publico",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Diplomat": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Taipei Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Focus Taiwan": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "publico",
+   "items": 26,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "NHK World": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Kyodo News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Asahi Shimbun": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 26,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Yonhap News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Jakarta Post": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 26,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Rappler": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Philippine Daily Inquirer": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Bangkok Post": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "VnExpress International": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Star (Malasia)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Hindustan Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Indian Express": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Wire (India)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Daily Star (Bangladesh)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Global Times": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Asia-Pacífico",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Korea JoongAng Daily": {
+   "state": "sin_resultados",
+   "via": null,
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "RNZ": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Oceanía",
+   "tipo": "publico",
+   "items": 3,
+   "nuevas": 3,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Guardian Australia": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 13,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Australian": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Stuff (Nueva Zelanda)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Pacific Islands Report": {
+   "state": "sin_resultados",
+   "via": null,
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Daily Sabah": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Anadolu Agency": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "TRT World": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 17,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Ynetnews": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The National (EAU)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Gulf News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Asharq Al-Awsat (inglés)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Ahram Online": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Egypt Independent": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Al-Monitor": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 11,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Iran International": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 25,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Press TV": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Medio Oriente",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Kurdistan24": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Jordan Times": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 22,
+   "nuevas": 19,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Morocco World News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Libya Observer": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Medio Oriente",
+   "tipo": "privado",
+   "items": 5,
+   "nuevas": 5,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Premium Times (Nigeria)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 15,
+   "nuevas": 15,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Vanguard (Nigeria)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Punch (Nigeria)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Daily Nation (Kenia)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Citizen (Tanzania)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "GhanaWeb": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Addis Standard": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Jeune Afrique": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Africa Report": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "IOL (Sudáfrica)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "SABC News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "África",
+   "tipo": "publico",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "BusinessDay (Sudáfrica)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 1,
+   "nuevas": 1,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Zimbabwe Independent": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "África",
+   "tipo": "privado",
+   "items": 12,
+   "nuevas": 12,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Africa News Agency": {
+   "state": "sin_resultados",
+   "via": null,
+   "region": "África",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Ukrainska Pravda (inglés)": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Kyiv Post": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Ukrinform": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "RFE/RL": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Eurasianet": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 2,
+   "nuevas": 2,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Astana Times": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Eurasia",
+   "tipo": "estatal",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Civil Georgia": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 13,
+   "nuevas": 13,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Interfax": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "RT": {
+   "state": "sin_resultados",
+   "via": null,
+   "region": "Eurasia",
+   "tipo": "estatal",
+   "items": 0,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Sputnik": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Belsat": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Eurasia",
+   "tipo": "publico",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Irish Times": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "RTÉ": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Scotsman": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Brussels Times": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 29,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Swissinfo": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 23,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Notes from Poland": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 12,
+   "nuevas": 12,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Radio Prague International": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 17,
+   "nuevas": 17,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Kathimerini (inglés)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Local (Europa)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 1,
+   "nuevas": 1,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "DutchNews": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Corriere della Sera": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 5,
+   "nuevas": 5,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Repubblica": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Tagesschau": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Frankfurter Allgemeine": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Libération": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 1,
+   "nuevas": 1,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Público (Portugal)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Europa",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "NOS": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Europa",
+   "tipo": "publico",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Toronto Star": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "National Post": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "CTV News": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Norteamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Financiero (México)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Proceso": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Animal Político": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 11,
+   "nuevas": 11,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La República (Perú)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Perú21": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Universo (Ecuador)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Primicias (Ecuador)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Los Tiempos (Bolivia)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ABC Color (Paraguay)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "El Observador (Uruguay)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Montevideo Portal": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Efecto Cocuyo": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Nación (Costa Rica)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "La Prensa (Panamá)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Prensa Libre (Guatemala)": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Listín Diario": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Telesur": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Granma": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Cubadebate": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "estatal",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Agência Brasil": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Latinoamérica",
+   "tipo": "publico",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "O Globo": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Valor Econômico": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Brasil de Fato": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Global Voices": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 15,
+   "nuevas": 15,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "TechCrunch": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Verge": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Ars Technica": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Wired": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "MIT Technology Review": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Nature": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "New Scientist": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ScienceDaily": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "STAT": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 20,
+   "nuevas": 20,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Organización Mundial de la Salud": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Noticias ONU": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "UN News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "publico",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Carbon Brief": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 12,
+   "nuevas": 12,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Inside Climate News": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Mongabay": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Forbes": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Fortune": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "MarketWatch": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "ESPN": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Marca": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "AS": {
+   "state": "ok",
+   "via": "google_news",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Variety": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "The Hollywood Reporter": {
+   "state": "ok",
+   "via": "rss",
+   "region": "Global",
+   "tipo": "privado",
+   "items": 10,
+   "nuevas": 10,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 17,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · EE.UU. · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Canadá · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Norteamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 4,
+   "nuevas": 3,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · México · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 23,
+   "nuevas": 19,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Argentina · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 19,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 5,
+   "nuevas": 3,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Colombia · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 14,
+   "nuevas": 11,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Chile · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Perú · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 18,
+   "nuevas": 16,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Perú · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 3,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Perú · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Venezuela · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 20,
+   "nuevas": 18,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Venezuela · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 4,
+   "nuevas": 4,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Uruguay · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Uruguay · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 23,
+   "nuevas": 12,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ecuador · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ecuador · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 23,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Cuba · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 21,
+   "nuevas": 17,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Brasil · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Latinoamérica",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 22,
+   "nuevas": 13,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Reino Unido · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Irlanda · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Irlanda · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Irlanda · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · España · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Francia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Francia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Francia · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Francia · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Alemania · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Alemania · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Alemania · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Alemania · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Italia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Italia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Italia · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Portugal · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Portugal · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Europa",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ucrania · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Eurasia",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ucrania · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Eurasia",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Turquía · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Turquía · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Israel · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Egipto · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Egipto · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Arabia Saudita · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Arabia Saudita · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Medio Oriente",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 15,
+   "nuevas": 15,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 7,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Sudáfrica · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 30,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 15,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 1,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nigeria · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Kenia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Kenia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Kenia · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 6,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Kenia · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ghana · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Ghana · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 22,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Etiopía · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "África",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 21,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · India · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Pakistán · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 18,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Pakistán · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Pakistán · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 18,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Japón · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Japón · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Japón · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Japón · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Corea del Sur · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Corea del Sur · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Corea del Sur · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Hong Kong · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Hong Kong · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Taiwán · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Taiwán · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Taiwán · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 0,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Singapur · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Singapur · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 26,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Filipinas · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Filipinas · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Indonesia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Indonesia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Asia-Pacífico",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 12,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Tecnología": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 25,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Ciencia": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 23,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Salud": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 24,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Australia · Cultura": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 27,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nueva Zelanda · Mundo": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 12,
+   "nuevas": 11,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nueva Zelanda · Negocios": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 28,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
+  },
+  "Google News · Nueva Zelanda · Deportes": {
+   "state": "ok",
+   "via": "google_news_tema",
+   "region": "Oceanía",
+   "tipo": "agregador",
+   "items": 30,
+   "nuevas": 29,
+   "message": null,
+   "checked_at": "2026-10-27T00:14:56.714642+00:00"
   }
  }
 }
