@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-28T14:14:29.135067+00:00",
+  "generated_at": "2026-10-28T23:37:14.966818+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 441,
+      "total_mentions": 442,
       "sentiment_breakdown": {
         "positivo": 27,
         "negativo": 36,
-        "neutral": 378
+        "neutral": 379
       },
       "sentiment_by_day": {
+        "2026-10-27": {
+          "total": 5,
+          "score_sum": 0
+        },
         "2026-10-28": {
           "total": 2,
           "score_sum": 2
         },
         "2026-10-24": {
           "total": 6,
-          "score_sum": 0
-        },
-        "2026-10-27": {
-          "total": 4,
           "score_sum": 0
         },
         "2026-09-17": {
@@ -240,11 +240,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 171
+          "count": 169
         },
         {
           "term": "intransigente",
-          "count": 64
+          "count": 62
         },
         {
           "term": "presupuesto",
@@ -252,7 +252,7 @@
         },
         {
           "term": "informate",
-          "count": 30
+          "count": 29
         },
         {
           "term": "elintra",
@@ -260,7 +260,7 @@
         },
         {
           "term": "milei",
-          "count": 23
+          "count": 21
         },
         {
           "term": "pasa",
@@ -268,13 +268,13 @@
         },
         {
           "term": "discapacidad",
-          "count": 16
+          "count": 15
         }
       ],
       "politicians_involved": [
         {
           "name": "Gustavo Sáenz",
-          "count": 5
+          "count": 6
         }
       ],
       "quotes": [
@@ -370,6 +370,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Apoyando a Sáenz, Rosso prevé dejar la intendencia de Güemes y llegar a Diputados - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObkl0cDBqUlpFVng1dHhUaTZ1VmFjZmpaTjd4dVc5UnZWOFBsRW9sSTdKcS1jejNNR1hzU0N3N0Q5VElIV01jQWRqNnhXLTNqb291cjZjX1Zpbmh0dWgxMHRBaXJrZnYxZzdISXBsM1NGeXMxR0V0dHNnVVlDYVVNQlBQOVJaQ0s0QXN3V05aOE9hWDhwUURxY1pRZG01eFE3N3Fpa2UwLUZyZmdlSkE2VjVEN2hZRkRWdmE4emZsQXlfSWFBaXBZY0RKaTYzNE1sZjh3NjQ0R3B1by1aMFFvaTVEUGFfck3SAfYBQVVfeXFMUE5GcGhlN0NlcWFNZS1wMnlJOFhQX211V3EtbTVialVhallnRTAxc1lLYmRDWTZJOGlybU02WEc5MkV1RDRMR2Y1bkRnMV9DNVUyc1dCcXVvc2k5NUJ3Nk1oSFRrNnR1c1Myc2JsTDQwN0FsYnB2ZFVCQ0Z6UHgtTFZRZkxWSW5lNTZ0ZVp3azI2bVdBZURtdVl2dEc2bk42bmxYX0pIekdlcDNBSjBqWHBqbnpCV3d3bHBqZnVla0t4VTFobkNMamVJS0oxd1J2ZzMyaEZZVzFleUtidFNoVW14ejJuRG82SjBabzlQMkZrUHlpd2FR?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 27 Oct 2026 16:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Ruta de los Diques: La Caldera propone senderos, ciclovías y nuevos servicios en Campo Alegre - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNk9MMmJuamdpTmQzZXV0UEtDb3FQS2Q0b0JyaHExdkZjWFJ5M1ZjZkg3MFBJeFBXUE1udmh2OTBHWktnalNsdWN1SS1VcHBrQ0drTThXSmoyU3l4aWRpLTNYT2pDaHpiSzBzWDA5aGIxeTVtSzFhYk5pNF9iTmZQUUR4VjhDeVBoMTVrcmNfc0JfV0wzbkV6b2V6Qk0wQWlraTR4N2c5d29OSlVQa1FuREJiM2lrZ3Y3d1dCd3lWb2oxR0dzTlMxODlndmo5ZWFwZlJlUFExVlUzbi15bVRqWVEzdjI2ODNadFEwUEhR0gH8AUFVX3lxTFBQRGgwZldSQjlWdjRINzFPQjBZWGctcGgwTExzZWNZWDZERFVOTzRGdWFRLUY4RUVBamJ5Mm0xSDdlVDAxNUptU0h4UVJrVTA2MGY2Y3N0RHNGWjIyV3AyNVhhTFRaN3pPSUZfRk5kOXB0TE9oM2xwdXNTV0xsdFNWUThSblVQbE92cnEwTFlaYkFBTVVGRV9WdHNuNDJyU0JubW1YOVRoREdjOGFXRUR1LTNFcmxkMUtZMGF2Y1RqUzBjOHFKc083UzVlMmJOVExDeHdEbUJTLVY2UmpRa21LVzl6WGZDU1MtQU0wMGVyOWhsRDJaYzM3OE9ONg?oc=5",
@@ -571,13 +578,6 @@
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNME5OaTBXWlRCQlYzcXoxYk5wMUpxc3dWa2lBZ0NvYXd2djRXNF9oSFUwMXdyRkdLVDJ6dFczSHFoNmF1X0kzVUhYVHVzaHBTZHJUVXl1QTl5Tjh2Z2d5TU5NTERUaU1IdjhkX0dIMFVOT2hJU0NrcWd0YnJuMFdFSnhfVlpjTTN5akpTYWhnTmZSRlFYS3RvQjZIalVnSWkyMndKSndXN05rRGFhdkZvSVlYMDI0LUw2cl9POV9ZZjV2eGtZSTVwOTdNYUdHdzRs0gHfAUFVX3lxTE5Zeml0bkR0a21CYUdWUGJtZkFYdUo0enU0YmV2YUNKNkZuWVl6cDRmSmZGd0otQnN0ZjZkR0dWdDZ4Rkt0dU9FcXRSaVhRN1lsYk5rYloxTkxxN3ZzLUNtTjhVOGpCOEhmaVJLLWp4UlFHZUlicHJsRUcwb3NpVDVDeldYTUYzZnZEeHhxLW1zQ0NfeGlIWnVfYlM4eDRGb2dPT1RUYi11czhYTlF2RW5DdkJqbHl1NFZhM2RralpEN2QyellXcllBZXlWOWpwR3dPMWtRNEFQM1pvenVsdlk?oc=5",
           "source": "Informate Salta",
           "date": "Fri, 23 Oct 2026 22:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Últimas noticias de Salta - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pWTJvb29XNnZ1TlhUcTBScTU4LW0xczNza0J3TTMxY0pMVDF0SHlXWVpEMk9nWFJkaElzZWVPUzk3VFNULXJoWg?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Fri, 23 Oct 2026 16:29:50 GMT",
           "sentiment_label": "neutral"
         }
       ]
