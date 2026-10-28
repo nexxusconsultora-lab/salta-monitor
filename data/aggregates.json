@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-28T01:32:05.534902+00:00",
+  "generated_at": "2026-10-28T07:22:51.076060+00:00",
   "by_politician": {
+    "eje-sergio-camacho": {
+      "total": 29,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 20,
+      "score_sum": 29
+    },
+    "snac-flavia-royon": {
+      "total": 112,
+      "positivo": 11,
+      "negativo": 13,
+      "neutral": 88,
+      "score_sum": 8
+    },
+    "concejal-gonzalo-nieva": {
+      "total": 52,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 43,
+      "score_sum": -20
+    },
     "concejal-pablo-emanuel-lopez": {
-      "total": 43,
+      "total": 44,
       "positivo": 2,
       "negativo": 20,
-      "neutral": 21,
+      "neutral": 22,
       "score_sum": -44
+    },
+    "gustavo-saenz": {
+      "total": 383,
+      "positivo": 97,
+      "negativo": 59,
+      "neutral": 227,
+      "score_sum": 164
     },
     "dnac-julio-moreno-ovalle": {
       "total": 4,
@@ -35,20 +63,6 @@
       "negativo": 0,
       "neutral": 10,
       "score_sum": 16
-    },
-    "snac-flavia-royon": {
-      "total": 111,
-      "positivo": 11,
-      "negativo": 13,
-      "neutral": 87,
-      "score_sum": 8
-    },
-    "gustavo-saenz": {
-      "total": 382,
-      "positivo": 97,
-      "negativo": 59,
-      "neutral": 226,
-      "score_sum": 164
     },
     "dip-guillermo-alejandro-kripper": {
       "total": 20,
@@ -105,13 +119,6 @@
       "negativo": 15,
       "neutral": 66,
       "score_sum": -13
-    },
-    "eje-sergio-camacho": {
-      "total": 28,
-      "positivo": 5,
-      "negativo": 3,
-      "neutral": 20,
-      "score_sum": 27
     },
     "dnac-pablo-outes": {
       "total": 23,
@@ -252,13 +259,6 @@
       "negativo": 2,
       "neutral": 27,
       "score_sum": 0
-    },
-    "concejal-gonzalo-nieva": {
-      "total": 51,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 42,
-      "score_sum": -20
     },
     "dnac-bernardo-biella": {
       "total": 29,
@@ -934,6 +934,68 @@
     }
   },
   "by_day": {
+    "2024-06-28": {
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-12-19": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2025-02-26": {
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-09-10": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-28": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 9
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-11-11": {
       "concejal-pablo-emanuel-lopez": {
         "total": 1,
@@ -962,16 +1024,6 @@
       "sen-daniel-moreno-ovalle": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-28": {
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 9
       }
     },
     "2026-10-27": {
@@ -7672,12 +7724,6 @@
         "score_sum": 0
       }
     },
-    "2022-09-10": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-07-24": {
       "dip-gustavo-orlando-orozco": {
         "total": 1,
@@ -10788,12 +10834,6 @@
         "score_sum": 0
       }
     },
-    "2024-06-28": {
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-11-07": {
       "sen-mashur-lapad": {
         "total": 1,
@@ -11668,20 +11708,6 @@
     },
     "2013-08-21": {
       "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-02-26": {
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -13100,16 +13126,6 @@
       "sen-jorge-soto": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2025-12-19": {
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2026-03-26": {
@@ -17240,15 +17256,15 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 23
+      "count": 26
     },
     {
       "term": "sáenz",
-      "count": 16
+      "count": 17
     },
     {
       "term": "gustavo",
-      "count": 11
+      "count": 12
     },
     {
       "term": "emilia",
@@ -17260,7 +17276,27 @@
     },
     {
       "term": "pablo",
+      "count": 7
+    },
+    {
+      "term": "milei",
       "count": 6
+    },
+    {
+      "term": "sergio",
+      "count": 5
+    },
+    {
+      "term": "flavia",
+      "count": 5
+    },
+    {
+      "term": "royón",
+      "count": 5
+    },
+    {
+      "term": "lópez",
+      "count": 5
     },
     {
       "term": "nuevo",
@@ -17277,26 +17313,6 @@
     {
       "term": "pasa",
       "count": 5
-    },
-    {
-      "term": "milei",
-      "count": 5
-    },
-    {
-      "term": "lópez",
-      "count": 4
-    },
-    {
-      "term": "presupuesto",
-      "count": 4
-    },
-    {
-      "term": "ruta",
-      "count": 4
-    },
-    {
-      "term": "guillermo",
-      "count": 4
     }
   ],
   "comentions": [

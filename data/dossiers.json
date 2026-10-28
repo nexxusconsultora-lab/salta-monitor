@@ -3,15 +3,15 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 382,
+    "total_mentions": 383,
     "sentiment_breakdown": {
       "positivo": 97,
       "negativo": 59,
-      "neutral": 226
+      "neutral": 227
     },
     "sentiment_by_day": {
       "2026-10-28": {
-        "total": 1,
+        "total": 2,
         "score_sum": 9
       },
       "2026-10-27": {
@@ -358,7 +358,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 51
+        "count": 50
       },
       {
         "term": "gustavo",
@@ -378,7 +378,7 @@
       },
       {
         "term": "arca",
-        "count": 8
+        "count": 7
       },
       {
         "term": "obras",
@@ -483,6 +483,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Javier Milei pasará por Salta sin salir del aeropuerto: ¿temor a enojar a Gustavo Sáenz?",
+        "link": "https://elintra.com.ar/2026/10/27/gustavo-saenz-milei-salta-escala-aeropuerto-sin-actividad-publica/",
+        "source": "El Intra",
+        "date": "Wed, 28 Oct 2026 02:50:30 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ruta de los Diques: La Caldera propone senderos, ciclovías y nuevos servicios en Campo Alegre",
         "link": "https://informatesalta.com.ar/turismo/ruta-de-los-diques--la-caldera-propone-senderos--ciclovias-y-nuevos-servicios-en-campo-alegre_a6ae1148f3b8bc1d5d4ee39c1",
@@ -685,13 +692,6 @@
         "source": "Que Pasa Salta",
         "date": "Sat, 24 Oct 2026 13:05:34 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Con plata de Gustavo Sáenz, Emiliano Durand descubrió las bondades de la obra pública",
-        "link": "https://elintra.com.ar/2026/10/24/con-plata-de-gustavo-saenz-emiliano-durand-descubrio-las-bondades-de-la-obra-publica/",
-        "source": "El Intra",
-        "date": "Sat, 24 Oct 2026 13:15:00 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -19311,13 +19311,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 20,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "2022-09-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-11-11": {
         "total": 1,
         "score_sum": 0
@@ -19442,15 +19446,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 5
+        "count": 6
       },
       {
         "term": "lópez",
-        "count": 5
+        "count": 6
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
       },
       {
         "term": "está",
@@ -19458,6 +19462,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Somos los protagonistas del presente y el futuro de Salta",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX01yRktjMU5zQW1JdUdITjZnQzBWd2Q1OFB6bXJaYnlZYnRYbldBQWh4cU9od3RCODRqQl9Sb3Z3YjI2YTZDT2ZBd3ZFdDNwM2Z0VTI0RkJIeFR3bFA3ZTF1NkdKSURDMUlONW9YLXdObjVkcHVQeHo3WnMwaFpmZnJzdFotTUg4RTJjcWI4VHY4c2hqeERVZlVQMy1abnpKZzlBWEE0SQ?oc=5",
+        "date": "Sat, 10 Sep 2022 07:00:00 GMT"
+      },
       {
         "quote": "El presupuesto bonaerense está condicionado, pero no es de ajuste",
         "source": "Infobae",
@@ -19588,6 +19598,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López: “Somos los protagonistas del presente y el futuro de Salta” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX01yRktjMU5zQW1JdUdITjZnQzBWd2Q1OFB6bXJaYnlZYnRYbldBQWh4cU9od3RCODRqQl9Sb3Z3YjI2YTZDT2ZBd3ZFdDNwM2Z0VTI0RkJIeFR3bFA3ZTF1NkdKSURDMUlONW9YLXdObjVkcHVQeHo3WnMwaFpmZnJzdFotTUg4RTJjcWI4VHY4c2hqeERVZlVQMy1abnpKZzlBWEE0SQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 10 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Pablo López, ministro de Economía PBA: “El presupuesto bonaerense está condicionado, pero no es de ajuste” - Infobae",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTk9pY2JRcm1SeVB1VzZWTlg4SHdsQUZ3NzM1cFhmVjlwS3dta29mdUMwM2ZlbUZyZFNWMTJYUG9pQ212dERYVHo4RWRmSlNNdlZPU3pGN3I5RmlvMFltb2d5SzlLZUp0SnVkck1ZS210QWVaX2VYQTBLcDVwbjFZUXpxTHVvaVlxdkFtZWoyUjVuZnJEa2R0OGdVbDhTUnJMVmVWNnozSUcwN1Nub2ZTMXlQZElTNGZZTFFHTGlyVjJQRDIxMmt4OEljRTFwQzVxcExUVDR0alpXV3djNnkw0gH6AUFVX3lxTFBya1lpdUo2Q1VaSDVDbGRLbl81VzQzWTFOdUNEZjlyMndZQ09YMW02Z04yelA4SnBBN0tpVEIxT0tGc0ZhR3dSc2N1Wk9xVlY5ak1CSzlId0FLekhtWlhybDd4Ylp3N0FzQ0M4dW9SNjZaTF9OOW5YTENDT1pycmFXUXB5ajlEblg0a29JQjB1a1EyZHFJbjJCVXBLeV93NkYxZmRXVDA1M2dlcTAyYndJTnlFelV0Rk0wZng3VjJ1T2p1NlJtZEE1TEVha0FiWlVYSm43bUhpQldEX1hqb0pyd2FGQ3hzWFQyVHNhWWNZVzhpRjNGTTQzdEE?oc=5",
@@ -19789,13 +19806,6 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOTgyYVpNbzRod3dNV2dsVnRtc0hHS0xwR3NfaC1zaDR6bHA5alJBU2J1dWszRFNqamJSbmZCN0Y4bVV6OTYxakQwaEtwMWFPUWJtX3liX01vZ3Vjc2w5VzlUSzhYOEl1SlZQbi1XemhwbjJEbjdXOXdrOHlrVUZIb3RFS0lyRDZ5UklfZ0M2S0dPa3AySk9UNnozbWlIeE85MTIwWkFCN1A0LVpFTDhDNnJDZFZaUWg4aE9sdUpkNUdiVi1aZVUtanhRcDBuUTg?oc=5",
         "source": "El Tribuno",
         "date": "Mon, 21 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Pablo López viñals - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15M2k3ck8wbl9LYzVNVDJHYW5nZXAzZjhXSENrYXlpeUlkM1JCZzNvQVIzSHA2a0xnSTNkdlJSamd2NXVpc2hsTVlwandKb28tMmFrT1Z2dk4xY1pKcHc?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 08 May 2024 00:25:21 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20418,13 +20428,17 @@
     "id": "concejal-gonzalo-nieva",
     "name": "Gonzalo Nieva",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 51,
+    "total_mentions": 52,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 9,
-      "neutral": 42
+      "neutral": 43
     },
     "sentiment_by_day": {
+      "2025-02-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-06-03": {
         "total": 1,
         "score_sum": 0
@@ -20597,11 +20611,11 @@
     "top_topics": [
       {
         "term": "gonzalo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "nieva",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -20691,6 +20705,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Tras la salida de Laura Jorge, el concejal Gonzalo Nieva presidirá el bloque de JxC - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNTJ4Ty1XUmtTcjQxaWZtVGpOdEJKekRiWXlBU2prS3FIcW1ZRFdDbHBtWm5tUVloVlU0ZkhGRUE3dnk5MGRncG9OaDBQTTktUjNMcTEyR09MMVRaNUdHbUJhdVJMU19pRjF0b1ZlbWx3XzJXV216ZC02MFhwbWRueUlDSVROYnRuX2xTV0hlUEczRkhaYTRhRWl2RkRHeG5jQi1zSDVPWnBOQlY0cVRCODRNVDBwbGR4Qi1GWFVmU0g2d9IBugFBVV95cUxOVjgtWC1kM21oRlluaURGUnJNcktoRTQtYzBJVFB4NGJrSkNjWENCeGJzcU9rNG55eWZBX1I5OUozdGF3d29lYUs4ekpaaTlfSUVtdmNyUnlPOWxoZmlGcm5OQlM4Z2RmQ1NGNlhtbUotM1FBUV84Tl90MDNWb1dYNUhPaFJyUUlXYVdkV1JiQU95R0l4TXNvYmhrV0h6dXdpc1ZVZE1NcVZDLVZUUXdHVWU1VUNFMVhfWFE?oc=5",
+        "source": "Aries On Line",
+        "date": "Wed, 26 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gonzalo Nieva: “Hay que repensar realmente la existencia o no de SAETA” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMnpjcmxWNWdMcHpjLThQVmxvaDhRX2xwSDk2aWdPaFhJeDBuejRONFF3aFFTMmYyaS11V1lnbjFmbUIxaHZNaHJ1ZVZ2STN1YzVRWXNRU3NqLTEwck1KN21IYmdoZHc4aExTX0E4TTQxeFp4bmc4TkRseDItbHc2WjltckYxRUo0bzdjd0RLa3NIcGtQN1ZZaU44aTNZVXA0Rnhla25R?oc=5",
@@ -20892,13 +20913,6 @@
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSmVlTmo3ZUJNYmVKYm1JZHdjRk1GdGxSREtyWnZtWXBqM1REX1pDblBQS0dLUjBmWGlmc2xiLXRqdmVMX2p1Vk9PYllUTWhKUFVNRGlTNWZSWjNxb3V3UzdKQmNISmFIVmkweDZoRVRsYjYtMmFBa0c0Ui1tT3dnUlUyNUFOTWpfcFhlQW54UzJzRFNwV3JkUmNOMmxEdw?oc=5",
         "source": "eltribuno.com",
         "date": "Sat, 11 Jan 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La elección del Defensor del Pueblo, cerca de definirse. ¿Qué falta? - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFo4LXV3bkowTzA5S0ZSeW1IWDZWZ2VBU3E0WUptZE1UVndsamU0bXNEekFBMy1GRTZhczV1Ui1HWDRIT1Y1aDRWbUNQQVF1UExlZW5rYVRDZmh1N3NmNmtCZ0d1dTBtZERyMk1QMHpjT01MVG9QekcwV3VGU0E4VWxqOEptbHFvNGdlVjB3ZE5OcDkxaTJtSm9tWUpKYUY0a2MxNzJTZndkREVObTdNcmxZZC1HXzFyVzB2VEl2Q014M01wOXNSMS15WUlQSlnSAd4BQVVfeXFMUG5xdHdIbGl6UXAtS2dQWVRpZjA0VUF5S3pQNTU0aDFTUWlpelVzOUdYdlFVd1N2elJJeU9tLUplRU1mQkVjdkNJSmtRQUNHQTBLc1BBX0tpXzZWUlpLeFhva19aZnQ0Ulhnb0VaRTcwSVFOTVR3TEFSZTh6ZW5GRTRsb2E2dXhnNXBUVXN2RUlRWDQ4ME81RzQtbzN3SFl0NTRjRXJjTEFXLXpWZW5NNDFFd1Z1cUVpTGViVkoteUdzbTZKcEc0ZGRMdS1sYjRwMTdWQW9zZE1RakVyQmJR?oc=5",
-        "source": "Informate Salta",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21744,13 +21758,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 111,
+    "total_mentions": 112,
     "sentiment_breakdown": {
       "positivo": 11,
       "negativo": 13,
-      "neutral": 87
+      "neutral": 88
     },
     "sentiment_by_day": {
+      "2025-12-19": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-27": {
         "total": 2,
         "score_sum": 4
@@ -22087,15 +22105,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 17
+        "count": 18
       },
       {
         "term": "royón",
-        "count": 17
+        "count": 18
       },
       {
         "term": "elintra",
-        "count": 8
+        "count": 9
       },
       {
         "term": "paso",
@@ -22237,6 +22255,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón sostuvo que la reforma laboral no sirve por sí sola para generar empleo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcE9JRklVYzBYQlZieGxkc1JCa21qUHpXcG8xR1I4LWE1djZLMzQ2VFRocHpLRzVCNHBTaW5QZmRXNk4tdkVaSTd0Q3lDX2NjOEpEVE9ydzBJVDlQcFhwX1VkaVdjMVVYME1OTEVITXltenFlS3hKUzlKdk9EcXREcDNhelBmQVZtZHhVN3NLZU8zYmJ2dFA1ckpJa21nbVYxeG1aV2N2a1ZMbjc0all4bjV1S3JzT01JRWtr?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 19 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Subsidios al gas: La Puna seguirá con el beneficio y el sur salteño tendrá nuevos requisitos",
         "link": "https://informatesalta.com.ar/sociedad/subsidios-al-gas--la-puna-seguira-con-el-beneficio-y-el-sur-salteno-tendra-nuevos-requisitos_a6ae126873b8bc1d5d4f002c5",
@@ -22438,13 +22463,6 @@
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOExmOEpOMHZ5dS1mUndvQ3Ytb281Qk5zVWRGTm5DXzg2S3VlbnFNTzBMaFlBUll3dl9qanlMbTFkM3VtY1l4VUdRdWtKa1FVZ3EwR2lLZUdhUnlsaHRVWXBTMXlvZ1RWMi03aVozUzdpRW1XUFhTanRfMjhBTFBLbXpzRmNfV0hGbmZLMmt4ZUtoWkxIc0JYbUZRNGYwTGRpSE1kZUpwcUVRVHlBZllkQnRBcUVPTmdP0gHHAUFVX3lxTE03aU1Hakp2LXY2eUhoVEkteHliOUpXMDVrQTJwc0ljTXBPSkpqSm5ZdV9wR2otUncwN1FORGNDTEM3ak9ka2J1UFg5Q0FGRF9acGxtVV8tS2IzZEtNUHB0ZW9lMWRuZmNoZDZLSXdHMS1qXy1mS1VUNEQwbjZWQUU2cnV6QW51cGZ3alUtVUhBb3VlZjFaVlZZcEdMRW16UmdpZWczT19yYUxTYUFUWWlidVpFVmhOS3daUHJlOHBubklOandhNFE?oc=5",
         "source": "IN Salta",
         "date": "Wed, 05 Aug 2026 03:06:44 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón y Emilia Orozco, las salteñas que ganan espacios clave en el Congreso - Gente de Salta",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2l3ZjhGOF9VQ21xeTVlSjFuVzJkUFkySXpFc3J6S1FVVm9KZTZ5bVRDS013MFJKdFZvNm1YRmhTT1k0RWV2ZkxkMFFiODV1SzhyQk5fSVM4a21tbjhJWFV6d0VKWGtYRUJ6akI0NDhybTR3TC1QRnllR2JJMWM5WldwMG1lSkpfYWwtMVVQQzI4LWM3Z3Z2ZHRSQTZyd2pCN0s4Z3NKNUpLMTdBMnfSAbMBQVVfeXFMTVBjUGlfZUk3X2JoeVBfT2dzeldJeU5mVTIzNlNZaG9HRjZUeTU5MGF5eGVXcDcxNGZWUUhRZjQzTENXbGNMYjlEeGItcmQxOHZzWWlONWRPSXl6ZzVRVjlKS2VqZ19KbEdVNmpmY1BOWDlKMUNORGpZdHA5RzJyMVdfQ2V6bU5ZdlI3NmxrSTE2T0NBZkJhM0VPeEpWREtzQnFuWTJ2WjZ1TlZySHZ5X3RKTzg?oc=5",
-        "source": "Gente de Salta",
-        "date": "Wed, 13 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -23255,18 +23273,14 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 4
-      },
-      {
-        "term": "coraita",
-        "count": 4
-      },
-      {
-        "term": "gonzalo",
         "count": 3
       },
       {
-        "term": "elintra",
+        "term": "coraita",
+        "count": 3
+      },
+      {
+        "term": "gonzalo",
         "count": 2
       }
     ],
@@ -29232,13 +29246,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 3,
       "neutral": 20
     },
     "sentiment_by_day": {
+      "2024-06-28": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-05-27": {
         "total": 1,
         "score_sum": 0
@@ -29323,15 +29341,15 @@
     "top_topics": [
       {
         "term": "camacho",
-        "count": 7
+        "count": 8
       },
       {
         "term": "sergio",
-        "count": 6
+        "count": 7
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "presupuesto",
@@ -29342,15 +29360,15 @@
         "count": 3
       },
       {
+        "term": "aseguró",
+        "count": 2
+      },
+      {
         "term": "anunció",
         "count": 2
       },
       {
         "term": "nación",
-        "count": 2
-      },
-      {
-        "term": "obras",
         "count": 2
       }
     ],
@@ -29394,6 +29412,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Se firmó el acuerdo paritario en Salta y Sergio Camacho aseguró que se firmó lo más certero por el contexto - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWlBoY0I3Y1EwVXlqRExsMm01VTJlUGJDVHpiMGp0cXE0UlNPcXdESFFRc1VwQzNFN2R6RE42RXNCUXFiWXNLWC1UWEVfUGhiZHJUZ0Y3TGMxSDJBRWl6LW5idndsQnVfWTVXNm5pRDVlTHhCLU0ydk1aLVBvQUhsclk5V3dLUHFMeGJJN2kyWS1Wd0tWRWl4Z1UwMDZZTkEzaTB2UjJET2x1bnJtcFhOZFA1VHZKaEIzb1RWamU3Q09QTmFmdmZMckw1Vm5vQTJjQVkwWTZYYkZvdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 28 Jun 2024 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sergio Camacho anunció que provincia seguirá afrontando pagos que le corresponden a Nación - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVERjTnpiM2VCVzFHUHBHdGwyYTQyX2QwUTF2d2wxU0tIczA5ZTN4MWp6NHZmNGo1VVRFYUU0WHl1dHFpWFRMUndkc08xeWxNczc1MWNYZkNISGNkRkpCczVxUlFxcWotdHhURFlpUHZUTmtxaXNpYUJJVUtkbmE1cEJxRGFRbUlMRW9HZFMwUEhxTG5saU41TG9yUlA5YW1zRUV1QkRmbmVVNDFQS201WllfbEVLZmg0Qnh6ZEt6dU54TU0?oc=5",
@@ -32328,10 +32353,6 @@
       {
         "term": "fuerza",
         "count": 3
-      },
-      {
-        "term": "taser",
-        "count": 2
       },
       {
         "term": "respalda",

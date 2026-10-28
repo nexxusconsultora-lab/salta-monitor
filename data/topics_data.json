@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-10-28T01:32:06.471227+00:00",
+  "generated_at": "2026-10-28T07:22:51.834649+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 438,
+      "total_mentions": 440,
       "sentiment_breakdown": {
-        "positivo": 26,
+        "positivo": 27,
         "negativo": 36,
-        "neutral": 376
+        "neutral": 377
       },
       "sentiment_by_day": {
+        "2026-10-24": {
+          "total": 6,
+          "score_sum": 0
+        },
+        "2026-10-28": {
+          "total": 1,
+          "score_sum": 2
+        },
         "2026-10-27": {
           "total": 4,
           "score_sum": 0
@@ -27,10 +35,6 @@
         "2026-09-21": {
           "total": 11,
           "score_sum": -2
-        },
-        "2026-10-24": {
-          "total": 5,
-          "score_sum": 0
         },
         "2026-10-25": {
           "total": 1,
@@ -244,7 +248,7 @@
         },
         {
           "term": "presupuesto",
-          "count": 58
+          "count": 57
         },
         {
           "term": "informate",
@@ -252,11 +256,11 @@
         },
         {
           "term": "elintra",
-          "count": 27
+          "count": 28
         },
         {
           "term": "milei",
-          "count": 23
+          "count": 24
         },
         {
           "term": "pasa",
@@ -366,6 +370,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Javier Milei visitará Catamarca: ¿también prepara un desembarco político en Salta? - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOczFtQVlRQVI0c3l3MkpkSkI3SzBhZW1BMFNzZ0FvRV9DcVJ0dnhoQkxhMGV6dktDSTNibEFTQzVZd0lnMElYVVVBVjIxOVl3QzI2WGhSYnpVVExxd25RdjBwNlZPOU9ma0FNNTFNZERCYlhGcEphb0RtQmtyaEVFSm9sam9fSGx1ZUkwdlFvNkdHek9oTm1tUWV2Q2VOWU5BV3R5ektrajJEWmVtbktiOUhiM1A?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Sat, 24 Oct 2026 16:12:25 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El FMI y la Argentina alcanzaron un acuerdo técnico por la tercera revisión del programa - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMmVSeXFfRE40Z3lGUmNBaDg4UmFMdzE3RTFKVUpQbTI3TnNLUHZfX1NDOS1UaVJJZENlcmlRV3lOZjNVSVdsa0w0QTJLQlN4blpIbkExM29uZHBKTEpjUGZfQl9KM2kxZ0x0cll3QjA2dFAyY09qU3lTQWx6ZUtnWVNLYUhDak9DMm05RGdGSTQyT05lbFBtTWRzOUlweDhES0ptcmszUDd0R3N0X2xKc19nMUM1emR5OVBDNEk1X1h2OTJCX044emVZaTJYZmZzRHZhTXR6NXB2X01T0gHiAUFVX3lxTE9iVDV5cWp0dGVTTHQ1dElBVzF6Zk4wRnRHOC03Z0tfUnRVU21FWjZqYWZVeHZTeTRZTkUzN0xzM1JzaGU1a25mTF8xQ1FSTHRzVEVjZWNwbWV2X0VHTmlMUmZka01rUDBDZ3RERVZJcUNVNmJIbGF2OWNaZWpJbE9kX1lvS2tVRldCSUkxb2dNSHFzc05RV3VVT2Z5R1MycFhfS2gtS3pUd0VzOUVsZXFhNjRybVYya0RPbHRtaUVKMFMzVXlUV1FfODRLODJSVF93cXJxLTUxTm5fc2VkSklNb1E?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 28 Oct 2026 01:32:00 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "El Gobierno Nacional busca llevar la Ley de Soberanía de Malvinas a Diputados el 12 de noviembre - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYlNDNHA5UTJzQk56bGY0VklRTUd1bWQ4U2RwQXJrdXNhQlFvTjFTOUZmRjVMSVVPUTk4dmY0bEhnOUhJeVhmME1FNHBzenFad1lYUHA1MllkNXQyWkVjdDEwSkhwS1FqSkRRNUVMSkFOV3FsRUVnSlExT2hOdTVfSVpfWWNQNGhaVVQyczZGa1AtLV9icGZHa1c3bnM4NmhBWGtjU2dCd0xqZTR0WXY0?oc=5",
@@ -560,20 +578,6 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSTFZN2xaSzIySkNuRF9ldnVnM3QxdUtkRzlIblc1ZENocWZSNnNxNXNrM3NIVEVBOXNlMHBGT1RoNEVwclVFNE1BVjl4RWN4WVRFMEJRT2NsR0pMc3V4Y2JOZ042ekpjdlNQbTBtTDVRcUp4SmpoWS1PdlMzNHpIVlZ4SGRHMkw2dU1taUZwV2MyUkJhLXdDWUJwTUU1V3BGR2xSbVJ3?oc=5",
           "source": "Elintra.com.ar",
           "date": "Thu, 22 Oct 2026 22:13:38 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Una adolescente cruzó mal la calle y la atropelló una moto - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB5SjNQbXNsRkJRY2dGQnRjTFkwcTlnWktXb0tmRFBDdHREUGpEeV95YjA3S29IN0tlMDRwYlVnQ1NBRDI2?oc=5",
-          "source": "Informate Salta",
-          "date": "Sun, 18 Sep 2016 00:42:52 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Continúa el armado del presupuesto 2027, esta vez en el Valle de Lerma - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNME5OaTBXWlRCQlYzcXoxYk5wMUpxc3dWa2lBZ0NvYXd2djRXNF9oSFUwMXdyRkdLVDJ6dFczSHFoNmF1X0kzVUhYVHVzaHBTZHJUVXl1QTl5Tjh2Z2d5TU5NTERUaU1IdjhkX0dIMFVOT2hJU0NrcWd0YnJuMFdFSnhfVlpjTTN5akpTYWhnTmZSRlFYS3RvQjZIalVnSWkyMndKSndXN05rRGFhdkZvSVlYMDI0LUw2cl9POV9ZZjV2eGtZSTVwOTdNYUdHdzRs?oc=5",
-          "source": "Informate Salta",
-          "date": "Fri, 23 Oct 2026 22:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
