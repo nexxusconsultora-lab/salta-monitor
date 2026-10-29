@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:18:56.012453+00:00",
+  "generated_at": "2026-10-29T12:22:44.045293+00:00",
   "by_politician": {
     "eje-ana-paula-benavides": {
       "total": 18,
@@ -8,18 +8,18 @@
       "neutral": 17,
       "score_sum": -2
     },
-    "snac-emilia-orozco": {
-      "total": 92,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 67,
-      "score_sum": -15
+    "snac-flavia-royon": {
+      "total": 114,
+      "positivo": 11,
+      "negativo": 13,
+      "neutral": 90,
+      "score_sum": 8
     },
     "concejal-pablo-emanuel-lopez": {
-      "total": 45,
+      "total": 46,
       "positivo": 2,
       "negativo": 20,
-      "neutral": 23,
+      "neutral": 24,
       "score_sum": -44
     },
     "dip-german-dario-ralle": {
@@ -42,6 +42,20 @@
       "negativo": 5,
       "neutral": 25,
       "score_sum": -8
+    },
+    "snac-emilia-orozco": {
+      "total": 92,
+      "positivo": 9,
+      "negativo": 16,
+      "neutral": 67,
+      "score_sum": -15
+    },
+    "gustavo-saenz": {
+      "total": 391,
+      "positivo": 99,
+      "negativo": 59,
+      "neutral": 233,
+      "score_sum": 168
     },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 8,
@@ -930,13 +944,9 @@
         "score_sum": -2
       }
     },
-    "2023-12-30": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ana-paula-benavides": {
-        "total": 1,
+    "2023-12-27": {
+      "snac-flavia-royon": {
+        "total": 4,
         "score_sum": 0
       }
     },
@@ -5667,12 +5677,6 @@
     "2024-04-16": {
       "snac-flavia-royon": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-12-27": {
-      "snac-flavia-royon": {
-        "total": 3,
         "score_sum": 0
       }
     },
@@ -17370,34 +17374,34 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 20
+      "count": 22
     },
     {
       "term": "sáenz",
       "count": 9
     },
     {
+      "term": "pablo",
+      "count": 6
+    },
+    {
+      "term": "aries",
+      "count": 5
+    },
+    {
+      "term": "line",
+      "count": 5
+    },
+    {
+      "term": "lópez",
+      "count": 5
+    },
+    {
       "term": "emilia",
       "count": 5
     },
     {
       "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "pablo",
-      "count": 5
-    },
-    {
-      "term": "emilia",
-      "count": 5
-    },
-    {
-      "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "pablo",
       "count": 5
     },
     {
@@ -17409,15 +17413,15 @@
       "count": 5
     },
     {
-      "term": "aries",
+      "term": "flavia",
       "count": 4
     },
     {
-      "term": "line",
+      "term": "royón",
       "count": 4
     },
     {
-      "term": "lópez",
+      "term": "milei",
       "count": 4
     },
     {
@@ -17426,18 +17430,6 @@
     },
     {
       "term": "rallé",
-      "count": 4
-    },
-    {
-      "term": "contra",
-      "count": 4
-    },
-    {
-      "term": "gustavo",
-      "count": 4
-    },
-    {
-      "term": "pidió",
       "count": 4
     }
   ],
