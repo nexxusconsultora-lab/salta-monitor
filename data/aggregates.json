@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-29T12:15:26.042960+00:00",
+  "generated_at": "2026-10-29T12:18:56.012453+00:00",
   "by_politician": {
+    "eje-ana-paula-benavides": {
+      "total": 18,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 17,
+      "score_sum": -2
+    },
+    "snac-emilia-orozco": {
+      "total": 92,
+      "positivo": 9,
+      "negativo": 16,
+      "neutral": 67,
+      "score_sum": -15
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 45,
+      "positivo": 2,
+      "negativo": 20,
+      "neutral": 23,
+      "score_sum": -44
+    },
+    "dip-german-dario-ralle": {
+      "total": 23,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 19,
+      "score_sum": -2
+    },
     "dnac-carlos-raul-zapata": {
       "total": 37,
       "positivo": 1,
@@ -15,54 +43,12 @@
       "neutral": 25,
       "score_sum": -8
     },
-    "snac-emilia-orozco": {
-      "total": 92,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 67,
-      "score_sum": -15
-    },
-    "snac-flavia-royon": {
-      "total": 113,
-      "positivo": 11,
-      "negativo": 13,
-      "neutral": 89,
-      "score_sum": 8
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 45,
-      "positivo": 2,
-      "negativo": 20,
-      "neutral": 23,
-      "score_sum": -44
-    },
-    "dip-german-dario-ralle": {
-      "total": 22,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 18,
-      "score_sum": -2
-    },
-    "gustavo-saenz": {
-      "total": 391,
-      "positivo": 99,
-      "negativo": 59,
-      "neutral": 233,
-      "score_sum": 168
-    },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 8,
       "positivo": 3,
       "negativo": 1,
       "neutral": 4,
       "score_sum": 5
-    },
-    "eje-ana-paula-benavides": {
-      "total": 17,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 16,
-      "score_sum": -2
     },
     "eje-federico-mangione": {
       "total": 46,
@@ -934,6 +920,42 @@
     }
   },
   "by_day": {
+    "2023-03-16": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2023-12-30": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-14": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2023-06-03": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-18": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
@@ -8474,12 +8496,6 @@
         "score_sum": 0
       }
     },
-    "2023-12-14": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "2025-01-16": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -8844,12 +8860,6 @@
       "sen-mashur-lapad": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2023-03-16": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2026-08-11": {
@@ -17360,11 +17370,23 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 21
+      "count": 20
     },
     {
       "term": "sáenz",
       "count": 9
+    },
+    {
+      "term": "emilia",
+      "count": 5
+    },
+    {
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "pablo",
+      "count": 5
     },
     {
       "term": "emilia",
@@ -17387,19 +17409,23 @@
       "count": 5
     },
     {
-      "term": "carlos",
+      "term": "aries",
       "count": 4
     },
     {
-      "term": "zapata",
-      "count": 4
-    },
-    {
-      "term": "diputado",
+      "term": "line",
       "count": 4
     },
     {
       "term": "lópez",
+      "count": 4
+    },
+    {
+      "term": "germán",
+      "count": 4
+    },
+    {
+      "term": "rallé",
       "count": 4
     },
     {
@@ -17413,10 +17439,6 @@
     {
       "term": "pidió",
       "count": 4
-    },
-    {
-      "term": "está",
-      "count": 3
     }
   ],
   "comentions": [

@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-10-29T12:15:27.197326+00:00",
+  "generated_at": "2026-10-29T12:18:57.006955+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 442,
+      "total_mentions": 446,
       "sentiment_breakdown": {
         "positivo": 27,
         "negativo": 36,
-        "neutral": 379
+        "neutral": 383
       },
       "sentiment_by_day": {
+        "2026-10-28": {
+          "total": 3,
+          "score_sum": 2
+        },
+        "2026-10-26": {
+          "total": 15,
+          "score_sum": 0
+        },
         "2026-10-27": {
           "total": 5,
           "score_sum": 0
-        },
-        "2026-10-28": {
-          "total": 2,
-          "score_sum": 2
         },
         "2026-10-24": {
           "total": 6,
@@ -27,10 +31,6 @@
         "2026-09-17": {
           "total": 15,
           "score_sum": -6
-        },
-        "2026-10-26": {
-          "total": 12,
-          "score_sum": 0
         },
         "2026-09-21": {
           "total": 11,
@@ -240,7 +240,7 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 167
+          "count": 168
         },
         {
           "term": "intransigente",
@@ -248,15 +248,15 @@
         },
         {
           "term": "presupuesto",
-          "count": 57
+          "count": 58
+        },
+        {
+          "term": "informate",
+          "count": 30
         },
         {
           "term": "elintra",
           "count": 28
-        },
-        {
-          "term": "informate",
-          "count": 27
         },
         {
           "term": "milei",
@@ -278,6 +278,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Nunca dije eso",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjdrQjkzVVYyMnB1OHpTdXZkbkhHTWJzT3hVd0ZyOFJXdmNJTnlORGRxdDlWbFhxSWJRbmM3d2JRQWVXR0w0VnVGLVloT3d3RlptdFhGMjVKdnB3dGVJOGZxa0U1NlVobWhVZldDTEM1aGlOckE4WGNNYnVmV25HaUhpMGt4SkxwaXdvRzBYbTdJSWJaS3JRdjBOUTR3SUx1V2UyUXNBZGJNc2dHRDkwODZlcEZlY3paWjZmTXNaREhyOS1kNTREeUhaQlVHRjRlVFZpbjN0bGhZWmprU2fSAd4BQVVfeXFMUFI3a0I5M1VWMjJwdTh6U3V2ZG5IR01ic094VXdGcjhSV3ZjSU55TkRkcXQ5VmxYcUliUW5jN3diUUFlV0dMNFZ1Ri1ZaE93d0ZabXRYRjI1SnZwd3RlSThmcWtFNTZVaG1oVWZXQ0xDNWhpTnJBOFhjTWJ1ZlduR2lIaTBreEpMcGl3b0cwWG03SUliWktyUXYwTlE0d0lMdVdlMlFzQWRiTXNnR0Q5MDg2ZXBGZWN6Wlo2Zk1zWkRIcjktZDU0RHlIWkJVR0Y0ZVRWaW4zdGxoWVpqa1Nn?oc=5",
+          "date": "Mon, 26 Oct 2026 15:00:00 GMT"
+        },
         {
           "quote": "Hay más víctimas y tienen que salir a buscar justicia",
           "source": "El Tribuno",
@@ -361,15 +367,37 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAySmEzdGV5NEJsbkE3b0V2TDhGcnlyTUtkcklxbmZrNGxNdEhsY0tRM2JNSXg4RnVqWXNmZnVGQ0VnZm85VHhEclpWTHRsSWtWTExlbGhQQVE5UkxXVTNQVFRvWG9YdEJicVFDNmtNS01Kd1pJN3BDcFVnZHNYUQ?oc=5",
           "date": "Tue, 13 Oct 2026 03:29:23 GMT"
-        },
-        {
-          "quote": "Operación Vuelo 718",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb3R0Zl9OXzJ5Z1RxeWR3VFFKdWFsUzBtU0VST0lJZmJGQzVhSHNrM3g1TVR5VVdmQ3VmTFdIcnZ3TFA0dTB6OHFtUm1SSDYzZHhiSkUzUHNvbVdXbmFMV2xRZlZ3OWlwZjVHdUtObWppSnlVYmkxd0JVR0lvRy1IMjNyRGJBVVJrV0hZc0dzRjZ6OUY2M016dW1DMUVtZW5kWDV3c2h6b2ktaDI3OVVILU9jck11VjVDUHJMYjZHUjJrVExVMVQ2R9IBzgFBVV95cUxPdVpYUm04RDhSdHNIV2twV29SSTNnajV3NlBtUEhJcFZIVkZTUldiNWtWZ3k2Wm5obHZfalBZTnQ2V3RDd2IwTVM0bFdGd1R2ZkZLU0JYTDVYbFlEeUNHYW1QdnNxMXdxZlZYR0pTbkFSNldzZEhXa1AtU0V2SDdhX3ktVkljb3BQejdQU05oWmIyYTNmUUlseGJfZ1FaZ2hsbHAyT0NvT0tTS0VweDdWblJrQWNkRjA1Rmx2a1JyV3VOa2ZWLTU0SXBjNG1Ndw?oc=5",
-          "date": "Mon, 12 Oct 2026 03:43:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Ruta de los Diques: La Caldera propone senderos, ciclovías y nuevos servicios en Campo Alegre - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUERoMGZXUkI5VnY0SDcxT0IwWVhnLXBoMExMc2VjWVg2RERVTk80RnVhUS1GOEVFQWpieTJtMUg3ZVQwMTVKbVNIeFFSa1UwNjBmNmNzdERzRloyMldwMjVYYUxUWjd6T0lGX0ZOZDlwdExPaDNscHVzU1dMbHRTVlE4Um5VUGxPdnJxMExZWmJBQU1VRkVfVnRzbjQyclNCbm1tWDlUaERHYzhhV0VEdS0zRXJsZDFLWTBhdmNUalMwYzhxSnNPN1M1ZTJiTlRMQ3h3RG1CUy1WNlJqUWttS1c5elhmQ1NTLUFNMDBlcjlobEQyWmMzNzhPTjbSAfwBQVVfeXFMUFBEaDBmV1JCOVZ2NEg3MU9CMFlYZy1waDBMTHNlY1lYNkREVU5PNEZ1YVEtRjhFRUFqYnkybTFIN2VUMDE1Sm1TSHhRUmtVMDYwZjZjc3REc0ZaMjJXcDI1WGFMVFo3ek9JRl9GTmQ5cHRMT2gzbHB1c1NXTGx0U1ZROFJuVVBsT3ZycTBMWVpiQUFNVUZFX1Z0c240MnJTQm5tbVg5VGhER2M4YVdFRHUtM0VybGQxS1kwYXZjVGpTMGM4cUpzTzdTNWUyYk5UTEN4d0RtQlMtVjZSalFrbUtXOXpYZkNTUy1BTTAwZXI5aGxEMlpjMzc4T042?oc=5",
+          "source": "Informate Salta",
+          "date": "Wed, 28 Oct 2026 00:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Jarsún desmintió que quiera ser intendente de Salta: “Nunca dije eso” - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjdrQjkzVVYyMnB1OHpTdXZkbkhHTWJzT3hVd0ZyOFJXdmNJTnlORGRxdDlWbFhxSWJRbmM3d2JRQWVXR0w0VnVGLVloT3d3RlptdFhGMjVKdnB3dGVJOGZxa0U1NlVobWhVZldDTEM1aGlOckE4WGNNYnVmV25HaUhpMGt4SkxwaXdvRzBYbTdJSWJaS3JRdjBOUTR3SUx1V2UyUXNBZGJNc2dHRDkwODZlcEZlY3paWjZmTXNaREhyOS1kNTREeUhaQlVHRjRlVFZpbjN0bGhZWmprU2fSAd4BQVVfeXFMUFI3a0I5M1VWMjJwdTh6U3V2ZG5IR01ic094VXdGcjhSV3ZjSU55TkRkcXQ5VmxYcUliUW5jN3diUUFlV0dMNFZ1Ri1ZaE93d0ZabXRYRjI1SnZwd3RlSThmcWtFNTZVaG1oVWZXQ0xDNWhpTnJBOFhjTWJ1ZlduR2lIaTBreEpMcGl3b0cwWG03SUliWktyUXYwTlE0d0lMdVdlMlFzQWRiTXNnR0Q5MDg2ZXBGZWN6Wlo2Zk1zWkRIcjktZDU0RHlIWkJVR0Y0ZVRWaW4zdGxoWVpqa1Nn?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 26 Oct 2026 15:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Los empleados públicos de Salta cobrarán el aguinaldo el 17 de diciembre - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVEFNTmE4UDA1R0xkM05DeE0zYkREd29Odk1LN0dpQzU3QWpiMTU2QjdRVzdfbnBPc2lmUmY2S1NrRi1kSllZc2daQl9SQWt6bmROUE5iQ2ZqWDhZWmVLYzNPcXpMUVlDSTRTTmNZUDl3MEU3d1dkZmx3SkdjVlNMZVJUalF5VV9pTzRJTUpNUHBPdHJSRHU1aVBybjRwTTZBVHo3eUpLczZvNjRmdm04SlFDaTJXQ1R0VnFVckFyUjVySmhpUnfSAcYBQVVfeXFMT1RBTU5hOFAwNUdMZDNOQ3hNM2JERHdvTnZNSzdHaUM1N0FqYjE1NkI3UVc3X25wT3NpZlJmNktTa0YtZEpZWXNnWkJfUkFrem5kTlBOYkNmalg4WVplS2MzT3F6TFFZQ0k0U05jWVA5dzBFN3dXZGZsd0pHY1ZTTGVSVGpReVVfaU80SU1KTVBwT3RyUkR1NWlQcm40cE02QVR6N3lKS3M2bzY0ZnZtOEpRQ2kyV0NUdFZxVXJBclI1ckpoaVJ3?oc=5",
+          "source": "El Tribuno",
+          "date": "Mon, 26 Oct 2026 18:44:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Legisladores salteños tienen fecha para comenzar a debatir el presupuesto 2027 - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYnlTaHphX2RjOWh1WlRfMm9Ob2otNUFDVzUzQ3R4TUFvamM0cllpc0hyOFZCS0QwVElOU2FRdUdISFpaUkREYVNMQzRDc3V6TzVvOUszampka0dDZ2ZMRzh0ZnZFVlhMcEhfSVY5bmZyOTBzcjFXTUxQalg5U3ExZ0tTZFJqMk9XZXdJZktvUWZVenk3TzhVaG1PcGpJcXFXLWFCU1JuY3lSWVc4c1g3d2Y0aklIdkxnWG91SjhOanl0eUwzZkZUdnZFZVpkdHljaUtYVjctNG9CdnUwcWlXaHZyNHJvNFRwVjRRVVV30gHuAUFVX3lxTE1ieVNoemFfZGM5aHVaVF8yb05vai01QUNXNTNDdHhNQW9qYzRyWWlzSHI4VkJLRDBUSU5TYVF1R0hIWlpSRERhU0xDNENzdXpPNW85SzNqamRrR0NnZkxHOHRmdkVWWExwSF9JVjluZnI5MHNyMVdNTFBqWDlTcTFnS1NkUmoyT1dld0lmS29RZlV6eTdPOFVobU9waklxcVctYUJTUm5jeVJZVzhzWDd3ZjRqSUh2TGdYb3VKOE5qeXR5TDNmRlR2dkVlWmR0eWNpS1hWNy00b0J2dTBxaVdodnI0cm80VHBWNFFVVXc?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 26 Oct 2026 21:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Apoyando a Sáenz, Rosso prevé dejar la intendencia de Güemes y llegar a Diputados - Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObkl0cDBqUlpFVng1dHhUaTZ1VmFjZmpaTjd4dVc5UnZWOFBsRW9sSTdKcS1jejNNR1hzU0N3N0Q5VElIV01jQWRqNnhXLTNqb291cjZjX1Zpbmh0dWgxMHRBaXJrZnYxZzdISXBsM1NGeXMxR0V0dHNnVVlDYVVNQlBQOVJaQ0s0QXN3V05aOE9hWDhwUURxY1pRZG01eFE3N3Fpa2UwLUZyZmdlSkE2VjVEN2hZRkRWdmE4emZsQXlfSWFBaXBZY0RKaTYzNE1sZjh3NjQ0R3B1by1aMFFvaTVEUGFfck3SAfYBQVVfeXFMUE5GcGhlN0NlcWFNZS1wMnlJOFhQX211V3EtbTVialVhallnRTAxc1lLYmRDWTZJOGlybU02WEc5MkV1RDRMR2Y1bkRnMV9DNVUyc1dCcXVvc2k5NUJ3Nk1oSFRrNnR1c1Myc2JsTDQwN0FsYnB2ZFVCQ0Z6UHgtTFZRZkxWSW5lNTZ0ZVp3azI2bVdBZURtdVl2dEc2bk42bmxYX0pIekdlcDNBSjBqWHBqbnpCV3d3bHBqZnVla0t4VTFobkNMamVJS0oxd1J2ZzMyaEZZVzFleUtidFNoVW14ejJuRG82SjBabzlQMkZrUHlpd2FR?oc=5",
@@ -550,34 +578,6 @@
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5hSERhWEM0dG9yWkVCZHlGTnhQVG1paFdXVDFUaTl2dDAwLXhsalY2ZjIyTUVKenZIU1ZNZE56ZHZMY3lWNFBoMA?oc=5",
           "source": "Elintra.com.ar",
           "date": "Sat, 24 Oct 2026 15:58:08 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno provincial llevó el debate al Valle de Lerma y anunció nuevas obras - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNE9OQnlHV3pydW11YU9aVGtUNUxfVkNRTlp3RzVzNXE1MkVIeUJHUDM4NzRIUEo1bkx6OFAyWVRXUlloS2E4T1c2bWk4Zl96NlFtTFRFVmE3alVYRmdCTFhGeHF6dDNBYms4cXlhS0s5QXVCM2VMMUdEaFhsNnduQzhCWVZ3eTR6T19jbHZDU1p5OHlGN01qTExUSWJUajlyUDM5WU1Ed1pPMWMtaHZ5LVM3NWpGTUVodEZvci1Xd2V2SFNyOGE1OFEwcw?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Sat, 24 Oct 2026 17:17:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Nación repartirá $503 mil millones entre provincias, pero Salta no recibiría esos fondos: por qué - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHI1LXk2RkNVYkMtLXpxQ2IxU0M5ZFI2MnI3ZGNzSVY5OFgzYmYxZVJ6MjloeThRX1ZMN3M3UWFpbllGTnhkWDdfMXNuN1NqMVhSZ0E5T3RrdzZnUU1ydm5vODFtWFctNTFTa2l6WWpoclM4MFVuTTFCZ1dQbjRobXJMdFRWZXdjVDhWblBCcC0xd3p4ZHBnTUJQS3N5dFFHWXfSAaIBQVVfeXFMT3RyNS15NkZDVWJDLS16cUNiMVNDOWRSNjJyN2Rjc0lWOThYM2JmMWVSejI5aHk4UV9WTDdzN1FhaW5ZRk54ZFg3XzFzbjdTajFYUmdBOU90a3c2Z1FNcnZubzgxbVhXLTUxU2tpellqaHJTODBVbk0xQmdXUG40aG1yTHRUVmV3Y1Q4Vm5QQnAtMXd6eGRwZ01CUEtzeXRRR1l3?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sat, 19 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Moldes reunió al gabinete: obras, fondos y señales políticas para el 2027 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3RNUkI5TlBQNHp5THdVcFRBUkhvQ2duZGRfbEQ4U0tpNHl6NzZDS2JWRGlVV29sdmtPTnZScFAxM0pLWEp5bFFnWXE2S2pTcnZyemlBVHNiY0JsVnpXVVpkbl9JeDNibkZYNjVYblpKTXlNXzQzcWVIa1M1ckpYb0ZFa09hUmNVT0RWb1RJcHo1UjZkY0FKR0hhQ29qSzJEZXE1U1VyOFlfNERVWTZEUk5kVW0taDY1bXk0cEgtd1dmeUnSAcgBQVVfeXFMUGhWZmJDcXNTLVpxU0JqQ3JtOVVyVmEyWjNsbVpnbF9tTXR1dldrSjZ3bmRfNFVsZWIyd21mMnVEMld2RDROWjhLMDBuM0hfa1BySXVVMUFZNDRudzVsbmNoTmpETy1oTHpFNFBKaFl4RjFyc0JVM1U2bEg3bjUtcVN2ZXB1UDlLX0RBTm5oWkpwbkFMaWlVX2FTWV8wNlZhODdJUmFQdHd5SkRUNk84OVUyMTFxYXFrYnQ2NVd5T1hnTURFNnJqVHM?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 24 Oct 2026 04:06:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Continúa el armado del presupuesto 2027, esta vez en el Valle de Lerma - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNME5OaTBXWlRCQlYzcXoxYk5wMUpxc3dWa2lBZ0NvYXd2djRXNF9oSFUwMXdyRkdLVDJ6dFczSHFoNmF1X0kzVUhYVHVzaHBTZHJUVXl1QTl5Tjh2Z2d5TU5NTERUaU1IdjhkX0dIMFVOT2hJU0NrcWd0YnJuMFdFSnhfVlpjTTN5akpTYWhnTmZSRlFYS3RvQjZIalVnSWkyMndKSndXN05rRGFhdkZvSVlYMDI0LUw2cl9POV9ZZjV2eGtZSTVwOTdNYUdHdzRs0gHfAUFVX3lxTE5Zeml0bkR0a21CYUdWUGJtZkFYdUo0enU0YmV2YUNKNkZuWVl6cDRmSmZGd0otQnN0ZjZkR0dWdDZ4Rkt0dU9FcXRSaVhRN1lsYk5rYloxTkxxN3ZzLUNtTjhVOGpCOEhmaVJLLWp4UlFHZUlicHJsRUcwb3NpVDVDeldYTUYzZnZEeHhxLW1zQ0NfeGlIWnVfYlM4eDRGb2dPT1RUYi11czhYTlF2RW5DdkJqbHl1NFZhM2RralpEN2QyellXcllBZXlWOWpwR3dPMWtRNEFQM1pvenVsdlk?oc=5",
-          "source": "Informate Salta",
-          "date": "Fri, 23 Oct 2026 22:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
