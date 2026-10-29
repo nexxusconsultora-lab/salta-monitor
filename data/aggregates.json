@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-28T23:37:13.971885+00:00",
+  "generated_at": "2026-10-29T02:53:21.199352+00:00",
   "by_politician": {
     "eje-cristina-fiore": {
-      "total": 49,
+      "total": 50,
       "positivo": 2,
       "negativo": 13,
-      "neutral": 34,
+      "neutral": 35,
       "score_sum": -35
+    },
+    "eje-ignacio-jarsun": {
+      "total": 38,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 28,
+      "score_sum": 8
+    },
+    "snac-emilia-orozco": {
+      "total": 91,
+      "positivo": 9,
+      "negativo": 16,
+      "neutral": 66,
+      "score_sum": -15
     },
     "eje-mario-mimessi": {
       "total": 33,
@@ -169,13 +183,6 @@
       "neutral": 18,
       "score_sum": 0
     },
-    "snac-emilia-orozco": {
-      "total": 90,
-      "positivo": 9,
-      "negativo": 15,
-      "neutral": 66,
-      "score_sum": -13
-    },
     "dnac-pablo-outes": {
       "total": 23,
       "positivo": 0,
@@ -245,13 +252,6 @@
       "negativo": 9,
       "neutral": 32,
       "score_sum": -15
-    },
-    "eje-ignacio-jarsun": {
-      "total": 37,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 27,
-      "score_sum": 8
     },
     "concejal-jose-garcia-alcazar": {
       "total": 35,
@@ -934,6 +934,48 @@
     }
   },
   "by_day": {
+    "2025-03-05": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-09-16": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-25": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-09-24": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -1458,16 +1500,6 @@
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2025-03-05": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-08-27": {
@@ -2872,20 +2904,6 @@
         "score_sum": -2
       },
       "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-25": {
-      "sen-roque-cornejo-avellaneda": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
       }
@@ -8758,12 +8776,6 @@
     },
     "2016-05-18": {
       "sen-esteban-dandrea-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-09-16": {
-      "concejal-jose-garcia-alcazar": {
         "total": 1,
         "score_sum": 0
       }
@@ -17298,50 +17310,38 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 21
+      "count": 19
     },
     {
       "term": "sáenz",
-      "count": 14
-    },
-    {
-      "term": "gustavo",
-      "count": 9
+      "count": 10
     },
     {
       "term": "emilia",
-      "count": 9
-    },
-    {
-      "term": "orozco",
-      "count": 9
-    },
-    {
-      "term": "pablo",
-      "count": 7
-    },
-    {
-      "term": "gobernador",
       "count": 6
     },
     {
-      "term": "lópez",
-      "count": 5
+      "term": "orozco",
+      "count": 6
     },
     {
       "term": "cristina",
-      "count": 4
+      "count": 5
     },
     {
       "term": "fiore",
-      "count": 4
+      "count": 5
+    },
+    {
+      "term": "pablo",
+      "count": 5
+    },
+    {
+      "term": "gustavo",
+      "count": 5
     },
     {
       "term": "dicen",
-      "count": 4
-    },
-    {
-      "term": "sergio",
       "count": 4
     },
     {
@@ -17355,6 +17355,18 @@
     {
       "term": "pidió",
       "count": 4
+    },
+    {
+      "term": "contra",
+      "count": 3
+    },
+    {
+      "term": "escuela",
+      "count": 3
+    },
+    {
+      "term": "fantasma",
+      "count": 3
     }
   ],
   "comentions": [
