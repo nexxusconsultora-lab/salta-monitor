@@ -9,7 +9,12 @@ from datetime import datetime, timezone
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 OUT = os.path.join(DATA, "macro_mundo.json")
-UA = "Mozilla/5.0 (compatible; NEWAR/1.0)"
+UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+WB = "https://api.worldbank.org/v2/country/{p}/indicator/{i}?format=json&per_page=20000&date=2012:2030"
+# Equivalencias del Banco Mundial (solo datos observados, sin proyecciones). PCPIEPCH no tiene equivalente.
+WBMAP = {"NGDP_RPCH": "NY.GDP.MKTP.KD.ZG", "PCPIPCH": "FP.CPI.TOTL.ZG", "LUR": "SL.UEM.TOTL.ZS",
+         "BCA_NGDPD": "BN.CAB.XOKA.GD.ZS", "GGXWDG_NGDP": "GC.DOD.TOTL.GD.ZS",
+         "GGXCNL_NGDP": "GC.BAL.CASH.GD.ZS", "NGDPDPC": "NY.GDP.PCAP.CD"}
 BASE = "https://www.imf.org/external/datamapper/api/v1"
 
 INDICADORES = {
@@ -38,7 +43,7 @@ PAISES = {
 
 
 def get_json(url, t=30):
-    rq = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    rq = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9", "Referer": "https://www.imf.org/external/datamapper/"})
     with urllib.request.urlopen(rq, timeout=t) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -57,6 +62,24 @@ def pide(ind):
     return {}, err
 
 
+def pide_wb(ind):
+    """Respaldo: Banco Mundial (observados; sin proyecciones)."""
+    cod = WBMAP.get(ind)
+    if not cod:
+        return {}, "sin equivalente en Banco Mundial"
+    try:
+        j = get_json(WB.format(p=";".join(PAISES), i=cod), 60)
+        filas = j[1] if isinstance(j, list) and len(j) > 1 and j[1] else []
+        out = {}
+        for f in filas:
+            iso, v = f.get("countryiso3code"), f.get("value")
+            if iso in PAISES and isinstance(v, (int, float)):
+                out.setdefault(iso, {})[str(f.get("date"))] = round(v, 2)
+        return out, (None if out else "sin datos")
+    except Exception as ex:  # noqa: BLE001
+        return {}, str(ex)[:140]
+
+
 def main():
     try:
         previo = json.load(open(OUT, encoding="utf-8"))
@@ -64,21 +87,30 @@ def main():
         previo = {}
     ahora = datetime.now(timezone.utc)
     valores, estado = dict(previo.get("valores") or {}), {}
+    fuentes = dict(previo.get("fuentes") or {})
     for ind in INDICADORES:
         v, err = pide(ind)
+        fuente = "FMI"
+        if not v:
+            v2, err2 = pide_wb(ind)
+            if v2:
+                v, fuente = v2, "Banco Mundial"
+            else:
+                err = f"FMI: {err} | BM: {err2}"
         if v:
             valores[ind] = v
-            estado[ind] = {"ok": True, "paises": len(v)}
+            fuentes[ind] = fuente
+            estado[ind] = {"ok": True, "paises": len(v), "fuente": fuente}
         else:
             estado[ind] = {"ok": False, "message": err}
         time.sleep(0.5)
     ok = sum(1 for e in estado.values() if e["ok"])
     out = {"generado": ahora.isoformat(), "anio_actual": ahora.year,
            "fuente": "FMI · World Economic Outlook (DataMapper)",
-           "nota": "Datos observados y proyecciones del FMI. Los años desde el actual en adelante son proyecciones. El FMI actualiza el WEO en abril y octubre (con actualizaciones en enero y julio).",
+           "nota": "Datos del FMI (observados y proyecciones) y, si la API del FMI no responde, del Banco Mundial (solo observados, sin proyecciones). Los años desde el actual en adelante son proyecciones. El FMI actualiza el WEO en abril y octubre (con actualizaciones en enero y julio).",
            "indicadores": {k: {"t": t, "u": u} for k, (t, u) in INDICADORES.items()},
            "paises": {k: {"n": n, "r": r} for k, (n, r) in PAISES.items()},
-           "valores": valores, "estado": estado}
+           "fuentes": fuentes, "valores": valores, "estado": estado}
     if ok == 0 and previo:
         previo["estado"] = estado
         previo["error_ultima_corrida"] = ahora.isoformat()
