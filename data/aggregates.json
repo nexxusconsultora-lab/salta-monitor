@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-29T12:22:44.045293+00:00",
+  "generated_at": "2026-10-29T16:16:08.797217+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 51,
+      "positivo": 3,
+      "negativo": 13,
+      "neutral": 35,
+      "score_sum": -34
+    },
+    "eje-gustavo-carrizo": {
+      "total": 6,
+      "positivo": 2,
+      "negativo": 0,
+      "neutral": 4,
+      "score_sum": 16
+    },
+    "dnac-julio-moreno-ovalle": {
+      "total": 5,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 4,
+      "score_sum": -2
+    },
+    "gustavo-saenz": {
+      "total": 394,
+      "positivo": 99,
+      "negativo": 59,
+      "neutral": 236,
+      "score_sum": 168
+    },
     "eje-ana-paula-benavides": {
       "total": 18,
       "positivo": 0,
@@ -50,13 +78,6 @@
       "neutral": 67,
       "score_sum": -15
     },
-    "gustavo-saenz": {
-      "total": 391,
-      "positivo": 99,
-      "negativo": 59,
-      "neutral": 233,
-      "score_sum": 168
-    },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 8,
       "positivo": 3,
@@ -70,13 +91,6 @@
       "negativo": 9,
       "neutral": 33,
       "score_sum": -15
-    },
-    "eje-cristina-fiore": {
-      "total": 50,
-      "positivo": 2,
-      "negativo": 13,
-      "neutral": 35,
-      "score_sum": -35
     },
     "eje-ignacio-jarsun": {
       "total": 38,
@@ -161,13 +175,6 @@
       "negativo": 9,
       "neutral": 43,
       "score_sum": -20
-    },
-    "dnac-julio-moreno-ovalle": {
-      "total": 4,
-      "positivo": 0,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 0
     },
     "dip-monica-gabriela-juarez": {
       "total": 54,
@@ -525,13 +532,6 @@
       "negativo": 1,
       "neutral": 10,
       "score_sum": 1
-    },
-    "eje-gustavo-carrizo": {
-      "total": 5,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 12
     },
     "sen-jorge-soto": {
       "total": 44,
@@ -934,6 +934,28 @@
     }
   },
   "by_day": {
+    "2026-10-29": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-gustavo-carrizo": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "dnac-julio-moreno-ovalle": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "concejal-eliana-del-valle-chuchuy": {
+        "total": 1,
+        "score_sum": -3
+      }
+    },
     "2023-03-16": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -1082,12 +1104,6 @@
       "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-29": {
-      "concejal-eliana-del-valle-chuchuy": {
-        "total": 1,
-        "score_sum": -3
       }
     },
     "2024-05-08": {
@@ -17374,14 +17390,14 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 22
+      "count": 19
     },
     {
       "term": "sáenz",
-      "count": 9
+      "count": 12
     },
     {
-      "term": "pablo",
+      "term": "gustavo",
       "count": 6
     },
     {
@@ -17393,15 +17409,11 @@
       "count": 5
     },
     {
+      "term": "pablo",
+      "count": 5
+    },
+    {
       "term": "lópez",
-      "count": 5
-    },
-    {
-      "term": "emilia",
-      "count": 5
-    },
-    {
-      "term": "orozco",
       "count": 5
     },
     {
@@ -17411,6 +17423,14 @@
     {
       "term": "fiore",
       "count": 5
+    },
+    {
+      "term": "moreno",
+      "count": 4
+    },
+    {
+      "term": "ruta",
+      "count": 4
     },
     {
       "term": "flavia",
@@ -17426,10 +17446,6 @@
     },
     {
       "term": "germán",
-      "count": 4
-    },
-    {
-      "term": "rallé",
       "count": 4
     }
   ],
