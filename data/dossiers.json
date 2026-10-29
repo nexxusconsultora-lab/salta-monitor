@@ -31165,13 +31165,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 9,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "2026-09-29": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-27": {
         "total": 1,
         "score_sum": 0
@@ -31312,11 +31316,15 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 9
+        "count": 10
       },
       {
         "term": "federico",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "elintra",
+        "count": 4
       },
       {
         "term": "salud",
@@ -31327,8 +31335,8 @@
         "count": 3
       },
       {
-        "term": "elintra",
-        "count": 3
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "anestesistas",
@@ -31336,10 +31344,6 @@
       },
       {
         "term": "ministro",
-        "count": 2
-      },
-      {
-        "term": "está",
         "count": 2
       }
     ],
@@ -31420,6 +31424,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Juan José Esteban contra Federico Mangione por los suicidios en Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JSHJVb0dvMXg0eVltUmtxLVpTNnltVmJxWVRpRGU5d2s4YmJ5cjdFaEVncl9hZkQyenF0bTdwNWtweXMtcXZ4T3RJWVlKNWk0bEtQUVF5T3BFdnVsTFZDeTBfM1RvVHZHY2c?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 29 Sep 2026 15:04:57 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sigue el paro de anestesistas: solo cubren urgencias y Salud podría recurrir a la Justicia",
         "link": "https://www.eltribuno.com/salta/2026-10-27-0-0-0-sigue-el-paro-de-anestesistas-solo-cubren-urgencias-y-salud-podria-recurrir-a-la-justicia",
@@ -31622,13 +31633,6 @@
         "source": "Informate Salta",
         "date": "Mon, 12 Oct 2026 16:30:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Asumió el nuevo ministro de Salud, Federico Mangione - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0N2d1VjZXNFejQ3ZjUySXJtMzVZeHVaaWpYQkloWld5a1NqSUFLa25zNFU4Tmd1cmN6MUpaQkdKOXdFMjhEdVc0NV9NTGVhZENWNTZPbkphc1NSUW1XVkhzWnZITVVfNjVxQVRpTndBS01QMzZyQjBUUEZKaDRfa3dXOGZDb0pJYlZ0amY4RmV2cEVKQUYtQzQyd3QxSjNwVDZ3?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 26 Dec 2022 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -33118,13 +33122,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 16,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 15
+      "neutral": 16
     },
     "sentiment_by_day": {
+      "2024-05-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-04-10": {
         "total": 1,
         "score_sum": -2
@@ -33185,11 +33193,11 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 2
+        "count": 3
       },
       {
         "term": "benavides",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -33218,6 +33226,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Ana Paula Benavides - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ua3UyQVRGaHBKLXZGVUlyUzBGZWhLLUlIWTNJLXZ2V0FOZ0dIdmd4Z3Q1VHl6U1FkeFFsTzZEMGhBaFRfNzhUTDNVTmJ4Q25UeHUzaUVILVZhaUtrSjVB?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 08 May 2024 04:55:23 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Paula Benavides criticó al Gobierno nacional y apuntó contra Gabriela Flores - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOV9sRUxIdHI5ZmFJM2dnNk52XzRrLWxRZm53QWVPZDJGamVpNDUxSWlZRnA0NWNJcHRUaTZTeXE2eXpBTEdpSzRFeWMxVkZmNXYxWVJwZmRfRVR3Y3hzTHAzQ3VpTlJLTWl1TTNZUkFOUzFPM2s2SHM4QTRWbTJfTTluZTloSEhueUJ2UW5XazVneE1oMHkzWHlEVUJSVUZXazk4OVZOcXlYU2NmSmNPYQ?oc=5",

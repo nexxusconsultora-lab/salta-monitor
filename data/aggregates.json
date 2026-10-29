@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-29T02:53:21.199352+00:00",
+  "generated_at": "2026-10-29T09:14:02.310073+00:00",
   "by_politician": {
+    "eje-ana-paula-benavides": {
+      "total": 17,
+      "positivo": 0,
+      "negativo": 1,
+      "neutral": 16,
+      "score_sum": -2
+    },
+    "eje-federico-mangione": {
+      "total": 46,
+      "positivo": 4,
+      "negativo": 9,
+      "neutral": 33,
+      "score_sum": -15
+    },
     "eje-cristina-fiore": {
       "total": 50,
       "positivo": 2,
@@ -246,13 +260,6 @@
       "neutral": 30,
       "score_sum": -16
     },
-    "eje-federico-mangione": {
-      "total": 45,
-      "positivo": 4,
-      "negativo": 9,
-      "neutral": 32,
-      "score_sum": -15
-    },
     "concejal-jose-garcia-alcazar": {
       "total": 35,
       "positivo": 0,
@@ -343,13 +350,6 @@
       "negativo": 2,
       "neutral": 4,
       "score_sum": -3
-    },
-    "eje-ana-paula-benavides": {
-      "total": 16,
-      "positivo": 0,
-      "negativo": 1,
-      "neutral": 15,
-      "score_sum": -2
     },
     "dnac-maria-gabriela-flores": {
       "total": 23,
@@ -934,6 +934,102 @@
     }
   },
   "by_day": {
+    "2024-05-08": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-09-29": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dnac-bernardo-biella": {
+        "total": 3,
+        "score_sum": 2
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": -1
+      }
+    },
     "2025-03-05": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -5098,44 +5194,6 @@
         "score_sum": 0
       }
     },
-    "2024-05-08": {
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-06-25": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -8508,56 +8566,6 @@
       "dip-gustavo-orlando-orozco": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-09-29": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "dnac-bernardo-biella": {
-        "total": 3,
-        "score_sum": 2
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": -1
       }
     },
     "2026-08-03": {
@@ -17310,19 +17318,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 19
+      "count": 16
     },
     {
       "term": "sáenz",
-      "count": 10
-    },
-    {
-      "term": "emilia",
-      "count": 6
-    },
-    {
-      "term": "orozco",
-      "count": 6
+      "count": 8
     },
     {
       "term": "cristina",
@@ -17333,23 +17333,23 @@
       "count": 5
     },
     {
+      "term": "contra",
+      "count": 4
+    },
+    {
+      "term": "emilia",
+      "count": 4
+    },
+    {
+      "term": "orozco",
+      "count": 4
+    },
+    {
       "term": "pablo",
-      "count": 5
+      "count": 4
     },
     {
       "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "dicen",
-      "count": 4
-    },
-    {
-      "term": "nuevo",
-      "count": 4
-    },
-    {
-      "term": "diario",
       "count": 4
     },
     {
@@ -17357,15 +17357,23 @@
       "count": 4
     },
     {
-      "term": "contra",
-      "count": 3
-    },
-    {
       "term": "escuela",
       "count": 3
     },
     {
       "term": "fantasma",
+      "count": 3
+    },
+    {
+      "term": "dicen",
+      "count": 3
+    },
+    {
+      "term": "voces",
+      "count": 3
+    },
+    {
+      "term": "criticas",
       "count": 3
     }
   ],
