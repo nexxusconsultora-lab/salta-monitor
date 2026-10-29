@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-10-29T09:14:02.310073+00:00",
+  "generated_at": "2026-10-29T12:11:21.993689+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 36,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 30,
+      "score_sum": -8
+    },
+    "dip-jose-miguel-gauffin": {
+      "total": 30,
+      "positivo": 0,
+      "negativo": 5,
+      "neutral": 25,
+      "score_sum": -8
+    },
+    "dip-german-dario-ralle": {
+      "total": 22,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 18,
+      "score_sum": -2
+    },
+    "concejal-eliana-del-valle-chuchuy": {
+      "total": 8,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 4,
+      "score_sum": 5
+    },
     "eje-ana-paula-benavides": {
       "total": 17,
       "positivo": 0,
@@ -190,26 +218,12 @@
       "neutral": 8,
       "score_sum": -6
     },
-    "dip-german-dario-ralle": {
-      "total": 21,
-      "positivo": 2,
-      "negativo": 1,
-      "neutral": 18,
-      "score_sum": 0
-    },
     "dnac-pablo-outes": {
       "total": 23,
       "positivo": 0,
       "negativo": 2,
       "neutral": 21,
       "score_sum": -4
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 35,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 29,
-      "score_sum": -8
     },
     "dip-patricio-penalba-arias": {
       "total": 12,
@@ -231,13 +245,6 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": 35
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 29,
-      "positivo": 0,
-      "negativo": 5,
-      "neutral": 24,
-      "score_sum": -8
     },
     "dnac-yolanda-vega": {
       "total": 14,
@@ -266,13 +273,6 @@
       "negativo": 10,
       "neutral": 25,
       "score_sum": -24
-    },
-    "concejal-eliana-del-valle-chuchuy": {
-      "total": 7,
-      "positivo": 3,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 8
     },
     "eje-oriana-nevora": {
       "total": 14,
@@ -934,6 +934,46 @@
     }
   },
   "by_day": {
+    "2026-10-18": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 1
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
+    "2024-10-02": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-09-30": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-10-29": {
+      "concejal-eliana-del-valle-chuchuy": {
+        "total": 1,
+        "score_sum": -3
+      }
+    },
     "2024-05-08": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -4326,20 +4366,6 @@
         "score_sum": 0
       }
     },
-    "2026-10-18": {
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 1
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
-      }
-    },
     "2025-08-18": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -6150,12 +6176,6 @@
         "score_sum": 0
       },
       "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-10-02": {
-      "dip-griselda-edith-galleguillos": {
         "total": 1,
         "score_sum": 0
       }
@@ -17318,7 +17338,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 16
+      "count": 18
     },
     {
       "term": "sáenz",
@@ -17357,23 +17377,23 @@
       "count": 4
     },
     {
-      "term": "escuela",
+      "term": "carlos",
       "count": 3
     },
     {
-      "term": "fantasma",
+      "term": "zapata",
       "count": 3
     },
     {
-      "term": "dicen",
+      "term": "diputado",
       "count": 3
     },
     {
-      "term": "voces",
+      "term": "está",
       "count": 3
     },
     {
-      "term": "criticas",
+      "term": "germán",
       "count": 3
     }
   ],
