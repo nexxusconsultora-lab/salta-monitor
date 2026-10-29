@@ -15,6 +15,7 @@ if(typeof V==='undefined'||typeof TABS==='undefined')return;
 const H=36e5,DAY=864e5,LS='newar_briefing_abiertas';
 const esc2=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fo=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const MQC={};const mq=q=>{q=String(q||'');if(MQC[q])return MQC[q];const f=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(),re=w=>new RegExp('(^|[^a-z0-9])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'(?![a-z0-9])'),inc=[],exc=[];(q.match(/-?"[^"]*"|\S+/g)||[]).forEach(t=>{const neg=t.length>1&&t[0]==='-';if(neg)t=t.slice(1);const fr=/^".*"$/.test(t);t=f(t.replace(/"/g,'')).trim();if(!t)return;const alts=(!fr&&t.includes('|'))?t.split('|').filter(Boolean):[t];(neg?exc:inc).push(alts.map(w=>(fr||w.length>3)?{s:w}:{r:re(w)}))});const ok=(h,a)=>a.some(w=>w.s!==undefined?h.includes(w.s):w.r.test(h));return MQC[q]=txt=>{const h=f(txt);return inc.every(a=>ok(h,a))&&!exc.some(a=>ok(h,a))}};
 const url=u=>/^https?:\/\//i.test(u||'')?u:'#';
 const nf=n=>Number(n).toLocaleString('es-AR');
 const cut=(s,n)=>{s=String(s);return s.length>n?s.slice(0,n-1)+'…':s};
@@ -80,7 +81,7 @@ function agrupa(items,TH){TH=TH||.3;
 /* ---------- Datos de la ventana ---------- */
 const LSV='newar_briefing_visto';let VISTO0=0;try{VISTO0=+localStorage.getItem(LSV)||0}catch(e){}
 const ST={h:48,amb:'',tema:'',per:'',q:'',deportes:0};
-const filtra=c=>(!ST.tema||c.tema===ST.tema)&&(!ST.per||c.pers.includes(ST.per))&&(!ST.q||c.items.some(x=>fo(x.t).includes(fo(ST.q))));
+const filtra=c=>(!ST.tema||c.tema===ST.tema)&&(!ST.per||c.pers.includes(ST.per))&&(!ST.q||c.items.some(x=>mq(ST.q)(x.t)));
 let CACHE=null;
 function base(){
  const raw=S.news||[],ahora=Date.now();let tmax=0;
@@ -222,7 +223,7 @@ async function pinta(){
  try{if(d.tmax>VISTO0)localStorage.setItem(LSV,String(d.tmax))}catch(e){}
  el.innerHTML=
  `<p class="lede">Lo más importante de las últimas ${ST.h} horas <b>de datos</b> (hasta ${esc2(fh(d.tmax))})${viejo?`: el recolector no trae notas más nuevas, por eso el resumen no llega a hoy`:''}. Las notas que cuentan lo mismo se agrupan en una historia.</p>
- <div class="tb">${seg('h',[[24,'24 h'],[48,'48 h'],[168,'7 días']])}${seg('amb',[['','Todo'],['sal','Salta'],['nac','Nación']])}<label class="i" style="display:inline-flex;gap:.35rem;align-items:center;font-size:.85rem"><input type="checkbox" data-brf-dep ${ST.deportes?'checked':''}> Incluir deportes y espectáculos</label><button type="button" class="cp" data-brf-copy>Copiar resumen</button><button type="button" class="cp" data-brf-print>Imprimir informe</button><input type="search" id="brfq" class="bq" placeholder="Buscar palabra en los títulos…" aria-label="Buscar palabra en los títulos" value="${esc2(ST.q)}"></div>
+ <div class="tb">${seg('h',[[24,'24 h'],[48,'48 h'],[168,'7 días']])}${seg('amb',[['','Todo'],['sal','Salta'],['nac','Nación']])}<label class="i" style="display:inline-flex;gap:.35rem;align-items:center;font-size:.85rem"><input type="checkbox" data-brf-dep ${ST.deportes?'checked':''}> Incluir deportes y espectáculos</label><button type="button" class="cp" data-brf-copy>Copiar resumen</button><button type="button" class="cp" data-brf-print>Imprimir informe</button><input type="search" id="brfq" class="bq" placeholder="Buscar en los títulos… (\"frase\", -excluir, a|b)" aria-label="Buscar palabra en los títulos" value="${esc2(ST.q)}"></div>
  <div class="tb chips" role="group" aria-label="Filtrar por tema o persona"><span class="nota" style="margin:0">Filtrar:</span><button type="button" data-brf="tema:" aria-pressed="${!ST.tema}">Todos los temas</button>${temas.map(x=>`<button type="button" data-brf="tema:${esc2(x[0])}" aria-pressed="${ST.tema===x[0]}">${esc2(x[0])}</button>`).join('')}${ST.per?`<button type="button" data-brf="per:" aria-pressed="true" title="Quitar filtro de persona">Persona: ${esc2(ST.per)} ✕</button>`:''}</div>
  ${VISTO0?(nuevas?`<p class="nota nv"><b>${nf(nuevas)}</b> nota${nuevas===1?'':'s'} nueva${nuevas===1?'':'s'} desde tu última visita (${esc2(fh(VISTO0))}).</p>`:`<p class="nota nv">No hay notas nuevas desde tu última visita (${esc2(fh(VISTO0))}).</p>`):''}
  <div class="kp"><div><b>${nf(d.items.length)}</b><span>notas${d.prev.ok?dlt(d.items.length,d.prev.n):''}</span></div><div><b>${nf(d.cl.length)}</b><span>historias</span></div><div><b>${nf(medios.size)}</b><span>medios</span></div><div><b>${d.items.length?Math.round(pS/d.items.length*100):0}%</b><span>de Salta</span></div><div><b>${nf(d.cl.filter(x=>x.cruce).length)}</b><span>en Nación y Salta</span></div></div>
