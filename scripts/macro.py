@@ -12,9 +12,11 @@ OUT = os.path.join(DATA, "macro_mundo.json")
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 WB = "https://api.worldbank.org/v2/country/{p}/indicator/{i}?format=json&per_page=20000&date=2012:2030"
 # Equivalencias del Banco Mundial (solo datos observados, sin proyecciones). PCPIEPCH no tiene equivalente.
+WBTIT = {"GGXWDG_NGDP": "Deuda del gobierno central (% del PBI)", "GGXCNL_NGDP": "Resultado fiscal del gobierno central (% del PBI)",
+         "LUR": "Desempleo (estimación OIT)"}
 WBMAP = {"NGDP_RPCH": "NY.GDP.MKTP.KD.ZG", "PCPIPCH": "FP.CPI.TOTL.ZG", "LUR": "SL.UEM.TOTL.ZS",
          "BCA_NGDPD": "BN.CAB.XOKA.GD.ZS", "GGXWDG_NGDP": "GC.DOD.TOTL.GD.ZS",
-         "GGXCNL_NGDP": "GC.BAL.CASH.GD.ZS", "NGDPDPC": "NY.GDP.PCAP.CD"}
+         "GGXCNL_NGDP": ["GC.NLD.TOTL.GD.ZS", "GC.BAL.CASH.GD.ZS"], "NGDPDPC": "NY.GDP.PCAP.CD"}
 BASE = "https://www.imf.org/external/datamapper/api/v1"
 
 INDICADORES = {
@@ -64,20 +66,26 @@ def pide(ind):
 
 def pide_wb(ind):
     """Respaldo: Banco Mundial (observados; sin proyecciones)."""
-    cod = WBMAP.get(ind)
-    if not cod:
+    cods = WBMAP.get(ind)
+    if not cods:
         return {}, "sin equivalente en Banco Mundial"
-    try:
-        j = get_json(WB.format(p=";".join(PAISES), i=cod), 60)
-        filas = j[1] if isinstance(j, list) and len(j) > 1 and j[1] else []
-        out = {}
-        for f in filas:
-            iso, v = f.get("countryiso3code"), f.get("value")
-            if iso in PAISES and isinstance(v, (int, float)):
-                out.setdefault(iso, {})[str(f.get("date"))] = round(v, 2)
-        return out, (None if out else "sin datos")
-    except Exception as ex:  # noqa: BLE001
-        return {}, str(ex)[:140]
+    if isinstance(cods, str):
+        cods = [cods]
+    err = "sin datos"
+    for cod in cods:
+        try:
+            j = get_json(WB.format(p=";".join(PAISES), i=cod), 60)
+            filas = j[1] if isinstance(j, list) and len(j) > 1 and j[1] else []
+            out = {}
+            for f in filas:
+                iso, v = f.get("countryiso3code"), f.get("value")
+                if iso in PAISES and isinstance(v, (int, float)):
+                    out.setdefault(iso, {})[str(f.get("date"))] = round(v, 2)
+            if len(out) >= 10:
+                return out, None
+        except Exception as ex:  # noqa: BLE001
+            err = str(ex)[:140]
+    return {}, err
 
 
 def main():
@@ -108,7 +116,7 @@ def main():
     out = {"generado": ahora.isoformat(), "anio_actual": ahora.year,
            "fuente": "FMI · World Economic Outlook (DataMapper)",
            "nota": "Datos del FMI (observados y proyecciones) y, si la API del FMI no responde, del Banco Mundial (solo observados, sin proyecciones). Los años desde el actual en adelante son proyecciones. El FMI actualiza el WEO en abril y octubre (con actualizaciones en enero y julio).",
-           "indicadores": {k: {"t": t, "u": u} for k, (t, u) in INDICADORES.items()},
+           "indicadores": {k: {"t": (WBTIT.get(k, t) if fuentes.get(k) == "Banco Mundial" else t), "u": u} for k, (t, u) in INDICADORES.items()},
            "paises": {k: {"n": n, "r": r} for k, (n, r) in PAISES.items()},
            "fuentes": fuentes, "valores": valores, "estado": estado}
     if ok == 0 and previo:
