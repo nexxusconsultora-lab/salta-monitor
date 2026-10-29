@@ -36,6 +36,40 @@ def fold(s):
     return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
 
 
+def sin_tildes(s):
+    s = unicodedata.normalize("NFD", str(s or ""))
+    return "".join(c for c in s if unicodedata.category(c) != "Mn")
+
+
+AMBIGUAS = {"GRADE", "FIEL", "CERES", "DANE", "CAME", "CAEM", "IEP", "ONS", "REM", "CAF", "BID", "UCA"}
+
+
+def armar_alias(f):
+    """Patrones de reconocimiento, siempre como palabra entera (así 'ONS' no coincide con 'acciones' ni 'UCA' con 'educación').
+    Siglas de hasta 3 letras y las ambiguas (GRADE, FIEL, DANE, CERES…) exigen las mayúsculas exactas; las demás siglas
+    aceptan también 'Indec' o 'Cepa'. Los nombres normales van sin distinguir mayúsculas ni tildes."""
+    pats = []
+    for a in (f.get("alias") or [f["nombre"]]):
+        a = str(a or "").strip()
+        if not a:
+            continue
+        plano = sin_tildes(a)
+        sigla = len(a) <= 5 and a.upper() == a and any(c.isalpha() for c in a)
+        lim = (r"(?<![A-Za-z0-9])", r"(?![A-Za-z0-9])")
+        if sigla and (len(a) <= 3 or a in AMBIGUAS):
+            pats.append(("S", re.compile(lim[0] + re.escape(plano) + lim[1])))
+        elif sigla:
+            pats.append(("S", re.compile(lim[0] + "(?:" + re.escape(plano) + "|" + re.escape(plano.capitalize()) + ")" + lim[1])))
+        else:
+            pats.append(("N", re.compile(r"(?<![a-z0-9])" + re.escape(fold(a)) + r"(?![a-z0-9])")))
+    return pats
+
+
+def nombra(pats, texto):
+    plano = sin_tildes(texto)
+    bajo = plano.lower()
+    return any(p.search(plano if tipo == "S" else bajo) for tipo, p in pats)
+
 def limpia(t):
     import html
     t = html.unescape(str(t or ""))
@@ -91,6 +125,11 @@ def main():
         viejas = json.load(open(OUT, encoding="utf-8")).get("items", [])
     except Exception:
         viejas = []
+    # Re-filtra lo ya guardado con la regla actual (palabra entera): saca falsos positivos de corridas anteriores.
+    pat_por_id = {f["id"]: armar_alias(f) for f in fuentes}
+    antes = len(viejas)
+    viejas = [x for x in viejas if x.get("via") != "google_news" or nombra(pat_por_id.get(x.get("fuente"), []), x.get("title", ""))]
+    quitadas = antes - len(viejas)
     vistos = {x.get("id") for x in viejas}
     ahora = datetime.now(timezone.utc).isoformat()
 
@@ -102,9 +141,25 @@ def main():
             res["rss"] += ents[:20]
             if err:
                 res["err"] = err
-        ents, err = leer(gn(f.get("busca") or f'"{f["nombre"]}"', es))
-        res["gn"] = ents[:POR_BUSQUEDA * 3]
-        if err and not res["rss"]:
+        pats_f = armar_alias(f)
+        base = re.sub(r"[()&\"]", " ", f["nombre"])
+        base = re.sub(r"\s+", " ", base).strip()
+        # Consulta propia primero; si no trae notas que nombren a la fuente, se prueban respaldos más simples.
+        consultas = [f.get("busca") or '"%s"' % base, '"%s"' % base, base]
+        vistas_q, todos, err = set(), [], None
+        for q in consultas:
+            if q in vistas_q:
+                continue
+            vistas_q.add(q)
+            for ed in ((es, not es) if len(vistas_q) == 3 else (es,)):
+                ents, e2 = leer(gn(q, ed))
+                err = e2 or err
+                todos += ents[:POR_BUSQUEDA * 3]
+            utiles = sum(1 for e in todos if nombra(pats_f, re.sub(r"\s+-\s+[^-]{2,40}$", "", limpia(e.get("title", "")))))
+            if utiles >= 3:
+                break
+        res["gn"] = todos
+        if err and not res["rss"] and not todos:
             res["err"] = err
         return res
 
@@ -113,7 +168,7 @@ def main():
 
     estado, nuevas = {}, 0
     for f, r in zip(fuentes, res):
-        alias = [fold(a) for a in (f.get("alias") or [f["nombre"]])]
+        pats = armar_alias(f)
         n_f = 0
         for e in r["rss"]:
             link, tit = e.get("link", ""), limpia(e.get("title", ""))
@@ -136,7 +191,7 @@ def main():
             tit2 = re.sub(r"\s+-\s+[^-]{2,40}$", "", tit)
             if not link or not tit2:
                 continue
-            if not any(a and a in fold(tit2) for a in alias):
+            if not nombra(pats, tit2):
                 continue
             clave = re.sub(r"\W+", "", tit2.lower())[:90]
             i = hashlib.sha256(("C|%s|%s" % (f["id"], clave)).encode()).hexdigest()[:16]
@@ -157,7 +212,7 @@ def main():
     viejas = viejas[:MAX_GUARDADAS]
     json.dump({"generado": ahora, "items": viejas, "estado": estado}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     bien = sum(1 for v in estado.values() if v["ok"])
-    print(f"Fuentes con respuesta: {bien} de {len(estado)} · notas nuevas: {nuevas} · guardadas: {len(viejas)}")
+    print(f"Fuentes con respuesta: {bien} de {len(estado)} · notas nuevas: {nuevas} · falsos positivos quitados: {quitadas} · guardadas: {len(viejas)}")
 
 
 if __name__ == "__main__":
