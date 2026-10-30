@@ -1883,13 +1883,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 63,
+    "total_mentions": 64,
     "sentiment_breakdown": {
-      "positivo": 6,
+      "positivo": 7,
       "negativo": 10,
       "neutral": 47
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-10-29": {
         "total": 1,
         "score_sum": 3
@@ -2105,6 +2109,14 @@
         "count": 3
       },
       {
+        "term": "senado",
+        "count": 2
+      },
+      {
+        "term": "carta",
+        "count": 2
+      },
+      {
         "term": "elintra",
         "count": 2
       }
@@ -2186,6 +2198,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El Senado modificó la reforma de la Carta Municipal",
+        "link": "https://www.eltribuno.com/salta/2026-10-30-0-0-0-el-senado-modifico-la-reforma-de-la-carta-municipal",
+        "source": "El Tribuno - Salta",
+        "date": "Fri, 30 Oct 2026 04:10:11 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "El Senado aprobó con modificaciones la Carta Orgánica de Salta Capital",
         "link": "https://informatesalta.com.ar/legislativa/el-senado-aprobo-con-modificaciones-la-carta-organica-de-salta-capital_a6ae3ab7a052cad7d0185d5fc",
@@ -2387,13 +2406,6 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQclJLaXdpbmZxdWxlR0FMVV9HV2dhaERPV0xiOGI5aERmb0ZEQ3JzaTRNVS1nbWVkeHdOOTJ3TTZ4eXZDZV90WDdyT0hVblhFbDBfV2pPX21xVW1UWFk5WnJDeUUtUGlOZi1rZEJGaWxibWJ5QmVxZkdzMV9FRm9XZUlhZFpBdlJ5Z0UtSlltYkhlS21zeGxzSHZLZFluVy0xcExTNE5pMWNCelR0SWVGbmpwMl8xMml5RW5QaElMa2NPTTBGUUN1emt6SmdHYm_SAdQBQVVfeXFMUFQzRDhXek1wMjZFUVVGNUhXTXVkVEc4VHZPOGJSMlRqaV9NZVFDY1pSMXFuWVZkVmRjY2txZVc0bXZUc2FydXBDR3ZYUGF6X005ZzRyYjJac2NnUlVEeUFCYkY5czlRRGE4VzRzSXFLRFFwNHpaMXNiLWJZNXZNbzBfWkVnUldxLTRkeGwxNXNNRzg5cThHSGxId1hzLVdHUXpoZGM2Z2kwMzBFMGlwTGJ0MFk1dVZFZWpkTUhocmNFR2ZVc0QtU0xfVG5RY25kd3hQTEE?oc=5",
         "source": "Letra P",
         "date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Critican falta del senador de LLA, Roque Cornejo, en el debate por la deuda - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTS1CdUlFY2RBMzRiaFdHaGhQcW5aZWwycTY5UFI5QmF3cTdfSjg5UjZDc0o0U0l1UVJzaEhsTFh4c3hhbjNDdHJzZDZYbGZzcDZPZGpWaFN5NmZKd296SFk4aFVlUGhFRVE3NDhBWksyRkprUElUT2tVS0plcVFoVzlWaTJET1BXMUp4MWZKSWNpcGtjanowUkl6ajUwOGlKTHpqMzNBM0xPMElV?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Fri, 18 Sep 2026 04:27:31 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -22852,26 +22864,22 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 20
+        "count": 16
       },
       {
         "term": "orozco",
-        "count": 20
+        "count": 16
       },
       {
         "term": "elintra",
-        "count": 15
-      },
-      {
-        "term": "contra",
-        "count": 3
+        "count": 11
       },
       {
         "term": "sáenz",
         "count": 3
       },
       {
-        "term": "cargó",
+        "term": "contra",
         "count": 2
       },
       {
@@ -22880,6 +22888,10 @@
       },
       {
         "term": "lula",
+        "count": 2
+      },
+      {
+        "term": "milei",
         "count": 2
       }
     ],
@@ -27131,13 +27143,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 30,
+    "total_mentions": 31,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 5,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2024-10-02": {
         "total": 1,
         "score_sum": 0
@@ -27254,7 +27270,7 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 3
+        "count": 4
       },
       {
         "term": "gauffín",
@@ -27263,6 +27279,10 @@
       {
         "term": "elintra",
         "count": 3
+      },
+      {
+        "term": "tiene",
+        "count": 2
       },
       {
         "term": "gobernador",
@@ -27274,6 +27294,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "El Corredor Bioceánico de Capricornio tiene que ser política de estado antes de fin de año",
+        "source": "FM Alba",
+        "link": "https://fmalba.com.ar/jose-gauffin-el-corredor-bioceanico-de-capricornio-tiene-que-ser-politica-de-estado-antes-de-fin-de-ano/",
+        "date": "Fri, 30 Oct 2026 02:42:05 +0000"
+      },
       {
         "quote": "nunca un gobernador tuvo tanto poder concentrado",
         "source": "Elintra.com.ar",
@@ -27325,6 +27351,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffin: “El Corredor Bioceánico de Capricornio tiene que ser política de estado antes de fin de año”",
+        "link": "https://fmalba.com.ar/jose-gauffin-el-corredor-bioceanico-de-capricornio-tiene-que-ser-politica-de-estado-antes-de-fin-de-ano/",
+        "source": "FM Alba",
+        "date": "Fri, 30 Oct 2026 02:42:05 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Para José Gauffín, la AMT tiene un sistema “corrupto” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXF1TE5CblA3emVGMWlOWG5OQmhlRHg2UVpUcW1VeXJzejBFSmlHSnVZSEk4NWRxbHRDYU9UclZuOVpMa2xkNDU2bnRjVVRCdV9nTXRlZHB3UWdWNHhJUHR3Ui1rTmFaNGJkY21vVzZnNEVHYTZpcTFkalJTUERGME9CU0dOUGFTbWVCM2VB?oc=5",
@@ -27526,13 +27559,6 @@
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT0hKOXdSdlRLTUJkel9VbmNucWJwVDhDWGFMYld2aEpmTFZsd1FTTTJzdDhnYnJsT1ZKWEZjLTYtMzRHZWNiMzlHNWhMWUtPcmlFN3dISVBLeTFRc2VmcW9iMEI1czhWeGEtbi1kRmtIVzZaa2EwQmRSYkZUZ2tGa3AyUHBrcnBaYzJoMU1heGZNOWdl?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 01 Dec 2022 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "José Gauffín: \"Los jueces de la Corte no pueden ser amigos del gobernador\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcWdieG5nZ3l3eEtJYnFTeWwyemkzWmpMZHRYNmRSNEJrUzQwczcyc05tRWtfYUhxUHBfNU51aFZxVVVPWHIyb1I0RFFlVzBjR3FmRV83alh2OFRvVVFQZ2NCVWdMbHdMZnRmZ2FZSGpXWFdpc2VTMFdpQVE0NHBUYjA1NVk0RmtWQmdrcFJXRzZGT0FyNnJndmVRVEdBc1VuRzN1WUVvdnAxOGkyblB5X0k2VG9pZDVXYjM5RtIBwgFBVV95cUxNLUtHY052UFZMdUdGWG1Xdk84UXh2b0dzSkJjSHl3VER0X2lHcy1KaWo2bi1KS3RWaXcyUi1JeDd4WkJyV2JZckJCMEhCR1dRMWFrRjM0bmpxekZKT0xzUUZvYkkzRVY4SXo0VGZZbUNCdmZKRFdUdXU3ZkFZSTV4ZEZaTVFONE5tdDlLZXBTQ1BJSDY3c2xoQm05OGFsSHZJczRkb2V2T0ZEYjhLZ01ybWNYb0htaEd0RUVycEU0ZnVEQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 03 Feb 2026 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -29762,13 +29788,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 38,
+    "total_mentions": 39,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 28
     },
     "sentiment_by_day": {
+      "2026-09-23": {
+        "total": 2,
+        "score_sum": -2
+      },
       "2025-09-16": {
         "total": 1,
         "score_sum": 0
@@ -29901,10 +29931,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2026-09-23": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2025-12-16": {
         "total": 1,
         "score_sum": 0
@@ -29921,15 +29947,19 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 6
+        "count": 7
       },
       {
         "term": "ignacio",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "plan",
+        "count": 2
       },
       {
         "term": "intendente",
@@ -29995,6 +30025,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún cuestionó al olmedismo luego de que Salta quedara afuera del plan de asistencia por el Super Niño - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWlppcUxhTlRzbElXQVg0S2VPSDZnckRCREs0MWVBYXNnRDdLOW4wWmJ2T1JfM2pzVXJibW5LQXhIVXhsLVJadG5VZ0Q3eUVSRk53ZVRrTFoyTHpwMFVmRktnNzRqSUxfemYyR1FTeTE0bmd4S2xtbEg2OHJ5UWJ3VDR0MDlvZEx5NTl6YlpJUlA1NTZNTnNqNGZFUHVIMDdMOE1MOFdlSU0zUWx1Z2JLUjdrbmF3Mm4tcjJycDk3UVpTSlJfQkk1ckIwOEFhbU5vakNUQmtDMjMxMF9oZGlIWQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 23 Sep 2026 20:45:48 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "\"Grabar TikToks\" y \"levantarse tarde\": la durísima definición de Ignacio Jarsún sobre Emilia Orozco y los libertarios - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQmh1N3Y2YUx6YVkyaDlyYmY2M3RocW9BcWZHTEQ5b05wY2g5SmdvRlVOY2dDQWVPWFo2UjhVb3FPWkFreVpKLXZuLUFScUtmRmt2LXNoWDdaVUlrM190U3MtVkhUMFRVYm1Pb1lVZ0hON3VkaTJXcU9teTdacjNGZFR3bVZGcG1acENLZVhlSXN5MzN1OUNvVDg1ZWpoU2tkYTJDZG9uaHA1bVRMMkVHcDdPSldUS2FwMkdOXzVaQzRYdjdJYmxWemt6RjdIeTlRaUhTeDh3TlhpaFNnb0M3Uw?oc=5",
@@ -30196,13 +30233,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQakplMXVvanBYZ1h2a2daa1hVYlhSczBtMDgxVVdWX3pMODl5OEZFejhnT1ROeGxTMlVYdUlRbUVMcElRTHdjUVlGeWMyQjRwTml2Z1NOOU9salhPUU9wRVhXMnhWTUpZY1JmT2VNQ0wyWE9CV3JfOU1QX2JYNGZOdVd4bWFMNVpPajh6SUw2UjZ2Qk5EVmptOFZBUWpfVHBoNzZ4cE9Xc2ZGQVlfSGlUVjU0T2dad1o0eUUxRG1ZRG41QVIyQm9uM2M4QUZGb1hCY1h3Q0lVX3E2d3pvV1RXZG5BMEMzZjdt?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 22 Nov 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Es o se hace? Nacho Jarsún, el diputado salteño que vive metiendo la pata - NOVA Salta",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYlhfc2UtVDdiVkZURGNFVDFqWm9rMTV4YkxLYzQwQ2dTN01pSU5mSFh5N0E0UVZfQTYwcU1Ca1oxTW84RjNfODlNT2ZUZ1NwM1hWNHZvMzBwME45aHV6RzhGd21BRUdQNVA4eGg1NmdfN3FDRGZCQTlsX3ByNU4wbFdxeGtJYnNYNXBtLUNGMzQtSGVGakFYenBaQ3BsbU90bVN5X1VxbUllQWpSTGdua3dYMjFJajdSZE1DT0pnOWxKZmpKbHUtMzg5SQ?oc=5",
-        "source": "NOVA Salta",
-        "date": "Thu, 04 Feb 2021 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -30929,18 +30959,18 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 4
+        "count": 3
       },
       {
         "term": "mimessi",
-        "count": 4
-      },
-      {
-        "term": "elintra",
         "count": 3
       },
       {
         "term": "tartagal",
+        "count": 2
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -31258,14 +31288,10 @@
     "top_topics": [
       {
         "term": "ignacio",
-        "count": 3
+        "count": 2
       },
       {
         "term": "lupión",
-        "count": 3
-      },
-      {
-        "term": "minería",
         "count": 2
       }
     ],
@@ -32001,15 +32027,15 @@
     "top_topics": [
       {
         "term": "fiore",
-        "count": 12
-      },
-      {
-        "term": "cristina",
         "count": 11
       },
       {
+        "term": "cristina",
+        "count": 10
+      },
+      {
         "term": "elintra",
-        "count": 8
+        "count": 7
       },
       {
         "term": "educación",
