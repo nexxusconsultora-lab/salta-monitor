@@ -3,16 +3,20 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 395,
+    "total_mentions": 397,
     "sentiment_breakdown": {
-      "positivo": 99,
+      "positivo": 100,
       "negativo": 59,
-      "neutral": 237
+      "neutral": 238
     },
     "sentiment_by_day": {
       "2026-10-28": {
-        "total": 10,
+        "total": 11,
         "score_sum": 13
+      },
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 1
       },
       "2026-10-29": {
         "total": 3,
@@ -366,7 +370,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 38
+        "count": 39
       },
       {
         "term": "gustavo",
@@ -381,19 +385,19 @@
         "count": 7
       },
       {
+        "term": "diques",
+        "count": 6
+      },
+      {
+        "term": "ruta",
+        "count": 5
+      },
+      {
         "term": "milei",
         "count": 5
       },
       {
-        "term": "diques",
-        "count": 4
-      },
-      {
         "term": "reelección",
-        "count": 4
-      },
-      {
-        "term": "millones",
         "count": 4
       }
     ],
@@ -491,6 +495,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Durand y Sáenz anuncian la Ruta de los Diques con más promoción que obras concretas - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSFBqRktlNmRnc1pkS0htaG5OTUVGbGlrejhvRmtVQ19kODUySVpScG5ZN1FOaWxNdVdUV2twYm00dmRLbkdhUWc1S1pRaHY2WVdGdk9JbkxOaV9ncDdEN2o1ZXB5NHFGSDJxa0dXaV8zYjNJVC1ZS2VUY3haVnd3RWhZMlZoOERUVlEyWGt0b2NFU3kxR1pMVWVR?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Ruta de los Diques: conocé cuáles son los espacios que fortalecerán el turismo",
+        "link": "https://informatesalta.com.ar/turismo/ruta-de-los-diques--conoce-cuales-son-los-espacios-que-fortaleceran-el-turismo_a6ae3d3db052cad7d0189277a",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 00:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz anunció la puesta en valor de los diques y embalses - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWNjbzJ4QWlBRGNXX3djQndUc1c3YlZWX3J4TnliMTY2MlVMWG5UdGYyU0ozOU9LNmdnWEYxWW5fcXo2VTkxZDluNWNseG56NnVpc0FobXdrLVMwekUzSTZWdVZvUTF1dmd4Nm9EbTV2cmo2ZVZSYlladkN2ZVI4aWplYkFabkFBaG5MM2tyblo3VXRsUVYw?oc=5",
@@ -686,20 +704,6 @@
         "source": "El Intra",
         "date": "Mon, 26 Oct 2026 20:50:06 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Javier Milei y Emilia Orozco tensan la candidatura de Gustavo Sáenz en Salta",
-        "link": "https://elintra.com.ar/2026/10/26/saenz-milei-orozco-candidatura-gobernacion-salta-apoyo-casa-rosada/",
-        "source": "El Intra",
-        "date": "Mon, 26 Oct 2026 21:03:09 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Quién es el \"Señor del Tabaco\" que hizo enojar a Sáenz, cruzó a Milei, tiene una batalla feroz con el fisco y ahora se casó con una famosa vedette",
-        "link": "https://www.gentedesalta.com/sociedad/quien-senor-tabaco-hizo-enojar-saenz-cruzo-milei-tiene-una-batalla-feroz-fisco-ahora-caso-una-famosa-vedette-n13297",
-        "source": "Gente de Salta",
-        "date": "Mon, 26 Oct 2026 10:13:00 -0300",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -2094,15 +2098,15 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -20653,14 +20657,10 @@
     "top_topics": [
       {
         "term": "gonzalo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "nieva",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -25135,13 +25135,17 @@
     "id": "dnac-pablo-outes",
     "name": "Pablo Outes",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "2023-09-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-08-15": {
         "total": 1,
         "score_sum": 0
@@ -25230,15 +25234,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 6
+        "count": 7
       },
       {
         "term": "outes",
-        "count": 6
+        "count": 7
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
       },
       {
         "term": "dicen",
@@ -25303,6 +25307,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pablo Outes confirmó su compromiso por un debate sin discriminación ni mensajes de odio - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjg1eWVpT3lTeWJubGN2d2ItYzdBV3RPU0EwN0hsYlMwQWNyMkZwY2hlRXBqQ1NkYTR2aUtjbDBfcHZSUUg2Vy1tdWxIc0JEbHRRM196VThFQmRDU1ZTV1BvQmVON01xU1lVQktsUnhRVmpyRG1UMTRVak9ya19NV3BXeWYtbUN0M0Y1aG9KWndZclF5aWY0Y0JUa05NTXpNTnctN2JQQzB2WWVXb1JwODdwXzdVSl9iX2l5cTRBbw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 06 Sep 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "\"Dicen por ahí\": todos los ecos de las PASO en Salta, el flow de Emilia Orozco, Marocco hippie y los gritos de Pablo Outes - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbHNSbHMyMDVwQVREV2pGMVBsVmI2NTZnc1BkaWVXUXd6d0lpSlZPUUdVTmZOdFFVTHRwbF8xY082S3FWZ2ZiUGVrTTVacDBJT0s1eUV5NVNUdTV0ZUVHcGFWV2hJSFN2Sm1WMUJsRWo2WnAzVl9TcVlxWExMSFVUclBFUkZoVWljaXpYYldIbG45dVR6dzNtOUdUcndOcFlhYU5TNkFrYUg0cEwxRWxVelRLTVNPa1EzWUp1b3h5MXRFUk9tVkMwTnZ6ZzNYbnZCcTFmYzJnOXlPeHNFWGotRVN0ZEVUUTA?oc=5",
@@ -26508,11 +26519,11 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 3
+        "count": 2
       },
       {
         "term": "galíndez",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -29361,13 +29372,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 30,
+    "total_mentions": 31,
     "sentiment_breakdown": {
-      "positivo": 6,
+      "positivo": 7,
       "negativo": 3,
       "neutral": 21
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-10-29": {
         "total": 1,
         "score_sum": 0
@@ -29467,6 +29482,10 @@
         "count": 5
       },
       {
+        "term": "ruta",
+        "count": 3
+      },
+      {
         "term": "obras",
         "count": 3
       },
@@ -29479,15 +29498,11 @@
         "count": 3
       },
       {
-        "term": "ruta",
+        "term": "diques",
         "count": 2
       },
       {
         "term": "anunció",
-        "count": 2
-      },
-      {
-        "term": "valle",
         "count": 2
       }
     ],
@@ -29531,6 +29546,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Ruta de los Diques: conocé cuáles son los espacios que fortalecerán el turismo",
+        "link": "https://informatesalta.com.ar/turismo/ruta-de-los-diques--conoce-cuales-son-los-espacios-que-fortaleceran-el-turismo_a6ae3d3db052cad7d0189277a",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 00:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Ruta de los Diques: Sergio Camacho se reunió con intendentes para planificar obras en represas",
         "link": "https://elintra.com.ar/2026/10/29/ruta-de-los-diques-sergio-camacho-se-reunio-con-intendentes-para-planificar-obras-en-represas/",
@@ -29732,13 +29754,6 @@
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTNIRF91aW13OUxjU3FwSnh0VVBEUWpoWEw1dndnUTU2VW1fVFQ3RGtndGR6aG95QWRzS2dnM0JhZy1FVXB4ZVQtQ2ZjeE1LM3Q0bl9KbXhxOFJlTXhFVXpfYUUtLWNGT2ZxU01vVExjLW12dkFIRWFybWF3ZS1qYlJsOV85cklFSU9LamlIZDlGX0FoUXcycF95ejJ0ZmV1RThHSWN1c05pRGVNZEZLbnl5S3RMWFJsTVlLdVgxU1lWMHBFbkRB0gHMAUFVX3lxTFA1T01xQnEzdzl0V1loeFVpUEFrNkN3SVhMNnBxb2pHOWRMcEhCVFZTS1RZU2hESlBnQ3pwcnNyc195dlNyY3VZaTB4dUFIZXB4aFRXV3g3dDl1d0ZZdlhfNjhZb01sRHh2M2dvQ0pfUnF2eGJfd0JJVzlOQ1Z0UmdsSWdHUUVyUFFUVURZcHBIZzdtWHFaZnFZY1ptSEFnTTNVRXlLdzJCbXhDckFsNkpWSGlCWWFWdVRKS09XeDRGaVVxU1gyVTBWbWhmMg?oc=5",
         "source": "El Tribuno",
         "date": "Sat, 27 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Paritarias en Salta: Sergio Camacho reconoció el atraso salarial y confirmó una nueva oferta para el miércoles - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc2pHVXBzdktNeW1CQTU0NFlzaWRuUWFqZlNCVGpuMUlTN0d1WWEzWmU1SHVualdDYm9zbEFDdmlDNktRSXJmUndmNlFmaFloY0xjZXRab3N6S3U0SkVCcTdiU3FMMnVwa0FwWFZtR0kzOHZyY3Y1M3lFaVNSZUw2b1MyeUR2T1VobHpRVUh4RVZaM3VuWWE3MDgxRTZoRTFEUExlN1hJdjV6c2R4dldYSTQtbEtZSHNOendHQkZWVnNJUGNfMGxCckJqdkhXUlhZWHVNUHZ3bldZUkUtc2tlNnRRN2s2Tk9fT3fSAe8BQVVfeXFMTmw5dHlhYmlEQXNEREc4ckFzOURLb1kyelFCckMxM0lYLW1zam1FQ29ET1FGUi1fUWZUQjNZMk92SW1zYkNTU20yRDJaMmJ4NHJuQ1JOUUNHSG5PMXhOWk5aWUpZYThoTXpEQUFTR05ZaUlJcFVxVDZfVTRQelZKSVFMNzFkUE5fQVRkTUtqTXAydE9ZNDg4bXh3bEVhTkZmeHRuNlR4emx0Wk5wRDQ2SDdXMXlZMUV5akkyUHJncmxGSUptYlZqNWE4ZkVoYV9xM0VvRVU1YWdHSTI2bzJCdDh1Qm9BWmtubmk0TUlqVmc?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 22 Jul 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31511,10 +31526,6 @@
       },
       {
         "term": "está",
-        "count": 2
-      },
-      {
-        "term": "papa",
         "count": 2
       }
     ],
@@ -33404,15 +33415,11 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 4
+        "count": 3
       },
       {
         "term": "benavides",
-        "count": 4
-      },
-      {
-        "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [

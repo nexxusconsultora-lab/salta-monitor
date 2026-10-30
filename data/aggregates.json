@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-29T21:16:19.392509+00:00",
+  "generated_at": "2026-10-30T01:10:57.508652+00:00",
   "by_politician": {
+    "dnac-pablo-outes": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 22,
+      "score_sum": -4
+    },
+    "gustavo-saenz": {
+      "total": 397,
+      "positivo": 100,
+      "negativo": 59,
+      "neutral": 238,
+      "score_sum": 169
+    },
+    "eje-sergio-camacho": {
+      "total": 31,
+      "positivo": 7,
+      "negativo": 3,
+      "neutral": 21,
+      "score_sum": 30
+    },
     "eje-manuela-arancibia": {
       "total": 13,
       "positivo": 5,
@@ -43,13 +64,6 @@
       "neutral": 39,
       "score_sum": 6
     },
-    "gustavo-saenz": {
-      "total": 395,
-      "positivo": 99,
-      "negativo": 59,
-      "neutral": 237,
-      "score_sum": 168
-    },
     "eje-roberto-dib-ashur": {
       "total": 67,
       "positivo": 9,
@@ -77,13 +91,6 @@
       "negativo": 10,
       "neutral": 33,
       "score_sum": -17
-    },
-    "eje-sergio-camacho": {
-      "total": 30,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 21,
-      "score_sum": 29
     },
     "eje-gustavo-carrizo": {
       "total": 6,
@@ -245,13 +252,6 @@
       "negativo": 4,
       "neutral": 8,
       "score_sum": -6
-    },
-    "dnac-pablo-outes": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 21,
-      "score_sum": -4
     },
     "dip-patricio-penalba-arias": {
       "total": 12,
@@ -934,6 +934,52 @@
     }
   },
   "by_day": {
+    "2023-09-06": {
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-28": {
+      "gustavo-saenz": {
+        "total": 11,
+        "score_sum": 13
+      },
+      "dip-rodrigo-javier-garcia": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-ignacio-lupion": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
+    "2026-10-30": {
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-12-02": {
       "eje-manuela-arancibia": {
         "total": 1,
@@ -992,36 +1038,6 @@
       "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-28": {
-      "gustavo-saenz": {
-        "total": 10,
-        "score_sum": 13
-      },
-      "dip-rodrigo-javier-garcia": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "eje-ignacio-lupion": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2026-10-29": {
@@ -17438,7 +17454,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 21
+      "count": 22
     },
     {
       "term": "sáenz",
@@ -17453,23 +17469,23 @@
       "count": 8
     },
     {
+      "term": "pablo",
+      "count": 6
+    },
+    {
+      "term": "ruta",
+      "count": 6
+    },
+    {
+      "term": "diques",
+      "count": 6
+    },
+    {
       "term": "gustavo",
-      "count": 7
-    },
-    {
-      "term": "flavia",
-      "count": 5
-    },
-    {
-      "term": "royón",
-      "count": 5
+      "count": 6
     },
     {
       "term": "contra",
-      "count": 5
-    },
-    {
-      "term": "pablo",
       "count": 5
     },
     {
@@ -17477,23 +17493,23 @@
       "count": 5
     },
     {
-      "term": "cristina",
+      "term": "turismo",
       "count": 4
     },
     {
-      "term": "fiore",
+      "term": "flavia",
       "count": 4
     },
     {
-      "term": "diques",
-      "count": 4
-    },
-    {
-      "term": "ruta",
+      "term": "royón",
       "count": 4
     },
     {
       "term": "moreno",
+      "count": 4
+    },
+    {
+      "term": "milei",
       "count": 4
     }
   ],
