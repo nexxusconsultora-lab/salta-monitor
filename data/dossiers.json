@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 402,
+    "total_mentions": 406,
     "sentiment_breakdown": {
-      "positivo": 101,
-      "negativo": 59,
-      "neutral": 242
+      "positivo": 102,
+      "negativo": 60,
+      "neutral": 244
     },
     "sentiment_by_day": {
       "2026-10-30": {
-        "total": 5,
-        "score_sum": 2
+        "total": 9,
+        "score_sum": 3
       },
       "2026-02-13": {
         "total": 1,
@@ -378,11 +378,15 @@
       },
       {
         "term": "gustavo",
-        "count": 22
+        "count": 20
       },
       {
         "term": "gobernador",
         "count": 7
+      },
+      {
+        "term": "milei",
+        "count": 6
       },
       {
         "term": "diques",
@@ -397,11 +401,7 @@
         "count": 5
       },
       {
-        "term": "milei",
-        "count": 5
-      },
-      {
-        "term": "millones",
+        "term": "quién",
         "count": 4
       }
     ],
@@ -499,6 +499,34 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La Cámara de Comercio cumplió 120 años: Sáenz pidió respuestas para las PyMEs - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORXN3SXpaT004dnYxRnZaRkg0R1YzSHVBQ2Q3VFY3cHN0Q0UyQUdFMGZhbFBHNjBKYmhSWERPT3RpaWJZY3p4YjVUYlpKaFg2SEc2bzY0N2pKdXFSODJ5ZHhsNEZ6TWdFNFZkR1FzOVM0Ylo3UEVleXktQW04bnNHQlNrVllBRVdCaW5zendyeHV4TWRIRDFZ0gGXAUFVX3lxTE5Fc3dJelpPTTh2djFGdlpGSDRHVjNIdUFDZDdUVjdwc3RDRTJBR0UwZmFsUEc2MEpiaFJYRE9PdGlpYlljenhiNVRiWkpoWDZIRzZvNjQ3akp1cVI4MnlkeGw0RnpNZ0U0VmRHUXM5UzRiWjdQRWV5eS1BbThuc0dCU2tWWUFFV0JpbnN6d3J4dXhNZEhEMVk?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 30 Oct 2026 20:43:25 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz completó otra pieza clave de la Justicia salteña: Quién es María Edith Rodríguez, la nueva fiscal ante la Corte",
+        "link": "https://www.gentedesalta.com/politica/saenz-completo-otra-pieza-clave-justicia-saltena-quien-maria-edith-rodriguez-nueva-fiscal-corte-n13465",
+        "source": "Gente de Salta",
+        "date": "Fri, 30 Oct 2026 19:19:00 -0300",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Giro en la política Jujeña: Sadir junto a Kicillof, ¿contra Milei?",
+        "link": "https://informatesalta.com.ar/jujuy/giro-en-la-politica-jujena--sadir-junto-a-kicillof---contra-milei-_a6ae5202609dee0a0b9a5e9d9",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 22:57:09 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Gustavo Sáenz: «Vemos con mucha tristeza cómo cierran PyMEs y comercios»",
+        "link": "https://elintra.com.ar/2026/10/30/gustavo-saenz-vemos-con-mucha-tristeza-como-cierran-pymes-y-comercios/",
+        "source": "El Intra",
+        "date": "Fri, 30 Oct 2026 19:53:32 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Hubo cambios en Turismo; ¿quién se fue y quién entró en reemplazo?",
         "link": "https://informatesalta.com.ar/turismo/hubo-cambios-en-turismo---quien-se-fue-y-quien-entro-en-reemplazo-_a6ae494c2052cad7d0191e1ad",
@@ -679,34 +707,6 @@
         "link": "https://elintra.com.ar/2026/10/26/gustavo-saenz-internas-gabinete-reeleccion-fondos-salud-cargos-fantasma/",
         "source": "El Intra",
         "date": "Tue, 27 Oct 2026 01:34:34 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Quién es Gustavo Sáenz, el peronista que pasó de candidato a vice de Sergio Massa a gobernador de Salta - Perfil",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkZmTDdZNXRUbUN1eG83bmkzNW1YQ2EzN2tDck5pZm8xT1AxQUlzbkJ5OVNfaEhyLUNUT1RuT0FBY0J4RFJOakllbUJSQW1KZzhSODQzRjlxOXJGZjBRdGZ4ektjTjJvMGxrbWZoZWQwQ2JITDJaYllQU1ZsLVV3aTFWZGlWaHdLVURPZkdLVU83WjhZak5DbkxuSWx6UnFPaU01d21PeDNNdENybUhoN1dNMTJkcnFGQnNzS283czZJNEIxUEZWU9IBzgFBVV95cUxQdE42cmVLcXotWGdNUXlHWER2bHJxaDdKeE5vN0NzbkxxZEI0ckgyZjRYajBlTUVRMm5EXzdIM3g5OVM2Z3ZGYS0xNV9NREc1S1BtVlFWUDlENExHN3I4emNHcW1GMVBfRDkwTWRWRTZ5NUsteEdfWlpuRHpkVEFXZ2o3aFI1YWRvOFBDX3FXSVU1QTBpcEpiRGNIbXlrel9CSDRDZzcxaFJXcy1qXy1ma3NnODc5NjB6N29uUjBhZDFPT1psSkhMbUx3YkxnZw?oc=5",
-        "source": "Perfil",
-        "date": "Mon, 11 Nov 2019 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz, gobernador de Salta: “La gente la está pasando muy mal” - Infobae",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVJNERKbURNNVJTcFZ2Uy0zM3Q0cGhfR1lVTVlrU0ZMTEJNZFVEOERNMTdTTjc4NU9MTFcxcmtsQmhhMWpaTVo0TnJmaWJXUGluVHJJQm9QbmFYYU1oaDVfc09wMmZJS2J0M3FIN3VQdEVCTjhRQlY1OGJsMlh5aVBtYWtYWlNxT3VlN1c1TXc0UzhabUlSX0xMR0RFMmFMWmZQV1NDeVhHdWZYMHlnc9IBywFBVV95cUxPaGVkU1JwUlY3NllKQWM0UnJvUGN4U1ZjZVRiREJnMjZwZUlWR3ZwaWhGNUw2c3VpUXdOSlo4LThlc194dEstMG5FbUwyOHJ1RUtwc0JuRWt4Z2h1anB5OTRNd0JhNGNNRGJZaUpZcWtEWklGcG5oLXZTSWxTV3pnZnhVU01VMjhHMVVPNjBjdHI4U3N1Nk1uU2tVR2xtMUd0RWQ4YWxNanZOS2p5SllwWmE2SkVrVzlra0pQMGlqME0zdGt1QzRVUEdRZw?oc=5",
-        "source": "Infobae",
-        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Puro samba: el insólito baile del gobernador Gustavo Sáenz tras anunciar nuevos vuelos entre Salta y Río de Janeiro - Clarin.com",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNnU2ZjNGWmhsNlp5WEJEUGROTV9tcXAzQ25yWVlxZ3MwWmVCUUJqOUlFMnNCQW90VTBMbllLQ08tSjdPcnFjcndUNndsUHlua0FCSjMwVFV3ZV9zQmVDTmVYT2FTSmdNSFBaaDVDZ0E0SVltUUhVd1F2UWhJNEpYMUh5TjdqS1NqazhxeHJPVmNCdVNpNVFnQmRNV3Nfandyd1NqbUpPX0sxWEViMHdQdFQzaURLMURCQjVvMGphaDlRNTZTOWhEcHc5Z2RNQVVRdEhxVnlzMlA?oc=5",
-        "source": "Clarin.com",
-        "date": "Thu, 21 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz es el gobernador mejor valorado en la Argentina - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVW84NVRJT0ZFdFJjZDFMczE3VmQ4RDgzS2daODNYYWlFeWhQb1hzSENMMnpFU0dINFpibDRsZkRFX3N4Z01hZXF2aXJSd3RLbV9jd0hpMmVnS015OWcwbEdTSTZpUC1BUEpraWtQSk0xUVlsSVoxYlZuYlZ3Y09rbUk3OVpNTW5IbVNZMlhycjVKVXpSa1RhdW5ockRheTA2MXU5LTA0aEk5U3JpZ0dF0gG0AUFVX3lxTFBTazM4V1ZfdFEtWTVDanVFS2kwQXNWZndmN3Nfc0ZyYk1VSWVBYy1WejE4Nm5jcUdqN0ZnN2tXVWVUWFQxMHVoNlNBRG5JX0I1Nmh4RC1hVE1TN3daZDZKS3VVSDA1ZXd1MkZJeHl6SExlbU9ybDBmZ3BpemtNRnI4c01rb3YyYW44bUxzQXNWX1dEaGhCanNHdEdlWFRqSDY3Z0hCUkNYWVRBUmVQcWFRZW0xNA?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -18136,13 +18136,17 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 44,
+    "total_mentions": 45,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 7,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "2026-04-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-28": {
         "total": 1,
         "score_sum": 1
@@ -18312,7 +18316,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "malvina",
+        "count": 2
+      },
+      {
+        "term": "gareca",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "inadmisible",
@@ -18408,6 +18421,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Malvina Gareca apuntó contra Gabriela Flores por el uso de pasajes oficiales - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa3FHeEtaZWpYWjloTWRWcXIxWDBQUUhpWG1wbDBkVGZsVWFDSGxOSy1qZmpGUVhlbFNxU25hOU9DZEZkbm1pZHBsM3lDQms3aE04UmwzM2lDcndtZWZtZURCQS0wLVV0RlIyM3FjWE5NWGFkb1dEY3psOV9xdi1aeVZHbDJaZDhCX2hhYTRweUpXTkN1ZXdzelpzelQySVZ0VmEyVXBWYWVrM1dhOVNpeQ?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta Capital tendrá un día para la concientización del Síndrome de Down",
         "link": "https://informatesalta.com.ar/legislativa/salta-capital-tendra-un-dia-para-la-concientizacion-del-sindrome-de-down_a6ae2682ebd8ebbfbfdcb578b",
@@ -18609,13 +18629,6 @@
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWc0OFhUQzdvWmFGcmc5UFZTbzBxOE9KWGEwZjdtYkpCYkozZTJHLTJkU1Q1S1EwQnpkd203ckh0T0NrU3hkVVNaZ0txY0JYV2lzU1hQOWV2M1hTX2ZIck0ta2hOcXlKeEhnVVZodlVnUGY4ZzJ4THY1T0hqMEZpTGxseWNXak9ZSDdkUi1VMDVLLVowZjhzQWZHLWdKdW_SAaQBQVVfeXFMTkVOaHA3R256MWJuQ1FjNFloTTR3Uk53dFhpRWFvZWVRd2dlM0NFTEhHbnJFcEswZnVhQnhfOE1pV1ZNRllwbDhWZm9DVS1kdFZ2Yzk1NmhwcDZFX1Z5eEdzYjF6UFhnTVlnTGk3QUo1VVYyTEVjeUtzVjYwWW9aY3VoakYtS2hCRG9rTjYwTWpudGl3UTlTY25NeklRUC1lQTJrUG4?oc=5",
         "source": "eltribuno.com",
         "date": "Thu, 27 Jun 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La agenda que plantea el próximo Concejo Deliberante - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMXFCODNtVXprdHdKN3RNSjZlVUhjeGFGS3JKaDZHdFB5NEZiLWw4Ylc4OEc5cHBfdVFRY3FCRDhlZ1ZiazRpRWR5Tm15TVoyOVVBc1R0TmNTdWZMaDdTc3dzZkg2cU9XdW5RcHNTVU4tX2lYNGotNG90TUhHekJmREdKdlN6blhhSG84NGNNWmlJRm1RajlZdWhGRFdZMDM3?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 17 May 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24171,13 +24184,17 @@
     "id": "dnac-julio-moreno-ovalle",
     "name": "Julio Moreno Ovalle",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 5
+      "neutral": 6
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-02-23": {
         "total": 1,
         "score_sum": 0
@@ -24206,26 +24223,32 @@
     "top_topics": [
       {
         "term": "julio",
-        "count": 3
+        "count": 4
       },
       {
         "term": "moreno",
-        "count": 3
+        "count": 4
       },
       {
         "term": "ovalle",
-        "count": 3
+        "count": 4
       },
       {
         "term": "voces",
-        "count": 2
+        "count": 3
       },
       {
         "term": "criticas",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Siempre ha habido problemas",
+        "source": "Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUhGX3c2b0l4aE9rOHpvdkQ2YkRPZE90c1hMY2NwdDVzSDhndFhRZVZrYUdQbDh4T0YxV2NiREhRVkJXeXo1UEM1VXc3N3pIdGJVU2RsNjF6ZXgybGVDUXR6Mlh6YlZWOUJYbXB4cHFuU3c0bUZyQk5JNklGbzVpU2dFLUFQdElSM0dTWGhCZEdkcXJGeWw0N1RjSmhpRll6RmNVTDQzWXNaZm56TDhJOGhJQTUwOHlrNWlSRm5nUE5nTU5mVG1KSjV3NHlGUlAwYTNJeC1SNnAxeFJ1OUHSAd4BQVVfeXFMTkVIRl93Nm9JeGhPazh6b3ZENmJET2RPdHNYTGNjcHQ1c0g4Z3RYUWVWa2FHUGw4eE9GMVdjYkRIUVZCV3l6NVBDNVV3Nzd6SHRiVVNkbDYxemV4MmxlQ1F0ejJYemJWVjlCWG1weHBxblN3NG1GckJOSTZJRm81aVNnRS1BUHRJUjNHU1hoQmRHZHFyRnlsNDdUY0poaUZZekZjVUw0M1lzWmZuekw4SThoSUE1MDh5azVpUkZuZ1BOZ01OZlRtSko1dzR5RlJQMGEzSXgtUjZwMXhSdTlB?oc=5",
+        "date": "Fri, 30 Oct 2026 20:58:15 GMT"
+      },
       {
         "quote": "Nunca dieron resultados los arreglos que tuvimos con Brasil",
         "source": "Voces Criticas - Salta",
@@ -24259,6 +24282,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Julio Moreno Ovalle sobre las dificultades de fin de mes: “Siempre ha habido problemas\" - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUhGX3c2b0l4aE9rOHpvdkQ2YkRPZE90c1hMY2NwdDVzSDhndFhRZVZrYUdQbDh4T0YxV2NiREhRVkJXeXo1UEM1VXc3N3pIdGJVU2RsNjF6ZXgybGVDUXR6Mlh6YlZWOUJYbXB4cHFuU3c0bUZyQk5JNklGbzVpU2dFLUFQdElSM0dTWGhCZEdkcXJGeWw0N1RjSmhpRll6RmNVTDQzWXNaZm56TDhJOGhJQTUwOHlrNWlSRm5nUE5nTU5mVG1KSjV3NHlGUlAwYTNJeC1SNnAxeFJ1OUHSAd4BQVVfeXFMTkVIRl93Nm9JeGhPazh6b3ZENmJET2RPdHNYTGNjcHQ1c0g4Z3RYUWVWa2FHUGw4eE9GMVdjYkRIUVZCV3l6NVBDNVV3Nzd6SHRiVVNkbDYxemV4MmxlQ1F0ejJYemJWVjlCWG1weHBxblN3NG1GckJOSTZJRm81aVNnRS1BUHRJUjNHU1hoQmRHZHFyRnlsNDdUY0poaUZZekZjVUw0M1lzWmZuekw4SThoSUE1MDh5azVpUkZuZ1BOZ01OZlRtSko1dzR5RlJQMGEzSXgtUjZwMXhSdTlB?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Fri, 30 Oct 2026 20:58:15 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Julio Moreno Ovalle: “Nunca dieron resultados los arreglos que tuvimos con Brasil” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHYyMUJiZXY2aFM1dEctVG1yS09Ed1AxUTFFRnNEb3NFRUtoaURRSGZPVkZhYXNMM2tYNjNrRlpsOW1ZYUJzTnQ0bXR4c1pnUldNd1JhbkVHM1FSazJkZ0pHNUNaeUxyYjkxa2tDNzhNMHdxaHF5ZlVCNTJqQzdXSUZvZG5uaHJBZF8yV3drWHlmd3NqTU45TWRwd0NGel9EZXVVa3k4N0hOeDNmNXN6Z29hTGNFWFhNMVRlaWszNDExbmU0NDFRbjRNM3BHcHBfdlHSAdcBQVVfeXFMTnpKdjJ2UkFWQjlTNjZFWmxaS1JOQ3VxSkJmZjhHY3JsUnlpVk0wZ0hOTGRxYWFDZ1RxX1Y5cVl0eWJLdVZmekE4QWJ3NXVZZWtDVVJNdzV4ejR3bWtLZ21WMTc1ZTk0dFlMLUZFUEdxeElRVm9xX2FqUkpxSWhRQUtiSnhheWk1NVpUNzJvejlyWWdsZUJZYVdWRUloT0xWRXBHdEVEdnhkMW4tY1E4bHEtM3lQQU5DUFB2RXZDMUlJWThsbEFkR0pZaUFmR1ItdUpEVk8zQ0k?oc=5",
@@ -26813,13 +26843,17 @@
     "id": "dip-griselda-edith-galleguillos",
     "name": "Griselda Edith Galleguillos",
     "role": "Diputado/a provincial por Rosario de Lerma",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 18
+      "neutral": 19
     },
     "sentiment_by_day": {
+      "2020-10-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-05-26": {
         "total": 1,
         "score_sum": 0
@@ -26912,10 +26946,18 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galleguillos",
+        "count": 3
+      },
+      {
+        "term": "voces",
+        "count": 2
+      },
+      {
+        "term": "criticas",
         "count": 2
       }
     ],
@@ -26972,6 +27014,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Griselda Galleguillos se atornilló en el Concejo Deliberante y no hay quien la saque - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNGlYUkkwNzVubmI5VnRHNEZ6WnVqVVZvNlRJOWk5b2E0TGRiMFh0R19DWW5aSHNNUDFWVFFscE4zVF8xZnlMdzRRc0pNa29OUDRkeV9YNkM2NHRqUlpnd2Npb19tWHRzRTN3VEN0MFlJSldrb0FiLVBLNEdNcHIxcVA1V3hDQjRLS2M0RGJ2WGdyal8tWFl3ZC10Wmkza0hCdGRzRlRoZmIwNENvMWsyUm1fWGw3NUhlR0kxN25OSkNrblVOQnlFUXRNa3ZwSDlRSWFLbFNENNIB3AFBVV95cUxOY0tRUnBIblktSThhWnBDN2pCZVlSZ3ZyZGVyWDY2Nmk3Y0l5SjJJd1F4SEs4Ynd6NzNVU2JHdXpkNDFQajdCSVFEdy1aeUw2aHlkODl5RDNFeGsyb1Q5c095WEJvU1A4YTdmOHNYbjg1UmpaMTJWZGdwbkotN0F0Z3BFWGNUZFBtNjlxYnA3VHlqZ0JkSHdpOXZuS0VNMVc2U1oyMUl1MXpHaG9MT0pMSGpJZEt3WHI2MXU2TWtHWHJXUDBHZVN5dDdmY0VPUERKRXAwTWN6X0o0bmFP?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 08 Oct 2020 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Quiere volver a ser concejal? El particular festejo de Griselda Galleguillos por el 25 de Mayo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXYyRV9Hakt1ekxtTVQxTHhPbXJ2ajQ4cUVGSTZDWXVtaEp0TEtDc0dmQ2lIcXVfRS1TTGkxRERSSExtV0VuUWFuUnBLekVzNm8wU0tVU3dZVUVjeFNmM2V4cXdVVHdKV0FVaXQwVlRuMGtQSUlPdGp0WVFNSERBTUZLTWM4YWVhUmtyWlhxM0pWRG5kUGxfaDhndkJoTmpxSnF4b2d4WkxnVGl0OE1XQWJfV0dldkJGLTFVaHNjaXI5ajFtYUNz?oc=5",
@@ -29463,15 +29512,15 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 3,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
       "2026-10-30": {
-        "total": 1,
+        "total": 2,
         "score_sum": 1
       },
       "2026-10-29": {
@@ -29565,6 +29614,10 @@
     },
     "top_topics": [
       {
+        "term": "obras",
+        "count": 4
+      },
+      {
         "term": "sergio",
         "count": 4
       },
@@ -29573,19 +29626,15 @@
         "count": 4
       },
       {
+        "term": "presupuesto",
+        "count": 3
+      },
+      {
         "term": "ruta",
         "count": 3
       },
       {
-        "term": "obras",
-        "count": 3
-      },
-      {
         "term": "elintra",
-        "count": 3
-      },
-      {
-        "term": "presupuesto",
         "count": 3
       },
       {
@@ -29637,6 +29686,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Presupuesto 2027: se realizó la cuarta reunión con eje en obras, servicios y desarrollo productivo",
+        "link": "https://elintra.com.ar/2026/10/30/presupuesto-2027-se-realizo-la-cuarta-reunion-con-eje-en-obras-servicios-y-desarrollo-productivo/",
+        "source": "El Intra",
+        "date": "Fri, 30 Oct 2026 20:47:25 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ruta de los Diques: conocé cuáles son los espacios que fortalecerán el turismo",
         "link": "https://informatesalta.com.ar/turismo/ruta-de-los-diques--conoce-cuales-son-los-espacios-que-fortaleceran-el-turismo_a6ae3d3db052cad7d0189277a",
@@ -29839,13 +29895,6 @@
         "source": "Gobierno de la Provincia de Salta, Argentina",
         "date": "Fri, 08 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sergio Camacho: \"El gobernador tiene un proyecto que excede los próximos dos años\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTNIRF91aW13OUxjU3FwSnh0VVBEUWpoWEw1dndnUTU2VW1fVFQ3RGtndGR6aG95QWRzS2dnM0JhZy1FVXB4ZVQtQ2ZjeE1LM3Q0bl9KbXhxOFJlTXhFVXpfYUUtLWNGT2ZxU01vVExjLW12dkFIRWFybWF3ZS1qYlJsOV85cklFSU9LamlIZDlGX0FoUXcycF95ejJ0ZmV1RThHSWN1c05pRGVNZEZLbnl5S3RMWFJsTVlLdVgxU1lWMHBFbkRB0gHMAUFVX3lxTFA1T01xQnEzdzl0V1loeFVpUEFrNkN3SVhMNnBxb2pHOWRMcEhCVFZTS1RZU2hESlBnQ3pwcnNyc195dlNyY3VZaTB4dUFIZXB4aFRXV3g3dDl1d0ZZdlhfNjhZb01sRHh2M2dvQ0pfUnF2eGJfd0JJVzlOQ1Z0UmdsSWdHUUVyUFFUVURZcHBIZzdtWHFaZnFZY1ptSEFnTTNVRXlLdzJCbXhDckFsNkpWSGlCWWFWdVRKS09XeDRGaVVxU1gyVTBWbWhmMg?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 27 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -29853,13 +29902,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 5,
-      "neutral": 28
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2022-12-16": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-09-23": {
         "total": 2,
         "score_sum": -2
@@ -29913,10 +29966,6 @@
         "score_sum": 0
       },
       "2026-03-06": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2022-12-16": {
         "total": 1,
         "score_sum": 0
       },
@@ -30012,15 +30061,23 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 6
+        "count": 7
       },
       {
         "term": "ignacio",
-        "count": 5
+        "count": 6
       },
       {
         "term": "elintra",
         "count": 4
+      },
+      {
+        "term": "aguas",
+        "count": 2
+      },
+      {
+        "term": "norte",
+        "count": 2
       },
       {
         "term": "intendente",
@@ -30086,6 +30143,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún reemplazaría a García Salado en Aguas del Norte - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc2dHa3E1MGIwNUNFaVY4T1hQbzZjYkp5aFA0YXlHM2NsNEZsU3J2WXVDQ2NxdGF0a0M5VWR4ZzBZa3VzMF9JVEZFZjk1Z1N5V2NhaE96cl9jMUlzMHg0TG9nSmE5Z09KUndrY3dLYTlCUVhOWUR1MTdwZWZoN1NuZDVkamN3dWNobDRrMktB0gGOAUFVX3lxTE1zZ0drcTUwYjA1Q0VpVjhPWFBvNmNiSnloUDRheUczY2w0RmxTcnZZdUNDY3F0YXRrQzlVZHhnMFlrdXMwX0lURkVmOTVnU3lXY2FoT3pyX2MxSXMweDRMb2dKYTlnT0pSd2tjd0thOUJRWE5ZRHUxN3BlZmg3U25kNWRqY3d1Y2hsNGsyS0E?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 16 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ignacio Jarsún cuestionó al olmedismo luego de que Salta quedara afuera del plan de asistencia por el Super Niño - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWlppcUxhTlRzbElXQVg0S2VPSDZnckRCREs0MWVBYXNnRDdLOW4wWmJ2T1JfM2pzVXJibW5LQXhIVXhsLVJadG5VZ0Q3eUVSRk53ZVRrTFoyTHpwMFVmRktnNzRqSUxfemYyR1FTeTE0bmd4S2xtbEg2OHJ5UWJ3VDR0MDlvZEx5NTl6YlpJUlA1NTZNTnNqNGZFUHVIMDdMOE1MOFdlSU0zUWx1Z2JLUjdrbmF3Mm4tcjJycDk3UVpTSlJfQkk1ckIwOEFhbU5vakNUQmtDMjMxMF9oZGlIWQ?oc=5",
@@ -30287,13 +30351,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUExWOGctY0pDX0JNUDg0QkFhcHBDRHRDcXd1MkRHekN2NU50N3k4R09tUkh0MHhxSkRHMkZ4OWxzRFQ1alM5emRkTm9UUHE5TWhZWlM3d3lacUVwS0hqS0g5ZGJsZ01fcW5rQWZzUmZWSFRNTm5GZEp2cjJpZG4xWWNxZ2I1MnlQQldNak5tUFAtLV9KM3lvWDNlNnc4TVdzWnJuLXRQSU5uY2lpQWxMc3RHTk9BYk9yZzlibkdpaHA5YURTVTlPNmJR?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 12 Jan 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Oficialmente afuera: Ignacio Jarsún dejó de ser diputado, se retiró con agradecimientos y le reclamaron la falta de agua - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQakplMXVvanBYZ1h2a2daa1hVYlhSczBtMDgxVVdWX3pMODl5OEZFejhnT1ROeGxTMlVYdUlRbUVMcElRTHdjUVlGeWMyQjRwTml2Z1NOOU9salhPUU9wRVhXMnhWTUpZY1JmT2VNQ0wyWE9CV3JfOU1QX2JYNGZOdVd4bWFMNVpPajh6SUw2UjZ2Qk5EVmptOFZBUWpfVHBoNzZ4cE9Xc2ZGQVlfSGlUVjU0T2dad1o0eUUxRG1ZRG41QVIyQm9uM2M4QUZGb1hCY1h3Q0lVX3E2d3pvV1RXZG5BMEMzZjdt?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 22 Nov 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31012,18 +31069,14 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 3
-      },
-      {
-        "term": "mimessi",
-        "count": 3
-      },
-      {
-        "term": "tartagal",
         "count": 2
       },
       {
-        "term": "elintra",
+        "term": "mimessi",
+        "count": 2
+      },
+      {
+        "term": "tartagal",
         "count": 2
       }
     ],
@@ -31581,14 +31634,14 @@
     "top_topics": [
       {
         "term": "salud",
-        "count": 5
-      },
-      {
-        "term": "mangione",
         "count": 4
       },
       {
         "term": "federico",
+        "count": 3
+      },
+      {
+        "term": "mangione",
         "count": 3
       },
       {

@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-10-30T19:22:27.538628+00:00",
+  "generated_at": "2026-10-30T23:10:25.079267+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 450,
+      "total_mentions": 454,
       "sentiment_breakdown": {
         "positivo": 27,
-        "negativo": 36,
-        "neutral": 387
+        "negativo": 37,
+        "neutral": 390
       },
       "sentiment_by_day": {
         "2026-10-30": {
+          "total": 4,
+          "score_sum": -2
+        },
+        "2026-10-29": {
           "total": 1,
           "score_sum": 0
         },
@@ -248,15 +252,15 @@
         },
         {
           "term": "presupuesto",
-          "count": 59
+          "count": 60
         },
         {
           "term": "intransigente",
-          "count": 58
+          "count": 59
         },
         {
           "term": "elintra",
-          "count": 29
+          "count": 32
         },
         {
           "term": "informate",
@@ -271,7 +275,7 @@
           "count": 17
         },
         {
-          "term": "discapacidad",
+          "term": "nacional",
           "count": 14
         }
       ],
@@ -374,6 +378,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Gobierno Nacional: el subsecretario de Ciencia y Tecnología renunció tras denunciar falta de apoyo - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXE0YmlpOUhRTEhxdENxbXhIemhrZklQSHpFMHRZSmtabHVsZFF3Rm5vSUpyaUpmSXk2cURQSncyenItNjZjOWQ0eTdSVFlpcFdnckt3TjVQR3VETnhkRm5Pcm1DS2FtblVkaEFOOVpSTEJxeWFlVGFyTDdTbXNOaWlIWERxcUhYRmM1SGdEUWlyeGpRVmtsTkJGZm9rekdFVjA4bEpwbktFc19RZ0FvUl9YQkloNlBwUkE?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 30 Oct 2026 22:26:11 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Elecciones 2027: Antonio Marocco confirmó que está dispuesto a seguir junto a Sáenz - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWmQ3RVA4aEx6Qzl3Z0UwdVViTUVnWWJoNHFWWlNweFdNQ1IzaWFobTh3YkhnblRWaEtWOGZBUzhyY1ZmdG9icjY0dlVleGVYQWNQalFrX01vWlJtLVdpSkozTjNGMGR1U3REMUxTUTNMdlJXbzUyZG02UHJEWlJnNE4yTVg0VWNTN0lweDVUN3ctMUZfUFVGblZod0JZa3FpM25lLXRxbE55dEZ6b1U0NDMyMFpPcTFp?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 30 Oct 2026 17:26:43 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "María Edith Rodríguez asumió como fiscal ante la Corte Nº 2 de Salta - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdzJ4T1gwOUpoUFN1M3pNZk11cHRFV0lUcjlUWld3RlloT08xUkZRRld6al9lWTBNTi0xaTFwbEZ2bUU5VWFWX3dQU1hZaE5xZ3htVC1LZGR6VTdIZlRQR3dNNktLYUctLVBKVlNvTkZxWmVRN2p4Skt3YTVCSEVhSEszOF9JaHR2cGppYXhsMkVlQmJWUU5sWjVnTVFpcXpHVXMwUzBB?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Thu, 29 Oct 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: se realizó la cuarta reunión con eje en obras, servicios y desarrollo productivo - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZDB4OTA3U0pKUGxzX0VJNkdWYnZINzFhNHlSOC1aNWZNSTVnT0RUb0NBM2JfTGVjQXRrNjQ1QTdlNmFuUGFoV3dPV2Y0Qm9BWHZhM1NlVTE4ZWptQVRDeVpVLW4zTDBMOVdfdU1CV0VhVlNMWllxUVBJRVN5aXZtbGVjQTNiN2xfS01Pa28tV1FkdEVibmlmS29VMDlEUU5LazBmR004WGpxNTBUQmlNcGVFby1NSVktbEpFb0dJenVTTzU4UzBLdE5vbw?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 30 Oct 2026 20:51:11 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Faltazo de Emiliano Durand a la reunión por el Presupuesto provincial - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXVTOGRYRWdQdlVEdEdMbjI1YThRcFhMNndwdGhBNmFnOTZrenAxOW9OZDZwOG9yUm1TLUFJT2NIVG9Qc0hzSjBqYkZ0cndzUFQxQWpoVGNaRXAxVTkzZlBSS1ZpMnNXOHl3cXNkT0dkemxwejdTa285aTdnOWh1cTFyMDVXZmVqSDUybnlNeFZySDM3ZVJBSGFvWGxNVmxRYTkyVkppZw?oc=5",
@@ -554,34 +586,6 @@
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWV9pckFCQTZFX2swNmE3Rmd0MW9rbXBsbUM2TThWTzlKTzhKTnZWRkh6TEdnSXY3Y2ZGTmRtY3lWczZiRFBWQTJZRnVSX2xBQW5JazFlQ2I1SkJOVmN0ZHVxSWJfbkxZWEFjT0J5bFBSa1BrTkJnUTU5R1JvWUxYYUZDN1hMWWVpbFViSmNHNlFCOTN3RVNtMUxlbk9hZ0x6OFo5VUxSaGh5QWp5N0Q5dWJha053SDFZVGdOQkpwOXlrY0htWVdaUWNNQk5BdTTSAd4BQVVfeXFMUFI3a0I5M1VWMjJwdTh6U3V2ZG5IR01ic094VXdGcjhSV3ZjSU55TkRkcXQ5VmxYcUliUW5jN3diUUFlV0dMNFZ1Ri1ZaE93d0ZabXRYRjI1SnZwd3RlSThmcWtFNTZVaG1oVWZXQ0xDNWhpTnJBOFhjTWJ1ZlduR2lIaTBreEpMcGl3b0cwWG03SUliWktyUXYwTlE0d0lMdVdlMlFzQWRiTXNnR0Q5MDg2ZXBGZWN6Wlo2Zk1zWkRIcjktZDU0RHlIWkJVR0Y0ZVRWaW4zdGxoWVpqa1Nn?oc=5",
           "source": "Informate Salta",
           "date": "Mon, 26 Oct 2026 15:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Gustavo Sáenz, el Presupuesto 2027 y los intendentes que empiezan a ordenar el poder - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ2stZ3QxdlFGSjlXczI0UmFjOE1JVzI0NWpqUk43ZmhteWZKbjBwSGZVX0xrbUlReXdOOHJEd1dMMlJfZnJHZnNILTVQWkl6M2NSY1J1T2F4cGR5ZjkzRmhCR0pUZV81M2xQdTV0SndreHB0X2RlN3hYT2x4OXVjcFlIRWdFeVJkYnk2WHlGeXNXSkFMNENuZ3djQTVPQzhaaUJoSldPMHFPcUhYb3ZhYmhUVUFPWW40NkE?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Mon, 26 Oct 2026 17:22:30 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Presupuesto 2027 deja los aumentos de la AUH en manos del Gobierno - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdkh2X2pTb0lXbFQxMDVySVJVLU8wbU1XbmgyNGczcmJxNXpCNzVnV1lrZE80b2htLXNndm9fTlZJU0ROdlNfVzRnQTN0VjB6YkZtYWo3NVFUNlNhVnlEcWxPQmZUVi15MGduV21ka1RNNldDZ1FIVl9TbnVLRzRMajMzSzN6RXFoUFpRN2hZbTZlZXhu?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 26 Oct 2026 12:42:40 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: LLA busca cerrar el dictamen - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQW0ydjRyaktNU3hoODZMYVczVmMtN1B0R1dTczltUnM4bzFOcWJ0aTFBaU9XdVVLNFlfenozNEtxUmhZM3UyOXU3cTZtSmF5eTdnLS1xLTlyUDFsc3FGSHVXWDR4ak44M2g4UDhJYWJpSDEyZm9sRG53ekxpUlhRNUxvdG52LThHMkViWVpsV0hTd1FQVXB6dV8tZ045N0NB0gGmAUFVX3lxTE05VDBzbXd0aXY0cUE2NEZhRURHRUF6aUs3RUtESVlKbDEtY0JXNEJmQkZCSDlWaGtCVHkyZEVrM3o4T0ZTWUFUaHBCc2N5ekZxamdhTzZBd1lzek5QV0FKU29iaDhlX3NzOVRlcko5TnBJZG1uWTNwa2Q0dl9PWUVtNzZFV2FhZ0VvaWstNVJpWl9YanUxRUhJci1MMU1NWnpxNGdTaWc?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 26 Oct 2026 04:27:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: economista advirtió que el dólar podría superar los $2.000 - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96YklMbUZoMkFfWElUV2pRNERFd0tjcjVVMzdhNkV4cXozZVE5eE8zZHZsRjJfY0FObkN1ZEhyR1ZxYWlkdU1qY0VMZHhLRTBvLUxoLXZEeFY5Wjlac0lIemdSQkMySENINU9Sc0FqenZDNy1fWXFRcUhZY3Y0T2_SAX9BVV95cUxPemJJTG1GaDJBX1hJVFdqUTRERXdLY3I1VTM3YTZFeHF6M2VROXhPM2R2bEYyX2NBTm5DdWRIckdWcWFpZHVNamNFTGR4S0Uwby1MaC12RHhWOVo5WnNJSHpnUkJDMkhDSDVPUnNBanp2QzctX1lxUXFIWWN2NE9v?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 21 Sep 2026 07:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
