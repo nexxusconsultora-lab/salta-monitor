@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 398,
+    "total_mentions": 402,
     "sentiment_breakdown": {
-      "positivo": 100,
+      "positivo": 101,
       "negativo": 59,
-      "neutral": 239
+      "neutral": 242
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 5,
+        "score_sum": 2
+      },
       "2026-02-13": {
         "total": 1,
         "score_sum": 0
@@ -17,10 +21,6 @@
       "2026-10-28": {
         "total": 11,
         "score_sum": 13
-      },
-      "2026-10-30": {
-        "total": 1,
-        "score_sum": 1
       },
       "2026-10-29": {
         "total": 3,
@@ -374,22 +374,22 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 39
+        "count": 38
       },
       {
         "term": "gustavo",
-        "count": 23
+        "count": 22
       },
       {
         "term": "gobernador",
         "count": 7
       },
       {
-        "term": "nación",
-        "count": 7
+        "term": "diques",
+        "count": 6
       },
       {
-        "term": "diques",
+        "term": "nación",
         "count": 6
       },
       {
@@ -406,6 +406,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "equilibrista",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/politica/saenz-se-definio-como-un--equilibrista--y-defendio-el-dialogo-para-gobernar_a6ae4c094052cad7d0196c4df",
+        "date": "Fri, 30 Oct 2026 16:15:00 GMT"
+      },
       {
         "quote": "La gente la está pasando muy mal",
         "source": "Infobae",
@@ -489,16 +495,38 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjTVBIWVhLMVFFLVVyR3hMeUZaVnJoZnhLcTR0M0dsYTRkVUk4MEtMUXhGRjM5QXRmOE1ESXc2UlJaNTk1Wnh3dUcwY1JjbE1jT0RjNG0yaXB1cEdOMk9IaTlXS0hXLTdGQ3BnVnk4NmFUZHdNMExlYldrVXk?oc=5",
         "date": "Wed, 17 Jun 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Impulso Salta",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/turismo/gustavo-saenz-lanzo--impulso-salta---programa-para-potenciar-el-turismo-antes-de-la-temporada-2026-2027_a6ad39f995367b0a878c7a9fa",
-        "date": "Sat, 17 Oct 2026 16:30:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Hubo cambios en Turismo; ¿quién se fue y quién entró en reemplazo?",
+        "link": "https://informatesalta.com.ar/turismo/hubo-cambios-en-turismo---quien-se-fue-y-quien-entro-en-reemplazo-_a6ae494c2052cad7d0191e1ad",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 15:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Sáenz se definió como un “equilibrista” y defendió el diálogo para gobernar",
+        "link": "https://informatesalta.com.ar/politica/saenz-se-definio-como-un--equilibrista--y-defendio-el-dialogo-para-gobernar_a6ae4c094052cad7d0196c4df",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 16:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "María Edith Rodríguez asumió como fiscal ante la Corte Nº 2 de Salta",
+        "link": "https://elintra.com.ar/2026/10/29/maria-edith-rodriguez-asumio-como-fiscal-ante-la-corte-no-2-de-salta/",
+        "source": "El Intra",
+        "date": "Fri, 30 Oct 2026 00:06:00 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Elecciones 2027: Antonio Marocco confirmó que está dispuesto a seguir junto a Sáenz",
+        "link": "https://elintra.com.ar/2026/10/30/elecciones-2027-antonio-marocco-confirmo-que-esta-dispuesto-a-seguir-junto-a-saenz/",
+        "source": "El Intra",
+        "date": "Fri, 30 Oct 2026 17:21:17 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz suma dos nuevos diputados a Innovación Federal para negociar con el Gobierno - Clarin.com",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeENLZ0o0TnB5dGhlLWpHcEJLQlFybS1rd2ZKY2xfSjluUkRfbk9oQVBnb1lVWjlrTG9IclI5T1prMGZHZE9ERnZUcTQ0TEJ5dWtzaDR3Q0ZNVmx5UEJNZU5vZ2o0bU8wQUdMTUMyeUl4cHM3UTU0SjV2NmFrcEdjM1hWY2MwZ29COTNHUXFjVXh1ejI5YUNmcFZFdXhwdFA5ckpYbjFfWG5QVzFJM1djVmZZR055b2IxX2U2UWhGWQ?oc=5",
@@ -679,34 +707,6 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVW84NVRJT0ZFdFJjZDFMczE3VmQ4RDgzS2daODNYYWlFeWhQb1hzSENMMnpFU0dINFpibDRsZkRFX3N4Z01hZXF2aXJSd3RLbV9jd0hpMmVnS015OWcwbEdTSTZpUC1BUEpraWtQSk0xUVlsSVoxYlZuYlZ3Y09rbUk3OVpNTW5IbVNZMlhycjVKVXpSa1RhdW5ockRheTA2MXU5LTA0aEk5U3JpZ0dF0gG0AUFVX3lxTFBTazM4V1ZfdFEtWTVDanVFS2kwQXNWZndmN3Nfc0ZyYk1VSWVBYy1WejE4Nm5jcUdqN0ZnN2tXVWVUWFQxMHVoNlNBRG5JX0I1Nmh4RC1hVE1TN3daZDZKS3VVSDA1ZXd1MkZJeHl6SExlbU9ybDBmZ3BpemtNRnI4c01rb3YyYW44bUxzQXNWX1dEaGhCanNHdEdlWFRqSDY3Z0hCUkNYWVRBUmVQcWFRZW0xNA?oc=5",
         "source": "El Tribuno",
         "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz: \"Argentina no genera confianza si cambian las reglas de juego\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUE1d2hkbk8wVFNRWFI0SE1qR2VSbGtSeWFqRE9xLThUbWwzM3JieV9xMVRPblpfdGpmUUdveUh0SXVEVm8wZ0thWGtnR3hSb1BmbVJnZXJsVVg0cmYzX3J4bmZlc2ZKZXcxN0hCZXp2aUFEZFhfdlotcTNSbG9mZTY1dUlFZFgwX2NwUkNWamNWZkVVdFVPQWJaOWZtZTFCal9udGxMdHVtblByMHRTWWlWZFbSAboBQVVfeXFMTjRfaFpHNi0xZWtBZXdnalMzdXYxcUxZZFUtWjQ3WnJpb3l3dFVxZzI2N2Z2YlY5dlY4Z3NZUFYtdjdhTnlURHhkUEJOMFgzZW9QOHB2YUFYb1pEcmtIbVVpUTdUQ21Wb0toQ0lGZS0yZ0tUY2pHblRrZzEtMzFjSVAwTDJ2X284bW0wQkd4LUNPYTMtU1YySXpqdEx1TTV2ckZMOTlCV3Q5Ynhwd3NaQ1VaX201d19JenlB?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Se acaba el año: El Ejecutivo confirmó cuándo se paga el aguinaldo",
-        "link": "https://informatesalta.com.ar/legislativa/se-acaba-el-ano--el-ejecutivo-confirmo-cuando-se-paga-el-aguinaldo-_a6adfa049ef39f5aad7f6b213",
-        "source": "Informate Salta",
-        "date": "Mon, 26 Oct 2026 19:30:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Taca Taca: Gustavo Sáenz se reunió con el CEO de First Quantum Minerals para analizar  avances del proyecto minero",
-        "link": "https://elintra.com.ar/2026/10/26/taca-taca-gustavo-saenz-se-reunio-con-el-ceo-de-first-quantum-minerals-para-analizar-avances-del-proyecto-minero/",
-        "source": "El Intra",
-        "date": "Mon, 26 Oct 2026 18:20:27 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "El C14 y Sáenz siguen esperando obras que Nación no garantiza",
-        "link": "https://elintra.com.ar/2026/10/26/c14-obras-ferroviarias-mineria-saltena-puertos-pacifico-concesion/",
-        "source": "El Intra",
-        "date": "Mon, 26 Oct 2026 20:32:35 +0000",
         "sentiment_label": "neutral"
       }
     ]
@@ -2418,13 +2418,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 40,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 9,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-27": {
         "total": 1,
         "score_sum": 0
@@ -2572,6 +2576,14 @@
         "count": 3
       },
       {
+        "term": "nuevo",
+        "count": 2
+      },
+      {
+        "term": "diario",
+        "count": 2
+      },
+      {
         "term": "güemes",
         "count": 2
       },
@@ -2644,6 +2656,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El senador Enrique Cornejo pidió a Nación acelerar las pensiones para miles de salteños - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaDVFTFlpQkN4S0U0dF96SXNadHVQMmw4Z0NKY2VkV3BheFdRYmVwZExoUUhEU3hIdElqTjU1VkxhWkFETVl2T0NSUENmYlpNamlsQ241eTAzUzd1M1V6Q3l6TEFWaE1pR3M1aXFYelVhNWlReXBCVDhIMF83ZHUyN2VxTkNWSjlZU0c4a2NWV3hWYjJhQkxkY0hma3FIQVJhMGlWeHhHc1RsTkpzblRjblNIT25kS29mbkJCdDVCaw?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 30 Oct 2026 13:30:55 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Reordenamiento político en Güemes: el senador Enrique Cornejo se muestra con Salvatierra - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOV9SYXI1SHdoX1VxLW90aFM3VzRpcHZWMXpWWDZCSFFMRGlMT0d1Vm4ycTZGX0NkRlNMS24wcS10SFB4N3FXVDE1SXl1MWtPQjZBdXVWeUR6QnFVb0ZWVmRFMDAxeC1VR2ZuMWVNbmpKUWNxdkFuVTlwM3JVbVgwUDdzZlJ3ZWNMd1Q3OE5IUEtKbWhsUHRkUTNic0d2VVA2ZmZJWkhPSXIwNi1nZEFEV1pXQ0M3Z1J4Ul9yeTMyTQ?oc=5",
@@ -2845,13 +2864,6 @@
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeFlJSUxmeDFtc3IwR1laSGFYbTY5NWQ4SjFLcFdyUWc0ZXpSZThxWGRxbVNHZV9TRUxWNmQybFhlNHNqeEJBd1U5S2xpQkNndFhHZ1NOaGN6S1l5TGNXT2JUdGh4azByMFlZX2UwVVVXLTJMN2g4R1FMblFRR0dQNFJhSWRMLUw3TUxWUUtnM01hWU5VZENBODBLZFc2WXI3Ul9EdVJfUi1ZQllyTHVsUkRjVkR1TzIzaGNiUDRFcWh1c0cxVnZEY09nM2VCdjc0RHYxcmxSYV8yaXNPU3fSAewBQVVfeXFMT2paNzBsQnVUd0dSeWZ6YkZNVVdQamFPd3oxYnpLSi1qdDVyNDlXelp0bXRfdDY0UFhtT0c4ZS1DLWxGRWI5UnZYc0JvZ2d5ZmpRQ0ZMdk1WbXBLY2VCWkpsZWU2TXNfbDJwM3NRWmZsWlFXMWc1VE9palQySlZvd1lYTE84OUR1XzBaaHF6S0lCYUN4NThSbDE4VXZWcnFqQmJBTUoydWlSZ0RjUkZtLUNSRDQtZzJ2MVlZckYtLUlfYVBYZDA2M1V3aHR2V3FBdlhQdnJsWjhhMFQtOFB6QTRCVEdOTmJNSXdWM0I?oc=5",
         "source": "Informate Salta",
         "date": "Thu, 17 Sep 2026 11:06:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salta: la lista completa de Gustavo Sáenz para el Senado provincial - Letra P",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdFFBekhmeVVoY3lGVXhGZTJNczhIZ19HeW1PWkVyZ2d4MFZFVnlGbEN4UFM4a1FKY0hQSVl5RnZQQVc4emp2eDhIMmhraXlSSV9UOXZBXzdPTnZXZERkLUYtQ1V2QnhJZ2tROTJOUzBVUktPUGhhVl9VaGlCMExaZ19OcVdqbF9MNDk0RmdDTGpYc0Y3QzZXWjFoSWhRSUg3dEdQR9IBqgFBVV95cUxOMTZHS1JycnREZ2JGcU1SOG1IQlVEdDhIM0tfOUlhc3JYaUFNSS1wa2hzWFY3T05UMy1OcHM3Q182THBVUWQ5QWNRakYwYlU1RzROLVdGMlgzYl9Lc3lxV3d0djBQek10YldoUnIyVFh5NjE4VTRucVdrQnNLSnl3Rm5ienRMbTdBUHlUcmI2U3RDd3dhOVhVd2hBLUV4b2tteXV2U3NmYnVIQQ?oc=5",
-        "source": "Letra P",
-        "date": "Tue, 25 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -6848,14 +6860,6 @@
     "top_topics": [
       {
         "term": "curá",
-        "count": 3
-      },
-      {
-        "term": "juan",
-        "count": 2
-      },
-      {
-        "term": "cruz",
         "count": 2
       },
       {
@@ -16000,13 +16004,17 @@
     "id": "concejal-ines-bennassar",
     "name": "Inés Bennassar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 21
+      "neutral": 22
     },
     "sentiment_by_day": {
+      "2024-06-05": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-09-04": {
         "total": 1,
         "score_sum": 0
@@ -16176,6 +16184,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Para Inés Bennassar, un político no debe ser serio para ser creíble - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzhkOUlwS3BLU3FCcGdka1FpMjkxRnQ5eTlXZHRQMEZfYmNFX2tfbVl0UzN3djVuVG43d1BJV29mSXZYNnIzSjZQbHlPQzRDaHdPQUVrakZ4NFZWNU8xNy1qWWlaMEcyd3V0X1J4OWY2SjJWLThnQVVRcjJaaUEwWmMyQ05tTXhBaTVtZ0J1c3NNeHQwTEo0ZnRtZUZqYWlaZHVr?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 05 Jun 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Inés Bennassar: “Nunca vi la cantidad de desempleo y de negocios cerrados que veo hoy” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nQmVMZDI4YU82d1JVUWhMNThlZ3I3VFJUU05nZmFuUlhnZW10aXV0UlVGR0xGWmlMOXN2bGJjd0ZBX0hmVlFqYUVvQkZ0bTQ3WlE3NGpMZ3g4NkFkMjR1SWcxRU54U2E5NmVtSWdrN2JyQQ?oc=5",
@@ -16506,20 +16521,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "eliana",
-        "count": 2
-      },
-      {
-        "term": "chuchuy",
-        "count": 2
-      },
-      {
-        "term": "pasa",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Nos espera mucho trabajo, porque la ciudad nos necesita",
@@ -19510,19 +19512,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 7
-      },
-      {
-        "term": "lópez",
-        "count": 7
-      },
-      {
-        "term": "elintra",
         "count": 6
       },
       {
-        "term": "está",
-        "count": 2
+        "term": "lópez",
+        "count": 6
+      },
+      {
+        "term": "elintra",
+        "count": 5
       }
     ],
     "quotes": [
@@ -21834,13 +21832,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 115,
+    "total_mentions": 116,
     "sentiment_breakdown": {
       "positivo": 11,
       "negativo": 13,
-      "neutral": 91
+      "neutral": 92
     },
     "sentiment_by_day": {
+      "2025-08-27": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2024-11-29": {
         "total": 1,
         "score_sum": 0
@@ -22125,10 +22127,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2025-08-27": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2025-10-22": {
         "total": 1,
         "score_sum": 0
@@ -22201,15 +22199,11 @@
       },
       {
         "term": "aries",
-        "count": 2
+        "count": 3
       },
       {
         "term": "line",
-        "count": 2
-      },
-      {
-        "term": "nación",
-        "count": 2
+        "count": 3
       },
       {
         "term": "salteño",
@@ -22218,9 +22212,19 @@
       {
         "term": "campaña",
         "count": 2
+      },
+      {
+        "term": "argentina",
+        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "el Gobierno debe ponerse a trabajar en lugar de recortar",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZjVJN2JJMFhBQ1dUUWtGVlFWQU11eTNYd0dOY2tpYzEzMUtHcmJ6cGlJUElTNnNzYU5abnpETU1oZ2NqMGNkMjdaMXNzdHZLNmpwMGdZQ19GbU5SS2pFaVBDNTVkenB4a19PMHJpMy1ncXJxWmR0aUNvMVVRTExIcEJkSmxTdEFxV2lIZEYxTUVNVlpRbXI4ZnB4SVVPMHFuOG02SGt0Wk9RcUtfLXBxUDBSOXlfQmFpd2fSAbIBQVVfeXFMTkVIeUFiQmtkNXByZGctSzNPSnNQOU9FelNteUotQ0h0bFdfY3dFaElXMFhoOHdnNmp5S2hVT1hBcFhfdDZDb1JwYW5DRW9hcWhVRnVncjFVM1otVGRvYmo2NHpEUWFvRUJGQTYyeWlfRTZ0dl9XSVpMMTJGRVVHeFRaZlJMN2xHMnVPNFZSVFcxaTdoYk53OGs1Vlh5TE5HbmJDamtoVFJSTC1nMXEtRktOUQ?oc=5",
+        "date": "Wed, 27 Aug 2025 07:00:00 GMT"
+      },
       {
         "quote": "El NOA va a empezar a despegar en materia minera",
         "source": "Aries On Line",
@@ -22304,12 +22308,6 @@
         "source": "IN Salta",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOGJBejZSa2hLbDZiTXM5eE56RjZtUVg0NUFFV0lVb1p2aTVCTF9EeHFIYnBGcHZPbDVPQWdxR0RwTlE0VTkyUDFRNF9ZMVpaV3RMelpJWmsyUFFCYl9zeWNRYTZuTkpDeVJhWDk1OXI2WnRiSVNZak9BTWRjbTlLaHRyYW9ZM3pSX2VIT3dMd1B5UktUTkNMS2k0U3JVU0VDSEg1bExscU5tQi1URzVIM2tfaXIyTXkyUmY3ZXlZQ0ZCbC1iUzV30gHWAUFVX3lxTE42VkUzQ3RKWXczdU5aNngzSi1jY2twQ2pQdFhob0lTLTBraUhNek1leTdFcWhmRjVWTC1QUXlDX3AtNmM0YVRxU2UxdEdkU1NobURGZWlPaHc0M2x3dzNoeFctSTd3RUFyWjg2VnI4LU9WdVR6ZUtpYzFHSmNob250TTgybVBiaFVaMHhzOTY5Z205U01DZmJwSmVPOVJodjNDT0VoeFBkano1eUp5NzJXY3pvMmsySnRFZkdnclp5dFVFOG8yaGZYMXBuU3FTQjI0TDlOMGc?oc=5",
         "date": "Mon, 20 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Es una demostración política de consensos",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVTdrR2xXSk9uQ3JuaHhibkU3dzRkM3lKdFhpaEc2LWF2TVpGM2dlOW9VcEFKRzVUTks3TndIUGJ6QUpiRkwtQ1RyZTU3THcxc1EtNnFPUWFfM3V1VktacUVoU1FQQVB6QlZBNjJENUZIRERtTnlobnRYc29xdDllZ3RycTViN3dkVUlpNQ?oc=5",
-        "date": "Wed, 11 Feb 2026 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -22339,6 +22337,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Para Flavia Royón, “el Gobierno debe ponerse a trabajar en lugar de recortar” - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZjVJN2JJMFhBQ1dUUWtGVlFWQU11eTNYd0dOY2tpYzEzMUtHcmJ6cGlJUElTNnNzYU5abnpETU1oZ2NqMGNkMjdaMXNzdHZLNmpwMGdZQ19GbU5SS2pFaVBDNTVkenB4a19PMHJpMy1ncXJxWmR0aUNvMVVRTExIcEJkSmxTdEFxV2lIZEYxTUVNVlpRbXI4ZnB4SVVPMHFuOG02SGt0Wk9RcUtfLXBxUDBSOXlfQmFpd2fSAbIBQVVfeXFMTkVIeUFiQmtkNXByZGctSzNPSnNQOU9FelNteUotQ0h0bFdfY3dFaElXMFhoOHdnNmp5S2hVT1hBcFhfdDZDb1JwYW5DRW9hcWhVRnVncjFVM1otVGRvYmo2NHpEUWFvRUJGQTYyeWlfRTZ0dl9XSVpMMTJGRVVHeFRaZlJMN2xHMnVPNFZSVFcxaTdoYk53OGs1Vlh5TE5HbmJDamtoVFJSTC1nMXEtRktOUQ?oc=5",
+        "source": "Aries On Line",
+        "date": "Wed, 27 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón: “El NOA va a empezar a despegar en materia minera” - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVFNFLUpDSkZZdDB4MUdMbFZoZkZ3QzlBNmpEbFhCTWRJdVNZTVNVQVFHYm5KejBtOXQ5VDEwdFZackk3YXk0ZnVDaW01RU5fQkxBajAxVUpzVkU2WUZWWG1jMXVsS0RpM2MxdW9JQU4xNTBDU3o3SWFmYzBhUEw1TTRDMEUwdll4VU5uQzBMQkpDN3FPVmlidmRJdnozN3NBTTE2UW5tVFHSAaABQVVfeXFMTTMzQUtyWFp6RjF0MzRRQ3R1YmJsNG93NVBxNTM1dDRYQ0RrRFZaOEF6TzE2Tzl0SnYzT2MyZWdpZWdjdEs4VUVmeHMtdkRHMHM0b2lvMEdYcVUzb0FTOXdCbEcxNjJfX2FHemNrV0hvQXIxSDRkb2FET0t5akVuQ3lzcXB5aDFJMXRHa1lpSkVxTVcyeExxWVhoSHI0ZkNSNQ?oc=5",
@@ -22540,13 +22545,6 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUFFUYmk5czdFbndJOE4wV1JjbmFteHUwZ3J0QzlkZGQ1OEt3b01oeE01UFlCaHBINHF3dV9zcXpid3BmM3RkdHpBMkdaamxCNkhFWk9yXzMyYlUwcm45UUMxSVIxRTZwbTBXZkg4Z19KejRqcGJURTVBSXJOclp2bi1nVG5KYzFQYWZKQUZQWTJVRGR6LWluSzNnUC0?oc=5",
         "source": "Que Pasa Salta",
         "date": "Tue, 13 Aug 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Causa por vínculos con empresas mineras | La Justicia sobreseyó a la senadora salteña Flavia Royón - Cuarto: Salta a diario",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSzE5S3FlOHJhbzB0WFE4VVlwYnBVUXJ4cGU3Yzh2RktKZXgxcklGVmpMVUxFalJYRjNqWlVRTDJXUnV2cUpLa1hzdmg0V2xsWUVnejFhaXV4cEI5a0VRUFg4Z1VuSzRGX3hSemNXNUtJMndaVFpIT3BhZ1hVSmVjbEFlcjZEWTdQSm5yLWd6STB6Y0JobnZDdHhZcWpoYzN2ZnE1THZhMndhc3dkYktNdmVtZHRxQVlhaVZjbHBCMl8?oc=5",
-        "source": "Cuarto: Salta a diario",
-        "date": "Mon, 24 Aug 2026 20:06:35 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -23258,13 +23256,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 4,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-02-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-09-23": {
         "total": 1,
         "score_sum": 0
@@ -23369,11 +23371,11 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 2
+        "count": 3
       },
       {
         "term": "coraita",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -23441,6 +23443,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cómo votaron Orozco, Guzmán Coraita y Royón la reforma laboral - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZDhtUjlUcmRFZVE2d1hpMlM1YUhLWGQtRFVWN0dfeF9DY0RMSXJGNVVHcHh0UHo3MVBkdG1iQldSV2E1dC1XeENFMmhpeDlEOGRlZW52ZjBqVGx0ZDJrTkhfZjVpenZjZHVIUlhxZDdhQ3pWMWVkeHh1aXhqaHREUm5HM3pvRGthODQ2N2ZVeFQwZXFubU5xM0FPT25kU29mTXJYbnByWFTSAaABQVVfeXFMT3lVMF92VUxKXzNJYV9hbUdoTFJnNHI3R2VocTdMNmdBVW9UNk1PMWs0X2ZOVTIyMC11QlRQdFcwalVjVWNzWG9PRl91Z3JrVTNaWkg1ZVBEM2tDQXY2MWZzeUduY1BzM19YYW0xWHlLNW1FdlVOTVFHaVZzOXJHUWtLUDFyLVBFMmM0WWgxUkRwc2NvTEU1Y2J1TDV0TElRag?oc=5",
+        "source": "Aries On Line",
+        "date": "Sat, 28 Feb 2026 14:13:11 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gonzalo Guzmán Coraita reconoció que “ha sido un año duro para La Libertad Avanza” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSllHTFFhUy1qUjMwYWdxSG53cVhsdllZczI0cFhTSFNqXzFSNmxfbzdFVG9WdUtkendlM1R5eXBkRzBuUmFCVF9tc3lyYWNVSHNoM2tFQTlpR2xLS2lBeFdnOUtpZklqdmttZ3JRZlVSNmY5V1BoQmwyU1dnbHZra1M3UjZaQ21ITnlVMERXUnZtT0RLNWgtOGF2cVJtazdVRV92bmMwa1gtRWlQZHREdFd6TlZVZw?oc=5",
@@ -23642,13 +23651,6 @@
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmlMV1BrOVNjd2VCTjhNZHowVFVNcTVWT2tYNjJmaE1NT3JsYUo1MVRTbm5IdEltVFB0UmduSmVOaDBldjl6ekktM043bXlDdFpfUnhjd3ZteEVyaFZySEFuZ2xTNk9ocGRwM19LeEpVWkFSWi1DaFBDTTJqQWZoaXc3WUxQM3pkNmI3RHJkWVhJUHBxcWJ6dDliOFBRc0JCNE42UXB4ZnZnemx0V1U3VHU4SXBMV3h5ckxKVndCN3dGNUF3ckHSAcsBQVVfeXFMTngxVTdvTDVkSzRRU0RPT3pVSnFOUmhQNnJEVkRyWVFhdTQyY1lzX0hnZU96WEpnQThFbVhCcVpJX1dKblpUdnZocWxIS0VVXzJmY3BjQ1hKSWc0Ym5lbjR1bHFNSDBZRTlQZ2wzNlo4RWc5UGZxZTRKUl9PdURwSUJXSzMwX25WZURiZ1NNdjFXTk9hRjV3TXRQajNmaGw1cGpPU1k3RDROMmFrMk1FZmhudWs5Z1RBYTdWTkhsdlNjRldxX1NPNG96MjA?oc=5",
         "source": "Gente de Salta",
         "date": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Al estilo de Urtubey, Gonzalo Guzmán Coraita se puso el traje de gaucho - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMjk0M2ZxandJdTBMZnBGcWR2cERPbFFvOWZrTDY0THp0Y1JPS2RfaEhRblNzUk1NVVNYQ3RiY2x2YWpGZ2l1YkdXbThubGNyYTZmcGNlWFhUeThPQVpIcXJFa0FGMXhEdWZVZnhDdTZnRkpLSnFvX0RLaE00OGFEdDdHUEJhU3V6djkwYnFCMTZnM1dCZ3E5Qjc5TGtrWW5iWnRLTTc1SjQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 18 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24169,13 +24171,17 @@
     "id": "dnac-julio-moreno-ovalle",
     "name": "Julio Moreno Ovalle",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 4
+      "neutral": 5
     },
     "sentiment_by_day": {
+      "2023-02-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-29": {
         "total": 1,
         "score_sum": -2
@@ -24200,18 +24206,32 @@
     "top_topics": [
       {
         "term": "julio",
-        "count": 2
+        "count": 3
       },
       {
         "term": "moreno",
-        "count": 2
+        "count": 3
       },
       {
         "term": "ovalle",
+        "count": 3
+      },
+      {
+        "term": "voces",
+        "count": 2
+      },
+      {
+        "term": "criticas",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Nunca dieron resultados los arreglos que tuvimos con Brasil",
+        "source": "Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHYyMUJiZXY2aFM1dEctVG1yS09Ed1AxUTFFRnNEb3NFRUtoaURRSGZPVkZhYXNMM2tYNjNrRlpsOW1ZYUJzTnQ0bXR4c1pnUldNd1JhbkVHM1FSazJkZ0pHNUNaeUxyYjkxa2tDNzhNMHdxaHF5ZlVCNTJqQzdXSUZvZG5uaHJBZF8yV3drWHlmd3NqTU45TWRwd0NGel9EZXVVa3k4N0hOeDNmNXN6Z29hTGNFWFhNMVRlaWszNDExbmU0NDFRbjRNM3BHcHBfdlHSAdcBQVVfeXFMTnpKdjJ2UkFWQjlTNjZFWmxaS1JOQ3VxSkJmZjhHY3JsUnlpVk0wZ0hOTGRxYWFDZ1RxX1Y5cVl0eWJLdVZmekE4QWJ3NXVZZWtDVVJNdzV4ejR3bWtLZ21WMTc1ZTk0dFlMLUZFUEdxeElRVm9xX2FqUkpxSWhRQUtiSnhheWk1NVpUNzJvejlyWWdsZUJZYVdWRUloT0xWRXBHdEVEdnhkMW4tY1E4bHEtM3lQQU5DUFB2RXZDMUlJWThsbEFkR0pZaUFmR1ItdUpEVk8zQ0k?oc=5",
+        "date": "Thu, 23 Feb 2023 08:00:00 GMT"
+      },
       {
         "quote": "Tenemos la obligación de cambiar el rumbo del país",
         "source": "Voces Criticas - Salta",
@@ -24239,6 +24259,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Julio Moreno Ovalle: “Nunca dieron resultados los arreglos que tuvimos con Brasil” - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHYyMUJiZXY2aFM1dEctVG1yS09Ed1AxUTFFRnNEb3NFRUtoaURRSGZPVkZhYXNMM2tYNjNrRlpsOW1ZYUJzTnQ0bXR4c1pnUldNd1JhbkVHM1FSazJkZ0pHNUNaeUxyYjkxa2tDNzhNMHdxaHF5ZlVCNTJqQzdXSUZvZG5uaHJBZF8yV3drWHlmd3NqTU45TWRwd0NGel9EZXVVa3k4N0hOeDNmNXN6Z29hTGNFWFhNMVRlaWszNDExbmU0NDFRbjRNM3BHcHBfdlHSAdcBQVVfeXFMTnpKdjJ2UkFWQjlTNjZFWmxaS1JOQ3VxSkJmZjhHY3JsUnlpVk0wZ0hOTGRxYWFDZ1RxX1Y5cVl0eWJLdVZmekE4QWJ3NXVZZWtDVVJNdzV4ejR3bWtLZ21WMTc1ZTk0dFlMLUZFUEdxeElRVm9xX2FqUkpxSWhRQUtiSnhheWk1NVpUNzJvejlyWWdsZUJZYVdWRUloT0xWRXBHdEVEdnhkMW4tY1E4bHEtM3lQQU5DUFB2RXZDMUlJWThsbEFkR0pZaUFmR1ItdUpEVk8zQ0k?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 23 Feb 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Julio Moreno Ovalle reclamó obras para la Ruta 9/34 y advirtió sobre el impacto del Corredor Bioceánico",
         "link": "https://elintra.com.ar/2026/10/29/julio-moreno-ovalle-reclamo-obras-para-la-ruta-9-34-y-advirtio-sobre-el-impacto-del-corredor-bioceanico/",
@@ -24439,22 +24466,22 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 6
+        "count": 5
       },
       {
         "term": "zapata",
-        "count": 6
+        "count": 5
       },
       {
         "term": "diputado",
         "count": 3
       },
       {
-        "term": "elintra",
-        "count": 3
+        "term": "perfil",
+        "count": 2
       },
       {
-        "term": "perfil",
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -25268,15 +25295,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 7
+        "count": 4
       },
       {
         "term": "outes",
-        "count": 7
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 4
       },
       {
         "term": "dicen",
@@ -29021,13 +29048,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 30,
+    "total_mentions": 31,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 2,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-01-15": {
         "total": 1,
         "score_sum": 0
@@ -29147,8 +29178,12 @@
         "count": 5
       },
       {
+        "term": "sáenz",
+        "count": 3
+      },
+      {
         "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
         "term": "norte",
@@ -29156,10 +29191,6 @@
       },
       {
         "term": "grande",
-        "count": 2
-      },
-      {
-        "term": "sáenz",
         "count": 2
       }
     ],
@@ -29216,6 +29247,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Elecciones 2027: Antonio Marocco confirmó que está dispuesto a seguir junto a Sáenz",
+        "link": "https://elintra.com.ar/2026/10/30/elecciones-2027-antonio-marocco-confirmo-que-esta-dispuesto-a-seguir-junto-a-saenz/",
+        "source": "El Intra",
+        "date": "Fri, 30 Oct 2026 17:21:17 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Noticia: Antonio Marocco: \"Tenemos que construir un bloque regional fuerte que sea escuchado” - Gobierno de la Provincia de Salta, Argentina",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb3lWbThUdWhHbDBmb0dfYU0xNWRqcms1SHJsdmpYODVtc043SDFRaThiTUdocmM0X1NtRnIwYWJOMmZJZzh5RDBBOFZsVGdtRUZHRXJjX0g1Y0ZRZE1jb3JJUlZKWjNUbWdOYl9zUFlQaE9WdGlPeDhIRF9hWVI0bV9zZ1dMVWtuM0RzTzc5RGVNUVRtUG9yalViVlppQklaNmJwdG9kcGhTZ2xGSFgtX0Z6a2pUT19wSWlrNWdLa05GM3ZaY05v?oc=5",
@@ -29418,13 +29456,6 @@
         "source": "Elintra.com.ar",
         "date": "Wed, 07 Oct 2026 23:04:57 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Antonio Marocco: «Los salteños deben elegir a los salteños» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRmFZUnFmck8yS2M5T2RlbGk2RkVBeWZxTmdkMzM2TVNfdkQtYldvMFl4TXAzUFhTV3NDYkhKZVhHeFYxQ3hjU05oeXpoNkh5czVvMEZUS0tUYkZiWWNuVnVhRUxPZUgwMWd3UTFaOTI4Z3ZYRWdmWmVaUW1hMEZwNTJJR24xMDZ6eG5XYkxxeE5CSnNEY3c?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 07 Oct 2026 23:10:35 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -29535,11 +29566,11 @@
     "top_topics": [
       {
         "term": "sergio",
-        "count": 5
+        "count": 4
       },
       {
         "term": "camacho",
-        "count": 5
+        "count": 4
       },
       {
         "term": "ruta",
@@ -30502,7 +30533,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 8
+        "count": 6
       },
       {
         "term": "rosario",
@@ -30510,10 +30541,6 @@
       },
       {
         "term": "frontera",
-        "count": 2
-      },
-      {
-        "term": "tiene",
         "count": 2
       },
       {
@@ -30525,11 +30552,7 @@
         "count": 2
       },
       {
-        "term": "presupuesto",
-        "count": 2
-      },
-      {
-        "term": "roberto",
+        "term": "millones",
         "count": 2
       }
     ],
@@ -31557,31 +31580,19 @@
     },
     "top_topics": [
       {
-        "term": "mangione",
-        "count": 8
-      },
-      {
         "term": "salud",
         "count": 5
       },
       {
-        "term": "federico",
+        "term": "mangione",
         "count": 4
       },
       {
-        "term": "anestesistas",
+        "term": "federico",
         "count": 3
       },
       {
-        "term": "contra",
-        "count": 2
-      },
-      {
-        "term": "elintra",
-        "count": 2
-      },
-      {
-        "term": "está",
+        "term": "anestesistas",
         "count": 2
       }
     ],
@@ -31878,13 +31889,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 13,
-      "neutral": 36
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-12-26": {
         "total": 1,
         "score_sum": 0
@@ -32056,35 +32071,31 @@
     },
     "top_topics": [
       {
-        "term": "fiore",
-        "count": 11
-      },
-      {
         "term": "cristina",
-        "count": 10
-      },
-      {
-        "term": "elintra",
         "count": 7
       },
       {
-        "term": "escuela",
-        "count": 4
+        "term": "fiore",
+        "count": 7
       },
       {
-        "term": "fantasma",
+        "term": "elintra",
         "count": 4
       },
       {
         "term": "docentes",
-        "count": 3
+        "count": 2
       },
       {
         "term": "educación",
-        "count": 3
+        "count": 2
       },
       {
-        "term": "quiere",
+        "term": "escuela",
+        "count": 2
+      },
+      {
+        "term": "fantasma",
         "count": 2
       }
     ],
@@ -32165,6 +32176,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cuando en otras provincias se paraba, en Salta se daba clase",
+        "link": "https://informatesalta.com.ar/educacion/cuando-en-otras-provincias-se-paraba--en-salta-se-daba-clase_a6ae4a93a052cad7d01941cdc",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 14:40:28 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cristina Fiore quiere evitar los paros docentes y convocará a paritarias esta semana - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObkV2QTQ3UEFOdmEzS3NNNENZajZKV0swbFBSWTJ3SzNfUkZPLWwxMTJnblhtbFcxZG52NlBNbWlIT3lRUFM2V3ZhakEtcFZLeUdDZjVZaEo5TlBkR3dBNk9tbHB1TWxMUkgxZVlaWU9vRTRKY2dEVUhSNXNROVdRV25Kc0tfUkJDbk1laHZnOXdDV0pDOHVlQWtNWnhiRTVSM2w0ZlY0ZGxiajdfbmF3TUNKOFZpbWNRbTBn?oc=5",
@@ -32367,13 +32385,6 @@
         "source": "El Intra",
         "date": "Wed, 14 Oct 2026 15:02:44 +0000",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Denuncian a Cristina Fiore y a Alejandro Williams Becker por supuesto fraude contra el Estado - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzT0xXRXluX2RXV2Y4YTlLRm5JVTJRWnVZWTdxT0x0MXJkWWM3Q0g1NGt4SDNudVpqZTIwTkVpOGpCNEEzdnhJQUhsaHZncmhfQVYzMk5qcU1XSm9NbVk2SVltS0dOM2NkZE16SUV4LTU?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -32381,13 +32392,17 @@
     "id": "eje-manuela-arancibia",
     "name": "Manuela Arancibia",
     "role": "Ministra de Turismo y Deportes",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 0,
       "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-10-30": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2024-12-02": {
         "total": 1,
         "score_sum": 0
@@ -32430,6 +32445,10 @@
       }
     },
     "top_topics": [
+      {
+        "term": "turismo",
+        "count": 2
+      },
       {
         "term": "manuela",
         "count": 2
@@ -32479,6 +32498,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Hubo cambios en Turismo; ¿quién se fue y quién entró en reemplazo?",
+        "link": "https://informatesalta.com.ar/turismo/hubo-cambios-en-turismo---quien-se-fue-y-quien-entro-en-reemplazo-_a6ae494c2052cad7d0191e1ad",
+        "source": "Informate Salta",
+        "date": "Fri, 30 Oct 2026 15:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Manuela Arancibia será la nueva ministra de Turismo - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0wxTHJTYzkyNDJYa0V1dEFLemx5MERoSnpFX2lqZzdBNi03aC1xeU1kS0RJMURVZEFQX3NLMjdiOXMwcDUyN3h2OHBDZnE5TUZSZjBSUlV3ZF9FclFQX2ptYkdKQ2ZfWEEtR2JGOVdiQkhVVVFLNEFDclJGWURZOUhZUDMzdzkwdXRZbjFiMXJMR0JUNnRNZ0llSdIBkwFBVV95cUxQaHJyM0xfaFJJT2pMa3pydU5LdWJqUWpmRWRFNC1aUmxwclJSYmFBaERIeVNiMTNPNXZROXFzLWE4cHNmenlNdmpnVkdSZkpLTl9qcks0d1ZXbTNJLXFvMEtKcHo5b2JOT3BOdjlrU0VUWnNOZFFzdmFHZHdLcGttR0J1YVdJNGNzTUx1VGtNMURmbm8?oc=5",
@@ -32962,14 +32988,14 @@
     "top_topics": [
       {
         "term": "oriana",
-        "count": 4
-      },
-      {
-        "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
         "term": "nevora",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 3
       }
     ],
