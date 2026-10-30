@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-10-30T07:08:36.950330+00:00",
+  "generated_at": "2026-10-30T14:08:22.323077+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 398,
+      "positivo": 100,
+      "negativo": 59,
+      "neutral": 239,
+      "score_sum": 169
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 23,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 18,
+      "score_sum": -5
+    },
+    "snac-emilia-orozco": {
+      "total": 94,
+      "positivo": 9,
+      "negativo": 16,
+      "neutral": 69,
+      "score_sum": -15
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 65,
+      "positivo": 4,
+      "negativo": 13,
+      "neutral": 48,
+      "score_sum": -24
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 47,
+      "positivo": 3,
+      "negativo": 20,
+      "neutral": 24,
+      "score_sum": -39
+    },
     "eje-ignacio-jarsun": {
       "total": 39,
       "positivo": 6,
@@ -28,13 +63,6 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 397,
-      "positivo": 100,
-      "negativo": 59,
-      "neutral": 238,
-      "score_sum": 169
     },
     "eje-sergio-camacho": {
       "total": 31,
@@ -127,13 +155,6 @@
       "neutral": 17,
       "score_sum": -2
     },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 46,
-      "positivo": 2,
-      "negativo": 20,
-      "neutral": 24,
-      "score_sum": -44
-    },
     "dip-german-dario-ralle": {
       "total": 23,
       "positivo": 2,
@@ -147,13 +168,6 @@
       "negativo": 5,
       "neutral": 31,
       "score_sum": -8
-    },
-    "snac-emilia-orozco": {
-      "total": 92,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 67,
-      "score_sum": -15
     },
     "concejal-eliana-del-valle-chuchuy": {
       "total": 8,
@@ -182,13 +196,6 @@
       "negativo": 7,
       "neutral": 32,
       "score_sum": -7
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 64,
-      "positivo": 4,
-      "negativo": 13,
-      "neutral": 47,
-      "score_sum": -24
     },
     "concejal-angel-ortiz": {
       "total": 50,
@@ -350,13 +357,6 @@
       "negativo": 2,
       "neutral": 10,
       "score_sum": 0
-    },
-    "dip-griselda-edith-galleguillos": {
-      "total": 22,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 17,
-      "score_sum": -5
     },
     "concejal-laura-jorge-saravia": {
       "total": 47,
@@ -934,6 +934,78 @@
     }
   },
   "by_day": {
+    "2026-02-13": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-05-26": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-04-29": {
+      "snac-emilia-orozco": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-27": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 4,
+        "score_sum": 0
+      }
+    },
+    "2022-11-23": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricia-del-carmen-hucena": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-30": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 5
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-sergio-camacho": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2026-09-23": {
       "eje-ignacio-jarsun": {
         "total": 2,
@@ -974,24 +1046,6 @@
       "dnac-bernardo-biella": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-10-30": {
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2023-09-06": {
@@ -1140,12 +1194,6 @@
       "dip-gustavo-orlando-orozco": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2023-12-27": {
-      "snac-flavia-royon": {
-        "total": 4,
-        "score_sum": 0
       }
     },
     "2023-12-14": {
@@ -4744,16 +4792,6 @@
         "score_sum": 0
       }
     },
-    "2026-04-29": {
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-06-17": {
       "gustavo-saenz": {
         "total": 2,
@@ -6694,20 +6732,6 @@
       "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2022-11-23": {
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-patricia-del-carmen-hucena": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-08-11": {
@@ -17481,7 +17505,11 @@
       "count": 6
     },
     {
-      "term": "pablo",
+      "term": "emilia",
+      "count": 5
+    },
+    {
+      "term": "orozco",
       "count": 5
     },
     {
@@ -17497,15 +17525,11 @@
       "count": 4
     },
     {
+      "term": "pablo",
+      "count": 4
+    },
+    {
       "term": "turismo",
-      "count": 4
-    },
-    {
-      "term": "flavia",
-      "count": 4
-    },
-    {
-      "term": "royón",
       "count": 4
     },
     {
@@ -17513,12 +17537,12 @@
       "count": 4
     },
     {
-      "term": "milei",
-      "count": 4
+      "term": "diputados",
+      "count": 3
     },
     {
-      "term": "lópez",
-      "count": 4
+      "term": "millones",
+      "count": 3
     }
   ],
   "comentions": [

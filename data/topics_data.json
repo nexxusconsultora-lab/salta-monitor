@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-30T07:08:37.703675+00:00",
+  "generated_at": "2026-10-30T14:08:23.215134+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 448,
+      "total_mentions": 449,
       "sentiment_breakdown": {
         "positivo": 27,
         "negativo": 36,
-        "neutral": 385
+        "neutral": 386
       },
       "sentiment_by_day": {
+        "2026-09-23": {
+          "total": 15,
+          "score_sum": -6
+        },
         "2026-09-17": {
           "total": 16,
           "score_sum": -6
@@ -220,10 +224,6 @@
           "total": 15,
           "score_sum": -2
         },
-        "2026-09-23": {
-          "total": 14,
-          "score_sum": -6
-        },
         "2026-09-18": {
           "total": 14,
           "score_sum": -2
@@ -240,11 +240,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 167
+          "count": 165
         },
         {
           "term": "presupuesto",
-          "count": 59
+          "count": 58
         },
         {
           "term": "intransigente",
@@ -260,14 +260,14 @@
         },
         {
           "term": "pasa",
-          "count": 21
+          "count": 22
         },
         {
           "term": "milei",
           "count": 18
         },
         {
-          "term": "sáenz",
+          "term": "discapacidad",
           "count": 14
         }
       ],
@@ -278,6 +278,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Trabajar o mantener la pensión",
+          "source": "Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFka9IBjwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
+          "date": "Wed, 23 Sep 2026 07:00:00 GMT"
+        },
         {
           "quote": "Nunca dije eso",
           "source": "Informate Salta",
@@ -361,15 +367,16 @@
           "source": "El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNaTlXdnFjQWdnWHhHWlJiU1dBTHNsUkt5MHJFeXFSeHFNcFAxZjBjSjRQSzVMdHZVeW1YaXpZdzExTjk1QmtXMkdxZEFxSG1QUkZzSE0tamxOeXJLWEZGTHYzNHVyT2thSkdZRDdPOG9KYWlfOURZdHc1b0tFbUJyWi1FSzh5blpHUWE3QVRVMWx1RHZLVzF1VUhQaDJCZUtvQ2NjYzNsRU5RY0Ewc0EyRTlXX2lUcTQxZjlMSWJyRVBZanZDbjFGUHNHSGtWdG5YQURRVW5MLXZTMk1vc1Vqci1rcGxEN0NZclBhcGhUOW51d3UzRGhNRVoxYUIxd3M1R0hB?oc=5",
           "date": "Tue, 13 Oct 2026 18:06:00 GMT"
-        },
-        {
-          "quote": "operativo lavandina",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAySmEzdGV5NEJsbkE3b0V2TDhGcnlyTUtkcklxbmZrNGxNdEhsY0tRM2JNSXg4RnVqWXNmZnVGQ0VnZm85VHhEclpWTHRsSWtWTExlbGhQQVE5UkxXVTNQVFRvWG9YdEJicVFDNmtNS01Kd1pJN3BDcFVnZHNYUQ?oc=5",
-          "date": "Tue, 13 Oct 2026 03:29:23 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "\"Trabajar o mantener la pensión\": el cambio que preocupa a miles de personas con discapacidad - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFka9IBjwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Presupuesto 2027: el Gobierno Nacional propone quitar la actualización automática de la AUH - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNnVaWVFYMmdiQUFRWUNsNkMwU1F0NzAtRVRMRXZhbEJuUF90XzRSR1YxOExTVTJYZ2VhY1lqU0g4aWxsa0lTcm9tOWZPaXl5amczM05JNE56blpoVE9oYm82elJxdXpBYW92ZHlkYm8zbmFLcUdkM0VzeFA0VHNMZdIBgAFBVV95cUxNNnVaWVFYMmdiQUFRWUNsNkMwU1F0NzAtRVRMRXZhbEJuUF90XzRSR1YxOExTVTJYZ2VhY1lqU0g4aWxsa0lTcm9tOWZPaXl5amczM05JNE56blpoVE9oYm82elJxdXpBYW92ZHlkYm8zbmFLcUdkM0VzeFA0VHNMZQ?oc=5",
@@ -571,13 +578,6 @@
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQXlfMy1WSlB5MXB6OFlEVjItVzJuU2JlbUZ4OUlYRkl4bEM4TmdReE11R09RaVFOc29jYkJvVUxUVGVoNWNmbTZSZEd4cjNNUmducVc2QzZiNHNHTkhFbTR4STdmNFg3ZlhWNjRtYzhkQ1llaHZnODNFZkl3bF9zWFU5Z3Q4clhidzJTWWpFQVRIUHBTSm52WUZGNlhsYmRjX0FkV1lLcHFNa1dh?oc=5",
           "source": "Elintra.com.ar",
           "date": "Sat, 24 Oct 2026 16:27:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Gastón Galíndez anticipó el Congreso del PJ y abrió la discusión por los frentes electorales para 2027 - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdkh2VzlnWkFLaFNjQ2c5eHdwQXkxa29ENWhhWFd6ckwzNVF3LWtOZFlGdGVUdUhYdXcxSFFESFZkMUx5eXNDRjZzc05jaDlLd0VyYjNtUnc1dXdUUVNCYTY5Mlh4WGZzeUJXbkctZklUZmxxcEJYMnBaQ0pXU2tNNnVraG9TQThudmw5YmR1OWVRUGZlN2NObG5WVDc0aXpzRTRxM0RlblZ5dURNTkFQMjdEVll6a0Z1NXh0YXF2TkxLdWVyRFRBeGIzbjZ5ZWtSdHpn?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Sat, 24 Oct 2026 18:27:25 GMT",
           "sentiment_label": "neutral"
         }
       ]
