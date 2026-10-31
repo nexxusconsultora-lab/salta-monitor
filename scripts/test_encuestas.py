@@ -15,7 +15,7 @@ import macro as M         # noqa: E402
 
 
 def lee(titulo, enc=("Zuban Córdoba",)):
-    return [(r["sujeto"], r["medida"], r["valor"]) for r in E.extrae(titulo, list(enc))]
+    return [(r["sujeto"], r["medida"], r["valor"]) for r in E.extrae(titulo, list(enc), pais_ar=enc[0] not in ("AtlasIntel", "Ipsos"))]
 
 
 class Extraccion(unittest.TestCase):
@@ -47,6 +47,9 @@ class Extraccion(unittest.TestCase):
     def test_medida_al_final_vale_para_los_dos(self):
         r = lee("Encuesta Giacobbe: Grabois 21% y Lousteau 15% de imagen positiva", ("Giacobbe",))
         self.assertEqual(sorted(r), sorted([("Juan Grabois", "Imagen positiva", 21.0), ("Martín Lousteau", "Imagen positiva", 15.0)]))
+
+    def test_candidato_extranjero_y_tema_sin_seña_de_argentina(self):
+        self.assertEqual(lee("Aprobación de Abelardo de la Espriella cae a menos del 50% en encuesta de AtlasIntel y crece la preocupación por la corrupción", ("AtlasIntel",)), [])
 
     def test_sin_porcentaje_o_fuera_de_rango(self):
         self.assertEqual(lee("Encuesta Zuban Córdoba: Milei sube en las encuestas"), [])
