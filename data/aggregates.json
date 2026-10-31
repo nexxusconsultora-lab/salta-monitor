@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-31T14:17:05.967256+00:00",
+  "generated_at": "2026-10-31T14:47:45.414229+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 97,
+      "positivo": 9,
+      "negativo": 16,
+      "neutral": 72,
+      "score_sum": -15
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 20,
+      "score_sum": -7
+    },
     "eje-mario-mimessi": {
       "total": 35,
       "positivo": 3,
@@ -35,13 +49,6 @@
       "negativo": 5,
       "neutral": 32,
       "score_sum": -8
-    },
-    "snac-emilia-orozco": {
-      "total": 96,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 71,
-      "score_sum": -15
     },
     "dip-monica-gabriela-juarez": {
       "total": 57,
@@ -182,6 +189,13 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": -4
+    },
+    "dnac-bernardo-biella": {
+      "total": 30,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 20,
+      "score_sum": 1
     },
     "concejal-gustavo-farquharson": {
       "total": 66,
@@ -511,13 +525,6 @@
       "negativo": 1,
       "neutral": 8,
       "score_sum": -1
-    },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 19,
-      "score_sum": -7
     },
     "dip-daniel-alejandro-segura-gimenez": {
       "total": 13,
@@ -927,6 +934,34 @@
     }
   },
   "by_day": {
+    "2026-05-09": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-03-24": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-marianela-marinaro-chain": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-carolina-rosana-ceaglio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-04-20": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -5813,6 +5848,16 @@
         "score_sum": 0
       }
     },
+    "2025-09-11": {
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2026-06-25": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -9715,20 +9760,6 @@
         "score_sum": 0
       },
       "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-03-24": {
-      "dip-marianela-marinaro-chain": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-carolina-rosana-ceaglio": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
         "total": 1,
         "score_sum": 0
       }
@@ -13987,12 +14018,6 @@
         "score_sum": 0
       }
     },
-    "2026-05-09": {
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2020-08-20": {
       "sen-mashur-lapad": {
         "total": 1,
@@ -17595,7 +17620,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 21
+      "count": 23
     },
     {
       "term": "sáenz",
@@ -17610,11 +17635,15 @@
       "count": 12
     },
     {
-      "term": "gustavo",
+      "term": "orozco",
+      "count": 7
+    },
+    {
+      "term": "emilia",
       "count": 6
     },
     {
-      "term": "orozco",
+      "term": "gustavo",
       "count": 6
     },
     {
@@ -17626,15 +17655,15 @@
       "count": 6
     },
     {
+      "term": "diputados",
+      "count": 5
+    },
+    {
       "term": "voces",
       "count": 5
     },
     {
       "term": "criticas",
-      "count": 5
-    },
-    {
-      "term": "emilia",
       "count": 5
     },
     {
@@ -17647,10 +17676,6 @@
     },
     {
       "term": "ruta",
-      "count": 5
-    },
-    {
-      "term": "diques",
       "count": 5
     }
   ],
