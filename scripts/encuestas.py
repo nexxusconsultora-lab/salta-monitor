@@ -82,7 +82,7 @@ ENT = [
     ("UCR / radicalismo", "espacio", r"\bucr\b|radicalismo|radicales"),
     ("Gobierno nacional", "espacio", r"gobierno nacional|gestion nacional|gobierno de milei|gobierno de javier milei"),
     ("Gobierno de Salta", "espacio", r"gobierno de salta|gestion de saenz|gobierno provincial"),
-    ("Líder extranjero", "ext", r"trump|lula|sheinbaum|noboa|petro\b|boric|kast\b|bukele|maduro|machado|starmer|macron|sanchez|merz|meloni|zelensk|putin|\bxi\b|modi\b|biden|harris|vance|mamdani|orsi|peña\b|abinader|arevalo|mulino|ortega"),
+    ("Líder extranjero", "ext", r"trump|lula|sheinbaum|noboa|petro\b|boric|kast\b|bukele|maduro|machado|starmer|macron|sanchez|merz|meloni|zelensk|putin|\bxi\b|modi\b|biden|harris|vance|mamdani|orsi|peña\b|abinader|arevalo|mulino|ortega|espriella|cepeda|fajardo|vizcarra|lopez aliaga|keiko|lacalle|bolsonaro|tarcisio|nasry|asfura|ramirez de aguila|fujimori|paz pereira"),
     ("Rumbo del país", "tema", r"rumbo del pais|marcha del pais|rumbo del gobierno|rumbo economico"),
     ("Tarifas de servicios", "tema", r"tarifas?|servicios publicos"),
     ("Impuestos", "tema", r"impuestos?|presion tributaria"),
@@ -97,6 +97,8 @@ ENT = [
     ("Expectativas del futuro", "tema", r"expectativas?|optimis|pesimis|futuro"),
     ("Gobierno nacional", "generico", r"\bgobierno\b|\bgestion\b"),  # genérico, va al final: sólo si nada más lo cubre
 ]
+# Señas de que una nota habla de la Argentina. Un tema suelto («corrupción», «inflación») sin ninguna seña así puede ser de otro país.
+CUE_AR = re.compile(r"argentin|\bsalta\b|salten|nacional|kirchner|peron|casa rosada|bonaerens|buenos aires|\bcaba\b|conurbano|provincia|milei|libertad avanza|gobernador|congreso|pais")
 ENT_RE = [(n, t, re.compile(p)) for n, t, p in ENT]
 # El PRO se reconoce sólo en mayúsculas (si no, "pro" confunde).
 PRO_RE = re.compile(r"(?<![A-Za-z])PRO(?![A-Za-z])")
@@ -162,7 +164,11 @@ def sin_medio(t):
     return re.sub(r"\s+[-–|]\s+[^-–|]{2,45}$", "", t).strip()
 
 
-def extrae(titulo, encuestadora_pats):
+# Encuestadoras que miden varios países: con ellas un tema suelto necesita alguna seña de Argentina en la nota.
+MULTIPAIS = {"ipsos", "atlas"}
+
+
+def extrae(titulo, encuestadora_pats, pais_ar=True):
     """Devuelve la lista de registros (dicts sin metadatos de la nota) que se pueden afirmar a partir del título."""
     t0 = sin_medio(titulo)
     # se saca el nombre de la encuestadora para que «Zuban Córdoba» no se lea como la provincia ni «Opina» como verbo
@@ -220,6 +226,8 @@ def extrae(titulo, encuestadora_pats):
         dist = min(abs(e[0] - b), abs(e[1] - a))
         if dist > 80 or e[3] == "ext":
             continue
+        if not pais_ar and e[3] in ("tema", "generico") and not CUE_AR.search(low) and not any(x[3] in ("persona", "espacio") for x in ents):
+            continue  # un tema sin ninguna seña de Argentina: no se asume
         if e[2] == "Gobierno nacional" and e[3] in ("generico", "espacio") and ambito == "Salta" and not re.search(r"gobierno nacional|milei", low):
             e = (e[0], e[1], "Gobierno de Salta", e[3])
         # medida: la palabra clave más cercana DENTRO de la misma frase (se corta en «y», comas, «frente a», «pero»…);
@@ -494,7 +502,7 @@ def main():
     for n in lista:
         if n["enc"] not in nombre_de:
             continue
-        for r in extrae(n["titulo"], alias_de[n["enc"]]):
+        for r in extrae(n["titulo"], alias_de[n["enc"]], pais_ar=n["enc"] not in MULTIPAIS):
             regs.append({**r, "enc": n["enc"], "encuestadora": nombre_de[n["enc"]], "fecha": n["fecha"], "titulo": n["titulo"],
                          "medio": n["medio"], "url": n["url"], "visto": n.get("visto") or n["fecha"],
                          "medios": n.get("medios") or [{"medio": n["medio"], "url": n["url"], "fecha": n["fecha"]}]})
