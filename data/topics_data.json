@@ -1,20 +1,28 @@
 {
-  "generated_at": "2026-10-31T02:20:59.680567+00:00",
+  "generated_at": "2026-10-31T08:37:48.180869+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 454,
+      "total_mentions": 459,
       "sentiment_breakdown": {
-        "positivo": 27,
-        "negativo": 37,
-        "neutral": 390
+        "positivo": 28,
+        "negativo": 38,
+        "neutral": 393
       },
       "sentiment_by_day": {
+        "2017-10-25": {
+          "total": 2,
+          "score_sum": 0
+        },
         "2026-10-30": {
-          "total": 4,
+          "total": 7,
           "score_sum": -2
+        },
+        "2026-10-31": {
+          "total": 1,
+          "score_sum": 0
         },
         "2026-10-29": {
           "total": 1,
@@ -176,10 +184,6 @@
           "total": 5,
           "score_sum": 2
         },
-        "2017-10-25": {
-          "total": 1,
-          "score_sum": 0
-        },
         "2026-09-29": {
           "total": 5,
           "score_sum": 0
@@ -248,11 +252,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 165
+          "count": 167
         },
         {
           "term": "presupuesto",
-          "count": 60
+          "count": 61
         },
         {
           "term": "intransigente",
@@ -260,7 +264,7 @@
         },
         {
           "term": "elintra",
-          "count": 32
+          "count": 35
         },
         {
           "term": "informate",
@@ -378,6 +382,41 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Salta - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GQmFwM19heVVpcVFXUmpSMnotY0NIdHY5UXpodTI1cnRCRzU2Mk1iTUVqNDkzMlBwM0FCc1FhTVdYN2lEWmc?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 25 Oct 2017 01:18:09 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "CAME alertó desde Salta por la caída del consumo y reclamó a Nación un ministerio para las pymes - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGFHUGZrdVhOTkFvNzNDMmtoTGFSc212T3JDeDlXeVRMTm5mNU5EOGtWekV4MnQtUGdvaXIxWHhRdmk1MmpjZXRqWV94ME9DcngzLVJudU5kVG9udkZwUENhVWN6dlZmVThVWGhwQTRUY3I3V2VhWXFNZTMzclNTTHpaRjJHZW5GTkZZNmZ2R0ZwTXR0Y3ZGaVZyVDBSUm9qa2FrTUl2M1JET1h5cWRMRnBYbEgtNFN6VnZUV3VzR0dSU2puclg4eDdQUQ?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 30 Oct 2026 23:15:02 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "El Senado aprobó modificaciones en la reforma de la Carta Orgánica - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS2dfX2E2RHhvcFdFd0RnMHU4LXUtNmZqX0stSFI5RWpGLXBaTVhvd2lVN29Pd2VYYmJfcVJ5RjFTaXlRdXlucXRmS3JIZDlYcXdPWkF5X3JlZWt1VTVlV2lGN3B1dUZWVkNOY1A0NFY5VUFqd3pMZjhLNzloMUZKb3pHZ2IyYWlUdWM4dVhEQjgtNHdTOWwwUWJpMUtoTnh4X0xR?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 30 Oct 2026 23:58:48 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Salta archivos - Página 1470 de 1470 - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XNGo0eGtnVnZwcGs1cE5lS0NnUDVtUDUxUXNfZTIxYzNZeVdxNGtVN3ZmMEtJeV9vb29IQUFScGR6V1AtTlFFSmdtWWhka0pVQmxpRUUwWklHWDA1?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 30 Oct 2026 20:59:19 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Capital y Güemes plantearon sus pedidos para el Presupuesto 2027 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSko4eWxDX0xIdk1RUXpWaS1icExReUNWcG50b1VzdjhFSW8zRDBrUk9hVlRsMVhYcW81enpTOGl0QnZ1OVdBajZxSnkxMG1oalg5OW8xNnI2WGZfTk5zdktXdk1xbHR6MEZFdDZiMlk5Tm5jOVZXQUR5aWRPZmtrcVc1SDNzQVRVUmxySFFIcFlBOTNnTTRLRzZLdjV2S2g1SVczcV9TazhnNndlY1ZiUUNtZ9IBuAFBVV95cUxOYkI2ckFHenFKNHdZYXZxaXpCSl9MZHVuNlhyLWc0SEN0X1VUZnVkaGNyQUQ5bElVY3BfMTR5N0dSMkFWaWxuVzRzMXpuNnFZeTRQVDl4cGNyVzFVLUtid0pRbnIyWXNYZ29XX1dXa1BRSnI3MTdzZTYxUkJrVFB0UHBPTnh0bnd4aUVVQmJoQVFnS2JIa0JHSzg3MHVHZVI1RWJBUzd4aFRZMXE4TmZ2UGVUOHhXU0NL?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 31 Oct 2026 03:50:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Gobierno Nacional: el subsecretario de Ciencia y Tecnología renunció tras denunciar falta de apoyo - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXE0YmlpOUhRTEhxdENxbXhIemhrZklQSHpFMHRZSmtabHVsZFF3Rm5vSUpyaUpmSXk2cURQSncyenItNjZjOWQ0eTdSVFlpcFdnckt3TjVQR3VETnhkRm5Pcm1DS2FtblVkaEFOOVpSTEJxeWFlVGFyTDdTbXNOaWlIWERxcUhYRmM1SGdEUWlyeGpRVmtsTkJGZm9rekdFVjA4bEpwbktFc19RZ0FvUl9YQkloNlBwUkE?oc=5",
@@ -551,41 +590,6 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BcUZ6OE9uSThseVR3dV9zbXJ6dWI4RmFWTUpid1Bxd2t6NlFaYVNvNVVlRC13S25vazZ2U1duelFadlZHR3lKbWg3NmY4X1d6c1pVeDQ2R2haalI0?oc=5",
           "source": "Elintra.com.ar",
           "date": "Mon, 26 Oct 2026 15:29:41 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sueldos y aguinaldo en Salta: fechas de pago para noviembre y diciembre - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT0x1M1JhOC1Cd3lxQlJkd1I4dTFVcUxkaVFhT0k4bE1LREl5TlJFV2h2SjltN3hqaE5uekJEeURnTFp4LUQxT1Q1UVpjTEVWNkVRSVp6NnlwSGNXUXR0VVY2QXJCRVU4LXh6bUloNWdQR0UyQmQySlRUd0xaR3N4Q1IzeWxmbkgyQXIw0gGLAUFVX3lxTFBPTHUzUmE4LUJ3eXFCUmR3Ujh1MVVxTGRpUWFPSThsTUtESXlOUkVXaHZKOW03eGpoTm56QkR5RGdMWngtRDFPVDVRWmNMRVY2RVFJWno2eXBIY1dRdHRVVjZBckJFVTgteHptSWg1Z1BHRTJCZDJKVFR3TFpHc3hDUjN5bGZuSDJBcjA?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 26 Oct 2026 18:31:24 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Los empleados públicos de Salta cobrarán el aguinaldo el 17 de diciembre - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRWpHeDQ3aHNCVk9TU2VtNFZYNGMtMm5FMkNrRHZ3RGlpdlJoRlhhekVDcWlPTDF6bDhER3kwTVdGRHNIVUdqU08xRHEtcWotZmpvcDBKUVNmT01fb1FwcGxoWU5XbUpDY2JlVXo4MEhCVl9qaVZTUktzaUxrZjVDMWo2a3pBOURSWTFxejZpVi1HNll2MkYyclFPdmc5YnFheE01RUdYMTlwT3VqS2xhT1FSNFR5SVF3SVRWN1o2TEfSAcYBQVVfeXFMT1RBTU5hOFAwNUdMZDNOQ3hNM2JERHdvTnZNSzdHaUM1N0FqYjE1NkI3UVc3X25wT3NpZlJmNktTa0YtZEpZWXNnWkJfUkFrem5kTlBOYkNmalg4WVplS2MzT3F6TFFZQ0k0U05jWVA5dzBFN3dXZGZsd0pHY1ZTTGVSVGpReVVfaU80SU1KTVBwT3RyUkR1NWlQcm40cE02QVR6N3lKS3M2bzY0ZnZtOEpRQ2kyV0NUdFZxVXJBclI1ckpoaVJ3?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 26 Oct 2026 18:44:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "IPS: buscan exigir 10 años de afiliación para mantener la cobertura al jubilarse - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMHp2MzhuM002M296SFdHOU5HY2x5cG9mOTNlQ3dCczRwbXNCdFY0ak5CdGhOckFHZzctTTA3UmpOd21pODZkOWdfWXQ4WGlxa3o0bnV5d1V2T0R3XzZmMUJCY1pjSzFFZmNjcGZLUTdsWVV3VUozdjFZRVVYUkEyRktrN2EyNW9yV21nMEFwRGgwMVVieWxsdXdFV2J6Q2h6N1FKWWx5NUhkMk5kMXQwaDBKa1ZJaVVmalFRUU90SUFtdm1xaHVj0gHMAUFVX3lxTE4wZllkYkJ6S1AzRF9vVEhxY0NBVHlPZG5fY0pHWUl6V3RGTXZYdmYxSjFMc0pNYTd0Q25kLXdNTlR1MklfRnB5aF94TXMxaVk1ZEZXM3RNOXdWYWhiWGpTQjBWUHprOHdZdUJMLWdTUEpGYkdmWnRnb2FYRWFScG1tMUJoQ0xWa1loSVA5X1JTak1pWmgza3E0bE03THpWNlBXUjVaTTdCUnpDZkVMaHVjNTBWWU9FZFB5R0t4VDhya2wxcF8zWEV2TllnSw?oc=5",
-          "source": "El Tribuno",
-          "date": "Mon, 26 Oct 2026 04:27:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Milei no baja candidatos propios en las provincias y complica acuerdos con gobernadores, ¿Qué pasará en Salta? - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNRGFFQ3h5bHNQSGozZ2pLSjVTRU9ONzUwZHUySVFmWDdsWGpIQUthdWF2amtLc0g0ZldhZkNYbnBZQzgtbUtzS040bGlsY2FuTjhhR2NYTE5DSC00b084QnB2MDZFSXJicTg5Q0hOMmRJRGt6SE5xVDg1Sm1yMkxYSWRFUUY2dGZyNmFWYmQ1cFctdlVzdVBMREFwMmlHbzljMDBlWVAxQk1pNktyRWtXRmlldVg4V2V6ZUZ6WHUtM3NyUE1oOFRoRzlUSG9BV1ZVZWtzT2w4a0ZGQ3hpWUZ1OGl1Z1BLRW1uQTFpZE1HYm1FOHc4aVZucFUtUnZJRnhldHJXSEFR0gGUAkFVX3lxTFBCN1RJQmU1VFg4ejBWQWNmNXN2Y3lQN29pYnpPbENpRXJJa3dqb2JiVjV3S0MyVjJTMjl2Ukc0b1pzUTRLbGxBbGRkWkVxS3Q1aWhIMEVIdGE0cndEUE5OcXdGVkhJZ3psemx4WHowZ0hFUE9xX0x5RjBDZHF3aG9WMmVMSXZ2ZGhPTGM5emo3STNmQU9YTjVpWldLYjJPOU1mWnA5VVRBYnV5Uk5MN0FHVkpYbER1c2JwVEc0Q0FmbE1iaUpBT0NoSWZqZHU5a21md2F0MU5qSDVnWE41SV9adDJOcDNxSkJtcUJqaHpKdGhKOHJITmZ0THhFZHBlVnJSeGZYYmtlakZSWE80b09DeWRNMQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Mon, 26 Oct 2026 14:05:31 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Jarsún desmintió que quiera ser intendente de Salta: “Nunca dije eso” - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWV9pckFCQTZFX2swNmE3Rmd0MW9rbXBsbUM2TThWTzlKTzhKTnZWRkh6TEdnSXY3Y2ZGTmRtY3lWczZiRFBWQTJZRnVSX2xBQW5JazFlQ2I1SkJOVmN0ZHVxSWJfbkxZWEFjT0J5bFBSa1BrTkJnUTU5R1JvWUxYYUZDN1hMWWVpbFViSmNHNlFCOTN3RVNtMUxlbk9hZ0x6OFo5VUxSaGh5QWp5N0Q5dWJha053SDFZVGdOQkpwOXlrY0htWVdaUWNNQk5BdTTSAd4BQVVfeXFMUFI3a0I5M1VWMjJwdTh6U3V2ZG5IR01ic094VXdGcjhSV3ZjSU55TkRkcXQ5VmxYcUliUW5jN3diUUFlV0dMNFZ1Ri1ZaE93d0ZabXRYRjI1SnZwd3RlSThmcWtFNTZVaG1oVWZXQ0xDNWhpTnJBOFhjTWJ1ZlduR2lIaTBreEpMcGl3b0cwWG03SUliWktyUXYwTlE0d0lMdVdlMlFzQWRiTXNnR0Q5MDg2ZXBGZWN6Wlo2Zk1zWkRIcjktZDU0RHlIWkJVR0Y0ZVRWaW4zdGxoWVpqa1Nn?oc=5",
-          "source": "Informate Salta",
-          "date": "Mon, 26 Oct 2026 15:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
