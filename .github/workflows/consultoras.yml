@@ -11,8 +11,8 @@ on:
       - "data/consultoras.json"
       - ".github/workflows/consultoras.yml"
   schedule:
-    # Cuatro veces por día (hora UTC de GitHub; no es exacto cuando hay mucha carga).
-    - cron: "20 */6 * * *"
+    # Una vez por día, a las 06:20 de Argentina (09:20 UTC). GitHub puede demorarlo unos minutos si hay mucha carga.
+    - cron: "20 9 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
         run: python scripts/consultoras.py
 
       # Si la API del FMI no responde, este paso no rompe el resto: se conserva el archivo anterior.
-      - name: Bajar la macro del mundo (FMI)
+      - name: Bajar la macro del mundo (FMI o Banco Mundial)
         continue-on-error: true
         run: python scripts/macro.py
 
