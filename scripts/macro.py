@@ -44,10 +44,37 @@ PAISES = {
 }
 
 
+MAX_BYTES = 12 * 1024 * 1024
+LIMITE = {"%": (-100.0, 100000.0), "% PBI": (-1000.0, 5000.0), "USD": (0.0, 1e7)}  # rangos físicamente posibles
+
+
+def valido(v, u):
+    import math
+    lo, hi = LIMITE.get(u, (-1e9, 1e9))
+    return isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) and lo <= v <= hi
+
+
+def limpiar(serie, u):
+    """Se descartan valores imposibles (por ejemplo un PBI per cápita negativo o NaN) y años que no son años."""
+    out = {}
+    for iso, anios in (serie or {}).items():
+        if iso not in PAISES or not isinstance(anios, dict):
+            continue
+        ok = {a: x for a, x in anios.items() if str(a).isdigit() and 1950 <= int(a) <= 2100 and valido(x, u)}
+        if ok:
+            out[iso] = ok
+    return out
+
+
 def get_json(url, t=30):
+    if not url.startswith("https://"):
+        raise ValueError("URL no permitida")
     rq = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9", "Referer": "https://www.imf.org/external/datamapper/"})
     with urllib.request.urlopen(rq, timeout=t) as r:
-        return json.loads(r.read().decode("utf-8"))
+        datos = r.read(MAX_BYTES + 1)
+    if len(datos) > MAX_BYTES:
+        raise ValueError("respuesta demasiado grande")
+    return json.loads(datos.decode("utf-8"))
 
 
 def pide(ind):
@@ -98,9 +125,11 @@ def main():
     fuentes = dict(previo.get("fuentes") or {})
     for ind in INDICADORES:
         v, err = pide(ind)
+        v = limpiar(v, INDICADORES[ind][1])
         fuente = "FMI"
         if not v:
             v2, err2 = pide_wb(ind)
+            v2 = limpiar(v2, INDICADORES[ind][1])
             if v2:
                 v, fuente = v2, "Banco Mundial"
             else:
@@ -123,7 +152,10 @@ def main():
         previo["estado"] = estado
         previo["error_ultima_corrida"] = ahora.isoformat()
         out = previo
-    json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    tmp = OUT + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, OUT)  # escritura atómica: si se corta a la mitad, queda el archivo anterior
     print(f"Indicadores actualizados: {ok} de {len(INDICADORES)}")
 
 

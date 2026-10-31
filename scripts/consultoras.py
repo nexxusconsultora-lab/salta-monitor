@@ -14,7 +14,6 @@ import os, re, json, hashlib, calendar, time, unicodedata, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
-import feedparser
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 IN = os.path.join(DATA, "consultoras.json")
@@ -25,10 +24,31 @@ MAX_GUARDADAS = 5000
 POR_BUSQUEDA = 15
 
 
+MAX_BYTES = 8 * 1024 * 1024  # tope por respuesta: una fuente rota o maliciosa no puede llenar la memoria
+
+
+def url_ok(u):
+    """Sólo http(s). Evita file://, ftp:// y otros esquemas si algún dato llegara con uno raro."""
+    return isinstance(u, str) and re.match(r"^https?://[^\s<>\"']+$", u) is not None and len(u) <= 2000
+
+
 def get(url, t=15):
+    if not url_ok(url):
+        raise ValueError("URL no permitida")
     rq = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.5"})
     with urllib.request.urlopen(rq, timeout=t) as r:
-        return r.read()
+        datos = r.read(MAX_BYTES + 1)
+    if len(datos) > MAX_BYTES:
+        raise ValueError("respuesta demasiado grande")
+    return datos
+
+
+def guardar_json(ruta, obj):
+    """Escritura atómica: se escribe en un temporal y se renombra. Si el proceso se corta, el archivo anterior queda intacto."""
+    tmp = ruta + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, ruta)
 
 
 def fold(s):
@@ -105,6 +125,7 @@ def numeros(t):
 
 def leer(url):
     try:
+        import feedparser  # se importa acá para que las pruebas del repo no necesiten instalarlo
         f = feedparser.parse(get(url))
         return list(f.entries), None
     except Exception as ex:  # noqa: BLE001
@@ -171,8 +192,8 @@ def main():
         pats = armar_alias(f)
         n_f = 0
         for e in r["rss"]:
-            link, tit = e.get("link", ""), limpia(e.get("title", ""))
-            if not link or not tit:
+            link, tit = e.get("link", ""), limpia(e.get("title", ""))[:300]
+            if not url_ok(link) or not tit:
                 continue
             i = hashlib.sha256(f"C|{f['id']}|{link}".encode()).hexdigest()[:16]
             if i in vistos:
@@ -186,10 +207,10 @@ def main():
         for e in r["gn"]:
             if c >= POR_BUSQUEDA:
                 break
-            link, tit = e.get("link", ""), limpia(e.get("title", ""))
-            medio = limpia(((e.get("source") or {}).get("title")) or "")
+            link, tit = e.get("link", ""), limpia(e.get("title", ""))[:300]
+            medio = limpia(((e.get("source") or {}).get("title")) or "")[:80]
             tit2 = re.sub(r"\s+-\s+[^-]{2,40}$", "", tit)
-            if not link or not tit2:
+            if not url_ok(link) or not tit2:
                 continue
             if not nombra(pats, tit2):
                 continue
@@ -210,7 +231,10 @@ def main():
     viejas = [x for x in viejas if (x.get("published_iso") or x.get("collected_at") or "") >= corte]
     viejas.sort(key=lambda x: x.get("published_iso") or x.get("collected_at") or "", reverse=True)
     viejas = viejas[:MAX_GUARDADAS]
-    json.dump({"generado": ahora, "items": viejas, "estado": estado}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    if not any(v["rss"] or v["gn"] for v in estado.values()) and os.path.exists(OUT):
+        print("Ninguna fuente respondió: se conserva el archivo anterior (probable bloqueo o falta de red).")
+        return
+    guardar_json(OUT, {"generado": ahora, "items": viejas, "estado": estado})
     bien = sum(1 for v in estado.values() if v["ok"])
     print(f"Fuentes con respuesta: {bien} de {len(estado)} · notas nuevas: {nuevas} · falsos positivos quitados: {quitadas} · guardadas: {len(viejas)}")
 
