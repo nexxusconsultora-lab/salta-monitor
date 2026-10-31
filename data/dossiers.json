@@ -26452,13 +26452,17 @@
     "id": "dip-juan-jose-esteban",
     "name": "Juan José Esteban",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 12,
+    "total_mentions": 13,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2022-05-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-27": {
         "total": 1,
         "score_sum": -1
@@ -26508,7 +26512,12 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "esteban",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Hay que incorporar excepciones",
@@ -26537,6 +26546,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bettina Romero mostró sus dotes como fotógrafa en el cumpleaños de Juan Esteban - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUk5YdW1BWTlYbkpEUF95bFpHUzhSYkRNTWJVV2FqRW50Vm5yTlNKN21IZDE3d3hVY0dBaXBCWXFwUTN5dEZkR0JFTWpkUXhHN2ZWYWJQdTI1Y1RMdkR4dkV6RVdIOEpvY0ZZY1hTdi1lSENqRmtKQ0x1UWJMYUx6ZVNqOHFhY2J2cGhBUG9yOU04NkN0cjF4a0dDV1ZDaEZSLUpoZU1SR2dEbkV6RWN0Q2U4MXg?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 24 May 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“Hay que incorporar excepciones”: Esteban, sobre la exigencia de 10 años para mantener el IPS",
         "link": "https://informatesalta.com.ar/sociedad/-hay-que-incorporar-excepciones---esteban--sobre-la-exigencia-de-10-anos-para-mantener-el-ips_a6ae09aa61dad4c418588624d",
