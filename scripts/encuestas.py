@@ -20,7 +20,7 @@ import consultoras as C  # noqa: E402  (reutiliza get, leer, limpia, iso, armar_
 
 DATA = C.DATA
 OUT = os.path.join(DATA, "encuestas.json")
-DIAS_BUSQUEDA = 45
+DIAS_BUSQUEDA = 90
 DIAS_GUARDA = 400
 MAX_NOTAS = 3000
 
@@ -292,6 +292,8 @@ CONSULTAS = [
     '"{n}" encuesta intención de voto',
     '"{n}" encuesta Salta Sáenz',
     '"{n}" sondeo inflación economía seguridad',
+    '"{n}" encuesta',
+    '"{n}" imagen gobierno encuesta nacional',
 ]
 GENERICAS = [
     "encuesta imagen Milei", "encuesta aprobación gobierno Milei", "encuesta intención de voto 2027", "encuesta aprobación Kicillof",
