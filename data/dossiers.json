@@ -17234,13 +17234,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 35,
+    "total_mentions": 36,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 10,
+      "negativo": 11,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "2025-04-17": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-10-14": {
         "total": 1,
         "score_sum": 0
@@ -17362,7 +17366,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "josé",
+        "count": 2
+      },
+      {
+        "term": "garcía",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Libertad Avanza, en Salta a la casta bien amarillita la tenés adentro",
@@ -17464,6 +17477,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "José García Alcázar sin filtro en «Branch»: críticas, apodos y su promedio del secundario - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZmc1SmtWTkp0QzQwZnpaclFDbGI2cDdOVEZQWURGUHlPQU1CdTBIVVo1Y3VVQUJneGNNblBDcTNhYTRuRENpZTV4cG5RcUpaWFh6SlVpaFlxYS0tN2xrVkxubnhDdkxYR09sdURBbE02R3RpUUJ1TXlvRExFMGJKWHByRjNWSl9XSzFTUG1VM2djRlgwVDFtaHM3cnBNUWV0NnZ1a09Ka083OXhTWkZ0enhrMlFtTlRBRkU4SQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 17 Apr 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Video: el cartel que mostró José García contra Milei en el Concejo Deliberante - Defrentesalta",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1hfeEttUGlwX2UxZUNIYnVYVUlVdlRtSmZaZWxsSTZ2NDZPVkpFTHJiY3VfVm04eF8zY3AwbkdfQ1kzRkZ4YlB0YzVKU1ZhLXFZTWVQZ0ZORW9SRFZ0MWF4TThmd3lNNHhrV2Q3ckNGRVpUMnB3SzNLVnc5RDZEeDJkVW4tajlJUWwzTTNQZVlBeF9uWGVqd3RJVDBZNnctU3FoT2piVGs5TlpqbnhNQzdtOFBVeVlCeEFYYVF5RQ?oc=5",
@@ -17666,13 +17686,6 @@
         "source": "Vía País",
         "date": "Mon, 29 May 2023 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "José García, de ganador de Operación triunfo a concejal de Salta: “Nadie me apadrinó ni invirtió en mí” - La Nación",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc3ltenFzRmVuLTZrUnFCUmM3dEFSVTZoVnJkZkx6T3UxR2xZcmNITVpUQWF5X09STzM1TFYtcWwxVTQ2ZDlyRUs4TExGS3V0dG10NmFzX1pMQUkyVnFtZ3h0UndQVXVMRUJwdkxxZzlLanU0Z1I4WHhsUXhSWGRDdEZlMHhtVzIyaWNhUjBubHhZeDJvQkN1Z0VEdFZuUGtzSmZlOE9mOEFxc3FaWDhpTGZWMlN5N2FTVkZNcnpLTmdkS0h6UTN4QWt4dFNrNExhT2dkRG9oMGNjOEFKd0pCc3UzZUJpTUluTURMLWVvR3pJeXlHRHdJ?oc=5",
-        "source": "La Nación",
-        "date": "Mon, 19 Jul 2021 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
