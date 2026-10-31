@@ -386,11 +386,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 40
+        "count": 38
       },
       {
         "term": "gustavo",
-        "count": 21
+        "count": 20
       },
       {
         "term": "gobernador",
@@ -405,11 +405,11 @@
         "count": 6
       },
       {
-        "term": "nación",
-        "count": 6
+        "term": "ruta",
+        "count": 5
       },
       {
-        "term": "ruta",
+        "term": "nación",
         "count": 5
       },
       {
@@ -22957,11 +22957,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 20
+        "count": 19
       },
       {
         "term": "orozco",
-        "count": 20
+        "count": 19
       },
       {
         "term": "elintra",
@@ -24925,13 +24925,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 30,
+    "total_mentions": 31,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 4,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
+      "2025-09-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-06-09": {
         "total": 1,
         "score_sum": 0
@@ -25032,10 +25036,14 @@
     "top_topics": [
       {
         "term": "bernardo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "biella",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -25109,6 +25117,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bernardo Biella y el Garrahan: «Si Milei quiere ajustar, que lo haga con la política» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLTg5VzNrajJyak5kYVZpXzlPTExMSklNSFQ0OHF5WmtkcmJTTHM4QnhISlVuRXloYjl4S014ZDZxMUppMGx4aDJYNU9IcTR0eE5TUzQ1ajlhWExSNmFxMDdYSGVKRThCd3FrR21pUE5kRW5aMmRLOFowV3I1aTR5MGMwbnJTajA1SVVSVW00ZFFNTmx2T04yV2VhT2t3QVpJMGNqSDVGc1hySmp0VG8tNXEtcHhYb2c?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 11 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bernardo Biella: \"La marihuana altera los reflejos necesarios para manejar\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSTdfa1lsSENRUlBuenFrSG15RFpCbk5lNlRTZER0WHA5QW13ZFMxbFRaczBGeDFkbGtQUFBpZVN5S19DX1hHNzdJTGtVNENSd0xpOG56cVdSZEJwbjFWalM5LUN1cWNadGwyRHNDMXR3MDNSeFdIWU5FV0EtcElQbXlvd3FJcEs3TW04RWxZMVRDUXZLM1pKVVBFdWRnY0RETDZpSnJiWWZER2RBMVlFQtIBsAFBVV95cUxPSTdfa1lsSENRUlBuenFrSG15RFpCbk5lNlRTZER0WHA5QW13ZFMxbFRaczBGeDFkbGtQUFBpZVN5S19DX1hHNzdJTGtVNENSd0xpOG56cVdSZEJwbjFWalM5LUN1cWNadGwyRHNDMXR3MDNSeFdIWU5FV0EtcElQbXlvd3FJcEs3TW04RWxZMVRDUXZLM1pKVVBFdWRnY0RETDZpSnJiWWZER2RBMVlFQg?oc=5",
@@ -25311,13 +25326,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 15 Sep 2026 15:20:10 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Bernardo Biella cuestionó el Presupuesto 2027: “Es muy mezquino para Salta” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YamJ1SHJGdUNNV29lT2REbF9XY0dWNEQzTmdhS19WaXFBd3VGWTg1RWZkdHZxa0FycG0waVZDX0VjQnY4RWNlbmZlWHRsY3lFM1VZRFRfMG9UNzZ1Sno2UnhjN0k5ZDdobjFKenViOXRSdw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 17 Sep 2026 23:18:37 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -31038,13 +31046,21 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 33,
+    "total_mentions": 35,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 2,
-      "neutral": 28
+      "negativo": 3,
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2024-04-20": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "2023-11-01": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-12-01": {
         "total": 1,
         "score_sum": 0
@@ -31177,14 +31193,26 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 2
+        "count": 4
       },
       {
         "term": "mimessi",
-        "count": 2
+        "count": 4
       },
       {
         "term": "tartagal",
+        "count": 3
+      },
+      {
+        "term": "voces",
+        "count": 3
+      },
+      {
+        "term": "criticas",
+        "count": 3
+      },
+      {
+        "term": "concejo",
         "count": 2
       }
     ],
@@ -31240,6 +31268,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "El Concejo de Tartagal creó una comisión para investigar actos de corrupción durante la gestión de Mario Mimessi - Voces Criticas - Salta",
+        "source": "Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaUxpLWV5bnh0clNoaTJ4UUQ3Ty1yY1hRdEVnR1BrR0xkNERqUGMtak95VEMxQ1FMTGFHUzhhS250M2NzNG9xT0t4dk90QllOT2pCN2hQVkRIWUVFYWljdzZvd1dpMTUyalhiZjZJOTJaY2JtbnNXeHRTX29oM1NGMU1WQ2dkTHlRSDlHeU5wbUR2Wlk4Z2xVcnJmSWtQSW9TYjRzQUNfZURyQU1DRnZxdzdqbFVraHhzQ3EyT3pKQk83eElqczdfSmE0VnpjUHVBbnM4TWJWOG5qdUFjTVdlMWtpNy1Cd2U2T2VqcVk2MFpjcEZXOWdPNHVhQ2xYQdIBgwJBVV95cUxQRFc5MU1FWWlfcGZLMG92UGlwRTJiTUxoTDlCNHVGWWVJbEluenpsOEpudzNadnlfb01aZUNrVElvcmlReG9YM3ZEOVUwUlI2UzZOMTdfTnp3cU8wZlBBWm5hMkNyUzZ0cEQxQmcyYldWMHB2MFNVYlJWalYtNk1oQ1RIMmZORmsxSnlSLXNMSmdSUy1Jc1ZMWTByZWxDUXFWNmlDQTc3WWVTX0RvR3hVWDhWWlVrNzRLaWRUZDRQVVRodmJGWUpYQVZ1RE0zUG9Tc0lSdG0zVGFmRDVDRnRNZDkyQUx1Vy0wQVpuaUtmbDZyblZ3RG1ySmVFNHQ5UEdCRXow?oc=5",
+        "date": "Sat, 20 Apr 2024 07:00:00 GMT"
+      },
+      {
         "title": "Mario Mimessi sigue sumando problemas judiciales: una denunciante aseguró que cobraban cinco planillas a su nombre - Salta 4400",
         "source": "Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUDNzODZkd2gtUWVudFRHWTJubGl3RXdzdmg5dnBaX0Y5djJfRUQyRFIwMVdqWkN3MnRZZUJ1b2U0U05HRzZEN1IzQlluaVBIeDYxMlo5SzdKS3pzX2N6VGg4LTExcmZTYkRjQzJoVXdTRjZkT3l2aGNncFctZzBSeGdWalJ6eDRFZXdhbEFDZlMzRFZPTmpNamJieTZ5VVJYTF9zaWlNQ09vWnVmaHVEOUd0TEZ5WEFyME4tQzRuT29mZm9tNHFrWTY2OGlwX04tOTEyX05uQjBzT0hfLTBkQ2N4YXIzVnRrZXppTtIB8gFBVV95cUxQQkM0LTJOa1FtRjJvVVJ4ai11UENaa2VjS0EySWVhQW1pVWw0eUpUM3RjdzdFa044UEp0M1NuN2Q0ZXg4VTIya1hOa1ZyclE4ODBhYUNnaHhaWWUzQlNnUnVwTGtSYTVaMHVfQmtfM1pjUmNkVVYza216M1lqaTVydVdyRTd0SmJsNWNCWXUxaUR5WFVYVVlVZ2luRjFuY3BVLXFGV1Juc1B6V0YxcS1rSXpLcU5Ic1lUd1BBMndlWm1NWE1DaVJ1TlladW9qZW1QYnRxdmFOWjd0RWNPekZIMmFzSUxKWTdLcXVvQklNVHZ2Zw?oc=5",
@@ -31247,6 +31281,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El Concejo de Tartagal creó una comisión para investigar actos de corrupción durante la gestión de Mario Mimessi - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaUxpLWV5bnh0clNoaTJ4UUQ3Ty1yY1hRdEVnR1BrR0xkNERqUGMtak95VEMxQ1FMTGFHUzhhS250M2NzNG9xT0t4dk90QllOT2pCN2hQVkRIWUVFYWljdzZvd1dpMTUyalhiZjZJOTJaY2JtbnNXeHRTX29oM1NGMU1WQ2dkTHlRSDlHeU5wbUR2Wlk4Z2xVcnJmSWtQSW9TYjRzQUNfZURyQU1DRnZxdzdqbFVraHhzQ3EyT3pKQk83eElqczdfSmE0VnpjUHVBbnM4TWJWOG5qdUFjTVdlMWtpNy1Cd2U2T2VqcVk2MFpjcEZXOWdPNHVhQ2xYQdIBgwJBVV95cUxQRFc5MU1FWWlfcGZLMG92UGlwRTJiTUxoTDlCNHVGWWVJbEluenpsOEpudzNadnlfb01aZUNrVElvcmlReG9YM3ZEOVUwUlI2UzZOMTdfTnp3cU8wZlBBWm5hMkNyUzZ0cEQxQmcyYldWMHB2MFNVYlJWalYtNk1oQ1RIMmZORmsxSnlSLXNMSmdSUy1Jc1ZMWTByZWxDUXFWNmlDQTc3WWVTX0RvR3hVWDhWWlVrNzRLaWRUZDRQVVRodmJGWUpYQVZ1RE0zUG9Tc0lSdG0zVGFmRDVDRnRNZDkyQUx1Vy0wQVpuaUtmbDZyblZ3RG1ySmVFNHQ5UEdCRXow?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Sat, 20 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "El Concejo Deliberante pidió informes a Mario Mimessi por los 20 mil bolsones alimentarios que compró en campaña - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSWE1ZWtXUFplYTUybDJBN2s5UktPUTB5OW1ZWUl5Z2VzU0VyOWxEbzMteFZRQTBORE5qcEFIN3B6NVBjUlFjY1p0ODduQWNuVWR0ZnZ1VWhQZW5hZVdFTXVQMk1nU3p1OGhOM25uZ3IwQ3YwczNQZC1OT1dLMHhqQ1JYcnpZUWNWUm9FUXFHdHVmMEVtT2VRRGFBQWhXeU95bW96UHd6UUIzcnNDUnFfbVFTM0NaWDhGSE43SnZDWG5Meko5YU1VZE96Y0hzTHBvZDZNc1o5UGhuNk9KZFlVeHBMN2cyUXA3N0hXaW41cWFaVEU0MHNkVTgtS0FUUdIBgwJBVV95cUxPNE9BdjNnNVN2bnJnWUF3X3VRUzNJalBoTFdNMUxDTUVxaWloMTRTcldHRXhuNGFubV9zSjlMWlhHeW83aGNIbHpHQnMtTVlKamotWXNvOTAwanA3UnhDUHNpM3l4YzR3cVRNam1VQ2J5dXkyQ2h3RFhnektPbGZQaThWS253UU9aZVdjUEdrYlllMHp0bVFrUmtEUDNab2syREhoRmEzV1oyUXNwRGZlZ0ZzMS0ySUc2VE1WYkRKbVNtb0JvUFZOdEFzME8wUlE3amVycm40SXg4NVBsTDFRUmZQMzdxYXI4dWphMWtsZWN6c2VJN2dsSnVCak1Od2hWTzBz?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Wed, 01 Nov 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Deshonrosa retirada de Mario Mimessi de la intendencia de Tartagal: \"Es una sinvergüenzada lo que ha hecho\" dicen los concejales - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNakNhM1dHb09fWUtiWTN3SEJNdm9qS1FTd01tLVh1Q1U3RkVnYTVMT0dTYTVIN3YxME44VTJ1NDFUSm8zRlZ6WXdIcktjbEl6LVJIemp0Y3M4amNwZGNRSVNIa2ZyaHVQY1NQMlp0LTJwRnNNa3Y0SVp0M25SLVMtWXE5Z1BlZnR2RHNtNUlBQllkSWV4dm1saXJqcXhDWUx4eUlrUW9yN1VKVUFlV2QwRXN4Q1RDOFlUN1VDU0w4VF9vWENQRUNmcTlrTWtwQ2FZWnB2YlFfWnpFUk1tYVQ2Ym5HMzBUOE1zUzc3a0JNSmhFVnRCY1BYMFNhSlhETmZ4OXU5Yll5QTZ0ZHZucmfSAZMCQVVfeXFMUHZjYXI1M25WNzEzWkc2MEZvcTk2WFBQYTJjZUx2cFNKbDNBRlJVdFZtd1Bfem5FQkp3a3I5dnN4Rkhyb1dTV2ttLWVBbEhid2tTbW5fNGJDU0ZWdDJuN19IdThMTThQTjROdmc3X2ZReEs0bjVYbG05ZnhNTnZGMjNGRTVwY3k2U0NYeTkxNlN3ZThSZDhENk5JX0IwTGloWHVyNDFseThhNzBNTEtLUDMtQVZMNEo4Q3Y3WnE4UVRaWGpERG5QdlVQcHpZbmZvUHgzV0xHbHptLXNQUXgzemFRTDg1aHNaZGRLU25wMGdHV0dKLUZaYlUzY2t5ZzMyUVA1NzdMMTBVSkJpdmc2NzNXdm8?oc=5",
@@ -31442,20 +31490,6 @@
         "source": "Agencia NOVA",
         "date": "Sat, 10 Jun 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El más fiel de todos: Mario Mimessi cerró la Municipalidad de Tartagal por la semana del Milagro - Salta 4400",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbm9QeXV6b0VFVjFwbkk2V2p5akRSOURFSmRJS2RiZ3MzWk1VY211WDJLb2ZSQWtFM0NuYl90UmQwN3B2bml1b2xZNzQxNFJ2SVMzSExUYk82eEVmWWlnbzQzNDN3aEFxNXBMbjltUzdqUWFIQzRRVUg5NnlxaGFhTzFMM2U0UFBKOEFWdm5WN3NLWVpwb1dHaEMwTHh6TjFiWmhqSHpDRDYwMndHZHJkN0sxbU81TldGNHI4OHZZdjB6bXFQcUtzNEJEaGMxVTFMRHJ4btIB2gFBVV95cUxPOEtFWFgzS1ZVVDh2T2dKNGpjaFE0WmNYOG5ORDlUS19FTVl1aHczenZBY1lQUFM4RlJaLVRDM2taQXJHME1BU1V5Q1hqWTQybWVlbmw2NzFvVHZIMEd4RG9lQlBkR3MyUGtKeHJicjFqSUl1WEdGYzlRQ0FNTHlWdnhDcjRZUVhQT2FXd2toc2FwbUF4RWlXM1F0RW9FYWtxMlBHM1VrQi1mb2FoMlNOVUNfNXpJNWdLaFF3WWJIcWZaWnZYVktCUGF4QllfMFpTaWthY1ZsMEJjdw?oc=5",
-        "source": "Salta 4400",
-        "date": "Fri, 16 Sep 2022 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Franco Hernández Berni es el nuevo intendente de Tartagal; derrotó a Mario Mimessi - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeUV3TF80eUNjYnN6U2luaENMM0tFOXhoS3owWjFjWEVUenhDNS1fYVVTMzVjOGFrMm5oTFVOS3VjU2JwbjMzVVF3c1JGTTdFVTlVaEl3TDZkVG1hNUUxZmFPZ1ZrT2FQcHdyZzRkNUdlNGdaN05ZVVdteEMxbjV0Q0RUUVFjd09ONkNaRXN5cGFQOTQyZVJTOW9BRXZnamhsZEFKRkxHX3FYNDBWT2Ywa3c1aldHSVk?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Mon, 15 May 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -31499,16 +31533,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "ignacio",
-        "count": 2
-      },
-      {
-        "term": "lupión",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Queremos soluciones a largo plazo, no parches",

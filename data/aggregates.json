@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-31T13:40:57.148226+00:00",
+  "generated_at": "2026-10-31T14:12:59.412916+00:00",
   "by_politician": {
+    "eje-mario-mimessi": {
+      "total": 35,
+      "positivo": 3,
+      "negativo": 3,
+      "neutral": 29,
+      "score_sum": -2
+    },
+    "dnac-bernardo-biella": {
+      "total": 31,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": 1
+    },
     "gustavo-saenz": {
       "total": 411,
       "positivo": 102,
@@ -169,13 +183,6 @@
       "neutral": 22,
       "score_sum": -4
     },
-    "dnac-bernardo-biella": {
-      "total": 30,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 20,
-      "score_sum": 1
-    },
     "concejal-gustavo-farquharson": {
       "total": 66,
       "positivo": 4,
@@ -224,13 +231,6 @@
       "negativo": 1,
       "neutral": 4,
       "score_sum": 5
-    },
-    "eje-mario-mimessi": {
-      "total": 33,
-      "positivo": 3,
-      "negativo": 2,
-      "neutral": 28,
-      "score_sum": 0
     },
     "dip-rodrigo-javier-garcia": {
       "total": 5,
@@ -934,6 +934,36 @@
     }
   },
   "by_day": {
+    "2024-04-20": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-11-01": {
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-09-11": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
     "2025-09-18": {
       "gustavo-saenz": {
         "total": 1,
@@ -5800,16 +5830,6 @@
         "score_sum": 0
       }
     },
-    "2025-09-11": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
     "2026-06-25": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -9664,12 +9684,6 @@
         "score_sum": 0
       },
       "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-04-20": {
-      "dip-eduardo-jose-virgili": {
         "total": 1,
         "score_sum": 0
       }
@@ -17598,7 +17612,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 20
+      "count": 21
     },
     {
       "term": "sáenz",
@@ -17629,6 +17643,18 @@
       "count": 6
     },
     {
+      "term": "voces",
+      "count": 5
+    },
+    {
+      "term": "criticas",
+      "count": 5
+    },
+    {
+      "term": "quiere",
+      "count": 5
+    },
+    {
       "term": "emilia",
       "count": 5
     },
@@ -17643,18 +17669,6 @@
     {
       "term": "ruta",
       "count": 5
-    },
-    {
-      "term": "diques",
-      "count": 5
-    },
-    {
-      "term": "diputados",
-      "count": 4
-    },
-    {
-      "term": "salteños",
-      "count": 4
     }
   ],
   "comentions": [
