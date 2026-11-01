@@ -276,8 +276,8 @@ nav .tabs a:hover{color:var(--ink);background:var(--raised)}[data-tip]{cursor:de
 .dlt{font-size:.72rem;padding:.05rem .45rem;border-radius:99px;margin-left:.3rem;border:1px solid var(--line);white-space:nowrap;font-weight:600}.dlt.up{color:var(--pos)}.dlt.dn{color:var(--neg)}
 .tabl th button{font:inherit;font-weight:700;background:none;border:0;cursor:pointer;color:inherit;padding:0}.tabl th button.on{text-decoration:underline}.bi{display:inline-block;height:.5rem;background:var(--indigo);margin-right:.4rem;vertical-align:middle}
 /* ===== Estilo «Gala»: base noche azulada, rosa de Salta como color principal, tarjetas redondeadas con brillo suave ===== */
-:root[data-theme=dark]{--mark:url(assets/nexus-mark-blanco.png?v=3);--paper:#0A0A0A;--raised:#141414;--bar:#0F0F0F;--line:#2A2A2A;--field:#555;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#E5E5E5;--onind:#0F0F0F;--pos:#17A673;--postx:#5BE3AE;--neg:#D93A3A;--negtx:#FF8A8A;--warn:#1F1B14;--hov:#1E1E1E;--sel:rgba(255,255,255,.10);--gold:#BDBDBD;--glow:rgba(255,255,255,.22)}
-:root[data-theme=light]{--mark:url(assets/nexus-mark-negro.png?v=3);--paper:#F4F4F4;--raised:#fff;--bar:#fff;--line:#DADADA;--field:#8A8A8A;--ink:#0F0F0F;--soft:#5A5A5A;--clay:#0F0F0F;--onclay:#fff;--indigo:#0F0F0F;--onind:#fff;--pos:#16885F;--postx:#16885F;--neg:#C21D12;--negtx:#C21D12;--warn:#FFF3DC;--hov:#EDEDED;--sel:rgba(15,15,15,.07);--gold:#6B6B6B;--glow:rgba(0,0,0,.15)}
+:root[data-theme=dark]{--mark:var(--mk-w);--paper:#0A0A0A;--raised:#141414;--bar:#0F0F0F;--line:#2A2A2A;--field:#555;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#E5E5E5;--onind:#0F0F0F;--pos:#17A673;--postx:#5BE3AE;--neg:#D93A3A;--negtx:#FF8A8A;--warn:#1F1B14;--hov:#1E1E1E;--sel:rgba(255,255,255,.10);--gold:#BDBDBD;--glow:rgba(255,255,255,.22)}
+:root[data-theme=light]{--mark:var(--mk-n);--paper:#F4F4F4;--raised:#fff;--bar:#fff;--line:#DADADA;--field:#8A8A8A;--ink:#0F0F0F;--soft:#5A5A5A;--clay:#0F0F0F;--onclay:#fff;--indigo:#0F0F0F;--onind:#fff;--pos:#16885F;--postx:#16885F;--neg:#C21D12;--negtx:#C21D12;--warn:#FFF3DC;--hov:#EDEDED;--sel:rgba(15,15,15,.07);--gold:#6B6B6B;--glow:rgba(0,0,0,.15)}
 body{font:15px/1.55 Inter,system-ui,sans-serif}
 body:not(.hud){background:radial-gradient(900px 520px at 4% -6%,rgba(255,255,255,.06),transparent 60%),radial-gradient(800px 520px at 100% 0%,rgba(255,255,255,.04),transparent 60%),var(--paper);background-attachment:fixed}
 :root[data-theme=light] body:not(.hud){background:radial-gradient(900px 520px at 4% -6%,rgba(0,0,0,.04),transparent 60%),radial-gradient(800px 520px at 100% 0%,rgba(0,0,0,.03),transparent 60%),var(--paper);background-attachment:fixed}
@@ -377,12 +377,12 @@ nav h1::before{width:34px!important;height:34px!important;border-radius:0!import
 nav h1{letter-spacing:.3em}
 .card,.person,.pnl,.veredicto,.vd-card{position:relative}
 .person::after,.veredicto::after{content:"";position:absolute;right:14px;top:14px;width:22px;height:22px;background:var(--mark) center/contain no-repeat;opacity:.18;pointer-events:none}
-footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v6";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
+footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v7";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
 .seg button.on.n,.seg button.on.s,.seg button.on.a{color:var(--onclay)}
 
-/* ===== Diseño v6: portada de marca ===== */
+/* ===== Diseño v7: portada de marca ===== */
 .banner{position:relative;overflow:hidden;isolation:isolate;border-radius:24px;margin:0 0 1.6rem;padding:2.4rem clamp(1.2rem,4vw,3rem);color:#fff;border:1px solid rgba(255,255,255,.14);background:radial-gradient(700px 320px at 85% 0%,rgba(255,255,255,.16),transparent 65%),linear-gradient(135deg,#000 0%,#161616 60%,#0B0B0B 100%);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12)}
-.banner::before{content:"";position:absolute;right:-60px;top:50%;width:380px;height:380px;transform:translateY(-50%);background:url(assets/nexus-mark-blanco.png?v=3) center/contain no-repeat;opacity:.13;z-index:-1}
+.banner::before{content:"";position:absolute;right:-60px;top:50%;width:380px;height:380px;transform:translateY(-50%);background:var(--mk-w) center/contain no-repeat;opacity:.13;z-index:-1}
 .banner::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:34px 34px;-webkit-mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%);mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%)}
 .bn-k{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:.28rem .8rem}
 .bn-t{margin:.9rem 0 .2rem;font:800 clamp(2.6rem,7vw,4.6rem)/1 Inter,system-ui,sans-serif;letter-spacing:.14em;color:#fff;text-shadow:0 0 40px rgba(255,255,255,.25)}
@@ -399,7 +399,7 @@ h2.sec{margin-top:2.4rem;padding-bottom:.55rem;border-bottom:1px solid var(--lin
 footer::before{content:"";display:block;width:40px;height:40px;margin:0 auto .6rem;background:var(--mark) center/contain no-repeat}
 @media(max-width:640px){.banner{padding:1.6rem 1.1rem;border-radius:18px}.banner::before{width:240px;height:240px;right:-70px}.bn-lg{height:24px}}
 
-/* ===== Diseño v6: textura, confianza y seguridad ===== */
+/* ===== Diseño v7: textura, confianza y seguridad ===== */
 html::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 :root[data-theme=light] html::after,html[data-theme=light]::after{opacity:.05}
 :focus-visible{outline:2px solid var(--clay);outline-offset:3px;border-radius:6px}
@@ -420,7 +420,7 @@ body.hud .trust li{border-color:rgba(255,255,255,.2);box-shadow:0 0 24px -12px r
 body.hud .trust .ti{border-color:rgba(255,255,255,.35)}
 body.hud .wrap{max-width:1500px}
 
-/* ===== Diseño v6: mapas y pantalla completa que funcionan, y estilo moderno ===== */
+/* ===== Diseño v7: mapas y pantalla completa que funcionan, y estilo moderno ===== */
 .pzw.fs,.mgrid.mfs{z-index:100000!important}
 .pzw.fs{position:fixed!important;inset:0!important;width:auto;height:100dvh!important}
 .pzw.fs .pzt{top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right))}
@@ -440,12 +440,91 @@ html:has(.pzw.fs,.mgrid.mfs) .wrap{animation:none}
 .grid .card:nth-child(1){grid-column:span 2;grid-row:span 2;display:flex;flex-direction:column;justify-content:flex-end;min-height:230px;background:linear-gradient(145deg,#000,#1b1b1b);color:#fff;border-color:rgba(255,255,255,.16)}
 .grid .card:nth-child(1) .n{font-size:5.4rem;letter-spacing:-.04em;background:none;color:#fff;-webkit-text-fill-color:#fff}
 .grid .card:nth-child(1) .l{color:rgba(255,255,255,.7);font-size:.9rem}
-.grid .card:nth-child(1)::after{content:"";position:absolute;right:-30px;top:-30px;width:210px;height:210px;background:url(assets/nexus-mark-blanco.png?v=3) center/contain no-repeat;opacity:.12}
+.grid .card:nth-child(1)::after{content:"";position:absolute;right:-30px;top:-30px;width:210px;height:210px;background:var(--mk-w) center/contain no-repeat;opacity:.12}
 .grid .card:nth-child(3){grid-column:span 2}.grid .card:last-child:nth-child(n+6){grid-column:1/-1}}
 .grid .card{position:relative;overflow:hidden}
 @media(prefers-reduced-motion:no-preference){.card,.trust li,.btn,.ctl button{transition:transform .18s,border-color .18s,box-shadow .18s,background .18s}.ctl button:active,.seg button:active{transform:scale(.96)}}
+
+/* ===== Diseño v7: estrella en código, portada de marca, menú con emojis, rótulos legibles ===== */
+:root{--mk-w:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%23fff' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");--mk-n:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%230F0F0F' stroke='%230F0F0F' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+:root[data-theme=dark]{--mark:var(--mk-w)}:root[data-theme=light]{--mark:var(--mk-n)}
+/* logo de la barra: ícono redondo (variante "avatar") */
+nav h1::before{width:36px!important;height:36px!important;border-radius:50%!important;filter:none!important;box-shadow:0 0 0 1px rgba(255,255,255,.18),0 6px 16px -6px rgba(0,0,0,.7)!important}
+:root[data-theme=dark] nav h1::before{background:var(--mk-n) center/66% no-repeat,#F5F5F5!important}
+:root[data-theme=light] nav h1::before{background:var(--mk-w) center/66% no-repeat,#0F0F0F!important}
+body.hud nav h1::before{background:var(--mk-n) center/66% no-repeat,#F5F5F5!important}
+/* portada en dos columnas: texto a la izquierda, marca Nexus en el espacio de la derecha */
+.banner{display:grid;gap:1.6rem 2.5rem;align-items:center;padding:2.2rem clamp(1.2rem,4vw,3rem)}
+.banner::before{right:2%;width:440px;height:440px;opacity:.06}
+.bn-in{position:relative;min-width:0}
+.bn-s{margin:0;max-width:28rem}
+.bn-brand{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:.7rem;padding:1.6rem 1.2rem;border-radius:20px;border:1px solid rgba(255,255,255,.16);background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.02));box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 24px 50px -28px #000}
+.bn-tile{width:96px;height:96px;border-radius:26px;background:var(--mk-w) center/62% no-repeat,#0B0B0B;border:1px solid rgba(255,255,255,.22);box-shadow:0 0 40px -8px rgba(255,255,255,.35),inset 0 1px 0 rgba(255,255,255,.2)}
+.bn-nx{font:800 clamp(1.8rem,3.4vw,2.6rem)/1 Inter,system-ui,sans-serif;letter-spacing:.12em;color:#fff;margin-right:-.12em}
+.bn-tg{font-size:clamp(.82rem,1.4vw,.98rem);line-height:1.45;color:rgba(255,255,255,.78)}
+@media(min-width:860px){.banner{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}}
+@media(max-width:859px){.bn-brand{flex-direction:row;text-align:left;justify-content:flex-start;gap:1rem;padding:1rem}.bn-tile{width:64px;height:64px;border-radius:18px;flex:none}.bn-nx{font-size:1.4rem}.bn-tg{display:block}}
+/* menú lateral con emojis */
+nav .tabs a::before{content:var(--em,"🔹")!important;-webkit-mask:none!important;mask:none!important;opacity:1!important;width:1.8rem!important;height:1.8rem!important;flex:none;display:grid;place-items:center;border-radius:9px;background:var(--hov)!important;border:1px solid var(--line);font:1rem/1 "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif!important;color:initial;margin:0!important;transition:transform .15s,background .15s}
+nav .tabs a:hover::before{transform:scale(1.12) rotate(-4deg)}
+nav .tabs a.on::before{background:var(--sel)!important;border-color:var(--clay)}
+nav .tabs a{gap:.7rem!important}
+nav .tabs a[href="#/inicio"]{--em:"🏠"}
+nav .tabs a[href="#/briefing"]{--em:"📰"}
+nav .tabs a[href="#/mundo"]{--em:"🌍"}
+nav .tabs a[href="#/diario"]{--em:"📔"}
+nav .tabs a[href="#/estrategia"]{--em:"🎯"}
+nav .tabs a[href="#/sesiones"]{--em:"🗓️"}
+nav .tabs a[href="#/mapas"]{--em:"🗺️"}
+nav .tabs a[href="#/buscar"]{--em:"🔎"}
+nav .tabs a[href="#/notas"]{--em:"📝"}
+nav .tabs a[href="#/personas"]{--em:"👥"}
+nav .tabs a[href="#/ejecutivo"]{--em:"💼"}
+nav .tabs a[href="#/legislativo"]{--em:"🏛️"}
+nav .tabs a[href="#/menciones"]{--em:"💬"}
+nav .tabs a[href="#/medios"]{--em:"📡"}
+nav .tabs a[href="#/estadisticas"]{--em:"📊"}
+nav .tabs a[href="#/temas"]{--em:"🏷️"}
+nav .tabs a[href="#/palabras"]{--em:"🔤"}
+nav .tabs a[href="#/cruce"]{--em:"🔀"}
+nav .tabs a[href="#/mayorias"]{--em:"⚖️"}
+nav .tabs a[href="#/hemiciclo"]{--em:"🏟️"}
+nav .tabs a[href="#/mapa"]{--em:"📍"}
+nav .tabs a[href="#/verificar"]{--em:"✅"}
+nav .tabs a[href="#/voz"]{--em:"🎙️"}
+nav .tabs a[href="#/red"]{--em:"🕸️"}
+nav .tabs a[href="#/conexiones"]{--em:"🔗"}
+nav .tabs a[href="#/casos"]{--em:"📁"}
+nav .tabs a[href="#/calidad"]{--em:"🛡️"}
+nav .tabs a[href="#/fuentes"]{--em:"🗄️"}
+nav .tabs a[href="#/eventos"]{--em:"⚡"}
+nav .tabs a[href="#/resumen"]{--em:"📋"}
+nav .tabs a[href="#/oficiales"]{--em:"📜"}
+nav .tabs a[href="#/destacados"]{--em:"⭐"}
+nav .tabs a[href="#/control"]{--em:"🎛️"}
+nav .tabs a[href="#/encuestas"]{--em:"📈"}
+nav .tabs a[href="#/clientes"]{--em:"🤝"}
+nav .tabs a[href="#/consultoras"]{--em:"🏢"}
+nav .tabs a[href="#/inteligencia"]{--em:"🧠"}
+nav .tabs a[href="#/judicial"]{--em:"⚖️"}
+nav .tabs a[href="#/argentina"]{--em:"🇦🇷"}
+nav .tabs a[href="#/poderes"]{--em:"🏛️"}
+nav .tabs a[href="#/graficos"]{--em:"📉"}
+nav .tabs a[href="#/pulso"]{--em:"💓"}
+nav .tabs a[href="#/noticias"]{--em:"🗞️"}
+nav .tabs a[href="#/agenda"]{--em:"📅"}
+nav .tabs a[href="#/alertas"]{--em:"🔔"}
+nav .tabs a[href="#/tendencias"]{--em:"🔥"}
+nav .tabs a[href="#/ranking"]{--em:"🏆"}
+nav .tabs a[href="#/internacional"]{--em:"🌐"}
+nav .tabs a[href="#/economia"]{--em:"💰"}
+nav .tabs a[href="#/seguridad"]{--em:"🔒"}
+
+/* rótulos y botones: texto siempre legible sobre el fondo del tema */
+[style*="background:var(--clay)"],[style*="background: var(--clay)"],[style*="background:var(--ink)"]{color:var(--onclay)!important}
+.tag{border-radius:99px}
 /* ===== Sala de control (modo HUD futurista): se activa en pantalla completa o con el botón ◈ ===== */
-:is(body.hud,.mgrid.mfs,.pzw.fs){--mark:url(assets/nexus-mark-blanco.png?v=3);--paper:#070707;--raised:#111;--bar:#0B0B0B;--line:#2B2B2B;--field:#5A5A5A;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#9A9A9A;--onind:#0F0F0F;--pos:#1FD48A;--postx:#4DE8AE;--neg:#FF3E6C;--neu:#8A8A8A;--warn:#1A1B12;--negtx:#FF7C9B;--hov:#1C1C1C;--sel:rgba(255,255,255,.14);--glow:rgba(255,255,255,.38);color-scheme:dark}
+:is(body.hud,.mgrid.mfs,.pzw.fs){--mark:var(--mk-w);--paper:#070707;--raised:#111;--bar:#0B0B0B;--line:#2B2B2B;--field:#5A5A5A;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#9A9A9A;--onind:#0F0F0F;--pos:#1FD48A;--postx:#4DE8AE;--neg:#FF3E6C;--neu:#8A8A8A;--warn:#1A1B12;--negtx:#FF7C9B;--hov:#1C1C1C;--sel:rgba(255,255,255,.14);--glow:rgba(255,255,255,.38);color-scheme:dark}
 body.hud{background:radial-gradient(1100px 560px at 6% -8%,rgba(255,255,255,.06),transparent 60%),radial-gradient(900px 600px at 100% 108%,rgba(255,255,255,.05),transparent 60%),#070707;background-attachment:fixed}
 body.hud::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%);mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%)}
 body.hud::after{content:"";position:fixed;left:0;right:0;top:-20%;height:18%;pointer-events:none;z-index:1;background:linear-gradient(transparent,rgba(255,255,255,.045),transparent);animation:hscan 10s linear infinite}
@@ -515,7 +594,7 @@ body.hud .tag.negativo,body.hud .tag.no-vigente{color:#fff}
 .pzw.fs::before,.mgrid.mfs::before{content:"";position:absolute;left:14px;top:12px;width:34px;height:34px;background:var(--mark) center/contain no-repeat;filter:drop-shadow(0 0 8px rgba(255,255,255,.55));pointer-events:none;z-index:3}
 .pzw.fs .pzh{background:rgba(11,11,11,.85);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:3px 10px;font-size:.78rem}
 
-/* ===== Diseño v6: lectura pulida y pantalla completa de primer nivel ===== */
+/* ===== Diseño v7: lectura pulida y pantalla completa de primer nivel ===== */
 :root[data-theme=dark]{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 a{text-underline-offset:3px;text-decoration-thickness:1px}
@@ -721,7 +800,7 @@ V.inicio=()=>{
  const ms30=medioStats(mact,now).sort((a,b)=>b.n30-a.n30||b.n-a.n),ms24=ms30.filter(e=>e.n24).sort((a,b)=>b.n24-a.n24).slice(0,6),med30=ms30.filter(e=>e.n30).slice(0,10);
  const ultM=mact.map(m=>m._d).filter(Boolean).sort((a,b)=>b-a)[0];
  const c=(n,l,h,id)=>`<a class="card" href="#/${h}"><div class="n"${id?` id="${id}"`:''}>${n}</div><div class="l">${l}</div></a>`;
- return`<section class="banner"><div class="bn-in"><span class="bn-k">Plataforma de inteligencia política · Salta</span><h1 class="bn-t">NEWAR</h1><p class="bn-s">El arte de la política, el poder de la conexión</p><img class="bn-lg" src="assets/nexus-logotipo-blanco.png" alt="Nexus Consultora" width="900" height="284"></div></section><ul class="trust" aria-label="Garantías de la plataforma"><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M12%203l8%203v6c0%205-4%208-8%209-4-1-8-4-8-9V6zM8.5%2012l2.5%202.5%204.5-5%27/%3E%3C/svg%3E)"></i><b>Fuentes públicas y oficiales</b><span>Prensa, boletines, justicia y legislatura</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M6%203h9l4%204v14H6zM14%203v5h5M9%2014l2%202%204-4%27/%3E%3C/svg%3E)"></i><b>Cada dato con su original</b><span>Enlace directo al documento o la nota</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M2%2012s4-7%2010-7%2010%207%2010%207-4%207-10%207S2%2012%202%2012zM12%209a3%203%200%20100%206%203%203%200%20000-6z%27/%3E%3C/svg%3E)"></i><b>Solo lectura, sin login</b><span>No guarda datos de quienes la visitan</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M10%2014a5%205%200%20007%200l3-3a5%205%200%2000-7-7l-1%201M14%2010a5%205%200%2000-7%200l-3%203a5%205%200%20007%207l1-1%27/%3E%3C/svg%3E)"></i><b>Nunca se inventa</b><span>Lo no registrado se muestra como tal</span></li></ul><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. La vigencia se calcula con la fecha de hoy a partir de los períodos registrados. Lo que no está registrado se muestra como tal: nunca se inventa.</p><div id="mon"></div><div class="hero"><div class="ctl"><input type="search" id="iq" placeholder="Funcionario, bloque o frase" autocomplete="off" aria-label="Búsqueda avanzada"><button type="button" id="igo">Buscar</button></div><p><a class="pill" href="#/ejecutivo">Poder Ejecutivo</a> <a class="pill" href="#/legislativo">Poder Legislativo</a> <a class="pill" href="#/red">Red de relaciones</a> <a class="pill" href="#/calidad">Calidad de datos</a> <a class="pill" href="#/fuentes">Fuentes y marco legal</a></p></div>
+ return`<section class="banner"><div class="bn-in"><span class="bn-k">Plataforma de inteligencia política · Salta</span><h1 class="bn-t">NEWAR</h1><p class="bn-s">Personas, cargos, evidencia y prensa de Salta.</p></div><div class="bn-brand"><span class="bn-tile" aria-hidden="true"></span><span class="bn-nx">NEXUS</span><span class="bn-tg">El arte de la política,<br>el poder de la conexión</span></div></section><ul class="trust" aria-label="Garantías de la plataforma"><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M12%203l8%203v6c0%205-4%208-8%209-4-1-8-4-8-9V6zM8.5%2012l2.5%202.5%204.5-5%27/%3E%3C/svg%3E)"></i><b>Fuentes públicas y oficiales</b><span>Prensa, boletines, justicia y legislatura</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M6%203h9l4%204v14H6zM14%203v5h5M9%2014l2%202%204-4%27/%3E%3C/svg%3E)"></i><b>Cada dato con su original</b><span>Enlace directo al documento o la nota</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M2%2012s4-7%2010-7%2010%207%2010%207-4%207-10%207S2%2012%202%2012zM12%209a3%203%200%20100%206%203%203%200%20000-6z%27/%3E%3C/svg%3E)"></i><b>Solo lectura, sin login</b><span>No guarda datos de quienes la visitan</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M10%2014a5%205%200%20007%200l3-3a5%205%200%2000-7-7l-1%201M14%2010a5%205%200%2000-7%200l-3%203a5%205%200%20007%207l1-1%27/%3E%3C/svg%3E)"></i><b>Nunca se inventa</b><span>Lo no registrado se muestra como tal</span></li></ul><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. La vigencia se calcula con la fecha de hoy a partir de los períodos registrados. Lo que no está registrado se muestra como tal: nunca se inventa.</p><div id="mon"></div><div class="hero"><div class="ctl"><input type="search" id="iq" placeholder="Funcionario, bloque o frase" autocomplete="off" aria-label="Búsqueda avanzada"><button type="button" id="igo">Buscar</button></div><p><a class="pill" href="#/ejecutivo">Poder Ejecutivo</a> <a class="pill" href="#/legislativo">Poder Legislativo</a> <a class="pill" href="#/red">Red de relaciones</a> <a class="pill" href="#/calidad">Calidad de datos</a> <a class="pill" href="#/fuentes">Fuentes y marco legal</a></p></div>
  <div class="grid">${c(personas.length,'personas','personas')}${c(vig,'con cargo vigente','personas')}${c(MEN.length,'menciones en prensa','menciones')}${c(temas.length,'temas seguidos','temas')}${c((S.ev.events||[]).length,'eventos conectados','eventos')}${c('…','noticias generales','resumen','k-news')}${c('…','publicaciones oficiales','oficiales','k-of')}${c(terminos(MEN,999).length,'palabras para explorar','palabras')}${c(stars().length,'destacados','destacados')}</div>
  <h2 class="sec">Explorá por área</h2><div id="areas"><p class="note">Cargando…</p></div>
  <h2 class="sec">Últimas 24 horas</h2><div class="news"><div class="box"><b>${m24.length}</b><span>menciones en prensa</span><br><span class="delta ${dl>0?'up':dl<0?'dn':''}">${dl>0?'▲ +':dl<0?'▼ ':''}${dl} vs. las 24 h anteriores</span></div><div class="box"><b>${ms24.length}</b><span>medios publicaron</span></div><div class="box"><b>${of24.length}</b><span>publicaciones oficiales nuevas</span></div><div class="box"><b>${ofP.length}</b><span>oficiales que nombran a alguien de la lista</span></div></div>${m24.length?'':`<p class="empty">Sin menciones en las últimas 24 h${ultM?` (la última registrada es del ${fdate(ultM,{dateStyle:'medium'})})`:''}.</p>`}${ofP.length?`<h3 class="sh">Oficiales de hoy que nombran a alguien</h3>${ofP.slice(0,5).map(ofCard).join('')}`:''}<div class="cols"><div><h3 class="sh">Más mencionados (24 h)</h3>${top24.length?top24.map(([p,n])=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><span class="nm">${esc(p.nombre)} <span class="meta">${esc(p.cargo)}</span></span><span class="meta">${n}</span></a>`).join(''):'<p class="empty">Sin datos en las últimas 24 h.</p>'}</div><div><h3 class="sh">Medios más activos (24 h)</h3>${ms24.length?ms24.map(e=>hbar(medioChip(e.src),e.n24,ms24[0].n24,'#/menciones/medio:'+e.k,medioColor(e.src))).join(''):'<p class="empty">Ningún medio publicó en las últimas 24 h.</p>'}</div></div>
@@ -2392,6 +2471,17 @@ addEventListener('resize',auto);setTimeout(auto,900);
 <script>
 /* pantalla completa: el cursor se oculta tras 4 s sin moverlo (ideal para proyectar) */
 (function(){var b=document.body,t;function w(){b.classList.remove('idle');clearTimeout(t);t=setTimeout(function(){if(b.classList.contains('hud'))b.classList.add('idle')},4000)}['pointermove','pointerdown','keydown','wheel'].forEach(function(n){document.addEventListener(n,w,{passive:true})});w()})();
+</script>
+<script>
+/* guardia de contraste: si un rótulo quedara con letras del mismo tono que su fondo (blanco sobre blanco), se corrige solo */
+(function(){var q=[],tm=null,SEL='span,i,b,em,strong,a,button,label,li,small,td,th,div';
+function L(c){var m=c.match(/[\d.]+/g);if(!m||m.length<3)return null;if(m.length>3&&+m[3]<.5)return null;var f=function(v){v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)};return .2126*f(+m[0])+.7152*f(+m[1])+.0722*f(+m[2])}
+function chk(el){if(el.nodeType!==1||el.getAttribute('data-cg'))return;var t=el.textContent;if(!t||t.length>60)return;var cs=getComputedStyle(el);if(cs.backgroundImage!=='none')return;var b=L(cs.backgroundColor);if(b==null)return;var f=L(cs.color);if(f==null)return;el.setAttribute('data-cg','1');if((Math.max(b,f)+.05)/(Math.min(b,f)+.05)<2.2){el.style.setProperty('color',b>.4?'#0F0F0F':'#fff','important');el.setAttribute('data-cgc','1')}}
+function scan(r){if(r.nodeType!==1)return;chk(r);var n=r.querySelectorAll(SEL);for(var i=0;i<n.length&&i<800;i++)chk(n[i])}
+function reset(){document.querySelectorAll('[data-cgc]').forEach(function(e){e.style.removeProperty('color');e.removeAttribute('data-cgc')});document.querySelectorAll('[data-cg]').forEach(function(e){e.removeAttribute('data-cg')});scan(document.body)}
+new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){q.push(n)})});if(!tm)tm=setTimeout(function(){tm=null;q.splice(0).forEach(scan)},120)}).observe(document.body,{childList:true,subtree:true});
+new MutationObserver(function(){setTimeout(reset,60)}).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+setTimeout(function(){scan(document.body)},300)})();
 </script>
 </body>
 </html>
