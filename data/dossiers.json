@@ -30208,13 +30208,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 5,
-      "neutral": 31
+      "neutral": 32
     },
     "sentiment_by_day": {
+      "2025-12-16": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2024-03-12": {
         "total": 1,
         "score_sum": 0
@@ -30359,10 +30363,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2025-12-16": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2018-05-14": {
         "total": 1,
         "score_sum": 0
@@ -30375,11 +30375,23 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 6
+        "count": 7
       },
       {
         "term": "ignacio",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "sueldo",
+        "count": 2
+      },
+      {
+        "term": "nuevo",
+        "count": 2
+      },
+      {
+        "term": "diario",
+        "count": 2
       },
       {
         "term": "aguas",
@@ -30459,6 +30471,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún informó que no cobrará sueldo como ministro - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbjJuVlQteDFFRnU3czZNMk45b2t5MHItd2JTeVdscG84NXdReHlhUDNLaHdadTNwZWl3UFhpdkdYbEJ5bzk2ZDZzc3pxcFpVcGE0Rm9TU2NHczZoOUlvSDMtRjF6T2VfTjVGbzdoaDVNb0N1UmdkQ09ENnRydVNOR3dOOFVuNUo4NWZzVzRmUjA5QXRGalBWVg?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La multa a Aguas del Norte será sobre el sueldo de Ignacio Jarsún - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTUExb1dlUHlfVkluTGFpNklrZ3FERFVLSFo5dEl0cWlBZ1ZBWlJJdmF2ZHJ6TXU3QTg3TzgzZ2hlOTg4RV8tSFpMWUFBbENJZ1RWMWVRZGhheUg3c3B3ZkFLSUVPNXVmOTlLUXBBZ3JfS1BfR0xHZnhYMkxqd3ZneEtkOWpOejRaZE5ESi16MXZhZzB3cHY4dGhNUEJxQTRmNGc?oc=5",
@@ -30661,13 +30680,6 @@
         "source": "Gobierno de la Provincia de Salta, Argentina",
         "date": "Fri, 19 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Caso Rocío Abigail Riquel: denuncian al diputado Ignacio Jarsún por \"incitar a la violencia\" - Perfil",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb01CdnRuTGY4VnQ4V29IMTdRUEc4S1A4Z3Z6bDh4NTdmOUl1Z3FjVk8xc09ZZm9QOEV2SzY5eV9hN2dJeEVBOXUwcTdRZ21qZ1VDck43RlRKTlFtRDZmX1dya3NuczlUUS1kMTlhQU54Z0lJSVlsTjZNTzl0ZDI2WnljNF9XMXB5MFYtRmd6UXpZelZsUTItdEtTVFZiNHR4YVk1a0ZXaExLbmlzVWZpa3VXYlFrTkotMGRQMlFaZzhrZ3cxSnpWMTRIYXY2cFpF?oc=5",
-        "source": "Perfil",
-        "date": "Tue, 27 Oct 2020 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
