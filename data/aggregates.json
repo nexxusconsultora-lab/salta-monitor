@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-01T15:10:34.630212+00:00",
+  "generated_at": "2026-11-01T15:25:33.398211+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 99,
+      "positivo": 9,
+      "negativo": 17,
+      "neutral": 73,
+      "score_sum": -17
+    },
     "gustavo-saenz": {
       "total": 415,
       "positivo": 105,
@@ -140,13 +147,6 @@
       "negativo": 9,
       "neutral": 32,
       "score_sum": -16
-    },
-    "snac-emilia-orozco": {
-      "total": 98,
-      "positivo": 9,
-      "negativo": 16,
-      "neutral": 73,
-      "score_sum": -15
     },
     "concejal-dario-madile": {
       "total": 74,
@@ -934,6 +934,24 @@
     }
   },
   "by_day": {
+    "2025-07-17": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 3,
+        "score_sum": -4
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2020-08-21": {
       "gustavo-saenz": {
         "total": 1,
@@ -3830,20 +3848,6 @@
         "score_sum": 0
       },
       "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-07-17": {
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 3,
-        "score_sum": -4
-      },
-      "concejal-malvina-gareca": {
         "total": 1,
         "score_sum": 0
       }
@@ -17732,7 +17736,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 25
+      "count": 26
     },
     {
       "term": "sáenz",
@@ -17787,8 +17791,8 @@
       "count": 8
     },
     {
-      "term": "roque",
-      "count": 6
+      "term": "orozco",
+      "count": 7
     }
   ],
   "comentions": [
