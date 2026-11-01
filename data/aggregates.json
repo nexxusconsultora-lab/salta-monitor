@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-11-01T13:31:56.340281+00:00",
+  "generated_at": "2026-11-01T13:35:28.883721+00:00",
   "by_politician": {
-    "dnac-yolanda-vega": {
-      "total": 15,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 11,
-      "score_sum": -3
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 35,
       "positivo": 4,
@@ -22,19 +15,19 @@
       "neutral": 10,
       "score_sum": -4
     },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 70,
+      "positivo": 8,
+      "negativo": 11,
+      "neutral": 51,
+      "score_sum": -4
+    },
     "eje-nicolas-avellaneda": {
       "total": 21,
       "positivo": 10,
       "negativo": 0,
       "neutral": 11,
       "score_sum": 19
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 69,
-      "positivo": 8,
-      "negativo": 11,
-      "neutral": 50,
-      "score_sum": -4
     },
     "eje-ignacio-jarsun": {
       "total": 43,
@@ -934,12 +927,6 @@
     }
   },
   "by_day": {
-    "2023-12-28": {
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2020-03-03": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -969,6 +956,40 @@
       },
       "concejal-laura-jorge-saravia": {
         "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-31": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-marianela-ibarra-afranllie": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 2,
         "score_sum": 0
       }
     },
@@ -7896,36 +7917,6 @@
     },
     "2025-08-02": {
       "concejal-pablo-emanuel-lopez": {
-        "total": 2,
-        "score_sum": 0
-      }
-    },
-    "2026-07-31": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-marianela-ibarra-afranllie": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
         "total": 2,
         "score_sum": 0
       }
@@ -17722,7 +17713,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 27
+      "count": 28
     },
     {
       "term": "sáenz",
@@ -17765,6 +17756,10 @@
       "count": 8
     },
     {
+      "term": "cornejo",
+      "count": 8
+    },
+    {
       "term": "regional",
       "count": 8
     },
@@ -17775,10 +17770,6 @@
     {
       "term": "orozco",
       "count": 8
-    },
-    {
-      "term": "cornejo",
-      "count": 7
     }
   ],
   "comentions": [
