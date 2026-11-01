@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 414,
+    "total_mentions": 415,
     "sentiment_breakdown": {
-      "positivo": 104,
+      "positivo": 105,
       "negativo": 61,
       "neutral": 249
     },
     "sentiment_by_day": {
+      "2020-08-21": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-10-31": {
         "total": 6,
         "score_sum": 4
@@ -386,7 +390,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 38
+        "count": 39
       },
       {
         "term": "gustavo",
@@ -394,7 +398,7 @@
       },
       {
         "term": "gobernador",
-        "count": 7
+        "count": 8
       },
       {
         "term": "diques",
@@ -511,6 +515,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta: el gobernador Sáenz finalmente admitió el avance del coronavirus y restringe la circulación - Perfil",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT3lOQXJ3eVo2WGRkSTdXX09NZVJBRlczQkVNWXE5d3k0THVOaGVGSHhIYXU4N3NGOU9QaHpWbTdSbmlCNnFKTDEyU3J1ZlpFZ1pUQU9oOVB6WHpSMVlBN05INnhZNlpUR1QwSnFvTE1nM2dUYW9rRXY4SUxrR2UxcDZPUjAwS2VLb0gwRzNkMjc3dU1oUHJmZ1JGdFJ6dWhQUnpNVWsxLVZjZVI3TUpYdkNBV3RVNmlkVnpVdXI4aUM4eWtsRmlmalYxN1Zyd1FyQW1Pbk5B?oc=5",
+        "source": "Perfil",
+        "date": "Fri, 21 Aug 2020 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Presupuesto 2027: Salta realizó una nueva reunión regional con intendentes y legisladores",
         "link": "https://informatesalta.com.ar/gobierno/presupuesto-2027--salta-realizo-una-nueva-reunion-regional-con-intendentes-y-legisladores_a6ae6452f09dee0a0b9b13daa",
@@ -713,13 +724,6 @@
         "source": "Informate Salta",
         "date": "Wed, 28 Oct 2026 10:03:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Zona Fría: 134.000 hogares salteños pierden el descuento del gas y el subsidio a la luz llega solo para los de menores ingresos",
-        "link": "https://elintra.com.ar/2026/10/28/zona-fria-134-000-hogares-saltenos-pierden-el-descuento-del-gas-y-el-subsidio-a-la-luz-llega-solo-para-los-de-menores-ingresos/",
-        "source": "El Intra",
-        "date": "Wed, 28 Oct 2026 13:01:00 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -31403,14 +31407,10 @@
     "top_topics": [
       {
         "term": "mario",
-        "count": 4
+        "count": 3
       },
       {
         "term": "mimessi",
-        "count": 4
-      },
-      {
-        "term": "tartagal",
         "count": 3
       },
       {
@@ -31422,11 +31422,11 @@
         "count": 3
       },
       {
-        "term": "nueva",
+        "term": "concejo",
         "count": 2
       },
       {
-        "term": "concejo",
+        "term": "tartagal",
         "count": 2
       }
     ],

@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-01T13:39:10.289342+00:00",
+  "generated_at": "2026-11-01T14:01:27.248681+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 415,
+      "positivo": 105,
+      "negativo": 61,
+      "neutral": 249,
+      "score_sum": 177
+    },
+    "dnac-yolanda-vega": {
+      "total": 15,
+      "positivo": 1,
+      "negativo": 3,
+      "neutral": 11,
+      "score_sum": -3
+    },
     "snac-gonzalo-guzman-coraita": {
       "total": 35,
       "positivo": 4,
@@ -112,13 +126,6 @@
       "negativo": 3,
       "neutral": 22,
       "score_sum": 33
-    },
-    "gustavo-saenz": {
-      "total": 414,
-      "positivo": 104,
-      "negativo": 61,
-      "neutral": 249,
-      "score_sum": 175
     },
     "dip-juan-jose-esteban": {
       "total": 13,
@@ -927,6 +934,18 @@
     }
   },
   "by_day": {
+    "2020-08-21": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2023-12-28": {
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2020-03-03": {
       "snac-gonzalo-guzman-coraita": {
         "total": 1,
@@ -17717,7 +17736,7 @@
     },
     {
       "term": "sáenz",
-      "count": 13
+      "count": 14
     },
     {
       "term": "aries",
