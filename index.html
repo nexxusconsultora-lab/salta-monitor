@@ -377,10 +377,10 @@ nav h1::before{width:34px!important;height:34px!important;border-radius:0!import
 nav h1{letter-spacing:.3em}
 .card,.person,.pnl,.veredicto,.vd-card{position:relative}
 .person::after,.veredicto::after{content:"";position:absolute;right:14px;top:14px;width:22px;height:22px;background:var(--mark) center/contain no-repeat;opacity:.18;pointer-events:none}
-footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v5";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
+footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v6";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
 .seg button.on.n,.seg button.on.s,.seg button.on.a{color:var(--onclay)}
 
-/* ===== Diseño v5: portada de marca ===== */
+/* ===== Diseño v6: portada de marca ===== */
 .banner{position:relative;overflow:hidden;isolation:isolate;border-radius:24px;margin:0 0 1.6rem;padding:2.4rem clamp(1.2rem,4vw,3rem);color:#fff;border:1px solid rgba(255,255,255,.14);background:radial-gradient(700px 320px at 85% 0%,rgba(255,255,255,.16),transparent 65%),linear-gradient(135deg,#000 0%,#161616 60%,#0B0B0B 100%);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12)}
 .banner::before{content:"";position:absolute;right:-60px;top:50%;width:380px;height:380px;transform:translateY(-50%);background:url(assets/nexus-mark-blanco.png?v=3) center/contain no-repeat;opacity:.13;z-index:-1}
 .banner::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:34px 34px;-webkit-mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%);mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%)}
@@ -399,7 +399,7 @@ h2.sec{margin-top:2.4rem;padding-bottom:.55rem;border-bottom:1px solid var(--lin
 footer::before{content:"";display:block;width:40px;height:40px;margin:0 auto .6rem;background:var(--mark) center/contain no-repeat}
 @media(max-width:640px){.banner{padding:1.6rem 1.1rem;border-radius:18px}.banner::before{width:240px;height:240px;right:-70px}.bn-lg{height:24px}}
 
-/* ===== Diseño v5: textura, confianza y seguridad ===== */
+/* ===== Diseño v6: textura, confianza y seguridad ===== */
 html::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 :root[data-theme=light] html::after,html[data-theme=light]::after{opacity:.05}
 :focus-visible{outline:2px solid var(--clay);outline-offset:3px;border-radius:6px}
@@ -420,7 +420,7 @@ body.hud .trust li{border-color:rgba(255,255,255,.2);box-shadow:0 0 24px -12px r
 body.hud .trust .ti{border-color:rgba(255,255,255,.35)}
 body.hud .wrap{max-width:1500px}
 
-/* ===== Diseño v5: mapas y pantalla completa que funcionan, y estilo moderno ===== */
+/* ===== Diseño v6: mapas y pantalla completa que funcionan, y estilo moderno ===== */
 .pzw.fs,.mgrid.mfs{z-index:100000!important}
 .pzw.fs{position:fixed!important;inset:0!important;width:auto;height:100dvh!important}
 .pzw.fs .pzt{top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right))}
@@ -446,7 +446,7 @@ html:has(.pzw.fs,.mgrid.mfs) .wrap{animation:none}
 @media(prefers-reduced-motion:no-preference){.card,.trust li,.btn,.ctl button{transition:transform .18s,border-color .18s,box-shadow .18s,background .18s}.ctl button:active,.seg button:active{transform:scale(.96)}}
 /* ===== Sala de control (modo HUD futurista): se activa en pantalla completa o con el botón ◈ ===== */
 :is(body.hud,.mgrid.mfs,.pzw.fs){--mark:url(assets/nexus-mark-blanco.png?v=3);--paper:#070707;--raised:#111;--bar:#0B0B0B;--line:#2B2B2B;--field:#5A5A5A;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#9A9A9A;--onind:#0F0F0F;--pos:#1FD48A;--postx:#4DE8AE;--neg:#FF3E6C;--neu:#8A8A8A;--warn:#1A1B12;--negtx:#FF7C9B;--hov:#1C1C1C;--sel:rgba(255,255,255,.14);--glow:rgba(255,255,255,.38);color-scheme:dark}
-body.hud{background:radial-gradient(1100px 560px at 6% -8%,rgba(255,255,255,.06),transparent 60%),radial-gradient(900px 600px at 100% 108%,rgba(232,64,28,.13),transparent 60%),#070707;background-attachment:fixed}
+body.hud{background:radial-gradient(1100px 560px at 6% -8%,rgba(255,255,255,.06),transparent 60%),radial-gradient(900px 600px at 100% 108%,rgba(255,255,255,.05),transparent 60%),#070707;background-attachment:fixed}
 body.hud::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%);mask-image:radial-gradient(ellipse at 50% 28%,#000 25%,transparent 78%)}
 body.hud::after{content:"";position:fixed;left:0;right:0;top:-20%;height:18%;pointer-events:none;z-index:1;background:linear-gradient(transparent,rgba(255,255,255,.045),transparent);animation:hscan 10s linear infinite}
 @keyframes hscan{to{top:112%}}
@@ -464,14 +464,14 @@ body.hud h2.sec{color:var(--clay);letter-spacing:.24em;text-shadow:0 0 16px var(
 body.hud h2.sec::before{box-shadow:0 0 10px var(--clay)}
 body.hud h2.sec::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--clay),rgba(255,255,255,0) 85%)}
 body.hud .sh{color:var(--clay);opacity:.92;letter-spacing:.16em;border-bottom-color:rgba(255,255,255,.22)}
-body.hud :is(.card,.box,.person,.rx,.seg-w,.cs,.veredicto,.pnl,.pgrid .prow,.kt,.vd-card,.nxbx){position:relative;border:1px solid rgba(255,255,255,.16);border-radius:2px;background:linear-gradient(var(--clay),var(--clay)) top left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/1px 12px no-repeat,linear-gradient(160deg,rgba(20,20,20,.92),rgba(7,14,26,.92));box-shadow:0 10px 30px -16px rgba(0,0,0,.95),inset 0 0 44px -26px var(--glow)}
+body.hud :is(.card,.box,.person,.rx,.seg-w,.cs,.veredicto,.pnl,.pgrid .prow,.kt,.vd-card,.nxbx){position:relative;border:1px solid rgba(255,255,255,.16);border-radius:2px;background:linear-gradient(var(--clay),var(--clay)) top left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) top right/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom left/1px 12px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/12px 1px no-repeat,linear-gradient(var(--clay),var(--clay)) bottom right/1px 12px no-repeat,linear-gradient(160deg,rgba(20,20,20,.92),rgba(12,12,12,.92));box-shadow:0 10px 30px -16px rgba(0,0,0,.95),inset 0 0 44px -26px var(--glow)}
 body.hud :is(a.card:hover,.news .box:hover,.pgrid .prow:hover){border-color:rgba(255,255,255,.55);box-shadow:0 0 0 1px rgba(255,255,255,.35),0 0 26px -6px var(--glow)}
 body.hud :is(.card .n,.box b,.kv,.hc1){color:#fff;text-shadow:0 0 14px var(--glow)}
-body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button,.pcbar button,.more,.pinb,#gs input){background:rgba(10,20,36,.88);color:var(--ink);border-color:rgba(255,255,255,.3);border-radius:2px}
+body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button,.pcbar button,.more,.pinb,#gs input){background:rgba(20,20,20,.88);color:var(--ink);border-color:rgba(255,255,255,.3);border-radius:2px}
 body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button,.more,.pinb):hover{border-color:var(--clay);box-shadow:0 0 16px -3px var(--glow)}
 body.hud :is(.ctl button.on,.seg button.on,.chips button.on,.ctl .seg button.on){background:linear-gradient(135deg,var(--clay),var(--indigo));color:#0F0F0F;border-color:transparent;box-shadow:0 0 20px -3px var(--glow)}
 body.hud select option{background:#111111;color:var(--ink)}
-body.hud :is(.ch,.pzw,.mg,.rg svg){border-color:rgba(255,255,255,.3);background:linear-gradient(180deg,rgba(20,20,20,.6),rgba(6,12,22,.7))}
+body.hud :is(.ch,.pzw,.mg,.rg svg){border-color:rgba(255,255,255,.3);background:linear-gradient(180deg,rgba(20,20,20,.6),rgba(10,10,10,.7))}
 body.hud :is(.ch rect,.ch polyline,.ch circle,.dn circle){filter:drop-shadow(0 0 3px rgba(255,255,255,.32))}
 body.hud .hb .bar i{box-shadow:0 0 12px -2px var(--mc,var(--clay))}
 body.hud .hm th{background:#181818;color:var(--clay);letter-spacing:.07em;font-size:.7rem;text-transform:uppercase}
@@ -514,6 +514,27 @@ body.hud .tag.negativo,body.hud .tag.no-vigente{color:#fff}
 :is(.pzw.fs,.mgrid.mfs) :is(.pzt button,.mz button):hover{background:var(--clay);color:#0F0F0F}
 .pzw.fs::before,.mgrid.mfs::before{content:"";position:absolute;left:14px;top:12px;width:34px;height:34px;background:var(--mark) center/contain no-repeat;filter:drop-shadow(0 0 8px rgba(255,255,255,.55));pointer-events:none;z-index:3}
 .pzw.fs .pzh{background:rgba(11,11,11,.85);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:3px 10px;font-size:.78rem}
+
+/* ===== Diseño v6: lectura pulida y pantalla completa de primer nivel ===== */
+:root[data-theme=dark]{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+a{text-underline-offset:3px;text-decoration-thickness:1px}
+.card .n,.box b,.kv,.person .n{font-family:Inter,system-ui,sans-serif;font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+p.empty,.empty{border:1px dashed var(--field);border-radius:14px;padding:1.3rem 1rem;text-align:center;color:var(--soft);background:transparent}
+tbody tr{transition:background .15s}tbody tr:hover{background:var(--hov)}
+::placeholder{color:var(--soft);opacity:.75}
+.tag,.flag{box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+/* pantalla completa: paneles de vidrio, viñeta y barra de herramientas */
+:is(.mgrid.mfs) .mside{background:rgba(14,14,14,.78);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-radius:16px;box-shadow:0 20px 50px -20px rgba(0,0,0,.9)}
+.pzw.fs::after,.mgrid.mfs .pzw::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 58%,rgba(0,0,0,.5));z-index:1}
+:is(.pzw.fs,.mgrid.mfs) .pzt{background:rgba(14,14,14,.72);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:6px;box-shadow:0 12px 30px -12px rgba(0,0,0,.9)}
+:is(.pzw.fs,.mgrid.mfs) .pzt button{border-radius:10px}
+/* modo pantalla completa general */
+body.hud .grid .card:nth-child(1){box-shadow:0 0 0 1px rgba(255,255,255,.2),0 0 60px -18px rgba(255,255,255,.35)}
+body.hud #hudbar{backdrop-filter:none}
+body.hud.idle,body.hud.idle *{cursor:none!important}
+@media(min-width:1700px){body.hud .wrap{padding-left:3rem;padding-right:3rem}body.hud .grid .card .n{font-size:3rem}body.hud .grid .card:nth-child(1) .n{font-size:7rem}body.hud h2.sec{font-size:1.4rem}body.hud .row2,body.hud .art .t{font-size:1.1rem}}
+@media(min-width:2400px){body.hud{font-size:19px}body.hud .banner{padding:4rem 5rem}}
 </style>
 <script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('newar_tema_v1')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
 </head>
@@ -2367,6 +2388,10 @@ addEventListener('resize',auto);setTimeout(auto,900);
 <script>
 /* efecto foco: la luz de las tarjetas sigue al mouse (solo decoración) */
 (function(){var t=null;document.addEventListener('pointermove',function(e){if(e.pointerType==='touch'||t)return;var c=e.target.closest&&e.target.closest('.card,.trust li,.person,.pnl,.box');if(!c)return;t=requestAnimationFrame(function(){t=null;var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')})},{passive:true})})();
+</script>
+<script>
+/* pantalla completa: el cursor se oculta tras 4 s sin moverlo (ideal para proyectar) */
+(function(){var b=document.body,t;function w(){b.classList.remove('idle');clearTimeout(t);t=setTimeout(function(){if(b.classList.contains('hud'))b.classList.add('idle')},4000)}['pointermove','pointerdown','keydown','wheel'].forEach(function(n){document.addEventListener(n,w,{passive:true})});w()})();
 </script>
 </body>
 </html>
