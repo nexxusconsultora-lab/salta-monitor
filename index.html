@@ -276,8 +276,8 @@ nav .tabs a:hover{color:var(--ink);background:var(--raised)}[data-tip]{cursor:de
 .dlt{font-size:.72rem;padding:.05rem .45rem;border-radius:99px;margin-left:.3rem;border:1px solid var(--line);white-space:nowrap;font-weight:600}.dlt.up{color:var(--pos)}.dlt.dn{color:var(--neg)}
 .tabl th button{font:inherit;font-weight:700;background:none;border:0;cursor:pointer;color:inherit;padding:0}.tabl th button.on{text-decoration:underline}.bi{display:inline-block;height:.5rem;background:var(--indigo);margin-right:.4rem;vertical-align:middle}
 /* ===== Estilo «Gala»: base noche azulada, rosa de Salta como color principal, tarjetas redondeadas con brillo suave ===== */
-:root[data-theme=dark]{--mark:var(--mk-w);--paper:#0A0A0A;--raised:#141414;--bar:#0F0F0F;--line:#2A2A2A;--field:#555;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#E5E5E5;--onind:#0F0F0F;--pos:#17A673;--postx:#5BE3AE;--neg:#D93A3A;--negtx:#FF8A8A;--warn:#1F1B14;--hov:#1E1E1E;--sel:rgba(255,255,255,.10);--gold:#BDBDBD;--glow:rgba(255,255,255,.22)}
-:root[data-theme=light]{--mark:var(--mk-n);--paper:#F4F4F4;--raised:#fff;--bar:#fff;--line:#DADADA;--field:#8A8A8A;--ink:#0F0F0F;--soft:#5A5A5A;--clay:#0F0F0F;--onclay:#fff;--indigo:#0F0F0F;--onind:#fff;--pos:#16885F;--postx:#16885F;--neg:#C21D12;--negtx:#C21D12;--warn:#FFF3DC;--hov:#EDEDED;--sel:rgba(15,15,15,.07);--gold:#6B6B6B;--glow:rgba(0,0,0,.15)}
+:root[data-theme=dark]{--mark:var(--mk-w);--paper:#0A0A0A;--raised:#141414;--bar:#0F0F0F;--line:#2A2A2A;--field:#555;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#E5E5E5;--onind:#0F0F0F;--pos:#0B7F57;--postx:#5BE3AE;--neg:#D93A3A;--negtx:#FF8A8A;--warn:#1F1B14;--hov:#1E1E1E;--sel:rgba(255,255,255,.10);--gold:#BDBDBD;--glow:rgba(255,255,255,.22)}
+:root[data-theme=light]{--mark:var(--mk-n);--paper:#F4F4F4;--raised:#fff;--bar:#fff;--line:#DADADA;--field:#8A8A8A;--ink:#0F0F0F;--soft:#5A5A5A;--clay:#0F0F0F;--onclay:#fff;--indigo:#0F0F0F;--onind:#fff;--pos:#12754F;--postx:#12754F;--neg:#C21D12;--negtx:#C21D12;--warn:#FFF3DC;--hov:#EDEDED;--sel:rgba(15,15,15,.07);--gold:#6B6B6B;--glow:rgba(0,0,0,.15)}
 body{font:15px/1.55 Inter,system-ui,sans-serif}
 body:not(.hud){background:radial-gradient(900px 520px at 4% -6%,rgba(255,255,255,.06),transparent 60%),radial-gradient(800px 520px at 100% 0%,rgba(255,255,255,.04),transparent 60%),var(--paper);background-attachment:fixed}
 :root[data-theme=light] body:not(.hud){background:radial-gradient(900px 520px at 4% -6%,rgba(0,0,0,.04),transparent 60%),radial-gradient(800px 520px at 100% 0%,rgba(0,0,0,.03),transparent 60%),var(--paper);background-attachment:fixed}
@@ -377,10 +377,10 @@ nav h1::before{width:34px!important;height:34px!important;border-radius:0!import
 nav h1{letter-spacing:.3em}
 .card,.person,.pnl,.veredicto,.vd-card{position:relative}
 .person::after,.veredicto::after{content:"";position:absolute;right:14px;top:14px;width:22px;height:22px;background:var(--mark) center/contain no-repeat;opacity:.18;pointer-events:none}
-footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v7";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
+footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v11";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
 .seg button.on.n,.seg button.on.s,.seg button.on.a{color:var(--onclay)}
 
-/* ===== Diseño v7: portada de marca ===== */
+/* ===== Diseño v11: portada de marca ===== */
 .banner{position:relative;overflow:hidden;isolation:isolate;border-radius:24px;margin:0 0 1.6rem;padding:2.4rem clamp(1.2rem,4vw,3rem);color:#fff;border:1px solid rgba(255,255,255,.14);background:radial-gradient(700px 320px at 85% 0%,rgba(255,255,255,.16),transparent 65%),linear-gradient(135deg,#000 0%,#161616 60%,#0B0B0B 100%);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12)}
 .banner::before{content:"";position:absolute;right:-60px;top:50%;width:380px;height:380px;transform:translateY(-50%);background:var(--mk-w) center/contain no-repeat;opacity:.13;z-index:-1}
 .banner::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:34px 34px;-webkit-mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%);mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%)}
@@ -399,7 +399,7 @@ h2.sec{margin-top:2.4rem;padding-bottom:.55rem;border-bottom:1px solid var(--lin
 footer::before{content:"";display:block;width:40px;height:40px;margin:0 auto .6rem;background:var(--mark) center/contain no-repeat}
 @media(max-width:640px){.banner{padding:1.6rem 1.1rem;border-radius:18px}.banner::before{width:240px;height:240px;right:-70px}.bn-lg{height:24px}}
 
-/* ===== Diseño v7: textura, confianza y seguridad ===== */
+/* ===== Diseño v11: textura, confianza y seguridad ===== */
 html::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 :root[data-theme=light] html::after,html[data-theme=light]::after{opacity:.05}
 :focus-visible{outline:2px solid var(--clay);outline-offset:3px;border-radius:6px}
@@ -420,7 +420,7 @@ body.hud .trust li{border-color:rgba(255,255,255,.2);box-shadow:0 0 24px -12px r
 body.hud .trust .ti{border-color:rgba(255,255,255,.35)}
 body.hud .wrap{max-width:1500px}
 
-/* ===== Diseño v7: mapas y pantalla completa que funcionan, y estilo moderno ===== */
+/* ===== Diseño v11: mapas y pantalla completa que funcionan, y estilo moderno ===== */
 .pzw.fs,.mgrid.mfs{z-index:100000!important}
 .pzw.fs{position:fixed!important;inset:0!important;width:auto;height:100dvh!important}
 .pzw.fs .pzt{top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right))}
@@ -445,7 +445,7 @@ html:has(.pzw.fs,.mgrid.mfs) .wrap{animation:none}
 .grid .card{position:relative;overflow:hidden}
 @media(prefers-reduced-motion:no-preference){.card,.trust li,.btn,.ctl button{transition:transform .18s,border-color .18s,box-shadow .18s,background .18s}.ctl button:active,.seg button:active{transform:scale(.96)}}
 
-/* ===== Diseño v7: estrella en código, portada de marca, menú con emojis, rótulos legibles ===== */
+/* ===== Diseño v11: estrella en código, portada de marca, menú con emojis, rótulos legibles ===== */
 :root{--mk-w:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%23fff' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");--mk-n:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%230F0F0F' stroke='%230F0F0F' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
 :root[data-theme=dark]{--mark:var(--mk-w)}:root[data-theme=light]{--mark:var(--mk-n)}
 /* logo de la barra: ícono redondo (variante "avatar") */
@@ -523,6 +523,74 @@ nav .tabs a[href="#/seguridad"]{--em:"🔒"}
 /* rótulos y botones: texto siempre legible sobre el fondo del tema */
 [style*="background:var(--clay)"],[style*="background: var(--clay)"],[style*="background:var(--ink)"]{color:var(--onclay)!important}
 .tag{border-radius:99px}
+
+/* ===== Diseño v11: el logo de Nexus como menú vivo ===== */
+@media(min-width:860px){.banner{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)}}
+.bn-lk{display:flex;align-items:center;gap:.9rem;margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.16);max-width:30rem}
+.bn-lk .bn-tile{width:54px;height:54px;border-radius:15px;flex:none}
+.bn-lt{display:flex;flex-direction:column;gap:.15rem;min-width:0}.bn-lt b{font:800 1.15rem/1 Inter,system-ui,sans-serif;letter-spacing:.14em;color:#fff}.bn-lt em{font-style:normal;font-size:.82rem;line-height:1.35;color:rgba(255,255,255,.72)}
+.bn-hub{position:relative;display:flex;flex-direction:column;align-items:center;min-width:0}
+.hub{width:100%;max-width:520px;height:auto;overflow:visible;-webkit-tap-highlight-color:transparent}
+.hub .hr{fill:none;stroke:rgba(255,255,255,.12);stroke-dasharray:2 7}.hub .h2{stroke:rgba(255,255,255,.07)}
+.hub .hl{stroke:rgba(255,255,255,.3);stroke-width:1.6;stroke-dasharray:140;stroke-dashoffset:140;animation:hdraw 1s ease-out forwards}
+.hub .hp{fill:#fff;filter:drop-shadow(0 0 4px #fff)}
+.hub .hn{cursor:pointer;outline:none}
+.hub .hc{fill:#101010;stroke:rgba(255,255,255,.4);stroke-width:1.4;transition:fill .2s,stroke .2s,transform .2s;transform-box:fill-box;transform-origin:center}
+.hub .he{font:17px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;pointer-events:none}
+.hub .ht{font:600 12.5px Inter,system-ui,sans-serif;fill:rgba(255,255,255,.78);letter-spacing:.02em;transition:fill .2s;pointer-events:none}
+.hub .hn:hover .hc,.hub .hn:focus-visible .hc{fill:#fff;stroke:#fff;transform:scale(1.14);filter:drop-shadow(0 0 12px rgba(255,255,255,.55))}
+.hub .hn:hover .ht,.hub .hn:focus-visible .ht{fill:#fff;font-weight:800}
+.hub .hcc{fill:#fff;stroke:rgba(255,255,255,.5);stroke-width:6;stroke-opacity:.25;transition:transform .2s;transform-box:fill-box;transform-origin:center}.hub .hcen:hover .hcc{transform:scale(1.1)}
+.bn-cap{margin:.2rem 0 0;font-size:.74rem;color:rgba(255,255,255,.5);letter-spacing:.04em}
+@keyframes hdraw{to{stroke-dashoffset:0}}
+.banner::before{display:none}
+@media(prefers-reduced-motion:reduce){.hub .hl{animation:none;stroke-dashoffset:0}.hub .hp{display:none}}
+@media(max-width:859px){.bn-hub{margin-top:.4rem}.bn-lk{margin-top:1.1rem}}
+nav h1{cursor:pointer;user-select:none;transition:opacity .15s}nav h1:hover{opacity:.82}nav h1:focus-visible{outline:2px solid var(--clay);outline-offset:4px;border-radius:8px}
+
+/* ===== Diseño v11: auditoría, atajos, contadores, aviso sin conexión, progreso e impresión ===== */
+@media(max-width:640px){nav h1{letter-spacing:.1em!important;font-size:.9rem}nav h1::before{width:30px!important;height:30px!important}nav .row{gap:.3rem}#lvb,#hudb,#thb,#gsb,#szm,#szp{min-width:36px}}
+body.hud .tag.vigente,body.hud .tag.positivo{color:#03150E}
+html,body{overflow-x:clip}
+#rp{position:fixed;left:0;top:0;height:3px;width:0;background:linear-gradient(90deg,var(--clay),var(--gold));z-index:60;pointer-events:none;box-shadow:0 0 10px var(--glow);transition:width .08s linear}
+#offl{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:100002;max-width:92vw;padding:.65rem 1rem;border-radius:12px;background:#1b1408;color:#ffd48a;border:1px solid #6b4a12;font-size:.85rem;box-shadow:0 14px 40px -12px #000}
+#kbh{position:fixed;inset:0;z-index:100003;display:none;align-items:center;justify-content:center;padding:1rem;background:rgba(0,0,0,.66)}#kbh.on{display:flex}
+#kbh .bx{width:min(560px,100%);max-height:88vh;overflow:auto;border-radius:18px;border:1px solid var(--line);background:var(--raised);color:var(--ink);padding:1.3rem 1.4rem;box-shadow:0 30px 80px -20px #000}
+#kbh h3{margin:0 0 .8rem;font-size:1.1rem}#kbh dl{display:grid;grid-template-columns:auto 1fr;gap:.55rem 1rem;margin:0;align-items:center}#kbh dt{white-space:nowrap}#kbh dd{margin:0;color:var(--soft);font-size:.9rem}
+#kbh kbd,#kbd kbd{display:inline-block;min-width:1.6rem;text-align:center;padding:.1rem .45rem;border-radius:7px;border:1px solid var(--field);border-bottom-width:2px;background:var(--hov);font:600 .8rem Inter,system-ui,sans-serif;color:var(--ink)}
+#kbd{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:100001;display:none;padding:.45rem .7rem;border-radius:10px;background:var(--raised);border:1px solid var(--field);color:var(--soft);font-size:.8rem;box-shadow:0 10px 30px -10px #000}#kbd.on{display:block}
+.hub .hb rect{fill:#fff}.hub .hb text{font:800 10.5px Inter,system-ui,sans-serif;fill:#0F0F0F;pointer-events:none}
+@media print{html::after,#rp,#offl,#kbd,#kbh,.bn-hub,#nbfab,#up,#hudbar,.tabs,.hub{display:none!important}
+.wrap{margin:0!important;padding:0!important;max-width:none!important}
+*{color:#000!important;background-image:none!important;box-shadow:none!important;text-shadow:none!important}
+.banner{background:#fff!important;border:1px solid #888!important;padding:1rem!important}.bn-t{font-size:2rem!important;letter-spacing:.1em!important}
+.card,.person,.box,.pnl,.veredicto,.trust li{background:#fff!important;border:1px solid #999!important;break-inside:avoid}
+a{text-decoration:underline}footer::after{display:block}}
+
+/* ===== Diseño v11: recientes, copiar enlace e instalar como app ===== */
+.rcn{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:-.6rem 0 1.5rem}
+.rcn>span{font-size:.78rem;color:var(--soft);font-weight:600;margin-right:.3rem}
+.rcn a{display:inline-flex;align-items:center;gap:.45rem;padding:.35rem .8rem;border:1px solid var(--line);border-radius:99px;background:var(--raised);font-size:.85rem;text-decoration:none;color:var(--ink);transition:border-color .15s,background .15s,transform .15s}
+.rcn a:hover{border-color:var(--clay);background:var(--hov);transform:translateY(-1px)}
+#tst{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:100004;padding:.6rem 1rem;border-radius:12px;background:var(--ink);color:var(--paper);font-size:.88rem;font-weight:600;box-shadow:0 14px 40px -12px #000}
+#pwa{position:fixed;left:16px;bottom:calc(64px + env(safe-area-inset-bottom,0px));z-index:100001;display:flex;align-items:center;gap:.7rem;max-width:calc(100vw - 32px);padding:.6rem .7rem .6rem 1rem;border-radius:14px;background:var(--raised);border:1px solid var(--field);color:var(--ink);font-size:.86rem;box-shadow:0 16px 40px -14px #000}
+#pwa button{border:1px solid var(--line);border-radius:10px;background:var(--hov);color:var(--ink);padding:.4rem .8rem;font:inherit;font-weight:700;cursor:pointer}#pwa .ok{background:var(--clay);color:var(--onclay);border-color:transparent}
+@media print{#pwa,#tst{display:none!important}}
+
+/* ===== Diseño v11: ajustes, acciones rápidas, accesibilidad y ahorro de batería ===== */
+html.no-grain::after{display:none}
+html.no-anim *,html.no-anim *::before,html.no-anim *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+html.no-anim .hub .hl{stroke-dashoffset:0}html.no-anim .hub .hp{display:none}
+html.dens body{font-size:14px}html.dens .wrap{padding-top:1rem}html.dens .card{padding:.7rem .9rem}html.dens h2.sec{margin:1.4rem 0 .6rem}html.dens .row2{padding:.45rem .3rem}html.dens .trust li{padding:.6rem .8rem}html.dens .banner{padding:1.4rem clamp(1.2rem,4vw,2.4rem)}
+:root.hc[data-theme=dark]{--line:#777;--field:#a8a8a8;--soft:#dcdcdc}:root.hc[data-theme=light]{--line:#6b6b6b;--field:#3d3d3d;--soft:#262626}
+html.hc body.hud{--line:#777;--soft:#dcdcdc}html.hc a{text-decoration:underline}html.hc :focus-visible{outline-width:3px}
+.skip{position:fixed;left:12px;top:-60px;z-index:100010;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--clay);background:var(--raised);color:var(--ink);font:700 .9rem Inter,system-ui,sans-serif;cursor:pointer;transition:top .15s}.skip:focus{top:12px}
+#kbh h4{margin:1.1rem 0 .55rem;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+#kbh .acts{display:flex;flex-wrap:wrap;gap:.5rem}#kbh .acts button,#kbh .rst{border:1px solid var(--line);border-radius:10px;background:var(--hov);color:var(--ink);padding:.5rem .8rem;font:600 .86rem Inter,system-ui,sans-serif;cursor:pointer;transition:border-color .15s,background .15s}#kbh .acts button:hover,#kbh .rst:hover{border-color:var(--clay)}
+#kbh .set{display:grid;gap:.4rem}#kbh .set label{display:flex;align-items:center;gap:.7rem;padding:.5rem .7rem;border:1px solid var(--line);border-radius:10px;cursor:pointer;font-size:.9rem}#kbh .set label:hover{border-color:var(--clay)}#kbh .set input{width:1.1rem;height:1.1rem;accent-color:var(--clay)}#kbh .set small{display:block;color:var(--soft);font-size:.78rem}
+#kbh .x{position:absolute;right:.8rem;top:.8rem;border:0;background:transparent;color:var(--soft);font-size:1.3rem;cursor:pointer}#kbh .bx{position:relative}
+.ftl{margin-top:.6rem;border:1px solid var(--line);border-radius:10px;background:var(--raised);color:var(--ink);padding:.45rem .9rem;font:600 .85rem Inter,system-ui,sans-serif;cursor:pointer}.ftl:hover{border-color:var(--clay)}
+@media print{.ftl,.skip{display:none!important}}
 /* ===== Sala de control (modo HUD futurista): se activa en pantalla completa o con el botón ◈ ===== */
 :is(body.hud,.mgrid.mfs,.pzw.fs){--mark:var(--mk-w);--paper:#070707;--raised:#111;--bar:#0B0B0B;--line:#2B2B2B;--field:#5A5A5A;--ink:#F5F5F5;--soft:#A8A8A8;--clay:#FFFFFF;--onclay:#0F0F0F;--indigo:#9A9A9A;--onind:#0F0F0F;--pos:#1FD48A;--postx:#4DE8AE;--neg:#FF3E6C;--neu:#8A8A8A;--warn:#1A1B12;--negtx:#FF7C9B;--hov:#1C1C1C;--sel:rgba(255,255,255,.14);--glow:rgba(255,255,255,.38);color-scheme:dark}
 body.hud{background:radial-gradient(1100px 560px at 6% -8%,rgba(255,255,255,.06),transparent 60%),radial-gradient(900px 600px at 100% 108%,rgba(255,255,255,.05),transparent 60%),#070707;background-attachment:fixed}
@@ -594,7 +662,7 @@ body.hud .tag.negativo,body.hud .tag.no-vigente{color:#fff}
 .pzw.fs::before,.mgrid.mfs::before{content:"";position:absolute;left:14px;top:12px;width:34px;height:34px;background:var(--mark) center/contain no-repeat;filter:drop-shadow(0 0 8px rgba(255,255,255,.55));pointer-events:none;z-index:3}
 .pzw.fs .pzh{background:rgba(11,11,11,.85);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:3px 10px;font-size:.78rem}
 
-/* ===== Diseño v7: lectura pulida y pantalla completa de primer nivel ===== */
+/* ===== Diseño v11: lectura pulida y pantalla completa de primer nivel ===== */
 :root[data-theme=dark]{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 a{text-underline-offset:3px;text-decoration-thickness:1px}
@@ -800,7 +868,7 @@ V.inicio=()=>{
  const ms30=medioStats(mact,now).sort((a,b)=>b.n30-a.n30||b.n-a.n),ms24=ms30.filter(e=>e.n24).sort((a,b)=>b.n24-a.n24).slice(0,6),med30=ms30.filter(e=>e.n30).slice(0,10);
  const ultM=mact.map(m=>m._d).filter(Boolean).sort((a,b)=>b-a)[0];
  const c=(n,l,h,id)=>`<a class="card" href="#/${h}"><div class="n"${id?` id="${id}"`:''}>${n}</div><div class="l">${l}</div></a>`;
- return`<section class="banner"><div class="bn-in"><span class="bn-k">Plataforma de inteligencia política · Salta</span><h1 class="bn-t">NEWAR</h1><p class="bn-s">Personas, cargos, evidencia y prensa de Salta.</p></div><div class="bn-brand"><span class="bn-tile" aria-hidden="true"></span><span class="bn-nx">NEXUS</span><span class="bn-tg">El arte de la política,<br>el poder de la conexión</span></div></section><ul class="trust" aria-label="Garantías de la plataforma"><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M12%203l8%203v6c0%205-4%208-8%209-4-1-8-4-8-9V6zM8.5%2012l2.5%202.5%204.5-5%27/%3E%3C/svg%3E)"></i><b>Fuentes públicas y oficiales</b><span>Prensa, boletines, justicia y legislatura</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M6%203h9l4%204v14H6zM14%203v5h5M9%2014l2%202%204-4%27/%3E%3C/svg%3E)"></i><b>Cada dato con su original</b><span>Enlace directo al documento o la nota</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M2%2012s4-7%2010-7%2010%207%2010%207-4%207-10%207S2%2012%202%2012zM12%209a3%203%200%20100%206%203%203%200%20000-6z%27/%3E%3C/svg%3E)"></i><b>Solo lectura, sin login</b><span>No guarda datos de quienes la visitan</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M10%2014a5%205%200%20007%200l3-3a5%205%200%2000-7-7l-1%201M14%2010a5%205%200%2000-7%200l-3%203a5%205%200%20007%207l1-1%27/%3E%3C/svg%3E)"></i><b>Nunca se inventa</b><span>Lo no registrado se muestra como tal</span></li></ul><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. La vigencia se calcula con la fecha de hoy a partir de los períodos registrados. Lo que no está registrado se muestra como tal: nunca se inventa.</p><div id="mon"></div><div class="hero"><div class="ctl"><input type="search" id="iq" placeholder="Funcionario, bloque o frase" autocomplete="off" aria-label="Búsqueda avanzada"><button type="button" id="igo">Buscar</button></div><p><a class="pill" href="#/ejecutivo">Poder Ejecutivo</a> <a class="pill" href="#/legislativo">Poder Legislativo</a> <a class="pill" href="#/red">Red de relaciones</a> <a class="pill" href="#/calidad">Calidad de datos</a> <a class="pill" href="#/fuentes">Fuentes y marco legal</a></p></div>
+ return`<section class="banner"><div class="bn-in"><span class="bn-k">Plataforma de inteligencia política · Salta</span><h1 class="bn-t">NEWAR</h1><p class="bn-s">Personas, cargos, evidencia y prensa de Salta.</p><div class="bn-lk"><span class="bn-tile"></span><span class="bn-lt"><b>NEXUS</b><em>El arte de la política, el poder de la conexión</em></span></div></div><div class="bn-hub"><svg class="hub" viewBox="0 0 460 380" role="group" aria-label="Mapa de secciones de Nexus: tocá un nodo para entrar"><circle cx="230" cy="190" r="118" class="hr"/><circle cx="230" cy="190" r="152" class="hr h2"/><line x1="230" y1="190" x2="230.0" y2="72.0" class="hl" style="animation-delay:0.10s"/><line x1="230" y1="190" x2="313.4" y2="106.6" class="hl" style="animation-delay:0.18s"/><line x1="230" y1="190" x2="348.0" y2="190.0" class="hl" style="animation-delay:0.26s"/><line x1="230" y1="190" x2="313.4" y2="273.4" class="hl" style="animation-delay:0.34s"/><line x1="230" y1="190" x2="230.0" y2="308.0" class="hl" style="animation-delay:0.42s"/><line x1="230" y1="190" x2="146.6" y2="273.4" class="hl" style="animation-delay:0.50s"/><line x1="230" y1="190" x2="112.0" y2="190.0" class="hl" style="animation-delay:0.58s"/><line x1="230" y1="190" x2="146.6" y2="106.6" class="hl" style="animation-delay:0.66s"/><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="0.0s"/><animateMotion dur="3.00s" begin="0.0s" repeatCount="indefinite" path="M230 190 L230.0 72.0"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="0.4s"/><animateMotion dur="3.35s" begin="0.4s" repeatCount="indefinite" path="M313.4 106.6 L230 190"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="0.8s"/><animateMotion dur="3.70s" begin="0.8s" repeatCount="indefinite" path="M230 190 L348.0 190.0"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="1.2s"/><animateMotion dur="4.05s" begin="1.2s" repeatCount="indefinite" path="M313.4 273.4 L230 190"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="1.6s"/><animateMotion dur="4.40s" begin="1.6s" repeatCount="indefinite" path="M230 190 L230.0 308.0"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="2.0s"/><animateMotion dur="4.75s" begin="2.0s" repeatCount="indefinite" path="M146.6 273.4 L230 190"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="2.4s"/><animateMotion dur="5.10s" begin="2.4s" repeatCount="indefinite" path="M230 190 L112.0 190.0"/></circle><circle r="2.4" class="hp" opacity="0"><set attributeName="opacity" to="1" begin="2.8s"/><animateMotion dur="5.45s" begin="2.8s" repeatCount="indefinite" path="M146.6 106.6 L230 190"/></circle><a href="#/personas" class="hn" aria-label="Personas"><circle cx="230.0" cy="72.0" r="40" fill="transparent"/><circle cx="230.0" cy="72.0" r="25" class="hc"/><text x="230.0" y="78.0" text-anchor="middle" class="he">👥</text><text x="230.0" y="32.0" text-anchor="middle" class="ht">Personas</text></a><a href="#/menciones" class="hn" aria-label="Menciones"><circle cx="313.4" cy="106.6" r="40" fill="transparent"/><circle cx="313.4" cy="106.6" r="25" class="hc"/><text x="313.4" y="112.6" text-anchor="middle" class="he">💬</text><text x="341.7" y="78.3" text-anchor="start" class="ht">Menciones</text></a><a href="#/medios" class="hn" aria-label="Medios"><circle cx="348.0" cy="190.0" r="40" fill="transparent"/><circle cx="348.0" cy="190.0" r="25" class="hc"/><text x="348.0" y="196.0" text-anchor="middle" class="he">📡</text><text x="388.0" y="194.0" text-anchor="start" class="ht">Medios</text></a><a href="#/temas" class="hn" aria-label="Temas"><circle cx="313.4" cy="273.4" r="40" fill="transparent"/><circle cx="313.4" cy="273.4" r="25" class="hc"/><text x="313.4" y="279.4" text-anchor="middle" class="he">🏷️</text><text x="341.7" y="309.7" text-anchor="start" class="ht">Temas</text></a><a href="#/eventos" class="hn" aria-label="Eventos"><circle cx="230.0" cy="308.0" r="40" fill="transparent"/><circle cx="230.0" cy="308.0" r="25" class="hc"/><text x="230.0" y="314.0" text-anchor="middle" class="he">⚡</text><text x="230.0" y="356.0" text-anchor="middle" class="ht">Eventos</text></a><a href="#/fuentes" class="hn" aria-label="Fuentes"><circle cx="146.6" cy="273.4" r="40" fill="transparent"/><circle cx="146.6" cy="273.4" r="25" class="hc"/><text x="146.6" y="279.4" text-anchor="middle" class="he">🗄️</text><text x="118.3" y="309.7" text-anchor="end" class="ht">Fuentes</text></a><a href="#/estrategia" class="hn" aria-label="Estrategia"><circle cx="112.0" cy="190.0" r="40" fill="transparent"/><circle cx="112.0" cy="190.0" r="25" class="hc"/><text x="112.0" y="196.0" text-anchor="middle" class="he">🎯</text><text x="72.0" y="194.0" text-anchor="end" class="ht">Estrategia</text></a><a href="#/red" class="hn" aria-label="Red"><circle cx="146.6" cy="106.6" r="40" fill="transparent"/><circle cx="146.6" cy="106.6" r="25" class="hc"/><text x="146.6" y="112.6" text-anchor="middle" class="he">🕸️</text><text x="118.3" y="78.3" text-anchor="end" class="ht">Red</text></a><a href="#/inicio" class="hn hcen" aria-label="Inicio"><circle cx="230" cy="190" r="33" class="hcc"/><line x1="230" y1="190" x2="230.0" y2="174.0" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="230.0" cy="174.0" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="241.3" y2="178.7" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="241.3" cy="178.7" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="246.0" y2="190.0" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="246.0" cy="190.0" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="241.3" y2="201.3" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="241.3" cy="201.3" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="230.0" y2="206.0" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="230.0" cy="206.0" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="218.7" y2="201.3" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="218.7" cy="201.3" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="214.0" y2="190.0" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="214.0" cy="190.0" r="3.2" fill="#0F0F0F"/><line x1="230" y1="190" x2="218.7" y2="178.7" stroke="#0F0F0F" stroke-width="2.4"/><circle cx="218.7" cy="178.7" r="3.2" fill="#0F0F0F"/><circle cx="230" cy="190" r="4.6" fill="#0F0F0F"/></a></svg><p class="bn-cap">Tocá un nodo para entrar a esa sección</p></div></section><ul class="trust" aria-label="Garantías de la plataforma"><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M12%203l8%203v6c0%205-4%208-8%209-4-1-8-4-8-9V6zM8.5%2012l2.5%202.5%204.5-5%27/%3E%3C/svg%3E)"></i><b>Fuentes públicas y oficiales</b><span>Prensa, boletines, justicia y legislatura</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M6%203h9l4%204v14H6zM14%203v5h5M9%2014l2%202%204-4%27/%3E%3C/svg%3E)"></i><b>Cada dato con su original</b><span>Enlace directo al documento o la nota</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M2%2012s4-7%2010-7%2010%207%2010%207-4%207-10%207S2%2012%202%2012zM12%209a3%203%200%20100%206%203%203%200%20000-6z%27/%3E%3C/svg%3E)"></i><b>Solo lectura, sin login</b><span>No guarda datos de quienes la visitan</span></li><li><i class="ti" style="--ic:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20stroke=%27black%27%20stroke-width=%271.9%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%3E%3Cpath%20d=%27M10%2014a5%205%200%20007%200l3-3a5%205%200%2000-7-7l-1%201M14%2010a5%205%200%2000-7%200l-3%203a5%205%200%20007%207l1-1%27/%3E%3C/svg%3E)"></i><b>Nunca se inventa</b><span>Lo no registrado se muestra como tal</span></li></ul><p class="lede">Separa <b>quién es</b> una persona, <b>qué cargos</b> ocupó u ocupa y <b>con qué evidencia</b> se sabe; y le suma lo que dice la prensa y los boletines oficiales sobre ella. La vigencia se calcula con la fecha de hoy a partir de los períodos registrados. Lo que no está registrado se muestra como tal: nunca se inventa.</p><div id="mon"></div><div class="hero"><div class="ctl"><input type="search" id="iq" placeholder="Funcionario, bloque o frase" autocomplete="off" aria-label="Búsqueda avanzada"><button type="button" id="igo">Buscar</button></div><p><a class="pill" href="#/ejecutivo">Poder Ejecutivo</a> <a class="pill" href="#/legislativo">Poder Legislativo</a> <a class="pill" href="#/red">Red de relaciones</a> <a class="pill" href="#/calidad">Calidad de datos</a> <a class="pill" href="#/fuentes">Fuentes y marco legal</a></p></div>
  <div class="grid">${c(personas.length,'personas','personas')}${c(vig,'con cargo vigente','personas')}${c(MEN.length,'menciones en prensa','menciones')}${c(temas.length,'temas seguidos','temas')}${c((S.ev.events||[]).length,'eventos conectados','eventos')}${c('…','noticias generales','resumen','k-news')}${c('…','publicaciones oficiales','oficiales','k-of')}${c(terminos(MEN,999).length,'palabras para explorar','palabras')}${c(stars().length,'destacados','destacados')}</div>
  <h2 class="sec">Explorá por área</h2><div id="areas"><p class="note">Cargando…</p></div>
  <h2 class="sec">Últimas 24 horas</h2><div class="news"><div class="box"><b>${m24.length}</b><span>menciones en prensa</span><br><span class="delta ${dl>0?'up':dl<0?'dn':''}">${dl>0?'▲ +':dl<0?'▼ ':''}${dl} vs. las 24 h anteriores</span></div><div class="box"><b>${ms24.length}</b><span>medios publicaron</span></div><div class="box"><b>${of24.length}</b><span>publicaciones oficiales nuevas</span></div><div class="box"><b>${ofP.length}</b><span>oficiales que nombran a alguien de la lista</span></div></div>${m24.length?'':`<p class="empty">Sin menciones en las últimas 24 h${ultM?` (la última registrada es del ${fdate(ultM,{dateStyle:'medium'})})`:''}.</p>`}${ofP.length?`<h3 class="sh">Oficiales de hoy que nombran a alguien</h3>${ofP.slice(0,5).map(ofCard).join('')}`:''}<div class="cols"><div><h3 class="sh">Más mencionados (24 h)</h3>${top24.length?top24.map(([p,n])=>`<a class="row2" href="#/persona/${encodeURIComponent(p.id)}"><span class="nm">${esc(p.nombre)} <span class="meta">${esc(p.cargo)}</span></span><span class="meta">${n}</span></a>`).join(''):'<p class="empty">Sin datos en las últimas 24 h.</p>'}</div><div><h3 class="sh">Medios más activos (24 h)</h3>${ms24.length?ms24.map(e=>hbar(medioChip(e.src),e.n24,ms24[0].n24,'#/menciones/medio:'+e.k,medioColor(e.src))).join(''):'<p class="empty">Ningún medio publicó en las últimas 24 h.</p>'}</div></div>
@@ -2482,6 +2550,116 @@ function reset(){document.querySelectorAll('[data-cgc]').forEach(function(e){e.s
 new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){q.push(n)})});if(!tm)tm=setTimeout(function(){tm=null;q.splice(0).forEach(scan)},120)}).observe(document.body,{childList:true,subtree:true});
 new MutationObserver(function(){setTimeout(reset,60)}).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 setTimeout(function(){scan(document.body)},300)})();
+</script>
+<script>
+/* NEWAR (arriba a la izquierda) lleva siempre al Inicio */
+(function(){var h=document.querySelector('nav h1');if(!h)return;h.setAttribute('role','link');h.setAttribute('tabindex','0');h.setAttribute('aria-label','NEWAR: ir al inicio');
+function go(){if(location.hash==='#/inicio'||location.hash===''||location.hash==='#/'){window.scrollTo({top:0,behavior:'smooth'})}else{location.hash='#/inicio'}}
+h.addEventListener('click',go);h.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})})();
+</script>
+<script>
+/* v9: barra de progreso, aviso sin conexión, atajos "g + letra", ayuda con "?", contadores en vivo del menú de la portada */
+(function(){
+var d=document;
+var rp=d.createElement('div');rp.id='rp';rp.setAttribute('aria-hidden','true');d.body.appendChild(rp);
+var tk=0;function prog(){if(tk)return;tk=requestAnimationFrame(function(){tk=0;var h=d.documentElement.scrollHeight-innerHeight;rp.style.width=(h>0?Math.min(100,scrollY/h*100):0)+'%'})}
+addEventListener('scroll',prog,{passive:true});addEventListener('resize',prog);prog();
+var off=null;function onOff(){if(off)return;off=d.createElement('div');off.id='offl';off.setAttribute('role','status');off.textContent='Sin conexión: estás viendo los últimos datos que se cargaron.';d.body.appendChild(off)}
+function onOn(){if(off){off.remove();off=null}}
+addEventListener('offline',onOff);addEventListener('online',onOn);if(navigator.onLine===false)onOff();
+var G={i:['inicio','Inicio'],d:['diario','Diario'],e:['estrategia','Estrategia'],s:['sesiones','Sesiones'],p:['personas','Personas'],m:['menciones','Menciones'],t:['temas','Temas'],r:['red','Red'],f:['fuentes','Fuentes'],c:['calidad','Calidad de datos']};
+var hint=d.createElement('div');hint.id='kbd';d.body.appendChild(hint);
+var kb=d.createElement('div');kb.id='kbh';kb.setAttribute('role','dialog');kb.setAttribute('aria-modal','true');kb.setAttribute('aria-label','Atajos de teclado');
+var rows=[['Ctrl + K','Buscar en toda la plataforma'],['/','También abre la búsqueda'],['Alt + N','Abrir el anotador'],['Alt + H','Sala de control (pantalla completa)'],['Esc','Cerrar lo que esté abierto'],['?','Mostrar esta ayuda'],['Y','Copiar el enlace de esta pantalla']];
+Object.keys(G).forEach(function(k){rows.push(['G y luego '+k.toUpperCase(),'Ir a '+G[k][1]])});
+kb.innerHTML='<div class="bx"><h3>Atajos de teclado</h3><dl>'+rows.map(function(r){return '<dt><kbd>'+r[0].replace(/ \+ /g,'</kbd> + <kbd>').replace(/G y luego (.)/,'G</kbd> y luego <kbd>$1')+'</kbd></dt><dd>'+r[1]+'</dd>'}).join('')+'</dl></div>';
+d.body.appendChild(kb);
+function shut(){kb.classList.remove('on')}
+kb.addEventListener('click',function(e){if(e.target===kb)shut()});
+var gp=false,gt=null;function gOff(){gp=false;hint.classList.remove('on');clearTimeout(gt)}
+d.addEventListener('keydown',function(e){
+ var t=e.target,ty=t&&t.tagName;if(e.key==='Escape'&&kb.classList.contains('on')){shut();return}
+ if(e.ctrlKey||e.metaKey||e.altKey)return;
+ if(ty==='INPUT'||ty==='TEXTAREA'||ty==='SELECT'||(t&&t.isContentEditable))return;
+ if(e.key==='?'){e.preventDefault();kb.classList.toggle('on');return}
+ var k=(e.key||'').toLowerCase();
+ if(gp){var x=G[k];gOff();if(x){e.preventDefault();location.hash='#/'+x[0]}return}
+ if(k==='g'&&!e.shiftKey){gp=true;hint.innerHTML='<kbd>G</kbd> … elegí una letra: I, D, E, S, P, M, T, R, F, C';hint.classList.add('on');gt=setTimeout(gOff,1600)}
+});
+/* contadores en vivo sobre los nodos de la portada (se leen de las tarjetas de cifras de la misma pantalla) */
+var MAP=[[/^personas/,'personas'],[/menciones/,'menciones'],[/^temas/,'temas'],[/^eventos/,'eventos'],[/^noticias/,'medios']];
+function NS(n){return d.createElementNS('http://www.w3.org/2000/svg',n)}
+function hubUpd(){var hub=d.querySelector('.hub');if(!hub)return;var vals={};d.querySelectorAll('.grid .card').forEach(function(c){var n=c.querySelector('.n'),l=c.querySelector('.l');if(!n||!l)return;var v=n.textContent.trim(),lb=l.textContent.trim().toLowerCase();if(!/^[\d.,]+\s?[kKmM]?$/.test(v))return;MAP.forEach(function(m){if(m[0].test(lb)&&!(m[1] in vals))vals[m[1]]=v})});
+ var sig=JSON.stringify(vals);if(hub.getAttribute('data-sig')===sig)return;hub.setAttribute('data-sig',sig);
+ hub.querySelectorAll('.hb').forEach(function(e){e.remove()});
+ hub.querySelectorAll('a.hn:not(.hcen)').forEach(function(a){var k=(a.getAttribute('href')||'').replace('#/','');if(!(k in vals))return;var c=a.querySelector('.hc');if(!c)return;var cx=+c.getAttribute('cx'),cy=+c.getAttribute('cy'),v=vals[k],w=v.length*7+12;var g=NS('g');g.setAttribute('class','hb');g.setAttribute('transform','translate('+(cx+12)+','+(cy-34)+')');var r=NS('rect');r.setAttribute('width',w);r.setAttribute('height',17);r.setAttribute('rx',8.5);var tx=NS('text');tx.setAttribute('x',w/2);tx.setAttribute('y',12.5);tx.setAttribute('text-anchor','middle');tx.textContent=v;g.appendChild(r);g.appendChild(tx);a.appendChild(g)})}
+var tm=null;new MutationObserver(function(){if(tm)return;tm=setTimeout(function(){tm=null;hubUpd()},250)}).observe(d.body,{childList:true,subtree:true});setTimeout(hubUpd,500);
+})();
+</script>
+<script>
+/* v10: pantallas vistas hace poco, copiar enlace (tecla Y) e instalar como app */
+(function(){var d=document,LS='newar_recientes_v1';
+function rd(){try{var a=JSON.parse(localStorage.getItem(LS)||'[]');return Array.isArray(a)?a:[]}catch(e){return[]}}
+function wr(a){try{localStorage.setItem(LS,JSON.stringify(a.slice(0,6)))}catch(e){}}
+function cur(){var m=(location.hash||'').match(/^#\/([a-z]+)/);return m?m[1]:null}
+function track(){var c=cur();if(!c||c==='inicio')return;var a=rd().filter(function(x){return x!==c});a.unshift(c);wr(a)}
+addEventListener('hashchange',track);track();
+function lab(id){var a=d.querySelector('nav .tabs a[href="#/'+id+'"]');if(!a)return null;var em=getComputedStyle(a).getPropertyValue('--em').replace(/["']/g,'').trim();return {t:a.textContent.trim(),e:em}}
+function rcnUpd(){if(cur()!=='inicio'&&location.hash!==''&&location.hash!=='#/')return;var tr=d.querySelector('.trust');if(!tr)return;var items=rd().map(function(id){var l=lab(id);return l?{id:id,l:l}:null}).filter(Boolean).slice(0,5);var ex=d.getElementById('rcn');
+ if(!items.length){if(ex)ex.remove();return}
+ var sig=items.map(function(i){return i.id}).join(',');if(ex&&ex.getAttribute('data-sig')===sig&&ex.previousElementSibling===tr)return;if(ex)ex.remove();
+ var n=d.createElement('div');n.id='rcn';n.className='rcn';n.setAttribute('data-sig',sig);var sp=d.createElement('span');sp.textContent='Visto hace poco';n.appendChild(sp);
+ items.forEach(function(i){var a=d.createElement('a');a.href='#/'+i.id;a.textContent=(i.l.e?i.l.e+' ':'')+i.l.t;n.appendChild(a)});tr.insertAdjacentElement('afterend',n)}
+var tm=null;new MutationObserver(function(){if(tm)return;tm=setTimeout(function(){tm=null;rcnUpd()},250)}).observe(d.body,{childList:true,subtree:true});addEventListener('hashchange',function(){setTimeout(rcnUpd,400)});setTimeout(rcnUpd,600);
+var tt=null;function toast(t){var e=d.getElementById('tst');if(!e){e=d.createElement('div');e.id='tst';e.setAttribute('role','status');d.body.appendChild(e)}e.textContent=t;e.style.display='block';clearTimeout(tt);tt=setTimeout(function(){e.style.display='none'},1800)}
+function copy(){var u=location.href;function ok(){toast('Enlace copiado')}function fb(){var t=d.createElement('textarea');t.value=u;t.style.position='fixed';t.style.opacity='0';d.body.appendChild(t);t.select();try{d.execCommand('copy');ok()}catch(e){toast('No se pudo copiar')}t.remove()}
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,fb)}else fb()}
+d.addEventListener('keydown',function(e){if(e.ctrlKey||e.metaKey||e.altKey)return;var t=e.target,ty=t&&t.tagName;if(ty==='INPUT'||ty==='TEXTAREA'||ty==='SELECT'||(t&&t.isContentEditable))return;if((e.key||'').toLowerCase()==='y'){e.preventDefault();copy()}});
+var dip=null,NO='newar_pwa_no';function no(){try{return localStorage.getItem(NO)==='1'}catch(e){return false}}
+addEventListener('beforeinstallprompt',function(e){e.preventDefault();dip=e;if(no()||d.getElementById('pwa'))return;var b=d.createElement('div');b.id='pwa';b.setAttribute('role','region');b.setAttribute('aria-label','Instalar la aplicación');b.innerHTML='<span>📲 Instalá NEWAR como app en este dispositivo</span><button class="ok" type="button">Instalar</button><button type="button" aria-label="No mostrar de nuevo">✕</button>';
+ b.querySelector('.ok').onclick=function(){b.remove();if(dip){dip.prompt();dip=null}};b.querySelectorAll('button')[1].onclick=function(){try{localStorage.setItem(NO,'1')}catch(x){}b.remove()};d.body.appendChild(b)});
+addEventListener('appinstalled',function(){var b=d.getElementById('pwa');if(b)b.remove();toast('NEWAR instalada')});
+})();
+</script>
+<script>
+/* v11: ajustes guardados en el dispositivo, acciones rápidas, saltar al contenido, ahorro de batería y aviso amable de errores */
+(function(){var d=document,H=d.documentElement,K='newar_ajustes_v1';
+var def={dens:0,grain:1,anim:1,hc:0};
+function load(){try{var o=JSON.parse(localStorage.getItem(K)||'{}');return Object.assign({},def,o)}catch(e){return Object.assign({},def)}}
+function save(o){try{localStorage.setItem(K,JSON.stringify(o))}catch(e){}}
+var A=load();
+function apply(){H.classList.toggle('dens',!!A.dens);H.classList.toggle('no-grain',!A.grain);H.classList.toggle('no-anim',!A.anim);H.classList.toggle('hc',!!A.hc)}apply();
+var kb=d.getElementById('kbh');if(!kb)return;var bx=kb.querySelector('.bx');if(!bx)return;
+bx.querySelector('h3').textContent='Atajos y ajustes';
+var x=d.createElement('button');x.className='x';x.type='button';x.setAttribute('aria-label','Cerrar');x.textContent='✕';x.onclick=function(){kb.classList.remove('on')};bx.insertBefore(x,bx.firstChild);
+var top=d.createElement('div');
+top.innerHTML='<h4>Acciones rápidas</h4><div class="acts"><button type="button" data-a="copy">🔗 Copiar enlace</button><button type="button" data-a="print">🖨️ Imprimir o guardar PDF</button><button type="button" data-a="full">🖥️ Pantalla completa</button>'+(navigator.share?'<button type="button" data-a="share">📤 Compartir</button>':'')+'</div>'
+ +'<h4>Ajustes</h4><div class="set">'
+ +'<label><input type="checkbox" data-k="dens"><span>Vista compacta<small>Menos espacio entre elementos, entra más en pantalla.</small></span></label>'
+ +'<label><input type="checkbox" data-k="grain"><span>Textura de fondo<small>Apagala si tu dispositivo va lento.</small></span></label>'
+ +'<label><input type="checkbox" data-k="anim"><span>Animaciones<small>Apagadas, la página se mueve menos.</small></span></label>'
+ +'<label><input type="checkbox" data-k="hc"><span>Alto contraste<small>Bordes y textos secundarios más marcados.</small></span></label>'
+ +'</div><button type="button" class="rst">Restablecer ajustes</button><h4>Atajos de teclado</h4>';
+var h3=bx.querySelector('h3');h3.insertAdjacentElement('afterend',top);
+function sync(){top.querySelectorAll('input[data-k]').forEach(function(i){i.checked=!!A[i.getAttribute('data-k')]})}sync();
+top.addEventListener('change',function(e){var k=e.target.getAttribute&&e.target.getAttribute('data-k');if(!k)return;A[k]=e.target.checked?1:0;save(A);apply()});
+top.querySelector('.rst').onclick=function(){A=Object.assign({},def);save(A);apply();sync()};
+top.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-a]');if(!b)return;var a=b.getAttribute('data-a');
+ if(a==='copy'){d.dispatchEvent(new KeyboardEvent('keydown',{key:'y',bubbles:true}));return}
+ if(a==='print'){kb.classList.remove('on');setTimeout(function(){print()},150);return}
+ if(a==='full'){kb.classList.remove('on');var h=d.getElementById('hudb');if(h)h.click();return}
+ if(a==='share'){navigator.share({title:d.title,url:location.href}).catch(function(){})}});
+/* entrada visible en el pie de página */
+function addFt(){d.querySelectorAll('footer').forEach(function(f){if(f.querySelector('.ftl'))return;var fb=d.createElement('button');fb.type='button';fb.className='ftl';fb.textContent='⌨️ Atajos y ajustes';fb.onclick=function(){kb.classList.add('on')};f.appendChild(fb)})}
+var ft=null;new MutationObserver(function(){if(ft)return;ft=setTimeout(function(){ft=null;addFt()},200)}).observe(d.body,{childList:true,subtree:true});addFt();
+/* saltar al contenido (accesibilidad con teclado) */
+var sk=d.createElement('button');sk.type='button';sk.className='skip';sk.textContent='Saltar al contenido';sk.onclick=function(){var w=d.querySelector('.wrap');if(w){w.setAttribute('tabindex','-1');w.focus();w.scrollIntoView()}};d.body.insertBefore(sk,d.body.firstChild);
+/* ahorro de batería: pausar las animaciones del menú de la portada cuando la pestaña no se ve */
+d.addEventListener('visibilitychange',function(){var s=d.querySelector('.hub');if(!s||!s.pauseAnimations)return;if(d.hidden)s.pauseAnimations();else s.unpauseAnimations()});
+/* si algo falla, avisar sin asustar (máximo una vez cada 20 s) */
+var last=0;function warn(){var n=Date.now();if(n-last<20000)return;last=n;var e=d.getElementById('tst');if(!e){e=d.createElement('div');e.id='tst';e.setAttribute('role','status');d.body.appendChild(e)}e.textContent='Algo no se cargó bien. Probá actualizar con el botón ↻.';e.style.display='block';setTimeout(function(){e.style.display='none'},4000)}
+addEventListener('error',function(ev){if(ev instanceof ErrorEvent)warn()});addEventListener('unhandledrejection',warn);
+})();
 </script>
 </body>
 </html>
