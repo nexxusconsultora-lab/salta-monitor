@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-31T22:10:33.951272+00:00",
+  "generated_at": "2026-11-01T01:11:28.925036+00:00",
   "by_politician": {
+    "eje-ignacio-jarsun": {
+      "total": 43,
+      "positivo": 7,
+      "negativo": 5,
+      "neutral": 31,
+      "score_sum": 9
+    },
     "dip-luis-gerardo-mendana": {
-      "total": 8,
+      "total": 9,
       "positivo": 1,
       "negativo": 2,
-      "neutral": 5,
+      "neutral": 6,
       "score_sum": -3
+    },
+    "dip-griselda-edith-galleguillos": {
+      "total": 25,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 20,
+      "score_sum": -5
+    },
+    "dnac-bernardo-biella": {
+      "total": 31,
+      "positivo": 6,
+      "negativo": 4,
+      "neutral": 21,
+      "score_sum": 1
+    },
+    "concejal-laura-jorge-saravia": {
+      "total": 48,
+      "positivo": 0,
+      "negativo": 14,
+      "neutral": 34,
+      "score_sum": -30
     },
     "concejal-malvina-gareca": {
       "total": 46,
@@ -56,13 +84,6 @@
       "negativo": 4,
       "neutral": 56,
       "score_sum": 44
-    },
-    "eje-ignacio-jarsun": {
-      "total": 42,
-      "positivo": 7,
-      "negativo": 5,
-      "neutral": 30,
-      "score_sum": 9
     },
     "eje-sergio-camacho": {
       "total": 33,
@@ -176,13 +197,6 @@
       "neutral": 94,
       "score_sum": 8
     },
-    "dip-griselda-edith-galleguillos": {
-      "total": 24,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 19,
-      "score_sum": -5
-    },
     "dnac-julio-moreno-ovalle": {
       "total": 7,
       "positivo": 0,
@@ -231,13 +245,6 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": -4
-    },
-    "dnac-bernardo-biella": {
-      "total": 30,
-      "positivo": 6,
-      "negativo": 4,
-      "neutral": 20,
-      "score_sum": 1
     },
     "concejal-gustavo-farquharson": {
       "total": 66,
@@ -392,13 +399,6 @@
       "negativo": 2,
       "neutral": 10,
       "score_sum": 0
-    },
-    "concejal-laura-jorge-saravia": {
-      "total": 47,
-      "positivo": 0,
-      "negativo": 14,
-      "neutral": 33,
-      "score_sum": -30
     },
     "dip-miguel-angel-plaza-schaefer": {
       "total": 4,
@@ -934,9 +934,15 @@
     }
   },
   "by_day": {
+    "2024-03-12": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-10-31": {
       "dip-luis-gerardo-mendana": {
-        "total": 1,
+        "total": 2,
         "score_sum": 0
       },
       "eje-juan-vilchez": {
@@ -986,6 +992,64 @@
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": 1
+      }
+    },
+    "2026-07-02": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-juan-vilchez": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 3,
+        "score_sum": 4
+      }
+    },
+    "2025-09-11": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      }
+    },
+    "2025-02-17": {
+      "concejal-laura-jorge-saravia": {
+        "total": 5,
+        "score_sum": -4
       }
     },
     "2023-03-23": {
@@ -4386,12 +4450,6 @@
         "score_sum": 2
       }
     },
-    "2025-02-17": {
-      "concejal-laura-jorge-saravia": {
-        "total": 4,
-        "score_sum": -4
-      }
-    },
     "2024-02-28": {
       "concejal-malvina-gareca": {
         "total": 1,
@@ -5432,40 +5490,6 @@
         "score_sum": 0
       }
     },
-    "2026-07-02": {
-      "dip-guillermo-mario-durand-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-juan-vilchez": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-eduardo-jose-virgili": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 3,
-        "score_sum": 4
-      }
-    },
     "2025-01-31": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -5959,16 +5983,6 @@
     "2016-08-27": {
       "dnac-bernardo-biella": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-09-11": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -17688,7 +17702,7 @@
     },
     {
       "term": "sáenz",
-      "count": 13
+      "count": 12
     },
     {
       "term": "aries",
@@ -17731,16 +17745,16 @@
       "count": 8
     },
     {
-      "term": "emilia",
+      "term": "voces",
       "count": 7
     },
     {
-      "term": "voces",
-      "count": 6
+      "term": "criticas",
+      "count": 7
     },
     {
-      "term": "criticas",
-      "count": 6
+      "term": "emilia",
+      "count": 7
     }
   ],
   "comentions": [
