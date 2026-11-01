@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-01T01:11:28.925036+00:00",
+  "generated_at": "2026-11-01T07:36:41.494188+00:00",
   "by_politician": {
+    "sen-roque-cornejo-avellaneda": {
+      "total": 69,
+      "positivo": 8,
+      "negativo": 11,
+      "neutral": 50,
+      "score_sum": -4
+    },
     "eje-ignacio-jarsun": {
       "total": 43,
       "positivo": 7,
@@ -126,13 +133,6 @@
       "negativo": 12,
       "neutral": 58,
       "score_sum": -19
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 68,
-      "positivo": 8,
-      "negativo": 11,
-      "neutral": 49,
-      "score_sum": -4
     },
     "dip-laura-deolinda-cartuccia": {
       "total": 24,
@@ -934,6 +934,16 @@
     }
   },
   "by_day": {
+    "2022-09-21": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-03-12": {
       "eje-ignacio-jarsun": {
         "total": 1,
@@ -6496,12 +6506,6 @@
       "eje-ignacio-jarsun": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2022-09-21": {
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-02-13": {
@@ -17745,15 +17749,15 @@
       "count": 8
     },
     {
+      "term": "cornejo",
+      "count": 7
+    },
+    {
       "term": "voces",
       "count": 7
     },
     {
       "term": "criticas",
-      "count": 7
-    },
-    {
-      "term": "emilia",
       "count": 7
     }
   ],

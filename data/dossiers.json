@@ -1899,13 +1899,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 68,
+    "total_mentions": 69,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 11,
-      "neutral": 49
+      "neutral": 50
     },
     "sentiment_by_day": {
+      "2022-09-21": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-31": {
         "total": 1,
         "score_sum": 1
@@ -2134,15 +2138,15 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 7
+        "count": 8
       },
       {
         "term": "cornejo",
-        "count": 7
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 6
       },
       {
         "term": "senado",
@@ -2234,6 +2238,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Roque Cornejo recordó el día más feliz de su vida - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX29qODRVVWhydG9JSTlWTVZuT3NFWUhOa0xwMlo3SmxZVTE2VTNNdkNKVmVpUDlDenJnVnlfVGhBQ1FaVks1Qk03Tk1TZHNKM1RZSkpoLXctQ3l6V2d5UnMzV1dmSENGaEZWQUZEWmZ1c3JJWTNCeFJTSUJQNndzSzF3bDgyN19SVDlGTw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 21 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Roque Cornejo cuestiona al Senado por excesos que su Convención admitió en mayo",
         "link": "https://elintra.com.ar/2026/10/31/roque-cornejo-cuestiona-al-senado-por-excesos-que-su-convencion-admitio-en-mayo/",
@@ -2436,13 +2447,6 @@
         "source": "Elintra.com.ar",
         "date": "Wed, 19 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El acuerdo de LLA y el Gobierno en evidencia: Roque Cornejo contra el Fondo de Reparación Histórica - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUG0tVHVWT3diMTFJMlVtT3B6blBEOWhuWjd1LUh0enNyVGxBeFdpa2F6UjB4ZFotRmpxclVNQzh1QUw4WGtsb3dRR1FGRVVROURqVjFBX2NHdXkxblNpaHFISW95MHU2dnBVUUNnT2U0eVJIRTA4NHVHUTdmRjdJZFV1TVVySGxLRWs3NUZUME5jQm9WdkZUalNXbU1YU0Y2N2hGYm5SVC1Idm5vT0Uta2NGWGc2SU5jTVZNa2R1ZmU1Z0FhUW5aeFR6Y0ZnQQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 27 Mar 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -2601,11 +2605,11 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 6
+        "count": 5
       },
       {
         "term": "cornejo",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
@@ -2613,7 +2617,7 @@
       },
       {
         "term": "senador",
-        "count": 3
+        "count": 2
       },
       {
         "term": "nuevo",
@@ -2621,10 +2625,6 @@
       },
       {
         "term": "diario",
-        "count": 2
-      },
-      {
-        "term": "güemes",
         "count": 2
       }
     ],
@@ -8317,11 +8317,11 @@
     "top_topics": [
       {
         "term": "daniel",
-        "count": 3
+        "count": 2
       },
       {
         "term": "moreno",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
@@ -25108,14 +25108,10 @@
     "top_topics": [
       {
         "term": "bernardo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "biella",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
