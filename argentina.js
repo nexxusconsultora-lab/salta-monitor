@@ -42,11 +42,28 @@ const CSS=`
 .ar-grid .rr{grid-template-columns:11rem 1fr 6.5rem}
 @media(max-width:860px){.ar-grid.fs .ar-tb{flex-wrap:nowrap;overflow-x:auto}.ar-grid.fs .ar-tb button{flex:none}.ar-grid.fs .ar-leg{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;margin:.2rem 0}.ar-grid{grid-template-columns:1fr}.ar-side{position:static;max-height:none}.ar-grid .rr{grid-template-columns:8rem 1fr 5rem}.ag{height:min(78vh,900px)}}
 @media print{.ar-w .mz,.ar-ctl,.ar-tb{display:none}.ar-side{position:static;max-height:none}.ag{height:auto;max-height:none}}
+
+.ar-sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.ar-nav{position:absolute;top:.7rem;right:4.1rem;z-index:4;display:flex;gap:.3rem;flex-wrap:wrap;justify-content:flex-end;max-width:calc(100% - 5rem)}
+.ar-nav button,.ar-nav a{display:inline-flex;align-items:center;min-height:2.3rem;padding:0 .8rem;border-radius:999px;border:1px solid var(--glass-b,var(--line));background:var(--glass,var(--raised));color:var(--ink);font:600 .82rem/1 inherit;text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.ar-nav button[aria-pressed=true]{background:linear-gradient(135deg,var(--nx-acc2,#6366f1),var(--nx-acc,#38bdf8));color:#fff;border-color:transparent}
+.ar-nav button:focus-visible,.ar-nav a:focus-visible,.ar-w .mz button:focus-visible{outline:2px solid var(--nx-acc,var(--clay));outline-offset:2px}
+.ar-hud small{display:block;font-size:.68rem;color:var(--soft);margin-top:.2rem}
+.ar-err{padding:.9rem 1.1rem;border:1px solid var(--line);border-left:4px solid var(--neg,#ac2f33);border-radius:12px;background:var(--raised);margin:.6rem 0}.ar-err p{margin:.3rem 0 .6rem;color:var(--soft);font-size:.86rem}.ar-err button{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:10px;padding:.4rem .9rem;cursor:pointer;font-weight:600}
+.ar-skel{height:min(60vh,520px);border-radius:16px;background:linear-gradient(100deg,var(--raised) 30%,color-mix(in srgb,var(--ink) 8%,var(--raised)) 50%,var(--raised) 70%);background-size:200% 100%;animation:arsk 1.4s linear infinite}
+@keyframes arsk{to{background-position:-200% 0}}
+@media(prefers-reduced-motion:reduce){.ar-skel{animation:none}}
+.ag .apg.dim path{opacity:.2}.ag .apg.hl path{stroke:var(--ink);stroke-width:2.4px}.ar-grid .rr.hl{background:color-mix(in srgb,var(--ink) 9%,transparent)}
+.ar-alt{margin:.8rem 0}.ar-alt summary{cursor:pointer;font-weight:600}.ar-alt table{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:.4rem}.ar-alt caption{text-align:left;color:var(--soft);padding:.3rem 0}.ar-alt th,.ar-alt td{padding:.3rem .4rem;border-bottom:1px solid var(--line);text-align:left}.ar-alt td:nth-child(2),.ar-alt td:nth-child(3){text-align:right;font-variant-numeric:tabular-nums}
+.ar-grid.fs .ar-w .mz button,.ar-grid.fs .ar-nav button,.ar-grid.fs .ar-nav a{min-height:2.75rem;min-width:2.75rem}
+@media(max-width:860px){.ar-w .mz button{width:2.75rem;height:2.75rem}.ar-nav button,.ar-nav a{min-height:2.75rem}.ar-nav{right:3.9rem}}
+.ar-grid.fs:not(.herr) .ar-tb,.ar-grid.fs .ar-leg{display:none}
+.ar-grid .ar-tb{z-index:3}
 `;
 if(!document.getElementById('ar-css')){const s=document.createElement('style');s.id='ar-css';s.textContent=CSS;document.head.appendChild(s)}
 
 const AR={col:'pob',sel:'',vals:true,vb:null,fs:false,sd:false,fit:'',q:'',tool:'mover',pc:'#ff4d4f',pw:4,dib:[],redo:[],cur:null,pres:null,pintado:{},leyenda:{},capa:false,cmp:'',help:false};
-let G=null,P=null,LD=false,ROWS=[],CLS={},RK={};
+let G=null,P=null,LD=false,ROWS=[],CLS={},RK={},ERR={g:false,p:false};
 const NF=(v,d)=>v==null||isNaN(v)?'s/d':v.toLocaleString('es-AR',{maximumFractionDigits:d==null?0:d});
 const COMP=(v,d)=>{if(v==null||isNaN(v))return '';const a=Math.abs(v);if(a>=1e6)return NF(v/1e6,1)+' M';if(a>=1e4)return NF(Math.round(v/1e3))+' mil';return NF(v,d)};
 const MENOR=['tucuman','catamarca','la-rioja','san-juan','san-luis','entre-rios','misiones','tierra-del-fuego'];/* con el mapa entero no entra el valor: aparece al acercar */
@@ -69,11 +86,12 @@ const fillOf=r=>{if(AR.capa)return AR.pintado[r.k]||'var(--line)';const c=CLS[r.
 
 function build(){
  const tot=P.total_censado,D=P.congreso.diputados,Sn=P.congreso.senadores;
- ROWS=Object.keys(G.provincias).map(k=>{
-  const g=G.provincias[k],p=P.provincias[k]||{},sp=g.superficie_km2||{};
+ ROWS=[...new Set([...Object.keys(G.provincias),...Object.keys(P.provincias)])].map(k=>{
+  const g=Object.assign({nombre:k.replace(/-/g,' ').replace(/^./,c=>c.toUpperCase()),partes:[]},G.provincias[k]),p=P.provincias[k]||{},sp=g.superficie_km2||{};
+  if(g.partes&&g.partes.length&&!(Array.isArray(g.c)&&g.c.length===2)){const bb=bbox({k,sinGeo:false,g});if(bb)g.c=[(bb[0]+bb[2])/2,(bb[1]+bb[3])/2]}
   const sup=p.superficie_oficial_km2||((sp.continental||0)+(sp.isla_grande||0)),pob=p.poblacion;
   const pct=pob==null?null:pob/tot*100,pd=p.diputados==null?null:p.diputados/D*100;
-  return{k,nombre:g.nombre,corto:CORTO[k]||g.nombre,capital:g.capital,indec:g.indec,pob,pct,sup,
+  return{k,sinGeo:!(g.partes&&g.partes.length),nombre:g.nombre,corto:CORTO[k]||g.nombre,capital:g.capital,indec:g.indec,pob,pct,sup,
    dens:pob==null||!sup?null:pob/sup,dip:p.diputados,sen:p.senadores,
    hdip:pob==null||!p.diputados?null:pob/p.diputados,hsen:pob==null||!p.senadores?null:pob/p.senadores,
    pdip:pd,psen:p.senadores==null?null:p.senadores/Sn*100,rep:pd==null||!pct?null:pd/pct,
@@ -91,21 +109,21 @@ const sg=(v,i)=>i.k==='ddif'&&v>0?'+':'';
 const fv=(v,i)=>v==null?'s/d':sg(v,i)+NF(v,i.d)+(i.u==='%'?' %':'')+(i.u&&i.u!=='%'&&i.u!=='veces'?' '+i.u:'')+(i.u==='veces'?' ×':'');
 const cur=()=>AR.vb||G.viewBox;
 /* encuadre de una provincia: caja de sus trazados (en Tierra del Fuego, solo la isla grande) con margen y un tope de 12 aumentos */
-const bbox=r=>{const ps=r.k==='tierra-del-fuego'?r.g.partes.filter(p=>p.k==='isla_grande'):r.g.partes;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+const bbox=r=>{if(r.sinGeo)return null;const ps=r.k==='tierra-del-fuego'?r.g.partes.filter(p=>p.k==='isla_grande'):r.g.partes;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
  ps.forEach(p=>{const n=p.d.match(/-?\d+(?:\.\d+)?/g).map(Number);for(let i=0;i+1<n.length;i+=2){x0=Math.min(x0,n[i]);x1=Math.max(x1,n[i]);y0=Math.min(y0,n[i+1]);y1=Math.max(y1,n[i+1])}});return[x0,y0,x1,y1]};
-const fit=r=>{const B=G.viewBox,[x0,y0,x1,y1]=bbox(r),ar=B[2]/B[3];let w=Math.max(x1-x0,1)*1.6,h=Math.max(y1-y0,1)*1.6;if(w/h<ar)w=h*ar;w=Math.max(w,B[2]/12);h=w/ar;
+const fit=r=>{const bb=bbox(r);if(!bb)return null;const B=G.viewBox,[x0,y0,x1,y1]=bb,ar=B[2]/B[3];let w=Math.max(x1-x0,1)*1.6,h=Math.max(y1-y0,1)*1.6;if(w/h<ar)w=h*ar;w=Math.max(w,B[2]/12);h=w/ar;
  if(w>=B[2])return null;const cx=(x0+x1)/2,cy=(y0+y1)/2;return[Math.min(Math.max(B[0],cx-w/2),B[0]+B[2]-w),Math.min(Math.max(B[1],cy-h/2),B[1]+B[3]-h),w,h]};
 const svgEl=()=>document.querySelector('svg.ag');
 
 function paths(){
- const out=[];const sel=ROWS.find(r=>r.k===AR.sel);
- const one=r=>`<g class="apg${r.k===AR.sel?' on':''}${r.k===AR.cmp?' on2':''}" style="--i:${ROWS.indexOf(r)}" data-nx-t="${esc(r.nombre)}" data-nx-v="${esc(AR.capa?(AR.pintado[r.k]&&AR.leyenda[AR.pintado[r.k]]||''):fv(ind().f(r),ind()))}" data-nx-s="${esc(AR.capa?'':(RK[r.k]?'Puesto '+RK[r.k]+' de '+Object.keys(RK).length+' · '+ind().t:'Sin dato'))}" data-ak="${r.k}" role="button" tabindex="0" aria-pressed="${r.k===AR.sel}" aria-label="${esc(r.nombre)}: ${esc(fv(ind().f(r),ind()))}"><title>${esc(r.nombre)}: ${esc(fv(ind().f(r),ind()))}</title>${r.g.partes.map(pt=>`<path d="${pt.d}" style="fill:${fillOf(r)}"/>`).join('')}</g>`;
+ const out=[];const sel=ROWS.find(r=>r.k===AR.sel);const fk=(AR.foc&&ROWS.some(x=>x.k===AR.foc&&!x.sinGeo))?AR.foc:(sel&&!sel.sinGeo?sel.k:(ROWS.find(x=>!x.sinGeo)||{}).k);
+ const one=r=>r.sinGeo?'':`<g class="apg${r.k===AR.sel?' on':''}${r.k===AR.cmp?' on2':''}" style="--i:${ROWS.indexOf(r)}" data-nx-t="${esc(r.nombre)}" data-nx-v="${esc(AR.capa?(AR.pintado[r.k]&&AR.leyenda[AR.pintado[r.k]]||''):fv(ind().f(r),ind()))}" data-nx-s="${esc(AR.capa?'':(RK[r.k]?'Puesto '+RK[r.k]+' de '+Object.keys(RK).length+' · '+ind().t:'Sin dato'))}" data-ak="${r.k}" role="button" tabindex="${r.k===fk?0:-1}" aria-pressed="${r.k===AR.sel}" aria-label="${esc(r.nombre)}: ${esc(fv(ind().f(r),ind()))}"><title>${esc(r.nombre)}: ${esc(fv(ind().f(r),ind()))}</title>${r.g.partes.map(pt=>`<path d="${pt.d}" style="fill:${fillOf(r)}"/>`).join('')}</g>`;
  const c2=ROWS.find(r=>r.k===AR.cmp);ROWS.forEach(r=>{if(r!==sel&&r!==c2)out.push(one(r))});if(c2)out.push(one(c2));if(sel)out.push(one(sel));
  return out.join('');
 }
 function labels(){
  const i=ind(),t=[];
- ROWS.forEach(r=>{if(!r.g.c)return;const[x,y]=r.g.c;
+ ROWS.forEach(r=>{if(r.sinGeo||!r.g.c)return;const[x,y]=r.g.c;
   if(r.k==='caba'){t.push(`<circle class="apin" data-ak="caba" cx="${x}" cy="${y}" r="5"/><text x="${x+8}" y="${y-8}" style="text-anchor:start">CABA</text>`);return}
   t.push(`<text${MENOR.includes(r.k)?' class="m"':''} x="${x}" y="${y}">${esc(r.corto)}${AR.vals&&!AR.capa?`<tspan class="v" x="${x}" dy="1.15em">${esc(sg(i.f(r),i)+COMP(i.f(r),i.d))}</tspan>`:''}</text>`)});
  (G.etiquetas||[]).forEach(e=>t.push(`<text class="e" x="${e.c[0]+(e.dx||0)}" y="${e.c[1]+(e.dy||0)}">${esc(e.t)}</text>`));
@@ -118,7 +136,7 @@ function apply(){
  sv.setAttribute('viewBox',v.map(n=>Math.round(n*10)/10).join(' '));
  const r=sv.getBoundingClientRect(),s=Math.min(r.width/v[2],r.height/v[3])||1,u=1/s;
  const L=sv.querySelector('#arl');if(L){L.style.fontSize=(11*u)+'px';L.style.strokeWidth=(3.4*u)+'px';L.classList.toggle('lo',G.viewBox[2]/v[2]<1.7)}
- sv.querySelectorAll('.apin').forEach(c=>c.setAttribute('r',(5*u).toFixed(2)));
+ sv.querySelectorAll('.apin').forEach(c=>c.setAttribute('r',(5*u).toFixed(2)));const zi=document.getElementById('ar-zi');if(zi)zi.textContent=zoomTxt();
 }
 window.argZoom=(f,cx,cy)=>{if(!G)return;const B=G.viewBox,v=cur().slice(),w=Math.min(B[2],Math.max(B[2]/25,v[2]*f)),h=w*B[3]/B[2];
  if(cx==null){cx=v[0]+v[2]/2;cy=v[1]+v[3]/2}
@@ -126,12 +144,18 @@ window.argZoom=(f,cx,cy)=>{if(!G)return;const B=G.viewBox,v=cur().slice(),w=Math
  v[0]=Math.min(Math.max(B[0],cx-rx*w),B[0]+B[2]-w);v[1]=Math.min(Math.max(B[1],cy-ry*h),B[1]+B[3]-h);
  AR.vb=w>=B[2]-0.5?null:v;apply()};
 window.argReset=()=>{AR.vb=null;apply()};
-window.argFS=()=>{AR.fs=!AR.fs;AR.sd=false;const g=document.querySelector('.ar-grid'),h=document.getElementById('arapp');if(g){g.classList.toggle('fs',AR.fs);g.classList.remove('sd')}
+window.argFS=forzar=>{const q=typeof forzar==='boolean'?forzar:!AR.fs;if(q===AR.fs)return;AR.fs=q;AR.sd=false;const g=document.querySelector('.ar-grid'),h=document.getElementById('arapp');
+ if(g){g.classList.toggle('fs',AR.fs);g.classList.remove('sd')}marcarFS();inertar(AR.fs);
  try{if(AR.fs&&h&&h.requestFullscreen)h.requestFullscreen().catch(()=>{});else if(!AR.fs&&document.fullscreenElement)document.exitFullscreen()}catch(e){}
+ if(AR.fs){const a=document.activeElement;AR.opener=a&&a!==document.body?a:null;setTimeout(()=>{const b=document.querySelector('.ar-grid.fs button.ar-only-fs:last-of-type')||document.querySelector('.ar-grid.fs button');if(b)b.focus()},50);anuncia('Mapa a pantalla completa. Escape para salir.')}
+ else{const o=AR.opener;AR.opener=null;setTimeout(()=>{const t=(o&&document.contains(o))?o:document.querySelector('.ar-w .mz button[aria-label^="Modo mapa"]');if(t)t.focus()},50);anuncia('Saliste de la pantalla completa.')}
  setTimeout(apply,60)};
-window.argPanel=()=>{AR.sd=!AR.sd;const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('sd',AR.sd)};
+window.argHerr=()=>{AR.herr=!AR.herr;const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('herr',AR.herr);const b=document.querySelector('.ar-ctl button[onclick="argHerr()"]');if(b)b.setAttribute('aria-pressed',String(AR.herr));setTimeout(apply,60)};
+window.argPanel=()=>{AR.sd=!AR.sd;const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('sd',AR.sd);marcarFS()};
 const nrm=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-window.argQ=v=>{AR.q=v;const q=nrm(v.trim());document.querySelectorAll('.ar-grid .rr').forEach(b=>{b.hidden=!!q&&!nrm(b.textContent).includes(q)})};
+window.argQ=v=>{AR.q=v;const q=nrm(v.trim()),keep=new Set();let n=0;document.querySelectorAll('.ar-grid .rr').forEach(b=>{const ok=!q||nrm(b.textContent).includes(q);b.hidden=!ok;if(ok){keep.add(b.dataset.ak);n++}});
+ document.querySelectorAll('svg.ag g.apg').forEach(g=>g.classList.toggle('dim',!!q&&!keep.has(g.dataset.ak)));
+ if(q&&AR._fq!==v){AR._fq=v;clearTimeout(AR._ft);AR._ft=setTimeout(()=>anuncia(n?n+' de '+ROWS.length+' jurisdicciones coinciden con «'+v.trim()+'».':'Ninguna jurisdicción coincide con «'+v.trim()+'».'),500)}};
 window.argCfg=(k,v)=>{AR[k]=v;guardarPref();paint()};
 window.argSel=k=>{AR.sel=AR.sel===k?'':k;if(!AR.sel||AR.cmp===AR.sel)AR.cmp='';AR.vb=null;AR.fit=AR.sel;try{history.replaceState(null,'','#/argentina'+(AR.sel?'/'+AR.sel:''))}catch(e){}
  paint();if(AR.sel&&window.innerWidth<=860&&!AR.fs){const a=document.getElementById('arside');if(a&&a.scrollIntoView)a.scrollIntoView({behavior:'smooth',block:'start'})}};
@@ -163,16 +187,16 @@ function detalle(r){
  <p class="meta">Capital: ${esc(r.capital)} · Código INDEC ${esc(r.indec)}</p>
  <div class="ar-k"><div class="ar-c"><b>${NF(r.pob)}</b><span>habitantes (Censo 2022)</span><div class="ar-bar"><i style="width:${(r.pob/Math.max(...ROWS.map(x=>x.pob||0))*100).toFixed(1)}%"></i></div></div><div class="ar-c"><b>${NF(r.pct,1)} %</b><span>de la población del país</span><div class="ar-bar"><i style="width:${(r.pct/Math.max(...ROWS.map(x=>x.pct||0))*100).toFixed(1)}%"></i></div></div><div class="ar-c"><b>${NF(r.sup)} km²</b><span>superficie${r.k==='tierra-del-fuego'?' (isla grande)':''}, según el IGN</span></div><div class="ar-c"><b>${NF(r.dens,1)}</b><span>hab/km²</span></div></div>
  <h4 class="sh">Representación en el Congreso de la Nación</h4>
- <div class="ar-k"><div class="ar-c"><b>${NF(r.dip)}</b><span>diputados nacionales (de ${NF(P.congreso.diputados)})</span></div><div class="ar-c"><b>${NF(r.sen)}</b><span>senadores nacionales (de ${NF(P.congreso.senadores)})</span></div><div class="ar-c"><b>${NF(r.hdip)}</b><span>habitantes por diputado</span></div><div class="ar-c"><b>${NF(r.rep,2)} ×</b><span>bancas de Diputados respecto de su peso poblacional</span></div></div>
+ <div class="ar-k"><div class="ar-c"><b>${NF(r.dip)}</b><span>diputados nacionales (de ${CD()})</span></div><div class="ar-c"><b>${NF(r.sen)}</b><span>senadores nacionales (de ${CS()})</span></div><div class="ar-c"><b>${NF(r.hdip)}</b><span>habitantes por diputado</span></div><div class="ar-c"><b>${NF(r.rep,2)} ×</b><span>bancas de Diputados respecto de su peso poblacional</span></div></div>
  <div class="ar-duo" role="img" aria-label="Peso comparado: ${NF(r.pct,1)} % de la población, ${NF(r.pdip,1)} % de los diputados, ${NF(r.psen,1)} % del Senado">${[['Población',r.pct],['Diputados',r.pdip],['Senado',r.psen]].map(([l,v])=>`<div class="ar-row"><span>${l}</span><div class="ar-bar"><i style="width:${(v/Math.max(r.pct,r.pdip,r.psen)*100).toFixed(1)}%"></i></div><b>${NF(v,1)} %</b></div>`).join('')}</div>
  <p class="note"><b>Puesto ${NF(ROWS.filter(x=>i.f(x)!=null&&i.f(x)>i.f(r)).length+1)} de ${NF(ROWS.filter(x=>i.f(x)!=null).length)}</b> en «${esc(i.t)}» (${esc(fv(i.f(r),i))}). Con un reparto proporcional a la población (simulación, método del resto mayor, sin mínimo por provincia) tendría ${NF(r.dsim)} diputados: ${r.ddif>0?'hoy tiene '+NF(r.ddif)+' de más':r.ddif<0?'hoy tiene '+NF(-r.ddif)+' de menos':'coincide con el reparto vigente'}. ${NF(r.pct,1)} % de la población y ${NF(r.pdip,1)} % de las bancas de Diputados; ${NF(r.psen,1)} % de los escaños del Senado. Es la composición legal, no un resultado electoral. Ver «Voz y peso» para el caso de Salta en la prensa.</p>
  ${cmpHtml(r)}${r.k==='salta'?salta():ejecutivo(r)}${sub}`;
 }
 function general(){
- return`<h3 class="sh">Argentina en cifras</h3><div class="ar-k"><div class="ar-c"><b>${NF(P.total_censado)}</b><span>personas censadas en 2022 (INDEC, definitivo)</span></div><div class="ar-c"><b>24</b><span>jurisdicciones: 23 provincias y la Ciudad Autónoma de Buenos Aires</span></div><div class="ar-c"><b>${NF(P.congreso.diputados)}</b><span>diputados nacionales</span></div><div class="ar-c"><b>${NF(P.congreso.senadores)}</b><span>senadores nacionales (3 por jurisdicción)</span></div></div>
+ return`<h3 class="sh">Argentina en cifras</h3><div class="ar-k"><div class="ar-c"><b>${TC()}</b><span>personas censadas en 2022 (INDEC, definitivo)</span></div><div class="ar-c"><b>24</b><span>jurisdicciones: 23 provincias y la Ciudad Autónoma de Buenos Aires</span></div><div class="ar-c"><b>${CD()}</b><span>diputados nacionales</span></div><div class="ar-c"><b>${CS()}</b><span>senadores nacionales (3 por jurisdicción)</span></div></div>
  <p class="note">Tocá una provincia del mapa o de la lista para ver su detalle. Cambiá el indicador arriba para pintar el mapa con otro dato.</p>
  <div class="ar-box"><h4>Cómo leer el mapa bicontinental</h4>Muestra en un solo mapa la Argentina americana, las islas del Atlántico Sur y el Sector Antártico Argentino (al sur del paralelo 60° S, entre los meridianos 25° y 74° al oeste de Greenwich, según la Cancillería). El sector antártico va en un recuadro, a la mitad de la escala del resto, con su propia proyección; las líneas punteadas marcan su perímetro. Lo que se dibuja es el polígono del IGN, no el mar del sector; la Cancillería da para todo el sector 1.461.597 km², de los cuales 965.314 km² son tierra firme.</div>
- <div class="ar-box"><h4>Soberanía</h4>La Constitución Nacional (Disposición Transitoria Primera) ratifica la soberanía argentina sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos e insulares correspondientes. Esos territorios están en disputa con el Reino Unido, que los administra; por eso el INDEC no pudo censarlos en 2022 y consigna que están sometidos a una ocupación que la Argentina considera ilegal. En el Sector Antártico rige el Tratado Antártico (en vigor desde 1961): su artículo IV deja en suspenso las reclamaciones mientras el tratado esté vigente, y de la Antártida el INDEC solo censó las bases permanentes. Tierra del Fuego, Antártida e Islas del Atlántico Sur es una sola provincia, con límites fijados por la ley 26.552.<br><a href="${esc(P.enlaces_oficiales.sector_antartico_cancilleria)}" rel="noopener noreferrer">Cancillería: Sector Antártico</a> · <a href="${esc(P.enlaces_oficiales.tratado_antartico_cancilleria)}" rel="noopener noreferrer">Tratado Antártico</a> · <a href="${esc(P.enlaces_oficiales.soberania_indec)}" rel="noopener noreferrer">INDEC (nota sobre las islas)</a></div>`;
+ <div class="ar-box"><h4>Soberanía</h4>La Constitución Nacional (Disposición Transitoria Primera) ratifica la soberanía argentina sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos e insulares correspondientes. Esos territorios están en disputa con el Reino Unido, que los administra; por eso el INDEC no pudo censarlos en 2022 y consigna que están sometidos a una ocupación que la Argentina considera ilegal. En el Sector Antártico rige el Tratado Antártico (en vigor desde 1961): su artículo IV deja en suspenso las reclamaciones mientras el tratado esté vigente, y de la Antártida el INDEC solo censó las bases permanentes. Tierra del Fuego, Antártida e Islas del Atlántico Sur es una sola provincia, con límites fijados por la ley 26.552.<br><a href="${esc((P.enlaces_oficiales||{}).sector_antartico_cancilleria)}" rel="noopener noreferrer">Cancillería: Sector Antártico</a> · <a href="${esc((P.enlaces_oficiales||{}).tratado_antartico_cancilleria)}" rel="noopener noreferrer">Tratado Antártico</a> · <a href="${esc((P.enlaces_oficiales||{}).soberania_indec)}" rel="noopener noreferrer">INDEC (nota sobre las islas)</a></div>`;
 }
 /* ================= Pizarra sobre el mapa =================
    Los dibujos viven en las coordenadas del mapa (se mueven y acercan con él) y se guardan solos en este navegador (localStorage).
@@ -303,10 +327,97 @@ function cmpHtml(a){
 window.argHelp=()=>{AR.help=!AR.help;paint()};
 const ayuda=()=>AR.help?`<div class="ar-box" role="region" aria-label="Ayuda"><h4>Ayuda</h4><b>Teclas:</b> V mover y elegir · P lápiz · L línea · A flecha · R rectángulo · E elipse · T texto · M regla · X borrar · C pintar provincias · Ctrl+Z deshacer · Ctrl+Y rehacer.<br><b>Zoom:</b> rueda del mouse, pellizco o los botones + / −. <b>Modo mapa:</b> ⤢ (Esc para salir). <b>Presentación:</b> flechas ← → y Esc.<br><b>Pintar:</b> elegí un color y tocá las provincias; «Mi mapa» alterna entre tu pintado y los datos. <b>Todo se guarda solo en este navegador.</b></div>`:'';
 
+/* ================= Mapa: contrato público, encuadres, accesibilidad y estados =================
+   Esta parte NO interpreta frases: expone intents explícitos para que el asistente de voz (comandos-voz.js, otra cuenta)
+   o cualquier otro módulo los invoque. Ver CONTRATO_MAPA_VOZ.md. */
+const nrmE=t=>String(t==null?'':t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const FUENTE={pob:'INDEC, Censo 2022 (definitivo)',pct:'INDEC, Censo 2022 (definitivo)',dens:'INDEC, Censo 2022, y superficie del IGN',sup:'IGN, difundida por educ.ar',dip:'Composición legal del Congreso',hdip:'Congreso e INDEC, Censo 2022',hsen:'Congreso e INDEC, Censo 2022',rep:'Congreso e INDEC, Censo 2022',dsim:'Cálculo propio sobre INDEC y Congreso',ddif:'Cálculo propio sobre INDEC y Congreso'};
+const GSTUB=()=>({provincias:{},viewBox:[0,0,900,1400],etiquetas:[],guia:null,nota:'',km_por_unidad:0,__falla:true});
+const PSTUB=()=>({provincias:{},total_censado:0,congreso:{diputados:0,senadores:0,fuente:''},fuente_poblacion:'',fuente_superficie:'',enlaces_oficiales:{},__falla:true});
+const TC=()=>ERR.p?'s/d':NF(P.total_censado),CD=()=>ERR.p?'s/d':NF(P.congreso.diputados),CS=()=>ERR.p?'s/d':NF(P.congreso.senadores);
+const zoomN=()=>G&&G.viewBox?G.viewBox[2]/cur()[2]:1;
+const zoomTxt=()=>'Zoom ×'+zoomN().toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1});
+const sinUbi=()=>ROWS.filter(r=>r.sinGeo);
+const anuncia=m=>{AR.msg=m;const l=document.getElementById('ar-live');if(l){l.textContent='';setTimeout(()=>{const x=document.getElementById('ar-live');if(x)x.textContent=m},60)}};
+const descMapa=()=>{const i=ind(),v=ROWS.filter(r=>!r.sinGeo&&i.f(r)!=null).sort((a,b)=>i.f(b)-i.f(a)),n=ROWS.length,su=sinUbi().length,sd=ROWS.filter(r=>i.f(r)==null).length;
+ return'Mapa bicontinental de la Argentina con '+n+' jurisdicciones. '+(AR.capa?'Se muestran los colores que elegiste.':'Indicador: '+i.t+'. '+(v.length?'Valor más alto: '+v[0].nombre+' ('+fv(i.f(v[0]),i)+'). Valor más bajo: '+v[v.length-1].nombre+' ('+fv(i.f(v[v.length-1]),i)+').':'Sin datos para este indicador.'))+(sd?' '+sd+' sin dato.':'')+(su?' '+su+' sin ubicación en el mapa.':'')+' '+zoomTxt()+'. Hay una tabla con los mismos datos debajo del mapa.'};
+const tablaAlt=()=>{const i=ind(),ord=ROWS.slice().sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
+ return`<details class="ar-alt ar-hide"><summary>Datos del mapa en tabla (alternativa en texto)</summary><table><caption>${esc(i.t)} por jurisdicción. Fuente: ${esc(FUENTE[i.k]||'')}</caption><thead><tr><th scope="col">Jurisdicción</th><th scope="col">${esc(i.t)}</th><th scope="col">Puesto</th><th scope="col">Ubicación</th></tr></thead><tbody>${ord.map(r=>`<tr><th scope="row">${esc(r.nombre)}</th><td>${esc(fv(i.f(r),i))}</td><td>${RK[r.k]?RK[r.k]+' de '+Object.keys(RK).length:'sin dato'}</td><td>${r.sinGeo?'sin ubicación en el mapa':'en el mapa'}</td></tr>`).join('')}</tbody></table></details>`};
+const cajaErrorMapa=()=>`<div class="ar-err" role="alert"><b>No se pudieron cargar los contornos del mapa</b><p>Falta <code>data/geo_argentina.json</code>. Los datos siguen disponibles en la lista y en la tabla de abajo.</p><button type="button" onclick="argRetry()">Reintentar</button></div>`;
+const bannerDatos=()=>ERR.p?`<div class="ar-err" role="alert"><b>No se pudieron cargar los datos de población y bancas</b><p>Falta <code>data/provincias_ar.json</code>. El mapa se muestra sin valores (todo «sin dato»).</p><button type="button" onclick="argRetry()">Reintentar</button></div>`:'';
+const avisoSinUbi=()=>{const l=sinUbi();return l.length?`<p class="note ar-hide ar-sinubi" role="note"><b>Sin ubicación en el mapa (${l.length}):</b> ${l.map(r=>esc(r.nombre)).join(', ')}. No se dibujan, pero sus datos figuran en la lista y en la tabla.</p>`:''};
+const avisoVacio=n=>n?'':'<p class="warn" role="status">No hay datos para este indicador en ninguna jurisdicción. Probá con otro indicador o reintentá la carga de los datos.</p>';
+window.argRetry=()=>{G=null;P=null;LD=false;ERR={g:false,p:false};ROWS=[];paint();cargar()};
+function cargar(){LD=true;ERR={g:false,p:false};
+ Promise.all([J('geo_argentina',undefined,true),J('provincias_ar',undefined,true)]).then(([g,p])=>{
+  ERR={g:!(g&&g.provincias&&g.viewBox),p:!(p&&p.provincias)};G=ERR.g?GSTUB():g;P=ERR.p?PSTUB():p;ROWS=[];if(!ERR.p)restaurar();paint()}).catch(()=>{ERR={g:true,p:true};G=GSTUB();P=PSTUB();ROWS=[];paint()})}
+
+/* ---- resolución de entidades (no es un parser de frases: recibe un nombre ya extraído) ---- */
+const ALIAS={'capital federal':'caba','ciudad de buenos aires':'caba','ciudad autonoma de buenos aires':'caba','bs as':'buenos-aires','provincia de buenos aires':'buenos-aires','tdf':'tierra-del-fuego','antartida':'tierra-del-fuego','antartida argentina':'tierra-del-fuego','islas malvinas':'tierra-del-fuego','malvinas':'tierra-del-fuego','islas del atlantico sur':'tierra-del-fuego','santiago':'santiago-del-estero'};
+function resolver(t){if(t==null||t==='')return null;const q=nrmE(t);if(!q)return null;
+ if(ROWS.some(r=>r.k===t))return t;
+ const ex=ROWS.find(r=>nrmE(r.nombre)===q||nrmE(r.corto)===q||nrmE(r.k)===q);if(ex)return ex.k;
+ if(ALIAS[q])return ROWS.some(r=>r.k===ALIAS[q])?ALIAS[q]:null;
+ const c=ROWS.filter(r=>nrmE(r.nombre).includes(q)||nrmE(r.corto).includes(q));return c.length===1?c[0].k:null}
+function resolverInd(t){if(t==null||t==='')return null;const q=nrmE(t);const x=IND.find(i=>i.k===t||nrmE(i.k)===q)||IND.find(i=>nrmE(i.t)===q)||IND.filter(i=>nrmE(i.t).includes(q));return Array.isArray(x)?(x.length===1?x[0].k:null):(x?x.k:null)}
+const fila=k=>ROWS.find(r=>r.k===k);
+function irA(k){const r=fila(k);if(!r)return false;AR.sel=k;AR.cmp=k===AR.cmp?'':AR.cmp;AR.vb=null;AR.fit=r.sinGeo?'':k;try{history.replaceState(null,'','#/argentina/'+k)}catch(e){}paint();return true}
+function todoElPais(){AR.sel='';AR.cmp='';AR.vb=null;AR.fit='';try{history.replaceState(null,'','#/argentina')}catch(e){}paint()}
+const vistaActiva=()=>(document.querySelector('.ar-grid')&&G&&!ERR.g)?'argentina':(document.querySelector('svg.mg')&&typeof window.mapaZoom==='function'?'salta':null);
+const estadoMapa=()=>{const i=ind(),s=AR.sel?fila(AR.sel):null,enc=!AR.vb?'argentina':(AR.sel==='salta'?'salta':'personalizado');
+ return{vista:vistaActiva(),zoom:+zoomN().toFixed(2),encuadre:enc,seleccion:AR.sel||'',seleccionNombre:s?s.nombre:'',indicador:{clave:i.k,titulo:i.t,unidad:i.u,fuente:FUENTE[i.k]||''},pantallaCompleta:!!AR.fs,filtro:AR.q||'',jurisdicciones:ROWS.length,sinUbicacion:sinUbi().map(r=>r.k),datos:{contornos:!ERR.g,valores:!ERR.p}}};
+const INTENTS=['acercar','alejar','reiniciar','centrar','pantalla_completa','seleccionar','limpiar_seleccion','indicador','estado'];
+const RES=(ok,intent,mensaje,extra)=>Object.assign({ok,intent,mensaje,estado:G?estadoMapa():null},extra||{});
+function accion(intent,arg,opc){opc=opc||{};
+ if(!INTENTS.includes(intent))return RES(false,intent,'Ese intent no existe en el mapa.',{motivo:'intent_desconocido',validos:INTENTS});
+ if(intent==='estado')return RES(true,intent,'Estado del mapa.');
+ if(ERR.g&&document.querySelector('.ar-grid'))return RES(false,intent,'No hay contornos cargados.',{motivo:'sin_contornos'});
+ const v=vistaActiva();
+ if(!v){if(opc.abrir!==false&&intent!=='indicador'){AR.pend={intent,arg};try{location.hash='#/argentina'}catch(e){}return RES(true,intent,'Abriendo el mapa de la Argentina.',{pendiente:true})}return RES(false,intent,'No hay ningún mapa a la vista.',{motivo:'sin_mapa_visible',sugerencia:'#/argentina'})}
+ if(v==='salta'){ /* mapa de departamentos de Salta: se usan sus funciones globales ya existentes, sin modificarlo */
+  if(intent==='acercar'){window.mapaZoom(0.7);return RES(true,intent,'Acerqué el mapa de Salta.')}
+  if(intent==='alejar'){window.mapaZoom(1.4);return RES(true,intent,'Alejé el mapa de Salta.')}
+  if(intent==='reiniciar'||(intent==='centrar'&&nrmE(arg)==='salta')){window.mapaReset();return RES(true,intent,'Mostrando toda la provincia de Salta.')}
+  if(intent==='pantalla_completa'&&typeof window.mapaFS==='function'){const q=arg===false?false:(arg===true?true:null),g=document.querySelector('.mgrid'),est=!!(g&&g.classList.contains('mfs'));if(q===null||q!==est)window.mapaFS();return RES(true,intent,(q===null?!est:q)?'Mapa de Salta a pantalla completa.':'Salí de la pantalla completa.')}
+  if(intent==='centrar'){AR.pend={intent,arg};try{location.hash='#/argentina'}catch(e){}return RES(true,intent,'Abriendo el mapa de la Argentina.',{pendiente:true})}
+  return RES(false,intent,'Esa acción no está disponible en el mapa de Salta.',{motivo:'no_disponible_en_salta'})}
+ /* vista Argentina */
+ if(intent==='acercar'){argZoom(0.7);const m=zoomTxt();anuncia(m);return RES(true,intent,m)}
+ if(intent==='alejar'){argZoom(1.4);const m=zoomTxt();anuncia(m);return RES(true,intent,m)}
+ if(intent==='reiniciar'){todoElPais();const m='Mostrando la Argentina completa.';anuncia(m);return RES(true,intent,m)}
+ if(intent==='centrar'){const q=nrmE(arg);if(!q||q==='argentina'||q==='pais'||q==='todo'||q==='completo'){todoElPais();const m='Mostrando la Argentina completa.';anuncia(m);return RES(true,intent,m)}
+  const k=resolver(arg);if(!k)return RES(false,intent,'No encontré esa jurisdicción en el mapa.',{motivo:'jurisdiccion_desconocida',arg});
+  const r=fila(k);irA(k);const m=r.sinGeo?r.nombre+' no tiene ubicación en el mapa; sus datos están en el panel.':'Mapa centrado en '+r.nombre+'. '+zoomTxt()+'.';anuncia(m);return RES(true,intent,m,{sinUbicacion:!!r.sinGeo})}
+ if(intent==='pantalla_completa'){const q=arg===false||arg==='salir'?false:(arg===true||arg==='entrar'?true:!AR.fs);if(q===AR.fs)return RES(true,intent,q?'Ya estaba a pantalla completa.':'Ya estaba en vista normal.');argFS(q);return RES(true,intent,q?'Mapa a pantalla completa. Escape para salir.':'Salí de la pantalla completa.')}
+ if(intent==='seleccionar'){const k=resolver(arg);if(!k)return RES(false,intent,'No encontré esa jurisdicción.',{motivo:'jurisdiccion_desconocida',arg});if(AR.sel!==k)irA(k);const r=fila(k),i=ind(),vt=fv(i.f(r),i),m=r.nombre+': '+vt+(/[.!?]$/.test(vt)?'':'.');anuncia(m);return RES(true,intent,m,{sinUbicacion:!!r.sinGeo})}
+ if(intent==='limpiar_seleccion'){AR.sel='';AR.cmp='';AR.fit='';try{history.replaceState(null,'','#/argentina')}catch(e){}paint();const m='Quité la selección.';anuncia(m);return RES(true,intent,m)}
+ if(intent==='indicador'){const k=resolverInd(arg);if(!k)return RES(false,intent,'No encontré ese indicador.',{motivo:'indicador_desconocido',arg,validos:IND.map(x=>x.k)});argCfg('col',k);const m='Mapa pintado por '+ind().t+'.';anuncia(m);return RES(true,intent,m)}
+ return RES(false,intent,'No se pudo ejecutar.',{motivo:'sin_efecto'})}
+function pend(){if(AR.pend&&G&&!ERR.g&&document.querySelector('svg.ag')){const p=AR.pend;AR.pend=null;setTimeout(()=>accion(p.intent,p.arg,{abrir:false}),30)}}
+const AYUDA=[{frase:'acercá el mapa',intent:'acercar'},{frase:'alejá el mapa',intent:'alejar'},{frase:'acercá Salta',intent:'centrar',arg:'salta'},{frase:'mostrame Argentina',intent:'centrar',arg:'argentina'},{frase:'volvé al mapa completo',intent:'reiniciar'},{frase:'pantalla completa',intent:'pantalla_completa',arg:true},{frase:'salí de pantalla completa',intent:'pantalla_completa',arg:false},{frase:'elegí Jujuy',intent:'seleccionar',arg:'jujuy'},{frase:'quitá la selección',intent:'limpiar_seleccion'},{frase:'pintá el mapa por población',intent:'indicador',arg:'pob'}];
+window.NEWAR_MAPA=Object.freeze({version:1,intents:INTENTS.slice(),accion,estado:estadoMapa,activo:()=>vistaActiva(),ayuda:()=>AYUDA.map(x=>Object.assign({},x))});
+document.addEventListener('newar:mapa',e=>{const d=(e&&e.detail)||{};d.resultado=accion(d.intent||d.accion,d.arg,d)});
+window.argCentrar=k=>{accion('centrar',k,{abrir:false})};
+window.argPan=(dx,dy)=>{if(!G||!AR.vb)return;const B=G.viewBox,v=AR.vb.slice();v[0]=Math.min(Math.max(B[0],v[0]+dx*v[2]),B[0]+B[2]-v[2]);v[1]=Math.min(Math.max(B[1],v[1]+dy*v[3]),B[1]+B[3]-v[3]);AR.vb=v;apply()};
+/* teclado: foco itinerante entre provincias, según la posición en el mapa */
+function vecino(k0,dir){const a=fila(k0);if(!a||a.sinGeo||!a.g.c)return null;const[ax,ay]=a.g.c;let best=null,bd=1e9;
+ ROWS.forEach(r=>{if(r.sinGeo||!r.g.c||r.k===k0)return;const dx=r.g.c[0]-ax,dy=r.g.c[1]-ay,al={ArrowRight:dx,ArrowLeft:-dx,ArrowDown:dy,ArrowUp:-dy}[dir],pe=(dir==='ArrowRight'||dir==='ArrowLeft')?Math.abs(dy):Math.abs(dx);if(al<=1)return;const d=al+pe*1.6;if(d<bd){bd=d;best=r.k}});return best}
+function enfocar(k){const g=document.querySelector('svg.ag g.apg[data-ak="'+k+'"]');if(!g)return;document.querySelectorAll('svg.ag g.apg[tabindex="0"]').forEach(x=>x.tabIndex=-1);g.tabIndex=0;AR.foc=k;g.focus();const r=fila(k);if(AR.vb&&r&&r.g.c){const v=cur(),B=G.viewBox,c=r.g.c;if(c[0]<v[0]+8||c[0]>v[0]+v[2]-8||c[1]<v[1]+8||c[1]>v[1]+v[3]-8){AR.vb=[Math.min(Math.max(B[0],c[0]-v[2]/2),B[0]+B[2]-v[2]),Math.min(Math.max(B[1],c[1]-v[3]/2),B[1]+B[3]-v[3]),v[2],v[3]];apply()}}}
+function resaltar(k){if(AR._hl===k&&(!k||document.querySelector('.ar-grid .hl')))return;AR._hl=k;document.querySelectorAll('.ar-grid .hl').forEach(x=>x.classList.remove('hl'));if(k)document.querySelectorAll('.ar-grid .rr[data-ak="'+k+'"],svg.ag g.apg[data-ak="'+k+'"]').forEach(x=>x.classList.add('hl'))}
+/* pantalla completa: oculta el resto de la página a la tecnología asistiva mientras el mapa ocupa la pantalla */
+function inertar(on){document.querySelectorAll('[data-ar-inert]').forEach(n=>{n.removeAttribute('inert');n.removeAttribute('data-ar-inert')});if(!on)return;const g=document.querySelector('.ar-grid');let n=g;
+ while(n&&n!==document.documentElement){const p=n.parentElement;if(!p)break;[...p.children].forEach(c=>{if(c!==n&&c.tagName!=='SCRIPT'&&c.tagName!=='STYLE'&&!c.hasAttribute('inert')){c.setAttribute('inert','');c.setAttribute('data-ar-inert','1')}});n=p}}
+function marcarFS(){const g=document.querySelector('.ar-grid');if(!g)return;if(AR.fs){g.setAttribute('role','dialog');g.setAttribute('aria-modal','true');g.setAttribute('aria-label','Mapa de la Argentina a pantalla completa. Escape para salir.')}else{['role','aria-modal','aria-label'].forEach(a=>g.removeAttribute(a))}
+ const s=document.getElementById('arside');if(s){if(AR.fs&&!AR.sd)s.setAttribute('inert','');else s.removeAttribute('inert')}}
+/* el foco no se pierde cuando se vuelve a dibujar el mapa (al elegir una provincia, cambiar de indicador, etc.) */
+const firmaFoco=()=>{const a=document.activeElement,w=document.getElementById('arapp');if(!a||!w||!w.contains(a))return'';
+ if(a.matches('g.apg[data-ak]'))return'svg.ag g.apg[data-ak="'+a.dataset.ak+'"]';if(a.matches('.rr[data-ak]'))return'.rr[data-ak="'+a.dataset.ak+'"]';if(a.id)return'#'+a.id;
+ const l=a.getAttribute('aria-label');if(l&&a.tagName==='BUTTON')return'button[aria-label="'+l.replace(/"/g,'\\"')+'"]';if(a.tagName==='BUTTON'&&a.title)return'button[title="'+a.title.replace(/"/g,'\\"')+'"]';return''};
+
 function paint(){
  const el=document.getElementById('arapp');if(!el)return;
- if(G===null||P===null){el.innerHTML='<p class="empty" role="status">Cargando el mapa…</p>';return}
- if(!G||!P){el.innerHTML='<p class="warn" role="alert">No se pudieron cargar <code>data/geo_argentina.json</code> o <code>data/provincias_ar.json</code>. Probá recargar la página.</p>';return}
+ if(G===null||P===null){el.innerHTML='<div class="ar-skel" role="status" aria-busy="true" aria-label="Cargando el mapa de la Argentina"></div>';return}
+ if(ERR.g&&ERR.p){el.innerHTML='<div class="ar-err" role="alert"><b>No se pudo cargar el mapa</b><p>No se pudieron leer <code>data/geo_argentina.json</code> ni <code>data/provincias_ar.json</code>. Revisá la conexión y probá de nuevo.</p><button type="button" onclick="argRetry()">Reintentar</button></div>';return}
  if(!ROWS.length)build();
  const i=ind(),rg=classes(),sel=ROWS.find(r=>r.k===AR.sel);
  if(AR.fit&&sel){AR.vb=fit(sel);AR.fit=''}else AR.fit='';
@@ -314,18 +425,20 @@ function paint(){
  const opts=Object.entries(groups).map(([g,xs])=>`<optgroup label="${esc(g)}">${xs.map(x=>`<option value="${x.k}"${x.k===AR.col?' selected':''}>${esc(x.t)}</option>`).join('')}</optgroup>`).join('');
  const rank=ROWS.filter(r=>i.f(r)!=null).sort((a,b)=>i.f(b)-i.f(a));const mx=Math.max(...rank.map(r=>i.f(r)),1);
  const vb=cur(),swap=AR.lastSel!==AR.sel;AR.lastSel=AR.sel;
- el.innerHTML=`<div class="ar-grid${AR.fs?' fs':''}${AR.sd?' sd':''}"><div class="ar-col">
- <div class="ctl ar-ctl"><select aria-label="Pintar el mapa por" onchange="argCfg('col',this.value)">${opts}</select><label class="chk"><input type="checkbox"${AR.vals?' checked':''} onchange="argCfg('vals',this.checked)"> Mostrar valores en el mapa</label><input class="ar-hide" type="search" id="arq" placeholder="Buscar provincia…" aria-label="Buscar provincia en la lista" value="${esc(AR.q)}" oninput="argQ(this.value)" style="max-width:12rem"><button class="ar-hide" type="button" onclick="argCSV()">Descargar CSV</button><button class="ar-hide" type="button" onclick="window.print()">Imprimir / PDF</button><button class="ar-only-fs" type="button" onclick="argPanel()">Datos</button><button class="ar-only-fs" type="button" onclick="argFS()">Salir (Esc)</button></div>
+ const foco=firmaFoco();
+ el.innerHTML=`<div class="ar-grid${AR.fs?' fs':''}${AR.sd?' sd':''}${AR.herr?' herr':''}"><div class="ar-col">${bannerDatos()}
+ <div class="ctl ar-ctl"><select aria-label="Pintar el mapa por" onchange="argCfg('col',this.value)">${opts}</select><label class="chk"><input type="checkbox"${AR.vals?' checked':''} onchange="argCfg('vals',this.checked)"> Mostrar valores en el mapa</label><input class="ar-hide" type="search" id="arq" placeholder="Buscar provincia…" aria-label="Buscar provincia en la lista" value="${esc(AR.q)}" oninput="argQ(this.value)" style="max-width:12rem"><button class="ar-hide" type="button" onclick="argCSV()">Descargar CSV</button><button class="ar-hide" type="button" onclick="window.print()">Imprimir / PDF</button><button class="ar-only-fs" type="button" onclick="argPanel()">Datos</button><button class="ar-only-fs" type="button" aria-pressed="${!!AR.herr}" onclick="argHerr()">Dibujar</button><button class="ar-only-fs" type="button" onclick="argFS()">Salir (Esc)</button></div>
  ${AR.capa?leyendaPropia():`<div class="ar-leg" aria-label="Escala de colores">${rg.map((x,c)=>x?`<span><i style="background:var(--r${c})"></i>${esc(NF(x[0],i.d))}–${esc(NF(x[1],i.d))}</span>`:'').join('')}<span><i style="background:var(--line)"></i>sin dato</span></div>`}${AR.tool==='pintar'&&!AR.capa?leyendaPropia():''}
  ${tb()}${ayuda()}
- <div class="ar-w">${AR.pres!==null&&escs()[AR.pres]?`<div class="ar-cap" role="status"><button type="button" onclick="argEsc('prev')" aria-label="Escena anterior">‹</button><span>${esc(escs()[AR.pres].n)} · ${AR.pres+1}/${escs().length}</span><button type="button" onclick="argEsc('next')" aria-label="Escena siguiente">›</button><button type="button" onclick="argEsc('end')" aria-label="Terminar la presentación">✕</button></div>`:''}<div class="ar-hud">${AR.capa?'<b>Mi mapa</b><em>Colores y leyenda propios</em>':`<b>${esc(i.t)}</b><em>${esc(i.g)}${i.u?' · '+esc(i.u):''}</em><i></i><div><span>${esc(NF(rg[0]?rg[0][0]:null,i.d))}</span><span>${esc(NF(rg[4]?rg[4][1]:null,i.d))}</span></div>`}</div><div class="mz"><button type="button" onclick="argZoom(0.7)" aria-label="Acercar">${icon('mas')}</button><button type="button" onclick="argZoom(1.4)" aria-label="Alejar">${icon('menos')}</button><button type="button" onclick="argReset()" aria-label="Ver todo el país">${icon('casa')}</button><button type="button" onclick="argFS()" aria-label="Modo mapa: pantalla completa solo con el mapa (Esc para salir)" title="Modo mapa (pantalla completa)">${icon('pantalla')}</button></div>
- <svg class="ag${AR.anim?'':' anim'}${AR.tool==='mover'?'':AR.tool==='pintar'?' pnt':AR.tool==='borrar'?' bor':' dib'}" viewBox="${vb.map(n=>Math.round(n*10)/10).join(' ')}" role="group" aria-label="Mapa bicontinental de la República Argentina. La lista de abajo tiene los mismos datos en texto.">${guia()}${paths()}<g id="arl">${labels()}</g><g id="ard">${AR.dib.map(shp).join('')}</g></svg></div>
- <p class="note ar-hide"><b>Pizarra:</b> elegí una herramienta (atajos V P L A R E T M X) y dibujá sobre el mapa; la regla mide km en línea recta, de forma aproximada y solo en el mapa americano. Los dibujos se guardan solos en este navegador. Arrastrá para mover. Acercá con la rueda del mouse, el pellizco o los botones + / −; ⤢ para el modo mapa. Tocá una provincia, o llegá con Tab y Enter, para ver su detalle. Color por cuartiles: ${esc(i.t)}.${i.g.startsWith('Simulaciones')?' <b>Es una simulación, no una propuesta:</b> reparte las 257 bancas en proporción a la población censada (método del resto mayor, sin mínimo por provincia) para mostrar cuánto se aparta el reparto vigente.':''} ${esc(G.nota)}</p>
+ <div class="ar-w">${AR.pres!==null&&escs()[AR.pres]?`<div class="ar-cap" role="status"><button type="button" onclick="argEsc('prev')" aria-label="Escena anterior">‹</button><span>${esc(escs()[AR.pres].n)} · ${AR.pres+1}/${escs().length}</span><button type="button" onclick="argEsc('next')" aria-label="Escena siguiente">›</button><button type="button" onclick="argEsc('end')" aria-label="Terminar la presentación">✕</button></div>`:''}<div class="ar-hud">${AR.capa?'<b>Mi mapa</b><em>Colores y leyenda propios</em>':`<b>${esc(i.t)}</b><em>${esc(i.g)}${i.u?' · '+esc(i.u):''}</em><i></i><div><span>${esc(NF(rg[0]?rg[0][0]:null,i.d))}</span><span>${esc(NF(rg[4]?rg[4][1]:null,i.d))}</span></div><small>Fuente: ${esc(FUENTE[i.k]||'')}</small>`}<small id="ar-zi">${zoomTxt()}</small></div><div class="ar-nav" role="group" aria-label="Encuadre del mapa"><button type="button" aria-pressed="${!AR.vb&&!AR.sel}" onclick="argCentrar('argentina')">Argentina</button><button type="button" aria-pressed="${AR.sel==='salta'}" onclick="argCentrar('salta')">Salta</button>${AR.sel==='salta'?'<a href="#/mapa">Departamentos →</a>':''}</div><div class="mz"><button type="button" onclick="argZoom(0.7)" aria-label="Acercar">${icon('mas')}</button><button type="button" onclick="argZoom(1.4)" aria-label="Alejar">${icon('menos')}</button><button type="button" onclick="argCentrar('argentina')" aria-label="Volver al encuadre inicial: toda la Argentina" title="Encuadre inicial (0)">${icon('casa')}</button><button type="button" onclick="argFS()" aria-label="Modo mapa: pantalla completa solo con el mapa (Esc para salir)" title="Modo mapa (pantalla completa)">${icon('pantalla')}</button></div>
+ ${ERR.g?cajaErrorMapa():`<svg class="ag${AR.anim?'':' anim'}${AR.tool==='mover'?'':AR.tool==='pintar'?' pnt':AR.tool==='borrar'?' bor':' dib'}" viewBox="${vb.map(n=>Math.round(n*10)/10).join(' ')}" role="group" aria-roledescription="mapa" aria-label="Mapa bicontinental de la República Argentina. Con el foco en el mapa: las flechas cambian de provincia, Enter la elige, más y menos acercan y cero muestra todo el país." aria-describedby="ar-desc">${guia()}${paths()}<g id="arl">${labels()}</g><g id="ard">${AR.dib.map(shp).join('')}</g></svg>`}<p id="ar-desc" class="ar-sr">${esc(descMapa())}</p><div id="ar-live" class="ar-sr" role="status" aria-live="polite"></div></div>
+ <p class="note ar-hide"><b>Pizarra:</b> elegí una herramienta (atajos V P L A R E T M X) y dibujá sobre el mapa; la regla mide km en línea recta, de forma aproximada y solo en el mapa americano. Los dibujos se guardan solos en este navegador. Arrastrá para mover. Acercá con la rueda del mouse, el pellizco o los botones + / −; ⤢ para el modo mapa. Tocá una provincia para ver su detalle. Con el teclado: Tab entra al mapa, las flechas cambian de provincia, Enter la elige, + y − acercan, 0 muestra toda la Argentina, S encuadra Salta, F pantalla completa y Esc sale. Color por cuartiles: ${esc(i.t)}.${i.g.startsWith('Simulaciones')?' <b>Es una simulación, no una propuesta:</b> reparte las 257 bancas en proporción a la población censada (método del resto mayor, sin mínimo por provincia) para mostrar cuánto se aparta el reparto vigente.':''} ${esc(G.nota)}</p>
  <h3 class="sh ar-hide">${esc(i.t)}: ranking</h3><div class="rk ar-hide">${rank.map(r=>`<button type="button" class="rr${r.k===AR.sel?' on':''}" data-ak="${r.k}" aria-pressed="${r.k===AR.sel}"><span class="nm">${esc(r.corto)}</span><span class="rb"><i style="width:${Math.max(1,i.f(r)/mx*100).toFixed(1)}%"></i></span><span class="meta">${esc(fv(i.f(r),i))}</span></button>`).join('')}</div>
+${avisoVacio(rank.length)}${avisoSinUbi()}${tablaAlt()}
  <p class="note ar-hide">Población: ${esc(P.fuente_poblacion)} Congreso: ${esc(P.congreso.fuente)} Superficies: ${esc(P.fuente_superficie)}</p>
  <p class="note ar-hide">Contornos: FUENTE: Instituto Geográfico Nacional de la República Argentina (capa SIG 250), en la versión publicada por github.com/mgaitan/departamentos_argentina; la fecha de los datos originales no consta en esa fuente. Simplificados y reproyectados por NEWAR: sirven para visualizar, no son los contornos oficiales ni cuentan con el aval del IGN.</p>
  </div><aside class="ar-side${swap?' nx-swap':''}" id="arside" aria-live="polite">${sel?detalle(sel):general()}${escenasHtml()}</aside></div>`;
- AR.anim=true;apply();tbState();if(AR.q)argQ(AR.q);
+ AR.anim=true;apply();tbState();if(AR.q)argQ(AR.q);AR._hl='';marcarFS();if(foco){const x=el.querySelector(foco);if(x){try{x.focus({preventScroll:true})}catch(e){}}}pend();
 }
 
 /* ---- interacción: arrastrar, rueda, pellizco, dibujo y teclado ---- */
@@ -358,6 +471,14 @@ if(!window.__arIn){window.__arIn=1;
  document.addEventListener('keydown',e=>{
   if(!document.getElementById('arapp'))return;const t=e.target,tag=t&&t.tagName;
   if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA')return;
+  if(AR.fs&&e.key==='Tab'){const g=document.querySelector('.ar-grid.fs');if(g){const f=[...g.querySelectorAll('button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled&&!x.closest('[inert]')&&x.offsetParent!==null);if(f.length){const a=document.activeElement,p=f[0],u=f[f.length-1];if(e.shiftKey&&(a===p||!g.contains(a))){e.preventDefault();u.focus()}else if(!e.shiftKey&&(a===u||!g.contains(a))){e.preventDefault();p.focus()}}}return}
+  if(t.closest&&t.closest('svg.ag')&&!e.ctrlKey&&!e.metaKey&&!e.altKey){const k=e.key;
+   if(k==='+'||k==='='){e.preventDefault();accion('acercar');return}
+   if(k==='-'||k==='_'){e.preventDefault();accion('alejar');return}
+   if(k==='0'||k==='Home'){e.preventDefault();accion('reiniciar');return}
+   if(k==='s'||k==='S'){e.preventDefault();accion('centrar','salta');return}
+   if(k==='f'||k==='F'){e.preventDefault();accion('pantalla_completa');return}
+   if(k.startsWith('Arrow')&&t.matches('g.apg')){e.preventDefault();if(e.shiftKey){argPan(k==='ArrowRight'?.2:k==='ArrowLeft'?-.2:0,k==='ArrowDown'?.2:k==='ArrowUp'?-.2:0)}else{const n=vecino(t.dataset.ak,k);if(n)enfocar(n)}return}}
   if((e.key==='Enter'||e.key===' ')&&t.matches&&t.matches('g.apg')){e.preventDefault();argSel(t.dataset.ak);return}
   if(e.key==='Escape'){const pp=document.querySelector('.ar-pop');if(pp&&!pp.hidden){argMenu();return}if(AR.pres!==null)argEsc('end');else if(AR.fs)argFS();return}
   if(AR.pres!==null){if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();argEsc('next')}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();argEsc('prev')}return}
@@ -366,15 +487,17 @@ if(!window.__arIn){window.__arIn=1;
   if(!e.ctrlKey&&!e.metaKey&&!e.altKey&&KEYS[e.key.toLowerCase()]&&KEYS[e.key.toLowerCase()]!==AR.tool){argTool(KEYS[e.key.toLowerCase()])}});
  document.addEventListener('click',e=>{if(!(e.target.closest&&e.target.closest('.ar-menu')))argMenu()});
  document.addEventListener('wheel',e=>{const sv=e.target.closest&&e.target.closest('svg.ag');if(!sv||!G)return;e.preventDefault();const c=pt(sv,e.clientX,e.clientY);argZoom(Math.min(1.4,Math.max(0.7,Math.exp(e.deltaY*0.0022))),c[0],c[1])},{passive:false});
- document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&AR.fs&&document.getElementById('arapp')){AR.fs=false;AR.sd=false;const g=document.querySelector('.ar-grid');if(g)g.classList.remove('fs','sd');setTimeout(apply,60)}});
+ document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&AR.fs&&document.getElementById('arapp'))argFS(false)});
+ document.addEventListener('pointerover',e=>resaltar((e.target.closest&&e.target.closest('.ar-grid .rr[data-ak],svg.ag g.apg[data-ak]')||{dataset:{}}).dataset.ak||''));
+ document.addEventListener('focusin',e=>{const x=e.target.closest&&e.target.closest('.ar-grid .rr[data-ak]');if(x)resaltar(x.dataset.ak)});document.addEventListener('focusout',e=>{if(e.target.closest&&e.target.closest('.ar-grid .rr[data-ak]'))resaltar('')});
  window.addEventListener('resize',()=>{if(G)apply()});
 }
 
 V.argentina=id=>{
  if(id&&id!==AR.sel&&((P&&P.provincias&&P.provincias[id])||!P)){AR.sel=id;AR.fit=id}
- if(!LD){LD=true;Promise.all([J('geo_argentina',undefined,true),J('provincias_ar',undefined,true)]).then(([g,p])=>{G=g&&g.provincias?g:false;P=p&&p.provincias?p:false;if(P)restaurar();paint()})}
+ if(!LD)cargar();
  setTimeout(paint,0);
- return`<h2 class="sec">Mapa de la Argentina</h2><p class="lede">El mapa bicontinental de la República Argentina con las 23 provincias, la Ciudad Autónoma de Buenos Aires, las islas del Atlántico Sur y el Sector Antártico Argentino. Se pinta con datos del Censo 2022 del INDEC y muestra cuánto pesa cada provincia en el Congreso de la Nación. Para Salta, además, están sus representantes y el mapa de departamentos.</p><div id="arapp"><p class="empty" role="status">Cargando el mapa…</p></div>`;
+ return`<h2 class="sec">Mapa de la Argentina</h2><p class="lede">El mapa bicontinental de la República Argentina con las 23 provincias, la Ciudad Autónoma de Buenos Aires, las islas del Atlántico Sur y el Sector Antártico Argentino. Se pinta con datos del Censo 2022 del INDEC y muestra cuánto pesa cada provincia en el Congreso de la Nación. Para Salta, además, están sus representantes y el mapa de departamentos.</p><div id="arapp"><div class="ar-skel" role="status" aria-busy="true" aria-label="Cargando el mapa de la Argentina"></div></div>`;
 };
 NEEDS.argentina=['pol'];
 if(!TABS.some(t=>t[0]==='argentina')){const i=TABS.findIndex(t=>t[0]==='mapa');TABS.splice(i<0?TABS.length:i+1,0,['argentina','Argentina'])}
