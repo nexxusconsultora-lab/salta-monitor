@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-02T21:47:22.853688+00:00",
+  "generated_at": "2026-11-02T21:51:19.288352+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 421,
+      "positivo": 108,
+      "negativo": 62,
+      "neutral": 251,
+      "score_sum": 184
+    },
     "snac-emilia-orozco": {
       "total": 102,
       "positivo": 9,
@@ -28,13 +35,6 @@
       "negativo": 3,
       "neutral": 11,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 420,
-      "positivo": 108,
-      "negativo": 62,
-      "neutral": 250,
-      "score_sum": 184
     },
     "dip-gaston-guillermo-galindez": {
       "total": 26,
@@ -934,6 +934,12 @@
     }
   },
   "by_day": {
+    "2024-02-19": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-02": {
       "snac-emilia-orozco": {
         "total": 1,
@@ -17824,7 +17830,7 @@
     },
     {
       "term": "sáenz",
-      "count": 9
+      "count": 10
     },
     {
       "term": "orozco",
@@ -17875,7 +17881,7 @@
       "count": 5
     },
     {
-      "term": "diario",
+      "term": "gustavo",
       "count": 4
     }
   ],

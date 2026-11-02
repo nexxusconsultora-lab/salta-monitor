@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 420,
+    "total_mentions": 421,
     "sentiment_breakdown": {
       "positivo": 108,
       "negativo": 62,
-      "neutral": 250
+      "neutral": 251
     },
     "sentiment_by_day": {
+      "2024-02-19": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-07-13": {
         "total": 1,
         "score_sum": 2
@@ -406,11 +410,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 40
+        "count": 37
       },
       {
         "term": "gustavo",
-        "count": 20
+        "count": 18
       },
       {
         "term": "gobernador",
@@ -531,6 +535,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunió con la Vicepresidenta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGNuVU5NOE9fclYtUTNNc3dSM1B5WTRDOTkzZzRPcDlPMU8tUmtzZ3Q3ckluVGM5VmpNdU0yWjNQa0tZV09WZVB5QTRpLXFZVU9RZkRXUGptR0ZXWXV1anVIRjN5ZU54dVRyQTRieDBIcWpDNGNTcGVscnFWR2xWbVh4Z3NqSE1KbXdwMElZdG1vaENScGNXUEgxWdIBoAFBVV95cUxQTGQtRk9Ob2F5ZzBBQWZLM2Z6UEJDRXFFc2RwVW1CeUpIODUyd1ZTd1JWa3Zya2VqSVZheFp1YjI4aXRfaGtKbU52MW5aOW9VbUlpY0ljYXhsU0VtUnpJSXROblhRN2EyUUNPV3JGYlNGUGpGNFMxWWhhNVp2RHdnSWdoMHJiYkdmYkhwWTJpVGVfTXZ2SUxRcXJTZVBHczd4?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 19 Feb 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz recibió al embajador de Arabia Saudita: impulsa inversiones en minería, salud y turismo - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVXVGdGpHclBELU14ZzQza214enlSc1hGTzllNHZ0UGhMSEdYcWUwcTRMa3VRdWQ0Mm43NHBsU0JmTURlUHFxZ3k5Q0VGZFZLaFBFOUphVXFQa0w0UGlCcjRUNGtMekdZZEEzTTI1c05qWUhNWHYxbmRYLTR0eUJEZkhsY0lPaHo2TVF0QlNra2hDemI2T2JuenpkV0E0aEIyaVZnbVl4a9IBpwFBVV95cUxPVXVGdGpHclBELU14ZzQza214enlSc1hGTzllNHZ0UGhMSEdYcWUwcTRMa3VRdWQ0Mm43NHBsU0JmTURlUHFxZ3k5Q0VGZFZLaFBFOUphVXFQa0w0UGlCcjRUNGtMekdZZEEzTTI1c05qWUhNWHYxbmRYLTR0eUJEZkhsY0lPaHo2TVF0QlNra2hDemI2T2JuenpkV0E0aEIyaVZnbVl4aw?oc=5",
@@ -732,13 +743,6 @@
         "link": "https://elintra.com.ar/2026/10/29/gustavo-saenz-expondra-sobre-sobre-mineria-y-desarrollo-en-santa-fe/",
         "source": "El Intra",
         "date": "Thu, 29 Oct 2026 14:12:26 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El gobernador Sáenz inauguró la Unidad Regional 14 de la Policía en Embarcación, la octava de su gestión - Gobierno de la Provincia de Salta, Argentina",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMXRKYTFWR3pkQkgxMFFsY0xNMUZRak5URm9VaVRFdTFvRzIxaWd1eVJ0T1VFbDJpZnljS09zVHM0aXNuLXBMRExXSmlqOHk4NHpKalVkS2tFVHYyWjV5RnJnX0E1M2R1NE9GU0FlNXVLaDVud2lzUzh0MktzcVIwd2dwNlhTQkhmU1pIeUFtUGp1aGtGMlpsQS1FWl9ZcHVGNVIwUGY5UTZ6elR2Z2x6b0plazA1ekZXRWxzenIxbmV3UjNyV1BJNENyREVYOTlnLU5yWGxZNUhRTUxUandzakotUUQ?oc=5",
-        "source": "Gobierno de la Provincia de Salta, Argentina",
-        "date": "Wed, 15 Mar 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -2629,15 +2633,11 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cornejo",
-        "count": 4
-      },
-      {
-        "term": "elintra",
-        "count": 2
+        "count": 3
       },
       {
         "term": "senador",
@@ -23117,11 +23117,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 20
+        "count": 19
       },
       {
         "term": "orozco",
-        "count": 20
+        "count": 19
       },
       {
         "term": "elintra",
@@ -23144,7 +23144,7 @@
         "count": 2
       },
       {
-        "term": "candidatura",
+        "term": "avanza",
         "count": 2
       }
     ],
