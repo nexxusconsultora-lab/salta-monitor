@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 417,
+    "total_mentions": 418,
     "sentiment_breakdown": {
       "positivo": 106,
       "negativo": 62,
-      "neutral": 249
+      "neutral": 250
     },
     "sentiment_by_day": {
+      "2019-11-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-06-01": {
         "total": 4,
         "score_sum": 4
@@ -394,19 +398,23 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 39
+        "count": 40
       },
       {
         "term": "gustavo",
-        "count": 20
+        "count": 21
       },
       {
         "term": "gobernador",
-        "count": 7
+        "count": 8
       },
       {
         "term": "diques",
         "count": 6
+      },
+      {
+        "term": "quién",
+        "count": 5
       },
       {
         "term": "milei",
@@ -418,10 +426,6 @@
       },
       {
         "term": "país",
-        "count": 4
-      },
-      {
-        "term": "corte",
         "count": 4
       }
     ],
@@ -519,6 +523,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Quién es Gustavo Sáenz, el nuevo gobernador de Salta y cuáles son los planes de Juan Manuel Urtubey después de 12 años al frente del gobierno provincial - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOQ080LU4yQU05Z3FWLXBBS01hV2xPY2ZCME5MQUJvTWE0Vjl4WXNKYWFJTGNFcG5GVjcxQXhRUEhqYnVTVmhZNzhXSHYxdXA5MERDUDB2WnNSbklmMkhuMDZVZFpiNlZJeV9zZEcwMHJTcWpPZ0xtbUhXMTI3QVRLZzF6TXE2YUVvVUVkMDJLUW5icWxVaGtaelctck5lT09UaTh1aVdJcUtCckt5TjZ0cEszZ2s0bWhIaEZBSGdSU0ctTFF5dlJUeG13cENIWFBrYlFSZW81WklZdEdReENVYi1ES091ZkdmdTFfQXVSenFMaTd3R1VQSlR6TnA1TXN5ck53RzFGcl82Y0cyWjFwUDc5MjlPQ2Z1RkdRcjdsdU1VZ9IBvAJBVV95cUxOYWFfNUdFX3FEa2tTNDNlLVV6V04ySW84ZEhSNXpTRl9rbHFZNkRYNlBiZ1JLb1hfSEpjYkZmOTJQYTJucnp1b3dfdHRxcUJuR0tEUHNOVHlyUnFJQmxxOU04TS1HOWExZWgxUWkyRV9JUklSY0JMYzdRLUxfQmZoOWVWa3MtSG5fXzI3YkcwbFlYS1pPcUo2b0hFYlRLV0xIVWc5MlpOaXVfUVFzdkRxczN1RWpybm51cFNuNEs1ZGlTMHJ3cEItWVdsQUpsb09KbkliNXFWMWtBWXNnRGNBR0Q1T0Y1a2h3QXl3TFJ1V3BSVlJXY0EwODJMZzdKQWlIUHY3OEp3ZVhsZHlkaFF3aFcyblU4ODlnSEI1MVFXYVdjVFNTMUNlYThsd1Z4SFNjeUV6Z0k3QnR3RU11?oc=5",
+        "source": "Infobae",
+        "date": "Sun, 10 Nov 2019 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Rosario de la Frontera: Sáenz entregó 48 casas, celebró los avances en la RN9/34 y apuntó a la oposición - Aries On Line",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzFBRFFyZGY3YjNoZTRKN2cybnI0TkdNN3JNaVc3QkpSdTU4RnJ1OFZuVFpIVW9Ic25qNGhINnItUVBRckZWRFMtQnBfTHp4cmstQ3VLUnNLSEk0elY5VmM0SlZEWWhPa21KQXgycDN2aWtJaUJqMmdDNlZqZ21jeGttNFowT3YyUkZua2gzUTBveC03LTlwZ0xxMl95Sk1iZG0zVy1lQ2UzWTBfZGdzMVhZYUFMeGxHWlFaWVZBZUxlUdIBugFBVV95cUxNRlRLaVB2b05IRnN4VjZqeWVEeTA2RDJkY1hYcGlXekRVcFQzaFozdVFRdDhrRVRKU21hNDJMeUp6UkRNY3Z3UktzTzEtUU1XMmxWbC03N2NiTlhUNENiQ2tKaXlZZ0RWRFRsSG5MbjNDQk42SFBuN0pQcnM5dXFVemplZmI0SUJ0cFh6bnltRXFvZnFkUV9EejhvMzU4dk94OHo2U3VQLVQ4dVlhTklVQl9NS3E5M2FzOVE?oc=5",
@@ -721,13 +732,6 @@
         "source": "FM Alba",
         "date": "Wed, 28 Oct 2026 19:58:24 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Nación enviará más de $3.000 millones para reforzar la asistencia alimentaria",
-        "link": "https://informatesalta.com.ar/municipal/nacion-enviara-mas-de--3-000-millones-para-reforzar-la-asistencia-alimentaria-_a6ae25bd96fef2a8466641431",
-        "source": "Informate Salta",
-        "date": "Wed, 28 Oct 2026 21:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -22729,13 +22733,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 99,
+    "total_mentions": 100,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 17,
-      "neutral": 73
+      "neutral": 74
     },
     "sentiment_by_day": {
+      "2025-12-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-07-17": {
         "total": 1,
         "score_sum": -2
@@ -23076,15 +23084,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 17
+        "count": 18
       },
       {
         "term": "orozco",
-        "count": 17
+        "count": 18
       },
       {
         "term": "elintra",
-        "count": 12
+        "count": 13
       },
       {
         "term": "pablo",
@@ -23238,6 +23246,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco se despidió de la Cámara de Diputados: «Fue un honor» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3JGX0RXWll0eExGNlRZdTFJaHZUclNnSWtVdmw3dG1INzdVbVpCSFEyZWllTjFxTml6MDhqcHctX1BDOEZUQVp0V3dGVF9Za0J6Q0VCdUxTWXZoenh3R0dLOXpMQm12Mm02c2NSak12X3VtOWtpQzJSZ1psZHhaUWJubkV4YjNsalhxZG81VENLbDlfNWt4OEhaXzRidGlv?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 04 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Emilia Orozco sabía que Pablo López le pegaba a su ex?: la denuncia que complica a la diputada nacional - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd19uak0xaURfYmZqYm9keXZIWG1rYkJQS0psc2VuR205WjZmLXZmaDlkLUVWb2twb2ZCNDN4bnZOTDE4WGQ3cHNYZW9VVktGOEZPMVhiU1Qtb0NOcnlLUFhHLVhWTnVERkE5LWJENzVJTV9vaWdaSC1uS052TTJNeHNRZU9YZm5yTEppX1VCWlc0b3ByWkp5eWNFaTJwLTNzTjBtTTZxOC1jVTdId3lFeXZ0cURfaklWQ05qcUwwVktMUnAwS083aEJuZ2tlaUxUUUtN?oc=5",
@@ -23439,13 +23454,6 @@
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVpLZHRwMHBUSE9KWkx6SERybDhVYllkMlBTbjdrODM4TXljWi1NZWhiZ3ZpV21DenhLZUdlTXREYmNHTklRN0lVUVd2QTZEMG1BU1BTeDBaZExydnN6d0d3Z0JieThXaDd4NUstVVE3ejBaUXFsMWVCdVhzMld4N0I3UElpbnZSbEhwdFRWZXVmUnZCUlAwNW5DSnpmOXA1?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 19 Dec 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco: «Que sea ley ya bajar la edad de imputabilidad» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXliTkJ4X2hHbzh3UW9qbU5Mb2lXSkFzYUk1Ykx2RHZ0c3IwMDRDVmZyZmx4dWdaVUp0cGY2ZXRaRVFaTzhxTWt1VkJVTGx0TV81MGJrUld3M2JEanRUWjFIUkVSc0RrS0JCbExJdkg1UDRYbEZEZ29rd2NwWXpiRnFpb29KRjhoR1ozbzd6ZFJ6RzZhR1lxVzF3?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 30 Jan 2026 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]

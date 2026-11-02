@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-02T13:33:25.756105+00:00",
+  "generated_at": "2026-11-02T13:37:13.028943+00:00",
   "by_politician": {
     "gustavo-saenz": {
-      "total": 417,
+      "total": 418,
       "positivo": 106,
       "negativo": 62,
-      "neutral": 249,
+      "neutral": 250,
       "score_sum": 179
+    },
+    "snac-emilia-orozco": {
+      "total": 100,
+      "positivo": 9,
+      "negativo": 17,
+      "neutral": 74,
+      "score_sum": -17
     },
     "dnac-eliana-bruno": {
       "total": 18,
@@ -35,13 +42,6 @@
       "negativo": 2,
       "neutral": 21,
       "score_sum": 2
-    },
-    "gustavo-saenz": {
-      "total": 417,
-      "positivo": 106,
-      "negativo": 62,
-      "neutral": 249,
-      "score_sum": 179
     },
     "dip-gustavo-orlando-orozco": {
       "total": 47,
@@ -84,13 +84,6 @@
       "negativo": 5,
       "neutral": 32,
       "score_sum": 9
-    },
-    "snac-emilia-orozco": {
-      "total": 99,
-      "positivo": 9,
-      "negativo": 17,
-      "neutral": 73,
-      "score_sum": -17
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 13,
@@ -941,16 +934,30 @@
     }
   },
   "by_day": {
-    "2026-06-01": {
+    "2019-11-10": {
       "gustavo-saenz": {
-        "total": 4,
-        "score_sum": 4
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-adrian-alfredo-valenzuela-giantomasi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
       },
       "dip-omar-exeni-arminana": {
         "total": 1,
         "score_sum": 0
+      }
+    },
+    "2025-12-04": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
       },
-      "concejal-angel-ortiz": {
+      "dnac-eliana-bruno": {
         "total": 1,
         "score_sum": 0
       }
@@ -8701,20 +8708,6 @@
         "score_sum": 0
       }
     },
-    "2019-11-10": {
-      "dip-adrian-alfredo-valenzuela-giantomasi": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2020-05-12": {
       "dip-monica-gabriela-juarez": {
         "total": 1,
@@ -10409,12 +10402,6 @@
       "dnac-maria-gabriela-flores": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2025-12-04": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-02-12": {
@@ -17795,19 +17782,23 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 23
+      "count": 24
     },
     {
       "term": "sáenz",
-      "count": 10
+      "count": 11
     },
     {
       "term": "orozco",
-      "count": 9
+      "count": 10
     },
     {
       "term": "nueva",
       "count": 9
+    },
+    {
+      "term": "emilia",
+      "count": 8
     },
     {
       "term": "voces",
@@ -17842,15 +17833,11 @@
       "count": 8
     },
     {
-      "term": "emilia",
-      "count": 7
-    },
-    {
       "term": "cornejo",
       "count": 7
     },
     {
-      "term": "aries",
+      "term": "gustavo",
       "count": 6
     }
   ],
