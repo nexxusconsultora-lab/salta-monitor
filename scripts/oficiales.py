@@ -39,6 +39,7 @@ import hashlib
 import html
 import io
 import json
+import socket
 import time
 import re
 import sys
@@ -178,6 +179,34 @@ def descargar(url: str, timeout: int = 25) -> str:
         crudo = resp.read()
         charset = resp.headers.get_content_charset() or "utf-8"
         return crudo.decode(charset, errors="replace")
+
+
+def diagnosticar_conexion(url: str, espera: int = 8) -> str:
+    """Cuando una página no responde, intenta ubicar dónde se corta la comunicación
+    (nombre del sitio, conexión o respuesta) y lo devuelve en una frase corta.
+    Nunca levanta excepción. Tarda como máximo unos segundos."""
+    try:
+        p = urlparse(url)
+        host = p.hostname or ""
+        puerto = p.port or (443 if p.scheme == "https" else 80)
+        try:
+            socket.getaddrinfo(host, puerto)
+        except Exception:
+            return "Diagnóstico: no se pudo resolver el nombre del sitio (problema de DNS)."
+        try:
+            sock = socket.create_connection((host, puerto), timeout=espera)
+        except socket.timeout:
+            return ("Diagnóstico: no se logra ni abrir la conexión (se queda esperando). "
+                    "Suele pasar cuando el sitio no deja entrar a los servidores de GitHub.")
+        except ConnectionRefusedError:
+            return "Diagnóstico: el sitio rechaza la conexión."
+        except OSError as e:
+            return f"Diagnóstico: no se pudo abrir la conexión ({type(e).__name__})."
+        sock.close()
+        return ("Diagnóstico: la conexión se abre, pero el sitio no entrega la página a tiempo "
+                "(está lento o descarta el pedido).")
+    except Exception:
+        return ""
 
 
 def descargar_con_reintentos(url: str, timeouts=(25, 45, 60), pausa: int = 5) -> str:
@@ -822,7 +851,7 @@ def procesar_fuente(fuente: dict, politicos, urls_ya_guardadas, presupuesto_deta
     except Exception as e:
         estado["state"] = "error"
         estado["message"] = (f"No se pudo descargar la página tras 3 intentos "
-                             f"({type(e).__name__}: {e}).")
+                             f"({type(e).__name__}: {e}). " + diagnosticar_conexion(url)).strip()
         return estado, []
 
     try:
