@@ -22758,13 +22758,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 101,
+    "total_mentions": 102,
     "sentiment_breakdown": {
       "positivo": 9,
-      "negativo": 17,
+      "negativo": 18,
       "neutral": 75
     },
     "sentiment_by_day": {
+      "2026-11-02": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-09-12": {
         "total": 1,
         "score_sum": 0
@@ -23113,11 +23117,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 19
+        "count": 20
       },
       {
         "term": "orozco",
-        "count": 19
+        "count": 20
       },
       {
         "term": "elintra",
@@ -23126,6 +23130,10 @@
       {
         "term": "libertad",
         "count": 3
+      },
+      {
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "pablo",
@@ -23137,10 +23145,6 @@
       },
       {
         "term": "candidatura",
-        "count": 2
-      },
-      {
-        "term": "avanza",
         "count": 2
       }
     ],
@@ -23275,6 +23279,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco apuntó contra las “dinastías” políticas de Salta y planteó a LLA como alternativa",
+        "link": "https://elintra.com.ar/2026/11/02/emilia-orozco-apunto-contra-las-dinastias-politicas-de-salta-y-planteo-a-lla-como-alternativa/",
+        "source": "El Intra",
+        "date": "Mon, 02 Nov 2026 19:26:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Emilia Orozco dijo que no convocará a la Comisión de Libertad de Expresión: \"Que me destituyan\" - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmVleERydTZ0WVlpNXRrakd6NmRkS19hTC1WUnVVek1BeWtCM2p0bDBac1pEMTFEdnFEWkFIS0tSZlRRa29Jc2ZnaXFCWFktbzRCbU1jczh2RDJnRS1sYjg1SGlXamF2YVVBcFV6OEwyMExMWFpYUVk5VXp2VVpOTXJUMDlhVElHem4tVDBpYUZpM3Z4OEYtYUR3YlBMVFlRZ3E0a1FBUXR6MEpZTi1pQWVZd3pUYUd3Q0hBVHNRZzZRYzI3Qmc?oc=5",
@@ -23476,13 +23487,6 @@
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS2ZBRmFNQ04tNGhIS0xyRlhlNEtTS3h2cHRYdG1rSkJxamJGQ3lLdlJqMFZxMEdudHV4dVZDak9iWDg5VHFSUWQyNUw4dWVDMVpteDRxMnhQbkF1aXBZRndoR3ExTEU5UzAzbi05bTlhbklxeGROdzZZeGx4OF9NM256eHVTbFJ5ZWI2RzRyRnhSMjgwM3JjdndwSTJybHVDbXYxTEttUE5MaEtIVlA3RWU2ZEw3TWJ2QVJQNkd1VjlDclZTbWtrRA?oc=5",
         "source": "Elintra.com.ar",
         "date": "Fri, 29 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco desestimó que Milei sea un improvisado y dijo que “tenía el consenso para sacar la Ley” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQko5WEVqWEN1Q0FNRGx5bC0wSExxdnJwMWFpX1Vtd1o0V2pCd1l5M2FhdlFmMWdDbl9sTm1hTDkwT3pPMHNNaDFvNS1xY1BzZFA2S1ZDbW43NWQxaHVPWVJ6Q3hBaFVMWVU1TW5XNE5KZW4yRFJLU2hWWGNwejM1OU55WnA5MlR4Q2ZfNk9ld0txT1VTVDVBZ1p3cHBNdEktRlExd2xsZldyRS1LbVN6V3pJdW1pR3hEZFpVV3R5NDh6S1NjRU9zbEJlVGtWR1E?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 08 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]

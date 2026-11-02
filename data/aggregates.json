@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-02T19:42:36.410940+00:00",
+  "generated_at": "2026-11-02T21:43:11.896177+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 102,
+      "positivo": 9,
+      "negativo": 18,
+      "neutral": 75,
+      "score_sum": -19
+    },
     "dnac-carlos-raul-zapata": {
       "total": 39,
       "positivo": 2,
@@ -14,13 +21,6 @@
       "negativo": 1,
       "neutral": 8,
       "score_sum": 4
-    },
-    "snac-emilia-orozco": {
-      "total": 101,
-      "positivo": 9,
-      "negativo": 17,
-      "neutral": 75,
-      "score_sum": -17
     },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 14,
@@ -934,6 +934,24 @@
     }
   },
   "by_day": {
+    "2026-11-02": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2026-10-16": {
       "dnac-carlos-raul-zapata": {
         "total": 1,
@@ -1106,20 +1124,6 @@
       "concejal-angel-ortiz": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-02": {
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2019-11-10": {
@@ -17823,6 +17827,10 @@
       "count": 9
     },
     {
+      "term": "orozco",
+      "count": 8
+    },
+    {
       "term": "presupuesto",
       "count": 8
     },
@@ -17851,8 +17859,8 @@
       "count": 8
     },
     {
-      "term": "orozco",
-      "count": 7
+      "term": "emilia",
+      "count": 6
     },
     {
       "term": "voces",
@@ -17864,10 +17872,6 @@
     },
     {
       "term": "nuevo",
-      "count": 5
-    },
-    {
-      "term": "emilia",
       "count": 5
     },
     {
