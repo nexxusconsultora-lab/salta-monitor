@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 416,
+    "total_mentions": 417,
     "sentiment_breakdown": {
-      "positivo": 105,
+      "positivo": 106,
       "negativo": 62,
       "neutral": 249
     },
     "sentiment_by_day": {
+      "2026-06-01": {
+        "total": 4,
+        "score_sum": 4
+      },
       "2026-08-20": {
         "total": 1,
         "score_sum": -2
@@ -378,10 +382,6 @@
         "total": 3,
         "score_sum": 0
       },
-      "2026-06-01": {
-        "total": 3,
-        "score_sum": 0
-      },
       "2026-05-06": {
         "total": 1,
         "score_sum": 2
@@ -394,7 +394,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 38
+        "count": 39
       },
       {
         "term": "gustavo",
@@ -519,6 +519,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rosario de la Frontera: Sáenz entregó 48 casas, celebró los avances en la RN9/34 y apuntó a la oposición - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzFBRFFyZGY3YjNoZTRKN2cybnI0TkdNN3JNaVc3QkpSdTU4RnJ1OFZuVFpIVW9Ic25qNGhINnItUVBRckZWRFMtQnBfTHp4cmstQ3VLUnNLSEk0elY5VmM0SlZEWWhPa21KQXgycDN2aWtJaUJqMmdDNlZqZ21jeGttNFowT3YyUkZua2gzUTBveC03LTlwZ0xxMl95Sk1iZG0zVy1lQ2UzWTBfZGdzMVhZYUFMeGxHWlFaWVZBZUxlUdIBugFBVV95cUxNRlRLaVB2b05IRnN4VjZqeWVEeTA2RDJkY1hYcGlXekRVcFQzaFozdVFRdDhrRVRKU21hNDJMeUp6UkRNY3Z3UktzTzEtUU1XMmxWbC03N2NiTlhUNENiQ2tKaXlZZ0RWRFRsSG5MbjNDQk42SFBuN0pQcnM5dXFVemplZmI0SUJ0cFh6bnltRXFvZnFkUV9EejhvMzU4dk94OHo2U3VQLVQ4dVlhTklVQl9NS3E5M2FzOVE?oc=5",
+        "source": "Aries On Line",
+        "date": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz cuestionó la Zona Fría y lanzó una fuerte frase: \"El país está dividido en tres\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSE1hZnlYakFZTlpmQ3Nqbmp3YjNrR19DUkdFeGJmS01VbW1ObUpLVmZqUF91MG5DZjRWUzkxd2dBdHo1b1NsSUFZeC1XY2NSMFBsUERfR2ZSaGtuQWtvRl9hQklUbnhrMHhVbXR0SUR5SVRuZWx3U2I5NmJSUGhMbnBmdWdEcXJnRGV6ddIBjAFBVV95cUxQSE1hZnlYakFZTlpmQ3Nqbmp3YjNrR19DUkdFeGJmS01VbW1ObUpLVmZqUF91MG5DZjRWUzkxd2dBdHo1b1NsSUFZeC1XY2NSMFBsUERfR2ZSaGtuQWtvRl9hQklUbnhrMHhVbXR0SUR5SVRuZWx3U2I5NmJSUGhMbnBmdWdEcXJnRGV6dQ?oc=5",
@@ -721,13 +728,6 @@
         "source": "Informate Salta",
         "date": "Wed, 28 Oct 2026 21:30:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Javier Milei llegó a Salta sin ser recibido por Sáenz y se fue tras unos minutos de escala",
-        "link": "https://elintra.com.ar/2026/10/28/javier-milei-llego-a-salta-sin-ser-recibido-por-saenz-y-se-fue-tras-unos-minutos-de-escala/",
-        "source": "El Intra",
-        "date": "Wed, 28 Oct 2026 16:04:18 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
