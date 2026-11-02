@@ -208,7 +208,7 @@ MEDIOS = [
     ("Kyiv Post", "Ucrania", "Eurasia", "en", "privado", [], "kyivpost.com"),
     ("Ukrinform", "Ucrania", "Eurasia", "en", "estatal", [], "ukrinform.net"),
     ("RFE/RL", "República Checa", "Eurasia", "en", "publico", [], "rferl.org"),
-    ("Eurasianet", "EE.UU.", "Eurasia", "en", "privado", [("https://eurasianet.org/rss.xml", "General")], "eurasianet.org"),
+    ("Eurasianet", "EE.UU.", "Eurasia", "en", "privado", [], "eurasianet.org"),
     ("The Astana Times", "Kazajistán", "Eurasia", "en", "estatal", [("https://astanatimes.com/feed/", "General")], "astanatimes.com"),
     ("Civil Georgia", "Georgia", "Eurasia", "en", "privado", [("https://civil.ge/feed", "General")], "civil.ge"),
     ("Interfax", "Rusia", "Eurasia", "en", "privado", [], "interfax.com"),
@@ -366,8 +366,8 @@ def limpia(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def gnews(dom, idioma):
-    q = f"site:{dom} when:2d"
+def gnews(dom, idioma, dias=2):
+    q = f"site:{dom} when:{dias}d"
     if idioma == "es":
         return f"https://news.google.com/rss/search?q={quote(q)}&hl=es-419&gl=AR&ceid=AR:es-419"
     if idioma == "pt":
@@ -419,6 +419,17 @@ def main():
             por_medio[m[0]].append((e, "General", "google_news"))
         if err:
             errores[m[0]] = err
+    # 2b) medios que publican poco: si en 2 días no apareció nada, se mira la última semana
+    #     (las notas repetidas se descartan solas más abajo, por id y por título)
+    sin7 = [m for m in sin if not por_medio[m[0]]]
+    if sin7:
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            res7 = list(ex.map(lambda m: leer(gnews(m[6], m[3], 7)), sin7))
+        for m, (ents, err) in zip(sin7, res7):
+            for e in ents:
+                por_medio[m[0]].append((e, "General", "google_news"))
+            if err:
+                errores[m[0]] = err
     # 3) ediciones de Google News por tema (traen muchos diarios, con su nombre)
     eds = [(ed, tema, sec) for ed in EDICIONES for tema, sec in TEMAS_GN if ed[4] is None or tema in ed[4]]
     def url_ed(t):
