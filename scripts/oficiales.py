@@ -180,6 +180,26 @@ def descargar(url: str, timeout: int = 25) -> str:
         return crudo.decode(charset, errors="replace")
 
 
+def descargar_con_reintentos(url: str, timeouts=(25, 45, 60), pausa: int = 5) -> str:
+    """Como descargar(), pero si el sitio tarda demasiado o responde con un
+    error del servidor (5xx), vuelve a intentar hasta 3 veces, esperando un
+    poco más cada vez. Un error 4xx (por ejemplo 404 o 403) no se reintenta:
+    ahí el problema no es de demora."""
+    ultimo = None
+    for i, espera in enumerate(timeouts):
+        try:
+            return descargar(url, timeout=espera)
+        except urllib.error.HTTPError as e:
+            if e.code < 500:
+                raise
+            ultimo = e
+        except Exception as e:
+            ultimo = e
+        if i < len(timeouts) - 1:
+            time.sleep(pausa)
+    raise ultimo
+
+
 def descargar_bytes(url: str, timeout: int = 90, max_bytes: int = MAX_PDF_BYTES) -> bytes:
     """Descarga un archivo binario (PDF) con tope de tamaño."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -794,14 +814,15 @@ def procesar_fuente(fuente: dict, politicos, urls_ya_guardadas, presupuesto_deta
         pass  # no bloqueamos la fuente por un problema al leer robots.txt
 
     try:
-        html_texto = descargar(url)
+        html_texto = descargar_con_reintentos(url)
     except urllib.error.HTTPError as e:
         estado["state"] = "error"
         estado["message"] = f"El sitio respondió con un error HTTP {e.code}."
         return estado, []
     except Exception as e:
         estado["state"] = "error"
-        estado["message"] = f"No se pudo descargar la página ({type(e).__name__}: {e})."
+        estado["message"] = (f"No se pudo descargar la página tras 3 intentos "
+                             f"({type(e).__name__}: {e}).")
         return estado, []
 
     try:
@@ -927,6 +948,29 @@ def compactar_items(items: list, tope: int = TOPE_ITEMS_ACTIVOS):
 # Programa principal
 # ---------------------------------------------------------------------------
 
+def anotar_racha(estado: dict, previo: dict | None) -> None:
+    """Suma al estado de una fuente cuántas corridas seguidas lleva con error
+    (campo "fallos_seguidos") y desde cuándo ("fallando_desde"). Si la fuente
+    anda bien, la racha vuelve a 0. Solo cuenta el estado "error": una fuente
+    "bloqueada" por su robots.txt o con "sin_resultados" no es una caída."""
+    previo = previo or {}
+    if estado.get("state") == "error":
+        ant = previo.get("fallos_seguidos")
+        if not isinstance(ant, int):
+            ant = 1 if previo.get("state") == "error" else 0
+        estado["fallos_seguidos"] = ant + 1
+        if ant:
+            estado["fallando_desde"] = (previo.get("fallando_desde") or previo.get("checked_at")
+                                        or estado.get("checked_at"))
+        else:
+            estado["fallando_desde"] = estado.get("checked_at")
+        # Marca que usa scripts/alertar_telegram.py para avisar una sola vez por caída.
+        estado["avisado_caida"] = bool(previo.get("avisado_caida")) and bool(ant)
+    else:
+        estado["fallos_seguidos"] = 0
+        estado["avisado_caida"] = False
+
+
 def main() -> int:
     config = cargar_json(FUENTES_PATH, {"sources": []})
     fuentes = config.get("sources", [])
@@ -942,6 +986,7 @@ def main() -> int:
 
     presupuesto_detalle = {"usado": 0, "tope": MAX_DETALLE_BORA}
 
+    status_previo = (cargar_json(STATUS_PATH, {}) or {}).get("sources", {})
     nuevos_status = {}
     todos_los_nuevos = []
 
@@ -959,9 +1004,13 @@ def main() -> int:
                 "message": f"Error inesperado al procesar esta fuente: {type(e).__name__}: {e}",
             }
             nuevos = []
+        anotar_racha(estado, status_previo.get(fid))
         nuevos_status[fid] = estado
         todos_los_nuevos.extend(nuevos)
         print(f"   estado: {estado['state']} — {estado['message']}")
+        if estado.get("fallos_seguidos", 0) >= 3:
+            print(f"   [aviso] lleva {estado['fallos_seguidos']} corridas seguidas con error "
+                  f"(desde {estado.get('fallando_desde')}).")
 
     rellenadas = completar_publicaciones_previas(fuentes, items_previos, presupuesto_detalle)
     if rellenadas:

@@ -38,6 +38,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ALERTAS_PATH = ROOT / "data" / "oficiales_nuevas_con_personas.json"
 CANDIDATOS_PATH = ROOT / "data" / "candidatos.json"
 CANDIDATOS_AVISADOS_PATH = ROOT / "data" / "candidatos_avisados.json"
+STATUS_PATH = ROOT / "data" / "oficiales_status.json"
+FALLOS_PARA_AVISAR = 6   # corridas seguidas con error (unos 2 días) antes de avisar
 
 
 def enviar_mensaje(token: str, chat_id: str, texto: str) -> None:
@@ -115,6 +117,38 @@ def main() -> int:
         CANDIDATOS_AVISADOS_PATH.write_text(
             json.dumps(sorted(avisados), ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
+
+    # Aviso de fuente oficial caída: una sola vez por caída. La marca "avisado_caida" se guarda
+    # en data/oficiales_status.json (el workflow ya guarda ese archivo en el repositorio).
+    try:
+        estado = json.loads(STATUS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        estado = None
+    if isinstance(estado, dict) and isinstance(estado.get("sources"), dict):
+        cambio = False
+        for fid, reg in estado["sources"].items():
+            if reg.get("state") != "error" or reg.get("avisado_caida"):
+                continue
+            if int(reg.get("fallos_seguidos") or 0) < FALLOS_PARA_AVISAR:
+                continue
+            texto = (
+                f"⚠️ <b>Fuente oficial caída</b>\n"
+                f"{reg.get('name', fid)}\n"
+                f"Lleva {reg.get('fallos_seguidos')} corridas seguidas con error "
+                f"(desde {str(reg.get('fallando_desde') or '')[:10]}).\n"
+                f"Último mensaje: {str(reg.get('message') or '')[:200]}\n"
+                f"{reg.get('url', '')}"
+            )
+            try:
+                enviar_mensaje(token, chat_id, texto)
+                reg["avisado_caida"] = True
+                cambio = True
+                enviados += 1
+            except Exception as e:
+                fallidos += 1
+                print(f"No se pudo enviar el aviso de fuente caída '{fid}': {e}")
+        if cambio:
+            STATUS_PATH.write_text(json.dumps(estado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Avisos de Telegram: {enviados} enviado(s), {fallidos} con error.")
     return 0
