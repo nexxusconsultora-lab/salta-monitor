@@ -136,7 +136,7 @@ def main() -> int:
                 f"{reg.get('name', fid)}\n"
                 f"Lleva {reg.get('fallos_seguidos')} corridas seguidas con error "
                 f"(desde {str(reg.get('fallando_desde') or '')[:10]}).\n"
-                f"Último mensaje: {str(reg.get('message') or '')[:200]}\n"
+                f"Último mensaje: {str(reg.get('message') or '')[:450]}\n"
                 f"{reg.get('url', '')}"
             )
             try:
