@@ -812,6 +812,60 @@ async function instalar(env, origen) {
   return L.join("\n");
 }
 
+// ---------- diagnóstico (se abre desde el navegador cuando el bot no contesta) ----------
+// Muestra qué falta o qué está mal, sin revelar nunca el token ni la clave.
+async function diagnosticar(env, origen) {
+  const sitio = env.SITIO || SITIO_DEFECTO;
+  const L = [];
+  const marca = (b) => (b ? "✓" : "✗");
+  const permitidos = String(env.ALLOWED_CHAT_IDS || env.TELEGRAM_CHAT_ID || "").split(",").map((x) => x.trim()).filter(Boolean);
+  L.push("Variables cargadas en este Worker (solo se indica si están, nunca su valor):");
+  L.push(`${marca(env.TELEGRAM_BOT_TOKEN)} TELEGRAM_BOT_TOKEN`);
+  const claveRara = env.WEBHOOK_SECRET && !/^[A-Za-z0-9_-]+$/.test(env.WEBHOOK_SECRET);
+  L.push(`${marca(env.WEBHOOK_SECRET && !claveRara)} WEBHOOK_SECRET` + (claveRara ? " → tiene caracteres no permitidos: usá solo letras, números, guion y guion bajo" : ""));
+  L.push(`${marca(permitidos.length)} ALLOWED_CHAT_IDS` + (permitidos.length ? ` (${permitidos.length} chat/s permitido/s)` : " → sin esto el bot contesta «Este bot es privado»"));
+  L.push("");
+  if (!env.TELEGRAM_BOT_TOKEN) {
+    L.push("Sin el token no se puede seguir revisando. Cargalo como Secret y volvé a abrir esta página.");
+    return L.join("\n");
+  }
+  const yo = await tg(env, "getMe", {});
+  L.push(yo.ok ? `✓ Telegram acepta el token. El bot es @${yo.result.username}` : `✗ Telegram NO acepta el token → ${yo.description || "sin respuesta"}. Revisá que sea el token completo que dio @BotFather.`);
+  if (yo.ok) {
+    const w = await tg(env, "getWebhookInfo", {});
+    if (!w.ok) {
+      L.push(`✗ No se pudo consultar la conexión del bot → ${w.description || "sin respuesta"}`);
+    } else {
+      const r = w.result || {};
+      if (!r.url) {
+        L.push("✗ El bot NO está conectado a este Worker (no hay webhook). Abrí /instalar?clave=TU_CLAVE una vez.");
+      } else if (r.url !== origen + "/webhook") {
+        L.push(`✗ El bot está conectado a OTRA dirección: ${r.url}\n   Abrí /instalar?clave=TU_CLAVE desde la dirección correcta de este Worker (${origen}).`);
+      } else {
+        L.push("✓ El bot está conectado a este Worker.");
+      }
+      L.push(`${marca(!r.pending_update_count)} Mensajes esperando respuesta en Telegram: ${r.pending_update_count || 0}`);
+      if (r.last_error_message) {
+        const cuando = r.last_error_date ? new Date(r.last_error_date * 1000).toLocaleString("es-AR", { timeZone: TZ }) : "fecha desconocida";
+        L.push(`✗ Último error de entrega: «${r.last_error_message}» (${cuando})`);
+        if (/401|unauthorized/i.test(r.last_error_message)) L.push("   Una clave distinta entre Telegram y el Worker: volvé a abrir /instalar?clave=TU_CLAVE para volver a conectarlos.");
+        if (/timeout|timed out|\b50\d\b/i.test(r.last_error_message)) L.push("   El Worker no está respondiendo bien: revisá en Cloudflare que el código esté pegado completo y guardado (Deploy).");
+      } else {
+        L.push("✓ Telegram no registra errores de entrega.");
+      }
+    }
+  }
+  try {
+    const r = await fetch(sitio + "data/bot_index.json", { cf: { cacheTtl: 0 } });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const idx = await r.json();
+    L.push(`✓ El índice de noticias se lee bien (generado: ${idx.generado || "sin fecha"}).`);
+  } catch (e) {
+    L.push(`✗ No se pudo leer el índice de noticias en ${sitio}data/bot_index.json → ${e.message}. Si la dirección del panel cambió, cargá la variable SITIO.`);
+  }
+  return L.join("\n");
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -819,6 +873,11 @@ export default {
       if (!env.TELEGRAM_BOT_TOKEN || !env.WEBHOOK_SECRET) return new Response("Faltan las variables TELEGRAM_BOT_TOKEN y WEBHOOK_SECRET en el Worker.", { status: 500 });
       if (url.searchParams.get("clave") !== env.WEBHOOK_SECRET) return new Response("Clave incorrecta.", { status: 403 });
       return new Response(await instalar(env, url.origin), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
+    }
+    if (request.method === "GET" && url.pathname === "/diagnostico") {
+      if (!env.WEBHOOK_SECRET) return new Response("Falta la variable WEBHOOK_SECRET en el Worker.", { status: 500 });
+      if (url.searchParams.get("clave") !== env.WEBHOOK_SECRET) return new Response("Clave incorrecta.", { status: 403 });
+      return new Response(await diagnosticar(env, url.origin), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
     }
     if (request.method === "POST" && url.pathname === "/webhook") {
       if (!env.WEBHOOK_SECRET || request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== env.WEBHOOK_SECRET) return new Response("no autorizado", { status: 401 });
@@ -832,4 +891,4 @@ export default {
 };
 
 // (solo para las pruebas locales: node)
-export { predicado, entender, buscarHistorias, buscarPersonas, personasParecidas, coincide, buscarMedio, filtrar, responder, partir, atender };
+export { predicado, entender, buscarHistorias, buscarPersonas, personasParecidas, coincide, buscarMedio, filtrar, responder, partir, atender, diagnosticar };
