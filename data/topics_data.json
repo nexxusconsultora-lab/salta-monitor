@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-03T08:49:15.073008+00:00",
+  "generated_at": "2026-11-03T13:04:46.103459+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 477,
+      "total_mentions": 479,
       "sentiment_breakdown": {
         "positivo": 30,
         "negativo": 39,
-        "neutral": 408
+        "neutral": 410
       },
       "sentiment_by_day": {
+        "2026-09-21": {
+          "total": 12,
+          "score_sum": -2
+        },
+        "2026-11-03": {
+          "total": 1,
+          "score_sum": 0
+        },
         "2026-11-02": {
           "total": 3,
           "score_sum": 2
@@ -71,10 +79,6 @@
         "2026-10-24": {
           "total": 6,
           "score_sum": 0
-        },
-        "2026-09-21": {
-          "total": 11,
-          "score_sum": -2
         },
         "2026-10-25": {
           "total": 1,
@@ -268,14 +272,14 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 163
-        },
-        {
-          "term": "intransigente",
-          "count": 59
+          "count": 162
         },
         {
           "term": "presupuesto",
+          "count": 59
+        },
+        {
+          "term": "intransigente",
           "count": 59
         },
         {
@@ -283,19 +287,19 @@
           "count": 35
         },
         {
+          "term": "pasa",
+          "count": 26
+        },
+        {
           "term": "informate",
           "count": 25
         },
         {
-          "term": "pasa",
-          "count": 25
-        },
-        {
           "term": "milei",
-          "count": 17
+          "count": 18
         },
         {
-          "term": "nacional",
+          "term": "discapacidad",
           "count": 13
         }
       ],
@@ -306,6 +310,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "No van a poder trabajar",
+          "source": "Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU_SAZwBQVVfeXFMTXAzc1pTWGlXOU9scXVQal9LcU4ySmdxWGFJcV9JclVYa1dwLW1fMTd1ZmVQR2JYSkN0elQ1ZkVJQWNjOGlPa2ZpdGVEeG42MGszRzRJd2lvSnJUY1hvYjBoU3ZVdHBoeFU1X01IeUdHX1pKX3ZSOVRhcF9LTDBZQ0NvVWRBX2FnZXJDWHdBNWhKQnBiLWY4M1BkZkVP?oc=5",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+        },
         {
           "quote": "Vamos a construir una alternativa",
           "source": "El Intransigente",
@@ -389,15 +399,23 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkVXX3VWOTJpb2ZrMjM1QWUzRTFRMnR1YVhPRkN2QjczZUtMMVgzT2QxdWJhRnpKOVpvRUpJQUpWcG40QnJTUWtEZ3hxM0h5WXYwWlpHU1hlSnVGdEtvMTI4ME1ncjd0dm10ZlBIeElfc29taHBNWmRnN2M2dUFvcXlDNUVzSDVTMjNYQWd2Q1JSSk9pdkpUelZ3WVQyUTNhT0JJOWhrNkY0QURIYklDeDNIaExXUXBnZVU5WEJ6c0ROeWJoMFU3NjhkeVBSdy03?oc=5",
           "date": "Wed, 14 Oct 2026 23:54:15 GMT"
-        },
-        {
-          "quote": "No te cases ni te embarques",
-          "source": "El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54cmVsVFd4bUVsYlRqZklXSmlFQTNHN0Z3V0NwRUVWTGwtREd1Q1h5Um9pTzRkSExhc3dydWgtMkMzdnU0aTFjMDF4X09qQldtUlBVYXF0cWJyM19hZ2RQT3R3S0hsWnZJSWRablQ1Z1N4T1d2cU1STQ?oc=5",
-          "date": "Tue, 13 Oct 2026 13:24:25 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "\"No van a poder trabajar\": la advertencia por los cambios en las pensiones por discapacidad - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU_SAZwBQVVfeXFMTXAzc1pTWGlXOU9scXVQal9LcU4ySmdxWGFJcV9JclVYa1dwLW1fMTd1ZmVQR2JYSkN0elQ1ZkVJQWNjOGlPa2ZpdGVEeG42MGszRzRJd2lvSnJUY1hvYjBoU3ZVdHBoeFU1X01IeUdHX1pKX3ZSOVRhcF9LTDBZQ0NvVWRBX2FnZXJDWHdBNWhKQnBiLWY4M1BkZkVP?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Presupuesto de Milei se frena en Diputados y el FMI espera reformas antes de diciembre - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXRwTkhSWWx4T0tWdUFYNmtNS1lkaXdWZ3JEb01UOHVkLTF6YUtyNmR3T1hnUWNHakkzY2lfY2FtdFJJRm5NOEVDWU5RcXBieHo3X280NzNqVlBqby15NTNlZWtzR3ZMSFZnVmpZSkJEZ0tWZEZUWXhEZldNaEc5MGo0RzN0SjhJaHdZNnlTU01GdkxzcjNqag?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 03 Nov 2026 12:29:23 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Hernán Lacunza marcó diferencias entre el PRO y La Libertad Avanza: «Somos distintos» - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1FiM1duUEFTMEtvbkFYQVl5N3c5M3FIRUY4cWd3NjcycVc2WFdsUGZXSTRHVThzWTRUcFlnX1M0RmNRZEdQZjdKZUtLYnlEbWFMQnRKS2w1eGVjaVg5b1drdVl6WkdXdk1RWi05cnp3Qm5WN3E1a25EXzQySWp1WkJLZmQ0RGhCQW9NSHZGdnA4N0oycFFCUFk0N2dMNS1Nc29Gam9uMkZGOUtISVpn?oc=5",
@@ -592,20 +610,6 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXVTOGRYRWdQdlVEdEdMbjI1YThRcFhMNndwdGhBNmFnOTZrenAxOW9OZDZwOG9yUm1TLUFJT2NIVG9Qc0hzSjBqYkZ0cndzUFQxQWpoVGNaRXAxVTkzZlBSS1ZpMnNXOHl3cXNkT0dkemxwejdTa285aTdnOWh1cTFyMDVXZmVqSDUybnlNeFZySDM3ZVJBSGFvWGxNVmxRYTkyVkppZw?oc=5",
           "source": "Elintra.com.ar",
           "date": "Fri, 30 Oct 2026 16:11:50 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"Trabajar o mantener la pensión\": el cambio que preocupa a miles de personas con discapacidad - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFka9IBjwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno Nacional propone quitar la actualización automática de la AUH - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNnVaWVFYMmdiQUFRWUNsNkMwU1F0NzAtRVRMRXZhbEJuUF90XzRSR1YxOExTVTJYZ2VhY1lqU0g4aWxsa0lTcm9tOWZPaXl5amczM05JNE56blpoVE9oYm82elJxdXpBYW92ZHlkYm8zbmFLcUdkM0VzeFA0VHNMZdIBgAFBVV95cUxNNnVaWVFYMmdiQUFRWUNsNkMwU1F0NzAtRVRMRXZhbEJuUF90XzRSR1YxOExTVTJYZ2VhY1lqU0g4aWxsa0lTcm9tOWZPaXl5amczM05JNE56blpoVE9oYm82elJxdXpBYW92ZHlkYm8zbmFLcUdkM0VzeFA0VHNMZQ?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Thu, 17 Sep 2026 07:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
