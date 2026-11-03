@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-03T13:04:45.108768+00:00",
+  "generated_at": "2026-11-03T16:42:21.791692+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 426,
+      "positivo": 111,
+      "negativo": 63,
+      "neutral": 252,
+      "score_sum": 187
+    },
+    "eje-juan-vilchez": {
+      "total": 13,
+      "positivo": 3,
+      "negativo": 2,
+      "neutral": 8,
+      "score_sum": -1
+    },
+    "eje-antonio-marocco": {
+      "total": 33,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 25,
+      "score_sum": 35
+    },
+    "eje-cristina-fiore": {
+      "total": 57,
+      "positivo": 4,
+      "negativo": 13,
+      "neutral": 40,
+      "score_sum": -31
+    },
+    "dip-gaston-guillermo-galindez": {
+      "total": 27,
+      "positivo": 4,
+      "negativo": 1,
+      "neutral": 22,
+      "score_sum": 8
+    },
     "eje-javier-monico": {
       "total": 13,
       "positivo": 1,
@@ -21,13 +56,6 @@
       "negativo": 0,
       "neutral": 8,
       "score_sum": 40
-    },
-    "gustavo-saenz": {
-      "total": 424,
-      "positivo": 110,
-      "negativo": 62,
-      "neutral": 252,
-      "score_sum": 188
     },
     "dip-jose-miguel-gauffin": {
       "total": 32,
@@ -113,26 +141,12 @@
       "neutral": 29,
       "score_sum": 0
     },
-    "eje-juan-vilchez": {
-      "total": 12,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 8,
-      "score_sum": 4
-    },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 14,
       "positivo": 0,
       "negativo": 3,
       "neutral": 11,
       "score_sum": -4
-    },
-    "dip-gaston-guillermo-galindez": {
-      "total": 26,
-      "positivo": 4,
-      "negativo": 1,
-      "neutral": 21,
-      "score_sum": 8
     },
     "concejal-angel-ortiz": {
       "total": 51,
@@ -161,20 +175,6 @@
       "negativo": 12,
       "neutral": 34,
       "score_sum": -26
-    },
-    "eje-cristina-fiore": {
-      "total": 56,
-      "positivo": 4,
-      "negativo": 13,
-      "neutral": 39,
-      "score_sum": -31
-    },
-    "eje-antonio-marocco": {
-      "total": 32,
-      "positivo": 6,
-      "negativo": 2,
-      "neutral": 24,
-      "score_sum": 35
     },
     "eje-ignacio-jarsun": {
       "total": 44,
@@ -934,6 +934,82 @@
     }
   },
   "by_day": {
+    "2026-11-03": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 5
+      },
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": -5
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
+    "2026-11-02": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 1
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2022-10-13": {
       "eje-javier-monico": {
         "total": 1,
@@ -952,16 +1028,6 @@
       "snac-emilia-orozco": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-03": {
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 4
       }
     },
     "2023-11-21": {
@@ -1032,56 +1098,6 @@
       "dip-omar-exeni-arminana": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-02": {
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 3
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2024-02-19": {
@@ -17894,11 +17910,11 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 22
+      "count": 21
     },
     {
       "term": "elintra",
-      "count": 15
+      "count": 12
     },
     {
       "term": "milei",
@@ -17930,11 +17946,19 @@
     },
     {
       "term": "orozco",
-      "count": 9
+      "count": 8
     },
     {
       "term": "emilia",
-      "count": 7
+      "count": 6
+    },
+    {
+      "term": "cristina",
+      "count": 4
+    },
+    {
+      "term": "diputados",
+      "count": 4
     },
     {
       "term": "gustavo",
@@ -17942,14 +17966,6 @@
     },
     {
       "term": "nuevo",
-      "count": 4
-    },
-    {
-      "term": "voces",
-      "count": 4
-    },
-    {
-      "term": "criticas",
       "count": 4
     }
   ],
