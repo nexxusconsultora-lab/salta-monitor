@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 422,
+    "total_mentions": 423,
     "sentiment_breakdown": {
-      "positivo": 108,
+      "positivo": 109,
       "negativo": 62,
       "neutral": 252
     },
     "sentiment_by_day": {
+      "2026-11-03": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-02": {
         "total": 2,
         "score_sum": 3
@@ -410,11 +414,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 33
+        "count": 32
       },
       {
         "term": "gustavo",
-        "count": 14
+        "count": 13
       },
       {
         "term": "diques",
@@ -535,6 +539,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Vecinos piden un tren que sea útil para todos: más horarios y más apeaderos",
+        "link": "https://www.eltribuno.com/municipios/2026-11-3-0-0-0-vecinos-piden-un-tren-que-sea-util-para-todos-mas-horarios-y-mas-apeaderos",
+        "source": "El Tribuno - Municipios",
+        "date": "Tue, 03 Nov 2026 04:45:19 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Milei invitó a Sáenz y legisladores salteños a un agasajo al Papa León XIV",
         "link": "https://informatesalta.com.ar/sociedad/milei-invito-a-saenz-y-legisladores-saltenos-a-un-agasajo-al-papa-leon-xiv_a6ae9087fbcf08930c4093383",
@@ -736,13 +747,6 @@
         "link": "https://elintra.com.ar/2026/10/29/gobierno-salta-proyecto-emergencia-adicciones-betina-navarro-recursos-interior/",
         "source": "El Intra",
         "date": "Thu, 29 Oct 2026 13:53:23 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Proyección: La prensa nacional ya habla de la segunda reelección de Gustavo Sáenz",
-        "link": "https://elintra.com.ar/2026/10/29/gobernador-salta-saenz-tercer-mandato-corte-suprema-limite-constitucional/",
-        "source": "El Intra",
-        "date": "Thu, 29 Oct 2026 13:57:10 +0000",
         "sentiment_label": "neutral"
       }
     ]
@@ -1923,13 +1927,17 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 70,
+    "total_mentions": 71,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 11,
-      "neutral": 51
+      "neutral": 52
     },
     "sentiment_by_day": {
+      "2026-08-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-07-31": {
         "total": 1,
         "score_sum": 0
@@ -2166,19 +2174,23 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 7
+        "count": 8
       },
       {
         "term": "cornejo",
-        "count": 7
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 6
+        "count": 7
       },
       {
         "term": "senado",
         "count": 3
+      },
+      {
+        "term": "contra",
+        "count": 2
       },
       {
         "term": "planteó",
@@ -2266,6 +2278,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Roque Cornejo endureció su postura contra Sáenz: «A casa» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX2ZieWo2YnFxUFpoNEdJTlZ5VWxNS1c1cmp2XzFYbXIyZk9LUDEzVW9LcUV5WVh3U0xQMHcyRUZCeHhodDJ2ZmtnNDZsOHFUYUxHRmtXZ3FyTTZQNmxHbXhpdzMzZF91WlVMeHdDX0ltN3gwOFZzVExBYzhXVlJYTHNORzlSdWNNWFBzS0NHZmUzY0k?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 10 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Roque Cornejo afirma que Salta tiene dos opciones para el 2027 - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyLVZEd1lrQWhPbTFyUW9UVlJwNzE0NzQtSGhBYkhSR3UzZ25QelVXcmdoNVJTOEFvQnhnM0VRb2NGMEhyRmJ3UTJyMjgzRzNlUjVheDFPYjhOSi1WX2JHdUd0N3R4eWpLN2h6ODJNV2dEWXNnVFE?oc=5",
@@ -2468,13 +2487,6 @@
         "source": "NewsDigitales",
         "date": "Wed, 17 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Roque Cornejo explicó su postura en contra de la Emergencia Hídrica - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNam1qcDFickE1dVQ2VEpIajFobk9kWUlIN1U2WUNjOVBFS3ZEWE82LUI4TS1vejBxSFBsVnE1dE82N0ZGWXNscklWbjJWdkMzSTZpWi1KdkplRTYxams3TDJnYS1nQ0hoTVhaOTZrNnpleEFfVDVBdUVmaE81S1I2Qjk1bTlkU1pEb3JNZDBlUW9URFpFT2IxSG9oRno2TTV0VUx0cw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 12 Dec 2022 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -2633,22 +2645,10 @@
     "top_topics": [
       {
         "term": "enrique",
-        "count": 3
+        "count": 2
       },
       {
         "term": "cornejo",
-        "count": 3
-      },
-      {
-        "term": "senador",
-        "count": 2
-      },
-      {
-        "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "diario",
         "count": 2
       }
     ],
@@ -20659,13 +20659,17 @@
     "id": "concejal-gonzalo-nieva",
     "name": "Gonzalo Nieva",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 9,
-      "neutral": 44
+      "neutral": 45
     },
     "sentiment_by_day": {
+      "2024-08-22": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-03-05": {
         "total": 1,
         "score_sum": 0
@@ -20846,10 +20850,14 @@
     "top_topics": [
       {
         "term": "gonzalo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "nieva",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -20936,6 +20944,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gonzalo Nieva quiere saber el rol de Bromatología en el caso de alumnos intoxicados de una escuela - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNlM2X3pvSWVqTFJVcGppSXlpU3ZUc25kbUhDdm83WnYzcF9TOG14MGhPV2gzTG5xYW56SnRoU3Z0bUwyNS1vaEZHS1FSUEpMa3ZOWEt2ZHhYMEJMLXZ3d2hnd3REQ3JnRTYyWWFEVF8tVkVCejlZZWNKZGRRV25SNG90emZST1ItZzJYbjlNaHpmRkEzZG1sN3VmSmZTZmM2NlRaNXZHajlnTU9lcHRCTE9SOTBSN1RzTGJ1TXgwaTN6SVYzMF8yOWRrSjRnUQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 22 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gonzalo Nieva exige un debate urgente sobre las apps de transporte en Salta - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMVhHU0ZhYnY1SWN3dUNpb2twUGdsUjRPbExMRzNxWWpjcjcwbEY0aS1hcmV3bjMtSkd4OHFyY20zWEhUMVlFV09nblp5ODYyVTlZRjREdlJCaDdUOFNmeVdYdS1ZbXREZnNGS3p2Nng3dXVOeGhCdjctdzJqc3JJSTVNTmk5VXM5YW5lZnFZalhVOU1UM2NRLU9wYnlqWXdscTBrMVFpRVRNbGpjUXh3?oc=5",
@@ -21137,13 +21152,6 @@
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTW5hZHVtRUVoODVWSHllZlZ5WDhUMHBpRzY5dkVwdzBnWUt1a2pkTERDSm1heTZLQWY0akI4cmhMNGk0Qk5QN3RzT1N5TnhBQ2VjZmcwQlVLaHlDN0VoYkZaZjM3c091YWxnY2NsaXhmLXFJQ09CQ3M5NWROWjVSN2lGS1dac2dPZTFZ0gGQAUFVX3lxTE8xUHZhWGhqS25XT0hwTHlrTm9PUHpiblBoNjBRX0dkSHJ3a1oyZW5TYVZNVERvamZKN2tBbEMzdmEwTXhmRDVuVkU2allpTFVrU1NHZU9ZYlJaRVFESjc5ckZ3T3VDSkpodFhGcjZFSy0ybkM4d2RpaENfajZSTWRPbXFMNnlzQ25FaVZCYlcybQ?oc=5",
         "source": "eltribuno.com",
         "date": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Proponen la libre ocupación de paradas de taxi: “Algunos tenían exclusividad” - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZE93bFQ1RXdQbWJwV1FVaFhBUnQtdnc5Y1Q3cDAxNkg0YlZaMkNteGdOQ0RhWS1pNXNjaUJCNEZhcUxqN0tOYllweGg3NkJOTFNRWGFockppN0FhdHBXamE2anlPaWVwV2hVbG9fckVuRm80RTNqUVVScTlzenRUS0Uzb3d3aWpQbWotTGx6ZXVGb000dTMtUHdCUi1CTEMzMlNjSzZSdi1Kc3dOZU1sSU9xSHFtOUJhSEFzcXVvQW5DWlBBSDduOWh1RU9pZTh0WVhORkYxRWNNaG_SAeoBQVVfeXFMT2Fpa284SzRpcDJ5MWlkUEVYRG05Y2JvUGRybzFZV29XLXBlMGFwdTlyeWgyNE4xNF9yaTlXaEY5Z3RNNUI2RU9ZbTk5STU0eHBhcXE4bXFQN0RNWUhJQUtDWWF1U0dVdExUV3IwdVYwLTdNem5vMzhfVUtBaUl6QUQtNkRrTVJNeFdWbHc5emxnM0xfek1RU25seEl4YWw5dFFGY1NvVzVYSFdyQzFPa1dQUkF2WmRvc3BjQ1F0Y1dTdmpscVRjNFFsbFFJVmRhUkxidlJzb01MblNST3ZUcWprTXBPR1ZnZUR3?oc=5",
-        "source": "Informate Salta",
-        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -22045,13 +22053,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 119,
+    "total_mentions": 120,
     "sentiment_breakdown": {
       "positivo": 11,
       "negativo": 13,
-      "neutral": 95
+      "neutral": 96
     },
     "sentiment_by_day": {
+      "2024-08-13": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-11-02": {
         "total": 1,
         "score_sum": 0
@@ -22157,10 +22169,6 @@
         "score_sum": 0
       },
       "2026-02-11": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "2024-08-13": {
         "total": 2,
         "score_sum": 0
       },
@@ -22408,11 +22416,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 8
+        "count": 9
       },
       {
         "term": "royón",
-        "count": 8
+        "count": 9
       },
       {
         "term": "aries",
@@ -22550,6 +22558,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gobernadores norteños anunciaron a Flavia Royón como Secretaria Ejecutiva - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSk9VVnRBRGhLMG13UlR5aHhEYzdJZXRTd3YyUUZlSWo2N08xQlZkb253cEdyOElUbW9pa3VSb004Q0NKcmdlSDRHakNENEt4SnZyTEZGMWo3eklBSTJGRmRXMlUtOGVGdlVWVDVRcGNfRm1NTHlyX3ZKQ0E0dVFERXdWNjhZdk5NeEVMc0Nnajl1bklWWUHSAZYBQVVfeXFMT0pPVVZ0QURoSzBtd1JUeWh4RGM3SWV0U3d2MlFGZUlqNjdPMUJWZG9ud3BHcjhJVG1vaWt1Um9NOENDSnJnZUg0R2pDRDRLeEp2ckxGRjFqN3pJQUkyRkZkVzJVLThlRnZVVlQ1UXBjX0ZtTUx5cl92SkNBNHVRREV3VjY4WXZOTXhFTHNDZ2o5dW5JVllB?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 13 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Milei invitó a Sáenz y legisladores salteños a un agasajo al Papa León XIV",
         "link": "https://informatesalta.com.ar/sociedad/milei-invito-a-saenz-y-legisladores-saltenos-a-un-agasajo-al-papa-leon-xiv_a6ae9087fbcf08930c4093383",
@@ -22751,13 +22766,6 @@
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSVNtNmp5NGZBSjJ4UlhoRDlZSkpvc0Q2WWlEQkpoc25FM1ctN3BYbEJ2dEhEMGRMRXI5YUd0cE15bThOY0lUMWlkdWxPZlZlRFlieVpuUV9mazVGeW54WVhRWXVEN1JwYmpvam9IZzVKVlh5dmVUbE52dTJIQmdraXJKaGRaN1lNTzR4d1lGTnZhYndzWVpsdFFPS01fQm1BaXF3?oc=5",
         "source": "Nuevo Diario de Salta",
         "date": "Sun, 26 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón, candidata a senadora nacional: \"Argentina necesita un plan de desarrollo a mediano plazo\" - IN Salta",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOGJBejZSa2hLbDZiTXM5eE56RjZtUVg0NUFFV0lVb1p2aTVCTF9EeHFIYnBGcHZPbDVPQWdxR0RwTlE0VTkyUDFRNF9ZMVpaV3RMelpJWmsyUFFCYl9zeWNRYTZuTkpDeVJhWDk1OXI2WnRiSVNZak9BTWRjbTlLaHRyYW9ZM3pSX2VIT3dMd1B5UktUTkNMS2k0U3JVU0VDSEg1bExscU5tQi1URzVIM2tfaXIyTXkyUmY3ZXlZQ0ZCbC1iUzV30gHWAUFVX3lxTE42VkUzQ3RKWXczdU5aNngzSi1jY2twQ2pQdFhob0lTLTBraUhNek1leTdFcWhmRjVWTC1QUXlDX3AtNmM0YVRxU2UxdEdkU1NobURGZWlPaHc0M2x3dzNoeFctSTd3RUFyWjg2VnI4LU9WdVR6ZUtpYzFHSmNob250TTgybVBiaFVaMHhzOTY5Z205U01DZmJwSmVPOVJodjNDT0VoeFBkano1eUp5NzJXY3pvMmsySnRFZkdnclp5dFVFOG8yaGZYMXBuU3FTQjI0TDlOMGc?oc=5",
-        "source": "IN Salta",
-        "date": "Mon, 20 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -23125,11 +23133,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 14
+        "count": 13
       },
       {
         "term": "orozco",
-        "count": 14
+        "count": 13
       },
       {
         "term": "elintra",
@@ -23138,10 +23146,6 @@
       {
         "term": "libertad",
         "count": 3
-      },
-      {
-        "term": "milei",
-        "count": 2
       },
       {
         "term": "sáenz",
@@ -23153,6 +23157,10 @@
       },
       {
         "term": "salteños",
+        "count": 2
+      },
+      {
+        "term": "contra",
         "count": 2
       }
     ],
@@ -24824,11 +24832,11 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 7
+        "count": 6
       },
       {
         "term": "zapata",
-        "count": 7
+        "count": 6
       },
       {
         "term": "diputado",
@@ -24840,7 +24848,7 @@
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -25675,18 +25683,14 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "outes",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
-        "count": 3
-      },
-      {
-        "term": "dicen",
         "count": 2
       }
     ],
@@ -26000,11 +26004,11 @@
     "top_topics": [
       {
         "term": "yolanda",
-        "count": 3
+        "count": 2
       },
       {
         "term": "vega",
-        "count": 3
+        "count": 2
       },
       {
         "term": "cerrillos",
@@ -27733,13 +27737,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 25
+      "neutral": 26
     },
     "sentiment_by_day": {
+      "2023-11-21": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-30": {
         "total": 1,
         "score_sum": 2
@@ -27863,15 +27871,15 @@
         "count": 3
       },
       {
-        "term": "tiene",
-        "count": 2
-      },
-      {
         "term": "gauffín",
         "count": 2
       },
       {
         "term": "elintra",
+        "count": 2
+      },
+      {
+        "term": "tiene",
         "count": 2
       }
     ],
@@ -27933,6 +27941,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffín: «Cristina Fernández de Kirchner y Sergio Massa son los grandes derrotados» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmF1U05mcUh6bFI0Q2hvR0ZOaXAzQkxRZU1Kb3BXZWxERXhZNWhaQWFPaHRUVUEwOWlCNXBPenVUaUhHMzBaelg1dU1XYUxRT3NVcWFETW9wUHdmODRYbVd4TGVJTGZjeEtWd1lXSXg0Qnh1N3lYbWt4WEZkSjg5VFlsaUZQNklaRnFNbDNJSmttWmtsUnl2OXAwV2pHcG84dVQxckdpZkpEX2pMQnFtcFlGbGI2TEtjWllJbw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 21 Nov 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "José Gauffin: “El Corredor Bioceánico de Capricornio tiene que ser política de estado antes de fin de año”",
         "link": "https://fmalba.com.ar/jose-gauffin-el-corredor-bioceanico-de-capricornio-tiene-que-ser-politica-de-estado-antes-de-fin-de-ano/",
@@ -28134,13 +28149,6 @@
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaF9lWnczMWdYcnJtcm5MOXVuMllyNjBiWGkxdXEwNFRNbzd2WVJjbGg1Qmc3Y29tRDhXbmNmVmJ0NkQzWE9hcTBnYTh5alZ0bVdUcE5JbXRSOTVsTkRMbTJlVGM0RzZGaTl0dlM5X0x0ZmtYd1BZVk04MGZYNjNyemdoWXBSWGdSNEh2MHZQTktJSlU1b1pLLTJxV1MtamtTa1VKX1doWdIBrAFBVV95cUxORzlLM1pNVk9NaWZpZHVHMTJkVEpmVTJRWGdMNEhjcHRJWDFDTVNvOE8zZ0dDZUMzcDlJaDdNcXVWaDFaTkJPb3lnNW1oZXZIZUo0QVZ0NDBvblRMSlpuRlVWWlV1OFhDTzFDSloxTEp2cHUyZEV5NFd1ZTVPNi00NE14SlJva21hS29XWGxyTGItc1JWWXNNTWJ1VTY5ZHJPdmhxdVZTRW5RR1FR?oc=5",
         "source": "El Tribuno",
         "date": "Sat, 21 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "José Gauffin: “En el 2023 competiremos con un gran equipo” - - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT0hKOXdSdlRLTUJkel9VbmNucWJwVDhDWGFMYld2aEpmTFZsd1FTTTJzdDhnYnJsT1ZKWEZjLTYtMzRHZWNiMzlHNWhMWUtPcmlFN3dISVBLeTFRc2VmcW9iMEI1czhWeGEtbi1kRmtIVzZaa2EwQmRSYkZUZ2tGa3AyUHBrcnBaYzJoMU1heGZNOWdl?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 01 Dec 2022 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -29734,14 +29742,10 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 4
+        "count": 2
       },
       {
         "term": "marocco",
-        "count": 4
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -32188,16 +32192,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "salud",
-        "count": 2
-      },
-      {
-        "term": "anestesistas",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Sí está en condiciones de viajar",
