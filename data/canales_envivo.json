@@ -1,0 +1,126 @@
+{
+  "_leeme": "Catálogo de canales de TV argentinos que transmiten en vivo por YouTube. 'ch' es el código del canal en YouTube (empieza con UC). Los canales con 'ch' vacío (null) todavía no están activos: el workflow «Completar canales en vivo» (scripts/canales_en_vivo.py) lee su código directamente de YouTube y solo lo activa si el nombre del canal coincide con alguna palabra de 'esperado'. 'yt' es el nombre del canal en la dirección de YouTube. Los canales de aire como Telefe, El Trece, El Nueve y América no transmiten su señal en vivo por YouTube, por eso no figuran.",
+  "generado": "2026-11-04",
+  "canales": [
+    {
+      "id": "tn",
+      "nombre": "TN",
+      "tipo": "Noticias",
+      "yt": "c/todonoticias",
+      "ch": "UCj6PcyLvpnIRT_2W_mwa9Aw",
+      "fuente": "vidIQ (descripción oficial coincide)"
+    },
+    {
+      "id": "c5n",
+      "nombre": "C5N",
+      "tipo": "Noticias",
+      "yt": "c/c5n",
+      "ch": "UCFgk2Q2mVO1BklRQhSv6p0w",
+      "fuente": "vidIQ (enlace a YouTube del canal @c5n)"
+    },
+    {
+      "id": "barricada-tv",
+      "nombre": "Barricada TV",
+      "tipo": "Noticias",
+      "yt": "channel/UC6YundoLrEuBJaPp_oEPWaA",
+      "ch": "UC6YundoLrEuBJaPp_oEPWaA",
+      "fuente": "lista pública Free-TV/IPTV"
+    },
+    {
+      "id": "urbana-teve",
+      "nombre": "Urbana Tevé",
+      "tipo": "Noticias",
+      "yt": "channel/UCTnbbQUGmWEKeCq9wWoyN0g",
+      "ch": "UCTnbbQUGmWEKeCq9wWoyN0g",
+      "fuente": "lista pública Free-TV/IPTV"
+    },
+    {
+      "id": "a24",
+      "nombre": "A24",
+      "tipo": "Noticias",
+      "yt": "c/A24com",
+      "ch": "UCR9120YBAqMfntqgRTKmkjQ",
+      "fuente": "vidIQ (A24com: Argentina, enlaces oficiales de A24 en la descripción)"
+    },
+    {
+      "id": "ln-mas",
+      "nombre": "LN+",
+      "tipo": "Noticias",
+      "yt": "c/LaNacionMas",
+      "ch": null,
+      "esperado": [
+        "ln+",
+        "la nacion"
+      ]
+    },
+    {
+      "id": "cronica-tv",
+      "nombre": "Crónica TV",
+      "tipo": "Noticias",
+      "yt": "c/cronicatv",
+      "ch": "UCT7KFGv6s2a-rh2Jq8ZdM1g",
+      "fuente": "link pasado por vos; cronica.com.ar lo enlaza como su canal oficial de YouTube"
+    },
+    {
+      "id": "ip-noticias",
+      "nombre": "IP Noticias",
+      "tipo": "Noticias",
+      "yt": "c/IPNoticiasEnVivo",
+      "ch": null,
+      "esperado": [
+        "ip noticias"
+      ]
+    },
+    {
+      "id": "el-destape",
+      "nombre": "El Destape",
+      "tipo": "Noticias",
+      "yt": "c/eldestapetv",
+      "ch": null,
+      "esperado": [
+        "destape"
+      ]
+    },
+    {
+      "id": "tv-publica",
+      "nombre": "Televisión Pública",
+      "tipo": "Aire",
+      "yt": "user/TVPublicaArgentina",
+      "ch": null,
+      "esperado": [
+        "television publica",
+        "tv publica"
+      ]
+    },
+    {
+      "id": "encuentro",
+      "nombre": "Encuentro",
+      "tipo": "Educativo",
+      "yt": "user/encuentro",
+      "ch": null,
+      "esperado": [
+        "encuentro"
+      ]
+    },
+    {
+      "id": "pakapaka",
+      "nombre": "Pakapaka",
+      "tipo": "Infantil",
+      "yt": "user/CanalPakapaka",
+      "ch": null,
+      "esperado": [
+        "pakapaka"
+      ]
+    },
+    {
+      "id": "comarca-tv",
+      "nombre": "Comarca TV",
+      "tipo": "Regional",
+      "yt": "c/ComarcaTV",
+      "ch": null,
+      "esperado": [
+        "comarca"
+      ]
+    }
+  ]
+}
