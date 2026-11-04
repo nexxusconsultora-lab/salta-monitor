@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-04T02:17:20.329301+00:00",
+  "generated_at": "2026-11-04T09:31:24.132782+00:00",
   "by_politician": {
+    "eje-cristina-fiore": {
+      "total": 59,
+      "positivo": 4,
+      "negativo": 13,
+      "neutral": 42,
+      "score_sum": -31
+    },
+    "dnac-eliana-bruno": {
+      "total": 20,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 16,
+      "score_sum": -1
+    },
+    "concejal-dario-madile": {
+      "total": 76,
+      "positivo": 4,
+      "negativo": 12,
+      "neutral": 60,
+      "score_sum": -19
+    },
+    "concejal-malvina-gareca": {
+      "total": 47,
+      "positivo": 5,
+      "negativo": 7,
+      "neutral": 35,
+      "score_sum": -7
+    },
+    "gustavo-saenz": {
+      "total": 435,
+      "positivo": 111,
+      "negativo": 70,
+      "neutral": 254,
+      "score_sum": 175
+    },
     "dip-monica-gabriela-juarez": {
       "total": 58,
       "positivo": 9,
@@ -36,13 +71,6 @@
       "neutral": 7,
       "score_sum": -3
     },
-    "eje-cristina-fiore": {
-      "total": 58,
-      "positivo": 4,
-      "negativo": 13,
-      "neutral": 41,
-      "score_sum": -31
-    },
     "eje-roberto-dib-ashur": {
       "total": 71,
       "positivo": 10,
@@ -63,13 +91,6 @@
       "negativo": 2,
       "neutral": 24,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 434,
-      "positivo": 111,
-      "negativo": 69,
-      "neutral": 254,
-      "score_sum": 177
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 11,
@@ -169,13 +190,6 @@
       "neutral": 20,
       "score_sum": -5
     },
-    "dnac-eliana-bruno": {
-      "total": 19,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 15,
-      "score_sum": -1
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 37,
       "positivo": 4,
@@ -196,13 +210,6 @@
       "negativo": 13,
       "neutral": 34,
       "score_sum": -16
-    },
-    "concejal-dario-madile": {
-      "total": 75,
-      "positivo": 4,
-      "negativo": 12,
-      "neutral": 59,
-      "score_sum": -19
     },
     "sen-walter-cruz": {
       "total": 25,
@@ -245,13 +252,6 @@
       "negativo": 14,
       "neutral": 34,
       "score_sum": -30
-    },
-    "concejal-malvina-gareca": {
-      "total": 46,
-      "positivo": 5,
-      "negativo": 7,
-      "neutral": 34,
-      "score_sum": -7
     },
     "eje-federico-mangione": {
       "total": 48,
@@ -934,17 +934,59 @@
     }
   },
   "by_day": {
-    "2024-03-13": {
-      "dip-monica-gabriela-juarez": {
+    "2024-11-07": {
+      "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 0
       },
-      "eje-ignacio-jarsun": {
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-20": {
+      "dnac-eliana-bruno": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-12-03": {
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-01": {
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
         "total": 1,
         "score_sum": 0
       }
     },
     "2026-11-04": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": -2
+      },
       "dip-jose-miguel-gauffin": {
         "total": 2,
         "score_sum": -1
@@ -960,6 +1002,16 @@
       "dip-rogelio-guaipo-segundo": {
         "total": 1,
         "score_sum": -1
+      }
+    },
+    "2024-03-13": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
       }
     },
     "2026-11-03": {
@@ -1454,24 +1506,6 @@
     },
     "2025-04-12": {
       "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-20": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-gaston-guillermo-galindez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
         "total": 1,
         "score_sum": 0
       }
@@ -2972,12 +3006,6 @@
         "score_sum": 0
       },
       "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-12-01": {
-      "eje-mario-mimessi": {
         "total": 1,
         "score_sum": 0
       }
@@ -11638,16 +11666,6 @@
         "score_sum": 0
       }
     },
-    "2024-11-07": {
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2023-06-14": {
       "sen-mashur-lapad": {
         "total": 1,
@@ -17950,15 +17968,15 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 29
-    },
-    {
-      "term": "milei",
-      "count": 13
+      "count": 30
     },
     {
       "term": "elintra",
-      "count": 12
+      "count": 15
+    },
+    {
+      "term": "milei",
+      "count": 14
     },
     {
       "term": "papa",
@@ -17989,6 +18007,10 @@
       "count": 10
     },
     {
+      "term": "cristina",
+      "count": 7
+    },
+    {
       "term": "orozco",
       "count": 7
     },
@@ -17998,10 +18020,6 @@
     },
     {
       "term": "hídrica",
-      "count": 6
-    },
-    {
-      "term": "cristina",
       "count": 6
     },
     {
