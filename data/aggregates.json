@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-04T17:30:20.932618+00:00",
+  "generated_at": "2026-11-04T22:52:05.159129+00:00",
   "by_politician": {
+    "concejal-malvina-gareca": {
+      "total": 48,
+      "positivo": 5,
+      "negativo": 7,
+      "neutral": 36,
+      "score_sum": -7
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 60,
+      "positivo": 9,
+      "negativo": 8,
+      "neutral": 43,
+      "score_sum": 3
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 66,
+      "positivo": 4,
+      "negativo": 14,
+      "neutral": 48,
+      "score_sum": -27
+    },
+    "concejal-eliana-del-valle-chuchuy": {
+      "total": 9,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 5,
+      "score_sum": 5
+    },
+    "snac-emilia-orozco": {
+      "total": 106,
+      "positivo": 9,
+      "negativo": 19,
+      "neutral": 78,
+      "score_sum": -20
+    },
     "eje-nicolas-avellaneda": {
       "total": 22,
       "positivo": 10,
@@ -21,13 +56,6 @@
       "negativo": 2,
       "neutral": 27,
       "score_sum": 35
-    },
-    "snac-emilia-orozco": {
-      "total": 105,
-      "positivo": 9,
-      "negativo": 18,
-      "neutral": 78,
-      "score_sum": -19
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 72,
@@ -78,13 +106,6 @@
       "neutral": 22,
       "score_sum": -3
     },
-    "dip-monica-gabriela-juarez": {
-      "total": 59,
-      "positivo": 9,
-      "negativo": 8,
-      "neutral": 42,
-      "score_sum": 3
-    },
     "eje-cristina-fiore": {
       "total": 59,
       "positivo": 4,
@@ -105,13 +126,6 @@
       "negativo": 12,
       "neutral": 60,
       "score_sum": -19
-    },
-    "concejal-malvina-gareca": {
-      "total": 47,
-      "positivo": 5,
-      "negativo": 7,
-      "neutral": 35,
-      "score_sum": -7
     },
     "dip-jose-miguel-gauffin": {
       "total": 34,
@@ -323,13 +337,6 @@
       "neutral": 22,
       "score_sum": -10
     },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 65,
-      "positivo": 4,
-      "negativo": 13,
-      "neutral": 48,
-      "score_sum": -24
-    },
     "concejal-gustavo-farquharson": {
       "total": 66,
       "positivo": 4,
@@ -357,13 +364,6 @@
       "negativo": 2,
       "neutral": 19,
       "score_sum": -2
-    },
-    "concejal-eliana-del-valle-chuchuy": {
-      "total": 8,
-      "positivo": 3,
-      "negativo": 1,
-      "neutral": 4,
-      "score_sum": 5
     },
     "eje-ignacio-lupion": {
       "total": 8,
@@ -934,7 +934,31 @@
     }
   },
   "by_day": {
+    "2023-09-16": {
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-08-10": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-04": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "concejal-eliana-del-valle-chuchuy": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -1
+      },
       "eje-nicolas-avellaneda": {
         "total": 1,
         "score_sum": 0
@@ -18006,14 +18030,14 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 33
-    },
-    {
-      "term": "elintra",
-      "count": 15
+      "count": 29
     },
     {
       "term": "milei",
+      "count": 16
+    },
+    {
+      "term": "elintra",
       "count": 14
     },
     {
