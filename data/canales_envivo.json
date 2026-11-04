@@ -47,11 +47,15 @@
       "nombre": "LN+",
       "tipo": "Noticias",
       "yt": "c/LaNacionMas",
-      "ch": null,
+      "ch": "UCba3hpU7EFBSk817y9qZkiA",
       "esperado": [
         "ln+",
         "la nacion"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "ok",
+      "titulo_youtube": "LA NACION",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "cronica-tv",
@@ -69,17 +73,24 @@
       "ch": null,
       "esperado": [
         "ip noticias"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "no_coincide",
+      "detalle": "el nombre en YouTube («Argentina 12») no contiene ninguna de ['ip noticias']"
     },
     {
       "id": "el-destape",
       "nombre": "El Destape",
       "tipo": "Noticias",
       "yt": "c/eldestapetv",
-      "ch": null,
+      "ch": "UC5wAqJ9NF0fpGH9dVf3h6HA",
       "esperado": [
         "destape"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "ok",
+      "titulo_youtube": "El Destape",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "tv-publica",
@@ -90,17 +101,24 @@
       "esperado": [
         "television publica",
         "tv publica"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "no_coincide",
+      "detalle": "el nombre en YouTube («Canal Siete») no contiene ninguna de ['television publica', 'tv publica']"
     },
     {
       "id": "encuentro",
       "nombre": "Encuentro",
       "tipo": "Educativo",
       "yt": "user/encuentro",
-      "ch": null,
+      "ch": "UC1zLDoKL-eKmd_K7qkUZ-ow",
       "esperado": [
         "encuentro"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "ok",
+      "titulo_youtube": "Canal Encuentro",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "pakapaka",
@@ -110,17 +128,24 @@
       "ch": null,
       "esperado": [
         "pakapaka"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "no_coincide",
+      "detalle": "el nombre en YouTube («Paka Paka») no contiene ninguna de ['pakapaka']"
     },
     {
       "id": "comarca-tv",
       "nombre": "Comarca TV",
       "tipo": "Regional",
       "yt": "c/ComarcaTV",
-      "ch": null,
+      "ch": "UChZdqEQv_A00ZM4qaysOMqw",
       "esperado": [
         "comarca"
-      ]
+      ],
+      "ultimo_intento": "2026-11-04T22:49:28+00:00",
+      "estado": "ok",
+      "titulo_youtube": "Comarca TV",
+      "fuente": "leído de YouTube y verificado por nombre"
     }
   ]
 }
