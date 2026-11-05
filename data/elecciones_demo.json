@@ -12,20 +12,80 @@
       "distrito": "Provincia de Ejemplo",
       "fecha": null,
       "nota_fecha": "Elección ficticia para probar la pantalla.",
-      "fuente_resultados": { "nombre": "Fuente de ejemplo", "url": "https://example.org/" },
-      "fuentes": [ { "titulo": "Página de ejemplo", "url": "https://example.org/" } ],
+      "fuente_resultados": {
+        "nombre": "Fuente de ejemplo",
+        "url": "https://example.org/"
+      },
+      "fuentes": [
+        {
+          "titulo": "Página de ejemplo",
+          "url": "https://example.org/"
+        }
+      ],
       "candidatos": [
-        { "id": "ej-1", "nombre": "Ana Ejemplo", "cargo": "Gobernador", "distrito": "Provincia de Ejemplo", "partido": "Partido de Ejemplo", "alianza": "Frente Ficticio", "numero_lista": "101", "estado": "oficializado", "detalle": "Candidata inventada para la demostración.", "fuente_url": "https://example.org/ana", "verificado_en": "2026-11-04" },
-        { "id": "ej-2", "nombre": "Beto Prueba", "cargo": "Gobernador", "distrito": "Provincia de Ejemplo", "partido": "Unión de Prueba", "alianza": "", "numero_lista": "202", "estado": "oficializado", "detalle": "Candidato inventado para la demostración.", "fuente_url": "https://example.org/beto", "verificado_en": "2026-11-04" },
-        { "id": "ej-3", "nombre": "Carla Muestra", "cargo": "Gobernador", "distrito": "Provincia de Ejemplo", "partido": "Movimiento Muestra", "alianza": "", "numero_lista": "303", "estado": "precandidato", "detalle": "Este candidato no tiene fuente a propósito, para ver cómo se marca." },
-        { "id": "ej-4", "nombre": "Darío Modelo", "cargo": "Diputados provinciales", "distrito": "Provincia de Ejemplo", "partido": "Partido de Ejemplo", "alianza": "Frente Ficticio", "numero_lista": "101", "estado": "oficializado", "detalle": "Primero de la lista de diputados (inventado).", "fuente_url": "https://example.org/dario", "verificado_en": "2026-11-04" }
+        {
+          "id": "ej-1",
+          "nombre": "Ana Ejemplo",
+          "cargo": "Gobernador",
+          "distrito": "Provincia de Ejemplo",
+          "partido": "Partido de Ejemplo",
+          "alianza": "Frente Ficticio",
+          "numero_lista": "101",
+          "estado": "oficializado",
+          "detalle": "Candidata inventada para la demostración.",
+          "fuente_url": "https://example.org/ana",
+          "verificado_en": "2026-11-04"
+        },
+        {
+          "id": "ej-2",
+          "nombre": "Beto Prueba",
+          "cargo": "Gobernador",
+          "distrito": "Provincia de Ejemplo",
+          "partido": "Unión de Prueba",
+          "alianza": "",
+          "numero_lista": "202",
+          "estado": "oficializado",
+          "detalle": "Candidato inventado para la demostración.",
+          "fuente_url": "https://example.org/beto",
+          "verificado_en": "2026-11-04"
+        },
+        {
+          "id": "ej-3",
+          "nombre": "Carla Muestra",
+          "cargo": "Gobernador",
+          "distrito": "Provincia de Ejemplo",
+          "partido": "Movimiento Muestra",
+          "alianza": "",
+          "numero_lista": "303",
+          "estado": "precandidato",
+          "detalle": "Este candidato no tiene fuente a propósito, para ver cómo se marca."
+        },
+        {
+          "id": "ej-4",
+          "nombre": "Darío Modelo",
+          "cargo": "Diputados provinciales",
+          "distrito": "Provincia de Ejemplo",
+          "partido": "Partido de Ejemplo",
+          "alianza": "Frente Ficticio",
+          "numero_lista": "101",
+          "estado": "oficializado",
+          "detalle": "Primero de la lista de diputados (inventado).",
+          "fuente_url": "https://example.org/dario",
+          "verificado_en": "2026-11-04"
+        }
       ],
       "resultados_inline": {
         "eleccion_id": "demo-ejemplo",
         "actualizado": "2099-01-01T00:00:00Z",
         "tipo": "provisorio",
-        "fuente": { "nombre": "Datos de ejemplo", "url": "https://example.org/" },
-        "mesas": { "escrutadas": 640, "total": 1000 },
+        "fuente": {
+          "nombre": "Datos de ejemplo",
+          "url": "https://example.org/"
+        },
+        "mesas": {
+          "escrutadas": 640,
+          "total": 1000
+        },
         "participacion_pct": 68.4,
         "categorias": [
           {
@@ -34,10 +94,265 @@
             "distrito": "Provincia de Ejemplo",
             "votos_validos": 100000,
             "listas": [
-              { "nombre": "Frente Ficticio", "partido": "Partido de Ejemplo", "votos": 46250 },
-              { "nombre": "Unión de Prueba", "partido": "Unión de Prueba", "votos": 31800 },
-              { "nombre": "Movimiento Muestra", "partido": "Movimiento Muestra", "votos": 14100 },
-              { "nombre": "Voto en blanco", "partido": "", "votos": 7850 }
+              {
+                "nombre": "Frente Ficticio",
+                "partido": "Partido de Ejemplo",
+                "votos": 46250
+              },
+              {
+                "nombre": "Unión de Prueba",
+                "partido": "Unión de Prueba",
+                "votos": 31800
+              },
+              {
+                "nombre": "Movimiento Muestra",
+                "partido": "Movimiento Muestra",
+                "votos": 14100
+              },
+              {
+                "nombre": "Voto en blanco",
+                "partido": "",
+                "votos": 7850
+              }
+            ],
+            "mesas": {
+              "escrutadas": 700,
+              "total": 1000
+            }
+          }
+        ],
+        "electores": 300000,
+        "votantes": 205200,
+        "avisos": [
+          "Ejemplo de aviso: así se ve un control de coherencia cuando la fuente informa números que no cierran entre sí."
+        ]
+      },
+      "historial_inline": {
+        "eleccion_id": "demo-ejemplo",
+        "muestras": [
+          {
+            "t": "2099-01-01T21:00:00Z",
+            "m": 100,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 15625,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    8125
+                  ],
+                  [
+                    "Unión de Prueba",
+                    4062
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    2344
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:05:00Z",
+            "m": 170,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 26562,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    13621
+                  ],
+                  [
+                    "Unión de Prueba",
+                    7099
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    3954
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:10:00Z",
+            "m": 250,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 39062,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    19751
+                  ],
+                  [
+                    "Unión de Prueba",
+                    10723
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    5771
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:15:00Z",
+            "m": 330,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 51562,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    25700
+                  ],
+                  [
+                    "Unión de Prueba",
+                    14528
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    7560
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:20:00Z",
+            "m": 410,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 64062,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    31470
+                  ],
+                  [
+                    "Unión de Prueba",
+                    18514
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    9321
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:25:00Z",
+            "m": 480,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 75000,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    36305
+                  ],
+                  [
+                    "Unión de Prueba",
+                    22219
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    10828
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:30:00Z",
+            "m": 550,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 85938,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    40982
+                  ],
+                  [
+                    "Unión de Prueba",
+                    26082
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    12311
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:35:00Z",
+            "m": 600,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 93750,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    44033
+                  ],
+                  [
+                    "Unión de Prueba",
+                    29133
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    13324
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "2099-01-01T21:40:00Z",
+            "m": 640,
+            "n": 1000,
+            "c": [
+              {
+                "id": "gobernador",
+                "b": 100000,
+                "v": [
+                  [
+                    "Frente Ficticio",
+                    46250
+                  ],
+                  [
+                    "Unión de Prueba",
+                    31800
+                  ],
+                  [
+                    "Movimiento Muestra",
+                    14100
+                  ]
+                ]
+              }
             ]
           }
         ]
