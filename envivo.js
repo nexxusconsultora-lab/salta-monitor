@@ -1,4 +1,4 @@
-/* NEWAR · envivo.js · pestaña «En vivo» — pared de TV
+/* NEWAR · envivo.js · pestaña «En vivo» — pared de TV (con botón para ocultar el menú y videos que entran en pantalla)
    Muestra dentro del panel de 1 a 4 transmisiones de YouTube a la vez, repartidas en partes iguales.
    - Elegís cuántos y cuáles canales ver (1, 2, 3 o 4).
    - Pantalla completa de toda la pared (o de un solo canal), con los canales simétricos.
@@ -129,10 +129,14 @@
       ".nxv .barra{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 12px}" +
       ".nxv .barra .der{margin-left:auto}" +
       ".nxv .cuenta{font-size:.9rem;color:var(--soft,#666)}" +
-      /* pared: partes iguales */
-      ".nxv .rejilla{display:grid;grid-template-columns:1fr;gap:14px}" +
+      /* en esta pantalla el contenido ocupa todo el ancho (útil con el menú lateral oculto) */
+      "html:has(.nxv) .wrap{max-width:none!important}" +
+      /* pared: partes iguales. --av es el alto que entra en pantalla: los videos se achican solos para verse enteros sin scroll */
+      ".nxv .rejilla{display:grid;grid-template-columns:1fr;gap:14px;--av:max(240px,calc(100vh - 250px))}" +
+      "@media (min-width:900px){.nxv .rejilla.n1 .cas{max-width:calc((var(--av) - 60px)*16/9);justify-self:center;width:100%}.nxv .rejilla.n3 .cas,.nxv .rejilla.n4 .cas{max-width:calc((var(--av)/2 - 40px)*16/9)}.nxv .rejilla.n4 .cas{justify-self:center;width:100%}}" +
+      "@media (min-width:1700px){.nxv .rejilla.n3 .cas{max-width:none}}" +
       "@media (min-width:900px){.nxv .rejilla.n2,.nxv .rejilla.n3,.nxv .rejilla.n4{grid-template-columns:1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:1/-1;justify-self:center;width:calc(50% - 7px)}}" +
-      "@media (min-width:1400px){.nxv .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}}" +
+      "@media (min-width:1700px){.nxv .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}}" +
       ".nxv .cas{min-width:0;position:relative}" +
       ".nxv .cab{display:flex;gap:8px;align-items:center;margin:0 0 6px}" +
       ".nxv .cab h3{margin:0;font-size:1rem;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
@@ -151,6 +155,7 @@
       "@media (orientation:landscape){.nxv .pared.pc .rejilla.n2{grid-template-columns:1fr 1fr}.nxv .pared.pc .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .pared.pc .rejilla.n4{grid-template-columns:1fr 1fr}}" +
       "@media (orientation:portrait){.nxv .pared.pc .rejilla.n4{grid-template-columns:1fr 1fr}}" +
       ".nxv .pared.pc .rejilla .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}" +
+      ".nxv .pc,.nxv .pared.pc .cas{max-width:none!important}" +
       ".nxv .pared.pc .cas,.nxv .cas.pc{position:relative;min-height:0}" +
       ".nxv .pared.pc .marco,.nxv .cas.pc .marco{position:absolute;inset:0;aspect-ratio:auto;border-radius:0}" +
       ".nxv .pc .cab{position:absolute;top:6px;left:6px;z-index:3;margin:0;background:rgba(0,0,0,.6);padding:3px 6px;border-radius:999px;max-width:70%}" +
@@ -429,7 +434,14 @@
       barra.appendChild(bl);
       var bpc = crear("button", "", "⛶ Pantalla completa"); bpc.type = "button"; bpc.disabled = !sel.length;
       barra.appendChild(bpc);
-      var bp = crear("button", "der", parado ? "▶ Reanudar" : "⏸ Parar todos"); bp.type = "button";
+      var NM = (typeof window !== "undefined") ? window.NewarMenu : null;
+      if (NM && typeof NM.alternar === "function") {
+        var bm = crear("button", "der", NM.abierto() ? "⇤ Ocultar menú" : "☰ Mostrar menú"); bm.type = "button"; bm.setAttribute("data-menu", "1");
+        bm.title = "Ocultar o mostrar el menú de la izquierda (Alt+B)";
+        bm.addEventListener("click", function () { NM.alternar(); });
+        barra.appendChild(bm);
+      }
+      var bp = crear("button", NM ? "" : "der", parado ? "▶ Reanudar" : "⏸ Parar todos"); bp.type = "button";
       bp.setAttribute("aria-pressed", parado ? "true" : "false");
       bp.addEventListener("click", function () { parado = !parado; dibujar(); });
       barra.appendChild(bp);
@@ -494,6 +506,11 @@
     if (audioId) setTimeout(aplicarAudio, 50);
     pintarReloj(); programarReloj();
   }
+
+  if (typeof window !== "undefined") window.addEventListener("newar-menu", function () {
+    var b = host && host.querySelector("button[data-menu]"), NM = window.NewarMenu;
+    if (b && NM) b.textContent = NM.abierto() ? "⇤ Ocultar menú" : "☰ Mostrar menú";
+  });
 
   function montar(el) { host = el; cargar(); dibujar(); if (!catalogoListo) cargarCatalogo(); }
 
