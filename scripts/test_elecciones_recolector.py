@@ -290,5 +290,191 @@ class Dine(unittest.TestCase):
         self.assertIn("anioEleccion=2023", self.urls[0])
 
 
+# ---- precisión en tiempo real: controles, historial, ciclo continuo y subida a Git ----
+class Reloj:
+    def __init__(self):
+        self.t, self.dormidos = 1000.0, []
+
+    def mono(self):
+        return self.t
+
+    def sleep(self, x):
+        self.dormidos.append(x)
+        self.t += x
+
+
+def pasada(**k):
+    r = {"rc": 0, "activas": True, "esperando": None, "cambios": False, "completo": False, "intervalo": 60}
+    r.update(k)
+    return r
+
+
+class Controles(unittest.TestCase):
+    def test_coherente_no_avisa(self):
+        for esc in (100, 1):
+            er = {"mesasTotalizadas": 500, "mesasEsperadas": 1000, "mesasTotalizadasPorcentaje": 50.0 / (100 / esc),
+                  "cantidadVotantes": 140000, "cantidadElectores": 200000, "participacionPorcentaje": 70.0 / (100 / esc)}
+            self.assertEqual(R._controles("Pres", er), [], esc)
+
+    def test_incoherente_avisa(self):
+        er = {"mesasTotalizadas": 500, "mesasEsperadas": 1000, "mesasTotalizadasPorcentaje": 80.0,
+              "cantidadVotantes": 140000, "cantidadElectores": 200000, "participacionPorcentaje": 55.0}
+        av = R._controles("Pres", er)
+        self.assertEqual(len(av), 2)
+        self.assertIn("80.0%", av[0])
+
+    def test_categoria_menos_avanzada_manda(self):
+        R._ROBOTS.clear()
+        r1, r2 = resp_dine(mesas=(900, 1000)), resp_dine(mesas=(400, 1000))
+        resp = iter([r1, r2])
+
+        def f(url, max_bytes=0, timeout=0, headers=None):
+            return 200, "application/json", json.dumps(next(resp)).encode()
+        with mock.patch.object(R, "permitido", return_value=True), mock.patch.object(R.time, "sleep"), mock.patch.object(R, "http_get", side_effect=f):
+            crudo = R.adaptador_dine_api(FUENTE_DINE, ELE)
+        self.assertEqual(crudo["mesas"], {"escrutadas": 400, "total": 1000})
+        self.assertEqual(crudo["categorias"][0]["mesas"]["escrutadas"], 900)
+        self.assertEqual((crudo["electores"], crudo["votantes"]), (200000, 140000))
+        p, o = R.validar(crudo, ELE, None, R.datetime.fromisoformat("2027-10-24T22:05:00-03:00"))
+        self.assertEqual(p, [])
+        self.assertEqual(o["categorias"][1]["mesas"], {"escrutadas": 400, "total": 1000})
+        self.assertEqual(o["electores"], 200000)
+
+
+class Historial(unittest.TestCase):
+    def test_muestras(self):
+        tmp = tempfile.mkdtemp()
+        destino = os.path.join(tmp, "res.json")
+        mk = lambda t, m: {"actualizado": t, "mesas": {"escrutadas": m, "total": 1000},
+                           "categorias": [{"id": "1", "votos_validos": 1000, "listas": [{"nombre": "A", "votos": 500}, {"nombre": "B", "votos": 300}] + [{"nombre": f"L{i}", "votos": 10} for i in range(6)]}]}
+        R._historial(ELE, mk("2027-10-24T22:00:00-03:00", 100), destino)
+        R._historial(ELE, mk("2027-10-24T22:00:00-03:00", 100), destino)  # repetido: no suma
+        R._historial(ELE, mk("2027-10-24T22:05:00-03:00", 200), destino)
+        with open(destino[:-5] + "_historial.json", encoding="utf-8") as f:
+            h = json.load(f)
+        self.assertEqual([m["m"] for m in h["muestras"]], [100, 200])
+        self.assertEqual(len(h["muestras"][0]["c"][0]["v"]), 5)
+        self.assertEqual(h["muestras"][0]["c"][0]["b"], 1000)
+        R._historial(dict(ELE, id="otra"), mk("2027-10-24T22:10:00-03:00", 300), destino)  # otra elección: empieza de cero
+        with open(destino[:-5] + "_historial.json", encoding="utf-8") as f:
+            h = json.load(f)
+        self.assertEqual((h["eleccion_id"], len(h["muestras"])), ("otra", 1))
+
+    def test_tope(self):
+        tmp = tempfile.mkdtemp()
+        destino = os.path.join(tmp, "res.json")
+        for i in range(520):
+            R._historial(ELE, {"actualizado": f"2027-10-24T22:{i % 60:02d}:00-03:00", "mesas": {"escrutadas": i, "total": 1000},
+                               "categorias": [{"id": "1", "listas": [{"nombre": "A", "votos": i}]}]}, destino)
+        with open(destino[:-5] + "_historial.json", encoding="utf-8") as f:
+            h = json.load(f)
+        self.assertEqual(len(h["muestras"]), 500)
+        self.assertEqual(h["muestras"][-1]["m"], 519)
+
+
+class Bucle(unittest.TestCase):
+    def setUp(self):
+        self.r = Reloj()
+        self.p = [mock.patch.object(R.time, "monotonic", self.r.mono), mock.patch.object(R.time, "sleep", self.r.sleep),
+                  mock.patch.object(R, "guardar_git")]
+        self.git = [x.start() for x in self.p][2]
+
+    def tearDown(self):
+        for x in self.p:
+            x.stop()
+
+    def test_sin_eleccion_termina_enseguida(self):
+        with mock.patch.object(R, "_pasada", return_value=pasada(activas=False)) as m:
+            self.assertEqual(R.bucle(170), 0)
+        self.assertEqual(m.call_count, 1)
+
+    def test_corre_hasta_agotar_el_tiempo_y_sube_cada_cambio(self):
+        with mock.patch.object(R, "_pasada", side_effect=lambda: pasada(cambios=True)) as m:
+            self.assertEqual(R.bucle(10), 0)
+        self.assertEqual(m.call_count, 10)  # una por minuto durante 10 minutos
+        self.assertGreaterEqual(self.git.call_count, 10)
+        self.assertTrue(all(x == 60 for x in self.r.dormidos))
+
+    def test_termina_cuando_el_conteo_esta_completo_y_quieto(self):
+        with mock.patch.object(R, "_pasada", side_effect=[pasada(cambios=True, completo=True)] + [pasada(completo=True)] * 30) as m:
+            self.assertEqual(R.bucle(170), 0)
+        self.assertEqual(m.call_count, 11)  # la que trajo el dato + 10 sin novedades
+
+    def test_espera_a_la_hora_de_publicacion(self):
+        lim = R.datetime.fromisoformat("2027-10-24T21:00:00-03:00")
+        ahora_ = R.datetime.fromisoformat("2027-10-24T20:59:30-03:00")
+        with mock.patch.object(R, "ahora", return_value=ahora_), \
+                mock.patch.object(R, "_pasada", side_effect=[pasada(esperando=lim), pasada(activas=False)]):
+            R.bucle(170)
+        self.assertAlmostEqual(self.r.dormidos[0], 30, delta=0.01)
+
+    def test_errores_permanentes_dan_rojo_y_transitorios_no(self):
+        with mock.patch.object(R, "_pasada", return_value=pasada(rc=1)):
+            self.assertEqual(R.bucle(5), 1)
+        with mock.patch.object(R, "_pasada", side_effect=[pasada(rc=1), pasada(cambios=True)] + [pasada(rc=1)] * 10):
+            self.assertEqual(R.bucle(5), 0)
+
+    def test_intervalo_configurable_con_piso_de_30s(self):
+        e = dict(ELE, intervalo_seg=5)
+        tmp = tempfile.mkdtemp()
+        os.makedirs(os.path.join(tmp, "data"))
+        cfg = os.path.join(tmp, "data", "elecciones.json")
+        with open(cfg, "w", encoding="utf-8") as f:
+            json.dump({"elecciones": [e]}, f)
+        os.environ["NEWAR_AHORA"] = "2027-10-24T22:05:00-03:00"
+        try:
+            with mock.patch.object(R, "RAIZ", tmp), mock.patch.object(R, "CFG", cfg), \
+                    mock.patch.dict(R.ADAPTADORES, {"json_normalizado": lambda f, ee: dato()}):
+                self.assertEqual(R._pasada()["intervalo"], 30)
+        finally:
+            os.environ.pop("NEWAR_AHORA")
+
+
+@unittest.skipUnless(__import__("shutil").which("git"), "no hay git en este equipo")
+class SubidaAGit(unittest.TestCase):
+    def git(self, cwd, *a):
+        env = dict(os.environ, GIT_AUTHOR_NAME="t", GIT_AUTHOR_EMAIL="t@t", GIT_COMMITTER_NAME="t", GIT_COMMITTER_EMAIL="t@t")
+        return R.subprocess.run(["git", *a], cwd=cwd, capture_output=True, text=True, env=env, check=True).stdout
+
+    def test_sube_y_resiste_cambios_de_otros(self):
+        tmp = tempfile.mkdtemp()
+        origen = os.path.join(tmp, "origen.git")
+        self.git(tmp, "init", "--bare", "-q", origen)
+        a, b = os.path.join(tmp, "a"), os.path.join(tmp, "b")
+        self.git(tmp, "clone", "-q", origen, a)
+        os.makedirs(os.path.join(a, "data"))
+        with open(os.path.join(a, "data", "elecciones_resultados.json"), "w") as f:
+            f.write("{}")
+        self.git(a, "add", "."), self.git(a, "commit", "-q", "-m", "inicio"), self.git(a, "push", "-q", "origin", "HEAD")
+        self.git(tmp, "clone", "-q", origen, b)  # otro proceso (otro bot) que también sube cosas
+        os.environ["NEWAR_GIT"] = "1"
+        try:
+            with mock.patch.object(R, "RAIZ", a), mock.patch.object(R.time, "sleep"):
+                self.assertTrue(R.guardar_git())  # sin cambios: no hace nada
+                n0 = self.git(origen, "rev-list", "--count", "HEAD").strip()
+                with open(os.path.join(a, "data", "elecciones_resultados.json"), "w") as f:
+                    f.write('{"mesas": 1}')
+                with open(os.path.join(a, "data", "elecciones_resultados_historial.json"), "w") as f:
+                    f.write("{}")
+                with open(os.path.join(b, "otro.txt"), "w") as f:  # el otro bot sube primero
+                    f.write("x")
+                self.git(b, "add", "."), self.git(b, "commit", "-q", "-m", "otro"), self.git(b, "push", "-q", "origin", "HEAD")
+                self.assertTrue(R.guardar_git())
+        finally:
+            os.environ.pop("NEWAR_GIT")
+        self.assertEqual(self.git(origen, "rev-list", "--count", "HEAD").strip(), str(int(n0) + 2))
+        self.git(b, "pull", "-q")
+        with open(os.path.join(b, "data", "elecciones_resultados.json")) as f:
+            self.assertIn('"mesas": 1', f.read())
+        self.assertTrue(os.path.exists(os.path.join(b, "data", "elecciones_resultados_historial.json")))
+        self.assertTrue(os.path.exists(os.path.join(b, "otro.txt")))
+
+    def test_sin_la_marca_no_toca_git(self):
+        os.environ.pop("NEWAR_GIT", None)
+        with mock.patch.object(R.subprocess, "run") as m:
+            self.assertTrue(R.guardar_git())
+        m.assert_not_called()
+
+
 if __name__ == "__main__":
     unittest.main()
