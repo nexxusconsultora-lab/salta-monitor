@@ -2,21 +2,25 @@ name: Resultados electorales
 
 on:
   schedule:
-    # Cada 5 minutos entre las 21:00 y las 02:55 de Argentina (00:00 a 05:55 UTC): la franja de las noches de elecciones.
-    # Si ese día no hay elecciones, el script termina en segundos sin tocar nada.
-    - cron: "*/5 0-5 * * *"
+    # CICLO DE LA NOCHE: cada corrida recolecta cada ~60 segundos durante 170 minutos y sube cada dato nuevo apenas llega.
+    # Arranca a las 20:30 de Argentina (23:30 UTC) porque GitHub suele demorar los horarios programados: así ya está
+    # corriendo cuando se habilitan los resultados (21:00). La segunda corrida (23:00 de Argentina) espera su turno y
+    # continúa hasta la madrugada. Si ese día no hay elecciones, cada corrida termina en segundos sin tocar nada.
+    - cron: "30 23 * * *"
+    - cron: "0 2 * * *"
     # Dos controles diarios para el escrutinio definitivo de los días siguientes (09:00 y 15:00 de Argentina).
     - cron: "0 12,18 * * *"
   workflow_dispatch:
     inputs:
       modo:
-        description: "probar_dine = consulta la API oficial con la elección de 2023; diagnosticar = mira cómo entregan los datos los sitios oficiales; recolectar = corre como en una elección"
+        description: "probar_dine = consulta la API oficial con la elección de 2023; diagnosticar = mira cómo entregan los datos los sitios oficiales; recolectar = una sola vuelta; ciclo = como en la noche de elecciones"
         type: choice
         default: probar_dine
         options:
           - probar_dine
           - diagnosticar
           - recolectar
+          - ciclo
 
 permissions:
   contents: write
@@ -28,7 +32,7 @@ concurrency:
 jobs:
   elecciones:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 185
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -41,17 +45,22 @@ jobs:
       - name: Correr el recolector (o el diagnóstico)
         env:
           MODO: ${{ inputs.modo }}
+          PROGRAMADO: ${{ github.event.schedule }}
           DINE_TOKEN: ${{ secrets.DINE_TOKEN }}
+          NEWAR_GIT: "1"
         run: |
           if [ "$MODO" = "probar_dine" ]; then
             python scripts/elecciones.py --probar-dine
           elif [ "$MODO" = "diagnosticar" ]; then
             python scripts/elecciones.py --diagnosticar
+          elif [ "$MODO" = "ciclo" ] || [ "$PROGRAMADO" = "30 23 * * *" ] || [ "$PROGRAMADO" = "0 2 * * *" ]; then
+            python scripts/elecciones.py --bucle 170
           else
             python scripts/elecciones.py
           fi
 
       - name: Guardar los datos nuevos en el repositorio
+        if: always()
         run: |
           git config user.name "radar-politico-bot"
           git config user.email "radar-politico-bot@users.noreply.github.com"
