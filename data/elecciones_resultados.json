@@ -1,0 +1,8 @@
+{
+  "_leeme": "Resultados de la elección en curso. Lo llena el recolector de la Parte 2; hoy está vacío a propósito. Formato: eleccion_id (el id de data/elecciones.json), actualizado (fecha y hora ISO), tipo (provisorio o definitivo), fuente {nombre,url}, mesas {escrutadas,total}, participacion_pct, categorias [{id,nombre,distrito,votos_validos,listas:[{nombre,partido,votos}]}]. La pantalla calcula los porcentajes ella misma a partir de los votos.",
+  "eleccion_id": null,
+  "actualizado": null,
+  "tipo": "provisorio",
+  "mesas": { "escrutadas": 0, "total": 0 },
+  "categorias": []
+}

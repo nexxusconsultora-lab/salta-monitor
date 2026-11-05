@@ -1,0 +1,125 @@
+{
+  "_leeme": "Configuración de la pestaña «Elecciones» de NEWAR. La pestaña SOLO aparece cuando hay una elección en curso (desde 60 días antes de la fecha hasta 7 días después; se puede cambiar con candidatos_desde y dias_post). Para cada elección: 'fecha' en formato AAAA-MM-DD (dejala en null hasta que haya una convocatoria oficial). 'candidatos' empieza vacío: se carga a mano con fuente, nunca sin fuente. 'resultados_url' apunta al archivo con el conteo (lo llena el recolector de la Parte 2). 'no_publicar_antes' (opcional, hora con zona, ej. 2027-10-24T21:00:00-03:00): hasta ese momento la pantalla no muestra resultados; si no lo ponés, se usan las 21:00 de Argentina del día de la elección. 'forzar_estado' (opcional: candidatos, jornada o post) sirve para probar y hay que borrarlo después. 'forzar_activa': true muestra la pestaña aunque no haya elección en curso. Para elecciones nacionales, fuente_resultados.adaptador 'dine_api' lee la API oficial de la Dirección Nacional Electoral: 'anio', 'tipo_eleccion' (1 PASO, 2 Generales, 3 Segunda vuelta) y la lista 'categorias' (id de categoría, nombre para mostrar y, si hace falta, distritoId). Si la API pide token, se guarda como secreto DINE_TOKEN en GitHub.",
+  "_ejemplo_de_candidato": {
+    "id": "apellido-nombre",
+    "nombre": "Nombre Apellido",
+    "cargo": "Gobernador",
+    "distrito": "Salta",
+    "partido": "Nombre del partido",
+    "alianza": "Nombre de la alianza o frente (si hay)",
+    "numero_lista": "503",
+    "estado": "oficializado",
+    "detalle": "Dato breve y verificable (cargo actual, trayectoria).",
+    "politico_id": "id de la persona en politicians.json (opcional, agrega el enlace a su ficha)",
+    "fuente_url": "https://",
+    "verificado_en": "AAAA-MM-DD"
+  },
+  "actualizado": "2026-11-04",
+  "forzar_activa": false,
+  "elecciones": [
+    {
+      "id": "salta-provincial-2027",
+      "nombre": "Elecciones provinciales de Salta 2027",
+      "ambito": "Provincial",
+      "distrito": "Salta",
+      "fecha": null,
+      "fecha_estimada": "Mayo de 2027 (se habló del 16 o del 23 de mayo; sin confirmar)",
+      "nota_fecha": "A noviembre de 2026 la fecha no está convocada oficialmente. Cuando se publique el decreto de convocatoria, escribí la fecha en 'fecha' con formato AAAA-MM-DD.",
+      "candidatos_desde": null,
+      "dias_post": 7,
+      "no_publicar_antes": null,
+      "resultados_url": "data/elecciones_resultados.json",
+      "fuente_resultados": {
+        "nombre": "Tribunal Electoral de Salta",
+        "url": "https://www.electoralsalta.gov.ar"
+      },
+      "fuentes": [
+        {
+          "titulo": "Ámbito: Salta apunta a mediados de mayo de 2027",
+          "url": "https://www.ambito.com/ambito-nacional/desdoblamiento-electoral-jujuy-salta-y-chaco-se-distancian-octubre-mientras-que-catamarca-se-pega-las-presidenciales-n6307512"
+        },
+        {
+          "titulo": "La Nueva (NA): Sáenz evalúa el 16 o el 23 de mayo",
+          "url": "https://www.lanueva.com/nota/2026-8-1-8-35-0-elecciones-2027-al-menos-ocho-provincias-preven-desdoblar-sus-comicios"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": "nacional-paso-2027",
+      "nombre": "PASO nacionales 2027 (solo si siguen vigentes)",
+      "ambito": "Nacional",
+      "distrito": "Argentina",
+      "fecha": "2027-08-08",
+      "fecha_estimada": "",
+      "nota_fecha": "Fecha prevista por la ley 26.571 (segundo domingo de agosto). Es condicional: las PASO podrían eliminarse o suspenderse. Si eso pasa, borrá este bloque.",
+      "candidatos_desde": null,
+      "dias_post": 7,
+      "no_publicar_antes": null,
+      "resultados_url": "data/elecciones_resultados.json",
+      "fuente_resultados": {
+        "nombre": "Dirección Nacional Electoral (API oficial de resultados)",
+        "url": "https://resultados.mininterior.gob.ar/",
+        "adaptador": "dine_api",
+        "anio": 2027,
+        "tipo_eleccion": 1,
+        "tipo_recuento": 1,
+        "categorias": [
+          {
+            "id": 1,
+            "nombre": "Presidente y vicepresidente"
+          }
+        ]
+      },
+      "fuentes": [
+        {
+          "titulo": "El Destape: fechas clave de 2027 (PASO el 8 de agosto si no se eliminan)",
+          "url": "https://www.eldestapeweb.com/politica/cuando-elecciones-2027-argentina-todas-fechas-tener-cuenta-20261023203719"
+        },
+        {
+          "titulo": "Diario Popular: calendario completo 2027",
+          "url": "https://www.diariopopular.com.ar/politica/elecciones-2027-el-calendario-completo-las-fechas-las-paso-y-las-generales-n919077"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": "nacional-generales-2027",
+      "nombre": "Elecciones generales nacionales 2027",
+      "ambito": "Nacional",
+      "distrito": "Argentina",
+      "fecha": "2027-10-24",
+      "fecha_estimada": "",
+      "nota_fecha": "Fecha prevista por la ley (cuarto domingo de octubre). Falta la convocatoria formal del Poder Ejecutivo y el cronograma de la Justicia Electoral.",
+      "candidatos_desde": null,
+      "dias_post": 7,
+      "no_publicar_antes": null,
+      "resultados_url": "data/elecciones_resultados.json",
+      "fuente_resultados": {
+        "nombre": "Dirección Nacional Electoral (API oficial de resultados)",
+        "url": "https://resultados.mininterior.gob.ar/",
+        "adaptador": "dine_api",
+        "anio": 2027,
+        "tipo_eleccion": 2,
+        "tipo_recuento": 1,
+        "categorias": [
+          {
+            "id": 1,
+            "nombre": "Presidente y vicepresidente"
+          }
+        ]
+      },
+      "fuentes": [
+        {
+          "titulo": "Infobae: fechas y cargos que se votan en 2027",
+          "url": "https://www.infobae.com/politica/2026/10/14/elecciones-2027-en-argentina-fechas-y-todos-los-cargos-que-se-votan-a-nivel-nacional/"
+        },
+        {
+          "titulo": "La Nación: cuándo son las elecciones 2027",
+          "url": "https://www.lanacion.com.ar/politica/elecciones-2027-cuando-se-vota-para-presidente-en-la-argentina-nid03082026/"
+        }
+      ],
+      "candidatos": []
+    }
+  ]
+}
