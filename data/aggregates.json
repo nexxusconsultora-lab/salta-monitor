@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-04T22:55:55.534990+00:00",
+  "generated_at": "2026-11-05T03:00:12.267271+00:00",
   "by_politician": {
+    "dnac-eliana-bruno": {
+      "total": 21,
+      "positivo": 2,
+      "negativo": 3,
+      "neutral": 16,
+      "score_sum": -3
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 60,
+      "positivo": 9,
+      "negativo": 8,
+      "neutral": 43,
+      "score_sum": 3
+    },
     "concejal-malvina-gareca": {
       "total": 48,
       "positivo": 5,
@@ -105,13 +119,6 @@
       "negativo": 13,
       "neutral": 42,
       "score_sum": -31
-    },
-    "dnac-eliana-bruno": {
-      "total": 20,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 16,
-      "score_sum": -1
     },
     "concejal-dario-madile": {
       "total": 76,
@@ -927,6 +934,18 @@
     }
   },
   "by_day": {
+    "2025-09-10": {
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2023-08-10": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2023-09-16": {
       "concejal-malvina-gareca": {
         "total": 1,
@@ -18017,39 +18036,11 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 29
-    },
-    {
-      "term": "milei",
-      "count": 16
+      "count": 18
     },
     {
       "term": "elintra",
-      "count": 14
-    },
-    {
-      "term": "papa",
-      "count": 11
-    },
-    {
-      "term": "legisladores",
-      "count": 11
-    },
-    {
-      "term": "invitó",
-      "count": 10
-    },
-    {
-      "term": "salteños",
-      "count": 10
-    },
-    {
-      "term": "agasajo",
-      "count": 10
-    },
-    {
-      "term": "león",
-      "count": 10
+      "count": 13
     },
     {
       "term": "subsidios",
@@ -18074,6 +18065,34 @@
     {
       "term": "cristina",
       "count": 7
+    },
+    {
+      "term": "amba",
+      "count": 6
+    },
+    {
+      "term": "emergencia",
+      "count": 6
+    },
+    {
+      "term": "hídrica",
+      "count": 6
+    },
+    {
+      "term": "mónica",
+      "count": 5
+    },
+    {
+      "term": "juárez",
+      "count": 5
+    },
+    {
+      "term": "milei",
+      "count": 5
+    },
+    {
+      "term": "privilegios",
+      "count": 5
     }
   ],
   "comentions": [
