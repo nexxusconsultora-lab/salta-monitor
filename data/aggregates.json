@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-11-05T21:42:11.470560+00:00",
+  "generated_at": "2026-11-05T23:47:38.010199+00:00",
   "by_politician": {
+    "sen-walter-cruz": {
+      "total": 26,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 22,
+      "score_sum": 2
+    },
+    "sen-luciano-elvira": {
+      "total": 18,
+      "positivo": 3,
+      "negativo": 1,
+      "neutral": 14,
+      "score_sum": 2
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 74,
+      "positivo": 9,
+      "negativo": 12,
+      "neutral": 53,
+      "score_sum": -3
+    },
     "eje-manuela-arancibia": {
       "total": 16,
       "positivo": 7,
@@ -28,13 +49,6 @@
       "negativo": 75,
       "neutral": 257,
       "score_sum": 155
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 73,
-      "positivo": 9,
-      "negativo": 11,
-      "neutral": 53,
-      "score_sum": -2
     },
     "dip-gaston-guillermo-galindez": {
       "total": 29,
@@ -281,13 +295,6 @@
       "neutral": 11,
       "score_sum": -4
     },
-    "sen-walter-cruz": {
-      "total": 25,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 21,
-      "score_sum": 2
-    },
     "dip-gustavo-orlando-orozco": {
       "total": 47,
       "positivo": 1,
@@ -462,13 +469,6 @@
       "negativo": 1,
       "neutral": 0,
       "score_sum": 1
-    },
-    "sen-luciano-elvira": {
-      "total": 17,
-      "positivo": 3,
-      "negativo": 0,
-      "neutral": 14,
-      "score_sum": 7
     },
     "sen-manuel-pailler": {
       "total": 52,
@@ -934,23 +934,19 @@
     }
   },
   "by_day": {
-    "2024-12-23": {
-      "eje-manuela-arancibia": {
+    "2026-11-05": {
+      "sen-walter-cruz": {
         "total": 1,
         "score_sum": 0
       },
-      "dip-sofia-sierra": {
+      "sen-luciano-elvira": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-06-30": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-11-05": {
+        "score_sum": -5
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 1
+      },
       "sen-enrique-cornejo-saravia": {
         "total": 2,
         "score_sum": 2
@@ -958,10 +954,6 @@
       "gustavo-saenz": {
         "total": 3,
         "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 2
       },
       "concejal-angel-ortiz": {
         "total": 2,
@@ -982,6 +974,22 @@
       "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": -2
+      }
+    },
+    "2024-12-23": {
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-06-30": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
       }
     },
     "2026-11-04": {
@@ -18113,47 +18121,23 @@
   ],
   "trending_terms": [
     {
-      "term": "sáenz",
-      "count": 19
-    },
-    {
       "term": "elintra",
-      "count": 18
+      "count": 16
     },
     {
-      "term": "subsidios",
-      "count": 9
-    },
-    {
-      "term": "cuestionó",
-      "count": 9
+      "term": "sáenz",
+      "count": 10
     },
     {
       "term": "emergencia",
-      "count": 8
+      "count": 7
     },
     {
-      "term": "nación",
-      "count": 8
-    },
-    {
-      "term": "reelección",
+      "term": "cuestionó",
       "count": 7
     },
     {
       "term": "hídrica",
-      "count": 7
-    },
-    {
-      "term": "biella",
-      "count": 7
-    },
-    {
-      "term": "transporte",
-      "count": 7
-    },
-    {
-      "term": "bernardo",
       "count": 6
     },
     {
@@ -18165,12 +18149,36 @@
       "count": 6
     },
     {
-      "term": "amba",
-      "count": 6
+      "term": "reelección",
+      "count": 5
+    },
+    {
+      "term": "biella",
+      "count": 5
+    },
+    {
+      "term": "contra",
+      "count": 5
+    },
+    {
+      "term": "transporte",
+      "count": 5
+    },
+    {
+      "term": "subsidios",
+      "count": 5
     },
     {
       "term": "diputados",
-      "count": 6
+      "count": 5
+    },
+    {
+      "term": "javier",
+      "count": 4
+    },
+    {
+      "term": "bernardo",
+      "count": 4
     }
   ],
   "comentions": [
