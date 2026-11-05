@@ -11,8 +11,8 @@
    Se carga como argentina.js: no toca el resto de index.html. */
 (()=>{
 if(typeof V==='undefined'||typeof TABS==='undefined')return;
-const DIA=864e5,ARG=3*36e5,CADA=60000,ACT=['candidatos','jornada','post'];
-const E={cfg:null,err:'',res:{},resErr:{},timer:0};
+const DIA=864e5,ARG=3*36e5,CADA=30000,ACT=['candidatos','jornada','post'];
+const E={cfg:null,err:'',res:{},resErr:{},hist:{},ult:{},timer:0,tick:0};
 const hoyAR=()=>new Date(Date.now()-ARG).toISOString().slice(0,10); /* Argentina es UTC-3 todo el año */
 const ms=s=>Date.parse(s+'T00:00:00Z');
 const suma=(s,n)=>new Date(ms(s)+n*DIA).toISOString().slice(0,10);
@@ -47,6 +47,7 @@ const CSS=`
 .el-nosrc{font-size:.78rem;color:var(--negtx);font-weight:600}
 .el-bar{height:.8rem;background:var(--line);border-radius:6px;overflow:hidden;margin:.2rem 0 .5rem}.el-bar i{display:block;height:100%;background:var(--indigo)}.el-bar i.l{background:var(--clay)}
 .el-row{display:flex;justify-content:space-between;gap:.6rem;font-variant-numeric:tabular-nums}.el-row span:first-child{min-width:0;overflow-wrap:anywhere}
+.el-fr{font-size:.86rem;font-weight:600;margin:.3rem 0}.el-fr.ok{color:var(--pos)}.el-fr.mid{color:var(--clay)}.el-fr.bad{color:var(--negtx)}
 .el-prog{height:1rem;background:var(--line);border-radius:6px;overflow:hidden;margin:.3rem 0}.el-prog i{display:block;height:100%;background:var(--pos)}
 .el-demo{background:var(--clay);color:var(--onclay);padding:.5rem .8rem;border-radius:8px;font-weight:700;margin:.5rem 0}
 .el-q{width:100%;max-width:24rem;padding:.45rem .6rem;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;margin:.3rem 0 .6rem}
@@ -59,12 +60,18 @@ async function cargar(demo){
   const j=await r.json();if(!j||!Array.isArray(j.elecciones))throw new Error('el archivo no tiene la lista «elecciones»');return{cfg:j,err:''}}
  catch(x){return{cfg:null,err:String(x&&x.message||x)}}}
 
+async function traerHist(e){
+ if(e.historial_inline){E.hist[e.id]=e.historial_inline;return}
+ const u=e.resultados_url;
+ if(!u||!/^data\/[a-z0-9_-]+\.json$/.test(u))return;
+ try{const r=await fetch(u.replace(/\.json$/,'_historial.json')+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const h=await r.json();if(h&&h.eleccion_id===e.id)E.hist[e.id]=h}}catch(_){}}
 async function traerRes(e){
- if(e.resultados_inline){E.res[e.id]=e.resultados_inline;E.resErr[e.id]='';return}
+ if(e.resultados_inline){E.res[e.id]=e.resultados_inline;E.resErr[e.id]='';await traerHist(e);return}
  const u=e.resultados_url;
  if(!u||!/^(https:\/\/|data\/)/.test(u)){E.resErr[e.id]='Esta elección no tiene una «resultados_url» válida en data/elecciones.json.';return}
- try{const r=await fetch(u+(u.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);E.res[e.id]=await r.json();E.resErr[e.id]=''}
- catch(x){E.resErr[e.id]=String(x&&x.message||x)}}
+ try{const r=await fetch(u+(u.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);E.res[e.id]=await r.json();E.ult[e.id]=Date.now();E.resErr[e.id]=''}
+ catch(x){E.resErr[e.id]=String(x&&x.message||x)}
+ await traerHist(e)}
 
 /* ---------- pantallas ---------- */
 const ETQ={sin_fecha:['Fecha sin confirmar',0],proxima:['Próxima',0],candidatos:['En campaña · candidatos',1],jornada:['Hoy se vota',1],post:['Resultados',1],terminada:['Finalizada',0]};
@@ -119,16 +126,54 @@ function embargo(e,st,demo){
  const t=e.no_publicar_antes?Date.parse(e.no_publicar_antes):(fechaOk(e.fecha)?Date.parse(e.fecha+'T21:00:00-03:00'):0);
  return t&&Date.now()<t?t:0}
 
-function catHTML(c){
+function catHTML(c,top){
  const ls=(c.listas||[]).filter(l=>l&&isFinite(+l.votos)&&+l.votos>=0).map(l=>({n:l.nombre||'(sin nombre)',p:l.partido||'',v:+l.votos})).sort((a,b)=>b.v-a.v);
  const sm=ls.reduce((s,l)=>s+l.v,0),declarada=+c.votos_validos>0,base=declarada?+c.votos_validos:sm;
  const tit=`<h4 style="margin:0 0 .4rem">${esc(c.nombre||'Categoría')}${c.distrito?` <span class="note">· ${esc(c.distrito)}</span>`:''}</h4>`;
  if(!ls.length||!base)return`<div class="el-card">${tit}<p class="empty">Todavía no hay votos cargados en esta categoría.</p></div>`;
  const warn=declarada&&sm>base?`<p class="warn" role="alert">Dato inconsistente: la suma de las listas (${num(sm)}) supera los votos válidos informados (${num(base)}). Los porcentajes no son confiables.</p>`:'';
  const filas=ls.map((l,i)=>{const p=Math.min(100,l.v/base*100);return`<div><div class="el-row"><span><b>${esc(l.n)}</b>${l.p&&l.p!==l.n?` <span class="note">${esc(l.p)}</span>`:''}</span><span><b>${pc(l.v,base)}%</b> · ${num(l.v)}</span></div><div class="el-bar"><i${i===0?' class="l"':''} style="width:${p.toFixed(2)}%"></i></div></div>`}).join('');
+ const mc=c.mesas&&+c.mesas.total>0&&top&&(+c.mesas.escrutadas!==+top.escrutadas||+c.mesas.total!==+top.total)?`<p class="note">Mesas de esta categoría: ${num(c.mesas.escrutadas)} de ${num(c.mesas.total)} (${pc(c.mesas.escrutadas,c.mesas.total)}%).</p>`:'';
  const bn=[c.en_blanco!=null&&isFinite(+c.en_blanco)?'En blanco: '+num(c.en_blanco):'',c.nulos!=null&&isFinite(+c.nulos)?'Nulos: '+num(c.nulos):''].filter(Boolean).join(' · ');
  const mg=ls.length>1?`<p class="note">Diferencia entre el primero y el segundo: <b>${pc(ls[0].v-ls[1].v,base)} puntos</b> (${num(ls[0].v-ls[1].v)} votos).</p>`:'';
- return`<div class="el-card">${tit}${warn}${filas}${mg}<p class="note">Porcentajes sobre ${c.base_nombre?'los '+esc(c.base_nombre):declarada?'los votos válidos informados':'la suma de las listas cargadas'} (${num(base)}).${bn?' '+esc(bn)+'.':''}</p></div>`}
+ return`<div class="el-card">${tit}${warn}${mc}${filas}${mg}<p class="note">Porcentajes sobre ${c.base_nombre?'los '+esc(c.base_nombre):declarada?'los votos válidos informados':'la suma de las listas cargadas'} (${num(base)}).${bn?' '+esc(bn)+'.':''}</p></div>`}
+
+const hace=x=>{x=Math.max(0,Math.round(x));return x<60?x+' s':x<600?Math.floor(x/60)+' min '+(x%60)+' s':x<3600?Math.round(x/60)+' min':Math.floor(x/3600)+' h '+Math.round(x%3600/60)+' min'};
+const mins=x=>x<1?'menos de 1 min':x<60?Math.round(x)+' min':Math.floor(x/60)+' h '+Math.round(x%60)+' min';
+const dos=n=>(+n).toLocaleString('es-AR',{maximumFractionDigits:2});
+const top2=c=>(c&&c.listas||[]).filter(l=>l&&isFinite(+l.votos)&&+l.votos>=0).map(l=>({n:String(l.nombre||''),v:+l.votos})).sort((a,b)=>b.v-a.v);
+
+function frescura(e,st,demo){
+ const el=document.getElementById('elfr');if(!el)return;
+ const j=E.res[e.id],t=j?Date.parse(j.actualizado):NaN;
+ if(isNaN(t)||demo){el.textContent='';return}
+ const edad=Math.max(0,(Date.now()-t)/1000),cl=st==='jornada'?(edad>900?'bad':edad>300?'mid':'ok'):'ok';
+ el.className='el-fr '+cl;
+ el.textContent='Dato oficial de las '+hora(t)+' (hace '+hace(edad)+')'+(E.ult[e.id]?' · consultado hace '+hace((Date.now()-E.ult[e.id])/1000):'')}
+
+function ritmo(h){
+ const a=(h&&Array.isArray(h.muestras)?h.muestras:[]).filter(x=>x&&isFinite(Date.parse(x.t))&&isFinite(+x.m)&&isFinite(+x.n));
+ if(a.length<2)return null;
+ const u=a[a.length-1];let i=a.length-2;
+ while(i>0&&Date.parse(u.t)-Date.parse(a[i].t)<15*6e4)i--;
+ const dt=(Date.parse(u.t)-Date.parse(a[i].t))/6e4,dm=+u.m-+a[i].m;
+ return dt>=3&&dm>=0?{xMin:dm/dt,dt:Math.round(dt)}:null}
+
+function evolSVG(h,c){
+ if(!h||!Array.isArray(h.muestras)||!c)return'';
+ const ls=top2(c);if(ls.length<2)return'';
+ const A=ls[0].n,B=ls[1].n,pts=[];
+ h.muestras.forEach(s=>{
+  const k=(s.c||[]).find(x=>String(x.id)===String(c.id))||(s.c||[])[0];
+  if(!k||!(+k.b>0)||!(+s.n>0))return;
+  const a=(k.v||[]).find(x=>x[0]===A.slice(0,40)),b=(k.v||[]).find(x=>x[0]===B.slice(0,40));
+  if(a&&b)pts.push([+s.m/+s.n,(+a[1]-+b[1])/+k.b*100])});
+ if(pts.length<3)return'';
+ const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys,0),y1=Math.max(...ys,0.0001);
+ const W=300,H=70,px=x=>x1>x0?4+(x-x0)/(x1-x0)*(W-8):W/2,py=y=>H-6-(y-y0)/((y1-y0)||1)*(H-12);
+ const d=pts.map(p=>px(p[0]).toFixed(1)+','+py(p[1]).toFixed(1)).join(' '),ult=ys[ys.length-1];
+ const txt='Diferencia entre '+A+' y '+B+' a medida que se cuentan las mesas: hoy '+dos(ult)+' puntos, entre '+dos(Math.min(...ys))+' y '+dos(Math.max(...ys));
+ return`<div class="el-card"><p class="note" style="margin:0 0 .3rem"><b>Cómo evoluciona la diferencia</b> entre ${esc(A)} y ${esc(B)} mientras se cuentan las mesas (de ${pc(x0,1)}% a ${pc(x1,1)}%): hoy ${dos(ult)} puntos; mínimo ${dos(Math.min(...ys))}, máximo ${dos(Math.max(...ys))}.</p><svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(txt)}" style="max-height:5rem"><line x1="0" x2="${W}" y1="${py(0).toFixed(1)}" y2="${py(0).toFixed(1)}" stroke="var(--line)" stroke-dasharray="3 3"/><polyline points="${d}" fill="none" stroke="var(--clay)" stroke-width="2"/></svg></div>`}
 
 function pintarRes(e,st,demo){
  const el=document.getElementById('elres');if(!el)return;
@@ -138,24 +183,29 @@ function pintarRes(e,st,demo){
  if(!j){el.innerHTML=E.resErr[e.id]?`<p class="warn" role="alert">No se pudieron leer los resultados: <code>${esc(E.resErr[e.id])}</code>. Todavía puede no haber un archivo cargado.</p>`:'<p class="empty">Todavía no hay resultados cargados.</p>';return}
  if(!j.eleccion_id){el.innerHTML='<p class="empty">Todavía no hay resultados cargados. Aparecen acá apenas los publique la fuente oficial.</p>';return}
  if(j.eleccion_id!==e.id){el.innerHTML='<p class="empty">Todavía no hay resultados cargados de esta elección (el archivo guardado es de otra).</p>';return}
- const t=Date.parse(j.actualizado),m=j.mesas||{},tot=+m.total,esc_=+m.escrutadas,mOk=tot>0&&esc_>=0&&esc_<=tot,def=j.tipo==='definitivo';
+ const t=Date.parse(j.actualizado),m=j.mesas||{},tot=+m.total,esc_=+m.escrutadas,mOk=tot>0&&esc_>=0&&esc_<=tot,def=j.tipo==='definitivo',hs=E.hist[e.id],cats=j.categorias||[];
  let h=`<p><span class="el-st on">${def?'Escrutinio definitivo':'Escrutinio provisorio'}</span> ${def?'':'<span class="note">Sin valor legal: el escrutinio definitivo lo hace la Justicia Electoral.</span>'}</p>`;
- if(!isNaN(t)&&!demo)h+=`<p class="note">Datos de ${esc(fdate(t))} (${esc(rel(t))}).${j.fuente&&j.fuente.nombre?' Fuente: '+enlace(j.fuente.url,j.fuente.nombre)+'.':''}</p>`;
- if(!demo&&st==='jornada'&&(isNaN(t)||Date.now()-t>15*6e4))h+=`<p class="warn" role="status"><b>Estos datos pueden estar atrasados.</b> ${isNaN(t)?'El archivo no informa cuándo se actualizó.':'No se actualizan desde hace más de 15 minutos.'} El recolector puede estar demorado: mirá el sitio oficial.</p>`;
- if(m.total!=null)h+=mOk?`<div class="el-card"><div class="el-row"><span><b>Mesas escrutadas</b></span><span><b>${pc(esc_,tot)}%</b> · ${num(esc_)} de ${num(tot)}</span></div><div class="el-prog"><i style="width:${Math.min(100,esc_/tot*100).toFixed(1)}%"></i></div>${esc_<tot?`<p class="note">Falta contar el ${pc(tot-esc_,tot)}% de las mesas: el resultado puede cambiar. Esto no es una proyección.</p>`:''}</div>`:`<p class="warn" role="alert">Dato inconsistente en las mesas escrutadas (${esc(m.escrutadas)} de ${esc(m.total)}).</p>`;
- if(j.participacion_pct!=null&&+j.participacion_pct>=0&&+j.participacion_pct<=100)h+=`<p>Participación informada: <b>${(+j.participacion_pct).toLocaleString('es-AR',{maximumFractionDigits:2})}%</b></p>`;
- h+=(j.categorias||[]).map(catHTML).join('')||'<p class="empty">El archivo no trae categorías todavía.</p>';
- el.innerHTML=h}
+ if(!demo)h+=`<p class="el-fr" id="elfr" role="status"></p>${j.fuente&&j.fuente.nombre?`<p class="note">Fuente: ${enlace(j.fuente.url,j.fuente.nombre)}.</p>`:''}`;
+ if(!demo&&st==='jornada'&&(isNaN(t)||Date.now()-t>15*6e4))h+=`<p class="warn" role="status"><b>Estos datos pueden estar atrasados.</b> ${isNaN(t)?'El archivo no informa cuándo se actualizó.':'No se actualizan desde hace más de 15 minutos.'} Puede ser que la fuente no haya publicado nada nuevo o que el recolector esté demorado: mirá el sitio oficial.</p>`;
+ (Array.isArray(j.avisos)?j.avisos:[]).slice(0,6).forEach(a=>{h+=`<p class="warn" role="status"><b>Control de coherencia:</b> ${esc(a)}</p>`});
+ if(m.total!=null)h+=mOk?`<div class="el-card"><div class="el-row"><span><b>Mesas escrutadas</b></span><span><b>${pc(esc_,tot)}%</b> · ${num(esc_)} de ${num(tot)}</span></div><div class="el-prog"><i style="width:${Math.min(100,esc_/tot*100).toFixed(1)}%"></i></div>${esc_<tot?`<p class="note">Falta contar el ${pc(tot-esc_,tot)}% de las mesas: el resultado puede cambiar. Esto no es una proyección.</p>`:''}`+(()=>{const r=mOk&&esc_<tot?ritmo(hs):null;if(!r||!(r.xMin>0))return'';const eta=(tot-esc_)/r.xMin;return eta<1440?`<p class="note">Ritmo de los últimos ${r.dt} min: ${r.xMin.toLocaleString('es-AR',{maximumFractionDigits:1})} mesas por minuto. Si se mantiene, el conteo completo llegaría en unos ${mins(eta)}. Es orientativo: el ritmo suele bajar al final.</p>`:''})()+`</div>`:`<p class="warn" role="alert">Dato inconsistente en las mesas escrutadas (${esc(m.escrutadas)} de ${esc(m.total)}).</p>`;
+ if(j.participacion_pct!=null&&+j.participacion_pct>=0&&+j.participacion_pct<=100)h+=`<p>Participación informada: <b>${dos(j.participacion_pct)}%</b></p>`;
+ const c0=cats.find(c=>top2(c).length>1),l0=top2(c0);
+ if(c0&&mOk&&esc_>0&&esc_<tot&&+j.votantes>0){const marg=l0[0].v-l0[1].v,pend=Math.round((tot-esc_)*(+j.votantes/esc_));h+=`<div class="el-card"><p style="margin:0"><b>Votos que faltan contar:</b> unos ${num(pend)} (estimación con el promedio de votantes por mesa).</p><p class="note">La diferencia actual entre el primero y el segundo (${num(marg)} votos) equivale al ${pc(marg,pend)}% de esa cantidad. Las mesas que faltan pueden ser distintas de las ya contadas (otras zonas), así que esto no es una proyección.</p></div>`}
+ h+=evolSVG(hs,c0);
+ h+=cats.map(c=>catHTML(c,m)).join('')||'<p class="empty">El archivo no trae categorías todavía.</p>';
+ el.innerHTML=h;frescura(e,st,demo)}
 
 async function arrancarRes(e,st,demo){
  await traerRes(e);pintarRes(e,st,demo);
  if(demo)return;
- clearInterval(E.timer);
- E.timer=setInterval(async()=>{if(!document.getElementById('elres')){clearInterval(E.timer);return}await traerRes(e);pintarRes(e,st,demo)},CADA)}
+ clearInterval(E.timer);clearInterval(E.tick);
+ E.tick=setInterval(()=>{if(!document.getElementById('elres')){clearInterval(E.tick);return}frescura(e,st,demo)},1000);
+ E.timer=setInterval(async()=>{if(!document.getElementById('elres')){clearInterval(E.timer);clearInterval(E.tick);return}await traerRes(e);pintarRes(e,st,demo)},CADA)}
 
 async function pintar(id){
  const box=document.getElementById('elapp');if(!box)return;
- clearInterval(E.timer);
+ clearInterval(E.timer);clearInterval(E.tick);
  const demo=id==='demo';let c;
  if(demo){const r=await cargar(true);c=r.cfg;if(!c){box.innerHTML=`<p class="warn" role="alert">No se pudo leer <code>data/elecciones_demo.json</code> (${esc(r.err)}). ¿Lo subiste a la carpeta data?</p>`;return}}
  else{if(!E.cfg){const r=await cargar(false);E.cfg=r.cfg;E.err=r.err}c=E.cfg;
