@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-05T20:16:44.972057+00:00",
+  "generated_at": "2026-11-05T21:37:26.481714+00:00",
   "by_politician": {
+    "eje-manuela-arancibia": {
+      "total": 16,
+      "positivo": 7,
+      "negativo": 0,
+      "neutral": 9,
+      "score_sum": 40
+    },
+    "dnac-carlos-raul-zapata": {
+      "total": 42,
+      "positivo": 2,
+      "negativo": 5,
+      "neutral": 35,
+      "score_sum": -6
+    },
     "sen-enrique-cornejo-saravia": {
-      "total": 43,
+      "total": 44,
       "positivo": 2,
       "negativo": 9,
-      "neutral": 32,
+      "neutral": 33,
       "score_sum": -14
+    },
+    "gustavo-saenz": {
+      "total": 443,
+      "positivo": 111,
+      "negativo": 75,
+      "neutral": 257,
+      "score_sum": 155
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 73,
@@ -43,26 +64,12 @@
       "neutral": 35,
       "score_sum": -10
     },
-    "dnac-carlos-raul-zapata": {
-      "total": 41,
-      "positivo": 2,
-      "negativo": 5,
-      "neutral": 34,
-      "score_sum": -6
-    },
     "concejal-pablo-emanuel-lopez": {
       "total": 50,
       "positivo": 3,
       "negativo": 22,
       "neutral": 25,
       "score_sum": -43
-    },
-    "gustavo-saenz": {
-      "total": 442,
-      "positivo": 111,
-      "negativo": 75,
-      "neutral": 256,
-      "score_sum": 155
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 12,
@@ -238,13 +245,6 @@
       "negativo": 0,
       "neutral": 12,
       "score_sum": 2
-    },
-    "eje-manuela-arancibia": {
-      "total": 15,
-      "positivo": 7,
-      "negativo": 0,
-      "neutral": 8,
-      "score_sum": 40
     },
     "concejal-gonzalo-nieva": {
       "total": 54,
@@ -934,10 +934,30 @@
     }
   },
   "by_day": {
+    "2024-12-23": {
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-06-30": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-05": {
       "sen-enrique-cornejo-saravia": {
-        "total": 1,
+        "total": 2,
         "score_sum": 2
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 0
       },
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
@@ -946,10 +966,6 @@
       "concejal-angel-ortiz": {
         "total": 2,
         "score_sum": 6
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
       },
       "dnac-bernardo-biella": {
         "total": 1,
@@ -13792,12 +13808,6 @@
         "score_sum": 0
       }
     },
-    "2024-12-23": {
-      "dip-sofia-sierra": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2012-08-09": {
       "dip-sofia-sierra": {
         "total": 1,
@@ -18104,11 +18114,11 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 17
+      "count": 19
     },
     {
       "term": "elintra",
-      "count": 16
+      "count": 18
     },
     {
       "term": "subsidios",
@@ -18125,6 +18135,10 @@
     {
       "term": "nación",
       "count": 8
+    },
+    {
+      "term": "reelección",
+      "count": 7
     },
     {
       "term": "hídrica",
@@ -18157,10 +18171,6 @@
     {
       "term": "diputados",
       "count": 6
-    },
-    {
-      "term": "contra",
-      "count": 5
     }
   ],
   "comentions": [
