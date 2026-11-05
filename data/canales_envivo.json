@@ -1,6 +1,6 @@
 {
   "_leeme": "Catálogo de canales de TV argentinos que transmiten en vivo por YouTube. 'ch' es el código del canal en YouTube (empieza con UC). Los canales con 'ch' vacío (null) todavía no están activos: el workflow «Completar canales en vivo» (scripts/canales_en_vivo.py) lee su código directamente de YouTube y solo lo activa si el nombre del canal coincide con alguna palabra de 'esperado'. 'yt' es el nombre del canal en la dirección de YouTube. Los canales de aire como Telefe, El Trece, El Nueve y América no transmiten su señal en vivo por YouTube, por eso no figuran.",
-  "generado": "2026-11-04",
+  "generado": "2026-11-05",
   "canales": [
     {
       "id": "tn",
@@ -67,11 +67,12 @@
     },
     {
       "id": "ip-noticias",
-      "nombre": "IP Noticias",
+      "nombre": "Argentina 12",
       "tipo": "Noticias",
       "yt": "c/IPNoticiasEnVivo",
       "ch": null,
       "esperado": [
+        "argentina 12",
         "ip noticias"
       ],
       "ultimo_intento": "2026-11-04T22:49:28+00:00",
@@ -100,7 +101,8 @@
       "ch": null,
       "esperado": [
         "television publica",
-        "tv publica"
+        "tv publica",
+        "canal siete"
       ],
       "ultimo_intento": "2026-11-04T22:49:28+00:00",
       "estado": "no_coincide",
@@ -127,7 +129,8 @@
       "yt": "user/CanalPakapaka",
       "ch": null,
       "esperado": [
-        "pakapaka"
+        "pakapaka",
+        "paka paka"
       ],
       "ultimo_intento": "2026-11-04T22:49:28+00:00",
       "estado": "no_coincide",
@@ -146,6 +149,14 @@
       "estado": "ok",
       "titulo_youtube": "Comarca TV",
       "fuente": "leído de YouTube y verificado por nombre"
+    },
+    {
+      "id": "diputados-tv",
+      "nombre": "Diputados TV",
+      "tipo": "Legislativo",
+      "yt": "channel/UC5KfW9_wv4tqbIPgY8tMG-w",
+      "ch": "UC5KfW9_wv4tqbIPgY8tMG-w",
+      "fuente": "enlace a YouTube en el sitio oficial hcdn.gob.ar (lo marcaste como Diputados TV)"
     }
   ]
 }
