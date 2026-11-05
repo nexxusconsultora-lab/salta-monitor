@@ -377,10 +377,10 @@ nav h1::before{width:34px!important;height:34px!important;border-radius:0!import
 nav h1{letter-spacing:.3em}
 .card,.person,.pnl,.veredicto,.vd-card{position:relative}
 .person::after,.veredicto::after{content:"";position:absolute;right:14px;top:14px;width:22px;height:22px;background:var(--mark) center/contain no-repeat;opacity:.18;pointer-events:none}
-footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v14";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
+footer::after{content:"Nexus Consultora — El arte de la política, el poder de la conexión · Diseño v19";display:block;margin-top:.4rem;font-weight:600;color:var(--ink);letter-spacing:.03em}
 .seg button.on.n,.seg button.on.s,.seg button.on.a{color:var(--onclay)}
 
-/* ===== Diseño v14: portada de marca ===== */
+/* ===== Diseño v19: portada de marca ===== */
 .banner{position:relative;overflow:hidden;isolation:isolate;border-radius:24px;margin:0 0 1.6rem;padding:2.4rem clamp(1.2rem,4vw,3rem);color:#fff;border:1px solid rgba(255,255,255,.14);background:radial-gradient(700px 320px at 85% 0%,rgba(255,255,255,.16),transparent 65%),linear-gradient(135deg,#000 0%,#161616 60%,#0B0B0B 100%);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12)}
 .banner::before{content:"";position:absolute;right:-60px;top:50%;width:380px;height:380px;transform:translateY(-50%);background:var(--mk-w) center/contain no-repeat;opacity:.13;z-index:-1}
 .banner::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:34px 34px;-webkit-mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%);mask:radial-gradient(520px 260px at 20% 40%,#000,transparent 75%)}
@@ -399,7 +399,7 @@ h2.sec{margin-top:2.4rem;padding-bottom:.55rem;border-bottom:1px solid var(--lin
 footer::before{content:"";display:block;width:40px;height:40px;margin:0 auto .6rem;background:var(--mark) center/contain no-repeat}
 @media(max-width:640px){.banner{padding:1.6rem 1.1rem;border-radius:18px}.banner::before{width:240px;height:240px;right:-70px}.bn-lg{height:24px}}
 
-/* ===== Diseño v14: textura, confianza y seguridad ===== */
+/* ===== Diseño v19: textura, confianza y seguridad ===== */
 html::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 :root[data-theme=light] html::after,html[data-theme=light]::after{opacity:.05}
 :focus-visible{outline:2px solid var(--clay);outline-offset:3px;border-radius:6px}
@@ -420,7 +420,7 @@ body.hud .trust li{border-color:rgba(255,255,255,.2);box-shadow:0 0 24px -12px r
 body.hud .trust .ti{border-color:rgba(255,255,255,.35)}
 body.hud .wrap{max-width:1500px}
 
-/* ===== Diseño v14: mapas y pantalla completa que funcionan, y estilo moderno ===== */
+/* ===== Diseño v19: mapas y pantalla completa que funcionan, y estilo moderno ===== */
 .pzw.fs,.mgrid.mfs{z-index:100000!important}
 .pzw.fs{position:fixed!important;inset:0!important;width:auto;height:100dvh!important}
 .pzw.fs .pzt{top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right))}
@@ -436,16 +436,16 @@ html:has(.pzw.fs,.mgrid.mfs) .wrap{animation:none}
 :is(.card,.trust li,.person,.pnl,.box):hover::before{opacity:1}
 .box{position:relative}
 /* cifras en mosaico */
-@media(min-width:960px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;grid-auto-flow:dense}
-.grid .card:nth-child(1){grid-column:span 2;grid-row:span 2;display:flex;flex-direction:column;justify-content:flex-end;min-height:230px;background:linear-gradient(145deg,#000,#1b1b1b);color:#fff;border-color:rgba(255,255,255,.16)}
-.grid .card:nth-child(1) .n{font-size:5.4rem;letter-spacing:-.04em;background:none;color:#fff;-webkit-text-fill-color:#fff}
-.grid .card:nth-child(1) .l{color:rgba(255,255,255,.7);font-size:.9rem}
-.grid .card:nth-child(1)::after{content:"";position:absolute;right:-30px;top:-30px;width:210px;height:210px;background:var(--mk-w) center/contain no-repeat;opacity:.12}
-.grid .card:nth-child(3){grid-column:span 2}.grid .card:last-child:nth-child(n+6){grid-column:1/-1}}
+@media(min-width:960px){.grid.mosaic{grid-template-columns:repeat(4,minmax(0,1fr))!important;grid-auto-flow:dense}
+.grid.mosaic .card:nth-child(1){grid-column:span 2;grid-row:span 2;display:flex;flex-direction:column;justify-content:flex-end;min-height:230px;background:linear-gradient(145deg,#000,#1b1b1b);color:#fff;border-color:rgba(255,255,255,.16)}
+.grid.mosaic .card:nth-child(1) .n{font-size:5.4rem;letter-spacing:-.04em;background:none;color:#fff;-webkit-text-fill-color:#fff}
+.grid.mosaic .card:nth-child(1) .l{color:rgba(255,255,255,.7);font-size:.9rem}
+.grid.mosaic .card:nth-child(1)::after{content:"";position:absolute;right:-30px;top:-30px;width:210px;height:210px;background:var(--mk-w) center/contain no-repeat;opacity:.12}
+.grid.mosaic .card:nth-child(3){grid-column:span 2}.grid.mosaic .card:last-child:nth-child(n+6){grid-column:1/-1}}
 .grid .card{position:relative;overflow:hidden}
 @media(prefers-reduced-motion:no-preference){.card,.trust li,.btn,.ctl button{transition:transform .18s,border-color .18s,box-shadow .18s,background .18s}.ctl button:active,.seg button:active{transform:scale(.96)}}
 
-/* ===== Diseño v14: estrella en código, portada de marca, menú con emojis, rótulos legibles ===== */
+/* ===== Diseño v19: estrella en código, portada de marca, menú con emojis, rótulos legibles ===== */
 :root{--mk-w:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%23fff' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");--mk-n:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%230F0F0F' stroke='%230F0F0F' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M50 50L50 10M50 50L50 90M50 50L10 50M50 50L90 50M50 50L21.7 21.7M50 50L78.3 21.7M50 50L21.7 78.3M50 50L78.3 78.3'/%3E%3Cg stroke='none'%3E%3Ccircle cx='50' cy='10' r='6.3'/%3E%3Ccircle cx='50' cy='90' r='6.3'/%3E%3Ccircle cx='10' cy='50' r='6.3'/%3E%3Ccircle cx='90' cy='50' r='6.3'/%3E%3Ccircle cx='21.7' cy='21.7' r='6.3'/%3E%3Ccircle cx='78.3' cy='21.7' r='6.3'/%3E%3Ccircle cx='21.7' cy='78.3' r='6.3'/%3E%3Ccircle cx='78.3' cy='78.3' r='6.3'/%3E%3Ccircle cx='50' cy='50' r='8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
 :root[data-theme=dark]{--mark:var(--mk-w)}:root[data-theme=light]{--mark:var(--mk-n)}
 /* logo de la barra: ícono redondo (variante "avatar") */
@@ -495,6 +495,7 @@ nav .tabs a[href="#/voz"]{--em:"🎙️"}
 nav .tabs a[href="#/red"]{--em:"🕸️"}
 nav .tabs a[href="#/conexiones"]{--em:"🔗"}
 nav .tabs a[href="#/envivo"]{--em:"📺"}
+nav .tabs a[href="#/elecciones"]{--em:"🗳️"}
 nav .tabs a[href="#/casos"]{--em:"📁"}
 nav .tabs a[href="#/calidad"]{--em:"🛡️"}
 nav .tabs a[href="#/fuentes"]{--em:"🗄️"}
@@ -525,7 +526,7 @@ nav .tabs a[href="#/seguridad"]{--em:"🔒"}
 [style*="background:var(--clay)"],[style*="background: var(--clay)"],[style*="background:var(--ink)"]{color:var(--onclay)!important}
 .tag{border-radius:99px}
 
-/* ===== Diseño v14: el logo de Nexus como menú vivo ===== */
+/* ===== Diseño v19: el logo de Nexus como menú vivo ===== */
 @media(min-width:860px){.banner{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)}}
 .bn-lk{display:flex;align-items:center;gap:.9rem;margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.16);max-width:30rem}
 .bn-lk .bn-tile{width:54px;height:54px;border-radius:15px;flex:none}
@@ -549,7 +550,7 @@ nav .tabs a[href="#/seguridad"]{--em:"🔒"}
 @media(max-width:859px){.bn-hub{margin-top:.4rem}.bn-lk{margin-top:1.1rem}}
 nav h1{cursor:pointer;user-select:none;transition:opacity .15s}nav h1:hover{opacity:.82}nav h1:focus-visible{outline:2px solid var(--clay);outline-offset:4px;border-radius:8px}
 
-/* ===== Diseño v14: auditoría, atajos, contadores, aviso sin conexión, progreso e impresión ===== */
+/* ===== Diseño v19: auditoría, atajos, contadores, aviso sin conexión, progreso e impresión ===== */
 @media(max-width:640px){nav h1{letter-spacing:.1em!important;font-size:.9rem}nav h1::before{width:30px!important;height:30px!important}nav .row{gap:.3rem}#lvb,#hudb,#thb,#gsb,#szm,#szp{min-width:36px}}
 body.hud .tag.vigente,body.hud .tag.positivo{color:#03150E}
 html,body{overflow-x:clip}
@@ -568,7 +569,7 @@ html,body{overflow-x:clip}
 .card,.person,.box,.pnl,.veredicto,.trust li{background:#fff!important;border:1px solid #999!important;break-inside:avoid}
 a{text-decoration:underline}footer::after{display:block}}
 
-/* ===== Diseño v14: recientes, copiar enlace e instalar como app ===== */
+/* ===== Diseño v19: recientes, copiar enlace e instalar como app ===== */
 .rcn{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:-.6rem 0 1.5rem}
 .rcn>span{font-size:.78rem;color:var(--soft);font-weight:600;margin-right:.3rem}
 .rcn a{display:inline-flex;align-items:center;gap:.45rem;padding:.35rem .8rem;border:1px solid var(--line);border-radius:99px;background:var(--raised);font-size:.85rem;text-decoration:none;color:var(--ink);transition:border-color .15s,background .15s,transform .15s}
@@ -578,7 +579,7 @@ a{text-decoration:underline}footer::after{display:block}}
 #pwa button{border:1px solid var(--line);border-radius:10px;background:var(--hov);color:var(--ink);padding:.4rem .8rem;font:inherit;font-weight:700;cursor:pointer}#pwa .ok{background:var(--clay);color:var(--onclay);border-color:transparent}
 @media print{#pwa,#tst{display:none!important}}
 
-/* ===== Diseño v14: ajustes, acciones rápidas, accesibilidad y ahorro de batería ===== */
+/* ===== Diseño v19: ajustes, acciones rápidas, accesibilidad y ahorro de batería ===== */
 html.no-grain::after{display:none}
 html.no-anim *,html.no-anim *::before,html.no-anim *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 html.no-anim .hub .hl{stroke-dashoffset:0}html.no-anim .hub .hp{display:none}
@@ -663,7 +664,7 @@ body.hud .tag.negativo,body.hud .tag.no-vigente{color:#fff}
 .pzw.fs::before,.mgrid.mfs::before{content:"";position:absolute;left:14px;top:12px;width:34px;height:34px;background:var(--mark) center/contain no-repeat;filter:drop-shadow(0 0 8px rgba(255,255,255,.55));pointer-events:none;z-index:3}
 .pzw.fs .pzh{background:rgba(11,11,11,.85);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:3px 10px;font-size:.78rem}
 
-/* ===== Diseño v14: lectura pulida y pantalla completa de primer nivel ===== */
+/* ===== Diseño v19: lectura pulida y pantalla completa de primer nivel ===== */
 :root[data-theme=dark]{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 a{text-underline-offset:3px;text-decoration-thickness:1px}
@@ -678,13 +679,13 @@ tbody tr{transition:background .15s}tbody tr:hover{background:var(--hov)}
 :is(.pzw.fs,.mgrid.mfs) .pzt{background:rgba(14,14,14,.72);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:6px;box-shadow:0 12px 30px -12px rgba(0,0,0,.9)}
 :is(.pzw.fs,.mgrid.mfs) .pzt button{border-radius:10px}
 /* modo pantalla completa general */
-body.hud .grid .card:nth-child(1){box-shadow:0 0 0 1px rgba(255,255,255,.2),0 0 60px -18px rgba(255,255,255,.35)}
+body.hud .grid.mosaic .card:nth-child(1){box-shadow:0 0 0 1px rgba(255,255,255,.2),0 0 60px -18px rgba(255,255,255,.35)}
 body.hud #hudbar{backdrop-filter:none}
 body.hud.idle,body.hud.idle *{cursor:none!important}
-@media(min-width:1700px){body.hud .wrap{padding-left:3rem;padding-right:3rem}body.hud .grid .card .n{font-size:3rem}body.hud .grid .card:nth-child(1) .n{font-size:7rem}body.hud h2.sec{font-size:1.4rem}body.hud .row2,body.hud .art .t{font-size:1.1rem}}
+@media(min-width:1700px){body.hud .wrap{padding-left:3rem;padding-right:3rem}body.hud .grid .card .n{font-size:3rem}body.hud .grid.mosaic .card:nth-child(1) .n{font-size:7rem}body.hud h2.sec{font-size:1.4rem}body.hud .row2,body.hud .art .t{font-size:1.1rem}}
 @media(min-width:2400px){body.hud{font-size:19px}body.hud .banner{padding:4rem 5rem}}
 
-/* ===== Diseño v14: el mapa de Salta a pantalla completa muestra solo el mapa, grande y fácil de manejar ===== */
+/* ===== Diseño v19: el mapa de Salta a pantalla completa muestra solo el mapa, grande y fácil de manejar ===== */
 .mgrid.mfs{display:block!important;padding:0!important;gap:0!important;background:#050505!important}
 .mgrid.mfs .mcol{position:static!important;height:100%!important;overflow:hidden!important}
 .mgrid.mfs .mcol>*:not(.mapa-w){display:none!important}
@@ -701,7 +702,7 @@ body.hud.idle,body.hud.idle *{cursor:none!important}
 .mgrid.mfs:has(.dp.on,.mt.on) .mzh{display:none}
 @media(max-width:860px){.mgrid.mfs:has(.dp.on,.mt.on) .mside{left:12px;right:12px;width:auto;max-height:46dvh;bottom:12px}.mzh{white-space:normal;text-align:center;border-radius:14px;width:calc(100vw - 100px)}}
 
-/* ===== Diseño v14: gráficos, cifras, tablas y carga más prolijos ===== */
+/* ===== Diseño v19: gráficos, cifras, tablas y carga más prolijos ===== */
 svg text{font-family:Inter,system-ui,sans-serif}
 .rb,.hb .bar,.stk{border-radius:99px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
 .rb i,.hb .bar i{background:linear-gradient(90deg,color-mix(in srgb,var(--clay) 45%,transparent),var(--clay));border-radius:99px}
@@ -717,7 +718,7 @@ svg text{font-family:Inter,system-ui,sans-serif}
 html.no-anim .ld::after{animation:none}
 
 /* v14: en tema claro la tarjeta grande de "personas" sigue negra (antes quedaba blanca sobre blanco) */
-@media(min-width:960px){:root[data-theme=light] .grid .card:nth-child(1){background-image:linear-gradient(145deg,#000,#1b1b1b)!important;background-color:#000!important;color:#fff!important}:root[data-theme=light] .grid .card:nth-child(1) :is(.n,.l){color:#fff!important;-webkit-text-fill-color:#fff!important}:root[data-theme=light] .grid .card:nth-child(1) .l{color:rgba(255,255,255,.75)!important;-webkit-text-fill-color:rgba(255,255,255,.75)!important}}
+@media(min-width:960px){:root[data-theme=light] .grid.mosaic .card:nth-child(1){background-image:linear-gradient(145deg,#000,#1b1b1b)!important;background-color:#000!important;color:#fff!important}:root[data-theme=light] .grid.mosaic .card:nth-child(1) :is(.n,.l){color:#fff!important;-webkit-text-fill-color:#fff!important}:root[data-theme=light] .grid.mosaic .card:nth-child(1) .l{color:rgba(255,255,255,.75)!important;-webkit-text-fill-color:rgba(255,255,255,.75)!important}}
 
 /* v14: filtros alineados y de igual alto, portada más legible en celular, botón del anotador discreto */
 .ctl{align-items:center}
@@ -725,9 +726,54 @@ html.no-anim .ld::after{animation:none}
 .ctl .seg button{height:2.5rem;padding-top:0;padding-bottom:0}
 #nbfab{opacity:.88;transition:opacity .15s,transform .15s}#nbfab:hover,#nbfab:focus-visible{opacity:1;transform:scale(1.06)}
 @media(max-width:640px){.hub .ht{font-size:15px}.hub .he{font-size:20px}.hub .hb text{font-size:12px}.bn-cap{font-size:.8rem}}
+
+/* v15: gris neutro para "no sabe / otros", y la barra de arriba por encima de los botones flotantes de los gráficos */
+:root{--neu:#7A7A7A}
+nav.top{z-index:500}nav .tabs{z-index:450}
+
+/* v16: gráficos de línea legibles en cajas angostas */
+.ch.sm text{font-size:13px}.ch text{font-variant-numeric:tabular-nums}
+
+/* ===== Diseño v19: el naranja, el azul noche y el rojo del logo como colores de acento ===== */
+:root[data-theme=dark]{--clay:#F98901;--onclay:#0F0F0F;--indigo:#FFC27A;--onind:#0F0F0F;--gold:#FFB347;--sel:rgba(249,137,1,.16);--glow:rgba(249,137,1,.38)}
+:root[data-theme=light]{--clay:#A85500;--onclay:#FFFFFF;--indigo:#0B3A6E;--onind:#FFFFFF;--gold:#D97500;--sel:rgba(168,85,0,.10);--glow:rgba(168,85,0,.25)}
+body.hud{--clay:#F98901;--onclay:#0F0F0F;--glow:rgba(249,137,1,.42);--sel:rgba(249,137,1,.18)}
+nav h1::before{box-shadow:0 0 0 2px rgba(249,137,1,.6),0 6px 16px -6px rgba(0,0,0,.7)!important}
+.banner{background:radial-gradient(700px 320px at 85% 0%,rgba(249,137,1,.2),transparent 65%),linear-gradient(135deg,#071B33 0%,#0B2545 60%,#050F1E 100%);border-color:rgba(249,137,1,.3);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12),0 0 0 1px rgba(249,137,1,.08)}
+.banner::after{background-image:linear-gradient(rgba(249,137,1,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(249,137,1,.06) 1px,transparent 1px)}
+.bn-k{border-color:rgba(249,137,1,.55);color:#FFD9A8}.bn-t{text-shadow:0 0 40px rgba(249,137,1,.4)}
+.bn-lk{border-top-color:rgba(249,137,1,.28)}.bn-tile{background:var(--mk-w) center/62% no-repeat,#071B33;border-color:rgba(249,137,1,.55);box-shadow:0 0 40px -8px rgba(249,137,1,.55),inset 0 1px 0 rgba(255,255,255,.2)}
+.bn-cap{color:rgba(255,200,140,.6)}
+.hub .hr{stroke:rgba(249,137,1,.2)}.hub .h2{stroke:rgba(249,137,1,.1)}.hub .hl{stroke:rgba(249,137,1,.5)}
+.hub .hp{fill:#FFB347;filter:drop-shadow(0 0 5px #F98901)}
+.hub .hc{fill:#0B2545;stroke:rgba(249,137,1,.6)}
+.hub .hn:hover .hc,.hub .hn:focus-visible .hc{fill:#F98901;stroke:#FFB347;filter:drop-shadow(0 0 14px rgba(249,137,1,.7))}
+.hub .ht{fill:rgba(255,235,210,.82)}.hub .hn:hover .ht,.hub .hn:focus-visible .ht{fill:#FFB347}
+.hub .hcc{stroke:#F98901;stroke-opacity:.4}
+.hub .hb rect{fill:#F98901}.hub .hb text{fill:#0F0F0F}
+@media(min-width:960px){.grid.mosaic .card:nth-child(1){background:linear-gradient(145deg,#071B33,#0B2545)!important;border-color:rgba(249,137,1,.4)!important;box-shadow:0 20px 50px -26px rgba(249,137,1,.35)}
+:root[data-theme=light] .grid.mosaic .card:nth-child(1){background-image:linear-gradient(145deg,#071B33,#0B2545)!important;background-color:#071B33!important}}
+.rcn a:hover,.trust li:hover{border-color:var(--clay)}
+
+/* v18: pantalla completa con acentos naranja del logo */
+body.hud nav.top{border-bottom-color:rgba(249,137,1,.55)}
+body.hud nav .tabs a:hover{background:rgba(249,137,1,.1);color:#FFD9A8}
+body.hud nav .tabs a.on{color:#FFB347;text-shadow:0 0 12px rgba(249,137,1,.5);background:linear-gradient(90deg,rgba(249,137,1,.2),transparent);box-shadow:0 0 22px -10px rgba(249,137,1,.6),inset 3px 0 0 #F98901}
+body.hud :is(a.card:hover,.news .box:hover,.pgrid .prow:hover){border-color:rgba(249,137,1,.7);box-shadow:0 0 0 1px rgba(249,137,1,.4),0 0 26px -6px rgba(249,137,1,.5)}
+body.hud :is(.card .n,.box b,.kv,.hc1){text-shadow:0 0 14px rgba(249,137,1,.45)}
+body.hud :is(.ctl input,.ctl select,.ctl button,.seg button,.esn button,.chips button){border-color:rgba(249,137,1,.35)}
+body.hud :is(.ch,.pzw,.mg,.rg svg){border-color:rgba(249,137,1,.32)}
+body.hud :is(.ch rect,.ch polyline,.ch circle,.dn circle){filter:drop-shadow(0 0 3px rgba(249,137,1,.4))}
+body.hud *{scrollbar-color:rgba(249,137,1,.5) transparent}body.hud ::selection{background:rgba(249,137,1,.45);color:#fff}
+body.hud .trust li{border-color:rgba(249,137,1,.3);box-shadow:0 0 24px -12px rgba(249,137,1,.45)}body.hud .trust .ti{border-color:rgba(249,137,1,.45)}
+body.hud .banner{border-color:rgba(249,137,1,.4);box-shadow:0 0 0 1px rgba(249,137,1,.1),0 0 80px -24px rgba(249,137,1,.45)}
+
+/* v19: casillas con el color de la marca, etiquetas de variación sin estirarse y capas de la Red distinguibles */
+input[type=checkbox],input[type=radio],input[type=range],progress{accent-color:var(--clay)}
+.dlt{display:inline-flex;align-items:center;width:fit-content;align-self:flex-start;white-space:nowrap}
 </style>
 <script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('newar_tema_v1')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
-<meta name="theme-color" content="#0F0F0F">
+<meta name="theme-color" content="#071B33">
 <meta name="color-scheme" content="dark light">
 <meta name="description" content="NEWAR: personas, cargos, evidencia y prensa de Salta. Plataforma de inteligencia política de Nexus Consultora.">
 <meta property="og:type" content="website"><meta property="og:locale" content="es_AR"><meta property="og:site_name" content="NEWAR · Nexus Consultora">
@@ -1091,8 +1137,8 @@ const grafoRed=()=>{let N=[],E=[];
  else{const kk=RED.modo==='de'?'lugar':'bloque',l=personas.map(p=>[p,p.cargos.find(c=>c.v===1&&c.p.chamber===RED.cam)]).filter(x=>x[1]&&x[1][kk]),bs=[...new Set(l.map(x=>x[1][kk]))];
   N=bs.map(b=>({id:'b:'+b,b:1,deg:l.filter(x=>x[1][kk]===b).length*2,lab:b})).concat(l.map(([p])=>({id:p.id,p,deg:1,lab:p.nombre})));E=l.map(([p,c])=>({a:p.id,b:'b:'+c[kk],w:1,n:[]}))}
  return{N,E}};
-const RCAP=[['pre','Prensa: notas en común','var(--soft)'],['mnac','Medios nacionales','var(--neg)'],['mloc','Medios de Salta','var(--neu)'],['ofi','Actos oficiales en común','var(--ink)'],['blq','Mismo bloque','var(--indigo)'],['dep','Mismo departamento','var(--pos)'],['man','Cadena de mando','var(--clay)'],['cup','Autoridades de cámara','var(--ink)'],['tem','Mismo tema (3+ notas)','#b8860b'],['cam','Misma cámara','var(--line)']];
-const RST={pre:['var(--soft)',''],mnac:['var(--neg)','1 3'],mloc:['var(--neu)','1 3'],ofi:['var(--ink)','6 2'],blq:['var(--indigo)',''],dep:['var(--pos)','5 3'],man:['var(--clay)',''],cup:['var(--ink)','2 3'],cam:['var(--line)',''],tem:['#b8860b','4 2']};
+const RCAP=[['pre','Prensa: notas en común','var(--soft)'],['mnac','Medios nacionales','var(--neg)'],['mloc','Medios de Salta','var(--neu)'],['ofi','Actos oficiales en común','#4C8DFF'],['blq','Mismo bloque','#E5568F'],['dep','Mismo departamento','var(--pos)'],['man','Cadena de mando','var(--clay)'],['cup','Autoridades de cámara','#8B7BFF'],['tem','Mismo tema (3+ notas)','#b8860b'],['cam','Misma cámara','var(--line)']];
+const RST={pre:['var(--soft)',''],mnac:['var(--neg)','1 3'],mloc:['var(--neu)','1 3'],ofi:['#4C8DFF','6 2'],blq:['#E5568F',''],dep:['var(--pos)','5 3'],man:['var(--clay)',''],cup:['#8B7BFF','2 3'],cam:['var(--line)',''],tem:['#b8860b','4 2']};
 const RLB={pre:e=>e.w+' nota'+(e.w===1?'':'s')+' en común',mnac:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio nacional',mloc:e=>e.w+' nota'+(e.w===1?'':'s')+' en medio de Salta',ofi:e=>e.w+' acto'+(e.w===1?'':'s')+' oficial'+(e.w===1?'':'es')+' en común',blq:()=>'mismo bloque',dep:()=>'mismo departamento',man:e=>'cadena de mando'+(e.l?' · '+e.l:''),cup:e=>'autoridad'+(e.l?' · '+e.l:''),cam:()=>'misma cámara',tem:e=>'mismo tema'+(e.l?' · '+e.l:'')};
 const camLab=c=>({'Senado':'Senado de Salta','Diputados':'Diputados de Salta','Ejecutivo':'Poder Ejecutivo'})[c]||c;
 const so=(v,l,cur)=>`<option value="${esc(v)}"${String(cur)===String(v)?' selected':''}>${esc(l)}</option>`;
@@ -2051,9 +2097,16 @@ V.estrategia=id=>{if(id&&byId[id])EST.id=id;setTimeout(()=>need('news').catch(()
 const ES={amb:'',per:14,med:'',arc:null};
 const esData=()=>{const m=new Map();(S.news||[]).concat(ES.arc||[]).forEach(n=>{if(n&&n.id&&!m.has(n.id))m.set(n.id,n)});return[...m.values()].map(n=>({k:medioKey(n.source),src:n.source,a:n.category==='Nacional'?'nac':'prov',ts:Date.parse(n.published_iso||n.collected_at)||0,t:n.sentiment_label||'',title:n.title,link:n.link})).filter(x=>x.k&&x.ts)};
 const esDonut=(p,c)=>{const T=p.reduce((a,x)=>a+x.v,0)||1,C=2*Math.PI*40;let o=0;return`<div class="dn"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(c)}"><g transform="rotate(-90 50 50)">${p.map(x=>{const l=x.v/T*C,s=`<circle cx="50" cy="50" r="40" fill="none" stroke="${x.c}" stroke-width="16" stroke-dasharray="${l} ${C-l}" stroke-dashoffset="${-o}"><title>${esc(x.l)}: ${x.v}</title></circle>`;o+=l;return s}).join('')}</g><text x="50" y="54" text-anchor="middle" style="font:700 15px Newsreader,serif;fill:var(--ink)">${T}</text></svg><ul class="dl">${p.map(x=>`<li><i style="background:${x.c}"></i>${esc(x.l)} <b>${Math.round(x.v/T*100)}%</b> <span class="meta">${x.v}</span></li>`).join('')}</ul></div>`};
-const esAx=(d,X,H)=>{const st=Math.ceil(d.length/9);return d.map((x,i)=>i%st?'':`<text x="${X(i)}" y="${H-5}" text-anchor="middle">${esc(x.l)}</text>`).join('')};
+const esAx=(d,X,H,W)=>{W=W||700;const st=Math.ceil(d.length/9);return d.map((x,i)=>{if(i%st)return'';const xx=X(i),an=xx<28?'start':xx>W-28?'end':'middle';return`<text x="${xx}" y="${H-5}" text-anchor="${an}">${esc(x.l)}</text>`}).join('')}
 const esCols=(d,ser)=>{const W=700,H=190,pl=30,bw=(W-pl)/d.length,mx=Math.max(1,...d.map((_,i)=>ser.reduce((a,s)=>a+(s.v[i]||0),0)));let g=`<text x="2" y="12">${mx}</text>`;d.forEach((x,i)=>{let y=H-20;ser.forEach(s=>{const v=s.v[i]||0;if(!v)return;const h=v/mx*(H-34);y-=h;g+=`<rect x="${pl+i*bw+1}" y="${y.toFixed(1)}" width="${Math.max(1,bw-2).toFixed(1)}" height="${h.toFixed(1)}" style="fill:${s.c}"><title>${esc(x.l)} · ${esc(s.l)}: ${v}</title></rect>`})});return`<svg viewBox="0 0 ${W} ${H}" class="ch" role="img" aria-label="Notas por día">${g}${esAx(d,i=>pl+i*bw+bw/2,H)}</svg>`};
-const esLines=(d,ser)=>{const W=700,H=170,pl=30,n=d.length,mx=Math.max(1,...ser.flatMap(s=>s.v)),X=i=>pl+(n>1?i*(W-pl-10)/(n-1):0),Y=v=>H-22-v/mx*(H-36);return`<svg viewBox="0 0 ${W} ${H}" class="ch" role="img" aria-label="Notas por día, nacionales y provinciales"><text x="2" y="12">${mx}</text><line x1="${pl}" x2="${W}" y1="${H-22}" y2="${H-22}" style="stroke:var(--line)"/>${ser.map(s=>`<polygon points="${X(0)},${H-22} ${s.v.map((v,i)=>X(i)+','+Y(v)).join(' ')} ${X(n-1)},${H-22}" style="fill:${s.c};opacity:.12"/><polyline fill="none" style="stroke:${s.c}" stroke-width="2.5" points="${s.v.map((v,i)=>X(i)+','+Y(v)).join(' ')}"/>`+s.v.map((v,i)=>`<circle cx="${X(i)}" cy="${Y(v)}" r="3" style="fill:${s.c}"><title>${esc(d[i].l)} · ${esc(s.l)}: ${v}</title></circle>`).join('')).join('')}${esAx(d,X,H)}</svg>`};
+const esLines=(d,ser,o)=>{o=o||{};const W=o.W||700,H=o.H||170,pl=o.pl||40,pr=22,n=d.length;if(!n||!ser||!ser.length)return'';const all=ser.flatMap(s=>s.v).filter(v=>typeof v==='number'&&isFinite(v)),hi0=Math.max(1,...all),lo0=all.length?Math.min(...all):0;
+ let lo=0,hi=hi0;if(lo0>0&&(hi0-lo0)/hi0<.5){const pad=(hi0-lo0)*.25||1;lo=Math.max(0,lo0-pad);hi=hi0+pad}
+ const X=i=>pl+(n>1?i*(W-pl-pr)/(n-1):0),Y=v=>H-22-(v-lo)/((hi-lo)||1)*(H-42),fm=v=>v.toLocaleString('es-AR',{maximumFractionDigits:hi<10?1:0}),tk=[lo,(lo+hi)/2,hi];
+ const grid=tk.map(t=>`<line x1="${pl}" x2="${W-pr}" y1="${Y(t).toFixed(1)}" y2="${Y(t).toFixed(1)}" style="stroke:var(--line);opacity:.7" stroke-dasharray="3 5"/><text x="${pl-6}" y="${(Y(t)+3.5).toFixed(1)}" text-anchor="end">${fm(t)}</text>`).join('');
+ const lines=ser.map(s=>{const pts=s.v.map((v,i)=>X(i).toFixed(1)+','+Y(v).toFixed(1)).join(' ');let g=`<polygon points="${X(0).toFixed(1)},${H-22} ${pts} ${X(n-1).toFixed(1)},${H-22}" style="fill:${s.c};opacity:.12"/><polyline fill="none" style="stroke:${s.c}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" points="${pts}"/>`;
+  g+=s.v.map((v,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${n>40?2:3}" style="fill:${s.c}"><title>${esc(d[i].l)} · ${esc(s.l)}: ${v}</title></circle>`).join('');
+  if(ser.length===1&&n>1){const lv=s.v[n-1];g+=`<text x="${X(n-1).toFixed(1)}" y="${(Y(lv)-9).toFixed(1)}" text-anchor="end" style="font-weight:700;fill:var(--ink)">${fm(lv)}</text>`}return g}).join('');
+ return`<svg viewBox="0 0 ${W} ${H}" class="ch${W<=560?' sm':''}" role="img" aria-label="${esc(o.aria||'Notas por día, nacionales y provinciales')}">${grid}${lines}${esAx(d,X,H,W)}</svg>`};
 const esHeat=L=>{const g=Array.from({length:7},()=>Array(24).fill(0));L.forEach(x=>{const d=new Date(x.ts);g[(d.getDay()+6)%7][d.getHours()]++});const mx=Math.max(1,...g.flat()),DS=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];return`<svg viewBox="0 0 700 190" class="ch" role="img" aria-label="Notas por día de la semana y hora">${g.map((r,y)=>`<text x="2" y="${y*22+22}">${DS[y]}</text>`+r.map((v,h)=>`<rect x="${34+h*27.2}" y="${y*22+8}" width="25" height="20" rx="2" style="fill:var(--clay);fill-opacity:${v?(.1+.9*v/mx).toFixed(2):0.04}"><title>${DS[y]} ${h}:00 h · ${v} notas</title></rect>`).join('')).join('')}${[0,3,6,9,12,15,18,21].map(h=>`<text x="${34+h*27.2+12}" y="184" text-anchor="middle">${h}h</text>`).join('')}</svg>`};
 const esRow=(n,mx,col,l,k)=>`<div class="hb clk" data-k="${esc(k)}" tabindex="0" role="button" style="--mc:${col}" aria-label="Ver detalle"><span>${l}</span><span class="bar"><i style="width:${Math.max(2,n/Math.max(1,mx)*100)}%"></i></span><span class="meta">${n}</span></div>`;
 function esPaintE(){const el=$('#esb');if(!el)return;
@@ -2082,9 +2135,9 @@ function esPaintE(){const el=$('#esb');if(!el)return;
  el.innerHTML=`<div class="news"><div class="box"><b>${T}</b><span>notas analizadas ${dlP(T,pv.length)}</span></div><div class="box"><b>${ms.length}</b><span>medios activos</span></div><div class="box"><b>${(T/per).toFixed(0)}</b><span>notas por día</span></div><div class="box"><b>${Math.round((T-nac)/T*100)}%</b><span>de Salta (resto: nacional)</span></div><div class="box"><b>${medioNombre(top.src)}</b><span>medio líder (${Math.round(top.n/T*100)}%)</span></div><div class="box"><b>${hl}</b><span>concentración (HHI ${hhi})</span></div></div>
  <h3 class="sh" id="es-r">Ranking de medios por notas publicadas</h3>${ms.slice(0,15).map(e=>esRow(e.n,top.n,medioColor(e.src),medioChip(e.src)+` <span class="meta">${e.nac>e.n/2?'nac.':'Salta'}</span>${dlP(e.n,PV.get(e.k)||0)}`,e.k)).join('')}
  <h3 class="sh" id="es-v">Medios en alza y en baja</h3>${okv?`<div class="cols"><div><h4 class="sh">▲ En alza</h4>${mvh(alza)}</div><div><h4 class="sh">▼ En baja</h4>${mvh(baja)}</div></div><p class="note">Comparado con los ${per} días anteriores. Solo medios con 6 o más notas entre los dos períodos.</p>`:`<p class="note">No se muestra la variación: el período anterior (${per} días) tiene muy pocas notas guardadas o una cantidad no comparable con la actual, y el porcentaje saldría engañoso. Probá con un período más corto (24 h o 3 días).</p>`}
- <div class="cols"><div><h3 class="sh">Nacional vs. Salta</h3>${esDonut([{l:'Medios nacionales',c:'var(--indigo)',v:nac},{l:'Medios de Salta',c:'var(--clay)',v:T-nac}],'Nacional contra provincial')}</div><div><h3 class="sh" id="es-c">Cuota de cobertura</h3>${esDonut(sh8,'Cuota por medio')}</div></div>
+ <div class="cols"><div><h3 class="sh">Nacional vs. Salta</h3>${esDonut([{l:'Medios nacionales',c:'#4C8DFF',v:nac},{l:'Medios de Salta',c:'#FF7A45',v:T-nac}],'Nacional contra provincial')}</div><div><h3 class="sh" id="es-c">Cuota de cobertura</h3>${esDonut(sh8,'Cuota por medio')}</div></div>
  <h3 class="sh" id="es-e">Notas por día y medio (los 6 principales)</h3>${esCols(dias,ser)}<div class="legend">${ser.map(s=>`<span class="med" style="--mc:${s.c}">${esc(s.l)}</span>`).join('')}</div>
- <h3 class="sh">Evolución: nacional vs. Salta</h3>${esLines(dias,[{l:'Nacionales',c:'var(--indigo)',v:sv('nac')},{l:'Salta',c:'var(--clay)',v:sv('prov')}])}<div class="legend"><span class="med" style="--mc:var(--indigo)">Nacionales</span><span class="med" style="--mc:var(--clay)">Salta</span></div>
+ <h3 class="sh">Evolución: nacional vs. Salta</h3>${esLines(dias,[{l:'Nacionales',c:'#4C8DFF',v:sv('nac')},{l:'Salta',c:'#FF7A45',v:sv('prov')}])}<div class="legend"><span class="med" style="--mc:var(--indigo)">Nacionales</span><span class="med" style="--mc:var(--clay)">Salta</span></div>
  <h3 class="sh" id="es-h">¿Cuándo publican? Día de la semana y hora</h3>${esHeat(L)}<p class="note">Más oscuro = más notas. Hora local del dispositivo.</p>
  <h3 class="sh" id="es-t">Tono de la cobertura por medio</h3><p class="note">Solo medios con 8 o más notas con tono calculado (${tl} de ${T}; global: ${tl?Math.round(np/tl*100):0}% positivo, ${tl?Math.round(nn/tl*100):0}% negativo). Ordenados por proporción de negativas. Heurística por palabras clave.</p>${tono.length?tono.map(e=>{const t=e.pos+e.neu+e.neg;return`<div class="row2 mrow" style="--mc:${medioColor(e.src)}"><span class="nm">${medioChip(e.src)}${stk(e.pos,e.neu,e.neg)}</span><span class="meta">${Math.round(e.pos/t*100)}% pos · ${Math.round(e.neg/t*100)}% neg · ${t} notas</span></div>`}).join(''):'<p class="empty">Todavía no hay suficientes notas con tono.</p>'}
  <h3 class="sh">Ritmo y frescura</h3><div class="hmw"><table class="hm"><tr><th>Medio</th><th>Ámbito</th><th>Notas</th><th>Por día</th><th>Hora pico</th><th>Cuota</th><th>Última</th></tr>${ritmo}</table></div>
@@ -2220,12 +2273,13 @@ async function route(){const my=++rt;const keep=KEEP;KEEP=false;const [v,arg,arg
  const tab=(name==='persona')?'personas':(name==='tema'?'temas':(name==='palabra'?'palabras':name));
  $('#tabs').innerHTML=navTabs(tab);{const a=$('#tabs .on');if(a&&a.scrollIntoView)a.scrollIntoView({inline:'center',block:'nearest'})}
  const ns=NEEDS[name]||[];
- if(ns.some(k=>!(k in S))){$('#app').innerHTML='<p class="empty" role="status">Cargando datos…</p>';await need(...ns);if(my!==rt)return}
+ if(ns.some(k=>!(k in S))){$('#app').innerHTML='<p class="empty" role="status">Cargando datos…</p>';try{await need(...ns)}catch(e){console.error('NEWAR datos',e)}if(my!==rt)return}
  const fr=GEN&&Date.now()-GEN>36*36e5?`<p class="warn" role="status"><b>Los datos no se actualizan desde ${esc(rel(GEN).replace('hace ',''))}.</b> La última corrida del recolector fue el ${esc(fdate(GEN))}. Lo que ves refleja esa fecha, no el día de hoy (por eso los gráficos de «últimos días» pueden estar vacíos). Revisá la pestaña <a href="#/control">Control</a>.</p>`:'';
  const aviso=fr+(!FAIL.length?'':(location.protocol==='file:'&&!window.NEWAR_EMBED
   ?`<p class="warn" role="alert"><b>Abriste NEWAR directamente desde un archivo.</b> Así el navegador bloquea la lectura de los datos. Entrá al sitio publicado: <a href="${esc(SITIO)}">${esc(SITIO)}</a>, o pedí la versión sin conexión (<code>newar-offline.html</code>).</p>`
   :`<p class="warn" role="alert">No se pudieron cargar estos datos: <code>${esc(FAIL.join(', '))}</code>. Lo que ves puede estar incompleto o vacío. Probá recargar la página.</p>`));
- $('#app').innerHTML=aviso+V[name](id,id2);if(!keep)window.scrollTo(0,0);
+ let vista;try{vista=V[name](id,id2)}catch(e){console.error('NEWAR pantalla',name,e);vista='<h2 class="sec">'+esc((TABS.find(t=>t[0]===tab)||[0,'Pantalla'])[1])+'</h2><p class="warn" role="alert"><b>Esta pantalla no se pudo armar.</b> Probá recargar la página con el botón ↻ o <a href="#/inicio">volvé al Inicio</a>. El resto de NEWAR sigue funcionando.</p>'}
+ $('#app').innerHTML=aviso+vista;if(!keep)window.scrollTo(0,0);
  document.title='NEWAR — '+(name==='persona'&&byId[id]?byId[id].nombre:(TABS.find(t=>t[0]===tab)||[0,'Inicio'])[1]);
  const h=$('#app h2');if(!firstRoute&&h&&!keep){h.tabIndex=-1;h.focus({preventScroll:true})}firstRoute=false}
 
@@ -2737,6 +2791,38 @@ d.addEventListener('keydown',function(e){if(e.ctrlKey||e.metaKey||e.altKey)retur
 /* v13: los textos "Cargando…" muestran una barrita animada para que se note que la página está trabajando */
 (function(){var d=document,tm=null;function mk(){d.querySelectorAll('p.empty,p.note').forEach(function(p){if(!p.classList.contains('ld')&&/^Cargando/i.test(p.textContent.trim()))p.classList.add('ld')})}
 new MutationObserver(function(){if(tm)return;tm=setTimeout(function(){tm=null;mk()},120)}).observe(d.body,{childList:true,subtree:true});mk()})();
+</script>
+<script>
+/* v15: el mosaico de cifras solo se aplica a la cuadrícula principal de Inicio (no a otras pantallas) */
+(function(){var d=document,tm=null;function mk(){var t=d.querySelector('.trust');if(!t)return;var n=t.nextElementSibling;while(n){if(n.classList&&n.classList.contains('grid')){if(!n.classList.contains('mosaic'))n.classList.add('mosaic');return}n=n.nextElementSibling}}
+new MutationObserver(function(){if(tm)return;tm=setTimeout(function(){tm=null;mk()},100)}).observe(d.body,{childList:true,subtree:true});mk()})();
+</script>
+<style>
+/* Menú lateral que se puede ocultar (botón ☰ de la barra de arriba o Alt+B) */
+#sbt{display:none}
+@media(min-width:900px){
+#sbt{display:inline-flex;align-items:center;justify-content:center}
+html.sbc nav .tabs{display:none!important}
+html.sbc .wrap{margin-left:0!important}
+html.sbc body.hud .wrap{padding-left:2rem}
+}
+</style>
+<script>
+/* Menú lateral: se recuerda si quedó oculto y avisa a las pantallas (evento "newar-menu") */
+(function(){
+var d=document,h=d.documentElement,K='newar_menu_cerrado';
+function ls(f){try{return f()}catch(e){return null}}
+function abierto(){return !h.classList.contains('sbc')}
+function pintar(){var b=d.getElementById('sbt');if(!b)return;var a=abierto();b.setAttribute('aria-pressed',a?'false':'true');b.setAttribute('aria-label',a?'Ocultar el menú lateral (Alt+B)':'Mostrar el menú lateral (Alt+B)');b.title=a?'Ocultar el menú (Alt+B)':'Mostrar el menú (Alt+B)';b.textContent=a?'\u21e4':'\u2630'}
+function alternar(){h.classList.toggle('sbc');ls(function(){localStorage.setItem(K,abierto()?'0':'1')});pintar();try{window.dispatchEvent(new Event('newar-menu'))}catch(e){}}
+window.NewarMenu={alternar:alternar,abierto:abierto};
+if(ls(function(){return localStorage.getItem(K)})==='1')h.classList.add('sbc');
+var g=d.getElementById('gsb');
+if(g&&!d.getElementById('sbt'))g.insertAdjacentHTML('beforebegin','<button class="lv" id="sbt" type="button" aria-pressed="false"></button>');
+var b=d.getElementById('sbt');if(b)b.addEventListener('click',alternar);
+pintar();
+d.addEventListener('keydown',function(e){if(e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.code==='KeyB'||e.key==='b'||e.key==='B')&&!/INPUT|SELECT|TEXTAREA/.test((e.target&&e.target.tagName)||'')){e.preventDefault();alternar()}});
+})();
 </script>
 </body>
 </html>
