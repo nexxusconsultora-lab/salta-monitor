@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-05T20:04:21.703469+00:00",
+  "generated_at": "2026-11-05T20:12:56.445354+00:00",
   "by_politician": {
+    "sen-enrique-cornejo-saravia": {
+      "total": 43,
+      "positivo": 2,
+      "negativo": 9,
+      "neutral": 32,
+      "score_sum": -14
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 73,
+      "positivo": 9,
+      "negativo": 11,
+      "neutral": 53,
+      "score_sum": -2
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 29,
       "positivo": 5,
@@ -920,6 +934,40 @@
     }
   },
   "by_day": {
+    "2026-11-05": {
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "concejal-angel-ortiz": {
+        "total": 2,
+        "score_sum": 6
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-patricia-del-carmen-hucena": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2026-11-04": {
       "dip-gaston-guillermo-galindez": {
         "total": 2,
@@ -994,32 +1042,6 @@
       "sen-manrique-burgos": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-05": {
-      "concejal-angel-ortiz": {
-        "total": 2,
-        "score_sum": 6
-      },
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dip-patricia-del-carmen-hucena": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2024-01-20": {
