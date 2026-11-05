@@ -27,7 +27,7 @@ No guarda resultados.
 
 Sin dependencias: usa solo lo que trae Python.
 """
-import os, sys, json, re, time, argparse, urllib.request, urllib.error, urllib.robotparser
+import os, sys, json, re, time, argparse, subprocess, urllib.request, urllib.error, urllib.robotparser
 from urllib.parse import urlparse, urljoin, urlencode
 from datetime import datetime, timezone, timedelta
 
@@ -217,6 +217,9 @@ def convertir_dine(r, cfg_cat):
     cat = {"id": str(cfg_cat["id"]), "nombre": cfg_cat.get("nombre") or f"Categoría {cfg_cat['id']}",
            "distrito": cfg_cat.get("distrito_nombre", ""),
            "listas": [{"nombre": a.get("nombreAgrupacion") or "(sin nombre)", "partido": "", "votos": a.get("votos")} for a in pos]}
+    er = r.get("estadoRecuento") or {}
+    if er.get("mesasTotalizadas") is not None and er.get("mesasEsperadas") is not None:
+        cat["mesas"] = {"escrutadas": er["mesasTotalizadas"], "total": er["mesasEsperadas"]}
     base, cant = _base_porcentajes(pos, otros)
     if base:
         cat["votos_validos"], cat["base_nombre"] = cant, base
@@ -226,21 +229,50 @@ def convertir_dine(r, cfg_cat):
     return cat
 
 
+def _avance(er):
+    esc_, tot = _num(er.get("mesasTotalizadas")), _num(er.get("mesasEsperadas"))
+    return esc_ / tot if esc_ is not None and tot else 1.0
+
+
+def _controles(nombre, er):
+    """Compara lo que informa la API con lo que se calcula a partir de sus propios números."""
+    av = []
+    esc_, tot = _num(er.get("mesasTotalizadas")), _num(er.get("mesasEsperadas"))
+    rep = _num(er.get("mesasTotalizadasPorcentaje"))
+    if rep is not None and tot and esc_ is not None:
+        calc = esc_ / tot * 100
+        if rep <= 1 < calc:
+            rep *= 100  # vino de 0 a 1
+        if abs(rep - calc) > 0.5:
+            av.append(f"{nombre}: la API informa {rep:.1f}% de mesas pero {int(esc_)} de {int(tot)} es {calc:.1f}%")
+    vot, ele, rp = _num(er.get("cantidadVotantes")), _num(er.get("cantidadElectores")), _num(er.get("participacionPorcentaje"))
+    if rp is not None and vot is not None and ele:
+        calc = vot / ele * 100
+        if rp <= 1 < calc:
+            rp *= 100
+        if abs(rp - calc) > 1:
+            av.append(f"{nombre}: la participación informada ({rp:.1f}%) no coincide con votantes sobre electores ({calc:.1f}%)")
+    return av
+
+
 def adaptador_dine_api(fuente, e):
     cats = fuente.get("categorias") or []
     if not cats:
         raise ValueError("falta la lista 'categorias' en fuente_resultados")
     token = os.environ.get(fuente.get("token_env") or "DINE_TOKEN", "")
     base = {"anioEleccion": fuente.get("anio"), "tipoRecuento": fuente.get("tipo_recuento", 1), "tipoEleccion": fuente.get("tipo_eleccion")}
-    out_cats, fechas, estado0 = [], [], None
+    out_cats, fechas, ers, avisos = [], [], [], []
     for c in cats:
         r = _dine_pedir(dict(base, categoriaId=c["id"], distritoId=c.get("distritoId"), seccionId=c.get("seccionId")), token)
-        out_cats.append(convertir_dine(r, c))
+        cat = convertir_dine(r, c)
+        out_cats.append(cat)
+        er = r.get("estadoRecuento") or {}
+        ers.append(er)
+        avisos += _controles(cat["nombre"], er)
         if r.get("fechaTotalizacion"):
             fechas.append(_con_zona(r["fechaTotalizacion"]))
-        estado0 = estado0 or r.get("estadoRecuento") or {}
         time.sleep(0.3)
-    er = estado0 or {}
+    er = min(ers, key=_avance)  # el avance que se muestra es el de la categoría menos avanzada: nunca sobrestima
     vot, ele = _num(er.get("cantidadVotantes")), _num(er.get("cantidadElectores"))
     res = {"eleccion_id": e["id"], "tipo": fuente.get("tipo", "provisorio"), "fuente": DINE_FUENTE,
            "mesas": {"escrutadas": er.get("mesasTotalizadas"), "total": er.get("mesasEsperadas")}, "categorias": out_cats}
@@ -249,6 +281,9 @@ def adaptador_dine_api(fuente, e):
         res["actualizado"] = max(validas, key=_fecha)
     if vot is not None and ele and ele > 0:
         res["participacion_pct"] = round(vot / ele * 100, 2)
+        res["electores"], res["votantes"] = er.get("cantidadElectores"), er.get("cantidadVotantes")
+    if avisos:
+        res["avisos"] = avisos
     return res
 
 
@@ -318,6 +353,15 @@ def validar(j, e, previo, t_ahora):
                 p.append("participacion_pct fuera de 0–100")
         except (TypeError, ValueError):
             p.append("participacion_pct inválida")
+    for k in ("electores", "votantes"):
+        if j.get(k) is not None:
+            n = _entero(j[k])
+            if n is None:
+                p.append(f"'{k}' inválido")
+            else:
+                out[k] = n
+    if isinstance(j.get("avisos"), list):
+        out["avisos"] = [str(x)[:220] for x in j["avisos"][:6]]
     cats = j.get("categorias")
     if not isinstance(cats, list) or not cats:
         p.append("no trae categorías")
@@ -345,6 +389,13 @@ def validar(j, e, previo, t_ahora):
                     cc[k] = n
         if c.get("base_nombre") in ("votos positivos", "votos válidos", "votos emitidos"):
             cc["base_nombre"] = c["base_nombre"]
+        mc = c.get("mesas")
+        if isinstance(mc, dict):
+            e1, t1 = _entero(mc.get("escrutadas")), _entero(mc.get("total"))
+            if e1 is None or not t1 or e1 > t1:
+                p.append(f"{nom}: mesas de la categoría inconsistentes")
+            else:
+                cc["mesas"] = {"escrutadas": e1, "total": t1}
         if c.get("votos_validos") is not None:
             vv = _entero(c["votos_validos"])
             if not vv:
@@ -379,29 +430,60 @@ def _igual(a, b):
     return f(a) == f(b)
 
 
-def recolectar():
+def _historial(e, limpio, destino):
+    """Va guardando una muestra por cada dato nuevo, para poder mostrar el ritmo del conteo y cómo evoluciona la diferencia."""
+    ruta = destino[:-5] + "_historial.json"
+    h = _leer(ruta)
+    if not isinstance(h, dict) or h.get("eleccion_id") != e["id"] or not isinstance(h.get("muestras"), list):
+        h = {"eleccion_id": e["id"], "muestras": []}
+    m = limpio["mesas"]
+    ult = h["muestras"][-1] if h["muestras"] else None
+    if ult and ult.get("t") == limpio["actualizado"] and ult.get("m") == m["escrutadas"]:
+        return
+    cs = []
+    for c in limpio["categorias"]:
+        ls = sorted(c["listas"], key=lambda l: -l["votos"])
+        cs.append({"id": c.get("id", ""), "b": c.get("votos_validos") or sum(l["votos"] for l in ls),
+                   "v": [[l["nombre"][:40], l["votos"]] for l in ls[:5]]})
+    h["muestras"].append({"t": limpio["actualizado"], "m": m["escrutadas"], "n": m["total"], "c": cs})
+    h["muestras"] = h["muestras"][-500:]
+    with open(ruta, "w", encoding="utf-8") as f:
+        json.dump(h, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def _pasada():
+    """Una vuelta completa. Devuelve qué pasó, para que el modo bucle decida cuándo seguir."""
+    r = {"rc": 0, "activas": False, "esperando": None, "cambios": False, "completo": False, "intervalo": 60}
     cfg = _leer(CFG)
     if not cfg or not isinstance(cfg.get("elecciones"), list):
         log("ERROR: no se pudo leer data/elecciones.json o no tiene la lista «elecciones».")
-        return 1
+        r["rc"] = 1
+        return r
     t = ahora()
     hoy = t.astimezone(AR).strftime("%Y-%m-%d")
     activas = [(e, estado(e, hoy)) for e in cfg["elecciones"] if e and e.get("id")]
     activas = [(e, st) for e, st in activas if st in ("jornada", "post")]
     if not activas:
         log(f"{hoy}: no hay elecciones en jornada ni en los días posteriores. No hay nada que recolectar.")
-        return 0
-    rc = 0
+        return r
+    r["activas"] = True
+    completos = []
     for e, st in activas:
         log(f"— {e['id']} ({st})")
+        try:
+            r["intervalo"] = min(r["intervalo"], max(30, int(e.get("intervalo_seg") or 60)))
+        except (TypeError, ValueError):
+            pass
         lim = embargo(e, st, t)
         if lim:
             log(f"  Antes de la hora de publicación ({lim.astimezone(AR):%H:%M} de Argentina): no se pide ni se guarda nada.")
+            if r["esperando"] is None or lim < r["esperando"]:
+                r["esperando"] = lim
             continue
         ruta = e.get("resultados_url") or ""
         if not RUTA_OK.match(ruta):
             log(f"  ERROR: 'resultados_url' ({ruta!r}) debe ser un archivo de la carpeta data, por ejemplo data/elecciones_resultados.json.")
-            rc = 1
+            r["rc"] = 1
             continue
         destino = os.path.join(RAIZ, ruta)
         try:
@@ -411,7 +493,7 @@ def recolectar():
             continue
         except Exception as x:
             log(f"  ERROR al pedir los datos: {type(x).__name__}: {x}")
-            rc = 1
+            r["rc"] = 1
             continue
         previo = _leer(destino)
         probs, limpio = validar(crudo, e, previo, t)
@@ -419,16 +501,76 @@ def recolectar():
             log("  Los datos recibidos NO se guardaron. Motivos:")
             for p in probs:
                 log("   -", p)
-            rc = 1
+            r["rc"] = 1
             continue
+        for a in limpio.get("avisos", []):
+            log("  AVISO:", a)
+        m = limpio["mesas"]
+        completos.append(m["escrutadas"] == m["total"])
         if _igual(limpio, previo):
             log("  Sin cambios respecto de lo guardado.")
             continue
         limpio["recolectado"] = t.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         with open(destino, "w", encoding="utf-8") as f:
             json.dump(limpio, f, ensure_ascii=False, indent=1)
-        log(f"  Guardado en {ruta}: {limpio['mesas']['escrutadas']} de {limpio['mesas']['total']} mesas.")
-    return rc
+        _historial(e, limpio, destino)
+        r["cambios"] = True
+        log(f"  Guardado en {ruta}: {m['escrutadas']} de {m['total']} mesas.")
+    r["completo"] = bool(completos) and all(completos)
+    return r
+
+
+def recolectar():
+    return _pasada()["rc"]
+
+
+def guardar_git():
+    """Sube los resultados al repositorio (solo si NEWAR_GIT=1, o sea, dentro del workflow)."""
+    if os.environ.get("NEWAR_GIT") != "1":
+        return True
+    def g(*a):
+        return subprocess.run(["git", *a], cwd=RAIZ, capture_output=True, text=True)
+    g("config", "user.name", "radar-politico-bot")
+    g("config", "user.email", "radar-politico-bot@users.noreply.github.com")
+    g("add", "--", "data/elecciones_resultados*.json")
+    if g("diff", "--cached", "--quiet").returncode == 0:
+        return True
+    g("commit", "-m", "Actualización automática de resultados electorales")
+    rama = g("rev-parse", "--abbrev-ref", "HEAD").stdout.strip() or "main"
+    for intento in (1, 2, 3):
+        if g("pull", "--rebase", "-X", "theirs", "origin", rama).returncode == 0 and g("push", "origin", rama).returncode == 0:
+            return True
+        g("rebase", "--abort")
+        time.sleep(3)
+    log("  AVISO: no se pudo subir al repositorio tras 3 intentos; se reintenta en la próxima vuelta.")
+    return False
+
+
+def bucle(minutos):
+    """Repite la recolección cada ~60 segundos durante 'minutos', subiendo cada dato nuevo apenas llega."""
+    fin = time.monotonic() + minutos * 60
+    quietos, exito = 0, False
+    while True:
+        r = _pasada()
+        exito = exito or (r["rc"] == 0 and r["activas"])
+        quietos = 0 if r["cambios"] else quietos + 1
+        if r["cambios"] or quietos == 1:
+            guardar_git()
+        if not r["activas"]:
+            log("No hay nada más que recolectar: termina el ciclo.")
+            return 0
+        if r["completo"] and quietos >= 10:
+            log("Conteo completo y sin novedades en 10 consultas seguidas: termina el ciclo.")
+            break
+        espera = r["intervalo"]
+        if r["esperando"]:
+            espera = max(1, min(60, (r["esperando"] - ahora()).total_seconds()))
+        if time.monotonic() + espera >= fin:
+            log("Se cumplió el tiempo previsto del ciclo.")
+            break
+        time.sleep(espera)
+    guardar_git()
+    return 0 if exito else 1
 
 
 # ---------- diagnóstico ----------
@@ -522,6 +664,7 @@ def probar_dine():
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("--diagnosticar", action="store_true", help="visita las páginas oficiales y guarda qué responden")
+    ap.add_argument("--bucle", type=int, metavar="MINUTOS", help="recolecta cada ~60 segundos durante esos minutos y sube cada dato nuevo")
     ap.add_argument("--probar-dine", action="store_true", help="consulta la API de la DINE con la elección de 2023 para ver códigos y acceso")
     a = ap.parse_args()
-    sys.exit(probar_dine() if a.probar_dine else diagnosticar() if a.diagnosticar else recolectar())
+    sys.exit(bucle(a.bucle) if a.bucle else probar_dine() if a.probar_dine else diagnosticar() if a.diagnosticar else recolectar())
