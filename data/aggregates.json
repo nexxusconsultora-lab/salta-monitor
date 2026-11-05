@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:00:50.784069+00:00",
+  "generated_at": "2026-11-05T20:04:21.703469+00:00",
   "by_politician": {
     "dip-gaston-guillermo-galindez": {
       "total": 29,
@@ -8,25 +8,18 @@
       "neutral": 22,
       "score_sum": 8
     },
+    "dnac-bernardo-biella": {
+      "total": 36,
+      "positivo": 7,
+      "negativo": 6,
+      "neutral": 23,
+      "score_sum": -1
+    },
     "concejal-camila-lobo": {
       "total": 11,
       "positivo": 0,
       "negativo": 1,
       "neutral": 10,
-      "score_sum": -2
-    },
-    "sen-enrique-cornejo-saravia": {
-      "total": 43,
-      "positivo": 2,
-      "negativo": 9,
-      "neutral": 32,
-      "score_sum": -14
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 73,
-      "positivo": 9,
-      "negativo": 11,
-      "neutral": 53,
       "score_sum": -2
     },
     "concejal-angel-ortiz": {
@@ -56,13 +49,6 @@
       "negativo": 75,
       "neutral": 256,
       "score_sum": 155
-    },
-    "dnac-bernardo-biella": {
-      "total": 35,
-      "positivo": 7,
-      "negativo": 6,
-      "neutral": 22,
-      "score_sum": -1
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 12,
@@ -1000,15 +986,17 @@
         "score_sum": -1
       }
     },
+    "2026-02-18": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-05": {
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 2
-      },
       "concejal-angel-ortiz": {
         "total": 2,
         "score_sum": 6
@@ -14684,12 +14672,6 @@
         "score_sum": 0
       }
     },
-    "2026-02-18": {
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2011-12-26": {
       "sen-manrique-burgos": {
         "total": 1,
@@ -18104,7 +18086,7 @@
     },
     {
       "term": "elintra",
-      "count": 15
+      "count": 16
     },
     {
       "term": "subsidios",
@@ -18127,11 +18109,15 @@
       "count": 7
     },
     {
+      "term": "biella",
+      "count": 7
+    },
+    {
       "term": "transporte",
       "count": 7
     },
     {
-      "term": "biella",
+      "term": "bernardo",
       "count": 6
     },
     {
@@ -18151,11 +18137,7 @@
       "count": 6
     },
     {
-      "term": "privilegios",
-      "count": 5
-    },
-    {
-      "term": "bernardo",
+      "term": "contra",
       "count": 5
     }
   ],
