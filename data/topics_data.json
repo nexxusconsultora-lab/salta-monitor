@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026-11-05T03:00:13.105833+00:00",
+  "generated_at": "2026-11-05T10:45:00.121958+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 487,
+      "total_mentions": 491,
       "sentiment_breakdown": {
-        "positivo": 30,
-        "negativo": 40,
-        "neutral": 417
+        "positivo": 31,
+        "negativo": 41,
+        "neutral": 419
       },
       "sentiment_by_day": {
+        "2026-11-04": {
+          "total": 4,
+          "score_sum": 0
+        },
+        "2026-10-31": {
+          "total": 5,
+          "score_sum": 0
+        },
+        "2026-11-05": {
+          "total": 2,
+          "score_sum": -2
+        },
         "2026-10-09": {
           "total": 45,
           "score_sum": -4
-        },
-        "2026-11-04": {
-          "total": 3,
-          "score_sum": -2
         },
         "2026-10-15": {
           "total": 6,
@@ -50,10 +58,6 @@
         },
         "2026-09-20": {
           "total": 10,
-          "score_sum": 0
-        },
-        "2026-10-31": {
-          "total": 4,
           "score_sum": 0
         },
         "2018-01-10": {
@@ -280,7 +284,7 @@
         },
         {
           "term": "intransigente",
-          "count": 60
+          "count": 63
         },
         {
           "term": "presupuesto",
@@ -304,7 +308,7 @@
         },
         {
           "term": "discapacidad",
-          "count": 14
+          "count": 15
         }
       ],
       "politicians_involved": [
@@ -406,6 +410,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "El Senado de la Nación dictaminó la Ley de Discapacidad con apoyo de varios bloques - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXRWYmwxUC1Ob0JvengySFQ5bUtCVlVhcHBHbkczZ2xqVVZrd1U0ekRsc3pPSjItbXFZd19oeTNwNk5YRzEyS3hCUHk2SWlCLUdzWmdVblpQTHNaakNsT0dXWVBrSjRMSmRsS083Slp6OHQxSW1hRlZDVWpSZjd6SXJRdTZ5QmJCZHNXY0lLVFpHcG5pbG5JdzIwdlUwYVMxblg1VFVhSmQ2RnJxZ1JZRHNpRVdQS0E?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 04 Nov 2026 22:32:43 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Papa León XIV en Argentina: el operativo de seguridad y los cortes previstos en CABA - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGRHNHdPZW5Fei1kMjRSSUpTZjBaV3RMTlRPZU9YRzlmUTlsOXg2cE52Z0YtYVJCbXRYeWg4bWlGa09mSjlWTlRCMnlzM1NSUjc4ZzU2azRZRC1uanlaeHFOTlFSYkQ3OW5fQzc4RkVJTW1Ldnpva0tCaU5USVhrVkZRdjA2MHZQLUpXYnI5WGo1X1hEd0tBN2JjY2xLZzJ6dnJNcHJHdWpvNWhN?oc=5",
+          "source": "El Intransigente",
+          "date": "Sat, 31 Oct 2026 15:34:58 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Marcha de velas: La UBA reclamó al Gobierno el cumplimiento la Ley de Financiamiento Universitario - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNk9RbXprS1lkMFBlbXNHR0gzNXJFenk3dGJpc3lFbmRQSk9RQ3hWUjVVNW4ySEgzcjNtb094OE1aT3VFUml2dFV5WHdlNS1lSmVDR2tSX0NkQTBBMXdweWdzRFJVdTZBRzE3QzloUlIteHowN1VyUzhsSnRXTV85dnlCaWN4M1JzZTZrOFhhTExFbDc3WXlNYmpYcm5NNzdzQzlpSTRNeWQxMDJkV015MDJIVkxHRE9XT19CRw?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 05 Nov 2026 03:35:48 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Sin definición sobre las PASO - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRE40dVVhQS1PcE9rYW1WbEF2UUMzbGtKTnpzQUVmT1VTZjNGenBhSUdHa3k2WExLa0xEZ05iUVBnVmRCVHpwY0Fnc0lpT3kyRFRyOURsMkFpcXhhWWt5cGtxRk5nb0tMNlNDMXUxVWtwZXUzbzJsTEN5ZDZ3bHNqWjJ1NEp4WlhXQ1HSAY8BQVVfeXFMT0lTSkFrOGQ3UE82c3pYbE1icEoxTGhmbF9fMEFrZHZ1OF9vam95OHhneGpJTEVQcFJEaDNRYlgza3RNOVZDbnVzUzUzMVd0TmZ3SWllaEVUWTlfVkVoR1NYMjB6azJMTEVoYkNYbnVWUEZBd05tbmM1LUVqT1lCTkhuRDBRemlCOENPcFhzRVk?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 05 Nov 2026 04:20:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Presupuesto 2027: ronda de consultas con intendentes - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2FkN1pRSWZvanZXZlZ1WlZhQkZfMjdkUFZmNl9VeGh0d0RNM3JTMC1INHB4UFhwWW1MeV83SE9sTDhYVXhDdHBoVHhLYUlaZWw1LVA3Y0tjYnFuNFBrcG9MNmtBdmhhbDZpYmNpU1U2UFVXTUlnVDJqWmZIQlViLWVuUW5vMnpNdGZxdDJ5eXBiMjBGSW1vcGJlUU9LLW5k?oc=5",
@@ -587,34 +619,6 @@
           "source": "Elintra.com.ar",
           "date": "Sat, 31 Oct 2026 13:56:15 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "Tras el escándalo de la escuela fantasma y sospechas de sobresueldos asume María Talens - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQnY3RHZoaHlsRUhBQy1Zb1BVRVJCYmhuZzBsQ04yVDVJSng1NExiOVJ5MzdOZTc5UVpBSGlYZmtGdjRocVB4SWt2WEhTeEVIaWRnVnN3b3RpTU13MndzZFFNSlhsMVZFXzNvajJZbnB4RDV5dEhydG9BS2trRlFoclJuNFpHc3NNa1JsS2psOEc1a3dIMGE4Vy1KY2RZUUlLNjVtRWZlYWdzR21kVmg0MUc0LWhUTDM2OWYzRjQxOA?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Fri, 30 Oct 2026 23:58:48 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Axel Kicillof refuerza su presencia federal y habló en Jujuy: \"Vamos a construir una alternativa\" - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSlp4Nlo3TExTcVVWcnFOVXAtdFdtcGpmVm93YUVaeEFqLXRhME9qSjNwODNTZWdhR21XOGRSZ3gweVE2bmxDTktLMF80bk96ejlBS2RmaUh5cDdyTlBlUzNLSUFCUDRsekNxRkxiSlVYLUJ4Q0lBVkFxU0stV0t0d2VwemJpdU1mMVBQMDRvRnVLYUZnVDdnUkxTdzJMNU03SVFSNk9uWEdWWUp4R1R5WVFDZw?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 30 Oct 2026 23:36:27 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GQmFwM19heVVpcVFXUmpSMnotY0NIdHY5UXpodTI1cnRCRzU2Mk1iTUVqNDkzMlBwM0FCc1FhTVdYN2lEWmc?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 25 Oct 2017 01:18:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "CAME alertó desde Salta por la caída del consumo y reclamó a Nación un ministerio para las pymes - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGFHUGZrdVhOTkFvNzNDMmtoTGFSc212T3JDeDlXeVRMTm5mNU5EOGtWekV4MnQtUGdvaXIxWHhRdmk1MmpjZXRqWV94ME9DcngzLVJudU5kVG9udkZwUENhVWN6dlZmVThVWGhwQTRUY3I3V2VhWXFNZTMzclNTTHpaRjJHZW5GTkZZNmZ2R0ZwTXR0Y3ZGaVZyVDBSUm9qa2FrTUl2M1JET1h5cWRMRnBYbEgtNFN6VnZUV3VzR0dSU2puclg4eDdQUQ?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Fri, 30 Oct 2026 23:15:02 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },
