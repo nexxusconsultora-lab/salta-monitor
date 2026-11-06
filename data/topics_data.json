@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-06T03:47:34.753486+00:00",
+  "generated_at": "2026-11-06T11:39:50.579892+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 496,
+      "total_mentions": 498,
       "sentiment_breakdown": {
         "positivo": 32,
-        "negativo": 41,
-        "neutral": 423
+        "negativo": 42,
+        "neutral": 424
       },
       "sentiment_by_day": {
         "2026-11-06": {
-          "total": 1,
-          "score_sum": 0
+          "total": 3,
+          "score_sum": -2
         },
         "2026-11-05": {
           "total": 6,
@@ -284,11 +284,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 164
+          "count": 166
         },
         {
           "term": "intransigente",
-          "count": 62
+          "count": 61
         },
         {
           "term": "presupuesto",
@@ -308,7 +308,7 @@
         },
         {
           "term": "milei",
-          "count": 16
+          "count": 17
         },
         {
           "term": "discapacidad",
@@ -322,6 +322,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Cruzó un límite",
+          "source": "El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjdoTHE2ZUFYdENWLTdoN1hSd0p3WWxXaHRtckhINTAxQlpfRHREWUk3RVpqOUNPZnNPOXl3a3UtRFFRTVZCOTFIU3I1OVliQVZndEZvWWhDU1VvQVdRZ0hQb1pVOHRJeGJyTlpwTUVqTU1fTE9TRkNqLUJ1ZHR6LTRFdE9BWkpzOTFqS2p0MzFKeFEyMFJIV3Q1MTZ0NHpDRThVQ2ZB0gGrAUFVX3lxTE9adUZYSklua3M2N05hcmMxUXdpckdIdkdzVUttLXhBTU1xU3V1eXR1WS1pSlJQQ2V6ZXpwS2VtOHJNcUxsNW1KaUdvTkFNVTU0bEgxR0tsS1c3ODZoZVBPVl9iaGo5WU1mXzBEMkdNR0NKZDRBZ0ZHSDlueXoyWXhpTTk1RzJwLVpsQjczVUx6MEI4ZGNpTktsUlBRcUVpN0FqS0tDSC02SXNtWQ?oc=5",
+          "date": "Fri, 06 Nov 2026 04:34:00 GMT"
+        },
         {
           "quote": "En el AMBA están todos los privilegios",
           "source": "Informate Salta",
@@ -405,15 +411,23 @@
           "source": "Informate Salta",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTmJ4bE10c0c3dzlKZGVYVVN3Wm00UTRIMVlmdmpJaXVPT1V4WnFrMXB3d1VoUm5NYWVTMWtBMGF4Q2t6Uks0OWRJbDB4WG9aRU43WjE0ZUtGLWFpOHhQa0RnYjVhTWtscDNLMHdpSXhMQWhNTm1HSExiWm92Sk5pUzBZLXZMalFFRWlRTjB1ZXc4V0EzMzZUeC0wRTRWX3g1ZzZwSFlwcFF5aUo5YThCSURzc2NSaWxxNm9mTl95NE1GN21PeHZ0TVRqVDM1Z2MxVTc3RlpWNGVWVlg5R25LSXpaeGczd2lD0gH3AUFVX3lxTE5RQTlGcXF5R01JRzgtaEFmM3c4Szl2eXFaMFlHdlZVendpaVk1eWU5UjhLMlQ5SFVCQjZQSVZSalEwSV9NNW1DcTZDMVVMUF9tdUFzdFhod0lrY2Y3MldkZDVQSEJ2SVhGcnF6MFNNMXlMM1RpN1FpTEpwdHpXeXg1SkhEdUlmQk9CeFM0Z0dMZkc1ZlctZDVnUWZYalBWbkp2X29oTHd6bGZ1elljZXEyd2ZRNFRwSjkzdTVBYWVMV29uNUR5bmYzVndWekZfVi00Zm5fUHdpNUYtQmwxa3FGSFE1RWd4TmRhV3hTNXQ2TmM3dzlLUVU?oc=5",
           "date": "Wed, 14 Oct 2026 20:00:00 GMT"
-        },
-        {
-          "quote": "no todos quieren trabajar en relación de dependencia",
-          "source": "Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUUE5RnFxeUdNSUc4LWhBZjN3OEs5dnlxWjBZR3ZWVXp3aWlZNXllOVI4SzJUOUhVQkI2UElWUmpRMElfTTVtQ3E2QzFVTFBfbXVBc3RYaHdJa2NmNzJXZGQ1UEhCdklYRnJxejBTTTF5TDNUaTdRaUxKcHR6V3l4NUpIRHVJZkJPQnhTNGdHTGZHNWZXLWQ1Z1FmWGpQVm5Kdl9vaEx3emxmdXpZY2VxMndmUTRUcEo5M3U1QWFlTFdvbjVEeW5mM1Z3VnpGX1YtNGZuX1B3aTVGLUJsMWtxRkhRNUVneE5kYVd4UzV0Nk5jN3c5S1FV0gH3AUFVX3lxTE5RQTlGcXF5R01JRzgtaEFmM3c4Szl2eXFaMFlHdlZVendpaVk1eWU5UjhLMlQ5SFVCQjZQSVZSalEwSV9NNW1DcTZDMVVMUF9tdUFzdFhod0lrY2Y3MldkZDVQSEJ2SVhGcnF6MFNNMXlMM1RpN1FpTEpwdHpXeXg1SkhEdUlmQk9CeFM0Z0dMZkc1ZlctZDVnUWZYalBWbkp2X29oTHd6bGZ1elljZXEyd2ZRNFRwSjkzdTVBYWVMV29uNUR5bmYzVndWekZfVi00Zm5fUHdpNUYtQmwxa3FGSFE1RWd4TmRhV3hTNXQ2TmM3dzlLUVU?oc=5",
-          "date": "Wed, 14 Oct 2026 20:00:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Tensión entre Bullrich y los Milei: \"Cruzó un límite\" - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjdoTHE2ZUFYdENWLTdoN1hSd0p3WWxXaHRtckhINTAxQlpfRHREWUk3RVpqOUNPZnNPOXl3a3UtRFFRTVZCOTFIU3I1OVliQVZndEZvWWhDU1VvQVdRZ0hQb1pVOHRJeGJyTlpwTUVqTU1fTE9TRkNqLUJ1ZHR6LTRFdE9BWkpzOTFqS2p0MzFKeFEyMFJIV3Q1MTZ0NHpDRThVQ2ZB0gGrAUFVX3lxTE9adUZYSklua3M2N05hcmMxUXdpckdIdkdzVUttLXhBTU1xU3V1eXR1WS1pSlJQQ2V6ZXpwS2VtOHJNcUxsNW1KaUdvTkFNVTU0bEgxR0tsS1c3ODZoZVBPVl9iaGo5WU1mXzBEMkdNR0NKZDRBZ0ZHSDlueXoyWXhpTTk1RzJwLVpsQjczVUx6MEI4ZGNpTktsUlBRcUVpN0FqS0tDSC02SXNtWQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 06 Nov 2026 04:34:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La carta de AI para el Papa, con fuertes reclamos sociales - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNczBFTHhyQm5WemwtRTlsVHU0d01oOW1laHFTUHNxSGtiRVdYOW9kMlNvVFpYdDRMVVIyWUJGaEFDNVk1OVJKMzlJR0FPdnZzWEp3NEdNWTBncDVfSE5oZ0RxMFJpZXNfdDI5ZUc5Um9qNTJIR2FSbng0Q0pJNFczSkhvSnBBWm5FSnJxRnhSLS0ydmdMYXhGU2RmcU15c09jVlNMUDJScy1JdkU3eFJF0gG0AUFVX3lxTE5sMF9GaEVWRDh4SDZxRDhHUGUyTVpoZTlRcUtRR1FSejdDVVcxVTR1NVAweFhfMUU2YkZ5TTl0RGIwWEJETERNTjhNUlRTY3cxMTIyaDFyRXE3U0dzeWN5RnBuSFF6UGh5NDdMVlk2UDFjc2VBelFseS1Yb09FcGpQMjV6b3kzSURCM0VJTkZRM1JqTlRmVWtncWFSa20ybGMtUXhxeFZwMkxLQnJ1VDBYV29nMA?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 06 Nov 2026 04:34:00 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "La policía de Jorge Macri ataca a vendedores ambulantes y no actuó en el ataque transfóbic - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTh3SVV0RWhwOGlxUGg5LU1UODlLV0Z6ckxSRVRHR3N0YjBZMS1fdTFRbEh5Z21EVl9lVmdQUFhSZGowbmNQY3h4TjkycUdNV01aN2E2SzVicW5tWTI4NXp0ZWM5d08xcW1mSGVyb2lXRzU4WFNXRnJlVk5ldWppdWVqeGo5MjRrRVFkWVpScFlldGVhTkQxcEpsVQ?oc=5",
@@ -608,20 +622,6 @@
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbjBseVRrM0gyTFRxNDlyZ016Q1lUeF9yNGxSUjE3V2duQ2VDQjFlSUQxeDFFa2dEdlRNcTlIU1JEYlZIRnY2Z2M0amZlM2JMT0FSQlNnUG9OazFydnpWQXotdHIzcFdFQUlmb0hyMWF2cWFySE9wb0RmUVViV2RiZmJqQUl2TXVlVjVKak1UT1FLM2Y4aFhRZkp30gGaAUFVX3lxTE9uMGx5VGszSDJMVHE0OXJnTXpDWVR4X3I0bFJSMTdXZ25DZUNCMWVJRDF4MUVrZ0R2VE1xOUhTUkRiVkhGdjZnYzRqZmUzYkxPQVJCU2dQb05rMXJ2elZBei10cjNwV0VBSWZvSHIxYXZxYXJIT3BvRGZRVWJXZGJmYmpBSXZNdWVWNUpqTVRPUUszZjhoWFFmSnc?oc=5",
           "source": "Que Pasa Salta",
           "date": "Sun, 01 Nov 2026 12:41:35 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sin ceder a los aliados, se frena el debate del Presupuesto y las Paso - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcU80SUswZ2Zfck5WVVI3UXNaM2xvQ2JzcENVWlJOYk4xTDRyTm5vbW1LQ2pjeF9PdThyTmtXY0Nxc3J4Qk80M0YwVDNRUkZVWDFMV2tNYjMwaUZYWjVTY0dFOFluY2tJUzlSUlRwbjRfRFRFSnQzcVRwRHRUQVZwN3dlS0huOGVKd2tRNEZsdzNvbmRjMzNuY25kazdaYW9yQ2dMWGU2Mjd2dXlhX19hcTRETDhVSTl3cmxCTnhrUdIBxAFBVV95cUxQb0RvSkRFcW94a0wyOEZBZ0g5SlRvUVdPOG1VZXk1OGNjYjVmVC12a1lQU2tiVVZCVXVGY3VxTWxjNkpFY3VsV3Z3VGk5S2hFY0lENW5vYlNWYjBWM0dKVllZbWVRRmRkakVDTGtZY0RiajNiellWc3dnOFpuWndoejk3XzN3a3BmZ2RKaVU1RTlkdnVfSk96dmotaVk0MlMybDEwRVJmSExSUWRyOElRYWNGbU83d3VUR0lDMjdqZWRsWG9L?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 01 Nov 2026 04:56:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: Salta realizó una nueva reunión regional con intendentes y legisladores - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNczhBQldRcUlyUmk4SGVlaGVyQ0NMSlI0SWpYQmxBaU9lWUFYcWVURDRrTDN6T2ZsMkFYVUhCWGtlcmVSM01JeENTUVc3RXdZS3BJT05yYVczQTVidWlLX1pzdGNXNy1nckZDcm9mMFZJT0RMTTRRWFNEc1VGV0tKU0llVUc0SGtXTmtkYlltOHNEeG1mZkphNWVkQTliYVc0dkJrcVJHMjdmcmdaYUo4Ri01SEtVc3hYbEFEWlBTOVpmWjN5UTlwTmNsNWYtaWhQRWtDUUlydmhkMk1ONjFpdE9hUjRlR3p1ZnfSAfgBQVVfeXFMUEkyTFhiWG9UdkkxTk55ZzJQWllrS2Y3cDVvVzVUZGVzUzkxZTF5eFhmOHRwc2xmelpLMU5CZkprN2xGaVZaQXRndjBXSHF5cXZOQ1BZckExLWh5R2Z5SmQ5ZEt1bUZDaUdzd0F2STBHUmxrUUk5N2JPSEJnSHRVN01jWlZ3dzVIeS15Qm9FVzRfMHktcUhYUU45dnJIOWZXWlhmLXctWFFVMjR5QmJZbWFzWU5fVmc1YTFBNTkyZlp3M0dzeFlxc0gzeFlVYld0S1lOX3hfeHVtSThoUzZ1YTU0Tl9WWmZjbkJLcEctRmEydTFlekpiMi0?oc=5",
-          "source": "Informate Salta",
-          "date": "Sat, 31 Oct 2026 21:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]

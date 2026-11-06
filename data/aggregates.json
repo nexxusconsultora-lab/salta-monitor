@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-06T03:47:34.084836+00:00",
+  "generated_at": "2026-11-06T11:39:49.892356+00:00",
   "by_politician": {
+    "dip-eduardo-jose-virgili": {
+      "total": 14,
+      "positivo": 2,
+      "negativo": 1,
+      "neutral": 11,
+      "score_sum": 1
+    },
+    "dnac-yolanda-vega": {
+      "total": 18,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 13,
+      "score_sum": -5
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 38,
+      "positivo": 5,
+      "negativo": 4,
+      "neutral": 29,
+      "score_sum": 2
+    },
+    "dip-omar-exeni-arminana": {
+      "total": 43,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 41,
+      "score_sum": -4
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 26,
+      "positivo": 0,
+      "negativo": 6,
+      "neutral": 20,
+      "score_sum": -10
+    },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 15,
       "positivo": 1,
@@ -232,13 +267,6 @@
       "neutral": 1,
       "score_sum": 4
     },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 25,
-      "positivo": 0,
-      "negativo": 5,
-      "neutral": 20,
-      "score_sum": -8
-    },
     "dip-rogelio-guaipo-segundo": {
       "total": 9,
       "positivo": 0,
@@ -281,26 +309,12 @@
       "neutral": 45,
       "score_sum": -20
     },
-    "dnac-yolanda-vega": {
-      "total": 17,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 13,
-      "score_sum": -3
-    },
     "dnac-maria-gabriela-flores": {
       "total": 25,
       "positivo": 1,
       "negativo": 4,
       "neutral": 20,
       "score_sum": -5
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 37,
-      "positivo": 4,
-      "negativo": 4,
-      "neutral": 29,
-      "score_sum": 0
     },
     "dip-luis-gerardo-mendana": {
       "total": 9,
@@ -442,13 +456,6 @@
       "neutral": 8,
       "score_sum": -1
     },
-    "dip-omar-exeni-arminana": {
-      "total": 42,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 40,
-      "score_sum": -4
-    },
     "dip-sergio-mauricio-lopez": {
       "total": 14,
       "positivo": 2,
@@ -553,13 +560,6 @@
       "negativo": 5,
       "neutral": 8,
       "score_sum": -10
-    },
-    "dip-eduardo-jose-virgili": {
-      "total": 13,
-      "positivo": 2,
-      "negativo": 1,
-      "neutral": 10,
-      "score_sum": 1
     },
     "sen-jorge-soto": {
       "total": 44,
@@ -934,6 +934,80 @@
     }
   },
   "by_day": {
+    "2025-03-24": {
+      "dip-eduardo-jose-virgili": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-marianela-marinaro-chain": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-carolina-rosana-ceaglio": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-06-20": {
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-09-11": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-06-05": {
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2024-01-22": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-07-23": {
       "concejal-rodrigo-alfredo-perez-quinteros": {
         "total": 1,
@@ -2148,24 +2222,6 @@
         "score_sum": 0
       }
     },
-    "2025-03-24": {
-      "dip-laura-deolinda-cartuccia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-marianela-marinaro-chain": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-carolina-rosana-ceaglio": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-04-20": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -2700,20 +2756,6 @@
       "dip-griselda-edith-galleguillos": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2024-06-05": {
-      "concejal-ines-bennassar": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2026-02-13": {
@@ -7910,20 +7952,6 @@
         "score_sum": 0
       }
     },
-    "2026-09-11": {
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-09-26": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -10752,12 +10780,6 @@
         "score_sum": 0
       },
       "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-01-22": {
-      "dnac-carlos-raul-zapata": {
         "total": 1,
         "score_sum": 0
       }
@@ -18136,7 +18158,7 @@
     },
     {
       "term": "sáenz",
-      "count": 12
+      "count": 10
     },
     {
       "term": "cuestionó",
@@ -18167,18 +18189,6 @@
       "count": 5
     },
     {
-      "term": "transporte",
-      "count": 5
-    },
-    {
-      "term": "subsidios",
-      "count": 5
-    },
-    {
-      "term": "orozco",
-      "count": 4
-    },
-    {
       "term": "javier",
       "count": 4
     },
@@ -18187,7 +18197,19 @@
       "count": 4
     },
     {
+      "term": "transporte",
+      "count": 4
+    },
+    {
       "term": "privilegios",
+      "count": 4
+    },
+    {
+      "term": "nación",
+      "count": 4
+    },
+    {
+      "term": "subsidios",
       "count": 4
     }
   ],
