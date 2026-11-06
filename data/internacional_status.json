@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-05T18:40:43.479868+00:00",
+ "generated_at": "2026-11-06T00:06:54.701401+00:00",
  "medios": {
   "The New York Times": {
    "state": "ok",
    "via": "rss",
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 231,
-   "nuevas": 139,
+   "items": 239,
+   "nuevas": 144,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Wall Street Journal": {
    "state": "ok",
@@ -19,17 +19,17 @@
    "items": 80,
    "nuevas": 74,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Washington Post": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Bloomberg": {
    "state": "ok",
@@ -37,9 +37,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 54,
+   "nuevas": 53,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CNBC": {
    "state": "ok",
@@ -47,9 +47,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 120,
-   "nuevas": 80,
+   "nuevas": 77,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CNN": {
    "state": "ok",
@@ -57,9 +57,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 92,
-   "nuevas": 86,
+   "nuevas": 92,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "NPR": {
    "state": "ok",
@@ -67,9 +67,9 @@
    "region": "Norteamérica",
    "tipo": "publico",
    "items": 50,
-   "nuevas": 44,
+   "nuevas": 41,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CBS News": {
    "state": "ok",
@@ -77,9 +77,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 37,
+   "nuevas": 41,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ABC News (EE.UU.)": {
    "state": "ok",
@@ -87,9 +87,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 50,
-   "nuevas": 39,
+   "nuevas": 34,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Fox News": {
    "state": "ok",
@@ -97,19 +97,19 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 50,
-   "nuevas": 37,
+   "nuevas": 35,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Politico": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Los Angeles Times": {
    "state": "ok",
@@ -117,9 +117,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 52,
+   "nuevas": 49,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Foreign Policy": {
    "state": "ok",
@@ -127,9 +127,9 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 25,
-   "nuevas": 18,
+   "nuevas": 23,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Atlantic": {
    "state": "ok",
@@ -137,39 +137,39 @@
    "region": "Norteamérica",
    "tipo": "privado",
    "items": 25,
-   "nuevas": 13,
+   "nuevas": 16,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Miami Herald": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Reuters": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 30,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Associated Press": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CBC News": {
    "state": "ok",
@@ -177,39 +177,39 @@
    "region": "Norteamérica",
    "tipo": "publico",
    "items": 39,
-   "nuevas": 24,
+   "nuevas": 29,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Globe and Mail": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "BBC News": {
    "state": "ok",
    "via": "rss",
    "region": "Europa",
    "tipo": "publico",
-   "items": 292,
-   "nuevas": 206,
+   "items": 293,
+   "nuevas": 198,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Guardian": {
    "state": "ok",
    "via": "rss",
    "region": "Europa",
    "tipo": "privado",
-   "items": 227,
-   "nuevas": 167,
+   "items": 229,
+   "nuevas": 141,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Economist": {
    "state": "ok",
@@ -217,9 +217,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 210,
-   "nuevas": 191,
+   "nuevas": 164,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Financial Times": {
    "state": "ok",
@@ -227,19 +227,19 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 100,
-   "nuevas": 40,
+   "nuevas": 20,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Sky News": {
    "state": "ok",
    "via": "rss",
    "region": "Europa",
    "tipo": "privado",
-   "items": 35,
-   "nuevas": 26,
+   "items": 34,
+   "nuevas": 25,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Telegraph": {
    "state": "ok",
@@ -247,19 +247,19 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 23,
+   "nuevas": 27,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Independent": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Euronews": {
    "state": "ok",
@@ -267,9 +267,9 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 25,
+   "nuevas": 3,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Euronews (español)": {
    "state": "ok",
@@ -277,9 +277,9 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 29,
+   "nuevas": 9,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "DW (inglés)": {
    "state": "ok",
@@ -287,19 +287,19 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 24,
+   "nuevas": 16,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "DW Español": {
    "state": "ok",
    "via": "rss",
    "region": "Europa",
    "tipo": "publico",
-   "items": 23,
-   "nuevas": 17,
+   "items": 17,
+   "nuevas": 9,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "France 24 (inglés)": {
    "state": "ok",
@@ -307,9 +307,9 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 24,
-   "nuevas": 23,
+   "nuevas": 5,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "France 24 Español": {
    "state": "ok",
@@ -317,9 +317,9 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 24,
-   "nuevas": 14,
+   "nuevas": 21,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Le Monde": {
    "state": "ok",
@@ -327,9 +327,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 36,
-   "nuevas": 28,
+   "nuevas": 14,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Le Figaro": {
    "state": "ok",
@@ -337,9 +337,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 17,
+   "nuevas": 15,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Der Spiegel (inglés)": {
    "state": "ok",
@@ -349,7 +349,7 @@
    "items": 20,
    "nuevas": 20,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Politico Europe": {
    "state": "ok",
@@ -357,9 +357,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 10,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Euractiv": {
    "state": "ok",
@@ -367,9 +367,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 16,
+   "nuevas": 2,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ANSA": {
    "state": "ok",
@@ -377,9 +377,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 28,
-   "nuevas": 19,
+   "nuevas": 12,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El País (España)": {
    "state": "ok",
@@ -387,9 +387,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 196,
-   "nuevas": 132,
+   "nuevas": 120,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Mundo (España)": {
    "state": "ok",
@@ -397,9 +397,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 33,
+   "nuevas": 36,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ABC (España)": {
    "state": "ok",
@@ -407,19 +407,19 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 50,
-   "nuevas": 29,
+   "nuevas": 13,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Vanguardia": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "20minutos": {
    "state": "ok",
@@ -427,29 +427,29 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 26,
-   "nuevas": 12,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "RTVE": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "publico",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Confidencial": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Expansión": {
    "state": "ok",
@@ -457,9 +457,9 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 11,
+   "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Kyiv Independent": {
    "state": "ok",
@@ -467,9 +467,9 @@
    "region": "Eurasia",
    "tipo": "privado",
    "items": 15,
-   "nuevas": 13,
+   "nuevas": 8,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Moscow Times": {
    "state": "ok",
@@ -477,9 +477,9 @@
    "region": "Eurasia",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 27,
+   "nuevas": 22,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Meduza": {
    "state": "ok",
@@ -487,9 +487,9 @@
    "region": "Eurasia",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 29,
+   "nuevas": 19,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "TASS": {
    "state": "ok",
@@ -497,9 +497,9 @@
    "region": "Eurasia",
    "tipo": "estatal",
    "items": 30,
-   "nuevas": 30,
+   "nuevas": 12,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "BBC Mundo": {
    "state": "ok",
@@ -507,29 +507,29 @@
    "region": "Latinoamérica",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "CNN en Español": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Latinoamérica",
-   "tipo": "privado",
-   "items": 30,
    "nuevas": 22,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
-  "Infobae (América)": {
-   "state": "ok",
-   "via": "google_news",
+  "CNN en Español": {
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Infobae (América)": {
+   "state": "error",
+   "via": null,
+   "region": "Latinoamérica",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Buenos Aires Times": {
    "state": "ok",
@@ -537,9 +537,9 @@
    "region": "Latinoamérica",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 26,
+   "nuevas": 27,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "MercoPress": {
    "state": "ok",
@@ -549,7 +549,7 @@
    "items": 10,
    "nuevas": 4,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Folha de S.Paulo": {
    "state": "ok",
@@ -557,9 +557,9 @@
    "region": "Latinoamérica",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 41,
+   "nuevas": 42,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "g1 (Globo)": {
    "state": "ok",
@@ -567,69 +567,69 @@
    "region": "Latinoamérica",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 35,
+   "nuevas": 17,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Estadão": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Universal (México)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Milenio": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Jornada": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Tercera": {
-   "state": "ok",
-   "via": "rss",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 30,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Emol": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Tiempo": {
    "state": "ok",
@@ -637,49 +637,49 @@
    "region": "Latinoamérica",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 10,
+   "nuevas": 8,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Espectador": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Comercio (Perú)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El País (Uruguay)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Nacional (Venezuela)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "14ymedio": {
    "state": "ok",
@@ -687,19 +687,19 @@
    "region": "Latinoamérica",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 25,
+   "nuevas": 23,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Bloomberg Línea": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "South China Morning Post": {
    "state": "ok",
@@ -707,9 +707,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 41,
+   "nuevas": 35,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Nikkei Asia": {
    "state": "ok",
@@ -717,9 +717,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 5,
+   "nuevas": 14,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Japan Times": {
    "state": "ok",
@@ -729,7 +729,7 @@
    "items": 30,
    "nuevas": 2,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Straits Times": {
    "state": "ok",
@@ -737,9 +737,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 45,
+   "nuevas": 42,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Hindu": {
    "state": "ok",
@@ -747,9 +747,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 60,
-   "nuevas": 35,
+   "nuevas": 17,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Times of India": {
    "state": "ok",
@@ -757,9 +757,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 20,
+   "nuevas": 16,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "NDTV": {
    "state": "ok",
@@ -767,9 +767,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 16,
+   "nuevas": 13,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ABC News (Australia)": {
    "state": "ok",
@@ -777,9 +777,9 @@
    "region": "Oceanía",
    "tipo": "publico",
    "items": 25,
-   "nuevas": 13,
+   "nuevas": 22,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Sydney Morning Herald": {
    "state": "ok",
@@ -787,9 +787,9 @@
    "region": "Oceanía",
    "tipo": "privado",
    "items": 40,
-   "nuevas": 16,
+   "nuevas": 22,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "NZ Herald": {
    "state": "ok",
@@ -797,59 +797,59 @@
    "region": "Oceanía",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 6,
+   "nuevas": 9,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Korea Herald": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Korea Times": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "China Daily": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Xinhua": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CGTN": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Dawn": {
    "state": "ok",
@@ -857,9 +857,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 59,
-   "nuevas": 40,
+   "nuevas": 23,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Al Jazeera": {
    "state": "ok",
@@ -867,29 +867,29 @@
    "region": "Medio Oriente",
    "tipo": "publico",
    "items": 25,
-   "nuevas": 25,
+   "nuevas": 16,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Al Arabiya English": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Times of Israel": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 29,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Jerusalem Post": {
    "state": "ok",
@@ -899,47 +899,47 @@
    "items": 30,
    "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Haaretz": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Middle East Eye": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Arab News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Hürriyet Daily News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Tehran Times": {
    "state": "ok",
@@ -949,7 +949,7 @@
    "items": 30,
    "nuevas": 29,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "AllAfrica": {
    "state": "ok",
@@ -957,9 +957,9 @@
    "region": "África",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 23,
+   "nuevas": 4,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Africanews": {
    "state": "ok",
@@ -967,9 +967,9 @@
    "region": "África",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 20,
+   "nuevas": 5,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Daily Maverick": {
    "state": "ok",
@@ -977,39 +977,39 @@
    "region": "África",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 14,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Mail & Guardian": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "News24": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The East African": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 3,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Channel NewsAsia": {
    "state": "ok",
@@ -1019,7 +1019,7 @@
    "items": 20,
    "nuevas": 20,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Diplomat": {
    "state": "ok",
@@ -1027,9 +1027,9 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 29,
+   "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Taipei Times": {
    "state": "ok",
@@ -1037,49 +1037,49 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 30,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Focus Taiwan": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "publico",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "NHK World": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "publico",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Kyodo News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Asahi Shimbun": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Yonhap News": {
    "state": "ok",
@@ -1087,19 +1087,19 @@
    "region": "Asia-Pacífico",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 7,
+   "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Jakarta Post": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Rappler": {
    "state": "ok",
@@ -1107,29 +1107,29 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 6,
+   "nuevas": 3,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Philippine Daily Inquirer": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Bangkok Post": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "VnExpress International": {
    "state": "ok",
@@ -1139,17 +1139,17 @@
    "items": 30,
    "nuevas": 22,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Star (Malasia)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Hindustan Times": {
    "state": "ok",
@@ -1157,69 +1157,69 @@
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 28,
+   "nuevas": 17,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Indian Express": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Asia-Pacífico",
-   "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "The Wire (India)": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Asia-Pacífico",
-   "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "The Daily Star (Bangladesh)": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Asia-Pacífico",
-   "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "Global Times": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Asia-Pacífico",
-   "tipo": "estatal",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "Korea JoongAng Daily": {
-   "state": "sin_resultados",
+   "state": "error",
    "via": null,
    "region": "Asia-Pacífico",
    "tipo": "privado",
    "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "The Wire (India)": {
+   "state": "error",
+   "via": null,
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "The Daily Star (Bangladesh)": {
+   "state": "error",
+   "via": null,
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Global Times": {
+   "state": "error",
+   "via": null,
+   "region": "Asia-Pacífico",
+   "tipo": "estatal",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Korea JoongAng Daily": {
+   "state": "error",
+   "via": null,
+   "region": "Asia-Pacífico",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "RNZ": {
    "state": "ok",
    "via": "rss",
    "region": "Oceanía",
    "tipo": "publico",
-   "items": 4,
-   "nuevas": 1,
+   "items": 3,
+   "nuevas": 3,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Guardian Australia": {
    "state": "ok",
@@ -1227,39 +1227,39 @@
    "region": "Oceanía",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 16,
+   "nuevas": 14,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Australian": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Oceanía",
-   "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "Stuff (Nueva Zelanda)": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "Oceanía",
-   "tipo": "privado",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "Pacific Islands Report": {
-   "state": "sin_resultados",
+   "state": "error",
    "via": null,
    "region": "Oceanía",
    "tipo": "privado",
    "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Stuff (Nueva Zelanda)": {
+   "state": "error",
+   "via": null,
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Pacific Islands Report": {
+   "state": "error",
+   "via": null,
+   "region": "Oceanía",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Daily Sabah": {
    "state": "ok",
@@ -1267,9 +1267,9 @@
    "region": "Medio Oriente",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 29,
+   "nuevas": 25,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Anadolu Agency": {
    "state": "ok",
@@ -1277,49 +1277,49 @@
    "region": "Medio Oriente",
    "tipo": "estatal",
    "items": 30,
-   "nuevas": 7,
+   "nuevas": 17,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "TRT World": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Ynetnews": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The National (EAU)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Gulf News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Asharq Al-Awsat (inglés)": {
    "state": "ok",
@@ -1327,29 +1327,29 @@
    "region": "Medio Oriente",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 25,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Ahram Online": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Egypt Independent": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Al-Monitor": {
    "state": "ok",
@@ -1357,69 +1357,69 @@
    "region": "Medio Oriente",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 11,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Iran International": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 22,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Press TV": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "estatal",
-   "items": 1,
-   "nuevas": 1,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Kurdistan24": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Jordan Times": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 14,
-   "nuevas": 9,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Morocco World News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Libya Observer": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Medio Oriente",
    "tipo": "privado",
-   "items": 8,
-   "nuevas": 8,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Premium Times (Nigeria)": {
    "state": "ok",
@@ -1427,9 +1427,9 @@
    "region": "África",
    "tipo": "privado",
    "items": 15,
-   "nuevas": 15,
+   "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Vanguard (Nigeria)": {
    "state": "ok",
@@ -1439,57 +1439,57 @@
    "items": 20,
    "nuevas": 20,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Punch (Nigeria)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Daily Nation (Kenia)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Citizen (Tanzania)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 10,
-   "nuevas": 7,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "GhanaWeb": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Addis Standard": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "África",
    "tipo": "privado",
-   "items": 27,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Jeune Afrique": {
    "state": "ok",
@@ -1497,9 +1497,9 @@
    "region": "África",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 25,
+   "nuevas": 19,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Africa Report": {
    "state": "ok",
@@ -1507,9 +1507,9 @@
    "region": "África",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 7,
+   "nuevas": 5,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "IOL (Sudáfrica)": {
    "state": "ok",
@@ -1517,9 +1517,9 @@
    "region": "África",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 30,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "SABC News": {
    "state": "ok",
@@ -1529,37 +1529,37 @@
    "items": 10,
    "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "BusinessDay (Sudáfrica)": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "África",
-   "tipo": "privado",
-   "items": 1,
-   "nuevas": 1,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "The Zimbabwe Independent": {
-   "state": "ok",
-   "via": "google_news",
-   "region": "África",
-   "tipo": "privado",
-   "items": 7,
-   "nuevas": 6,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
-  },
-  "Africa News Agency": {
-   "state": "sin_resultados",
+   "state": "error",
    "via": null,
    "region": "África",
    "tipo": "privado",
    "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "The Zimbabwe Independent": {
+   "state": "error",
+   "via": null,
+   "region": "África",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
+  },
+  "Africa News Agency": {
+   "state": "error",
+   "via": null,
+   "region": "África",
+   "tipo": "privado",
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Ukrainska Pravda (inglés)": {
    "state": "ok",
@@ -1567,49 +1567,49 @@
    "region": "Eurasia",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 19,
+   "nuevas": 4,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Kyiv Post": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Ukrinform": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "RFE/RL": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "publico",
-   "items": 30,
-   "nuevas": 14,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Eurasianet": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "privado",
-   "items": 5,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Astana Times": {
    "state": "ok",
@@ -1617,9 +1617,9 @@
    "region": "Eurasia",
    "tipo": "estatal",
    "items": 10,
-   "nuevas": 3,
+   "nuevas": 0,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Civil Georgia": {
    "state": "ok",
@@ -1627,59 +1627,59 @@
    "region": "Eurasia",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 9,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Interfax": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 14,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "RT": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "estatal",
-   "items": 13,
-   "nuevas": 4,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Sputnik": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Belsat": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Eurasia",
    "tipo": "publico",
-   "items": 20,
-   "nuevas": 14,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Irish Times": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "RTÉ": {
    "state": "ok",
@@ -1687,39 +1687,39 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 20,
-   "nuevas": 17,
+   "nuevas": 6,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Scotsman": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Brussels Times": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Swissinfo": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "publico",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Notes from Poland": {
    "state": "ok",
@@ -1727,39 +1727,39 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 12,
-   "nuevas": 11,
+   "nuevas": 9,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Radio Prague International": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "publico",
-   "items": 15,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Kathimerini (inglés)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Local (Europa)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 2,
-   "nuevas": 2,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "DutchNews": {
    "state": "ok",
@@ -1767,29 +1767,29 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 5,
+   "nuevas": 2,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Corriere della Sera": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 4,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Repubblica": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Tagesschau": {
    "state": "ok",
@@ -1797,9 +1797,9 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 25,
+   "nuevas": 11,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Frankfurter Allgemeine": {
    "state": "ok",
@@ -1807,29 +1807,29 @@
    "region": "Europa",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 27,
+   "nuevas": 15,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Libération": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 4,
-   "nuevas": 4,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Público (Portugal)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Europa",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "NOS": {
    "state": "ok",
@@ -1837,229 +1837,229 @@
    "region": "Europa",
    "tipo": "publico",
    "items": 20,
-   "nuevas": 19,
+   "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Toronto Star": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "National Post": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "CTV News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Norteamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Financiero (México)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Proceso": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Animal Político": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 17,
-   "nuevas": 14,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La República (Perú)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Perú21": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Universo (Ecuador)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Primicias (Ecuador)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Los Tiempos (Bolivia)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ABC Color (Paraguay)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "El Observador (Uruguay)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Montevideo Portal": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Efecto Cocuyo": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Nación (Costa Rica)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "La Prensa (Panamá)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Prensa Libre (Guatemala)": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Listín Diario": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Telesur": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Granma": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "estatal",
-   "items": 16,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Cubadebate": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "estatal",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Agência Brasil": {
    "state": "ok",
@@ -2069,37 +2069,37 @@
    "items": 10,
    "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "O Globo": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Valor Econômico": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Brasil de Fato": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Latinoamérica",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Global Voices": {
    "state": "ok",
@@ -2107,9 +2107,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 15,
-   "nuevas": 14,
+   "nuevas": 13,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "TechCrunch": {
    "state": "ok",
@@ -2117,9 +2117,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 18,
+   "nuevas": 7,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Verge": {
    "state": "ok",
@@ -2129,7 +2129,7 @@
    "items": 10,
    "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Ars Technica": {
    "state": "ok",
@@ -2137,9 +2137,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 10,
+   "nuevas": 15,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Wired": {
    "state": "ok",
@@ -2147,9 +2147,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 10,
+   "nuevas": 6,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "MIT Technology Review": {
    "state": "ok",
@@ -2157,9 +2157,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 7,
+   "nuevas": 8,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Nature": {
    "state": "ok",
@@ -2169,7 +2169,7 @@
    "items": 30,
    "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "New Scientist": {
    "state": "ok",
@@ -2177,9 +2177,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 4,
+   "nuevas": 6,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ScienceDaily": {
    "state": "ok",
@@ -2187,9 +2187,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 30,
+   "nuevas": 24,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "STAT": {
    "state": "ok",
@@ -2197,9 +2197,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 20,
-   "nuevas": 13,
+   "nuevas": 5,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Organización Mundial de la Salud": {
    "state": "ok",
@@ -2209,7 +2209,7 @@
    "items": 30,
    "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Noticias ONU": {
    "state": "ok",
@@ -2217,19 +2217,19 @@
    "region": "Global",
    "tipo": "publico",
    "items": 30,
-   "nuevas": 29,
+   "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "UN News": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "publico",
-   "items": 23,
-   "nuevas": 15,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Carbon Brief": {
    "state": "ok",
@@ -2237,9 +2237,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 12,
-   "nuevas": 12,
+   "nuevas": 11,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Inside Climate News": {
    "state": "ok",
@@ -2247,9 +2247,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 2,
+   "nuevas": 8,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Mongabay": {
    "state": "ok",
@@ -2257,19 +2257,19 @@
    "region": "Global",
    "tipo": "privado",
    "items": 30,
-   "nuevas": 26,
+   "nuevas": 23,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Forbes": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Fortune": {
    "state": "ok",
@@ -2277,9 +2277,9 @@
    "region": "Global",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 10,
+   "nuevas": 4,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "MarketWatch": {
    "state": "ok",
@@ -2287,19 +2287,19 @@
    "region": "Global",
    "tipo": "privado",
    "items": 10,
-   "nuevas": 8,
+   "nuevas": 9,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "ESPN": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Marca": {
    "state": "ok",
@@ -2309,17 +2309,17 @@
    "items": 30,
    "nuevas": 30,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "AS": {
-   "state": "ok",
-   "via": "google_news",
+   "state": "error",
+   "via": null,
    "region": "Global",
    "tipo": "privado",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Variety": {
    "state": "ok",
@@ -2329,7 +2329,7 @@
    "items": 10,
    "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "The Hollywood Reporter": {
    "state": "ok",
@@ -2339,1637 +2339,1637 @@
    "items": 10,
    "nuevas": 10,
    "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · EE.UU. · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Canadá · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Norteamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 5,
-   "nuevas": 2,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · México · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 25,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Argentina · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 8,
-   "nuevas": 4,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Colombia · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 23,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Chile · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Perú · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 19,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Perú · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 9,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Perú · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Venezuela · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 24,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Venezuela · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 6,
-   "nuevas": 5,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Uruguay · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Uruguay · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 22,
-   "nuevas": 13,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ecuador · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ecuador · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 22,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Cuba · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Brasil · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Latinoamérica",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 29,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Reino Unido · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Irlanda · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Irlanda · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Irlanda · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 29,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 15,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · España · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Francia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Francia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 28,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Francia · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Francia · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Alemania · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Alemania · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Alemania · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Alemania · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Italia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Italia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Italia · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Portugal · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Portugal · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Europa",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ucrania · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Eurasia",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ucrania · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Eurasia",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Turquía · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Turquía · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 27,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Israel · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Egipto · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Egipto · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Arabia Saudita · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Arabia Saudita · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Medio Oriente",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 24,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Sudáfrica · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 15,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 12,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 3,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nigeria · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Kenia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Kenia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Kenia · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 7,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Kenia · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ghana · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Ghana · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Etiopía · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "África",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 20,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 15,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 26,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · India · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Pakistán · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Pakistán · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Pakistán · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Japón · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Japón · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Japón · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Japón · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Corea del Sur · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Corea del Sur · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Corea del Sur · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Hong Kong · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Hong Kong · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Taiwán · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Taiwán · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Taiwán · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
+   "items": 0,
    "nuevas": 0,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Singapur · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 23,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Singapur · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Filipinas · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Filipinas · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Indonesia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 25,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Indonesia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Asia-Pacífico",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 9,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 13,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 13,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Tecnología": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 17,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Ciencia": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 21,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Salud": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 22,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 18,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Australia · Cultura": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 16,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nueva Zelanda · Mundo": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 12,
-   "nuevas": 9,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nueva Zelanda · Negocios": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 24,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   },
   "Google News · Nueva Zelanda · Deportes": {
-   "state": "ok",
+   "state": "error",
    "via": "google_news_tema",
    "region": "Oceanía",
    "tipo": "agregador",
-   "items": 30,
-   "nuevas": 19,
-   "message": null,
-   "checked_at": "2026-11-05T18:40:43.479868+00:00"
+   "items": 0,
+   "nuevas": 0,
+   "message": "HTTP Error 503: Service Unavailable",
+   "checked_at": "2026-11-06T00:06:54.701401+00:00"
   }
  }
 }
