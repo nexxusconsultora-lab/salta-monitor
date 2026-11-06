@@ -3,16 +3,16 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 448,
+    "total_mentions": 453,
     "sentiment_breakdown": {
-      "positivo": 113,
-      "negativo": 77,
-      "neutral": 258
+      "positivo": 116,
+      "negativo": 78,
+      "neutral": 259
     },
     "sentiment_by_day": {
       "2026-11-06": {
-        "total": 3,
-        "score_sum": -1
+        "total": 8,
+        "score_sum": 0
       },
       "2026-12-25": {
         "total": 1,
@@ -430,11 +430,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 34
+        "count": 37
       },
       {
         "term": "gustavo",
-        "count": 10
+        "count": 12
       },
       {
         "term": "subsidios",
@@ -457,11 +457,23 @@
         "count": 5
       },
       {
-        "term": "reelección",
+        "term": "reclamó",
         "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "No podemos quedar postergados 50 años más",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/reclamo/el-campo-alerta-por-el-ramal-c14-y-15---no-podemos-quedar-postergados-50-anos-mas-_a6aedd0da696ebfa450a19f2a",
+        "date": "Fri, 06 Nov 2026 16:00:00 GMT"
+      },
+      {
+        "quote": "Las provincias tienen que defender sus recursos naturales",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-mas-federalismo---las-provincias-tienen-que-defender-sus-recursos-naturales-_a6aedeb38696ebfa450a48309",
+        "date": "Fri, 06 Nov 2026 17:15:00 GMT"
+      },
       {
         "quote": "La integración es fundamental",
         "source": "Informate Salta",
@@ -539,22 +551,45 @@
         "source": "El Intransigente",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVB0U3VyTWtzUUlmZDRfMndaZUloV1puZ1RtZlNCZVhpa2xUbEZfU1lLTWJrWUdhT0NDZGVzb0JPcmxEaDZ1eU9qcUVYZzA3UWlJT2RZM0NScXhDdXpQbWlMWG44RE1PMHVkQ28xVkN2MTlkTWI3UThyUTduRDF2cGtQMjhpY09ZcVlJaTJrQTFZeWt0NTJmaE10SjYxN0xhVzRB?oc=5",
         "date": "Thu, 22 Oct 2026 16:40:29 GMT"
-      },
-      {
-        "quote": "Las escuelas no funcionan sin nosotros y cobramos 130 mil pesos",
-        "source": "Gente de Salta",
-        "link": "https://www.gentedesalta.com/sociedad/las-escuelas-funcionan-nosotros-cobramos-130-mil-pesos-ordenanzas-salta-plantan-pase-planta-permanente-n13232",
-        "date": "Sat, 24 Oct 2026 01:07:00 -0300"
-      },
-      {
-        "quote": "No hay Plan B",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/sin-vueltas-tv/elecciones---no-hay-plan-b---afirmo-jarsun-apoyando-la-reeleccion-de-saenz_a6ada31a65c9f5798b2d3702c",
-        "date": "Fri, 23 Oct 2026 10:05:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta aumentó los viáticos de sus funcionarios, pero no publicó los nuevos montos",
+        "link": "https://salta4400.com/salta/2026/11/06/salta-aumento-los-viaticos-de-sus-funcionarios-pero-no-publico-los-nuevos-montos/",
+        "source": "Salta 4400",
+        "date": "Fri, 06 Nov 2026 15:15:36 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "El campo alerta por el Ramal C14 y 15: “No podemos quedar postergados 50 años más\"",
+        "link": "https://informatesalta.com.ar/reclamo/el-campo-alerta-por-el-ramal-c14-y-15---no-podemos-quedar-postergados-50-anos-mas-_a6aedd0da696ebfa450a19f2a",
+        "source": "Informate Salta",
+        "date": "Fri, 06 Nov 2026 16:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Sáenz reclamó más federalismo: “Las provincias tienen que defender sus recursos naturales”",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-mas-federalismo---las-provincias-tienen-que-defender-sus-recursos-naturales-_a6aedeb38696ebfa450a48309",
+        "source": "Informate Salta",
+        "date": "Fri, 06 Nov 2026 17:15:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz aprobó $9000 millones en créditos y garantías para empresas de Salta",
+        "link": "https://elintra.com.ar/2026/11/06/gustavo-saenz-aprobo-9000-millones-en-creditos-y-garantias-para-empresas-de-salta/",
+        "source": "El Intra",
+        "date": "Fri, 06 Nov 2026 14:41:33 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz reclamó federalismo, obras y una distribución más equitativa de los recursos nacionales",
+        "link": "https://elintra.com.ar/2026/11/06/gustavo-saenz-reclamo-federalismo-obras-y-una-distribucion-mas-equitativa-de-los-recursos-nacionales/",
+        "source": "El Intra",
+        "date": "Fri, 06 Nov 2026 17:49:41 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Hucena respaldó una nueva candidatura de Sáenz y pidió que la fórmula incluya a alguien del interior",
         "link": "https://informatesalta.com.ar/sin-vueltas-tv/hucena-respaldo-una-nueva-candidatura-de-saenz-y-pidio-que-la-formula-incluya-a-alguien-del-interior_a6aedbb3c696ebfa4509f96e4",
@@ -728,41 +763,6 @@
         "link": "https://informatesalta.com.ar/turismo/salta-tendra-cuatro-vuelos-semanales-a-florianopolis-desde-enero--fechas--horarios-y-precios_a6ae9b83ebcf08930c40e0d46",
         "source": "Informate Salta",
         "date": "Tue, 03 Nov 2026 10:34:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Vecinos piden un tren que sea útil para todos: más horarios y más apeaderos",
-        "link": "https://www.eltribuno.com/municipios/2026-11-3-0-0-0-vecinos-piden-un-tren-que-sea-util-para-todos-mas-horarios-y-mas-apeaderos",
-        "source": "El Tribuno - Municipios",
-        "date": "Tue, 03 Nov 2026 04:45:19 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Milei invitó a Sáenz y legisladores salteños a un agasajo al Papa León XIV",
-        "link": "https://informatesalta.com.ar/sociedad/milei-invito-a-saenz-y-legisladores-saltenos-a-un-agasajo-al-papa-leon-xiv_a6ae9087fbcf08930c4093383",
-        "source": "Informate Salta",
-        "date": "Mon, 02 Nov 2026 22:30:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz se reunió con la Vicepresidenta - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGNuVU5NOE9fclYtUTNNc3dSM1B5WTRDOTkzZzRPcDlPMU8tUmtzZ3Q3ckluVGM5VmpNdU0yWjNQa0tZV09WZVB5QTRpLXFZVU9RZkRXUGptR0ZXWXV1anVIRjN5ZU54dVRyQTRieDBIcWpDNGNTcGVscnFWR2xWbVh4Z3NqSE1KbXdwMElZdG1vaENScGNXUEgxWdIBoAFBVV95cUxQTGQtRk9Ob2F5ZzBBQWZLM2Z6UEJDRXFFc2RwVW1CeUpIODUyd1ZTd1JWa3Zya2VqSVZheFp1YjI4aXRfaGtKbU52MW5aOW9VbUlpY0ljYXhsU0VtUnpJSXROblhRN2EyUUNPV3JGYlNGUGpGNFMxWWhhNVp2RHdnSWdoMHJiYkdmYkhwWTJpVGVfTXZ2SUxRcXJTZVBHczd4?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 19 Feb 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz recibió al embajador de Arabia Saudita: impulsa inversiones en minería, salud y turismo - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVXVGdGpHclBELU14ZzQza214enlSc1hGTzllNHZ0UGhMSEdYcWUwcTRMa3VRdWQ0Mm43NHBsU0JmTURlUHFxZ3k5Q0VGZFZLaFBFOUphVXFQa0w0UGlCcjRUNGtMekdZZEEzTTI1c05qWUhNWHYxbmRYLTR0eUJEZkhsY0lPaHo2TVF0QlNra2hDemI2T2JuenpkV0E0aEIyaVZnbVl4a9IBpwFBVV95cUxPVXVGdGpHclBELU14ZzQza214enlSc1hGTzllNHZ0UGhMSEdYcWUwcTRMa3VRdWQ0Mm43NHBsU0JmTURlUHFxZ3k5Q0VGZFZLaFBFOUphVXFQa0w0UGlCcjRUNGtMekdZZEEzTTI1c05qWUhNWHYxbmRYLTR0eUJEZkhsY0lPaHo2TVF0QlNra2hDemI2T2JuenpkV0E0aEIyaVZnbVl4aw?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "“Es el plan A, el B y hasta el Z”, afirmó Galíndez al apoyar la reelección de Sáenz",
-        "link": "https://informatesalta.com.ar/lup-94-7-salta/-es-el-plan-a--el-b-y-hasta-el-z---afirmo-galindez-al-apoyar-la-reeleccion-de-saenz_a6ae89c7709dee0a0b9c5ac0e",
-        "source": "Informate Salta",
-        "date": "Mon, 02 Nov 2026 15:00:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -10021,13 +10021,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 61,
+    "total_mentions": 62,
     "sentiment_breakdown": {
-      "positivo": 9,
+      "positivo": 10,
       "negativo": 9,
       "neutral": 43
     },
     "sentiment_by_day": {
+      "2026-11-06": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-05": {
         "total": 1,
         "score_sum": -2
@@ -10375,6 +10379,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Salta tendrá una jornada gratuita sobre Alzheimer con charlas, ejercicios y asesoramiento legal",
+        "link": "https://informatesalta.com.ar/sociedad/salta-tendra-una-jornada-gratuita-sobre-alzheimer-con-charlas--ejercicios-y-asesoramiento-legal_a6aee0c46696ebfa450a7e123",
+        "source": "Informate Salta",
+        "date": "Fri, 06 Nov 2026 17:24:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "Crece el malestar con Fiore: Mónica Juárez denunció demoras y falta de respuestas a los pedidos de informe",
         "link": "https://elintra.com.ar/2026/11/05/crece-el-malestar-con-fiore-monica-juarez-denuncio-demoras-y-falta-de-respuestas-a-los-pedidos-de-informe/",
         "source": "El Intra",
@@ -10576,13 +10587,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 30 Nov 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Sos deudor alimentario en Salta? Estas son las restricciones que podés tener",
-        "link": "https://informatesalta.com.ar/sociedad/-sos-deudor-alimentario-en-salta--estas-son-las-restricciones-que-podes-tener_a6abed46606fa52caf46ee374",
-        "source": "Informate Salta",
-        "date": "Fri, 02 Oct 2026 10:30:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -20334,13 +20338,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 76,
+    "total_mentions": 77,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 12,
-      "neutral": 60
+      "neutral": 61
     },
     "sentiment_by_day": {
+      "2026-11-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-12-03": {
         "total": 1,
         "score_sum": 0
@@ -20621,11 +20629,11 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 3
+        "count": 4
       },
       {
         "term": "madile",
-        "count": 3
+        "count": 4
       },
       {
         "term": "concejo",
@@ -20761,6 +20769,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile: casi 20 años viviendo del Estado y quiere más",
+        "link": "https://elintra.com.ar/2026/11/06/dario-madile-casi-20-anos-viviendo-del-estado-y-quiere-mas/",
+        "source": "El Intra",
+        "date": "Fri, 06 Nov 2026 15:51:13 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Darío Madile se aseguró un año más al frente del Concejo Deliberante: “Que Dios y la Patria me lo demanden” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaTJvVWh2MEdKNFotNlRjVFZqLXdVbmt3LUhfNG9HNHVVWXNmbFA0UUVNT3FXbG95U3ozU01ndlh0eGVpSFh5RFJ3OG9PSEdSSG1lQ25LRUwySG1ZNHNPd0gycXhZT1gxWlItQUFXdXBRaXVyT2tGTXJEOWc0bnNBVWs5Wl9TZWxkVHlWWElyQ1ltNmVfa2NJYmhHTGMyMU5nX0FvdTZpa21OdWxZbkxiT0FUYVg1ZndyQTFyM3NYT0dwQ2VpYW0xX05rTnBGTTRwbGx2VnV3?oc=5",
@@ -20963,13 +20978,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 14 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "ESCANDALO!!! A la concejala de Salta Capital, Candela Correa, profe fitness que se viste super sexy le \"pidieron que se tape un poquito\" y denunció \"hostigamiento\" - CadenaBA",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xWE93WlBmXzRMUnlXQmY2RGgwWFFFWm1pbWx5MDJvc1RQTzNLbWRpRmZ5LXdhd3FuZTZTaWZqRkpmZjB0Z3lhODNWVmROM3o2OW84OHAtSnhqZzd0akFsd0Q1VF82dw?oc=5",
-        "source": "CadenaBA",
-        "date": "Sat, 03 Oct 2020 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -33566,13 +33574,17 @@
     "id": "eje-manuela-arancibia",
     "name": "Manuela Arancibia",
     "role": "Ministra de Turismo y Deportes",
-    "total_mentions": 16,
+    "total_mentions": 17,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 0,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2026-11-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-12-23": {
         "total": 1,
         "score_sum": 0
@@ -33667,6 +33679,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta obtuvo siete nuevas medallas y avanza a las finales en los Juegos Evita",
+        "link": "https://salta4400.com/sociedad/2026/11/06/salta-obtuvo-siete-nuevas-medallas-y-avanza-a-las-finales-en-los-juegos-evita/",
+        "source": "Salta 4400",
+        "date": "Fri, 06 Nov 2026 14:54:03 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Manuela Arancibia y su primera actividad oficial: se reunió con funcionarios nacionales - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWDNHOE1FTGNHN0FoWkdtM05kVDIyaFdrV3VTam5oeFBDT2xMQUpnVGtnLUNpa2QyZi00QXVTYURKX1hWQ09aMTN2MDVMeG5TM2JlRmhTaXkzeWZXWkFseTJ6NkUwbDIzbnV5RkZtY0xJdGJwbF9LaTFWY0lISHdVTExhWk8xZkRWMjBlVjV2Sldjc0YySmRaNnBlVDl6TnpSOVlTMlhHNHNSWTR2VTNTdE9VdTBFaTl5UTIxejF3?oc=5",
@@ -34560,13 +34579,17 @@
     "id": "eje-gustavo-carrizo",
     "name": "Gustavo Carrizo",
     "role": "Secretario de Minería y Energía",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
-      "positivo": 2,
+      "positivo": 3,
       "negativo": 0,
       "neutral": 4
     },
     "sentiment_by_day": {
+      "2026-11-06": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-10-29": {
         "total": 1,
         "score_sum": 4
@@ -34595,6 +34618,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "Las provincias tienen que defender sus recursos naturales",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-mas-federalismo---las-provincias-tienen-que-defender-sus-recursos-naturales-_a6aedeb38696ebfa450a48309",
+        "date": "Fri, 06 Nov 2026 17:15:00 GMT"
+      },
+      {
         "quote": "Eso de anotar en carpetas es arcaico",
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/sociedad/salta-busca-controlar-los-proyectos-mineros-en-tiempo-real---eso-de-anotar-en-carpetas-es-arcaico-_a6ae36095052cad7d017eef9b",
@@ -34621,6 +34650,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz reclamó más federalismo: “Las provincias tienen que defender sus recursos naturales”",
+        "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-mas-federalismo---las-provincias-tienen-que-defender-sus-recursos-naturales-_a6aedeb38696ebfa450a48309",
+        "source": "Informate Salta",
+        "date": "Fri, 06 Nov 2026 17:15:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Salta busca controlar los proyectos mineros en tiempo real: “Eso de anotar en carpetas es arcaico”",
         "link": "https://informatesalta.com.ar/sociedad/salta-busca-controlar-los-proyectos-mineros-en-tiempo-real---eso-de-anotar-en-carpetas-es-arcaico-_a6ae36095052cad7d017eef9b",
