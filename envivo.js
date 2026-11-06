@@ -1,4 +1,4 @@
-/* NEWAR · envivo.js · pestaña «En vivo» — pared de TV (con botón para ocultar el menú y videos que entran en pantalla)
+/* NEWAR · envivo.js · pestaña «En vivo» — pared de TV
    Muestra dentro del panel de 1 a 4 transmisiones de YouTube a la vez, repartidas en partes iguales.
    - Elegís cuántos y cuáles canales ver (1, 2, 3 o 4).
    - Pantalla completa de toda la pared (o de un solo canal), con los canales simétricos.
@@ -129,14 +129,10 @@
       ".nxv .barra{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 12px}" +
       ".nxv .barra .der{margin-left:auto}" +
       ".nxv .cuenta{font-size:.9rem;color:var(--soft,#666)}" +
-      /* en esta pantalla el contenido ocupa todo el ancho (útil con el menú lateral oculto) */
-      "html:has(.nxv) .wrap{max-width:none!important}" +
-      /* pared: partes iguales. --av es el alto que entra en pantalla: los videos se achican solos para verse enteros sin scroll */
-      ".nxv .rejilla{display:grid;grid-template-columns:1fr;gap:14px;--av:max(240px,calc(100vh - 250px))}" +
-      "@media (min-width:900px){.nxv .rejilla.n1 .cas{max-width:calc((var(--av) - 60px)*16/9);justify-self:center;width:100%}.nxv .rejilla.n3 .cas,.nxv .rejilla.n4 .cas{max-width:calc((var(--av)/2 - 40px)*16/9)}.nxv .rejilla.n4 .cas{justify-self:center;width:100%}}" +
-      "@media (min-width:1700px){.nxv .rejilla.n3 .cas{max-width:none}}" +
+      /* pared: partes iguales */
+      ".nxv .rejilla{display:grid;grid-template-columns:1fr;gap:14px}" +
       "@media (min-width:900px){.nxv .rejilla.n2,.nxv .rejilla.n3,.nxv .rejilla.n4{grid-template-columns:1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:1/-1;justify-self:center;width:calc(50% - 7px)}}" +
-      "@media (min-width:1700px){.nxv .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}}" +
+      "@media (min-width:1400px){.nxv .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .rejilla.n3 .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}}" +
       ".nxv .cas{min-width:0;position:relative}" +
       ".nxv .cab{display:flex;gap:8px;align-items:center;margin:0 0 6px}" +
       ".nxv .cab h3{margin:0;font-size:1rem;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
@@ -151,16 +147,19 @@
       ".nxv .pc{position:fixed;inset:0;z-index:2147483000;background:#000;margin:0;padding:0;width:auto;height:auto;border-radius:0}" +
       ".nxv .pared.pc{display:flex;flex-direction:column}" +
       ".nxv .pared.pc .cm{display:flex}" +
-      ".nxv .pared.pc .rejilla{flex:1;min-height:0;display:grid;gap:3px;width:auto;height:auto;grid-template-columns:1fr;grid-auto-rows:1fr}" +
-      "@media (orientation:landscape){.nxv .pared.pc .rejilla.n2{grid-template-columns:1fr 1fr}.nxv .pared.pc .rejilla.n3{grid-template-columns:1fr 1fr 1fr}.nxv .pared.pc .rejilla.n4{grid-template-columns:1fr 1fr}}" +
-      "@media (orientation:portrait){.nxv .pared.pc .rejilla.n4{grid-template-columns:1fr 1fr}}" +
-      ".nxv .pared.pc .rejilla .cas:nth-child(3){grid-column:auto;justify-self:stretch;width:auto}" +
-      ".nxv .pc,.nxv .pared.pc .cas{max-width:none!important}" +
-      ".nxv .pared.pc .cas,.nxv .cas.pc{position:relative;min-height:0}" +
-      ".nxv .pared.pc .marco,.nxv .cas.pc .marco{position:absolute;inset:0;aspect-ratio:auto;border-radius:0}" +
-      ".nxv .pc .cab{position:absolute;top:6px;left:6px;z-index:3;margin:0;background:rgba(0,0,0,.6);padding:3px 6px;border-radius:999px;max-width:70%}" +
+      /* mosaico: todos los canales del mismo tamaño exacto (16:9), el conjunto centrado y con los mismos márgenes de cada lado.
+         El tamaño lo calcula el script según la pantalla (variables --tw, --th, --cc, --col). */
+      ".nxv .pared.pc .rejilla{flex:1;min-height:0;display:grid;gap:0;width:auto;height:auto;justify-content:center;align-content:center;grid-template-columns:repeat(var(--cc,1),var(--col,100%));grid-auto-rows:var(--th,auto);cursor:none}" +
+      ".nxv .pared.pc .rejilla[data-lay=p3] .cas{grid-column:span 2}.nxv .pared.pc .rejilla[data-lay=p3] .cas:nth-child(3){grid-column:2 / span 2}" +
+      ".nxv .pared.pc .cas{position:relative;min-height:0;width:auto;height:auto;background:#000}" +
+      ".nxv .cas.pc{position:relative;min-height:0}" +
+      ".nxv .pared.pc .marco{position:absolute;inset:3px;aspect-ratio:auto;border-radius:0}.nxv .cas.pc .marco{position:absolute;inset:0;aspect-ratio:auto;border-radius:0}" +
+      ".nxv .pc .cab{position:absolute;top:9px;left:9px;z-index:3;margin:0;background:rgba(0,0,0,.6);padding:3px 6px;border-radius:999px;max-width:70%;opacity:0;transition:opacity .25s}" +
+      ".nxv .pc .cas:hover .cab,.nxv .cas.pc:hover .cab,.nxv .pc .cab:focus-within{opacity:1}@media (hover:none){.nxv .pc .cab{opacity:1}}" +
+      ".nxv .pc .cas::after{content:attr(data-num);position:absolute;top:9px;left:9px;z-index:2;min-width:1.35rem;height:1.35rem;line-height:1.35rem;text-align:center;font-size:.75rem;font-weight:700;color:#ffd166;background:rgba(0,0,0,.45);border-radius:999px;opacity:.7;pointer-events:none;transition:opacity .25s}.nxv .pc .cas:hover::after{opacity:0}@media (hover:none){.nxv .pc .cas::after{display:none}}" +
       ".nxv .pc .cab h3{color:#fff;font-size:.8rem}" +
       ".nxv .pc .pie{display:none}" +
+      ".nxv .pared.pc{cursor:none}.nxv .pared.pc .cm,.nxv .cas.pc{cursor:default}.nxv .pared.pc .cm button{cursor:pointer}.nxv .pared.pc.quieto .cm{cursor:none}" +
       ".nxv .cm{align-items:center;gap:14px;flex:0 0 auto;background:#05070d;color:#e8edf7;padding:6px 12px;font-size:.85rem;border-bottom:1px solid #1b2538;padding-top:max(6px,env(safe-area-inset-top))}" +
       ".nxv .cm .vivo{display:flex;align-items:center;gap:6px;font-weight:700;letter-spacing:.06em;white-space:nowrap}" +
       ".nxv .cm .vivo i{width:.55rem;height:.55rem;border-radius:50%;background:#ff3e6c;box-shadow:0 0 10px #ff3e6c;animation:nxvp 1.4s infinite}" +
@@ -224,6 +223,7 @@
     el.classList.add("pc"); pantalla = el; pedirWL();
     if (el.classList.contains("pared")) { enReposo = el; ["mousemove", "touchstart", "pointerdown", "keydown"].forEach(function (t) { el.addEventListener(t, despertar); }); despertar(); }
     if (!el.classList.contains("pared")) { var b = crear("button", "salir", "✕ Salir"); b.type = "button"; b.addEventListener("click", salir); el.appendChild(b); }
+    aplicarDisposicion();
     try { var f = el.requestFullscreen || el.webkitRequestFullscreen; if (f) { var p = f.call(el); if (p && p.catch) p.catch(function () { }); } } catch (e) { }
   }
   document.addEventListener("fullscreenchange", function () { if (!document.fullscreenElement && pantalla) salir(); });
@@ -403,28 +403,123 @@
     raiz.appendChild(det);
   }
 
+  /* ---------- la pared: se actualiza sin recargar los videos que ya se están viendo ---------- */
+  var slotEl = null, paredEl = null;
+
+  /* Elige la distribución que da los canales MÁS GRANDES con la forma de pantalla disponible. Todos quedan exactamente 16:9 y del mismo tamaño.
+     n = canales, W y H = espacio disponible en píxeles. Devuelve { lay: "g" | "p3", cols, rows, tw, th }.
+     (con 3 canales, "p3" son 2 arriba y 1 centrado abajo, que aprovecha mejor las pantallas apaisadas) */
+  function disposicion(n, W, H) {
+    var cand = {
+      1: [{ c: 1, r: 1 }],
+      2: [{ c: 2, r: 1 }, { c: 1, r: 2 }],
+      3: [{ c: 2, r: 2, p: true }, { c: 3, r: 1 }, { c: 1, r: 3 }],
+      4: [{ c: 2, r: 2 }, { c: 4, r: 1 }, { c: 1, r: 4 }]
+    }[n] || [{ c: 1, r: 1 }];
+    var mejor = null;
+    cand.forEach(function (k) {
+      var tw = Math.min(W / k.c, (H / k.r) * 16 / 9);
+      if (!mejor || tw > mejor.tw + 0.5) mejor = { lay: k.p ? "p3" : "g", cols: k.c, rows: k.r, tw: tw };
+    });
+    var tw = Math.max(40, Math.floor(mejor.tw / 2) * 2);   /* par, para que 2 medias columnas den justo un canal */
+    mejor.tw = tw; mejor.th = Math.round(tw * 9 / 16);
+    return mejor;
+  }
+  function aplicarDisposicion() {
+    if (!paredEl || pantalla !== paredEl) return;
+    var rej = paredEl.querySelector(".rejilla"), cm = paredEl.querySelector(".cm");
+    if (!rej) return;
+    var n = rej.children.length; if (!n) return;
+    var W = paredEl.clientWidth || window.innerWidth || 1280;
+    var H = (paredEl.clientHeight || window.innerHeight || 720) - (cm ? cm.offsetHeight : 0);
+    var d = disposicion(n, W, Math.max(H, 60));
+    rej.setAttribute("data-lay", d.lay);
+    rej.style.setProperty("--tw", d.tw + "px"); rej.style.setProperty("--th", d.th + "px");
+    rej.style.setProperty("--cc", String(d.lay === "p3" ? 4 : d.cols));
+    rej.style.setProperty("--col", (d.lay === "p3" ? d.tw / 2 : d.tw) + "px");
+  }
+  window.addEventListener("resize", aplicarDisposicion);
+  window.addEventListener("orientationchange", function () { setTimeout(aplicarDisposicion, 200); });
+  document.addEventListener("fullscreenchange", function () { setTimeout(aplicarDisposicion, 60); });
+  document.addEventListener("webkitfullscreenchange", function () { setTimeout(aplicarDisposicion, 60); });
+
+  function firma(c) { return [c.id, c.n, c.v.t, c.v.id, parado ? "p" : "v"].join("|"); }
+
+  function crearPared() {
+    var pared = crear("div", "pared");
+    var cm = crear("div", "cm");
+    var vv = crear("span", "vivo"); vv.appendChild(document.createElement("i")); vv.appendChild(document.createTextNode("EN VIVO"));
+    cm.appendChild(vv);
+    cm.appendChild(crear("span", "nc", ""));
+    cm.appendChild(crear("span", "aud", ""));
+    cm.appendChild(crear("span", "teclas", ""));
+    cm.appendChild(crear("div", "rj"));
+    var bs = crear("button", "", "✕ Salir"); bs.type = "button"; bs.addEventListener("click", salir); cm.appendChild(bs);
+    pared.appendChild(cm); pared.appendChild(crear("div", "rejilla"));
+    return pared;
+  }
+
+  /* Deja en la pared exactamente los canales elegidos. Los que ya estaban NO se recargan:
+     solo se quita lo que sobra y se agrega lo que falta (un video se recarga si se lo saca y se lo vuelve a poner). */
+  function sincronizarPared(sel) {
+    [].slice.call(slotEl.childNodes).forEach(function (n) { if (n !== paredEl) slotEl.removeChild(n); });
+    if (!sel.length) {
+      if (paredEl) { if (pantalla === paredEl) salir(); slotEl.removeChild(paredEl); paredEl = null; }
+      return false;
+    }
+    if (!paredEl) { paredEl = crearPared(); slotEl.appendChild(paredEl); }
+    var rej = paredEl.querySelector(".rejilla");
+    [].slice.call(rej.children).forEach(function (t) {
+      var id = t.getAttribute("data-id"), c = porId(id);
+      if (sel.indexOf(id) < 0 || !c || t.getAttribute("data-firma") !== firma(c)) rej.removeChild(t);
+    });
+    var quedan = [].slice.call(rej.children).map(function (t) { return t.getAttribute("data-id"); });
+    var esperado = sel.filter(function (id) { return quedan.indexOf(id) >= 0; });
+    if (quedan.join() !== esperado.join()) { while (rej.firstChild) rej.removeChild(rej.firstChild); quedan = []; }   /* cambió el orden: se arma de nuevo */
+    sel.forEach(function (id, i) {
+      if (quedan.indexOf(id) >= 0) return;
+      var c = porId(id), t = casilla(c, i + 1);
+      t.setAttribute("data-firma", firma(c));
+      rej.insertBefore(t, rej.children[i] || null);
+    });
+    [].forEach.call(rej.children, function (t, i) { var n = t.querySelector(".num"); if (n) n.textContent = String(i + 1); t.setAttribute("data-num", String(i + 1)); });
+    rej.className = "rejilla n" + sel.length;
+    paredEl.querySelector(".cm .nc").textContent = sel.length + (sel.length === 1 ? " canal" : " canales");
+    paredEl.querySelector(".cm .aud").textContent = textoAudio();
+    paredEl.querySelector(".cm .teclas").textContent = "Teclas: 1-" + sel.length + " escuchar · 0 silencio · Esc salir";
+    aplicarDisposicion();
+    return true;
+  }
+
   function dibujar() {
     if (!host) return;
     estilos();
-    host.textContent = ""; pantalla = null;
-    var raiz = crear("div", "nxv");
-    raiz.appendChild(crear("h2", "sec", "En vivo"));
-    raiz.appendChild(crear("p", "lede", "Armá tu pared de TV: elegí de 1 a " + MAX + " canales y se reparten en partes iguales. Arrancan sin sonido (lo exige el navegador): tocá «Escuchar» en el que quieras oír, o usá ⛶ para pantalla completa."));
+    var raiz = host.querySelector(".nxv");
+    if (!raiz || !slotEl || !raiz.contains(slotEl)) {   /* primera vez, o el panel cambió de pantalla y trajo un contenedor nuevo */
+      if (pantalla) salir();
+      host.textContent = ""; paredEl = null; pantalla = null;
+      raiz = crear("div", "nxv"); slotEl = crear("div", "slot"); raiz.appendChild(slotEl); host.appendChild(raiz);
+    }
+    [].slice.call(raiz.childNodes).forEach(function (n) { if (n !== slotEl) raiz.removeChild(n); });   /* todo menos la pared */
+    function ant(n) { raiz.insertBefore(n, slotEl); }
+    ant(crear("h2", "sec", "En vivo"));
+    ant(crear("p", "lede", "Armá tu pared de TV: elegí de 1 a " + MAX + " canales y se reparten en partes iguales. Arrancan sin sonido (lo exige el navegador): tocá «Escuchar» en el que quieras oír, o usá ⛶ para pantalla completa."));
 
     var lista = todos(), sel = seleccion();
     if (!catalogoListo) {
-      raiz.appendChild(crear("p", "empty", "Cargando canales…"));
+      sincronizarPared([]); slotEl.appendChild(crear("p", "empty", "Cargando canales…"));
     } else if (!lista.length) {
-      raiz.appendChild(crear("p", "empty", "No hay canales para mostrar. Agregá uno en «Administrar canales»."));
+      sincronizarPared([]); slotEl.appendChild(crear("p", "empty", "No hay canales para mostrar. Agregá uno en «Administrar canales»."));
     } else {
       var chips = crear("div", "chips"); chips.setAttribute("role", "group"); chips.setAttribute("aria-label", "Canales disponibles");
       lista.forEach(function (c) {
         var b = crear("button", "", c.n); b.type = "button";
         b.setAttribute("aria-pressed", sel.indexOf(c.id) >= 0 ? "true" : "false");
+        if (sel.indexOf(c.id) >= 0) b.className = "on";   /* mismo estado visual que usan los botones del panel (también en su modo sala de control) */
         b.addEventListener("click", function () { alternar(c.id); });
         chips.appendChild(b);
       });
-      raiz.appendChild(chips);
+      ant(chips);
 
       var barra = crear("div", "barra");
       barra.appendChild(crear("span", "cuenta", "Viendo " + sel.length + " de " + MAX));
@@ -434,18 +529,12 @@
       barra.appendChild(bl);
       var bpc = crear("button", "", "⛶ Pantalla completa"); bpc.type = "button"; bpc.disabled = !sel.length;
       barra.appendChild(bpc);
-      var NM = (typeof window !== "undefined") ? window.NewarMenu : null;
-      if (NM && typeof NM.alternar === "function") {
-        var bm = crear("button", "der", NM.abierto() ? "⇤ Ocultar menú" : "☰ Mostrar menú"); bm.type = "button"; bm.setAttribute("data-menu", "1");
-        bm.title = "Ocultar o mostrar el menú de la izquierda (Alt+B)";
-        bm.addEventListener("click", function () { NM.alternar(); });
-        barra.appendChild(bm);
-      }
-      var bp = crear("button", NM ? "" : "der", parado ? "▶ Reanudar" : "⏸ Parar todos"); bp.type = "button";
+      bpc.addEventListener("click", function () { if (paredEl) entrar(paredEl); });
+      var bp = crear("button", "der", parado ? "▶ Reanudar" : "⏸ Parar todos"); bp.type = "button";
       bp.setAttribute("aria-pressed", parado ? "true" : "false");
       bp.addEventListener("click", function () { parado = !parado; dibujar(); });
       barra.appendChild(bp);
-      raiz.appendChild(barra);
+      ant(barra);
 
       var esc = crear("div", "escenas"); esc.setAttribute("role", "group"); esc.setAttribute("aria-label", "Escenas guardadas");
       esc.appendChild(crear("span", "cuenta", "Escenas:"));
@@ -474,47 +563,24 @@
       });
       ne.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); bg.click(); } });
       esc.appendChild(ne); esc.appendChild(bg);
-      raiz.appendChild(esc);
+      ant(esc);
 
       var av = crear("p", "aviso" + (avisoMalo ? " mal" : ""), aviso); av.setAttribute("role", "status");
-      raiz.appendChild(av);
-
-      if (sel.length) {
-        var rej = crear("div", "rejilla n" + sel.length);
-        sel.forEach(function (id, i) { rej.appendChild(casilla(porId(id), i + 1)); });
-        var pared = crear("div", "pared");
-        var cm = crear("div", "cm");
-        var vv = crear("span", "vivo"); vv.appendChild(document.createElement("i")); vv.appendChild(document.createTextNode("EN VIVO"));
-        cm.appendChild(vv);
-        cm.appendChild(crear("span", "nc", sel.length + (sel.length === 1 ? " canal" : " canales")));
-        cm.appendChild(crear("span", "aud", textoAudio()));
-        cm.appendChild(crear("span", "teclas", "Teclas: 1-" + sel.length + " escuchar · 0 silencio · Esc salir"));
-        cm.appendChild(crear("div", "rj"));
-        var bs = crear("button", "", "✕ Salir"); bs.type = "button"; bs.addEventListener("click", salir); cm.appendChild(bs);
-        pared.appendChild(cm); pared.appendChild(rej);
-        raiz.appendChild(pared);
-        bpc.addEventListener("click", function () { entrar(pared); });
-      } else {
-        raiz.appendChild(crear("p", "empty", "No elegiste ningún canal. Tocá uno de arriba para verlo."));
-      }
+      ant(av);
+      if (!sincronizarPared(sel)) slotEl.appendChild(crear("p", "empty", "No elegiste ningún canal. Tocá uno de arriba para verlo."));
     }
     if (catalogoListo && pendientes.length) {
       raiz.appendChild(crear("p", "note", "Todavía sin activar (se suman solos cuando se confirma su código de YouTube): " + pendientes.join(", ") + "."));
     }
-    host.appendChild(raiz);
     if (catalogoListo) administrar(raiz);
+    if (pantalla && !document.documentElement.contains(pantalla)) salir();
     if (audioId) setTimeout(aplicarAudio, 50);
     pintarReloj(); programarReloj();
   }
 
-  if (typeof window !== "undefined") window.addEventListener("newar-menu", function () {
-    var b = host && host.querySelector("button[data-menu]"), NM = window.NewarMenu;
-    if (b && NM) b.textContent = NM.abierto() ? "⇤ Ocultar menú" : "☰ Mostrar menú";
-  });
-
   function montar(el) { host = el; cargar(); dibujar(); if (!catalogoListo) cargarCatalogo(); }
 
-  var API = { montar: montar, leer: leer, srcEmbed: srcEmbed, _reposo: function (ms) { REPOSO_MS = ms; } };
+  var API = { montar: montar, leer: leer, srcEmbed: srcEmbed, _reposo: function (ms) { REPOSO_MS = ms; }, _disposicion: disposicion, _aplicar: aplicarDisposicion };
   if (typeof window !== "undefined") window.NewarEnVivo = API;
 
   /* ---------- registro en el panel ---------- */
