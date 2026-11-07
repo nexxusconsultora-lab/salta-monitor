@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-11-06T23:31:21.185549+00:00",
+  "generated_at": "2026-11-07T03:11:09.027281+00:00",
   "by_politician": {
+    "eje-antonio-marocco": {
+      "total": 37,
+      "positivo": 6,
+      "negativo": 2,
+      "neutral": 29,
+      "score_sum": 35
+    },
+    "concejal-rodrigo-alfredo-perez-quinteros": {
+      "total": 16,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 11,
+      "score_sum": -4
+    },
+    "concejal-ines-bennassar": {
+      "total": 28,
+      "positivo": 0,
+      "negativo": 4,
+      "neutral": 24,
+      "score_sum": -10
+    },
     "gustavo-saenz": {
       "total": 454,
       "positivo": 116,
@@ -141,13 +162,6 @@
       "neutral": 41,
       "score_sum": -4
     },
-    "concejal-rodrigo-alfredo-perez-quinteros": {
-      "total": 15,
-      "positivo": 1,
-      "negativo": 3,
-      "neutral": 11,
-      "score_sum": -2
-    },
     "sen-walter-cruz": {
       "total": 26,
       "positivo": 2,
@@ -218,13 +232,6 @@
       "neutral": 33,
       "score_sum": 5
     },
-    "concejal-ines-bennassar": {
-      "total": 27,
-      "positivo": 0,
-      "negativo": 4,
-      "neutral": 23,
-      "score_sum": -10
-    },
     "dnac-eliana-bruno": {
       "total": 21,
       "positivo": 2,
@@ -259,13 +266,6 @@
       "negativo": 0,
       "neutral": 12,
       "score_sum": 19
-    },
-    "eje-antonio-marocco": {
-      "total": 35,
-      "positivo": 6,
-      "negativo": 2,
-      "neutral": 27,
-      "score_sum": 35
     },
     "eje-ana-paula-benavides": {
       "total": 20,
@@ -934,6 +934,126 @@
     }
   },
   "by_day": {
+    "2026-11-06": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": 7
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 8,
+        "score_sum": 0
+      },
+      "eje-gustavo-carrizo": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricia-del-carmen-hucena": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": -3
+      },
+      "concejal-alicia-vargas": {
+        "total": 1,
+        "score_sum": 4
+      }
+    },
+    "2025-08-28": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-10-06": {
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 3,
+        "score_sum": -2
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 12
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 2,
+        "score_sum": 1
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 5
+      }
+    },
+    "2022-09-19": {
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2023-05-14": {
       "gustavo-saenz": {
         "total": 1,
@@ -1016,56 +1136,6 @@
       "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-06": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": -3
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "eje-sergio-camacho": {
-        "total": 2,
-        "score_sum": 7
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": -3
-      },
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 8,
-        "score_sum": 0
-      },
-      "eje-gustavo-carrizo": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-patricia-del-carmen-hucena": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": -3
-      },
-      "concejal-alicia-vargas": {
-        "total": 1,
-        "score_sum": 4
       }
     },
     "2024-10-27": {
@@ -3968,16 +4038,6 @@
         "score_sum": 0
       }
     },
-    "2025-08-28": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-10-19": {
       "snac-flavia-royon": {
         "total": 1,
@@ -6638,12 +6698,6 @@
         "score_sum": -5
       }
     },
-    "2022-09-19": {
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2022-07-07": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -7904,48 +7958,6 @@
       "eje-manuela-arancibia": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-10-06": {
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 6,
-        "score_sum": 12
-      },
-      "concejal-laura-jorge-saravia": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 2,
-        "score_sum": 1
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 5
       }
     },
     "2024-01-05": {
@@ -18250,34 +18262,22 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 21
+      "count": 24
     },
     {
       "term": "sáenz",
-      "count": 13
+      "count": 14
     },
     {
       "term": "gustavo",
       "count": 9
     },
     {
-      "term": "mónica",
-      "count": 4
-    },
-    {
-      "term": "juárez",
-      "count": 4
-    },
-    {
-      "term": "pidió",
-      "count": 4
+      "term": "nueva",
+      "count": 5
     },
     {
       "term": "obras",
-      "count": 4
-    },
-    {
-      "term": "nueva",
       "count": 4
     },
     {
@@ -18287,6 +18287,10 @@
     {
       "term": "ramales",
       "count": 4
+    },
+    {
+      "term": "avanza",
+      "count": 3
     },
     {
       "term": "laura",
@@ -18305,7 +18309,15 @@
       "count": 3
     },
     {
-      "term": "orán",
+      "term": "mónica",
+      "count": 3
+    },
+    {
+      "term": "juárez",
+      "count": 3
+    },
+    {
+      "term": "cornejo",
       "count": 3
     }
   ],

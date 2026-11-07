@@ -10272,18 +10272,14 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 8
+        "count": 7
       },
       {
         "term": "juárez",
-        "count": 8
+        "count": 7
       },
       {
         "term": "pasa",
-        "count": 2
-      },
-      {
-        "term": "diputada",
         "count": 2
       },
       {
@@ -16322,13 +16318,17 @@
     "id": "concejal-ines-bennassar",
     "name": "Inés Bennassar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2022-09-19": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-09-28": {
         "total": 1,
         "score_sum": 0
@@ -16434,7 +16434,20 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "inés",
+        "count": 2
+      },
+      {
+        "term": "bennassar",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Nunca vi la cantidad de desempleo y de negocios cerrados que veo hoy",
@@ -16506,6 +16519,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El baile en equipo de Inés Bennassar - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qZ0s3amlXcmdFa3FGTWpqaExMX2paZkpLcjB0LWRiYTRxSEplM0hyamdJMzkyS09IZDBIQVNJWWhlbmlSZkdzRTVIYTRpUGFpeGU0RDVETVU4WmRPWXVDbnlnWEdkQmFtb0tqSkk3eV90QXE4NHlMbkJLbw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 19 Sep 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Inés Bennassar, la protectora de los animales - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUloxUjhvMGlwMDdoRUVORE9id1M0ZXVzbDRZeGJvbzFlYjg4QmFSNjVPdGtoRTM0RDhSeTJhcGNjODBDM0NXc2FDVEZadjJyVWRQTll2NjVuMlFleUNtSDdFR0Z5WjdiYkdaMjkxLTlzSklkMTVLZDZESTY4ZEpkN0lndnJKdw?oc=5",
@@ -22054,13 +22074,17 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 3,
+      "negativo": 4,
       "neutral": 11
     },
     "sentiment_by_day": {
+      "2026-10-06": {
+        "total": 3,
+        "score_sum": -2
+      },
       "2026-07-23": {
         "total": 1,
         "score_sum": 2
@@ -22093,10 +22117,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2026-10-06": {
-        "total": 2,
-        "score_sum": 0
-      },
       "2026-10-02": {
         "total": 1,
         "score_sum": -1
@@ -22121,15 +22141,15 @@
     "top_topics": [
       {
         "term": "rodrigo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "quinteros",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
       },
       {
         "term": "sáenz",
@@ -22183,6 +22203,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros inaugura una nueva casa de La Libertad Avanza y la crisis se profundizó - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1bkpvWWpaOW1SMkdkd25BVGhNR2haREdHOXBkZ1RBakJuR0ludGFWWTB1Vk9sRFdPTVdzOS11UElheWU3M0RUWlp6MFB6OVB1aFVBTzV1bHFfaXZHcmlaNTdkaWJyNU5WR2xQWWFHWnJYdEJPeERzR2x1NkpIdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Rodrigo Quinteros volvió a blanquear el acuerdo con Sáenz - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWDh6NV9PaGNyX0ZfNUJkV2FxeWJuWm5xSnJUdndvRkVKa3BMWldLOUZpNDhBTWZUSVBVRVNjbkplc0w2cGx6eGNoSWxQWnRmVVZjejhhc2dDT0ZDdW5nUUM3VWd1VVJYaTVpMV83bzF6TXgxTG1jRFhGWHFBbWJtX0p2Mk5WTkVscVhkWDJSa2F6SWp5MVhF?oc=5",
@@ -22820,11 +22847,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 4
+        "count": 2
       },
       {
         "term": "royón",
-        "count": 4
+        "count": 2
       }
     ],
     "quotes": [
@@ -30161,13 +30188,21 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 35,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 2,
-      "neutral": 27
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2026-11-06": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2025-08-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-05-14": {
         "total": 2,
         "score_sum": 0
@@ -30292,11 +30327,31 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 4
+        "count": 6
       },
       {
         "term": "marocco",
-        "count": 4
+        "count": 6
+      },
+      {
+        "term": "vicegobernador",
+        "count": 3
+      },
+      {
+        "term": "norte",
+        "count": 2
+      },
+      {
+        "term": "grande",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       }
     ],
     "quotes": [
@@ -30352,6 +30407,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Misa del Papa León XIV en Luján: invitaron al vicegobernador Antonio Marocco y a los mandatarios del Norte Grande - Salta Sur",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeDZXVGV5dzJyQjNjRkJXZTZiUWV6djZGRGdRcFV6RGhyVktYakh6dFlOZURtWVBXRHRwOTVtUGxFWnZ0bmFmZDJOMWN4cDRkVk54QUxKZ3NKWl9KYUhJWHVqZWJUSVhTTjFSSnZkR3d1dlhNbkk2bHNWTHNDS1lzY3JYQ2RxLW1jdnRDcUhlQVZ3QlpxNWlwY1ZNcGJiNEFsYUN0MDdWLVpCTHhlb2hpdHNYQlRtRUVsQkU5TUV4cVBycy03eTNEbDZvaFhNME93YmM40gHYAUFVX3lxTE9oaENDbkVOTm5aTF9rTjB4MW1WWDU3OEp5bk5DbnVDOXdiY2l0ZVRpU2FXWkw2WVV2d2M1M19DSThId05HSGZscVlHYl8xWHhjNzFXcUMxdGlQSDNDWTlYbjlWMW1lYWpnbWcwNEMxdjF2UGdWXzhSRjFqY3d3XzF1ek81eDJQUUVYQjZ6U04zb1RNLU52VldpdmFLY0VGQTZoU0FzaWZ3UkhtZXNZMF9wcjNvWW9MN0U1RmhKVHI0SkVFMW9nNk1nVlctNmlYcGRHTmFDT2xiTQ?oc=5",
+        "source": "Salta Sur",
+        "date": "Fri, 06 Nov 2026 19:16:13 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Antonio Marocco, el vicegobernador de Sáenz, es partidario de solo dos mandatos - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVFPSThwcE5TTXFFcmlRT01CSTVjZENLOE5wcDlvZ1EyZnVYcXFVUzJLYURiUkhoS0lLanMxRE5POXpkWGlobmxfWVg0LVZ6QUc4Z1JRM0pUZzk4TEpmODBZYXpzeHpMbEhCcF94V0hOV0RjZVRMSi1ZakdiaTZvM2xRZGc1dklZMXJsUzNBaEJQVzJTYlNQX2tJckQ3QWwzV2dZXzdBUVZEVjY4SHpfUUxB?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 28 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tras votar, Antonio Marocco esperará por los resultados junto al vicegobernador de la provincia de Jujuy - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTlZaQVVpandGNzhBeTlqaFB5c0pxeUZaOGhhT2VER0dKLW56LUZ0OTVtdGg4cWZNUk5jZE1JTmNyNk9tam1YM05TNEFxVThiOFhtVE1taVNHenVzejhYQW1INnNEOXZ5dFpaZGtTVm9BOHdKcnBMTDg1dVFYZl85U3kzTjZnV2lzTEY5ejBVak01UUlIUDluNjhlcG95dG1jcXozaVFzRWk1TUQyMnJXTGFCUXRjZDVyc09OaFRPbkthV2lQOW1tZldXZlZQc1hFQl82Vi1yNGE0T0lQUUhoWnA2SFloMVBYM2swUTRueVhROTJCT2Vj0gH3AUFVX3lxTE9OVlpBVWlqd0Y3OEF5OWpoUHlzSnF5Rlo4aGFPZURHR0otbnotRnQ5NW10aDhxZk1STmNkTUlOY3I2T21qbVgzTlM0QXFVOGI4WG1UTW1pU0d6dXN6OFhBbUg2c0Q5dnl0Wlpka1NWb0E4d0pycExMODV1UVhmXzlTeTNONmdXaXNMRjl6MFVqTTVRSUhQOW42OGVwb3l0bWNxejNpUXNFaTVNRDIycldMYUJRdGNkNXJzT05oVE9uS2FXaVA5bW1mV1dmVlBzWEVCXzZWLXI0YTRPSVBRSGhacDZIWWgxUFgzazBRNG55WFE5MkJPZWM?oc=5",
@@ -30546,20 +30615,6 @@
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclNzMzhyYXg3NlVtVldoaVgtZ2FZQnRiWlhIZHZDSUlCZW5oWS15SnZZQTRZbVc1UHRsQVFhTGl0OFFqVEpxeDA1RVhzLVJqdjNQZTJBelhVRHFOaGIyUmVSWTFVU2pUQV9ELXh6YjNBNnc0XzZXWUZYUm9VTmdPeF9HdGsxNjZLTmJ6eHR1WVNrYzQwVFRtQkdsSUNnbXZNZ2o5bzM4WDBRdFg1aGNGZWZZZ0czVG5VbXl6QVd0MkdFQWZYcHc?oc=5",
         "source": "Gobierno de la Provincia de Salta, Argentina",
         "date": "Wed, 27 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "“No negociamos nada”: la impostura de Antonio Marocco - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ0RCVnRtbUdfZlJ4dmxWbUdsQXBxUVZYWVhrVFNuOGl5cHFHZWhUUWxmdUh5X1RhcVZoQ3UxaTd1V3Y0c3pfcExuaWd6UzkxRkRWNjFPM3hnZWhYanR4cUpTZ2d3M19CUGJDck1xSkk4WTNWb0dKQ0F6WEhFa1JRX043QWdXSGhfWi1NcEd3?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 10 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Antonio Marocco evitó hablar de candidaturas para 2027 y apostó por el «trabajo duro» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdTZkOUxfeXV4SjhrY2hKMVZmYldWa2tha2RSd0owVFRvWERhbnZkblI3NFVZWHhlRVNOQnZEYWZyd0szeFhoc2ljZnVyT3UyanlvY2RiSVRSR3NWUFRsbktOUzJHUkd5NmtKQUhaN2xzTy0xSFYyaVZNUGJpN2lVQkJJcEtrTUVGUWlNY09HZmYteDFFbWRfbGlKbUZkemVLbnlidTUxZFdhT0JjbUtTUXZGVWlXQ2hLM2c?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31679,7 +31734,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
@@ -31691,14 +31746,6 @@
       },
       {
         "term": "presupuesto",
-        "count": 2
-      },
-      {
-        "term": "aries",
-        "count": 2
-      },
-      {
-        "term": "line",
         "count": 2
       }
     ],
@@ -33238,11 +33285,11 @@
     "top_topics": [
       {
         "term": "cristina",
-        "count": 5
+        "count": 4
       },
       {
         "term": "fiore",
-        "count": 5
+        "count": 4
       },
       {
         "term": "escuela",
