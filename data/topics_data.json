@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-11-07T10:13:58.925971+00:00",
+  "generated_at": "2026-11-07T16:32:05.811208+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 505,
+      "total_mentions": 511,
       "sentiment_breakdown": {
         "positivo": 32,
         "negativo": 42,
-        "neutral": 431
+        "neutral": 437
       },
       "sentiment_by_day": {
+        "2026-11-07": {
+          "total": 3,
+          "score_sum": 0
+        },
+        "2026-11-06": {
+          "total": 11,
+          "score_sum": -2
+        },
         "2026-09-16": {
           "total": 12,
           "score_sum": 2
-        },
-        "2026-11-06": {
-          "total": 8,
-          "score_sum": -2
         },
         "2026-11-04": {
           "total": 5,
@@ -284,11 +288,11 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 166
+          "count": 165
         },
         {
           "term": "presupuesto",
-          "count": 65
+          "count": 69
         },
         {
           "term": "intransigente",
@@ -296,11 +300,11 @@
         },
         {
           "term": "elintra",
-          "count": 34
+          "count": 35
         },
         {
           "term": "informate",
-          "count": 31
+          "count": 33
         },
         {
           "term": "pasa",
@@ -312,7 +316,7 @@
         },
         {
           "term": "discapacidad",
-          "count": 15
+          "count": 16
         }
       ],
       "politicians_involved": [
@@ -414,6 +418,48 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Paraguay: Carlos Carvallo se entregó y quedó detenido por la causa de Ueno Bank - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWm1CUTZDVTFDdkJVb2l0UHhfbEl0WWl0VFlSY1ZJNFFUOTBYS0RWTDdMQkRnRjZ6ZmVab24xOUkzdy1YaEJjR0Q0SmdIalhGOGxSTWx6d3VGVVVvQk83T2gybE5qVi1FdGRkZm5wQmQ1N25mdzJDaFB5Z0RKMUtkN0FtQngtdkQxV0c1OVJzVUxqSHZ0Q1NSWUNDLXlDVHpTcVRYZUdrT0FkRllUM2s5cW9CQkc3ZF9RYWc?oc=5",
+          "source": "El Intransigente",
+          "date": "Sat, 07 Nov 2026 13:01:39 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Javier Milei y un «hat trick» de derrotas, el duro editorial de Nancy Pazos - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN1RvMjVXN2RvSXgtS0xFVXh6a05VODNMT0otcmItYU1XOXpzekJMRFBJNWdORHA1cDVJWnpLczdSdXZkS09Rdkp4ZnFOYWo5NU9OUy1PanpNOGd4ZW9xeXVsZjdYUkdhNXFobGxvcVpudlJqNmR6eEFqMWNjTTUxQXdkanB5cWl1XzdQTnhmQmU4VGNwVGpXMV9MVjdCbVJ4YlN1RlBSWjJHTmVEeHFF?oc=5",
+          "source": "El Intransigente",
+          "date": "Sat, 07 Nov 2026 12:44:10 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Obras urgentes y recursos limitados: la preocupación de los intendentes salteños por el presupuesto 2027 - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOREZYVUoxZzM2cWJsa3B6SzNYS3R5c0l1WFZxRDREa3B1cEJfOUhCai12cEhlSDRySDdKLVhOYzNmcEpVTEVaZmRZczNTUV82WmF1T2hWMnZma1EtNDdBWmV4UnJpZFFlNnFhLUlCUGl3WVFHMTNXV3FIaGJjc1NJM0FkYWFjdWgtYU4wdEpBZXhEN1dsT0NOdzJNSEJwZ0lDUEhIcDUxZWZlbExjUFd3R3JRYkNUa1lObWlXRFF1c2FyMy1XQ0RwcWRQWm0yTDNKLWU0TjNWWmlhMmFsbjR0OVNEck1FYnBxMTJTWV93Q3REOHFpTFBsY2p2a09LZ9IBjAJBVV95cUxQejFIbkZOdGVIbnZMbEVnQlIxVVQxdzltQ0FVbW1BRnhLMUtVa0F4ZE9CbFM0ekZyZ1JuMjRSV252TzJJVFV6bjJCcFdwdnNSRnBxMjVrdXF6eWRWNUV1c0M3V2dZa1RTSlJKRkMxWEoxREtsZXBNWnNCY3N0cWVCSm1BeExReW5NQTh5cVBaTDNtTDhKcTRnNjlGLUlvaVZRU0tsakdKYWZnSTlBN256Z0xneWtfcU1iWVBxODUzWUFMd05odjZfWEdTb1VUNVhSUW1ZZ2hJUnRhbGYySkNiLW4tMm5GaHdYcHRuUUw4LUpfOV95VWV2VUlCT2hrcmhqT2x3Y1ZQbEl1b1No?oc=5",
+          "source": "Informate Salta",
+          "date": "Fri, 06 Nov 2026 10:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027 en Salta, intendentes ahogados por recursos que no alcanzan - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcGZ1Z2JXeEIwUnV5SGNNQlo5NHVwS09jdFctSUEyaUMzNVpqMUxMZFA5UXF2dlNwNWlDVnNYWUNJNjJORjhxY3pEZzJVZG5FazY1ZHBVVUlkamltcV9TR2ctUXlJMDRUZ0ZPNm1WMU0tTS1JVXY1V040MW9Ea3RqeC1CSE1SVFRmb0MyazZYRG8tRDR0OEE?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 06 Nov 2026 08:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: intendentes del norte se reunieron con parte del Ejecutivo - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU0c3d3hYR2xySld3eHdvektRZDlYdUR4LUt3Qkt6LWQyamxTRWpHY3pjV2twc3dhaVNwakstanhicDN5OUQ2cTA0WEFLMmVmMXJlSXFfdEZ1QldwUGstZzVJYlhUdHhwMFNQdm9IdlBPS0ZqVjlDN0JlbjRwdzdIcWpqOTFEa1lpeWRpNjhOb0pIdE43RFNtaGhxZURQTVFWMFZFVUxJM0RCMTBMem9Ua1JxMkhIejlrLThBd0dPNzBOTkt3NDFodlh3bHhGZ2s1SWtkTTg4WjVqd9IB6AFBVV95cUxPNmN2MmY3dlJPVnNWZHNCeldhaEYxSVdydFdqTjg5Y0JPT0VzaFYzRlBYd2RVZTNRSENpY1dUOXdoTlZ2UV9YRkQ0MWJJUUtuUXBES3ZHZTdqOHdLQnRiSzFhMUp0bDk3ci1oMHZjVkU5ZzZxM01KYm5GV1Y3ZDNyZ0FNeEc2emRJN3N0SDd2eG1GRnNkdDZxemx5aGs3Mm9IZndJU3Y3b2V5VjZpU0RJX3BSeldnRUZUYVN4LUV0RldPTDJCM1pPM2FVX0NicVptYnAtSzlhY21aV2VETExVeHhEbzN3YVlT?oc=5",
+          "source": "Informate Salta",
+          "date": "Fri, 06 Nov 2026 18:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: Los fondos para discapacidad, educación y transporte tensan el debate - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWZiY01MdnRLU0o0V09TOHhmbFc5V3B5MERuVmFkUXY3eE5PWTBTdkV3Qy1ack52SjBPXzNLMlZLYUN1aUlKYmhTc0txaDE5VllYWXVaOXNCcHlzVGI5ZU4wRGxWVFZKdjlaUkVpSXptaVpHZFNNa2k0TUo5b0Q1SVA1Yk5SUnY2ai1oRE1Ubm1aQ3U0RXQ3QTY1amFFa3VYanZENkFUWlVOTEdnNUxmYUJENV9Mcm9ZNmc?oc=5",
+          "source": "El Intransigente",
+          "date": "Sat, 07 Nov 2026 12:22:18 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Santilli recibe a Sáenz y otros gobernadores para negociar el Presupuesto 2027 - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHA2TEFLMTVqNURCSFJ3WmZiUmlEekRfWnBIZ1E5bkp2b1hmODJtYWdCRkYzMG8xYzVSTHRjNnJmU19Nckk1b3R6a2FMN1puSks3WUhuSDAyMXdJRlFjQ25kdUNrYkROaGdiNElRY05lQk5GMzh5Q2FkekxPT0twemVlQ0lUVXNaSkpiWmw1bS1Kd0hPZTBiMlRnYUU5dGtWZ1ZV0gGjAUFVX3lxTE1IcDZMQUsxNWo1REJIUndaZmJSaUR6RF9acEhnUTluSnZvWGY4Mm1hZ0JGRjMwbzFjNVJMdGM2cmZTX01ySTVvdHprYUw3Wm5KSzdZSG5IMDIxd0lGUWNDbmR1Q2tiRE5oZ2I0SVFjTmVCTkYzOHlDYWR6TE9PS3B6ZWVDSVRVc1pKSmJabDVtLUp3SE9lMGIyVGdhRTl0a1ZnVlU?oc=5",
@@ -581,48 +627,6 @@
           "source": "Que Pasa Salta",
           "date": "Tue, 03 Nov 2026 17:25:03 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "sur salteño - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KbUhQcXltaWpFczJId2dfbkhoeWQwRnVSTjEyeG5fRTBzWHJQeEZRWkdaWlJfWXBSMWRuMERHUzRUTDdHa3JhRm85bXV1OFY0bGE4cg?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 03 Nov 2026 12:36:32 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Presupuesto 2027 busca equilibrio fiscal, pero la transparencia es una deuda pendiente - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOXzd3RE1OMDhlNjB5bTB3MWlnRnpTbXVKVmlNZEg5Wm8wd1FGOThYSHo4ajdLTkJTRWdIclZkbmR2SnNyNXU4aV94ZEdZTHk4RThGM00wc0lwZFUwV2VydXpWZHlTNGJqTGx3UTQySTZycVY1Y2YtNVhyZThhVFR4b2t5cGFIWWxfZ1hzVG5meE5CWjhkMTc2VUJDSjZMVnY2NXZIdQ?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "\"No van a poder trabajar\": la advertencia por los cambios en las pensiones por discapacidad - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcDNzWlNYaVc5T2xxdVBqX0txTjJKZ3FYYUlxX0lyVVhrV3AtbV8xN3VmZVBHYlhKQ3R6VDVmRUlBY2M4aU9rZml0ZUR4bjYwazNHNEl3aW9KclRjWG9iMGhTdlV0cGh4VTVfTUh5R0dfWkpfdlI5VGFwX0tMMFlDQ29VZEFfYWdlckNYd0E1aEpCcGItZjgzUGRmRU_SAZwBQVVfeXFMTXAzc1pTWGlXOU9scXVQal9LcU4ySmdxWGFJcV9JclVYa1dwLW1fMTd1ZmVQR2JYSkN0elQ1ZkVJQWNjOGlPa2ZpdGVEeG42MGszRzRJd2lvSnJUY1hvYjBoU3ZVdHBoeFU1X01IeUdHX1pKX3ZSOVRhcF9LTDBZQ0NvVWRBX2FnZXJDWHdBNWhKQnBiLWY4M1BkZkVP?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Mon, 21 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Presupuesto de Milei se frena en Diputados y el FMI espera reformas antes de diciembre - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXRwTkhSWWx4T0tWdUFYNmtNS1lkaXdWZ3JEb01UOHVkLTF6YUtyNmR3T1hnUWNHakkzY2lfY2FtdFJJRm5NOEVDWU5RcXBieHo3X280NzNqVlBqby15NTNlZWtzR3ZMSFZnVmpZSkJEZ0tWZEZUWXhEZldNaEc5MGo0RzN0SjhJaHdZNnlTU01GdkxzcjNqag?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 03 Nov 2026 12:29:23 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Hernán Lacunza marcó diferencias entre el PRO y La Libertad Avanza: «Somos distintos» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1FiM1duUEFTMEtvbkFYQVl5N3c5M3FIRUY4cWd3NjcycVc2WFdsUGZXSTRHVThzWTRUcFlnX1M0RmNRZEdQZjdKZUtLYnlEbWFMQnRKS2w1eGVjaVg5b1drdVl6WkdXdk1RWi05cnp3Qm5WN3E1a25EXzQySWp1WkJLZmQ0RGhCQW9NSHZGdnA4N0oycFFCUFk0N2dMNS1Nc29Gam9uMkZGOUtISVpn?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 02 Nov 2026 21:48:33 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El PRO pidió cambios al Presupuesto 2027 y debatió un posible acuerdo electoral - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUJNMC10UTk4VzBETzMycE9DcTdOUEpXSTJqQXNPQ2ZIUVdCSEZKNTBQQWlJVzlUVzR5eGZnMTRfY0huYm5ZWGVPZWcteHk5UURZZkg5dUxWcEtrb0FqYTVQbVdjemFuWjF6bnA5blNYd1JSWUs2OHBwUEdIMm84VEpLQWV2bkdGdm9teldmei1xeWlYS19ObmFEamRfMERkZ3Y2SFh1T3IyX0lzU1E?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 02 Nov 2026 21:25:31 GMT",
-          "sentiment_label": "positivo"
         }
       ]
     },
