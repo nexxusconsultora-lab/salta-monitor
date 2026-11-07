@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-07T16:32:04.853979+00:00",
+  "generated_at": "2026-11-07T20:30:26.911009+00:00",
   "by_politician": {
+    "dip-jose-miguel-gauffin": {
+      "total": 37,
+      "positivo": 1,
+      "negativo": 7,
+      "neutral": 29,
+      "score_sum": -11
+    },
+    "dnac-carlos-raul-zapata": {
+      "total": 43,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 35,
+      "score_sum": -4
+    },
     "gustavo-saenz": {
       "total": 456,
       "positivo": 116,
@@ -21,13 +35,6 @@
       "negativo": 11,
       "neutral": 34,
       "score_sum": -17
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 36,
-      "positivo": 1,
-      "negativo": 7,
-      "neutral": 28,
-      "score_sum": -11
     },
     "snac-gonzalo-guzman-coraita": {
       "total": 39,
@@ -224,13 +231,6 @@
       "negativo": 1,
       "neutral": 14,
       "score_sum": 2
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 42,
-      "positivo": 2,
-      "negativo": 5,
-      "neutral": 35,
-      "score_sum": -6
     },
     "sen-enrique-cornejo-saravia": {
       "total": 44,
@@ -934,6 +934,26 @@
     }
   },
   "by_day": {
+    "2024-06-08": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-01-02": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2021-08-14": {
       "gustavo-saenz": {
         "total": 1,
@@ -10418,16 +10438,6 @@
         "score_sum": 0
       }
     },
-    "2026-01-02": {
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-09-30": {
       "dnac-maria-gabriela-flores": {
         "total": 1,
@@ -18348,7 +18358,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 34
+      "count": 31
     },
     {
       "term": "sáenz",
@@ -18356,7 +18366,7 @@
     },
     {
       "term": "gustavo",
-      "count": 10
+      "count": 9
     },
     {
       "term": "laura",
@@ -18371,15 +18381,11 @@
       "count": 7
     },
     {
-      "term": "fiore",
-      "count": 7
-    },
-    {
-      "term": "contra",
-      "count": 7
-    },
-    {
       "term": "cristina",
+      "count": 6
+    },
+    {
+      "term": "fiore",
       "count": 6
     },
     {
@@ -18395,15 +18401,19 @@
       "count": 6
     },
     {
+      "term": "avanza",
+      "count": 5
+    },
+    {
+      "term": "contra",
+      "count": 5
+    },
+    {
       "term": "rodrigo",
       "count": 5
     },
     {
       "term": "quinteros",
-      "count": 5
-    },
-    {
-      "term": "cornejo",
       "count": 5
     }
   ],
