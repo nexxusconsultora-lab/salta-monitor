@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-07T03:11:09.785788+00:00",
+  "generated_at": "2026-11-07T10:13:58.925971+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 504,
+      "total_mentions": 505,
       "sentiment_breakdown": {
         "positivo": 32,
         "negativo": 42,
-        "neutral": 430
+        "neutral": 431
       },
       "sentiment_by_day": {
+        "2026-09-16": {
+          "total": 12,
+          "score_sum": 2
+        },
         "2026-11-06": {
           "total": 8,
           "score_sum": -2
@@ -135,10 +139,6 @@
         "2026-10-17": {
           "total": 3,
           "score_sum": -2
-        },
-        "2026-09-16": {
-          "total": 11,
-          "score_sum": 2
         },
         "2026-10-21": {
           "total": 4,
@@ -288,11 +288,11 @@
         },
         {
           "term": "presupuesto",
-          "count": 64
+          "count": 65
         },
         {
           "term": "intransigente",
-          "count": 58
+          "count": 54
         },
         {
           "term": "elintra",
@@ -304,7 +304,7 @@
         },
         {
           "term": "pasa",
-          "count": 24
+          "count": 25
         },
         {
           "term": "milei",
@@ -414,6 +414,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Santilli recibe a Sáenz y otros gobernadores para negociar el Presupuesto 2027 - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHA2TEFLMTVqNURCSFJ3WmZiUmlEekRfWnBIZ1E5bkp2b1hmODJtYWdCRkYzMG8xYzVSTHRjNnJmU19Nckk1b3R6a2FMN1puSks3WUhuSDAyMXdJRlFjQ25kdUNrYkROaGdiNElRY05lQk5GMzh5Q2FkekxPT0twemVlQ0lUVXNaSkpiWmw1bS1Kd0hPZTBiMlRnYUU5dGtWZ1ZV0gGjAUFVX3lxTE1IcDZMQUsxNWo1REJIUndaZmJSaUR6RF9acEhnUTluSnZvWGY4Mm1hZ0JGRjMwbzFjNVJMdGM2cmZTX01ySTVvdHprYUw3Wm5KSzdZSG5IMDIxd0lGUWNDbmR1Q2tiRE5oZ2I0SVFjTmVCTkYzOHlDYWR6TE9PS3B6ZWVDSVRVc1pKSmJabDVtLUp3SE9lMGIyVGdhRTl0a1ZnVlU?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Aguas del Norte cuestionó un descuento del 30% y logró modificar su aplicación - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQTQ1TElGbWJvU0VXQVJOdlR4X055cjAzaGktcUprcGQzb0FkNTRCVlVmNUlFcGc0T195RllrY0RkMzZRNkZGNjltc0szb1cwUW9CbXRsWHU2b0VQaS13bDlsWjc2VUpLOVNFcVE5TkF6SUs3R3c4SUxfMmkzNlpDV3A4N3hnamFIbHFVY01pUWRJZ1NtMWZEckxnX2J3ZlFTZUpjVE1zS19qWm5pM0dyQ0pB?oc=5",
@@ -615,13 +622,6 @@
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUJNMC10UTk4VzBETzMycE9DcTdOUEpXSTJqQXNPQ2ZIUVdCSEZKNTBQQWlJVzlUVzR5eGZnMTRfY0huYm5ZWGVPZWcteHk5UURZZkg5dUxWcEtrb0FqYTVQbVdjemFuWjF6bnA5blNYd1JSWUs2OHBwUEdIMm84VEpLQWV2bkdGdm9teldmei1xeWlYS19ObmFEamRfMERkZ3Y2SFh1T3IyX0lzU1E?oc=5",
           "source": "El Intransigente",
           "date": "Mon, 02 Nov 2026 21:25:31 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "El Senado convocó a una sesión para tratar salud mental y beneficios para inversiones - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYW9qcEQ5bVFjbWZGSW5LbGticGtZRE5pM21XVjhCQnFDMGFqVHBreGVkaU5CWkZIeU5LU2wwdElBRTBKdWs4bjlOZ1M5b294T01ZNV80ZVFITkw1bjY4WVFjWnRJUGxGTi1SazlfYURrTzY0OVV0d0doMW9UaXhXTE1fOHZMdmE2OHZZakRITXJicndKU045N0hZZXBPYjlocmozYUpoZnQwLTNZWE4wRC13Q29uVUFwYTVUTzMzeGU0eHc?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 29 Oct 2026 15:01:25 GMT",
           "sentiment_label": "positivo"
         }
       ]

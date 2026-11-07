@@ -1947,13 +1947,21 @@
     "id": "sen-roque-cornejo-avellaneda",
     "name": "Roque Ramón Cornejo Avellaneda",
     "role": "Senador/a provincial por Capital",
-    "total_mentions": 75,
+    "total_mentions": 77,
     "sentiment_breakdown": {
       "positivo": 9,
-      "negativo": 13,
-      "neutral": 53
+      "negativo": 14,
+      "neutral": 54
     },
     "sentiment_by_day": {
+      "2024-03-21": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "2025-03-28": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-06": {
         "total": 1,
         "score_sum": -3
@@ -2202,15 +2210,15 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 9
+        "count": 11
       },
       {
         "term": "cornejo",
-        "count": 9
+        "count": 11
       },
       {
         "term": "elintra",
-        "count": 7
+        "count": 9
       },
       {
         "term": "senado",
@@ -2234,6 +2242,18 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Aumenta cada seis meses",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUXR1OTRnWWJHTmdKdm1GMll1eVdOWm5rbVR0Uk9TYU1qYjFxeVpaODFwZFR4SkpRakx2N3IzZjFaZHVWRVFhT3d4cU54Zk1kakphQ3ZrWGVDTDdTWnMzUFMyd204ZEo5RUl6WWtueWVOY1dkZEtHTjV3dlJYc0h5RzdGRWlmbzU0M0VsZmpxVEF3cHdIUXJTTDF1LWdzVkdHMXVMbHZmRFRjZkxUelZDajNnQkVadw?oc=5",
+        "date": "Thu, 21 Mar 2024 07:00:00 GMT"
+      },
+      {
+        "quote": "quiere un cambio",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR1FUNkRvdDF2N2Jwd19BNkdtN3NVQkREbFhfSG9LVHlpcVFQUXloVk13dVZlQ1UzS0U0b19CcTBLUjY2ZkpOZkU3Nkpwd25nS19IdXUySVB1a1FfSVFCQ19sWm9lZjhWaWlVX28tbzdSbW51aXN3ck5vS3p3Tm1JM1UzeFIzWUVodTB4UDJBczg0cE5Ha29VdUhESzF0cG12djkzc0o4SzV4S1VrN0ZmV0JFUkgxYVdpZmVjZE9n?oc=5",
+        "date": "Fri, 28 Mar 2025 07:00:00 GMT"
+      },
       {
         "quote": "Estaría bueno que el dinero que se robaron se utilice para el Garrahan",
         "source": "Que Pasa Salta",
@@ -2310,6 +2330,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Roque Cornejo cuestionó los constantes aumentos de SAETA: “Aumenta cada seis meses” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUXR1OTRnWWJHTmdKdm1GMll1eVdOWm5rbVR0Uk9TYU1qYjFxeVpaODFwZFR4SkpRakx2N3IzZjFaZHVWRVFhT3d4cU54Zk1kakphQ3ZrWGVDTDdTWnMzUFMyd204ZEo5RUl6WWtueWVOY1dkZEtHTjV3dlJYc0h5RzdGRWlmbzU0M0VsZmpxVEF3cHdIUXJTTDF1LWdzVkdHMXVMbHZmRFRjZkxUelZDajNnQkVadw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 21 Mar 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Roque Cornejo defendió a los candidatos de LLA y aseguró que la gente “quiere un cambio” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR1FUNkRvdDF2N2Jwd19BNkdtN3NVQkREbFhfSG9LVHlpcVFQUXloVk13dVZlQ1UzS0U0b19CcTBLUjY2ZkpOZkU3Nkpwd25nS19IdXUySVB1a1FfSVFCQ19sWm9lZjhWaWlVX28tbzdSbW51aXN3ck5vS3p3Tm1JM1UzeFIzWUVodTB4UDJBczg0cE5Ha29VdUhESzF0cG12djkzc0o4SzV4S1VrN0ZmV0JFUkgxYVdpZmVjZE9n?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 28 Mar 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Roque Cornejo pidió una reforma electoral y denunció la subrepresentación de Capital en Diputados",
         "link": "https://elintra.com.ar/2026/11/06/roque-cornejo-pidio-una-reforma-electoral-y-denuncio-la-subrepresentacion-de-capital-en-diputados/",
@@ -2505,20 +2539,6 @@
         "source": "El Intra",
         "date": "Sat, 10 Oct 2026 13:25:00 +0000",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Tensión por el cruce entre Gustavo Sáenz y Roque Cornejo: la ministra Pettovello apoyó al gobernador - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMzZkcmk5alBPdjV1U211N0tlSG5aemlNNWxIeGc0VmdSODVrLUdwWms5bDA1VEwxRVd1N3FiX0xWZjZ4RmVDLUtrSWFFZjlzQnAxZWtjWHYxRHF0aG4tUTJkNUJhWWMwbHZpNzlPMHRCdFNwNDZvWFh2WWt0eDc3MVAzSUk1SXNSVGZyWFUzSjc3N29JWngya2lIZFJKS21VeVlXM01lOG9FN19aTkJTWGZpNmlQX0Q3dkctV3BPbDF1cEY0NkE4a2pmNi15OE0?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Roque Cornejo archivos - Página 16 de 16 - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tQTdQSndQTUVxYThPbzIxXzlRalNZT0k1dHZSbGJKX2hqWTUwZ0NxSHRpZHVzR2ZCbjVPRnE1ZG8xdFZ1cTRTcUpuVzB5OXUxc2xzUTR0UmNaSkFuSFE?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 06 Oct 2026 14:42:24 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -20014,15 +20034,15 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "lópez",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -22074,15 +22094,23 @@
     "id": "concejal-rodrigo-alfredo-perez-quinteros",
     "name": "Rodrigo Alfredo Pérez Quinteros",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 16,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 1,
-      "negativo": 4,
-      "neutral": 11
+      "negativo": 5,
+      "neutral": 13
     },
     "sentiment_by_day": {
+      "2026-05-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-06": {
-        "total": 3,
+        "total": 4,
+        "score_sum": -2
+      },
+      "2026-06-05": {
+        "total": 1,
         "score_sum": -2
       },
       "2026-07-23": {
@@ -22141,15 +22169,31 @@
     "top_topics": [
       {
         "term": "rodrigo",
-        "count": 4
+        "count": 7
       },
       {
         "term": "quinteros",
-        "count": 4
+        "count": 7
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 7
+      },
+      {
+        "term": "emilia",
+        "count": 2
+      },
+      {
+        "term": "orozco",
+        "count": 2
+      },
+      {
+        "term": "libertad",
+        "count": 2
+      },
+      {
+        "term": "avanza",
+        "count": 2
       },
       {
         "term": "sáenz",
@@ -22203,6 +22247,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Rodrigo Quinteros propone ayudar a gente en situación de calle, pero solo aportando el 1% de su sueldo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkJON21qTkFYaFpBVkNGY0dPbDJ5SlRUTXlneEQ4Zko1SVY0a1VKUmotSzJhUlYxRTZ4aU40YXFaVFJRNHZmdWlnbTZlUHVhVE9nTm9YWkRrV3FFQUxVMFU4U3psSUtfZXpTM3JZcWczSnpVazJNOHFkQ1hlZEFjOFdPelR3SkQxQlZVRERnbVJITG5xaFA1THBKcGRyVDRPQW5jaTdkN09KSWhJNjBWQkNiN3ZMQWQ1Nm5PR3BtWWRGamc5ZnhKSkU0c3JaM2da?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 04 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Rodrigo Quinteros cuestiona a Emilia Orozco y Alfredo Olmedo en La Libertad Avanza Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91bm93RzV3MTl6YzUybjRxMU5iMEk5Z0plWGVlZkdEN0JacVpxMGQ5UTNaSTRzMVE2cmVBODJOREpLME95SVFHVUNKR0F4YXg0OU1mOVNFOElBUzVRVUprZ2E4OHp2WWdveDhsQVdxRTN0QQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Rodrigo Quinteros cuestionó las promesas incumplidas en Villa Luján - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOGdHTFdQZkQ0RW9zYWxJa3Y3amZnZG1tMlBTOWNyVFp1VGdJZ0lwc29DdW1aazYzemhybXVGTlRseXM2RXJJT2M2aDRLMTRqa2RsWlBIdFZ0d1RHVUViTVNRX3FtMUE0eFhMSzFYeGlLeThHbVNnVGJ3VktkbE9NWkRRa0l6RHMwblVRQUljc1I5YVZma2laellDdElENlRSWExGdA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 05 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Rodrigo Quinteros inaugura una nueva casa de La Libertad Avanza y la crisis se profundizó - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1bkpvWWpaOW1SMkdkd25BVGhNR2haREdHOXBkZ1RBakJuR0ludGFWWTB1Vk9sRFdPTVdzOS11UElheWU3M0RUWlp6MFB6OVB1aFVBTzV1bHFfaXZHcmlaNTdkaWJyNU5WR2xQWWFHWnJYdEJPeERzR2x1NkpIdw?oc=5",
@@ -22480,13 +22545,21 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 121,
+    "total_mentions": 123,
     "sentiment_breakdown": {
       "positivo": 11,
-      "negativo": 14,
-      "neutral": 96
+      "negativo": 15,
+      "neutral": 97
     },
     "sentiment_by_day": {
+      "2026-05-20": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2023-12-15": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-04": {
         "total": 1,
         "score_sum": -3
@@ -22847,14 +22920,28 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 2
+        "count": 4
       },
       {
         "term": "royón",
+        "count": 4
+      },
+      {
+        "term": "secretaria",
+        "count": 2
+      },
+      {
+        "term": "energía",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "La industria del norte tiene una probabilidad de corte de gas de 80 días",
+        "source": "Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa2E1N0NNUnYxeEU0Tmt2TkFaRkN5cWhzanBBeDYyUnRIRHlJS0RONXFKX3BjU3lIVllmd1ZpcDM3YmN4Yl8zQnBWUWcyLWpUdzBrYkFSTWFVRkNfVWswOVVINjVaUVBncFAzN0h5eUhCZWU0YmR5eUJXYmV2T3JKSFN5a3Q0cXVjTG8wQTNnUVBXYzBsYWlKbGdEZ0dXdVNwNlFyY1h2RUlLVDk5YWZEZkQ3SzNWMFVVd3prWGgtNkNTcnIzS0VZVk16V2ZDTnhuUHNkYmFmUTMxeS1UX2dNeEd2dzRQR0dNZ2RZ0gGGAkFVX3lxTE8xTGVWT0N6MUVxNUxDRF82VkZUYUhyelpydEJrZ3dGZ183SDByMWdSZnV1RHdnZDVmUEEzWTBOT19VQ21QS3ZvMGtsT2pMcWlud3ZCbEtYUHJaXzdQM2xOWGl1dFB0WjVSMzJzdWRFaEUyMXFTTVUyQmVna1JIUG5jUThXLUIxdFRheExyWUFkejlwODJod2FWMVJYWVZIS2VLZG9zR1E1dGFxOG9BdmpiQ3ZQR2g0eWlyTzExR3k5OXZSa3FPM3FwaUhoVWpLUHVWZVhEU0tTOEJWb09GRkowTGQyeTV0NmVhRThrdzEydmhneHY4eHBxNXROSXdWU0pRU3pFaXc?oc=5",
+        "date": "Wed, 20 May 2026 07:00:00 GMT"
+      },
       {
         "quote": "Salta no quiere volver atrás; trabajaremos por un Senado federal",
         "source": "Aries On Line",
@@ -22938,12 +23025,6 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
         "date": "Tue, 21 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Tenemos que llevar la voz de la provincia al Congreso",
-        "source": "Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSVNtNmp5NGZBSjJ4UlhoRDlZSkpvc0Q2WWlEQkpoc25FM1ctN3BYbEJ2dEhEMGRMRXI5YUd0cE15bThOY0lUMWlkdWxPZlZlRFlieVpuUV9mazVGeW54WVhRWXVEN1JwYmpvam9IZzVKVlh5dmVUbE52dTJIQmdraXJKaGRaN1lNTzR4d1lGTnZhYndzWVpsdFFPS01fQm1BaXF3?oc=5",
-        "date": "Sun, 26 Oct 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -22973,6 +23054,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón, ex secretaria de Energía: “La industria del norte tiene una probabilidad de corte de gas de 80 días” - Infobae",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa2E1N0NNUnYxeEU0Tmt2TkFaRkN5cWhzanBBeDYyUnRIRHlJS0RONXFKX3BjU3lIVllmd1ZpcDM3YmN4Yl8zQnBWUWcyLWpUdzBrYkFSTWFVRkNfVWswOVVINjVaUVBncFAzN0h5eUhCZWU0YmR5eUJXYmV2T3JKSFN5a3Q0cXVjTG8wQTNnUVBXYzBsYWlKbGdEZ0dXdVNwNlFyY1h2RUlLVDk5YWZEZkQ3SzNWMFVVd3prWGgtNkNTcnIzS0VZVk16V2ZDTnhuUHNkYmFmUTMxeS1UX2dNeEd2dzRQR0dNZ2RZ0gGGAkFVX3lxTE8xTGVWT0N6MUVxNUxDRF82VkZUYUhyelpydEJrZ3dGZ183SDByMWdSZnV1RHdnZDVmUEEzWTBOT19VQ21QS3ZvMGtsT2pMcWlud3ZCbEtYUHJaXzdQM2xOWGl1dFB0WjVSMzJzdWRFaEUyMXFTTVUyQmVna1JIUG5jUThXLUIxdFRheExyWUFkejlwODJod2FWMVJYWVZIS2VLZG9zR1E1dGFxOG9BdmpiQ3ZQR2g0eWlyTzExR3k5OXZSa3FPM3FwaUhoVWpLUHVWZVhEU0tTOEJWb09GRkowTGQyeTV0NmVhRThrdzEydmhneHY4eHBxNXROSXdWU0pRU3pFaXc?oc=5",
+        "source": "Infobae",
+        "date": "Wed, 20 May 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Flavia Royón renuncia oficialmente a la Secretaría de Energía - Ambito",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXR2dmpCeU9VcmJoam9sNGdTaWRRaVNTejBacXRieHNhOUJDbWV4blJTYmZwa2x0QkZRYmpaODFzQ0I2UEhRZ1hmUmREVGhpZUR6QVlfVHZ5d0I2ZjVsWXd5NXZSakpNeGkyWG9ZRDhTNGVLVXVLajI3RS1zcUlRc3JUWWdBRnBobXQ5OHBncnhrSFpEdDFUeVNRdjktdw?oc=5",
+        "source": "Ambito",
+        "date": "Fri, 15 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "«Fórmulas populistas»: Flavia Royón cuestionó los subsidios al transporte en el AMBA",
         "link": "https://elintra.com.ar/2026/11/04/formulas-populistas-flavia-royon-cuestiono-los-subsidios-al-transporte-en-el-amba/",
@@ -23168,20 +23263,6 @@
         "source": "Nuevo Diario de Salta",
         "date": "Thu, 27 Aug 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón: \"La voz de Salta tiene que hacerse escuchar en el Congreso\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón: \"La voz de Salta tiene que hacerse escuchar en el Congreso\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -23189,13 +23270,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 106,
+    "total_mentions": 107,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 19,
-      "neutral": 78
+      "neutral": 79
     },
     "sentiment_by_day": {
+      "2023-12-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-04": {
         "total": 1,
         "score_sum": -1
@@ -23560,15 +23645,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 11
+        "count": 12
       },
       {
         "term": "orozco",
-        "count": 11
+        "count": 12
       },
       {
         "term": "elintra",
-        "count": 7
+        "count": 8
       },
       {
         "term": "milei",
@@ -23722,6 +23807,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco, a favor del protocolo de Bullrich: «Vales mucho más que una ayuda social» - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaDVObUVFNlEtaFFyMW9qWXMxWU9obVNoWTBVOFQ2UGxlcXBrdDktQk5yR2t4MVlkRXNCWU51aUlYb3NaREV3OUxMenVUS1dBN0J2MkRyR2djb2FlYkVTMTd3U2hhemJHZ3BCd2RPNTFfenJ4WGJJVk9qc2xGVmVqV2ZiUk1IVmdrOHZlblBkbWVuQTQxbGdyTV9fd0kxYkFiR1pJaGNKay1JeUVxd3RucjJVOHdpbWFYbnhj?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 20 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco defendió a Milei y aseguró que los programas nacionales llegan a Salta",
         "link": "https://elintra.com.ar/2026/11/04/emilia-orozco-defendio-a-milei-y-aseguro-que-los-programas-nacionales-llegan-a-salta/",
@@ -23924,13 +24016,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 23 Oct 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco desconfiaba del voto electrónico y ahora viaja a Brasil para estudiarlo",
-        "link": "https://elintra.com.ar/2026/10/24/emilia-orozco-desconfiaba-del-voto-electronico-y-ahora-viaja-a-brasil-para-estudiarlo/",
-        "source": "El Intra",
-        "date": "Sat, 24 Oct 2026 13:50:00 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -24073,14 +24158,14 @@
     "top_topics": [
       {
         "term": "guzmán",
-        "count": 4
-      },
-      {
-        "term": "coraita",
         "count": 3
       },
       {
         "term": "gonzalo",
+        "count": 2
+      },
+      {
+        "term": "coraita",
         "count": 2
       }
     ],
@@ -27545,14 +27630,10 @@
     "top_topics": [
       {
         "term": "galíndez",
-        "count": 4
-      },
-      {
-        "term": "gastón",
         "count": 3
       },
       {
-        "term": "elintra",
+        "term": "gastón",
         "count": 2
       },
       {
@@ -34742,13 +34823,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 17
+      "neutral": 18
     },
     "sentiment_by_day": {
+      "2023-03-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-04": {
         "total": 2,
         "score_sum": -11
@@ -34859,6 +34944,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides archivos - Página 2 de 8 - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iMkhLSTROS0ZpdGNXRkRrWnJxa0FlNEN4bFk4b1p5S1NNM3htQndxQ0lQMzZ5WnVLNUdVbWZWVlA4ZXRnUEV2ZzNLX1ByckVGbGd4b05PUVh4M3pSd0lj?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 04 Mar 2023 13:06:59 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“En el AMBA están todos los privilegios”: Salta cuestionó los subsidios de Nación",
         "link": "https://informatesalta.com.ar/politica/-en-el-amba-estan-todos-los-privilegios---salta-cuestiono-los-subsidios-de-nacion_a6aeb453a535b5d30032b9888",
