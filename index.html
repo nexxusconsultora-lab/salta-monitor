@@ -771,6 +771,16 @@ body.hud .banner{border-color:rgba(249,137,1,.4);box-shadow:0 0 0 1px rgba(249,1
 /* v19: casillas con el color de la marca, etiquetas de variación sin estirarse y capas de la Red distinguibles */
 input[type=checkbox],input[type=radio],input[type=range],progress{accent-color:var(--clay)}
 .dlt{display:inline-flex;align-items:center;width:fit-content;align-self:flex-start;white-space:nowrap}
+.lgb{background:linear-gradient(90deg,#FFF1BF,#FDD87A,#FBAE48,#EE7B25,#C94E14,#8E300D)!important}.lgcl{display:flex;flex-wrap:wrap;gap:.3rem .9rem;margin:.5rem 0;font-size:.78rem;color:var(--soft)}.lgk{display:inline-flex;align-items:center;gap:.35rem}.lgk i{width:1.05rem;height:.8rem;border-radius:2px;border:1px solid rgba(128,128,128,.45);flex:none}.lgk em{font-style:normal;opacity:.7}
+
+.dp{transition:fill .55s cubic-bezier(.4,0,.2,1),filter .2s,stroke .2s,stroke-width .2s}
+.dp:hover{filter:brightness(1.12) drop-shadow(0 4px 8px rgba(0,0,0,.5))}
+.dp.on{filter:drop-shadow(0 0 10px var(--glow,rgba(249,137,1,.55)))}
+svg.mg.anim .dp{animation:dpIn .75s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0)*30ms);transform-box:fill-box;transform-origin:center}
+@keyframes dpIn{from{opacity:0;transform:scale(.93)}to{opacity:1;transform:none}}
+#mtip{position:fixed;left:0;top:0;z-index:9999;pointer-events:none;opacity:0;transition:opacity .12s;max-width:16rem;padding:.55rem .8rem;border-radius:12px;background:rgba(16,16,18,.93);color:#F5F5F5;border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 36px -10px rgba(0,0,0,.65);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);font-size:.8rem;line-height:1.3}
+#mtip.on{opacity:1}#mtip b{display:block;font-size:.88rem}#mtip span{display:block;font-size:1.1rem;font-weight:700;margin:.15rem 0;font-variant-numeric:tabular-nums}#mtip em{display:block;font-style:normal;color:#B5B5B5;font-size:.72rem}
+@media(prefers-reduced-motion:reduce){.dp,svg.mg.anim .dp{animation:none!important;transition:none!important}}
 </style>
 <script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('newar_tema_v1')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
 <meta name="theme-color" content="#071B33">
@@ -1319,8 +1329,21 @@ const pintaMon=()=>{const el=$('#mon'),m=lsGet(MK,[]);if(!el||!m.length)return;e
 const MAPA_POS={'santa victoria':[0,2,'Santa Victoria'],'iruya':[1,2,'Iruya'],'oran':[1,3,'Orán'],'la poma':[2,1,'La Poma'],'cachi':[2,2,'Cachi'],'san martin':[2,3,'San Martín'],'rivadavia':[2,4,'Rivadavia'],'los andes':[3,0,'Los Andes'],'molinos':[3,1,'Molinos'],'rosario de lerma':[3,2,'Rosario de Lerma'],'la caldera':[3,3,'La Caldera'],'anta':[3,4,'Anta'],'san carlos':[4,1,'San Carlos'],'chicoana':[4,2,'Chicoana'],'capital':[4,3,'Capital'],'guemes':[4,4,'Güemes'],'cafayate':[5,1,'Cafayate'],'la vina':[5,2,'La Viña'],'cerrillos':[5,3,'Cerrillos'],'metan':[5,5,'Metán'],'guachipas':[6,2,'Guachipas'],'la candelaria':[6,4,'La Candelaria'],'rosario de la frontera':[6,5,'R. de la Frontera']};
 const MAPA_PAL=['#2D72D2','#238551','#B8541A','#7157D9','#1C6E7D','#AC2F33','#8F398F','#5F6B7C','#6B7B1F','#A66A0B','#3F5F9A','#9A4A1F'];
 let MAPA={col:'c:poblacion',sel:'',vista:'geo',vb:null,fs:false,vals:true},MAPAG=null,MAPAGT=false;
-window.mapaCfg=(k,v)=>{MAPA[k]=v;if(k==='vista')MAPA.vb=null;const y=window.scrollY;KEEP=true;route().then(()=>window.scrollTo(0,y))};
+window.mapaCfg=(k,v)=>{try{const o={};document.querySelectorAll('svg.mg path.dp').forEach(p=>{o[p.dataset.k]=getComputedStyle(p).fill});window.__mpPrev=Object.keys(o).length?o:null}catch(e){}MAPA[k]=v;if(k==='vista')MAPA.vb=null;const y=window.scrollY;KEEP=true;route().then(()=>window.scrollTo(0,y))};
 const mapaGeoLoad=()=>{if(MAPAG!==null||MAPAGT)return;MAPAGT=true;leer('geo_salta').then(g=>{MAPAG=(g&&g.deptos)?g:false;if(/^#\/mapa/.test(location.hash))route()})};
+const MAPA_RAMPA=['#FFF1BF','#FDD87A','#FBAE48','#EE7B25','#C94E14','#8E300D'];
+const mapaLum=h=>{const n=parseInt(h.slice(1),16),f=c=>{c/=255;return c<=.03928?c/12.92:Math.pow((c+.055)/1.055,2.4)};return .2126*f(n>>16&255)+.7152*f(n>>8&255)+.0722*f(n&255)};
+const mapaTxt=h=>typeof h==='string'&&/^#[0-9a-f]{6}$/i.test(h)?(mapaLum(h)>.3?{c:'#211D1A',h:'rgba(255,255,255,.9)'}:{c:'#FFFFFF',h:'rgba(0,0,0,.65)'}):null;
+const mapaCortes=vs=>{const s=vs.slice().sort((a,b)=>a-b),n=MAPA_RAMPA.length,c=[];for(let i=1;i<n;i++)c.push(s[Math.min(s.length-1,Math.floor(i*s.length/n))]);return c};
+const mapaClase=(v,c)=>{let i=0;while(i<c.length&&v>=c[i])i++;return i};
+const mapaSt=f=>{const t=mapaTxt(f);return'background:'+f+';color:'+(t?t.c:'var(--ink)')+';'};
+(()=>{const mk=()=>{if(document.getElementById('mtip'))return;const t=document.createElement('div');t.id='mtip';t.setAttribute('aria-hidden','true');document.body.appendChild(t);
+ const off=()=>t.classList.remove('on');
+ document.addEventListener('pointermove',e=>{if(e.pointerType==='touch'){off();return}const el=e.target.closest&&e.target.closest('[data-nx-t]');if(!el||!el.closest('svg.mg,svg.ag')){off();return}
+  const d=el.dataset;t.innerHTML='<b>'+esc(d.nxT)+'</b>'+(d.nxV?'<span>'+esc(d.nxV)+'</span>':'')+(d.nxS?'<em>'+esc(d.nxS)+'</em>':'');t.classList.add('on');
+  const w=t.offsetWidth,h=t.offsetHeight;let x=e.clientX+16,y=e.clientY+18;if(x+w>innerWidth-8)x=e.clientX-w-16;if(y+h>innerHeight-8)y=e.clientY-h-16;t.style.transform='translate('+Math.max(4,x)+'px,'+Math.max(4,y)+'px)'});
+ document.addEventListener('pointerdown',off);window.addEventListener('scroll',off,true);document.addEventListener('mouseleave',off)};
+ document.body?mk():document.addEventListener('DOMContentLoaded',mk)})();
 const mapaKey=s=>fold(s).replace(/^(general|gral\.?)\s+(jose de\s+)?/,'').replace(/^r\.\s*/,'rosario ').replace(/\s+/g,' ').trim();
 const mapaBase=()=>MAPAG&&MAPAG.viewBox?MAPAG.viewBox:[0,0,760,591];
 let MAPA_L=null,MAPA_RAF=0;
@@ -1331,15 +1354,21 @@ const mapaRotulos=()=>{const sv=mapaSvg(),g=sv&&sv.querySelector('#ml');if(!g||!
   if(px<-30||py<-15||px>W+30||py>W*v[3]/v[2]+15)return;
   const w=Math.max(it.nm.length,it.vt?it.vt.length:0)*6.8+6,h=it.vt?31:16,bx=[px-w/2,py-h/2,px+w/2,py+h/2];
   if(it.k!==MAPA.sel&&pl.some(q=>bx[0]<q[2]&&bx[2]>q[0]&&bx[1]<q[3]&&bx[3]>q[1]))return;pl.push(bx);
-  out.push('<text class="dl" x="'+it.x+'" y="'+(it.vt?(it.y-fs*.6).toFixed(2):it.y)+'" text-anchor="middle" dominant-baseline="middle" style="font-size:'+fs.toFixed(2)+'px;stroke-width:'+(3.5/sc).toFixed(2)+'px">'+esc(it.nm)+(it.vt?'<tspan class="dv" x="'+it.x+'" dy="'+(fs*1.25).toFixed(2)+'">'+esc(it.vt)+'</tspan>':'')+'</text>')});
+  const fg=it.fg,sty=fg?'fill:'+fg.c+';stroke:'+fg.h+';':'';out.push('<text class="dl" x="'+it.x+'" y="'+(it.vt?(it.y-fs*.6).toFixed(2):it.y)+'" text-anchor="middle" dominant-baseline="middle" style="'+sty+'font-size:'+fs.toFixed(2)+'px;stroke-width:'+(3.5/sc).toFixed(2)+'px">'+esc(it.nm)+(it.vt?'<tspan class="dv" style="'+(fg?'fill:'+fg.c+';':'')+'" x="'+it.x+'" dy="'+(fs*1.25).toFixed(2)+'">'+esc(it.vt)+'</tspan>':'')+'</text>')});
  g.innerHTML=out.join('')};
-const mapaApply=()=>{const sv=mapaSvg();if(!sv)return;const B=mapaBase(),v=MAPA.vb||B;sv.setAttribute('viewBox',v.map(n=>Math.round(n*10)/10).join(' '));cancelAnimationFrame(MAPA_RAF);MAPA_RAF=requestAnimationFrame(mapaRotulos)};
+let MAPA_TW=0;
+const mapaApply=anim=>{const sv=mapaSvg();if(!sv)return;const B=mapaBase(),v=MAPA.vb||B;
+ const fl=window.__mpPrev;if(fl){window.__mpPrev=null;const ps=sv.querySelectorAll('path.dp');ps.forEach(p=>{p.dataset.nf=p.style.fill;const o=fl[p.dataset.k];if(o){p.style.transition='none';p.style.fill=o}});void sv.getBoundingClientRect();ps.forEach(p=>{p.style.transition='';p.style.fill=p.dataset.nf})}
+ cancelAnimationFrame(MAPA_TW);const set=w=>sv.setAttribute('viewBox',w.map(n=>Math.round(n*10)/10).join(' '));
+ const cur=(sv.getAttribute('viewBox')||'').split(/\s+/).map(Number);
+ if(anim===true&&cur.length===4&&cur.every(isFinite)&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&Math.abs(cur[2]-v[2])+Math.abs(cur[0]-v[0])+Math.abs(cur[1]-v[1])>0.5){const t0=performance.now(),DUR=280;const st=()=>{const q=Math.min(1,(performance.now()-t0)/DUR),e=1-Math.pow(1-q,3);set(cur.map((c,k)=>c+(v[k]-c)*e));if(q<1)MAPA_TW=requestAnimationFrame(st);else{cancelAnimationFrame(MAPA_RAF);MAPA_RAF=requestAnimationFrame(mapaRotulos)}};MAPA_TW=requestAnimationFrame(st);return}
+ set(v);cancelAnimationFrame(MAPA_RAF);MAPA_RAF=requestAnimationFrame(mapaRotulos)};
 window.mapaZoom=(f,cx,cy)=>{const B=mapaBase(),v=(MAPA.vb||B).slice(),w=Math.min(B[2],Math.max(B[2]/20,v[2]*f)),h=w*B[3]/B[2];
  const px=cx==null?v[0]+v[2]/2:cx,py=cy==null?v[1]+v[3]/2:cy,rx=(px-v[0])/v[2],ry=(py-v[1])/v[3];
- v[2]=w;v[3]=h;v[0]=Math.min(Math.max(B[0],px-rx*w),B[0]+B[2]-w);v[1]=Math.min(Math.max(B[1],py-ry*h),B[1]+B[3]-h);MAPA.vb=w>=B[2]-0.5?null:v;mapaApply()};
-window.mapaReset=()=>{MAPA.vb=null;mapaApply()};
+ v[2]=w;v[3]=h;v[0]=Math.min(Math.max(B[0],px-rx*w),B[0]+B[2]-w);v[1]=Math.min(Math.max(B[1],py-ry*h),B[1]+B[3]-h);MAPA.vb=w>=B[2]-0.5?null:v;mapaApply(true)};
+window.mapaReset=()=>{MAPA.vb=null;mapaApply(true)};
 window.mapaFS=()=>{MAPA.fs=!MAPA.fs;const g=document.querySelector('.mgrid');if(g)g.classList.toggle('mfs',MAPA.fs);setTimeout(mapaApply,30)};
-window.addEventListener('hashchange',()=>{MAPA.fs=false});
+window.addEventListener('hashchange',()=>{MAPA.fs=false;MAPA.seen=false});
 window.addEventListener('resize',()=>{if(MAPA_L)mapaApply()});
 (()=>{let d=null,mov=false,pd=0;const P=new Map();
  const pt=(sv,x,y)=>{const r=sv.getBoundingClientRect(),v=MAPA.vb||mapaBase();return[v[0]+(x-r.left)/r.width*v[2],v[1]+(y-r.top)/r.height*v[3]]};
@@ -1365,12 +1394,12 @@ V.mapa=()=>{mapaGeoLoad();const D={},sinDep=[];
  const top=x=>{const n={};x.d.forEach(y=>{const b=y[1].bloque||'Sin dato de bloque';n[b]=(n[b]||0)+1});const e=Object.entries(n).sort((a,b)=>b[1]-a[1]);if(!e.length)return null;return e.length>1&&e[0][1]===e[1][1]?'Empate':e[0][0]};
  const info=k=>{const x=D[k];if(MAPA.col==='sen'){const b=x.s[0]?(x.s[0][1].bloque||'Sin dato de bloque'):null;return{b,bg:b?colB(b):null}}if(MAPA.col==='dip'){const b=top(x);return{b,bg:b&&b!=='Empate'?colB(b):b==='Empate'?'#5F6B7C':null}}return{b:null,bg:null}};
  const lblDe=k=>{const x=D[k],i=info(k),nom=(MAPAG&&MAPAG.deptos&&MAPAG.deptos[k]?MAPAG.deptos[k].nombre:MAPA_POS[k][2]);return nom+': '+x.s.length+' senador/a, '+x.d.length+' diputado/s, '+prensa[k]+' mención/es de sus representantes (30 días)'+(i.b?' · '+i.b:'')};
- const fillN=v=>window.NXRAMP?NXRAMP(v):'color-mix(in srgb,var(--clay) '+Math.round(v*85)+'%,var(--raised))';
+ const fillN=v=>MAPA_RAMPA[Math.max(0,Math.min(MAPA_RAMPA.length-1,Math.floor((v||0)*MAPA_RAMPA.length)))];const ccut={},cutsFor=key=>ccut[key]||(ccut[key]=mapaCortes(Object.keys(D).map(k=>cv(k,key)).filter(v=>v!=null)));
  const CEN=S.cen&&S.cen.deptos?S.cen:null,IND=S.ind&&S.ind.indicadores&&S.ind.indicadores.length?S.ind:null,cc=CEN?(CEN.campos||[]).filter(c=>c.mapa!==false):[];
  if(MAPA.col.indexOf('c:')===0&&!cc.some(c=>'c:'+c.k===MAPA.col))MAPA.col='sen';
  const cv=(k,key)=>{const v=CEN&&CEN.deptos&&CEN.deptos[k]?CEN.deptos[k][key]:null;return typeof v==='number'?v:null},cmax=key=>Math.max(1e-9,...Object.keys(D).map(k=>cv(k,key)||0));
- const cfill=k=>{const key=MAPA.col.slice(2),v=cv(k,key);if(v==null)return{st:'background:var(--raised);color:var(--soft);',fl:'var(--raised)'};const f=fillN(Math.sqrt(v/cmax(key)));return{st:'background:'+f+';color:var(--ink);',fl:f}};
- const fondo=k=>MAPA.col.indexOf('c:')===0?cfill(k):MAPA.col==='n'?{st:'background:'+fillN(D[k].d.length/maxD)+';color:var(--ink);',fl:fillN(D[k].d.length/maxD)}:MAPA.col==='pre'?{st:'background:'+fillN(prensa[k]/maxP)+';color:var(--ink);',fl:fillN(prensa[k]/maxP)}:(()=>{const i=info(k);return i.bg?{st:'background:'+i.bg+';color:#fff;',fl:i.bg}:{st:'',fl:'var(--raised)'}})();
+ const cfill=k=>{const key=MAPA.col.slice(2),v=cv(k,key);if(v==null)return{st:'background:var(--raised);color:var(--soft);',fl:'var(--raised)'};const f=MAPA_RAMPA[mapaClase(v,cutsFor(key))];return{st:mapaSt(f),fl:f}};
+ const fondo=k=>MAPA.col.indexOf('c:')===0?cfill(k):MAPA.col==='n'?{st:mapaSt(fillN(D[k].d.length/maxD)),fl:fillN(D[k].d.length/maxD)}:MAPA.col==='pre'?{st:mapaSt(fillN(prensa[k]/maxP)),fl:fillN(prensa[k]/maxP)}:(()=>{const i=info(k);return i.bg?{st:'background:'+i.bg+';color:#fff;',fl:i.bg}:{st:'',fl:'var(--raised)'}})();
  const keyC=MAPA.col.indexOf('c:')===0?MAPA.col.slice(2):'',cp0=keyC?cc.find(c=>c.k===keyC):null;
  const numDe=k=>keyC?cv(k,keyC):MAPA.col==='n'?D[k].d.length:MAPA.col==='pre'?prensa[k]:null;
  const su=u=>u&&u.indexOf('%')===0?'%':u;
@@ -1380,14 +1409,14 @@ V.mapa=()=>{mapaGeoLoad();const D={},sinDep=[];
  const geo=MAPAG&&MAPAG.deptos&&MAPA.vista==='geo';
  let mapa='';
  if(geo){const B=mapaBase(),vb=MAPA.vb||B,zoom=vb[2]<B[2]*0.6;
-  const paths=Object.entries(MAPAG.deptos).map(([k,g])=>`<path class="dp${MAPA.sel===k?' on':''}" data-k="${esc(k)}" d="${esc(g.d)}" style="fill:${fondo(k).fl}" tabindex="0" role="button" aria-pressed="${MAPA.sel===k}" aria-label="${esc(lblDe(k))}"><title>${esc(lblDe(k))}</title></path>`).join('');
-  MAPA_L=Object.entries(MAPAG.deptos).map(([k,g])=>({k,x:g.c[0],y:g.c[1],nm:MAPA_POS[k]?MAPA_POS[k][2]:g.nombre,p:cv(k,'poblacion')||0,vt:MAPA.vals?vtDe(k):''}));setTimeout(mapaApply,0);
-  const txt='<g id="ml"></g>';
-  mapa=`<div class="mapa-w"><div class="mz"><button type="button" onclick="mapaZoom(0.7)" aria-label="Acercar">+</button><button type="button" onclick="mapaZoom(1.4)" aria-label="Alejar">−</button><button type="button" onclick="mapaReset()" aria-label="Ver toda la provincia">⌂</button><button type="button" onclick="mapaFS()" aria-label="Pantalla completa del mapa (Esc para salir)" title="Pantalla completa">⤢</button></div><svg class="mg" viewBox="${vb.map(n=>Math.round(n*10)/10).join(' ')}" role="group" aria-label="Mapa de los departamentos de Salta">${paths}${txt}</svg></div><p class="note">Arrastrá para mover. Acercá con la rueda del mouse, el pellizco o los botones + / −, y usá ⤢ para verlo a pantalla completa. Tocá un departamento, o llegá con Tab y Enter, para ver quiénes lo representan. Contornos: ${esc(MAPAG.fuente||'IGN')}; simplificados, sirven para ubicar y no para medir.</p>`}
+  const rkM=(()=>{const a=Object.keys(D).map(k=>[k,numDe(k)]).filter(x=>x[1]!=null).sort((a,b)=>b[1]-a[1]),o={};a.forEach((x,n)=>o[x[0]]=n+1);return o})(),nR=Object.keys(rkM).length;const paths=Object.entries(MAPAG.deptos).map(([k,g],ix)=>`<path class="dp${MAPA.sel===k?' on':''}" data-k="${esc(k)}" data-nx-t="${esc(g.nombre||k)}" data-nx-v="${esc(numDe(k)!=null?vtDe(k)||fmtC(numDe(k),cp0?cp0.u:''):(info(k).b||''))}" data-nx-s="${esc(rkM[k]?'Puesto '+rkM[k]+' de '+nR+(capaT?' · '+capaT:''):'')}" d="${esc(g.d)}" style="--i:${ix};fill:${fondo(k).fl}" tabindex="0" role="button" aria-pressed="${MAPA.sel===k}" aria-label="${esc(lblDe(k))}"><title>${esc(lblDe(k))}</title></path>`).join('');
+  MAPA_L=Object.entries(MAPAG.deptos).map(([k,g])=>({k,x:g.c[0],y:g.c[1],nm:MAPA_POS[k]?MAPA_POS[k][2]:g.nombre,p:cv(k,'poblacion')||0,fg:mapaTxt(fondo(k).fl),vt:MAPA.vals?vtDe(k):''}));setTimeout(mapaApply,0);
+  const txt='<g id="ml"></g>',animC=MAPA.seen?'':' anim';MAPA.seen=true;
+  mapa=`<div class="mapa-w"><div class="mz"><button type="button" onclick="mapaZoom(0.7)" aria-label="Acercar">+</button><button type="button" onclick="mapaZoom(1.4)" aria-label="Alejar">−</button><button type="button" onclick="mapaReset()" aria-label="Ver toda la provincia">⌂</button><button type="button" onclick="mapaFS()" aria-label="Pantalla completa del mapa (Esc para salir)" title="Pantalla completa">⤢</button></div><svg class="mg${animC}" viewBox="${vb.map(n=>Math.round(n*10)/10).join(' ')}" role="group" aria-label="Mapa de los departamentos de Salta">${paths}${txt}</svg></div><p class="note">Arrastrá para mover. Acercá con la rueda del mouse, el pellizco o los botones + / −, y usá ⤢ para verlo a pantalla completa. Tocá un departamento, o llegá con Tab y Enter, para ver quiénes lo representan. Contornos: ${esc(MAPAG.fuente||'IGN')}; simplificados, sirven para ubicar y no para medir.</p>`}
  else{MAPA_L=null;mapa='<div class="mapa-w"><div class="mapa">'+Object.entries(MAPA_POS).map(([k,[r,c,nom]])=>{const x=D[k],n=x.d.length,f=fondo(k);return`<button type="button" class="mt${MAPA.sel===k?' on':''}" data-k="${esc(k)}" style="grid-row:${r+1};grid-column:${c+1};${f.st}" aria-pressed="${MAPA.sel===k}" aria-label="${esc(lblDe(k))}" title="${esc(lblDe(k))}"><b>${esc(nom)}</b><span>S ${x.s.length} · D ${n}</span></button>`}).join('')+'</div></div>'+(MAPAG===false?'<p class="note">No se pudo cargar el mapa geográfico (data/geo_salta.json); se muestra la vista esquemática, sin escala ni límites reales.</p>':'<p class="note">Vista esquemática: disposición aproximada, sin escala ni límites reales.</p>')}
  const usados=(MAPA.col==='n'||MAPA.col==='pre'||MAPA.col.indexOf('c:')===0)?[]:[...new Set(Object.keys(D).map(k=>info(k).b).filter(b=>b&&b!=='Empate'))].sort((a,b)=>a.localeCompare(b,'es'));
  const fmt=(v,u)=>typeof v==='number'?v.toLocaleString('es-AR',{maximumFractionDigits:Number.isInteger(v)?0:(u==='pers.'?2:1)})+(u&&u!=='%'?' '+u:u==='%'?' %':''):'s/d';
- const legC=()=>{const key=MAPA.col.slice(2),cp=cc.find(c=>c.k===key)||{t:key,u:''},vs=Object.keys(D).map(k=>cv(k,key)).filter(v=>v!=null);if(!vs.length)return'<p class="note">Sin datos para esta capa.</p>';return'<div class="lgr"><span>'+esc(fmt(Math.min(...vs),su(cp.u)))+'</span><i class="lgb"></i><span>'+esc(fmt(Math.max(...vs),su(cp.u)))+'</span></div><p class="note">'+esc(cp.t)+'. Más intenso = valor más alto (escala de raíz cuadrada para que los departamentos chicos también se distingan). Fuente: '+esc(CEN.fuente||'INDEC')+'.</p>'};
+ const legC=()=>{const key=MAPA.col.slice(2),cp=cc.find(c=>c.k===key)||{t:key,u:''},vs=Object.keys(D).map(k=>cv(k,key)).filter(v=>v!=null);if(!vs.length)return'<p class="note">Sin datos para esta capa.</p>';const cu=cutsFor(key),cnt=MAPA_RAMPA.map(()=>0),mnC=MAPA_RAMPA.map(()=>Infinity),mxC=MAPA_RAMPA.map(()=>-Infinity);vs.forEach(v=>{const i=mapaClase(v,cu);cnt[i]++;if(v<mnC[i])mnC[i]=v;if(v>mxC[i])mxC[i]=v});const it=[];MAPA_RAMPA.forEach((col,i)=>{if(!cnt[i])return;const lo=mnC[i],hi=mxC[i];const a=fmt(lo,su(cp.u)),b=fmt(hi,su(cp.u));it.push('<span class="lgk"><i style="background:'+col+'"></i>'+esc(a===b?a:a+' – '+b)+' <em>('+cnt[i]+')</em></span>')});return'<div class="lgcl">'+it.join('')+'</div><p class="note">'+esc(cp.t)+'. Cada color agrupa la misma cantidad de departamentos (entre paréntesis), del valor más bajo al más alto, para que se distingan aunque haya uno muy grande como Capital. Los cortes son aproximados. Fuente: '+esc(CEN.fuente||'INDEC')+'.</p>'};
  const leg=MAPA.col.indexOf('c:')===0?legC():MAPA.col==='n'?'<p class="note">Más intenso = más diputados provinciales por departamento (máximo '+maxD+').</p>':MAPA.col==='pre'?'<p class="note">Más intenso = más notas de los últimos 30 días que nombran a sus representantes (máximo '+maxP+'). Son coincidencias de nombre en títulos, no miden influencia; una nota puede nombrar a representantes de varios departamentos.</p>':'<p class="note">'+usados.map(b=>'<span class="tag" style="background:'+colB(b)+';color:#fff;margin:0 .3rem .3rem 0">'+esc(b)+'</span>').join('')+(MAPA.col==='dip'&&Object.keys(D).some(k=>top(D[k])==='Empate')?'<span class="tag" style="background:#5F6B7C;color:#fff">Empate</span>':'')+'</p>';
  const tile=(t,v,sub)=>`<div class="kt"><span class="kv">${v}</span><span class="kl">${esc(t)}</span>${sub?`<span class="ks">${esc(sub)}</span>`:''}</div>`;
  const grp=(src,pv)=>{const gs={};(CEN.campos||[]).forEach(c=>{if(src[c.k]==null)return;(gs[c.g||'Otros']=gs[c.g||'Otros']||[]).push(c)});return Object.entries(gs).map(([g,cs])=>'<h4 class="gh">'+esc(g)+'</h4><div class="kgrid">'+cs.map(c=>tile(c.t,esc(fmt(src[c.k],su(c.u))),[(c.u&&c.u.indexOf('%')===0&&c.u.length>2?c.u.slice(2):''),(pv&&pv!==src&&pv[c.k]!=null?'Provincia: '+fmt(pv[c.k],su(c.u)):'')].filter(Boolean).join(' · '))).join('')+'</div>').join('')};
@@ -2640,7 +2669,6 @@ addEventListener('resize',auto);setTimeout(auto,900);
 <script src="pulso.js"></script>
 <script src="envivo.js"></script>
 <script src="elecciones.js"></script>
-<script src="comandos-voz.js"></script>
 <script>
 /* efecto foco: la luz de las tarjetas sigue al mouse (solo decoración) */
 (function(){var t=null;document.addEventListener('pointermove',function(e){if(e.pointerType==='touch'||t)return;var c=e.target.closest&&e.target.closest('.card,.trust li,.person,.pnl,.box');if(!c)return;t=requestAnimationFrame(function(){t=null;var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')})},{passive:true})})();
