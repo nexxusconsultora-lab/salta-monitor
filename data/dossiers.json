@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 456,
+    "total_mentions": 457,
     "sentiment_breakdown": {
       "positivo": 116,
       "negativo": 79,
-      "neutral": 261
+      "neutral": 262
     },
     "sentiment_by_day": {
+      "2019-10-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-08-14": {
         "total": 1,
         "score_sum": 0
@@ -442,11 +446,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 29
+        "count": 30
       },
       {
         "term": "gustavo",
-        "count": 10
+        "count": 11
       },
       {
         "term": "nación",
@@ -461,12 +465,12 @@
         "count": 6
       },
       {
-        "term": "transporte",
+        "term": "gobernador",
         "count": 5
       },
       {
-        "term": "gobernador",
-        "count": 4
+        "term": "transporte",
+        "count": 5
       },
       {
         "term": "reclamó",
@@ -567,6 +571,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Quién es Gustavo Sáenz, el aspirante a gobernador que se reinventó en la derrota - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckxUWjBzZ2Y5WnlFVnhHT0ZYSmpLSUNvcFJBRUd1ZTJ6SW1yRURGSTFUamZTd1J5NXYyOWV0bUlBWUY0Q0pJcG9WMXRzeHV3N2pwdDk4RkNqT1kyNUdEZXgtRXFka1diTk14bGh1a2NMQTBhT2ViTGgzNkZ4YjFfU3ZnVEU2U04waHNPOXhLeDMweXdiMVc2RGhkZno?oc=5",
+        "source": "Página|12",
+        "date": "Thu, 03 Oct 2019 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El gobernador Gustavo Sáenz busca consolidar mañana su liderazgo en Salta - La Nación",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZDk5cGFjc3FtOWJ2a2k3Um5GWGdqMFlDMnY1WGE5WFA0TXZ1TUFfQlRwQUpvWHBYZzVqR3BLT2dnV2RYRHZzczh5UkhDQVc3dEg0bko5VEwxTmZhRloteGhkbHVxbWpqQnNsUHRsZkZ2c09yMWItZU96SFoxXzBfZmtva1Z1cG9CQkptUjdKSjBSNUJwaG1mUVdsMjhQQzc3QlZCejVtbXVPZkhWT3ZYZ0FxcVE3SUNPMkZ5MGFTSmM?oc=5",
@@ -769,13 +780,6 @@
         "source": "El Intra",
         "date": "Tue, 03 Nov 2026 20:38:27 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tras la crisis de Saeta, Nación aumenta los subsidios al AMBA y Sáenz salió al cruce",
-        "link": "https://www.eltribuno.com/salta/2026-11-3-15-20-0-tras-la-crisis-de-saeta-nacion-aumenta-los-subsidios-al-amba-y-saenz-salio-al-cruce",
-        "source": "El Tribuno - Salta",
-        "date": "Tue, 03 Nov 2026 18:20:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },

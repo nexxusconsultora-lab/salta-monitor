@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-07T23:55:30.566757+00:00",
+  "generated_at": "2026-11-08T00:29:47.264847+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 457,
+      "positivo": 116,
+      "negativo": 79,
+      "neutral": 262,
+      "score_sum": 153
+    },
     "dip-jose-miguel-gauffin": {
       "total": 37,
       "positivo": 1,
@@ -14,13 +21,6 @@
       "negativo": 5,
       "neutral": 35,
       "score_sum": -4
-    },
-    "gustavo-saenz": {
-      "total": 456,
-      "positivo": 116,
-      "negativo": 79,
-      "neutral": 261,
-      "score_sum": 153
     },
     "eje-cristina-fiore": {
       "total": 61,
@@ -934,6 +934,12 @@
     }
   },
   "by_day": {
+    "2019-10-03": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-06-08": {
       "dip-jose-miguel-gauffin": {
         "total": 1,
@@ -18362,19 +18368,19 @@
     },
     {
       "term": "sáenz",
-      "count": 13
+      "count": 14
     },
     {
       "term": "laura",
       "count": 9
     },
     {
-      "term": "cartuccia",
+      "term": "gustavo",
       "count": 8
     },
     {
-      "term": "gustavo",
-      "count": 7
+      "term": "cartuccia",
+      "count": 8
     },
     {
       "term": "pidió",
