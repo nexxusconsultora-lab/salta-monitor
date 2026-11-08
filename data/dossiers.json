@@ -14775,13 +14775,17 @@
     "id": "dip-rogelio-guaipo-segundo",
     "name": "Rogelio Guaipo Segundo",
     "role": "Diputado/a provincial por Rivadavia",
-    "total_mentions": 9,
+    "total_mentions": 10,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 7
+      "neutral": 8
     },
     "sentiment_by_day": {
+      "2026-11-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-04": {
         "total": 1,
         "score_sum": -1
@@ -14803,10 +14807,26 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "emergencia",
+        "count": 2
+      },
+      {
+        "term": "hídrica",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Salta, entre la falta y el exceso de agua: Renuevan la emergencia hídrica mientras exigen garantizarla en los eventos",
+        "link": "https://www.gentedesalta.com/politica/salta-falta-exceso-agua-renuevan-emergencia-hidrica-mientras-exigen-garantizarla-eventos-n13736",
+        "source": "Gente de Salta",
+        "date": "Sun, 08 Nov 2026 12:37:00 -0300",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emergencia Hídrica: qué dijeron los diputados del norte y la dura crítica de Arce",
         "link": "https://www.eltribuno.com/salta/2026-11-3-22-15-0-emergencia-hidrica-que-dijeron-los-diputados-del-norte-y-la-dura-critica-de-arce",
@@ -32735,13 +32755,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 50,
+    "total_mentions": 51,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 11,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "2024-05-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-07": {
         "total": 2,
         "score_sum": -3
@@ -32897,6 +32921,18 @@
     },
     "top_topics": [
       {
+        "term": "federico",
+        "count": 3
+      },
+      {
+        "term": "mangione",
+        "count": 3
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      },
+      {
         "term": "laura",
         "count": 2
       },
@@ -32910,14 +32946,6 @@
       },
       {
         "term": "fiore",
-        "count": 2
-      },
-      {
-        "term": "federico",
-        "count": 2
-      },
-      {
-        "term": "mangione",
         "count": 2
       }
     ],
@@ -32998,6 +33026,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Salud de Salta quiere llevar a la Justicia a Nación: Federico Mangione no descartó la idea - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTDFuWDBKbU9CNHBRTFhiMXhTbVVxYnJnQjM2Nk5yQ25nT2d4U21mc1VYOWlKVzRsZnJmNEVRRHdMVVY4bzZjN2xybmI5bzJUbWdjVmhRX0dFUHllS0c4azM2aDRYVHMxdDZMM24ydXg1LW4zaEJQU0NabGdGQnNlM05BMS1oaFZUWHNFNEZEaUZTZVdRaWNkUUlERmgxNmo4RDZ2ZVBnNVpPb212MTZ1MDFDd3hkWW55Z1R6SmxXOEZ4QQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 04 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Laura Cartuccia pidió la cabeza de Cristina Fiore y de Federico Mangione - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU0lkUEJrVU9DU2Y1VE9GSFRVMmlkdk1idERXN0lBUlNZLVJFb040TFdIYnNqU2VwSC1tVF9OQW5SaHA2R19HeXNvYjVQS2hfY2VUWXRCZlowQmVGVzBoQVg2MjFsU2JWT2RWOGpJeTRoM0lQTGN5THVyZnNzdWg0cnI0RDRscndaQTdXaXpoUnlVaUJpN2dESzVmYUlwTjNhNzRpenpLanhkN0otV3BfQTlfTUxEZw?oc=5",
@@ -33199,13 +33234,6 @@
         "link": "https://informatesalta.com.ar/salud/casos-de-muerte-subita-en-salta--mangione-llamo-a--estar-conscientes--de-los-riesgos_a6acf962fa75ded0dcfd9ab18",
         "source": "Informate Salta",
         "date": "Wed, 14 Oct 2026 18:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Federico Mangione: “Tengo que decidir entre comprar medicamentos o arreglar el techo” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTk92MWxKaGNnbnlNSkZDUk9nX05QWGV0SURNaVlYSWxhZnZnYnpTck9mWjNLbnZ5ZHZpd2xON01hRkhJa1N6V2FRSWpQWFNfdXFZSll6NnMwZVJtTEx1V0lTZ3lOZk0xaHM5bHJwUHVSQ1RFcE9VSnR5T29VNG9zMnUwYnFXeWR6VDFOUnJqSml2UVVhZ0FrVHlOYTdybHFfNzZ0cUtzTXlGa2hIaDJmUlVyZVdYX2JG?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 12 Sep 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -34225,13 +34253,17 @@
     "id": "eje-juan-vilchez",
     "name": "Juan Ignacio Vilchez",
     "role": "Secretario de Seguridad",
-    "total_mentions": 13,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 2,
-      "neutral": 8
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2026-11-08": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-11-03": {
         "total": 1,
         "score_sum": -5
@@ -34273,10 +34305,37 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "operativo",
+        "count": 2
+      },
+      {
+        "term": "seguridad",
+        "count": 2
+      },
+      {
+        "term": "personas",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Operativo de seguridad en Cerrillos: identificaron a 102 personas y controlaron 110 vehículos",
+        "link": "https://informatesalta.com.ar/policiales/operativo-de-seguridad-en-cerrillos--identificaron-a-102-personas-y-controlaron-110-vehiculos_a6af0c0b2696ebfa450be4a46",
+        "source": "Informate Salta",
+        "date": "Sun, 08 Nov 2026 19:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Operativo en el Martearena: 300 policías, más de 1.400 personas y 15 demorados",
+        "link": "https://informatesalta.com.ar/policiales/operativo-en-el-martearena--300-policias--mas-de-1-400-personas-y-15-demorados_a6af0c459696ebfa450be6c6b",
+        "source": "Informate Salta",
+        "date": "Sun, 08 Nov 2026 20:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La policía dio su versión por la muerte de “Gogo” Ramos en B° 6 de septiembre",
         "link": "https://informatesalta.com.ar/policiales/la-policia-dio-su-version-por-la-muerte-de--gogo--ramos-en-b--6-de-septiembre_a6ae9eb80bcf08930c412b802",
