@@ -1,7 +1,8 @@
 /* ===== NEWAR · Elecciones (Parte 1) =====
-   Pestaña «Elecciones»: SOLO aparece cuando hay una elección en curso (por defecto, desde 60 días antes de la fecha
-   hasta 7 días después). Tiene tres bloques: Candidatos (desde que se habilita la elección), Resultados (el día de la
-   votación y después) y Fechas y fuentes.
+   Pestaña «Elecciones», siempre visible, con tres subsecciones que se completan solas según la época:
+   Próximas (calendario y cuenta regresiva), Candidatos (se habilitan por defecto 60 días antes de la elección) y
+   Resultados (el día de la votación y hasta 7 días después) y Noticias (titulares y boletines oficiales sobre elecciones,
+   separados por Salta y Argentina, que se renuevan solos). Cada elección tiene además su página de detalle.
    Datos: data/elecciones.json (calendario, candidatos con fuente, dónde está el conteo) y, para los resultados,
    el archivo que indica 'resultados_url' (lo llena el recolector de la Parte 2). Con #/elecciones/demo se ve una
    elección de EJEMPLO inventada (data/elecciones_demo.json).
@@ -12,7 +13,7 @@
 (()=>{
 if(typeof V==='undefined'||typeof TABS==='undefined')return;
 const DIA=864e5,ARG=3*36e5,CADA=30000,ACT=['candidatos','jornada','post'];
-const E={cfg:null,err:'',res:{},resErr:{},hist:{},ult:{},timer:0,tick:0};
+const E={cfg:null,err:'',res:{},resErr:{},hist:{},ult:{},timer:0,tick:0,not:null,notErr:'',timerN:0,filtro:'todo'};
 const hoyAR=()=>new Date(Date.now()-ARG).toISOString().slice(0,10); /* Argentina es UTC-3 todo el año */
 const ms=s=>Date.parse(s+'T00:00:00Z');
 const suma=(s,n)=>new Date(ms(s)+n*DIA).toISOString().slice(0,10);
@@ -48,6 +49,10 @@ const CSS=`
 .el-bar{height:.8rem;background:var(--line);border-radius:6px;overflow:hidden;margin:.2rem 0 .5rem}.el-bar i{display:block;height:100%;background:var(--indigo)}.el-bar i.l{background:var(--clay)}
 .el-row{display:flex;justify-content:space-between;gap:.6rem;font-variant-numeric:tabular-nums}.el-row span:first-child{min-width:0;overflow-wrap:anywhere}
 .el-fr{font-size:.86rem;font-weight:600;margin:.3rem 0}.el-fr.ok{color:var(--pos)}.el-fr.mid{color:var(--clay)}.el-fr.bad{color:var(--negtx)}
+.el-sub{display:flex;gap:.4rem;flex-wrap:wrap;margin:.4rem 0 .9rem}.el-sub a{padding:.3rem .85rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);font-size:.9rem}.el-sub a.on{background:var(--clay);color:var(--onclay);border-color:var(--clay);font-weight:700}
+.el-cuenta{font-size:1.25rem;font-weight:800;margin:.1rem 0}.el-claves{margin:.4rem 0;padding-left:1.1rem;font-size:.88rem}
+.el-fil{padding:.3rem .8rem;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink);font:inherit;font-size:.88rem;cursor:pointer;margin:0 .35rem .35rem 0}.el-fil.on{background:var(--clay);color:var(--onclay);border-color:var(--clay);font-weight:700}
+.el-item{border-bottom:1px solid var(--line);padding:.5rem 0}.el-item a{font-weight:600}.el-item .meta{margin:.15rem 0 0;font-size:.8rem;color:var(--soft)}
 .el-prog{height:1rem;background:var(--line);border-radius:6px;overflow:hidden;margin:.3rem 0}.el-prog i{display:block;height:100%;background:var(--pos)}
 .el-demo{background:var(--clay);color:var(--onclay);padding:.5rem .8rem;border-radius:8px;font-weight:700;margin:.5rem 0}
 .el-q{width:100%;max-width:24rem;padding:.45rem .6rem;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;margin:.3rem 0 .6rem}
@@ -85,11 +90,89 @@ function tarjeta(x,link){
  <p class="meta"><span class="el-st${t[1]?' on':''}">${esc(t[0])}</span>${esc(e.ambito||'')}${e.distrito?' · '+esc(e.distrito):''} · ${esc(f)}${extra}</p>
  ${e.nota_fecha?`<p class="note">${esc(e.nota_fecha)}</p>`:''}</div>`}
 
-function portada(lista){
- const act=lista.filter(x=>ACT.includes(x.st)),otras=lista.filter(x=>!ACT.includes(x.st));
- return`<p class="lede">Candidatos y resultados oficiales de las elecciones de la Argentina y de Salta. Esta sección se completa sola: los candidatos se habilitan antes de cada elección y los resultados, el día de la votación.</p>`
- +(act.length?`<h3 class="sh">En curso</h3>`+act.map(x=>tarjeta(x,true)).join(''):`<p class="empty">Hoy no hay ninguna elección en curso.</p>`)
- +(otras.length?`<h3 class="sh">Calendario</h3>`+otras.map(x=>tarjeta(x,false)).join(''):'')}
+function cuenta(e,st){
+ if(st==='jornada')return'Hoy se vota';
+ if(!fechaOk(e.fecha))return'Fecha sin confirmar';
+ const n=Math.round((ms(e.fecha)-ms(hoyAR()))/DIA);
+ return n>1?'Faltan '+num(n)+' días':n===1?'Es mañana':n===0?'Es hoy':'Fue hace '+num(-n)+' días'}
+
+function claves(e){
+ const f=fechaOk(e.fecha),d=f?(fechaOk(e.candidatos_desde)?e.candidatos_desde:suma(e.fecha,-60)):null;
+ const rh=e.no_publicar_antes&&!isNaN(Date.parse(e.no_publicar_antes))?hora(Date.parse(e.no_publicar_antes)):'21:00';
+ return`<ul class="el-claves"><li><b>Elección:</b> ${esc(f?dia(e.fecha):(e.fecha_estimada||'fecha sin definir'))}</li>${Array.isArray(e.cargos)&&e.cargos.length?'<li><b>Qué se vota:</b> '+e.cargos.map(esc).join('; ')+'</li>':''}<li><b>Candidatos visibles desde:</b> ${d?esc(dia(d)):'cuando se confirme la fecha'}</li><li><b>Resultados en vivo:</b> ${f?'el día de la elección, desde las '+rh+' (hora de Argentina)':'el día de la elección'}</li></ul>`}
+
+function tarjetaPro(x){
+ const{e,st}=x,t=ETQ[st]||['',0];
+ return`<div class="el-card"><h4><a href="#/elecciones/${encodeURIComponent(e.id)}">${esc(e.nombre)}</a></h4><p class="el-cuenta">${esc(cuenta(e,st))}</p><p class="meta"><span class="el-st${t[1]?' on':''}">${esc(t[0])}</span>${esc(e.ambito||'')}${e.distrito?' · '+esc(e.distrito):''}</p>${claves(e)}${e.nota_fecha?`<p class="note">${esc(e.nota_fecha)}</p>`:''}${e.cargos_nota?`<p class="note">${esc(e.cargos_nota)}</p>`:''}</div>`}
+
+const SUBS=[['proximas','Próximas'],['candidatos','Candidatos'],['resultados','Resultados'],['noticias','Noticias']];
+function pastillas(sel,demo){
+ return`<nav class="el-sub" aria-label="Secciones de Elecciones">`+SUBS.map(([k,t])=>`<a href="#/elecciones${k==='proximas'?'':'/'+k}"${sel===k?' class="on" aria-current="page"':''}>${t}</a>`).join('')+(demo?`<a href="#/elecciones/demo" class="on" aria-current="page">Ejemplo</a>`:'')+`</nav>`}
+
+const orden=lista=>[...lista].sort((a,b)=>{const ra=ACT.includes(a.st)?0:1,rb=ACT.includes(b.st)?0:1;if(ra!==rb)return ra-rb;const fa=fechaOk(a.e.fecha)?a.e.fecha:'9999',fb=fechaOk(b.e.fecha)?b.e.fecha:'9999';return fa<fb?-1:fa>fb?1:0});
+const vigentes=lista=>orden(lista).filter(x=>x.st!=='terminada');
+
+function hitosHTML(hitos){
+ const hoy=hoyAR();
+ return(Array.isArray(hitos)?hitos:[]).filter(h=>h&&h.titulo&&(!fechaOk(h.desde)||hoy>=h.desde)&&(!fechaOk(h.hasta)||hoy<=h.hasta)).map(h=>{
+  const n=fechaOk(h.hasta)?Math.round((ms(h.hasta)-ms(hoy))/DIA):null;
+  const fs=(h.fuentes||[]).filter(f=>f&&urlOk(f.url)).map(f=>enlace(f.url,f.titulo||f.url)).join(' · ');
+  return`<div class="el-card" role="status" style="border-color:var(--clay)"><h4 style="margin:0">${esc(h.titulo)}</h4>${n!=null?`<p class="el-cuenta">${n>1?'Vigente hasta el '+esc(dia(h.hasta))+' (faltan '+num(n)+' días)':n===1?'Último día mañana: '+esc(dia(h.hasta)):'Último día: hoy'}</p>`:''}<p style="margin:.2rem 0">${esc(h.detalle||'')}</p>${urlOk(h.url)?`<p style="margin:.3rem 0"><a href="${esc(safe(h.url))}" target="_blank" rel="noopener noreferrer"><b>${esc(h.enlace_texto||'Ver más')}</b></a></p>`:''}${fs?`<p class="note">Fuentes: ${fs}</p>`:''}</div>`}).join('')}
+
+function proximasHTML(lista,hitos){
+ const v=vigentes(lista),fin=lista.filter(x=>x.st==='terminada'),act=v.filter(x=>ACT.includes(x.st));
+ return convBanner()+hitosHTML(hitos)+`<p class="lede">Las próximas elecciones de la Argentina y de Salta: cuánto falta, cuándo se habilitan los candidatos y cuándo se pueden seguir los resultados en vivo. Se completa sola a medida que se acercan las fechas.</p>`
+ +(act.length?`<p class="note"><b>Hay una elección en curso:</b> mirá <a href="#/elecciones/${act.some(x=>x.st==='candidatos')?'candidatos':'resultados'}">${act.some(x=>x.st==='candidatos')?'los candidatos':'los resultados'}</a>.</p>`:'')
+ +(v.length?v.map(tarjetaPro).join(''):'<p class="empty">No hay elecciones cargadas.</p>')
+ +(fin.length?`<h3 class="sh">Finalizadas</h3>`+fin.map(tarjetaPro).join(''):'')}
+
+function candidatosHTML(lista){
+ const v=vigentes(lista);
+ return`<p class="lede">Candidatos, partidos y detalles de cada elección. Se muestran desde que se acerca la votación y siempre con su fuente: un dato sin fuente aparece marcado como «no confirmado».</p>`
+ +v.map((x,k)=>{const{e,st}=x;
+  if(ACT.includes(st))return`<h3 class="sh">${esc(e.nombre)}</h3>`+candBloque(e,k);
+  const d=fechaOk(e.fecha)?(fechaOk(e.candidatos_desde)?e.candidatos_desde:suma(e.fecha,-60)):null;
+  return`<h3 class="sh">${esc(e.nombre)}</h3><div class="el-card"><p style="margin:0"><b>Todavía no se habilitó.</b> ${d?'Los candidatos se muestran desde el '+esc(dia(d))+' ('+(cuenta(e,st).toLowerCase())+' para la elección).':'Se habilita cuando se confirme la fecha de la elección.'}</p><p class="note">Se cargan a medida que la Justicia Electoral oficializa las listas.</p></div>`}).join('')}
+
+function resultadosHTML(lista){
+ const v=vigentes(lista),act=v.filter(x=>x.st==='jornada'||x.st==='post');
+ let h=`<p class="lede">Resultados oficiales en vivo el día de la elección y en los días siguientes. Los provisorios no tienen valor legal.</p>`;
+ if(act.length===1)h+=`<h3 class="sh">${esc(act[0].e.nombre)}</h3><div id="elres" aria-live="polite"><p class="empty" role="status">Cargando resultados…</p></div>`+fuentesRes(act[0].e);
+ else if(act.length>1)h+=`<p class="note">Hay varias elecciones con resultados. Elegí una:</p>`+act.map(x=>`<div class="el-card"><h4><a href="#/elecciones/${encodeURIComponent(x.e.id)}">${esc(x.e.nombre)}</a></h4></div>`).join('');
+ else h+=`<p class="empty">Hoy no hay ninguna elección con conteo en curso.</p>`+v.map(x=>`<div class="el-card"><h4>${esc(x.e.nombre)}</h4><p style="margin:0">${esc(cuenta(x.e,x.st))}. Los resultados aparecen acá el día de la elección${fechaOk(x.e.fecha)?', desde las '+(x.e.no_publicar_antes&&!isNaN(Date.parse(x.e.no_publicar_antes))?hora(Date.parse(x.e.no_publicar_antes)):'21:00')+' (hora de Argentina)':''}.</p>${fuentesRes(x.e)}</div>`).join('');
+ return h}
+const fuentesRes=e=>e.fuente_resultados&&urlOk(e.fuente_resultados.url)?`<p class="note">Fuente oficial de los resultados: ${enlace(e.fuente_resultados.url,e.fuente_resultados.nombre||e.fuente_resultados.url)}.</p>`:'';
+
+async function traerNot(){
+ try{const r=await fetch('data/elecciones_noticias.json?t='+Math.floor(Date.now()/3e4),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);
+  const j=await r.json();if(!j||!Array.isArray(j.noticias))throw new Error('formato inesperado');E.not=j;E.notErr=''}
+ catch(x){E.notErr=String(x&&x.message||x)}}
+
+const haceL=x=>x>=172800?Math.round(x/86400)+' días':hace(x);
+
+function convBanner(){
+ const c=((E.not&&E.not.convocatorias)||[]).slice(0,3);if(!c.length)return'';
+ return`<div class="el-card" role="status" style="border-color:var(--clay)"><p style="margin:0"><b>Posible convocatoria a elecciones en un boletín oficial.</b> Confirmala en el documento y cargá la fecha en <code>data/elecciones.json</code>:</p>`
+  +c.map(x=>`<p style="margin:.3rem 0">${enlace(x.url,x.titulo)}<br><span class="note">${esc(x.jurisdiccion||'')} · publicado el ${esc(x.fecha)}${fechaOk(x.fecha_detectada)?' · fecha de votación que figura en el texto: <b>'+esc(dia(x.fecha_detectada))+'</b>':''}</span></p>`).join('')+`</div>`}
+
+function pintarNot(){
+ const el=document.getElementById('elnot');if(!el)return;
+ const d=E.not;
+ if(!d){el.innerHTML=E.notErr?`<p class="empty">Todavía no hay noticias electorales cargadas (<code>${esc(E.notErr)}</code>). Se generan solas cada ~10 minutos una vez subidos los archivos.</p>`:'<p class="empty" role="status">Cargando…</p>';return}
+ const f=E.filtro,ok=x=>f==='todo'||x.nivel===f,ns=(d.noticias||[]).filter(ok),os=(d.oficiales||[]).filter(ok);
+ const cnt=k=>(d.noticias||[]).filter(x=>k==='todo'||x.nivel===k).length+(d.oficiales||[]).filter(x=>k==='todo'||x.nivel===k).length;
+ const tag=x=>x.nivel==='salta'?'<span class="el-st on">Salta</span>':'<span class="el-st">Argentina</span>';
+ const it=(x,of)=>`<div class="el-item"><a href="${esc(safe(x.url))}" target="_blank" rel="noopener noreferrer">${esc(x.titulo)}</a><p class="meta">${tag(x)}${esc(x.fuente||'')}${of&&x.jurisdiccion?' · '+esc(x.jurisdiccion):''} · ${of?(fechaOk(x.fecha)?esc(dia(x.fecha)):esc(x.fecha||'')):esc(haceL(Math.max(0,(Date.now()-Date.parse(x.fecha))/1000)))}${x.convocatoria?' · <b>posible convocatoria</b>':''}</p></div>`;
+ const gen=Date.parse(d.generado);
+ el.innerHTML=convBanner()
+  +`<div role="group" aria-label="Filtrar por nivel">`+[['todo','Todo'],['salta','Salta'],['argentina','Argentina']].map(([k,t])=>`<button type="button" class="el-fil${f===k?' on':''}" data-f="${k}" aria-pressed="${f===k}">${t} (${cnt(k)})</button>`).join('')+`</div>`
+  +(os.length?`<h3 class="sh">Publicaciones oficiales</h3>`+os.slice(0,12).map(x=>it(x,1)).join(''):'')
+  +`<h3 class="sh">Titulares</h3>`+(ns.length?ns.slice(0,40).map(x=>it(x,0)).join(''):`<p class="empty">No hay titulares electorales${f==='todo'?'':' de este nivel'} en los últimos días.</p>`)
+  +`<p class="note">${isNaN(gen)?'':'Lista actualizada hace '+esc(haceL(Math.max(0,(Date.now()-gen)/1000)))+' (se renueva sola cada ~10 minutos). '}${esc(d.criterio||'')}</p>`;
+ el.querySelectorAll('.el-fil').forEach(b=>{b.onclick=()=>{E.filtro=b.getAttribute('data-f');pintarNot()}})}
+
+function noticiasHTML(){
+ return`<p class="lede">Lo último que publicaron los medios y los boletines oficiales sobre elecciones, separado por Salta y por Argentina. Se arma solo a partir de lo que el proyecto ya recolecta.</p><div id="elnot" aria-live="polite"></div>`}
 
 function candItem(c){
  const per=(typeof byId!=='undefined'&&c.politico_id&&byId[c.politico_id])||null;
@@ -104,10 +187,10 @@ function listaCand(cs,q){
  const g=new Map();f.forEach(c=>{const kk=(c.cargo||'Sin cargo indicado')+(c.distrito?' · '+c.distrito:'');if(!g.has(kk))g.set(kk,[]);g.get(kk).push(c)});
  return[...g].map(([t,l])=>`<h4 style="margin:1rem 0 .4rem">${esc(t)} <span class="note">(${l.length})</span></h4><div class="el-grid">${l.map(candItem).join('')}</div>`).join('')}
 
-function candBloque(e){
+function candBloque(e,k=''){
  const cs=Array.isArray(e.candidatos)?e.candidatos:[];
  if(!cs.length)return`<h3 class="sh">Candidatos</h3><p class="empty">Todavía no hay candidatos cargados para esta elección. Se cargan en <code>data/elecciones.json</code> a medida que la Justicia Electoral oficializa las listas. Un candidato sin fuente se muestra como «no confirmado».</p>`;
- return`<h3 class="sh">Candidatos <span class="meta">(${cs.length})</span></h3><input type="search" id="elq" class="el-q" placeholder="Buscar por nombre, partido o cargo" aria-label="Buscar candidatos"><div id="elcl">${listaCand(cs,'')}</div>`}
+ return`<h3 class="sh">Candidatos <span class="meta">(${cs.length})</span></h3><input type="search" id="elq${k}" class="el-q" placeholder="Buscar por nombre, partido o cargo" aria-label="Buscar candidatos"><div id="elcl${k}">${listaCand(cs,'')}</div>`}
 
 function fuentesBloque(e){
  const fs=(e.fuentes||[]).filter(f=>f&&urlOk(f.url)).map(f=>`<li>${enlace(f.url,f.titulo||f.url)}</li>`).join('');
@@ -205,7 +288,7 @@ async function arrancarRes(e,st,demo){
 
 async function pintar(id){
  const box=document.getElementById('elapp');if(!box)return;
- clearInterval(E.timer);clearInterval(E.tick);
+ clearInterval(E.timer);clearInterval(E.tick);clearInterval(E.timerN);
  const demo=id==='demo';let c;
  if(demo){const r=await cargar(true);c=r.cfg;if(!c){box.innerHTML=`<p class="warn" role="alert">No se pudo leer <code>data/elecciones_demo.json</code> (${esc(r.err)}). ¿Lo subiste a la carpeta data?</p>`;return}}
  else{if(!E.cfg){const r=await cargar(false);E.cfg=r.cfg;E.err=r.err}c=E.cfg;
@@ -213,27 +296,33 @@ async function pintar(id){
  if(!document.getElementById('elapp'))return;
  document.title='NEWAR — Elecciones';
  const hoy=hoyAR(),lista=c.elecciones.filter(e=>e&&e.id).map(e=>({e,st:estado(e,hoy)}));
- const sel=demo?lista[0]:(id?lista.find(x=>x.e.id===id):null);
- if(sel){box.innerHTML=detalle(sel.e,sel.st,demo);
+ const sub=['','proximas','candidatos','resultados','noticias'].includes(id)?(id||'proximas'):null;
+ const sel=demo?lista[0]:(sub?null:lista.find(x=>x.e.id===id));
+ const cablear=(l)=>l.forEach((x,k)=>{const q=document.getElementById('elq'+k);if(q)q.oninput=()=>{document.getElementById('elcl'+k).innerHTML=listaCand(x.e.candidatos,q.value)}});
+ if(sel){box.innerHTML=pastillas('',demo)+detalle(sel.e,sel.st,demo);
   const q=document.getElementById('elq');if(q)q.oninput=()=>{document.getElementById('elcl').innerHTML=listaCand(sel.e.candidatos,q.value)};
   if(sel.st==='jornada'||sel.st==='post')arrancarRes(sel.e,sel.st,demo)}
- else box.innerHTML=(id?`<p class="warn" role="status">No existe una elección con el código «${esc(id)}».</p>`:'')+portada(lista)}
+ else if(sub){
+  const v=vigentes(lista);
+  if(sub==='proximas')await traerNot();
+  box.innerHTML=pastillas(sub)+(sub==='proximas'?proximasHTML(lista,c.hitos):sub==='candidatos'?candidatosHTML(lista):sub==='noticias'?noticiasHTML():resultadosHTML(lista));
+  if(sub==='noticias'){await traerNot();pintarNot();clearInterval(E.timerN);E.timerN=setInterval(async()=>{if(!document.getElementById('elnot')){clearInterval(E.timerN);return}await traerNot();pintarNot()},60000)}
+  if(sub==='candidatos')cablear(v);
+  if(sub==='resultados'){const a=v.filter(x=>x.st==='jornada'||x.st==='post');if(a.length===1)arrancarRes(a[0].e,a[0].st,false)}}
+ else box.innerHTML=pastillas('proximas')+`<p class="warn" role="status">No existe una elección con el código «${esc(id)}».</p>`+proximasHTML(lista,c.hitos)}
 
 V.elecciones=id=>{setTimeout(()=>pintar(id||''),0);return'<h2 class="sec">Elecciones</h2><div id="elapp"><p class="empty" role="status" aria-busy="true">Cargando…</p></div>'};
 NEEDS.elecciones=['pol'];
 
-/* La pestaña aparece sola solo si hay una elección en curso (o si data/elecciones.json tiene forzar_activa:true) */
+/* La pestaña «Elecciones» está siempre visible */
 function refrescarNav(){
  const t=document.getElementById('tabs');if(!t||!t.children.length||typeof navTabs!=='function')return;
  const k=(location.hash.replace(/^#\/?/,'')||'inicio').split('/')[0];
  t.innerHTML=navTabs(k==='persona'?'personas':k==='tema'?'temas':k==='palabra'?'palabras':k)}
-cargar(false).then(r=>{
- E.cfg=r.cfg;E.err=r.err;if(!r.cfg)return;
- const hoy=hoyAR();
- if(!(r.cfg.forzar_activa||r.cfg.elecciones.some(e=>e&&ACT.includes(estado(e,hoy)))))return;
- if(!TABS.some(t=>t[0]==='elecciones'))TABS.splice(Math.min(2,TABS.length),0,['elecciones','Elecciones']);
- try{if(!TGRP[0][1].includes('elecciones'))TGRP[0][1].push('elecciones')}catch(_){}
- refrescarNav()});
+if(!TABS.some(t=>t[0]==='elecciones'))TABS.splice(Math.min(2,TABS.length),0,['elecciones','Elecciones']);
+try{if(!TGRP[0][1].includes('elecciones'))TGRP[0][1].push('elecciones')}catch(_){}
+setTimeout(refrescarNav,0);
+cargar(false).then(r=>{E.cfg=r.cfg;E.err=r.err});
 
 window.NEWAR_ELECCIONES={estado,hoyAR};
 })();
