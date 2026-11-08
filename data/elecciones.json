@@ -1,5 +1,5 @@
 {
-  "_leeme": "Configuración de la pestaña «Elecciones» de NEWAR. La pestaña SOLO aparece cuando hay una elección en curso (desde 60 días antes de la fecha hasta 7 días después; se puede cambiar con candidatos_desde y dias_post). Para cada elección: 'fecha' en formato AAAA-MM-DD (dejala en null hasta que haya una convocatoria oficial). 'candidatos' empieza vacío: se carga a mano con fuente, nunca sin fuente. 'resultados_url' apunta al archivo con el conteo (lo llena el recolector de la Parte 2). 'no_publicar_antes' (opcional, hora con zona, ej. 2027-10-24T21:00:00-03:00): hasta ese momento la pantalla no muestra resultados; si no lo ponés, se usan las 21:00 de Argentina del día de la elección. 'forzar_estado' (opcional: candidatos, jornada o post) sirve para probar y hay que borrarlo después. 'forzar_activa': true muestra la pestaña aunque no haya elección en curso. Para elecciones nacionales, fuente_resultados.adaptador 'dine_api' lee la API oficial de la Dirección Nacional Electoral: 'anio', 'tipo_eleccion' (1 PASO, 2 Generales, 3 Segunda vuelta) y la lista 'categorias' (id de categoría, nombre para mostrar y, si hace falta, distritoId). Si la API pide token, se guarda como secreto DINE_TOKEN en GitHub.",
+  "_leeme": "Configuración de la pestaña «Elecciones» de NEWAR. La pestaña «Elecciones» está siempre visible y tiene tres subsecciones: Próximas (calendario), Candidatos (se habilita 60 días antes de la fecha) y Resultados (el día de la elección y hasta 7 días después). Los plazos se pueden cambiar con candidatos_desde y dias_post. Para cada elección: 'fecha' en formato AAAA-MM-DD (dejala en null hasta que haya una convocatoria oficial). 'candidatos' empieza vacío: se carga a mano con fuente, nunca sin fuente. 'resultados_url' apunta al archivo con el conteo (lo llena el recolector de la Parte 2). 'no_publicar_antes' (opcional, hora con zona, ej. 2027-10-24T21:00:00-03:00): hasta ese momento la pantalla no muestra resultados; si no lo ponés, se usan las 21:00 de Argentina del día de la elección. 'forzar_estado' (opcional: candidatos, jornada o post) sirve para probar y hay que borrarlo después. Para elecciones nacionales, fuente_resultados.adaptador 'dine_api' lee la API oficial de la Dirección Nacional Electoral: 'anio', 'tipo_eleccion' (1 PASO, 2 Generales, 3 Segunda vuelta) y la lista 'categorias' (id de categoría, nombre para mostrar y, si hace falta, distritoId). Si la API pide token, se guarda como secreto DINE_TOKEN en GitHub. 'hitos' (arriba de la lista de elecciones) son avisos con fecha de vencimiento: se muestran en Próximas mientras la fecha de hoy esté entre 'desde' y 'hasta', y se ocultan solos después. 'cargos' lista qué se vota en cada elección (con 'cargos_nota' si es una estimación).",
   "_ejemplo_de_candidato": {
     "id": "apellido-nombre",
     "nombre": "Nombre Apellido",
@@ -15,7 +15,6 @@
     "verificado_en": "AAAA-MM-DD"
   },
   "actualizado": "2026-11-04",
-  "forzar_activa": false,
   "elecciones": [
     {
       "id": "salta-provincial-2027",
@@ -24,13 +23,13 @@
       "distrito": "Salta",
       "fecha": null,
       "fecha_estimada": "Mayo de 2027 (se habló del 16 o del 23 de mayo; sin confirmar)",
-      "nota_fecha": "A noviembre de 2026 la fecha no está convocada oficialmente. Cuando se publique el decreto de convocatoria, escribí la fecha en 'fecha' con formato AAAA-MM-DD.",
+      "nota_fecha": "A noviembre de 2026 la fecha no está convocada oficialmente. En 2025 la elección fue el 11 de mayo, sin PASO y con Boleta Única Electrónica; el cronograma lo fijó el Tribunal Electoral de Salta y el decreto de convocatoria se publicó meses antes. Cuando salga el decreto de 2027, escribí la fecha en 'fecha' con formato AAAA-MM-DD.",
       "candidatos_desde": null,
       "dias_post": 7,
       "no_publicar_antes": null,
       "resultados_url": "data/elecciones_resultados.json",
       "fuente_resultados": {
-        "nombre": "Tribunal Electoral de Salta",
+        "nombre": "Tribunal Electoral de Salta (escrutinio definitivo; el conteo provisorio lo difunde el Gobierno provincial)",
         "url": "https://www.electoralsalta.gov.ar"
       },
       "fuentes": [
@@ -41,9 +40,28 @@
         {
           "titulo": "La Nueva (NA): Sáenz evalúa el 16 o el 23 de mayo",
           "url": "https://www.lanueva.com/nota/2026-8-1-8-35-0-elecciones-2027-al-menos-ocho-provincias-preven-desdoblar-sus-comicios"
+        },
+        {
+          "titulo": "Perfil: cómo y cuándo se difundieron los resultados provinciales de Salta en 2025",
+          "url": "https://www.perfil.com/noticias/politica/elecciones-en-salta-2025-cuando-se-conoceran-los-resultados.phtml"
+        },
+        {
+          "titulo": "La Nación: qué se votó en Salta el 11 de mayo de 2025",
+          "url": "https://www.lanacion.com.ar/politica/que-se-vota-en-las-elecciones-de-salta-2025-el-domingo-11-de-mayo-nid15042025/"
+        },
+        {
+          "titulo": "Noticias NQN: qué se votó en Salta en 2023 (11 senadores, 30 diputados, 60 intendentes)",
+          "url": "https://www.noticiasnqn.com.ar/noticias/2023/05/14/276730-salta-la-pampa-y-tierra-del-fuego-eligen-este-domingo-a-su-nuevo-gobernador"
         }
       ],
-      "candidatos": []
+      "candidatos": [],
+      "cargos": [
+        "Gobernador y vicegobernador (el mandato 2023-2027 vence en 2027)",
+        "Senadores provinciales (uno por departamento)",
+        "30 diputados provinciales",
+        "Intendentes y concejales"
+      ],
+      "cargos_nota": "Estimación a partir de cómo se renovó la Legislatura en 2023 (11 senadores y 30 diputados) y en 2025 (12 senadores y 30 diputados, cada dos años). Se confirma con el decreto de convocatoria."
     },
     {
       "id": "nacional-paso-2027",
@@ -81,7 +99,11 @@
           "url": "https://www.diariopopular.com.ar/politica/elecciones-2027-el-calendario-completo-las-fechas-las-paso-y-las-generales-n919077"
         }
       ],
-      "candidatos": []
+      "candidatos": [],
+      "cargos": [
+        "Primarias abiertas, simultáneas y obligatorias para definir las candidaturas nacionales"
+      ],
+      "cargos_nota": "El Gobierno impulsa eliminarlas pero, a noviembre de 2026, no reunió la mayoría que exige el Congreso: rige la ley vigente (Ley 26.571)."
     },
     {
       "id": "nacional-generales-2027",
@@ -119,7 +141,38 @@
           "url": "https://www.lanacion.com.ar/politica/elecciones-2027-cuando-se-vota-para-presidente-en-la-argentina-nid03082026/"
         }
       ],
-      "candidatos": []
+      "candidatos": [],
+      "cargos": [
+        "Presidente y vicepresidente (período 2027-2031)",
+        "Renovación de 130 bancas de la Cámara de Diputados",
+        "Renovación de 24 escaños del Senado"
+      ],
+      "cargos_nota": "Se gana en primera vuelta con más del 45% de los votos afirmativos válidos, o con al menos 40% y más de 10 puntos sobre el segundo; si no, hay balotaje (en noviembre de 2027). También votan 21 provincias, entre ellas Salta, y la Ciudad de Buenos Aires, según su propio calendario."
+    }
+  ],
+  "hitos": [
+    {
+      "id": "padron-provisorio-2026",
+      "titulo": "Consulta extraordinaria del padrón electoral provisorio",
+      "detalle": "La Cámara Nacional Electoral habilitó el 2 de noviembre de 2026 la consulta y los reclamos por errores u omisiones. Es una consulta extraordinaria (Acordada 154/2026): el Código Electoral prevé el padrón provisorio recién unos 180 días antes de la elección. Los jóvenes que cumplan 16 años hasta el 24 de octubre de 2027 deben figurar.",
+      "desde": "2026-11-02",
+      "hasta": "2026-11-30",
+      "url": "https://www.padron.gob.ar",
+      "enlace_texto": "Consultar el padrón",
+      "fuentes": [
+        {
+          "titulo": "Diario Panorama: cómo consultar el padrón provisorio y qué datos se pueden corregir",
+          "url": "https://diariopanorama.com/noticia/571630/elecciones-2027-como-consultar-padron-provisorio-datos-se-pueden-corregir"
+        },
+        {
+          "titulo": "Ámbito: padrón provisorio para las elecciones 2027",
+          "url": "https://www.ambito.com/politica/padron-provisorio-las-elecciones-2027-como-consultarlo-y-cuando-hay-tiempo-chequear-tus-datos-n6340623"
+        },
+        {
+          "titulo": "El Eco: publicaron el padrón electoral provisorio",
+          "url": "https://www.eleco.com.ar/nacionales/publicaron-el-padron-provisorio-para-las-elecciones-2027-como-consultar-y-realizar-reclamos"
+        }
+      ]
     }
   ]
 }
