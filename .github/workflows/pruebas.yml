@@ -42,3 +42,18 @@ jobs:
 
       - name: Pruebas del bot de Telegram (usa el Node que ya trae GitHub)
         run: node --version && node --test tests/test_bot.test.mjs
+
+      - name: Pruebas de las elecciones (recolector de resultados y noticias electorales)
+        if: always()
+        run: |
+          fallo=0
+          for nombre in test_elecciones_recolector.py test_elecciones_noticias.py; do
+            f=$(ls tests/$nombre scripts/$nombre 2>/dev/null | head -n 1)
+            if [ -z "$f" ]; then
+              echo "No se encuentra $nombre ni en tests/ ni en scripts/."
+              fallo=1
+              continue
+            fi
+            python "$f" -v || fallo=1
+          done
+          exit $fallo
