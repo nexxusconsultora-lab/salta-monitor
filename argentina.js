@@ -46,7 +46,7 @@ const CSS=`
 .ar-sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
 .ar-nav{position:absolute;top:.7rem;right:4.1rem;z-index:4;display:flex;gap:.3rem;flex-wrap:wrap;justify-content:flex-end;max-width:calc(100% - 5rem)}
 .ar-nav button,.ar-nav a{display:inline-flex;align-items:center;min-height:2.3rem;padding:0 .8rem;border-radius:999px;border:1px solid var(--glass-b,var(--line));background:var(--glass,var(--raised));color:var(--ink);font:600 .82rem/1 inherit;text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
-.ar-nav button[aria-pressed=true]{background:linear-gradient(135deg,var(--nx-acc2,#6366f1),var(--nx-acc,#38bdf8));color:#fff;border-color:transparent}
+.ar-nav button[aria-pressed=true]{background:var(--clay);color:var(--onclay,#fff);border-color:transparent}
 .ar-nav button:focus-visible,.ar-nav a:focus-visible,.ar-w .mz button:focus-visible{outline:2px solid var(--nx-acc,var(--clay));outline-offset:2px}
 .ar-hud small{display:block;font-size:.68rem;color:var(--soft);margin-top:.2rem}
 .ar-err{padding:.9rem 1.1rem;border:1px solid var(--line);border-left:4px solid var(--neg,#ac2f33);border-radius:12px;background:var(--raised);margin:.6rem 0}.ar-err p{margin:.3rem 0 .6rem;color:var(--soft);font-size:.86rem}.ar-err button{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:10px;padding:.4rem .9rem;cursor:pointer;font-weight:600}
@@ -59,6 +59,24 @@ const CSS=`
 @media(max-width:860px){.ar-w .mz button{width:2.75rem;height:2.75rem}.ar-nav button,.ar-nav a{min-height:2.75rem}.ar-nav{right:3.9rem}}
 .ar-grid.fs:not(.herr) .ar-tb,.ar-grid.fs .ar-leg{display:none}
 .ar-grid .ar-tb{z-index:3}
+.ar-grid{--r0:#FFF1BF;--r1:#FDCB6E;--r2:#F4862A;--r3:#C94E14;--r4:#8E300D}
+.ar-hud{position:relative;z-index:1;margin:0 0 .5rem;padding:.65rem .85rem;max-width:100%;background:var(--raised);border:1px solid var(--line);border-radius:12px;font-size:.78rem;line-height:1.3}
+.ar-hud b{display:block;font-size:.9rem}.ar-hud em{display:block;font-style:normal;color:var(--soft);font-size:.72rem;margin-bottom:.45rem}
+.ar-hud i{display:block;height:.6rem;border-radius:99px;border:1px solid var(--line);background:linear-gradient(90deg,var(--r0),var(--r1),var(--r2),var(--r3),var(--r4))}
+.ar-hud div{display:flex;justify-content:space-between;gap:.6rem;margin-top:.25rem;font-variant-numeric:tabular-nums;color:var(--soft)}
+@media(min-width:861px){.ar-hud{margin-right:14rem}}
+@media(max-width:860px){.ar-hud{padding-top:3.6rem;margin-right:3.9rem}}
+.ar-leg i{border-color:rgba(128,128,128,.5)}
+#arl text.tl{fill:#211D1A;stroke:rgba(255,255,255,.88)}#arl text.td{fill:#fff;stroke:rgba(0,0,0,.62)}#arl text.e{fill:var(--soft);stroke:var(--paper)}
+.ar-grid .ar-herrb{display:inline-block}.ar-herrb[aria-pressed=true]{background:var(--clay);color:var(--onclay,#fff)}
+.ar-grid:not(.fs):not(.herr) .ar-tb{display:none}
+.apg path{transition:fill .55s cubic-bezier(.4,0,.2,1),filter .25s,stroke .2s,stroke-width .2s}
+.apg:hover path{filter:brightness(1.14) drop-shadow(0 4px 9px rgba(0,0,0,.55))}
+.apg.on path{filter:drop-shadow(0 0 12px var(--glow,rgba(249,137,1,.55)))}
+.ag.anim .apg{animation:arIn .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0)*26ms);transform-box:fill-box;transform-origin:center}
+@keyframes arIn{from{opacity:0;transform:translateY(10px) scale(.95)}to{opacity:1;transform:none}}
+.ar-side{transition:box-shadow .3s}.ar-side.nx-swap{animation:arSide .35s ease both}@keyframes arSide{from{opacity:.4;transform:translateX(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.apg path,.ag.anim .apg,.ar-side.nx-swap{animation:none!important;transition:none!important}}
 `;
 if(!document.getElementById('ar-css')){const s=document.createElement('style');s.id='ar-css';s.textContent=CSS;document.head.appendChild(s)}
 
@@ -125,32 +143,38 @@ function labels(){
  const i=ind(),t=[];
  ROWS.forEach(r=>{if(r.sinGeo||!r.g.c)return;const[x,y]=r.g.c;
   if(r.k==='caba'){t.push(`<circle class="apin" data-ak="caba" cx="${x}" cy="${y}" r="5"/><text x="${x+8}" y="${y-8}" style="text-anchor:start">CABA</text>`);return}
-  t.push(`<text${MENOR.includes(r.k)?' class="m"':''} x="${x}" y="${y}">${esc(r.corto)}${AR.vals&&!AR.capa?`<tspan class="v" x="${x}" dy="1.15em">${esc(sg(i.f(r),i)+COMP(i.f(r),i.d))}</tspan>`:''}</text>`)});
+  const lc=(!AR.capa&&CLS[r.k]!=null)?(CLS[r.k]>=3?'td':'tl'):'',cl=[MENOR.includes(r.k)?'m':'',lc].filter(Boolean).join(' ');t.push(`<text${cl?` class="${cl}"`:''} x="${x}" y="${y}">${esc(r.corto)}${AR.vals&&!AR.capa?`<tspan class="v" x="${x}" dy="1.15em">${esc(sg(i.f(r),i)+COMP(i.f(r),i.d))}</tspan>`:''}</text>`)});
  (G.etiquetas||[]).forEach(e=>t.push(`<text class="e" x="${e.c[0]+(e.dx||0)}" y="${e.c[1]+(e.dy||0)}">${esc(e.t)}</text>`));
  return t.join('');
 }
 function guia(){const g=G.guia;if(!g)return '';return`<path class="agd" d="${g.arco60}"/><path class="agd" d="${g.lado_o}"/><path class="agd" d="${g.lado_e}"/>`}
 
-function apply(){
+let ARTW=0;
+function apply(anim){
  const sv=svgEl();if(!sv)return;const v=cur();
- sv.setAttribute('viewBox',v.map(n=>Math.round(n*10)/10).join(' '));
- const r=sv.getBoundingClientRect(),s=Math.min(r.width/v[2],r.height/v[3])||1,u=1/s;
- const L=sv.querySelector('#arl');if(L){L.style.fontSize=(11*u)+'px';L.style.strokeWidth=(3.4*u)+'px';L.classList.toggle('lo',G.viewBox[2]/v[2]<1.7)}
- sv.querySelectorAll('.apin').forEach(c=>c.setAttribute('r',(5*u).toFixed(2)));const zi=document.getElementById('ar-zi');if(zi)zi.textContent=zoomTxt();
+ const fin=vv=>{sv.setAttribute('viewBox',vv.map(n=>Math.round(n*10)/10).join(' '));
+  const r=sv.getBoundingClientRect(),s=Math.min(r.width/vv[2],r.height/vv[3])||1,u=1/s;
+  const L=sv.querySelector('#arl');if(L){L.style.fontSize=(11*u)+'px';L.style.strokeWidth=(3.4*u)+'px';L.classList.toggle('lo',G.viewBox[2]/vv[2]<1.7)}
+  sv.querySelectorAll('.apin').forEach(c=>c.setAttribute('r',(5*u).toFixed(2)));const zi=document.getElementById('ar-zi');if(zi)zi.textContent=zoomTxt()};
+ cancelAnimationFrame(ARTW);
+ const a=(sv.getAttribute('viewBox')||'').split(/\s+/).map(Number);
+ if(anim===true&&a.length===4&&a.every(isFinite)&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&Math.abs(a[2]-v[2])+Math.abs(a[0]-v[0])+Math.abs(a[1]-v[1])>0.5){
+  const t0=performance.now(),DUR=420;const st=()=>{const q=Math.min(1,(performance.now()-t0)/DUR),e=q<.5?4*q*q*q:1-Math.pow(-2*q+2,3)/2;fin(a.map((c,k)=>c+(v[k]-c)*e));if(q<1)ARTW=requestAnimationFrame(st)};ARTW=requestAnimationFrame(st);return}
+ fin(v);
 }
 window.argZoom=(f,cx,cy)=>{if(!G)return;const B=G.viewBox,v=cur().slice(),w=Math.min(B[2],Math.max(B[2]/25,v[2]*f)),h=w*B[3]/B[2];
  if(cx==null){cx=v[0]+v[2]/2;cy=v[1]+v[3]/2}
  const rx=(cx-v[0])/v[2],ry=(cy-v[1])/v[3];v[2]=w;v[3]=h;
  v[0]=Math.min(Math.max(B[0],cx-rx*w),B[0]+B[2]-w);v[1]=Math.min(Math.max(B[1],cy-ry*h),B[1]+B[3]-h);
- AR.vb=w>=B[2]-0.5?null:v;apply()};
-window.argReset=()=>{AR.vb=null;apply()};
+ AR.vb=w>=B[2]-0.5?null:v;apply(true)};
+window.argReset=()=>{AR.vb=null;apply(true)};
 window.argFS=forzar=>{const q=typeof forzar==='boolean'?forzar:!AR.fs;if(q===AR.fs)return;AR.fs=q;AR.sd=false;const g=document.querySelector('.ar-grid'),h=document.getElementById('arapp');
  if(g){g.classList.toggle('fs',AR.fs);g.classList.remove('sd')}marcarFS();inertar(AR.fs);
  try{if(AR.fs&&h&&h.requestFullscreen)h.requestFullscreen().catch(()=>{});else if(!AR.fs&&document.fullscreenElement)document.exitFullscreen()}catch(e){}
  if(AR.fs){const a=document.activeElement;AR.opener=a&&a!==document.body?a:null;setTimeout(()=>{const b=document.querySelector('.ar-grid.fs button.ar-only-fs:last-of-type')||document.querySelector('.ar-grid.fs button');if(b)b.focus()},50);anuncia('Mapa a pantalla completa. Escape para salir.')}
  else{const o=AR.opener;AR.opener=null;setTimeout(()=>{const t=(o&&document.contains(o))?o:document.querySelector('.ar-w .mz button[aria-label^="Modo mapa"]');if(t)t.focus()},50);anuncia('Saliste de la pantalla completa.')}
  setTimeout(apply,60)};
-window.argHerr=()=>{AR.herr=!AR.herr;const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('herr',AR.herr);const b=document.querySelector('.ar-ctl button[onclick="argHerr()"]');if(b)b.setAttribute('aria-pressed',String(AR.herr));setTimeout(apply,60)};
+window.argHerr=()=>{AR.herr=!AR.herr;if(!AR.herr&&AR.tool!=='mover'){AR.tool='mover';paint();return}const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('herr',AR.herr);const b=document.querySelector('.ar-ctl button[onclick="argHerr()"]');if(b)b.setAttribute('aria-pressed',String(AR.herr));setTimeout(apply,60)};
 window.argPanel=()=>{AR.sd=!AR.sd;const g=document.querySelector('.ar-grid');if(g)g.classList.toggle('sd',AR.sd);marcarFS()};
 const nrm=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 window.argQ=v=>{AR.q=v;const q=nrm(v.trim()),keep=new Set();let n=0;document.querySelectorAll('.ar-grid .rr').forEach(b=>{const ok=!q||nrm(b.textContent).includes(q);b.hidden=!ok;if(ok){keep.add(b.dataset.ak);n++}});
@@ -414,6 +438,10 @@ const firmaFoco=()=>{const a=document.activeElement,w=document.getElementById('a
  if(a.matches('g.apg[data-ak]'))return'svg.ag g.apg[data-ak="'+a.dataset.ak+'"]';if(a.matches('.rr[data-ak]'))return'.rr[data-ak="'+a.dataset.ak+'"]';if(a.id)return'#'+a.id;
  const l=a.getAttribute('aria-label');if(l&&a.tagName==='BUTTON')return'button[aria-label="'+l.replace(/"/g,'\\"')+'"]';if(a.tagName==='BUTTON'&&a.title)return'button[title="'+a.title.replace(/"/g,'\\"')+'"]';return''};
 
+const snapFill=()=>{const o={};try{document.querySelectorAll('svg.ag g.apg').forEach(g=>{const p=g.querySelector('path');if(p)o[g.dataset.ak]=getComputedStyle(p).fill})}catch(e){}return o};
+const flipFill=o=>{try{if(!o||!Object.keys(o).length||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const sv=svgEl();if(!sv)return;const gs=[...sv.querySelectorAll('g.apg')];
+ gs.forEach(g=>{const old=o[g.dataset.ak];if(!old)return;g.querySelectorAll('path').forEach(p=>{p.dataset.nf=getComputedStyle(p).fill;p.style.transition='none';p.style.fill=old})});void sv.getBoundingClientRect();
+ gs.forEach(g=>g.querySelectorAll('path').forEach(p=>{if(p.dataset.nf){p.style.transition='';p.style.fill=p.dataset.nf}}))}catch(e){}};
 function paint(){
  const el=document.getElementById('arapp');if(!el)return;
  if(G===null||P===null){el.innerHTML='<div class="ar-skel" role="status" aria-busy="true" aria-label="Cargando el mapa de la Argentina"></div>';return}
@@ -426,8 +454,8 @@ function paint(){
  const rank=ROWS.filter(r=>i.f(r)!=null).sort((a,b)=>i.f(b)-i.f(a));const mx=Math.max(...rank.map(r=>i.f(r)),1);
  const vb=cur(),swap=AR.lastSel!==AR.sel;AR.lastSel=AR.sel;
  const foco=firmaFoco();
- el.innerHTML=`<div class="ar-grid${AR.fs?' fs':''}${AR.sd?' sd':''}${AR.herr?' herr':''}"><div class="ar-col">${bannerDatos()}
- <div class="ctl ar-ctl"><select aria-label="Pintar el mapa por" onchange="argCfg('col',this.value)">${opts}</select><label class="chk"><input type="checkbox"${AR.vals?' checked':''} onchange="argCfg('vals',this.checked)"> Mostrar valores en el mapa</label><input class="ar-hide" type="search" id="arq" placeholder="Buscar provincia…" aria-label="Buscar provincia en la lista" value="${esc(AR.q)}" oninput="argQ(this.value)" style="max-width:12rem"><button class="ar-hide" type="button" onclick="argCSV()">Descargar CSV</button><button class="ar-hide" type="button" onclick="window.print()">Imprimir / PDF</button><button class="ar-only-fs" type="button" onclick="argPanel()">Datos</button><button class="ar-only-fs" type="button" aria-pressed="${!!AR.herr}" onclick="argHerr()">Dibujar</button><button class="ar-only-fs" type="button" onclick="argFS()">Salir (Esc)</button></div>
+ const __pv=snapFill(),__ov=(svgEl()||{getAttribute(){return ''}}).getAttribute('viewBox');el.innerHTML=`<div class="ar-grid${AR.fs?' fs':''}${AR.sd?' sd':''}${AR.herr?' herr':''}"><div class="ar-col">${bannerDatos()}
+ <div class="ctl ar-ctl"><select aria-label="Pintar el mapa por" onchange="argCfg('col',this.value)">${opts}</select><label class="chk"><input type="checkbox"${AR.vals?' checked':''} onchange="argCfg('vals',this.checked)"> Mostrar valores en el mapa</label><input class="ar-hide" type="search" id="arq" placeholder="Buscar provincia…" aria-label="Buscar provincia en la lista" value="${esc(AR.q)}" oninput="argQ(this.value)" style="max-width:12rem"><button class="ar-hide" type="button" onclick="argCSV()">Descargar CSV</button><button class="ar-hide" type="button" onclick="window.print()">Imprimir / PDF</button><button class="ar-only-fs" type="button" onclick="argPanel()">Datos</button><button class="ar-only-fs ar-herrb" type="button" aria-pressed="${!!AR.herr}" onclick="argHerr()">✏️ Dibujar</button><button class="ar-only-fs" type="button" onclick="argFS()">Salir (Esc)</button></div>
  ${AR.capa?leyendaPropia():`<div class="ar-leg" aria-label="Escala de colores">${rg.map((x,c)=>x?`<span><i style="background:var(--r${c})"></i>${esc(NF(x[0],i.d))}–${esc(NF(x[1],i.d))}</span>`:'').join('')}<span><i style="background:var(--line)"></i>sin dato</span></div>`}${AR.tool==='pintar'&&!AR.capa?leyendaPropia():''}
  ${tb()}${ayuda()}
  <div class="ar-w">${AR.pres!==null&&escs()[AR.pres]?`<div class="ar-cap" role="status"><button type="button" onclick="argEsc('prev')" aria-label="Escena anterior">‹</button><span>${esc(escs()[AR.pres].n)} · ${AR.pres+1}/${escs().length}</span><button type="button" onclick="argEsc('next')" aria-label="Escena siguiente">›</button><button type="button" onclick="argEsc('end')" aria-label="Terminar la presentación">✕</button></div>`:''}<div class="ar-hud">${AR.capa?'<b>Mi mapa</b><em>Colores y leyenda propios</em>':`<b>${esc(i.t)}</b><em>${esc(i.g)}${i.u?' · '+esc(i.u):''}</em><i></i><div><span>${esc(NF(rg[0]?rg[0][0]:null,i.d))}</span><span>${esc(NF(rg[4]?rg[4][1]:null,i.d))}</span></div><small>Fuente: ${esc(FUENTE[i.k]||'')}</small>`}<small id="ar-zi">${zoomTxt()}</small></div><div class="ar-nav" role="group" aria-label="Encuadre del mapa"><button type="button" aria-pressed="${!AR.vb&&!AR.sel}" onclick="argCentrar('argentina')">Argentina</button><button type="button" aria-pressed="${AR.sel==='salta'}" onclick="argCentrar('salta')">Salta</button>${AR.sel==='salta'?'<a href="#/mapa">Departamentos →</a>':''}</div><div class="mz"><button type="button" onclick="argZoom(0.7)" aria-label="Acercar">${icon('mas')}</button><button type="button" onclick="argZoom(1.4)" aria-label="Alejar">${icon('menos')}</button><button type="button" onclick="argCentrar('argentina')" aria-label="Volver al encuadre inicial: toda la Argentina" title="Encuadre inicial (0)">${icon('casa')}</button><button type="button" onclick="argFS()" aria-label="Modo mapa: pantalla completa solo con el mapa (Esc para salir)" title="Modo mapa (pantalla completa)">${icon('pantalla')}</button></div>
@@ -438,7 +466,7 @@ ${avisoVacio(rank.length)}${avisoSinUbi()}${tablaAlt()}
  <p class="note ar-hide">Población: ${esc(P.fuente_poblacion)} Congreso: ${esc(P.congreso.fuente)} Superficies: ${esc(P.fuente_superficie)}</p>
  <p class="note ar-hide">Contornos: FUENTE: Instituto Geográfico Nacional de la República Argentina (capa SIG 250), en la versión publicada por github.com/mgaitan/departamentos_argentina; la fecha de los datos originales no consta en esa fuente. Simplificados y reproyectados por NEWAR: sirven para visualizar, no son los contornos oficiales ni cuentan con el aval del IGN.</p>
  </div><aside class="ar-side${swap?' nx-swap':''}" id="arside" aria-live="polite">${sel?detalle(sel):general()}${escenasHtml()}</aside></div>`;
- AR.anim=true;apply();tbState();if(AR.q)argQ(AR.q);AR._hl='';marcarFS();if(foco){const x=el.querySelector(foco);if(x){try{x.focus({preventScroll:true})}catch(e){}}}pend();
+ AR.anim=true;{const sv0=svgEl();if(sv0&&__ov){const q=__ov.split(/\s+/).map(Number);if(q.length===4&&q.every(isFinite))sv0.setAttribute('viewBox',__ov)}}apply(true);flipFill(__pv);tbState();if(AR.q)argQ(AR.q);AR._hl='';marcarFS();if(foco){const x=el.querySelector(foco);if(x){try{x.focus({preventScroll:true})}catch(e){}}}pend();
 }
 
 /* ---- interacción: arrastrar, rueda, pellizco, dibujo y teclado ---- */
