@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-08T11:33:19.154968+00:00",
+  "generated_at": "2026-11-08T15:37:59.491067+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 44,
+      "positivo": 3,
+      "negativo": 5,
+      "neutral": 36,
+      "score_sum": -4
+    },
+    "eje-cristina-fiore": {
+      "total": 62,
+      "positivo": 4,
+      "negativo": 14,
+      "neutral": 44,
+      "score_sum": -34
+    },
     "eje-antonio-marocco": {
       "total": 38,
       "positivo": 6,
@@ -28,20 +42,6 @@
       "negativo": 7,
       "neutral": 29,
       "score_sum": -11
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 43,
-      "positivo": 3,
-      "negativo": 5,
-      "neutral": 35,
-      "score_sum": -4
-    },
-    "eje-cristina-fiore": {
-      "total": 61,
-      "positivo": 4,
-      "negativo": 14,
-      "neutral": 43,
-      "score_sum": -34
     },
     "eje-federico-mangione": {
       "total": 50,
@@ -934,6 +934,30 @@
     }
   },
   "by_day": {
+    "2024-07-29": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-nancy-liliana-jaime": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-08": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-07-01": {
       "eje-antonio-marocco": {
         "total": 1,
@@ -9690,20 +9714,6 @@
         "score_sum": 0
       }
     },
-    "2024-07-29": {
-      "dip-guillermo-mario-durand-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-nancy-liliana-jaime": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-02-21": {
       "concejal-laura-jorge-saravia": {
         "total": 1,
@@ -18374,26 +18384,18 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 28
+      "count": 24
     },
     {
       "term": "sáenz",
-      "count": 12
-    },
-    {
-      "term": "laura",
       "count": 9
     },
     {
-      "term": "cartuccia",
-      "count": 8
-    },
-    {
-      "term": "pidió",
+      "term": "laura",
       "count": 7
     },
     {
-      "term": "gustavo",
+      "term": "cartuccia",
       "count": 6
     },
     {
@@ -18413,11 +18415,19 @@
       "count": 6
     },
     {
-      "term": "contra",
+      "term": "gustavo",
+      "count": 5
+    },
+    {
+      "term": "pidió",
       "count": 5
     },
     {
       "term": "orozco",
+      "count": 4
+    },
+    {
+      "term": "contra",
       "count": 4
     },
     {
@@ -18429,7 +18439,7 @@
       "count": 4
     },
     {
-      "term": "nueva",
+      "term": "rodrigo",
       "count": 4
     }
   ],
