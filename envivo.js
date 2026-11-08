@@ -11,9 +11,9 @@
 
   var CLAVE = "newar_envivo_v3", MAX = 4, MAX_PROPIOS = 12, MAX_ESC = 8, REPOSO_MS = 4000;
   var YT = "https://www.youtube-nocookie.com";
-  var estado = { sel: null, propios: [], ajustes: {}, escenas: [] };  /* ajustes: cambios propios sobre canales del catálogo; escenas: combinaciones guardadas */
+  var estado = { sel: null, propios: [], ajustes: {}, escenas: [], rotar: 0 };  /* ajustes: cambios propios sobre canales del catálogo; escenas: combinaciones guardadas */
   var catalogo = [], pendientes = [], catalogoListo = false;
-  var ZONA = "America/Argentina/Salta", relojT = null;
+  var ZONA = "America/Argentina/Salta", relojT = null, rotT = null, rotProx = 0, rotPausa = false;
   var adminAbierto = false, parado = false, uid = 0, host = null, aviso = "", avisoMalo = false, audioId = null, pantalla = null;
 
   /* ---------- lectura de links ---------- */
@@ -53,7 +53,7 @@
   function cargar() {
     var a = null;
     try { a = JSON.parse(localStorage.getItem(CLAVE) || "null"); } catch (e) { a = null; }
-    estado = { sel: null, propios: [], ajustes: {}, escenas: [] };
+    estado = { sel: null, propios: [], ajustes: {}, escenas: [], rotar: 0 };
     if (!a || typeof a !== "object") return;
     if (Array.isArray(a.propios)) {
       a.propios.slice(0, MAX_PROPIOS).forEach(function (p) {
@@ -80,6 +80,7 @@
         if (ids.length) estado.escenas.push({ n: e.n.trim().slice(0, 30), ids: ids });
       });
     }
+    if ([30, 60, 120, 300].indexOf(a.rotar) >= 0) estado.rotar = a.rotar;
     if (Array.isArray(a.sel)) estado.sel = a.sel.filter(function (x) { return typeof x === "string"; }).slice(0, MAX);
   }
 
@@ -165,6 +166,7 @@
       ".nxv .cm .vivo i{width:.55rem;height:.55rem;border-radius:50%;background:#ff3e6c;box-shadow:0 0 10px #ff3e6c;animation:nxvp 1.4s infinite}" +
       "@keyframes nxvp{50%{opacity:.35}}" +
       ".nxv .cm .nc{color:#aab4c5;white-space:nowrap}" +
+      ".nxv .cm .escn,.nxv .cm .rot{color:#ffd166;white-space:nowrap}.nxv .cm .rot{font-variant-numeric:tabular-nums;font-size:.8rem}.nxv .cm [hidden]{display:none}.nxv .cm .esc-prev,.nxv .cm .esc-next{padding:2px 9px}" +
       ".nxv .cm .aud{flex:1;min-width:0;color:#aab4c5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
       ".nxv .cm button{background:rgba(255,255,255,.08);color:#fff;border-color:#3a4660;padding:4px 12px}" +
       ".nxv .rj{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;line-height:1.15;white-space:nowrap}" +
@@ -175,6 +177,7 @@
       ".nxv .pared.pc .cm{transition:opacity .6s}.nxv .pared.pc.quieto .cm{opacity:.18}.nxv .pared.pc.quieto .cm:hover{opacity:1}" +
       ".nxv .escenas{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}" +
       ".nxv .escenas .esc{display:inline-flex;align-items:center;gap:2px}.nxv .escenas .esc button:last-child{padding:6px 9px}" +
+      ".nxv .escenas select{padding:7px 10px;border-radius:8px;border:1px solid var(--line,#ccc);background:var(--paper,#fff);color:var(--ink,#222);font:inherit;font-size:.9rem}" +
       ".nxv .escenas input{width:11rem;max-width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--line,#ccc);background:var(--paper,#fff);color:var(--ink,#222);font:inherit;font-size:.9rem}" +
       ".nxv .salir{position:fixed;top:8px;right:8px;z-index:2147483001;background:rgba(0,0,0,.75);color:#fff;border-color:#888}" +
       /* al abrir la pantalla completa se guarda la barra superior y la lateral del panel, igual que hace el panel con sus mapas */
@@ -239,6 +242,9 @@
       var cas = pantalla.querySelectorAll(".cas"), c = cas[parseInt(k, 10) - 1];
       if (c) { var id = c.getAttribute("data-id"); audioId = (audioId === id) ? null : id; aplicarAudio(); e.preventDefault(); }
     } else if (k === "0" || k.toLowerCase() === "m") { audioId = null; aplicarAudio(); e.preventDefault(); }
+    else if (k.toLowerCase() === "n") { irEscena(1); e.preventDefault(); }
+    else if (k.toLowerCase() === "b") { irEscena(-1); e.preventDefault(); }
+    else if (k.toLowerCase() === "r" && estado.rotar > 0 && estado.escenas.length >= 2) { rotPausa = !rotPausa; programarRotacion(); pintarReloj(); dibujar(); e.preventDefault(); }
   });
 
 
@@ -260,6 +266,7 @@
       e.appendChild(crear("b", "", t.h));
       if (t.f) e.appendChild(crear("span", "", t.f + " · hora de Salta"));
     });
+    [].forEach.call(host.querySelectorAll(".rot"), function (e) { e.textContent = textoRotacion(); });
     return true;
   }
   function programarReloj() {
@@ -280,6 +287,56 @@
     [].forEach.call(host.querySelectorAll("iframe[data-cid]"), function (f) { mandar(f, f.getAttribute("data-cid") === audioId ? "unMute" : "mute"); });
     [].forEach.call(host.querySelectorAll(".cm .aud"), function (e) { e.textContent = textoAudio(); });
     [].forEach.call(host.querySelectorAll("button[data-audio]"), function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-audio") === audioId ? "true" : "false"); b.textContent = b.getAttribute("data-audio") === audioId ? "🔊 Escuchando" : "🔇 Escuchar"; });
+  }
+
+  function mismaSel(a, b) { return a.length === b.length && a.every(function (x, i) { return x === b[i]; }); }
+  function escenaActual() {
+    var sel = seleccion();
+    for (var i = 0; i < estado.escenas.length; i++) if (mismaSel(estado.escenas[i].ids.filter(function (x) { return !!porId(x); }).slice(0, MAX), sel)) return i;
+    return -1;
+  }
+  /* pasa a la escena siguiente (delta = 1) o anterior (delta = -1), salteando las que ya no tienen ningún canal disponible */
+  function irEscena(delta) {
+    var n = estado.escenas.length; if (!n) return;
+    var i = escenaActual(), j = i < 0 ? (delta > 0 ? 0 : n - 1) : (i + delta + n) % n;
+    for (var k = 0; k < n; k++) {
+      var ids = estado.escenas[j].ids.filter(function (x) { return !!porId(x); }).slice(0, MAX);
+      if (ids.length) { estado.sel = ids; audioId = null; guardar(); decir(""); dibujar(); return; }
+      j = (j + delta + n) % n;
+    }
+  }
+
+  /* Link que abre esta misma combinación de canales en otro equipo (solo canales del catálogo: los que agregaste vos no viajan en el link) */
+  function enlaceDePared() {
+    var sel = seleccion(), ids = sel.filter(function (id) { var c = porId(id); return c && !c.propio; });
+    var base = String(location.href).split("#")[0];
+    return { url: ids.length ? base + "#/envivo/" + ids.join("+") : base + "#/envivo", omitidos: sel.length - ids.length };
+  }
+  function copiarLink() {
+    var e = enlaceDePared(), nota = e.omitidos ? " (Los " + (e.omitidos === 1 ? "canal que agregaste vos no va" : "canales que agregaste vos no van") + " en el link.)" : "";
+    function ok() { decir("Link copiado: al abrirlo se ve esta misma pared." + nota); dibujar(); }
+    function manual() { decir("Copiá este link: " + e.url + nota); dibujar(); }
+    try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(e.url).then(ok, manual); return; } } catch (x) { }
+    manual();
+  }
+
+  /* ---------- rotación automática de escenas ---------- */
+  function rotando() { return estado.rotar > 0 && estado.escenas.length >= 2 && !rotPausa; }
+  function mmss(seg) { var m = Math.floor(seg / 60), r = seg % 60; return m + ":" + (r < 10 ? "0" : "") + r; }
+  function programarRotacion() {
+    clearTimeout(rotT); rotT = null;
+    if (!host || !document.body.contains(host) || !rotando()) return;
+    rotProx = Date.now() + estado.rotar * 1000;
+    rotT = setTimeout(function () {
+      if (!host || !document.body.contains(host)) return;           /* la persona salió de esta pantalla: se detiene sola */
+      if (rotando() && !document.hidden) irEscena(1);                /* con la pestaña oculta no se rota */
+      programarRotacion();
+    }, estado.rotar * 1000);
+  }
+  function textoRotacion() {
+    if (!(estado.rotar > 0 && estado.escenas.length >= 2)) return "";
+    if (rotPausa) return "⏸ rotación en pausa";
+    return "↻ " + mmss(Math.max(0, Math.ceil((rotProx - Date.now()) / 1000)));
   }
 
   function alternar(id) {
@@ -394,12 +451,28 @@
       estado.sel = s2; guardar(); decir(""); adminAbierto = true; dibujar();
     });
     det.appendChild(err);
+    var ayuda = crear("details", "ayuda");
+    ayuda.appendChild(crear("summary", "", "ℹ Atajos y consejos"));
+    [
+      "En pantalla completa: teclas 1 a 4 = escuchar ese canal · 0 o M = silencio · N / B = escena siguiente / anterior · R = pausar la rotación · Esc = salir.",
+      "Los videos arrancan sin sonido porque el navegador lo exige. «Escuchar» activa el de un solo canal.",
+      "Si un canal no carga, YouTube puede no permitir verlo acá o no estar transmitiendo: usá «Abrir en YouTube».",
+      "Todo lo que cambiás (canales, escenas, rotación) se guarda solo en este navegador."
+    ].forEach(function (t) { ayuda.appendChild(crear("p", "note", t)); });
+    det.appendChild(ayuda);
     var hay = Object.keys(estado.ajustes).length > 0;
     if (hay) {
       var bt = crear("button", "", "Restaurar los canales originales (deshacer mis cambios y los que quité)"); bt.type = "button";
       bt.addEventListener("click", function () { estado.ajustes = {}; guardar(); decir(""); adminAbierto = true; dibujar(); });
       det.appendChild(bt);
     }
+    var bb = crear("button", "", "Borrar todo lo guardado en este navegador"); bb.type = "button"; var armado = false;
+    bb.addEventListener("click", function () {
+      if (!armado) { armado = true; bb.textContent = "¿Seguro? Tocá otra vez para borrar todo"; return; }
+      try { localStorage.removeItem(CLAVE); } catch (e) { }
+      cargar(); audioId = null; rotPausa = false; decir("Se borró todo lo guardado. Volvió a los canales originales."); adminAbierto = false; dibujar();
+    });
+    var pz = crear("p", "note"); pz.appendChild(bb); det.appendChild(pz);
     raiz.appendChild(det);
   }
 
@@ -452,6 +525,9 @@
     cm.appendChild(vv);
     cm.appendChild(crear("span", "nc", ""));
     cm.appendChild(crear("span", "aud", ""));
+    var ep = crear("button", "esc-prev", "◀"); ep.type = "button"; ep.title = "Escena anterior (B)"; ep.setAttribute("aria-label", "Escena anterior"); ep.addEventListener("click", function () { irEscena(-1); });
+    var en = crear("button", "esc-next", "▶"); en.type = "button"; en.title = "Escena siguiente (N)"; en.setAttribute("aria-label", "Escena siguiente"); en.addEventListener("click", function () { irEscena(1); });
+    cm.appendChild(ep); cm.appendChild(crear("span", "escn", "")); cm.appendChild(en); cm.appendChild(crear("span", "rot", ""));
     cm.appendChild(crear("span", "teclas", ""));
     cm.appendChild(crear("div", "rj"));
     var bs = crear("button", "", "✕ Salir"); bs.type = "button"; bs.addEventListener("click", salir); cm.appendChild(bs);
@@ -486,7 +562,11 @@
     rej.className = "rejilla n" + sel.length;
     paredEl.querySelector(".cm .nc").textContent = sel.length + (sel.length === 1 ? " canal" : " canales");
     paredEl.querySelector(".cm .aud").textContent = textoAudio();
-    paredEl.querySelector(".cm .teclas").textContent = "Teclas: 1-" + sel.length + " escuchar · 0 silencio · Esc salir";
+    var hayEsc = estado.escenas.length > 0, ia = escenaActual();
+    paredEl.querySelector(".cm .esc-prev").hidden = !hayEsc; paredEl.querySelector(".cm .esc-next").hidden = !hayEsc;
+    paredEl.querySelector(".cm .escn").textContent = hayEsc ? "Escena: " + (ia >= 0 ? estado.escenas[ia].n : "—") : "";
+    paredEl.querySelector(".cm .teclas").textContent = "Teclas: 1-" + sel.length + " escuchar · 0 silencio" + (hayEsc ? " · N/B escena" + (estado.rotar > 0 && estado.escenas.length >= 2 ? " · R pausa rotación" : "") : "") + " · Esc salir";
+    paredEl.querySelector(".cm .rot").textContent = textoRotacion();
     aplicarDisposicion();
     return true;
   }
@@ -529,6 +609,8 @@
       barra.appendChild(bl);
       var bpc = crear("button", "", "⛶ Pantalla completa"); bpc.type = "button"; bpc.disabled = !sel.length;
       barra.appendChild(bpc);
+      var bk = crear("button", "", "🔗 Copiar link"); bk.type = "button"; bk.title = "Copia un link que abre esta misma pared";
+      bk.addEventListener("click", copiarLink); barra.appendChild(bk);
       bpc.addEventListener("click", function () { if (paredEl) entrar(paredEl); });
       var bp = crear("button", "der", parado ? "▶ Reanudar" : "⏸ Parar todos"); bp.type = "button";
       bp.setAttribute("aria-pressed", parado ? "true" : "false");
@@ -563,6 +645,14 @@
       });
       ne.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); bg.click(); } });
       esc.appendChild(ne); esc.appendChild(bg);
+      if (estado.escenas.length >= 2) {
+        var sr = document.createElement("select"); sr.setAttribute("aria-label", "Rotar las escenas automáticamente");
+        [[0, "Rotar escenas: no"], [30, "cada 30 s"], [60, "cada 1 min"], [120, "cada 2 min"], [300, "cada 5 min"]].forEach(function (o) {
+          var op = document.createElement("option"); op.value = String(o[0]); op.textContent = o[1]; if (estado.rotar === o[0]) op.selected = true; sr.appendChild(op);
+        });
+        sr.addEventListener("change", function () { estado.rotar = parseInt(sr.value, 10) || 0; rotPausa = false; guardar(); decir(estado.rotar ? "Las escenas van a rotar solas " + sr.options[sr.selectedIndex].textContent + "." : "Rotación desactivada."); dibujar(); });
+        esc.appendChild(sr);
+      }
       ant(esc);
 
       var av = crear("p", "aviso" + (avisoMalo ? " mal" : ""), aviso); av.setAttribute("role", "status");
@@ -575,20 +665,28 @@
     if (catalogoListo) administrar(raiz);
     if (pantalla && !document.documentElement.contains(pantalla)) salir();
     if (audioId) setTimeout(aplicarAudio, 50);
-    pintarReloj(); programarReloj();
+    programarRotacion(); pintarReloj(); programarReloj();   /* primero se arma la rotación, así la cuenta regresiva ya sale correcta */
   }
 
-  function montar(el) { host = el; cargar(); dibujar(); if (!catalogoListo) cargarCatalogo(); }
+  function montar(el, arg) {
+    host = el; cargar();
+    if (typeof arg === "string" && arg) {   /* vino de un link compartido: tn+c5n+a24 */
+      var ids = arg.split("+").filter(function (x) { return /^[\w-]{1,40}$/.test(x); }).slice(0, MAX);
+      if (ids.length) { estado.sel = ids; guardar(); }
+      try { history.replaceState(null, "", String(location.href).split("#")[0] + "#/envivo"); } catch (e) { }   /* para que otros redibujos del panel no pisen lo que elijas después */
+    }
+    dibujar(); if (!catalogoListo) cargarCatalogo();
+  }
 
-  var API = { montar: montar, leer: leer, srcEmbed: srcEmbed, _reposo: function (ms) { REPOSO_MS = ms; }, _disposicion: disposicion, _aplicar: aplicarDisposicion };
+  var API = { montar: montar, leer: leer, srcEmbed: srcEmbed, _reposo: function (ms) { REPOSO_MS = ms; }, _disposicion: disposicion, _aplicar: aplicarDisposicion, _rotar: function (seg) { estado.rotar = seg; rotPausa = false; programarRotacion(); pintarReloj(); } };
   if (typeof window !== "undefined") window.NewarEnVivo = API;
 
   /* ---------- registro en el panel ---------- */
   var VV = null; try { VV = (typeof V !== "undefined") ? V : null; } catch (e) { VV = null; }
   if (VV && !VV.envivo) {
-    VV.envivo = function () {
+    VV.envivo = function (arg) {
       var id = "nxv-host-" + (++uid);
-      setTimeout(function () { var el = document.getElementById(id); if (el) montar(el); }, 0);
+      setTimeout(function () { var el = document.getElementById(id); if (el) montar(el, arg); }, 0);
       return '<div id="' + id + '"></div>';
     };
     /* Entrar directo por #/envivo: si el panel eligió la vista antes de que este módulo se registrara, se vuelve a rutear una vez. */
