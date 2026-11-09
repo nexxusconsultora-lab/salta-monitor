@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-08T21:17:06.522092+00:00",
+  "generated_at": "2026-11-09T01:02:37.369443+00:00",
   "by_politician": {
+    "sen-roque-cornejo-avellaneda": {
+      "total": 78,
+      "positivo": 9,
+      "negativo": 15,
+      "neutral": 54,
+      "score_sum": -10
+    },
+    "gustavo-saenz": {
+      "total": 459,
+      "positivo": 117,
+      "negativo": 79,
+      "neutral": 263,
+      "score_sum": 155
+    },
     "eje-federico-mangione": {
       "total": 51,
       "positivo": 5,
@@ -49,13 +63,6 @@
       "negativo": 5,
       "neutral": 22,
       "score_sum": -7
-    },
-    "gustavo-saenz": {
-      "total": 457,
-      "positivo": 116,
-      "negativo": 79,
-      "neutral": 262,
-      "score_sum": 153
     },
     "dip-jose-miguel-gauffin": {
       "total": 37,
@@ -119,13 +126,6 @@
       "negativo": 5,
       "neutral": 13,
       "score_sum": -6
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 77,
-      "positivo": 9,
-      "negativo": 14,
-      "neutral": 54,
-      "score_sum": -8
     },
     "eje-roberto-dib-ashur": {
       "total": 74,
@@ -934,17 +934,27 @@
     }
   },
   "by_day": {
-    "2024-05-04": {
-      "eje-federico-mangione": {
+    "2025-10-20": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "snac-flavia-royon": {
         "total": 1,
         "score_sum": 0
-      },
-      "concejal-ines-bennassar": {
+      }
+    },
+    "2026-11-09": {
+      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
     },
     "2026-11-08": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      },
       "dip-rogelio-guaipo-segundo": {
         "total": 1,
         "score_sum": 0
@@ -954,6 +964,16 @@
         "score_sum": 0
       },
       "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-05-04": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-ines-bennassar": {
         "total": 1,
         "score_sum": 0
       }
@@ -6330,12 +6350,6 @@
       "gustavo-saenz": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2025-10-20": {
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-07-24": {
@@ -18396,7 +18410,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 25
+      "count": 23
     },
     {
       "term": "federico",
@@ -18407,8 +18421,12 @@
       "count": 7
     },
     {
+      "term": "sáenz",
+      "count": 6
+    },
+    {
       "term": "laura",
-      "count": 7
+      "count": 6
     },
     {
       "term": "cartuccia",
@@ -18423,15 +18441,7 @@
       "count": 6
     },
     {
-      "term": "sáenz",
-      "count": 5
-    },
-    {
-      "term": "pidió",
-      "count": 5
-    },
-    {
-      "term": "orozco",
+      "term": "gustavo",
       "count": 4
     },
     {
@@ -18439,7 +18449,7 @@
       "count": 4
     },
     {
-      "term": "josé",
+      "term": "pidió",
       "count": 4
     },
     {
@@ -18451,7 +18461,11 @@
       "count": 4
     },
     {
-      "term": "nación",
+      "term": "roque",
+      "count": 3
+    },
+    {
+      "term": "cornejo",
       "count": 3
     }
   ],
