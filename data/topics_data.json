@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-09T01:02:38.180104+00:00",
+  "generated_at": "2026-11-09T07:54:58.554081+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 519,
+      "total_mentions": 520,
       "sentiment_breakdown": {
         "positivo": 32,
-        "negativo": 42,
+        "negativo": 43,
         "neutral": 445
       },
       "sentiment_by_day": {
+        "2026-11-08": {
+          "total": 3,
+          "score_sum": -2
+        },
         "2024-05-07": {
           "total": 4,
           "score_sum": 0
@@ -19,10 +23,6 @@
         "2026-11-06": {
           "total": 12,
           "score_sum": -2
-        },
-        "2026-11-08": {
-          "total": 2,
-          "score_sum": 0
         },
         "2026-11-03": {
           "total": 4,
@@ -296,23 +296,23 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 117
+          "count": 101
         },
         {
           "term": "presupuesto",
-          "count": 66
+          "count": 64
         },
         {
           "term": "intransigente",
-          "count": 50
-        },
-        {
-          "term": "informate",
-          "count": 34
+          "count": 51
         },
         {
           "term": "elintra",
           "count": 34
+        },
+        {
+          "term": "informate",
+          "count": 32
         },
         {
           "term": "pasa",
@@ -323,8 +323,8 @@
           "count": 16
         },
         {
-          "term": "milei",
-          "count": 15
+          "term": "diputados",
+          "count": 14
         }
       ],
       "politicians_involved": [
@@ -426,6 +426,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Jorge Brito cuestionó la credibilidad del fútbol y apuntó contra Federico Beligoy - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1FndW1xWVEyZlFBM3hyamwyWVVIemNnMWNfSXdicHVhSlpPQUQ5VDhrWnRaWVg0elppamRWMVptLTdsRDhScWV2Qks5R1c2c2FPZU9jREtkMmJzNFhIWlpOSGxJRE5jOEJ1TENsUTBmbUU2Rmh5anUxTjdlNXJyNXRvUm4weDdqLThBcEVuSnBkN3UyNkw1anlOT0xnQVpEVGZSbDg1NzNya1hEZktFVjJn?oc=5",
+          "source": "El Intransigente",
+          "date": "Sun, 08 Nov 2026 17:35:00 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Nacionales - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01S0tHb2tUcEc0akpSLWNQak5BTFU4c1EyVkpBS0t2Y2JVNU1qR2NSY3lTdHN5VlI4M0tzRkduTjlVZGllRFdfcnVrcGFVd1BfNnlYWjRRbw?oc=5",
@@ -628,13 +635,6 @@
           "source": "El Intransigente",
           "date": "Wed, 04 Nov 2026 22:32:43 GMT",
           "sentiment_label": "positivo"
-        },
-        {
-          "title": "Papa León XIV en Argentina: el operativo de seguridad y los cortes previstos en CABA - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGRHNHdPZW5Fei1kMjRSSUpTZjBaV3RMTlRPZU9YRzlmUTlsOXg2cE52Z0YtYVJCbXRYeWg4bWlGa09mSjlWTlRCMnlzM1NSUjc4ZzU2azRZRC1uanlaeHFOTlFSYkQ3OW5fQzc4RkVJTW1Ldnpva0tCaU5USVhrVkZRdjA2MHZQLUpXYnI5WGo1X1hEd0tBN2JjY2xLZzJ6dnJNcHJHdWpvNWhN?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 31 Oct 2026 15:34:58 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
