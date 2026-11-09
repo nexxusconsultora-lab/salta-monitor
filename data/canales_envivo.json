@@ -1,6 +1,6 @@
 {
   "_leeme": "Catálogo de canales de TV argentinos que transmiten en vivo por YouTube. 'ch' es el código del canal en YouTube (empieza con UC). Los canales con 'ch' vacío (null) todavía no están activos: el workflow «Completar canales en vivo» (scripts/canales_en_vivo.py) lee su código directamente de YouTube y solo lo activa si el nombre del canal coincide con alguna palabra de 'esperado'. 'yt' es el nombre del canal en la dirección de YouTube. Los canales de aire como Telefe, El Trece, El Nueve y América no transmiten su señal en vivo por YouTube, por eso no figuran.",
-  "generado": "2026-11-05",
+  "generado": "2026-11-09",
   "canales": [
     {
       "id": "tn",
@@ -70,14 +70,15 @@
       "nombre": "Argentina 12",
       "tipo": "Noticias",
       "yt": "c/IPNoticiasEnVivo",
-      "ch": null,
+      "ch": "UC1bBjOZieJWHbsFA0LwjjJA",
       "esperado": [
         "argentina 12",
         "ip noticias"
       ],
-      "ultimo_intento": "2026-11-04T22:49:28+00:00",
-      "estado": "no_coincide",
-      "detalle": "el nombre en YouTube («Argentina 12») no contiene ninguna de ['ip noticias']"
+      "ultimo_intento": "2026-11-09T16:44:22+00:00",
+      "estado": "ok",
+      "titulo_youtube": "Argentina 12",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "el-destape",
@@ -98,15 +99,16 @@
       "nombre": "Televisión Pública",
       "tipo": "Aire",
       "yt": "user/TVPublicaArgentina",
-      "ch": null,
+      "ch": "UCs231K71Bnu5295_x0MB5Pg",
       "esperado": [
         "television publica",
         "tv publica",
         "canal siete"
       ],
-      "ultimo_intento": "2026-11-04T22:49:28+00:00",
-      "estado": "no_coincide",
-      "detalle": "el nombre en YouTube («Canal Siete») no contiene ninguna de ['television publica', 'tv publica']"
+      "ultimo_intento": "2026-11-09T16:44:22+00:00",
+      "estado": "ok",
+      "titulo_youtube": "Canal Siete",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "encuentro",
@@ -127,14 +129,15 @@
       "nombre": "Pakapaka",
       "tipo": "Infantil",
       "yt": "user/CanalPakapaka",
-      "ch": null,
+      "ch": "UCVVNYxncuD4EfHpKDlPIYcQ",
       "esperado": [
         "pakapaka",
         "paka paka"
       ],
-      "ultimo_intento": "2026-11-04T22:49:28+00:00",
-      "estado": "no_coincide",
-      "detalle": "el nombre en YouTube («Paka Paka») no contiene ninguna de ['pakapaka']"
+      "ultimo_intento": "2026-11-09T16:44:22+00:00",
+      "estado": "ok",
+      "titulo_youtube": "Paka Paka",
+      "fuente": "leído de YouTube y verificado por nombre"
     },
     {
       "id": "comarca-tv",
