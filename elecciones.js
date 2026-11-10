@@ -60,7 +60,7 @@ const CSS=`
 {const s=document.createElement('style');s.textContent=CSS;document.head.appendChild(s)}
 
 async function cargar(demo){
- const u=demo?'data/elecciones_demo.json':'data/elecciones.json';
+ const u=demo==='simulacro'?'data/elecciones_simulacro.json':demo?'data/elecciones_demo.json':'data/elecciones.json';
  try{const r=await fetch(u+'?t='+Math.floor(Date.now()/6e4),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);
   const j=await r.json();if(!j||!Array.isArray(j.elecciones))throw new Error('el archivo no tiene la lista «elecciones»');return{cfg:j,err:''}}
  catch(x){return{cfg:null,err:String(x&&x.message||x)}}}
@@ -106,8 +106,8 @@ function tarjetaPro(x){
  return`<div class="el-card"><h4><a href="#/elecciones/${encodeURIComponent(e.id)}">${esc(e.nombre)}</a></h4><p class="el-cuenta">${esc(cuenta(e,st))}</p><p class="meta"><span class="el-st${t[1]?' on':''}">${esc(t[0])}</span>${esc(e.ambito||'')}${e.distrito?' · '+esc(e.distrito):''}</p>${claves(e)}${e.nota_fecha?`<p class="note">${esc(e.nota_fecha)}</p>`:''}${e.cargos_nota?`<p class="note">${esc(e.cargos_nota)}</p>`:''}</div>`}
 
 const SUBS=[['proximas','Próximas'],['candidatos','Candidatos'],['resultados','Resultados'],['noticias','Noticias']];
-function pastillas(sel,demo){
- return`<nav class="el-sub" aria-label="Secciones de Elecciones">`+SUBS.map(([k,t])=>`<a href="#/elecciones${k==='proximas'?'':'/'+k}"${sel===k?' class="on" aria-current="page"':''}>${t}</a>`).join('')+(demo?`<a href="#/elecciones/demo" class="on" aria-current="page">Ejemplo</a>`:'')+`</nav>`}
+function pastillas(sel,demo,simu){
+ return`<nav class="el-sub" aria-label="Secciones de Elecciones">`+SUBS.map(([k,t])=>`<a href="#/elecciones${k==='proximas'?'':'/'+k}"${sel===k?' class="on" aria-current="page"':''}>${t}</a>`).join('')+(demo?`<a href="#/elecciones/demo" class="on" aria-current="page">Ejemplo</a>`:'')+(simu?`<a href="#/elecciones/simulacro" class="on" aria-current="page">Simulacro</a>`:'')+`</nav>`}
 
 const orden=lista=>[...lista].sort((a,b)=>{const ra=ACT.includes(a.st)?0:1,rb=ACT.includes(b.st)?0:1;if(ra!==rb)return ra-rb;const fa=fechaOk(a.e.fecha)?a.e.fecha:'9999',fb=fechaOk(b.e.fecha)?b.e.fecha:'9999';return fa<fb?-1:fa>fb?1:0});
 const vigentes=lista=>orden(lista).filter(x=>x.st!=='terminada');
@@ -198,14 +198,14 @@ function fuentesBloque(e){
  return`<h3 class="sh">Fechas y fuentes</h3>${tarjeta({e,st:estado(e,hoyAR())},false)}${fr}${fs?`<p class="note">De dónde salen las fechas:</p><ul>${fs}</ul>`:''}`}
 
 function detalle(e,st,demo){
- let h=(demo?`<p class="el-demo" role="note">DATOS DE EJEMPLO, TOTALMENTE INVENTADOS. Esta elección no existe.</p>`:'')+`<p><a href="#/elecciones">← Volver a Elecciones</a></p><h2 class="sec" style="margin-top:.5rem">${esc(e.nombre)}</h2>`;
+ let h=(demo?`<p class="el-demo" role="note">DATOS DE EJEMPLO, TOTALMENTE INVENTADOS. Esta elección no existe.</p>`:'')+(e.simulacro?`<p class="el-demo" role="note">SIMULACRO: ensayo general con datos inventados que el sistema genera solo. Esta elección no existe.</p>`:'')+`<p><a href="#/elecciones">← Volver a Elecciones</a></p><h2 class="sec" style="margin-top:.5rem">${esc(e.nombre)}</h2>`;
  if(ACT.includes(st)){h+=candBloque(e)}
  else h+=`<p class="warn" role="status">Esta elección todavía no está habilitada: los candidatos y los resultados se muestran cuando falte poco para la votación.</p>`;
  if(st==='jornada'||st==='post')h+=`<h3 class="sh">Resultados</h3><div id="elres" aria-live="polite"><p class="empty" role="status">Cargando resultados…</p></div>`;
  return h+fuentesBloque(e)}
 
 function embargo(e,st,demo){
- if(demo||st!=='jornada')return 0;
+ if(demo||e.simulacro||st!=='jornada')return 0;
  const t=e.no_publicar_antes?Date.parse(e.no_publicar_antes):(fechaOk(e.fecha)?Date.parse(e.fecha+'T21:00:00-03:00'):0);
  return t&&Date.now()<t?t:0}
 
@@ -289,17 +289,17 @@ async function arrancarRes(e,st,demo){
 async function pintar(id){
  const box=document.getElementById('elapp');if(!box)return;
  clearInterval(E.timer);clearInterval(E.tick);clearInterval(E.timerN);
- const demo=id==='demo';let c;
- if(demo){const r=await cargar(true);c=r.cfg;if(!c){box.innerHTML=`<p class="warn" role="alert">No se pudo leer <code>data/elecciones_demo.json</code> (${esc(r.err)}). ¿Lo subiste a la carpeta data?</p>`;return}}
+ const demo=id==='demo',simu=id==='simulacro';let c;
+ if(demo||simu){const r=await cargar(simu?'simulacro':true);c=r.cfg;if(!c){box.innerHTML=`<p class="warn" role="alert">No se pudo leer <code>data/elecciones_${simu?'simulacro':'demo'}.json</code> (${esc(r.err)}). ¿Lo subiste a la carpeta data?</p>`;return}}
  else{if(!E.cfg){const r=await cargar(false);E.cfg=r.cfg;E.err=r.err}c=E.cfg;
   if(!c){box.innerHTML=`<p class="warn" role="alert">No se pudo leer <code>data/elecciones.json</code> (${esc(E.err)}). Revisá que el archivo exista en la carpeta data y que no tenga errores de comas o comillas.</p>`;return}}
  if(!document.getElementById('elapp'))return;
  document.title='NEWAR — Elecciones';
  const hoy=hoyAR(),lista=c.elecciones.filter(e=>e&&e.id).map(e=>({e,st:estado(e,hoy)}));
  const sub=['','proximas','candidatos','resultados','noticias'].includes(id)?(id||'proximas'):null;
- const sel=demo?lista[0]:(sub?null:lista.find(x=>x.e.id===id));
+ const sel=(demo||simu)?lista[0]:(sub?null:lista.find(x=>x.e.id===id));
  const cablear=(l)=>l.forEach((x,k)=>{const q=document.getElementById('elq'+k);if(q)q.oninput=()=>{document.getElementById('elcl'+k).innerHTML=listaCand(x.e.candidatos,q.value)}});
- if(sel){box.innerHTML=pastillas('',demo)+detalle(sel.e,sel.st,demo);
+ if(sel){box.innerHTML=pastillas('',demo,simu)+detalle(sel.e,sel.st,demo);
   const q=document.getElementById('elq');if(q)q.oninput=()=>{document.getElementById('elcl').innerHTML=listaCand(sel.e.candidatos,q.value)};
   if(sel.st==='jornada'||sel.st==='post')arrancarRes(sel.e,sel.st,demo)}
  else if(sub){
