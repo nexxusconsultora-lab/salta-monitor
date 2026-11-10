@@ -454,7 +454,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 28
+        "count": 27
       },
       {
         "term": "gustavo",
@@ -470,7 +470,7 @@
       },
       {
         "term": "papa",
-        "count": 6
+        "count": 5
       },
       {
         "term": "transporte",
@@ -2234,15 +2234,15 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 6
+        "count": 5
       },
       {
         "term": "cornejo",
-        "count": 6
+        "count": 5
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "denunció",
@@ -22958,15 +22958,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 5
+        "count": 4
       },
       {
         "term": "royón",
-        "count": 5
-      },
-      {
-        "term": "secretaria",
-        "count": 2
+        "count": 4
       },
       {
         "term": "energía",
@@ -23308,13 +23304,21 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 109,
+    "total_mentions": 111,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 19,
-      "neutral": 81
+      "neutral": 83
     },
     "sentiment_by_day": {
+      "2025-05-23": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "2025-02-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-06-04": {
         "total": 1,
         "score_sum": 0
@@ -23519,10 +23523,6 @@
         "total": 3,
         "score_sum": 0
       },
-      "2025-05-23": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-01-24": {
         "total": 1,
         "score_sum": 0
@@ -23691,34 +23691,40 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 6
+        "count": 8
       },
       {
         "term": "orozco",
-        "count": 6
+        "count": 8
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 5
       },
       {
-        "term": "milei",
-        "count": 3
+        "term": "nunca",
+        "count": 2
+      },
+      {
+        "term": "pasa",
+        "count": 2
       },
       {
         "term": "aseguró",
         "count": 2
       },
       {
-        "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "legisladores",
+        "term": "milei",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "bajo siete llaves",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeWZJcV8zb283TkVmSWZKX21HeENWa3c5eHduZE1yZmQyWkNnbU9Zb0R4NmZUWGRZeE1uQkRCalQyNm5sdmQwakpVNjZsNnloRWVuRnJ5X1dmMnYtaExmTGJuUHhZVm9hRmJKb3JLemJUYS1jMzhHV2RLVjd0ZTcxY3ZWZldlZjZBekhyNkVRdnQ1SVlPTnZoeFZMR0tqR3FXcU1qbkpMVGpLYlNYanIxNk40ZEt3WlBxQjhvYTJxeU84MHlXeER3MHZSUGFtUQ?oc=5",
+        "date": "Fri, 23 May 2025 07:00:00 GMT"
+      },
       {
         "quote": "Me pondría de pie para hablar de Emilia Orozco",
         "source": "Que Pasa Salta",
@@ -23802,12 +23808,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORlJ4TGVNeWs5dllTYjVfTHo0R0d1VUoyLWRWTTZFT29BTnJVSk5oamRQY0hJTS1xamJ5LU9rb2w5Tm9uUWR2MVBiMVRoM3NiM1k3ZjlES2FDZG1iTFpoVUNSRzBETlNfVUxDSmJhd1dwck03SHJyTzNzZ0VvMzluLS1oNGVETGxPWjl0ZkJJN1h3ME05TnM5N05nWDI2cDBZZDJsVkZheWNyY1BhUjVkUFVzWGJ0ekIyY05qVWZXNFY4ZDVpdjQtMHVscGs4X2M2bFl0SkJGZmVwMXM?oc=5",
         "date": "Sat, 12 Jul 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "aportar no son sólo proyectos",
-        "source": "Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOFFYU3F2UTdtSlp4SGt4R3ZNT3RfSFFzYlJWck1UcTZ0ck1HN0dhZ1V5T3ctRFlaamF5SHhncTRHUjBhejNyYWY3bmZvazdjSnF6dDlYYTZzTWl1VUR2RDduZGdaaTlKeXNtdThxQ3ZLZWw1bnpVbDBvUWItNU9KMkhVRUVfZmtSVnloMFlJdXdfS3ZKdEllUmpFbWl4YlhQZGo4RWtlOFJ5WHdQZjJnQWxhMmVYUVVIUTh0N3NJUklBOURxcUJWMXlaaW1YNGV6MDB3ekRuNjhhMXE4cmFKYnd5eWJKaVl5eEFZWlVHN2ZVNFZHdjVodmdLONIBigJBVV95cUxQSlZSWmNEYWNnUVRTS0Uxalp1eVFaZXNsZldwWnU4OG5JQmVwUVpacTNCUDA2dFhnRUN5b0xrRS1vZ05MQmNwZlNwWWRZa1ZpYWF3dUhia3dNTUVTRkJVU0VUNW1RQ0xJMHZqQUtUV0I5dTVweXlWQXowWDdIT0JCeTdwa2EzUTdmZElBRWNmbldjcU5DMmZRWHVyNzVoeUdwRFFLdG9MaElxQi02M2VPTjJDRUFEeHVkdUtUSjJnZkJVSHVmQVZrdjh4N3FpMFZMbmFXU0JwV2tEbEdNSUVSUjc0ZVl2VGt5NU80WHlvR0pNTHpIeVJ4dHdyTUM2WW1zWmplZjFjckE5Zw?oc=5",
-        "date": "Thu, 03 Aug 2023 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -23849,6 +23849,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Acusan a Emilia Orozco de tener \"bajo siete llaves\" la comisión de Libertad de Expresión: \"Nunca visto\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeWZJcV8zb283TkVmSWZKX21HeENWa3c5eHduZE1yZmQyWkNnbU9Zb0R4NmZUWGRZeE1uQkRCalQyNm5sdmQwakpVNjZsNnloRWVuRnJ5X1dmMnYtaExmTGJuUHhZVm9hRmJKb3JLemJUYS1jMzhHV2RLVjd0ZTcxY3ZWZldlZjZBekhyNkVRdnQ1SVlPTnZoeFZMR0tqR3FXcU1qbkpMVGpLYlNYanIxNk40ZEt3WlBxQjhvYTJxeU84MHlXeER3MHZSUGFtUQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 23 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "¿Interna libertaria? Emilia Orozco le respondió las acusaciones a Galleguilos - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUnYwNWhwTGZKOEZpYmVaaVF5RTBJemJjM2RWdTNpOWFuajcyR1RQR05PaUVESG9sZVRmZEJmaTktS3pkdFV6MzM2WjhpV1BGVzN3cWlNZlpBWTkxRnFXMFJoYWxQQU9sb0ROc2lpSm5CZWVpbVZCQ0VPU1JCQVBaOGp2NjlQZVJRTi1RNlY4eENRSl85bmxiZXdnOGdMMFnSAZ8BQVVfeXFMTVJ2MDVocExmSjhGaWJlWmlReUUwSXpiYzNkVnUzaTlhbmo3MkdUUEdOT2lFREhvbGVUZmRCZmk5LUt6ZHRVejMzNlo4aVdQRlczd3FpTWZaQVk5MUZxVzBSaGFsUEFPbG9ETnNpaUpuQmVlaW1WQkNFT1NSQkFQWjhqdjY5UGVSUU4tUTZWOHhDUUpfOW5sYmV3ZzhnTDBZ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 25 Feb 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco aseguró haber sido insultada durante el Ni Una Menos - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWE1T0JfU0lBUkU0VTJsOHhidjF2c2g1bWZlUUplaklWSlJIb0ZHbWl2QU9laDQzdE9mMXBqSU1uQWJ0MXB6WE9CcDFudENaa2FHWmU4WWJDZVFSend5ZzNOVzhUWTR0SVMyRjZIVEJtWHpEX1hOaXBMbVEwSWRqSkg0WEZZUjAzc2lXTnU3YS1RY1dWTEFidTl5VWkxOENKdjIw?oc=5",
@@ -24043,20 +24057,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMWdWRnlfMGx1RVJOOVVtci10a0I3Tl9ITjlPZEpBVEpVOTR4V3ZMbE5pS1Bhc2o4TEYzTWEzMEw3YVhSMnRUZEpoS1FDbDZkeV8ydUNDcVNNSjNmZW1saDVqY1JGQUQ1c0JlZ1hubUh2U2paWFQ0ZHd2LUxnWURWWlhGTXVKMjA1ZUFKVUxXeVF0dG5SWU9RTENKNm1tOVBWZ2RGN183ajdGRklkSlNVS1hWbHl3UzNKa1NzYlRYQnNTRFQtaWZ2R0NSa0NfUjFz?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 07 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco negó que el Gobierno nacional tenga un plan en contra de los periodistas - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnBBNExPWnhFbXN0OU1NUlQ2Z0FZcEcwVnJyWVBxVlJsOTYxTVNmcFVNWV8tdDZDOGtodWZvNWl0b2c3T1NxYVlrMUM5TGVGVHE0c1NzU3loWlIwRjFQV1pETUV6VlVrZHpjWGxMMXh1V1hoNGt1bXR4SlVSR28wTWdnTndSTWNzTjVNR084XzZEVzJQYnBTbWxLMWJHVkNEOHQ5LTRKVWVZZ2hObTRuOEdVUUkyVm5TSWdFbnhB?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 27 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco sobre su candidatura: “Tengo una gran responsabilidad de no defraudar a la gente, a mi partido ni a mi familia” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbHpYRmxzWnVNNEl2X1haR2Jub0ZaN1VZR3pDb0pXVi05TFllVE8xbHRqRmw5M3N3alVpLTVFTDlxcVNIR2pkSHpPVGUzTEx6bnZtMjJnY2hpRi1TbGhNQ2RrVzVFTnJvdXlOSnpoVmNKeU1Cc0JXXzFyUW5sSUE5eFdDSk1hQXRHWjhDSHRwUGE0MERoQ2dTWWx0QjVsb0hlOElabGNwTDd4RldTb2FPbzRPV2JXZmhvZXZaLVpIWmZYbUFsaVpPUXFZb1VTanBKZFYzOG44UEE3SFJTVkV1aURYdmxBdEtYTlUtYg?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 28 Jun 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24601,10 +24601,6 @@
       },
       {
         "term": "diario",
-        "count": 2
-      },
-      {
-        "term": "sáenz",
         "count": 2
       }
     ],
@@ -25907,7 +25903,7 @@
       },
       {
         "term": "sáenz",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -28058,18 +28054,14 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 3
+        "count": 2
       },
       {
         "term": "galleguillos",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
-        "count": 3
-      },
-      {
-        "term": "milei",
         "count": 2
       }
     ],
@@ -28571,14 +28563,6 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 4
-      },
-      {
-        "term": "gauffín",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 3
       },
       {
@@ -28588,6 +28572,14 @@
       {
         "term": "hídrica",
         "count": 3
+      },
+      {
+        "term": "gauffín",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "prórroga",
