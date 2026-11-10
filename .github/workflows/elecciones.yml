@@ -13,10 +13,12 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "probar_dine = consulta la API oficial con la elección de 2023; diagnosticar = mira cómo entregan los datos los sitios oficiales; recolectar = una sola vuelta; ciclo = como en la noche de elecciones"
+        description: "simulacro = ensayo general de 15 minutos con una elección inventada (datos, subida, pantalla y avisos); probar_aviso = te manda un aviso de prueba al celular; probar_dine = consulta la API oficial con la elección de 2023; diagnosticar = mira cómo entregan los datos los sitios oficiales; recolectar = una sola vuelta; ciclo = como en la noche de elecciones"
         type: choice
         default: probar_dine
         options:
+          - simulacro
+          - probar_aviso
           - probar_dine
           - diagnosticar
           - recolectar
@@ -48,8 +50,19 @@ jobs:
           PROGRAMADO: ${{ github.event.schedule }}
           DINE_TOKEN: ${{ secrets.DINE_TOKEN }}
           NEWAR_GIT: "1"
+          # Para que el ciclo de la noche pueda avisarte al celular (los mismos secretos que usa el resumen diario)
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ENLACE_CORRIDA: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          if [ "$MODO" = "probar_dine" ]; then
+          if [ "$MODO" = "simulacro" ]; then
+            python scripts/elecciones.py --simulacro 15
+          elif [ "$MODO" = "probar_aviso" ]; then
+            python scripts/avisar_falla.py "Prueba de aviso de NEWAR" "Si ves este mensaje en el celular, los avisos de la noche de elecciones funcionan." --enlace "$ENLACE_CORRIDA"
+          elif [ "$MODO" = "probar_dine" ]; then
             python scripts/elecciones.py --probar-dine
           elif [ "$MODO" = "diagnosticar" ]; then
             python scripts/elecciones.py --diagnosticar
@@ -82,3 +95,14 @@ jobs:
           done
           echo "No se pudo guardar tras 3 intentos."
           exit 1
+
+      - name: Avisar al celular si la corrida falló
+        if: failure() && (github.event_name == 'schedule' || inputs.modo == 'ciclo' || inputs.modo == 'recolectar' || inputs.modo == 'simulacro')
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ENLACE_CORRIDA: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/avisar_falla.py "Falló el recolector de resultados electorales" "La corrida terminó con error. Abrí el enlace para ver el motivo." --enlace "$ENLACE_CORRIDA"
