@@ -1,0 +1,32 @@
+{
+  "_leeme": "ELECCIÓN INVENTADA para ensayar. Se ve en la dirección #/elecciones/simulacro. La corre el workflow «Resultados electorales» con la opción 'simulacro': genera un conteo que avanza solo durante unos minutos y lo hace pasar por el mismo camino que una elección real. No toca ninguna elección real. Las listas, los nombres y los números son inventados.",
+  "actualizado": "2026-11-09",
+  "elecciones": [
+    {
+      "id": "simulacro",
+      "simulacro": true,
+      "forzar_estado": "jornada",
+      "nombre": "SIMULACRO DE ELECCIÓN (datos inventados)",
+      "ambito": "Ensayo",
+      "distrito": "Provincia de Ejemplo",
+      "fecha": null,
+      "nota_fecha": "Ensayo general del sistema. Esta elección no existe.",
+      "resultados_url": "data/elecciones_resultados_simulacro.json",
+      "intervalo_seg": 60,
+      "fuente_resultados": {
+        "nombre": "SIMULACRO: datos inventados por el sistema",
+        "url": "https://github.com/nexxusconsultora-lab/salta-monitor",
+        "adaptador": "simulacro",
+        "duracion_min": 12,
+        "mesas": 1000
+      },
+      "fuentes": [
+        { "titulo": "Código del proyecto en GitHub", "url": "https://github.com/nexxusconsultora-lab/salta-monitor" }
+      ],
+      "candidatos": [
+        { "id": "sim-1", "nombre": "Persona Simulada Uno", "cargo": "Gobernador", "distrito": "Provincia de Ejemplo", "partido": "Lista Simulada A", "numero_lista": "1", "estado": "oficializado", "detalle": "Candidatura inventada para el ensayo.", "fuente_url": "https://github.com/nexxusconsultora-lab/salta-monitor", "verificado_en": "2026-11-09" },
+        { "id": "sim-2", "nombre": "Persona Simulada Dos", "cargo": "Gobernador", "distrito": "Provincia de Ejemplo", "partido": "Lista Simulada B", "numero_lista": "2", "estado": "oficializado", "detalle": "Candidatura inventada para el ensayo.", "fuente_url": "https://github.com/nexxusconsultora-lab/salta-monitor", "verificado_en": "2026-11-09" }
+      ]
+    }
+  ]
+}
