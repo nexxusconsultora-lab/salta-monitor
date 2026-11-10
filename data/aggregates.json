@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-11-10T08:54:16.353486+00:00",
+  "generated_at": "2026-11-10T16:47:34.731184+00:00",
   "by_politician": {
+    "dip-griselda-edith-galleguillos": {
+      "total": 29,
+      "positivo": 1,
+      "negativo": 5,
+      "neutral": 23,
+      "score_sum": -7
+    },
+    "dnac-carlos-raul-zapata": {
+      "total": 45,
+      "positivo": 3,
+      "negativo": 6,
+      "neutral": 36,
+      "score_sum": -6
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 40,
+      "positivo": 5,
+      "negativo": 4,
+      "neutral": 31,
+      "score_sum": 2
+    },
+    "gustavo-saenz": {
+      "total": 465,
+      "positivo": 119,
+      "negativo": 81,
+      "neutral": 265,
+      "score_sum": 156
+    },
     "snac-emilia-orozco": {
       "total": 111,
       "positivo": 9,
@@ -21,13 +49,6 @@
       "negativo": 15,
       "neutral": 98,
       "score_sum": 3
-    },
-    "gustavo-saenz": {
-      "total": 462,
-      "positivo": 119,
-      "negativo": 80,
-      "neutral": 263,
-      "score_sum": 157
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 78,
@@ -50,13 +71,6 @@
       "neutral": 10,
       "score_sum": -1
     },
-    "dnac-carlos-raul-zapata": {
-      "total": 44,
-      "positivo": 3,
-      "negativo": 5,
-      "neutral": 36,
-      "score_sum": -4
-    },
     "eje-cristina-fiore": {
       "total": 62,
       "positivo": 4,
@@ -71,26 +85,12 @@
       "neutral": 30,
       "score_sum": 35
     },
-    "dip-griselda-edith-galleguillos": {
-      "total": 28,
-      "positivo": 1,
-      "negativo": 5,
-      "neutral": 22,
-      "score_sum": -7
-    },
     "dip-jose-miguel-gauffin": {
       "total": 37,
       "positivo": 1,
       "negativo": 7,
       "neutral": 29,
       "score_sum": -11
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 39,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 30,
-      "score_sum": 2
     },
     "concejal-ines-bennassar": {
       "total": 29,
@@ -934,6 +934,70 @@
     }
   },
   "by_day": {
+    "2023-11-25": {
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-28": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-sergio-saldano": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2025-12-17": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-oriana-nevora": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "eje-javier-monico": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-luciano-elvira": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-10": {
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": -1
+      }
+    },
     "2025-05-23": {
       "snac-emilia-orozco": {
         "total": 2,
@@ -7724,28 +7788,6 @@
         "score_sum": 0
       }
     },
-    "2025-12-17": {
-      "eje-oriana-nevora": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "eje-javier-monico": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-luciano-elvira": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2023-11-11": {
       "eje-mario-mimessi": {
         "total": 1,
@@ -12134,20 +12176,6 @@
         "score_sum": 0
       }
     },
-    "2023-11-25": {
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2025-03-14": {
       "sen-juan-cruz-cura": {
         "total": 1,
@@ -12392,16 +12420,6 @@
       "concejal-angel-ortiz": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-07-28": {
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-sergio-saldano": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2024-11-13": {
@@ -18431,23 +18449,23 @@
   ],
   "trending_terms": [
     {
-      "term": "elintra",
-      "count": 8
+      "term": "sáenz",
+      "count": 10
     },
     {
-      "term": "sáenz",
+      "term": "elintra",
+      "count": 7
+    },
+    {
+      "term": "gustavo",
       "count": 6
     },
     {
       "term": "emilia",
-      "count": 5
+      "count": 4
     },
     {
       "term": "orozco",
-      "count": 5
-    },
-    {
-      "term": "gustavo",
       "count": 4
     },
     {
@@ -18455,39 +18473,39 @@
       "count": 4
     },
     {
+      "term": "viviendas",
+      "count": 3
+    },
+    {
+      "term": "entregó",
+      "count": 2
+    },
+    {
+      "term": "rosario",
+      "count": 2
+    },
+    {
+      "term": "lerma",
+      "count": 2
+    },
+    {
+      "term": "pasa",
+      "count": 2
+    },
+    {
+      "term": "mensaje",
+      "count": 2
+    },
+    {
+      "term": "nación",
+      "count": 2
+    },
+    {
       "term": "nunca",
       "count": 2
     },
     {
       "term": "exigen",
-      "count": 2
-    },
-    {
-      "term": "mangione",
-      "count": 2
-    },
-    {
-      "term": "salud",
-      "count": 2
-    },
-    {
-      "term": "celebró",
-      "count": 2
-    },
-    {
-      "term": "llegada",
-      "count": 2
-    },
-    {
-      "term": "león",
-      "count": 2
-    },
-    {
-      "term": "regalo",
-      "count": 2
-    },
-    {
-      "term": "argentina",
       "count": 2
     }
   ],
