@@ -21,6 +21,10 @@ Adaptadores disponibles hoy:
 
 Sonda de la DINE (--probar-dine): pregunta a la API por la elección de 2023 para descubrir los códigos de distrito y categoría.
 
+Simulacro (--simulacro MINUTOS): ensayo general con una elección INVENTADA (data/elecciones_simulacro.json). Genera un conteo que
+avanza solo y lo hace pasar por el mismo camino que una elección real (validación, historial, subida a GitHub, pantalla,
+avisos al celular). Sirve para medir la demora real de punta a punta. No toca los datos de ninguna elección real.
+
 Modo diagnóstico (python scripts/elecciones.py --diagnosticar): visita las páginas oficiales, respeta su robots.txt,
 y guarda en data/elecciones_diagnostico.json qué responde cada una y qué direcciones de datos (API) aparecen.
 No guarda resultados.
@@ -287,6 +291,43 @@ def adaptador_dine_api(fuente, e):
     return res
 
 
+# ---------- simulacro: un conteo inventado que avanza con el tiempo ----------
+_SIM = {"t0": None}
+SIM_FINAL = [("Lista Simulada A", 0.43), ("Lista Simulada B", 0.34), ("Lista Simulada C", 0.15), ("Lista Simulada D", 0.08)]
+
+
+def adaptador_simulacro(fuente, e):
+    """Devuelve el conteo de una elección inventada, según cuánto pasó desde la primera consulta. La lista A arranca con
+    ventaja amplia y la va reduciendo (como cuando entran primero las mesas de una zona), pero nunca pierde el primer puesto."""
+    dur = max(3.0, float(fuente.get("duracion_min") or 12))
+    total = int(fuente.get("mesas") or 1000)
+    if _SIM["t0"] is None:
+        _SIM["t0"] = time.monotonic()
+    p = min(1.0, (time.monotonic() - _SIM["t0"]) / (dur * 60))
+    p = 0.05 + 0.95 * (p * p * (3 - 2 * p))  # arranca en 5% (una categoría sin votos no es válida) y siempre avanza
+    esc_ = max(1, int(round(total * p)))
+    electores = esc_ * 320
+    votantes = int(electores * 0.72)
+    blancos, nulos = int(votantes * 0.02), int(votantes * 0.01)
+    positivos = votantes - blancos - nulos
+    ventaja = 1 - p  # 1 al principio, 0 al final
+    shares = [SIM_FINAL[0][1] + 0.07 * ventaja, SIM_FINAL[1][1] - 0.05 * ventaja, SIM_FINAL[2][1] - 0.01 * ventaja, SIM_FINAL[3][1] - 0.01 * ventaja]
+    listas, resto = [], positivos
+    for (nombre, _), sh in zip(SIM_FINAL[:-1], shares[:-1]):
+        v = int(round(positivos * sh))
+        listas.append({"nombre": nombre, "partido": "", "votos": v})
+        resto -= v
+    listas.append({"nombre": SIM_FINAL[-1][0], "partido": "", "votos": resto})
+    ahora_ = ahora().astimezone(timezone.utc)
+    return {"eleccion_id": e["id"], "actualizado": ahora_.strftime("%Y-%m-%dT%H:%M:%SZ"), "tipo": "provisorio",
+            "fuente": {"nombre": "SIMULACRO: datos inventados por el sistema", "url": "https://github.com/nexxusconsultora-lab/salta-monitor"},
+            "mesas": {"escrutadas": esc_, "total": total}, "participacion_pct": 72.0, "electores": electores, "votantes": votantes,
+            "categorias": [{"id": "simulacro", "nombre": "Gobernador (simulacro)", "distrito": e.get("distrito", ""), "votos_validos": positivos + blancos,
+                            "base_nombre": "votos válidos", "en_blanco": blancos, "nulos": nulos, "listas": listas,
+                            "mesas": {"escrutadas": esc_, "total": total}}]}
+
+
+ADAPTADORES["simulacro"] = adaptador_simulacro
 ADAPTADORES["dine_api"] = adaptador_dine_api
 
 
@@ -453,7 +494,7 @@ def _historial(e, limpio, destino):
 
 def _pasada():
     """Una vuelta completa. Devuelve qué pasó, para que el modo bucle decida cuándo seguir."""
-    r = {"rc": 0, "activas": False, "esperando": None, "cambios": False, "completo": False, "intervalo": 60}
+    r = {"rc": 0, "activas": False, "esperando": None, "cambios": False, "completo": False, "intervalo": 60, "error": "", "resumen": ""}
     cfg = _leer(CFG)
     if not cfg or not isinstance(cfg.get("elecciones"), list):
         log("ERROR: no se pudo leer data/elecciones.json o no tiene la lista «elecciones».")
@@ -494,6 +535,7 @@ def _pasada():
         except Exception as x:
             log(f"  ERROR al pedir los datos: {type(x).__name__}: {x}")
             r["rc"] = 1
+            r["error"] = f"{type(x).__name__}: {x}"
             continue
         previo = _leer(destino)
         probs, limpio = validar(crudo, e, previo, t)
@@ -502,6 +544,7 @@ def _pasada():
             for p in probs:
                 log("   -", p)
             r["rc"] = 1
+            r["error"] = "datos rechazados por la validación: " + "; ".join(probs[:2])
             continue
         for a in limpio.get("avisos", []):
             log("  AVISO:", a)
@@ -515,6 +558,7 @@ def _pasada():
             json.dump(limpio, f, ensure_ascii=False, indent=1)
         _historial(e, limpio, destino)
         r["cambios"] = True
+        r["resumen"] = f"{m['escrutadas']} de {m['total']} mesas escrutadas"
         log(f"  Guardado en {ruta}: {m['escrutadas']} de {m['total']} mesas.")
     r["completo"] = bool(completos) and all(completos)
     return r
@@ -522,6 +566,17 @@ def _pasada():
 
 def recolectar():
     return _pasada()["rc"]
+
+
+def alertar(titulo, texto):
+    """Aviso al celular (usa scripts/avisar_falla.py y los secretos de siempre). Nunca rompe la recolección."""
+    try:
+        if AQUI not in sys.path:
+            sys.path.insert(0, AQUI)
+        import avisar_falla
+        avisar_falla.enviar(titulo, texto, os.environ.get("ENLACE_CORRIDA") or None)
+    except Exception as x:
+        log(f"  (no se pudo mandar el aviso: {type(x).__name__})")
 
 
 def guardar_git():
@@ -546,21 +601,51 @@ def guardar_git():
     return False
 
 
-def bucle(minutos):
-    """Repite la recolección cada ~60 segundos durante 'minutos', subiendo cada dato nuevo apenas llega."""
+ERRORES_PARA_AVISAR, MINUTOS_SIN_DATOS, SEPARACION_AVISOS = 5, 20, 30 * 60
+
+
+def bucle(minutos, quietos_max=10):
+    """Repite la recolección cada ~60 segundos durante 'minutos', subiendo cada dato nuevo apenas llega.
+    Avisa al celular: cuando llega el primer dato, tras 5 fallas seguidas y si pasan 20 minutos sin datos nuevos."""
     fin = time.monotonic() + minutos * 60
-    quietos, exito = 0, False
+    quietos, exito, errores, hubo_dato = 0, False, 0, False
+    desde_publicacion = ultimo_cambio = None
+    ultimo_aviso = {"errores": None, "quieto": None}
+
+    def puede(clave, ahora_m):
+        a = ultimo_aviso[clave]
+        return a is None or ahora_m - a >= SEPARACION_AVISOS
+
     while True:
         r = _pasada()
+        m = time.monotonic()
         exito = exito or (r["rc"] == 0 and r["activas"])
         quietos = 0 if r["cambios"] else quietos + 1
+        errores = errores + 1 if (r["rc"] != 0 and r["activas"]) else 0
+        if r["activas"] and not r["esperando"] and desde_publicacion is None:
+            desde_publicacion = m
+        if r["cambios"]:
+            ultimo_cambio = m
+            if not hubo_dato:
+                hubo_dato = True
+                alertar("Empezó a llegar el conteo", "Primer dato oficial guardado: " + (r.get("resumen") or "ver el sitio") + ". El seguimiento está funcionando.")
+        if errores >= ERRORES_PARA_AVISAR and puede("errores", m):
+            ultimo_aviso["errores"] = m
+            alertar("El recolector no logra leer los resultados", f"{errores} intentos seguidos con error. Último: {r.get('error') or 'ver el registro'}. Revisá la fuente oficial.")
+        ref = ultimo_cambio if hubo_dato else desde_publicacion
+        if (ref is not None and r["activas"] and not r["esperando"] and not r["completo"] and r["rc"] == 0
+                and m - ref >= MINUTOS_SIN_DATOS * 60 and puede("quieto", m)):
+            ultimo_aviso["quieto"] = m
+            alertar("Sin datos nuevos hace %d minutos" % ((m - ref) // 60),
+                    ("La fuente oficial no publicó novedades." if hubo_dato else "Pasó la hora de publicación y todavía no hay resultados.")
+                    + " Puede ser normal o un problema: mirá el sitio oficial.")
         if r["cambios"] or quietos == 1:
             guardar_git()
         if not r["activas"]:
             log("No hay nada más que recolectar: termina el ciclo.")
             return 0
-        if r["completo"] and quietos >= 10:
-            log("Conteo completo y sin novedades en 10 consultas seguidas: termina el ciclo.")
+        if r["completo"] and quietos >= quietos_max:
+            log(f"Conteo completo y sin novedades en {quietos_max} consultas seguidas: termina el ciclo.")
             break
         espera = r["intervalo"]
         if r["esperando"]:
@@ -571,6 +656,40 @@ def bucle(minutos):
         time.sleep(espera)
     guardar_git()
     return 0 if exito else 1
+
+
+SIM_CFG = "data/elecciones_simulacro.json"
+
+
+def _reiniciar_simulacro(ruta_cfg):
+    """Borra los resultados de un simulacro anterior (si no, el nuevo arranque parecería un 'retroceso' y se rechazaría).
+    Salvaguarda: solo toca elecciones marcadas como simulacro, con lector 'simulacro', y jamás el archivo de la elección real."""
+    cfg = _leer(ruta_cfg) or {}
+    for e in cfg.get("elecciones") or []:
+        r = (e or {}).get("resultados_url") or ""
+        if (e or {}).get("simulacro") is True and ((e.get("fuente_resultados") or {}).get("adaptador") == "simulacro") \
+                and RUTA_OK.match(r) and r != "data/elecciones_resultados.json":
+            for rel in (r, r[:-5] + "_historial.json"):
+                try:
+                    os.remove(os.path.join(RAIZ, rel))
+                except OSError:
+                    pass
+
+
+def simulacro(minutos):
+    """Ensayo general: corre el ciclo de la noche de elecciones, pero con la elección inventada del archivo de simulacro."""
+    global CFG
+    ruta = os.path.join(RAIZ, SIM_CFG)
+    if not os.path.exists(ruta):
+        log(f"ERROR: falta {SIM_CFG}. Subilo a la carpeta data y volvé a intentar.")
+        return 1
+    CFG = ruta
+    _SIM["t0"] = None
+    _reiniciar_simulacro(ruta)
+    log(f"SIMULACRO de {minutos} minutos: elección inventada, no se toca ninguna elección real.")
+    rc = bucle(minutos, quietos_max=2)
+    alertar("Terminó el simulacro de elección", "El ensayo general terminó. Abrí el sitio en Elecciones > simulacro para ver el recorrido completo.")
+    return rc
 
 
 # ---------- diagnóstico ----------
@@ -665,6 +784,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("--diagnosticar", action="store_true", help="visita las páginas oficiales y guarda qué responden")
     ap.add_argument("--bucle", type=int, metavar="MINUTOS", help="recolecta cada ~60 segundos durante esos minutos y sube cada dato nuevo")
+    ap.add_argument("--simulacro", type=int, metavar="MINUTOS", help="ensayo general con una elección inventada, durante esos minutos")
     ap.add_argument("--probar-dine", action="store_true", help="consulta la API de la DINE con la elección de 2023 para ver códigos y acceso")
     a = ap.parse_args()
-    sys.exit(bucle(a.bucle) if a.bucle else probar_dine() if a.probar_dine else diagnosticar() if a.diagnosticar else recolectar())
+    sys.exit(simulacro(a.simulacro) if a.simulacro else bucle(a.bucle) if a.bucle else probar_dine() if a.probar_dine else diagnosticar() if a.diagnosticar else recolectar())
