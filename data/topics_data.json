@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-09T07:54:58.554081+00:00",
+  "generated_at": "2026-11-10T00:32:47.289758+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 520,
+      "total_mentions": 522,
       "sentiment_breakdown": {
         "positivo": 32,
         "negativo": 43,
-        "neutral": 445
+        "neutral": 447
       },
       "sentiment_by_day": {
+        "2026-11-09": {
+          "total": 2,
+          "score_sum": 0
+        },
         "2026-11-08": {
           "total": 3,
           "score_sum": -2
@@ -296,15 +300,15 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 101
+          "count": 90
         },
         {
           "term": "presupuesto",
-          "count": 64
+          "count": 62
         },
         {
           "term": "intransigente",
-          "count": 51
+          "count": 52
         },
         {
           "term": "elintra",
@@ -312,7 +316,7 @@
         },
         {
           "term": "informate",
-          "count": 32
+          "count": 31
         },
         {
           "term": "pasa",
@@ -426,6 +430,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Martín Menem defendió el financiamiento universitario tras el mensaje del Papa - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaDF4d2o4Q0ZEZXR0LVBXSGJqS09rTmlkaDhkWVpwTmpldGVSTW5HZlhBWnM3MExDTS03dTdLZGJyS1hPMmFfMFBlTHIya3J2WExQaGdyaGtSSE40emFReERvbkhaRVUtcE40UXdQRW04c0FpNkZSaFRCbnEwNnNoeDhXNUZiWC0xcDhnb3JKMWZSSWtSVDE2czhHeWFSRTNkaV84WTZn?oc=5",
+          "source": "El Intransigente",
+          "date": "Mon, 09 Nov 2026 19:41:19 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "La riqueza minera de Salta que no se traduce en regalías ni en riqueza para los salteños - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPamlTVF9YRFk2VGgwWFMxYnRGejNEWDdlMnBoZmplRUhhcjY2UmlYMVBTMUg2N3B0ci1XSVZManBmMDVLOUxjZ2ZRU0NfalJEUmpFOEttaXJqY1VoQkQteGpTSUh0cnJNdG5EbDUySTVEM29OSERQU0NjRDVpOFRYcUdFMXFoeDhPYURXazJ1ZElwLThTUzR6SmdTNA?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Mon, 09 Nov 2026 20:40:43 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Jorge Brito cuestionó la credibilidad del fútbol y apuntó contra Federico Beligoy - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1FndW1xWVEyZlFBM3hyamwyWVVIemNnMWNfSXdicHVhSlpPQUQ5VDhrWnRaWVg0elppamRWMVptLTdsRDhScWV2Qks5R1c2c2FPZU9jREtkMmJzNFhIWlpOSGxJRE5jOEJ1TENsUTBmbUU2Rmh5anUxTjdlNXJyNXRvUm4weDdqLThBcEVuSnBkN3UyNkw1anlOT0xnQVpEVGZSbDg1NzNya1hEZktFVjJn?oc=5",
@@ -620,20 +638,6 @@
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObFh1cWpaM2JVb245bUFWdmxtZGMxcDJwXzNjOHZXUGNzeVcyZDVwenZiVEhDZUd1Q3BtdURyNmFIR1FVRG9MSEhZdkxKS05JR3prbzlvazExTkVmRUdNcGtaeWdWcEJ0NFZkT2pkSGRSTGJVcFp5S082bVoyY1pTN0M5dTB6aDk0c2NvZWctNVN1ZHU4QXpiRi1CbDdnS3R2?oc=5",
           "source": "El Intransigente",
           "date": "Thu, 05 Nov 2026 17:47:29 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Presupuesto provincial 2027 - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT21TdDZNWlZWbmxiVFV3M2hlVThVb3ZNZEZxOG81Vl9WZloyZFdqLVY2ZEV6SzdDOXZDV2d4LWJqNmhZVjlBRGhwdGNtTFBtMmtSVmRkUndJTkttRTF0QXZ6ZnFweUVPdncwR2ZUelJuZ3ZveGxiSnZ2MXAyUGs2Y1RMSGNSQnBXSk9R?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 05 Nov 2026 03:38:41 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Senado de la Nación dictaminó la Ley de Discapacidad con apoyo de varios bloques - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXRWYmwxUC1Ob0JvengySFQ5bUtCVlVhcHBHbkczZ2xqVVZrd1U0ekRsc3pPSjItbXFZd19oeTNwNk5YRzEyS3hCUHk2SWlCLUdzWmdVblpQTHNaakNsT0dXWVBrSjRMSmRsS083Slp6OHQxSW1hRlZDVWpSZjd6SXJRdTZ5QmJCZHNXY0lLVFpHcG5pbG5JdzIwdlUwYVMxblg1VFVhSmQ2RnJxZ1JZRHNpRVdQS0E?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 04 Nov 2026 22:32:43 GMT",
           "sentiment_label": "positivo"
         }
       ]
