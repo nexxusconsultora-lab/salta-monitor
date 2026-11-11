@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 469,
+    "total_mentions": 471,
     "sentiment_breakdown": {
-      "positivo": 121,
-      "negativo": 81,
+      "positivo": 122,
+      "negativo": 82,
       "neutral": 267
     },
     "sentiment_by_day": {
+      "2026-11-11": {
+        "total": 2,
+        "score_sum": -1
+      },
       "2026-11-10": {
         "total": 7,
         "score_sum": 4
@@ -462,14 +466,14 @@
       },
       {
         "term": "gustavo",
-        "count": 16
-      },
-      {
-        "term": "gobernador",
-        "count": 5
+        "count": 17
       },
       {
         "term": "nación",
+        "count": 6
+      },
+      {
+        "term": "gobernador",
         "count": 5
       },
       {
@@ -583,6 +587,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "C14 y C15: El Consejo Económico también reclama a Nación, para el desarrollo de Salta",
+        "link": "https://informatesalta.com.ar/reclamo/c14-y-c15--el-consejo-economico-tambien-reclama-a-nacion--para-el-desarrollo-de-salta_a6af45dc2696ebfa450e853cb",
+        "source": "Informate Salta",
+        "date": "Wed, 11 Nov 2026 15:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Presupuesto 2027: Gustavo Sáenz enfrenta reclamos mientras define qué obras tendrán financiamiento",
+        "link": "https://elintra.com.ar/2026/11/11/presupuesto-2027-gustavo-saenz-enfrenta-reclamos-mientras-define-que-obras-tendran-financiamiento/",
+        "source": "El Intra",
+        "date": "Wed, 11 Nov 2026 15:05:24 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "El gobernador Gustavo Sáenz entrega 93 viviendas en Rosario de Lerma - Salta Sur",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcXRadWJvcmtYUVIzaFFPWmxwT2s3NGhyQzVIWnZBRDV1Wm5LODg1QWozbnR5cnF3OHFZc1NtNmFvTnRSclhzSHlYeWZsZHkyUmRvV0RlSGctMnNVUjQ1U1VZU1RBVzdTQnVCdUhVdXdkMGNTNVVyOVgxSHVZM2JGVUM3bmVvUkJmZUxtVEpYU2dSeUVHX2pzVNIBngFBVV95cUxNZDEwQVJKREhOWmI0M2xoZURwZ0ZfTlQtanU5ZWVUNUVzbmZqRHhpbFpiOWtRd2FFSXZOc2NyU2E5TzdSNXFucWRoNFdwdHR6c1NJVVh5NDdENnIxRW00bXZVQW1NRGFjVFVLLVBzNDdWaGQtdi0tVzNuX1dicnhKUllQNmR5Ym9fWk45VE1NTkdFcFhWWnhNQURTQ3Axdw?oc=5",
@@ -778,20 +796,6 @@
         "source": "La Hora de Salta",
         "date": "Thu, 05 Nov 2026 13:56:06 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz oficializó cambios en la Justicia provincial",
-        "link": "https://elintra.com.ar/2026/11/05/gustavo-saenz-oficializo-cambios-en-la-justicia-provincial/",
-        "source": "El Intra",
-        "date": "Thu, 05 Nov 2026 17:42:45 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Subsidio al transporte: “No pedimos privilegios, sino igualdad”, criticó Jarsún a Nación",
-        "link": "https://informatesalta.com.ar/reclamo/subsidio-al-transporte---no-pedimos-privilegios--sino-igualdad---critico-jarsun-a-nacion_a6aeb327dbcf08930c42a9fb0",
-        "source": "Informate Salta",
-        "date": "Wed, 04 Nov 2026 14:30:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -10117,13 +10121,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 64,
+    "total_mentions": 65,
     "sentiment_breakdown": {
       "positivo": 10,
       "negativo": 9,
-      "neutral": 45
+      "neutral": 46
     },
     "sentiment_by_day": {
+      "2023-10-17": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-04-16": {
         "total": 1,
         "score_sum": 0
@@ -10360,18 +10368,24 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 5
+        "count": 6
       },
       {
         "term": "juárez",
-        "count": 5
+        "count": 6
       },
       {
         "term": "pasa",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "No pagar alimentos es de mala persona",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOczBQQktPM251cGVSeTZUWkFtOVhWY2ExQVFlaDFQRGJ0WUdpRWQ3clZPZ3BIS0d5UU0wUEZhVDlhd2xMQ3hrX2MwbWxEcFl0UWhXTXY5TGszQzZMWmRBT2U2b2VlaTV2NWdjdTlCWkRSZ1hFT2llTHZRQk5VT0l1bFBVLWE3Q1duZGdFeHYyN3jSAZABQVVfeXFMTnMwUEJLTzNudXBlUnk2VFpBbTlYVmNhMUFRZWgxUERidFlHaUVkN3JWT2dwSEtHeVFNMFBGYVQ5YXdsTEN4a19jMG1sRHBZdFFoV012OUxrM0M2TFpkQU9lNm9lZWk1djVnY3U5QlpEUmdYRU9pZUx2UUJOVU9JdWxQVS1hN0NXbmRnRXh2Mjd4?oc=5",
+        "date": "Tue, 17 Oct 2023 07:00:00 GMT"
+      },
       {
         "quote": "Miguel Nanni y Patricia Bullrich van a pelear por la Argentina que merecemos",
         "source": "Que Pasa Salta",
@@ -10455,12 +10469,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTmVYN2N6dDlsRnZCeTJDdnl1RjV4c2QxWkRiT09tMzAyS1FqdEpILWZjc2x1dFlsT1JWTmdLb0h0OUwtZFhZRzBzSXNwU2wyM016YkhNeUt1bUQxVEhHcFFNd1VLcUxQQ01yb0hzREpDTXl3RXhFWmNhTWRUMTF6b1BuUWV4ZWVzczl2RWhnN2JYTnZLZmdWR3FwVkMyM2JCX3J5cm5JOTN0UE16NC1DdG10b3ZHQzlVd1dpQ3pBSWdya2FvVk5ZQ1RfUnpmcGdadzRNNVdLQWpaWVFkYkMwY1B4UU1xMGtwZlZtN2F5UkFXNGY5Wm1ScGplMDZBS09lS1NBc2YzSjY4S2Fm?oc=5",
         "date": "Tue, 29 Aug 2023 07:00:00 GMT"
-      },
-      {
-        "quote": "sabe escuchar",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkNXV0ZNWkZJR2JYRktkZmFyOVlLOFVDbEdTYVNkQmNBdG4zNlplQ2txSU5wVXB3RmV4c0Qwal9FaXdqS2ZuRS1aLWUyVmFkWU12M3VkNkFuN2xEVkhaNkRCdURPR214T1pwMktXdHZGQzR5S2QxSGNDM1pPaEd2WUhBRXI5QXVjSkpaLUsxUUh3VTYzaHpjU2tfdmZEWkVSTHU2azdxMHhPQWpDVmQtQWctTWJzZVRSU1ZFblVWZjRNR2JuenNn?oc=5",
-        "date": "Tue, 12 Dec 2023 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -10478,6 +10486,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez contra la candidata de Milei: \"No pagar alimentos es de mala persona\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOczBQQktPM251cGVSeTZUWkFtOVhWY2ExQVFlaDFQRGJ0WUdpRWQ3clZPZ3BIS0d5UU0wUEZhVDlhd2xMQ3hrX2MwbWxEcFl0UWhXTXY5TGszQzZMWmRBT2U2b2VlaTV2NWdjdTlCWkRSZ1hFT2llTHZRQk5VT0l1bFBVLWE3Q1duZGdFeHYyN3jSAZABQVVfeXFMTnMwUEJLTzNudXBlUnk2VFpBbTlYVmNhMUFRZWgxUERidFlHaUVkN3JWT2dwSEtHeVFNMFBGYVQ5YXdsTEN4a19jMG1sRHBZdFFoV012OUxrM0M2TFpkQU9lNm9lZWk1djVnY3U5QlpEUmdYRU9pZUx2UUJOVU9JdWxQVS1hN0NXbmRnRXh2Mjd4?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Tue, 17 Oct 2023 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Últimas noticias de Mónica Juárez hoy - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UWlNFYkZBc1lOcmtFcmNoMmRHR2VnZE94azY3ejZFa09BNFBNZVAydVIzV19PQ21jVlJKRTZxaGducVR5RU5WdTdTaF8wV25BVUJXMWw5Q2w0T1Zna3BhbFVlZm5YZw?oc=5",
@@ -10680,13 +10695,6 @@
         "source": "Aries On Line",
         "date": "Tue, 12 May 2020 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Mónica Juárez calificó de “vergonzosa” la defensa de diputados a Estrada - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQnFwR0lEQ2JBZGphaDM4SXhnem82RUxwQUlsNlJUZndJVEpjeXA4ZUstLTdtS2JJQWFrZnlEWUdYNkMxVnp6WTZ2Z0FnN0dzNmNvLWFmUFJndjZqQU81UkMtUS1VelEtTzNvWnFMLXZZME43Q1Y0eGpNSDFQbDN0X21NcHl1NXVYNkF6b0NtVUYtWXpqSmludlpsUU8yVEhsQnVlcDJzVy0?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Thu, 16 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -14934,13 +14942,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 50,
+    "total_mentions": 51,
     "sentiment_breakdown": {
-      "positivo": 1,
+      "positivo": 2,
       "negativo": 13,
       "neutral": 36
     },
     "sentiment_by_day": {
+      "2021-11-25": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2025-10-09": {
         "total": 1,
         "score_sum": 0
@@ -15129,11 +15141,11 @@
     "top_topics": [
       {
         "term": "orozco",
-        "count": 3
+        "count": 4
       },
       {
         "term": "gustavo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -15271,6 +15283,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Asunción de diputados: Un gesto distintivo de Gustavo Orozco logró diferenciarse del resto de los legisladores - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZ1pyWmoydGtjdk42UzJlV0RYNHJzZ1hrWGtfSEtQdUs3ZEJvWENJNTJtR0VIRGdJUnlNQ0ZyWkFsSUtRcGczcVljN1M5bEN2eXBtenJoLUFMd0JVOFQzUlczZjNTUHk5QzZkajg4QVNFS1Z2UzdzX1JJQjVNNjU2a2ZJNGF3TGZBLVF4bVJWVnRlZU5tR09BSjVDZnl6Vi0xcEVIWHFrLUFPdko4RjlraGU2ZXZFSUN6ak0xTm8xa3B2VktObFdSekhvdEFVWFo3Y2FsbVEtcng2Rm5kRXdQaUlDYy1rVVhHZ2VKN1B2UmVZaG9qUVF30gH-AUFVX3lxTE9CSXNfMlNhZHpsQWpoWTE3M1Q4LWRYSVgwdXFzN0I3VVRVRzVFY0NaTm1FRURmeGdiMnRLZHpWSEZwb1JYemsxeHVLNDlyblJIRlBSMEhUWXJhMS1SdENBeUJ5QlVRQWkwclYxdmZwZDBncWRaN3RybEtEQ3pSUVdWdkg2b0RDc3BoQnBHbWV2UWJpdkRDNjdMUUM5eExfTzhFU0p2ZGt5bVZ2bThfbEhqVi1XakZGMHRrbURwMnB3S21IbGwtNjc0R0pWZlBybkZaTFc0RmFaa0pyY1MyaFNhUXpVa0E4ZDZqQzAyWl85a0RSNzljNE84UXRrTmt3?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 25 Nov 2021 08:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "El diputado Gustavo Orozco pidió que investiguen a quienes le compraron aviones a Machado - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX01ocFYwM3F0RGlJUG8ydHJZUUJEN2xtMWhPR05wTTV0RW02RXBnY2VsRTFQOHhLaUFGXzBETDViUW9rX0JHN2c0WTlncmNHeURWZkYzWWg0QlNwVzVIeldsejVKTGZEMG9lSHk1ekFLd2I4ZjNTYUpCVUxobEgzdjZFckNSZjlvYW1VT1g2Q3NsYk40T2RKWTlUNnpUaVFUcGpoQ3Z2VlNoMXYzRmd3UndVN2hTeEFqSkFsRXllYXlOZw?oc=5",
@@ -15472,13 +15491,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOekRvNUpxdW5aZWV2R0NCZWt3VzYzWlZxSkVEdW9zY0N2Z3RUWGZadkZpSjhFZUdIMl9MdFdWNUhPaUNuLTJPZWZMUEdZQ0Niblk1ZmtfUDVJaWZHTXZzMmJVUzV2VGVWVVBIdUxOQ2g1MjFmajBkSmxwOXQ3Mk9BcFlRRUhra0Jvb1JRVjBsSWRmV0lhM0JncmhURDN3eFc4b09ZNEYtQ0I1SnF2R3hTTC00TU5iaUNoWmFySExHZXM?oc=5",
         "source": "Expresión del Sur",
         "date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Orozco exige mayor control sobre quienes ingresan a Rosario de la Frontera - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLUxjTzZQUXVlWXZ1QzBqVVBiQ2J3QnR0dGZsQmNLQ0lsQ0lvcWpnTGhwZTdSZkpIbG9tUHRfWGNzVTYwSDNjU3JCZ2RDakRPbzYwZXJ0Rm9hZTFpb3hUYzUxNUg5bjg1cVlWTjFTTVAydUk3TUt1cFZCRFgyM1NxUGhHaDZFNGJYUFI1LXB5cWRaWWd0RjlkSmF3RmU0VFNDc3dKSzVpZkdpVzBiSjBGRGdoVHVLWHRT?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Wed, 08 Apr 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -18856,18 +18868,10 @@
     "top_topics": [
       {
         "term": "malvina",
-        "count": 3
-      },
-      {
-        "term": "gareca",
-        "count": 3
-      },
-      {
-        "term": "concejo",
         "count": 2
       },
       {
-        "term": "elintra",
+        "term": "gareca",
         "count": 2
       }
     ],
@@ -20799,16 +20803,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "darío",
-        "count": 2
-      },
-      {
-        "term": "madile",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Que Dios y la Patria me lo demanden",
@@ -24616,24 +24611,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "eliana",
-        "count": 2
-      },
-      {
-        "term": "bruno",
-        "count": 2
-      },
-      {
-        "term": "nuevo",
-        "count": 2
-      },
-      {
-        "term": "diario",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [
       {
         "quote": "Eliana Bruno",
@@ -25265,13 +25243,17 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
-      "positivo": 3,
+      "positivo": 4,
       "negativo": 6,
       "neutral": 37
     },
     "sentiment_by_day": {
+      "2026-11-11": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2024-03-01": {
         "total": 1,
         "score_sum": 0
@@ -25587,6 +25569,13 @@
     ],
     "recent_articles": [
       {
+        "title": "La Corte confirmó la constitucionalidad de la Ley de Participación Democrática",
+        "link": "https://informatesalta.com.ar/justicia/la-corte-confirmo-la-constitucionalidad-de-la-ley-de-participacion-democratica_a6af46ec0696ebfa450ea0987",
+        "source": "Informate Salta",
+        "date": "Wed, 11 Nov 2026 14:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "Carlos Zapata: “El Presidente fue claro cuando dijo que necesitaba 18 y 24 meses para estabilizar la situación” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRldQWUtPY21Ja2xHTng4VVlrdnd6XzFEWUNXTWZVdjNCLVVJRDdoQ1ZYUlpiUGJTMDNPejBvRld6ckwxX0dRSFBQLTZMbnMtLXM0ZjBWdVp3VXp6R08zSXNVUFQ1R1pXN21IRnpGVDZJQV9NLXp5aUwwOFpDWGI2Sms1WjRCZDJESzVXNHBQVHNFZk44bndnWHEyQ2xXN3RHMTJLMC10SVZ2eDVFd0I3S2Q1S0pNclhmYnZXXzFBOExaVHJBN3M4eFN2MGF0T2tTQkpWMkg5RzJMQmc?oc=5",
         "source": "Elintra.com.ar",
@@ -25788,13 +25777,6 @@
         "source": "El Intra",
         "date": "Thu, 01 Oct 2026 15:31:00 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "“Cagón”, “vende patria”, “tontita”, viejo facho”: el debate sobre Malvinas con escándalo entre Grabois, Zapata y otros",
-        "link": "https://informatesalta.com.ar/nacional/-cagon----vende-patria----tontita---viejo-facho---el-debate-sobre-malvinas-con-escandalo-entre-grabois--zapata-y-otros_a6abd7355488955bbb7910fa1",
-        "source": "Informate Salta",
-        "date": "Wed, 30 Sep 2026 20:54:32 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -25802,13 +25784,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 6,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2026-11-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-02-18": {
         "total": 1,
         "score_sum": 0
@@ -25933,11 +25919,11 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 3
+        "count": 4
       },
       {
         "term": "bernardo",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -26010,6 +25996,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El estetoscopio de Bernardo Biella pasó por la Córdoba de Llaryora y late por Durand",
+        "link": "https://elintra.com.ar/2026/11/11/estetoscopio-bernardo-biella-paso-cordoba-llaryora-late-durand/",
+        "source": "El Intra",
+        "date": "Wed, 11 Nov 2026 11:16:02 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bernardo Biella votará en contra de la reforma laboral si no se modifica el artículo sobre licencias médicas - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeVlzMEoyVmlQOF9OOEhnRmRBVmJHRk5uVFhCcDF3Ti1OWFJaM2gybTNwNFZHLTh0MHZTbHdTb3RrNWdra1o4SlBtQWpuVjNoajg4Vlc0YW5lemVZeTV5QTlOb0dtV1luRlBwa2hsTVp6dEFuSzdZSm1pQzB1VDJ5SFBjUEZ6NVJQMjY0Z1RVY2F4VzJPd1VPbHE3eWgyVjhtemFQMUV3ZUtrbWQ1TmZldFZPQ2NfbGQ5a2haY2o4U0Jjd0FHMFk3Y1Z3UEp6NEhSMWNFTEt1RDItWlk?oc=5",
@@ -26212,13 +26205,6 @@
         "source": "El Tribuno",
         "date": "Mon, 29 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tras la polémica, el Gobierno presentó un nuevo proyecto sobre Discapacidad que mantiene gran parte del sistema vigente",
-        "link": "https://informatesalta.com.ar/gobierno/tras-la-polemica--el-gobierno-presento-un-nuevo-proyecto-sobre-discapacidad-que-mantiene-gran-parte-del-sistema-vigente_a6ab333419606ad8515dfdc15",
-        "source": "Informate Salta",
-        "date": "Wed, 23 Sep 2026 01:51:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -27969,13 +27955,17 @@
     "id": "dip-griselda-edith-galleguillos",
     "name": "Griselda Edith Galleguillos",
     "role": "Diputado/a provincial por Rosario de Lerma",
-    "total_mentions": 29,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 5,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2025-12-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-11-25": {
         "total": 1,
         "score_sum": 0
@@ -28092,11 +28082,11 @@
     "top_topics": [
       {
         "term": "griselda",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galleguillos",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -28170,6 +28160,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Griselda Galleguillos presidirá la Comisión de Minería en Diputados y reivindicó el rol del interior y las mujeres - El Tintero de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM0otNkZXV3FNRmFSN1Rrd3d5UXlQYkhNbF9OR05Jck5YUEd2UkZXMWhFRS0welg0d0pIQmZibU1uWmp1WTlESlVIOHdLVERNUG51aTFLY0hZRkpQUldlaVU1dlRsWFh3RV9mcEtxTXo0REo1Z1pWNmJhNDFuWUtRTXhLbldmenpUZFV4blYxTUNFNDkycEJuMDV3NGdHMmZ3WHpvVy1wS1h6MDZGUENubUdEdTk3a2xOUktHbzRqNDdBdw?oc=5",
+        "source": "El Tintero de Salta",
+        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Griselda Galleguillos juró como diputada vestida de novia: “Hoy me estoy casando con mi gente” - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPV0xGa08teHE1d2tIc3hWN29aVDFtVl9QYURjQnZyaWtaNjMxTGpPX090U2R6NVhNMmVvTUZqSVAyT3RUUmxCNWxPSTRFRndvWU1hZkUybWtSTkg0dzhyRE9RbW9WdF9CQm1YVng1eDlWWEhIMUV2eGFHWlRzckVVdHM1YW1MbW1BTVlZNVVHbmUzNXFfaEI0NV9PRTk0d005aHJ5M3Y4dDhZWHh1SlB1X1FFaWVhYTlHWXEyLTNvZGU3eC1GcFlhbXBibnFhd09YNWFYcDg3Tjl5bWVUa1g1SmdB0gHnAUFVX3lxTE1fYkUwU3NyU1hRYkw4aGFVSHotNzRkQTctWW5HWl9oM2QtRy1kLVc5RDktRkpSWUR5a053RXdzei02LWFlM0JZd2tDZmlnWmRMNlNKQzQzSzRxVkMzZVdzN1JfMHUtVm1FSTMxbml2bVQxb1prSWxYWlBIV25hZGtLejF5QzhTZ3ozWi1fRG5fRlRjdDlhb2JubDVoZ2RuTlFCMEZYQ1NabDdYRjUwTTVLOHk4NTJ6YTdxa0NDVTcydnpYc2hUWUxieGxnWkRiVlp0d01MVzBFWXphVDhoQVVSb2w2Zy1wbw?oc=5",
@@ -29284,13 +29281,17 @@
     "id": "dip-franco-agustin-lastra",
     "name": "Franco Agustín Lastra",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 5
     },
     "sentiment_by_day": {
+      "2026-11-10": {
+        "total": 1,
+        "score_sum": -1
+      },
       "2026-10-27": {
         "total": 1,
         "score_sum": 0
@@ -29323,6 +29324,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Franco Lastra apuntó contra el Gobierno provincial por la falta de obras hídricas",
+        "link": "https://elintra.com.ar/2026/11/10/franco-lastra-apunto-contra-el-gobierno-provincial-por-la-falta-de-obras-hidricas/",
+        "source": "El Intra",
+        "date": "Tue, 10 Nov 2026 21:08:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Cruce, chicanas y una imitación de Perón: fuerte discusión en Diputados por el agua en los recitales",
         "link": "https://www.eltribuno.com/salta/2026-10-27-18-43-0-cruce-chicanas-y-una-imitacion-de-peron-fuerte-discusion-en-diputados-por-el-agua-en-los-recitales",
@@ -33440,14 +33448,6 @@
     },
     "top_topics": [
       {
-        "term": "cristina",
-        "count": 3
-      },
-      {
-        "term": "fiore",
-        "count": 3
-      },
-      {
         "term": "expofuturo",
         "count": 2
       },
@@ -33460,15 +33460,19 @@
         "count": 2
       },
       {
+        "term": "cristina",
+        "count": 2
+      },
+      {
+        "term": "fiore",
+        "count": 2
+      },
+      {
         "term": "federico",
         "count": 2
       },
       {
         "term": "mangione",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
