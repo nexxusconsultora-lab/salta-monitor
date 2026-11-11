@@ -1,20 +1,24 @@
 {
-  "generated_at": "2026-11-11T01:54:58.290892+00:00",
+  "generated_at": "2026-11-11T08:52:44.743345+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 523,
+      "total_mentions": 526,
       "sentiment_breakdown": {
-        "positivo": 32,
+        "positivo": 33,
         "negativo": 44,
-        "neutral": 447
+        "neutral": 449
       },
       "sentiment_by_day": {
         "2026-11-10": {
-          "total": 1,
+          "total": 2,
           "score_sum": -2
+        },
+        "2026-11-11": {
+          "total": 2,
+          "score_sum": 2
         },
         "2026-11-09": {
           "total": 2,
@@ -304,15 +308,15 @@
       "top_topics": [
         {
           "term": "tribuno",
-          "count": 73
+          "count": 70
         },
         {
           "term": "presupuesto",
-          "count": 58
+          "count": 59
         },
         {
           "term": "intransigente",
-          "count": 50
+          "count": 53
         },
         {
           "term": "elintra",
@@ -328,11 +332,11 @@
         },
         {
           "term": "discapacidad",
-          "count": 16
+          "count": 17
         },
         {
           "term": "milei",
-          "count": 14
+          "count": 15
         }
       ],
       "politicians_involved": [
@@ -434,6 +438,27 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Cristina Pérez habló de la carpa vip en Palermo: «Este no era un evento más» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUxWVWF3UloxS1Q0Nk5YWU1wQVIyTEF0RktYcEUzNTFEY1pKUDMyWENYY0xuVmZUb1k4WFZtVm9xVjdWTXB0bGNxSG9KZGs3VU5UM0Z4WWwwUm8zVXpoWGRsS3M4NFRDODFFODQxUmlhQ2daUnJWZXo3c1gzdXpERGlHQjVrUU5NNklYUWFsa3lTUUFpQm9IaTVuWEVFbU1NM2tJ?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 10 Nov 2026 19:58:29 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Patricia Bullrich destacó el mensaje del Papa León XIV en plena interna con Milei - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV0RTU1Yya1AxMzVXYnNNU2VrWnBnbW0tcm5ib1VvR0JwY0pkdzRuWURVVUMxSWxyNTJncDQtOUtGRzVYTTVtNk9CYzRZNUZjemJJWDZ4dGNXOXltcGllcmRfUVB0dFVmM2Q1M1dhNFBVdDZyeFJGNDRXT3MwMDRDd0tyT3dseEdrdHRTOFdKS2x0MzRKVFk1T1FYbDROSHN5SExvVnc5MXkwT2c?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 11 Nov 2026 05:43:31 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Presupuesto 2027: la oposición busca más fondos para discapacidad y universidades - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPckZUQkxGTGdvcktEZkFrZmNVZ2JuM1B1T3dxXzhRaTNja1RSQXZGR3E0U1hSMld4cmlROE1ENTI2bi1HeDIzLVdMbzRES0c4TjNRcVNhRTdfLXJNd3QzTEpLUDF6TEo3dmlYQU5TOW0wODRkNmVBYXNfWGswMkZNNUo2Slk0eUtmM2p1Qm1vWHZ1RHc5VjVwcEtyOWctTmVRSjVaeldQT092dUE0Nmlv?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 11 Nov 2026 05:15:56 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "La crisis universitaria se profundiza: anuncian siete días de paro y apuntan contra Milei - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdFaTNGMEZ2MHJnLTlhVDdLdWtkcno4bjlKVVg2MTNzUFcwS0M4T2RySEZEMkQwLWVKQWQxb0RMQUhsOVNNUUs2alZvaWtKYXEwWTBCeGgtRjhvR0MtZ1F2VXM5dkpLRkJEbW9YRkkyUHBMMmU4MnR4c0c5a0R2Nm8yMzRDWTTSAYcBQVVfeXFMTU5HRWkzRjBGdjByZy05YVQ3S3VrZHJ6OG45SlVYNjEzc1BXMEtDOE9kckhGRDJEMC1lSkFkMW9ETEFIbDlTTVFLNmpWb2lrSmFxMFkwQnhoLUY4b0dDLWdRdlVzOXZKS0ZCRG1vWEZJMlBwTDJlODJ0eHNHOWtEdjZvMjM0Q1k0?oc=5",
@@ -622,27 +647,6 @@
           "source": "El Tribuno",
           "date": "Fri, 06 Nov 2026 04:34:00 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "La policía de Jorge Macri ataca a vendedores ambulantes y no actuó en el ataque transfóbic - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTh3SVV0RWhwOGlxUGg5LU1UODlLV0Z6ckxSRVRHR3N0YjBZMS1fdTFRbEh5Z21EVl9lVmdQUFhSZGowbmNQY3h4TjkycUdNV01aN2E2SzVicW5tWTI4NXp0ZWM5d08xcW1mSGVyb2lXRzU4WFNXRnJlVk5ldWppdWVqeGo5MjRrRVFkWVpScFlldGVhTkQxcEpsVQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 06 Nov 2026 01:02:48 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Senado de Salta designó a Javier Cancinos como nuevo integrante de la Auditoría General - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUXQwcjZBSmJ0N2k3b2hpT1Q1Z2QzT19xTEd1NXh4RjYyUmFKLU9mT0gwYmhQazktZm91eEpTWk1Ub1RiMW93c2p0eEdXZWk0djI3Q2FFYXc0bXhmd3o3c0htb0dSaXdvR0ZGSzItODZvYVMyUlZzSm9zU2JkSkY0NDNLbE95anRnQURqWjhJQ0xXSkotY0ZYVzhhYW9sQXVxdnAycjU2NUNGbnhlQXE5ckpjaVY1WkkxMlVGVGM1cEl2M0w2U0llejlDSzRRT3lLZS1QYVNtUdIB3AFBVV95cUxPX29MWlNtNkltM1ZfN2Q4R1RacGNBMVVsM2F4UGE2QTNKemRjWno2WFZhbTlVUEZQaWFqV3lDZXdycVhlbVlpYm5Xbm1qdzZsVDU2b1F6YmZ2UzhmUjFYRzB6d0FVbGNKMlB5UEp2YVVqYm5la0lxSkZQaU1qWEMtMlUyQklQSmpHemFLeXZpSU8zQzNCTFBnb2JtYzZnTEpWa2R2ZU9ZVFNhR1ZlRUMyTUhDVHliRXl3UDNDTTZ5aUF2Y2pCSDk5WWVDNjZCb1lLcFY1dUNSSFZsRWE2?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 05 Nov 2026 22:24:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Crímenes de odio en Salta: la Ley Octorina estará incluída en el Presupuesto 2027 - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdkMyc1lnWmlOVEJzZXVWT1lXVzZzTkJXSjg2VmcwbDlVMWdVNVhZT3YzVDhPT1pHV3hTOWJZY3lKbUJVRWVNMWxuUkRDc2RhTDY1UWU4YUNEVjZ3bW5HOUQ5dFVMZ0Z3NDgtZmMyOVRsbGd2YXk5UGdDelUtV2ZDZ0RfSW9iLTNSYWJLWWMtZWlQZEJsTWlUM08wWk5OUDMzQ29zQndUWjNlOHJYOFdlOFF3UDdTVFdHblNhX3ZmVmpwZGpDZi1LVzE1SHIyU3JIX1N1TWVmLVZBamJuc09FbF8yb9IB8gFBVV95cUxQZVNJaHdpemNidUhvWExXOHc5MXNqVkp2RlVUWnp1aUhRSnNWbDIwVFJyRVRGYkpGOFQ1NVhtUVNCNEpwd0l5ZmgxMHVMM2c1MzB5dTk1b1lpelpJalBISlFjNGhZdUlhR09sUUZ3X044V19fM1gwVjdKTFIxRzV3NDVLZldualdJaFk3U1o4eE5VVVNyLUp3OXJmeUpnNnM4WEV4WWZRUEcxakdpT09NajNic2VBZDBaelBvamEyM3hNRkh2X1UzRzlkV0liVmRvZ1dIT3pKLWI0aWZKdWJSRy1iX0VubjJBQVdnQWtxNHJaUQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 05 Nov 2026 21:30:00 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
