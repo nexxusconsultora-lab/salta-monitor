@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-11-10T22:02:37.413059+00:00",
+  "generated_at": "2026-11-11T01:54:57.391304+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 46,
+      "positivo": 3,
+      "negativo": 6,
+      "neutral": 37,
+      "score_sum": -6
+    },
+    "dip-gustavo-orlando-orozco": {
+      "total": 50,
+      "positivo": 1,
+      "negativo": 13,
+      "neutral": 36,
+      "score_sum": -29
+    },
+    "eje-cristina-fiore": {
+      "total": 63,
+      "positivo": 5,
+      "negativo": 14,
+      "neutral": 44,
+      "score_sum": -33
+    },
+    "concejal-angel-ortiz": {
+      "total": 54,
+      "positivo": 5,
+      "negativo": 13,
+      "neutral": 36,
+      "score_sum": -10
+    },
     "sen-roque-cornejo-avellaneda": {
       "total": 79,
       "positivo": 9,
@@ -57,13 +85,6 @@
       "neutral": 23,
       "score_sum": -7
     },
-    "dnac-carlos-raul-zapata": {
-      "total": 45,
-      "positivo": 3,
-      "negativo": 6,
-      "neutral": 36,
-      "score_sum": -6
-    },
     "snac-gonzalo-guzman-coraita": {
       "total": 40,
       "positivo": 5,
@@ -98,13 +119,6 @@
       "negativo": 2,
       "neutral": 10,
       "score_sum": -1
-    },
-    "eje-cristina-fiore": {
-      "total": 62,
-      "positivo": 4,
-      "negativo": 14,
-      "neutral": 44,
-      "score_sum": -34
     },
     "eje-antonio-marocco": {
       "total": 38,
@@ -182,13 +196,6 @@
       "negativo": 9,
       "neutral": 45,
       "score_sum": 2
-    },
-    "dip-gustavo-orlando-orozco": {
-      "total": 49,
-      "positivo": 1,
-      "negativo": 13,
-      "neutral": 35,
-      "score_sum": -29
     },
     "eje-sergio-camacho": {
       "total": 35,
@@ -301,13 +308,6 @@
       "negativo": 1,
       "neutral": 10,
       "score_sum": -2
-    },
-    "concejal-angel-ortiz": {
-      "total": 53,
-      "positivo": 5,
-      "negativo": 13,
-      "neutral": 35,
-      "score_sum": -10
     },
     "concejal-pablo-emanuel-lopez": {
       "total": 50,
@@ -934,7 +934,47 @@
     }
   },
   "by_day": {
+    "2024-03-01": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-10-09": {
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2026-11-10": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 1
+      },
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": -2
@@ -960,6 +1000,12 @@
         "score_sum": 0
       },
       "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-11": {
+      "concejal-angel-ortiz": {
         "total": 1,
         "score_sum": 0
       }
@@ -8478,20 +8524,6 @@
         "score_sum": 0
       }
     },
-    "2024-03-01": {
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-02-29": {
       "eje-federico-mangione": {
         "total": 1,
@@ -9232,20 +9264,6 @@
       "dip-griselda-edith-galleguillos": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2025-10-09": {
-      "dip-laura-deolinda-cartuccia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2024-01-13": {
@@ -18474,22 +18492,22 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 13
-    },
-    {
-      "term": "gustavo",
-      "count": 9
+      "count": 11
     },
     {
       "term": "elintra",
-      "count": 7
+      "count": 8
     },
     {
-      "term": "emilia",
-      "count": 5
+      "term": "gustavo",
+      "count": 8
     },
     {
       "term": "orozco",
+      "count": 6
+    },
+    {
+      "term": "emilia",
       "count": 5
     },
     {
@@ -18501,23 +18519,15 @@
       "count": 4
     },
     {
-      "term": "papa",
-      "count": 4
-    },
-    {
       "term": "lerma",
       "count": 3
     },
     {
-      "term": "roque",
+      "term": "carlos",
       "count": 2
     },
     {
-      "term": "cornejo",
-      "count": 2
-    },
-    {
-      "term": "gobernador",
+      "term": "zapata",
       "count": 2
     },
     {
@@ -18530,6 +18540,14 @@
     },
     {
       "term": "grande",
+      "count": 2
+    },
+    {
+      "term": "avanza",
+      "count": 2
+    },
+    {
+      "term": "construcción",
       "count": 2
     }
   ],
