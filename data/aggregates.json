@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:40:49.518916+00:00",
+  "generated_at": "2026-11-12T16:45:02.053827+00:00",
   "by_politician": {
     "eje-mario-mimessi": {
       "total": 37,
@@ -16,10 +16,10 @@
       "score_sum": -5
     },
     "snac-emilia-orozco": {
-      "total": 116,
+      "total": 115,
       "positivo": 9,
       "negativo": 19,
-      "neutral": 88,
+      "neutral": 87,
       "score_sum": -20
     },
     "concejal-camila-lobo": {
@@ -28,6 +28,13 @@
       "negativo": 1,
       "neutral": 10,
       "score_sum": -1
+    },
+    "concejal-maria-florencia-leon": {
+      "total": 8,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 5,
+      "score_sum": -3
     },
     "sen-manuel-pailler": {
       "total": 54,
@@ -540,13 +547,6 @@
       "neutral": 0,
       "score_sum": 1
     },
-    "concejal-maria-florencia-leon": {
-      "total": 7,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 4,
-      "score_sum": -3
-    },
     "dip-adrian-alfredo-valenzuela-giantomasi": {
       "total": 9,
       "positivo": 0,
@@ -981,6 +981,10 @@
         "total": 1,
         "score_sum": 1
       },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 0
+      },
       "sen-manuel-pailler": {
         "total": 1,
         "score_sum": -3
@@ -996,16 +1000,6 @@
       "eje-nicolas-avellaneda": {
         "total": 1,
         "score_sum": 1
-      }
-    },
-    "2025-05-29": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-09-09": {
@@ -18636,7 +18630,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 12
+      "count": 11
     },
     {
       "term": "ante",
@@ -18680,11 +18674,7 @@
     },
     {
       "term": "orozco",
-      "count": 8
-    },
-    {
-      "term": "emilia",
-      "count": 5
+      "count": 7
     },
     {
       "term": "salteños",
@@ -18692,6 +18682,10 @@
     },
     {
       "term": "nación",
+      "count": 4
+    },
+    {
+      "term": "emilia",
       "count": 4
     }
   ],
