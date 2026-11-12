@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-11T17:18:31+00:00",
+  "generated_at": "2026-11-12T17:40:03+00:00",
   "sources": {
     "diputados-salta": {
       "name": "Cámara de Diputados de Salta — nómina oficial",
       "url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "checked_at": "2026-11-11T17:18:31+00:00",
+      "checked_at": "2026-11-12T17:40:03+00:00",
       "state": "ok",
       "message": "60 en la nómina oficial: 60 ya estaban, 0 nuevos agregados, 0 pasaron a 'ex'."
     },
     "senado-salta": {
       "name": "Cámara de Senadores de Salta — nómina oficial",
       "url": "https://senadosalta.gob.ar/senadores/nomina-de-senadores-departamento/",
-      "checked_at": "2026-11-11T17:18:33+00:00",
+      "checked_at": "2026-11-12T17:40:05+00:00",
       "state": "ok",
       "message": "23 en la nómina oficial: 23 ya estaban, 0 nuevos agregados, 0 pasaron a 'ex'."
     },
     "concejo-salta": {
       "name": "Concejo Deliberante de la Ciudad de Salta — concejales",
       "url": "https://cdsalta.gob.ar/index.php/concejales/",
-      "checked_at": "2026-11-11T17:18:36+00:00",
+      "checked_at": "2026-11-12T17:40:08+00:00",
       "state": "ok",
       "message": "21 en la nómina oficial: 21 ya estaban, 0 nuevos agregados, 0 pasaron a 'ex'."
     },
     "diputados-nacion": {
       "name": "Cámara de Diputados de la Nación — diputados por Salta",
       "url": "https://www.hcdn.gob.ar/diputados/diputados-por-bloque.html",
-      "checked_at": "2026-11-11T17:18:37+00:00",
+      "checked_at": "2026-11-12T17:40:09+00:00",
       "state": "error",
       "message": "Se leyeron 0 filas y se esperaban al menos 5. Por seguridad esta fuente NO se modificó. Último error: URLError: <urlopen error _ssl.c:1001: The handshake operation timed out>. Puede que el sitio haya cambiado de diseño o cargue su lista con JavaScript."
     },
@@ -33,7 +33,7 @@
       "name": "Senado de la Nación — senadores por Salta",
       "url": "https://www.senado.gob.ar/",
       "state": "manual",
-      "checked_at": "2026-11-11T17:19:07+00:00",
+      "checked_at": "2026-11-12T17:40:40+00:00",
       "message": "Cargados a mano (Royón, Orozco, Guzmán Coraita; mandato hasta 2031). No se verifican solos: si alguien cambia, usá el formulario 'Agregar político'."
     }
   }
