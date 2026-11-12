@@ -5300,13 +5300,17 @@
     "id": "sen-manuel-pailler",
     "name": "Manuel Oscar Pailler",
     "role": "Senador/a provincial por General José de San Martín",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 1,
+      "negativo": 2,
       "neutral": 46
     },
     "sentiment_by_day": {
+      "2026-11-12": {
+        "total": 1,
+        "score_sum": -3
+      },
       "2026-11-11": {
         "total": 1,
         "score_sum": 5
@@ -5559,6 +5563,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Manuel Pailler admitió que respaldó a Cancinos sin conocer las denuncias previas",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/11/12/manuel-pailler-admitio-que-respaldo-a-cancinos-sin-conocer-las-denuncias-previas/",
+        "date": "Thu, 12 Nov 2026 14:52:43 +0000"
+      },
+      {
         "title": "Senador Manuel Pailler: “Yo siempre le dije Fondo de Corrupción Histórica” - fmalba.com.ar",
         "source": "fmalba.com.ar",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2JZaWtHRnZ5VGxhYWZMQUFRaG1jN05SeV9aY3JsOVpaWkE5ZjM1N0ZQZndQTFNDQ0VZOWRoY1FRaVczQkpxajhoV0R4eUNvYl96cEhzdGhSVzVqaGQxVHZadFl2SG9ORF8tWUwtNkFKNXliSEJDQ2hrV0swVnMyNlBIOEtHYUdaTl9PQWhBQjBkSXhFOXladVV3?oc=5",
@@ -5566,6 +5576,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Manuel Pailler admitió que respaldó a Cancinos sin conocer las denuncias previas",
+        "link": "https://elintra.com.ar/2026/11/12/manuel-pailler-admitio-que-respaldo-a-cancinos-sin-conocer-las-denuncias-previas/",
+        "source": "El Intra",
+        "date": "Thu, 12 Nov 2026 14:52:43 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Ante el Senado, Turismo expuso su hoja de ruta para potenciar el sector",
         "link": "https://informatesalta.com.ar/legislativa/ante-el-senado--turismo-expuso-su-hoja-de-ruta-para-potenciar-el-sector-_a6af4dc52696ebfa450f47c49",
@@ -5767,13 +5784,6 @@
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVDRUYUVfM1pfNzNZdmxxa1hvR0VERDVjeTJTZmpuTFAtczVjdkVZNXZwQ0NhZUNoMHd1MVBMdVV6WThiM0xFRmtFZUdMNDRMZE9aaW5GNl9jNWJrQ1R2WktuNkFNTXN3OEI5Z1VxYUVHcUV1R19ocUlCUVVveWRUQ1Y1VUJKRjBLOVAta256bXV4b1dsRXFUM2owTVVQaURjU1Zz?oc=5",
         "source": "El Tribuno",
         "date": "Sun, 14 May 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emotivo homenaje al profesor Esteban \"Piriqui\" Andreu - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc09qdHpDY2ptSnYyOVFnR1pWUmhkLTh5anUxcFhsbzJPVkUzR1pyaGNvY0syNjZvQ2pmaEt3dUQ1d2NOckJIcnM3WUZweG04OV9FdUF4NmcyNVhPTFBpRnpfYXNuWUVXdm9jdGVhd2J1Q0ZRREIxV1NfX1pxd2RPU0NPLW40bWxMc2N5SE9Pc1M2NTE4N2JXYTcyWHdJY3U3MWRURXY4V0jSAa4BQVVfeXFMTWpVMmtOdld5RC1wT1gzTFFrWHNpaVR6UE5SeHBDMEFkSVhCQ2ZCQTZuRzlrRm5KX0lYRFJZMUR5OHdoQi1BazRIT0QwcHo0eHZoeTRHLVRkMjRXd255c3kyNmprMWN2RFQzX2hvVV90VmphOEFRUDI0clZWdmNDdHRIX1JseUZEcncyVkQ4TWFGVHZYbVczdHBjMHItR2NTNWpYeEhER0RtcEJDV0Vn?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 09 Oct 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -19934,13 +19944,17 @@
     "id": "concejal-camila-lobo",
     "name": "Camila Lobo",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
-      "positivo": 0,
+      "positivo": 1,
       "negativo": 1,
       "neutral": 10
     },
     "sentiment_by_day": {
+      "2026-11-12": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-04": {
         "total": 1,
         "score_sum": 0
@@ -19974,10 +19988,29 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
-    "quotes": [],
+    "top_topics": [
+      {
+        "term": "previene",
+        "count": 2
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Salta Previene",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/legislativa/-salta-previene---concejales-aprobaron-el-programa-que-concientizara-a-vecinos-sobre-la-basura-en-desagues-y-canales_a6af4e916d5fb7942a08a6102",
+        "date": "Thu, 12 Nov 2026 14:45:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“Salta Previene”: Concejales aprobaron el programa que concientizará a vecinos sobre la basura en desagües y canales",
+        "link": "https://informatesalta.com.ar/legislativa/-salta-previene---concejales-aprobaron-el-programa-que-concientizara-a-vecinos-sobre-la-basura-en-desagues-y-canales_a6af4e916d5fb7942a08a6102",
+        "source": "Informate Salta",
+        "date": "Thu, 12 Nov 2026 14:45:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Camila Lobo y Salta Previene buscan educar sin obras de desagüe - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeURGXzNIZkdkbk5WT1VmLWF2eGFBbFB6VXlpTEF2S2ppNmZxSDJHN2wzeDJGcm5rNXBIbzZtNHJMcjh2a1VfZkoyTG1JbGNwa2lIMzlBb0FZQ0JlMzBMbHZLVmluZU53X1BhMVhLdkI4TFhYQXR5dnpIVjJQREdfSGlBdXZoSUllUkxuVWkwamMwOXE5SW9kTnZiNEZ5U2hkOG0xTy1B?oc=5",
@@ -23413,13 +23446,25 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 113,
+    "total_mentions": 116,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 19,
-      "neutral": 85
+      "neutral": 88
     },
     "sentiment_by_day": {
+      "2025-05-29": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2025-09-09": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-11-12": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-08-13": {
         "total": 1,
         "score_sum": 0
@@ -23807,16 +23852,24 @@
     },
     "top_topics": [
       {
-        "term": "emilia",
-        "count": 7
+        "term": "orozco",
+        "count": 10
       },
       {
-        "term": "orozco",
-        "count": 7
+        "term": "emilia",
+        "count": 9
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 7
+      },
+      {
+        "term": "interna",
+        "count": 2
+      },
+      {
+        "term": "libertaria",
+        "count": 2
       },
       {
         "term": "candidata",
@@ -23958,6 +24011,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco: años viviendo de la política, pero se siente una cara nueva - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX3FpanRfMUkxVXZHMUJ2bGJRNENGT0JWS1NIMXB4MHBzVEpJb2d2dEdQM3ZGeVU1dXp6UWtuMG91S2tDenp6eEN6WTVqcjllNzJOdTZWYkNTdlFpOEwxamN5TkpXVThPSmlXUHM0emxGTG1GNXNTaXc3LXI2WGVYbUlzUkN5d1R6UGkzX2VNc2FUN0VDTjMyQnFMajk3R1pYek9sU3lWZi1ZdVk?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 29 May 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Emilia Orozco no camina tranquila: fue a hacer campaña y la increparon los vecinos - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc3lrVzBmcjJlNDBKOVRPaFVxQndnTDkyaU5jUHFZZE10WEg1Z014ME10S1ZvdmlpUXhxemtsbDVERDRRQnVXRHEzcmNrdE9mTHdONzJGTjBfMWZBZU1nOU5sc0ZJWF9FcHNmanU2VTR3cnhMVlRfTEx1Vk9TZ0RfdktnTlV4YVNSZ2JmU3ZKR2ZRY1dRTll5eUZRd0pMWThibzNCYkZ4TFVRT2Jjb3VRQU5kNHZldkU?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 09 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Interna libertaria: Flores, más cerca de Olmedo y “muy poco” diálogo con Orozco",
+        "link": "https://informatesalta.com.ar/politica/interna-libertaria--flores--mas-cerca-de-olmedo-y--muy-poco--dialogo-con-orozco_a6af5b459d5fb7942a0914584",
+        "source": "Informate Salta",
+        "date": "Thu, 12 Nov 2026 14:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "«Es nuestra líder»: Nicolás Arce propuso a Emilia Orozco como candidata a gobernadora - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUFzTHJtb3dPZFl6VVZOaGpFQTRqTnc2NzlibHprV1FJT2E3ZEU2SUc0M3JOUUVJVXlFQ2NFcllIbGVtb21UaEowOEtuYTdsRlNsenpYOERveGR2U0F6clA3eVJKVE5iM3JSUnZ6YkZOTUZ4TXYtdXoyRkZNR0tON0VodEU4N0RNZk55aTBSUHhBSm5COXd3WE5nMDdieS1aV052V1BlQVJQV1A4cVRfM2pRQ3lWbFVX?oc=5",
@@ -24145,27 +24219,6 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTjMyN2VxeHNlMm9lbHo3WWJ3Y1RIV3V1SWxoN3FsT0xsUDByTjh2aC12LUxTYzN0d2lDLVFBSU0yeGR2ZklvdzVTaFRoMFVxYWN6cXMzSzIwai1mMzZzXzJTZkkwbmlTTlZfNXZmMTBVMEh3SUR3YnBwYWZKcFEtTHdXVlFLRUR0MGNZRVdUVkd5SWtsbFHSAZYBQVVfeXFMT04zMjdlcXhzZTJvZWx6N1lid2NUSFd1dUlsaDdxbE9MbFAwck44dmgtdi1MU2MzdHdpQy1RQUlNMnhkdmZJb3c1U2hUaDBVcWFjenFzM0syMGotZjM2c18yU2ZJMG5pU05WXzV2ZjEwVTBId0lEd2JwcGFmSnBRLUx3V1ZRS0VEdDBjWUVXVFZHeUlrbGxR?oc=5",
         "source": "Que Pasa Salta",
         "date": "Wed, 05 Mar 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco defendió el veto a Discapacidad: «Esa ley no era la salida» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMG5OaUlIOHdnOXVfZHJKNVZZZDFTaVViM2s3WFViNEc5bjE1TENDR09NOTdRZGp1SGh5YWY5aEFhbUtnemM2ZjA4c0pIZkRNUnprZWJiZFY0T2N3aUhYcXdudS1aeVl5c2hBVmFzemdHTG0ybGMwQnMtMDFNR0locUNsZnFwcUIxd09mNlA1ZFphMWVWc01JR0wwN2JUZnNJdmlzM0YzWk8?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 27 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Pablo López reafirmó su lealtad a Emilia Orozco y se cruzó con un concejal que la criticó - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSG1wQ2pKdzB3OHFmcmppd3p3RUZFYWNSQUVybWZUaGlxZ1pTZjJaanVyaWF0UVZLelFzWTdFNHlhNHRQMHBoQS12cjM4YlRFeXhwZVlBNWN5SThPVjFsN3dlNjNrR19IdXZlTnR3ZjdLb2ltT3A4SVBoR3RPblpPRzJpNTF0TDE3SlU4S01ITnAzYnNrYUlvaGNPc1ZfNFB0QXpkQkdyY25YS255eERrWElERFRyVnJ6Mk1zeTMwR19Wdw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 24 Aug 2024 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Emilia Orozco salió a limpiar la ciudad luego de las elecciones - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVA3THlzZTdQWmJJY29rWDlyTXFSWGJGY2dXMzRlTTFJVTJoYmdUdVFHTFR5MW5uWTNfTElBel9CV08ydV9Ub0VlNmtRNExocTZFdl9rTWlLbllxUTNOaGt1Y0twbE1TV1kxQTNkVWQ3cmU1SlRiWXRTeHJOVms1aXVlUGVBTGViRk1KWEFrNXNMdWJsUTl0ci1PeTRKTWM?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 29 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24887,15 +24940,15 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 27,
+    "total_mentions": 28,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
       "2026-11-12": {
-        "total": 1,
+        "total": 2,
         "score_sum": 0
       },
       "2026-11-11": {
@@ -24981,6 +25034,14 @@
     },
     "top_topics": [
       {
+        "term": "gabriela",
+        "count": 2
+      },
+      {
+        "term": "flores",
+        "count": 2
+      },
+      {
         "term": "papa",
         "count": 2
       }
@@ -25031,6 +25092,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Crece la interna en La Libertad Avanza de Salta: Gabriela Flores marcó distancia con Emilia Orozco y respaldó a Olmedo - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZG5YTHZFSFo4bnNVNnIyblRJbXVwdlR3SXFldHNCdHJNQ3o1amlHdklTOFNJaHF4NW1aT2xOc0V3REItY1lpemh1clYxZFVVNnprV3RVZ0QzZDdfZkhnYS16dWZmem5hbmpXT2JkSXJHblh2MFVSNzZ2dEdUeTFIbnlGNXh1cDUzREZta2RRZW01bnBia3lCVkdZU0RUN21DQngtV2ZhbkJQazVCNVRKYXZFVkF4SUU5UnZCa19ZOTc5WjFkNWJJN2V6aUVhNzRlcFh4S3RlZE9XcGRRaWNXN2RFcTh1X0YwQWNweGh3OFJhUVVfMWdkdFRLUjYwb0Z2Y3pPRkNRdDQ1UdIBigJBVV95cUxNZG5YTHZFSFo4bnNVNnIyblRJbXVwdlR3SXFldHNCdHJNQ3o1amlHdklTOFNJaHF4NW1aT2xOc0V3REItY1lpemh1clYxZFVVNnprV3RVZ0QzZDdfZkhnYS16dWZmem5hbmpXT2JkSXJHblh2MFVSNzZ2dEdUeTFIbnlGNXh1cDUzREZta2RRZW01bnBia3lCVkdZU0RUN21DQngtV2ZhbkJQazVCNVRKYXZFVkF4SUU5UnZCa19ZOTc5WjFkNWJJN2V6aUVhNzRlcFh4S3RlZE9XcGRRaWNXN2RFcTh1X0YwQWNweGh3OFJhUVVfMWdkdFRLUjYwb0Z2Y3pPRkNRdDQ1UQ?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Thu, 12 Nov 2026 10:51:12 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Tras el Papa, ¿qué cambia en la política? Legisladores salteños dieron su mirada",
         "link": "https://www.eltribuno.com/salta/2026-11-12-0-0-0-tras-el-papa-que-cambia-en-la-politica-legisladores-saltenos-dieron-su-mirada",
@@ -32300,13 +32368,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 3,
-      "neutral": 29
+      "neutral": 30
     },
     "sentiment_by_day": {
+      "2025-03-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-31": {
         "total": 1,
         "score_sum": 3
@@ -32515,6 +32587,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Mario Mimessi sobre Nación: \"Nos han ofrecido ayuda, pero debemos ir a buscarla a Villa Martelli, en Buen - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUE1RWlRHeERINkI0eF9PdzlQMTllXzQyZXAwX1ZUcnlzR3JOb2pjZWRrZDM4QUV5Zlk2ckN6NWRjYXo2Z0xtVkxhZmZmX3Nsekw1ZGMtdGVBTjd1dk9OTUpRbVluWjNDcUJkXzUxOVRfd3ktdGZOYV9aa0tDcFVOQTl1eGo3Wmo5VnFIS0I2Z0lpSzNpZmJjWi1sbVBKdksyZTk3cENUVmNUN2hnOW1RU3NzMmpNQWtCZ1NpMVhVcF84R0t2Tk1ndk1wcHYzRTdVajZSSWFrTXpyckN40gHiAUFVX3lxTFBYdkV1X2czcVpteGN6TzI3LTNxOXZKQzVXRkFBTFBVdlpDNFdOcmpYZng4Y056bUF1NTdZbWExVG9wN1R4NUVfUVg0WFZMQ2ljSkdicWlPc3MyaW5mNFlqZ2xPc0JoNFhyRzhGU1lycmV3cEdJSUE4dHhPUWNwbkZwaWU3SjNaNzl5ZTdFUUg0djhwMnVhZ1YtTGw2Rno1dGJ3bGJTV19odEJBRWtYQ2dSQ3NWZHJWaDN6b1FITGhRSmhLLXRMbnNaWkJjMEZUc2YwcnVtNEQwNHRWV2tlVWRXNVE?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 25 Mar 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Presupuesto 2027: Salta realizó una nueva reunión regional con intendentes y legisladores",
         "link": "https://informatesalta.com.ar/gobierno/presupuesto-2027--salta-realizo-una-nueva-reunion-regional-con-intendentes-y-legisladores_a6ae6452f09dee0a0b9b13daa",
         "source": "Informate Salta",
@@ -32715,13 +32794,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2ItMWRlaE5lZzE3OGZQdHJFNC1ram5kSXRIa2VsNTVnaTA0aEV0ODI3UEpHR2pWMjVSLVZEb28xVUtHd3BSSWhYRUttbVptdHQ3T0FQY0VtUjhpUVBQMk4zQndtTUc3Z3U4bzdyT1lUWm5iUVNPc0lpbU1Zal9lMTl4WFhqZkFKYUN6OTYxaVdyQkxsZE1MRWNHSVpXUlBsUk9zRUtrWUJHUmxBb09jYXZOUzNOUTQ4T2lvTU9kLWI1Y21SRmJVcTJ3?oc=5",
         "source": "Elintra.com.ar",
         "date": "Sat, 28 Oct 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Elecciones Salta 2019: Mario Mimessi, intendente de Tartagal - FM Alba",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMzhZczVGVEZZdXNyd0ZETmp5ejVXemw4VEdZMXp4YXZfc1lPOGJyX0U3bHQzSF9zdGUxT2ZkMkRwN3ZkQnhINUVlVy1rYy1EVWs2TVVGMGZiSHhLWndOOXJ5dWF4UHJMR1VseWpfS25EeW5TNjJMTU5oNUIwYm1QR2dFRWRQV2lK?oc=5",
-        "source": "FM Alba",
-        "date": "Mon, 11 Nov 2019 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]

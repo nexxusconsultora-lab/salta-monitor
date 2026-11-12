@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-12T11:59:30.002514+00:00",
+  "generated_at": "2026-11-12T16:40:50.507296+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 534,
+      "total_mentions": 536,
       "sentiment_breakdown": {
         "positivo": 33,
         "negativo": 46,
-        "neutral": 455
+        "neutral": 457
       },
       "sentiment_by_day": {
         "2026-11-12": {
-          "total": 3,
+          "total": 5,
           "score_sum": 0
         },
         "2026-11-10": {
@@ -312,7 +312,7 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 60
+          "count": 61
         },
         {
           "term": "tribuno",
@@ -320,7 +320,7 @@
         },
         {
           "term": "intransigente",
-          "count": 51
+          "count": 52
         },
         {
           "term": "elintra",
@@ -332,7 +332,7 @@
         },
         {
           "term": "pasa",
-          "count": 28
+          "count": 29
         },
         {
           "term": "discapacidad",
@@ -340,7 +340,7 @@
         },
         {
           "term": "milei",
-          "count": 16
+          "count": 17
         }
       ],
       "politicians_involved": [
@@ -442,6 +442,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "La Libertad Avanza retomó la negociación por el Presupuesto 2027 con sus aliados - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObEk4UUZuMS11eVZGdGpvVkNpNG5yRzdhWThZd1FISUdZaGpxNnhlQ0l6STZVdHFiY3EyX0lBTnplMlZ4cXZVYllZcUZ4RVRRWWI1RW4xcWdCb2JQT1ozck5XcGRqSEJuQ0VrY3BZbEVBb0pzbmREd1VJQXJoOE01VUpvWlZCZGI4STdycjFXdTkzYWJYTS1nRDFxbURYeVV0?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 12 Nov 2026 14:11:35 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Advierten que Milei podría aplicar nuevos recortes en 2027: las áreas en alerta - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0Q5aF9DSUZWMGU4eFR3TzBCeXVSRTA2SXQzLUktX21yU096anRVYmRIZEpFbVQxTDFwTW1lWjNvb0dodTljYzc1cXZtMGsySmVxMVJwOVlfcGxsZ0g0ZEhMVEsyMV9Vd3p0ME5NZkgxWW9qLXk0cjJkR2JseU1nWWREZktZTGZEa254RlVsX0zSAZABQVVfeXFMUEtEOWhfQ0lGVjBlOHhUd08wQnl1UkUwNkl0My1JLV9tclNPemp0VWJkSGRKRW1UMUwxcE1tZVozb29HaHU5Y2M3NXF2bTBrMkplcTFScDlZX3BsbGdINGRITFRLMjFfVXd6dDBOTWZIMVlvai15NHIyZEdibHlNZ1lkRGZLWUxmRGtueEZVbF9M?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Thu, 12 Nov 2026 16:26:47 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "¡Ya está con nosotros! Así fue el gran recibimiento al Señor del Milagro en la Catedral - Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZDBGNTZhLWc5T29JaWtlMW5xLXpwdHE2VDFQMmxOa2FpaTdkbmlxMWMtY2hfdThDVDBVT2k0dzRwZGVXbGVBS0pVdDc1dktaYXQ3QnZ0QzZoNTg3dW1QZkxkRXBMS1pubkRneGlTMWdLOVk2UU4ydnRDcU9FOXk4MXN2emtYLUpGMU1ZcHJYaGRYUdIBkgFBVV95cUxPZDBGNTZhLWc5T29JaWtlMW5xLXpwdHE2VDFQMmxOa2FpaTdkbmlxMWMtY2hfdThDVDBVT2k0dzRwZGVXbGVBS0pVdDc1dktaYXQ3QnZ0QzZoNTg3dW1QZkxkRXBMS1pubkRneGlTMWdLOVk2UU4ydnRDcU9FOXk4MXN2emtYLUpGMU1ZcHJYaGRYUQ?oc=5",
@@ -636,20 +650,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU0c3d3hYR2xySld3eHdvektRZDlYdUR4LUt3Qkt6LWQyamxTRWpHY3pjV2twc3dhaVNwakstanhicDN5OUQ2cTA0WEFLMmVmMXJlSXFfdEZ1QldwUGstZzVJYlhUdHhwMFNQdm9IdlBPS0ZqVjlDN0JlbjRwdzdIcWpqOTFEa1lpeWRpNjhOb0pIdE43RFNtaGhxZURQTVFWMFZFVUxJM0RCMTBMem9Ua1JxMkhIejlrLThBd0dPNzBOTkt3NDFodlh3bHhGZ2s1SWtkTTg4WjVqd9IB6AFBVV95cUxPNmN2MmY3dlJPVnNWZHNCeldhaEYxSVdydFdqTjg5Y0JPT0VzaFYzRlBYd2RVZTNRSENpY1dUOXdoTlZ2UV9YRkQ0MWJJUUtuUXBES3ZHZTdqOHdLQnRiSzFhMUp0bDk3ci1oMHZjVkU5ZzZxM01KYm5GV1Y3ZDNyZ0FNeEc2emRJN3N0SDd2eG1GRnNkdDZxemx5aGs3Mm9IZndJU3Y3b2V5VjZpU0RJX3BSeldnRUZUYVN4LUV0RldPTDJCM1pPM2FVX0NicVptYnAtSzlhY21aV2VETExVeHhEbzN3YVlT?oc=5",
           "source": "Informate Salta",
           "date": "Fri, 06 Nov 2026 18:45:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: Los fondos para discapacidad, educación y transporte tensan el debate - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWZiY01MdnRLU0o0V09TOHhmbFc5V3B5MERuVmFkUXY3eE5PWTBTdkV3Qy1ack52SjBPXzNLMlZLYUN1aUlKYmhTc0txaDE5VllYWXVaOXNCcHlzVGI5ZU4wRGxWVFZKdjlaUkVpSXptaVpHZFNNa2k0TUo5b0Q1SVA1Yk5SUnY2ai1oRE1Ubm1aQ3U0RXQ3QTY1amFFa3VYanZENkFUWlVOTEdnNUxmYUJENV9Mcm9ZNmc?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 07 Nov 2026 12:22:18 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Santilli recibe a Sáenz y otros gobernadores para negociar el Presupuesto 2027 - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHA2TEFLMTVqNURCSFJ3WmZiUmlEekRfWnBIZ1E5bkp2b1hmODJtYWdCRkYzMG8xYzVSTHRjNnJmU19Nckk1b3R6a2FMN1puSks3WUhuSDAyMXdJRlFjQ25kdUNrYkROaGdiNElRY05lQk5GMzh5Q2FkekxPT0twemVlQ0lUVXNaSkpiWmw1bS1Kd0hPZTBiMlRnYUU5dGtWZ1ZV0gGjAUFVX3lxTE1IcDZMQUsxNWo1REJIUndaZmJSaUR6RF9acEhnUTluSnZvWGY4Mm1hZ0JGRjMwbzFjNVJMdGM2cmZTX01ySTVvdHprYUw3Wm5KSzdZSG5IMDIxd0lGUWNDbmR1Q2tiRE5oZ2I0SVFjTmVCTkYzOHlDYWR6TE9PS3B6ZWVDSVRVc1pKSmJabDVtLUp3SE9lMGIyVGdhRTl0a1ZnVlU?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Wed, 16 Sep 2026 07:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
