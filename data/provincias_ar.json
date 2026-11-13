@@ -3,6 +3,8 @@
  "enlace_fuente": "https://censo.gob.ar/",
  "verificado_contra": "(1) La suma de las 24 jurisdicciones da 45.892.285, igual al total de personas censadas que publica el INDEC (46.234.830 es la cifra con estimación de viviendas con ocupantes ausentes). (2) Diez jurisdicciones coinciden con la tabla de Wikipedia que cita al INDEC; Salta (1.441.351) coincide con data/censo_salta.json; esa tabla trae 1.440.672 para Salta, que es el valor provisorio. (3) Neuquén: 710.814 (LM Neuquén y Río Negro); la lista base traía el provisorio. No se pudo abrir censo.gob.ar (bloquea accesos automáticos): el cuadro oficial queda como cotejo opcional.",
  "total_censado": 45892285,
+ "total_censado_2010": 40117096,
+ "fuente_poblacion2010": "INDEC, Censo Nacional de Población, Hogares y Viviendas 2010, resultados definitivos. Las cifras por jurisdicción se tomaron de la tabla «List of Argentine provinces by population» de Wikipedia, que cita al INDEC (fuente secundaria). Cotejo: las 24 jurisdicciones suman 40.117.096, igual al total del Censo 2010 que difundieron el INDEC y la prensa; Salta (1.214.441) coincide con data/censo_salta.json. Los límites de las provincias son los mismos en 2010 y 2022.",
  "nota_poblacion": "Tierra del Fuego, Antártida e Islas del Atlántico Sur es una sola jurisdicción para el INDEC; su población vive en la isla grande de Tierra del Fuego.",
  "congreso": {
   "diputados": 257,
@@ -13,6 +15,7 @@
  "provincias": {
   "buenos-aires": {
    "poblacion": 17523996,
+   "poblacion2010": 15625084,
    "diputados": 70,
    "senadores": 3,
    "ejecutivo": {
@@ -28,6 +31,7 @@
   },
   "caba": {
    "poblacion": 3121707,
+   "poblacion2010": 2890151,
    "diputados": 25,
    "senadores": 3,
    "ejecutivo": {
@@ -45,6 +49,7 @@
   },
   "catamarca": {
    "poblacion": 429562,
+   "poblacion2010": 367828,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -52,6 +57,7 @@
   },
   "chaco": {
    "poblacion": 1129606,
+   "poblacion2010": 1055259,
    "diputados": 7,
    "senadores": 3,
    "ejecutivo": null,
@@ -59,6 +65,7 @@
   },
   "chubut": {
    "poblacion": 592621,
+   "poblacion2010": 509108,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -66,6 +73,7 @@
   },
   "cordoba": {
    "poblacion": 3840905,
+   "poblacion2010": 3308876,
    "diputados": 18,
    "senadores": 3,
    "ejecutivo": {
@@ -81,6 +89,7 @@
   },
   "corrientes": {
    "poblacion": 1212696,
+   "poblacion2010": 992595,
    "diputados": 7,
    "senadores": 3,
    "ejecutivo": null,
@@ -88,6 +97,7 @@
   },
   "entre-rios": {
    "poblacion": 1425578,
+   "poblacion2010": 1235994,
    "diputados": 9,
    "senadores": 3,
    "ejecutivo": null,
@@ -95,6 +105,7 @@
   },
   "formosa": {
    "poblacion": 607419,
+   "poblacion2010": 530162,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -102,6 +113,7 @@
   },
   "jujuy": {
    "poblacion": 811611,
+   "poblacion2010": 673307,
    "diputados": 6,
    "senadores": 3,
    "ejecutivo": null,
@@ -109,6 +121,7 @@
   },
   "la-pampa": {
    "poblacion": 361859,
+   "poblacion2010": 318951,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -116,6 +129,7 @@
   },
   "la-rioja": {
    "poblacion": 383865,
+   "poblacion2010": 333642,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -123,6 +137,7 @@
   },
   "mendoza": {
    "poblacion": 2043540,
+   "poblacion2010": 1738929,
    "diputados": 10,
    "senadores": 3,
    "ejecutivo": {
@@ -138,6 +153,7 @@
   },
   "misiones": {
    "poblacion": 1278873,
+   "poblacion2010": 1101593,
    "diputados": 7,
    "senadores": 3,
    "ejecutivo": null,
@@ -145,6 +161,7 @@
   },
   "neuquen": {
    "poblacion": 710814,
+   "poblacion2010": 551266,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": {
@@ -160,6 +177,7 @@
   },
   "rio-negro": {
    "poblacion": 750768,
+   "poblacion2010": 638645,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": {
@@ -175,6 +193,7 @@
   },
   "salta": {
    "poblacion": 1441351,
+   "poblacion2010": 1214441,
    "diputados": 7,
    "senadores": 3,
    "ejecutivo": null,
@@ -182,6 +201,7 @@
   },
   "san-juan": {
    "poblacion": 822853,
+   "poblacion2010": 681055,
    "diputados": 6,
    "senadores": 3,
    "ejecutivo": null,
@@ -189,6 +209,7 @@
   },
   "san-luis": {
    "poblacion": 542069,
+   "poblacion2010": 432310,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -196,6 +217,7 @@
   },
   "santa-cruz": {
    "poblacion": 337226,
+   "poblacion2010": 273964,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": null,
@@ -203,6 +225,7 @@
   },
   "santa-fe": {
    "poblacion": 3544908,
+   "poblacion2010": 3194537,
    "diputados": 19,
    "senadores": 3,
    "ejecutivo": {
@@ -218,6 +241,7 @@
   },
   "santiago-del-estero": {
    "poblacion": 1060906,
+   "poblacion2010": 874006,
    "diputados": 7,
    "senadores": 3,
    "ejecutivo": null,
@@ -225,6 +249,7 @@
   },
   "tierra-del-fuego": {
    "poblacion": 185732,
+   "poblacion2010": 127205,
    "diputados": 5,
    "senadores": 3,
    "ejecutivo": {
@@ -240,6 +265,7 @@
   },
   "tucuman": {
    "poblacion": 1731820,
+   "poblacion2010": 1448188,
    "diputados": 9,
    "senadores": 3,
    "ejecutivo": null,
