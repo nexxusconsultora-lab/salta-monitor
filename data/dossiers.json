@@ -3,20 +3,24 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 476,
+    "total_mentions": 480,
     "sentiment_breakdown": {
-      "positivo": 122,
+      "positivo": 124,
       "negativo": 85,
-      "neutral": 269
+      "neutral": 271
     },
     "sentiment_by_day": {
+      "2025-01-19": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-11-13": {
+        "total": 5,
+        "score_sum": 0
+      },
       "2026-08-21": {
         "total": 2,
         "score_sum": -2
-      },
-      "2026-11-13": {
-        "total": 2,
-        "score_sum": -5
       },
       "2025-09-10": {
         "total": 1,
@@ -470,11 +474,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 21
+        "count": 20
       },
       {
         "term": "gustavo",
-        "count": 16
+        "count": 15
       },
       {
         "term": "gobernador",
@@ -502,6 +506,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Conociendo mi provincia",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/interior/con-el-programa--conociendo-mi-provincia---los-chicos-se-preparan-para-su-primer-viaje-de-egresados_a6af7642b42fa9d9e6eff64a3",
+        "date": "Fri, 13 Nov 2026 19:30:00 GMT"
+      },
       {
         "quote": "Buscan que a Salta le vaya mal",
         "source": "El Intra",
@@ -585,16 +595,38 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/politica/saenz-se-definio-como-un--equilibrista--y-defendio-el-dialogo-para-gobernar_a6ae4c094052cad7d0196c4df",
         "date": "Fri, 30 Oct 2026 16:15:00 GMT"
-      },
-      {
-        "quote": "La gente la está pasando muy mal",
-        "source": "Infobae",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVJNERKbURNNVJTcFZ2Uy0zM3Q0cGhfR1lVTVlrU0ZMTEJNZFVEOERNMTdTTjc4NU9MTFcxcmtsQmhhMWpaTVo0TnJmaWJXUGluVHJJQm9QbmFYYU1oaDVfc09wMmZJS2J0M3FIN3VQdEVCTjhRQlY1OGJsMlh5aVBtYWtYWlNxT3VlN1c1TXc0UzhabUlSX0xMR0RFMmFMWmZQV1NDeVhHdWZYMHlnc9IBywFBVV95cUxPaGVkU1JwUlY3NllKQWM0UnJvUGN4U1ZjZVRiREJnMjZwZUlWR3ZwaWhGNUw2c3VpUXdOSlo4LThlc194dEstMG5FbUwyOHJ1RUtwc0JuRWt4Z2h1anB5OTRNd0JhNGNNRGJZaUpZcWtEWklGcG5oLXZTSWxTV3pnZnhVU01VMjhHMVVPNjBjdHI4U3N1Nk1uU2tVR2xtMUd0RWQ4YWxNanZOS2p5SllwWmE2SkVrVzlra0pQMGlqME0zdGt1QzRVUEdRZw?oc=5",
-        "date": "Tue, 23 Jun 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Emiliano Durand y Gustavo Sáenz recibieron a Las Leonas - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdy1EcEZ0MW5wamtsQWF6WkpyeklmbjVJZ1QwSDB5UEZOQnc4ajRfajZQODA3YnljV0ZWUlNuQWdkSzBJS3l3V0hUYm9DRk0xR2doTzYtTzM2QUZjSnZidzVfV3dmaVgzcnR0NEgyOUEyaENZRjVRZWhTTkE2Umh6ZlVlT21RanJhQ2NPVDlJWWdOUHFvekk0aXpIcXlZV09VMGJZclg3eXHSAa4BQVVfeXFMT3pqbXV1Yk00X2RoSXVWMUJwaTB0Nnp5VkdJOFBqSVRfSGFXZWtXb2VRRFhSX3NVd1pxUU5xN1E0cUFnTHY4U3A1OUlCZkducDhoekQ0NWQ2WGpjQmJRbnRtSUNURkN4dm5mMG9UU19yV1Vsd3Z6RGxfREpCMUg5ZDI4aXByRzhNa043TGs1bmZvRDVUNk9wMFhPVGR6ZnI4X29zcnQ2bm1wQ2h5bnN3?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 19 Jan 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Yonar proyecta el crecimiento de Quijano con obras viales, minería y turismo",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/yonar-proyecta-el-crecimiento-de-quijano-con-obras-viales--mineria-y-turismo_a6af6fba97139d0df6ffb9919",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 17:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Con el programa “Conociendo mi provincia”, los chicos se preparan para su primer viaje de egresados",
+        "link": "https://informatesalta.com.ar/interior/con-el-programa--conociendo-mi-provincia---los-chicos-se-preparan-para-su-primer-viaje-de-egresados_a6af7642b42fa9d9e6eff64a3",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 19:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Hernández Berni y Sáenz lanzan un programa para que más de 100 estudiantes tengan su viaje de egresados",
+        "link": "https://elintra.com.ar/2026/11/13/hernandez-berni-y-saenz-lanzan-un-programa-para-que-mas-de-100-estudiantes-tengan-su-viaje-de-egresados/",
+        "source": "El Intra",
+        "date": "Fri, 13 Nov 2026 19:45:16 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz se pone al frente de un reclamo de las provincias del norte de Argentina - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQkUyZEJPMW9PamxVdG5YbUg1ME1QejZ1SXc0bkFENmlFQmpYOTVPbDlRRjJWcVNLV1BNcy1XQlRrVzFjdHE5am9yYlROYWdSZ2w1UEN0UXZkaGk1Zk5NWnUzQXhraGVUd1k1UlhFU3VlaTF1YUd5YlllU3hvOHpqblZ6TmVSRTZmV3FBUGxldEhNZHpaWndMbVFPTTBGOHEyZ3hLZ0pVWWE3UzQ4TnVOR0x1ZkdKWDR0RHRLZkR3LTNCMExXdHfSAcsBQVVfeXFMUDBTb1VMVmYtWmhsekVDWHp0WUpRZXg3RWFUTUZNaDIyVTZBaTZZUWc1dnl5UDZQNW1EVXBzYXpfclpVV3pwc3R6dnBIR2hxcTI2d25iUDZjT1V1MHcydUd5SmxXbmlURGp1X18yQ1A1MmJubDF0RFAtU044MWZONXc3MV9pSzUtdl9jdDNBVjNPQUgtVzVheXIwZDlHanVxbGtkdGIyN0pnQVNhYm5NalY1a25vNTY3Vmx4MFF1bjFkSGlJb3k0Z2pMVVU?oc=5",
@@ -775,34 +807,6 @@
         "link": "https://informatesalta.com.ar/gobierno/saenz-reclamo-mas-federalismo---las-provincias-tienen-que-defender-sus-recursos-naturales-_a6aedeb38696ebfa450a48309",
         "source": "Informate Salta",
         "date": "Fri, 06 Nov 2026 17:15:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz aprobó $9000 millones en créditos y garantías para empresas de Salta",
-        "link": "https://elintra.com.ar/2026/11/06/gustavo-saenz-aprobo-9000-millones-en-creditos-y-garantias-para-empresas-de-salta/",
-        "source": "El Intra",
-        "date": "Fri, 06 Nov 2026 14:41:33 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz reclamó federalismo, obras y una distribución más equitativa de los recursos nacionales",
-        "link": "https://elintra.com.ar/2026/11/06/gustavo-saenz-reclamo-federalismo-obras-y-una-distribucion-mas-equitativa-de-los-recursos-nacionales/",
-        "source": "El Intra",
-        "date": "Fri, 06 Nov 2026 17:49:41 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Hucena respaldó una nueva candidatura de Sáenz y pidió que la fórmula incluya a alguien del interior",
-        "link": "https://informatesalta.com.ar/sin-vueltas-tv/hucena-respaldo-una-nueva-candidatura-de-saenz-y-pidio-que-la-formula-incluya-a-alguien-del-interior_a6aedbb3c696ebfa4509f96e4",
-        "source": "Informate Salta",
-        "date": "Fri, 06 Nov 2026 12:15:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Ingenieros también piden por los ramales C14 y 15: “La integración es fundamental\"",
-        "link": "https://informatesalta.com.ar/reclamo/ingenieros-tambien-piden-por-los-ramales-c14-y-15---la-integracion-es-fundamental-_a6aeddde0696ebfa450a2fd63",
-        "source": "Informate Salta",
-        "date": "Fri, 06 Nov 2026 13:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -7439,13 +7443,17 @@
     "id": "sen-jorge-soto",
     "name": "Jorge Pablo Soto",
     "role": "Senador/a provincial por La Viña",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 5,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-11": {
         "total": 1,
         "score_sum": 5
@@ -7650,6 +7658,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Moldes podría ser declarada como la Capital Provincial del Pejerrey",
+        "link": "https://informatesalta.com.ar/interior/moldes-podria-ser-declarada-como-la-capital-provincial-del-pejerrey_a6af71be57139d0df6fff0bb2",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 20:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Ante el Senado, Turismo expuso su hoja de ruta para potenciar el sector",
         "link": "https://informatesalta.com.ar/legislativa/ante-el-senado--turismo-expuso-su-hoja-de-ruta-para-potenciar-el-sector-_a6af4dc52696ebfa450f47c49",
         "source": "Informate Salta",
@@ -7850,13 +7865,6 @@
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSU42OW10eGZpaGF0dURsVGx3VWYwai1EbU5uTlpGU2ZVYnBfTzJwVVltRENtcXAxSDdtTHo0NThLWGJEcmEyUkRyamtCbk5VR21CNXdwYl9ua2VObzM2UUhNLW1DdUQxVVhBdFhpbXlwRTZEdWVvYjdycUlneXdSdXlYU3hoczU3ZGRQa09Dc0EtajRheUg2UNIBngFBVV95cUxNbUJZaDdpNml5X1BOSEU4dDlQNHdzQ2RvLXVSVXp5bmM3MkpqRTNHUEZvSFE3QVRGS25aeXlRRGRMS0lYYVhZdGluN04ycWFsREd3dFo1R2NFM3AzTTlVZHd6UGQ5MU05Wmw5bFdPby0tS3RzRVdiVHBuNFdINk5wSFRLYzNxUTR4NTJRbnZiS2ROMl92eXY3bUp1VHQwQQ?oc=5",
         "source": "El Tribuno",
         "date": "Sat, 25 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Una mayoría de convencionales llega a través de las fuerzas del oficialismo - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLURJalJPSUI0UFNFVXNaLUQ3d3JYbmtQV0N5Ums0SzhqVzBiZGNqOE93azVZT2hrMkp1NUJEWnlVdXFxeV9GWUo2QW5NT28xZTYxd3MtN0Npd1RXZjZKd1haam9vVjlDejlCQndqMnZRdHNGMWhlbGdiZ3JBYk5HRXdvMnRHNVpkNGJsV1lWN0pBaEJzM1lGSFRFWVZTbmtJSUVwTHBfc0VtY2F6VjQtX3RDQlhnWXlwT1FscC1zd9IBxAFBVV95cUxOLUlJaWpidjhXRkZ5cmloVjdibnk5NXcybHIwYllUeG41RzRmYVJyZ0pWQ0FaSmlsbWd1cmJ4MjJab01XLXRMb2hEZzZvbjR5aHEzUV9tYXU1ZE8wM2R6WVdpR2l6Y2F4RXh0R2RzUWx1YXY4eWJGT0FsM0ZfcUk2NXF6bXROLXlOa0ZqeUpxWXNST2I5NzdsY3ZjUVBYbzU0T2FWLVRjMGFNZ0RHdllyS0VVMkFCS1FQeUlaeGhMT2hkWUh5?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 16 Aug 2021 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -13420,13 +13428,17 @@
     "id": "dip-jorge-miguel-restom",
     "name": "Jorge Miguel Restom",
     "role": "Diputado/a provincial por Gral. San Martín",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 5
+      "neutral": 6
     },
     "sentiment_by_day": {
+      "2022-08-31": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-10-12": {
         "total": 1,
         "score_sum": -2
@@ -13449,9 +13461,23 @@
       }
     },
     "top_topics": [],
-    "quotes": [],
+    "quotes": [
+      {
+        "quote": "No hay política sanitaria de Estado",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnZwaE51V1g4V2k4N1RSY0hzdmc2X2k4LVp2cS03ai04WHNWVVd0UWpMUzZxNzF6WFk3U3FJNG41bjFUQTkwN04zSHJGdjJoLUJrbW1iQU9qMXdyQmx6cEpPYzlQWHBiM0Z4d1hjMDF0cFNmUWIzS013VTVkVnhLWFdRSzdfVXJPdkh4NXR4VzNDaHBqQUHSAY4BQVVfeXFMTXZOc1B6OWZFS1RNUEJiaF9jTjl3WFBObzlGRTZNYkViVndlRnN6MVE4Z0p1ZGpSX3N6MVFsZzRxdUVBdE9WSUJpQjBDbU0yVEpVSXJqTGJVMkpVMHpKakVWVGdkczZOblFzZnZlWjlnOXNyVnhLNC00akhQdnYwRWdLeWx2ZlBIRjIxNVB5Zw?oc=5",
+        "date": "Wed, 31 Aug 2022 07:00:00 GMT"
+      }
+    ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Jorge Restom: \"No hay política sanitaria de Estado\" - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnZwaE51V1g4V2k4N1RSY0hzdmc2X2k4LVp2cS03ai04WHNWVVd0UWpMUzZxNzF6WFk3U3FJNG41bjFUQTkwN04zSHJGdjJoLUJrbW1iQU9qMXdyQmx6cEpPYzlQWHBiM0Z4d1hjMDF0cFNmUWIzS013VTVkVnhLWFdRSzdfVXJPdkh4NXR4VzNDaHBqQUHSAY4BQVVfeXFMTXZOc1B6OWZFS1RNUEJiaF9jTjl3WFBObzlGRTZNYkViVndlRnN6MVE4Z0p1ZGpSX3N6MVFsZzRxdUVBdE9WSUJpQjBDbU0yVEpVSXJqTGJVMkpVMHpKakVWVGdkczZOblFzZnZlWjlnOXNyVnhLNC00akhQdnYwRWdLeWx2ZlBIRjIxNVB5Zw?oc=5",
+        "source": "Aries On Line",
+        "date": "Wed, 31 Aug 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Jorge Restom se sumó a las fuertes críticas por el estado del sistema de Salud: «No podemos seguir mendigando» - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVWtrckRJaDNDdHdiUDFhT2RaQlRoWWpYN1VSYi10eG1wQ1YxWXdUcjBCcWd4UDZaeUkwQ1NOR3ZNX3k1OEVCaDQ1TUFkVloxM3IwQ0xaWC02Wm1makEwdDNJRndBTDJranlnM0pLc2tfT2MtU1RFV1hyVGozNkF1X19XUFJabEJ1X0xURDRjMm5rT1QyV3BURklsUnNQUDJ3ZjJhUUlVaE0xcXQ4aWkzNnhialZPNWNVcW1weGFIM2szZkVoeFNObzlPSjJ4TXR6OFFlaEU3Z1NQUGkwNGR1Z0ZYNUbSAeoBQVVfeXFMTW9aSEd6N1lqZWNLR0ZSZ2NxWUtYdDM1OGtUWmlrSUJOUlVuTkVsWUJad3N4TGtZdGFaVzRhSDZ1dks4QVk3eEVhaVY5bDYzanNXMmVpT2tWLXNIczNXR0ZMN3NMalFvRzZzNEp2UW9jQnBxM19yaHFoaWduS2hHc1V0RFZ2U19ZaUdQa1NLRFljU3QxOENfSU9rdlJqUl9keG80TnY1bW1ZNmYxNWlxVk5tSno1cGxrdTJWS0VOVW15cXkxdWxiZ3dJSmVXalo5OF9fWFVEZ3pTN01rbW42Nlc2MVN3ZmsxVjlR?oc=5",
@@ -23513,13 +23539,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 117,
+    "total_mentions": 118,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 19,
-      "neutral": 89
+      "neutral": 90
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-09-09": {
         "total": 2,
         "score_sum": 0
@@ -23920,15 +23950,27 @@
     "top_topics": [
       {
         "term": "orozco",
-        "count": 11
+        "count": 12
       },
       {
         "term": "emilia",
-        "count": 10
+        "count": 11
       },
       {
         "term": "elintra",
         "count": 8
+      },
+      {
+        "term": "flores",
+        "count": 2
+      },
+      {
+        "term": "poco",
+        "count": 2
+      },
+      {
+        "term": "diálogo",
+        "count": 2
       },
       {
         "term": "olmedo",
@@ -23936,18 +23978,6 @@
       },
       {
         "term": "interna",
-        "count": 2
-      },
-      {
-        "term": "libertaria",
-        "count": 2
-      },
-      {
-        "term": "candidata",
-        "count": 2
-      },
-      {
-        "term": "nunca",
         "count": 2
       }
     ],
@@ -24082,6 +24112,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gabriela Flores confirmó su distancia con Emilia Orozco: «Tengo muy poco diálogo»",
+        "link": "https://elintra.com.ar/2026/11/13/gabriela-flores-confirmo-su-distancia-con-emilia-orozco-tengo-muy-poco-dialogo/",
+        "source": "El Intra",
+        "date": "Fri, 13 Nov 2026 17:40:54 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Alfredo Olmedo, Emilia Orozco y la elección que nadie vio - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYRWdPVWZxOWk0N3BoaDgzTl91dG1hcGs3aXUwbXVDbzh0Q0lRaHRoNVRvSUJqSGdvcEd4ZVJUZl9YR3NHTFZ3d3NZZWEtTGQwcVpvZEhGNlNPSjdiNVR5WW9ZdjdicjE4cW85anlfQjBoQQ?oc=5",
@@ -24283,13 +24320,6 @@
         "link": "https://elintra.com.ar/2026/10/26/salta-emilia-orozco-silencio-lula-urna-electronica-milei/",
         "source": "El Intra",
         "date": "Tue, 27 Oct 2026 02:50:26 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco visitó la embajada de Estados Unidos luego del controvertido debate por la Ley de Tierras - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY1h0MDVBOHBPMU5ubHlqOHB5T0JSRnBJbTdzSEFhMTJmcDJGa0pYeEp0N25obmxiSFBJQ3RPOFl6QjI5UVBhZ05La0NITGJHQWZvNXZURTFOLVFsXzZYYUhqVmJlc096R0s0X1FQV21ld3FuckRQXzJyUGN2bWJXNDkxVFpPTTFWYW93SlRXVTczRV9CRm5PY3BpMktyeF9OZkFJNFdoZ3Vhbk1udVR5Nk1uRkV6OWRCY1ZET2U3NkVOdkh2ZllHSXRCY0V0aHZfcW0wOA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 15 Aug 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -25011,13 +25041,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 28,
+    "total_mentions": 29,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-12": {
         "total": 2,
         "score_sum": 0
@@ -25106,10 +25140,22 @@
     "top_topics": [
       {
         "term": "gabriela",
-        "count": 2
+        "count": 3
       },
       {
         "term": "flores",
+        "count": 3
+      },
+      {
+        "term": "distancia",
+        "count": 2
+      },
+      {
+        "term": "emilia",
+        "count": 2
+      },
+      {
+        "term": "orozco",
         "count": 2
       },
       {
@@ -25163,6 +25209,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gabriela Flores confirmó su distancia con Emilia Orozco: «Tengo muy poco diálogo»",
+        "link": "https://elintra.com.ar/2026/11/13/gabriela-flores-confirmo-su-distancia-con-emilia-orozco-tengo-muy-poco-dialogo/",
+        "source": "El Intra",
+        "date": "Fri, 13 Nov 2026 17:40:54 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Crece la interna en La Libertad Avanza de Salta: Gabriela Flores marcó distancia con Emilia Orozco y respaldó a Olmedo - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZG5YTHZFSFo4bnNVNnIyblRJbXVwdlR3SXFldHNCdHJNQ3o1amlHdklTOFNJaHF4NW1aT2xOc0V3REItY1lpemh1clYxZFVVNnprV3RVZ0QzZDdfZkhnYS16dWZmem5hbmpXT2JkSXJHblh2MFVSNzZ2dEdUeTFIbnlGNXh1cDUzREZta2RRZW01bnBia3lCVkdZU0RUN21DQngtV2ZhbkJQazVCNVRKYXZFVkF4SUU5UnZCa19ZOTc5WjFkNWJJN2V6aUVhNzRlcFh4S3RlZE9XcGRRaWNXN2RFcTh1X0YwQWNweGh3OFJhUVVfMWdkdFRLUjYwb0Z2Y3pPRkNRdDQ1UdIBigJBVV95cUxNZG5YTHZFSFo4bnNVNnIyblRJbXVwdlR3SXFldHNCdHJNQ3o1amlHdklTOFNJaHF4NW1aT2xOc0V3REItY1lpemh1clYxZFVVNnprV3RVZ0QzZDdfZkhnYS16dWZmem5hbmpXT2JkSXJHblh2MFVSNzZ2dEdUeTFIbnlGNXh1cDUzREZta2RRZW01bnBia3lCVkdZU0RUN21DQngtV2ZhbkJQazVCNVRKYXZFVkF4SUU5UnZCa19ZOTc5WjFkNWJJN2V6aUVhNzRlcFh4S3RlZE9XcGRRaWNXN2RFcTh1X0YwQWNweGh3OFJhUVVfMWdkdFRLUjYwb0Z2Y3pPRkNRdDQ1UQ?oc=5",
