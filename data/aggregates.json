@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-13T00:49:12.563423+00:00",
+  "generated_at": "2026-11-13T07:27:48.695866+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 473,
+      "positivo": 122,
+      "negativo": 82,
+      "neutral": 269,
+      "score_sum": 160
+    },
+    "dip-jose-miguel-gauffin": {
+      "total": 38,
+      "positivo": 1,
+      "negativo": 7,
+      "neutral": 30,
+      "score_sum": -11
+    },
+    "snac-flavia-royon": {
+      "total": 127,
+      "positivo": 11,
+      "negativo": 16,
+      "neutral": 100,
+      "score_sum": 1
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 24,
+      "positivo": 12,
+      "negativo": 0,
+      "neutral": 12,
+      "score_sum": 21
+    },
+    "eje-federico-mangione": {
+      "total": 53,
+      "positivo": 6,
+      "negativo": 12,
+      "neutral": 35,
+      "score_sum": -17
+    },
+    "eje-mario-mimessi": {
+      "total": 39,
+      "positivo": 5,
+      "negativo": 3,
+      "neutral": 31,
+      "score_sum": 2
+    },
     "dnac-bernardo-biella": {
       "total": 39,
       "positivo": 7,
@@ -50,13 +92,6 @@
       "neutral": 37,
       "score_sum": -9
     },
-    "eje-mario-mimessi": {
-      "total": 37,
-      "positivo": 4,
-      "negativo": 3,
-      "neutral": 30,
-      "score_sum": 1
-    },
     "dnac-maria-gabriela-flores": {
       "total": 28,
       "positivo": 1,
@@ -91,20 +126,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 8
-    },
-    "snac-flavia-royon": {
-      "total": 126,
-      "positivo": 11,
-      "negativo": 15,
-      "neutral": 100,
-      "score_sum": 3
-    },
-    "eje-nicolas-avellaneda": {
-      "total": 23,
-      "positivo": 11,
-      "negativo": 0,
-      "neutral": 12,
-      "score_sum": 20
     },
     "eje-roberto-dib-ashur": {
       "total": 75,
@@ -190,13 +211,6 @@
       "neutral": 35,
       "score_sum": -34
     },
-    "gustavo-saenz": {
-      "total": 472,
-      "positivo": 122,
-      "negativo": 82,
-      "neutral": 268,
-      "score_sum": 160
-    },
     "dip-griselda-edith-galleguillos": {
       "total": 30,
       "positivo": 1,
@@ -253,13 +267,6 @@
       "neutral": 31,
       "score_sum": 2
     },
-    "eje-federico-mangione": {
-      "total": 52,
-      "positivo": 5,
-      "negativo": 12,
-      "neutral": 35,
-      "score_sum": -18
-    },
     "dip-rogelio-guaipo-segundo": {
       "total": 10,
       "positivo": 0,
@@ -280,13 +287,6 @@
       "negativo": 2,
       "neutral": 30,
       "score_sum": 35
-    },
-    "dip-jose-miguel-gauffin": {
-      "total": 37,
-      "positivo": 1,
-      "negativo": 7,
-      "neutral": 29,
-      "score_sum": -11
     },
     "concejal-ines-bennassar": {
       "total": 29,
@@ -934,6 +934,54 @@
     }
   },
   "by_day": {
+    "2025-09-10": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2024-11-22": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-08-10": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-13": {
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-mario-mimessi": {
+        "total": 2,
+        "score_sum": 1
+      }
+    },
     "2022-12-29": {
       "dnac-bernardo-biella": {
         "total": 1,
@@ -2376,12 +2424,6 @@
         "score_sum": 0
       }
     },
-    "2025-09-10": {
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
     "2023-08-10": {
       "dip-monica-gabriela-juarez": {
         "total": 1,
@@ -2678,20 +2720,6 @@
         "score_sum": 0
       },
       "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-08-10": {
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-monica-gabriela-juarez": {
         "total": 1,
         "score_sum": 0
       }
@@ -18671,10 +18699,6 @@
       "count": 14
     },
     {
-      "term": "elintra",
-      "count": 12
-    },
-    {
       "term": "ante",
       "count": 12
     },
@@ -18703,27 +18727,31 @@
       "count": 11
     },
     {
+      "term": "elintra",
+      "count": 10
+    },
+    {
       "term": "orozco",
-      "count": 8
-    },
-    {
-      "term": "emilia",
-      "count": 5
-    },
-    {
-      "term": "salteños",
-      "count": 5
+      "count": 7
     },
     {
       "term": "gustavo",
       "count": 5
     },
     {
-      "term": "corte",
+      "term": "emilia",
+      "count": 5
+    },
+    {
+      "term": "sáenz",
       "count": 4
     },
     {
-      "term": "política",
+      "term": "contra",
+      "count": 4
+    },
+    {
+      "term": "embarcación",
       "count": 4
     }
   ],

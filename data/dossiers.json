@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 472,
+    "total_mentions": 473,
     "sentiment_breakdown": {
       "positivo": 122,
       "negativo": 82,
-      "neutral": 268
+      "neutral": 269
     },
     "sentiment_by_day": {
+      "2025-09-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-11": {
         "total": 3,
         "score_sum": -1
@@ -470,7 +474,7 @@
       },
       {
         "term": "gobernador",
-        "count": 5
+        "count": 6
       },
       {
         "term": "nación",
@@ -489,11 +493,17 @@
         "count": 4
       },
       {
-        "term": "lerma",
+        "term": "obras",
         "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Me cagaron con las obras",
+        "source": "Perfil",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXp4bjR3Vi14ajVoM1RtV3lfcDhJWjh5ejRyQ2JaM0JpaEVST1ZDQXFVdmVleFVKdWszYmloWW5BN2tQRzlpQmdkUmR6NUlWV0RNbTFMRURWaGdfb2RYS1FqeVhKc3NkSnNqM0F0cndrcnZqR3JLVEk2Ym13dS13RllKTExqNnhGaURldGVLTG1kNDd0TFEzWTJ3bjRFNFgxaDNtd1lQRlYxX01JQmtpTkRUTVYwakV5cHpZVUQwR2tGdTlfZm9UblJkdw?oc=5",
+        "date": "Wed, 10 Sep 2025 07:00:00 GMT"
+      },
       {
         "quote": "Vamos a seguir construyendo",
         "source": "Que Pasa Salta",
@@ -577,16 +587,17 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUE1d2hkbk8wVFNRWFI0SE1qR2VSbGtSeWFqRE9xLThUbWwzM3JieV9xMVRPblpfdGpmUUdveUh0SXVEVm8wZ0thWGtnR3hSb1BmbVJnZXJsVVg0cmYzX3J4bmZlc2ZKZXcxN0hCZXp2aUFEZFhfdlotcTNSbG9mZTY1dUlFZFgwX2NwUkNWamNWZkVVdFVPQWJaOWZtZTFCal9udGxMdHVtblByMHRTWWlWZFbSAboBQVVfeXFMTjRfaFpHNi0xZWtBZXdnalMzdXYxcUxZZFUtWjQ3WnJpb3l3dFVxZzI2N2Z2YlY5dlY4Z3NZUFYtdjdhTnlURHhkUEJOMFgzZW9QOHB2YUFYb1pEcmtIbVVpUTdUQ21Wb0toQ0lGZS0yZ0tUY2pHblRrZzEtMzFjSVAwTDJ2X284bW0wQkd4LUNPYTMtU1YySXpqdEx1TTV2ckZMOTlCV3Q5Ynhwd3NaQ1VaX201d19JenlB?oc=5",
         "date": "Thu, 10 Sep 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Señor del Tabaco",
-        "source": "Gente de Salta",
-        "link": "https://www.gentedesalta.com/sociedad/quien-senor-tabaco-hizo-enojar-saenz-cruzo-milei-tiene-una-batalla-feroz-fisco-ahora-caso-una-famosa-vedette-n13297",
-        "date": "Mon, 26 Oct 2026 10:13:00 -0300"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz, gobernador de Salta, sobre el gobierno de Milei: \"Me cagaron con las obras\" - Perfil",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXp4bjR3Vi14ajVoM1RtV3lfcDhJWjh5ejRyQ2JaM0JpaEVST1ZDQXFVdmVleFVKdWszYmloWW5BN2tQRzlpQmdkUmR6NUlWV0RNbTFMRURWaGdfb2RYS1FqeVhKc3NkSnNqM0F0cndrcnZqR3JLVEk2Ym13dS13RllKTExqNnhGaURldGVLTG1kNDd0TFEzWTJ3bjRFNFgxaDNtd1lQRlYxX01JQmtpTkRUTVYwakV5cHpZVUQwR2tGdTlfZm9UblJkdw?oc=5",
+        "source": "Perfil",
+        "date": "Wed, 10 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz anunció la pavimentación de 16 kilómetros de la Cuesta del Obispo",
         "link": "https://elintra.com.ar/2026/11/11/gustavo-saenz-anuncio-la-pavimentacion-de-16-kilometros-de-la-cuesta-del-obispo/",
@@ -788,13 +799,6 @@
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUi1ieklaOXprbjQ5QzRENHZxTUltdjF2SjhqX2hJRVMzNkxULXF1cGNzMVFPTURzYXVtb29hYXAxM2FjSnF1b0JTTXRoQTVJMmJEVEE2djJvVnN0NDR3VThybldWaFgxTEE0cFpwYTc4c1dSYzE3SzFxRU9iZmNyYjJZbUJWa056X190ei1IV3pJcHF4N1BUMnplcndON29XUVRjVV9vc2EyQTF1dDhfTA?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 04 Nov 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Enrique Cornejo afirmó que Gustavo Sáenz está habilitado para buscar una nueva reelección",
-        "link": "https://elintra.com.ar/2026/11/05/enrique-cornejo-afirmo-que-gustavo-saenz-esta-habilitado-para-buscar-una-nueva-reeleccion/",
-        "source": "El Intra",
-        "date": "Thu, 05 Nov 2026 20:47:02 +0000",
         "sentiment_label": "neutral"
       }
     ]
@@ -15250,14 +15254,10 @@
     "top_topics": [
       {
         "term": "orozco",
-        "count": 4
-      },
-      {
-        "term": "gustavo",
         "count": 3
       },
       {
-        "term": "elintra",
+        "term": "gustavo",
         "count": 2
       }
     ],
@@ -22375,15 +22375,15 @@
     "top_topics": [
       {
         "term": "rodrigo",
-        "count": 5
+        "count": 4
       },
       {
         "term": "quinteros",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 5
+        "count": 4
       },
       {
         "term": "libertad",
@@ -22739,13 +22739,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 126,
+    "total_mentions": 127,
     "sentiment_breakdown": {
       "positivo": 11,
-      "negativo": 15,
+      "negativo": 16,
       "neutral": 100
     },
     "sentiment_by_day": {
+      "2026-08-10": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-12": {
         "total": 1,
         "score_sum": 0
@@ -23126,11 +23130,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 4
+        "count": 5
       },
       {
         "term": "royón",
-        "count": 4
+        "count": 5
       },
       {
         "term": "salteños",
@@ -23142,6 +23146,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No era el momento",
+        "source": "Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVdIBvwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVQ?oc=5",
+        "date": "Mon, 10 Aug 2026 07:00:00 GMT"
+      },
       {
         "quote": "A los jóvenes salteños les va a costar terminar sus estudios",
         "source": "Elintra.com.ar",
@@ -23225,12 +23235,6 @@
         "source": "Infobae",
         "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNy1mblM1VmVGUUs3OG1XSWhFNmo3aDVGUXloa200aW03TFRleXVDTlk1V0Z5bFdqMTI3X2tkdGF6QjFxRUlHY0diSUExekRtSDlvOFh0aEhZVEZvV1R6bEFUUmxBUHQwZ2hDNmxqOG4xN1FtSmtPbUgtaUJLSEhnNHkyeDdqTE42clpac2NNUDBrU054MGJnQWwwMUp0SFEwTFMzeDNIZFQ5X2FWcldNSy1EWkYwQll3TEpRMXJieGVTdXZaLVFiUTNLYVBHQTg4QjkyMEllZm8wM2hOM1BZRGg1Y3R0RGFCTEdBY1ViRWRpdXljai1QMzljWG0?oc=5",
         "date": "Mon, 19 Oct 2026 23:32:21 GMT"
-      },
-      {
-        "quote": "La voz de Salta tiene que hacerse escuchar en el Congreso",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlQ5MkJSdWEwYjc3MUlTRlVlNXlyc0x3UjFCM1ZmbTF2UG1henBKTHdkTFRJTTlrSV9tczFEY19nN0U5OWpBbFl2VjZmWmlFUlFzZ2JObkM5MlhqaUF4bnNEYlNJUnZ5MDVfYzM0NUVyWFZlOV9VeGdDZ2JpS1VHc29XeHk0dkdTdzlzRWJBb1FBc2QwQS1IeXZwekgzbUx4bHlKQnMydTkyNmxJc2l2X3VB0gGyAUFVX3lxTE9iVDkyQlJ1YTBiNzcxSVNGVWU1eXJzTHdSMUIzVmZtMXZQbWF6cEpMd2RMVElNOWtJX21zMURjX2c3RTk5akFsWXZWNmZaaUVSUXNnYk5uQzkyWGppQXhuc0RiU0lSdnkwNV9jMzQ1RXJYVmU5X1V4Z0NnYmlLVUdzb1d4eTR2R1N3OXNFYkFvUUFzZDBBLUh5dnB6SDNtTHhseUpCczJ1OTI2bElzaXZfdUE?oc=5",
-        "date": "Tue, 21 Oct 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -23260,6 +23264,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón explicó por qué votó en contra de la polémica ley: \"No era el momento\" - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVdIBvwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVQ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Mon, 10 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Tras el Papa, ¿qué cambia en la política? Legisladores salteños dieron su mirada",
         "link": "https://www.eltribuno.com/salta/2026-11-12-0-0-0-tras-el-papa-que-cambia-en-la-politica-legisladores-saltenos-dieron-su-mirada",
@@ -23461,13 +23472,6 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzN3Wk5TS0tqdG5jcjBXTExPMnBvQ2NZMUlfLTFEM3AxN01VMGl3Um1xMFpnZDNLVjZHVW5rbjhnTlNnNFcza3NqZzE2S2hmMUJycG1HNWRrX1UtcklVT2JPR29mNkJlUW9SQjNwNnh3YWlBMC11ZkNaS3ZoZnFTeGVJWTd2QU1PUXYtSGdzMFRacFluUGpTUFJMNG8?oc=5",
         "source": "Elintra.com.ar",
         "date": "Sun, 11 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "La senadora nacional Flavia Royón propuso que las PASO sean voluntarias: “Hay que analizar un mecanismo” - Infobae",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNy1mblM1VmVGUUs3OG1XSWhFNmo3aDVGUXloa200aW03TFRleXVDTlk1V0Z5bFdqMTI3X2tkdGF6QjFxRUlHY0diSUExekRtSDlvOFh0aEhZVEZvV1R6bEFUUmxBUHQwZ2hDNmxqOG4xN1FtSmtPbUgtaUJLSEhnNHkyeDdqTE42clpac2NNUDBrU054MGJnQWwwMUp0SFEwTFMzeDNIZFQ5X2FWcldNSy1EWkYwQll3TEpRMXJieGVTdXZaLVFiUTNLYVBHQTg4QjkyMEllZm8wM2hOM1BZRGg1Y3R0RGFCTEdBY1ViRWRpdXljai1QMzljWG0?oc=5",
-        "source": "Infobae",
-        "date": "Mon, 19 Oct 2026 23:32:21 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -28684,13 +28688,17 @@
     "id": "dip-jose-miguel-gauffin",
     "name": "José Miguel Gauffín",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 37,
+    "total_mentions": 38,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 7,
-      "neutral": 29
+      "neutral": 30
     },
     "sentiment_by_day": {
+      "2024-11-22": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-06-08": {
         "total": 1,
         "score_sum": 0
@@ -28831,11 +28839,11 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 3
+        "count": 4
       },
       {
         "term": "gauffín",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -28843,6 +28851,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "El PRO es la oposición de Salta",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2JJS1c5Mk1EdUFJalNfa0U1aFNqWjlTaU5kSmJ2VG4wb1JTM3NmN2M4alloZ1FfZTVlVzdIdHA3NWJGNlBXV3FyVmplcHg5emtkVVFUM0Z2dk1BVEloX1l0WGF2aVk1VE00Q0gtSTRyOHNFSC1tQ1hxTXhKQ1VGa0JhQjVQa1V4Wm05V3RaSEFHQdIBigFBVV95cUxQelU5QnBHdHlZUFZ6MHhHV0NvaTJDWXJCSm5vcnJXVlZJSmJpaHdETEQ2VnJpM2VCa0F0TlZFNHEyNjQwcFNZenVGMEtvWklMRk92Q1lYTWRNTC1VVHoyLUhHYzcxenY0SGhEZmJKcVZsaHlIUWFtTWRjUlNTS0ZtODBhcTJvRnBEMVE?oc=5",
+        "date": "Fri, 22 Nov 2024 08:00:00 GMT"
+      },
       {
         "quote": "El Corredor Bioceánico de Capricornio tiene que ser política de estado antes de fin de año",
         "source": "FM Alba",
@@ -28900,6 +28914,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "José Gauffín: “El PRO es la oposición de Salta” - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2JJS1c5Mk1EdUFJalNfa0U1aFNqWjlTaU5kSmJ2VG4wb1JTM3NmN2M4alloZ1FfZTVlVzdIdHA3NWJGNlBXV3FyVmplcHg5emtkVVFUM0Z2dk1BVEloX1l0WGF2aVk1VE00Q0gtSTRyOHNFSC1tQ1hxTXhKQ1VGa0JhQjVQa1V4Wm05V3RaSEFHQdIBigFBVV95cUxQelU5QnBHdHlZUFZ6MHhHV0NvaTJDWXJCSm5vcnJXVlZJSmJpaHdETEQ2VnJpM2VCa0F0TlZFNHEyNjQwcFNZenVGMEtvWklMRk92Q1lYTWRNTC1VVHoyLUhHYzcxenY0SGhEZmJKcVZsaHlIUWFtTWRjUlNTS0ZtODBhcTJvRnBEMVE?oc=5",
+        "source": "Aries On Line",
+        "date": "Fri, 22 Nov 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El experimento social de José Gauffín que defenestró a Romero, Sáenz y Urtubey - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTBpQmxzZXFTMVl2bTlhMGdObHpVQWdWSEhMcHZvd2lLWjVGeG9WNjB6UmZMeEREOW85RTFLdTdZUEJiS0dJZ044UElZbzhOZmhFdFl2cG5nYUd6TU1yUkxkZjJTTXJZcjQ1VTBzMEZOZWU0d3BUTThJdnJnc3JEYTNEMmREUW05SXZHSnd5dV85aEJNYkNTOHlFam5xaFVrRnQ1S0JZM21KZ0RrcWdzT1RB?oc=5",
@@ -29101,13 +29122,6 @@
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3F4SHJEUlJnZy1ZTmlxV21raW1aaDVFUGcwc3JyVmdfV01QajVMZjdvWEhvRkJoWDhPeEFXeDBiWjNVdDFqSHlpUTlnanBXNFRaVjhpYWcwMFhKaVA4ZkZJa3MzM0twWnZZeGpManJxMXlMRFpCcmVEU2FaZ2hxWWg1YzZ3MXp1ZHFWbHBBN2twQm0zWWx1SS01ZVl5cEZFNjZFRFA5TENkRnVGVy1sRHlzdC1yaFo0djJTa0Vhc29vbzBO?oc=5",
         "source": "Elintra.com.ar",
         "date": "Wed, 26 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "José Gauffín afirma que si Cristina Kirchner va presa, será gracias a Mauricio Macri - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmplUTkyZTB3WlJiUjN1dVNDZ3lGYlVTMTExQVFkbk1zdF9vdUlXV3l5NnVnNkpOdGJXT29NMURLMWhiUnZyOEI1aklVYWVWSE5taEdETmZHYU05cjlvVC1kZXNwZWtKOUpYQjVSMnpxa3FGeVpvWkIzVk9zMDU0ZmxsWE8xOHJWWDNCOENyaEo0VV9hV09NZThnQ1JnWmd5TWpSN3V0TXA4V2VXWTU1LXZtYUJ4d3FPcmc?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 29 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -32414,13 +32428,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 37,
+    "total_mentions": 39,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 3,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 2,
+        "score_sum": 1
+      },
       "2025-03-25": {
         "total": 1,
         "score_sum": 0
@@ -32566,7 +32584,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "embarcación",
+        "count": 2
+      },
+      {
+        "term": "temporal",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Es una sinvergüenzada lo que ha hecho",
@@ -32632,6 +32659,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Rápido despliegue provincial en Embarcación: Salud, Seguridad y Desarrollo Social asisten a los 150 heridos y damnificados por el temporal",
+        "link": "https://informatesalta.com.ar/sociedad/rapido-despliegue-provincial-en-embarcacion--salud--seguridad-y-desarrollo-social-asisten-a-los-150-heridos-y-damnificados-por-el-temporal_a6af678167139d0df6ff6ebff",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 02:25:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Temporal en Embarcación: el Comité de Emergencia trabaja en la zona para asistir a las familias afectadas",
+        "link": "https://www.eltribuno.com/municipios/2026-11-13-0-1-0-temporal-en-embarcacion-el-comite-de-emergencia-trabaja-en-la-zona-para-asistir-a-las-familias-afectadas",
+        "source": "El Tribuno - Municipios",
+        "date": "Fri, 13 Nov 2026 03:01:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mario Mimessi sobre Nación: \"Nos han ofrecido ayuda, pero debemos ir a buscarla a Villa Martelli, en Buen - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUE1RWlRHeERINkI0eF9PdzlQMTllXzQyZXAwX1ZUcnlzR3JOb2pjZWRrZDM4QUV5Zlk2ckN6NWRjYXo2Z0xtVkxhZmZmX3Nsekw1ZGMtdGVBTjd1dk9OTUpRbVluWjNDcUJkXzUxOVRfd3ktdGZOYV9aa0tDcFVOQTl1eGo3Wmo5VnFIS0I2Z0lpSzNpZmJjWi1sbVBKdksyZTk3cENUVmNUN2hnOW1RU3NzMmpNQWtCZ1NpMVhVcF84R0t2Tk1ndk1wcHYzRTdVajZSSWFrTXpyckN40gHiAUFVX3lxTFBYdkV1X2czcVpteGN6TzI3LTNxOXZKQzVXRkFBTFBVdlpDNFdOcmpYZng4Y056bUF1NTdZbWExVG9wN1R4NUVfUVg0WFZMQ2ljSkdicWlPc3MyaW5mNFlqZ2xPc0JoNFhyRzhGU1lycmV3cEdJSUE4dHhPUWNwbkZwaWU3SjNaNzl5ZTdFUUg0djhwMnVhZ1YtTGw2Rno1dGJ3bGJTV19odEJBRWtYQ2dSQ3NWZHJWaDN6b1FITGhRSmhLLXRMbnNaWkJjMEZUc2YwcnVtNEQwNHRWV2tlVWRXNVE?oc=5",
@@ -32827,20 +32868,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 06 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Salta: Mario Mimessi juró como ministro de Desarrollo Social - FM Alba",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajRXOGZDZDVGWkRFWG1VbUF5NnRlWHJDRFdJb2JhVll4anB6WkpLSTQtMjhPQ0lMMXc4WFlDVWh1UVdCY1Q1amx3NE53MHdqclNXczVVd0Q1U212U0lXQjNaUUNTdXM1QXBGS24tcTFhRURRMEhoXzNDUldyeFhkbEZweE1lQXN0d3c?oc=5",
-        "source": "FM Alba",
-        "date": "Mon, 11 Dec 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Símbolo de paz?: Mario Mimessi se reunió con Franco Hernández Berni por la transición de Tartagal - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2ItMWRlaE5lZzE3OGZQdHJFNC1ram5kSXRIa2VsNTVnaTA0aEV0ODI3UEpHR2pWMjVSLVZEb28xVUtHd3BSSWhYRUttbVptdHQ3T0FQY0VtUjhpUVBQMk4zQndtTUc3Z3U4bzdyT1lUWm5iUVNPc0lpbU1Zal9lMTl4WFhqZkFKYUN6OTYxaVdyQkxsZE1MRWNHSVpXUlBsUk9zRUtrWUJHUmxBb09jYXZOUzNOUTQ4T2lvTU9kLWI1Y21SRmJVcTJ3?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 28 Oct 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -32963,13 +32990,17 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 12,
       "neutral": 35
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-09": {
         "total": 1,
         "score_sum": -1
@@ -33137,12 +33168,12 @@
         "count": 4
       },
       {
-        "term": "federico",
+        "term": "salud",
         "count": 3
       },
       {
-        "term": "salud",
-        "count": 2
+        "term": "federico",
+        "count": 3
       },
       {
         "term": "elintra",
@@ -33242,6 +33273,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Rápido despliegue provincial en Embarcación: Salud, Seguridad y Desarrollo Social asisten a los 150 heridos y damnificados por el temporal",
+        "link": "https://informatesalta.com.ar/sociedad/rapido-despliegue-provincial-en-embarcacion--salud--seguridad-y-desarrollo-social-asisten-a-los-150-heridos-y-damnificados-por-el-temporal_a6af678167139d0df6ff6ebff",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 02:25:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Tartagal: iglesias y vecinos exigen al ministro Mangione una reunión por la crisis de salud",
         "link": "https://fmalba.com.ar/tartagal-iglesias-y-vecinos-exigen-al-ministro-mangione-una-reunion-por-la-crisis-de-salud/",
@@ -33444,13 +33482,6 @@
         "source": "Informate Salta",
         "date": "Fri, 16 Oct 2026 11:30:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Internaron al ministro de Salud de Salta, Federico Mangione, tras sufrir un accidente en moto en la ruta 68 - Radio LV11",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSnp5bzRTVF9vNW5ZLUVFYUZ2NTlYa2RXbVRTcW9oSFBkX1I1Q19CZ2pUNGs3VjdOSXBUeWc1NHE0bVdPYmpCYlUtVXhUWFVRdmh2T0VmTkFRcHpwX29PUGdxdHFRYTVqd0FFLU5iQmhhWmVBZDZvODdLZGtDZmY3MFprWi1tanlJYTUyd0syUHh3VXhrMnZsTjY4d0p0emxvUy1LSkN4d0NocC0zQWNnQnZETGdOeWtnSmxfN0FlMHNoY2ZFeGZqNkZHZURYdUNieWRzRGFWWnhRdw?oc=5",
-        "source": "Radio LV11",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -34237,13 +34268,17 @@
     "id": "eje-nicolas-avellaneda",
     "name": "Nicolás Avellaneda",
     "role": "Ministro de Seguridad",
-    "total_mentions": 23,
+    "total_mentions": 24,
     "sentiment_breakdown": {
-      "positivo": 11,
+      "positivo": 12,
       "negativo": 0,
       "neutral": 12
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-12": {
         "total": 1,
         "score_sum": 1
@@ -34317,10 +34352,22 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "seguridad",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Rápido despliegue provincial en Embarcación: Salud, Seguridad y Desarrollo Social asisten a los 150 heridos y damnificados por el temporal",
+        "link": "https://informatesalta.com.ar/sociedad/rapido-despliegue-provincial-en-embarcacion--salud--seguridad-y-desarrollo-social-asisten-a-los-150-heridos-y-damnificados-por-el-temporal_a6af678167139d0df6ff6ebff",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 02:25:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Buscan reforzar la seguridad en Cerrillos: analizan nuevas estrategias policiales",
         "link": "https://www.eltribuno.com/salta/2026-11-12-8-0-0-buscan-reforzar-la-seguridad-en-cerrillos-analizan-nuevas-estrategias-policiales",
