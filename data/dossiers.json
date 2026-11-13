@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 473,
+    "total_mentions": 476,
     "sentiment_breakdown": {
       "positivo": 122,
-      "negativo": 82,
+      "negativo": 85,
       "neutral": 269
     },
     "sentiment_by_day": {
+      "2026-08-21": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "2026-11-13": {
+        "total": 2,
+        "score_sum": -5
+      },
       "2025-09-10": {
         "total": 1,
         "score_sum": 0
@@ -99,10 +107,6 @@
         "score_sum": 4
       },
       "2025-09-18": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2026-08-21": {
         "total": 1,
         "score_sum": 0
       },
@@ -466,7 +470,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 22
+        "count": 21
       },
       {
         "term": "gustavo",
@@ -477,7 +481,7 @@
         "count": 6
       },
       {
-        "term": "nación",
+        "term": "obras",
         "count": 4
       },
       {
@@ -493,11 +497,17 @@
         "count": 4
       },
       {
-        "term": "obras",
+        "term": "nación",
         "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Buscan que a Salta le vaya mal",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
+        "date": "Fri, 13 Nov 2026 14:57:49 +0000"
+      },
       {
         "quote": "Me cagaron con las obras",
         "source": "Perfil",
@@ -581,16 +591,31 @@
         "source": "Infobae",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVJNERKbURNNVJTcFZ2Uy0zM3Q0cGhfR1lVTVlrU0ZMTEJNZFVEOERNMTdTTjc4NU9MTFcxcmtsQmhhMWpaTVo0TnJmaWJXUGluVHJJQm9QbmFYYU1oaDVfc09wMmZJS2J0M3FIN3VQdEVCTjhRQlY1OGJsMlh5aVBtYWtYWlNxT3VlN1c1TXc0UzhabUlSX0xMR0RFMmFMWmZQV1NDeVhHdWZYMHlnc9IBywFBVV95cUxPaGVkU1JwUlY3NllKQWM0UnJvUGN4U1ZjZVRiREJnMjZwZUlWR3ZwaWhGNUw2c3VpUXdOSlo4LThlc194dEstMG5FbUwyOHJ1RUtwc0JuRWt4Z2h1anB5OTRNd0JhNGNNRGJZaUpZcWtEWklGcG5oLXZTSWxTV3pnZnhVU01VMjhHMVVPNjBjdHI4U3N1Nk1uU2tVR2xtMUd0RWQ4YWxNanZOS2p5SllwWmE2SkVrVzlra0pQMGlqME0zdGt1QzRVUEdRZw?oc=5",
         "date": "Tue, 23 Jun 2026 07:00:00 GMT"
-      },
-      {
-        "quote": "Argentina no genera confianza si cambian las reglas de juego",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUE1d2hkbk8wVFNRWFI0SE1qR2VSbGtSeWFqRE9xLThUbWwzM3JieV9xMVRPblpfdGpmUUdveUh0SXVEVm8wZ0thWGtnR3hSb1BmbVJnZXJsVVg0cmYzX3J4bmZlc2ZKZXcxN0hCZXp2aUFEZFhfdlotcTNSbG9mZTY1dUlFZFgwX2NwUkNWamNWZkVVdFVPQWJaOWZtZTFCal9udGxMdHVtblByMHRTWWlWZFbSAboBQVVfeXFMTjRfaFpHNi0xZWtBZXdnalMzdXYxcUxZZFUtWjQ3WnJpb3l3dFVxZzI2N2Z2YlY5dlY4Z3NZUFYtdjdhTnlURHhkUEJOMFgzZW9QOHB2YUFYb1pEcmtIbVVpUTdUQ21Wb0toQ0lGZS0yZ0tUY2pHblRrZzEtMzFjSVAwTDJ2X284bW0wQkd4LUNPYTMtU1YySXpqdEx1TTV2ckZMOTlCV3Q5Ynhwd3NaQ1VaX201d19JenlB?oc=5",
-        "date": "Thu, 10 Sep 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sáenz se pone al frente de un reclamo de las provincias del norte de Argentina - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQkUyZEJPMW9PamxVdG5YbUg1ME1QejZ1SXc0bkFENmlFQmpYOTVPbDlRRjJWcVNLV1BNcy1XQlRrVzFjdHE5am9yYlROYWdSZ2w1UEN0UXZkaGk1Zk5NWnUzQXhraGVUd1k1UlhFU3VlaTF1YUd5YlllU3hvOHpqblZ6TmVSRTZmV3FBUGxldEhNZHpaWndMbVFPTTBGOHEyZ3hLZ0pVWWE3UzQ4TnVOR0x1ZkdKWDR0RHRLZkR3LTNCMExXdHfSAcsBQVVfeXFMUDBTb1VMVmYtWmhsekVDWHp0WUpRZXg3RWFUTUZNaDIyVTZBaTZZUWc1dnl5UDZQNW1EVXBzYXpfclpVV3pwc3R6dnBIR2hxcTI2d25iUDZjT1V1MHcydUd5SmxXbmlURGp1X18yQ1A1MmJubDF0RFAtU044MWZONXc3MV9pSzUtdl9jdDNBVjNPQUgtVzVheXIwZDlHanVxbGtkdGIyN0pnQVNhYm5NalY1a25vNTY3Vmx4MFF1bjFkSGlJb3k0Z2pMVVU?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Frontera, empleo y obras: Curá apuntó contra la falta de políticas nacionales para el norte",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/frontera--empleo-y-obras--cura-apunto-contra-la-falta-de-politicas-nacionales-para-el-norte_a6af6f90b7139d0df6ffb4547",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 11:52:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Ignacio Jarsún apuntó contra la conducción provincial de LLA: “Buscan que a Salta le vaya mal”",
+        "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
+        "source": "El Intra",
+        "date": "Fri, 13 Nov 2026 14:57:49 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gustavo Sáenz, gobernador de Salta, sobre el gobierno de Milei: \"Me cagaron con las obras\" - Perfil",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXp4bjR3Vi14ajVoM1RtV3lfcDhJWjh5ejRyQ2JaM0JpaEVST1ZDQXFVdmVleFVKdWszYmloWW5BN2tQRzlpQmdkUmR6NUlWV0RNbTFMRURWaGdfb2RYS1FqeVhKc3NkSnNqM0F0cndrcnZqR3JLVEk2Ym13dS13RllKTExqNnhGaURldGVLTG1kNDd0TFEzWTJ3bjRFNFgxaDNtd1lQRlYxX01JQmtpTkRUTVYwakV5cHpZVUQwR2tGdTlfZm9UblJkdw?oc=5",
@@ -779,27 +804,6 @@
         "source": "Informate Salta",
         "date": "Fri, 06 Nov 2026 13:30:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Con una obra histórica, la Escuela Preti en Tartagal abre un nuevo capítulo",
-        "link": "https://informatesalta.com.ar/interior/con-una-obra-historica--la-escuela-preti-en-tartagal-abre-un-nuevo-capitulo_a6aedd169696ebfa450a1b088",
-        "source": "Informate Salta",
-        "date": "Fri, 25 Dec 2026 13:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Salta y los ramales C14 y C15: Nación ignora el reclamo ferroviario de su aliado Sáenz",
-        "link": "https://elintra.com.ar/2026/11/06/salta-ramales-c14-c15-obras-belgrano-cargas-prorroga-licitacion/",
-        "source": "El Intra",
-        "date": "Fri, 06 Nov 2026 13:54:32 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Belgrano Cargas posterga los ramales C14 y C15 que Gustavo Sáenz reclama - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUi1ieklaOXprbjQ5QzRENHZxTUltdjF2SjhqX2hJRVMzNkxULXF1cGNzMVFPTURzYXVtb29hYXAxM2FjSnF1b0JTTXRoQTVJMmJEVEE2djJvVnN0NDR3VThybldWaFgxTEE0cFpwYTc4c1dSYzE3SzFxRU9iZmNyYjJZbUJWa056X190ei1IV3pJcHF4N1BUMnplcndON29XUVRjVV9vc2EyQTF1dDhfTA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 04 Nov 2026 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -6796,13 +6800,17 @@
     "id": "sen-juan-cruz-cura",
     "name": "Juan Cruz Curá",
     "role": "Senador/a provincial por Orán",
-    "total_mentions": 90,
+    "total_mentions": 91,
     "sentiment_breakdown": {
       "positivo": 13,
-      "negativo": 7,
+      "negativo": 8,
       "neutral": 70
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": -4
+      },
       "2026-11-11": {
         "total": 1,
         "score_sum": 5
@@ -7216,6 +7224,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Frontera, empleo y obras: Curá apuntó contra la falta de políticas nacionales para el norte",
+        "link": "https://informatesalta.com.ar/sin-vueltas-tv/frontera--empleo-y-obras--cura-apunto-contra-la-falta-de-politicas-nacionales-para-el-norte_a6af6f90b7139d0df6ffb4547",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 11:52:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
         "title": "Ante el Senado, Turismo expuso su hoja de ruta para potenciar el sector",
         "link": "https://informatesalta.com.ar/legislativa/ante-el-senado--turismo-expuso-su-hoja-de-ruta-para-potenciar-el-sector-_a6af4dc52696ebfa450f47c49",
         "source": "Informate Salta",
@@ -7416,13 +7431,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN3Nwckl3VzJDRjJKXzhjc2ZodTRUYVktRVN6clFHVnY4OExOeTFRYk56NmNmN2pkdkJEMnE3amd1TWNmcG5FMGtBOHR4cGtiQ215b3dINWdHQUVCREtCSFpyYXFhMTFpX1I2UFl5UzNWZW10OWF6czFmU3h6VmxvT213UTJ3V1F1aE4tM1MtdXRjME1PSGNMZmI5UW8zbmlmNHcyUXZ4NkgxRi12VDBaQUdIU01zdU81MXZrWTdqSzJnaTZibmpiWjI1UnBzMVZub0xobmduSjNuQV91c2g0VjEyc2d6d1pzM1dV0gHwAUFVX3lxTE9HVk9iRkNuXzUzeUR6a0VSdUZHampGUndWdFBPYkRoa3dzcEoxMElQeHBVSGpUckJHUHBGUTBDYkwzZ3VocGxJblVJSnhDNWVBOXllQzV0MVVZT2lrcEp6ajdPWmVyNDh0WDltN2ozUTNBSTVhZEw4X1Q5OXRtaDRjUXJtc01saEZWSHZGeElVcV9VVXR0bkFIZFBxbDA5OHpfcnVNb0xPbURkRFlsVDFmOEdabFdNZUNRVHY1dkpDc1J3LUlHdTgzUTBGNDctTld3MGx0RzVnV3dKejk3dk1kN0o4S01kMEhVcmx4dG5DZQ?oc=5",
         "source": "Voces Criticas - Salta",
         "date": "Wed, 17 Jan 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Juan Cruz Curá se pronunció sobre proyectos claves para educación y salud local - Voces Criticas - Salta",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOajdoT09STWVYcDhXZ1NCVWFBcVNJUTZjb3RBRmFFV2JURk5FTElIMnFBM0I5SS16eVB1cWN5Yy1FVm9aeVZobVU2ZkFaMzVYV1F5bURMcEhLcC1GUHFvWHBQWUhOUWxnZE1KMWhhSWt6cEU2NENGUTljdzVleTRkams2OGlPZy1yTm1wZ01OcV9rYlU5VnFfOUJQQ21yb3hsV0pieFpEeXNuMGJycGFzYlYxZ05PY1BacElkYWVmZHdWRWVVZmNMZVp5NU41T0IwcUHSAdcBQVVfeXFMUGpyc3FqVktWRzkybEdZZEU4NGVVbzZhUjI2c0ZBWDVPUzVQeVZyWGszbURhSUUyNDVOYUs4LVo4dlNMdTFLSXVDRmJleVNQX0tMTldFUVk3aWJRSGwybWxVSExpcFFwUW55emRGZFAzMmxBZGN2czFvTk1jT1JteWY4bng1TDRNNHg2NGlJcC1mTGROS1dpRHI0Um5STUZvNUlBc2hBTGRtMVgtOURoX0RVckh4WnRrNkNSWXdxT0diYkN2czlRYjA5ZWhzNjBHZ2VOZmNLa2M?oc=5",
-        "source": "Voces Criticas - Salta",
-        "date": "Fri, 23 Aug 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -9249,15 +9257,11 @@
     "top_topics": [
       {
         "term": "laura",
-        "count": 4
+        "count": 2
       },
       {
         "term": "cartuccia",
-        "count": 4
-      },
-      {
-        "term": "elintra",
-        "count": 3
+        "count": 2
       },
       {
         "term": "cristina",
@@ -18778,13 +18782,17 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 49,
+    "total_mentions": 51,
     "sentiment_breakdown": {
       "positivo": 5,
-      "negativo": 8,
-      "neutral": 36
+      "negativo": 9,
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "2026-11-12": {
+        "total": 2,
+        "score_sum": -1
+      },
       "2026-11-06": {
         "total": 1,
         "score_sum": -3
@@ -18974,7 +18982,32 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "malvina",
+        "count": 2
+      },
+      {
+        "term": "gareca",
+        "count": 2
+      },
+      {
+        "term": "expone",
+        "count": 2
+      },
+      {
+        "term": "doble",
+        "count": 2
+      },
+      {
+        "term": "moral",
+        "count": 2
+      },
+      {
+        "term": "carpa",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "país soberano",
@@ -19088,6 +19121,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Malvina Gareca expone la doble moral del gobierno y la Carpa VIP del Papa - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNkhmeHI3TS1hZm1kNnJHMFA1dHRqd2tEODFxUTMyQnZnRXY1X1c2eFRZcndqLUZ1cERLdWNjaVI4cEs5VzFUS1VKUU5sOHBFSHBab3prWkFyVkI2UVdfdXFIMkw3VlREYkFTUzBxZzlNeElLZmRKeWhDNlpLV25yWGZ1RUJRTzRmMktnMVR3T0NmX09jMFlKNjd0Y3JGb3UxRlZIX01GSXQtV2Y5eGREbVZfVXQ0ZFc5MWxGanZLdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 12 Nov 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Malvina Gareca expone la doble moral del gobierno y la Carpa VIP en la misa de León XIV",
+        "link": "https://elintra.com.ar/2026/11/12/malvina-gareca-expone-la-doble-moral-del-gobierno-y-la-carpa-vip-en-la-misa-de-leon-xiv/",
+        "source": "El Intra",
+        "date": "Thu, 12 Nov 2026 21:16:00 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Tras el archivo de la denuncia, Malvina Gareca explicó qué falta para que Casasola vuelva al Concejo",
         "link": "https://informatesalta.com.ar/municipal/tras-el-archivo-de-la-denuncia--malvina-gareca-explico-que-falta-para-que-casasola-vuelva-al-concejo_a6aedb5f0696ebfa4509f0132",
@@ -19283,20 +19330,6 @@
         "source": "eltribuno.com",
         "date": "Fri, 06 Mar 2026 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Ediles adecuaron el reglamento al nuevo mandato - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUnJKZ1YyX2c1MV91YzNfV29rV0R1a09Qb19XQmFtYkU4Q3BjVjZmSkltbVVkN09mbUF4VHNnWEdJbVdSQ3ZUTFlOc0xNZnRtNkJ1cjVSU3dzV3l6OGxreVZzeHVKOFZnazVneWxEN2ZOR2M4b2JoZng2ZkFlOWRPcldSOWZXaTZ6WThWeE9zSlhKRHZGTC05Wg?oc=5",
-        "source": "eltribuno.com",
-        "date": "Fri, 04 Aug 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Cómo se repartió el poder en el Concejo: diez bloques, entre aliados y monobloques - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSE1aQ2pMRVAxVGhMMDAzd3A3MjE2eXVVQ0x5bDFiZFNNZElsbnptaXA2YXk2TXRxSU94d1RzaUJvZG1OcFpYSnpjME01YkhDUUFyNFpHT2hrRE1fRWsxVE1jaDFRQlRacXB1YzR2UVhCSWxmclAySlVlMTY3YXZLQU5peFJvVFl4YWlkbjB1VGk1TEdTVS13YUVSeElnUWFrei1hMWstR2dvZmFoUWJSZnlCZWpoMmJ5N29RaHR6cFk0NWhqOXY1eUN3?oc=5",
-        "source": "eltribuno.com",
-        "date": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -24408,15 +24441,15 @@
     "top_topics": [
       {
         "term": "gonzalo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "guzmán",
-        "count": 3
+        "count": 2
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -31393,13 +31426,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
       "positivo": 7,
-      "negativo": 6,
+      "negativo": 7,
       "neutral": 33
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": -1
+      },
       "2026-11-05": {
         "total": 1,
         "score_sum": 0
@@ -31568,6 +31605,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "Buscan que a Salta le vaya mal",
+        "source": "El Intra",
+        "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
+        "date": "Fri, 13 Nov 2026 14:57:49 +0000"
+      },
+      {
         "quote": "No pedimos privilegios, sino igualdad",
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/reclamo/subsidio-al-transporte---no-pedimos-privilegios--sino-igualdad---critico-jarsun-a-nacion_a6aeb327dbcf08930c42a9fb0",
@@ -31637,6 +31680,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún apuntó contra la conducción provincial de LLA: “Buscan que a Salta le vaya mal”",
+        "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
+        "source": "El Intra",
+        "date": "Fri, 13 Nov 2026 14:57:49 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Aguas del Norte adjudicó otras seis emergencias y volvió a omitir los precios",
         "link": "https://elintra.com.ar/2026/11/05/aguas-del-norte-adjudico-otras-seis-emergencias-y-volvio-a-omitir-los-precios/",
@@ -31838,13 +31888,6 @@
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWlLOEVLTmxHN2tISmd2NkJYWGJuR3dBV0ZpUGI5Vmljd0R6MldkbWQxZkxrSDRvWjhQZnZrSzZMOExFZGFKSE5ucm1HUF9iT0E3azZpdE1SMEhSa1N6NWtJWEhLMlhIbnpkS1gwSGk3eElmMHE1TXk0a2l4eGd6elhCLXhUd19JaWhIcl8yNTdrbXhuT21mbUdQakRDeVVDTnBVLUNFbmVlU1BKRXp0U1dFM2hFRnBm?oc=5",
         "source": "Elintra.com.ar",
         "date": "Fri, 18 Sep 2026 03:09:10 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Ignacio Jarsún - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tejIxalJnOTJ2MnNXOVBCNnczQVQycUFvcXhiRDUtNFd0UjdQNnFaOGZqNER3aFJocWhZT3FjUGYxcy04WHhSZDlVWnZaamZ2bGh0TkhUYko?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 08 May 2024 00:18:23 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -32428,16 +32471,16 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 39,
+    "total_mentions": 41,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 3,
-      "neutral": 31
+      "neutral": 32
     },
     "sentiment_by_day": {
       "2026-11-13": {
-        "total": 2,
-        "score_sum": 1
+        "total": 4,
+        "score_sum": 2
       },
       "2025-03-25": {
         "total": 1,
@@ -32587,6 +32630,22 @@
     "top_topics": [
       {
         "term": "embarcación",
+        "count": 4
+      },
+      {
+        "term": "comité",
+        "count": 2
+      },
+      {
+        "term": "emergencia",
+        "count": 2
+      },
+      {
+        "term": "trabaja",
+        "count": 2
+      },
+      {
+        "term": "damnificados",
         "count": 2
       },
       {
@@ -32659,6 +32718,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Embarcación: el Comité de Emergencia trabaja en el lugar",
+        "link": "https://fmalba.com.ar/embarcacion-el-comite-de-emergencia-trabaja-en-el-lugar/",
+        "source": "FM Alba",
+        "date": "Fri, 13 Nov 2026 12:17:47 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Colchones, chapas y alimentos, el operativo para ayudar a los damnificados en Embarcación",
+        "link": "https://informatesalta.com.ar/interior/colchones--chapas-y-alimentos--el-operativo-para-ayudar-a-los-damnificados-en-embarcacion_a6af6fa957139d0df6ffb7789",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 12:15:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Rápido despliegue provincial en Embarcación: Salud, Seguridad y Desarrollo Social asisten a los 150 heridos y damnificados por el temporal",
         "link": "https://informatesalta.com.ar/sociedad/rapido-despliegue-provincial-en-embarcacion--salud--seguridad-y-desarrollo-social-asisten-a-los-150-heridos-y-damnificados-por-el-temporal_a6af678167139d0df6ff6ebff",
@@ -32854,20 +32927,6 @@
         "source": "FM Alba",
         "date": "Fri, 24 Sep 2021 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tartagal: Mario Mimessi dejará su banca de diputado a Valeria Fernández, de Ballivián - FM Alba",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQWtlNm43a0ZXcmJwSmN3bUdZajZfSlFXRlFFTGhid2tmdFUyeFlKLVNST1dNWW9JbWhobmxpcHdlV2l2d0YzU3MzZzRDUHhVVlB1Ri1HQ3ZqdjRWZGQwOFVnQm05MTlZZGQ0UWxTRGRQUFVVVjQ0aUJaZi00anhZc3RFLXNSeFdJMUg2a0l2V3R4bFctS0d4bnQ4am01NXhaMjRMVUMzVGZrQQ?oc=5",
-        "source": "FM Alba",
-        "date": "Tue, 12 Nov 2019 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Franco Hernández Berni le apuntó a Mario Mimessi y le pidió rendir cuentas de su gestión en Tartagal - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdDVlWlZyXzFRaWRKdjRFNlNVTENRc2FFRVdvTjRTR19URlRLTnptSHBSNndHOUIxNU9xS1ZVQXVkc3FIZW1wNUNWX1g3XzBIUjg1UWg4cXR2QVFjVzRGMjFoRFJ6WHJPZHJNbDZTekhXNkIyZnpUTnh6bmJnN2x0SVlFcm1lenBBS0NyUElKWmpxeGl4aS1fa0dqSmo1dlVySFotZWF6LUx2a1BIVWZZa2ZISjR4VkFqQnkwdTc3NFkzbmhkTVJ4ak1xanpxREp6?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 06 Feb 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -32990,16 +33049,16 @@
     "id": "eje-federico-mangione",
     "name": "Federico Alejandro Javier Mangione",
     "role": "Ministro de Salud Pública",
-    "total_mentions": 53,
+    "total_mentions": 55,
     "sentiment_breakdown": {
-      "positivo": 6,
+      "positivo": 7,
       "negativo": 12,
-      "neutral": 35
+      "neutral": 36
     },
     "sentiment_by_day": {
       "2026-11-13": {
-        "total": 1,
-        "score_sum": 1
+        "total": 3,
+        "score_sum": 2
       },
       "2026-11-09": {
         "total": 1,
@@ -33165,7 +33224,15 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 4
+        "count": 6
+      },
+      {
+        "term": "temporal",
+        "count": 3
+      },
+      {
+        "term": "embarcación",
+        "count": 3
       },
       {
         "term": "salud",
@@ -33186,17 +33253,21 @@
       {
         "term": "cartuccia",
         "count": 2
-      },
-      {
-        "term": "cristina",
-        "count": 2
-      },
-      {
-        "term": "fiore",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "Detrás de estas catástrofes se viene el dengue",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/salud/-detras-de-estas-catastrofes-se-viene-el-dengue---mangione-tras-el-temporal-en-embarcacion_a6af704d57139d0df6ffc7591",
+        "date": "Fri, 13 Nov 2026 13:42:00 GMT"
+      },
+      {
+        "quote": "Ya son 250 los pacientes afectados",
+        "source": "El Tribuno - Municipios",
+        "link": "https://www.eltribuno.com/municipios/2026-11-13-12-9-0-son-250-los-pacientes-afectados-mangione-dio-un-nuevo-balance-del-temporal-en-embarcacion",
+        "date": "Fri, 13 Nov 2026 15:09:00 GMT"
+      },
       {
         "quote": "Sí está en condiciones de viajar",
         "source": "Informate Salta",
@@ -33273,6 +33344,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "“Detrás de estas catástrofes se viene el dengue”: Mangione tras el temporal en Embarcación",
+        "link": "https://informatesalta.com.ar/salud/-detras-de-estas-catastrofes-se-viene-el-dengue---mangione-tras-el-temporal-en-embarcacion_a6af704d57139d0df6ffc7591",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 13:42:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "“Ya son 250 los pacientes afectados”: Mangione dio un nuevo balance del temporal en Embarcación",
+        "link": "https://www.eltribuno.com/municipios/2026-11-13-12-9-0-son-250-los-pacientes-afectados-mangione-dio-un-nuevo-balance-del-temporal-en-embarcacion",
+        "source": "El Tribuno - Municipios",
+        "date": "Fri, 13 Nov 2026 15:09:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Rápido despliegue provincial en Embarcación: Salud, Seguridad y Desarrollo Social asisten a los 150 heridos y damnificados por el temporal",
         "link": "https://informatesalta.com.ar/sociedad/rapido-despliegue-provincial-en-embarcacion--salud--seguridad-y-desarrollo-social-asisten-a-los-150-heridos-y-damnificados-por-el-temporal_a6af678167139d0df6ff6ebff",
@@ -33467,20 +33552,6 @@
         "link": "https://informatesalta.com.ar/salud/salud-en-salta--mangione-denuncio-que-la-provincia-afronta-gastos-que-corresponden-a-nacion_a6ad68fdee22ee8014a8083f0",
         "source": "Informate Salta",
         "date": "Tue, 20 Oct 2026 11:15:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Se realizó la segunda reunión por el presupuesto 2027: fue el turno del sur",
-        "link": "https://informatesalta.com.ar/gobierno/se-realizo-la-segunda-reunion-por-el-presupuesto-2027--fue-el-turno-del-sur_a6ad26a46668d7bc2994dcc9f",
-        "source": "Informate Salta",
-        "date": "Fri, 16 Oct 2026 18:30:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tuberculosis en la cárcel: la justicia investiga el brote que informó Mangione",
-        "link": "https://informatesalta.com.ar/justicia/tuberculosis-en-la-carcel--la-justicia-investiga-el-brote-que-informo-mangione_a6ad165167f0e2f8050dce3b6",
-        "source": "Informate Salta",
-        "date": "Fri, 16 Oct 2026 11:30:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -35256,13 +35327,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 18
+      "neutral": 19
     },
     "sentiment_by_day": {
+      "2026-11-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2023-03-04": {
         "total": 1,
         "score_sum": 0
@@ -35339,6 +35414,12 @@
     "top_topics": [],
     "quotes": [
       {
+        "quote": "la situación está controlada",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/embarcacion--provincia-afirma-que--la-situacion-esta-controlada--y-refuerza-la-ayuda_a6af707a77139d0df6ffcc4a8",
+        "date": "Fri, 13 Nov 2026 12:55:00 GMT"
+      },
+      {
         "quote": "En el AMBA están todos los privilegios",
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/politica/-en-el-amba-estan-todos-los-privilegios---salta-cuestiono-los-subsidios-de-nacion_a6aeb453a535b5d30032b9888",
@@ -35377,6 +35458,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Embarcación: Provincia afirma que “la situación está controlada” y refuerza la ayuda",
+        "link": "https://informatesalta.com.ar/gobierno/embarcacion--provincia-afirma-que--la-situacion-esta-controlada--y-refuerza-la-ayuda_a6af707a77139d0df6ffcc4a8",
+        "source": "Informate Salta",
+        "date": "Fri, 13 Nov 2026 12:55:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Paula Benavides archivos - Página 2 de 8 - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iMkhLSTROS0ZpdGNXRkRrWnJxa0FlNEN4bFk4b1p5S1NNM3htQndxQ0lQMzZ5WnVLNUdVbWZWVlA4ZXRnUEV2ZzNLX1ByckVGbGd4b05PUVh4M3pSd0lj?oc=5",
