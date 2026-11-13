@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-13T21:41:45.097370+00:00",
+  "generated_at": "2026-11-13T23:01:52.474529+00:00",
   "by_politician": {
+    "snac-flavia-royon": {
+      "total": 128,
+      "positivo": 12,
+      "negativo": 16,
+      "neutral": 100,
+      "score_sum": 3
+    },
     "dip-jorge-miguel-restom": {
       "total": 7,
       "positivo": 0,
@@ -84,13 +91,6 @@
       "negativo": 7,
       "neutral": 30,
       "score_sum": -11
-    },
-    "snac-flavia-royon": {
-      "total": 127,
-      "positivo": 11,
-      "negativo": 16,
-      "neutral": 100,
-      "score_sum": 1
     },
     "eje-nicolas-avellaneda": {
       "total": 24,
@@ -934,6 +934,16 @@
     }
   },
   "by_day": {
+    "2024-09-12": {
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2022-08-31": {
       "dip-jorge-miguel-restom": {
         "total": 1,
@@ -7935,12 +7945,6 @@
       }
     },
     "2022-12-26": {
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2024-09-12": {
       "eje-federico-mangione": {
         "total": 1,
         "score_sum": 0
@@ -18741,16 +18745,16 @@
       "count": 14
     },
     {
+      "term": "elintra",
+      "count": 12
+    },
+    {
       "term": "turismo",
       "count": 12
     },
     {
       "term": "ante",
       "count": 12
-    },
-    {
-      "term": "elintra",
-      "count": 11
     },
     {
       "term": "expuso",

@@ -22798,13 +22798,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 127,
+    "total_mentions": 128,
     "sentiment_breakdown": {
-      "positivo": 11,
+      "positivo": 12,
       "negativo": 16,
       "neutral": 100
     },
     "sentiment_by_day": {
+      "2024-09-12": {
+        "total": 1,
+        "score_sum": 2
+      },
       "2026-08-10": {
         "total": 1,
         "score_sum": -2
@@ -23189,11 +23193,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 5
+        "count": 6
       },
       {
         "term": "royón",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "elintra",
+        "count": 2
       },
       {
         "term": "salteños",
@@ -23205,6 +23213,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "La minería es parte de la solución de los problemas macroeconómicos",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmJGZVRKU0Jlb1dPbE1KazVsR2V6TXotRDFsNjlpNzBObzV6OXBpa0ZuMy05Z0dBTzRSd2QyNk8wVGl5VENGU1A1Y2h0MmpDS0F3U3ZEVDk0cnZYZzZvZ3NBZ2s4ZzlrcmwtTHRTTEpYaENOUnVJNTNkR0t4QU1sc3JvUXN6d2E0T2RCMHNVSW03SG8tMEZtY3ppNHpEQTZ3ZGsxLUE3UjlhRThqZXA3SjhNVDJ3Zw?oc=5",
+        "date": "Thu, 12 Sep 2024 07:00:00 GMT"
+      },
       {
         "quote": "No era el momento",
         "source": "Que Pasa Salta",
@@ -23288,12 +23302,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzN3Wk5TS0tqdG5jcjBXTExPMnBvQ2NZMUlfLTFEM3AxN01VMGl3Um1xMFpnZDNLVjZHVW5rbjhnTlNnNFcza3NqZzE2S2hmMUJycG1HNWRrX1UtcklVT2JPR29mNkJlUW9SQjNwNnh3YWlBMC11ZkNaS3ZoZnFTeGVJWTd2QU1PUXYtSGdzMFRacFluUGpTUFJMNG8?oc=5",
         "date": "Sun, 11 May 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Hay que analizar un mecanismo",
-        "source": "Infobae",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNy1mblM1VmVGUUs3OG1XSWhFNmo3aDVGUXloa200aW03TFRleXVDTlk1V0Z5bFdqMTI3X2tkdGF6QjFxRUlHY0diSUExekRtSDlvOFh0aEhZVEZvV1R6bEFUUmxBUHQwZ2hDNmxqOG4xN1FtSmtPbUgtaUJLSEhnNHkyeDdqTE42clpac2NNUDBrU054MGJnQWwwMUp0SFEwTFMzeDNIZFQ5X2FWcldNSy1EWkYwQll3TEpRMXJieGVTdXZaLVFiUTNLYVBHQTg4QjkyMEllZm8wM2hOM1BZRGg1Y3R0RGFCTEdBY1ViRWRpdXljai1QMzljWG0?oc=5",
-        "date": "Mon, 19 Oct 2026 23:32:21 GMT"
       }
     ],
     "legal_mentions": [
@@ -23323,6 +23331,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Flavia Royón: “La minería es parte de la solución de los problemas macroeconómicos” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmJGZVRKU0Jlb1dPbE1KazVsR2V6TXotRDFsNjlpNzBObzV6OXBpa0ZuMy05Z0dBTzRSd2QyNk8wVGl5VENGU1A1Y2h0MmpDS0F3U3ZEVDk0cnZYZzZvZ3NBZ2s4ZzlrcmwtTHRTTEpYaENOUnVJNTNkR0t4QU1sc3JvUXN6d2E0T2RCMHNVSW03SG8tMEZtY3ppNHpEQTZ3ZGsxLUE3UjlhRThqZXA3SjhNVDJ3Zw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 12 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Flavia Royón explicó por qué votó en contra de la polémica ley: \"No era el momento\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVdIBvwFBVV95cUxOVjN1SmQ5UHRqdTUwYWJoODhKeVNFNWVSWlJLanhZb2g3U2xNVWR2eFl6bnNpZldNS1Nuak16WmhMbGtXcjktTE40NXpLQ0JRRWg2M0E1ZERwWTNEQU0tSmFqZFVyNGZSa1J5UmFySDFWbFRaSHJucDVFMGR5OV9GVlctZjVZQ1B1YzN4QnItbkgtUDI5cVJhUjBZdmNHeVc4Q0hxTDRaREowOTJqdkR1WElYYVFMVEItXzE5aXNxVQ?oc=5",
@@ -23524,13 +23539,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLVFwX3hSSTNRZEVXODZFVWtmN1BxeWZhOUNpUzBrb21MN0N0dEVNWjY3bEVoUEtBSU9tN2pWRTE2UDZLcHlHVjR1UTZINl9FWEEzWXA0ZXEtUkhVX0VmdVZPbzFDQXBYanhHWTY0THlxX2JfQ1cybjFSQ2lLeUdudTVGY0stZFN5NWZMNUl3TVV1cmtjbnlCUlRwSFBOQS1pSmZNTmhlYUVaX3p3Q1Jpa29HaFVoa0lXbGZFd2xVMG01SlV5T1g2a1dRUW44cGtRUVRtZm9oRUp0aVRBU0RDLVRUQ04?oc=5",
         "source": "Agenda Salta",
         "date": "Mon, 27 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón: “Es desde la política que se toman las decisiones” - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzN3Wk5TS0tqdG5jcjBXTExPMnBvQ2NZMUlfLTFEM3AxN01VMGl3Um1xMFpnZDNLVjZHVW5rbjhnTlNnNFcza3NqZzE2S2hmMUJycG1HNWRrX1UtcklVT2JPR29mNkJlUW9SQjNwNnh3YWlBMC11ZkNaS3ZoZnFTeGVJWTd2QU1PUXYtSGdzMFRacFluUGpTUFJMNG8?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sun, 11 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
