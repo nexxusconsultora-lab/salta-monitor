@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-13T23:01:52.474529+00:00",
+  "generated_at": "2026-11-13T23:05:49.377697+00:00",
   "by_politician": {
+    "dnac-bernardo-biella": {
+      "total": 40,
+      "positivo": 7,
+      "negativo": 7,
+      "neutral": 26,
+      "score_sum": -3
+    },
     "snac-flavia-royon": {
       "total": 128,
       "positivo": 12,
       "negativo": 16,
       "neutral": 100,
       "score_sum": 3
+    },
+    "concejal-jose-garcia-alcazar": {
+      "total": 40,
+      "positivo": 0,
+      "negativo": 12,
+      "neutral": 28,
+      "score_sum": -28
     },
     "dip-jorge-miguel-restom": {
       "total": 7,
@@ -99,13 +113,6 @@
       "neutral": 12,
       "score_sum": 21
     },
-    "dnac-bernardo-biella": {
-      "total": 39,
-      "positivo": 7,
-      "negativo": 6,
-      "neutral": 26,
-      "score_sum": -1
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 82,
       "positivo": 11,
@@ -175,13 +182,6 @@
       "negativo": 4,
       "neutral": 59,
       "score_sum": 50
-    },
-    "concejal-jose-garcia-alcazar": {
-      "total": 39,
-      "positivo": 0,
-      "negativo": 12,
-      "neutral": 27,
-      "score_sum": -28
     },
     "eje-cristina-fiore": {
       "total": 64,
@@ -934,12 +934,40 @@
     }
   },
   "by_day": {
+    "2025-12-23": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-09-12": {
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": 2
       },
       "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-09-08": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "dip-francisco-fabio-rodriguez": {
         "total": 1,
         "score_sum": 0
       }
@@ -7002,16 +7030,6 @@
         "score_sum": 0
       }
     },
-    "2025-12-23": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2022-12-07": {
       "eje-roberto-dib-ashur": {
         "total": 1,
@@ -10918,16 +10936,6 @@
         "score_sum": -4
       },
       "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2022-09-08": {
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "dip-francisco-fabio-rodriguez": {
         "total": 1,
         "score_sum": 0
       }
@@ -18740,6 +18748,10 @@
     }
   ],
   "trending_terms": [
+    {
+      "term": "elintra",
+      "count": 14
+    },
     {
       "term": "senado",
       "count": 14
