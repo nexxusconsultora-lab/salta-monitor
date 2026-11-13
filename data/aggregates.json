@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-12T19:51:41.633562+00:00",
+  "generated_at": "2026-11-13T00:49:12.563423+00:00",
   "by_politician": {
+    "dnac-bernardo-biella": {
+      "total": 39,
+      "positivo": 7,
+      "negativo": 6,
+      "neutral": 26,
+      "score_sum": -1
+    },
     "snac-emilia-orozco": {
-      "total": 116,
+      "total": 117,
       "positivo": 9,
       "negativo": 19,
-      "neutral": 88,
+      "neutral": 89,
       "score_sum": -20
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 82,
+      "positivo": 11,
+      "negativo": 16,
+      "neutral": 55,
+      "score_sum": -6
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 67,
@@ -78,13 +92,6 @@
       "neutral": 13,
       "score_sum": 8
     },
-    "dnac-bernardo-biella": {
-      "total": 38,
-      "positivo": 7,
-      "negativo": 6,
-      "neutral": 25,
-      "score_sum": -1
-    },
     "snac-flavia-royon": {
       "total": 126,
       "positivo": 11,
@@ -112,13 +119,6 @@
       "negativo": 12,
       "neutral": 27,
       "score_sum": -28
-    },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 81,
-      "positivo": 10,
-      "negativo": 16,
-      "neutral": 55,
-      "score_sum": -7
     },
     "eje-cristina-fiore": {
       "total": 64,
@@ -934,23 +934,43 @@
     }
   },
   "by_day": {
-    "2025-05-29": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
+    "2022-12-29": {
+      "dnac-bernardo-biella": {
         "total": 1,
         "score_sum": 0
       }
     },
-    "2024-06-13": {
-      "concejal-agustina-alvarez-eichele": {
+    "2026-09-09": {
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
         "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "dip-miguel-angel-plaza-schaefer": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-luis-gerardo-mendana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 3,
         "score_sum": 0
       }
     },
     "2026-11-12": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      },
       "sen-dani-nolasco": {
         "total": 1,
         "score_sum": 0
@@ -994,6 +1014,22 @@
       "eje-nicolas-avellaneda": {
         "total": 1,
         "score_sum": 1
+      }
+    },
+    "2025-05-29": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-06-13": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
       }
     },
     "2025-03-25": {
@@ -5135,32 +5171,6 @@
     "2025-08-22": {
       "eje-roberto-dib-ashur": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-09-09": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "dip-miguel-angel-plaza-schaefer": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-luis-gerardo-mendana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 3,
         "score_sum": 0
       }
     },
@@ -18658,15 +18668,15 @@
   "trending_terms": [
     {
       "term": "senado",
-      "count": 13
+      "count": 14
+    },
+    {
+      "term": "elintra",
+      "count": 12
     },
     {
       "term": "ante",
       "count": 12
-    },
-    {
-      "term": "elintra",
-      "count": 11
     },
     {
       "term": "turismo",
@@ -18697,20 +18707,20 @@
       "count": 8
     },
     {
-      "term": "gustavo",
-      "count": 8
-    },
-    {
-      "term": "sáenz",
-      "count": 6
-    },
-    {
       "term": "emilia",
       "count": 5
     },
     {
       "term": "salteños",
       "count": 5
+    },
+    {
+      "term": "gustavo",
+      "count": 5
+    },
+    {
+      "term": "corte",
+      "count": 4
     },
     {
       "term": "política",
