@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-14T20:01:29.201687+00:00",
+  "generated_at": "2026-11-14T23:52:41.295937+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 548,
+      "total_mentions": 549,
       "sentiment_breakdown": {
         "positivo": 36,
         "negativo": 47,
-        "neutral": 465
+        "neutral": 466
       },
       "sentiment_by_day": {
+        "2026-11-09": {
+          "total": 3,
+          "score_sum": 0
+        },
         "2026-11-12": {
           "total": 13,
           "score_sum": 2
@@ -35,10 +39,6 @@
         "2026-11-11": {
           "total": 6,
           "score_sum": -2
-        },
-        "2026-11-09": {
-          "total": 2,
-          "score_sum": 0
         },
         "2026-11-08": {
           "total": 3,
@@ -320,15 +320,15 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 59
+          "count": 58
         },
         {
           "term": "intransigente",
-          "count": 53
+          "count": 54
         },
         {
           "term": "tribuno",
-          "count": 38
+          "count": 37
         },
         {
           "term": "elintra",
@@ -450,6 +450,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Martín Llaryora recorrió el centro de monitoreo para la visita del Papa a Córdoba - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkd5cTJtMGtKYklBbVFiOGxvZHh6bEF1VVFtdGdLOThqeWd3QVJCMWpsTFpwSmFmWHJlcE54Y2J5TWpyVTdRS0RCZ1BkYzRudWhub0xuV0tTT2ZkUXdJUDI3LUMzOGdfeVMwems5djlYRUl2a3U4UFVZRWVlRG42V3JYdVZVWGxNZmRQYk50QWROMWQ0SmV0YWgxOWlKX1VyVnI0?oc=5",
+          "source": "El Intransigente",
+          "date": "Mon, 09 Nov 2026 20:40:25 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Patricia Bullrich confirmó el tratamiento de la Ley de Discapacidad: «Sin nadie afuera» - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2pwYUFWSzVBT2dHR0tNVHpuc1BRdzZmNndETjZSLUQ2YXhKNVg4ZmM3eDFieHN3eXBFSWN3WXAwTTNDc1NQbk8xbUYyTDBTbGtTdnpNaTMzdUh0WExSRWlvdXdUQVNuenhPZVlnTUNJejZtRE01MWRXWXdaQWpMS1FDMUo3OEx4RDBKRUd0Tm56Z0ZiZ3RCUEFPeDRyTlZCSkxxZXdaNU5BQWpTaERTV1d3?oc=5",
@@ -652,13 +659,6 @@
           "source": "El Intransigente",
           "date": "Sun, 08 Nov 2026 17:35:00 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "Nacionales - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01S0tHb2tUcEc0akpSLWNQak5BTFU4c1EyVkpBS0t2Y2JVNU1qR2NSY3lTdHN5VlI4M0tzRkduTjlVZGllRFdfcnVrcGFVd1BfNnlYWjRRbw?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 07 May 2024 15:44:13 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },
