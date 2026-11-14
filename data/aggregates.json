@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-14T17:48:30.739936+00:00",
+  "generated_at": "2026-11-14T20:01:28.309235+00:00",
   "by_politician": {
+    "eje-roberto-dib-ashur": {
+      "total": 76,
+      "positivo": 12,
+      "negativo": 4,
+      "neutral": 60,
+      "score_sum": 50
+    },
     "dip-gaston-guillermo-galindez": {
       "total": 30,
       "positivo": 5,
@@ -238,13 +245,6 @@
       "negativo": 0,
       "neutral": 13,
       "score_sum": 8
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 75,
-      "positivo": 12,
-      "negativo": 4,
-      "neutral": 59,
-      "score_sum": 50
     },
     "sen-luciano-elvira": {
       "total": 19,
@@ -934,6 +934,12 @@
     }
   },
   "by_day": {
+    "2019-12-03": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-10-28": {
       "dip-gaston-guillermo-galindez": {
         "total": 1,
@@ -18830,7 +18836,7 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 16
+      "count": 14
     },
     {
       "term": "embarcación",
@@ -18841,20 +18847,20 @@
       "count": 8
     },
     {
-      "term": "emilia",
-      "count": 6
-    },
-    {
-      "term": "orozco",
-      "count": 6
-    },
-    {
       "term": "sáenz",
       "count": 6
     },
     {
       "term": "contra",
       "count": 6
+    },
+    {
+      "term": "emilia",
+      "count": 5
+    },
+    {
+      "term": "orozco",
+      "count": 5
     },
     {
       "term": "gustavo",
