@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-14T15:18:00.222421+00:00",
+  "generated_at": "2026-11-14T17:48:31.408652+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 547,
+      "total_mentions": 548,
       "sentiment_breakdown": {
         "positivo": 36,
         "negativo": 47,
-        "neutral": 464
+        "neutral": 465
       },
       "sentiment_by_day": {
+        "2026-11-12": {
+          "total": 13,
+          "score_sum": 2
+        },
         "2026-11-05": {
           "total": 7,
           "score_sum": 2
@@ -19,10 +23,6 @@
         "2026-11-14": {
           "total": 2,
           "score_sum": 0
-        },
-        "2026-11-12": {
-          "total": 12,
-          "score_sum": 2
         },
         "2026-11-13": {
           "total": 1,
@@ -324,7 +324,7 @@
         },
         {
           "term": "intransigente",
-          "count": 53
+          "count": 54
         },
         {
           "term": "tribuno",
@@ -344,7 +344,7 @@
         },
         {
           "term": "discapacidad",
-          "count": 19
+          "count": 20
         },
         {
           "term": "milei",
@@ -450,6 +450,13 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Patricia Bullrich confirmó el tratamiento de la Ley de Discapacidad: «Sin nadie afuera» - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2pwYUFWSzVBT2dHR0tNVHpuc1BRdzZmNndETjZSLUQ2YXhKNVg4ZmM3eDFieHN3eXBFSWN3WXAwTTNDc1NQbk8xbUYyTDBTbGtTdnpNaTMzdUh0WExSRWlvdXdUQVNuenhPZVlnTUNJejZtRE01MWRXWXdaQWpMS1FDMUo3OEx4RDBKRUd0Tm56Z0ZiZ3RCUEFPeDRyTlZCSkxxZXdaNU5BQWpTaERTV1d3?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 12 Nov 2026 19:07:59 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Centro de Adopciones Mancilla celebra otro aniversario: concientización y mascotas que esperan un nuevo hog - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNY3FJeHA1VTJjU3p4d21NWjdWWlp0S0RKdnNIbFUyRGE5TlJyZVh5ZnE0ZVRQdHBFWEdtY3JDZWlrbDVENmxOZUNDdmxxQmdacm1uUXczQ216dWdDYzFMT083RHAzUGVJaHpqd2ltU29jd0xnQzBVVm44blNSVjdrWnVBUlpjN09aaWRSMl9IV08zNy04ZUE4cWlwYWw4RGFXZnlHdXFtcnp6NzFoODZXOHFoRGpvVm1pTnVaMHV5a0x6b1A5ZXA4ckp2MEV1b3M2UXNDMy03aEk2R3ZFNWlXQTI1dFlRYXhzdndmWnpLdzI4MFHSAfgBQVVfeXFMT1JRTWw3U3Bud0ozTWlMOTE5Y0JxbEp4eUxXWnVvQzQ1MG4xbTZNNnpfUlBuQ3p2XzNVVVBSblR1SUoxQV9BMkdhZkNQNTVLRVBNM1RMa3RFalE1ZW1QU0xxS0FfSnRhVzNUTW16QXJkWmFtUG44NnZzSHB4eU1OUHV3T3AyWHk0ZTdBdFY3SHJ0cFI2bFhadHpPT1k0dWI0dGM1MHpENk5NZ0JBdjhDakV5aENPNF9WRUJoM2k2SS1xWUdMZmpkcVM5bFlNVFRVbFZiRG5feXhKTXdqelB3dmpRWU9yQjRoVzVSMkJtaFRGazh0X1dCSFA?oc=5",
@@ -651,13 +658,6 @@
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01S0tHb2tUcEc0akpSLWNQak5BTFU4c1EyVkpBS0t2Y2JVNU1qR2NSY3lTdHN5VlI4M0tzRkduTjlVZGllRFdfcnVrcGFVd1BfNnlYWjRRbw?oc=5",
           "source": "El Tribuno",
           "date": "Tue, 07 May 2024 15:44:13 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Acusan al dueño de un boliche por una violación - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcGtIUU1KbXlockxQVl9qOVlvWk9lUDJBOF80M21nYnZIbHBQUUpYTThZUG55NG9KME95UlZBX3FMUTBqUFk0ampVN0laZE9mUndqQ0VsNlg0QWZQMXhtVk14VXRmaEJmQVFDOEFaYXVBRUtzVENDWm0wcUNnYXNqNllWWHA2OEhocFk3MnhsUjBHc0lfRnVUZ3RTb0NFLXpWYnfSAacBQVVfeXFMTWxRSmZ5MjEtNGR2bU9vLW92VGJsbThZYmVoeXBBdlFLTWxEV2t4N1hhS1JLNFpCOEF5ZEUxa0pHMlJOdTlMSVVKZG9ZR2VFYlQzVWtSRzVUYjRabWRMSm03R1VhOERFXzZQemRoQkltaTJ5UzZZRUY1X01veW5HV29KV2dfMUdnekRZNERBMHhDZFFhZGMwY2RYT1I5R3ppVWhLN21jQlk?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 06 Nov 2026 04:34:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
