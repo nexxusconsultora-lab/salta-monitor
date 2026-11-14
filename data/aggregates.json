@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-11-13T23:05:49.377697+00:00",
+  "generated_at": "2026-11-14T01:52:53.237700+00:00",
   "by_politician": {
+    "concejal-pablo-emanuel-lopez": {
+      "total": 51,
+      "positivo": 3,
+      "negativo": 22,
+      "neutral": 26,
+      "score_sum": -43
+    },
+    "dip-laura-deolinda-cartuccia": {
+      "total": 30,
+      "positivo": 0,
+      "negativo": 7,
+      "neutral": 23,
+      "score_sum": -13
+    },
+    "eje-cristina-fiore": {
+      "total": 65,
+      "positivo": 7,
+      "negativo": 14,
+      "neutral": 44,
+      "score_sum": -28
+    },
+    "gustavo-saenz": {
+      "total": 481,
+      "positivo": 124,
+      "negativo": 85,
+      "neutral": 272,
+      "score_sum": 158
+    },
     "dnac-bernardo-biella": {
       "total": 40,
       "positivo": 7,
@@ -28,13 +56,6 @@
       "negativo": 1,
       "neutral": 6,
       "score_sum": -2
-    },
-    "gustavo-saenz": {
-      "total": 480,
-      "positivo": 124,
-      "negativo": 85,
-      "neutral": 271,
-      "score_sum": 158
     },
     "sen-jorge-soto": {
       "total": 46,
@@ -183,13 +204,6 @@
       "neutral": 59,
       "score_sum": 50
     },
-    "eje-cristina-fiore": {
-      "total": 64,
-      "positivo": 6,
-      "negativo": 14,
-      "neutral": 44,
-      "score_sum": -32
-    },
     "sen-luciano-elvira": {
       "total": 19,
       "positivo": 4,
@@ -330,13 +344,6 @@
       "neutral": 47,
       "score_sum": -3
     },
-    "dip-laura-deolinda-cartuccia": {
-      "total": 29,
-      "positivo": 0,
-      "negativo": 7,
-      "neutral": 22,
-      "score_sum": -13
-    },
     "concejal-rodrigo-alfredo-perez-quinteros": {
       "total": 19,
       "positivo": 1,
@@ -427,13 +434,6 @@
       "negativo": 2,
       "neutral": 22,
       "score_sum": 8
-    },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 50,
-      "positivo": 3,
-      "negativo": 22,
-      "neutral": 25,
-      "score_sum": -43
     },
     "dnac-eliana-bruno": {
       "total": 21,
@@ -934,6 +934,82 @@
     }
   },
   "by_day": {
+    "2025-05-28": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-09-01": {
+      "dip-laura-deolinda-cartuccia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-13": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "gustavo-saenz": {
+        "total": 5,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-mario-mimessi": {
+        "total": 4,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-federico-mangione": {
+        "total": 3,
+        "score_sum": 2
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
+    "2026-11-14": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-12-23": {
       "dnac-bernardo-biella": {
         "total": 1,
@@ -986,48 +1062,6 @@
       "concejal-jose-luis-arias": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-13": {
-      "gustavo-saenz": {
-        "total": 5,
-        "score_sum": 0
-      },
-      "sen-jorge-soto": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-mario-mimessi": {
-        "total": 4,
-        "score_sum": 2
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "eje-ana-paula-benavides": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-federico-mangione": {
-        "total": 3,
-        "score_sum": 2
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 1
       }
     },
     "2026-11-12": {
@@ -13806,20 +13840,6 @@
         "score_sum": 0
       }
     },
-    "2025-09-01": {
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2011-09-06": {
       "dip-esteban-amat-lacroix": {
         "total": 1,
@@ -18750,47 +18770,11 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 14
-    },
-    {
-      "term": "senado",
-      "count": 14
-    },
-    {
-      "term": "elintra",
-      "count": 12
-    },
-    {
-      "term": "turismo",
-      "count": 12
-    },
-    {
-      "term": "ante",
-      "count": 12
-    },
-    {
-      "term": "expuso",
-      "count": 11
-    },
-    {
-      "term": "hoja",
-      "count": 11
-    },
-    {
-      "term": "ruta",
-      "count": 11
-    },
-    {
-      "term": "potenciar",
-      "count": 11
-    },
-    {
-      "term": "sector",
-      "count": 11
+      "count": 13
     },
     {
       "term": "embarcación",
-      "count": 9
+      "count": 10
     },
     {
       "term": "orozco",
@@ -18801,16 +18785,48 @@
       "count": 7
     },
     {
-      "term": "sáenz",
-      "count": 6
-    },
-    {
       "term": "contra",
       "count": 6
     },
     {
       "term": "temporal",
       "count": 6
+    },
+    {
+      "term": "política",
+      "count": 5
+    },
+    {
+      "term": "flores",
+      "count": 5
+    },
+    {
+      "term": "papa",
+      "count": 5
+    },
+    {
+      "term": "apuntó",
+      "count": 5
+    },
+    {
+      "term": "sáenz",
+      "count": 4
+    },
+    {
+      "term": "obras",
+      "count": 4
+    },
+    {
+      "term": "gabriela",
+      "count": 4
+    },
+    {
+      "term": "damnificados",
+      "count": 4
+    },
+    {
+      "term": "seguridad",
+      "count": 4
     }
   ],
   "comentions": [
