@@ -41,7 +41,13 @@
           "url": "https://www.hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html",
           "link_pattern": "/secparl/dclp/procesar\\.html\\?id_sesion=\\d+",
           "verificada": true,
-          "nota": "Plan de Labor / Temario (Secretaría Parlamentaria). Verificada 11/10/2026: HTML estático, lista cada sesión con enlace a su temario; la más nueva arriba (ej. sesión del 21/10/2026)."
+          "nota": "Plan de Labor / Temario (Secretaría Parlamentaria). Verificada 11/10/2026: HTML estático, lista cada sesión con enlace a su temario; la más nueva arriba (ej. sesión del 21/10/2026).",
+          "urls_alternativas": [
+            "https://www2.hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html",
+            "https://www3.hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html",
+            "https://www4.hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html",
+            "https://hcdn.gob.ar/secparl/dclp/plan_de_labor/plt.html"
+          ]
         }
       ],
       "enabled": true
