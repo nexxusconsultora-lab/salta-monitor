@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 493,
+    "total_mentions": 494,
     "sentiment_breakdown": {
       "positivo": 126,
       "negativo": 87,
-      "neutral": 280
+      "neutral": 281
     },
     "sentiment_by_day": {
+      "2023-12-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-15": {
         "total": 3,
         "score_sum": -1
@@ -502,15 +506,19 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 29
+        "count": 30
       },
       {
         "term": "gustavo",
-        "count": 17
+        "count": 18
       },
       {
         "term": "tribuno",
-        "count": 8
+        "count": 9
+      },
+      {
+        "term": "gobernador",
+        "count": 5
       },
       {
         "term": "rosario",
@@ -525,15 +533,17 @@
         "count": 4
       },
       {
-        "term": "gobernador",
-        "count": 4
-      },
-      {
         "term": "viviendas",
         "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "El Estado no debe ser una bolsa de trabajo",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUG1HNkRYUlFyYmMtYzB1Z0VDN2pLWm9FZ2UzN2sxTkdZb3RpMTc4bkRTN0ZuS0tNaVVUYVpDUlJNd3FuQU5zVmpQWExlY0laYlRycGt2UkYtUkR4X1JheGVad20zaVljanVua2dBN1JYTlVIb0VHYVJ5NVFlYVdnX2loRWdsMzFha3hGNnpGVmc2VHBEVjJIWkR2clV3Q2xtMDFpRndkdzZzS3FiWmFHY1V6eWNnTWFqaEQ4Yl95MkV6X1ZkbEt2TWZYa1lHb3FvTFA2YkFaWmZ2anBIUzVPbjRrU3FzM1gxTnUxRUVB?oc=5",
+        "date": "Sun, 10 Dec 2023 08:00:00 GMT"
+      },
       {
         "quote": "Que muestren empatía con el interior",
         "source": "Informate Salta",
@@ -617,16 +627,17 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/gobierno/nuevamente-saenz-reclamo-por-los-subsidios-al-transporte---nacion-cede-ante-presion-de-empresas-portenas-_a6aea316dbcf08930c41afc1e",
         "date": "Tue, 03 Nov 2026 19:30:00 GMT"
-      },
-      {
-        "quote": "Es el plan A, el B y hasta el Z",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/lup-94-7-salta/-es-el-plan-a--el-b-y-hasta-el-z---afirmo-galindez-al-apoyar-la-reeleccion-de-saenz_a6ae89c7709dee0a0b9c5ac0e",
-        "date": "Mon, 02 Nov 2026 15:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz asumió su segundo mandato como gobernador de Salta: \"El Estado no debe ser una bolsa de trabajo\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUG1HNkRYUlFyYmMtYzB1Z0VDN2pLWm9FZ2UzN2sxTkdZb3RpMTc4bkRTN0ZuS0tNaVVUYVpDUlJNd3FuQU5zVmpQWExlY0laYlRycGt2UkYtUkR4X1JheGVad20zaVljanVua2dBN1JYTlVIb0VHYVJ5NVFlYVdnX2loRWdsMzFha3hGNnpGVmc2VHBEVjJIWkR2clV3Q2xtMDFpRndkdzZzS3FiWmFHY1V6eWNnTWFqaEQ4Yl95MkV6X1ZkbEt2TWZYa1lHb3FvTFA2YkFaWmZ2anBIUzVPbjRrU3FzM1gxTnUxRUVB?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 10 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz llegó a Embarcación tras el temporal y habló con Que Pasa Salta - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd21pTjNic0gxbkxibnV5Y0h4UksyRmVSVHRZYjFUcE1Gdl83cTZVd1lSTzVSQ3g1aGhTTl9Gc1hDZHlFYWdwOWpSbHhWMkN0TkxxQjlWNE5UQkRHNUxVTjhnTlJFNnRzcmJCVXkzb1BkQU1Wd24wbnRkQlphTmJaTlN4THg1UWZIS1Z3WlcwZTBRUXltSlp6WW44Qk8xY1ZSQzV5bTZaWkYtXzhBWjVxN29ncVo5V0RhZHVPakhn0gG-AUFVX3lxTE53bWlOM2JzSDFuTGJudXljSHhSSzJGZVJUdFliMVRwTUZ2XzdxNlV3WVJPNVJDeDVoaFNOX0ZzWENkeUVhZ3A5alJseFYyQ3ROTHFCOVY0TlRCREc1TFVOOGdOUkU2dHNyYkJVeTNvUGRBTVZ3bjBudGRCWmFOYlpOU3hMeDVRZkhLVndaVzBlMFFReW1KWnpZbjhCTzFjVlJDNXltNlpaRi1fOEFaNXE3b2dxWjlXRGFkdU9qSGc?oc=5",
@@ -829,13 +840,6 @@
         "source": "Que Pasa Salta",
         "date": "Tue, 10 Nov 2026 15:04:38 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz aprovechó la entrega de viviendas para lanzar un mensaje a Nación: “Acá no tenemos los privilegios de Buenos Aires”",
-        "link": "https://informatesalta.com.ar/politica/saenz-aprovecho-la-entrega-de-viviendas-para-lanzar-un-mensaje-a-nacion---aca-no-tenemos-los-privilegios-de-buenos-aires-_a6af33010696ebfa450d8a3fe",
-        "source": "Informate Salta",
-        "date": "Tue, 10 Nov 2026 16:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -10275,13 +10279,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 66,
+    "total_mentions": 67,
     "sentiment_breakdown": {
       "positivo": 10,
       "negativo": 9,
-      "neutral": 47
+      "neutral": 48
     },
     "sentiment_by_day": {
+      "2017-07-19": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2018-02-16": {
         "total": 1,
         "score_sum": 0
@@ -10526,15 +10534,15 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 2
+        "count": 3
       },
       {
         "term": "juárez",
-        "count": 2
+        "count": 3
       },
       {
         "term": "pasa",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -10644,6 +10652,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Para Mónica Juárez, hay periodistas portadoras de espermatozoides vip - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2SlYxNThDT3c5YlNxMHVRaUpmRFdUdUhJZTZlbjFhZlZ4N0FSUC1VZEtQU1ZGM0luMVRMZDJTMURISWt4THVsaTloNFFncTZaY1RyeTV0dXVkN3l2TzFfS0ZB0gFiQVVfeXFMUHZKVjE1OENPdzliU3EwdVFpSmZEV1R1SEllNmVuMWFmVng3QVJQLVVkS1BTVkYzSW4xVExkMlMxREhJa3hMdWxpOWg0UWdxNlpjVHJ5NXR1dWQ3eXZPMV9LRkE?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 19 Jul 2017 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mónica Juárez defendió a las promotoras de Autódromo: \"No es denigrante que se pongan calzas blancas\" - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10VXUxUnZLNW1oZnlhdWNITldfUHhTcHJ6QW5NbDBVT1pmM3pWclRKdDhPclFqc3VJVUI3alE4OFBSYVo4SmRRQTV3dUg1eWxnZndtaGpud3dSek1lMFgyNjhR0gFiQVVfeXFMTXRVdTFSdks1bWhmeWF1Y0hOV19QeFNwcnpBbk1sMFVPWmYzelZyVEp0OE9yUWpzdUlVQjdqUTg4UFJhWjhKZFFBNXd1SDV5bGdmd21oam53d1J6TWUwWDI2OFE?oc=5",
@@ -10846,13 +10861,6 @@
         "source": "Informate Salta",
         "date": "Mon, 05 Oct 2026 15:15:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Mónica Juárez propuso a Sáenz como candidato a presidente - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUHJSLUVIRG1oeDJVSVBPdXBiZTZ3RmRwUzNHUF92OGRMTlg5ZElnZGhQUC1nYl83MjEwdFZYSlhDQlUwWFdublppQjd6VDlUMDE5bHZXQlZsVlM1bkdCMW96U1YtODd0T2p3MnFBYlQxcVhFazNXbVUwUUdpa3RHaGduYXcydWdIa2ZtdE1IbVZKSHBCTF8w?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -31583,13 +31591,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 47,
+    "total_mentions": 48,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 7,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
+      "2026-06-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-13": {
         "total": 1,
         "score_sum": -1
@@ -31759,7 +31771,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "ignacio",
+        "count": 2
+      },
+      {
+        "term": "jarsún",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Buscan que a Salta le vaya mal",
@@ -31837,6 +31858,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún y Emiliano Durand juntos: la imagen que abre interrogantes sobre el armado oficialista - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlJWZWxEY2gzak5JYmN1di00ODFoSzB6VVFaTU9MaDBLMFV1WW11cmdUeXZaRWVPT1RQRXdUalhzUEFhSUR5UU1DWmc1MGpDOHd0MGdpOXVBZlMyWXkwajVnTWZDRjM2TzFCY2pwWVJnTUV6Tm1YOGFNRmwtdFB4ZmNKQTh6ZW9Mbldtb2J0VGxTZF9BdnhQQ1hITXVOTkltZ2lzYWtoVGZNSnN6NGZmRmgxWlVBZ3MzQ0lqVlN0X3ppNzNHOUJoNFlzTDU0akVf?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ignacio Jarsún apuntó contra la conducción provincial de LLA: “Buscan que a Salta le vaya mal”",
         "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
@@ -32039,13 +32067,6 @@
         "source": "Informate Salta",
         "date": "Thu, 15 Oct 2026 13:00:38 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "«Nación no pone una moneda»: Ignacio Jarsún objetó la paralización de la obra pública - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWlLOEVLTmxHN2tISmd2NkJYWGJuR3dBV0ZpUGI5Vmljd0R6MldkbWQxZkxrSDRvWjhQZnZrSzZMOExFZGFKSE5ucm1HUF9iT0E3azZpdE1SMEhSa1N6NWtJWEhLMlhIbnpkS1gwSGk3eElmMHE1TXk0a2l4eGd6elhCLXhUd19JaWhIcl8yNTdrbXhuT21mbUdQakRDeVVDTnBVLUNFbmVlU1BKRXp0U1dFM2hFRnBm?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 18 Sep 2026 03:09:10 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -33405,7 +33426,7 @@
     "top_topics": [
       {
         "term": "mangione",
-        "count": 4
+        "count": 3
       },
       {
         "term": "temporal",
@@ -33417,7 +33438,7 @@
       },
       {
         "term": "salud",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -34836,16 +34857,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "operativo",
-        "count": 2
-      },
-      {
-        "term": "personas",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [

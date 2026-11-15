@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-11-15T18:20:15.300993+00:00",
+  "generated_at": "2026-11-15T23:02:43.864117+00:00",
   "by_politician": {
+    "eje-ignacio-jarsun": {
+      "total": 48,
+      "positivo": 7,
+      "negativo": 7,
+      "neutral": 34,
+      "score_sum": 4
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 67,
+      "positivo": 10,
+      "negativo": 9,
+      "neutral": 48,
+      "score_sum": 2
+    },
+    "gustavo-saenz": {
+      "total": 494,
+      "positivo": 126,
+      "negativo": 87,
+      "neutral": 281,
+      "score_sum": 157
+    },
     "concejal-pablo-emanuel-lopez": {
       "total": 53,
       "positivo": 3,
       "negativo": 24,
       "neutral": 26,
       "score_sum": -47
-    },
-    "gustavo-saenz": {
-      "total": 493,
-      "positivo": 126,
-      "negativo": 87,
-      "neutral": 280,
-      "score_sum": 157
     },
     "eje-ana-paula-benavides": {
       "total": 23,
@@ -49,13 +63,6 @@
       "negativo": 4,
       "neutral": 61,
       "score_sum": 50
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 66,
-      "positivo": 10,
-      "negativo": 9,
-      "neutral": 47,
-      "score_sum": 2
     },
     "sen-roque-cornejo-avellaneda": {
       "total": 83,
@@ -210,13 +217,6 @@
       "negativo": 12,
       "neutral": 36,
       "score_sum": -16
-    },
-    "eje-ignacio-jarsun": {
-      "total": 47,
-      "positivo": 7,
-      "negativo": 7,
-      "neutral": 33,
-      "score_sum": 4
     },
     "dip-jose-miguel-gauffin": {
       "total": 38,
@@ -934,6 +934,48 @@
     }
   },
   "by_day": {
+    "2026-06-03": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2017-07-19": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-10": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2024-08-24": {
       "concejal-pablo-emanuel-lopez": {
         "total": 1,
@@ -5680,28 +5722,6 @@
         "score_sum": 0
       },
       "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-06-03": {
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "sen-edgardo-guaymas": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
         "total": 1,
         "score_sum": 0
       }
@@ -15374,12 +15394,6 @@
         "score_sum": 0
       }
     },
-    "2023-12-10": {
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-03-29": {
       "sen-mashur-lapad": {
         "total": 1,
@@ -18904,22 +18918,18 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 15
+      "count": 16
     },
     {
       "term": "sáenz",
-      "count": 14
+      "count": 13
     },
     {
       "term": "tribuno",
       "count": 8
     },
     {
-      "term": "emilia",
-      "count": 7
-    },
-    {
-      "term": "orozco",
+      "term": "pasa",
       "count": 7
     },
     {
@@ -18927,8 +18937,12 @@
       "count": 6
     },
     {
-      "term": "pasa",
-      "count": 6
+      "term": "emilia",
+      "count": 5
+    },
+    {
+      "term": "orozco",
+      "count": 5
     },
     {
       "term": "embarcación",
@@ -18943,6 +18957,14 @@
       "count": 4
     },
     {
+      "term": "durand",
+      "count": 3
+    },
+    {
+      "term": "gobernador",
+      "count": 3
+    },
+    {
       "term": "lópez",
       "count": 3
     },
@@ -18952,14 +18974,6 @@
     },
     {
       "term": "garcía",
-      "count": 3
-    },
-    {
-      "term": "emergencia",
-      "count": 3
-    },
-    {
-      "term": "gobernadores",
       "count": 3
     }
   ],
