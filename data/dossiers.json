@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 491,
+    "total_mentions": 493,
     "sentiment_breakdown": {
       "positivo": 126,
-      "negativo": 86,
-      "neutral": 279
+      "negativo": 87,
+      "neutral": 280
     },
     "sentiment_by_day": {
+      "2026-11-15": {
+        "total": 3,
+        "score_sum": -1
+      },
       "2026-07-19": {
         "total": 1,
         "score_sum": 0
@@ -33,10 +37,6 @@
       "2026-06-30": {
         "total": 1,
         "score_sum": 0
-      },
-      "2026-11-15": {
-        "total": 1,
-        "score_sum": 2
       },
       "2026-08-06": {
         "total": 1,
@@ -502,11 +502,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 27
+        "count": 29
       },
       {
         "term": "gustavo",
-        "count": 16
+        "count": 17
       },
       {
         "term": "tribuno",
@@ -521,19 +521,25 @@
         "count": 5
       },
       {
+        "term": "pasa",
+        "count": 4
+      },
+      {
         "term": "gobernador",
         "count": 4
       },
       {
         "term": "viviendas",
         "count": 4
-      },
-      {
-        "term": "papa",
-        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Que muestren empatía con el interior",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/gobierno/mas-de-300-familias-asistidas-y-un-reclamo-de-saenz---que-muestren-empatia-con-el-interior-_a6af9f50342fa9d9e6e14c946",
+        "date": "Sun, 15 Nov 2026 18:13:54 GMT"
+      },
       {
         "quote": "No se vende, no se toca",
         "source": "Que Pasa Salta",
@@ -617,16 +623,24 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-es-el-plan-a--el-b-y-hasta-el-z---afirmo-galindez-al-apoyar-la-reeleccion-de-saenz_a6ae89c7709dee0a0b9c5ac0e",
         "date": "Mon, 02 Nov 2026 15:00:00 GMT"
-      },
-      {
-        "quote": "El país está dividido en tres",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSE1hZnlYakFZTlpmQ3Nqbmp3YjNrR19DUkdFeGJmS01VbW1ObUpLVmZqUF91MG5DZjRWUzkxd2dBdHo1b1NsSUFZeC1XY2NSMFBsUERfR2ZSaGtuQWtvRl9hQklUbnhrMHhVbXR0SUR5SVRuZWx3U2I5NmJSUGhMbnBmdWdEcXJnRGV6ddIBjAFBVV95cUxQSE1hZnlYakFZTlpmQ3Nqbmp3YjNrR19DUkdFeGJmS01VbW1ObUpLVmZqUF91MG5DZjRWUzkxd2dBdHo1b1NsSUFZeC1XY2NSMFBsUERfR2ZSaGtuQWtvRl9hQklUbnhrMHhVbXR0SUR5SVRuZWx3U2I5NmJSUGhMbnBmdWdEcXJnRGV6dQ?oc=5",
-        "date": "Thu, 20 Aug 2026 07:00:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz llegó a Embarcación tras el temporal y habló con Que Pasa Salta - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd21pTjNic0gxbkxibnV5Y0h4UksyRmVSVHRZYjFUcE1Gdl83cTZVd1lSTzVSQ3g1aGhTTl9Gc1hDZHlFYWdwOWpSbHhWMkN0TkxxQjlWNE5UQkRHNUxVTjhnTlJFNnRzcmJCVXkzb1BkQU1Wd24wbnRkQlphTmJaTlN4THg1UWZIS1Z3WlcwZTBRUXltSlp6WW44Qk8xY1ZSQzV5bTZaWkYtXzhBWjVxN29ncVo5V0RhZHVPakhn0gG-AUFVX3lxTE53bWlOM2JzSDFuTGJudXljSHhSSzJGZVJUdFliMVRwTUZ2XzdxNlV3WVJPNVJDeDVoaFNOX0ZzWENkeUVhZ3A5alJseFYyQ3ROTHFCOVY0TlRCREc1TFVOOGdOUkU2dHNyYkJVeTNvUGRBTVZ3bjBudGRCWmFOYlpOU3hMeDVRZkhLVndaVzBlMFFReW1KWnpZbjhCTzFjVlJDNXltNlpaRi1fOEFaNXE3b2dxWjlXRGFkdU9qSGc?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Sun, 15 Nov 2026 13:48:47 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Más de 300 familias asistidas y un reclamo de Sáenz: “Que muestren empatía con el interior”",
+        "link": "https://informatesalta.com.ar/gobierno/mas-de-300-familias-asistidas-y-un-reclamo-de-saenz---que-muestren-empatia-con-el-interior-_a6af9f50342fa9d9e6e14c946",
+        "source": "Informate Salta",
+        "date": "Sun, 15 Nov 2026 18:13:54 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Incendios por el viento Zonda en Rosario y Quijano: El gobernador Sáenz supervisó el operativo de emergencia - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUThJdmhIU0s3bG5wS0s3QzdHOTA2S2xhS216cUZQRjFpZTBSdFViMjVhc0h6MGphQVZjblVsamN4THpmdml2dUJqM0JocFlpODZQVmhGYTBjTmJkQ1dxWmotZjJKNjAtZjNfbkVfWnZ3dDFVSTI2ZlVUODNZZk5xTW50YzhJVzlJTFE0czFlSE5SY1NKemk2a3B0dzV5dE8yQkFyT2lGSWNvX0Q0aVNXcE5EUFgwQ1BONVpMTTFLcGNDd2NoNHNEZVI5RDFpbnQ5azhHaXBPTGJSVUk5LXdlQjJrbG43V3dTZ1Y1a9IB8gFBVV95cUxQNHhycWJEM0VJeHdCZDZNV0x2T0hqMkNfM2U0MGRVbG9uejVUem5fTUE3NHpVQ0hzSDliSlFFSGRRUi0yZmI2YURZR1pyaHFYbjlNNUFnOW82M0s4eFZjNC1zM2dGNUVRclRCY1F0NERVSWIxLThQbzV5Wnh4TE1BT2UxUm5taHA3N1JwTWpzRm9BRFFIRjl6Z2k3UHNueGZlODAzMXZSanZsUlBBaE5TendidTNEcmZKYVdnRXlVRmFDY0ROT3hUOFhCMEFtaWtsTkVDREwtS0Vfb1ZQQlIzbl9XSlU1RFo3Y01TLXNLMGVLdw?oc=5",
@@ -822,20 +836,6 @@
         "source": "Informate Salta",
         "date": "Tue, 10 Nov 2026 16:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Gustavo Sáenz entregó 93 viviendas a familias de Rosario de Lerma",
-        "link": "https://elintra.com.ar/2026/11/10/gustavo-saenz-entrego-93-viviendas-a-familias-de-rosario-de-lerma/",
-        "source": "El Intra",
-        "date": "Tue, 10 Nov 2026 16:10:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz celebró la llegada del Papa León XIV: «Un encuentro histórico»",
-        "link": "https://elintra.com.ar/2026/11/09/gustavo-saenz-celebro-la-llegada-del-papa-leon-xiv-un-encuentro-historico/",
-        "source": "El Intra",
-        "date": "Mon, 09 Nov 2026 13:49:48 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -20256,13 +20256,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
       "positivo": 3,
-      "negativo": 23,
+      "negativo": 24,
       "neutral": 26
     },
     "sentiment_by_day": {
+      "2024-08-24": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-07-17": {
         "total": 4,
         "score_sum": -6
@@ -20415,14 +20419,22 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "lópez",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
+        "count": 3
+      },
+      {
+        "term": "emilia",
+        "count": 2
+      },
+      {
+        "term": "orozco",
         "count": 2
       }
     ],
@@ -20593,6 +20605,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López reafirmó su lealtad a Emilia Orozco y se cruzó con un concejal que la criticó - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSG1wQ2pKdzB3OHFmcmppd3p3RUZFYWNSQUVybWZUaGlxZ1pTZjJaanVyaWF0UVZLelFzWTdFNHlhNHRQMHBoQS12cjM4YlRFeXhwZVlBNWN5SThPVjFsN3dlNjNrR19IdXZlTnR3ZjdLb2ltT3A4SVBoR3RPblpPRzJpNTF0TDE3SlU4S01ITnAzYnNrYUlvaGNPc1ZfNFB0QXpkQkdyY25YS255eERrWElERFRyVnJ6Mk1zeTMwR19Wdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 24 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "¿Emilia Orozco sabía que Pablo López le pegaba a su ex?: la denuncia que complica a la diputada nacional - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd19uak0xaURfYmZqYm9keXZIWG1rYkJQS0psc2VuR205WjZmLXZmaDlkLUVWb2twb2ZCNDN4bnZOTDE4WGQ3cHNYZW9VVktGOEZPMVhiU1Qtb0NOcnlLUFhHLVhWTnVERkE5LWJENzVJTV9vaWdaSC1uS052TTJNeHNRZU9YZm5yTEppX1VCWlc0b3ByWkp5eWNFaTJwLTNzTjBtTTZxOC1jVTdId3lFeXZ0cURfaklWQ05qcUwwVktMUnAwS083aEJuZ2tlaUxUUUtN?oc=5",
@@ -20794,13 +20813,6 @@
         "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NWcW5oTzR4bUtzR19CemJ2ZlFUZWVnaFoxdnhKRjQ4Z19rNi1OV0dSTHkxbmJjWEM4UVJXR0swMVQ5Zm9hWW45SlJaaUR6R21BOHpyZ05LVEhnMkVES3hCaFNzdjVFaE83X2I5a2tMRGRZSS1GY0pqYmxDRTdIdWtaWEFiNUd4THF3bmt6U0ZfbFZiZHg0SGJZLW95blc5U2JWWk5TZmZfSkJHSnFaQnhfZUhKbGI1TnlCVEljQmF5VnF3VDJNS3ZBVnBVNVA2RjhYcndYUHRaRXZ5RFNfY2hKZlhkTkRpZjVKdGdDNERqRmtMQkd2M9IBhwJBVV95cUxPNTBHc3J1Y3plQlV3ckVrSTFIS2E1THBwWE5UUi1aaHVJSHBQWVhMc0RZQ2NSSFh6OHpsVmtnb0JMUG5EMkx6dTRSeUZzWndWRGVOaDJsNGtXT3UySnh4X2J4WFZMYVNZU2x2QVZINGl2WU1vV0NGa0xmNVRWQ2RyYWFJNGpoQm5KWXhBYzNnYjZtcHVJejlzaXhKSWgtSTJ3TGF6UzRYWDJFMXJZcVVHcENMYURub2ItcDFTRWhEYWZlR2hkQ1lLMTQwQjZGcXB3aGZ5bkF0Q0xKcngzZEZ0Y25qNzl5S1RwTi1mVlVIazhDR2VfYkdtSHMxTVQ2MWJOMzNIdlQzYw?oc=5",
         "source": "Informate Salta",
         "date": "Fri, 28 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "VIDEO. Rechazaron la renuncia del concejal Pablo López y abrirán una comisión de juicio político - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX01jVlhQdTh2eU1TblBibGYxcFJqcHFPUF9YTjAwNUtXQWZJelpMbDBzU1VrczNsbFBNcmV5TUY5YXNxbnlpRHhkMjhWMlNVLU9xMlR3QmFXSGxSa3NhWGJnMTVSckFsbWh2WVp6NUdLRS1hd1FMTmx2TGs1aVBWTTU5Y2QwYk1ydEVSckZCSXI4SHJLeUZiUUtSUmtfa0JPclZGYmdMQ1VnS25CaVB6cDFUTUVhR25PWUJrQ1NmR1lhQdIBxwFBVV95cUxObGpWdGtxUDJsaUZOM0VlN21wcVZqQWV0V0J2emZ4ZEZKTVQ3dkVBLVA1MVpVSDFScFlPRk5Qa3Q0aU1DcjdoUmt5WGZwU3lzYjJvZnRMaDRyZXMzYlhtdXFXWTFfbHQ3STd3a2dCazM0S0hZLUh3ZlY2UFd1ZmpqLVAxY1F2S3dfMnVBbDBqNzRLUmNpV3UzbkpvOUc3dmRCWmdWazJacnhRNElUUkgtMmtLWVNJclg5R2ExTGFFMEhjV0hNOFkw?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 23 Jul 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
