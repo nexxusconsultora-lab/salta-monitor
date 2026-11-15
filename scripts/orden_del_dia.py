@@ -160,23 +160,42 @@ def titulo_de(enlace, abs_url):
 
 def leer_pagina(camara, pagina, cfg, diagnostico=False):
     """Devuelve (estado, mensaje, total_enlaces, lista de dicts {url,titulo})."""
-    url = pagina["url"]
-    if not url_segura(url):
+    principal = pagina["url"]
+    if not url_segura(principal):
         return "error", "la url no es http(s) válida", 0, []
-    try:
-        if not of.robots_permite(url):
-            return "bloqueada", "el robots.txt del sitio no permite leer esta página", 0, []
-    except Exception:
-        pass
-    try:
-        texto = of.descargar(url)
-    except urllib.error.HTTPError as e:
-        return "error", f"el sitio respondió {e.code}", 0, []
-    except Exception as e:
-        return "error", f"no se pudo abrir la página ({type(e).__name__})", 0, []
+    # La dirección principal y, si la configuración las declara, direcciones alternativas del mismo sitio
+    # ("urls_alternativas"). Se prueban en orden; la principal con reintentos, las alternativas con un solo intento.
+    candidatas = [principal] + [u for u in (pagina.get("urls_alternativas") or []) if isinstance(u, str) and url_segura(u) and u != principal]
+    url, texto, motivo_principal, bloqueo = None, None, None, None
+    for i, cand in enumerate(candidatas):
+        try:
+            if not of.robots_permite(cand):
+                bloqueo = bloqueo or "el robots.txt del sitio no permite leer esta página"
+                continue
+        except Exception:
+            pass
+        try:
+            texto = of.descargar_con_reintentos(cand) if i == 0 else of.descargar(cand, timeout=25)
+            url = cand
+            break
+        except urllib.error.HTTPError as e:
+            if i == 0:
+                motivo_principal = ("http", e.code, None)
+        except Exception as e:
+            if i == 0:
+                motivo_principal = ("red", type(e).__name__, str(getattr(e, "reason", e)))
+    if url is None:
+        if bloqueo and motivo_principal is None:
+            return "bloqueada", bloqueo, 0, []
+        if motivo_principal and motivo_principal[0] == "http":
+            return "error", f"el sitio respondió {motivo_principal[1]}" + (f" (también se probaron {len(candidatas) - 1} direcciones alternativas)" if len(candidatas) > 1 else ""), 0, []
+        tipo, razon = (motivo_principal[1], limpiar(motivo_principal[2], 120)) if motivo_principal else ("Error", "")
+        extra = f" Se probaron también {len(candidatas) - 1} direcciones alternativas." if len(candidatas) > 1 else ""
+        return "error", f"no se pudo abrir la página ({tipo}: {razon}). {of.diagnosticar_conexion(principal)}{extra}".replace(": )", ")").strip(), 0, []
+    aviso_alt = f"se abrió con la dirección alternativa {url} · " if url != principal else ""
     enlaces = of.extraer_enlaces(texto)
     if not enlaces:
-        return "sin_enlaces", "la página no trae enlaces en el HTML (¿arma el listado con JavaScript?)", 0, []
+        return "sin_enlaces", aviso_alt + "la página no trae enlaces en el HTML (¿arma el listado con JavaScript?)", 0, []
     vistos, encontrados, descartados = set(), [], []
     for e in enlaces:
         href = (e.get("href") or "").strip()
@@ -198,7 +217,7 @@ def leer_pagina(camara, pagina, cfg, diagnostico=False):
             print("      (ninguno pasó el filtro) ejemplos de enlaces que se descartaron:")
             for t in descartados[:12]:
                 print(f"        · {t}")
-    return "ok", f"{len(encontrados)} documento(s) coinciden con el filtro", len(vistos), encontrados
+    return "ok", aviso_alt + f"{len(encontrados)} documento(s) coinciden con el filtro", len(vistos), encontrados
 
 
 def html_a_lineas(h):
