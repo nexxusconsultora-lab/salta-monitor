@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-15T03:57:27.706740+00:00",
+  "generated_at": "2026-11-15T11:52:40.908661+00:00",
   "by_politician": {
+    "snac-emilia-orozco": {
+      "total": 121,
+      "positivo": 9,
+      "negativo": 19,
+      "neutral": 93,
+      "score_sum": -20
+    },
+    "eje-roberto-dib-ashur": {
+      "total": 77,
+      "positivo": 12,
+      "negativo": 4,
+      "neutral": 61,
+      "score_sum": 50
+    },
+    "dip-monica-gabriela-juarez": {
+      "total": 66,
+      "positivo": 10,
+      "negativo": 9,
+      "neutral": 47,
+      "score_sum": 2
+    },
+    "sen-roque-cornejo-avellaneda": {
+      "total": 83,
+      "positivo": 11,
+      "negativo": 17,
+      "neutral": 55,
+      "score_sum": -8
+    },
+    "gustavo-saenz": {
+      "total": 487,
+      "positivo": 125,
+      "negativo": 85,
+      "neutral": 277,
+      "score_sum": 160
+    },
     "dnac-pablo-outes": {
       "total": 27,
       "positivo": 0,
@@ -8,33 +43,12 @@
       "neutral": 25,
       "score_sum": -4
     },
-    "snac-emilia-orozco": {
-      "total": 120,
-      "positivo": 9,
-      "negativo": 19,
-      "neutral": 92,
-      "score_sum": -20
-    },
-    "gustavo-saenz": {
-      "total": 484,
-      "positivo": 124,
-      "negativo": 85,
-      "neutral": 275,
-      "score_sum": 158
-    },
     "eje-nicolas-avellaneda": {
       "total": 27,
       "positivo": 13,
       "negativo": 1,
       "neutral": 13,
       "score_sum": 21
-    },
-    "eje-roberto-dib-ashur": {
-      "total": 76,
-      "positivo": 12,
-      "negativo": 4,
-      "neutral": 60,
-      "score_sum": 50
     },
     "dip-gaston-guillermo-galindez": {
       "total": 30,
@@ -211,13 +225,6 @@
       "neutral": 30,
       "score_sum": -11
     },
-    "sen-roque-cornejo-avellaneda": {
-      "total": 82,
-      "positivo": 11,
-      "negativo": 16,
-      "neutral": 55,
-      "score_sum": -6
-    },
     "sen-dani-nolasco": {
       "total": 48,
       "positivo": 6,
@@ -308,13 +315,6 @@
       "negativo": 13,
       "neutral": 36,
       "score_sum": -27
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 65,
-      "positivo": 10,
-      "negativo": 9,
-      "neutral": 46,
-      "score_sum": 2
     },
     "dip-franco-agustin-lastra": {
       "total": 6,
@@ -934,6 +934,96 @@
     }
   },
   "by_day": {
+    "2025-07-24": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-laura-jorge-saravia": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-01-19": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2018-02-16": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-11-05": {
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2026-07-13": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "concejal-laura-garcia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-06-30": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-angel-ortiz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-lino-fernando-yonar": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-esteban-amat-lacroix": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-15": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
     "2024-03-12": {
       "dnac-pablo-outes": {
         "total": 1,
@@ -3334,20 +3424,6 @@
         "score_sum": -2
       },
       "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-07-13": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "concejal-laura-garcia": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-angel-ortiz": {
         "total": 1,
         "score_sum": 0
       }
@@ -7490,24 +7566,6 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-07-24": {
-      "concejal-laura-jorge-saravia": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
         "total": 1,
         "score_sum": 0
       }
@@ -11911,34 +11969,6 @@
       }
     },
     "2022-12-31": {
-      "dip-esteban-amat-lacroix": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-11-05": {
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": -2
-      }
-    },
-    "2026-06-30": {
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-angel-ortiz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-lino-fernando-yonar": {
-        "total": 1,
-        "score_sum": 0
-      },
       "dip-esteban-amat-lacroix": {
         "total": 1,
         "score_sum": 0
@@ -18848,46 +18878,46 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 13
-    },
-    {
-      "term": "embarcación",
-      "count": 12
-    },
-    {
-      "term": "temporal",
-      "count": 8
+      "count": 15
     },
     {
       "term": "sáenz",
-      "count": 7
+      "count": 9
     },
     {
-      "term": "contra",
-      "count": 6
+      "term": "embarcación",
+      "count": 8
     },
     {
       "term": "emilia",
-      "count": 5
+      "count": 6
     },
     {
       "term": "orozco",
+      "count": 6
+    },
+    {
+      "term": "tribuno",
       "count": 5
+    },
+    {
+      "term": "contra",
+      "count": 5
+    },
+    {
+      "term": "pasa",
+      "count": 4
     },
     {
       "term": "gustavo",
       "count": 4
     },
     {
-      "term": "tribuno",
+      "term": "norte",
       "count": 4
     },
     {
-      "term": "emergencia",
-      "count": 4
-    },
-    {
-      "term": "obras",
+      "term": "temporal",
       "count": 4
     },
     {
@@ -18895,15 +18925,15 @@
       "count": 4
     },
     {
-      "term": "damnificados",
-      "count": 4
-    },
-    {
       "term": "pablo",
       "count": 3
     },
     {
-      "term": "aries",
+      "term": "durand",
+      "count": 3
+    },
+    {
+      "term": "confirmó",
       "count": 3
     }
   ],
