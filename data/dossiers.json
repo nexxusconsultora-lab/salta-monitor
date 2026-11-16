@@ -3,20 +3,28 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 497,
+    "total_mentions": 501,
     "sentiment_breakdown": {
-      "positivo": 126,
-      "negativo": 89,
+      "positivo": 127,
+      "negativo": 92,
       "neutral": 282
     },
     "sentiment_by_day": {
+      "2026-11-16": {
+        "total": 3,
+        "score_sum": -3
+      },
+      "2026-07-20": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "2026-09-08": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-15": {
         "total": 5,
         "score_sum": -7
-      },
-      "2026-11-16": {
-        "total": 1,
-        "score_sum": 0
       },
       "2023-12-10": {
         "total": 1,
@@ -510,7 +518,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 31
+        "count": 34
       },
       {
         "term": "gustavo",
@@ -518,14 +526,18 @@
       },
       {
         "term": "tribuno",
-        "count": 10
-      },
-      {
-        "term": "embarcación",
-        "count": 5
+        "count": 12
       },
       {
         "term": "nación",
+        "count": 7
+      },
+      {
+        "term": "gobernador",
+        "count": 5
+      },
+      {
+        "term": "embarcación",
         "count": 5
       },
       {
@@ -535,13 +547,15 @@
       {
         "term": "obras",
         "count": 5
-      },
-      {
-        "term": "gobernador",
-        "count": 4
       }
     ],
     "quotes": [
+      {
+        "quote": "Un orgullo eterno",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd1lURmpaVmlwLVpLTjg4aWprTUx3VU1fX0Rac3VoV1pHSUpKeWt0NlkxTF9TdV9oNE55XzBNLURVczJIanVNLVFmQ1BMbTZ1WVhKcXV0SWczTHJOWVZRUzVLY0ZGRUVfZnlqcGc1RHN3Q0stMGk1dFZGYlNnOUcyRzBRMXp2TDltOGF6VzBrLUViR0RoSWo2SmdKMDd5cy1vN2hQeTNMSUZrLTBfTWREcTVGZzR1N2Iw0gG-AUFVX3lxTE1WR3VpeUVwSkZHd3o4UEJCYkJQTm9yWmNCdktjNVY0MFdiS3VieEdLQTA2RW9wUXVOZzFmemNtcUNBR2JTTkFpb0RkYjhYTURhTVFjaExMekFwRkVON3VNN0taN2dZVTk4MjRVNElHRUpBWlpGMnozVlhvV3BGLWI5bjZzdFVSMVNXcTFZOWlCck1lLUMweWNaVlpzT2pjMHFMcGE2eDNjZFdCWVliOU9BRkdjTHJOYzlDU2hkd1E?oc=5",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT"
+      },
       {
         "quote": "El Estado no debe ser una bolsa de trabajo",
         "source": "El Tribuno",
@@ -625,16 +639,38 @@
         "source": "Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbkxlNnhNUFJ4aFpPQTZoVjhVZUpiYXlvQVRwZjNLN2VFd3J0SUFNOWhuZFRRNHNpbWo4ZnQ2ZjZzUGY2cThlZGEtTVFoN2FvckItbUxPZHc3SVpBQ1Bnd1RtSERYRVFVTFpkV2hDblZlOFphQ2VpS2pHVW1JTzUyOEpzeUtLQ2lrMl9XbmJGSUdWMUhZQTROTzROSjNPWWExZkHSAaIBQVVfeXFMT25MZTZ4TVBSeGhaT0E2aFY4VWVKYmF5b0FUcGYzSzdlRXdydElBTTlobmRUUTRzaW1qOGZ0NmY2c1BmNnE4ZWRhLU1RaDdhb3JCLW1MT2R3N0laQUNQZ3dUbUhEWEVRVUxaZFdoQ25WZThaYUNlaUtqR1VtSU81MjhKc3lLS0NpazJfV25iRklHVjFIWUE0Tk80TkozT1lhMWZB?oc=5",
         "date": "Tue, 03 Nov 2026 21:07:42 GMT"
-      },
-      {
-        "quote": "Nación cede ante presión de empresas porteñas",
-        "source": "Informate Salta",
-        "link": "https://informatesalta.com.ar/gobierno/nuevamente-saenz-reclamo-por-los-subsidios-al-transporte---nacion-cede-ante-presion-de-empresas-portenas-_a6aea316dbcf08930c41afc1e",
-        "date": "Tue, 03 Nov 2026 19:30:00 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El gobernador Sáenz criticó la falta de \"empatía\" del Gobierno con los damnificados por el temporal - Clarin.com",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2UxWkpscFVNb3d6bTAteHdfcjk4Y0JYdXZES1k5Y0owSVFkUS1ESGZJamNHcDBCbl83b3BRNloyaDMtVHhGUTFCTEY4VkFZdFp3WUlRekE0MlhJRUljeW1kakVNRjh6anNqWlNPWG91bXRZdWhIWmNHTVU2TjhocG15RjJBbTJKZEdMY2dpNWtlR1BpRDdSMktWUU1DdlJ1b1FZTThOU01KbUVBd0xqWDh4eEM1RmlGWHZJ?oc=5",
+        "source": "Clarin.com",
+        "date": "Mon, 16 Nov 2026 01:54:09 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "\"Un orgullo eterno\": el reconocimiento de Sáenz y otros gobernadores para la Selección - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd1lURmpaVmlwLVpLTjg4aWprTUx3VU1fX0Rac3VoV1pHSUpKeWt0NlkxTF9TdV9oNE55XzBNLURVczJIanVNLVFmQ1BMbTZ1WVhKcXV0SWczTHJOWVZRUzVLY0ZGRUVfZnlqcGc1RHN3Q0stMGk1dFZGYlNnOUcyRzBRMXp2TDltOGF6VzBrLUViR0RoSWo2SmdKMDd5cy1vN2hQeTNMSUZrLTBfTWREcTVGZzR1N2Iw0gG-AUFVX3lxTE1WR3VpeUVwSkZHd3o4UEJCYkJQTm9yWmNCdktjNVY0MFdiS3VieEdLQTA2RW9wUXVOZzFmemNtcUNBR2JTTkFpb0RkYjhYTURhTVFjaExMekFwRkVON3VNN0taN2dZVTk4MjRVNElHRUpBWlpGMnozVlhvV3BGLWI5bjZzdFVSMVNXcTFZOWlCck1lLUMweWNaVlpzT2pjMHFMcGE2eDNjZFdCWVliOU9BRkdjTHJOYzlDU2hkd1E?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Sáenz respaldó el reclamo de Nación por Malvinas - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRFVSUlctdDk4WkptdHhBZnB6aVJScURyRlhSOXlvenZpcE91OGNwNmdkd1A4YlVMN01iMTlpWHNoZlNqTU5TbFhYWVlFeWprWnZRTnhKV3J4ak14YVgxeVl4d3pWQ1RaUHFpZzR3eHA3dER5M0JSQS1ZRVhtXzhydGFiQzZITEZ2Q2FHZ1c4Z0JpNEtvNWdUOTZGQdIBoAFBVV95cUxPZnpXUUZETDUyTTdJYnV3LTA3Mkg1VkhEb3YtRjh1dWNua2hVMTZsNEJUb3F4Q1ZaMDV5eHkzRVA3dmp0WXM4UE5IZGs0aHBRMjl0Q20xSmw5eHZxU293dWZoT0E0Rlo2bllCbERhMkVYeGxWck9hZktOWXBqaS1VRmlTVl93Q090RXRtNG9mcXBsMVM2cy0xZlBaaXNDb0py?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Salta reclama a Nación, pero los vecinos piden señales del municipio",
+        "link": "https://www.eltribuno.com/municipios/2026-11-16-0-0-0-salta-reclama-a-nacion-pero-los-vecinos-piden-senales-del-municipio",
+        "source": "El Tribuno - Municipios",
+        "date": "Mon, 16 Nov 2026 03:26:54 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Temporal en Embarcación: Sáenz cuestionó la falta de asistencia de Nación y reclamó una respuesta - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObURDS1FabFFpZFdJMG9rUEVLaHdBeDR3c3hENElFZjFXWTdlQzVMb1l0WkJ5bEtNNVRzV3lVRUlGMDdLTnBDcVJjWU53Q3FHNTFpTTB0UENqQW9ZOHc3NnVDVWlNOE5OYzRwRVFQMHk3T2NYNDNhQlB0cmJuWU5KLTBRTE1ZN3Z0ZWgwLWotLW02alRmdlQ5WXBCaTIyM3Vubm9Nb0VVZUF0aklnV1FBY1NmQWhlbUpFcDZQajZySGhCQVdQdHBNTUY1aUdQREsyM3ZDcnFzVDBxTV8wRUs3aw?oc=5",
@@ -816,34 +852,6 @@
         "source": "El Intra",
         "date": "Wed, 11 Nov 2026 18:16:14 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "C14 y C15: El Consejo Económico también reclama a Nación, para el desarrollo de Salta",
-        "link": "https://informatesalta.com.ar/reclamo/c14-y-c15--el-consejo-economico-tambien-reclama-a-nacion--para-el-desarrollo-de-salta_a6af45dc2696ebfa450e853cb",
-        "source": "Informate Salta",
-        "date": "Wed, 11 Nov 2026 15:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Presupuesto 2027: Gustavo Sáenz enfrenta reclamos mientras define qué obras tendrán financiamiento",
-        "link": "https://elintra.com.ar/2026/11/11/presupuesto-2027-gustavo-saenz-enfrenta-reclamos-mientras-define-que-obras-tendran-financiamiento/",
-        "source": "El Intra",
-        "date": "Wed, 11 Nov 2026 15:05:24 +0000",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "El gobernador Gustavo Sáenz entrega 93 viviendas en Rosario de Lerma - Salta Sur",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcXRadWJvcmtYUVIzaFFPWmxwT2s3NGhyQzVIWnZBRDV1Wm5LODg1QWozbnR5cnF3OHFZc1NtNmFvTnRSclhzSHlYeWZsZHkyUmRvV0RlSGctMnNVUjQ1U1VZU1RBVzdTQnVCdUhVdXdkMGNTNVVyOVgxSHVZM2JGVUM3bmVvUkJmZUxtVEpYU2dSeUVHX2pzVNIBngFBVV95cUxNZDEwQVJKREhOWmI0M2xoZURwZ0ZfTlQtanU5ZWVUNUVzbmZqRHhpbFpiOWtRd2FFSXZOc2NyU2E5TzdSNXFucWRoNFdwdHR6c1NJVVh5NDdENnIxRW00bXZVQW1NRGFjVFVLLVBzNDdWaGQtdi0tVzNuX1dicnhKUllQNmR5Ym9fWk45VE1NTkdFcFhWWnhNQURTQ3Axdw?oc=5",
-        "source": "Salta Sur",
-        "date": "Tue, 10 Nov 2026 12:49:03 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Más de 500 jóvenes participaron del Foro Salta Joven y propusieron ideas para el futuro de Rosario de la Frontera",
-        "link": "https://informatesalta.com.ar/educacion/mas-de-500-jovenes-participaron-del-foro-salta-joven-y-propusieron-ideas-para-el-futuro-de-rosario-de-la-frontera_a6af381f2696ebfa450df55e6",
-        "source": "Informate Salta",
-        "date": "Tue, 10 Nov 2026 21:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -16650,13 +16658,17 @@
     "id": "concejal-ines-bennassar",
     "name": "Inés Bennassar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 29,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 5,
+      "negativo": 6,
       "neutral": 24
     },
     "sentiment_by_day": {
+      "2024-07-05": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-08-14": {
         "total": 1,
         "score_sum": -2
@@ -16817,6 +16829,12 @@
     ],
     "legal_mentions": [
       {
+        "title": "Fuerte denuncia en contra de dos concejales: acusan a Inés Bennassar y a Paula Medici de maltratar a los empleados - Elintra.com.ar",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdEF3QWZIRUxULTVPNkdQdTlINTdlcTJKTVFmekwtSTFHYks2M0RoSEpLWWhBNlRqeV9CUS16aDc2NlkweEFSckpMYmQwYWNFWXVZbmhIZEl4ZGFiMm4xQXBfeVAxeVAtY080SWVQc0hTZnozNEdzcV9PRUdQRjRMQzBlN3Z4TENmWmROSnRCLS1mMU1QcURjcWRycXRsSFU4bUZRSHFBdnBCZnNLQ0pYNEplN1I2RGlEZGJ1RW85YXlOWV84Y2dudTVBR0FXYXM2TDBwRFMyeUJoTmZFRmFCR05n?oc=5",
+        "date": "Fri, 05 Jul 2024 07:00:00 GMT"
+      },
+      {
         "title": "La concejal Inés Bennassar denuncia la 'violencia textual' de dos periodistas de Salta - Iruya.com",
         "source": "Iruya.com",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV1BhYXBNUG16RjQxNFdpUjJ2alQwb3M1YWc5d1RBSHUzNkp1TnNEY1Z4SkJ2eWRBWUdYTTlDNE91MGlGaHEwbnBGY0dnU1ZSNDc4WVAxUXFWanY5Y2JUWUkzRHBuVVNKU0kwU20tTEhPN1p0cUJremt6M0d0b3VWMFdma09Mc0VtSUFCRktKd1ItaHhSbWk5RmNBbVFvTDRQd3VGODdtZEhEdlJ3TTFrWU1Fd0NDX1RBbk1GZ1otOHNZSUdEdm0wcEoxTnJnRzNI?oc=5",
@@ -16848,6 +16866,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Fuerte denuncia en contra de dos concejales: acusan a Inés Bennassar y a Paula Medici de maltratar a los empleados - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdEF3QWZIRUxULTVPNkdQdTlINTdlcTJKTVFmekwtSTFHYks2M0RoSEpLWWhBNlRqeV9CUS16aDc2NlkweEFSckpMYmQwYWNFWXVZbmhIZEl4ZGFiMm4xQXBfeVAxeVAtY080SWVQc0hTZnozNEdzcV9PRUdQRjRMQzBlN3Z4TENmWmROSnRCLS1mMU1QcURjcWRycXRsSFU4bUZRSHFBdnBCZnNLQ0pYNEplN1I2RGlEZGJ1RW85YXlOWV84Y2dudTVBR0FXYXM2TDBwRFMyeUJoTmZFRmFCR05n?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 05 Jul 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La concejal Inés Bennassar denuncia la 'violencia textual' de dos periodistas de Salta - Iruya.com",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV1BhYXBNUG16RjQxNFdpUjJ2alQwb3M1YWc5d1RBSHUzNkp1TnNEY1Z4SkJ2eWRBWUdYTTlDNE91MGlGaHEwbnBGY0dnU1ZSNDc4WVAxUXFWanY5Y2JUWUkzRHBuVVNKU0kwU20tTEhPN1p0cUJremt6M0d0b3VWMFdma09Mc0VtSUFCRktKd1ItaHhSbWk5RmNBbVFvTDRQd3VGODdtZEhEdlJ3TTFrWU1Fd0NDX1RBbk1GZ1otOHNZSUdEdm0wcEoxTnJnRzNI?oc=5",
@@ -31606,13 +31631,17 @@
     "id": "eje-ignacio-jarsun",
     "name": "Ignacio Jarsún",
     "role": "Ministro de Gobierno y Justicia",
-    "total_mentions": 48,
+    "total_mentions": 49,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 7,
-      "neutral": 34
+      "neutral": 35
     },
     "sentiment_by_day": {
+      "2025-12-16": {
+        "total": 3,
+        "score_sum": 0
+      },
       "2026-06-03": {
         "total": 1,
         "score_sum": 0
@@ -31628,10 +31657,6 @@
       "2026-11-04": {
         "total": 1,
         "score_sum": -4
-      },
-      "2025-12-16": {
-        "total": 2,
-        "score_sum": 0
       },
       "2024-03-12": {
         "total": 1,
@@ -31789,10 +31814,14 @@
     "top_topics": [
       {
         "term": "ignacio",
-        "count": 2
+        "count": 3
       },
       {
         "term": "jarsún",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -31873,6 +31902,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Ignacio Jarsún: ”Voy a profundizar lo que pidió el Gobernador, más territorio menos escritorio” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaXBvN09YaU1XOXR4M01SUVhZQnNvdTdjYVlTN1RpZFA3VlA3eFZNRS13S0ZUcHAtVXl0TW9laWtVbDdLQ1VQa2ZpRDBuWGd2RE9FQTZLLW9RR2daSTNpUzJYdVdFLWpIOTlRdTJ6MG9ZbWdPNEQxT3RieVIwMkE5c2hMYmE4blZndlpUQkFobHBnMGhVUS1Hb3VKQlNSY3FYS2hxMWNXMVM5QnVScFJ0c041LWNUMlg4aDRZckVfWGpROWRf?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Ignacio Jarsún y Emiliano Durand juntos: la imagen que abre interrogantes sobre el armado oficialista - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlJWZWxEY2gzak5JYmN1di00ODFoSzB6VVFaTU9MaDBLMFV1WW11cmdUeXZaRWVPT1RQRXdUalhzUEFhSUR5UU1DWmc1MGpDOHd0MGdpOXVBZlMyWXkwajVnTWZDRjM2TzFCY2pwWVJnTUV6Tm1YOGFNRmwtdFB4ZmNKQTh6ZW9Mbldtb2J0VGxTZF9BdnhQQ1hITXVOTkltZ2lzYWtoVGZNSnN6NGZmRmgxWlVBZ3MzQ0lqVlN0X3ppNzNHOUJoNFlzTDU0akVf?oc=5",
@@ -32075,13 +32111,6 @@
         "source": "Salta Comparativa",
         "date": "Thu, 27 Nov 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
-        "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 13:00:38 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
