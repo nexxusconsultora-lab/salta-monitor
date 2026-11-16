@@ -3,20 +3,24 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 494,
+    "total_mentions": 497,
     "sentiment_breakdown": {
       "positivo": 126,
-      "negativo": 87,
-      "neutral": 281
+      "negativo": 89,
+      "neutral": 282
     },
     "sentiment_by_day": {
-      "2023-12-10": {
+      "2026-11-15": {
+        "total": 5,
+        "score_sum": -7
+      },
+      "2026-11-16": {
         "total": 1,
         "score_sum": 0
       },
-      "2026-11-15": {
-        "total": 3,
-        "score_sum": -1
+      "2023-12-10": {
+        "total": 1,
+        "score_sum": 0
       },
       "2026-07-19": {
         "total": 1,
@@ -506,18 +510,22 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 30
+        "count": 31
       },
       {
         "term": "gustavo",
-        "count": 18
+        "count": 17
       },
       {
         "term": "tribuno",
-        "count": 9
+        "count": 10
       },
       {
-        "term": "gobernador",
+        "term": "embarcación",
+        "count": 5
+      },
+      {
+        "term": "nación",
         "count": 5
       },
       {
@@ -529,11 +537,7 @@
         "count": 5
       },
       {
-        "term": "pasa",
-        "count": 4
-      },
-      {
-        "term": "viviendas",
+        "term": "gobernador",
         "count": 4
       }
     ],
@@ -631,6 +635,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Temporal en Embarcación: Sáenz cuestionó la falta de asistencia de Nación y reclamó una respuesta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObURDS1FabFFpZFdJMG9rUEVLaHdBeDR3c3hENElFZjFXWTdlQzVMb1l0WkJ5bEtNNVRzV3lVRUlGMDdLTnBDcVJjWU53Q3FHNTFpTTB0UENqQW9ZOHc3NnVDVWlNOE5OYzRwRVFQMHk3T2NYNDNhQlB0cmJuWU5KLTBRTE1ZN3Z0ZWgwLWotLW02alRmdlQ5WXBCaTIyM3Vubm9Nb0VVZUF0aklnV1FBY1NmQWhlbUpFcDZQajZySGhCQVdQdHBNTUY1aUdQREsyM3ZDcnFzVDBxTV8wRUs3aw?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 15 Nov 2026 22:49:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Embarcación: Sáenz acompañó a familias y supervisó tareas de emergencia",
+        "link": "https://fmalba.com.ar/embarcacion-saenz-acompano-a-familias-y-superviso-tareas-de-emergencia/",
+        "source": "FM Alba",
+        "date": "Mon, 16 Nov 2026 01:43:19 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Temporal en Embarcación: Gustavo Sáenz cuestionó la falta de asistencia de Nación y reclamó una respuesta",
+        "link": "https://www.eltribuno.com/salta/2026-11-15-19-49-0-temporal-en-embarcacion-saenz-cuestiono-la-falta-de-asistencia-de-nacion-y-reclamo-una-respuesta",
+        "source": "El Tribuno - Salta",
+        "date": "Sun, 15 Nov 2026 22:49:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Gustavo Sáenz asumió su segundo mandato como gobernador de Salta: \"El Estado no debe ser una bolsa de trabajo\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUG1HNkRYUlFyYmMtYzB1Z0VDN2pLWm9FZ2UzN2sxTkdZb3RpMTc4bkRTN0ZuS0tNaVVUYVpDUlJNd3FuQU5zVmpQWExlY0laYlRycGt2UkYtUkR4X1JheGVad20zaVljanVua2dBN1JYTlVIb0VHYVJ5NVFlYVdnX2loRWdsMzFha3hGNnpGVmc2VHBEVjJIWkR2clV3Q2xtMDFpRndkdzZzS3FiWmFHY1V6eWNnTWFqaEQ4Yl95MkV6X1ZkbEt2TWZYa1lHb3FvTFA2YkFaWmZ2anBIUzVPbjRrU3FzM1gxTnUxRUVB?oc=5",
@@ -819,27 +844,6 @@
         "source": "Informate Salta",
         "date": "Tue, 10 Nov 2026 21:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz frente al PJ, una candidatura que se insinúa sin definición",
-        "link": "https://elintra.com.ar/2026/11/10/gustavo-saenz-frente-pj-candidatura-insinua-sin-definicion/",
-        "source": "El Intra",
-        "date": "Tue, 10 Nov 2026 16:52:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz y su posible reelección mantienen en vilo el debate político en Salta",
-        "link": "https://elintra.com.ar/2026/11/10/gustavo-saenz-posible-reeleccion-mantienen-vilo-debate-politico-salta/",
-        "source": "El Intra",
-        "date": "Tue, 10 Nov 2026 20:26:58 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz entregó 93 viviendas en Rosario de Lerma: \"Vamos a seguir construyendo\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONm5KR1o1RHBmRjVINGhVcDUxZm5ySUdpOWRzTTJOdWtveVc4RDRzY0FFU3BqM1NzM3pWOTgyeFFHeXNvSDdWSlVRY0xPZGpzeHNhaGFFbExZSWwya2pMTTlqbmpjTHBaME10cXlTVktQZTlOcDNudXZ5N3NvanE1cDI4UW16RkJBaXlqaE1paFBjSm4zVktoSNIBmAFBVV95cUxONm5KR1o1RHBmRjVINGhVcDUxZm5ySUdpOWRzTTJOdWtveVc4RDRzY0FFU3BqM1NzM3pWOTgyeFFHeXNvSDdWSlVRY0xPZGpzeHNhaGFFbExZSWwya2pMTTlqbmpjTHBaME10cXlTVktQZTlOcDNudXZ5N3NvanE1cDI4UW16RkJBaXlqaE1paFBjSm4zVktoSA?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Tue, 10 Nov 2026 15:04:38 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -2324,15 +2328,15 @@
     "top_topics": [
       {
         "term": "roque",
-        "count": 4
+        "count": 3
       },
       {
         "term": "cornejo",
-        "count": 4
+        "count": 3
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
         "term": "senado",
@@ -27790,13 +27794,17 @@
     "id": "dip-juan-jose-esteban",
     "name": "Juan José Esteban",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 13,
+    "total_mentions": 14,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2017-06-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-05-24": {
         "total": 1,
         "score_sum": 0
@@ -27879,6 +27887,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Cambios en el hospital del Milagro: Juan José Esteban es el nuevo gerente - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM0VVc3BtdHF3VHhPUGZzbUJYN2ExZ1FBWmtqcmF1T2M1UEFXYWtfQW5lSGFFR3JSRldWSjVuRklzZGVvM3VxcDNVWTVQRTdOZ0xWVmQ3SVNQNmd0c0FBZE1mbUt4enU2SGtIYjZRS1dpWk5aTjBPR0M1YXI5SWh1SUtNbUViY2xUV3VpT0VvMXA3TjJEaENDelB2Ym1zTnBwTEc0d2J2blpUZHJBTmp5X3hSbklwSHpZMW5BM3NzY3dqczRReVJVakR5d2RsTGpp0gHfAUFVX3lxTE9WWTBkcmFaVXpHZkZNY1dwOGlma0JsTWdpVkpQRjZIc3FVdlYxODJTdW9jX01GeU9aRkI0THhvMjV6WVlnSlRNQzIwdFNtWHZrbW9hZTUwZUZPdHZvN2NGT3dmaEVNdEIwenhkRUJfM2pwbTd5TFZycWpjaExka0RuMmYtbkpqb3VNZ0EzbldFU1NDMXkxTXZ6TUY4R2ZuVENsaktyWHhWU2JMVWZOUjQxX0NvbUNIdExBdTNEU0J2S2J4bWtld0l6Q1dFOWM0ZE1ueVN5NVlVajUxM2M2RjA?oc=5",
+        "source": "Informate Salta",
+        "date": "Mon, 26 Jun 2017 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bettina Romero mostró sus dotes como fotógrafa en el cumpleaños de Juan Esteban - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUk5YdW1BWTlYbkpEUF95bFpHUzhSYkRNTWJVV2FqRW50Vm5yTlNKN21IZDE3d3hVY0dBaXBCWXFwUTN5dEZkR0JFTWpkUXhHN2ZWYWJQdTI1Y1RMdkR4dkV6RVdIOEpvY0ZZY1hTdi1lSENqRmtKQ0x1UWJMYUx6ZVNqOHFhY2J2cGhBUG9yOU04NkN0cjF4a0dDV1ZDaEZSLUpoZU1SR2dEbkV6RWN0Q2U4MXg?oc=5",
@@ -32661,13 +32676,17 @@
     "id": "eje-mario-mimessi",
     "name": "Mario René Mimessi",
     "role": "Ministro de Desarrollo Social",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 3,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "2022-11-23": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-15": {
         "total": 1,
         "score_sum": 4
@@ -32839,6 +32858,10 @@
         "count": 3
       },
       {
+        "term": "mimessi",
+        "count": 2
+      },
+      {
         "term": "familias",
         "count": 2
       },
@@ -32920,6 +32943,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Tartagal: Marío Mimessi habría destituido a la funcionaria acusada de administración fraudulenta y asociación ilícita - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRFkyVWlzaG52a2kyTEtHLUgxVG5mSVNRTi1pN3Q3ell2TFZZWUREVWdRT0VlWGJaNzRsVjJtYlpxY3Q3aUJmUzB3Y3pKalVyRExHT1RIOHFZbGpSRE1BWWRBLTh3N3ZTc3JpWGVqZjcwQmNfSzhMMXk0M2g4TlU0VndBYkU0VThBN1BGSEJfRXB4UDIwTGwwdW5la01QZGRXLXMtdFR1MEJYNHV2QVFfZWxsa3E0ZE15U1I4ZHR5S1ByLVV2Z2dvZ0V3X1Q4UWU2bE1MZHVZLUZiWHJWc0ZRNnRJVXUwYXpLNTl2RFRxQlXSAfYBQVVfeXFMUElnVUl5NWhpZVNWQVlneTlqSmFWLWtVN1Rla3FteEVEdWlvcFdpSlB3czFDQjNET3F2VzVURFRfNmxzUmdNdms4SngwNnhla01QMExKRGlVRDRXdXdrRy14ZlZnYkN3cWhSbFFIdWgwcjc2a0l6bG55WGVwdUIwYldPSG4zX29CZHZON2tYVjJ5ZTZHN3IzMzVZdjVTZlpXSWtzZFBIblhWWkp1aWpjWjRiTTU3QVJiVUI3Y2g2ZG12TUM0SVY1TTlhTGVlckYzcGRqamY5eTdDV3VoMTNRemZzRXdkaHJIQXhoZmd4cmxxT19YMXJn?oc=5",
+        "source": "Salta 4400",
+        "date": "Wed, 23 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Embarcación: más de 200 familias continúan recibiendo asistencia tras el temporal",
         "link": "https://informatesalta.com.ar/interior/embarcacion--mas-de-200-familias-continuan-recibiendo-asistencia-tras-el-temporal_a6af9bc3242fa9d9e6e12f1e2",
@@ -33121,13 +33151,6 @@
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUTJwX0VJaWxFUV85RVdMMjJpWHZ4V3pxQTNXcE9VYlRLZm1Nc3MzTEw4TzMwbFhoYWoydmN4SmdkYnhTcUVOLS1YNWxkNVVBbE1xaDhaX3RUQTUwcVcwUU5KMWhFWkpfcVpsX2NndlJWOU9rc21VQjhwMWtZdnprY0x4cGtTeU5tRkhHb0czODh1V1MyNUFqOUVlMjRwcWg5MzlPc0tfdUNXdzNxZ3EzZ193NHlVLWNLanpuS3Z6QQ?oc=5",
         "source": "El Expreso de Salta",
         "date": "Sun, 14 May 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mario Mimessi se defendió de las acusaciones del nuevo intendente de Tartagal - Salta 4400",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON2pORjV6bVVfNl9NSXMxNHllVm5Vc0dlajdDVUs3TldIRjVwTHMyY01tam04WUJYNW5PZ0FDLThJSUdFa2hPSTVHV3FiVmZ5STBGZmxieWxzZ01yTXB5TUN0NzhmTjNsb0RYOUpTRGZ1SW9WLWtzWk1kUExNdGRERVRUaU5aN3JURWp0MnB5RGJQamx2QmhPMWQyc0VHUUwxc0YyMkFSY1hjOE9KQTRQcGhTc1hQTG9JX1Y2TtIBwgFBVV95cUxOdFI2bkdZcC1mMU9ISFRIby1VdmU2ZjhCVER2UU9RQWdZZHJodVFGOG4xZ2k5VEtRSF9uTmlPMk9RX1V1S0JsQUpuMVQtNXFvVWtnUmswNkhSUE8yQXVNS3pwV3N4OXl3YUR2THJWV24yY0NnclBBQWVEUjFDQjJIWFNZX3plY3F5ZkFCUFQ3X2NmR3JfR0tWajJBVXlwLTYtcDBwWmdYamxRcmE1THhOLXE5TldrczBGTXJOS0Z5YVdqdw?oc=5",
-        "source": "Salta 4400",
-        "date": "Thu, 15 Feb 2024 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
