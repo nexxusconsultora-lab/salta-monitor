@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-17T03:10:49.180934+00:00",
+  "generated_at": "2026-11-17T11:54:43.189189+00:00",
   "by_politician": {
+    "dnac-bernardo-biella": {
+      "total": 43,
+      "positivo": 8,
+      "negativo": 7,
+      "neutral": 28,
+      "score_sum": -2
+    },
+    "concejal-dario-madile": {
+      "total": 78,
+      "positivo": 4,
+      "negativo": 12,
+      "neutral": 62,
+      "score_sum": -19
+    },
+    "dip-rogelio-guaipo-segundo": {
+      "total": 11,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 9,
+      "score_sum": -3
+    },
+    "dip-german-dario-ralle": {
+      "total": 25,
+      "positivo": 2,
+      "negativo": 2,
+      "neutral": 21,
+      "score_sum": -2
+    },
+    "dnac-eliana-bruno": {
+      "total": 22,
+      "positivo": 2,
+      "negativo": 4,
+      "neutral": 16,
+      "score_sum": -8
+    },
+    "gustavo-saenz": {
+      "total": 514,
+      "positivo": 127,
+      "negativo": 98,
+      "neutral": 289,
+      "score_sum": 138
+    },
     "eje-cristina-fiore": {
       "total": 66,
       "positivo": 7,
@@ -49,20 +91,6 @@
       "negativo": 1,
       "neutral": 6,
       "score_sum": 5
-    },
-    "gustavo-saenz": {
-      "total": 513,
-      "positivo": 127,
-      "negativo": 98,
-      "neutral": 288,
-      "score_sum": 138
-    },
-    "dnac-bernardo-biella": {
-      "total": 42,
-      "positivo": 8,
-      "negativo": 7,
-      "neutral": 27,
-      "score_sum": -2
     },
     "dip-david-taranto": {
       "total": 1,
@@ -210,13 +238,6 @@
       "negativo": 2,
       "neutral": 31,
       "score_sum": 35
-    },
-    "dip-german-dario-ralle": {
-      "total": 24,
-      "positivo": 2,
-      "negativo": 2,
-      "neutral": 20,
-      "score_sum": -2
     },
     "sen-juan-cruz-cura": {
       "total": 92,
@@ -421,13 +442,6 @@
       "neutral": 31,
       "score_sum": 2
     },
-    "dip-rogelio-guaipo-segundo": {
-      "total": 10,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 8,
-      "score_sum": -3
-    },
     "dip-esteban-amat-lacroix": {
       "total": 53,
       "positivo": 2,
@@ -448,13 +462,6 @@
       "negativo": 0,
       "neutral": 10,
       "score_sum": 40
-    },
-    "concejal-dario-madile": {
-      "total": 77,
-      "positivo": 4,
-      "negativo": 12,
-      "neutral": 61,
-      "score_sum": -19
     },
     "dip-patricia-del-carmen-hucena": {
       "total": 13,
@@ -497,13 +504,6 @@
       "negativo": 9,
       "neutral": 33,
       "score_sum": -14
-    },
-    "dnac-eliana-bruno": {
-      "total": 21,
-      "positivo": 2,
-      "negativo": 3,
-      "neutral": 16,
-      "score_sum": -3
     },
     "dip-rodrigo-javier-garcia": {
       "total": 6,
@@ -941,6 +941,88 @@
     }
   },
   "by_day": {
+    "2025-10-26": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-maria-gabriela-flores": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-03-01": {
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-ines-bennassar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2021-08-20": {
+      "dip-rogelio-guaipo-segundo": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-12-08": {
+      "dip-german-dario-ralle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-17": {
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -5
+      },
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": -3
+      },
+      "dip-david-taranto": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
     "2022-08-08": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -1107,16 +1189,6 @@
       "concejal-rodrigo-alfredo-perez-quinteros": {
         "total": 1,
         "score_sum": -1
-      }
-    },
-    "2026-11-17": {
-      "dip-david-taranto": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": -3
       }
     },
     "2025-06-09": {
@@ -1723,16 +1795,6 @@
         "score_sum": -2
       },
       "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-03-01": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-ines-bennassar": {
         "total": 1,
         "score_sum": 0
       }
@@ -2697,16 +2759,6 @@
         "score_sum": 0
       },
       "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-12-08": {
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 0
       }
@@ -4435,36 +4487,6 @@
       "sen-diego-cari": {
         "total": 2,
         "score_sum": 0
-      }
-    },
-    "2025-10-26": {
-      "dnac-maria-gabriela-flores": {
-        "total": 4,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": -2
-      },
-      "eje-oriana-nevora": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2025-10-30": {
@@ -19039,11 +19061,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 30
-    },
-    {
-      "term": "elintra",
-      "count": 12
+      "count": 28
     },
     {
       "term": "tribuno",
@@ -19054,6 +19072,10 @@
       "count": 11
     },
     {
+      "term": "elintra",
+      "count": 10
+    },
+    {
       "term": "embarcación",
       "count": 9
     },
@@ -19062,23 +19084,11 @@
       "count": 8
     },
     {
-      "term": "pasa",
+      "term": "libro",
       "count": 6
     },
     {
-      "term": "presentó",
-      "count": 5
-    },
-    {
-      "term": "libro",
-      "count": 5
-    },
-    {
-      "term": "emilia",
-      "count": 5
-    },
-    {
-      "term": "orozco",
+      "term": "pasa",
       "count": 5
     },
     {
@@ -19086,7 +19096,15 @@
       "count": 5
     },
     {
+      "term": "durand",
+      "count": 4
+    },
+    {
       "term": "durante",
+      "count": 4
+    },
+    {
+      "term": "presentó",
       "count": 4
     },
     {
@@ -19095,6 +19113,10 @@
     },
     {
       "term": "reclamó",
+      "count": 4
+    },
+    {
+      "term": "emilia",
       "count": 4
     }
   ],

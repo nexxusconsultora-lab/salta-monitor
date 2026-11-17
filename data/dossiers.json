@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 513,
+    "total_mentions": 514,
     "sentiment_breakdown": {
       "positivo": 127,
       "negativo": 98,
-      "neutral": 288
+      "neutral": 289
     },
     "sentiment_by_day": {
+      "2026-11-17": {
+        "total": 4,
+        "score_sum": -3
+      },
       "2026-05-21": {
         "total": 2,
         "score_sum": 0
@@ -17,10 +21,6 @@
       "2026-11-16": {
         "total": 11,
         "score_sum": -10
-      },
-      "2026-11-17": {
-        "total": 3,
-        "score_sum": -3
       },
       "2026-07-20": {
         "total": 1,
@@ -522,11 +522,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 43
+        "count": 44
       },
       {
         "term": "gustavo",
-        "count": 19
+        "count": 20
       },
       {
         "term": "tribuno",
@@ -542,7 +542,7 @@
       },
       {
         "term": "libro",
-        "count": 5
+        "count": 6
       },
       {
         "term": "pasa",
@@ -654,6 +654,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El princeso Emiliano Durand faltó a la presentación del libro de Gustavo Sáenz",
+        "link": "https://elintra.com.ar/2026/11/17/princeso-emiliano-durand-falto-presentacion-libro-gustavo-saenz/",
+        "source": "El Intra",
+        "date": "Tue, 17 Nov 2026 11:41:43 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "VIDEO. Durante la presentación del vuelo Río de Janeiro - Salta, Sáenz se sumo a la comparsa y bailó samba - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUFJTVHRBbjRwWkZIV0Rob3A1cnQ1cFhpZHNwazBJUnpheWtNLUZzUkZPa01EcGtYZkR6LWFMQkVDTV81YUY1N3p1U2p4YmxHc0pjNzh2a0NOY3UwLWlDd3RYczE3VVFHS3U3bWZidUxHUVhVUkl6ZC1XdWIzSVF3VzhGSllvc25QT2xFdjBfVFB3eUJoczFNamJxaDJqZ1pha2hzOWVfVzBna2VnX05Dbi10Z2dKN2NDT3VLNVFxU24tMUpMZ0hJU0tnblMzd01LV1g1eTlocG1WZm9INFFXNnJHVEdKWlHSAewBQVVfeXFMTndJbmNzajJJZ0dUY0lYUFBSMnZ2ZEtvVFMzNzRwQVBrdGlSUUhoaS10aU9yZEVib2NkdVcwazJFR3FfXzRnQllqeUJ2UndmanNtcFlGLUNtX3NoYWNjakN5UFJ0OXRRTDJCUHVFelBSUDE1cWtYQ1hoQ1FXczlsRS1FX0Nkd2hlRUZKVFo1RWVYT05SakdnUkZkVG1fY2tDYk42OVAtX3ZqM1JNMXNzdjBSQ1h5eTJ0NVM4czlRYlRIOW1JeXJhRDdMX0JPdC1Tb0ZLTFBpVUJ0Wm04LVZEOTZaNDdNWGR4RWd3NXE?oc=5",
@@ -856,13 +863,6 @@
         "source": "Informate Salta",
         "date": "Sun, 15 Nov 2026 09:08:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz fue tajante sobre la Ley de Tierras: \"No se vende, no se toca\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTG1PdUlpeDZ0NVBVcUI2cFNPWV9IOVRVV0pKUVBoeFZBMFN2bHZ0SmdJN1VhalZFUXZTWVQwLVpPTzhYaVFkQmhmbFVfRWg2Zm55Ml9EbkJrOE9xNW1zMnpsSm10c2JVMWt3QjZXVHZITnFhZ2dUZmUydWVhVnpPZHc1VE9rWTdhdWfSAYoBQVVfeXFMTUxtT3VJaXg2dDVQVXFCNnBTT1lfSDlUVVdKSlFQaHhWQTBTdmx2dEpnSTdVYWpWRVF2U1lUMC1aT084WGlRZEJoZmxVX0VoNmZueTJfRG5CazhPcTVtczJ6bEptdHNiVTFrd0I2V1R2SE5xYWdnVGZlMnVlYVZ6T2R3NVRPa1k3YXVn?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -12593,13 +12593,17 @@
     "id": "dip-german-dario-ralle",
     "name": "Germán Darío Rallé",
     "role": "Diputado/a provincial por Gral. Güemes",
-    "total_mentions": 24,
+    "total_mentions": 25,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 2,
-      "neutral": 20
+      "neutral": 21
     },
     "sentiment_by_day": {
+      "2025-12-08": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-14": {
         "total": 1,
         "score_sum": 0
@@ -12693,7 +12697,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "germán",
+        "count": 2
+      },
+      {
+        "term": "rallé",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Apoyamos una ley que en el futuro va a servir",
@@ -12722,6 +12735,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Germán Rallé pidió acciones a la Policía tras los recientes hechos de violencia - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkJHT1RSSExOSm5xWEZtd3NPekpPa3hmRW04Vmk0d2NPWXoyTERRc2c1bVFRaTNsMlpNZ2RQSVh6TXFmZndYSXRzZnFPeUFpOFh2OHJtTFhVcWRucGhaTlprMFlIZ3lIY1lQdGJEekZZOWNrTF8wdTJWdFpDalhXWTNJYTlISFNhMi11cWR4VHh0QTg4WF9LT3p4Q2NVYUo1WE9RVms3WkNwaFEta1luaWFJM1I?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Elecciones 2027 en Salta: Germán Rallé confirmó la fecha en la que se elegirá gobernador, intendentes y legisladores - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWkNKekZzWFRicVRIa3ZvMGhiaGdmWnBOX1g0ZGlJaHVyUWVrb3VZSVExVVoxQ2Vma19iR1RHVFk5emFKZWZRSC1tWGRSdDlwcEF3RlJzLTd0b0dyQXF0ZGp0ZDFHNTJuZFRPR1hPRmMwR1MzOHgyclFfZXpOU0h0NGlEeFpPc05vTnNtcW9wMzdERGI3SHJRZm1XeFMtY18xb1lib3BUVi1EQVFTbFJlSGV2aUJIS3ZaeDRqYUxEeHRMN0owX2dnWUYtaWZKMlpBb0p5eVMtSWlmamJxMGljVnhENkF4V1NuYUF6Y2FENzFNa1cwaWVsUG1jWkhzTkdVR3FuMm9B0gGGAkFVX3lxTE9aQ0p6RnNYVGJxVEhrdm8waGJoZ2ZacE5fWDRkaUlodXJRZWtvdVlJUTFVWjFDZWZrX2JHVEdUWTl6YUplZlFILW1YZFJ0OXBwQXdGUnMtN3RvR3JBcXRkanRkMUc1Mm5kVE9HWE9GYzBHUzM4eDJyUV9lek5TSHQ0aUR4Wk9zTm9Oc21xb3AzN0REYjdIclFmbVd4Uy1jXzFvWWJvcFRWLURBUVNsUmVIZXZpQkhLdlp4NGphTER4dEw3SjBfZ2dZRi1pZkoyWkFvSnl5Uy1JaWZqYnEwaWNWeEQ2QXhXU25hQXpjYUQ3MU1rVzBpZWxQbWNaSHNOR1VHcW4yb0E?oc=5",
@@ -15031,13 +15051,17 @@
     "id": "dip-rogelio-guaipo-segundo",
     "name": "Rogelio Guaipo Segundo",
     "role": "Diputado/a provincial por Rivadavia",
-    "total_mentions": 10,
+    "total_mentions": 11,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 8
+      "neutral": 9
     },
     "sentiment_by_day": {
+      "2021-08-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-08": {
         "total": 1,
         "score_sum": 0
@@ -15067,6 +15091,13 @@
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Últimas noticias de Rogelio Segundo hoy - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13VlpXdldPN0I5TDZoUjE4cVdGMWFxQWYya01rMEZnQXdXMHpXODF6Wm5iMkgwMFJaZzd1VUVwZjcxSHM0bGw4WW52Vm0zWHFwX3ptdnlUbVZYNUNVQXB2RDVKcUJnVkNU?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Fri, 20 Aug 2021 12:07:55 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Salta, entre la falta y el exceso de agua: Renuevan la emergencia hídrica mientras exigen garantizarla en los eventos",
         "link": "https://www.gentedesalta.com/politica/salta-falta-exceso-agua-renuevan-emergencia-hidrica-mientras-exigen-garantizarla-eventos-n13736",
@@ -20899,13 +20930,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 77,
+    "total_mentions": 78,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 12,
-      "neutral": 61
+      "neutral": 62
     },
     "sentiment_by_day": {
+      "2025-03-01": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-06": {
         "total": 1,
         "score_sum": 0
@@ -21314,6 +21349,13 @@
     ],
     "recent_articles": [
       {
+        "title": "En la apertura del Concejo Deliberante, Darío Madile apuntó hacia una regulación de las apps de transporte - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOci1maVp1OHZycXBqVW1OZmxEeFNTRmVDZ3p5SkJzaE03SDVYTkhsRHNNczVjMkNzZlppZ19MOEYzekE2N2tjQ2tZVndNZzNxMzl6Nm1XWThmLVVDbTJFUUVrdHpBUWkzWWl1c3FkaWtubnVSUFRBMjJ1ZTU1LThzV0tucnpzWl9sb0RyYUwxQWJmXzV4QVZlcWxUNWw5aTlsYzZzQUhWeEdGUnpFVUlTVXRGalNqVmxnSTl6NDA4dGlpb1ZZYVluOGxNNnltd3V0bktLLXFCbkp1RkNGX0RvZnFPTW5NcDZPZDllMFY0T1BRdEtq0gH6AUFVX3lxTFBQY2ZUOS1WRGdGU0dYRzhxa1VHcjJjdkRiMUVKWlhHaTM5SFpzb0h1Q0xwbWpLcHBfazN5OTVDdVdMZ0lQcHc0LWZiVFBjbVhYUjBRV2dFRnl4Wl8wa01PNmlNZ3l4ZUhNY0tpWFlvQk1ra05WbjJKQ1Zyb3gwZWpkOHlSa1hNTGZSakR3QmlyMmIwbGdhV285Y0RmcDMxejhCNmZ5RFZHLWVrcVJxUFExWnoyak9aU0xRZ1dYTS1hd3Q4UXV6RWM4VTJYajFXd1NSTEZ5ZnUzdmJfZkt1TWhwQUtJTTVDVWViTWx6ZlU4Z1Jyd3FPajdEQkE?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Sat, 01 Mar 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Darío Madile: casi 20 años viviendo del Estado y quiere más",
         "link": "https://elintra.com.ar/2026/11/06/dario-madile-casi-20-anos-viviendo-del-estado-y-quiere-mas/",
         "source": "El Intra",
@@ -21514,13 +21556,6 @@
         "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUnBzUjB6TzVZc1MxZHlTeXpGZ1lLLUo4SUF0OFkzX2htcUEtZGZWOXJnNzBSbUljQzVYWlFtMW9pVXdoTWxQbVM1RGlOV29UbUNRN0s2ZlZmX0prQzZBcG0tQmg3ek1rUVhBUUtsV1JabDFleVVFaWhqSDFsWWJUZ1p5TTdfOW1FWlF0YzF3VUtLalE1MEEtN0tQRDNRSm5KcEpuYTJvX2lybERVTDlKbWpFVlo0QWh1WnVxZW1CUWRoYnZrd0pjU1lPNHY1TGRqbkJlSXdZd3pMTVRkcXF1eU9td2RubmJ5S1lhZWFOb0o4WFVqNFJmMkg4WkMxbjJp?oc=5",
         "source": "Elintra.com.ar",
         "date": "Tue, 03 Jun 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"Dicen por ahí\": una intendenta a puras piñas, triángulo amoroso de exs de una candidata, el coqueto detalle de la campaña de Urtubey y Madile vuelto a la adolescencia - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNN1BKaGt1Z3FFM0lTN0tpVHl0OXFGSHJMNzdRNmNESmNjbzVXQVJWMmxONWE3ZmtqVVV1MHNRV3hRbmNKdGVLc1B4RUNWcnhTRmFwZGtMaUdsVy1lZ0s0Z0hWQ1JfRHVjZ3ktc0lrN2lmOWFCN0pIRmZLX1czU1htX1FKOHdQMlpKOXY5V0hwYnhKRkktcFhNeG1NZVg2MC1FZUx1U3JId3dmWUUtS1Rqekh6eFczWmpfRVl3cEM4Z1h3S3NfMXEteElwNTlXV0F4RmI3VFdfTFpoLXBKeHdLUnBVaEpXTHNMLXg1QjZZRGlUbHBVSENUZzByTjlNQ2RZWXJHdEZmb3NtNDFNT2JQNmlmRVIxd3hxbTNSWGl0aEIxakU?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 14 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24154,23 +24189,23 @@
     "top_topics": [
       {
         "term": "orozco",
-        "count": 14
+        "count": 12
       },
       {
         "term": "emilia",
-        "count": 13
+        "count": 11
       },
       {
         "term": "elintra",
-        "count": 8
-      },
-      {
-        "term": "libertaria",
-        "count": 3
+        "count": 7
       },
       {
         "term": "olmedo",
         "count": 3
+      },
+      {
+        "term": "libertaria",
+        "count": 2
       },
       {
         "term": "dicen",
@@ -24972,13 +25007,17 @@
     "id": "dnac-eliana-bruno",
     "name": "Eliana Bruno",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 21,
+    "total_mentions": 22,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 3,
+      "negativo": 4,
       "neutral": 16
     },
     "sentiment_by_day": {
+      "2026-11-17": {
+        "total": 1,
+        "score_sum": -5
+      },
       "2025-09-10": {
         "total": 1,
         "score_sum": -2
@@ -25079,6 +25118,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Pese a los reclamos, descartan cerrar las empresas de encomiendas en Aguas Blancas",
+        "link": "https://informatesalta.com.ar/sociedad/pese-a-los-reclamos--descartan-cerrar-las-empresas-de-encomiendas-en-aguas-blancas_a6afc328142fa9d9e6e30f0a4",
+        "source": "Informate Salta",
+        "date": "Tue, 17 Nov 2026 11:08:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Escándalo en Orán: Tras los repudiables dichos, Eliana Bruno pidió disculpas - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWdQb3NNVEpzdG9kb0lhZ0VULUFGa3lRS1AyNXlEWnBfZW1kd1l4SDlSVm5fZjI1VEwzTTI5Q1pLYkx2dllkcG1pbTBkUzRfczZySXNsZk1sbkV4bjZsLUpTMWtnMVV4SVJVQm56T2dXczdsbUpvME4xYUF4ZHFESzZGdDI3SGl0SHRkMUVIYW1lcGh5VlJSbVZwZHlIa0dEM1YtRDdPczVTZElET2c?oc=5",
@@ -26298,13 +26344,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 42,
+    "total_mentions": 43,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 7,
-      "neutral": 27
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "2025-10-26": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-16": {
         "total": 2,
         "score_sum": 1
@@ -26449,11 +26499,11 @@
     "top_topics": [
       {
         "term": "bernardo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "biella",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
@@ -26461,6 +26511,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No le tengamos miedo al BUP, vamos todos a votar, hoy hablamos en las urnas",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV2NPVzluVHpkVTN0RGdueVROeGVHVEVyV3NQd1hLamREMm1iVkpUaWpNc2I2azB2WW5hOG9tQ0w0RWJfUl90VjJpS1VGSkd3YnIwUkNDSmpjSC1EX3EyRzNsa2FmVkZzdmtSOXdSSUJ0eGl2MzFncW9DMVJPaC01c2s0M2JnbXVRME1SYy15Ni1HQUctWm9mT2dsTU1xSS01Q3kyZ3VyYUhIc1Q3SDdLZFVPSXRxOTR5VXZBTFBvY1NsM3NwdkRQbG8zb3FobGZXV2tzenlB0gHbAUFVX3lxTE5JeEJDUDAtZU9iU0poZkNpclZnTFBvLXNOTUFuVzFFTVkteVF5Q2YxLTQ5WDFZYU9UV2d1TE9kem1EcXlDdzR5Qlg0a3hJYmQ0MGtlZndhT05zY2ZjN1c2Y2YyMUtGMkVMeElUSGVUOEhpaThCWVVaY0EteThLVmdTdXhIM3FCV3Z1XzBNTXlHeUpmSXJTbnlkOTdNcWVKVG5XYnhRVDNPZ01ScTFVMUI5LTI2NkZnbTE0TnZScDlBbjFXaVE5bmNBWU5fQ1hINnczckcxWWFJZ0psWQ?oc=5",
+        "date": "Sun, 26 Oct 2025 07:00:00 GMT"
+      },
       {
         "quote": "A los 40 grados el cerebro empieza a dañarse",
         "source": "Informate Salta",
@@ -26536,6 +26592,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Bernardo Biella: \"No le tengamos miedo al BUP, vamos todos a votar, hoy hablamos en las urnas\" - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV2NPVzluVHpkVTN0RGdueVROeGVHVEVyV3NQd1hLamREMm1iVkpUaWpNc2I2azB2WW5hOG9tQ0w0RWJfUl90VjJpS1VGSkd3YnIwUkNDSmpjSC1EX3EyRzNsa2FmVkZzdmtSOXdSSUJ0eGl2MzFncW9DMVJPaC01c2s0M2JnbXVRME1SYy15Ni1HQUctWm9mT2dsTU1xSS01Q3kyZ3VyYUhIc1Q3SDdLZFVPSXRxOTR5VXZBTFBvY1NsM3NwdkRQbG8zb3FobGZXV2tzenlB0gHbAUFVX3lxTE5JeEJDUDAtZU9iU0poZkNpclZnTFBvLXNOTUFuVzFFTVkteVF5Q2YxLTQ5WDFZYU9UV2d1TE9kem1EcXlDdzR5Qlg0a3hJYmQ0MGtlZndhT05zY2ZjN1c2Y2YyMUtGMkVMeElUSGVUOEhpaThCWVVaY0EteThLVmdTdXhIM3FCV3Z1XzBNTXlHeUpmSXJTbnlkOTdNcWVKVG5XYnhRVDNPZ01ScTFVMUI5LTI2NkZnbTE0TnZScDlBbjFXaVE5bmNBWU5fQ1hINnczckcxWWFJZ0psWQ?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 26 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“A los 40 grados el cerebro empieza a dañarse”: La explicación tras la tragedia en Alto La Sierra",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-a-los-40-grados-el-cerebro-empieza-a-danarse---la-explicacion-tras-la-tragedia-en-alto-la-sierra_a6afb244c42fa9d9e6e248993",
@@ -26738,13 +26801,6 @@
         "source": "Informate Salta",
         "date": "Tue, 29 Sep 2026 11:15:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "El patrimonio de los diputados salteños: Quiénes declararon más bienes y quién quedó con saldo negativo",
-        "link": "https://informatesalta.com.ar/nacional/el-patrimonio-de-los-diputados-saltenos--quienes-declararon-mas-bienes-y-quien-quedo-con-saldo-negativo_a6abba01348f74caaffefa9f2",
-        "source": "Informate Salta",
-        "date": "Tue, 29 Sep 2026 11:47:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
