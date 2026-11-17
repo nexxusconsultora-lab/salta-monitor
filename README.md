@@ -483,11 +483,222 @@ reales y no se pueden esquivar:
 
 - **Frecuencia:** GitHub Actions no ofrece programaciones de menos de 5
   minutos. "Cada 1 minuto" no es una opción, ni pagando ese servicio.
+  (Hay una excepción, solo para las noches de elecciones: el workflow
+  `elecciones.yml` no usa esa programación sino una única tarea larga que
+  consulta la fuente cada ~60 segundos. Igual queda una demora de varios
+  minutos por la publicación de GitHub Pages. Ver la sección "Elecciones".)
 - **Volumen:** esto es un monitor de medios (decenas o cientos de notas por
   día), no "big data" en el sentido técnico de petabytes o procesamiento
   distribuido. Para el objetivo real — seguir menciones y su tono — no hace
   falta esa escala, y perseguirla sin presupuesto sería gastar esfuerzo en
   algo que no cambia el resultado que ves en el panel.
+
+## Elecciones: candidatos y resultados en vivo
+
+La pestaña **Elecciones** está siempre visible y tiene tres subsecciones que se
+completan solas según el calendario:
+
+- **Próximas:** una tarjeta por elección con cuenta regresiva y fechas clave.
+- **Candidatos:** se habilita 60 días antes de la elección. Cada candidato
+  lleva su fuente; si no la tiene, se muestra como "no confirmado".
+- **Resultados:** el día de la elección y hasta 7 días después. Nunca muestra
+  nada antes de las 21:00 de Argentina (o de la hora que pongas en
+  `no_publicar_antes`).
+- **Noticias:** titulares y publicaciones de boletines oficiales sobre
+  elecciones, con filtro Salta / Argentina. Se arma sola y se renueva cada
+  ~10 minutos.
+
+Arriba de **Próximas** aparecen, mientras estén vigentes, los avisos con fecha
+de vencimiento (por ejemplo, la consulta extraordinaria del padrón provisorio,
+abierta hasta el 30 de noviembre de 2026). Se cargan en la lista `hitos` de
+`data/elecciones.json` y desaparecen solos al pasar la fecha.
+
+Para ver cómo queda sin esperar una elección, agregá `#/elecciones/demo` al
+final de la dirección del sitio (son datos inventados).
+
+### Qué archivo es cada cosa
+
+- `elecciones.js` — la pantalla.
+- `data/elecciones.json` — **el único que editás a mano**: calendario,
+  candidatos y de dónde salen los resultados. Tiene un ejemplo de candidato
+  dentro del mismo archivo.
+- `data/elecciones_resultados.json` y `data/elecciones_resultados_historial.json`
+  — los escribe el recolector solo. No los toques.
+- `data/elecciones_demo.json` — la elección de ejemplo.
+- `data/elecciones_simulacro.json` — la elección inventada del simulacro (y sus
+  resultados, en `data/elecciones_resultados_simulacro*.json`, que se generan
+  solos).
+- `scripts/elecciones_noticias.py` y `.github/workflows/elecciones_noticias.yml`
+  — separan, de lo que ya recolecta el proyecto (`news_general.json` y
+  `oficiales.json`), lo que trata de elecciones, y lo guardan en
+  `data/elecciones_noticias.json` (no lo toques).
+- `scripts/elecciones.py` y `.github/workflows/elecciones.yml` — el recolector
+  y el workflow que lo corre.
+- `scripts/avisar_falla.py` — manda un aviso corto a tu celular (usa los mismos
+  secretos del resumen diario: `NTFY_TOPIC` o `TELEGRAM_BOT_TOKEN` y
+  `TELEGRAM_CHAT_ID`; si no hay ninguno configurado, lo anota en el registro y
+  sigue).
+- `test_elecciones_recolector.py`, `test_elecciones_noticias.py` y
+  `test_avisar_falla.py`, `test_elecciones_simulacro.py` y `test_modulos_clave.py`
+  (en `tests/` o en `scripts/`) — las pruebas
+  automáticas. La corrida "Pruebas" las ejecuta.
+
+### Qué hacer antes de cada elección
+
+1. Cuando se publique la convocatoria oficial, escribí la `fecha` en
+   `data/elecciones.json` (formato `AAAA-MM-DD`). Mientras sea `null`, la
+   elección figura como "fecha sin confirmar". **El sistema te avisa:** si en
+   un boletín oficial aparece algo como "Convócase al cuerpo electoral…", sale
+   un recuadro destacado en Próximas y en Noticias, con el enlace y la fecha de
+   votación que figura en el texto. Es una pista: confirmala en el boletín
+   antes de cargarla. (En 2023 el decreto de Salta se publicó el 21 de octubre
+   de 2022, unos siete meses antes de la votación.)
+2. Cuando la Justicia Electoral oficialice las listas, cargá los candidatos en
+   la lista `candidatos` de esa elección, **siempre con `fuente_url`**.
+3. Para elecciones nacionales, los resultados salen de la API oficial de la
+   Dirección Nacional Electoral. Leé sus condiciones de uso
+   (`resultados.mininterior.gob.ar/tos.html`, citadas en su documentación).
+   Si la API pide token, se solicita a `soportedine@mininterior.gob.ar` y se
+   guarda en GitHub como secreto: Settings > Secrets and variables > Actions >
+   New repository secret, con el nombre `DINE_TOKEN`.
+4. En **Actions > Resultados electorales > Run workflow**, corré `probar_dine`:
+   consulta la API con la elección de 2023 y guarda en
+   `data/elecciones_diagnostico_dine.json` cómo responde (códigos de distrito y
+   categoría, si pide token). Con eso se completa la lista `categorias`; hoy
+   solo está confirmado el código 1 (Presidente).
+5. Ensayá todo el recorrido: **Run workflow** con la opción `simulacro`.
+   Durante unos 15 minutos genera una elección INVENTADA cuyo conteo avanza
+   solo, y lo hace pasar por el mismo camino que una real (validación,
+   subida a GitHub, GitHub Pages, pantalla y avisos al celular). Miralo en
+   `#/elecciones/simulacro` (agregá eso al final de la dirección del sitio):
+   la línea «Dato oficial de las… (hace…)» te muestra la demora real de punta
+   a punta en tu sitio. No toca ninguna elección real y se puede repetir las
+   veces que quieras. Con la opción `probar_aviso` probás solo el mensaje al
+   celular. Si no hay una elección
+   activa, termina en segundos con un mensaje claro.
+6. La noche de la elección no hay que hacer nada: el workflow arranca solo a
+   las 20:30 de Argentina y te avisa al celular cuando llega el primer dato,
+   si falla 5 veces seguidas la lectura de la fuente, si pasan 20 minutos sin
+   datos nuevos, o si la corrida se cae (siempre que tengas configurado
+   ntfy o Telegram para el resumen diario). Igual, mirá **Actions** por las
+   dudas.
+
+### Cómo viaja un dato
+
+Fuente oficial → recolector (cada ~60 segundos) → se sube al repositorio →
+GitHub Pages lo publica (1 a 3 minutos) → la pantalla lo busca cada 30
+segundos. La demora total típica es de 2 a 3 minutos. La pantalla muestra la
+hora del dato oficial y hace cuánto se consultó, y se pone en rojo si pasan
+más de 15 minutos sin novedades.
+
+### Qué cuida el sistema
+
+- Antes de guardar, el recolector valida los datos (mesas, votos, fechas, que
+  el conteo no retroceda). Si algo no cierra, conserva lo anterior y lo cuenta
+  en el registro de la corrida.
+- Compara lo que informa la API con lo que se deduce de sus propios números y
+  muestra un aviso si no coinciden.
+- Detecta solo sobre qué total calcula la Dirección Nacional Electoral sus
+  porcentajes (positivos, válidos o emitidos) y lo aclara en pantalla.
+- Las noticias se filtran automáticamente con reglas cuidadas (se descartan
+  deportes, espectáculos, presupuestos y elecciones de otros países). Puede
+  haber alguna omisión y, raramente, un titular de más. Un titular se marca
+  "Salta" solo si nombra a Salta o a su gobernador, o si es de un medio
+  salteño y habla de autoridades locales; ante la duda queda en "Argentina".
+- Respeta el `robots.txt` de cada sitio. Si no puede confirmarlo, no accede.
+- El conteo provisorio se rotula siempre como provisorio y sin valor legal.
+  La estadística que muestra (ritmo, votos pendientes, evolución de la
+  diferencia) es descriptiva: **no es una proyección**.
+- En 2025 la Cámara Nacional Electoral ordenó difundir el recuento por
+  distrito y no como un total nacional único.
+
+### Qué todavía NO está hecho
+
+- **Lista de candidatos de 2027:** hoy está vacía a propósito. Nadie está
+  oficializado todavía; los nombres que circulan en la prensa son
+  precandidaturas. Cargar nombres sin oficialización exige criterio parejo
+  entre todas las fuerzas y fuente para cada uno.
+
+- **Elecciones provinciales de Salta:** no pasan por la API nacional. En 2025
+  fueron el 11 de mayo, con Boleta Única Electrónica, y el conteo provisorio lo
+  difundió el Gobierno provincial; el definitivo, el Tribunal Electoral
+  (`electoralsalta.gov.ar`). Falta el lector de esa fuente: primero hay que ver
+  cómo publica los datos.
+- **La API de la Dirección Nacional Electoral no se probó con datos reales**,
+  porque el entorno donde se desarrolló no tiene acceso a ese sitio. Por eso
+  el paso 4 de arriba es obligatorio.
+- **Menos de 1 minuto de demora:** con GitHub no se puede. Haría falta un
+  intermediario en Cloudflare (y permitir esa conexión en la política de
+  seguridad de `index.html`).
+
+## Briefing de noticias
+
+Resumen de lo que publicaron los medios, calculado solo con los datos que ya
+recolecta el proyecto (`data/news_general.json`). Vive dentro de `index.html`.
+
+- **Ventanas:** 24 horas, 48 horas o 7 días, contadas hasta la nota más
+  reciente recolectada. Se puede filtrar por ámbito (Salta, Nación, cruce),
+  tema, persona o texto.
+- **Resumen ejecutivo y números:** notas, historias, medios y porcentaje de
+  Salta. Cada número se puede tocar para ir al detalle.
+- **Todas las historias:** recorrido completo (se ven de a 30 y se piden más),
+  ordenado por cobertura, por fecha o por importancia, con filtro por medio.
+  Se puede **descargar en CSV**.
+- **Trazabilidad:** cada historia muestra todas las notas que la forman, con su
+  medio, su hora y su enlace al original, y el título de cada una para verificar
+  que se agruparon bien.
+- **Cómo se calculó esto:** al final de la pantalla se explica la ventana, cuántas
+  notas hay y cuántas se descartaron, cómo se agrupan, cómo se puntúa y qué se
+  oculta por defecto.
+- **Qué se oculta por defecto:** deportes y espectáculos (casilla «Incluir
+  deportes y espectáculos») y pronósticos del tiempo. Siguen contados y se ven en
+  «Todas las historias». La clasificación usa una palabra inequívoca, un club de
+  nombre ambiguo con contexto deportivo, o un medio deportivo; puede fallar en
+  casos raros.
+- **Argentina vista desde afuera:** solo diarios extranjeros que nombran a
+  Argentina en el titular, sin deportes, ordenados por relevancia.
+- **Límites:** no mide lecturas ni verifica si lo publicado es cierto.
+
+## Si desaparece una pantalla o una función
+
+**Qué pasó el 14/11/2026.** Una subida con "Add files via upload" reemplazó
+cuatro archivos por otras versiones, mucho más chicas y distintas (hechas sin
+conocer lo que ya existía): `briefing.js`, `envivo.js`, `modern.js` y
+`elecciones.js`. Resultado: desaparecieron las pestañas **Briefing** y
+**Mundo**, y se perdieron funciones de En vivo, de los mapas y de Elecciones.
+`index.html` no tuvo nada que ver.
+
+**Qué archivo hace qué** (para saber dónde mirar):
+
+- `index.html` — contiene el **Briefing** completo (su pantalla y su pestaña) y
+  carga `mundo.js`. El archivo `briefing.js` ya no se usa y se puede borrar.
+- `mundo.js` — la pestaña **Mundo** (prensa internacional). Lo carga `index.html`
+  directamente.
+- `envivo.js` — la pestaña **En vivo** (pared de TV).
+- `modern.js` — la capa visual de los mapas.
+- `elecciones.js` — la pestaña **Elecciones**.
+
+**Cómo te enterás.** La corrida "Pruebas" (en la pestaña Actions) incluye una
+alarma, `test_modulos_clave.py`: si un módulo pierde sus funciones clave, o si
+`index.html` pide un archivo que no existe, o un archivo de datos importante
+(políticos, canales en vivo, noticias, oficiales, elecciones) queda vacío o con
+el formato roto, se pone en rojo y dice cuál archivo y qué perdió. Si cambiás un módulo a propósito, actualizá la lista `MARCAS`
+de ese archivo.
+
+**Cómo volver atrás (sin saber de Git).** Todo lo anterior queda guardado:
+
+1. En GitHub abrí el archivo, por ejemplo `briefing.js`.
+2. Tocá **History** (arriba a la derecha).
+3. Elegí el cambio ANTERIOR a la subida equivocada (fijate en la fecha y la
+   hora) y entrá a él.
+4. En el archivo, tocá los tres puntos **…** y **View file**.
+5. Tocá **Raw** (o el ícono de descarga) para bajar esa versión.
+6. Subila de nuevo con **Add file > Upload files**, en la misma carpeta.
+
+**Regla de oro.** Antes de subir un archivo que ya existe, compará los tamaños:
+si el nuevo pesa mucho menos (por ejemplo, la mitad), casi seguro es otra
+versión y va a borrar funciones. Cuando pidas cambios a un asistente, pasale
+siempre el archivo actual completo del repositorio para que parta de él.
 
 ## Sobre Instagram y otras redes sociales
 
