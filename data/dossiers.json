@@ -9203,15 +9203,15 @@
     "id": "dip-laura-deolinda-cartuccia",
     "name": "Laura Deolinda Cartuccia",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 7,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
       "2026-11-18": {
-        "total": 1,
+        "total": 2,
         "score_sum": 0
       },
       "2025-09-01": {
@@ -9333,6 +9333,10 @@
     },
     "top_topics": [
       {
+        "term": "diputados",
+        "count": 2
+      },
+      {
         "term": "cartuccia",
         "count": 2
       }
@@ -9414,6 +9418,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Diputados aprobó extender por 180 días la emergencia sociosanitaria en el norte salteño",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-aprobo-extender-por-180-dias-la-emergencia-sociosanitaria-en-el-norte-salteno_a6afd7b9c42fa9d9e6e4456bb",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 10:25:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "La pelea de cada martes en Diputados: Lastra, Cartuccia y Amat se trenzaron",
         "link": "https://www.eltribuno.com/salta/2026-11-17-21-38-0-la-pelea-de-cada-martes-en-diputados-lastra-cartuccia-y-amat-se-trenzaron",
@@ -9615,13 +9626,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS0daV005eVc2Uk9ZckRfT3hMOWY0TzBzdVdZaUpGdTV4alN6UDM2WTUwa2pHSk1oYTR4OHZvS0huV2dydHQ5SE54eXZFU1VTVk1UTEZRYkZxVE9iODZxVTNObzBlZUxxMGdXc0h5eG1BSkU2Ym1aQ0lyVGhReWo2VWluSjBNdGJRcDNpeFo4dlJIdkduQl9Rc2kyeUhBc1JNRkZsQWdtQVVfVm84MFZqeXplZ25yS1ZwVU82REp4ZVdXZXhQTUQ4OTZ3?oc=5",
         "source": "Elintra.com.ar",
         "date": "Tue, 16 Jul 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Laura Cartuccia confrontó a Sergio Leavy: «Dejen que llegue nueva gente» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR2RYSExxeVF1TGFFY3FaYVJpTEJMUGgybnlvYlpSOElpT1I3YXQ2YUZGQkNQSURpVV9GalN0ci1uQzlqeV9RMFhwSTY5M2Q2RE9VcDd3NU85QVNzNFY5T3FSQUN2ajE1eXdTejZIUEpVSFZUemUxZGxFNDdBOVBqMy1ULWtUcE5vWHhvZjR0QTV4eVpNNl9oUUhyRXZ1MF8ycmJ0V2dHQQ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 19 Sep 2026 22:51:20 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20382,13 +20386,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 24,
-      "neutral": 26
+      "neutral": 27
     },
     "sentiment_by_day": {
+      "2024-08-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-08-24": {
         "total": 1,
         "score_sum": -2
@@ -20545,15 +20553,23 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "lópez",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 3
+        "count": 4
+      },
+      {
+        "term": "emiliano",
+        "count": 2
+      },
+      {
+        "term": "durand",
+        "count": 2
       },
       {
         "term": "emilia",
@@ -20565,6 +20581,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Es el señor pauta",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDNiSlNQQ1JXeWRUWWFlQ21ES0FuQ0FGQVJEcDRKS1l5ZzRXd0Y2eTk1MFZEdmlkLWFGMnl5eUZtYkZpQTdGd2JHVURzM3RqMXdQRUJ1cWlvaktmekRiMEdfM1dmOEZXd3VjMWpKdUZ6OHV0MXFiTUdmWHRGQlp0RHoycVdaSDZfMEVPemcxdUFza3ZJRzJZajRjanRoNENHMDl1Z3J3?oc=5",
+        "date": "Sun, 04 Aug 2024 07:00:00 GMT"
+      },
       {
         "quote": "es una reacción a la acción de las urnas",
         "source": "Elintra.com.ar",
@@ -20648,12 +20670,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZTFoNERUZWp5T3AzUmU4N1pzX2t5NHVzYVlBcFZQVEFTa2tlTmp0MTByUVZ5WmZkVTdPLXRuX0hKMWd1eUhVczFUemdMWmUyQUlYaXpTWkVPdUp3WFRoZ0Rrb0dWQUlDX2NXdEt1cTdhVm9mQm55VDluQWNab2FBNGpvLXU4bmNCdDhadUlUMWl3alVqWllQVnowekp2SnRSVElCTGpKZkpZZzFTZGVDdnJSdWpKMDlhNXJLYTViVkdZcm5U?oc=5",
         "date": "Thu, 23 May 2024 07:00:00 GMT"
-      },
-      {
-        "quote": "El Gordo Dan",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcnRSOU52Rjk0Qll5TVltQ1JvdVdwODVsSHZncXdzY1Fmd3YyZ190Yk9iY0ptcFZERGIzeGFidTc3dE5CRXM0RzVFRFppZzFJYk1FeEVEMklkbGRkcE5JdVJvQ29kMHdUTThhRzNPM0hIekw3SXIzOXoyc3otM0c4RFg4S3hIY0VFMGd1SzhaRDJ5dHVBa1BicElNVHRJX0J5UUxOWUotRGNrRTZKUU85eWVJVHZxdnBCS19wUk5KQ2c0V25LUDNId9IBzgFBVV95cUxPLU0tUnhTdzg4Q2w5OXJiVFBlbHd6MklObEh0UV9WeW9TODBZSW1XY0cyODR2RWtrREJHR3VkNndmWUNxZHZITGNNbVpvY1UxQmZweFZMbDdKaXE0SFpfZm1fbFIyeWdMcy1QOVFyVUxHLVBHdWtXYXBMM1Q3SjBDMEFlZ0swVmpCQjM0Nlk1RXhwWnJaWGp1QV8yQWcwM29wZVIyaExxMWw4V1h6MXBwTzZfRzFHY0kybDdqbThEUFhJUkIyaGFMbFIwZ09Zdw?oc=5",
-        "date": "Fri, 18 Jul 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -20731,6 +20747,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López le apuntó con dureza a Emiliano Durand: “Es el señor pauta” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDNiSlNQQ1JXeWRUWWFlQ21ES0FuQ0FGQVJEcDRKS1l5ZzRXd0Y2eTk1MFZEdmlkLWFGMnl5eUZtYkZpQTdGd2JHVURzM3RqMXdQRUJ1cWlvaktmekRiMEdfM1dmOEZXd3VjMWpKdUZ6OHV0MXFiTUdmWHRGQlp0RHoycVdaSDZfMEVPemcxdUFza3ZJRzJZajRjanRoNENHMDl1Z3J3?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sun, 04 Aug 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Pablo López reafirmó su lealtad a Emilia Orozco y se cruzó con un concejal que la criticó - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSG1wQ2pKdzB3OHFmcmppd3p3RUZFYWNSQUVybWZUaGlxZ1pTZjJaanVyaWF0UVZLelFzWTdFNHlhNHRQMHBoQS12cjM4YlRFeXhwZVlBNWN5SThPVjFsN3dlNjNrR19IdXZlTnR3ZjdLb2ltT3A4SVBoR3RPblpPRzJpNTF0TDE3SlU4S01ITnAzYnNrYUlvaGNPc1ZfNFB0QXpkQkdyY25YS255eERrWElERFRyVnJ6Mk1zeTMwR19Wdw?oc=5",
@@ -20932,13 +20955,6 @@
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnpQbzhOSWdwT1BUaDZqNmtkZWdzbmFjak5qLVdRcDNGTFlId0dpclNLRGxEOXNLeVA1SEdFRk5yT2F3NVp3MGhKLWo1dTNEZjNiZ29lZk9wSGNOcWxuZnNVWVRVZHlSdktSdzAxUndMLTh0Y2dGcThCQW5SdGkyVzdmMlZvR0JPNWh1Q0Z5OUJCNGk1Uld0R1p0bVdDZnNpdjBHb0wyUmZOUnRPZFExUmN4R3JFZl91eVlRN2pIdTJFNm1FdnfSAdQBQVVfeXFMTm9mUXVmVTBTZmZFczRfdUtlbWRWZE5RZDBZOTlCMkxmenQxOG4weFEybjVHMFAxNHB0VXh2Zl9lTlQxa0NyQUEzUUJOUThFdzduWS1SM2RsN2x1TnN3YVZ6Q0FkTHU4Rk9lT2NSaFA0bDh1SXZrMXYyTjM1b3lXX05VbVpMMFJYeHNZaXdkakZHem10eV84dkI3Y0tjT3ZIOU5fdld1RjVpOU5DX2hYZEloeTcxa1BOLUFnWkF3Z0U1QmNsdGtjZkxtenB4WF9EM0lRcUw?oc=5",
         "source": "Informate Salta",
         "date": "Tue, 22 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "¿Archivaron la causa contra Pablo López? La denunciante lo negó: “Sigue imputado y en investigación” - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NWcW5oTzR4bUtzR19CemJ2ZlFUZWVnaFoxdnhKRjQ4Z19rNi1OV0dSTHkxbmJjWEM4UVJXR0swMVQ5Zm9hWW45SlJaaUR6R21BOHpyZ05LVEhnMkVES3hCaFNzdjVFaE83X2I5a2tMRGRZSS1GY0pqYmxDRTdIdWtaWEFiNUd4THF3bmt6U0ZfbFZiZHg0SGJZLW95blc5U2JWWk5TZmZfSkJHSnFaQnhfZUhKbGI1TnlCVEljQmF5VnF3VDJNS3ZBVnBVNVA2RjhYcndYUHRaRXZ5RFNfY2hKZlhkTkRpZjVKdGdDNERqRmtMQkd2M9IBhwJBVV95cUxPNTBHc3J1Y3plQlV3ckVrSTFIS2E1THBwWE5UUi1aaHVJSHBQWVhMc0RZQ2NSSFh6OHpsVmtnb0JMUG5EMkx6dTRSeUZzWndWRGVOaDJsNGtXT3UySnh4X2J4WFZMYVNZU2x2QVZINGl2WU1vV0NGa0xmNVRWQ2RyYWFJNGpoQm5KWXhBYzNnYjZtcHVJejlzaXhKSWgtSTJ3TGF6UzRYWDJFMXJZcVVHcENMYURub2ItcDFTRWhEYWZlR2hkQ1lLMTQwQjZGcXB3aGZ5bkF0Q0xKcngzZEZ0Y25qNzl5S1RwTi1mVlVIazhDR2VfYkdtSHMxTVQ2MWJOMzNIdlQzYw?oc=5",
-        "source": "Informate Salta",
-        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
       }
     ]
@@ -24596,13 +24612,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 41,
+    "total_mentions": 42,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 4,
-      "neutral": 32
+      "neutral": 33
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-17": {
         "total": 1,
         "score_sum": 0
@@ -24825,6 +24845,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Libertarios de Salta apoyan eliminar las PASO, pero dudan por colectoras",
+        "link": "https://www.eltribuno.com/salta/2026-11-18-0-34-0-libertarios-de-salta-apoyan-eliminar-las-paso-pero-dudan-por-colectoras",
+        "source": "El Tribuno - Salta",
+        "date": "Wed, 18 Nov 2026 04:42:25 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Ciberacoso y grooming: Gonzalo Guzmán presentó un proyecto para endurecer penas en el Código Penal",
         "link": "https://elintra.com.ar/2026/11/17/ciberacoso-y-grooming-gonzalo-guzman-presento-un-proyecto-para-endurecer-penas-en-el-codigo-penal/",
         "source": "El Intra",
@@ -25025,13 +25052,6 @@
         "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
         "source": "Informate Salta",
         "date": "Fri, 25 Sep 2026 00:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Ley de Zona Fría: cómo votaron los tres senadores salteños y qué cambia para la provincia",
-        "link": "https://www.eltribuno.com/salta/2026-9-24-22-6-0-ley-de-zona-fria-como-votaron-los-tres-senadores-saltenos-y-que-cambia-para-la-provincia",
-        "source": "El Tribuno - Salta",
-        "date": "Fri, 25 Sep 2026 01:06:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -25311,13 +25331,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 29,
+    "total_mentions": 30,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-13": {
         "total": 1,
         "score_sum": 0
@@ -25479,6 +25503,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Libertarios de Salta apoyan eliminar las PASO, pero dudan por colectoras",
+        "link": "https://www.eltribuno.com/salta/2026-11-18-0-34-0-libertarios-de-salta-apoyan-eliminar-las-paso-pero-dudan-por-colectoras",
+        "source": "El Tribuno - Salta",
+        "date": "Wed, 18 Nov 2026 04:42:25 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gabriela Flores confirmó su distancia con Emilia Orozco: «Tengo muy poco diálogo»",
         "link": "https://elintra.com.ar/2026/11/13/gabriela-flores-confirmo-su-distancia-con-emilia-orozco-tengo-muy-poco-dialogo/",
@@ -27211,13 +27242,17 @@
     "id": "dnac-yolanda-vega",
     "name": "Yolanda Vega",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 20,
+    "total_mentions": 21,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 4,
-      "neutral": 14
+      "neutral": 15
     },
     "sentiment_by_day": {
+      "2025-10-09": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-12-17": {
         "total": 1,
         "score_sum": 2
@@ -27294,11 +27329,11 @@
     "top_topics": [
       {
         "term": "yolanda",
-        "count": 2
+        "count": 3
       },
       {
         "term": "vega",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -27330,6 +27365,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cobros irregulares en Cerrillos: investigan faltante millonario en Rentas durante la gestión de Yolanda Vega - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlNFVEpyRXphaENEVFhfZnpFVlZIcTJ3NzZjLUpzc1Bqb0xIazlabDdjWUJMYnJvY0NveXA3aUlEQ2NDVl96SWFWSFVkTjV4V3hLUHA4Q2lITFNLQU81Q3JsNF9RRzg3elZzUE4tLUZFVVdMQ2szR1QyVFF3VTI0aHBCOHZndEkyQVRJN1Zwc1Nkd0NlMnlIb2VLbkQ2SHVmZUNzVE9pTGxfV04wck5IVzdoNWVKSWJhZ2VvSXZsM2tuZ9IBugFBVV95cUxOTnJVX3RoLXJpVUo5LWZGSVJsVzlOaEtyc2h3cWNHWVp4Y0s1OWxmNjlzdFM4WjU2Q1lTdE1GcFRnX1Vmak9wbHlmMmNwNWRhaW1jMktSNUdGb3JLU2V2RnU5ZnZxQTQ0T1R0TExaUXQ5b2NGQWs0eElEQzN6d0hpWDVXektaem15SjRNM0trQWFHZTMtSHVFaXI4MGdQdXMyY2VDRnptYXdzWl9Ya3FEMmZlcUF2QjFoZmc?oc=5",
+        "source": "Aries On Line",
+        "date": "Thu, 09 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Presupuesto 2026: Yolanda Vega marcó su apoyo en general pero pidió por los fondos universitarios y discapacidad - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNN1lwVVItTlQyWlYxbzVpMG1QSG1yNVozNHJZVmFhcXR6MHd5SmdyZFB4RTNha2gyYS1XMFVrN0RNZFd3RkZ4RW1oTHZNT3FGX2pfaktWODdDQW1NMlh1QnNsQUg2YnJad1I5eE1PS0c4emxZMWJlZm1EVG9BZklWdFlBeUdtdEN2QURuVjNUREpzUjdQMUNYdE4zWUpRV2J2bjM2WWJwODhRcHJFbXh1UDE3bE5ZMENfZGNlZXdrUXNvb1QwNzJWZGxKNko1RHV2N0dFZURiRU92OUVWQ2dORnpzOUJjYlc2em9neldsVmlSdkJPRVc2bmhnQQ?oc=5",
@@ -28060,13 +28102,17 @@
     "id": "dip-juan-jose-esteban",
     "name": "Juan José Esteban",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 14,
+    "total_mentions": 15,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 4,
-      "neutral": 10
+      "neutral": 11
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2017-06-26": {
         "total": 1,
         "score_sum": 0
@@ -28153,6 +28199,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Diputados aprobó extender por 180 días la emergencia sociosanitaria en el norte salteño",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-aprobo-extender-por-180-dias-la-emergencia-sociosanitaria-en-el-norte-salteno_a6afd7b9c42fa9d9e6e4456bb",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 10:25:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cambios en el hospital del Milagro: Juan José Esteban es el nuevo gerente - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM0VVc3BtdHF3VHhPUGZzbUJYN2ExZ1FBWmtqcmF1T2M1UEFXYWtfQW5lSGFFR3JSRldWSjVuRklzZGVvM3VxcDNVWTVQRTdOZ0xWVmQ3SVNQNmd0c0FBZE1mbUt4enU2SGtIYjZRS1dpWk5aTjBPR0M1YXI5SWh1SUtNbUViY2xUV3VpT0VvMXA3TjJEaENDelB2Ym1zTnBwTEc0d2J2blpUZHJBTmp5X3hSbklwSHpZMW5BM3NzY3dqczRReVJVakR5d2RsTGpp0gHfAUFVX3lxTE9WWTBkcmFaVXpHZkZNY1dwOGlma0JsTWdpVkpQRjZIc3FVdlYxODJTdW9jX01GeU9aRkI0THhvMjV6WVlnSlRNQzIwdFNtWHZrbW9hZTUwZUZPdHZvN2NGT3dmaEVNdEIwenhkRUJfM2pwbTd5TFZycWpjaExka0RuMmYtbkpqb3VNZ0EzbldFU1NDMXkxTXZ6TUY4R2ZuVENsaktyWHhWU2JMVWZOUjQxX0NvbUNIdExBdTNEU0J2S2J4bWtld0l6Q1dFOWM0ZE1ueVN5NVlVajUxM2M2RjA?oc=5",
@@ -31129,13 +31182,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 39,
+    "total_mentions": 40,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 2,
-      "neutral": 31
+      "neutral": 32
     },
     "sentiment_by_day": {
+      "2022-11-25": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-05-08": {
         "total": 1,
         "score_sum": 0
@@ -31273,7 +31330,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "antonio",
+        "count": 2
+      },
+      {
+        "term": "marocco",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Lo recordamos con mayor admiración",
@@ -31333,6 +31399,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La felicidad de Antonio Marocco llegó de la mano de su nieta: “me explota el corazón - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbkNlNUNJbWFkMHdGUWVTRWpFZTJZRldZUlM2M0dEY0l2WXVldDBuYXA5a0YzUU0xQnU1WHlUQnhDaW9SUjBXQmZxeFd5ZWVvX1VHSXQyd09nX2xNanpxYWxjUVJPVzc3dmRqVG5DR0pGTWFPQ3B3M214UERTMHVGa1lRSXQ5OG5PZjRzWXZQdHJDY1V6NGFvY0FxNXo3OTVrN09fZWlMZWExOHdSWjh0c1dmNndZZk5a?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 25 Nov 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Antonio Marocco - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nNlNoTnQxYUJ1cDduaE5wSl9DOXgzRVFRSmVVM0FKMkx6elhZZGZidkt4c19TV1hwZUZDVklZNVhZUUc2NEM1eDdUSFRlNEJhbldBdGgwUHdrZw?oc=5",
@@ -31535,13 +31608,6 @@
         "source": "Cuarto: Salta a diario",
         "date": "Thu, 04 Feb 2021 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Escándalo: el vicegobernador, Antonio Marocco, también cobra dos salarios, uno en Grand Bourg y otro en el Senado - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXQ5NWFyUWx1ZWFxRWNWNDVHc0xvaXdQWHdXbFMxajY0QVZVNHpJSzk1dVpRenROOFBHakhvbkttM05JOHM0SlJkc3lvLTFvc2JFMHVxbGNZckhiaW9GLVVYTmFVVEFzeGFaRXNoNXcwQ0ZIM01ld3l6UFh2TWZvRmZGdVNIUDRybmdrc2taemR5Mk9rSi0yLU1UcVFoanRvM1VfYmlaMDNqWU14bkY5SjFWOU9SX1JBT20wcGVpMzdGRVlzMTc4SDJOTnZxNWRwZUprUUw3WmRrMVRJ?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Wed, 05 Mar 2025 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
