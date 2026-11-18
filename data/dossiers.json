@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 521,
+    "total_mentions": 525,
     "sentiment_breakdown": {
-      "positivo": 131,
+      "positivo": 132,
       "negativo": 98,
-      "neutral": 292
+      "neutral": 295
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 4,
+        "score_sum": 2
+      },
       "2026-11-16": {
         "total": 12,
         "score_sum": -10
@@ -522,11 +526,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 43
+        "count": 45
       },
       {
         "term": "gustavo",
-        "count": 19
+        "count": 20
       },
       {
         "term": "tribuno",
@@ -541,15 +545,15 @@
         "count": 7
       },
       {
-        "term": "nación",
-        "count": 6
+        "term": "pasa",
+        "count": 5
       },
       {
         "term": "temporal",
         "count": 5
       },
       {
-        "term": "obras",
+        "term": "nación",
         "count": 5
       }
     ],
@@ -654,6 +658,34 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Sáenz inauguró la Escuela Tesla en Güemes y anunció $2.300 millones para tecnología - Que Pasa Salta",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmZMQWlmdVJORWlGRHNtY0NUMkxZcGF6Z3l3QnZqel9nVTVsVHIzWkZjZjFyME9sOUZhTXI2dF9KWEZjYU5YMGdXN3ZSNzVlNWtGTDZoQ2tBbTFfNDJOS2hYUENSRDdlUGVwTkFoSVhqWEZNWC1wMkdWOUhlSG9sY2Npbzd0aVRKWWFPNDdhaW5wdlZxMk84WThRUkxGbFnSAZ8BQVVfeXFMTlJmTEFpZnVSTkVpRkRzbWNDVDJMWXBhemd5d0J2anpfZ1U1bFRyM1pGY2YxcjBPbDlGYU1yNnRfSlhGY2FOWDBnVzd2Ujc1ZTVrRkw2aENrQW0xXzQyTktoWFBDUkQ3ZVBlcE5BaElYalhGTVgtcDJHVjlIZUhvbGNjaW83dGlUSllhTzQ3YWlucHZWcTJPOFk4UVJMRmxZ?oc=5",
+        "source": "Que Pasa Salta",
+        "date": "Wed, 18 Nov 2026 18:15:43 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Salta frenó una obra de $88 millones en Metán por fallas en el proyecto técnico",
+        "link": "https://salta4400.com/salta/2026/11/18/salta-freno-una-obra-de-88-millones-en-metan-por-fallas-en-el-proyecto-tecnico/",
+        "source": "Salta 4400",
+        "date": "Wed, 18 Nov 2026 14:44:36 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz celebró la carne de Pichanal y calló sobre el pozo petrolero de la zona",
+        "link": "https://salta4400.com/argentina/2026/11/18/gustavo-saenz-celebro-la-carne-de-pichanal-y-callo-sobre-el-pozo-petrolero-de-la-zona/",
+        "source": "Salta 4400",
+        "date": "Wed, 18 Nov 2026 16:20:37 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz le tira un salvavidas de $4.576 millones a Emiliano Durand",
+        "link": "https://elintra.com.ar/2026/11/18/gustavo-saenz-le-tira-un-salvavidas-de-4-576-millones-a-emiliano-durand/",
+        "source": "El Intra",
+        "date": "Wed, 18 Nov 2026 15:19:29 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz encabezará hoy la presentación de su libro \"Federalismo y Progreso\" - Informate Salta",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSjBGclFkNGI1eExQTTJBQUMtT281UTgxTXo3bm1kVU1GZW5YR004eFJjbWFGbGFYZHZBa200bEtlZ3FDWHE3cV82LUhVeWNIZnBqQUFlUVlTQ3BOOEhUcWtuem5YZ0twMHBpZFQ5NnVsdjZQMHRYcEgyYkIyWVVVNlY3dDBWQVhhUGRTSlBpcEJXeWRmMHo3akM0bWFkQ0xRd1d0NzYzaFdzb2I2emZPbkdHQW8zTEVSc3BRV1FHMUpMcHFCamQ1ZDBCbEh2Ym5NRnBKTNIB4wFBVV95cUxQQ1JtTzN3TlpObGNzRjZGV1k3X281emdzTm1CNDNOSUV4SUdzbWtBMWs0YUpIcEVaNzNwVTNkUFFYWW9NQTJtZEZuM2F2QWVpNUtEVXlQQTB0ZVA3VDNRMFhOTE9JQVdIbUJjakJMOGMzdmh6OGh4TWMyZnBESFlJYWhocWN6Z0w5LVUwNVdfQzd2V2NWVEJoMVZDVmZiMGtoLThEdzV4WFpuVzdVeWdocG5NcG56TW5uQzhoLThZT28wUG5EbHZLWlMxYktZaWh4ejVnRTIxVTFNdUFnUTFmaXU2QQ?oc=5",
@@ -835,34 +867,6 @@
         "source": "FM Alba",
         "date": "Mon, 16 Nov 2026 01:43:19 +0000",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Temporal en Embarcación: Gustavo Sáenz cuestionó la falta de asistencia de Nación y reclamó una respuesta",
-        "link": "https://www.eltribuno.com/salta/2026-11-15-19-49-0-temporal-en-embarcacion-saenz-cuestiono-la-falta-de-asistencia-de-nacion-y-reclamo-una-respuesta",
-        "source": "El Tribuno - Salta",
-        "date": "Sun, 15 Nov 2026 22:49:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Gustavo Sáenz asumió su segundo mandato como gobernador de Salta: \"El Estado no debe ser una bolsa de trabajo\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUG1HNkRYUlFyYmMtYzB1Z0VDN2pLWm9FZ2UzN2sxTkdZb3RpMTc4bkRTN0ZuS0tNaVVUYVpDUlJNd3FuQU5zVmpQWExlY0laYlRycGt2UkYtUkR4X1JheGVad20zaVljanVua2dBN1JYTlVIb0VHYVJ5NVFlYVdnX2loRWdsMzFha3hGNnpGVmc2VHBEVjJIWkR2clV3Q2xtMDFpRndkdzZzS3FiWmFHY1V6eWNnTWFqaEQ4Yl95MkV6X1ZkbEt2TWZYa1lHb3FvTFA2YkFaWmZ2anBIUzVPbjRrU3FzM1gxTnUxRUVB?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 10 Dec 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz llegó a Embarcación tras el temporal y habló con Que Pasa Salta - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd21pTjNic0gxbkxibnV5Y0h4UksyRmVSVHRZYjFUcE1Gdl83cTZVd1lSTzVSQ3g1aGhTTl9Gc1hDZHlFYWdwOWpSbHhWMkN0TkxxQjlWNE5UQkRHNUxVTjhnTlJFNnRzcmJCVXkzb1BkQU1Wd24wbnRkQlphTmJaTlN4THg1UWZIS1Z3WlcwZTBRUXltSlp6WW44Qk8xY1ZSQzV5bTZaWkYtXzhBWjVxN29ncVo5V0RhZHVPakhn0gG-AUFVX3lxTE53bWlOM2JzSDFuTGJudXljSHhSSzJGZVJUdFliMVRwTUZ2XzdxNlV3WVJPNVJDeDVoaFNOX0ZzWENkeUVhZ3A5alJseFYyQ3ROTHFCOVY0TlRCREc1TFVOOGdOUkU2dHNyYkJVeTNvUGRBTVZ3bjBudGRCWmFOYlpOU3hMeDVRZkhLVndaVzBlMFFReW1KWnpZbjhCTzFjVlJDNXltNlpaRi1fOEFaNXE3b2dxWjlXRGFkdU9qSGc?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Sun, 15 Nov 2026 13:48:47 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Más de 300 familias asistidas y un reclamo de Sáenz: “Que muestren empatía con el interior”",
-        "link": "https://informatesalta.com.ar/gobierno/mas-de-300-familias-asistidas-y-un-reclamo-de-saenz---que-muestren-empatia-con-el-interior-_a6af9f50342fa9d9e6e14c946",
-        "source": "Informate Salta",
-        "date": "Sun, 15 Nov 2026 18:13:54 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -2673,13 +2677,17 @@
     "id": "sen-enrique-cornejo-saravia",
     "name": "Enrique Antonio Cornejo Saravia",
     "role": "Senador/a provincial por General Güemes",
-    "total_mentions": 44,
+    "total_mentions": 45,
     "sentiment_breakdown": {
       "positivo": 2,
-      "negativo": 9,
+      "negativo": 10,
       "neutral": 33
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": -5
+      },
       "2026-11-05": {
         "total": 2,
         "score_sum": 2
@@ -2897,6 +2905,13 @@
     "legal_mentions": [],
     "recent_articles": [
       {
+        "title": "Tabacaleras PyMEs respondieron al senador Enrique Cornejo y difundieron una dura solicitada",
+        "link": "https://informatesalta.com.ar/sociedad/tabacaleras-pymes-respondieron-al-senador-enrique-cornejo-y-difundieron-una-dura-solicitada_a6afce2c142fa9d9e6e4100a0",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 15:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
         "title": "Enrique Cornejo afirmó que Gustavo Sáenz está habilitado para buscar una nueva reelección",
         "link": "https://elintra.com.ar/2026/11/05/enrique-cornejo-afirmo-que-gustavo-saenz-esta-habilitado-para-buscar-una-nueva-reeleccion/",
         "source": "El Intra",
@@ -3098,13 +3113,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 18 Sep 2026 13:39:30 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "«Se va a pagar a 32 años»: Enrique Cornejo defendió el endeudamiento de la provincia - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkpFNU5XZlZMazlDYmo3dXc2c1FmaGxnMFdiNWIydzM3bXZNc011WDNCNUd0YlNhUDdrLXZZdk1CLThGZVlfRHAzbWpuV0FHeU1DR1lpS0ZuTmYyZUZNV3d6cHBrS0pXTVE1clJKUDJtTnF4OXRuREc2VzlIeWpoMDJKejg0U0lvZHhSTDJLQU93blZGbmJfbHg2eUZBMTBCVlNMUzJvV3JqbElXcm1yNkMtUVVGM3c?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Fri, 18 Sep 2026 22:53:28 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -10315,13 +10323,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 68,
+    "total_mentions": 69,
     "sentiment_breakdown": {
-      "positivo": 11,
+      "positivo": 12,
       "negativo": 9,
       "neutral": 48
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 8
+      },
       "2026-11-16": {
         "total": 1,
         "score_sum": 6
@@ -10581,8 +10593,16 @@
         "count": 4
       },
       {
+        "term": "proyecto",
+        "count": 2
+      },
+      {
+        "term": "alzheimer",
+        "count": 2
+      },
+      {
         "term": "pasa",
-        "count": 3
+        "count": 2
       }
     ],
     "quotes": [
@@ -10692,6 +10712,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Media sanción al proyecto de la diputada Mónica Juárez para la detección temprana del Alzheimer",
+        "link": "https://informatesalta.com.ar/legislativa/media-sancion-al-proyecto-de-la-diputada-monica-juarez-para-la-deteccion-temprana-del-alzheimer_a6afdd08390b8e927e2999f8f",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 16:45:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez lleva a Diputados un proyecto sobre Alzheimer respaldado por Facundo Manes",
         "link": "https://informatesalta.com.ar/legislativa/monica-juarez-lleva-a-diputados-un-proyecto-sobre-alzheimer-respaldado-por-facundo-manes_a6afb1fc242fa9d9e6e23ea4e",
@@ -10894,13 +10921,6 @@
         "source": "Que Pasa Salta",
         "date": "Mon, 05 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Enojadísima, Mónica Juárez le reclamó a los otros diputados que trabajen - Aries On Line",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRnRsYTZ5Snpuc041QjVmR2hqT2JIUS13MkUwN0xwRGxaNXYxZkpXNk5sR2NFT09KZEs3NFFVdTBndVE3aGZ1YTBVZnZiT1RBWUZCN2U0M3Y3VVEyRUlyMWN4RTY1cVl4eml5cF9TbnFQLUlmTjhfbEpiMzJKS01VaC1fX3QyWjd3Z2k0cmdMbHIyN3ZjWlIwbFlueENQME1GaEM4Ni1RLUlIaEtZb0NfSUw1SzTSAawBQVVfeXFMTl9wSEktNHZESHJhSDlNMkROTWxiV2k2VTZjSElnT1FvQzdkNWFySVhvOGJfb19QLWR2c0Z4V1kxQXoweXZsSGFoY2taeHcwTTRLenEwZzZlczEwbk0zZW1IclhaTHdJd3ZjRW8zSGN2V200RDZrVDZSUHR2YkJnWDBMZXJ5MFR5YzBmWk1Tc0YtbUFWTk5tdkc4ajdxaXJKNE1jeVF4UzhqUGE3bw?oc=5",
-        "source": "Aries On Line",
-        "date": "Wed, 12 Apr 2023 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -20963,13 +20983,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 78,
+    "total_mentions": 79,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 12,
-      "neutral": 62
+      "neutral": 63
     },
     "sentiment_by_day": {
+      "2026-11-17": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-03-01": {
         "total": 1,
         "score_sum": 0
@@ -21255,7 +21279,24 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "darío",
+        "count": 2
+      },
+      {
+        "term": "madile",
+        "count": 2
+      },
+      {
+        "term": "concejo",
+        "count": 2
+      },
+      {
+        "term": "deliberante",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "Que Dios y la Patria me lo demanden",
@@ -21381,6 +21422,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile admite el desprestigio político en el Concejo Deliberante - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONkd5Tk04NE04V3c2S0xvaHpSTDdKdEtZWVdncm44QjRGMktKWTlkbWJCT09uaFRDTF9lel9GejVuLVVCQnNlYmtVMWdLTzlYZzd4LUlTcC1pcFkzZjlBLW9WdmdTQl9iLVIxMDVxOFhRbjh0WElILUJPZkV4STFZQ0dXY0Y5WHRxaVVpUVVQY3hYbDBhY19oaE5tUng?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 17 Nov 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "En la apertura del Concejo Deliberante, Darío Madile apuntó hacia una regulación de las apps de transporte - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOci1maVp1OHZycXBqVW1OZmxEeFNTRmVDZ3p5SkJzaE03SDVYTkhsRHNNczVjMkNzZlppZ19MOEYzekE2N2tjQ2tZVndNZzNxMzl6Nm1XWThmLVVDbTJFUUVrdHpBUWkzWWl1c3FkaWtubnVSUFRBMjJ1ZTU1LThzV0tucnpzWl9sb0RyYUwxQWJmXzV4QVZlcWxUNWw5aTlsYzZzQUhWeEdGUnpFVUlTVXRGalNqVmxnSTl6NDA4dGlpb1ZZYVluOGxNNnltd3V0bktLLXFCbkp1RkNGX0RvZnFPTW5NcDZPZDllMFY0T1BRdEtq0gH6AUFVX3lxTFBQY2ZUOS1WRGdGU0dYRzhxa1VHcjJjdkRiMUVKWlhHaTM5SFpzb0h1Q0xwbWpLcHBfazN5OTVDdVdMZ0lQcHc0LWZiVFBjbVhYUjBRV2dFRnl4Wl8wa01PNmlNZ3l4ZUhNY0tpWFlvQk1ra05WbjJKQ1Zyb3gwZWpkOHlSa1hNTGZSakR3QmlyMmIwbGdhV285Y0RmcDMxejhCNmZ5RFZHLWVrcVJxUFExWnoyak9aU0xRZ1dYTS1hd3Q4UXV6RWM4VTJYajFXd1NSTEZ5ZnUzdmJfZkt1TWhwQUtJTTVDVWViTWx6ZlU4Z1Jyd3FPajdEQkE?oc=5",
@@ -21582,13 +21630,6 @@
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTHVOYncwbVd5MmhnNjBuV052S00xUjFibW9MN0prMW9VbFNFNy1Kc3loaG1ZakZOS2xmcVN4RUNqc0FRUWhibDM0YkFmbjEtMU9RdVpBajJhY0l6bEs4UlQ3eXFkVEpPVFgtc3JDZDZ4WnJaU1RkMFgySzAzV0c3VnotTDdieVdiOEVKS1FmY0hTTGZLWlRZblFpYk44ZDZNZWllQU9UdEVjRWV2YkhEY2pfQmlYRzNIaTU5RXQtTFVscTNJRWM3Vy12UDRUZm1OYVpsaDBWU1VScFk2ZVdRaFR3ZGNNU2I2al81edIB8gFBVV95cUxNNzVWbzhIRkk4cHhKZ0V0dkptTTg3dTdYZkZnR1U2SFNpa1dpUVhfeXNzWl9vcUt0UG05SlBfTnZ1MlRJQ09NSXNTMldnWVp3MWJ1WHl6THVOcVlMdlVhbGhRVTUxcWlZU2tRQ1FLNG1YRFZmV1MyX09EbzZRR0p6bDRteGg3aFJhUG5DNktxVVJGNzFWSUc1cEtweFBJWVMwUi12ZjlKSnZsNHpCVjI4eXAzQWFEV1o3amEzWlFuX3dlMVJRdEF0ZEl1THN4WGZlVHF1MWN2T3V2TTRfR2RQbVZaUjR0aDZGYnBYOFJKSzFUZw?oc=5",
         "source": "Voces Criticas - Salta",
         "date": "Mon, 14 Sep 2026 18:39:57 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"Dicen por ahí\": la extraña rutina de Darío Madile, nueva integrante del equipo de solteras, y los ministros poderosos que ahora buscan salir - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUnBzUjB6TzVZc1MxZHlTeXpGZ1lLLUo4SUF0OFkzX2htcUEtZGZWOXJnNzBSbUljQzVYWlFtMW9pVXdoTWxQbVM1RGlOV29UbUNRN0s2ZlZmX0prQzZBcG0tQmg3ek1rUVhBUUtsV1JabDFleVVFaWhqSDFsWWJUZ1p5TTdfOW1FWlF0YzF3VUtLalE1MEEtN0tQRDNRSm5KcEpuYTJvX2lybERVTDlKbWpFVlo0QWh1WnVxZW1CUWRoYnZrd0pjU1lPNHY1TGRqbkJlSXdZd3pMTVRkcXF1eU9td2RubmJ5S1lhZWFOb0o4WFVqNFJmMkg4WkMxbjJp?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 03 Jun 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -25331,15 +25372,15 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 30,
+    "total_mentions": 32,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 25
+      "neutral": 27
     },
     "sentiment_by_day": {
       "2026-11-18": {
-        "total": 1,
+        "total": 3,
         "score_sum": 0
       },
       "2026-11-13": {
@@ -25441,23 +25482,37 @@
         "count": 3
       },
       {
-        "term": "distancia",
+        "term": "libertarios",
         "count": 2
       },
       {
-        "term": "emilia",
+        "term": "salteños",
         "count": 2
       },
       {
-        "term": "orozco",
+        "term": "eliminar",
         "count": 2
       },
       {
-        "term": "papa",
+        "term": "paso",
+        "count": 2
+      },
+      {
+        "term": "pero",
+        "count": 2
+      },
+      {
+        "term": "colectoras",
         "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "No es condonar las deudas",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-no-es-condonar-las-deudas---biella-explico-el-proyecto-para-salvar-a-las-clinicas-privadas_a6afd9d35a0b43856111af3aa",
+        "date": "Wed, 18 Nov 2026 15:00:00 GMT"
+      },
       {
         "quote": "Vamos a tener un Congreso hasta diciembre y otro muy distinto después",
         "source": "Elintra.com.ar",
@@ -25503,6 +25558,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“No es condonar las deudas\": Biella explicó el proyecto para salvar a las clínicas privadas",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-no-es-condonar-las-deudas---biella-explico-el-proyecto-para-salvar-a-las-clinicas-privadas_a6afd9d35a0b43856111af3aa",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 15:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Los libertarios salteños quieren eliminar las PASO, pero discrepan sobre las colectoras",
+        "link": "https://elintra.com.ar/2026/11/18/los-libertarios-saltenos-quieren-eliminar-las-paso-pero-discrepan-sobre-las-colectoras/",
+        "source": "El Intra",
+        "date": "Wed, 18 Nov 2026 13:49:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Libertarios de Salta apoyan eliminar las PASO, pero dudan por colectoras",
         "link": "https://www.eltribuno.com/salta/2026-11-18-0-34-0-libertarios-de-salta-apoyan-eliminar-las-paso-pero-dudan-por-colectoras",
@@ -25698,20 +25767,6 @@
         "source": "Informate Salta",
         "date": "Wed, 08 Oct 2025 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "VIDEO. Gabriela Flores: \"Para ser candidata tuve que hacerme un narcotest y presentar mi certificado de antecedentes penales\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaHlOb1Z3Ri1zcjc3bFUzWWxYWXdVUU0zVE9WM3hTUElzeklsdnB1YlR0MkZpdXRNMVF3X2tOSlhFQmFfbkJ0dTc0cDZyT1JFRjdKaDE4WEs0Slp2bnluMjVXNUpTdGNxS2RVZTQxRlpJSGdMLVhzSnVXSWd2M01pcnMxVG1JcjhDWUpZdFZIU3I0MkVtVUN3NHdWbk9CekFCOFZyQ01BVUlERXNDNzE0UmRWekdkUEhfYmdiUlVUTFRuYkpWR0Z1d1h3MTlCbUdTdS1EbXFWRjdQVDQwZjVRSGQ3a0llX3BoUllHM0tNeFRWWFhYV3daUGhKelAwTHl0?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 09 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gabriela Flores: \"El Banco Central es la reserva de todos\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS2x3azg3bUlOUGkwRWk4ZFJjQjJMYXdoTzloUkZZM0VvTG5ja3RGRWJROUhMdE12eklyVDBjSHpMVzhJam5WMklFVUFfTDcxNC1tNVlCcnJicXZIeklwMklBWHBXZTVuU0RCSXM3RFZNWUNOVTJxdlNRV09VQlpTbzRQV2xpeGZwRFZyM2x4bXdHRFNZbDh2ckQ5WHpkQVRyUVVFcdIBqgFBVV95cUxPSjVRRFFkcUpaR0k4T0dVUVU2Q000RDhxVnh6UUx5Q3BoSjBNUjRoRmpHUnRaMkprd1BIamU0ZUhuLU5BekxSU1FfWC1LZ1Mza2gyOGZBVVllQ0tqT2dMN3BydmFiYjVUVF9DX28yd05NNlhlcURnUVZtdjFsZnQyYXpzYVhQWFpWNmxFbFlwbHdBenkzb2Nxekp5enpwYlFINW0wTk1Pa2FfQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 03 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -26074,7 +26129,7 @@
       },
       {
         "term": "corte",
-        "count": 3
+        "count": 2
       },
       {
         "term": "salteña",
@@ -26404,13 +26459,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 43,
+    "total_mentions": 44,
     "sentiment_breakdown": {
       "positivo": 8,
       "negativo": 7,
-      "neutral": 28
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-10-26": {
         "total": 1,
         "score_sum": 0
@@ -26558,12 +26617,16 @@
     },
     "top_topics": [
       {
-        "term": "bernardo",
+        "term": "biella",
         "count": 4
       },
       {
-        "term": "biella",
-        "count": 4
+        "term": "bernardo",
+        "count": 3
+      },
+      {
+        "term": "explicó",
+        "count": 2
       },
       {
         "term": "elintra",
@@ -26571,6 +26634,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "No es condonar las deudas",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-no-es-condonar-las-deudas---biella-explico-el-proyecto-para-salvar-a-las-clinicas-privadas_a6afd9d35a0b43856111af3aa",
+        "date": "Wed, 18 Nov 2026 15:00:00 GMT"
+      },
       {
         "quote": "No le tengamos miedo al BUP, vamos todos a votar, hoy hablamos en las urnas",
         "source": "El Tribuno",
@@ -26652,6 +26721,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“No es condonar las deudas\": Biella explicó el proyecto para salvar a las clínicas privadas",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-no-es-condonar-las-deudas---biella-explico-el-proyecto-para-salvar-a-las-clinicas-privadas_a6afd9d35a0b43856111af3aa",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 15:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Bernardo Biella: \"No le tengamos miedo al BUP, vamos todos a votar, hoy hablamos en las urnas\" - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV2NPVzluVHpkVTN0RGdueVROeGVHVEVyV3NQd1hLamREMm1iVkpUaWpNc2I2azB2WW5hOG9tQ0w0RWJfUl90VjJpS1VGSkd3YnIwUkNDSmpjSC1EX3EyRzNsa2FmVkZzdmtSOXdSSUJ0eGl2MzFncW9DMVJPaC01c2s0M2JnbXVRME1SYy15Ni1HQUctWm9mT2dsTU1xSS01Q3kyZ3VyYUhIc1Q3SDdLZFVPSXRxOTR5VXZBTFBvY1NsM3NwdkRQbG8zb3FobGZXV2tzenlB0gHbAUFVX3lxTE5JeEJDUDAtZU9iU0poZkNpclZnTFBvLXNOTUFuVzFFTVkteVF5Q2YxLTQ5WDFZYU9UV2d1TE9kem1EcXlDdzR5Qlg0a3hJYmQ0MGtlZndhT05zY2ZjN1c2Y2YyMUtGMkVMeElUSGVUOEhpaThCWVVaY0EteThLVmdTdXhIM3FCV3Z1XzBNTXlHeUpmSXJTbnlkOTdNcWVKVG5XYnhRVDNPZ01ScTFVMUI5LTI2NkZnbTE0TnZScDlBbjFXaVE5bmNBWU5fQ1hINnczckcxWWFJZ0psWQ?oc=5",
@@ -26853,13 +26929,6 @@
         "link": "https://elintra.com.ar/2026/09/29/salta-ley-discapacidad-recortes/",
         "source": "El Intra",
         "date": "Tue, 29 Sep 2026 10:56:00 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Discapacidad: Biella se reunió con Mangione y referentes del sector",
-        "link": "https://informatesalta.com.ar/sociedad/discapacidad--biella-se-reunio-con-mangione-y-referentes-del-sector_a6abafbc75660902efa638089",
-        "source": "Informate Salta",
-        "date": "Tue, 29 Sep 2026 11:15:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -30112,12 +30181,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "lastra",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [],
     "legal_mentions": [
       {
@@ -35828,13 +35892,17 @@
     "id": "eje-gustavo-carrizo",
     "name": "Gustavo Carrizo",
     "role": "Secretario de Minería y Energía",
-    "total_mentions": 8,
+    "total_mentions": 9,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 0,
       "neutral": 4
     },
     "sentiment_by_day": {
+      "2026-11-18": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2026-11-10": {
         "total": 1,
         "score_sum": 3
@@ -35903,6 +35971,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "V Encuentro de Mujeres Líderes del NOA: el desafío de pasar de la inclusión al liderazgo",
+        "link": "https://informatesalta.com.ar/mineria/v-encuentro-de-mujeres-lideres-del-noa--el-desafio-de-pasar-de-la-inclusion-al-liderazgo-_a6afdb9d190b8e927e296b327",
+        "source": "Informate Salta",
+        "date": "Wed, 18 Nov 2026 15:07:39 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Tolar Grande: avanza la construcción del primer barrio minero",
         "link": "https://informatesalta.com.ar/interior/tolar-grande--avanza-la-construccion-del-primer-barrio-minero_a6af382e9696ebfa450df6cc1",
