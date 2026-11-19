@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-11-19T01:19:14.363425+00:00",
+  "generated_at": "2026-11-19T08:55:13.511838+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 571,
+      "total_mentions": 573,
       "sentiment_breakdown": {
-        "positivo": 37,
+        "positivo": 38,
         "negativo": 49,
-        "neutral": 485
+        "neutral": 486
       },
       "sentiment_by_day": {
+        "2026-11-17": {
+          "total": 4,
+          "score_sum": 0
+        },
+        "2026-11-19": {
+          "total": 1,
+          "score_sum": 2
+        },
         "2026-11-18": {
           "total": 11,
           "score_sum": -2
-        },
-        "2026-11-17": {
-          "total": 3,
-          "score_sum": 0
         },
         "2026-11-14": {
           "total": 4,
@@ -340,7 +344,7 @@
         },
         {
           "term": "tribuno",
-          "count": 44
+          "count": 45
         },
         {
           "term": "elintra",
@@ -355,12 +359,12 @@
           "count": 24
         },
         {
-          "term": "discapacidad",
+          "term": "diputados",
           "count": 17
         },
         {
-          "term": "diputados",
-          "count": 16
+          "term": "discapacidad",
+          "count": 17
         }
       ],
       "politicians_involved": [
@@ -466,6 +470,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Cerrillos se prepara para la fiesta de la Virgen de la Medalla Milagrosa - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUxKZTFwaHQ5MkdjVmNManVRLVlndTFrWVgwWEVCMWFaRjh0N2N5OURucjdEWlMxWmxhamVvbVJyVG16eThoOENiYzJhOWhDSGN1b3JqUUwyZ09sNWZsLVNDa0xwdXBHWEFQVlhyVVhLdGdQejlQcDc1ejlxQzlVTUxjak5FLU5tWlAzc0lrNzVhNGVBWkZFTHBqcWk5MnVOSHR1NHB0bXFlZHk4R0EwS0lBc2pxNnZQdUdoc1dObXdHTDJsWmfSAcsBQVVfeXFMT3FBcW9uVkdtS01qREx3bnliRkt0NTJYdGlPVzk2Ymt1QUJ3YnYwUkhuVjNhVFdSUUZGMm50VjhSREZEVHBvZzUwbjJnaW5ZRzFVUXlleWItcGk5ZGVGWnZiSU9HaF9SZEhCX3FOUFUyWmZvZGpnT01ldlUzMDJXN2EzVnJsRXNUVGpsQW1jd2REZERmeWhlYVQ1c0hXdFVJM1g2cWNrWjU1cFNoUGZoODFjdFg4SkxRNDdodzNTUDFuZ0FPOTBVZk16VzQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 17 Nov 2026 11:50:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Sin apoyo aliado, se cayó la sesión en Diputados para trata la Ley Malvinas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcGdFNjJWQ19VYWRsSFpDemh1OE13LW8yX1dScWdVRGJwcERjSHZSUE56VjVnSkNuTEQzeS1OZW9sblNLUGNXNjViT0pxbEcwaGhBSGNmYkJwSWY4T2prbC04YW5CejhXR0VUUnJUdmhFUFBadDJiZm83SFpxM3ZzZ0g5d09xYUxDdWYtdUZGUnpVd0pDZDJ6amo4cmNZLWF5MkFLVS1DQjVWWXBRekdORjNEemppRl9SckxCWUFkZU04b1lKTjY00gHMAUFVX3lxTFBVZ0piMG12UVFTNk56X1ZucDBZWmlwNVZydEJMV2hQbWJ6RXd0d0EyeU5GeUhZdHNOZ1FhT0ZDaHRmNW5wYm1fekQ1cGRGQ3ZFVTdxS3BIN2Q3Z0lxVlhmYkZodkpyVXUyQmRYQzhYQ19tNWxfMndfc21DU0xFaUF1d3dMWlFvWFRGNkQzYm51RFBxdHJLRE91Um9KMVFpamg0M1JMQnpVUUVPQUliNnVueHBwQTh0Z3hTRXAzZldvTTJUb3pBYzNENE1acg?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 19 Nov 2026 04:40:00 GMT",
+          "sentiment_label": "positivo"
+        },
         {
           "title": "Abatido “Mayonesa”, el adolescente buscado por matar a un policía en Fuerte Apache - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeWdtQ3ZEamFMNHVMVndEYmlHbUxTZHZGbEVNaEUxNVNDLS1ESTFRM2FMYUt4VFFJOS05SzdVN1RLNlEyLW5LbE80UDBKajd4eWZLaklRa0l3X2dMdkNDdDZ4azUtUTZaSDZETE5adGRmTXJKQVZhdjhmYTRFemZFYkRWc2hfQTIydzFVRnlKcHB3bTk5anRMRFhaNDBneF9VcXViTWpSZnVSanBzR1MtUFRiZ0MxcWwyTXVfeURQRUx4REJRdEl1SWs3V2ltalp40gHWAUFVX3lxTFA1a0lIWjVBN0RpeUtpd3BhOWZlZ0JSZXBHYkJIcndlaHJ0UUNGRExBX212bkU5QWh5RGd2LVEzTG83VDk4eUNPeDlVMFJfRUtTek0wdy1NUWlyYVdUaDBrNGFVMEtDRUNub2FvMUJ0ME42Ykl0djVGaGNhRGI4RHBNRnBfYy00bjlEUzBFTHpScFpQZW9CbWtVbWlfNTNxQnVKVXlDTEgxdFdhclNXT3JtYUY3c2RNR2NWbVhEcVd3WUVMcmhSOVRoSzBiSHI5NzEzSGw0dXc?oc=5",
@@ -661,20 +679,6 @@
           "source": "El Intransigente",
           "date": "Thu, 12 Nov 2026 21:28:05 GMT",
           "sentiment_label": "negativo"
-        },
-        {
-          "title": "La UNSa para por 7 días y peligran los exámenes de diciembre - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHV1eUxKX0JOenFhbHNTa0RNbUhYTzhTZ1BwYmRMcVZBdGctMWNDbEhtZUlWMzZsRmg3d1pFWVZlWU5FdzFqMDZWRm9GT2VscUI3ZFgxbWQ2azdBUU1nazNKNk5HMkhsWllKbE9NUnFGa1h6VDhFaXhwcHh3cW1BUG5qVDZVS3BoLUtOVlI5WjJjU05PWFRwV1N5NnIyaWxTMlFjNnNFaHByNWx6eHFWRmFUU3ZMcVctN2xndzV4YW5MeFnSAdIBQVVfeXFMT3FpTnV4WWpScXdNOGxsTDRTQnU2ZHRJZTg1LWd0RlZzMjFNRS1tTzhEcUNxbVBzVWhodWU4SlZ2UEdFVzEzaExhOTZEVHVsN2I5VnNFZ0RUTzkyRW10Yk9oQjVEZWdJUzE5S20yaHNYbENlcEQtZlJXcEtnWkJWSTgybFFsSFRDMVkyeHJraFVQM3B0cG1leklvM2xvZ1hYSXpSRVhqYmF1bEJhUktTaXJCbmE1WUNkRDBvSG1YSDN3VHFIRkJObk9URWpYWTJNTlZn?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 12 Nov 2026 13:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "De 90 leyes prometidas a solo tres: Los números que complican a Milei - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZWw4blI5a3BXVmE5SEt5YnpuWDQxUklza1J1VkFad2h4QmtzUjZ4ZG11aHNRTTVZVVphNTRudF9rZ1RHRHg4eWlFRkt0MHB4YjV2NF9qRUswc2JfeTlqMExJazVIQkJLTlBCeEhxLXplaTlLck1NZk5SVWI0Ri1yWDJQS2o5RGI4bTZKVktldF9pUDN6aTlFYnVoWmlBNm1TZWNNLVc3cUpTVmVZMUtMNk1QT1NzQmtuNWZXeXA0SEplS1JEaU1tUXFuLVRmYVnSAd4BQVVfeXFMT0hkeGFaWHdxSFVxekExNzJ4enk4bXdnbXRjZllpMVlWNG9ITExEVDROZDZMazhPdVhGMUF1NVliel8zc0ZiamV1WDQ1aWpCUHlaa2JLbGhnaHVmdy1RSFA2NmE4SEhiYzlVX0dZQkVzMmUxVDlTWGxvOW1oWi1qR0JpY0tQRGRQWFQ4dHJ6ZnVMWHVhelJBeWFBWXZDd1h3ZldFYjI2dGRJbmhMTDZsaUJCdGdPUW9MOGRWNzNjS2JjYXBQVEsyMFNlMXVhaVZON0luQzhuajFVckthdm5n?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 12 Nov 2026 18:15:00 GMT",
-          "sentiment_label": "neutral"
         }
       ]
     },

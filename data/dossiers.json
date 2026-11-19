@@ -3,24 +3,28 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 528,
+    "total_mentions": 531,
     "sentiment_breakdown": {
-      "positivo": 134,
+      "positivo": 135,
       "negativo": 99,
-      "neutral": 295
+      "neutral": 297
     },
     "sentiment_by_day": {
+      "2026-09-07": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-11-16": {
+        "total": 13,
+        "score_sum": -10
+      },
+      "2026-11-19": {
+        "total": 2,
+        "score_sum": 4
+      },
       "2026-11-18": {
         "total": 6,
         "score_sum": 3
-      },
-      "2026-11-19": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "2026-11-16": {
-        "total": 12,
-        "score_sum": -10
       },
       "2026-11-17": {
         "total": 10,
@@ -530,15 +534,15 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 44
+        "count": 46
       },
       {
         "term": "gustavo",
-        "count": 19
+        "count": 20
       },
       {
         "term": "tribuno",
-        "count": 14
+        "count": 15
       },
       {
         "term": "libro",
@@ -549,19 +553,25 @@
         "count": 7
       },
       {
+        "term": "norte",
+        "count": 5
+      },
+      {
         "term": "pasa",
         "count": 5
       },
       {
         "term": "temporal",
         "count": 5
-      },
-      {
-        "term": "nación",
-        "count": 5
       }
     ],
     "quotes": [
+      {
+        "quote": "el norte grande ha comenzado a despertar",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQblYxR3hiU2NzVXdGS2U3ek1TT082UHdRajNVeUpHbXBZRVVNdmtEVUFVeG1wallraDhOeTgxdGo3RUUtUGNPV05SbWs0SUZzUy1fa1FyQndJcldsTTZsbmdaazNnMEhUTkFJcUNueTBKa2hZLV9pTXh6b2d0WWJTM2x5WllNRXY5MVhNejMxVzZqNjRwMGlyQW13SW1Vc0ZtRGZsbkVNM01DdzgyQmYteTdrdmx0TnBybkRwMXFXT2VfbUo5QTdscWhDOUVvZ9IBzgFBVV95cUxQblYxR3hiU2NzVXdGS2U3ek1TT082UHdRajNVeUpHbXBZRVVNdmtEVUFVeG1wallraDhOeTgxdGo3RUUtUGNPV05SbWs0SUZzUy1fa1FyQndJcldsTTZsbmdaazNnMEhUTkFJcUNueTBKa2hZLV9pTXh6b2d0WWJTM2x5WllNRXY5MVhNejMxVzZqNjRwMGlyQW13SW1Vc0ZtRGZsbkVNM01DdzgyQmYteTdrdmx0TnBybkRwMXFXT2VfbUo5QTdscWhDOUVvZw?oc=5",
+        "date": "Mon, 16 Nov 2026 23:15:00 GMT"
+      },
       {
         "quote": "Federalismo y Progreso",
         "source": "Informate Salta",
@@ -645,12 +655,6 @@
         "source": "Perfil",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXp4bjR3Vi14ajVoM1RtV3lfcDhJWjh5ejRyQ2JaM0JpaEVST1ZDQXFVdmVleFVKdWszYmloWW5BN2tQRzlpQmdkUmR6NUlWV0RNbTFMRURWaGdfb2RYS1FqeVhKc3NkSnNqM0F0cndrcnZqR3JLVEk2Ym13dS13RllKTExqNnhGaURldGVLTG1kNDd0TFEzWTJ3bjRFNFgxaDNtd1lQRlYxX01JQmtpTkRUTVYwakV5cHpZVUQwR2tGdTlfZm9UblJkdw?oc=5",
         "date": "Wed, 10 Sep 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Vamos a seguir construyendo",
-        "source": "Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONm5KR1o1RHBmRjVINGhVcDUxZm5ySUdpOWRzTTJOdWtveVc4RDRzY0FFU3BqM1NzM3pWOTgyeFFHeXNvSDdWSlVRY0xPZGpzeHNhaGFFbExZSWwya2pMTTlqbmpjTHBaME10cXlTVktQZTlOcDNudXZ5N3NvanE1cDI4UW16RkJBaXlqaE1paFBjSm4zVktoSNIBmAFBVV95cUxONm5KR1o1RHBmRjVINGhVcDUxZm5ySUdpOWRzTTJOdWtveVc4RDRzY0FFU3BqM1NzM3pWOTgyeFFHeXNvSDdWSlVRY0xPZGpzeHNhaGFFbExZSWwya2pMTTlqbmpjTHBaME10cXlTVktQZTlOcDNudXZ5N3NvanE1cDI4UW16RkJBaXlqaE1paFBjSm4zVktoSA?oc=5",
-        "date": "Tue, 10 Nov 2026 15:04:38 GMT"
       }
     ],
     "legal_mentions": [
@@ -662,6 +666,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Sáenz y Gómez Naar, en la apertura de la Casa de la Industria: “Defender a la industria salteña es cuidar el t - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTmFkNzM3dTNTM2swcjZVQVlVTi00VXRfU3ZidjJNeUZ5cmNQTWRLaVFwMDVZS2FkSTJyRy1FM3dwYUMxRlFmZ01haTVlcjN2SHlsRFBmMmlHSGxwR244LVp2Z21aY0VDbFVxY0ozOXNwVVgwWEU3THV0Tl94NEFOMlBFcmx4N0s4SFAtU09kTjhlUU9hb0pZN2d1ZkdNUXU3czNfaU5xYmZVcGxmOG5DWWJHN2Zfb0l5dzFVRkdJbE1kLS1xUWxybDBwTDM1UUxUMnZpSjZyVk5GTllaMS1uOTlWa09YaGhJZTNsZ3ZsX0l1empv0gH6AUFVX3lxTE02TjZHRTJDRFhWR095ZVdLdW5OZHZYNTNJZWg3NkZrbFJjYms5WEs5OWJZdmwwbjh2aTNGbUpDclZvMnp2V0ViOF83Q2d4dEZXRkpBLTQ2OVlodHE3bldzZEtmYnRMWUxKTG1rZ1NlSDdueXBZRjhQQ3IxbzJFVVBVUGRMYmtfSjBFTGFMTmhkYTdrcHo1Y21oR3ctUEJaREhkR084TXZWM3VPTGNMZjFLbW1fN0t4YzR5TzBMdklsejV3V1c3YXZjd1V6REUtN1pHSFpiSjVSUHpzc2JxSjYyZi1qZ09TaVFwQkJLaVYtMnNZMWhfTzRFQmc?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 07 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Gustavo Sáenz: “el norte grande ha comenzado a despertar” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQblYxR3hiU2NzVXdGS2U3ek1TT082UHdRajNVeUpHbXBZRVVNdmtEVUFVeG1wallraDhOeTgxdGo3RUUtUGNPV05SbWs0SUZzUy1fa1FyQndJcldsTTZsbmdaazNnMEhUTkFJcUNueTBKa2hZLV9pTXh6b2d0WWJTM2x5WllNRXY5MVhNejMxVzZqNjRwMGlyQW13SW1Vc0ZtRGZsbkVNM01DdzgyQmYteTdrdmx0TnBybkRwMXFXT2VfbUo5QTdscWhDOUVvZ9IBzgFBVV95cUxQblYxR3hiU2NzVXdGS2U3ek1TT082UHdRajNVeUpHbXBZRVVNdmtEVUFVeG1wallraDhOeTgxdGo3RUUtUGNPV05SbWs0SUZzUy1fa1FyQndJcldsTTZsbmdaazNnMEhUTkFJcUNueTBKa2hZLV9pTXh6b2d0WWJTM2x5WllNRXY5MVhNejMxVzZqNjRwMGlyQW13SW1Vc0ZtRGZsbkVNM01DdzgyQmYteTdrdmx0TnBybkRwMXFXT2VfbUo5QTdscWhDOUVvZw?oc=5",
+        "source": "Informate Salta",
+        "date": "Mon, 16 Nov 2026 23:15:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Güemes: La escuela técnica Tesla ya estrenó su flamante edificio",
+        "link": "https://www.eltribuno.com/municipios/2026-11-19-0-0-0-guemes-la-escuela-tecnica-tesla-ya-estreno-su-flamante-edificio",
+        "source": "El Tribuno - Municipios",
+        "date": "Thu, 19 Nov 2026 04:40:21 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Concejal capitalina largó la campaña electoral para el 2027",
         "link": "https://informatesalta.com.ar/elecciones/concejal-capitalina-largo-la-campana-electoral-para-el-2027_a6afe1092e4787d71b4b5bc83",
@@ -850,27 +875,6 @@
         "source": "El Tribuno - Política",
         "date": "Mon, 16 Nov 2026 12:02:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "El gobernador Sáenz criticó la falta de \"empatía\" del Gobierno con los damnificados por el temporal - Clarin.com",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2UxWkpscFVNb3d6bTAteHdfcjk4Y0JYdXZES1k5Y0owSVFkUS1ESGZJamNHcDBCbl83b3BRNloyaDMtVHhGUTFCTEY4VkFZdFp3WUlRekE0MlhJRUljeW1kakVNRjh6anNqWlNPWG91bXRZdWhIWmNHTVU2TjhocG15RjJBbTJKZEdMY2dpNWtlR1BpRDdSMktWUU1DdlJ1b1FZTThOU01KbUVBd0xqWDh4eEM1RmlGWHZJ?oc=5",
-        "source": "Clarin.com",
-        "date": "Mon, 16 Nov 2026 01:54:09 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "\"Un orgullo eterno\": el reconocimiento de Sáenz y otros gobernadores para la Selección - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd1lURmpaVmlwLVpLTjg4aWprTUx3VU1fX0Rac3VoV1pHSUpKeWt0NlkxTF9TdV9oNE55XzBNLURVczJIanVNLVFmQ1BMbTZ1WVhKcXV0SWczTHJOWVZRUzVLY0ZGRUVfZnlqcGc1RHN3Q0stMGk1dFZGYlNnOUcyRzBRMXp2TDltOGF6VzBrLUViR0RoSWo2SmdKMDd5cy1vN2hQeTNMSUZrLTBfTWREcTVGZzR1N2Iw0gG-AUFVX3lxTE1WR3VpeUVwSkZHd3o4UEJCYkJQTm9yWmNCdktjNVY0MFdiS3VieEdLQTA2RW9wUXVOZzFmemNtcUNBR2JTTkFpb0RkYjhYTURhTVFjaExMekFwRkVON3VNN0taN2dZVTk4MjRVNElHRUpBWlpGMnozVlhvV3BGLWI5bjZzdFVSMVNXcTFZOWlCck1lLUMweWNaVlpzT2pjMHFMcGE2eDNjZFdCWVliOU9BRkdjTHJOYzlDU2hkd1E?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Sáenz respaldó el reclamo de Nación por Malvinas - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRFVSUlctdDk4WkptdHhBZnB6aVJScURyRlhSOXlvenZpcE91OGNwNmdkd1A4YlVMN01iMTlpWHNoZlNqTU5TbFhYWVlFeWprWnZRTnhKV3J4ak14YVgxeVl4d3pWQ1RaUHFpZzR3eHA3dER5M0JSQS1ZRVhtXzhydGFiQzZITEZ2Q2FHZ1c4Z0JpNEtvNWdUOTZGQdIBoAFBVV95cUxPZnpXUUZETDUyTTdJYnV3LTA3Mkg1VkhEb3YtRjh1dWNua2hVMTZsNEJUb3F4Q1ZaMDV5eHkzRVA3dmp0WXM4UE5IZGs0aHBRMjl0Q20xSmw5eHZxU293dWZoT0E0Rlo2bllCbERhMkVYeGxWck9hZktOWXBqaS1VRmlTVl93Q090RXRtNG9mcXBsMVM2cy0xZlBaaXNDb0py?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 08 Sep 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -9745,13 +9749,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 44,
+    "total_mentions": 45,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 41
+      "neutral": 42
     },
     "sentiment_by_day": {
+      "2022-07-02": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-17": {
         "total": 1,
         "score_sum": -1
@@ -9925,7 +9933,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "omar",
+        "count": 2
+      },
+      {
+        "term": "exeni",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "La nueva política pide a gritos que se limiten los mandatos",
@@ -10033,6 +10050,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿El maestro Siruela? Omar Exeni ayuda a jóvenes y ancianos a terminar el secundario - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQjdJR014d0JXQjBaTG1WeWdZQjBXMkNSTjNmRXUxb09kQjFVRXlncmlhT0hLOHltU1dlMWswTkpJTEZvV2w3X01XMno0MVhhemlocDhIeC1OOUZtSUFjQzAwX3p4R2JNWDVSbW9WRS1rNHc0ajBfUWVydG5uS0pwTlhjMUkzVHFmSlVpUUJSSUtiZXV3eHIxZ0lmY1hJNVdETDgwdmpfY2hxQ0h4MjMteGhOZFh5SjA?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 02 Jul 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Omar Exeni, los 125 cheques rechazados y un mensaje en redes: «El pasado no te define»",
         "link": "https://elintra.com.ar/2026/11/17/omar-exeni-los-125-cheques-rechazados-y-un-mensaje-en-redes-el-pasado-no-te-define/",
@@ -10235,13 +10259,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 08 Jan 2026 08:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Omar Exeni: \"Voy a ser candidato a convencional sin sueldo y ad honorem\" - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLUdnMUU1Y3ZCZmRGcjd0ZFFENl9BT2QwT1ZjSXV4dUMyR0VVbWZoWkhnTHV4WkpVUFFuODJPRVVCdnRSa2F3cUJXbi1hOXhDVDhZWW1wYm45YkU5ei1qVWhBWDdwTjJ4blFVRU5fb08ycmQ5Zy1zT2JpMTRjMDdtOU9QOVlwV0s0MnpuY0stRldlc1F0UW9F0gGcAUFVX3lxTE45SnUxcnlUX1gxMHVyOWt1bFpVR0hqc2cza2JvXzZWSVotamFqZjQtQWNUM3g2WHJlY242TXNRcFlTalJqOVJTdnNFYlY1ZnNkZk40Q01UbkU0RlVZY1dlZy1uQU81OUlSSWF2ZWp2czI4dl9OOFpFWlk5eXVicWk0aTN4OXppT0dCSFgzX0pSXzB2OVRtd3VGSWY0Yg?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 26 Mar 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -15233,13 +15250,17 @@
     "id": "dip-gustavo-orlando-orozco",
     "name": "Gustavo Orlando Orozco",
     "role": "Diputado/a provincial por R. de la Frontera",
-    "total_mentions": 51,
+    "total_mentions": 52,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 13,
-      "neutral": 36
+      "neutral": 37
     },
     "sentiment_by_day": {
+      "2024-05-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-11-25": {
         "total": 1,
         "score_sum": 2
@@ -15562,6 +15583,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Gustavo Orozco se rebeló y no pagó un peaje de la Ruta 9 y 34 - Salta 4400",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVlKWHBjczRUNW54bUw0QUdDTTRkd2dhYkMwYlRja0RpeHNrcFdqUmI0SUM5ZVNla3BGRThYY3BHZlNGSm9nREVVZmdiczkxeTVDdGluQ1RPeUZEdVM0czNlNnBNVmNsMmtaMU9IbzNLSFpadDZ5V0Z4TllRYVI0cTREZThHTkR6b0lycnJkNmVfMkF1b1p3dklMTU96NGIyd0k1MDhDUdIBrAFBVV95cUxNbHFDdHM1Z1ByUHF5M0I1Y25xNmdUdndJb3BWSWtlZm9rZTlRRWI2aDFOZW00X05PcmYwMS0yUFhjbm5SZ2ZfdXRkYlhEYXlrV08zbFVJUU1BRXIxNlhrY1M5QzJLdEd2RnJzNThjWnRhMXIwMURESllhWmh0OFJKWnNEU0h1SkE2dmM2dkJQWFgwRk9rYnZJWTZnZWdCbGlPc3VSRWdfNEVDZjJ1?oc=5",
+        "source": "Salta 4400",
+        "date": "Thu, 16 May 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
         "title": "Asunción de diputados: Un gesto distintivo de Gustavo Orozco logró diferenciarse del resto de los legisladores - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZ1pyWmoydGtjdk42UzJlV0RYNHJzZ1hrWGtfSEtQdUs3ZEJvWENJNTJtR0VIRGdJUnlNQ0ZyWkFsSUtRcGczcVljN1M5bEN2eXBtenJoLUFMd0JVOFQzUlczZjNTUHk5QzZkajg4QVNFS1Z2UzdzX1JJQjVNNjU2a2ZJNGF3TGZBLVF4bVJWVnRlZU5tR09BSjVDZnl6Vi0xcEVIWHFrLUFPdko4RjlraGU2ZXZFSUN6ak0xTm8xa3B2VktObFdSekhvdEFVWFo3Y2FsbVEtcng2Rm5kRXdQaUlDYy1rVVhHZ2VKN1B2UmVZaG9qUVF30gH-AUFVX3lxTE9CSXNfMlNhZHpsQWpoWTE3M1Q4LWRYSVgwdXFzN0I3VVRVRzVFY0NaTm1FRURmeGdiMnRLZHpWSEZwb1JYemsxeHVLNDlyblJIRlBSMEhUWXJhMS1SdENBeUJ5QlVRQWkwclYxdmZwZDBncWRaN3RybEtEQ3pSUVdWdkg2b0RDc3BoQnBHbWV2UWJpdkRDNjdMUUM5eExfTzhFU0p2ZGt5bVZ2bThfbEhqVi1XakZGMHRrbURwMnB3S21IbGwtNjc0R0pWZlBybkZaTFc0RmFaa0pyY1MyaFNhUXpVa0E4ZDZqQzAyWl85a0RSNzljNE84UXRrTmt3?oc=5",
         "source": "Voces Criticas - Salta",
@@ -15763,13 +15791,6 @@
         "source": "Defrentesalta",
         "date": "Tue, 05 Jul 2022 07:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Orozco asumió la presidencia de la Comisión de Justicia en Diputados - Expresión del Sur",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOekRvNUpxdW5aZWV2R0NCZWt3VzYzWlZxSkVEdW9zY0N2Z3RUWGZadkZpSjhFZUdIMl9MdFdWNUhPaUNuLTJPZWZMUEdZQ0Niblk1ZmtfUDVJaWZHTXZzMmJVUzV2VGVWVVBIdUxOQ2g1MjFmajBkSmxwOXQ3Mk9BcFlRRUhra0Jvb1JRVjBsSWRmV0lhM0JncmhURDN3eFc4b09ZNEYtQ0I1SnF2R3hTTC00TU5iaUNoWmFySExHZXM?oc=5",
-        "source": "Expresión del Sur",
-        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -25454,14 +25475,6 @@
     },
     "top_topics": [
       {
-        "term": "gabriela",
-        "count": 3
-      },
-      {
-        "term": "flores",
-        "count": 3
-      },
-      {
         "term": "libertarios",
         "count": 2
       },
@@ -25483,6 +25496,14 @@
       },
       {
         "term": "colectoras",
+        "count": 2
+      },
+      {
+        "term": "gabriela",
+        "count": 2
+      },
+      {
+        "term": "flores",
         "count": 2
       }
     ],
@@ -31264,13 +31285,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 40,
+    "total_mentions": 41,
     "sentiment_breakdown": {
       "positivo": 6,
-      "negativo": 2,
+      "negativo": 3,
       "neutral": 32
     },
     "sentiment_by_day": {
+      "2026-06-10": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2022-11-25": {
         "total": 1,
         "score_sum": 0
@@ -31415,10 +31440,14 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 2
+        "count": 3
       },
       {
         "term": "marocco",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       }
     ],
@@ -31481,6 +31510,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Antonio Marocco cuestionó a Nación por el manejo de los ATN - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0tmVDhLVGlyeGlnMUYtYnVRalF4aEJ6eTdmQ3MxLW9mc1VwRUNGUnpDZUZlRGxvalhQOHJrMkdKczBSNVRaS0lqSkhCR2VjRUdmVUo4b0dZMzctWHNjbmgzTnRSTHlraFhBcUMyQlluMjRBRTJNUmQ5VVl2TkVwZmxpSXlJN3NraUlwbjE1QWRNaDk2UUY1N0N3?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "La felicidad de Antonio Marocco llegó de la mano de su nieta: “me explota el corazón - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbkNlNUNJbWFkMHdGUWVTRWpFZTJZRldZUlM2M0dEY0l2WXVldDBuYXA5a0YzUU0xQnU1WHlUQnhDaW9SUjBXQmZxeFd5ZWVvX1VHSXQyd09nX2xNanpxYWxjUVJPVzc3dmRqVG5DR0pGTWFPQ3B3M214UERTMHVGa1lRSXQ5OG5PZjRzWXZQdHJDY1V6NGFvY0FxNXo3OTVrN09fZWlMZWExOHdSWjh0c1dmNndZZk5a?oc=5",
@@ -31682,13 +31718,6 @@
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUdJaF81cHU0RUl2NE0xZmdxSENCM2ZVcHFYLWV4d2JncEY0RHN3cjRSQjhCMGVPQjE0SmxWVWE1YzV1OHJsekI5ZDJNVzhfR0c4VndWVzFuM29MRmN3amZpLVNzNjY1YWZWOEI1VHkxdHRlMTBIblVnSXU5all5N2lxQW9uRUxSMVBJQ2NER09lYnBDYjc0UVZpdEk2WllE0gGYAUFVX3lxTE1WNGNaOVBRZmg3enplM2RQRlRfbGtHclVmcWppSHV4RFBTal9hNVNIc1plS0J1MkJfRGo4N3NFejFjSXU3OW54WlJXaWl4MTRoc1RaVmUxbVZ4WVZmSElHU01jOUtNRmdlZllyWUhWbHd5VEM2UU1hNDRXdHVPakVGRGVVUXdORko2U3JYSENuN2JfekFGVnVT?oc=5",
         "source": "Aries On Line",
         "date": "Tue, 22 Feb 2022 00:00:04 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El salteño Antonio Marocco presente | El gobernador de Tucumán hizo de anfitrión de los vicegobernadores del NOA - Cuarto: Salta a diario",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS2RteXpqOFZaODlJV1hfN09pa1FDNGlMZjlQR09VQnZlRjIyaFBybV9lSDhNTGo2bTlZMUpHLXUwS1JQRWxVa1JfdGNtWGFETUJ6dUtnWXJwS2Rfdi1qd216eG1Fb2MtVXNHSWF5ZGxHVkhBVTV5RmdvTzM2MTRNUWVoRE9FR2EtNmExbkczNDRTMDE0WlVnY2NRV3FNODZ6bG84dDR6QmNXcXk2SWZMM3dlRXQ4dWhwREY2QWN2SlhjYTZDczU5NnB6cDZpdUdKRjhz?oc=5",
-        "source": "Cuarto: Salta a diario",
-        "date": "Thu, 04 Feb 2021 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
