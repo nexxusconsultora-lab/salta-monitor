@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 531,
+    "total_mentions": 535,
     "sentiment_breakdown": {
-      "positivo": 135,
-      "negativo": 99,
-      "neutral": 297
+      "positivo": 136,
+      "negativo": 100,
+      "neutral": 299
     },
     "sentiment_by_day": {
+      "2026-06-02": {
+        "total": 4,
+        "score_sum": -2
+      },
+      "2026-11-19": {
+        "total": 5,
+        "score_sum": 5
+      },
       "2026-09-07": {
         "total": 1,
         "score_sum": 0
@@ -17,10 +25,6 @@
       "2026-11-16": {
         "total": 13,
         "score_sum": -10
-      },
-      "2026-11-19": {
-        "total": 2,
-        "score_sum": 4
       },
       "2026-11-18": {
         "total": 6,
@@ -514,10 +518,6 @@
         "total": 1,
         "score_sum": -2
       },
-      "2026-06-02": {
-        "total": 3,
-        "score_sum": 0
-      },
       "2026-05-26": {
         "total": 3,
         "score_sum": 0
@@ -534,15 +534,15 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 46
+        "count": 49
       },
       {
         "term": "gustavo",
-        "count": 20
+        "count": 21
       },
       {
         "term": "tribuno",
-        "count": 15
+        "count": 16
       },
       {
         "term": "libro",
@@ -554,18 +554,24 @@
       },
       {
         "term": "norte",
+        "count": 6
+      },
+      {
+        "term": "reclamó",
         "count": 5
       },
       {
         "term": "pasa",
         "count": 5
-      },
-      {
-        "term": "temporal",
-        "count": 5
       }
     ],
     "quotes": [
+      {
+        "quote": "Yo voy a ser candidato",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-yo-voy-a-ser-candidato---madile-se-lanzo-para-2027-y-respaldo-a-saenz-y-durand_a6aff2567cd25aee2883c500e",
+        "date": "Thu, 19 Nov 2026 16:40:00 GMT"
+      },
       {
         "quote": "el norte grande ha comenzado a despertar",
         "source": "Informate Salta",
@@ -649,12 +655,6 @@
         "source": "El Intra",
         "link": "https://elintra.com.ar/2026/11/13/ignacio-jarsun-apunto-contra-la-conduccion-provincial-de-lla-buscan-que-a-salta-le-vaya-mal/",
         "date": "Fri, 13 Nov 2026 14:57:49 +0000"
-      },
-      {
-        "quote": "Me cagaron con las obras",
-        "source": "Perfil",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXp4bjR3Vi14ajVoM1RtV3lfcDhJWjh5ejRyQ2JaM0JpaEVST1ZDQXFVdmVleFVKdWszYmloWW5BN2tQRzlpQmdkUmR6NUlWV0RNbTFMRURWaGdfb2RYS1FqeVhKc3NkSnNqM0F0cndrcnZqR3JLVEk2Ym13dS13RllKTExqNnhGaURldGVLTG1kNDd0TFEzWTJ3bjRFNFgxaDNtd1lQRlYxX01JQmtpTkRUTVYwakV5cHpZVUQwR2tGdTlfZm9UblJkdw?oc=5",
-        "date": "Wed, 10 Sep 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -666,6 +666,34 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Sáenz reclamó soluciones urgentes para rutas, gas y producción en la Asamblea del Norte Grande junto al minist - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQ3RBd3hRQVNTWF91ZmpHdTRLVW13WEZPRWVjZ2xEUHpuVll0RmVKVGNkdUFLX2RQMjlfWkpkeWN4YWUwTnVsYllQdXBPRWdfTUYxV1FSZ3lGanR6SDdIakdxNTZObmFfUWFXcXN4Tk1ldmRoR1VUT25mdmVuOE1KMjJlOXl1eUdPVmFDYWtWV1AtT3ZSRVhmS0hDX2psb0kyNHI3MDByNFBlV1VQRW9KZ2l1azdxX3l6V2ROUy12dHpBRlFtZl84M0pseGZ5XzYtOFo1SFJGTVlEY09WUUtWam1tQjlRS3lRV3BqWTN1TmthaUt4cnpqdjQ5bEM0UdIBgwJBVV95cUxPZzQ2a2hmM3pmRm44N3RmU2txN3c2ZEd5eFdzeXA5LWVUMHBMVWVBaXFOZnpZUFppQ2k2d1BhcDRRbjNISlpacmlUREE3V08zRW5VSUVVb0FFblhjVVExM3ozTmJIZ1NHUXEtR2pwdUY3TFBTZTdsLVVLMWJ0NEV4aUJDbVhhQ2xudXNNMFUySTlIeHF0M0dqLTBpVGJ3aVBxQm53b3N3UFZLS1V0Y3VfTlo3bmN1djZ2Vi01MVIxUl9INS1WZ0xmUXVJMks5Z29WLWowcHBVQm5xeGw1elIwMUgxMV9ONU9BS0pkVXVtQlhVZGRHaVZiamE0ejM2dzhSeUFF?oc=5",
+        "source": "El Tribuno",
+        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "El Presupuesto 2027 de Salta llegará a la Legislatura en los primeros días de diciembre",
+        "link": "https://informatesalta.com.ar/sociedad/el-presupuesto-2027-de-salta-llegara-a-la-legislatura-en-los-primeros-dias-de-diciembre_a6afeeaf6cd25aee288346b69",
+        "source": "Informate Salta",
+        "date": "Thu, 19 Nov 2026 14:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "“Yo voy a ser candidato”: Madile se lanzó para 2027 y respaldó a Sáenz y Durand",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-yo-voy-a-ser-candidato---madile-se-lanzo-para-2027-y-respaldo-a-saenz-y-durand_a6aff2567cd25aee2883c500e",
+        "source": "Informate Salta",
+        "date": "Thu, 19 Nov 2026 16:40:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz inauguró la Escuela Tesla y anunció inversiones para equipamiento tecnológico",
+        "link": "https://elintra.com.ar/2026/11/19/gustavo-saenz-inauguro-la-escuela-tesla-y-anuncio-inversiones-para-equipamiento-tecnologico/",
+        "source": "El Intra",
+        "date": "Thu, 19 Nov 2026 17:36:09 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz y Gómez Naar, en la apertura de la Casa de la Industria: “Defender a la industria salteña es cuidar el t - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTmFkNzM3dTNTM2swcjZVQVlVTi00VXRfU3ZidjJNeUZ5cmNQTWRLaVFwMDVZS2FkSTJyRy1FM3dwYUMxRlFmZ01haTVlcjN2SHlsRFBmMmlHSGxwR244LVp2Z21aY0VDbFVxY0ozOXNwVVgwWEU3THV0Tl94NEFOMlBFcmx4N0s4SFAtU09kTjhlUU9hb0pZN2d1ZkdNUXU3czNfaU5xYmZVcGxmOG5DWWJHN2Zfb0l5dzFVRkdJbE1kLS1xUWxybDBwTDM1UUxUMnZpSjZyVk5GTllaMS1uOTlWa09YaGhJZTNsZ3ZsX0l1empv0gH6AUFVX3lxTE02TjZHRTJDRFhWR095ZVdLdW5OZHZYNTNJZWg3NkZrbFJjYms5WEs5OWJZdmwwbjh2aTNGbUpDclZvMnp2V0ViOF83Q2d4dEZXRkpBLTQ2OVlodHE3bldzZEtmYnRMWUxKTG1rZ1NlSDdueXBZRjhQQ3IxbzJFVVBVUGRMYmtfSjBFTGFMTmhkYTdrcHo1Y21oR3ctUEJaREhkR084TXZWM3VPTGNMZjFLbW1fN0t4YzR5TzBMdklsejV3V1c3YXZjd1V6REUtN1pHSFpiSjVSUHpzc2JxSjYyZi1qZ09TaVFwQkJLaVYtMnNZMWhfTzRFQmc?oc=5",
@@ -847,34 +875,6 @@
         "source": "Gente de Salta",
         "date": "Mon, 16 Nov 2026 10:14:00 -0300",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Ya es oficial: Sáenz firmó el decreto y confirmó que Salta tendrá elecciones el 16 de mayo",
-        "link": "https://informatesalta.com.ar/politica/ya-es-oficial--saenz-firmo-el-decreto-y-confirmo-que-salta-tendra-elecciones-el-16-de-mayo_a6afb169242fa9d9e6e228bf6",
-        "source": "Informate Salta",
-        "date": "Mon, 16 Nov 2026 14:41:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz reserva una tarde para convencer a Flavia Royón",
-        "link": "https://elintra.com.ar/2026/11/16/gustavo-saenz-reserva-una-tarde-para-convencer-a-flavia-royon/",
-        "source": "El Intra",
-        "date": "Mon, 16 Nov 2026 13:46:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "El progreso de tapa dura de Gustavo Sáenz no llegó a Embarcación",
-        "link": "https://elintra.com.ar/2026/11/16/el-progreso-de-tapa-dura-de-gustavo-saenz-no-llego-a-embarcacion/",
-        "source": "El Intra",
-        "date": "Mon, 16 Nov 2026 15:51:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz presenta hoy su libro “Federalismo y Progreso” en Salta",
-        "link": "https://www.eltribuno.com/salta/2026-11-16-9-2-0-gustavo-saenz-presenta-hoy-su-libro-federalismo-y-progreso-en-salta",
-        "source": "El Tribuno - Política",
-        "date": "Mon, 16 Nov 2026 12:02:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -5384,13 +5384,17 @@
     "id": "sen-manuel-pailler",
     "name": "Manuel Oscar Pailler",
     "role": "Senador/a provincial por General José de San Martín",
-    "total_mentions": 55,
+    "total_mentions": 56,
     "sentiment_breakdown": {
-      "positivo": 7,
+      "positivo": 8,
       "negativo": 2,
       "neutral": 46
     },
     "sentiment_by_day": {
+      "2026-11-19": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-14": {
         "total": 1,
         "score_sum": 1
@@ -5665,6 +5669,13 @@
     ],
     "recent_articles": [
       {
+        "title": "Manuel Pailler cuestionó el RIGI y advirtió que la minería debe dejar más beneficios en Salta",
+        "link": "https://elintra.com.ar/2026/11/19/manuel-pailler-cuestiono-el-rigi-y-advirtio-que-la-mineria-debe-dejar-mas-beneficios-en-salta/",
+        "source": "El Intra",
+        "date": "Thu, 19 Nov 2026 14:24:00 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
         "title": "Preocupación por la aparición de peces muertos en el Bermejo y el Colorado: Piden investigar posibles derrames del ingenio El Tabacal",
         "link": "https://www.gentedesalta.com/sociedad/preocupacion-aparicion-peces-muertos-bermejo-colorado-piden-investigar-posibles-derrames-ingenio-tabacal-n13945",
         "source": "Gente de Salta",
@@ -5865,13 +5876,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYTZydkF5THAxQjd1V1NsbTNBZFpCb2hVM1BoWTFldWxDWTRrcEotSVhEdGF0bGQ1UzJuVkFvQ3JKaDBNZlBoaFlCSlFsQ0VtUHpsVmtRekRaOEJsdnM2QjRqWVhUdGdqczhPVVlZQjZveklLV3FYR29Icl9zSkhMd2g3WU1fSDJzVm9yREFJLWFESlBLbC1Nc3c2RGY5bzNVMG03UENPblVlS1IxQTBpSEZOX1p3azdxSFBkZWYyeGtFZF9ibThiaEJuTUp0MWEtaFFBOHNUTDdQU2dPNGlPRkVyZW1hb2RpcDQw0gHwAUFVX3lxTE53V1Y2ZzUweDdKV3RWWm1lR2lwa2xuaDZzaHNCQkstZDdtUS0wODNSSFpNUnhma2JmZTl2b3ZFQVloU2dSMm8yTWNVNW9ScWFyUExENHdrTlpONzh6NWFGNFdXRmlGWlRWUy1CazVpSGNNSDRSdWFaVzgzVS1tR2xjb0dlVkNFSU0td0VsU3RRWWZUY0FRYmxTSUVMVm9VcXF0aEg3RXVfRndILXVqcHg1SHAtUFEtS0EyS0tvRFJ2Q3hNWFZEeUVSUDVhOTVoRi0tdVh5c1BSdGNkM0RxX2N6ZTdBSnl1ZDZzLWl6S0RyLQ?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 31 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tartagal busca rescatar del abandono al club Old Boys y que recupere el protagonismo de antaño - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQ2VySF9DTTJWRjV4MFhzeGhFNFdxeERZdk40WU01VVNISGFSTV93MVAybkw0bFNjNkhWNC1CNU1jZ3dhQllyM0wzTVpuVDFRNEVQbTZya2lDZVZVUjhyVFZnZG5wV2cxWlBWcHVLdHZxQ1VrWHY0QUJkWk8xSjEtTHhEaGptY3paSXlQQWVhYWl5Z3V0Z0lxdG9TelIyaHFjVW5GZjdtb2x0MFRwV3lqSy1TSnlKNUxOM09oOHBzUGFuX1B4TG5LeS1VWVJaWDUwX0FELWtnNy1oTWFVUnVPQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 12 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -10322,13 +10326,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 69,
+    "total_mentions": 70,
     "sentiment_breakdown": {
       "positivo": 12,
       "negativo": 9,
-      "neutral": 48
+      "neutral": 49
     },
     "sentiment_by_day": {
+      "2025-03-04": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-18": {
         "total": 1,
         "score_sum": 8
@@ -10585,11 +10593,11 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 4
+        "count": 5
       },
       {
         "term": "juárez",
-        "count": 4
+        "count": 5
       },
       {
         "term": "proyecto",
@@ -10711,6 +10719,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez afirmó que espera ver caras nuevas en el Congreso - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSTJOUzl6T0hpUGMwRy1PWVpQUUp6NXRIYzRCVGotT3hfaGpNOXMwTGV4MURmaFVoNkUxYTF6VE9ocFdvd3hxaDZ0VUo5bUxmeHJqeFB5QmtKNWNka3dJSE9LbXZIMlVPTDVzSXhJdzM1ZlhvaF9Pc0JwVEhPXzVxa29MYnJOTVpyblB5ckgtVWE0OTg0c19fZ2lsM0lVbkk?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 04 Mar 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Media sanción al proyecto de la diputada Mónica Juárez para la detección temprana del Alzheimer",
         "link": "https://informatesalta.com.ar/legislativa/media-sancion-al-proyecto-de-la-diputada-monica-juarez-para-la-deteccion-temprana-del-alzheimer_a6afdd08390b8e927e2999f8f",
@@ -10912,13 +10927,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOazQzZ1Z5R3FjV2R1cndFVTg4amhjVGdkR1FGcHp0QUZLLWVNaGhRMGNWS1BKdjdkNnZZdGxnUjNMLU1IRVBpUlhQY195YWFybzdpMDJ2aG05U2xhYS1sOXdBZ1JCVlp1SUl1N1ZVVGo1Mll2aWhyQ3BVa2Nac1ZZbEJFQkZKczNUZ1h0VFY1WWEwVVNOV3pDOXhfRFNzT1lTOFVxaEtPb2FKSGNPZld3RlZnM0Y4WFpXWWdIZElxX3B2TDDSAcMBQVVfeXFMTms0M2dWeUdxY1dkdXJ3RVU4OGpoY1RnZEdRRnB6dEFGSy1lTWhoUTBjVktQSnY3ZDZ2WXRsZ1IzTC1NSEVQaVJYUGNfeWFhcm83aTAydmhtOVNsYWEtbDl3QWdSQlZadUlJdTdWVVRqNTJZdmlockNwVWtjWnNWWWxCRUJGSnMzVGdYdFRWNVlhMFVTTld6Qzl4X0RTc09ZUzhVcWhLT29hSkhjT2ZXd0ZWZzNGOFhaV1lnSGRJcV9wdkww?oc=5",
         "source": "Que Pasa Salta",
         "date": "Mon, 08 Apr 2024 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mónica Juárez de cara a las próximas elecciones: \"Es importante ir a votar\" - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sYjhZb2tiX3YtbWZjNGlwb0g5dTR2ZlFxdnRzcEN4WTNxa2tiM08tS09mRGVxM3pWX3lZeFMxNW9keER4ZS1MSE93YTZtSDRYR0pFc1ZiMjZpa281UmFDb19UM3Fac1lxQmtZM2UtVnZrUEHSAXNBVV95cUxNbGI4WW9rYl92LW1mYzRpcG9IOXU0dmZRcXZ0c3BDeFkzcWtrYjNPLUtPZkRlcTN6Vl95WXhTMTVvZHhEeGUtTEhPd2E2bUg0WEdKRXNWYjI2aWtvNVJhQ29fVDNxWnNZcUJrWTNlLVZ2a1BB?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Mon, 05 May 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -20984,13 +20992,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 79,
+    "total_mentions": 80,
     "sentiment_breakdown": {
-      "positivo": 4,
+      "positivo": 5,
       "negativo": 12,
       "neutral": 63
     },
     "sentiment_by_day": {
+      "2026-11-19": {
+        "total": 1,
+        "score_sum": 1
+      },
       "2026-11-17": {
         "total": 1,
         "score_sum": 0
@@ -21282,11 +21294,11 @@
     },
     "top_topics": [
       {
-        "term": "darío",
-        "count": 2
+        "term": "madile",
+        "count": 3
       },
       {
-        "term": "madile",
+        "term": "darío",
         "count": 2
       },
       {
@@ -21299,6 +21311,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Yo voy a ser candidato",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-yo-voy-a-ser-candidato---madile-se-lanzo-para-2027-y-respaldo-a-saenz-y-durand_a6aff2567cd25aee2883c500e",
+        "date": "Thu, 19 Nov 2026 16:40:00 GMT"
+      },
       {
         "quote": "Que Dios y la Patria me lo demanden",
         "source": "Elintra.com.ar",
@@ -21382,12 +21400,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUnBzUjB6TzVZc1MxZHlTeXpGZ1lLLUo4SUF0OFkzX2htcUEtZGZWOXJnNzBSbUljQzVYWlFtMW9pVXdoTWxQbVM1RGlOV29UbUNRN0s2ZlZmX0prQzZBcG0tQmg3ek1rUVhBUUtsV1JabDFleVVFaWhqSDFsWWJUZ1p5TTdfOW1FWlF0YzF3VUtLalE1MEEtN0tQRDNRSm5KcEpuYTJvX2lybERVTDlKbWpFVlo0QWh1WnVxZW1CUWRoYnZrd0pjU1lPNHY1TGRqbkJlSXdZd3pMTVRkcXF1eU9td2RubmJ5S1lhZWFOb0o4WFVqNFJmMkg4WkMxbjJp?oc=5",
         "date": "Tue, 03 Jun 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Dicen por ahí",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNN1BKaGt1Z3FFM0lTN0tpVHl0OXFGSHJMNzdRNmNESmNjbzVXQVJWMmxONWE3ZmtqVVV1MHNRV3hRbmNKdGVLc1B4RUNWcnhTRmFwZGtMaUdsVy1lZ0s0Z0hWQ1JfRHVjZ3ktc0lrN2lmOWFCN0pIRmZLX1czU1htX1FKOHdQMlpKOXY5V0hwYnhKRkktcFhNeG1NZVg2MC1FZUx1U3JId3dmWUUtS1Rqekh6eFczWmpfRVl3cEM4Z1h3S3NfMXEteElwNTlXV0F4RmI3VFdfTFpoLXBKeHdLUnBVaEpXTHNMLXg1QjZZRGlUbHBVSENUZzByTjlNQ2RZWXJHdEZmb3NtNDFNT2JQNmlmRVIxd3hxbTNSWGl0aEIxakU?oc=5",
-        "date": "Tue, 14 Oct 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -21423,6 +21435,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "“Yo voy a ser candidato”: Madile se lanzó para 2027 y respaldó a Sáenz y Durand",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-yo-voy-a-ser-candidato---madile-se-lanzo-para-2027-y-respaldo-a-saenz-y-durand_a6aff2567cd25aee2883c500e",
+        "source": "Informate Salta",
+        "date": "Thu, 19 Nov 2026 16:40:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Darío Madile admite el desprestigio político en el Concejo Deliberante - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONkd5Tk04NE04V3c2S0xvaHpSTDdKdEtZWVdncm44QjRGMktKWTlkbWJCT09uaFRDTF9lel9GejVuLVVCQnNlYmtVMWdLTzlYZzd4LUlTcC1pcFkzZjlBLW9WdmdTQl9iLVIxMDVxOFhRbjh0WElILUJPZkV4STFZQ0dXY0Y5WHRxaVVpUVVQY3hYbDBhY19oaE5tUng?oc=5",
@@ -21624,13 +21643,6 @@
         "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPblNpeTY4dDRnVHZRNWVMSmZzZFZlcmQ4NlpjMW80SlZVSXhDUzlYY292Wl9OSkd4UC05Y1NiV0JmQzFGU0ZmaFA3UnRfOWFmVEtQcXpoTXFTZm9wb0wzRm9SYXVlVWFmWWtvVTZWS2JYS3dJakpBRV8tZnJZTjhBVHkyTFJyZFNoeXBjamd0MDlzMjJUUnV6U0s1LTRlN2RwTnB3YzdpVmJjbDNuX0tWS09TTFpraWtST01raGNlbjN3SDRRSERFUVdBUzB1V3dzRjhTMm1KaGF4N3p4bGZVY2ZaZnZrZUpmWFZhYzFXV1hpcm9HSnE1NzA4TXRkdU9wR2g4?oc=5",
         "source": "Elintra.com.ar",
         "date": "Mon, 13 Mar 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Darío Madile: “El Señor y la Virgen del Milagro son patronos que realmente te escuchan y te acompañan” - Voces Criticas - Salta",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTHVOYncwbVd5MmhnNjBuV052S00xUjFibW9MN0prMW9VbFNFNy1Kc3loaG1ZakZOS2xmcVN4RUNqc0FRUWhibDM0YkFmbjEtMU9RdVpBajJhY0l6bEs4UlQ3eXFkVEpPVFgtc3JDZDZ4WnJaU1RkMFgySzAzV0c3VnotTDdieVdiOEVKS1FmY0hTTGZLWlRZblFpYk44ZDZNZWllQU9UdEVjRWV2YkhEY2pfQmlYRzNIaTU5RXQtTFVscTNJRWM3Vy12UDRUZm1OYVpsaDBWU1VScFk2ZVdRaFR3ZGNNU2I2al81edIB8gFBVV95cUxNNzVWbzhIRkk4cHhKZ0V0dkptTTg3dTdYZkZnR1U2SFNpa1dpUVhfeXNzWl9vcUt0UG05SlBfTnZ1MlRJQ09NSXNTMldnWVp3MWJ1WHl6THVOcVlMdlVhbGhRVTUxcWlZU2tRQ1FLNG1YRFZmV1MyX09EbzZRR0p6bDRteGg3aFJhUG5DNktxVVJGNzFWSUc1cEtweFBJWVMwUi12ZjlKSnZsNHpCVjI4eXAzQWFEV1o3amEzWlFuX3dlMVJRdEF0ZEl1THN4WGZlVHF1MWN2T3V2TTRfR2RQbVZaUjR0aDZGYnBYOFJKSzFUZw?oc=5",
-        "source": "Voces Criticas - Salta",
-        "date": "Mon, 14 Sep 2026 18:39:57 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24275,27 +24287,19 @@
     },
     "top_topics": [
       {
-        "term": "orozco",
-        "count": 12
+        "term": "emilia",
+        "count": 9
       },
       {
-        "term": "emilia",
-        "count": 11
+        "term": "orozco",
+        "count": 9
       },
       {
         "term": "elintra",
-        "count": 7
-      },
-      {
-        "term": "olmedo",
-        "count": 3
+        "count": 5
       },
       {
         "term": "milei",
-        "count": 2
-      },
-      {
-        "term": "libertaria",
         "count": 2
       },
       {
@@ -24303,7 +24307,7 @@
         "count": 2
       },
       {
-        "term": "flores",
+        "term": "olmedo",
         "count": 2
       }
     ],
@@ -25479,10 +25483,6 @@
         "count": 2
       },
       {
-        "term": "salteños",
-        "count": 2
-      },
-      {
         "term": "eliminar",
         "count": 2
       },
@@ -25496,14 +25496,6 @@
       },
       {
         "term": "colectoras",
-        "count": 2
-      },
-      {
-        "term": "gabriela",
-        "count": 2
-      },
-      {
-        "term": "flores",
         "count": 2
       }
     ],
@@ -31726,15 +31718,15 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 36,
+    "total_mentions": 37,
     "sentiment_breakdown": {
       "positivo": 11,
       "negativo": 3,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
       "2026-11-19": {
-        "total": 1,
+        "total": 2,
         "score_sum": 3
       },
       "2026-11-06": {
@@ -31838,7 +31830,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "presupuesto",
+        "count": 2
+      },
+      {
+        "term": "legislatura",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "La integración es fundamental",
@@ -31885,6 +31886,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El Presupuesto 2027 de Salta llegará a la Legislatura en los primeros días de diciembre",
+        "link": "https://informatesalta.com.ar/sociedad/el-presupuesto-2027-de-salta-llegara-a-la-legislatura-en-los-primeros-dias-de-diciembre_a6afeeaf6cd25aee288346b69",
+        "source": "Informate Salta",
+        "date": "Thu, 19 Nov 2026 14:30:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Presupuesto 2027: todo listo para ser enviado a la Legislatura, concluyeron las mesas de diálogo",
         "link": "https://informatesalta.com.ar/gobierno/presupuesto-2027--todo-listo-para-ser-enviado-a-la-legislatura--concluyeron-las-mesas-de-dialogo_a6afe3499e4787d71b4b86a52",
@@ -32086,13 +32094,6 @@
         "link": "https://elintra.com.ar/2026/10/09/presupuesto-provincial-2027-concluyo-la-primera-reunion-con-intendentes-y-legisladores/",
         "source": "El Intra",
         "date": "Fri, 09 Oct 2026 17:26:06 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sergio Camacho expresó su preocupación por el freno de la obra pública en Salta - Salta 4400",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUjVsbGhOeEVoVWVlRGwzbU5iMUFMSnA5VFplOE51OHZBVFF4TXBOeERGLWE0TWdaV0VfM2k0djJzSUVISHREMWo4bm56aXV3azhxaVVhaGtPUnNJZ2ZrNjZJczN3Mk5aZDFHTDBFVGVfTk9pc3NFRmliTmFQamJnTkJraXZNV1dTU3JiVFhYRnI2MzMwQ21PWmF2QzRQa2R6OXQ0b2dOWlYwRkJ6cDUyaXRlSXlJSEt2X3JSY1Nod9IBxAFBVV95cUxPWklRVUdkWm5OSmNQRTZqQ2FYWlh5SzhzVHBnUkM5a3pUNjI0YUNpTHNNUVhBUHVrYXhLdFY0dEpsb0htM1N0SGRoWlI3Q25hU3ZpdUdqWHlFV1QxX0VGSWw0TFdhSWhYWThBX1JnbG1HamZYaW5rYmZ4ZkhXR0I1V3hjVW5mTHRfYV9jWTlJWjhDbEVpVFlsWF9MbEZSZkM2M2V3OHlrcFNnSXNUQWZjSmhnOW9KZ3lraGp4b1VCT1JvWk5K?oc=5",
-        "source": "Salta 4400",
-        "date": "Thu, 23 Nov 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -33393,10 +33394,6 @@
       {
         "term": "emergencia",
         "count": 3
-      },
-      {
-        "term": "mimessi",
-        "count": 2
       },
       {
         "term": "familias",
@@ -35176,10 +35173,6 @@
       },
       {
         "term": "embarcación",
-        "count": 2
-      },
-      {
-        "term": "seguridad",
         "count": 2
       }
     ],

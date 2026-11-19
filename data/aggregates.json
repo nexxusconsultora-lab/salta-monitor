@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-19T08:55:12.620865+00:00",
+  "generated_at": "2026-11-19T18:00:59.202355+00:00",
   "by_politician": {
+    "dip-monica-gabriela-juarez": {
+      "total": 70,
+      "positivo": 12,
+      "negativo": 9,
+      "neutral": 49,
+      "score_sum": 16
+    },
+    "gustavo-saenz": {
+      "total": 535,
+      "positivo": 136,
+      "negativo": 100,
+      "neutral": 299,
+      "score_sum": 148
+    },
+    "eje-sergio-camacho": {
+      "total": 37,
+      "positivo": 11,
+      "negativo": 3,
+      "neutral": 23,
+      "score_sum": 43
+    },
+    "concejal-dario-madile": {
+      "total": 80,
+      "positivo": 5,
+      "negativo": 12,
+      "neutral": 63,
+      "score_sum": -18
+    },
+    "sen-manuel-pailler": {
+      "total": 56,
+      "positivo": 8,
+      "negativo": 2,
+      "neutral": 46,
+      "score_sum": 14
+    },
     "eje-antonio-marocco": {
       "total": 41,
       "positivo": 6,
@@ -21,13 +56,6 @@
       "negativo": 3,
       "neutral": 42,
       "score_sum": -5
-    },
-    "gustavo-saenz": {
-      "total": 531,
-      "positivo": 135,
-      "negativo": 99,
-      "neutral": 297,
-      "score_sum": 149
     },
     "dnac-pablo-outes": {
       "total": 28,
@@ -99,20 +127,6 @@
       "neutral": 35,
       "score_sum": 9
     },
-    "eje-sergio-camacho": {
-      "total": 36,
-      "positivo": 11,
-      "negativo": 3,
-      "neutral": 22,
-      "score_sum": 43
-    },
-    "concejal-dario-madile": {
-      "total": 79,
-      "positivo": 4,
-      "negativo": 12,
-      "neutral": 63,
-      "score_sum": -19
-    },
     "dnac-bernardo-biella": {
       "total": 44,
       "positivo": 8,
@@ -140,13 +154,6 @@
       "negativo": 0,
       "neutral": 4,
       "score_sum": 26
-    },
-    "dip-monica-gabriela-juarez": {
-      "total": 69,
-      "positivo": 12,
-      "negativo": 9,
-      "neutral": 48,
-      "score_sum": 16
     },
     "dnac-yolanda-vega": {
       "total": 21,
@@ -343,13 +350,6 @@
       "negativo": 8,
       "neutral": 70,
       "score_sum": 15
-    },
-    "sen-manuel-pailler": {
-      "total": 55,
-      "positivo": 7,
-      "negativo": 2,
-      "neutral": 46,
-      "score_sum": 13
     },
     "eje-juan-vilchez": {
       "total": 16,
@@ -941,6 +941,64 @@
     }
   },
   "by_day": {
+    "2025-03-04": {
+      "dip-monica-gabriela-juarez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-06-02": {
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": -2
+      },
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-19": {
+      "eje-sergio-camacho": {
+        "total": 2,
+        "score_sum": 3
+      },
+      "gustavo-saenz": {
+        "total": 5,
+        "score_sum": 5
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-mario-mimessi": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 3
+      }
+    },
     "2026-06-10": {
       "eje-antonio-marocco": {
         "total": 1,
@@ -1013,36 +1071,6 @@
       "concejal-rodrigo-alfredo-perez-quinteros": {
         "total": 1,
         "score_sum": -1
-      }
-    },
-    "2026-11-19": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 4
-      },
-      "eje-nicolas-avellaneda": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-federico-mangione": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-mario-mimessi": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-ignacio-jarsun": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "eje-sergio-camacho": {
-        "total": 1,
-        "score_sum": 3
       }
     },
     "2023-10-02": {
@@ -9236,20 +9264,6 @@
     "2022-09-05": {
       "eje-javier-monico": {
         "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-06-02": {
-      "eje-oriana-nevora": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 3,
         "score_sum": 0
       }
     },
@@ -19227,23 +19241,23 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 13
+      "count": 16
     },
     {
       "term": "elintra",
-      "count": 9
+      "count": 10
+    },
+    {
+      "term": "presupuesto",
+      "count": 10
+    },
+    {
+      "term": "legislatura",
+      "count": 10
     },
     {
       "term": "gustavo",
       "count": 9
-    },
-    {
-      "term": "presupuesto",
-      "count": 8
-    },
-    {
-      "term": "legislatura",
-      "count": 8
     },
     {
       "term": "todo",
@@ -19278,11 +19292,11 @@
       "count": 6
     },
     {
-      "term": "millones",
+      "term": "norte",
       "count": 4
     },
     {
-      "term": "paso",
+      "term": "días",
       "count": 4
     }
   ],
@@ -19296,6 +19310,11 @@
       "a": "Diego Evaristo Cari",
       "b": "Leonor Nieves Minetti",
       "count": 14
+    },
+    {
+      "a": "Sergio Darío Camacho",
+      "b": "Gustavo Sáenz",
+      "count": 13
     },
     {
       "a": "Dani Raúl Nolasco",
@@ -19321,11 +19340,6 @@
       "a": "Alejandra Beatriz Navarro",
       "b": "Dani Raúl Nolasco",
       "count": 13
-    },
-    {
-      "a": "Sergio Darío Camacho",
-      "b": "Gustavo Sáenz",
-      "count": 12
     },
     {
       "a": "Dani Raúl Nolasco",

@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-11-19T08:55:13.511838+00:00",
+  "generated_at": "2026-11-19T18:01:00.097195+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 573,
+      "total_mentions": 577,
       "sentiment_breakdown": {
-        "positivo": 38,
+        "positivo": 39,
         "negativo": 49,
-        "neutral": 486
+        "neutral": 489
       },
       "sentiment_by_day": {
-        "2026-11-17": {
-          "total": 4,
+        "2026-11-18": {
+          "total": 12,
+          "score_sum": -2
+        },
+        "2026-11-15": {
+          "total": 2,
           "score_sum": 0
         },
         "2026-11-19": {
-          "total": 1,
-          "score_sum": 2
+          "total": 3,
+          "score_sum": 4
         },
-        "2026-11-18": {
-          "total": 11,
-          "score_sum": -2
+        "2026-11-17": {
+          "total": 4,
+          "score_sum": 0
         },
         "2026-11-14": {
           "total": 4,
@@ -39,10 +43,6 @@
         "2026-11-11": {
           "total": 9,
           "score_sum": -2
-        },
-        "2026-11-15": {
-          "total": 1,
-          "score_sum": 0
         },
         "2026-11-09": {
           "total": 3,
@@ -336,15 +336,15 @@
       "top_topics": [
         {
           "term": "intransigente",
-          "count": 59
+          "count": 60
         },
         {
           "term": "presupuesto",
-          "count": 54
+          "count": 55
         },
         {
           "term": "tribuno",
-          "count": 45
+          "count": 47
         },
         {
           "term": "elintra",
@@ -470,6 +470,34 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "VIDEOS. Sin clases, pero de pie: la escuela de barrio Tráfico que sostiene a la comunidad wichí tras el temporal en Embarcación - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaHdrQU5BYlZGRXlYNDVXVVNyTVdhWE0tSTBEMVR1S002cXVLbmxwMi1uTmdKWDlpclh6M21KYXBTMzlrU1J0eHl6ZHBfcWlyMGdxclVwTVdBNTFReklCODZCWENQUjNvRFUyN2hfY1dESUV2Snc0aWRnamdRdnFyS2NaMjFHY0hELTVSME1UbXcyNzlBV3BxZzNiNFJwYndwZXRPaV9pbXByTlVKMHRvakc2VUpHREFuTk9nS3dMLWR4UGRpMk1hMkxtLXlFbl9lRjJlTUpCY2VmQVY4MnVTM0FoanBFVjAzbmNPYkdKc2VoMmhaaVFwR19CQmhWR09WS3labDhvaUNCelRt?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 18 Nov 2026 20:22:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "VIDEOS. ¡Triunfazo de Gimnasia y Tiro en Caballito!: venció a Ferro 1 a 0 y avanza en el reducido de la Primer - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcm9WZWRFMHljWEx1cTVPVmdTRS1JMzJHVUFURXpudlY1OHYzOENFdGg5dFk2S0Q2TGJzUDZHQjFnRlVNMkxteHp3bHR1ZlpkbVZ3YWZmTzhnUU1ycFF3RFdmZ09PbXh1djVkUUJBNGZ5LVoyeVhIaS1tbjQ4RWhPVkJORU1jTG8zUW1laUd3SWZnbGtjbFZ1VTBvNDFpT0ZWbkNPNTBRV2RuUFJFdGpINGRLamNtU25jcTU1Y1d3U29XZkln0gHKAUFVX3lxTFBQNzZPczhkbDlaTko5WnN5ZkRZOXVLVDlHaXJ2X3E4cFdLcEliVDZvRkw5UWZHc1h1QlBZN1BTRWJFRmZZX01QU1pRQ0kyYUZvclRFa19YdXNEdTYzem1FWFhYN0d5NFY5cm1YRXI0UDVTUjJKTVF4TWZXWW0zZ2F6Uk90VzdGdFZtdURRakFXMXJJS2VEaGtLRjFTT0JKeXN2NzJ4U0pXTjZVb2ozNDFWc3k0OWVicDNGYTdDeU53Y2Fhd002Uk9wUnc?oc=5",
+          "source": "El Tribuno",
+          "date": "Sun, 15 Nov 2026 23:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "River Plate presentará el presupuesto 2027 este jueves en el Estadio Monumental: las cifras récord de inversión - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRzVPMjFmaGcwYjAwUzhvXzhVcm1oS0dMRTdfQ3hLZWRWdHE4NG1DdENidGRtRDBwU044NXN3dEp4Zk9RME1wNHJJcVhaUElXNW9rVnhSNjc0MFdWSVYyUmhLWFZtdjF4SWVDN1p3cjRtWk5NYWRKd2ZpbExHOG9YeDlkbTNkM1l4bTcxSFp1emQ5RDJNYXNBSVd0NFNYNlprd3Z1MFM4X21WYlphcmZqaWd2RS1Sa21Rc3UwSGhDaXJDQQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 19 Nov 2026 11:30:12 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "El Presupuesto 2027 de Salta llegará a la Legislatura en los primeros días de diciembre - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYXB6eHNudUFybzRtSTNoeW91MDhYZF9nZWEtSmFYRjJyR3FTQ21tWjFBTE9EMkg1bWpsOWhpR1VkZS0wYWNMT2N2a194bU5qWEFQM0NJUk5tUktMa1RSRXNMWGJ5ajBZVTRoWk90anRmVUpHbGh6QURlWElSbHZLdEt6NUE2aWdlNWZoNWFabldfeDJPRkc0aV9HY01qSjRPZ2xIOEg0aFVvUnBBcUlLUTFxSHVnY2JlRVFqTHhmeGozc0tCek1kVHlFQ09COE1ueDMzalFLUl9JeWx3NTRwaldBZFdESmfSAfYBQVVfeXFMT0JCSE5UcHZCcTlJLXJrNjRrUUhIMVlHdXAxc0lQWGZ2N3Y3YWhJQURsUS1vc0VQbzQxa2hXd00zb1VUbUZ3dUYxc1FyT1lKVTB1clZJeko2MFJjbXJ2d2h1eEVxdl9TNTZmV3RTU3lHMkpRWTRYdVVJMzM3R0FRa25rZWw0R3VEVUpneUFnYXFVNm8yU0c2TGFyX19VYXY2THNxdUNPX1JCNlNEdVR0cWxQZzVydDc2Q0JRQkI2NFFxaE9iZnZpb3ZILTBYN3N0RWtlcXJzWFNRN2tpa05WWlV1RlJETklvQ0xzWFJSSVNSYUsyckNR?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 19 Nov 2026 14:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Cerrillos se prepara para la fiesta de la Virgen de la Medalla Milagrosa - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUxKZTFwaHQ5MkdjVmNManVRLVlndTFrWVgwWEVCMWFaRjh0N2N5OURucjdEWlMxWmxhamVvbVJyVG16eThoOENiYzJhOWhDSGN1b3JqUUwyZ09sNWZsLVNDa0xwdXBHWEFQVlhyVVhLdGdQejlQcDc1ejlxQzlVTUxjak5FLU5tWlAzc0lrNzVhNGVBWkZFTHBqcWk5MnVOSHR1NHB0bXFlZHk4R0EwS0lBc2pxNnZQdUdoc1dObXdHTDJsWmfSAcsBQVVfeXFMT3FBcW9uVkdtS01qREx3bnliRkt0NTJYdGlPVzk2Ymt1QUJ3YnYwUkhuVjNhVFdSUUZGMm50VjhSREZEVHBvZzUwbjJnaW5ZRzFVUXlleWItcGk5ZGVGWnZiSU9HaF9SZEhCX3FOUFUyWmZvZGpnT01ldlUzMDJXN2EzVnJsRXNUVGpsQW1jd2REZERmeWhlYVQ1c0hXdFVJM1g2cWNrWjU1cFNoUGZoODFjdFg4SkxRNDdodzNTUDFuZ0FPOTBVZk16VzQ?oc=5",
@@ -651,34 +679,6 @@
           "source": "El Intransigente",
           "date": "Thu, 12 Nov 2026 19:07:59 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Centro de Adopciones Mancilla celebra otro aniversario: concientización y mascotas que esperan un nuevo hog - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNY3FJeHA1VTJjU3p4d21NWjdWWlp0S0RKdnNIbFUyRGE5TlJyZVh5ZnE0ZVRQdHBFWEdtY3JDZWlrbDVENmxOZUNDdmxxQmdacm1uUXczQ216dWdDYzFMT083RHAzUGVJaHpqd2ltU29jd0xnQzBVVm44blNSVjdrWnVBUlpjN09aaWRSMl9IV08zNy04ZUE4cWlwYWw4RGFXZnlHdXFtcnp6NzFoODZXOHFoRGpvVm1pTnVaMHV5a0x6b1A5ZXA4ckp2MEV1b3M2UXNDMy03aEk2R3ZFNWlXQTI1dFlRYXhzdndmWnpLdzI4MFHSAfgBQVVfeXFMT1JRTWw3U3Bud0ozTWlMOTE5Y0JxbEp4eUxXWnVvQzQ1MG4xbTZNNnpfUlBuQ3p2XzNVVVBSblR1SUoxQV9BMkdhZkNQNTVLRVBNM1RMa3RFalE1ZW1QU0xxS0FfSnRhVzNUTW16QXJkWmFtUG44NnZzSHB4eU1OUHV3T3AyWHk0ZTdBdFY3SHJ0cFI2bFhadHpPT1k0dWI0dGM1MHpENk5NZ0JBdjhDakV5aENPNF9WRUJoM2k2SS1xWUdMZmpkcVM5bFlNVFRVbFZiRG5feXhKTXdqelB3dmpRWU9yQjRoVzVSMkJtaFRGazh0X1dCSFA?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 05 Nov 2026 23:22:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno negocia cambios en Discapacidad y universidades - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd0ZDeERoSzVzN1FDaVBBN0dXTEw2SEl4VzZ5cU5sZzhsZU1tMllkb3VhZVpvMGVTd3M4bFdqVFczZFRPQktieEJLaF83NEhKUUVmMG9QZEVTVU5SQ0c2MTdhV3hOeklHZXVnTng1RUl2Q0pkT25uenh0T0NqZ01rLUVnekRydkNkc2MzS2JobVJNOEdQX00xckRFLVRYRG9tdUF5VWtGNkhZcGp2?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 14 Nov 2026 00:26:49 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: el Gobierno negocia cambios en Discapacidad y universidades - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd0ZDeERoSzVzN1FDaVBBN0dXTEw2SEl4VzZ5cU5sZzhsZU1tMllkb3VhZVpvMGVTd3M4bFdqVFczZFRPQktieEJLaF83NEhKUUVmMG9QZEVTVU5SQ0c2MTdhV3hOeklHZXVnTng1RUl2Q0pkT25uenh0T0NqZ01rLUVnekRydkNkc2MzS2JobVJNOEdQX00xckRFLVRYRG9tdUF5VWtGNkhZcGp20gGyAUFVX3lxTFA2bVJYZ1VfZEwxQ0phMVNtekJnUm1CWXh2MDFReWdoV0x6OTlULTRDZGlBNU1ITklicl9ERGcwcVRGVGN6ZzBOYTdMMk9MVEJncUdpZWZsRHVfenBpbFA3YUVvVzF4NUJIcHZoV05TaHoySXFqNmgwVExzRmxsaUVOTVhNa1p1TzUtdlZPU2pGTVJpT2lQU2lWSVB2Z1JCaEs1UmN3TDhPY1JJdUk5OWFrM2c?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 14 Nov 2026 00:26:49 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Romina del Plá criticó a Luis Caputo por las estadísticas sobre la inflación - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT2ppTHNOWVk5Q2I5Ul9NLWQzRHNvcFFQc1UxSDBGR0d6U2hCeE9WbkJSVnpkaHdvcExRNmlsSWFQSUczTElkdldxWU1QbGc4MkF5Nnhma1U3eU1sM2hWdG9ZZVhjZ3FMLU1fUHlIb1dRY2g0OXlFN1NCUzBPTEtmYlhjZEEyQWp5YWEwdlBHZUpJR3Vsemx0SXdpTjI2RF9z?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 12 Nov 2026 21:28:05 GMT",
-          "sentiment_label": "negativo"
         }
       ]
     },
