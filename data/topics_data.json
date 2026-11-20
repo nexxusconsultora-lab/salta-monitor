@@ -1,31 +1,43 @@
 {
-  "generated_at": "2026-11-19T18:01:00.097195+00:00",
+  "generated_at": "2026-11-20T00:35:56.051679+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 577,
+      "total_mentions": 586,
       "sentiment_breakdown": {
-        "positivo": 39,
-        "negativo": 49,
-        "neutral": 489
+        "positivo": 41,
+        "negativo": 50,
+        "neutral": 495
       },
       "sentiment_by_day": {
-        "2026-11-18": {
-          "total": 12,
-          "score_sum": -2
+        "2026-09-19": {
+          "total": 21,
+          "score_sum": 2
         },
-        "2026-11-15": {
-          "total": 2,
+        "2026-11-18": {
+          "total": 13,
+          "score_sum": -4
+        },
+        "2026-11-16": {
+          "total": 1,
           "score_sum": 0
         },
         "2026-11-19": {
+          "total": 7,
+          "score_sum": 6
+        },
+        "2026-11-13": {
           "total": 3,
-          "score_sum": 4
+          "score_sum": 0
         },
         "2026-11-17": {
-          "total": 4,
+          "total": 5,
+          "score_sum": 0
+        },
+        "2026-11-15": {
+          "total": 2,
           "score_sum": 0
         },
         "2026-11-14": {
@@ -35,10 +47,6 @@
         "2026-11-12": {
           "total": 14,
           "score_sum": 2
-        },
-        "2026-11-13": {
-          "total": 2,
-          "score_sum": 0
         },
         "2026-11-11": {
           "total": 9,
@@ -162,10 +170,6 @@
         },
         "2026-10-25": {
           "total": 1,
-          "score_sum": 0
-        },
-        "2026-09-19": {
-          "total": 20,
           "score_sum": 0
         },
         "2026-10-23": {
@@ -336,35 +340,35 @@
       "top_topics": [
         {
           "term": "intransigente",
-          "count": 60
+          "count": 57
         },
         {
           "term": "presupuesto",
-          "count": 55
+          "count": 56
         },
         {
           "term": "tribuno",
-          "count": 47
+          "count": 49
+        },
+        {
+          "term": "informate",
+          "count": 37
         },
         {
           "term": "elintra",
           "count": 32
         },
         {
-          "term": "informate",
-          "count": 31
-        },
-        {
           "term": "pasa",
-          "count": 24
-        },
-        {
-          "term": "diputados",
-          "count": 17
+          "count": 25
         },
         {
           "term": "discapacidad",
           "count": 17
+        },
+        {
+          "term": "diputados",
+          "count": 16
         }
       ],
       "politicians_involved": [
@@ -374,10 +378,16 @@
         },
         {
           "name": "Roberto Antonio Dib Ashur",
-          "count": 1
+          "count": 2
         }
       ],
       "quotes": [
+        {
+          "quote": "Un día para celebrar",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQemlpMUF5eV9CZGRNTmxQb0JEUEx0c29PTjlFbUltcXlya1dMWGt1bEZmdk03WjJ4bE1xcVd5Ql9WMkNrZ0lIanhCbWR3ZEhUQWtISDU1VXg2Y085NEh6c2dycWlucnkxMEhxUU9qbU1YS2hqVVpGc1NyOVFaSDh2WmU1ZnAxUk9iaUxObGt6TnRXZlNQMDZ1b01fQ0h4cFY5bGFudi1kSmNkU0VmSDRlX3ppOGh3MkY5dkczemFNb1dHaEdyTUlNS0Q2akRBMndNb3ltbGVpb243Sk1ncnFoWEI0RVhjeGtoM2fSAfgBQVVfeXFMTncwRVZhZG81Z3R0QkxBNEh5V3VoSjljQWRldTRNN1RnTnNjNmxsVm1HWlp2cmE1WUo1N24tQW9Wb3haZUJhR0hWbWk2V01MNEViOEtUTWZxaXBOSUY3S0dYdnFfTmJ6Rnl3VmlqLWVtNmdUaEV6QkpGN2p0UkRIcnJXbU52RWNDSVpzR3o1Y0lFVlhhT2dONklLRjVnckd0TEhkTE03aVQxUXNMQl96WTU2SkFCRE5wUzVTcjNSbWF1Yms0ZkJuZXRPbUJzajU4bHhwQ0FTVnY5ZW9YRDRWZjAzc1VTaVZ1aUd1aXZPRnlRdjV0MlBNOE0?oc=5",
+          "date": "Thu, 19 Nov 2026 21:00:00 GMT"
+        },
         {
           "quote": "Fue golpeada, pateada, estaba irreconocible",
           "source": "El Tribuno",
@@ -461,15 +471,72 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSlp4Nlo3TExTcVVWcnFOVXAtdFdtcGpmVm93YUVaeEFqLXRhME9qSjNwODNTZWdhR21XOGRSZ3gweVE2bmxDTktLMF80bk96ejlBS2RmaUh5cDdyTlBlUzNLSUFCUDRsekNxRkxiSlVYLUJ4Q0lBVkFxU0stV0t0d2VwemJpdU1mMVBQMDRvRnVLYUZnVDdnUkxTdzJMNU03SVFSNk9uWEdWWUp4R1R5WVFDZw?oc=5",
           "date": "Fri, 30 Oct 2026 23:36:27 GMT"
-        },
-        {
-          "quote": "Trabajar o mantener la pensión",
-          "source": "Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFka9IBjwFBVV95cUxNNVJQdGNBUXEyTmh0eGZaRC0zdjZudUFqc0pyZXI5TkR6c2hCSjFTLW1hZXN3RVY0Uk5HcHc5Smt1U3EtdWtMWWJEZ1hzZ3dySnI3T0JXWDNaQk14cnpEQ3lhNUFUcnhXeXZUa0dVZnJNMVJxc3ltSHFXZHhXcy1paU5Pd0NNV2lFY2t3ZnFkaw?oc=5",
-          "date": "Wed, 23 Sep 2026 07:00:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "El número que anticipa pocas obras nacionales: menos de $2 de cada $100 irán a inversión - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS1ZwRXJfcEY0M3FPR2xyQjJIUlpVSThlbVp1d0Zpc3MyS3VKRmRoVjc0ZWJNbGVfSmdfVVFzQTlxLWdsSURBT1pLRXhaVHBsQXpkMmJsbFkwSWd2MGh1Y2Rsa2h6ZGJoWVhjSnZDOEN3YklCNllTdEdWMTgySlBOTTFyVTI4T1ktS0o1WVRkU1RhQdIBkgFBVV95cUxNS1ZwRXJfcEY0M3FPR2xyQjJIUlpVSThlbVp1d0Zpc3MyS3VKRmRoVjc0ZWJNbGVfSmdfVVFzQTlxLWdsSURBT1pLRXhaVHBsQXpkMmJsbFkwSWd2MGh1Y2Rsa2h6ZGJoWVhjSnZDOEN3YklCNllTdEdWMTgySlBOTTFyVTI4T1ktS0o1WVRkU1RhQQ?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Sat, 19 Sep 2026 07:00:00 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Confirmaron la condena a Alperovich por abuso sexual, pero le redujeron la pena - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQjQ3YzZlNkdXQ1VCNU8yZ21FZV9ydjhhNlY2RnRMeUl0cGU0TGktcDJzaGFqNTJ1bHZfOG91bkRWYkZzNl9YYWVPczFPNWRrbFhEWC1paGNxWFA4SWFUVlJfaXY4dHViZEozZGNHcU1HSHgzSmFnWUd2enZ5bV91eWlKdTduUzZGcW5rZ0dXTFhmanI5Nzk1M0VxeDczeWcwZmRYUFhKNzhtMUJSYlh5eEhyLVZFelpVNC13MmdDWnpLWFp1a3lZRnZyajZZSTdpU2pJc9IB1AFBVV95cUxNQjQ3YzZlNkdXQ1VCNU8yZ21FZV9ydjhhNlY2RnRMeUl0cGU0TGktcDJzaGFqNTJ1bHZfOG91bkRWYkZzNl9YYWVPczFPNWRrbFhEWC1paGNxWFA4SWFUVlJfaXY4dHViZEozZGNHcU1HSHgzSmFnWUd2enZ5bV91eWlKdTduUzZGcW5rZ0dXTFhmanI5Nzk1M0VxeDczeWcwZmRYUFhKNzhtMUJSYlh5eEhyLVZFelpVNC13MmdDWnpLWFp1a3lZRnZyajZZSTdpU2pJcw?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 18 Nov 2026 22:19:00 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Economía anunció un nuevo superávit en las cuentas públicas en octubre - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEluMXZ2TlFmd1B3dnc0dlVXZnFpakFWaU1jcDZPTEtWdjlzZnJsMC1Za2cwNVRyT012a0FHSkFReW5ZRkpUYmNMLXRNTkRUSXF4TW5ZUkZqMnZFMGJqcFA4TWUtLTRvWVQ2d1R4dDhTREZFX004QmFWZFo2WUI0Q0ZRWlU4NkpsazM3YjZqNzJTaXNkbFY4MGxsRDZscDhrVVdTUm05UmQ2UlRGVjBHeEoweFdMV2FVNC1qaUdlQno5SEFEemp3dlRpZzBtZnBY0gHfAUFVX3lxTFBwcFlyVnRqY0V5MDFEVWtpTldhTzB1VndkNTRweVhkMElmcU8wWEdBUTZkbDNhSkhRRUc2V0JfNW1EeGM5VFIwcHBXa2VmTGFlZG1Eemc3V2gxM1lCSHJpRE9KTndtYlo4ZkxRNVY0V1BsVWUteTd0RkR6R0dycmtOMTdKRTBzLThTSUhFQ3FfcXNyazIwaUNPMVFSTGdnY184aF93ZXRZOWF2ZGJEOHl5cE1RZ2Z5R2RwTWt6RU0xUTZPR3BJdGpWVVV1dmxvUkM4cEp6NUItUjdIZ3JRYTg?oc=5",
+          "source": "Informate Salta",
+          "date": "Mon, 16 Nov 2026 20:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Provincia auxiliará a los municipios para que puedan pagar el aguinaldo de diciembre - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMmkzakNWUl9USE5TaUl5UTU4Mno5c000ZUFBU19HUzVXXzNNb0ZWMExrQUlrcHJ3bjBvNzA0SUZqYWdSVUwwY0ZwTWJHM0U2WldubG56MXY3ckx5U3I0VHlnS0k3YTRrNDFaVU5venNpZ19IdzVieU9LQUJhVWdySXA0ZXQyODJKUUJuR2NtUmdobWFHVWhZQi1FaGowcnpTT2FUcDJHcTc1TFdLcTkzdG1JYXNlcHN0TWg3aDFSUC1CUUdXd3NES3VUNEtkR1dNWk9Qc2RzVm1BaXVMS1ByUVV4TdIB8gFBVV95cUxPQzFEOXRtTkNMVGx6cGxXU2dmQTB2bFpESGRDamJHMm5sd0wySTRza3JhMG5zZzJBMlVQNkp0RWE4eVBHTXF5RTB2all0Z19RMVZVOXpmOU1kX20tc3pRWWdvelRLOGNnU3Bmdl9OUWxGbl9xZW5kUnE2NXpLUVhoSGFacElrWGhxVkpOR1hoRVgwMmVxMkh6WGtCdEEySmZoNmtsMXE1dnVWR05la1lsSlhZNW1NVmpjM2N1NTB0ZGJVaEtEMklpLVlobEdqS1oxMGtZeTRYYWpVa3ZWUFR4djRqZDZFMXBEM2VYUG9BUjd0QQ?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 19 Nov 2026 15:45:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Gobierno acelera la negociación por las PASO - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ0lZbDk0aEp2RUNoR2g1T05fNUE0Xzk2NkxTMWo5ejRnb25OMEZEUmk3TGp1eFc1aXhFbjlyY1h4RmNPbzZvWkMxWTREWHdNLW9iMUMtZThiM1Q5bFVXZ1VTYkJ3RHJ0WXdCTTVWMXU0RDlfLXRKNmlPYl9LdnVTTjFXNG1mR1l3OFJ1MklhdXE5UkQzZ3VLeDlnRHJpX2tDRlRV0gGoAUFVX3lxTE9la2VIeE1oT3ZuMEJXZDBMbGQyMmFQMV9SM2N3V3h0a3Zsc1dfbDR1N3pPOFVSOUJXWW1pU1p4eUZEdzZtREpPWV9iTU9FeFBXQTlVd0xha1I1SXR2Q3E3MXhDR2lVNndNLTlGQU5pVHRyOGlTVnp5SDZrejhGajBwU1BSTUtyMDJ4cDRya1JHaFVCV19FSmJFb2swYm12bHZ4bTFjT2Q2Ng?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 13 Nov 2026 04:49:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Las provincias recibieron un 70% menos de fondos discrecionales durante octubre - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNEJyVjdCbkhhb1h3bUktaEE0alQ3OWxiaTNwMFlNdHcwRTJyXzZiTkhONDZfeUpQb1VxYWpQT0oteWM2TkFIOEdpQVZaY1VxM0tHa1pJR05yTUU3ZENCbnVZZDl3Tk1vUHg5bUJZaFRZVGd3aXl3SVlEVVBLNVBoU1MxNG9NNDlCRnJsTDROc0QzNkNGQ1pIejNxRVpJRnlPWmhBQ0VYX2k0RHBzeUxPMHo4Tnp4T0h0QXJQRlZyMkhfbnQtYXR4MnZ1UldyVVBzY3g2QmlCbERkOGh10gHrAUFVX3lxTFBxVzJ5dWx5RDV5bGE0UlJNWmlHcnBYM1FQWWVWbVdPc0hHbzNENnZoUHdTVDhxMk02cmNwM0VadlZCbnc4bVlIQUEtT0dUSGtReDRmX1B1VnJLVzFyeHBBTjI5Q0J3MFJDWEJYTmVZeFpNUWJELTZ0X1lmMDVmSzdta2kxR3dtNXpzb1F3aENTcXhiWjRlSHZGMzdJeV9xRlR0Wl9yYldKR2tMUG1XdWJlcXdGU3NrVWx1M2FpR29YLWdFN0R2LW9tWGJIMHBWdGp6bEYxTEJsQTdXQTJSQUhwaE9mWFhyM21rRTA?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 19 Nov 2026 14:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "“Un día para celebrar”: Mujeres y diversidades del Valle Calchaquíes tendrán ecoviviendas - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQemlpMUF5eV9CZGRNTmxQb0JEUEx0c29PTjlFbUltcXlya1dMWGt1bEZmdk03WjJ4bE1xcVd5Ql9WMkNrZ0lIanhCbWR3ZEhUQWtISDU1VXg2Y085NEh6c2dycWlucnkxMEhxUU9qbU1YS2hqVVpGc1NyOVFaSDh2WmU1ZnAxUk9iaUxObGt6TnRXZlNQMDZ1b01fQ0h4cFY5bGFudi1kSmNkU0VmSDRlX3ppOGh3MkY5dkczemFNb1dHaEdyTUlNS0Q2akRBMndNb3ltbGVpb243Sk1ncnFoWEI0RVhjeGtoM2fSAfgBQVVfeXFMTncwRVZhZG81Z3R0QkxBNEh5V3VoSjljQWRldTRNN1RnTnNjNmxsVm1HWlp2cmE1WUo1N24tQW9Wb3haZUJhR0hWbWk2V01MNEViOEtUTWZxaXBOSUY3S0dYdnFfTmJ6Rnl3VmlqLWVtNmdUaEV6QkpGN2p0UkRIcnJXbU52RWNDSVpzR3o1Y0lFVlhhT2dONklLRjVnckd0TEhkTE03aVQxUXNMQl96WTU2SkFCRE5wUzVTcjNSbWF1Yms0ZkJuZXRPbUJzajU4bHhwQ0FTVnY5ZW9YRDRWZjAzc1VTaVZ1aUd1aXZPRnlRdjV0MlBNOE0?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 19 Nov 2026 21:00:00 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Presupuesto 2027: Dib Ashur confirmó cuándo enviarán a la Legislatura el proyecto - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbDRySEhSMXhpQ3BURHZmS3pUTkVRam1felBkNEVxaWF2LUxmaGNuX1FsaExFcU14VWttSm53Nk9qZEppdmh4WXRmbTRPUVB0MUpROXBqcWt4NUJiOHJwSEdVZW9nNkx2XzBrbmFfbzlPVlBFX3VRdEVselZwUHR2ZENfZG55bEZqSXI0QjlENzZqLTR4ekJwbVA1SVEweVoyN2RTVE1US0ljVFJZcndjTVpCUHFkWmxlX1RlcTY1SVE4bVVMUkJqczEtN2JNb1RVQUZlUTl1MzVsYU96bWlwakI0VE5KZEVBNVdwcm130gHuAUFVX3lxTE9sNHJISFIxeGlDcFREdmZLelRORVFqbV96UGQ0RXFpYXYtTGZoY25fUWxoTEVxTXhVa21Kbnc2T2pkSml2aHhZdGZtNE9RUHQxSlE5cGpxa3g1QmI4cnBIR1Vlb2c2THZfMGtuYV9vOU9WUEVfdVF0RWx6VnBQdHZkQ19kbnlsRmpJcjRCOUQ3NmotNHh6QnBtUDVJUTB5WjI3ZFNUTVRLSWNUUllyd2NNWkJQcWRabGVfVGVxNjVJUThtVUxSQmpzMS03Yk1vVFVBRmVROXUzNWxhT3ptaXBqQjRUTkpkRUE1V3BybXc?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 17 Nov 2026 12:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: todo listo para ser enviado a la Legislatura, concluyeron las mesas de diálogo - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNd3QzejhKUk9FSzJwNmROTHgxYUFJMm9MMmpYZ3psRFQ1U2VHOEZfbVA3OXlMM3lyMlB0dDVnSEFQSHg4dnkxSlBEbVF2TlNNekMzXzYzSmg4ZF9sdzk5QTd5bHFhdnk5ZWhFbTRQclFac0ZHdG5ySEtzMFV3SFduLTZ3SE1JTy0xaHlzUTNmSEJSZkgxd05CVTdWcW1mUTBjUzY3SWRpa1dWMGVEN1ZIUkJGS2NfQno3aDlZaE11VUtvY0pjdldiNWRDdGFWWG92YXl1WWJjVEN2cGt2ZjJXelVuVkd5YlNBbTJIWXhuVkphUmg5cVc3VEFjOHJJREdZUWfSAYICQVVfeXFMTXd0M3o4SlJPRUsycDZkTkx4MWFBSTJvTDJqWGd6bERUNVNlRzhGX21QNzl5TDN5cjJQdHQ1Z0hBUEh4OHZ5MUpQRG1Rdk5TTXpDM182M0poOGRfbHc5OUE3eWxxYXZ5OWVoRW00UHJRWnNGR3RuckhLczBVd0hXbi02d0hNSU8tMWh5c1EzZkhCUmZIMXdOQlU3VnFtZlEwY1M2N0lkaWtXVjBlRDdWSFJCRktjX0J6N2g5WWhNdVVLb2NKY3ZXYjVkQ3RhVlhvdmF5dVliY1RDdnBrdmYyV3pVblZHeWJTQW0ySFl4blZKYVJoOXFXN1RBYzhySURHWVFn?oc=5",
+          "source": "Informate Salta",
+          "date": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "VIDEOS. Sin clases, pero de pie: la escuela de barrio Tráfico que sostiene a la comunidad wichí tras el temporal en Embarcación - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaHdrQU5BYlZGRXlYNDVXVVNyTVdhWE0tSTBEMVR1S002cXVLbmxwMi1uTmdKWDlpclh6M21KYXBTMzlrU1J0eHl6ZHBfcWlyMGdxclVwTVdBNTFReklCODZCWENQUjNvRFUyN2hfY1dESUV2Snc0aWRnamdRdnFyS2NaMjFHY0hELTVSME1UbXcyNzlBV3BxZzNiNFJwYndwZXRPaV9pbXByTlVKMHRvakc2VUpHREFuTk9nS3dMLWR4UGRpMk1hMkxtLXlFbl9lRjJlTUpCY2VmQVY4MnVTM0FoanBFVjAzbmNPYkdKc2VoMmhaaVFwR19CQmhWR09WS3labDhvaUNCelRt?oc=5",
@@ -615,69 +682,6 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtidXpIMno5NTZFZWtDbGN3ODRyeUNrbFNIeEY4d0lYWG5uN1RZbXlJTDdRX2k4Y1R3ZFRtbWpvMmxDTW1LRUtNOWpGc2NZMlh6d2g3T2o3MmZUMWlKQ3ExOG9tN3NsaWczUGtQaXRiWUk1MXR2VHU3Y2pUNUZxSnZYNFFTRW9sTUV2RlJlR2c3OTBhLVBnbFRsRGV0b1ExUVdxZHdwWdIBpwFBVV95cUxObEtidXpIMno5NTZFZWtDbGN3ODRyeUNrbFNIeEY4d0lYWG5uN1RZbXlJTDdRX2k4Y1R3ZFRtbWpvMmxDTW1LRUtNOWpGc2NZMlh6d2g3T2o3MmZUMWlKQ3ExOG9tN3NsaWczUGtQaXRiWUk1MXR2VHU3Y2pUNUZxSnZYNFFTRW9sTUV2RlJlR2c3OTBhLVBnbFRsRGV0b1ExUVdxZHdwWQ?oc=5",
           "source": "Que Pasa Salta",
           "date": "Tue, 17 Nov 2026 19:22:39 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Martín Menem apuró a Patricia Bullrich por la suspensión de las elecciones PASO - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ2FQYXF2N2VUazRGd3JXWGZVZ1hOWGxTMi14dU45OG00X2FDRUhLcUY1aXRmWnRNajVZS1EyY1JlV0VaMlZHckhZR0JNN0dJSG1zSWM0MVNXNWtCd21MRGxOQzZCM29wR0U3cW1ia1RHc3c5cENqSWk3bV9GQ21IeDltWWZvSGVfUzFGLXEzamh5RWZDNFpDZjQ2dnl0Q2VsYk9DSURuc0N2UFQwZTlF?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 12 Nov 2026 12:49:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "ATE-ANAC realizará un paro a la japonesa en Ezeiza y Aeroparque por el congelamiento salarial - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTWZJWXFzNXZ2TkNpWWEtc2VFZWNyQkxkSlZQZnNCWjBIX2xFN2t2T1h1UWl4WnUwckdHRUowb3pTQmNOSHk0bmNLcXZFZUhLTGN1aktteEI4LTRFdmlFTmk0WElGLVdsZU8tT0lDUjkxS2Q2OVJBbXBMVlM3M25sODl2VEdqNmxQODhaUGh6blRURGxqajhtTDRDQkRIR3NZMkNaSUJhUklMSFRXS0tnLVlkOA?oc=5",
-          "source": "El Intransigente",
-          "date": "Fri, 13 Nov 2026 01:13:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Wado de Pedro se hizo eco del mensaje del Papa León XIV en la Basílica de Luján - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZU9YLVZNOWNUNm9uY1JlNm1RdVduTzU3UDh1UUJyN09mVGZRZ1F5U0cwR2dOc3JLelA0S3lTQkJnaWFhN1FzRFJkLUppTVVvYnNBZTVaUUhUcUNSYWw0UE12blV5N2tzR2kyVXJYVjFwMmxIX0FJamdXREl3TVQzVlpCTU12b3JldXo3NExWVWhWLXBheUFSNGEwQmU?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 11 Nov 2026 22:36:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Lilia Lemoine propuso una fórmula Milei-Bullrich para las elecciones de 2027 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzh6MEN3NXdYekJjM1N1dlFuMVlrRkhnWTRONHJzTlZQbU1XT1JWSjkzdjZISUdlVHZpQW40UW1iaVRuMXdEZl9LWHBxNDhuZ0hXV2ZMT1ZCYXIyVXFDdjFUYndZTlgxUEEwelZPY1plSzNTcG9OZUhhTUJUOExaSmhRYWtoUGdRSHdaZG92ck9TOERYdEx6LXE2dGpxR0NfdUE?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 14 Nov 2026 01:06:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "«León XIV hablaba de humildad y en la carpa había fiesta»: el duro descargo de Quintela - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2pLajFXeGtNb3c0VlB5OGVUcm9JUjJyUm03c0ZOcXVKYWZKSlRnMFZQblZ4ei1HQUlscXRwaGRNbWxLenZSaFJobF9NTXgtSTJIaXhwaFlnR2lWMmw3WnVmeVZ6V1c2U1pVOTNGa3l4dk1xM3JZTk5IQUtsUmNfOEhQTXRqYkpsdTI2cDJpampqR1ZQdk1tUWYyTGRTeXVGZUJWSg?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 11 Nov 2026 10:30:49 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Senado buscará aprobar este jueves la nueva Ley de Discapacidad: qué cambios establece - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVUZzY3ZtdF9QZ3k3dkE3TTRSV2F0czJ1T1pueHJRVk5yTzVpY05JUmNtOXp3dWxqNVpGSDBHNm5HX21ybXI2YUlRYTMwb3NBWUI1eEVTS2VLbmZSUHFZcmItcDZoQTNHYUZEY08wNUVxOTd3OG5rS2FabDBwaExZUEtpVk9zNDNnUXoyenVMSm9zUjVmbDJNa2c5VFlQMG5WWk5wbnAyY2V2M19WN1NEc1JudTRMb0ZnNlNlN21ZQ0tVTC03eWNEUFlXTUZxajJlVFgySVdhNENFUmU5?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 15 Nov 2026 21:14:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Verónica Magario agradeció al papa León XIV por su mensaje de fe y esperanza - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0RqMm9RT3NfS252VDhWZEdZeVIwUXA3NDBtaW1SUFRnYUZROXZGQjdXYkl5RFE0Z3R4cGJNaFBkblFGVTlnSF9JcS1idXdaUVctcG5QQU1xdkp0eTY5LVFLUXBKOGRIRENnY0FTX1BZOGtMZmprXzBSWi1Ta2VPbTcxWUVWNkZTNDlIaEgydER0Y0pYNndWUjRrZ0JucE1IMGgw?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 11 Nov 2026 22:19:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Martín Llaryora recorrió el centro de monitoreo para la visita del Papa a Córdoba - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkd5cTJtMGtKYklBbVFiOGxvZHh6bEF1VVFtdGdLOThqeWd3QVJCMWpsTFpwSmFmWHJlcE54Y2J5TWpyVTdRS0RCZ1BkYzRudWhub0xuV0tTT2ZkUXdJUDI3LUMzOGdfeVMwems5djlYRUl2a3U4UFVZRWVlRG42V3JYdVZVWGxNZmRQYk50QWROMWQ0SmV0YWgxOWlKX1VyVnI0?oc=5",
-          "source": "El Intransigente",
-          "date": "Mon, 09 Nov 2026 20:40:25 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Patricia Bullrich confirmó el tratamiento de la Ley de Discapacidad: «Sin nadie afuera» - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2pwYUFWSzVBT2dHR0tNVHpuc1BRdzZmNndETjZSLUQ2YXhKNVg4ZmM3eDFieHN3eXBFSWN3WXAwTTNDc1NQbk8xbUYyTDBTbGtTdnpNaTMzdUh0WExSRWlvdXdUQVNuenhPZVlnTUNJejZtRE01MWRXWXdaQWpMS1FDMUo3OEx4RDBKRUd0Tm56Z0ZiZ3RCUEFPeDRyTlZCSkxxZXdaNU5BQWpTaERTV1d3?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 12 Nov 2026 19:07:59 GMT",
           "sentiment_label": "neutral"
         }
       ]
