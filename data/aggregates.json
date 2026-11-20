@@ -1,19 +1,61 @@
 {
-  "generated_at": "2026-11-20T00:35:54.790222+00:00",
+  "generated_at": "2026-11-20T07:45:58.160124+00:00",
   "by_politician": {
+    "eje-roberto-dib-ashur": {
+      "total": 81,
+      "positivo": 14,
+      "negativo": 4,
+      "neutral": 63,
+      "score_sum": 59
+    },
+    "eje-ignacio-jarsun": {
+      "total": 53,
+      "positivo": 10,
+      "negativo": 7,
+      "neutral": 36,
+      "score_sum": 9
+    },
+    "dip-marianela-marinaro-chain": {
+      "total": 4,
+      "positivo": 1,
+      "negativo": 1,
+      "neutral": 2,
+      "score_sum": 2
+    },
+    "dip-gustavo-orlando-orozco": {
+      "total": 53,
+      "positivo": 2,
+      "negativo": 14,
+      "neutral": 37,
+      "score_sum": -29
+    },
+    "snac-emilia-orozco": {
+      "total": 126,
+      "positivo": 9,
+      "negativo": 22,
+      "neutral": 95,
+      "score_sum": -28
+    },
+    "eje-nicolas-avellaneda": {
+      "total": 29,
+      "positivo": 14,
+      "negativo": 2,
+      "neutral": 13,
+      "score_sum": 23
+    },
+    "snac-flavia-royon": {
+      "total": 133,
+      "positivo": 13,
+      "negativo": 17,
+      "neutral": 103,
+      "score_sum": 0
+    },
     "dip-jose-miguel-gauffin": {
       "total": 40,
       "positivo": 2,
       "negativo": 7,
       "neutral": 31,
       "score_sum": -10
-    },
-    "snac-flavia-royon": {
-      "total": 132,
-      "positivo": 12,
-      "negativo": 17,
-      "neutral": 103,
-      "score_sum": -1
     },
     "concejal-carlos-maximiliano-casasola": {
       "total": 4,
@@ -29,13 +71,6 @@
       "neutral": 4,
       "score_sum": 33
     },
-    "eje-roberto-dib-ashur": {
-      "total": 80,
-      "positivo": 14,
-      "negativo": 4,
-      "neutral": 62,
-      "score_sum": 59
-    },
     "gustavo-saenz": {
       "total": 537,
       "positivo": 137,
@@ -49,13 +84,6 @@
       "negativo": 13,
       "neutral": 29,
       "score_sum": -30
-    },
-    "snac-emilia-orozco": {
-      "total": 125,
-      "positivo": 9,
-      "negativo": 21,
-      "neutral": 95,
-      "score_sum": -22
     },
     "dnac-bernardo-biella": {
       "total": 45,
@@ -99,13 +127,6 @@
       "neutral": 32,
       "score_sum": 33
     },
-    "dip-gustavo-orlando-orozco": {
-      "total": 52,
-      "positivo": 2,
-      "negativo": 13,
-      "neutral": 37,
-      "score_sum": -27
-    },
     "dip-omar-exeni-arminana": {
       "total": 45,
       "positivo": 0,
@@ -141,13 +162,6 @@
       "neutral": 55,
       "score_sum": -13
     },
-    "eje-nicolas-avellaneda": {
-      "total": 28,
-      "positivo": 14,
-      "negativo": 1,
-      "neutral": 13,
-      "score_sum": 24
-    },
     "eje-federico-mangione": {
       "total": 56,
       "positivo": 8,
@@ -161,13 +175,6 @@
       "negativo": 3,
       "neutral": 33,
       "score_sum": 14
-    },
-    "eje-ignacio-jarsun": {
-      "total": 52,
-      "positivo": 10,
-      "negativo": 7,
-      "neutral": 35,
-      "score_sum": 9
     },
     "dnac-maria-gabriela-flores": {
       "total": 32,
@@ -666,13 +673,6 @@
       "neutral": 26,
       "score_sum": -2
     },
-    "dip-marianela-marinaro-chain": {
-      "total": 3,
-      "positivo": 1,
-      "negativo": 0,
-      "neutral": 2,
-      "score_sum": 4
-    },
     "sen-gonzalo-caro-davalos": {
       "total": 53,
       "positivo": 4,
@@ -941,6 +941,54 @@
     }
   },
   "by_day": {
+    "2024-04-10": {
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2021-01-28": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-30": {
+      "dip-marianela-marinaro-chain": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": -4
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-20": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -6
+      },
+      "eje-nicolas-avellaneda": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 1
+      }
+    },
     "2024-11-25": {
       "dip-jose-miguel-gauffin": {
         "total": 1,
@@ -2103,24 +2151,6 @@
         "score_sum": 0
       },
       "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-07-30": {
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": -4
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "gustavo-saenz": {
         "total": 1,
         "score_sum": 0
       }
@@ -19268,12 +19298,16 @@
   ],
   "trending_terms": [
     {
-      "term": "sáenz",
+      "term": "elintra",
       "count": 12
     },
     {
-      "term": "elintra",
-      "count": 10
+      "term": "sáenz",
+      "count": 11
+    },
+    {
+      "term": "gustavo",
+      "count": 9
     },
     {
       "term": "presupuesto",
@@ -19282,10 +19316,6 @@
     {
       "term": "legislatura",
       "count": 9
-    },
-    {
-      "term": "gustavo",
-      "count": 7
     },
     {
       "term": "todo",
@@ -19316,15 +19346,15 @@
       "count": 6
     },
     {
-      "term": "diputados",
+      "term": "orozco",
       "count": 5
     },
     {
-      "term": "norte",
+      "term": "libertarios",
       "count": 4
     },
     {
-      "term": "días",
+      "term": "norte",
       "count": 4
     }
   ],
