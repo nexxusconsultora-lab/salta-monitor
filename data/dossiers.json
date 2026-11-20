@@ -3,13 +3,21 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 539,
+    "total_mentions": 542,
     "sentiment_breakdown": {
-      "positivo": 137,
-      "negativo": 100,
-      "neutral": 302
+      "positivo": 138,
+      "negativo": 101,
+      "neutral": 303
     },
     "sentiment_by_day": {
+      "2026-06-05": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "2026-11-20": {
+        "total": 2,
+        "score_sum": -1
+      },
       "2026-09-09": {
         "total": 1,
         "score_sum": 0
@@ -542,11 +550,11 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 49
+        "count": 50
       },
       {
         "term": "gustavo",
-        "count": 22
+        "count": 23
       },
       {
         "term": "tribuno",
@@ -674,6 +682,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz despide al Indio Solari y destaca su legado popular en Argentina - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQelB6ZkZVX0hNOUJmbW5uMThQR0tkZUZVZEM2VzRubk5qWFkzWF9kcjVaZWliYWNrWjJvWUltRmxOV1FiV2o0M2xpYjJRYWNMSkNzVGhFRmo2a0pmZ3BmS2VKNjA2bHJseXdZbExLdXNlcFZRcE9NX3lQa2xyMnZEZ2FHX2lmZGViSjBVdEt1V2QwWG9sUGFWSU52R3gtQVBqYkF4V05oTkk0RUNQR2JjSlFTMlJqNEJjc0xIcTZSSTRVOTRRLTFhaHFseklPM0XSAdQBQVVfeXFMTnF4RmczQ2VNR1BQSWNrdFJoT1VNLUpYbEd6YlJIS3pBV0x1YmdjR3FDM0ZQb3FzT0prbU9BMWkzX25TdEZRanFpYndTUDYwY3JjVWRoWUhyMDQwRkNZUlhVV0g2bkd3OEJPMEtkSHhxRDRtV0JITGFQa0h1X0FEbGxhWjJKTVFGWWRaXzFSd0RQMklYX1YtM3VQV2ZCNTJ0MVNza1pjU01PVV9OM1hrYWtPWmY0U3pHMFEyRndMVXlnSHg5TVotWTIwLXVXR1JveDVXRFk?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 05 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "¿Cambios en el Gabinete? Para Camacho, Sáenz debe buscar un nuevo mandato pero con un equipo nuevo",
+        "link": "https://informatesalta.com.ar/politica/-cambios-en-el-gabinete--para-camacho--saenz-debe-buscar-un-nuevo-mandato-pero-con-un-equipo-nuevo_a6b006895cd25aee2885240a7",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 16:30:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Gustavo Sáenz es imprescindible, pero sus propios ministros ya se consideran prescindibles",
+        "link": "https://elintra.com.ar/2026/11/20/gustavo-saenz-es-imprescindible-pero-sus-propios-ministros-ya-se-consideran-prescindibles/",
+        "source": "El Intra",
+        "date": "Fri, 20 Nov 2026 14:33:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz pidió políticas de Estado que trasciendan los gobiernos - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHlrWTRmSHdRVzFkSm51YXZUR0FjaE1qeFgwMHo1dXVYdFNudnpoa25KcjRsblhpQk9idHdVUVA3QmpEQ1k0WGJZejhIdWdVQktuNUQyMU13QmlDOTN4VFJ2NjNZcVRPSDU3alpLQjhwZjNnb1dYVWZzXzJYaWpoWlZSOExrXzFWMFQxU2VuNlZxVWN2aEJlSWljUVpIZ9IBngFBVV95cUxQMHlrWTRmSHdRVzFkSm51YXZUR0FjaE1qeFgwMHo1dXVYdFNudnpoa25KcjRsblhpQk9idHdVUVA3QmpEQ1k0WGJZejhIdWdVQktuNUQyMU13QmlDOTN4VFJ2NjNZcVRPSDU3alpLQjhwZjNnb1dYVWZzXzJYaWpoWlZSOExrXzFWMFQxU2VuNlZxVWN2aEJlSWljUVpIZw?oc=5",
@@ -861,27 +890,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUFJTVHRBbjRwWkZIV0Rob3A1cnQ1cFhpZHNwazBJUnpheWtNLUZzUkZPa01EcGtYZkR6LWFMQkVDTV81YUY1N3p1U2p4YmxHc0pjNzh2a0NOY3UwLWlDd3RYczE3VVFHS3U3bWZidUxHUVhVUkl6ZC1XdWIzSVF3VzhGSllvc25QT2xFdjBfVFB3eUJoczFNamJxaDJqZ1pha2hzOWVfVzBna2VnX05Dbi10Z2dKN2NDT3VLNVFxU24tMUpMZ0hJU0tnblMzd01LV1g1eTlocG1WZm9INFFXNnJHVEdKWlHSAewBQVVfeXFMTndJbmNzajJJZ0dUY0lYUFBSMnZ2ZEtvVFMzNzRwQVBrdGlSUUhoaS10aU9yZEVib2NkdVcwazJFR3FfXzRnQllqeUJ2UndmanNtcFlGLUNtX3NoYWNjakN5UFJ0OXRRTDJCUHVFelBSUDE1cWtYQ1hoQ1FXczlsRS1FX0Nkd2hlRUZKVFo1RWVYT05SakdnUkZkVG1fY2tDYk42OVAtX3ZqM1JNMXNzdjBSQ1h5eTJ0NVM4czlRYlRIOW1JeXJhRDdMX0JPdC1Tb0ZLTFBpVUJ0Wm04LVZEOTZaNDdNWGR4RWd3NXE?oc=5",
         "source": "El Tribuno",
         "date": "Thu, 21 May 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz presentó su libro, cuestionó el centralismo y sobre una eventual candidatura presidencial dijo: “No está - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMWN1eG4tU1JCUzJ4eXkyblV6dEFhcW9qNTF2WjJYclQ5RkJoOWcxSmdLNTFEcGZDYV9SV0xRRU9jcmptTl9udnVISm9URjc2eDVVeFlhRG5fYkU2VjM4blAzaHR3TW9KV2k0WDVmdkUwTG5BZGYwaFhTZ3lLb0xuNk9KaTZ5a2tFWWttZTJRLTZMU3E0WElSaHdUVVdwb2lYN3I3V3VRNjFGbTF0OF9oZHZqMjI3SW9QdXFjLWRKZlhwMVM0cDlPWEFzbFlkWmROYlh4Q19SNkdySUhNa1FMck4tdUtLQ19lME1BdGd0cF9SRHpiNTUzTExNaWVuTkN5ZUHSAYcCQVVfeXFMTmIxcXZmWTRvM3lKNWlMY0pOdTVDZXcyMUVZTTNzeWJIRUotdUl0WjU0QnJyWFNpZWNUVVNudkNsQnRCaERJRl9GWEFvSVVsSUgycThkR09uZGJDX05ZUlFFZl9vbnZQeGdGcG4yaS1saHUxaHUtdjkyTUNpT3pYLVBVX3FZRjF6a3Q3OVpvaGprc2tfYzA0S19aY2V4WHpYeW9STDhvUVpFekQxaUJLbUpjOGJRd2pzeGlKNFFNZXFwY2dvdk1GbFBOSDd1cTM5STdjMDl2RXI1ZmlYZElLdGxmNTZSM0JRdHJvT3gzRGRBbVN6a1JfRGF3M2ZSWXpKWGRRMzIyU1E?oc=5",
-        "source": "El Tribuno",
-        "date": "Mon, 16 Nov 2026 23:44:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Sáenz presentó su libro “Federalismo y Progreso” y reclamó un país que mire al Norte y al interior profundo",
-        "link": "https://informatesalta.com.ar/politica/saenz-presento-su-libro--federalismo-y-progreso--y-reclamo-un-pais-que-mire-al-norte-y-al-interior-profundo_a6afb9ea742fa9d9e6e2ded7b",
-        "source": "Informate Salta",
-        "date": "Tue, 17 Nov 2026 00:29:24 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Dicen por ahí: Sáenz escritor, intendentes de vacaciones, Betty y otras perlitas del saencismo",
-        "link": "https://elintra.com.ar/2026/11/16/dicen-por-ahi-la-inesperada-eleccion-de-saenz-para-presentar-su-libro-otro-intendente-partio-al-caribe-betty-la-escandalosa-y-las-casualidades-del-saencismo/",
-        "source": "El Intra",
-        "date": "Tue, 17 Nov 2026 00:57:51 +0000",
         "sentiment_label": "neutral"
       }
     ]
@@ -6838,13 +6846,17 @@
     "id": "sen-jose-guaimas",
     "name": "José Rolando Guaimás",
     "role": "Senador/a provincial por San Carlos",
-    "total_mentions": 1,
+    "total_mentions": 2,
     "sentiment_breakdown": {
       "positivo": 0,
-      "negativo": 0,
+      "negativo": 1,
       "neutral": 1
     },
     "sentiment_by_day": {
+      "2023-09-06": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2025-07-03": {
         "total": 1,
         "score_sum": 0
@@ -6852,8 +6864,22 @@
     },
     "top_topics": [],
     "quotes": [],
-    "legal_mentions": [],
+    "legal_mentions": [
+      {
+        "title": "Condenan por peculado a José Rolando Guaimás, intendente de Animaná - Nuevo Diario de Salta",
+        "source": "Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTkZTNlBEZUQwTHFHOFJHRm4tMDByUDBDWGxQa3pEeWduOXBqV04talpDU0RfQ2VMU1RvanlXdDRoOUFPUFd3ODVocTRQY09hOVBJRGFwMl90UXNBZG1ZSHU0YkFNaktQYVNVYlJyTGxQY2o1WkpvX0psOFRwVDR1Z1BEWGl4WGhIOFpoVXQzVEFEcU45LVRTWUhUdk53NUNFazJz?oc=5",
+        "date": "Wed, 06 Sep 2023 07:00:00 GMT"
+      }
+    ],
     "recent_articles": [
+      {
+        "title": "Condenan por peculado a José Rolando Guaimás, intendente de Animaná - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTkZTNlBEZUQwTHFHOFJHRm4tMDByUDBDWGxQa3pEeWduOXBqV04talpDU0RfQ2VMU1RvanlXdDRoOUFPUFd3ODVocTRQY09hOVBJRGFwMl90UXNBZG1ZSHU0YkFNaktQYVNVYlJyTGxQY2o1WkpvX0psOFRwVDR1Z1BEWGl4WGhIOFpoVXQzVEFEcU45LVRTWUhUdk53NUNFazJz?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Wed, 06 Sep 2023 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Proclamaron a los legisladores electos en Salta: 11 senadores y 30 diputados recibieron sus diplomas - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN2ZSRnpWM2hBcDUtZlE1aUJOeEg4ekZvaWNmY0VMbmZjdEdOXzFnRFc1TDhMTlFyeGtITUhMMkFta1VhcjFmOTFfTlVBNnJnSTF6d2NXdzAxOHo5T2tVN2hsbDczbTlxVW1nVWplS1VMT1RCcWw2dTY3QUh1VEp2SFJwTXJPb3dpc1c3NjhKcEZLVkRvU1FtR3lSX0YtLWFNQV9NbnNNM3Q0ZnllbVpzb1d1Q3VfV2ZmNlhGSm9HUEpJLUd0dDBadENhV19FWUpCOTZpTGFMZjYyTk01Y05WcTNR0gHnAUFVX3lxTE5DQkVsRFdXYlludVJMWDE2MTdFUWpueEpHN3Jub0wtZl9Zem5ySk5aY0tUdFEwMEZNQ25OSmZjY1c3TXlmYWpER2gtdFNBc0UxeHRYU3dkMGhuM0hxcmRidF9TWmFPZUJNY09LYUdXUDFvTjEzajdRMV96QlJhckgzS3JrVVEwVTRvbUx5aGlHOFhnY1ExWU1lQ2J3ckk2VzFFMmlxNVlHcTF2ck95Q1BTeUoyM0NhNjlXME00NGhTYzdQZmV5Tl9qbDlpSmdaODNuNFBNWHJacmF2YTBJOXZwZWZQNnhIRQ?oc=5",
@@ -10356,13 +10382,21 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 70,
+    "total_mentions": 72,
     "sentiment_breakdown": {
-      "positivo": 12,
+      "positivo": 13,
       "negativo": 9,
-      "neutral": 49
+      "neutral": 50
     },
     "sentiment_by_day": {
+      "2022-12-15": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "2026-11-16": {
+        "total": 2,
+        "score_sum": 10
+      },
       "2025-03-04": {
         "total": 1,
         "score_sum": 0
@@ -10370,10 +10404,6 @@
       "2026-11-18": {
         "total": 1,
         "score_sum": 8
-      },
-      "2026-11-16": {
-        "total": 1,
-        "score_sum": 6
       },
       "2017-07-19": {
         "total": 1,
@@ -10579,10 +10609,6 @@
         "total": 2,
         "score_sum": 0
       },
-      "2022-12-15": {
-        "total": 1,
-        "score_sum": -2
-      },
       "2019-11-10": {
         "total": 1,
         "score_sum": 0
@@ -10623,22 +10649,34 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 5
+        "count": 7
       },
       {
         "term": "juárez",
-        "count": 5
-      },
-      {
-        "term": "proyecto",
-        "count": 2
+        "count": 7
       },
       {
         "term": "alzheimer",
+        "count": 3
+      },
+      {
+        "term": "elintra",
         "count": 2
       },
       {
-        "term": "pasa",
+        "term": "diputada",
+        "count": 2
+      },
+      {
+        "term": "facundo",
+        "count": 2
+      },
+      {
+        "term": "manes",
+        "count": 2
+      },
+      {
+        "term": "proyecto",
         "count": 2
       }
     ],
@@ -10749,6 +10787,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Mónica Juárez no se anda con chiquitas: despidió el año junto al gobernador de Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdk10emxvWk5PTUNRYk5HNmFIMUlyZldVSG5JS1k0c3NBcTJWM1JnUm1LbEQ0RFdja0ZRUnNoVm5COVVmUVR2MWdlaGViMXlMdmlXMHNrT25VdUtSeTJQR2YzTFJ2T0F5UEt1NzJIZ1NlV19BeUc0bHExcVVvTWVBSERWMzVuYWtNVm9GanNKdHRCUGRVMkF3NmdXdmotZzY5RnVlZU13Y0ZTVXZjQjJrMEpRYVU1N0lOWkE?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 15 Dec 2022 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "La diputada Mónica Juárez impulsa una ley sobre Alzheimer con el respaldo del exlegislador nacional Facundo Manes - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeE5wOHhKU1AzMG1jOXhobGk5STFzYUNBNHNwOGhna1pNa0E4UXhEekVDdjdDemJLSjlGaDBGU1RPTzlicU85X3ZGN1RKR1RzWHRBQ2hVOXZPSXZSVk94RHU0dTJteVZoZG1Ib1VROWpPT0ZzM3JDbVVFSEpfeWF5dFkwakg5OG9FR1l0N0hscnUzTnVwcmxYYnBXRzM5UmlBSmxjTkZUVVBRTkVfakpWMmJ0SGtKSjNTaGxVN2NzOTBiSUpFTnNuODltUnI2U3pTYVRoUEpYa2trTWJKbENoNU9B?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Mon, 16 Nov 2026 14:12:44 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Mónica Juárez afirmó que espera ver caras nuevas en el Congreso - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSTJOUzl6T0hpUGMwRy1PWVpQUUp6NXRIYzRCVGotT3hfaGpNOXMwTGV4MURmaFVoNkUxYTF6VE9ocFdvd3hxaDZ0VUo5bUxmeHJqeFB5QmtKNWNka3dJSE9LbXZIMlVPTDVzSXhJdzM1ZlhvaF9Pc0JwVEhPXzVxa29MYnJOTVpyblB5ckgtVWE0OTg0c19fZ2lsM0lVbkk?oc=5",
@@ -10943,20 +10995,6 @@
         "link": "https://www.eltribuno.com/salta/2026-10-7-1-48-0-el-senor-del-milagro-esta-muy-enojado-durand-cornejo-se-cruzo-con-monica-juarez",
         "source": "El Tribuno - Salta",
         "date": "Wed, 07 Oct 2026 04:48:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Mónica Juárez logró la aprobación de una ley que obliga a padres a involucrarse en casos de bullying - Aries On Line",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaTlVc0g5UzAycDlvQ3dqaTk1NGlBYjRnYTVPRnY3WmRqMVR2V0xaZS1ERXdTTGFGNHBPNFJFQjVJRnMyMjVHenpyb0JieXpad1AyNjJEV2JjMmRBOUMzcUhLdDhkMXVNeEhNTWdZc1hIdEUzOTYwQXlDNzNPNWJLZHBjdjdKZUdPTHRDZVRMcUJGY19vSzI5VEx5UWM1dW51eFhMTnROZFdLM2doSTZ3YWRxbmxjOUZIZXY0Y3QzdnRYQdIBugFBVV95cUxQUlhuSDBFX2FkVmxINWprNzdEMFFsWFdHS01pb2h2a291eWFVUWxpQmFCdEprcXpfemsxbEZmU3M0M281MVBSMGRWWnhnSEk4cVFJdWViTTRtcmNhaHFrT3k1dGVTT2RxckdQRC1ETFhzUkNVaWZZRlZOU3RRcXRfZk1TZGZ0OWdacklBTjVCdkpEYlhFM3NmaDc3ZEx1Yl95ak5OSmQzRlAwbmpXZ1FLZ0pHM3I2NGg0ekE?oc=5",
-        "source": "Aries On Line",
-        "date": "Tue, 07 Apr 2026 23:16:40 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Mónica Juárez insistirá nuevamente este martes en la capacitación de la Ley Micaela - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOazQzZ1Z5R3FjV2R1cndFVTg4amhjVGdkR1FGcHp0QUZLLWVNaGhRMGNWS1BKdjdkNnZZdGxnUjNMLU1IRVBpUlhQY195YWFybzdpMDJ2aG05U2xhYS1sOXdBZ1JCVlp1SUl1N1ZVVGo1Mll2aWhyQ3BVa2Nac1ZZbEJFQkZKczNUZ1h0VFY1WWEwVVNOV3pDOXhfRFNzT1lTOFVxaEtPb2FKSGNPZld3RlZnM0Y4WFpXWWdIZElxX3B2TDDSAcMBQVVfeXFMTms0M2dWeUdxY1dkdXJ3RVU4OGpoY1RnZEdRRnB6dEFGSy1lTWhoUTBjVktQSnY3ZDZ2WXRsZ1IzTC1NSEVQaVJYUGNfeWFhcm83aTAydmhtOVNsYWEtbDl3QWdSQlZadUlJdTdWVVRqNTJZdmlockNwVWtjWnNWWWxCRUJGSnMzVGdYdFRWNVlhMFVTTld6Qzl4X0RTc09ZUzhVcWhLT29hSkhjT2ZXd0ZWZzNGOFhaV1lnSGRJcV9wdkww?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Mon, 08 Apr 2024 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -15149,13 +15187,17 @@
     "id": "dip-rogelio-guaipo-segundo",
     "name": "Rogelio Guaipo Segundo",
     "role": "Diputado/a provincial por Rivadavia",
-    "total_mentions": 11,
+    "total_mentions": 12,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 2,
-      "neutral": 9
+      "neutral": 10
     },
     "sentiment_by_day": {
+      "2024-03-06": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-08-20": {
         "total": 1,
         "score_sum": 0
@@ -15185,10 +15227,26 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "rogelio",
+        "count": 2
+      },
+      {
+        "term": "segundo",
+        "count": 2
+      }
+    ],
     "quotes": [],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "La diputada Galleguillos se burló del legislador wichí Rogelio Segundo - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkNWWGUzamk4RE5oYWYwaFV5akxrXzYzT1FtMHJHTEh4R2hVdVpxSDM5OWdoU0hFMXI2Z3JDTzVMbTVlaVQ2QlVibFJ2MktyMzRFNC1uMXotMXVJMVhHQllUeDJGZDJSMkZKTHNYSUdQckNZLXAzRko5c0ZpS3A0bjM2VzR4aHFHaDN4SHdpX0VlUkYzV0xyb2Y2TnY5UVZLQ1NZYk1zUmY?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Wed, 06 Mar 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Últimas noticias de Rogelio Segundo hoy - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13VlpXdldPN0I5TDZoUjE4cVdGMWFxQWYya01rMEZnQXdXMHpXODF6Wm5iMkgwMFJaZzd1VUVwZjcxSHM0bGw4WW52Vm0zWHFwX3ptdnlUbVZYNUNVQXB2RDVKcUJnVkNU?oc=5",
@@ -19091,13 +19149,21 @@
     "id": "concejal-malvina-gareca",
     "name": "Malvina Gareca",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 51,
+    "total_mentions": 53,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 9,
-      "neutral": 37
+      "neutral": 39
     },
     "sentiment_by_day": {
+      "2025-07-17": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "2026-11-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-12": {
         "total": 2,
         "score_sum": -1
@@ -19206,10 +19272,6 @@
         "total": 1,
         "score_sum": 0
       },
-      "2025-07-17": {
-        "total": 1,
-        "score_sum": 0
-      },
       "2026-03-06": {
         "total": 1,
         "score_sum": -4
@@ -19291,8 +19353,19 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "concejal",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Vamos a pedir la destitución del concejal Pablo López",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPanZJX3d4TTRXbWtZSTBqRHlmY296SFRSLWZ3QXNrVmhmeWZaTVdSWUV5M2FiZUJkc0xyVWNBQ01Jbnl2aC1TajAtMl9VYWtXbTVDNkFOMGVQY1NVTFJ4SXpnanlQQ2RUdlFSRkxVM0tUS2xoc3VJWHRYalN5RV9Ma0ZvSnk0X1pUbUdNeW5zWFhEMy10TEE3cXVlYWFVTm9Ib2NPcnZlT1k2YVl4eFhGYmZkNWxkY2tRbHdiTkFJX2ZhcXcyRHQ4TFE1UlU5UjNWMVdIbktfU0lZblFqeFHSAewBQVVfeXFMTXd5cXZqOHM4bF9XRmprNGRSX1BtYVV5VHZFM1hzZWplQ0pTRS04SEdNd2oxel96dTEzZ3BnUzFoTmNIeEV5Um44OVRvQ0hjWXRPVklTRzJyMHpzT1h4RGd3WVcyd01vZVlUU2lUd1QxN05jT2VKQTVNYUVQNVpuOTZMYS1TX21iYTVFVmtBbnl0eFpFSVRvMV9DZXRIZWhJU1pmVktoQUllNk1aOXMyQVFoUWVpOEpYNE94VVFfd3FzTEdBWDhacDhmT0VFZHNCRkxUSUszekpuZHlWNE82c2NQNm9hY2Q3WGRQTlA?oc=5",
+        "date": "Thu, 17 Jul 2025 07:00:00 GMT"
+      },
       {
         "quote": "país soberano",
         "source": "Elintra.com.ar",
@@ -19405,6 +19478,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "\"Vamos a pedir la destitución del concejal Pablo López\", adelantó Malvina Gareca - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPanZJX3d4TTRXbWtZSTBqRHlmY296SFRSLWZ3QXNrVmhmeWZaTVdSWUV5M2FiZUJkc0xyVWNBQ01Jbnl2aC1TajAtMl9VYWtXbTVDNkFOMGVQY1NVTFJ4SXpnanlQQ2RUdlFSRkxVM0tUS2xoc3VJWHRYalN5RV9Ma0ZvSnk0X1pUbUdNeW5zWFhEMy10TEE3cXVlYWFVTm9Ib2NPcnZlT1k2YVl4eFhGYmZkNWxkY2tRbHdiTkFJX2ZhcXcyRHQ4TFE1UlU5UjNWMVdIbktfU0lZblFqeFHSAewBQVVfeXFMTXd5cXZqOHM4bF9XRmprNGRSX1BtYVV5VHZFM1hzZWplQ0pTRS04SEdNd2oxel96dTEzZ3BnUzFoTmNIeEV5Um44OVRvQ0hjWXRPVklTRzJyMHpzT1h4RGd3WVcyd01vZVlUU2lUd1QxN05jT2VKQTVNYUVQNVpuOTZMYS1TX21iYTVFVmtBbnl0eFpFSVRvMV9DZXRIZWhJU1pmVktoQUllNk1aOXMyQVFoUWVpOEpYNE94VVFfd3FzTEdBWDhacDhmT0VFZHNCRkxUSUszekpuZHlWNE82c2NQNm9hY2Q3WGRQTlA?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Concejal protagonizó un siniestro vial",
+        "link": "https://informatesalta.com.ar/accidente/concejal-protagonizo-un-siniestro-vial_a6b00a3becd25aee288579cab",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 20:00:38 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Malvina Gareca expone la doble moral del gobierno y la Carpa VIP del Papa - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNkhmeHI3TS1hZm1kNnJHMFA1dHRqd2tEODFxUTMyQnZnRXY1X1c2eFRZcndqLUZ1cERLdWNjaVI4cEs5VzFUS1VKUU5sOHBFSHBab3prWkFyVkI2UVdfdXFIMkw3VlREYkFTUzBxZzlNeElLZmRKeWhDNlpLV25yWGZ1RUJRTzRmMktnMVR3T0NmX09jMFlKNjd0Y3JGb3UxRlZIX01GSXQtV2Y5eGREbVZfVXQ0ZFc5MWxGanZLdw?oc=5",
@@ -19600,20 +19687,6 @@
         "source": "eltribuno.com",
         "date": "Thu, 28 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Convocan a la unidad para conformar \"un gran frente en defensa de Salta y el Federalismo\" - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQeDJoSjJUaGxxd1ByZWtEV0JEQjFYdGsyNGY5cHN6dzZTTkF2bjRuVTZ5WG5CajlHYUlqWUtMWEpPX3lYVFk4V1VaTHdRNnpQeS1Ya2VwN1dSVmxOYkUwN0xrZTEycEJGZ0FQRnQxdEo0UGI3MHcybEVfdzc0ekdkRlgzOW9nTC1FdjRpSlR6bV9aVUZuLWgzZFI3UzVoOG5iTm91V2dlZGl5WXJRTXZGVndHWGJmZ1NLd0E3RnN5ZGIzQWI5S2VwSmt2TUhLeTBIaGRTUDJMNjkzV3c1UEZ4djNZSnRkYTdxQWfSAfgBQVVfeXFMTmw0R05mM1VJVEFpM3pISzVLMTZoSl9TUjNvTFVOVDkyWXNTcmdDbnNvanJocmF1LW00U0NwcWF1TXA1QWw4Sk1MODJIZTV3MElEYmRHSE1zdWVLZFNfNE9WaGhWZ2s3OUtvS1RabkJKNW9zaTdDdHh5U2o5S1Q2a0hWMmJSX3RtSFlNa0RocEgzWjlHQW94NlVuVXBaT0xmM1dFdHJ6Rk5TMkFRQmZ1RHFxeUc1dmRPbHpUM0R6SENCZHRKMHZaSDMyYjF3ZGtnX0lNSTE2a3JyQXRfUmozSzFHQ180WGszMDdvR2lQeDA4UVdRaXNUWks?oc=5",
-        "source": "Informate Salta",
-        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Crece la polémica en el Concejo Deliberante: pedirán la denuncia contra Casasola por violencia de género - eltribuno.com",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLWhtcGkwcmlyekdKem9GX1NIOGI4ZTQ1NS1BOU02X0ZodHl1aEg5ejVtakxiZ0RFdTdxXzRVUjY4dWZMSFA1NGpqclZuRjZPdzQzMkVHU2JFTy1PLXg0MFV2eUJmYjF6ZElVTEpQV0dLaEdJWTB4Ulpwb1pVMC10dE0zR1BvWF8tR1d5c1hVcllHS1JPeHJmUG5jVHllSVFRUVJhc2xLbVAwZXQ3UTEyYzB6VWFiRGtsdlNWYWtTZHZPMUUyeFhiZ094YTJzaTU5TkQxNTNxcVRzUXlhRTloRWZaSXVWTXfSAewBQVVfeXFMTmFKcXc1SFppUklhYlZ4OFp0THVmMWVJaXN0S1RlemdGVkhxUzYxaVNhMWhUOURFYmt6YVl4aEc3bkQtTExHU1ZEd0szdHlFUG1lOXNNanhQX0xtSEkwbXBiNEVNak9MeFFna2dnT2tFNWdEa0wyQmZ3NjdFYjBHY0Z4UGQxOTVJLWhGc2pkbkttN25XMWFVbVVqbkVQX0xjSzQzVnBZR1g3WHo2Y3lBNE5MM29vdi0yc0YzRDNocXpiUTBGWmpoVUo0Q0M4RENhZFVMdWlHNVVOUVAzaXVmS01Ick9TSzFsbmc4QXM?oc=5",
-        "source": "eltribuno.com",
-        "date": "Fri, 06 Mar 2026 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -21015,13 +21088,17 @@
     "id": "concejal-dario-madile",
     "name": "Darío Madile",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 80,
+    "total_mentions": 81,
     "sentiment_breakdown": {
       "positivo": 5,
       "negativo": 12,
-      "neutral": 63
+      "neutral": 64
     },
     "sentiment_by_day": {
+      "2026-11-20": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-19": {
         "total": 1,
         "score_sum": 1
@@ -21318,10 +21395,14 @@
     "top_topics": [
       {
         "term": "madile",
-        "count": 3
+        "count": 4
       },
       {
         "term": "darío",
+        "count": 3
+      },
+      {
+        "term": "candidato",
         "count": 2
       },
       {
@@ -21458,6 +21539,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Darío Madile confirmó que quiere ser candidato en las próximas elecciones - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXhWVktuakNTLVVIdm1qWTRQZUtlamZBekdKN3ZEdFpuN2ZtSU91akZaSTZHV214VEsyT1dPMDlIRXVxTDIzU005cGJyMXlLT1BiWHpnRnYzdjYtR21JSll5UDNVYkhHSlV3SWhnZFR5ZFdjbGFuZEVXOTZteUdDNXYxZWZTSmlEZ1dsZVJ5VTVGaUxsd3NMZV9Gbnd0T2h6Y1F0V0VGbDh0UE5Q?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Fri, 20 Nov 2026 18:02:47 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“Yo voy a ser candidato”: Madile se lanzó para 2027 y respaldó a Sáenz y Durand",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-yo-voy-a-ser-candidato---madile-se-lanzo-para-2027-y-respaldo-a-saenz-y-durand_a6aff2567cd25aee2883c500e",
@@ -21659,13 +21747,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHlvdG1seDF2REZHZnFzWmo4VEI5dGFaRzBvMENhR25sYUdBV0pUNzNzeXJVbVF6N3FLMUZvbWhjRmlkRFp3OThiY2F5WHNxQzRIR3FSdGl2c2JDN01QQ1Q0MmxoWnlQTEpxazVQc19PekZ2ektGa2JjLVp0UUdIN3RQZTdQX3dmZmNhTHZyU3FnVmEzaXJkX3ZGUWdubEVMTUl3QkhaU0RfOHNERkh0QVFMeTR1a1VSN1VLa29mbklLQQ?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 11 Jan 2024 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"Dicen por ahí\": la oficina de rey de Darío Madile, casamiento incómodo para los hermanos Biella y Mariana Reyes mendigando fotos con Cristina - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPblNpeTY4dDRnVHZRNWVMSmZzZFZlcmQ4NlpjMW80SlZVSXhDUzlYY292Wl9OSkd4UC05Y1NiV0JmQzFGU0ZmaFA3UnRfOWFmVEtQcXpoTXFTZm9wb0wzRm9SYXVlVWFmWWtvVTZWS2JYS3dJakpBRV8tZnJZTjhBVHkyTFJyZFNoeXBjamd0MDlzMjJUUnV6U0s1LTRlN2RwTnB3YzdpVmJjbDNuX0tWS09TTFpraWtST01raGNlbjN3SDRRSERFUVdBUzB1V3dzRjhTMm1KaGF4N3p4bGZVY2ZaZnZrZUpmWFZhYzFXV1hpcm9HSnE1NzA4TXRkdU9wR2g4?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 13 Mar 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -23123,20 +23204,20 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 134,
+    "total_mentions": 135,
     "sentiment_breakdown": {
       "positivo": 13,
-      "negativo": 17,
+      "negativo": 18,
       "neutral": 104
     },
     "sentiment_by_day": {
+      "2026-11-20": {
+        "total": 2,
+        "score_sum": -3
+      },
       "2022-08-08": {
         "total": 4,
         "score_sum": 0
-      },
-      "2026-11-20": {
-        "total": 1,
-        "score_sum": 1
       },
       "2026-11-19": {
         "total": 1,
@@ -23538,11 +23619,23 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 7
+        "count": 8
       },
       {
         "term": "royón",
-        "count": 7
+        "count": 8
+      },
+      {
+        "term": "voto",
+        "count": 2
+      },
+      {
+        "term": "discapacidad",
+        "count": 2
+      },
+      {
+        "term": "reclamo",
+        "count": 2
       },
       {
         "term": "nueva",
@@ -23676,6 +23769,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "El voto de Flavia Royón por la ley de Discapacidad y el reclamo en Salta",
+        "link": "https://elintra.com.ar/2026/11/20/camara-alta-voto-flavia-royon-ley-discapacidad-reclamo-salta/",
+        "source": "El Intra",
+        "date": "Fri, 20 Nov 2026 20:54:09 +0000",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Últimas noticias de Flavia Royón hoy - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51WnNZdmE5VFJOakx3ZEJtS2NqSFV0RUdiVG1DeDNDRjFnLUdSc19IbW1RZ0Y0eFNfU1c1MWhBa1VxWTF5Y0JrVWlqTVBfSWNEMGpWemJCY1BFNnpKQzJ2TFZWM1M?oc=5",
@@ -23878,13 +23978,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 04 Aug 2026 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "All posts tagged \"Flavia Royón\" - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jZ2dkUHNUMWxSYVVGaFFzZnlZSlRSNmlrU3ZaOUVkYmx3TDgweWRLd0pBTXhqakhTSFYtQ2JqN0V1eVRPd25ycnFoOEY4ZElFTFE?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Mon, 08 Aug 2022 10:43:30 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -23892,13 +23985,17 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 126,
+    "total_mentions": 127,
     "sentiment_breakdown": {
       "positivo": 9,
-      "negativo": 22,
+      "negativo": 23,
       "neutral": 95
     },
     "sentiment_by_day": {
+      "2025-09-16": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-20": {
         "total": 1,
         "score_sum": -6
@@ -24356,6 +24453,12 @@
     ],
     "quotes": [
       {
+        "quote": "No lograron nada para Salta",
+        "source": "Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVGdDNWlzQWEzTEt3cHNaVTR2amVFUEdVZmNRUU1FWlhDRGVBbDh3WTFYaExXYnBzODR4b2ZnVjJuUmRfZGdSeVhpdHJwcHIxcGpiSnlVc2xwRzRTQ2E5Y0V3S1ZmN1FCOVZnLWJpSGp3WHNkRWF5aWtMNnJQbGlkb1VLS1lBX2ZHal9qR2NUaXU5V2xWVWZiWmtNdEtqWDdOQVMzUWRrQ0ZUcDBoakNNRXQzOU5GcllZWGxN0gGzAUFVX3lxTE84cm96NWZ2VzBXTjFiOThOdmVDU2lfejBjSDBPR2d1QnAwdF9BVlNuaDJJRFpYM3FCRk1oUFFLUXU0TU11WWJjaEQyaFdJSk51bXdKbVFwWTRvTUk3MDU2ZXBUS2NPWVU2TnhjVDhUOEh4WXFqTjQtdmdjQVBpSGVMRWxTRVRXRVBELUFCUUJ1THpYQ3RfRm1QTlBaWkR1NkltYjZWLVhza2hraXpyRkhIREln?oc=5",
+        "date": "Tue, 16 Sep 2025 07:00:00 GMT"
+      },
+      {
         "quote": "¿Qué gestión trajo para Salta?",
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/politica/--que-gestion-trajo-para-salta----fuertes-criticas-de-koky-juarez-a-los-libertarios_a6aff789ccd25aee28843a3cc",
@@ -24438,12 +24541,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaXVSZ09iYThJMTlpR0tZaTNsQ2JONGtpdFlTY05fMXRweFhxeURwQTJybVBwV2VDYW5vcFRfeHByeUZ4RFh4SUtyQUprY1hwaEtaczBEX2lJeERGNUYxQWIxYjVxVjlVeUhvRFBkVlJXV2VzRVBWSlZ0djdUeVFwdnhDZlo5aC12OWdwS1ZHSHl4ZDJSbkd1TXY4RXBXLWs5LXRWMEJqTXVmSERLSzZvVDhaVDdYVFpsUjlrZ21sS01samJaYjY2akxhN1d6dWJhNFRuVA?oc=5",
         "date": "Tue, 27 Feb 2024 08:00:00 GMT"
-      },
-      {
-        "quote": "industria del juicio",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQzRCaUkxalNUcUpaWEhJd0VSM1lwRXVjZkpDSF9jSmZLV0xRd0o0b01RQzRDSkFRVkswcEh6QlZtZ2VOeWRUUzBPR2dJYnUyaXBjSDRyNm81b09QR3lzQ1l2TGFiWWxNdDZHOUJqSU1tQm9ENnFMaDh4U2k2b29heFZQOUVJSmZ3eDNSdzl2QS1hVlhsa1lNYTUyS0hMUTZRN05zZnZrRDRtLVJSM0djWF9wZEoxY1psZ3FFWVhjTmxOM2VtOG10OUYwU0Z5QnA3bnc?oc=5",
-        "date": "Wed, 11 Feb 2026 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -24485,6 +24582,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Jarsún cuestionó al olmedismo y a Emilia Orozco: “No lograron nada para Salta” - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVGdDNWlzQWEzTEt3cHNaVTR2amVFUEdVZmNRUU1FWlhDRGVBbDh3WTFYaExXYnBzODR4b2ZnVjJuUmRfZGdSeVhpdHJwcHIxcGpiSnlVc2xwRzRTQ2E5Y0V3S1ZmN1FCOVZnLWJpSGp3WHNkRWF5aWtMNnJQbGlkb1VLS1lBX2ZHal9qR2NUaXU5V2xWVWZiWmtNdEtqWDdOQVMzUWRrQ0ZUcDBoakNNRXQzOU5GcllZWGxN0gGzAUFVX3lxTE84cm96NWZ2VzBXTjFiOThOdmVDU2lfejBjSDBPR2d1QnAwdF9BVlNuaDJJRFpYM3FCRk1oUFFLUXU0TU11WWJjaEQyaFdJSk51bXdKbVFwWTRvTUk3MDU2ZXBUS2NPWVU2TnhjVDhUOEh4WXFqTjQtdmdjQVBpSGVMRWxTRVRXRVBELUFCUUJ1THpYQ3RfRm1QTlBaWkR1NkltYjZWLVhza2hraXpyRkhIREln?oc=5",
+        "source": "Aries On Line",
+        "date": "Tue, 16 Sep 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "“¿Qué gestión trajo para Salta?”: fuertes críticas de Koky Juárez a los libertarios",
         "link": "https://informatesalta.com.ar/politica/--que-gestion-trajo-para-salta----fuertes-criticas-de-koky-juarez-a-los-libertarios_a6aff789ccd25aee28843a3cc",
@@ -24686,13 +24790,6 @@
         "link": "https://elintra.com.ar/2026/10/31/libertad-avanza-emilia-orozco-candidatura-gobernadora-desmentidos-dirigentes-salta/",
         "source": "El Intra",
         "date": "Sat, 31 Oct 2026 16:44:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"Nunca me postulé\": Emilia Orozco ahora descarta la gobernación de Salta y cuestiona a periodistas - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRXpoUWVCdXpHQVpkTUVmYVZPbVN6djVnVUZ0NzBXSXFGQjl6RXQyZ0d6ZWtubklleGk0TU1VYzRQWkdwRmVGWEFQT09zQ25aRTVUYnZBUnluY3NzQjBpdUU2TW1PU3ZkUEJBRlliQUlhLU0tdXp5amFwbl9QTnEwV1RXaWM3QUVKbzdnbWpTZ2pPRFJ5ek9OaTlHV3pKaGdQS2ZFMnNCbmJjV3hIZHl0RnhKX1ZMWFd1bW9CN0N2MHNUWWpsd3JvV1Vn?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 09 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -25942,13 +26039,17 @@
     "id": "dnac-carlos-raul-zapata",
     "name": "Carlos Raúl Zapata",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 52,
+    "total_mentions": 53,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 8,
-      "neutral": 40
+      "neutral": 41
     },
     "sentiment_by_day": {
+      "2016-11-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-08-07": {
         "total": 1,
         "score_sum": 0
@@ -26161,11 +26262,19 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 4
+        "count": 5
       },
       {
         "term": "zapata",
-        "count": 4
+        "count": 5
+      },
+      {
+        "term": "elecciones",
+        "count": 2
+      },
+      {
+        "term": "informate",
+        "count": 2
       },
       {
         "term": "habló",
@@ -26177,6 +26286,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Carlos Zapata va a ser el próximo diputado nacional",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXludWNwZ3B4dVlza0FOVnVCbjg5WXBEZHBNTncybnNQZTBpeUFDWVpzdGhlUThpaTJmTFJ2TmZuNE1VcVYxY0pib1V3cWt0ZE9ibEJhcGRqMGxMcC12S21UanowUVhFbXR0RGQ0SnhQckl6WDZxczJxYkN5cnlpd0RWYmVaamtibXlsSWVIZ3RMTkh4ak80bV9halA3MmlpR3J3a3hEckxQb2NsUHhGNlhMWnJ1MFhqWjlfNUVUUW03QlIta1c0dlVKUm9JbndM0gHfAUFVX3lxTE5sdkdYb3VPQXFfY0Z3cG5lbnRmS1Y2V19NbGphS2hhWkpObWlCSDRMTm9NUFpxclpvMlRuZHgtUXo2eDZuWVQyajBEY3I3UHh4eERLQ3lRWURmbVdMWWxHelg5VF92YndVaFM4OGZ3V0ZibWM1OXBacllPUXZzTnNqeElmdkNsWGRIOUNOZnBoUDQtZVRPd2FGemV6Q2Q4MzlSTTlPbWRuR2tzMEptcUZQeF9Ya1FMUWszR3BkYnNNam5GRmZmeDhpLWZtcWhtOFdLX2dPeVhkTDRXenBVS3c?oc=5",
+        "date": "Wed, 16 Nov 2016 08:00:00 GMT"
+      },
       {
         "quote": "Esta Ley es buena, va a darnos la posibilidad de generar una Argentina diferente",
         "source": "Elintra.com.ar",
@@ -26260,12 +26375,6 @@
         "source": "Informate Salta",
         "link": "https://informatesalta.com.ar/nacional/-cagon----vende-patria----tontita---viejo-facho---el-debate-sobre-malvinas-con-escandalo-entre-grabois--zapata-y-otros_a6abd7355488955bbb7910fa1",
         "date": "Wed, 30 Sep 2026 20:54:32 GMT"
-      },
-      {
-        "quote": "Hay que acabar con el gobierno 7D",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFJOLVJneHRYNEVaNkgtYkswV3MzTG14UEpPNXhTZml3aGNLOFdDcF8xc2t0TF9hN1RqZmFhdG5ncmd5MWRwY0h1OWdPb2hpLS1ibjFvY0I2eEtwaU1mcGV1NzFVTWt6czh6OHFDVXpNWWMwUlVlVGRVSlplSjkwckFwbDgzOTdWNkpPdFFOaVUyT0FfQmdkSVlfOUFodDVmbFJTUg?oc=5",
-        "date": "Wed, 31 Jan 2024 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -26283,6 +26392,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Elecciones 2017: “Carlos Zapata va a ser el próximo diputado nacional” - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXludWNwZ3B4dVlza0FOVnVCbjg5WXBEZHBNTncybnNQZTBpeUFDWVpzdGhlUThpaTJmTFJ2TmZuNE1VcVYxY0pib1V3cWt0ZE9ibEJhcGRqMGxMcC12S21UanowUVhFbXR0RGQ0SnhQckl6WDZxczJxYkN5cnlpd0RWYmVaamtibXlsSWVIZ3RMTkh4ak80bV9halA3MmlpR3J3a3hEckxQb2NsUHhGNlhMWnJ1MFhqWjlfNUVUUW03QlIta1c0dlVKUm9JbndM0gHfAUFVX3lxTE5sdkdYb3VPQXFfY0Z3cG5lbnRmS1Y2V19NbGphS2hhWkpObWlCSDRMTm9NUFpxclpvMlRuZHgtUXo2eDZuWVQyajBEY3I3UHh4eERLQ3lRWURmbVdMWWxHelg5VF92YndVaFM4OGZ3V0ZibWM1OXBacllPUXZzTnNqeElmdkNsWGRIOUNOZnBoUDQtZVRPd2FGemV6Q2Q4MzlSTTlPbWRuR2tzMEptcUZQeF9Ya1FMUWszR3BkYnNNam5GRmZmeDhpLWZtcWhtOFdLX2dPeVhkTDRXenBVS3c?oc=5",
+        "source": "Informate Salta",
+        "date": "Wed, 16 Nov 2016 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Carlos Zapata habló con Jorge Rial y le desmintió su participación en una reunión con genocidas - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeW8yMFQ3N09HNzIzU2VLVkdwa3RiY2pFQ3htMlhpeTdYTlFKN3V6c2lQTmI4dUhCMG5wTEp4U2lNZTlhWmo0b3pIM3RsU3VJdGNxaWxrNHhYejRtTldRM2hTR3FnWmhGWVZrMG9pYk9Ja1ZVMjZBcGNEenNfMXBmVnJBMHdHbzN3ZlRXc0ROcEc2NjlpQUNzOUVkZmpoSUhxMzA4S1c1T3E0bGNmMFN5VVRwUUdKWXlOcHhfQ1dBM3hnQVRXYVBjdDlR?oc=5",
@@ -26485,13 +26601,6 @@
         "source": "Elintra.com.ar",
         "date": "Thu, 02 Mar 2023 08:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Para Carlos Zapata, la reunión de Sáenz, Posee y Francos «no fue más que una foto» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX2g4bDdnREdsem4yUFN2UTRxVEk1QVh6ZjY0clluWi13ZVdLLXZNTkVWUlF1NGZLbXRteW12dGNvZE1jTFNQbkdSd3l4cVgxa2pmZlRzMFZxWS1SUzVUUk1udURwSGp0SDlueWNsTzZlSHIyRXlfU1ZiWjZGbVJucUZpd0dBYUMtb2NBYWQ0eGg1YUJKYnZZYk51djdCN251Y0daNlJEb3QxUE5qRlI2dGhYMA?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 28 Nov 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -26499,13 +26608,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
-      "positivo": 8,
+      "positivo": 9,
       "negativo": 8,
       "neutral": 29
     },
     "sentiment_by_day": {
+      "2026-11-20": {
+        "total": 1,
+        "score_sum": 4
+      },
       "2026-11-19": {
         "total": 1,
         "score_sum": -1
@@ -26662,7 +26775,7 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 4
+        "count": 5
       },
       {
         "term": "bernardo",
@@ -26690,6 +26803,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Le modificamos 18 de los 23 artículos",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-le-modificamos-18-de-los-23-articulos---biella-detallo-los-cambios-en-la-ley-de-discapacidad_a6b00668dcd25aee28851f0e4",
+        "date": "Fri, 20 Nov 2026 17:00:00 GMT"
+      },
       {
         "quote": "No es condonar las deudas",
         "source": "Informate Salta",
@@ -26777,6 +26896,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "“Le modificamos 18 de los 23 artículos\": Biella detalló los cambios en la Ley de Discapacidad",
+        "link": "https://informatesalta.com.ar/lup-94-7-salta/-le-modificamos-18-de-los-23-articulos---biella-detallo-los-cambios-en-la-ley-de-discapacidad_a6b00668dcd25aee28851f0e4",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 17:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Debate por el proyecto de Bernardo Biella sobre la condonación de deudas a clínicas privadas",
         "link": "https://elintra.com.ar/2026/11/19/salta-debate-proyecto-bernardo-biella-sobre-condonacion-deudas-clinicas-privadas/",
@@ -26979,13 +27105,6 @@
         "source": "Informate Salta",
         "date": "Tue, 06 Oct 2026 17:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Bernardo Biella lleva al recinto su propio dictamen para el desendeudamiento familiar",
-        "link": "https://elintra.com.ar/2026/10/06/bernardo-biella-deudas-familiares/",
-        "source": "El Intra",
-        "date": "Tue, 06 Oct 2026 19:51:12 +0000",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -28513,13 +28632,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 31,
+    "total_mentions": 32,
     "sentiment_breakdown": {
-      "positivo": 5,
+      "positivo": 6,
       "negativo": 3,
       "neutral": 23
     },
     "sentiment_by_day": {
+      "2026-11-20": {
+        "total": 1,
+        "score_sum": 6
+      },
       "2024-08-14": {
         "total": 1,
         "score_sum": -2
@@ -28713,6 +28836,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Diputados avanzó con el proyecto que promueve la Economía Circular del Plástico en Salta",
+        "link": "https://informatesalta.com.ar/legislativa/diputados-avanzo-con-el-proyecto-que-promueve-la-economia-circular-del-plastico-en-salta_a6b008809cd25aee2885591a0",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 17:30:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Gastón Galíndez reveló a quien apoyará el PJ en la renovación partidaria tras la renuncia de Alberto Fernández - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcVJ2QVVTZDlMVTlwQUF0VFRGNnVMM0pDYmxjeHNHZGpnTUpQcVU2S0NVeXBPRFFCbUxEdVB3RDMwN2NsMmxNQXgzcXQyQ3pfX2o5Q0h6SFFYeEtYMHZkcWNMR3oxRW1Pd3lKa2U5NkpGUm1YN0o1ZkNOSTR5YnZfWGdwbWlVcXhobFJwQmU0c0cxVkJvdks2Zy14YUVPd2ZnRmJuQ1NzY19JTmdwaTZvci1LWEYtZHF1aVBMQU5qNGltMUxuQkh5V0VQcGVWeXVfcjh1Vk1wel92dnczZUE?oc=5",
@@ -28914,13 +29044,6 @@
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkxxUmJaa3B2NTF4VG1WMUxqUzJ1MUFkT05lc1JMd1hxMVQ3ODFTVzE1eGttYXNPNjdieDBTWC1lNmtnb0VrWUZLa09LWm80cV81UXZPd1RSTmhCLVhsTmViVzB3bnZETVAxbmo4TkZEemV1cFl5enU5M0NObVQ0b3hkVlZyNElDVFdoZDdJWXYzbm80ZGFrWW5IY2dleGFiZ3NuOU1yaklZSTBkUkZ6TjNnN1ZWeVJSS1E?oc=5",
         "source": "Elintra.com.ar",
         "date": "Tue, 31 Mar 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gastón Galíndez se consagró campeón Máster en la Copa Metán 2025 - Nuevo Diario de Salta",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNlFFUlFQajdYQldfaEphMVUwQWJEb0dlLTJhRENfUzZUWGpNSFBucVhjUm1JR3E2ZzJMdGZLRTNOZUVibm9DMHNGd2hXMnc4bDlBUkgtemJ2MF9ROGV1aGx1cU9EZWtQellfR2R5UENTb2FVRlI2OUxaaFgxSkN3SVBlb2s1cXE3bVlnMk1DbW9OZl8yUHhadXpVTXNZQVVC?oc=5",
-        "source": "Nuevo Diario de Salta",
-        "date": "Mon, 15 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31821,13 +31944,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 37,
+    "total_mentions": 40,
     "sentiment_breakdown": {
-      "positivo": 11,
-      "negativo": 3,
-      "neutral": 23
+      "positivo": 12,
+      "negativo": 4,
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2026-11-20": {
+        "total": 3,
+        "score_sum": 1
+      },
       "2026-11-19": {
         "total": 2,
         "score_sum": 3
@@ -31935,6 +32062,22 @@
     },
     "top_topics": [
       {
+        "term": "camacho",
+        "count": 2
+      },
+      {
+        "term": "sáenz",
+        "count": 2
+      },
+      {
+        "term": "nuevo",
+        "count": 2
+      },
+      {
+        "term": "pero",
+        "count": 2
+      },
+      {
         "term": "presupuesto",
         "count": 2
       },
@@ -31989,6 +32132,27 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "¿Cambios en el Gabinete? Para Camacho, Sáenz debe buscar un nuevo mandato pero con un equipo nuevo",
+        "link": "https://informatesalta.com.ar/politica/-cambios-en-el-gabinete--para-camacho--saenz-debe-buscar-un-nuevo-mandato-pero-con-un-equipo-nuevo_a6b006895cd25aee2885240a7",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 16:30:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Camacho ratificó las mejoras para el Delmi y negó la construcción de un nuevo estadio",
+        "link": "https://informatesalta.com.ar/gobierno/camacho-ratifico-las-mejoras-para-el-delmi-y-nego-la-construccion-de-un-nuevo-estadio_a6b0079f7cd25aee288541925",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz es imprescindible, pero sus propios ministros ya se consideran prescindibles",
+        "link": "https://elintra.com.ar/2026/11/20/gustavo-saenz-es-imprescindible-pero-sus-propios-ministros-ya-se-consideran-prescindibles/",
+        "source": "El Intra",
+        "date": "Fri, 20 Nov 2026 14:33:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El Presupuesto 2027 de Salta llegará a la Legislatura en los primeros días de diciembre",
         "link": "https://informatesalta.com.ar/sociedad/el-presupuesto-2027-de-salta-llegara-a-la-legislatura-en-los-primeros-dias-de-diciembre_a6afeeaf6cd25aee288346b69",
@@ -32177,27 +32341,6 @@
         "source": "Informate Salta",
         "date": "Thu, 15 Oct 2026 17:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "El ministro Sergio Camacho llega cuatro días tarde a la 'campaña del miedo' - Iruya.com",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaFlFSnFtR0hmQ21JczZ0ck44WFFwNDI1VXNucU9CSG5keXlDWFhmOEo5UUQ4N3F5MUp0YmUwU3VIYkdSTlVvNlZJcWwzdEIzQlJ1OGJwd3pTLWt4T3BKOFIxS1d1d0JtelQtd21rTDk4Q2lKSkk4Y0pTb2ZfS2F0LTBzejJqMnpLWWFPbzFNTWVnd2VnR2pXMkRmeEVTalp4WEdkd2x4V2tWT1hOX25aelUyV2dvb3RReFJzbWdabm5jQQ?oc=5",
-        "source": "Iruya.com",
-        "date": "Thu, 23 Nov 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "En Molinos, comenzó el armado del presupuesto provincial 2027",
-        "link": "https://informatesalta.com.ar/gobierno/en-molinos--comenzo-el-armado-del-presupuesto-provincial-2027_a6ac9537d05849ac9aaabf795",
-        "source": "Informate Salta",
-        "date": "Fri, 09 Oct 2026 21:00:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Presupuesto Provincial 2027: concluyó la primera reunión con intendentes y legisladores",
-        "link": "https://elintra.com.ar/2026/10/09/presupuesto-provincial-2027-concluyo-la-primera-reunion-con-intendentes-y-legisladores/",
-        "source": "El Intra",
-        "date": "Fri, 09 Oct 2026 17:26:06 +0000",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -34392,13 +34535,17 @@
     "id": "eje-cristina-fiore",
     "name": "María Cristina Fiore Viñuales",
     "role": "Ministra de Educación y Cultura",
-    "total_mentions": 66,
+    "total_mentions": 67,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 14,
-      "neutral": 45
+      "neutral": 46
     },
     "sentiment_by_day": {
+      "2012-01-31": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-08-08": {
         "total": 1,
         "score_sum": 0
@@ -34616,7 +34763,16 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "cristina",
+        "count": 2
+      },
+      {
+        "term": "fiore",
+        "count": 2
+      }
+    ],
     "quotes": [
       {
         "quote": "barbarie antidemocrática",
@@ -34706,6 +34862,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Cristina Fiore confía en recuperar terreno para el PRS en la capital - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeWV0MnFyenpMTWRETTVjRGkwRl9MQlgtWkpNRzU4anhkTnBXM0o1akZhQ0hURlM1UEFWZWF1VE5zOUxvd1d0Z09CV2hIbS1LUmJ4MEYyd2JVdmlxUDlpdFpSSnhJTTRpY0lueHB6S09ZQkUybkVCN0ZlMFJWaXF5aEpCOTRqX0EwdmU4dzdNNDdfdjlDaTJ5bkxlMFdhVWZodTFDYkZPMlBWaHpxSDVSMHpXdGxhUG9oUWVtTk1kYmw4WUJmWWFUQU8tWnl3dw?oc=5",
+        "source": "Informate Salta",
+        "date": "Tue, 31 Jan 2012 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Cristina Fiore no dudó en defender a Viviana Canosa y habló de “barbarie antidemocrática” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1B1QUFGSExsSmVvYmxXczY5U3dUOHpPaW1ZWGJuMGJRWHpkVVVadVFSLUpTcGI4NzVpWmd4bkR0NGh3VTRoNFdNS3ZOYjB6bXpXZDNYbmxkeGw4cFdPdDBKUDRDQm9xNVZTSURlTEtMLVZheVRHQmp1SlcxeWFOX2RpYlVsN28xdHRJN3Jjd2hnUGFHaWhNVXdZUElyYWFoTU81ZjZGSldGYUlHdnh4VzNHVnp0MmNTdzI3SlBDUQ?oc=5",
@@ -34908,13 +35071,6 @@
         "source": "Elintra.com.ar",
         "date": "Tue, 30 Apr 2024 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Adriana Saravia no seguirá como secretaria de Gestión Educativa con la futura ministra Cristina Fiore - Voces Criticas - Salta",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRnRNcTNKTEpvLVRtRjIwNENyRXMxVmt4QXBZcElLb1FjZUFoNlZDNTVDa3k2MEhBRTM4NDVSZE1vdTJVbmRKWFhvR2pya2RTcTk2SFVEQXBITFpadVdYZzl1MW9EZjZ0a3VhVGNFLThMcnRydUdYSlJsSDR6b09qdFY4bERSQVBtbzdSOXVZTWlwN05ubmE0cFRfd2Q1QWt6ZHJYRG5oTkpkZTFNNDBDOUUtZVg0WTdkRFFjaVlLcHc4c3d2dl9wZGM3R1BhOWhkaTZERDZYOWdxNGNWYkdZX3puMGE4dTJHa2RtVFFWY9IB9AFBVV95cUxOajVnalVWM2RiUHZ5aEV4Q2JqUnZBY0hvRnZFOVZJV1o3ck1Yb1ljSmRvZTV5LUFjbnJuREo4enJyaUVfRnFMbmZoT2pvaUNJSmpuUzB4ZHBpYjFPbDd5SmRhejNzdUlWeTNzWWNaaFE3b05oR2M0SWFRWEdIS0toVm1oYXl2aUFJcFBtOU5xRUhXbDVfR28xNEtDZ1g3YlVfZlItTUhFUFJ2Z1RzSkJyUXFyZlhLNUF0NXF6SmJWSzZvUU9WUEZIQnF4U2w4TGhNUDlUdExwWENTOW1DV0NSc0d4MWQwanVXV0FZNWRHR01VQVBn?oc=5",
-        "source": "Voces Criticas - Salta",
-        "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },

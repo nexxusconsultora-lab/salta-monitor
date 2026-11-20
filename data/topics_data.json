@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-20T16:28:02.013640+00:00",
+  "generated_at": "2026-11-20T22:48:57.376970+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 591,
+      "total_mentions": 593,
       "sentiment_breakdown": {
         "positivo": 41,
-        "negativo": 51,
-        "neutral": 499
+        "negativo": 52,
+        "neutral": 500
       },
       "sentiment_by_day": {
+        "2026-11-20": {
+          "total": 2,
+          "score_sum": -2
+        },
         "2026-09-07": {
           "total": 1,
           "score_sum": -2
@@ -344,11 +348,11 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 57
+          "count": 58
         },
         {
           "term": "intransigente",
-          "count": 53
+          "count": 54
         },
         {
           "term": "tribuno",
@@ -356,11 +360,11 @@
         },
         {
           "term": "informate",
-          "count": 39
+          "count": 37
         },
         {
           "term": "elintra",
-          "count": 31
+          "count": 32
         },
         {
           "term": "pasa",
@@ -478,6 +482,20 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "El cierre de mesas por el Presupuesto 2027 parece una puesta en escena - Elintra.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFotLWFTam5xYzUyY2VzcWw4WE5CZFc1a3J3Uk9IdXpTUU1RYjFhWGZqaFZoM0czb190Qi1FU1JZdXdXTHh1SUVKc2RVZFNoSmx0c1BuYW84Sm9IWVF2UGNWQTRQUVhIXzVNREJaOFd4aVlzNHB3X0J1ZVNqMUxkeU5FbUYwbGZRclRudjVjZDZEOURxN2dEZUx6Qm1GWFV4QkE?oc=5",
+          "source": "Elintra.com.ar",
+          "date": "Fri, 20 Nov 2026 01:48:05 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Lula defendió el ajuste fiscal en Brasil y rechazó recortar derechos sociales - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlhYY0ROQnZ0UEN5RWVXaThuVDBCREJsZU13eXNrZFdwRXU5MzBVNlp3QTVuMU1zSlZXYmUtUWkxcTVXcTFfa3R3V3VEUEtXSU9YalpJZElvMHQzMzI3bVltMVJXLUxlWG5LLWp6Nkt2VmZHN3NNbFlMYkY0SGpiNXRBTzRHUU1GMXpXQ0hsUGdXSDd5ZzU4MmZ0Q1k4eTM4ZWRCWGpCRURsUWc2VlE?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 20 Nov 2026 05:00:37 GMT",
+          "sentiment_label": "negativo"
+        },
         {
           "title": "Milei denunció a cinco petroleras por operar en Malvinas y ordenó priorizar la Base Naval en el Presupuesto - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNbDFxb3Rob2pJSndybG1QN0N0RUpMdDFXdXkzSHFTQ2MwcDdJWFVzWWVqOU00THVNb0NRckRTZ0pxSzFDWUtfOTdaS1hZcGtYanhWNTFrQXZPZ3RmcnptcDUxYTJuc3JQT0VLSHhhbWpqTFl5V3pIV3BxdzhNLTg0VTdFTkQ4WW52VC1VUkN5MnZYQS0tWFR0TkhSRTlnaVBTakFDVDZ6dlRqOXQ2NnNSTkdGRkxkTVRTc3JsNHA0cEpyWTNCalJyMV9teDFTSE03OUFNVVQxX0ZQd0gxQkg0Z1ViOWxHcEcyemtoUUVZLWgyN0ZkengtaU9B0gH_AUFVX3lxTFBGeWtYQ0xHbDNpaF9CaWpsS0V4aUNmcEwybU5nOHhicGxiNVFTOWNRcks4ZGtlNGRZUlY2Y0tlWnY3cVh5SkRRNGxfdm9LUndLOWZ1OEJUeDAtZlJ1TTNpQnpiRnlyR3p3ejJoc3d2VlVGbVRpVm56Q2VTXzlvNm1taHVlUTk5eWVxdk9rZTd4Nk5Eb01kenE1V1ZkMUFnMjNTclNxbzk2RVNITmFOdjFVNkFsZHAxaGFDcG9jNzdRTWRVaV9xRS10ekpLbVEyNnlwOEhYaFVQYmF6YzRCREpxbXBCWEg3S2JBbFBGX29NcHNXMDRFVUxvamZoUTJEZw?oc=5",
@@ -672,20 +690,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLW5CTFk1eTBGbWRNWWY1eGs0MGQtY1djaFdKbktjcERxTE03TFprTXJxajVfdmZZZnFFOWs5TmxHR2R4dHJYcmMwX1hZX0gxLXNTM2xQTWROTzZiYmJqcy14M0JocjNKV2NCc0xzVVFTRElZTW9oOEdWRkdJanpUdkRiUXpIN1gwXzQtYkdxLVdwRFMyN3ZNSk1pV1pvNE5YbHA2MVFHeFVnWWFuX2J4Y3NFSFctWTlzT0JlSDc2dVlsU2NzM1VpbjFDNWZIc0lGNmszMy1B?oc=5",
           "source": "El Tribuno",
           "date": "Wed, 18 Nov 2026 19:55:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027 en Salta: el Gobierno cerró las reuniones con intendentes y legisladores - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTGN4VEZzRFEwd3NDZDgwYjFueUlITERUX21FNE4xQ0tkaXBMcjE5Y2Ixbmt5UDU0OWp2VE1fZFdTQUtHR2YxTWdBZ2FRUFdMWlExZV92SFpFQ0hzUVlPY2RCTDFRZ1JranpYUjBzX01yZXQtbktuTkZwSTcwVmRLNWNHcUNycmV2QUl3bW1FMDktaEVwUjNYS3VYTjlFUWFuQlo0b2hVNlJYTWxRTlMyRy1ucWZIbVFpZGdUaGl4M3E3aWhidk14MGdSOXl2bHJ1SGVmUtIB2gFBVV95cUxPMm51Qjg0VUE5NVBPQi0xMVEwUjBTaWZ4TzdFZlZpV0U1M0VNM2MtMEhRMmY4SXJfZGlJZXhyR21PdHByVXNDSThhdVoySlI0OHNvNk9xWkJMZlZyNHVkLU5IZEk1N21NdjZkU0Ria1lpekkxYzNfTEFqM0RuQ0syeWp4eGJtdkVoWkd3TmZELW1wQmJBcUVsRUlNamxsMWlNSkFoSl83REZqUk03Nklub1pYMEZxYXdQSGJhY1dGMGdJREFaX05pYVktM0JwRnBIWDZQeThYLU5Edw?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 18 Nov 2026 20:06:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Reforma política: el oficialismo buscaría dar dictamen hoy - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaG41MlJBZkV0ZTBKeEJUSnZSbnJTM0s2Tk1vNFU1ZW42Vkt6cEg2aWt1SkxtMFh0WndCN1hXRVh4anJNQm5JUk1FejZSZE1HdlNrQkxBeDZueHlNU1k2Z2tJaWtESE9vd0h6V2Y4d3QtemxwSDgwZ3ZEaUhtWGJaV00zdXY1NEg0WjkzTEtMaUlFU3pfQ2Rla0tLeTBBN05HcU82QnhBbWdsaW9DcjBXVNIBtgFBVV95cUxPUm5pSWpsZW5zREViUnJ4VGdwVVVjU1pXYVdIbUYzYnBNLWx4ZlV5NEpDRGkxQkRKaFlMZ0VmNU5Yb0xxeG8xRkc2NVpuYV8tSjRhZnpHM1FPUkxOV3BtVmdSdEdkRjJaOVJ0Q3FTVTJKaU1BbDdYZ3haOVpQSDNxVU5FQ0JYQWY3UURQbjRwQTNJSUJGcGhaRHZicUtjWmlVMWs4WjlvbHNldjJqYTNtbnNhZEVIdw?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 18 Nov 2026 04:42:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
