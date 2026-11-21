@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 542,
+    "total_mentions": 543,
     "sentiment_breakdown": {
       "positivo": 138,
       "negativo": 101,
-      "neutral": 303
+      "neutral": 304
     },
     "sentiment_by_day": {
+      "2023-12-10": {
+        "total": 2,
+        "score_sum": 0
+      },
       "2026-06-05": {
         "total": 1,
         "score_sum": 2
@@ -65,10 +69,6 @@
       "2026-11-15": {
         "total": 5,
         "score_sum": -7
-      },
-      "2023-12-10": {
-        "total": 1,
-        "score_sum": 0
       },
       "2026-07-19": {
         "total": 1,
@@ -550,34 +550,34 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 50
+        "count": 51
       },
       {
         "term": "gustavo",
-        "count": 23
+        "count": 24
       },
       {
         "term": "tribuno",
-        "count": 16
+        "count": 17
       },
       {
         "term": "libro",
         "count": 8
       },
       {
-        "term": "embarcación",
-        "count": 7
-      },
-      {
         "term": "pasa",
         "count": 6
       },
       {
-        "term": "reclamó",
+        "term": "embarcación",
+        "count": 6
+      },
+      {
+        "term": "mandato",
         "count": 5
       },
       {
-        "term": "temporal",
+        "term": "reclamó",
         "count": 5
       }
     ],
@@ -682,6 +682,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz asumió un nuevo mandato como gobernador de Salta - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcEFqc3VUaTNqSGJtTU1nQWNLb0VkYnZEVENJMVpNTU11R1JjZ3dsS1NkVVBLTkE2U0I4V0VSOG1lQWxDdThZUWV5dnJSLU5NbEdTeXV5a3g5WE15aXVUZ3YxT3lNU2pBNUFMbjkxVFYtNVV5N3FYSVdZc083SGlhcjRYQWRnY2pycFdneE5pdVdVRDZvRF9rRjdCaU56eVRwSUJxOXVmYVktTWFEYjg5YmdjQi1LUWRYY242RGY3Y1Z5RlZUU1pDZkF5VzBEUHPSAdQBQVVfeXFMTUJFeWRYWlFHaGgtMTZIYlREUGk5ckxSQlpwWUNqQVdEelhmZ090b0lUUEo3UzlMRGtfcy1UQTB2V1ZUcWkxRzMxSHVlWjZ2UlFWWTR2N3JtOEpYQjZlYzZ4RDVxR1ZzWTdHRTJOWVRPV1E5eEd5WFlzYVhyRFVFQXc4RVFKR2VQZ0h3Q1BWUWg2cmFySUxKam9FZkNkV2d1V2pVd2V6UGVDZDJSTXl4dDVVaTUyVHFwSnQzTjRTU0VjaE55WEhabVM1U201SzVnSlYwR0w?oc=5",
+        "source": "El Tribuno",
+        "date": "Sun, 10 Dec 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz despide al Indio Solari y destaca su legado popular en Argentina - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQelB6ZkZVX0hNOUJmbW5uMThQR0tkZUZVZEM2VzRubk5qWFkzWF9kcjVaZWliYWNrWjJvWUltRmxOV1FiV2o0M2xpYjJRYWNMSkNzVGhFRmo2a0pmZ3BmS2VKNjA2bHJseXdZbExLdXNlcFZRcE9NX3lQa2xyMnZEZ2FHX2lmZGViSjBVdEt1V2QwWG9sUGFWSU52R3gtQVBqYkF4V05oTkk0RUNQR2JjSlFTMlJqNEJjc0xIcTZSSTRVOTRRLTFhaHFseklPM0XSAdQBQVVfeXFMTnF4RmczQ2VNR1BQSWNrdFJoT1VNLUpYbEd6YlJIS3pBV0x1YmdjR3FDM0ZQb3FzT0prbU9BMWkzX25TdEZRanFpYndTUDYwY3JjVWRoWUhyMDQwRkNZUlhVV0g2bkd3OEJPMEtkSHhxRDRtV0JITGFQa0h1X0FEbGxhWjJKTVFGWWRaXzFSd0RQMklYX1YtM3VQV2ZCNTJ0MVNza1pjU01PVV9OM1hrYWtPWmY0U3pHMFEyRndMVXlnSHg5TVotWTIwLXVXR1JveDVXRFk?oc=5",
@@ -883,13 +890,6 @@
         "link": "https://elintra.com.ar/2026/11/17/princeso-emiliano-durand-falto-presentacion-libro-gustavo-saenz/",
         "source": "El Intra",
         "date": "Tue, 17 Nov 2026 11:41:43 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "VIDEO. Durante la presentación del vuelo Río de Janeiro - Salta, Sáenz se sumo a la comparsa y bailó samba - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUFJTVHRBbjRwWkZIV0Rob3A1cnQ1cFhpZHNwazBJUnpheWtNLUZzUkZPa01EcGtYZkR6LWFMQkVDTV81YUY1N3p1U2p4YmxHc0pjNzh2a0NOY3UwLWlDd3RYczE3VVFHS3U3bWZidUxHUVhVUkl6ZC1XdWIzSVF3VzhGSllvc25QT2xFdjBfVFB3eUJoczFNamJxaDJqZ1pha2hzOWVfVzBna2VnX05Dbi10Z2dKN2NDT3VLNVFxU24tMUpMZ0hJU0tnblMzd01LV1g1eTlocG1WZm9INFFXNnJHVEdKWlHSAewBQVVfeXFMTndJbmNzajJJZ0dUY0lYUFBSMnZ2ZEtvVFMzNzRwQVBrdGlSUUhoaS10aU9yZEVib2NkdVcwazJFR3FfXzRnQllqeUJ2UndmanNtcFlGLUNtX3NoYWNjakN5UFJ0OXRRTDJCUHVFelBSUDE1cWtYQ1hoQ1FXczlsRS1FX0Nkd2hlRUZKVFo1RWVYT05SakdnUkZkVG1fY2tDYk42OVAtX3ZqM1JNMXNzdjBSQ1h5eTJ0NVM4czlRYlRIOW1JeXJhRDdMX0JPdC1Tb0ZLTFBpVUJ0Wm04LVZEOTZaNDdNWGR4RWd3NXE?oc=5",
-        "source": "El Tribuno",
-        "date": "Thu, 21 May 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -9388,10 +9388,6 @@
     "top_topics": [
       {
         "term": "diputados",
-        "count": 2
-      },
-      {
-        "term": "cartuccia",
         "count": 2
       }
     ],
@@ -18307,14 +18303,10 @@
     "top_topics": [
       {
         "term": "josé",
-        "count": 3
+        "count": 2
       },
       {
         "term": "garcía",
-        "count": 3
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -20511,13 +20503,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 54,
+    "total_mentions": 55,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 24,
-      "neutral": 27
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "2025-07-17": {
+        "total": 5,
+        "score_sum": -6
+      },
       "2024-08-04": {
         "total": 1,
         "score_sum": 0
@@ -20525,10 +20521,6 @@
       "2024-08-24": {
         "total": 1,
         "score_sum": -2
-      },
-      "2025-07-17": {
-        "total": 4,
-        "score_sum": -6
       },
       "2025-05-28": {
         "total": 1,
@@ -20686,14 +20678,10 @@
       },
       {
         "term": "elintra",
-        "count": 4
+        "count": 3
       },
       {
-        "term": "emiliano",
-        "count": 2
-      },
-      {
-        "term": "durand",
+        "term": "concejal",
         "count": 2
       },
       {
@@ -20706,6 +20694,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Vamos a pedir la destitución del concejal Pablo López",
+        "source": "Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPanZJX3d4TTRXbWtZSTBqRHlmY296SFRSLWZ3QXNrVmhmeWZaTVdSWUV5M2FiZUJkc0xyVWNBQ01Jbnl2aC1TajAtMl9VYWtXbTVDNkFOMGVQY1NVTFJ4SXpnanlQQ2RUdlFSRkxVM0tUS2xoc3VJWHRYalN5RV9Ma0ZvSnk0X1pUbUdNeW5zWFhEMy10TEE3cXVlYWFVTm9Ib2NPcnZlT1k2YVl4eFhGYmZkNWxkY2tRbHdiTkFJX2ZhcXcyRHQ4TFE1UlU5UjNWMVdIbktfU0lZblFqeFHSAewBQVVfeXFMTXd5cXZqOHM4bF9XRmprNGRSX1BtYVV5VHZFM1hzZWplQ0pTRS04SEdNd2oxel96dTEzZ3BnUzFoTmNIeEV5Um44OVRvQ0hjWXRPVklTRzJyMHpzT1h4RGd3WVcyd01vZVlUU2lUd1QxN05jT2VKQTVNYUVQNVpuOTZMYS1TX21iYTVFVmtBbnl0eFpFSVRvMV9DZXRIZWhJU1pmVktoQUllNk1aOXMyQVFoUWVpOEpYNE94VVFfd3FzTEdBWDhacDhmT0VFZHNCRkxUSUszekpuZHlWNE82c2NQNm9hY2Q3WGRQTlA?oc=5",
+        "date": "Thu, 17 Jul 2025 07:00:00 GMT"
+      },
       {
         "quote": "Es el señor pauta",
         "source": "Elintra.com.ar",
@@ -20789,12 +20783,6 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVEUzUjd4TVlxVlROMGMtSTVvNXVnU2tqYldwNXVTd1BnbG8wUmk1dUpDZUVwb01ZelQ3S0dvY3BtWHN5Z1dWcXVQVlFoTzltWUxlbUd1V0ZxcnZiYm1CNG9DMlFtdUtmdUdjcWtGb1BWdmNCS0VSRFdIY1d3NC1qaVI1STZ6UTBZLXQ0WEZRdDZJZkYtRm02RElwNTRncnd5VDR5TG9xMy11ekNvRDNOajRxUzhvR1AwNEJfRnNPd3haREt4RUJSRk96Vkg4WjBLYTVjUGNUdGc0cm_SAeABQVVfeXFMT3lWVHduMmE1N0J0TXdxOEY3RmpMSGFRWERZVmZBcmpibzVpeHpoZWw4Wm8xMHZxUk9wSnpjNW5lSUQ2ZXdqZ3ZnT0xwVElmZVZXbVFCZklhUUV1cVhyT2pDYU5fQnJkbC1RSFBrUEdKaEV5YmdKTXlFYUdzeTFYUFQtLXQ1WGUtSWcyVVN3X1NGS3ljRi1PcjJCaFNwV1JTSkVWcEx1Q2JFU0lFa1Z6ak9wT0RIalp1UjA2TmhaMWF6MUxZVDVBOUJ1QUc2aG1yZ0hUT1dCbFFkSFhLdmZ6dE8?oc=5",
         "date": "Fri, 18 Jul 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "urgente revisión",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZTFoNERUZWp5T3AzUmU4N1pzX2t5NHVzYVlBcFZQVEFTa2tlTmp0MTByUVZ5WmZkVTdPLXRuX0hKMWd1eUhVczFUemdMWmUyQUlYaXpTWkVPdUp3WFRoZ0Rrb0dWQUlDX2NXdEt1cTdhVm9mQm55VDluQWNab2FBNGpvLXU4bmNCdDhadUlUMWl3alVqWllQVnowekp2SnRSVElCTGpKZkpZZzFTZGVDdnJSdWpKMDlhNXJLYTViVkdZcm5U?oc=5",
-        "date": "Thu, 23 May 2024 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -20872,6 +20860,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "\"Vamos a pedir la destitución del concejal Pablo López\", adelantó Malvina Gareca - Informate Salta",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPanZJX3d4TTRXbWtZSTBqRHlmY296SFRSLWZ3QXNrVmhmeWZaTVdSWUV5M2FiZUJkc0xyVWNBQ01Jbnl2aC1TajAtMl9VYWtXbTVDNkFOMGVQY1NVTFJ4SXpnanlQQ2RUdlFSRkxVM0tUS2xoc3VJWHRYalN5RV9Ma0ZvSnk0X1pUbUdNeW5zWFhEMy10TEE3cXVlYWFVTm9Ib2NPcnZlT1k2YVl4eFhGYmZkNWxkY2tRbHdiTkFJX2ZhcXcyRHQ4TFE1UlU5UjNWMVdIbktfU0lZblFqeFHSAewBQVVfeXFMTXd5cXZqOHM4bF9XRmprNGRSX1BtYVV5VHZFM1hzZWplQ0pTRS04SEdNd2oxel96dTEzZ3BnUzFoTmNIeEV5Um44OVRvQ0hjWXRPVklTRzJyMHpzT1h4RGd3WVcyd01vZVlUU2lUd1QxN05jT2VKQTVNYUVQNVpuOTZMYS1TX21iYTVFVmtBbnl0eFpFSVRvMV9DZXRIZWhJU1pmVktoQUllNk1aOXMyQVFoUWVpOEpYNE94VVFfd3FzTEdBWDhacDhmT0VFZHNCRkxUSUszekpuZHlWNE82c2NQNm9hY2Q3WGRQTlA?oc=5",
+        "source": "Informate Salta",
+        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Pablo López le apuntó con dureza a Emiliano Durand: “Es el señor pauta” - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDNiSlNQQ1JXeWRUWWFlQ21ES0FuQ0FGQVJEcDRKS1l5ZzRXd0Y2eTk1MFZEdmlkLWFGMnl5eUZtYkZpQTdGd2JHVURzM3RqMXdQRUJ1cWlvaktmekRiMEdfM1dmOEZXd3VjMWpKdUZ6OHV0MXFiTUdmWHRGQlp0RHoycVdaSDZfMEVPemcxdUFza3ZJRzJZajRjanRoNENHMDl1Z3J3?oc=5",
@@ -21074,13 +21069,6 @@
         "source": "Que Pasa Salta",
         "date": "Sat, 02 Aug 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tras la denuncia contra Pablo López, su papá renunció al cargo - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnpQbzhOSWdwT1BUaDZqNmtkZWdzbmFjak5qLVdRcDNGTFlId0dpclNLRGxEOXNLeVA1SEdFRk5yT2F3NVp3MGhKLWo1dTNEZjNiZ29lZk9wSGNOcWxuZnNVWVRVZHlSdktSdzAxUndMLTh0Y2dGcThCQW5SdGkyVzdmMlZvR0JPNWh1Q0Z5OUJCNGk1Uld0R1p0bVdDZnNpdjBHb0wyUmZOUnRPZFExUmN4R3JFZl91eVlRN2pIdTJFNm1FdnfSAdQBQVVfeXFMTm9mUXVmVTBTZmZFczRfdUtlbWRWZE5RZDBZOTlCMkxmenQxOG4weFEybjVHMFAxNHB0VXh2Zl9lTlQxa0NyQUEzUUJOUThFdzduWS1SM2RsN2x1TnN3YVZ6Q0FkTHU4Rk9lT2NSaFA0bDh1SXZrMXYyTjM1b3lXX05VbVpMMFJYeHNZaXdkakZHem10eV84dkI3Y0tjT3ZIOU5fdld1RjVpOU5DX2hYZEloeTcxa1BOLUFnWkF3Z0U1QmNsdGtjZkxtenB4WF9EM0lRcUw?oc=5",
-        "source": "Informate Salta",
-        "date": "Tue, 22 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -23619,11 +23607,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 8
+        "count": 7
       },
       {
         "term": "royón",
-        "count": 8
+        "count": 7
       },
       {
         "term": "voto",
@@ -23643,10 +23631,6 @@
       },
       {
         "term": "salteña",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -24798,13 +24782,17 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 42,
+    "total_mentions": 43,
     "sentiment_breakdown": {
       "positivo": 5,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 33
     },
     "sentiment_by_day": {
+      "2025-10-15": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-18": {
         "total": 1,
         "score_sum": 0
@@ -24946,8 +24934,23 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "gonzalo",
+        "count": 2
+      },
+      {
+        "term": "guzmán",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "La plata se está yendo ahí",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb1FJS25SbHlobmViZEEweF9HR3V5RkVLQWRMRWstMlQtWEktNDJTWldsYURsazNZQVVQTHBZTl9XUFdDZ0thRHlnZzlCQU5KSWZQYk12eWdLa1hIc2dZOTNFbElMMHVQTWN2QjZSRm5BWTZpZ1E5d0ducEEyZUZpeTRLSDNrT2pfb1dUV3pOR0xWbDRHY3lZdE5WSDB5T1djbkJ2WG5LY2pCT0o4aTRFV1FUdko3SldOX3BSVldiYw?oc=5",
+        "date": "Wed, 15 Oct 2025 07:00:00 GMT"
+      },
       {
         "quote": "Es importante que Salta implemente la Boleta Única de Papel",
         "source": "Elintra.com.ar",
@@ -25030,6 +25033,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "\"La plata se está yendo ahí\": Gonzalo Guzmán criticó los gastos de campaña del oficialismo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb1FJS25SbHlobmViZEEweF9HR3V5RkVLQWRMRWstMlQtWEktNDJTWldsYURsazNZQVVQTHBZTl9XUFdDZ0thRHlnZzlCQU5KSWZQYk12eWdLa1hIc2dZOTNFbElMMHVQTWN2QjZSRm5BWTZpZ1E5d0ducEEyZUZpeTRLSDNrT2pfb1dUV3pOR0xWbDRHY3lZdE5WSDB5T1djbkJ2WG5LY2pCT0o4aTRFV1FUdko3SldOX3BSVldiYw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 15 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Libertarios de Salta apoyan eliminar las PASO, pero dudan por colectoras",
         "link": "https://www.eltribuno.com/salta/2026-11-18-0-34-0-libertarios-de-salta-apoyan-eliminar-las-paso-pero-dudan-por-colectoras",
@@ -25231,13 +25241,6 @@
         "link": "https://elintra.com.ar/2026/09/25/gonzalo-guzman-defendio-los-cambios-al-regimen-de-zona-fria-y-explico-quienes-mantendran-el-subsidio/",
         "source": "El Intra",
         "date": "Fri, 25 Sep 2026 20:36:31 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Reforma de zonas frías ¿cómo votaron los legisladores salteños?",
-        "link": "https://informatesalta.com.ar/legislativa/reforma-de-zonas-frias--como-votaron-los-legisladores-saltenos-_a6ab5ab69f24c6ff379927c78",
-        "source": "Informate Salta",
-        "date": "Fri, 25 Sep 2026 00:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -25517,13 +25520,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 27
+      "neutral": 28
     },
     "sentiment_by_day": {
+      "2026-04-08": {
+        "total": 2,
+        "score_sum": -2
+      },
       "2026-11-18": {
         "total": 3,
         "score_sum": 0
@@ -25603,10 +25610,6 @@
       "2025-08-21": {
         "total": 1,
         "score_sum": 0
-      },
-      "2026-04-08": {
-        "total": 1,
-        "score_sum": -2
       },
       "2025-10-08": {
         "total": 1,
@@ -25691,6 +25694,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Señalan a Gabriela Flores por el uso de pasajes oficiales para su hijo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWWNnaXVDNEVKODJPVXQyUWczeFByQU9hLWRZT1N1X3ZaQTUzYm92OEVERWNrcER2V1YybXpoTWRLUG5Ua0tfSmZkeU1TTWd0Q0xaanNiaTRrOXNsT1hueVdiZ01pQnZOUUhiRFd1MHNPb3Y0SlZmMzIwOUxzVTdyak1seDhOVGZScFU5RWloSWJWYnpmamQtMEExQXpxZzJfU2MzN0liUEY?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 08 Apr 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“No es condonar las deudas\": Biella explicó el proyecto para salvar a las clínicas privadas",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-no-es-condonar-las-deudas---biella-explico-el-proyecto-para-salvar-a-las-clinicas-privadas_a6afd9d35a0b43856111af3aa",
@@ -25893,13 +25903,6 @@
         "source": "El Tribuno",
         "date": "Sun, 26 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gabriela Flores, de LLA: “Habrá cosas que mejorar, pero la culpa de todo no es de Milei” - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYW5HT3dDRHhSajFzakJ6QkRERW9WZEJyMzVSenFVMTNHRnBkNlhFbXdpTGpycy1DZUVRaEdyZnFqQjRuZ3BSZjV5VW0tQkF2el9DSWF4X0dpX05xTTcyT2FPYTBsV0NZczh2cVJFMEZfQzd4dFNEMmpoUHd2UlFKR1lUNktFWWRxckJqQUFmSUxYUnJjWG84Q0dFQzRIME1uU1ZPQ2pId2txakZqTWhPNkEtZUtNUmh1ME5TaVlfSU1RWUI2ZDNDSHdEbGlaTjUyZl9uS29WWlViWHNUUFVUZmNCNUZqYmZhaXpQSXZJMmNWTGfSAYICQVVfeXFMTmxzWFZfRTMzdDFCTElPTTFfZ20wTl93UW5hWkloZF9BMHZvRFNEYjV6ZWFOemJSdGMyZkYwUmpRd3lRa3J2VXhuZDd0aVJhdGdWTmpWZ0RDc1VraTBCcDhVSVQtU1JaMFJTVmNrNHU5TVdzcXczdDBiWEk4VDg2aGFMaFRPZXFwSzJpeE9zY1hIREFXNS1DYnR3ZjhWT01YdGlxZ0s1b0NNS1hsYjg5UXhRNzdvNmhITWpPU1JTQUlDY055MUdZU1gxcVZ3dnViQktSekJTTWNNTVpVVG52WUlIaFFTSkhYYzJmYUtFZFVNUzNvcGtNWGtkaUVwM2l3dnB3?oc=5",
-        "source": "Informate Salta",
-        "date": "Wed, 08 Oct 2025 07:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -26775,14 +26778,14 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 5
-      },
-      {
-        "term": "bernardo",
-        "count": 3
+        "count": 4
       },
       {
         "term": "proyecto",
+        "count": 2
+      },
+      {
+        "term": "bernardo",
         "count": 2
       },
       {
@@ -28632,13 +28635,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 32,
+    "total_mentions": 33,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 3,
-      "neutral": 23
+      "neutral": 24
     },
     "sentiment_by_day": {
+      "2021-03-31": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-20": {
         "total": 1,
         "score_sum": 6
@@ -28767,11 +28774,11 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galíndez",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -28836,6 +28843,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "El secretario Administrativo, Gastón Galíndez, dio positivo para coronavirus - Voces Criticas - Salta",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWlJwRVprWWV4MlhnWkhFZjJFVi00czJkMTU5aW1LUG0xMmRDTnc1TG1aSnpESGFkRnkteUZINXgwRVd3QTRnUmdDRl9BSDBNSDV5LTNhazgzODhRWlhGN0dYN1pVUS1IWE1rQjJkR0RjUlJORnBOWXFSZFJRX19UckhINmlJVkdNOFdJZ1gtdVJJdzF1ZWNNX3B5aEdmTnFFVzZpRE5pUkJzaVdCNi1mU1BsS2tCTW5NclVvVkZmcWx1NUFXQ3RvdUp30gHPAUFVX3lxTE5aOVdhZXZiODFpNElXbVJLUkh3OHZoTE1JWmZ4bnROclE5X2pxR3FvelJ4UDRCdFV6cHVDYkdWb3hjMzcyS0NaUWRlS0hYOGFESnJ6bkpJa1NpQ3pZTThKX1ZzY2xWZTAwcDE1dDN2UkxHYzBPekhSWm5lS3RSWmVvX0hKakczZTNyenVUWWdrc19IdXpzR3FkaGVzczFkNEVRdGZkNTlHMTdXdTROM0k5eS1OX3RPQjVOc0RpLVJ1SVNVYzZUS29yREdHRV9Qdw?oc=5",
+        "source": "Voces Criticas - Salta",
+        "date": "Wed, 31 Mar 2021 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Diputados avanzó con el proyecto que promueve la Economía Circular del Plástico en Salta",
         "link": "https://informatesalta.com.ar/legislativa/diputados-avanzo-con-el-proyecto-que-promueve-la-economia-circular-del-plastico-en-salta_a6b008809cd25aee2885591a0",
@@ -29037,13 +29051,6 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVWluTnNJNTQwWlloNWxJLTk4dXkxOUVOSEVFYVJaUkFyT0htVFZMV1VrZWwtU1BKUGNaNFFUc05mNDUwR2ZtLU9mdFdoTG1rdTdmX1N5TzdQR0ozQjFVZlpoc3dyRXc0ckdTV25IM3RrX2VvQlBkcVBtU2ozb2liWDF3U1RGemc2cjU1Ug?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 10 Nov 2022 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Para Gastón Galíndez, el caso de Santa Fe se cura y previene con «educación emocional» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkxxUmJaa3B2NTF4VG1WMUxqUzJ1MUFkT05lc1JMd1hxMVQ3ODFTVzE1eGttYXNPNjdieDBTWC1lNmtnb0VrWUZLa09LWm80cV81UXZPd1RSTmhCLVhsTmViVzB3bnZETVAxbmo4TkZEemV1cFl5enU5M0NObVQ0b3hkVlZyNElDVFdoZDdJWXYzbm80ZGFrWW5IY2dleGFiZ3NuOU1yaklZSTBkUkZ6TjNnN1ZWeVJSS1E?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -31944,16 +31951,16 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 40,
+    "total_mentions": 42,
     "sentiment_breakdown": {
-      "positivo": 12,
+      "positivo": 13,
       "negativo": 4,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
       "2026-11-20": {
-        "total": 3,
-        "score_sum": 1
+        "total": 5,
+        "score_sum": 3
       },
       "2026-11-19": {
         "total": 2,
@@ -32063,26 +32070,34 @@
     "top_topics": [
       {
         "term": "camacho",
-        "count": 2
+        "count": 4
       },
       {
         "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "nuevo",
-        "count": 2
+        "count": 3
       },
       {
         "term": "pero",
+        "count": 3
+      },
+      {
+        "term": "nuevo",
+        "count": 3
+      },
+      {
+        "term": "mandato",
         "count": 2
       },
       {
-        "term": "presupuesto",
+        "term": "equipo",
         "count": 2
       },
       {
-        "term": "legislatura",
+        "term": "ratificó",
+        "count": 2
+      },
+      {
+        "term": "mejoras",
         "count": 2
       }
     ],
@@ -32132,6 +32147,20 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sergio Camacho respaldó otro mandato de Sáenz, pero pidió una renovación del equipo - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXBvRnNrUU13YThKa3d2UVJuM01QdUlmSzB4SFQ5aHpzT25mcWlEbUNaWDBqX2h2emNTbTA3ZjZnM3JkZTZPbGtGaUJGMlVsX05HeFc4SUxZSjd0VVpMUjJSNlBJdXFrOVQ4THJ0dEtpeXRtYTZ1ckRfYjdDX1FaVEtTcXhvUS1BbWhVWXlqd2NTQWR3MVM4ZDljeUVOVFBlMDAweGE0bXp0dFFZQXhYZEZ6bjlhVjNf?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 20 Nov 2026 21:02:39 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Camacho ratificó las mejoras para el Delmi y dijo no a un nuevo estadio",
+        "link": "https://informatesalta.com.ar/gobierno/camacho-ratifico-las-mejoras-para-el-delmi-y-dijo-no-a-un-nuevo-estadio_a6b0079f7cd25aee288541925",
+        "source": "Informate Salta",
+        "date": "Fri, 20 Nov 2026 21:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "¿Cambios en el Gabinete? Para Camacho, Sáenz debe buscar un nuevo mandato pero con un equipo nuevo",
         "link": "https://informatesalta.com.ar/politica/-cambios-en-el-gabinete--para-camacho--saenz-debe-buscar-un-nuevo-mandato-pero-con-un-equipo-nuevo_a6b006895cd25aee2885240a7",
@@ -32327,20 +32356,6 @@
         "source": "El Intra",
         "date": "Thu, 15 Oct 2026 18:55:00 +0000",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "Sáenz encabezó el lanzamiento de Impulso Salta para potenciar el turismo, ¿de qué trata?",
-        "link": "https://informatesalta.com.ar/turismo/saenz-encabezo-el-lanzamiento-de-impulso-salta-para-potenciar-el-turismo---de-que-trata-_a6ad0ff877f0e2f8050bb4699",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 16:30:00 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "¿Se harán las obras del Belgrano Cargas? Camacho dio detalles de las negociaciones",
-        "link": "https://informatesalta.com.ar/reclamo/-se-haran-las-obras-del-belgrano-cargas--camacho-dio-detalles-de-las-negociaciones_a6ad0e9771b3ce6c914e192e3",
-        "source": "Informate Salta",
-        "date": "Thu, 15 Oct 2026 17:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },

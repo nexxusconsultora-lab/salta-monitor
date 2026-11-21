@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-20T22:48:56.651710+00:00",
+  "generated_at": "2026-11-21T03:36:15.035987+00:00",
   "by_politician": {
+    "eje-sergio-camacho": {
+      "total": 42,
+      "positivo": 13,
+      "negativo": 4,
+      "neutral": 25,
+      "score_sum": 46
+    },
+    "dip-gaston-guillermo-galindez": {
+      "total": 33,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 24,
+      "score_sum": 12
+    },
+    "dnac-maria-gabriela-flores": {
+      "total": 33,
+      "positivo": 1,
+      "negativo": 4,
+      "neutral": 28,
+      "score_sum": -5
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 43,
+      "positivo": 5,
+      "negativo": 5,
+      "neutral": 33,
+      "score_sum": 0
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 55,
+      "positivo": 3,
+      "negativo": 24,
+      "neutral": 28,
+      "score_sum": -47
+    },
+    "gustavo-saenz": {
+      "total": 543,
+      "positivo": 138,
+      "negativo": 101,
+      "neutral": 304,
+      "score_sum": 155
+    },
     "eje-cristina-fiore": {
       "total": 67,
       "positivo": 7,
@@ -57,33 +99,12 @@
       "neutral": 1,
       "score_sum": -2
     },
-    "gustavo-saenz": {
-      "total": 542,
-      "positivo": 138,
-      "negativo": 101,
-      "neutral": 303,
-      "score_sum": 155
-    },
-    "eje-sergio-camacho": {
-      "total": 40,
-      "positivo": 12,
-      "negativo": 4,
-      "neutral": 24,
-      "score_sum": 44
-    },
     "dnac-bernardo-biella": {
       "total": 46,
       "positivo": 9,
       "negativo": 8,
       "neutral": 29,
       "score_sum": 1
-    },
-    "dip-gaston-guillermo-galindez": {
-      "total": 32,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 23,
-      "score_sum": 12
     },
     "snac-flavia-royon": {
       "total": 135,
@@ -239,13 +260,6 @@
       "neutral": 33,
       "score_sum": 14
     },
-    "dnac-maria-gabriela-flores": {
-      "total": 32,
-      "positivo": 1,
-      "negativo": 4,
-      "neutral": 27,
-      "score_sum": -5
-    },
     "sen-enrique-cornejo-saravia": {
       "total": 45,
       "positivo": 2,
@@ -260,13 +274,6 @@
       "neutral": 15,
       "score_sum": -3
     },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 54,
-      "positivo": 3,
-      "negativo": 24,
-      "neutral": 27,
-      "score_sum": -47
-    },
     "dip-juan-jose-esteban": {
       "total": 15,
       "positivo": 0,
@@ -280,13 +287,6 @@
       "negativo": 7,
       "neutral": 25,
       "score_sum": -13
-    },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 42,
-      "positivo": 5,
-      "negativo": 4,
-      "neutral": 33,
-      "score_sum": 2
     },
     "dip-franco-agustin-lastra": {
       "total": 7,
@@ -948,40 +948,14 @@
     }
   },
   "by_day": {
-    "2012-01-31": {
-      "eje-cristina-fiore": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2016-11-16": {
-      "dnac-carlos-raul-zapata": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2025-09-16": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "eje-ignacio-jarsun": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-jose-garcia-alcazar": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-11-20": {
+      "eje-sergio-camacho": {
+        "total": 5,
+        "score_sum": 3
+      },
       "concejal-dario-madile": {
         "total": 1,
         "score_sum": 0
-      },
-      "eje-sergio-camacho": {
-        "total": 3,
-        "score_sum": 1
       },
       "gustavo-saenz": {
         "total": 2,
@@ -1024,20 +998,110 @@
         "score_sum": -1
       }
     },
+    "2021-03-31": {
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-04-08": {
+      "dnac-maria-gabriela-flores": {
+        "total": 2,
+        "score_sum": -2
+      },
+      "dip-edgar-gonzalo-dominguez": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-alejandra-navarro": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-10-15": {
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2025-07-17": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 5,
+        "score_sum": -6
+      },
       "concejal-malvina-gareca": {
         "total": 2,
         "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 4,
-        "score_sum": -6
       },
       "snac-emilia-orozco": {
         "total": 1,
         "score_sum": -2
       },
       "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2023-12-10": {
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2012-01-31": {
+      "eje-cristina-fiore": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2016-11-16": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-09-16": {
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "eje-ignacio-jarsun": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-jose-garcia-alcazar": {
         "total": 1,
         "score_sum": 0
       }
@@ -2050,16 +2114,6 @@
     },
     "2017-07-19": {
       "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2023-12-10": {
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
         "total": 1,
         "score_sum": 0
       }
@@ -11982,12 +12036,6 @@
         "score_sum": -2
       }
     },
-    "2025-10-15": {
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-04-25": {
       "dip-griselda-edith-galleguillos": {
         "total": 1,
@@ -12110,44 +12158,6 @@
         "score_sum": 4
       },
       "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-04-08": {
-      "dip-edgar-gonzalo-dominguez": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dnac-maria-gabriela-flores": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-alejandra-navarro": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -19388,7 +19398,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 15
+      "count": 16
     },
     {
       "term": "elintra",
@@ -19399,51 +19409,51 @@
       "count": 12
     },
     {
-      "term": "presupuesto",
-      "count": 9
-    },
-    {
-      "term": "legislatura",
-      "count": 9
-    },
-    {
       "term": "nuevo",
-      "count": 7
+      "count": 9
     },
     {
-      "term": "todo",
-      "count": 7
+      "term": "camacho",
+      "count": 5
     },
     {
-      "term": "listo",
-      "count": 7
-    },
-    {
-      "term": "enviado",
-      "count": 7
-    },
-    {
-      "term": "concluyeron",
-      "count": 7
-    },
-    {
-      "term": "mesas",
-      "count": 7
-    },
-    {
-      "term": "diálogo",
-      "count": 7
-    },
-    {
-      "term": "orozco",
-      "count": 6
-    },
-    {
-      "term": "concejal",
+      "term": "pero",
       "count": 5
     },
     {
       "term": "informate",
+      "count": 5
+    },
+    {
+      "term": "tribuno",
+      "count": 5
+    },
+    {
+      "term": "orozco",
+      "count": 5
+    },
+    {
+      "term": "mandato",
+      "count": 4
+    },
+    {
+      "term": "concejal",
+      "count": 4
+    },
+    {
+      "term": "diario",
+      "count": 4
+    },
+    {
+      "term": "juárez",
+      "count": 4
+    },
+    {
+      "term": "flavia",
+      "count": 4
+    },
+    {
+      "term": "royón",
       "count": 4
     }
   ],
