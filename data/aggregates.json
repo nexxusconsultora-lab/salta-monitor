@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-11-21T03:36:15.035987+00:00",
+  "generated_at": "2026-11-21T11:48:58.284092+00:00",
   "by_politician": {
+    "eje-oriana-nevora": {
+      "total": 15,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 12,
+      "score_sum": -2
+    },
+    "dnac-yolanda-vega": {
+      "total": 22,
+      "positivo": 2,
+      "negativo": 5,
+      "neutral": 15,
+      "score_sum": -5
+    },
+    "dnac-carlos-raul-zapata": {
+      "total": 54,
+      "positivo": 4,
+      "negativo": 8,
+      "neutral": 42,
+      "score_sum": -10
+    },
+    "concejal-malvina-gareca": {
+      "total": 54,
+      "positivo": 5,
+      "negativo": 9,
+      "neutral": 40,
+      "score_sum": -11
+    },
     "eje-sergio-camacho": {
       "total": 42,
       "positivo": 13,
@@ -50,13 +78,6 @@
       "neutral": 46,
       "score_sum": -28
     },
-    "dnac-carlos-raul-zapata": {
-      "total": 53,
-      "positivo": 4,
-      "negativo": 8,
-      "neutral": 41,
-      "score_sum": -10
-    },
     "snac-emilia-orozco": {
       "total": 127,
       "positivo": 9,
@@ -70,13 +91,6 @@
       "negativo": 12,
       "neutral": 64,
       "score_sum": -18
-    },
-    "concejal-malvina-gareca": {
-      "total": 53,
-      "positivo": 5,
-      "negativo": 9,
-      "neutral": 39,
-      "score_sum": -11
     },
     "dip-rogelio-guaipo-segundo": {
       "total": 12,
@@ -266,13 +280,6 @@
       "negativo": 10,
       "neutral": 33,
       "score_sum": -19
-    },
-    "dnac-yolanda-vega": {
-      "total": 21,
-      "positivo": 2,
-      "negativo": 4,
-      "neutral": 15,
-      "score_sum": -3
     },
     "dip-juan-jose-esteban": {
       "total": 15,
@@ -595,13 +602,6 @@
       "negativo": 0,
       "neutral": 2,
       "score_sum": 3
-    },
-    "eje-oriana-nevora": {
-      "total": 14,
-      "positivo": 1,
-      "negativo": 2,
-      "neutral": 11,
-      "score_sum": -2
     },
     "dip-gustavo-bernardo-dantur": {
       "total": 9,
@@ -948,6 +948,38 @@
     }
   },
   "by_day": {
+    "2025-10-06": {
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2018-11-06": {
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2017-08-13": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-09-26": {
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-esteban-romero": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-20": {
       "eje-sergio-camacho": {
         "total": 5,
@@ -13282,16 +13314,6 @@
         "score_sum": 0
       }
     },
-    "2024-09-26": {
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-esteban-romero": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-06-11": {
       "sen-juan-cruz-cura": {
         "total": 1,
@@ -19398,7 +19420,7 @@
   "trending_terms": [
     {
       "term": "sáenz",
-      "count": 16
+      "count": 14
     },
     {
       "term": "elintra",
@@ -19406,11 +19428,15 @@
     },
     {
       "term": "gustavo",
-      "count": 12
+      "count": 10
     },
     {
       "term": "nuevo",
       "count": 9
+    },
+    {
+      "term": "informate",
+      "count": 6
     },
     {
       "term": "camacho",
@@ -19421,16 +19447,12 @@
       "count": 5
     },
     {
-      "term": "informate",
-      "count": 5
+      "term": "proyecto",
+      "count": 4
     },
     {
-      "term": "tribuno",
-      "count": 5
-    },
-    {
-      "term": "orozco",
-      "count": 5
+      "term": "discapacidad",
+      "count": 4
     },
     {
       "term": "mandato",
@@ -19441,19 +19463,19 @@
       "count": 4
     },
     {
+      "term": "tribuno",
+      "count": 4
+    },
+    {
+      "term": "orozco",
+      "count": 4
+    },
+    {
       "term": "diario",
       "count": 4
     },
     {
       "term": "juárez",
-      "count": 4
-    },
-    {
-      "term": "flavia",
-      "count": 4
-    },
-    {
-      "term": "royón",
       "count": 4
     }
   ],
