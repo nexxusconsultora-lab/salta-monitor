@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-21T18:20:45.871174+00:00",
+  "generated_at": "2026-11-21T23:31:31.168591+00:00",
   "by_politician": {
+    "eje-ana-paula-benavides": {
+      "total": 24,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 21,
+      "score_sum": -13
+    },
+    "concejal-gonzalo-nieva": {
+      "total": 56,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 47,
+      "score_sum": -20
+    },
+    "gustavo-saenz": {
+      "total": 546,
+      "positivo": 140,
+      "negativo": 101,
+      "neutral": 305,
+      "score_sum": 160
+    },
+    "eje-federico-mangione": {
+      "total": 57,
+      "positivo": 9,
+      "negativo": 12,
+      "neutral": 36,
+      "score_sum": -10
+    },
+    "eje-juan-vilchez": {
+      "total": 17,
+      "positivo": 3,
+      "negativo": 3,
+      "neutral": 11,
+      "score_sum": -5
+    },
     "dip-gustavo-orlando-orozco": {
       "total": 54,
       "positivo": 2,
@@ -35,13 +70,6 @@
       "negativo": 24,
       "neutral": 95,
       "score_sum": -32
-    },
-    "gustavo-saenz": {
-      "total": 544,
-      "positivo": 139,
-      "negativo": 101,
-      "neutral": 304,
-      "score_sum": 157
     },
     "eje-oriana-nevora": {
       "total": 15,
@@ -260,13 +288,6 @@
       "neutral": 55,
       "score_sum": -13
     },
-    "eje-federico-mangione": {
-      "total": 56,
-      "positivo": 8,
-      "negativo": 12,
-      "neutral": 36,
-      "score_sum": -13
-    },
     "eje-mario-mimessi": {
       "total": 45,
       "positivo": 9,
@@ -379,26 +400,12 @@
       "neutral": 24,
       "score_sum": -14
     },
-    "eje-ana-paula-benavides": {
-      "total": 23,
-      "positivo": 0,
-      "negativo": 3,
-      "neutral": 20,
-      "score_sum": -13
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 83,
       "positivo": 11,
       "negativo": 17,
       "neutral": 55,
       "score_sum": -8
-    },
-    "concejal-gonzalo-nieva": {
-      "total": 55,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 46,
-      "score_sum": -20
     },
     "concejal-agustina-alvarez-eichele": {
       "total": 68,
@@ -413,13 +420,6 @@
       "negativo": 8,
       "neutral": 70,
       "score_sum": 15
-    },
-    "eje-juan-vilchez": {
-      "total": 16,
-      "positivo": 3,
-      "negativo": 3,
-      "neutral": 10,
-      "score_sum": -5
     },
     "concejal-laura-jorge-saravia": {
       "total": 51,
@@ -948,19 +948,105 @@
     }
   },
   "by_day": {
-    "2020-10-02": {
-      "dip-gustavo-orlando-orozco": {
+    "2023-02-08": {
+      "eje-ana-paula-benavides": {
         "total": 1,
-        "score_sum": -2
+        "score_sum": 0
       }
     },
-    "2024-08-02": {
-      "concejal-malvina-gareca": {
+    "2025-06-26": {
+      "concejal-gonzalo-nieva": {
         "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-rogelio-guaipo-segundo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-bernardo-dantur": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-roque-ramon-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricio-penalba-arias": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-daniel-moreno-ovalle": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-dani-nolasco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-leonor-minetti": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-esteban-dandrea-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-diego-cari": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-06-02": {
+      "gustavo-saenz": {
+        "total": 5,
         "score_sum": -2
+      },
+      "eje-oriana-nevora": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
       }
     },
     "2026-11-21": {
+      "eje-federico-mangione": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "gustavo-saenz": {
+        "total": 2,
+        "score_sum": 5
+      },
+      "eje-juan-vilchez": {
+        "total": 1,
+        "score_sum": 0
+      },
       "sen-daniel-moreno-ovalle": {
         "total": 1,
         "score_sum": 1
@@ -972,10 +1058,18 @@
       "snac-emilia-orozco": {
         "total": 1,
         "score_sum": -2
-      },
-      "gustavo-saenz": {
+      }
+    },
+    "2020-10-02": {
+      "dip-gustavo-orlando-orozco": {
         "total": 1,
-        "score_sum": 2
+        "score_sum": -2
+      }
+    },
+    "2024-08-02": {
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": -2
       }
     },
     "2025-10-06": {
@@ -1520,20 +1614,6 @@
     },
     "2025-03-04": {
       "dip-monica-gabriela-juarez": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
-    "2026-06-02": {
-      "gustavo-saenz": {
-        "total": 4,
-        "score_sum": -2
-      },
-      "eje-oriana-nevora": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gonzalo-nieva": {
         "total": 1,
         "score_sum": 0
       }
@@ -13150,68 +13230,6 @@
         "score_sum": 0
       }
     },
-    "2025-06-26": {
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-rogelio-guaipo-segundo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-bernardo-dantur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jorge-miguel-restom": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-roque-ramon-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-patricio-penalba-arias": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-daniel-moreno-ovalle": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-dani-nolasco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-leonor-minetti": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-esteban-dandrea-cornejo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-diego-cari": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2026-02-22": {
       "dip-esteban-amat-lacroix": {
         "total": 1,
@@ -19450,14 +19468,14 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 12
-    },
-    {
-      "term": "gustavo",
-      "count": 10
+      "count": 14
     },
     {
       "term": "sáenz",
+      "count": 11
+    },
+    {
+      "term": "gustavo",
       "count": 10
     },
     {
@@ -19485,6 +19503,10 @@
       "count": 5
     },
     {
+      "term": "argentina",
+      "count": 4
+    },
+    {
       "term": "malvina",
       "count": 4
     },
@@ -19502,10 +19524,6 @@
     },
     {
       "term": "concejal",
-      "count": 4
-    },
-    {
-      "term": "diario",
       "count": 4
     }
   ],
