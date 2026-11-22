@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-21T23:31:31.168591+00:00",
+  "generated_at": "2026-11-22T03:29:04.286382+00:00",
   "by_politician": {
+    "dnac-carlos-raul-zapata": {
+      "total": 56,
+      "positivo": 5,
+      "negativo": 8,
+      "neutral": 43,
+      "score_sum": -9
+    },
     "eje-ana-paula-benavides": {
       "total": 24,
       "positivo": 0,
@@ -56,13 +63,6 @@
       "negativo": 2,
       "neutral": 35,
       "score_sum": 5
-    },
-    "dnac-carlos-raul-zapata": {
-      "total": 55,
-      "positivo": 5,
-      "negativo": 8,
-      "neutral": 42,
-      "score_sum": -9
     },
     "snac-emilia-orozco": {
       "total": 128,
@@ -948,6 +948,12 @@
     }
   },
   "by_day": {
+    "2024-01-04": {
+      "dnac-carlos-raul-zapata": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2023-02-08": {
       "eje-ana-paula-benavides": {
         "total": 1,
@@ -19472,23 +19478,23 @@
     },
     {
       "term": "sáenz",
-      "count": 11
+      "count": 10
     },
     {
       "term": "gustavo",
-      "count": 10
+      "count": 9
     },
     {
       "term": "nuevo",
       "count": 9
     },
     {
-      "term": "orozco",
+      "term": "informate",
       "count": 6
     },
     {
-      "term": "informate",
-      "count": 6
+      "term": "orozco",
+      "count": 5
     },
     {
       "term": "discapacidad",
@@ -19503,7 +19509,11 @@
       "count": 5
     },
     {
-      "term": "argentina",
+      "term": "carlos",
+      "count": 4
+    },
+    {
+      "term": "zapata",
       "count": 4
     },
     {
@@ -19512,10 +19522,6 @@
     },
     {
       "term": "gareca",
-      "count": 4
-    },
-    {
-      "term": "proyecto",
       "count": 4
     },
     {

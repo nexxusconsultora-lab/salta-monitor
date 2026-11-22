@@ -1,14 +1,26 @@
 {
  "dias": [
   {
+   "fecha": "2026-11-22",
+   "recolectadas": 36,
+   "politicas": 2,
+   "seguridad": 1,
+   "descartadas": 33,
+   "historias": 2,
+   "historias_seguridad": 1,
+   "medios": 9,
+   "temas_todos": 10,
+   "cobertura_baja": true
+  },
+  {
    "fecha": "2026-11-21",
-   "recolectadas": 559,
-   "politicas": 86,
-   "seguridad": 29,
+   "recolectadas": 570,
+   "politicas": 91,
+   "seguridad": 36,
    "descartadas": 445,
-   "historias": 76,
-   "historias_seguridad": 28,
-   "medios": 40,
+   "historias": 80,
+   "historias_seguridad": 34,
+   "medios": 41,
    "temas_todos": 19,
    "cobertura_baja": false
   },
