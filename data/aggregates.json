@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-11-22T19:15:28.276621+00:00",
+  "generated_at": "2026-11-23T00:24:19.796149+00:00",
   "by_politician": {
+    "dip-rogelio-guaipo-segundo": {
+      "total": 13,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 10,
+      "score_sum": -5
+    },
+    "gustavo-saenz": {
+      "total": 541,
+      "positivo": 140,
+      "negativo": 99,
+      "neutral": 302,
+      "score_sum": 164
+    },
     "dip-guillermo-mario-durand-cornejo": {
       "total": 15,
       "positivo": 1,
       "negativo": 0,
       "neutral": 14,
       "score_sum": 4
-    },
-    "gustavo-saenz": {
-      "total": 542,
-      "positivo": 140,
-      "negativo": 100,
-      "neutral": 302,
-      "score_sum": 162
     },
     "eje-ignacio-lupion": {
       "total": 10,
@@ -161,13 +168,6 @@
       "negativo": 12,
       "neutral": 64,
       "score_sum": -18
-    },
-    "dip-rogelio-guaipo-segundo": {
-      "total": 12,
-      "positivo": 0,
-      "negativo": 2,
-      "neutral": 10,
-      "score_sum": -3
     },
     "dip-monica-gabriela-juarez": {
       "total": 72,
@@ -948,19 +948,55 @@
     }
   },
   "by_day": {
-    "2020-11-05": {
-      "dip-guillermo-mario-durand-cornejo": {
+    "2026-11-17": {
+      "dip-rogelio-guaipo-segundo": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-dario-madile": {
         "total": 1,
         "score_sum": 0
       },
-      "sen-jorge-soto": {
+      "dip-jose-miguel-gauffin": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": -1
+      },
+      "eje-roberto-dib-ashur": {
         "total": 1,
         "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 2,
+        "score_sum": 2
+      },
+      "gustavo-saenz": {
+        "total": 10,
+        "score_sum": 1
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-eliana-bruno": {
+        "total": 1,
+        "score_sum": -5
+      },
+      "dip-david-taranto": {
+        "total": 1,
+        "score_sum": -2
       }
     },
     "2026-09-18": {
       "gustavo-saenz": {
-        "total": 12,
+        "total": 13,
         "score_sum": 0
       },
       "eje-antonio-marocco": {
@@ -1005,6 +1041,16 @@
       },
       "sen-juan-cruz-cura": {
         "total": 3,
+        "score_sum": 0
+      }
+    },
+    "2020-11-05": {
+      "dip-guillermo-mario-durand-cornejo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-jorge-soto": {
+        "total": 1,
         "score_sum": 0
       }
     },
@@ -1932,48 +1978,6 @@
       "concejal-agustina-alvarez-eichele": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-17": {
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jose-miguel-gauffin": {
-        "total": 1,
-        "score_sum": 1
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": -1
-      },
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-ignacio-jarsun": {
-        "total": 2,
-        "score_sum": 2
-      },
-      "gustavo-saenz": {
-        "total": 10,
-        "score_sum": 1
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-eliana-bruno": {
-        "total": 1,
-        "score_sum": -5
-      },
-      "dip-david-taranto": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2022-11-25": {
@@ -7616,8 +7620,8 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 7,
-        "score_sum": -4
+        "total": 6,
+        "score_sum": -2
       },
       "concejal-laura-garcia": {
         "total": 2,
@@ -12910,7 +12914,7 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 15,
+        "total": 14,
         "score_sum": 0
       },
       "concejal-angel-ortiz": {
@@ -19506,63 +19510,63 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 12
+      "count": 11
     },
     {
       "term": "sáenz",
-      "count": 10
-    },
-    {
-      "term": "nuevo",
-      "count": 10
+      "count": 6
     },
     {
       "term": "informate",
-      "count": 7
+      "count": 4
     },
     {
-      "term": "camacho",
-      "count": 6
-    },
-    {
-      "term": "pero",
-      "count": 6
+      "term": "tribuno",
+      "count": 3
     },
     {
       "term": "gabinete",
-      "count": 5
+      "count": 3
+    },
+    {
+      "term": "camacho",
+      "count": 3
+    },
+    {
+      "term": "nuevo",
+      "count": 3
     },
     {
       "term": "mandato",
-      "count": 5
-    },
-    {
-      "term": "gustavo",
-      "count": 5
-    },
-    {
-      "term": "nacional",
-      "count": 4
-    },
-    {
-      "term": "cambios",
-      "count": 4
+      "count": 3
     },
     {
       "term": "argentina",
-      "count": 4
+      "count": 3
     },
     {
       "term": "pablo",
-      "count": 4
+      "count": 3
+    },
+    {
+      "term": "noviembre",
+      "count": 3
     },
     {
       "term": "carlos",
-      "count": 4
+      "count": 3
     },
     {
       "term": "zapata",
-      "count": 4
+      "count": 3
+    },
+    {
+      "term": "malvina",
+      "count": 3
+    },
+    {
+      "term": "gareca",
+      "count": 3
     }
   ],
   "comentions": [
