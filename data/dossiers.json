@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 541,
+    "total_mentions": 536,
     "sentiment_breakdown": {
       "positivo": 140,
       "negativo": 99,
-      "neutral": 302
+      "neutral": 297
     },
     "sentiment_by_day": {
+      "2026-09-16": {
+        "total": 11,
+        "score_sum": 0
+      },
       "2026-09-18": {
         "total": 13,
         "score_sum": 0
@@ -439,11 +443,7 @@
         "score_sum": 0
       },
       "2026-09-15": {
-        "total": 8,
-        "score_sum": 0
-      },
-      "2026-09-16": {
-        "total": 14,
+        "total": 7,
         "score_sum": 0
       },
       "2026-09-20": {
@@ -483,7 +483,7 @@
         "score_sum": 0
       },
       "2026-09-13": {
-        "total": 2,
+        "total": 1,
         "score_sum": 0
       },
       "2026-01-29": {
@@ -558,7 +558,7 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 42
+        "count": 40
       },
       {
         "term": "gustavo",
@@ -573,11 +573,11 @@
         "count": 8
       },
       {
-        "term": "embarcación",
+        "term": "norte",
         "count": 5
       },
       {
-        "term": "norte",
+        "term": "reunió",
         "count": 4
       },
       {
@@ -690,6 +690,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunió con Diego Santilli y otros gobernadores del Norte Grande para avanzar en la agenda reg - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVmo3ZEMwQjV4TWlVWkZTbzBiVE5ZWGV5SGh6WGRveDR2NzhTS0J6c1puaWNZLTlYbTk0cU1ZSl9XMGRxWHBvTEQtSFJKNHlTQ3NVRFl0V2dvb2VwRlRScFdkNkJuZjZvc1pMZlVrNExqWmlyYUtjMXdUVnZ0N0hzR2RTeUExd3lEYmFiUzdGMDRaVVl5aWxSQVl4ek45bFlTcGVWd1h3RF9lbXpEakM4TWNyUmQxTFJtN2VteEhIWHRuTkgxR2xYMldUZmlkcXBkSXphOExqR0ZOaHYxSl9EVDhPRVZSVlZCU2dWVmc3eno0MWJFbDdfX9IB_gFBVV95cUxOeVYtdFFlWm1IZnc2TkJzenFweG54Vk9FQndEUkZZNldfQUdITDZYdkY2MUJmVDJocHpzOFpvWURnLXgwRnhVRGR0c2puOEVERWxGdjNkUjdESmNlUWdEMFpUc2dkc3BISGdXa2dreFhUcWFfWDNyN2VDYlZRYk5teE9TMWt4T0xDTDUtS0Z1SUpfaWlfcnB6am83eWU5NVNiazVvbUVFQkczLUoyeGNtZTVDSWRSSzFmQ3hKN2xxaDhhLXNCOGFwWmdHSWJNc0R4ZWdIR0phYk9iSFhpaTJIOVVGN2JCclBBTDNUS1Q0VTE2RWdDNVZUdG9KdWY2Zw?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Sáenz se reunió con senadores del Norte - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2hDcVlVY1M5OVZuamNkLVNsLXRRUjNzZjc3Q0JvZXpxd29wVHhtdHFHYXdFNC1OUTRwUGNfTHI4V09hRnNKVW84S2VydzhwWHMzOTh1cEZMMVBYdU1XTDNSeHhtMWpCUmVraXFzdG5fbWZJcnJDXzZEOWN2TFlwUXFwN3ZvdVpJNE9vQXh1SjPSAZYBQVVfeXFMTUhsdVdKMnlSTndYWFZ3aDZJeXk4MTRUeXlza3JlbVVMQ2szMVJUcElpbTlrdHd5dTJlSHpLcTNoc0lGZnJPRXNsSFRGdndXN3ZLeHVVVkR2bGhFbGV5M2g5cFJ4U25NUjR6NUhKSklGR1RMMWpXUVBVMENjenBOZUh6dU0tMmotdnotZ2ZnV2ZaYkZIWnFR?oc=5",
@@ -892,13 +899,6 @@
         "source": "Informate Salta",
         "date": "Mon, 16 Nov 2026 11:45:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "“Sin intromisiones nacionales”: Jarsún defendió el desdoblamiento y respaldó otro mandato de Sáenz",
-        "link": "https://informatesalta.com.ar/lup-94-7-salta/-sin-intromisiones-nacionales---jarsun-defendio-el-desdoblamiento-y-respaldo-otro-mandato-de-saenz_a6afc6d6142fa9d9e6e374044",
-        "source": "Informate Salta",
-        "date": "Tue, 17 Nov 2026 15:57:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -10390,13 +10390,17 @@
     "id": "dip-monica-gabriela-juarez",
     "name": "Mónica Gabriela Juárez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 72,
+    "total_mentions": 73,
     "sentiment_breakdown": {
       "positivo": 13,
       "negativo": 9,
-      "neutral": 50
+      "neutral": 51
     },
     "sentiment_by_day": {
+      "2022-11-03": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-12-15": {
         "total": 2,
         "score_sum": -2
@@ -10657,19 +10661,19 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 5
+        "count": 6
       },
       {
         "term": "juárez",
-        "count": 5
+        "count": 6
+      },
+      {
+        "term": "elintra",
+        "count": 3
       },
       {
         "term": "alzheimer",
         "count": 3
-      },
-      {
-        "term": "elintra",
-        "count": 2
       },
       {
         "term": "diputada",
@@ -10795,6 +10799,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Oportunismo? Mónica Juárez se sacó fotos con los bomberos - - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU1ltcmFGd1Z4TkJvV3FROUZhbWQ0dS1oMEZ1R3FEdzRhRjRjekJ3T0EyazRNV2RoR0RoWWRldHlVaDZFVlhINUhyNVg5VzdsRUtkVGVRLXNaY2YxV0lsZXo3TDFoR0VNcTBwN1NaY3hBRF81WEVia1FaQVdWdEtHWE9rUnFTOVRqNmFxT3hPQ1VDbFVHYmc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Thu, 03 Nov 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Mónica Juárez no se anda con chiquitas: despidió el año junto al gobernador de Salta - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdk10emxvWk5PTUNRYk5HNmFIMUlyZldVSG5JS1k0c3NBcTJWM1JnUm1LbEQ0RFdja0ZRUnNoVm5COVVmUVR2MWdlaGViMXlMdmlXMHNrT25VdUtSeTJQR2YzTFJ2T0F5UEt1NzJIZ1NlV19BeUc0bHExcVVvTWVBSERWMzVuYWtNVm9GanNKdHRCUGRVMkF3NmdXdmotZzY5RnVlZU13Y0ZTVXZjQjJrMEpRYVU1N0lOWkE?oc=5",
@@ -10996,13 +11007,6 @@
         "link": "https://elintra.com.ar/2026/10/07/durand-cornejo-cruce-aborto-legal/",
         "source": "El Intra",
         "date": "Wed, 07 Oct 2026 20:25:32 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "\"El Señor del Milagro está muy enojado”: Durand Cornejo se cruzó con Mónica Juárez",
-        "link": "https://www.eltribuno.com/salta/2026-10-7-1-48-0-el-senor-del-milagro-esta-muy-enojado-durand-cornejo-se-cruzo-con-monica-juarez",
-        "source": "El Tribuno - Salta",
-        "date": "Wed, 07 Oct 2026 04:48:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -24017,13 +24021,21 @@
     "id": "snac-emilia-orozco",
     "name": "Emilia Orozco",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 128,
+    "total_mentions": 130,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 24,
-      "neutral": 95
+      "neutral": 97
     },
     "sentiment_by_day": {
+      "2025-10-21": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "2026-06-19": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-21": {
         "total": 1,
         "score_sum": -2
@@ -24464,11 +24476,15 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 6
+        "count": 8
       },
       {
         "term": "orozco",
-        "count": 6
+        "count": 8
+      },
+      {
+        "term": "elintra",
+        "count": 3
       },
       {
         "term": "cruzó",
@@ -24484,6 +24500,12 @@
       }
     ],
     "quotes": [
+      {
+        "quote": "Si hay algo que está latente en Salta es el narcotráfico",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUlpfSkFTX0NUbzJieVlLNUl1Nm03VFI1OVEtTUNCUlVuTEhET3A0YnYzNjlaa3BJWXR3c1JOM3dtdDBzekNieEZ0ajYwOTVqU3Jib2hoYUdBU1dwLXNjQjh3VnlrbTN6ekNHSnRreXo5Q0xQT1FNUDZqdE5IR09ZajdKTWNaQ2VDVE9VeHp5Qm5KVDQzT0hyOU1Nc3JEY3hqdk5ZQjFNTXU?oc=5",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT"
+      },
       {
         "quote": "No lograron nada para Salta",
         "source": "Aries On Line",
@@ -24567,12 +24589,6 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHl4OXNOR1U4emRJakk2Nk5HMUVVTHdlT2lTMk9YQWxiaGY4cTlORFlHaGo4akNvdndrM3FVaGFZQWZQc3YzS19QbGdpV1RrYXUzbkhIbzBiWkdnT1lNeng0clc0VmNQbFdrSVlmVTR1LVlVMzFqS2g3V0ZfT2pnSlU2Tl9nNHd5SzZNNUhpb29IbWMteWFwRUctTVhfc0wwYlFiZVI0VUZVWUdu?oc=5",
         "date": "Mon, 12 Aug 2024 07:00:00 GMT"
-      },
-      {
-        "quote": "ilusión de que se pueden hacer cosas distintas",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaXVSZ09iYThJMTlpR0tZaTNsQ2JONGtpdFlTY05fMXRweFhxeURwQTJybVBwV2VDYW5vcFRfeHByeUZ4RFh4SUtyQUprY1hwaEtaczBEX2lJeERGNUYxQWIxYjVxVjlVeUhvRFBkVlJXV2VzRVBWSlZ0djdUeVFwdnhDZlo5aC12OWdwS1ZHSHl4ZDJSbkd1TXY4RXBXLWs5LXRWMEJqTXVmSERLSzZvVDhaVDdYVFpsUjlrZ21sS01samJaYjY2akxhN1d6dWJhNFRuVA?oc=5",
-        "date": "Tue, 27 Feb 2024 08:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -24614,6 +24630,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Emilia Orozco: \"Si hay algo que está latente en Salta es el narcotráfico\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUlpfSkFTX0NUbzJieVlLNUl1Nm03VFI1OVEtTUNCUlVuTEhET3A0YnYzNjlaa3BJWXR3c1JOM3dtdDBzekNieEZ0ajYwOTVqU3Jib2hoYUdBU1dwLXNjQjh3VnlrbTN6ekNHSnRreXo5Q0xQT1FNUDZqdE5IR09ZajdKTWNaQ2VDVE9VeHp5Qm5KVDQzT0hyOU1Nc3JEY3hqdk5ZQjFNTXU?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Pese a la crisis en las Fuerzas Armadas, Emilia Orozco destacó el nuevo suplemento por título - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEotSDFGM1FjUl9FSXllVjNLVGFWTFdPNE9TTm1Cd3hKWGZBS3U0eUdpaFRJWjJYcVJ2WFhCZS1SMXVLeUNSNVVWUUY3TkZMN0Ezc0VzWElqS3QtUURUQXlmNDV6Q2pBVmxNd3pabXR0eWpxTFVIb0o0dV9VaU1IUHJKdVB0c0lWR2NGblpKakl1RjJwcW5ESU9CYlp6MUUxSklyS2QyejlkbEtOWHB4eFJGZDE4NWVvTUxIMGVNVkdmb2VULWc?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Emilia Orozco y el eco de las internas libertarias en la política de Salta",
         "link": "https://elintra.com.ar/2026/11/21/emilia-orozco-eco-internas-libertarias-politica-salta/",
@@ -24809,20 +24839,6 @@
         "source": "Elintra.com.ar",
         "date": "Fri, 12 Sep 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Emilia Orozco se despidió de la Cámara de Diputados: «Fue un honor» - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3JGX0RXWll0eExGNlRZdTFJaHZUclNnSWtVdmw3dG1INzdVbVpCSFEyZWllTjFxTml6MDhqcHctX1BDOEZUQVp0V3dGVF9Za0J6Q0VCdUxTWXZoenh3R0dLOXpMQm12Mm02c2NSak12X3VtOWtpQzJSZ1psZHhaUWJubkV4YjNsalhxZG81VENLbDlfNWt4OEhaXzRidGlv?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "¿Emilia Orozco sabía que Pablo López le pegaba a su ex?: la denuncia que complica a la diputada nacional - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd19uak0xaURfYmZqYm9keXZIWG1rYkJQS0psc2VuR205WjZmLXZmaDlkLUVWb2twb2ZCNDN4bnZOTDE4WGQ3cHNYZW9VVktGOEZPMVhiU1Qtb0NOcnlLUFhHLVhWTnVERkE5LWJENzVJTV9vaWdaSC1uS052TTJNeHNRZU9YZm5yTEppX1VCWlc0b3ByWkp5eWNFaTJwLTNzTjBtTTZxOC1jVTdId3lFeXZ0cURfaklWQ05qcUwwVktMUnAwS083aEJuZ2tlaUxUUUtN?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 17 Jul 2025 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -25958,13 +25974,17 @@
     "id": "dnac-julio-moreno-ovalle",
     "name": "Julio Moreno Ovalle",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 7,
+    "total_mentions": 8,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 1,
-      "neutral": 6
+      "neutral": 7
     },
     "sentiment_by_day": {
+      "2025-12-11": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-10-30": {
         "total": 1,
         "score_sum": 0
@@ -26035,6 +26055,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "MORENO OVALLE, Daniel Roberto - Cámara de Senadores - Cámara de Senadores de Salta",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FemtUdElyanBhTlZvWEVUaUE2eFY0MHQyT29LNnlZUjItQVFSZ2tjSXdZYV9vNXpCU3JQeGVRTV9PNUh5TVJfR3dlc1BXSUJqMlBkajYtSExWOTdtSWpXTjdLS3JGS2cycnZ3dmFJdGhGMW9N?oc=5",
+        "source": "Cámara de Senadores de Salta",
+        "date": "Thu, 11 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Julio Moreno Ovalle sobre las dificultades de fin de mes: “Siempre ha habido problemas\" - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUhGX3c2b0l4aE9rOHpvdkQ2YkRPZE90c1hMY2NwdDVzSDhndFhRZVZrYUdQbDh4T0YxV2NiREhRVkJXeXo1UEM1VXc3N3pIdGJVU2RsNjF6ZXgybGVDUXR6Mlh6YlZWOUJYbXB4cHFuU3c0bUZyQk5JNklGbzVpU2dFLUFQdElSM0dTWGhCZEdkcXJGeWw0N1RjSmhpRll6RmNVTDQzWXNaZm56TDhJOGhJQTUwOHlrNWlSRm5nUE5nTU5mVG1KSjV3NHlGUlAwYTNJeC1SNnAxeFJ1OUHSAd4BQVVfeXFMTkVIRl93Nm9JeGhPazh6b3ZENmJET2RPdHNYTGNjcHQ1c0g4Z3RYUWVWa2FHUGw4eE9GMVdjYkRIUVZCV3l6NVBDNVV3Nzd6SHRiVVNkbDYxemV4MmxlQ1F0ejJYemJWVjlCWG1weHBxblN3NG1GckJOSTZJRm81aVNnRS1BUHRJUjNHU1hoQmRHZHFyRnlsNDdUY0poaUZZekZjVUw0M1lzWmZuekw4SThoSUE1MDh5azVpUkZuZ1BOZ01OZlRtSko1dzR5RlJQMGEzSXgtUjZwMXhSdTlB?oc=5",
@@ -32941,13 +32968,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 83,
+    "total_mentions": 84,
     "sentiment_breakdown": {
       "positivo": 15,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 64
     },
     "sentiment_by_day": {
+      "2024-07-23": {
+        "total": 1,
+        "score_sum": -6
+      },
       "2016-05-04": {
         "total": 1,
         "score_sum": 2
@@ -33224,7 +33255,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 3
+        "count": 4
       },
       {
         "term": "confirmó",
@@ -33340,6 +33371,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "¿Conflicto en puerta con la UTA?: Roberto Dib Ashur cuestionó el reclamo salarial - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjFWTXdkeFM4bDNHc2swZmhWTUN2cGI4NlJqYVVyM0txdFlqc29HT190QzBSc2VqVV8xTVVTc01BNEM1UnhkZ19UenJ4QmpuX0RBdGQ1SlgyX0dhZnN3dVRJaHBrandZOWdaZUd6d0JHd242UWVMSmt4WnAyQ29tU0FQZFFRRkdwSDZNYUM4VExHWUY2NHZmZ1pud2lFc0lZWVE0RXJqTkwyWFQ3VnJ4Y1BQQQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 23 Jul 2024 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Juan Pablo Rodríguez: “Dib Ashur y Cornejo dejan el gabinete con éxito” - Que Pasa Salta",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qLXplQ0pRT3FYLWd5VDVVeFRrMXdoR0cxU2tLbWU4em44LU9lRHBieS1ISUFIZkZ1SjlzSjI0ZUJQQ2p0bTBOejVWMnpJMmEwdkJ6aXZYM1JTMFRPaDNUTmln0gFiQVVfeXFMT2otemVDSlFPcVgtZ3lUNVV4VGsxd2hHRzFTa0ttZTh6bjgtT2VEcGJ5LUhJQUhmRnVKOXNKMjRlQlBDanRtME56NVYyekkyYTB2QnppdlgzUlMwVE9oM1ROaWc?oc=5",
@@ -33542,13 +33580,6 @@
         "source": "Que Pasa Salta",
         "date": "Wed, 03 Dec 2014 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Llegar a fin de mes: “El 69% de los trabajadores tiene algún problema”, instó Dib Ashur",
-        "link": "https://informatesalta.com.ar/lup-94-7-salta/llegar-a-fin-de-mes---el-69--de-los-trabajadores-tiene-algun-problema---insto-dib-ashur_a6ada00fa90f1c462d7b37837",
-        "source": "Informate Salta",
-        "date": "Thu, 22 Oct 2026 14:15:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
