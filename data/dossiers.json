@@ -3,20 +3,24 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 536,
+    "total_mentions": 531,
     "sentiment_breakdown": {
       "positivo": 140,
       "negativo": 99,
-      "neutral": 297
+      "neutral": 292
     },
     "sentiment_by_day": {
       "2026-09-16": {
-        "total": 11,
+        "total": 12,
         "score_sum": 0
       },
+      "2026-11-23": {
+        "total": 2,
+        "score_sum": 1
+      },
       "2026-09-18": {
-        "total": 13,
-        "score_sum": 0
+        "total": 12,
+        "score_sum": -4
       },
       "2026-11-22": {
         "total": 1,
@@ -443,7 +447,7 @@
         "score_sum": 0
       },
       "2026-09-15": {
-        "total": 7,
+        "total": 5,
         "score_sum": 0
       },
       "2026-09-20": {
@@ -451,7 +455,7 @@
         "score_sum": 6
       },
       "2026-09-17": {
-        "total": 6,
+        "total": 4,
         "score_sum": -2
       },
       "2026-09-21": {
@@ -463,7 +467,7 @@
         "score_sum": 0
       },
       "2026-09-19": {
-        "total": 4,
+        "total": 2,
         "score_sum": 0
       },
       "2016-09-18": {
@@ -551,7 +555,7 @@
         "score_sum": 2
       },
       "2026-09-14": {
-        "total": 3,
+        "total": 2,
         "score_sum": 0
       }
     },
@@ -562,11 +566,11 @@
       },
       {
         "term": "gustavo",
-        "count": 18
+        "count": 20
       },
       {
         "term": "tribuno",
-        "count": 12
+        "count": 11
       },
       {
         "term": "libro",
@@ -577,15 +581,15 @@
         "count": 5
       },
       {
+        "term": "presupuesto",
+        "count": 4
+      },
+      {
+        "term": "pero",
+        "count": 4
+      },
+      {
         "term": "reunió",
-        "count": 4
-      },
-      {
-        "term": "gabinete",
-        "count": 4
-      },
-      {
-        "term": "mandato",
         "count": 4
       }
     ],
@@ -690,6 +694,27 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz se reunirá con Diego Santilli: PASO y el Presupuesto 2027 estarán en la agenda - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcUFOYkdrSDEycXpObWE5QnFmSFB4T3ZubkJhQmVBMm9Cd2FRZENHN3YwSWdNZ2plbzFhbEcwaDBUQWRidTBtNXlDLXUwN2I3ZU5ERXFkU3pld3QxblAzM2xRRTUwZ2ZSNDVKaTdwejZqMmVhblZ1RGJNaXViTHp6MUh4S3pkNmxwNEs1M2lZTmhfTk1iRFRYVFF2SFNVSTRGalA5WjF6MlI0MUl0dWtlUFNlZHAxUDVWMUJmNUtsWHJEaUdxUzY2OW1NTTFHb2VBa1BLb3pkMNIB3AFBVV95cUxQeVl4WW9lS05Yb3pJMXQ1YkZUTWpKcjBvME5nd0tTdVZFbVBnNGxaNy1LMnd6S3pGSzd2N3FVSkNsWnJBZGFCTHBlX0hMRVNtaEZKUEhXRFd0VFh3bjVyRjkzZk56d0JJSzRER1V2U0VZUHJycmlVWHVmcDlaSWxuLTJXYlFGa0diM2paYWF2UHJ2TFlySXNybEVDM01UUUg0cldfLVQtaGplOEdyelJZY3cxaklfOVZLcXZ3Y0ROLVBZR2tQQmZFS19rdDdNR0RjNUtrdUhoY2VqOUhr?oc=5",
+        "source": "El Tribuno",
+        "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Alfredo Olmedo cuestiona la ley de Sáenz, pero Milei quiso una reforma similar y la oposición lo frenó",
+        "link": "https://elintra.com.ar/2026/11/23/alfredo-olmedo-cuestiona-la-ley-de-saenz-pero-milei-quiso-una-reforma-similar-y-la-oposicion-lo-freno/",
+        "source": "El Intra",
+        "date": "Mon, 23 Nov 2026 15:00:57 +0000",
+        "sentiment_label": "positivo"
+      },
+      {
+        "title": "Gustavo Sáenz entregó viviendas para adultos mayores en Tartagal",
+        "link": "https://elintra.com.ar/2026/11/23/gustavo-saenz-entrego-viviendas-para-adultos-mayores-en-tartagal/",
+        "source": "El Intra",
+        "date": "Mon, 23 Nov 2026 18:09:02 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gustavo Sáenz se reunió con Diego Santilli y otros gobernadores del Norte Grande para avanzar en la agenda reg - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVmo3ZEMwQjV4TWlVWkZTbzBiVE5ZWGV5SGh6WGRveDR2NzhTS0J6c1puaWNZLTlYbTk0cU1ZSl9XMGRxWHBvTEQtSFJKNHlTQ3NVRFl0V2dvb2VwRlRScFdkNkJuZjZvc1pMZlVrNExqWmlyYUtjMXdUVnZ0N0hzR2RTeUExd3lEYmFiUzdGMDRaVVl5aWxSQVl4ek45bFlTcGVWd1h3RF9lbXpEakM4TWNyUmQxTFJtN2VteEhIWHRuTkgxR2xYMldUZmlkcXBkSXphOExqR0ZOaHYxSl9EVDhPRVZSVlZCU2dWVmc3eno0MWJFbDdfX9IB_gFBVV95cUxOeVYtdFFlWm1IZnc2TkJzenFweG54Vk9FQndEUkZZNldfQUdITDZYdkY2MUJmVDJocHpzOFpvWURnLXgwRnhVRGR0c2puOEVERWxGdjNkUjdESmNlUWdEMFpUc2dkc3BISGdXa2dreFhUcWFfWDNyN2VDYlZRYk5teE9TMWt4T0xDTDUtS0Z1SUpfaWlfcnB6am83eWU5NVNiazVvbUVFQkczLUoyeGNtZTVDSWRSSzFmQ3hKN2xxaDhhLXNCOGFwWmdHSWJNc0R4ZWdIR0phYk9iSFhpaTJIOVVGN2JCclBBTDNUS1Q0VTE2RWdDNVZUdG9KdWY2Zw?oc=5",
@@ -877,27 +902,6 @@
         "link": "https://salta4400.com/salta/2026/11/18/salta-freno-una-obra-de-88-millones-en-metan-por-fallas-en-el-proyecto-tecnico/",
         "source": "Salta 4400",
         "date": "Wed, 18 Nov 2026 14:44:36 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz celebró la carne de Pichanal y calló sobre el pozo petrolero de la zona",
-        "link": "https://salta4400.com/argentina/2026/11/18/gustavo-saenz-celebro-la-carne-de-pichanal-y-callo-sobre-el-pozo-petrolero-de-la-zona/",
-        "source": "Salta 4400",
-        "date": "Wed, 18 Nov 2026 16:20:37 +0000",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Gustavo Sáenz le tira un salvavidas de $4.576 millones a Emiliano Durand",
-        "link": "https://elintra.com.ar/2026/11/18/gustavo-saenz-le-tira-un-salvavidas-de-4-576-millones-a-emiliano-durand/",
-        "source": "El Intra",
-        "date": "Wed, 18 Nov 2026 15:19:29 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sáenz encabezará hoy la presentación de su libro \"Federalismo y Progreso\" - Informate Salta",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSjBGclFkNGI1eExQTTJBQUMtT281UTgxTXo3bm1kVU1GZW5YR004eFJjbWFGbGFYZHZBa200bEtlZ3FDWHE3cV82LUhVeWNIZnBqQUFlUVlTQ3BOOEhUcWtuem5YZ0twMHBpZFQ5NnVsdjZQMHRYcEgyYkIyWVVVNlY3dDBWQVhhUGRTSlBpcEJXeWRmMHo3akM0bWFkQ0xRd1d0NzYzaFdzb2I2emZPbkdHQW8zTEVSc3BRV1FHMUpMcHFCamQ1ZDBCbEh2Ym5NRnBKTNIB4wFBVV95cUxQQ1JtTzN3TlpObGNzRjZGV1k3X281emdzTm1CNDNOSUV4SUdzbWtBMWs0YUpIcEVaNzNwVTNkUFFYWW9NQTJtZEZuM2F2QWVpNUtEVXlQQTB0ZVA3VDNRMFhOTE9JQVdIbUJjakJMOGMzdmh6OGh4TWMyZnBESFlJYWhocWN6Z0w5LVUwNVdfQzd2V2NWVEJoMVZDVmZiMGtoLThEdzV4WFpuVzdVeWdocG5NcG56TW5uQzhoLThZT28wUG5EbHZLWlMxYktZaWh4ejVnRTIxVTFNdUFnUTFmaXU2QQ?oc=5",
-        "source": "Informate Salta",
-        "date": "Mon, 16 Nov 2026 11:45:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -1326,13 +1330,17 @@
     "id": "sen-gonzalo-caro-davalos",
     "name": "Gonzalo Caro Dávalos",
     "role": "Senador/a provincial por Cerrillos",
-    "total_mentions": 53,
+    "total_mentions": 54,
     "sentiment_breakdown": {
       "positivo": 4,
       "negativo": 6,
-      "neutral": 43
+      "neutral": 44
     },
     "sentiment_by_day": {
+      "2023-11-24": {
+        "total": 2,
+        "score_sum": 2
+      },
       "2026-10-15": {
         "total": 1,
         "score_sum": 6
@@ -1384,10 +1392,6 @@
       "2025-09-08": {
         "total": 1,
         "score_sum": 0
-      },
-      "2023-11-24": {
-        "total": 1,
-        "score_sum": 2
       },
       "2025-09-01": {
         "total": 1,
@@ -1545,6 +1549,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "CARO DÁVALOS, Gonzalo - Cámara de Senadores - Cámara de Senadores de Salta",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CMHlTMTVIampzVU9WZDNGM2c0TDhCN2x3ZGRpc29TemRBUXd6Nm9QU3dWUVZGd3dkZnRGOHdYNUVEZnVla2FxT0V3b041UWxjblhOcVFiSE5KUnVzWDhBa3UtLVNuNFlTUXdfSWtkbDVId2hBRUE?oc=5",
+        "source": "Cámara de Senadores de Salta",
+        "date": "Fri, 24 Nov 2023 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Gracias a nuevas obras, 2500 vecinos de Cerrillos mejorarán su servicio de agua potable",
         "link": "https://informatesalta.com.ar/gobierno/gracias-a-nuevas-obras--2500-vecinos-de-cerrillos-mejoraran-su-servicio-de-agua-potable_a6ad0ccb17c6277e88ccbc033",
@@ -1747,13 +1758,6 @@
         "source": "informatesalta.com.ar",
         "date": "Thu, 02 Mar 2023 08:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "La Merced: qué dice el proyecto que busca intervenir el municipio en medio de la crisis por la muerte de Tomás - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQ3RqZmxHNWJ5dGFtb2tTUFc4elhYSHppdDVGMzVWZWJXLWc1RXF1UG44YldqT29wMmdjR1FYUlNHN3Z1SWpfbW1qU0l3dVMzWmVYdklJalNZMFVwWGJhaW5OYWlhUjBDX1pjUWJJMTZxdUxtRWFQeGRENTF1VmQ0NGRFSlNUb0N0ZXQ3dmhROUMwUGhsUHZ3VVdEa0xZTkJTV3NVZWV1eGhxN3Z4NFhQQ0RwRUFLM3Q3WUdrQlluOE4ybDJCR1ZfX0xBX2UzNGUtaWxnaG9WaDRfNTBYdDlxMWo3UG9ZNmNXZ0JGWGNZMlU4TVNP?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 07 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -9817,13 +9821,17 @@
     "id": "dip-omar-exeni-arminana",
     "name": "Omar Exeni Armiñana",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 42
+      "neutral": 43
     },
     "sentiment_by_day": {
+      "2022-06-27": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-07-02": {
         "total": 1,
         "score_sum": 0
@@ -10004,14 +10012,20 @@
     "top_topics": [
       {
         "term": "omar",
-        "count": 2
+        "count": 3
       },
       {
         "term": "exeni",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "es impresionante",
+        "source": "El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON1JHVjhIUTBkS1ZKTXBuMlFNTFlicklJV2JuVmFPU0hWZUJCSF81b2stUGxHQjJ5eXlPVzAza1U1TDh6bHp5UjMwOXlKckVKdlc2UVpYcm5LRXUyajh2WVZ0ZDhHNVF3bkppZFM2TEZRRHNCZXV2NndIWXVXU21YUzVEcFUwMkFWY1BVb05vN0ZVQ1VmQnFOWF9jWnNXSjFlLTRFcWliQ2RVWFZXWUFRdTZMZ3BvaTNLcVJmai12Z3laUE5JRnNqZUFB?oc=5",
+        "date": "Mon, 27 Jun 2022 07:00:00 GMT"
+      },
       {
         "quote": "La nueva política pide a gritos que se limiten los mandatos",
         "source": "Informate Salta",
@@ -10095,12 +10109,6 @@
         "source": "El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmtUeFBxSWNOLU5iWWt3OUJwd1ZPNVhhTmRnNEIya3JuMWdNWlZpYWxQOWxfRnU3X3RfdUtOMjZEdFhhekxNU003QWFRLWRIUWtTSmZQTm9EbnFDTmJPYjNsT3IyMFFnZFBRZFFWRzA1czQ3R3d1QmZlQXZpcFFXTk5rZzFpbkVkSmZCc1ZIc2pQbmEwZkZlTkpWc9IBoAFBVV95cUxPZGRGajhLTE9BbmlLWDJaX3BNUE44LTBCSFF0empKSWNHV2ZlS21hSU9PQ1JfRjlBdG1KaWdEdFhfOGFiQmdWT3paU1hIMXhwMm85YllyVk1PVDAtNFJXQ3JxRl9TMEQzOHRmVXZqcktJN3djR1FiQzhfVVV1WGRfc292QXJFUk0teWRnZXk5U3hJTW84QjRma2xxbGxqdG82?oc=5",
         "date": "Mon, 31 Mar 2025 07:00:00 GMT"
-      },
-      {
-        "quote": "Me enfocaré en la participación ciudadana con nueva tecnología",
-        "source": "El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVTB1Q2U5eUp3YW5xaXJ2OGNKRGpzUmh3dEhoVjBDSUZIeTVGaFh5U0QyRFk4Nm5BYzlVY0xFRV9XdXY2dDhWcXB5bjU3YXpQMGd3UjZWZ1VBRHlQQ3h0ZDhpM0VKaWNzTy0zajg4aDVDWU9xRVVrNzdINmRQbUl4ZW1GeHVRVnE1RVZ1dmlkdGp5QnVOVl9mSDBuTk9IYUVlMWd3S0pRYjFOTXl0d3pXWk1idTU3akYwdmlxdV9GNmXSAcYBQVVfeXFMUFZyRHJycEpWQVVpREZqODI5bFo3cDAtcWdWLVBWcG12RklHczNTaDlBLVk3ODR3XzhGU1Q1SFpYUnFFc183LWF4cW9BSkdBWkVRdUlnZS1HMXVZdWF5MExDTS15dXFzQ1dkdDQ1OGpBR3JEb3dDMEItT0pvVU9ucXo4dGtoU1VuaDIyWG9HdElaNTJ6emVhdDNReXI3Y3d4UC04aWxxcGFIZm1tN3k1QzZKZlhsOE1JbmJyb2tNZzhBVkVRY3JB?oc=5",
-        "date": "Sun, 11 May 2025 07:00:00 GMT"
       }
     ],
     "legal_mentions": [
@@ -10118,6 +10126,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Wado de Pedro afirmó que la tarea de Omar Exeni con la tartamudez “es impresionante” - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON1JHVjhIUTBkS1ZKTXBuMlFNTFlicklJV2JuVmFPU0hWZUJCSF81b2stUGxHQjJ5eXlPVzAza1U1TDh6bHp5UjMwOXlKckVKdlc2UVpYcm5LRXUyajh2WVZ0ZDhHNVF3bkppZFM2TEZRRHNCZXV2NndIWXVXU21YUzVEcFUwMkFWY1BVb05vN0ZVQ1VmQnFOWF9jWnNXSjFlLTRFcWliQ2RVWFZXWUFRdTZMZ3BvaTNLcVJmai12Z3laUE5JRnNqZUFB?oc=5",
+        "source": "El Tribuno",
+        "date": "Mon, 27 Jun 2022 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿El maestro Siruela? Omar Exeni ayuda a jóvenes y ancianos a terminar el secundario - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQjdJR014d0JXQjBaTG1WeWdZQjBXMkNSTjNmRXUxb09kQjFVRXlncmlhT0hLOHltU1dlMWswTkpJTEZvV2w3X01XMno0MVhhemlocDhIeC1OOUZtSUFjQzAwX3p4R2JNWDVSbW9WRS1rNHc0ajBfUWVydG5uS0pwTlhjMUkzVHFmSlVpUUJSSUtiZXV3eHIxZ0lmY1hJNVdETDgwdmpfY2hxQ0h4MjMteGhOZFh5SjA?oc=5",
@@ -10320,13 +10335,6 @@
         "source": "Que Pasa Salta",
         "date": "Fri, 13 Mar 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Polémica en Salta por los test “express” de Omar Exeni para detección de TDAH y autismo - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmx2Q2ItcFdQdVpnRGE4dTM5WHFCejVyQ3JlcGxwQ2F1ZFZyZ3ZxemwwbVJmR2JtQV9kZ1R6VW10NkVZQ1B4UWVPSGF5NnNpOFhZZ0M2QmVXcTU0M05abVRJSndIQ2pkcWVLd2N5dVRyU2FtMlhSdk1zY3BpMmZYbHpzMzBkRXAyZlFzOTFfazJJZmE2UE1CaEtyY3JGTmVDbW82aENmaG9DQWxEdXJ3aWZWeGVCdnVDbmFFaw?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -26698,13 +26706,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 46,
+    "total_mentions": 47,
     "sentiment_breakdown": {
       "positivo": 9,
       "negativo": 8,
-      "neutral": 29
+      "neutral": 30
     },
     "sentiment_by_day": {
+      "2025-03-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-20": {
         "total": 1,
         "score_sum": 4
@@ -26865,14 +26877,14 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 4
-      },
-      {
-        "term": "proyecto",
-        "count": 2
+        "count": 5
       },
       {
         "term": "bernardo",
+        "count": 3
+      },
+      {
+        "term": "proyecto",
         "count": 2
       },
       {
@@ -26986,6 +26998,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Dejó de ser independiente: Bernardo Biella será el candidato a senador de la Capital de Saenz - El Vocero - El Vocero",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkxVa2NHRGttenFnVDF2NzU4aUlWaEQwNGhQSVMxMkdTcnkyWHhBSFNPcEVLeTk4YVBYREtRT0IyckNfTjctZHVOekhWMllEZmNaN0dBMDRIWTMwMDl3Z1F5bHZZUTAyVlpZd0F3WnBvYnc1dzE1Q0l3dndpQjQ3UUpTWWQyQ0tDaGJzMnRTM1VlemR0ZENDWl9YbnZlVHNEN1JHRUJadklzS3c3ODZHRlBRZDhhTU1CMTJyNg?oc=5",
+        "source": "El Vocero - El Vocero",
+        "date": "Thu, 13 Mar 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“Le modificamos 18 de los 23 artículos\": Biella detalló los cambios en la Ley de Discapacidad",
         "link": "https://informatesalta.com.ar/lup-94-7-salta/-le-modificamos-18-de-los-23-articulos---biella-detallo-los-cambios-en-la-ley-de-discapacidad_a6b00668dcd25aee28851f0e4",
@@ -27187,13 +27206,6 @@
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamhDaWVLc0MydnRURXpfRk1XYk12dVlIa1M2TXpORnN0dnRmNG0tTHV1U2pWbmtLd3ZzSlNGdHE5RXNQc3VxSGNZSHp0UmlRMXNyTWtXekZVbE9hRmtiSTJtTGUxUWZTWHNaMmJfWk56WDlBQlpxVUt2YnA5d0RwTlJUQ1RBaEFHYjVNcmQ5c0QyVjFhUFRsREYtTDlZdGdY?oc=5",
         "source": "Elintra.com.ar",
         "date": "Thu, 27 Aug 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Una muerte y cinco hospitales en cuarentena por la peste: ¿Hay riesgo para Salta?",
-        "link": "https://informatesalta.com.ar/salud/una-muerte-y-cinco-hospitales-en-cuarentena-por-la-peste---hay-riesgo-para-salta-_a6ac512336b27e8e08eb56db2",
-        "source": "Informate Salta",
-        "date": "Tue, 06 Oct 2026 17:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -28739,13 +28751,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 3,
-      "neutral": 24
+      "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-03-05": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2021-03-31": {
         "total": 1,
         "score_sum": 0
@@ -28878,10 +28894,14 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galíndez",
+        "count": 3
+      },
+      {
+        "term": "diputados",
         "count": 2
       }
     ],
@@ -28943,6 +28963,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Frida Fonseca y Gastón Galíndez juran como consejeros diputados en el Consejo de la Magistratura - Iruya.com",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRXJ3eUs2WElSeXVybW1jLWR0bjQ2SzlJQzFMeDRfd1FvMnJmd2pOYktndFdoSnVndXFxVDFpb19wRUJZemdDTll5ai1XVTN1MjNLWU00WXV5dFNWT3hZMFhLNU9mcWtxSlNVQVV4VDM1eG5xOWJBYnRWY29qWnVoVDRHQmNOcFFaUXRLYlFOR2dSb210bVJSRE82QklGcURBZ2JIQlBjeG8tNzJIQ1VSelBlY3NoODFQRFpKUXlneGEtWlE2S0RSdUdrZGs3amd5ZHJGZ1JSamR1NkhjOEFoQw?oc=5",
+        "source": "Iruya.com",
+        "date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "El secretario Administrativo, Gastón Galíndez, dio positivo para coronavirus - Voces Criticas - Salta",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWlJwRVprWWV4MlhnWkhFZjJFVi00czJkMTU5aW1LUG0xMmRDTnc1TG1aSnpESGFkRnkteUZINXgwRVd3QTRnUmdDRl9BSDBNSDV5LTNhazgzODhRWlhGN0dYN1pVUS1IWE1rQjJkR0RjUlJORnBOWXFSZFJRX19UckhINmlJVkdNOFdJZ1gtdVJJdzF1ZWNNX3B5aEdmTnFFVzZpRE5pUkJzaVdCNi1mU1BsS2tCTW5NclVvVkZmcWx1NUFXQ3RvdUp30gHPAUFVX3lxTE5aOVdhZXZiODFpNElXbVJLUkh3OHZoTE1JWmZ4bnROclE5X2pxR3FvelJ4UDRCdFV6cHVDYkdWb3hjMzcyS0NaUWRlS0hYOGFESnJ6bkpJa1NpQ3pZTThKX1ZzY2xWZTAwcDE1dDN2UkxHYzBPekhSWm5lS3RSWmVvX0hKakczZTNyenVUWWdrc19IdXpzR3FkaGVzczFkNEVRdGZkNTlHMTdXdTROM0k5eS1OX3RPQjVOc0RpLVJ1SVNVYzZUS29yREdHRV9Qdw?oc=5",
@@ -29144,13 +29171,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CanJieVBBMUthWFE1UTV2NGNCbVNrVS01U0l0RC1RdmFTYkt4WTFsekhnOXFHTFJVU3N0ODJFNGtmOUtsTlJXb1hNbEduXzFCMWdmTlVJbkJWQQ?oc=5",
         "source": "El Tribuno",
         "date": "Wed, 08 May 2024 01:00:45 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gastón Galíndez volvió a un viejo amor y hay foto - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVWluTnNJNTQwWlloNWxJLTk4dXkxOUVOSEVFYVJaUkFyT0htVFZMV1VrZWwtU1BKUGNaNFFUc05mNDUwR2ZtLU9mdFdoTG1rdTdmX1N5TzdQR0ozQjFVZlpoc3dyRXc0ckdTV25IM3RrX2VvQlBkcVBtU2ozb2liWDF3U1RGemc2cjU1Ug?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Thu, 10 Nov 2022 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -32051,13 +32071,17 @@
     "id": "eje-sergio-camacho",
     "name": "Sergio Darío Camacho",
     "role": "Jefe de Gabinete de Ministros",
-    "total_mentions": 42,
+    "total_mentions": 43,
     "sentiment_breakdown": {
       "positivo": 13,
-      "negativo": 4,
+      "negativo": 5,
       "neutral": 25
     },
     "sentiment_by_day": {
+      "2026-07-04": {
+        "total": 1,
+        "score_sum": -2
+      },
       "2026-11-20": {
         "total": 5,
         "score_sum": 3
@@ -32170,7 +32194,7 @@
     "top_topics": [
       {
         "term": "camacho",
-        "count": 4
+        "count": 5
       },
       {
         "term": "sáenz",
@@ -32185,23 +32209,29 @@
         "count": 3
       },
       {
+        "term": "sergio",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      },
+      {
         "term": "mandato",
         "count": 2
       },
       {
         "term": "equipo",
         "count": 2
-      },
-      {
-        "term": "ratificó",
-        "count": 2
-      },
-      {
-        "term": "mejoras",
-        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "No tenía capacidad de gestión",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekpBaDFudEszUS1nNnVab1d1SW1XWjh0djNfeWVhNHRVX2VlVFBSMlczbFBDbFhoSUFPdWI2MjVGcFJiX1pJZ294SjBNMFJsdDVDRXYzcnZDVGR1YndMUXdTYnNJbkRkcUpRZkxkUHE4MFE2X0wtZ0pnQ09JZjEtbEZ6ZThKVW9FOERQTUNLMFVXc0ZlMjR4VHN4THVlTkFpNTFBSFhmbXc5M0ZYbmIxd0dySQ?oc=5",
+        "date": "Sat, 04 Jul 2026 07:00:00 GMT"
+      },
       {
         "quote": "La integración es fundamental",
         "source": "Informate Salta",
@@ -32247,6 +32277,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Sergio Camacho cuestionó a Adorni tras su salida: \"No tenía capacidad de gestión\" - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekpBaDFudEszUS1nNnVab1d1SW1XWjh0djNfeWVhNHRVX2VlVFBSMlczbFBDbFhoSUFPdWI2MjVGcFJiX1pJZ294SjBNMFJsdDVDRXYzcnZDVGR1YndMUXdTYnNJbkRkcUpRZkxkUHE4MFE2X0wtZ0pnQ09JZjEtbEZ6ZThKVW9FOERQTUNLMFVXc0ZlMjR4VHN4THVlTkFpNTFBSFhmbXc5M0ZYbmIxd0dySQ?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 04 Jul 2026 07:00:00 GMT",
+        "sentiment_label": "negativo"
+      },
       {
         "title": "Sergio Camacho respaldó otro mandato de Sáenz, pero pidió una renovación del equipo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXBvRnNrUU13YThKa3d2UVJuM01QdUlmSzB4SFQ5aHpzT25mcWlEbUNaWDBqX2h2emNTbTA3ZjZnM3JkZTZPbGtGaUJGMlVsX05HeFc4SUxZSjd0VVpMUjJSNlBJdXFrOVQ4THJ0dEtpeXRtYTZ1ckRfYjdDX1FaVEtTcXhvUS1BbWhVWXlqd2NTQWR3MVM4ZDljeUVOVFBlMDAweGE0bXp0dFFZQXhYZEZ6bjlhVjNf?oc=5",
@@ -32449,13 +32486,6 @@
         "source": "Informate Salta",
         "date": "Fri, 16 Oct 2026 18:30:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Sergio Camacho defendió las obras de Sáenz y cuestionó a los libertarios",
-        "link": "https://elintra.com.ar/2026/10/15/camacho-obras-salta-libertarios/",
-        "source": "El Intra",
-        "date": "Thu, 15 Oct 2026 18:55:00 +0000",
-        "sentiment_label": "negativo"
       }
     ]
   },
@@ -32658,11 +32688,11 @@
     "top_topics": [
       {
         "term": "jarsún",
-        "count": 4
+        "count": 3
       },
       {
         "term": "ignacio",
-        "count": 3
+        "count": 2
       },
       {
         "term": "defendió",
