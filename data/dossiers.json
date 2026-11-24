@@ -3,13 +3,17 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 522,
+    "total_mentions": 517,
     "sentiment_breakdown": {
-      "positivo": 139,
+      "positivo": 138,
       "negativo": 97,
-      "neutral": 286
+      "neutral": 282
     },
     "sentiment_by_day": {
+      "2026-11-24": {
+        "total": 2,
+        "score_sum": 3
+      },
       "2026-07-01": {
         "total": 1,
         "score_sum": 0
@@ -23,7 +27,7 @@
         "score_sum": 1
       },
       "2026-09-16": {
-        "total": 10,
+        "total": 7,
         "score_sum": 0
       },
       "2026-09-18": {
@@ -459,11 +463,11 @@
         "score_sum": 0
       },
       "2026-09-20": {
-        "total": 12,
-        "score_sum": 6
+        "total": 10,
+        "score_sum": 4
       },
       "2026-09-17": {
-        "total": 3,
+        "total": 2,
         "score_sum": -2
       },
       "2026-09-21": {
@@ -557,16 +561,12 @@
       "2026-05-26": {
         "total": 3,
         "score_sum": 0
-      },
-      "2026-05-06": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 31
+        "count": 32
       },
       {
         "term": "gustavo",
@@ -698,6 +698,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz mantiene el misterio sobre el voto de Flavia Royón por las PASO",
+        "link": "https://elintra.com.ar/2026/11/24/gustavo-saenz-mantiene-misterio-sobre-voto-flavia-royon-paso/",
+        "source": "El Intra",
+        "date": "Tue, 24 Nov 2026 13:53:44 +0000",
+        "sentiment_label": "neutral"
+      },
+      {
+        "title": "Pablo Kosiner puso en duda la estrategia de Sáenz y advirtió que sus gestos apuntan a un acuerdo con Milei",
+        "link": "https://elintra.com.ar/2026/11/24/pablo-kosiner-puso-en-duda-la-estrategia-de-saenz-y-advirtio-que-sus-gestos-apuntan-a-un-acuerdo-con-milei/",
+        "source": "El Intra",
+        "date": "Tue, 24 Nov 2026 14:32:35 +0000",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Sáenz llamó a los intendentes a defender el federalismo - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZy1Fc0xUNGl1WWdGN2ExY2ROUHFERGZrU3oybVk5cnppVTYxZjhzWmVrZVJaVm9ZcXdxd0tSMHRtUk5OejFSTHRJT0xlSlZvb0gzMkg4NVBjdHBKY0xzWk5kVWlEUVJXSkE0VGVobU5KSll4clJsSlQyX2tqek5idW5oaEYwMmlOYXRpYVBScGJXWm1QLXQwc3JodF9LTVI4QXlTVdIBqgFBVV95cUxPSHlFU3VkN1Z3ZUNMazJLdGF1dmUyVHJvSDMzZWZmeFpMX29Ubmpwa2xVeU9WZ193Yzc1VEE4VWFncVFvT21rNHN6Nzg3S0dCZV9ZRmc3blRaLVZNT0tnSFBUMGhPRVROT1k0a182eTlGbG9mWThtTW5tbzdqd0xmLVZjaXdPYnhBZEM0ajFlVkFVclg3ek1SRkZTY1hZWTBJd0VBNGJaSnVVZw?oc=5",
@@ -892,20 +906,6 @@
         "link": "https://www.eltribuno.com/municipios/2026-11-19-0-0-0-guemes-la-escuela-tecnica-tesla-ya-estreno-su-flamante-edificio",
         "source": "El Tribuno - Municipios",
         "date": "Thu, 19 Nov 2026 04:40:21 GMT",
-        "sentiment_label": "positivo"
-      },
-      {
-        "title": "Concejal capitalina largó la campaña electoral para el 2027",
-        "link": "https://informatesalta.com.ar/elecciones/concejal-capitalina-largo-la-campana-electoral-para-el-2027_a6afe1092e4787d71b4b5bc83",
-        "source": "Informate Salta",
-        "date": "Wed, 18 Nov 2026 21:30:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Después de años de espera, inauguraron la Escuela Tesla en Güemes y anunciaron $2.300 millones",
-        "link": "https://informatesalta.com.ar/educacion/despues-de-anos-de-espera--inauguraron-la-escuela-tesla-en-guemes-y-anunciaron--2-300-millones_a6afe10f8e4787d71b4b5c5c8",
-        "source": "Informate Salta",
-        "date": "Wed, 18 Nov 2026 23:30:00 GMT",
         "sentiment_label": "positivo"
       }
     ]
@@ -15237,14 +15237,10 @@
     "top_topics": [
       {
         "term": "rogelio",
-        "count": 3
+        "count": 2
       },
       {
         "term": "segundo",
-        "count": 3
-      },
-      {
-        "term": "noticias",
         "count": 2
       }
     ],
@@ -20582,13 +20578,17 @@
     "id": "concejal-pablo-emanuel-lopez",
     "name": "Pablo Emanuel López",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 57,
+    "total_mentions": 58,
     "sentiment_breakdown": {
       "positivo": 3,
       "negativo": 25,
-      "neutral": 29
+      "neutral": 30
     },
     "sentiment_by_day": {
+      "2025-08-01": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-07-31": {
         "total": 1,
         "score_sum": 0
@@ -20753,11 +20753,11 @@
     "top_topics": [
       {
         "term": "pablo",
-        "count": 4
+        "count": 5
       },
       {
         "term": "lópez",
-        "count": 4
+        "count": 5
       },
       {
         "term": "elintra",
@@ -20937,6 +20937,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Pablo López se presentó nuevamente en el Concejo y reafirmó su inocencia: \"Estoy aquí porque no tengo nad - El Tribuno",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNDdRbmUwZjJBdUJzbGVlWGYwS0VzaS01bW43TmZhUjRjb09KYmdISktYV2R1eDlnNExEV1JoN1BtZ3RkSGxqY0RUd1laemRiemNsOUNJbGtGRDRKbWxnZS1SS1VOU1E0ZnNpWVZHWlpYZFJiWWFVYjJMaVQwcFh1UHAwdWV4UjQzQUFDTUhTb2hFOGpLUy1ES1hPNXdmeXNwY1VoVEFNV1pwMUV2dkhhUmRHOVFZNDBUTVJZMFZaX24ta3VHTjQtdEZ3UkRNS3ZoWm9uYy1zWkRVZFc1WjNPZ1lidVlmbXFDeDZfNV8tR09GQ0k1NHFJ0gH8AUFVX3lxTFB5Zlp2YUoxdFNHSngzdVhpRG94eGFrQXFhN09MRUNaMGtXMkJBeVNmU2xkdkV0VFJ2MzdxS3RkLVlqclkybXFEM3FqV1NHVWY2Nm1SYktyY2tna0tndnh0ZFBZXy1yYnJDYkJIWUZzR3drWHBEeWktUnJiamdtVjJBRHNvRm92MDVDX0hZMzJnclRUdGF6b05xYXBVcXlrOEtNWlNsZFIwNWdQSTllNEZWclMtUnNSTTlmc3ZPZks0cVZKQkZzcGJUXzJXaWw5aERQc1NNOTBUMVQ2d0huZ0JmRVFVV3U0QXJmWjQtUWFYMElLWW9sQ0s5MU1lbg?oc=5",
+        "source": "El Tribuno",
+        "date": "Fri, 01 Aug 2025 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Agustina Álvarez tildó de \"extraño\" lo que está pasando con el caso Pablo López - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3Z5NWYzLXBFaC1fUkhqaHd3Y3ZJS3p6d21rR19BbnpCYy14R3EwM21YWjFJbXEzN3d5aU5LaTdqWnpoRjQ1dHVoQnVadFV6MUQ3WVdSdkVQTjNEWGtoSWloYjVXS1pQUkRJOXI4QWdaTm1ranlib3Z6RGlFelgwcUxkMGd3ejhVa25ORUpsTl9GLTdRZlBxaVBEdHFDdVZjdlFQTnE1aEpZTW9FYXpaZDN3?oc=5",
@@ -21138,13 +21145,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnhpaWJ5ZVpXeE9fNW5ON3ZsR2tjbzZySTJrVVV5TXlhcC1yQk00YkJOSzgyMTZqN09JOVp4YWk1b253dFRHdzdsd0xqWU5uWlh1TG0wdVo3enk1bWw0bW1tcW1vdlh3ME1xczdLZ090RWYzcEszM2VOLTl1akdtbkNiMWo0Q3dKTFJTd0dhb0tjdHdFQmJCWHdXMjQ5ODQ0c3hOMVc4VTg2c1dzOVNFUUxRRExRSTQ2MUFJN3pfREdSVFE?oc=5",
         "source": "Informate Salta",
         "date": "Sun, 27 Oct 2013 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Asumen 11 concejales con la mirada puesta en Pablo López - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZTdsQU1OZ2hPM25UNG5wTC1VTVMyZGZVTUZxN3E5bkhNTGNxMllBRXY3SkhNeFFDYXc3YVVXMkY0cllib1VXXzl2dlNVRUNJWm0zU3ZrZkNYMjVPdktxZWMwdk5tRW9pVk10c0I4QVdCNWpGdHM5b0dKeEVXOVFkbGJkLUdqNGFCQldxLU1kbG9yakxTM3liNWgyb1dndjNULXpTT1FxWdIBrAFBVV95cUxPeWIxVXdxWkFQR0l6SFdUWGpnT3lyell2R00wSlRfbGkzaGxOeU9pMmlxLW9KYUJIMThTZlNWRHdTYWV4R3Nxb0pvOFNhR1lJLTJSVTM3cXdVWnNJaVlKMGI5YS1CMEJYaE96Q2xQeFJjMHN1c0dTTXQycWQ1YWhPd3Q2VDVSRnFHdm5hSGZwTGlONUtJbG5IYWNVU3dsTWhqNkx4VVRXZkVhU0VE?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 03 Dec 2025 08:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -21460,22 +21460,14 @@
     "top_topics": [
       {
         "term": "madile",
-        "count": 4
-      },
-      {
-        "term": "darío",
         "count": 3
       },
       {
+        "term": "darío",
+        "count": 2
+      },
+      {
         "term": "candidato",
-        "count": 2
-      },
-      {
-        "term": "concejo",
-        "count": 2
-      },
-      {
-        "term": "deliberante",
         "count": 2
       }
     ],
@@ -23286,13 +23278,17 @@
     "id": "snac-flavia-royon",
     "name": "Flavia Gabriela Royón",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 136,
+    "total_mentions": 137,
     "sentiment_breakdown": {
       "positivo": 13,
       "negativo": 18,
-      "neutral": 105
+      "neutral": 106
     },
     "sentiment_by_day": {
+      "2026-11-24": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2025-05-11": {
         "total": 4,
         "score_sum": 0
@@ -23701,15 +23697,15 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 7
+        "count": 8
       },
       {
         "term": "royón",
-        "count": 7
+        "count": 8
       },
       {
         "term": "voto",
-        "count": 2
+        "count": 3
       },
       {
         "term": "discapacidad",
@@ -23847,6 +23843,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Gustavo Sáenz mantiene el misterio sobre el voto de Flavia Royón por las PASO",
+        "link": "https://elintra.com.ar/2026/11/24/gustavo-saenz-mantiene-misterio-sobre-voto-flavia-royon-paso/",
+        "source": "El Intra",
+        "date": "Tue, 24 Nov 2026 13:53:44 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Flavia Royón: “Tenemos que tomar conciencia y cuidar la democracia” - Nuevo Diario de Salta",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaHYwTzJMV2lCNzFQZ25WLVBZZlN1Y0JTRTE3WFh4eHoyVHNCTHZrU0RnMFctRDdFYW5rZUpQOVVhb3REUWt3d2NMUjAzNl9aNXIxY29oTk80Y0llUEtTcU1zXzhPSDdMSmJ3YXlnN2ZhTU50SDdETnlMZDQ3U1llbXM1d3VBS25ncUxMak45bF81SUJLN1Y4MEdSRmJzaFlH?oc=5",
@@ -24048,13 +24051,6 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORzRTNWY1X2I5ZW5MZGwxS2V0X0phalliSU9WSU4waEhvZnhMT2M1TV9pQmdNdnpRVkp3bVJ0VzNCWmMzdTBkLXktMDU4VUdXSVFjQXJVbHA2VWk5Y2dlTTVwU3lXeE1EQ3VhT0d4dFg2Mm1NanNLNm1mWGVwUTQ2UFFPQ25LODZZdFVuWdIBjAFBVV95cUxORzRTNWY1X2I5ZW5MZGwxS2V0X0phalliSU9WSU4waEhvZnhMT2M1TV9pQmdNdnpRVkp3bVJ0VzNCWmMzdTBkLXktMDU4VUdXSVFjQXJVbHA2VWk5Y2dlTTVwU3lXeE1EQ3VhT0d4dFg2Mm1NanNLNm1mWGVwUTQ2UFFPQ25LODZZdFVuWQ?oc=5",
         "source": "Que Pasa Salta",
         "date": "Thu, 28 Aug 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Flavia Royón: “Argentina necesita senadores que defiendan sus provincias, no levanta-manos por orden del Gobierno” - Infobae",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSTd0WmNGdGJmenQtRHhOTEdwWG84MEQxdUtENkxHTk5rR1I1S2pvbUhmUC1PY1hzc0VJSHNDVHVKTHJ4V2RMaHBaTUVXdXZRMkFmeTJXaXZ4aFFQVmZRNVdrR0hKQnVDSnVLN20tdWZCNWZOQ0k1ckNROFdXZ2kxNW4xWEYtTmNZTjRBNFVZUG44MzBMWmFwWG5LRW8tNllMeExhSHIxeEJRVE92UGZENTJTLXNPYTdTU1ZYVXpWdjd1elM5ODhIUkU4RHd5cjRxQWt6TDdiY3ZmS251bzBxLTZKQXN0QXhEQzBV0gGGAkFVX3lxTFBmaVY2OWl1RHZMY1htS0p3eUoyZzRNVlpKTk5RTDRIMGd5RW9mQ1B6V1l0MnUtaFdjVlg5YU1qQlNLOHlneXJYdjNiRWo5ZjYwOGJGcUplRVY0TGxpT0RNdVhTVU1PRFotRmFBcG96RHE3dDJuSmJLQ1lSdXd0WjdJd2tZMlM0MEZCcm5hX19INVRIcjdpUDlNdndFRkt0QzJ5M1Z6cFREd3hWYVVkODFUX0p4T3VCRHpuZzE3LUtuMEk0ZHNaVDZuajJvazdSNG93TjZEOW8wMHpKd1pzYlhnbjR5aDMzUDA0X2J2dzI3cFl6Q003enpEYzlnZTg3WGR0bFJmRFE?oc=5",
-        "source": "Infobae",
-        "date": "Sun, 19 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -25622,13 +25618,17 @@
     "id": "dnac-maria-gabriela-flores",
     "name": "María Gabriela Flores",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 33,
+    "total_mentions": 34,
     "sentiment_breakdown": {
       "positivo": 1,
       "negativo": 4,
-      "neutral": 28
+      "neutral": 29
     },
     "sentiment_by_day": {
+      "2025-12-13": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-04-08": {
         "total": 2,
         "score_sum": -2
@@ -25724,6 +25724,18 @@
     },
     "top_topics": [
       {
+        "term": "gabriela",
+        "count": 2
+      },
+      {
+        "term": "flores",
+        "count": 2
+      },
+      {
+        "term": "elintra",
+        "count": 2
+      },
+      {
         "term": "libertarios",
         "count": 2
       },
@@ -25796,6 +25808,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gabriela Flores aseguró que la reforma laboral terminará con el empleo en negro en Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTVVybXVKbThjZVFfZFJqYzd1QVdwbVA1QndNN0N1RDFLMTFPZ1QxRTVHNVQxOGt2czg5SkNRNWQxeXE2d0NnVm5WM0VoZ190Zk10LTh5U3dNbWhUcHdlMHRINm9jMkNaa3pqX1J0RjczZ0k2dEVRNldfRkxuQUdwSlo1RWZ1NXhzaG5IXzR3ZUFUaWc1TklRdVEzc1hlMG1Ib3JOTnRoY2VtM1cwM3REam5fSElxRGFyY1Nib0tNQkM?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Sat, 13 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Señalan a Gabriela Flores por el uso de pasajes oficiales para su hijo - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWWNnaXVDNEVKODJPVXQyUWczeFByQU9hLWRZT1N1X3ZaQTUzYm92OEVERWNrcER2V1YybXpoTWRLUG5Ua0tfSmZkeU1TTWd0Q0xaanNiaTRrOXNsT1hueVdiZ01pQnZOUUhiRFd1MHNPb3Y0SlZmMzIwOUxzVTdyak1seDhOVGZScFU5RWloSWJWYnpmamQtMEExQXpxZzJfU2MzN0liUEY?oc=5",
@@ -25997,13 +26016,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ1g0RUdPRTZjRTJINWFMSEtvaEh5Z0Z1dFl6OThfZnpyVkxMYXRaR1YxNjh2aHlwekRBVjZvRmcyNXdwYUFPeVRkaUJlc2tqcHFPdUhvSDBldVAtQXRaSVlPT2ZKTW5uSVIteW9SVUl5dVBpTVN3anlXNTNZSjY5aDhBWWNnYm1EazkyU1JkRFFBWVE3LTZtUl90aWY2aTdNM050SVl4bXRUOFFvTkxOamdsbENFRk5HdWFXZHR6eDFzUFY4RzB3bGk5bUNhVUx1aG5KYXNCaFpFSUdlUkJHMFRMQnVqYy1LR2fSAfgBQVVfeXFMT25jOVh4NXJpSzZWMFJKU0g3TDRtTXNRUzB1ZXd0d1Z1bXFtMmQ2bTVQUF9TcVVPcTJ4eFBDSVlrMVRKVzhqX1pFcWxEaE1vQ01LbEJFcUltbTZpVzc4TTBCQ0hBQUpQalZ3MW9yUkdDc1NOQXF5TUsya3RoN051bEtOeFQzZG15R1ZlRXhTTEI3d0llazFmWmVxcWJsVWdMS0JwSExGU0VjaWd5dzFoTXVnNEJFRV9BWUFEbVlwbDBGUUxMRDVrbjdsZFRuTkxFbWV0a0ZaY3pLRkJTWWZDcnV4XzJTNm5qcHZNdkw5UlFGekZHRWVWOVI?oc=5",
         "source": "Informate Salta",
         "date": "Thu, 09 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gabriela Flores: “Mañana veremos el mensaje que nos da la ciudadanía” - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUmtDRjFzLWpWMzJpR09yakhCVVJUN2psVml5NVhFOUlMV0RMeVVnbHFoU1FwU3cxc1RZTzR5RlEyOGtpcUlNelVJMkFXdXZkTXZ4SFl2S0k0RS1hTHdJcDloUndaN3BBZGc1SER3QWJOQXVaMk84R2dWRmJvbk4ySi1STXVHTFZPU2lMaHhodFcybzBhR3JicDlzNC1nQ3A1ZTJ5ZnpSbXdTb0JpLTZNZmR2cjdDYlnSAbwBQVVfeXFMT25uSnk2RmpTU1E5U05wVl94VVpDd0g3SlZIa0J2djNpQUp4RkgtTTBFUzh4TXFOS0pZMG05N3JvODFlSENmeDBxTmx1SFVSc3cxOVpwVDhNTmNIaVNkbFVuUVpiUDdJWGNHNlJZakg4ZEVWRzhyLTc1c3BQbkFKekhpcEtmQ09pZV9wcl9JdVB3allYRThmY3dFUDRZZGkzMURyekxRN0JtTnZ6eW5nZGlxUkpzTDEyNFlFbkQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Sun, 26 Oct 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -26899,11 +26911,11 @@
     "top_topics": [
       {
         "term": "biella",
-        "count": 5
+        "count": 4
       },
       {
         "term": "bernardo",
-        "count": 3
+        "count": 2
       },
       {
         "term": "proyecto",
@@ -31635,13 +31647,17 @@
     "id": "eje-antonio-marocco",
     "name": "Antonio Oscar Marocco",
     "role": "Vicegobernador de Salta",
-    "total_mentions": 42,
+    "total_mentions": 43,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 3,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
+      "2026-08-31": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2011-12-24": {
         "total": 1,
         "score_sum": 0
@@ -31794,15 +31810,15 @@
     "top_topics": [
       {
         "term": "antonio",
-        "count": 3
+        "count": 4
       },
       {
         "term": "marocco",
-        "count": 3
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
@@ -31864,6 +31880,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "La pareja de Ada Zunino, acusada de acoso, habría llegado al Poder Judicial con la ayuda de Antonio Marocco - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9aZGJXWHd5cHZHcUIxSEhZOVpzXzFjOHFIMmNqSUR3MXdJRDBDaEJwRzlpNDl3ME9VRUU0S2JsZmpQMDNCMWd6bGJwRGhuc19nOFhLWFZzWVozXzlpU1FqU0huNUR4dzh4NlQ5RlZjdHRWenZOZFlZaFJaYWJJdw?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Mon, 31 Aug 2026 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Con Antonio Marocco el cartón está lleno - El Tribuno",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEp4c29JZEcxVG92TUJlVUpXbjJWVXdRVHduTXBuSnBoVmdrQnR1c1hTWFdET2xlMkJBekhOZWNhNC1RTzhGdE5GTW92eEFLS0U0T2ZDQWlLa294THBwR3JfMmxlc2dNMkJXNERpMTFUbHFtZGNQR1U0ZEM4cDRkMXcyb2E1bUl6dEJIX1NVblVlZ0dV0gGaAUFVX3lxTE5VT3c4X01KWW0ybENzd2JsdDNfdEljMUZjLUVpOV9MNXJhMTJKdW9oeXVKMEI4NXZySkcyN2E3cTBJNG9tWmJGd3NuU21Fa0RiZmhXTTFadzllcVJBZTFIa2x4UDREYzctUXpqeHZBdHVIUkJ0eHVJOU5Hd0l4NUZKWWJndkRqcF9LX29WQVo3UUNFMkNnb1BQN0E?oc=5",
@@ -32066,13 +32089,6 @@
         "source": "El Intra",
         "date": "Fri, 09 Oct 2026 13:15:00 +0000",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Antonio Marocco, el elegido por Gustavo Sáenz para vicegobernador - Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2pldzJ6Y1E4b2pkY2wta09PNUVabThRUXRJN0staXhLdFFLNHdVRzh3S2ZLS2Y5b09Fc3R0NmstUkVReU4xVTVLS2FkOWVTR00zaVNEbGNkS1dSMUxSNnRTTnBDTjNMd0IzRXlvczdPSEVaWFJIcExvUXl4MFhZZVg5V0FuNWxSVlM5bjZfN1F0bEVoLTlBMGVQWTNUOGxH?oc=5",
-        "source": "Elintra.com.ar",
-        "date": "Sat, 25 Mar 2023 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -33011,13 +33027,17 @@
     "id": "eje-roberto-dib-ashur",
     "name": "Roberto Antonio Dib Ashur",
     "role": "Ministro de Economía y Servicios Públicos",
-    "total_mentions": 84,
+    "total_mentions": 85,
     "sentiment_breakdown": {
       "positivo": 15,
       "negativo": 5,
-      "neutral": 64
+      "neutral": 65
     },
     "sentiment_by_day": {
+      "2024-09-17": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2024-07-23": {
         "total": 1,
         "score_sum": -6
@@ -33298,7 +33318,7 @@
     "top_topics": [
       {
         "term": "ashur",
-        "count": 4
+        "count": 5
       },
       {
         "term": "confirmó",
@@ -33414,6 +33434,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Dib Ashur afirmó que Salta tiene equilibrio fiscal y que no tiene qué más recortar - Nuevo Diario de Salta",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkttb3NLdVprNEJySDhoMEdRZUdueHVrVVRYUTVrcENvU1hMRG9oLU5NVXc2UDhaM3FXaGxaS2ZiYWFMXzFWbnBza0tDTE5kM1o5b1lMMU0tdmp1UmVaLVRKVHdyQnBQYndHTENqNjhHQXVFZ3Y3TWs4ejh4VXRHTldYMzlua2JGRjJiZWZnZTRYN2ZPT0xxQ3U5OU5YS2t4VUlrbnFQSlAxWFRHS2QxR0UzMS1XQ1dU?oc=5",
+        "source": "Nuevo Diario de Salta",
+        "date": "Tue, 17 Sep 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "¿Conflicto en puerta con la UTA?: Roberto Dib Ashur cuestionó el reclamo salarial - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjFWTXdkeFM4bDNHc2swZmhWTUN2cGI4NlJqYVVyM0txdFlqc29HT190QzBSc2VqVV8xTVVTc01BNEM1UnhkZ19UenJ4QmpuX0RBdGQ1SlgyX0dhZnN3dVRJaHBrandZOWdaZUd6d0JHd242UWVMSmt4WnAyQ29tU0FQZFFRRkdwSDZNYUM4VExHWUY2NHZmZ1pud2lFc0lZWVE0RXJqTkwyWFQ3VnJ4Y1BQQQ?oc=5",
@@ -33616,13 +33643,6 @@
         "source": "Informate Salta",
         "date": "Thu, 22 Oct 2026 19:00:00 GMT",
         "sentiment_label": "positivo"
-      },
-      {
-        "title": "Dib Ashur: “Hace 7 años la educación volvió a ser una prioridad en Salta” - Que Pasa Salta",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzY1NnbTIzOFhaWGhzQXJEM1pVM2VyQkVPN1dDdnEyZjlvbWxHN29vZkZMUW1iU2x2bnVKYjFzMDRkQUNVZUZMN3FqQjMxeGM1V0RTejdB0gFWQVVfeXFMUDNjU2dtMjM4WFpYaHNBckQzWlUzZXJCRU83V0N2cTJmOW9tbEc3b29mRkxRbWJTbHZudUpiMXMwNGRBQ1VlRkw3cWpCMzF4YzVXRFN6N0E?oc=5",
-        "source": "Que Pasa Salta",
-        "date": "Wed, 03 Dec 2014 08:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
