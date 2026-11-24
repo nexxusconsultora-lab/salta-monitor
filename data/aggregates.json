@@ -1,6 +1,69 @@
 {
-  "generated_at": "2026-11-23T20:07:18.725083+00:00",
+  "generated_at": "2026-11-24T04:47:06.774541+00:00",
   "by_politician": {
+    "eje-gustavo-carrizo": {
+      "total": 11,
+      "positivo": 6,
+      "negativo": 0,
+      "neutral": 5,
+      "score_sum": 33
+    },
+    "eje-ignacio-jarsun": {
+      "total": 54,
+      "positivo": 10,
+      "negativo": 7,
+      "neutral": 37,
+      "score_sum": 9
+    },
+    "eje-antonio-marocco": {
+      "total": 42,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 33,
+      "score_sum": 33
+    },
+    "snac-flavia-royon": {
+      "total": 136,
+      "positivo": 13,
+      "negativo": 18,
+      "neutral": 105,
+      "score_sum": -4
+    },
+    "concejal-gonzalo-nieva": {
+      "total": 57,
+      "positivo": 0,
+      "negativo": 9,
+      "neutral": 48,
+      "score_sum": -20
+    },
+    "concejal-pablo-emanuel-lopez": {
+      "total": 57,
+      "positivo": 3,
+      "negativo": 25,
+      "neutral": 29,
+      "score_sum": -49
+    },
+    "concejal-agustina-alvarez-eichele": {
+      "total": 71,
+      "positivo": 4,
+      "negativo": 15,
+      "neutral": 52,
+      "score_sum": -29
+    },
+    "gustavo-saenz": {
+      "total": 522,
+      "positivo": 139,
+      "negativo": 97,
+      "neutral": 286,
+      "score_sum": 163
+    },
+    "eje-manuela-arancibia": {
+      "total": 20,
+      "positivo": 8,
+      "negativo": 0,
+      "neutral": 12,
+      "score_sum": 41
+    },
     "eje-sergio-camacho": {
       "total": 43,
       "positivo": 13,
@@ -35,13 +98,6 @@
       "negativo": 6,
       "neutral": 44,
       "score_sum": 1
-    },
-    "gustavo-saenz": {
-      "total": 531,
-      "positivo": 140,
-      "negativo": 99,
-      "neutral": 292,
-      "score_sum": 161
     },
     "eje-roberto-dib-ashur": {
       "total": 84,
@@ -99,20 +155,6 @@
       "neutral": 13,
       "score_sum": -2
     },
-    "concejal-pablo-emanuel-lopez": {
-      "total": 56,
-      "positivo": 3,
-      "negativo": 25,
-      "neutral": 28,
-      "score_sum": -49
-    },
-    "concejal-agustina-alvarez-eichele": {
-      "total": 69,
-      "positivo": 4,
-      "negativo": 15,
-      "neutral": 50,
-      "score_sum": -29
-    },
     "dnac-carlos-raul-zapata": {
       "total": 56,
       "positivo": 5,
@@ -126,13 +168,6 @@
       "negativo": 3,
       "neutral": 21,
       "score_sum": -13
-    },
-    "concejal-gonzalo-nieva": {
-      "total": 56,
-      "positivo": 0,
-      "negativo": 9,
-      "neutral": 47,
-      "score_sum": -20
     },
     "eje-federico-mangione": {
       "total": 57,
@@ -211,26 +246,12 @@
       "neutral": 1,
       "score_sum": -2
     },
-    "snac-flavia-royon": {
-      "total": 135,
-      "positivo": 13,
-      "negativo": 18,
-      "neutral": 104,
-      "score_sum": -4
-    },
     "dip-jose-miguel-gauffin": {
       "total": 41,
       "positivo": 2,
       "negativo": 7,
       "neutral": 32,
       "score_sum": -10
-    },
-    "eje-manuela-arancibia": {
-      "total": 19,
-      "positivo": 7,
-      "negativo": 0,
-      "neutral": 12,
-      "score_sum": 40
     },
     "dip-patricio-penalba-arias": {
       "total": 13,
@@ -245,13 +266,6 @@
       "negativo": 0,
       "neutral": 0,
       "score_sum": 2
-    },
-    "eje-ignacio-jarsun": {
-      "total": 53,
-      "positivo": 10,
-      "negativo": 7,
-      "neutral": 36,
-      "score_sum": 9
     },
     "dip-marianela-marinaro-chain": {
       "total": 4,
@@ -274,13 +288,6 @@
       "neutral": 3,
       "score_sum": -4
     },
-    "eje-gustavo-carrizo": {
-      "total": 10,
-      "positivo": 6,
-      "negativo": 0,
-      "neutral": 4,
-      "score_sum": 33
-    },
     "concejal-jose-garcia-alcazar": {
       "total": 43,
       "positivo": 1,
@@ -294,13 +301,6 @@
       "negativo": 2,
       "neutral": 46,
       "score_sum": 14
-    },
-    "eje-antonio-marocco": {
-      "total": 41,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 32,
-      "score_sum": 33
     },
     "dnac-pablo-outes": {
       "total": 28,
@@ -948,6 +948,222 @@
     }
   },
   "by_day": {
+    "2026-04-13": {
+      "eje-gustavo-carrizo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-roberto-dib-ashur": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-11-28": {
+      "eje-ignacio-jarsun": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "snac-flavia-royon": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "sen-carlos-guitian": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manrique-burgos": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2011-12-24": {
+      "eje-antonio-marocco": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-05-11": {
+      "snac-flavia-royon": {
+        "total": 4,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 5,
+        "score_sum": 0
+      },
+      "sen-enrique-cornejo-saravia": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "dnac-pablo-outes": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-juan-jose-esteban": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-claudio-jose-cansino": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-guillermo-alejandro-kripper": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-omar-exeni-arminana": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-rodrigo-alfredo-perez-quinteros": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-pablo-emanuel-lopez": {
+        "total": 2,
+        "score_sum": 0
+      },
+      "concejal-maria-florencia-leon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gustavo-farquharson": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-carlos-maximiliano-casasola": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-jorge-miguel-restom": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-10-25": {
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2025-07-31": {
+      "concejal-pablo-emanuel-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "snac-emilia-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-javier-pantaleon": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-manuel-pailler": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2022-08-16": {
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-malvina-gareca": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-07-01": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -2
+      },
+      "concejal-laura-garcia": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-gonzalo-nieva": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "concejal-dario-madile": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-matias-monteagudo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": -2
+      }
+    },
+    "2025-03-19": {
+      "gustavo-saenz": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-daniel-alejandro-segura-gimenez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-sofia-sierra": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2026-11-23": {
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 1
+      },
+      "gustavo-saenz": {
+        "total": 3,
+        "score_sum": 1
+      }
+    },
     "2026-07-04": {
       "eje-sergio-camacho": {
         "total": 1,
@@ -1036,7 +1252,7 @@
     },
     "2026-09-16": {
       "gustavo-saenz": {
-        "total": 12,
+        "total": 10,
         "score_sum": 0
       },
       "dip-laura-deolinda-cartuccia": {
@@ -1050,12 +1266,6 @@
       "concejal-laura-garcia": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2026-11-23": {
-      "gustavo-saenz": {
-        "total": 2,
-        "score_sum": 1
       }
     },
     "2024-07-23": {
@@ -1180,8 +1390,8 @@
     },
     "2026-09-18": {
       "gustavo-saenz": {
-        "total": 12,
-        "score_sum": -4
+        "total": 8,
+        "score_sum": -2
       },
       "eje-antonio-marocco": {
         "total": 1,
@@ -1328,32 +1538,6 @@
       "concejal-agustina-alvarez-eichele": {
         "total": 2,
         "score_sum": 0
-      }
-    },
-    "2026-07-01": {
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "concejal-laura-garcia": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gonzalo-nieva": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-matias-monteagudo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": -2
       }
     },
     "2024-01-04": {
@@ -3538,84 +3722,6 @@
         "score_sum": 0
       }
     },
-    "2025-05-11": {
-      "sen-roque-cornejo-avellaneda": {
-        "total": 5,
-        "score_sum": 0
-      },
-      "sen-enrique-cornejo-saravia": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "snac-flavia-royon": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "dnac-pablo-outes": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-juan-jose-esteban": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-claudio-jose-cansino": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-guillermo-alejandro-kripper": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-omar-exeni-arminana": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-dario-madile": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-rodrigo-alfredo-perez-quinteros": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-pablo-emanuel-lopez": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "concejal-maria-florencia-leon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-gustavo-farquharson": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-carlos-maximiliano-casasola": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-jorge-miguel-restom": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2021-11-25": {
       "dip-gustavo-orlando-orozco": {
         "total": 1,
@@ -4544,24 +4650,6 @@
       "eje-roberto-dib-ashur": {
         "total": 1,
         "score_sum": 2
-      }
-    },
-    "2025-07-31": {
-      "snac-emilia-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-javier-pantaleon": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-07-31": {
@@ -7342,24 +7430,6 @@
         "score_sum": 0
       }
     },
-    "2025-11-28": {
-      "eje-antonio-marocco": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "snac-flavia-royon": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "sen-carlos-guitian": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-manrique-burgos": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-04-30": {
       "eje-cristina-fiore": {
         "total": 1,
@@ -7772,7 +7842,7 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 4,
+        "total": 3,
         "score_sum": -2
       },
       "concejal-laura-garcia": {
@@ -7952,12 +8022,6 @@
       "sen-mashur-lapad": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-04-13": {
-      "eje-roberto-dib-ashur": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2025-04-30": {
@@ -11100,20 +11164,6 @@
         "score_sum": 0
       }
     },
-    "2025-03-19": {
-      "dip-daniel-alejandro-segura-gimenez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-bernardo-biella": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-sofia-sierra": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2019-09-16": {
       "dip-adrian-alfredo-valenzuela-giantomasi": {
         "total": 1,
@@ -11222,12 +11272,6 @@
       "sen-roque-cornejo-avellaneda": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2022-08-16": {
-      "concejal-malvina-gareca": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2023-04-20": {
@@ -12462,7 +12506,7 @@
         "score_sum": 0
       },
       "gustavo-saenz": {
-        "total": 5,
+        "total": 2,
         "score_sum": 0
       },
       "concejal-angel-ortiz": {
@@ -13387,10 +13431,6 @@
       },
       "concejal-dario-madile": {
         "total": 3,
-        "score_sum": 0
-      },
-      "gustavo-saenz": {
-        "total": 2,
         "score_sum": 0
       }
     },
@@ -16208,7 +16248,7 @@
       "ambito": "Provincial",
       "distrito": "Santa Victoria",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "Compromiso por Salta",
@@ -16230,7 +16270,7 @@
       "ambito": "Provincial",
       "distrito": "Cachi",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Compromiso por Salta",
@@ -16253,7 +16293,7 @@
       "ambito": "Provincial",
       "distrito": "Cerrillos",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "17 de Junio",
@@ -16275,7 +16315,7 @@
       "ambito": "Provincial",
       "distrito": "Guachipas",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Compromiso por Salta",
@@ -16299,7 +16339,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "La Libertad Avanza",
@@ -16322,7 +16362,7 @@
       "ambito": "Provincial",
       "distrito": "General Güemes",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Unidad",
@@ -16344,7 +16384,7 @@
       "ambito": "Provincial",
       "distrito": "Iruya",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "Compromiso por Salta",
@@ -16367,7 +16407,7 @@
       "ambito": "Provincial",
       "distrito": "Chicoana",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "department": "Chicoana",
@@ -16389,7 +16429,7 @@
       "ambito": "Provincial",
       "distrito": "Rivadavia",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "Compromiso por Salta",
@@ -16411,7 +16451,7 @@
       "ambito": "Provincial",
       "distrito": "Rosario de Lerma",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Compromiso por Salta",
@@ -16432,7 +16472,7 @@
       "ambito": "Provincial",
       "distrito": "Anta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "department": "Anta",
@@ -16455,7 +16495,7 @@
       "ambito": "Provincial",
       "distrito": "La Poma",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Compromiso por Salta",
@@ -16477,7 +16517,7 @@
       "ambito": "Provincial",
       "distrito": "General José de San Martín",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "Unidad",
@@ -16499,7 +16539,7 @@
       "ambito": "Provincial",
       "distrito": "Cafayate",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "bloque": "Unidos por Salta",
@@ -16521,7 +16561,7 @@
       "ambito": "Provincial",
       "distrito": "La Candelaria",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "bloque": "Compromiso por Salta",
@@ -16544,7 +16584,7 @@
       "ambito": "Provincial",
       "distrito": "San Carlos",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "department": "San Carlos",
@@ -16566,7 +16606,7 @@
       "ambito": "Provincial",
       "distrito": "Orán",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "department": "Orán",
@@ -16588,7 +16628,7 @@
       "ambito": "Provincial",
       "distrito": "La Viña",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "department": "La Viña",
@@ -16612,7 +16652,7 @@
       "ambito": "Provincial",
       "distrito": "Los Andes",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "department": "Los Andes",
@@ -16635,7 +16675,7 @@
       "ambito": "Provincial",
       "distrito": "Molinos",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "department": "Molinos",
@@ -16659,7 +16699,7 @@
       "ambito": "Provincial",
       "distrito": "Metán",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2023",
       "term_end": "2027",
       "department": "Metán",
@@ -16681,7 +16721,7 @@
       "ambito": "Provincial",
       "distrito": "Rosario de la Frontera",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2027",
       "department": "Rosario de la Frontera"
@@ -16702,7 +16742,7 @@
       "ambito": "Provincial",
       "distrito": "La Caldera",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "term_start": "2025",
       "term_end": "2029",
       "department": "La Caldera",
@@ -16726,7 +16766,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-alejandra-beatriz-navarro",
@@ -16744,7 +16784,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-hector-orlando-escobar",
@@ -16762,7 +16802,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-federico-miguel-canizares",
@@ -16780,7 +16820,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-patricio-penalba-arias",
@@ -16799,7 +16839,7 @@
       "ambito": "Provincial",
       "distrito": "Cafayate",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -16818,7 +16858,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-laura-deolinda-cartuccia",
@@ -16838,7 +16878,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -16857,7 +16897,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-isabel-marcelina-de-vita",
@@ -16875,7 +16915,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-omar-exeni-arminana",
@@ -16894,7 +16934,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -16913,7 +16953,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-maria-cristina-frisoli",
@@ -16931,7 +16971,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-monica-gabriela-juarez",
@@ -16950,7 +16990,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Dr. René Favaloro"
     },
     {
@@ -16969,7 +17009,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-david-jesus-leiva",
@@ -16987,7 +17027,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-julieta-estefania-perdigon-weber",
@@ -17005,7 +17045,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-noelia-cecilia-rigo-barea",
@@ -17023,7 +17063,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-juan-esteban-romero",
@@ -17041,7 +17081,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-juan-carlos-francisco-roque-posse",
@@ -17059,7 +17099,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-maria-victoria-saicha-ibanez",
@@ -17077,7 +17117,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-enrique-daniel-sansone",
@@ -17095,7 +17135,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-sofia-sierra",
@@ -17113,7 +17153,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-adrian-alfredo-valenzuela-giantomasi",
@@ -17133,7 +17173,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17153,7 +17193,7 @@
       "ambito": "Provincial",
       "distrito": "Capital",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta"
     },
     {
@@ -17173,7 +17213,7 @@
       "ambito": "Provincial",
       "distrito": "Cerrillos",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17192,7 +17232,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-maria-del-socorro-lopez",
@@ -17210,7 +17250,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-german-dario-ralle",
@@ -17229,7 +17269,7 @@
       "ambito": "Provincial",
       "distrito": "Gral. Güemes",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17250,7 +17290,7 @@
       "ambito": "Provincial",
       "distrito": "Gral. Güemes",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Guachipas Y Por General Güemes"
     },
     {
@@ -17269,7 +17309,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-franco-esteban-francisco-hernandez-berni",
@@ -17287,7 +17327,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-matias-monteagudo",
@@ -17305,7 +17345,7 @@
       "ambito": "Provincial",
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Unión Salteña - Ucr"
     },
     {
@@ -17324,7 +17364,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-jorge-miguel-restom",
@@ -17343,7 +17383,7 @@
       "ambito": "Provincial",
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17362,7 +17402,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-ernesto-gerardo-guanca",
@@ -17380,7 +17420,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-ricardo-german-vargas",
@@ -17398,7 +17438,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-gustavo-javier-pantaleon",
@@ -17416,7 +17456,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-francisco-fabio-rodriguez",
@@ -17434,7 +17474,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-roberto-angel-bonifacio",
@@ -17452,7 +17492,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-esteban-amat-lacroix",
@@ -17471,7 +17511,7 @@
       "ambito": "Provincial",
       "distrito": "La Viña",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17490,7 +17530,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-gustavo-bernardo-dantur",
@@ -17509,7 +17549,7 @@
       "ambito": "Provincial",
       "distrito": "Metán",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17528,7 +17568,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-antonio-sebastian-otero",
@@ -17546,7 +17586,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-fabio-enrique-lopez",
@@ -17565,7 +17605,7 @@
       "ambito": "Provincial",
       "distrito": "Molinos",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17584,7 +17624,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-patricia-del-carmen-hucena",
@@ -17603,7 +17643,7 @@
       "ambito": "Provincial",
       "distrito": "Orán",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17622,7 +17662,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-martin-miguel-perez",
@@ -17640,7 +17680,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-teodora-ramona-riquelme",
@@ -17658,7 +17698,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-claudia-gloria-seco",
@@ -17676,7 +17716,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-moises-justiniano-balderrama",
@@ -17694,7 +17734,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-rogelio-guaipo-segundo",
@@ -17713,7 +17753,7 @@
       "ambito": "Provincial",
       "distrito": "Rivadavia",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17732,7 +17772,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-gustavo-orlando-orozco",
@@ -17751,7 +17791,7 @@
       "ambito": "Provincial",
       "distrito": "R. de la Frontera",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta"
     },
     {
@@ -17770,7 +17810,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-mabel-veronica-janeth-barboza",
@@ -17788,7 +17828,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-elena-nahir-diaz",
@@ -17806,7 +17846,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "dip-osvaldo-francisco-acosta",
@@ -17824,7 +17864,7 @@
       "vigencia": "ex",
       "cargo": "Diputado/a provincial",
       "ambito": "Provincial",
-      "verificado_en": "2026-11-22"
+      "verificado_en": "2026-11-23"
     },
     {
       "id": "concejal-agustina-alvarez-eichele",
@@ -17841,7 +17881,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/05/15/la-comision-de-disciplina-del-cd-emitio-hoy-dictamen-en-relacion-a-la-situacion-del-concejal-carlos-casasola/",
       "bloque_fecha": "2026-05-15",
@@ -17862,7 +17902,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Yo Participo",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/04/16/madile-en-el-acto-por-la-fundacion-de-salta-realizar-la-ceremonia-en-el-barrio-permite-que-los-vecinos-sean-parte-de-esta-fiesta/",
       "bloque_fecha": "2026-04-16",
@@ -17883,7 +17923,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Memoria y Movilización",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/05/15/la-comision-de-disciplina-del-cd-emitio-hoy-dictamen-en-relacion-a-la-situacion-del-concejal-carlos-casasola/",
       "bloque_fecha": "2026-05-15",
@@ -17903,7 +17943,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Gustavo Sáenz Conducción",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/05/15/la-comision-de-disciplina-del-cd-emitio-hoy-dictamen-en-relacion-a-la-situacion-del-concejal-carlos-casasola/",
       "bloque_fecha": "2026-05-15",
@@ -17924,7 +17964,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12",
@@ -17946,7 +17986,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -17966,7 +18006,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -17985,7 +18025,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18005,7 +18045,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Yo Participo",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/05/15/la-comision-de-disciplina-del-cd-emitio-hoy-dictamen-en-relacion-a-la-situacion-del-concejal-carlos-casasola/",
       "bloque_fecha": "2026-05-15",
@@ -18025,7 +18065,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Vamos Salta",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/05/15/la-comision-de-disciplina-del-cd-emitio-hoy-dictamen-en-relacion-a-la-situacion-del-concejal-carlos-casasola/",
       "bloque_fecha": "2026-05-15",
@@ -18045,7 +18085,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Pulso Colectivo",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/04/16/madile-en-el-acto-por-la-fundacion-de-salta-realizar-la-ceremonia-en-el-barrio-permite-que-los-vecinos-sean-parte-de-esta-fiesta/",
       "bloque_fecha": "2026-04-16",
@@ -18066,7 +18106,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18086,7 +18126,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18106,7 +18146,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18125,7 +18165,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18145,7 +18185,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Libertad y Progreso",
       "bloque_fuente": "https://cuartopodersalta.com.ar/que-siga-el-show-concejales-y-diputados-que-supimos-conseguir/",
       "bloque_fecha": "2025-12"
@@ -18164,7 +18204,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18183,7 +18223,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Juntos",
       "bloque_fuente": "https://cuartopodersalta.com.ar/que-siga-el-show-concejales-y-diputados-que-supimos-conseguir/",
       "bloque_fecha": "2025-12"
@@ -18202,7 +18242,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Unión Cívica Radical",
       "bloque_fuente": "https://cdsalta.gob.ar/index.php/2026/04/16/madile-en-el-acto-por-la-fundacion-de-salta-realizar-la-ceremonia-en-el-barrio-permite-que-los-vecinos-sean-parte-de-esta-fiesta/",
       "bloque_fecha": "2026-04-16",
@@ -18225,7 +18265,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18244,7 +18284,7 @@
       "ambito": "Municipal",
       "distrito": "Ciudad de Salta",
       "vigencia": "vigente",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "bloque_fuente": "https://www.vocescriticas.com/noticias/2025/12/16/190252-de-esta-manera-quedo-conformado-el-concejo-de-salta",
       "bloque_fecha": "2025-12"
@@ -18447,7 +18487,7 @@
       "distrito": "Anta",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18467,7 +18507,7 @@
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18487,7 +18527,7 @@
       "distrito": "Los Andes",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -18507,7 +18547,7 @@
       "distrito": "Chicoana",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18527,7 +18567,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18547,7 +18587,7 @@
       "distrito": "Rivadavia",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18567,7 +18607,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18587,7 +18627,7 @@
       "distrito": "Santa Victoria",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -18607,7 +18647,7 @@
       "distrito": "Iruya",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18628,7 +18668,7 @@
       "distrito": "Anta",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18649,7 +18689,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18669,7 +18709,7 @@
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -18689,7 +18729,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18710,7 +18750,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Conservador Popular",
       "term_start": "2023",
       "term_end": "2027"
@@ -18730,7 +18770,7 @@
       "distrito": "Orán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -18750,7 +18790,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -18770,7 +18810,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Unión Cívica Radical",
       "term_start": "2023",
       "term_end": "2027"
@@ -18791,7 +18831,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18811,7 +18851,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18831,7 +18871,7 @@
       "distrito": "Rosario de Lerma",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Griselda Galleguillos",
       "term_start": "2023",
       "term_end": "2027"
@@ -18851,7 +18891,7 @@
       "distrito": "Metán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18871,7 +18911,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Partido De La Reconquista",
       "term_start": "2023",
       "term_end": "2027"
@@ -18891,7 +18931,7 @@
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18911,7 +18951,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Salta Independiente",
       "term_start": "2025",
       "term_end": "2029"
@@ -18932,7 +18972,7 @@
       "distrito": "Cerrillos",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -18952,7 +18992,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18973,7 +19013,7 @@
       "distrito": "Orán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -18993,7 +19033,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -19013,7 +19053,7 @@
       "distrito": "Metán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -19033,7 +19073,7 @@
       "distrito": "R. de la Frontera",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -19053,7 +19093,7 @@
       "distrito": "La Caldera",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19073,7 +19113,7 @@
       "distrito": "Gral. San Martín",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19093,7 +19133,7 @@
       "distrito": "Orán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19113,7 +19153,7 @@
       "distrito": "Anta",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -19134,7 +19174,7 @@
       "distrito": "Guachipas",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Guachipas Y Por General Güemes",
       "term_start": "2023",
       "term_end": "2027"
@@ -19154,7 +19194,7 @@
       "distrito": "La Candelaria",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19175,7 +19215,7 @@
       "distrito": "Cachi",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -19195,7 +19235,7 @@
       "distrito": "Rosario de Lerma",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19215,7 +19255,7 @@
       "distrito": "La Poma",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19234,7 +19274,7 @@
       "distrito": "Orán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19255,7 +19295,7 @@
       "distrito": "Orán",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2025",
       "term_end": "2029"
@@ -19275,7 +19315,7 @@
       "distrito": "San Carlos",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "Todos Por Salta",
       "term_start": "2023",
       "term_end": "2027"
@@ -19295,7 +19335,7 @@
       "distrito": "Capital",
       "vigencia": "vigente",
       "source_url": "https://www.diputadosalta.gob.ar/web/diputados",
-      "verificado_en": "2026-11-22",
+      "verificado_en": "2026-11-23",
       "bloque": "La Libertad Avanza",
       "term_start": "2025",
       "term_end": "2029"
@@ -19560,22 +19600,54 @@
   "trending_terms": [
     {
       "term": "elintra",
-      "count": 10
+      "count": 11
     },
     {
       "term": "sáenz",
-      "count": 8
+      "count": 10
     },
     {
       "term": "tribuno",
-      "count": 5
-    },
-    {
-      "term": "senadores",
-      "count": 3
+      "count": 8
     },
     {
       "term": "gustavo",
+      "count": 5
+    },
+    {
+      "term": "gabinete",
+      "count": 4
+    },
+    {
+      "term": "está",
+      "count": 4
+    },
+    {
+      "term": "nuevo",
+      "count": 4
+    },
+    {
+      "term": "agustina",
+      "count": 4
+    },
+    {
+      "term": "álvarez",
+      "count": 4
+    },
+    {
+      "term": "pablo",
+      "count": 4
+    },
+    {
+      "term": "camacho",
+      "count": 3
+    },
+    {
+      "term": "lópez",
+      "count": 3
+    },
+    {
+      "term": "senadores",
       "count": 3
     },
     {
@@ -19583,39 +19655,7 @@
       "count": 3
     },
     {
-      "term": "gabinete",
-      "count": 3
-    },
-    {
-      "term": "argentina",
-      "count": 3
-    },
-    {
-      "term": "noviembre",
-      "count": 3
-    },
-    {
-      "term": "camacho",
-      "count": 2
-    },
-    {
-      "term": "cuestionó",
-      "count": 2
-    },
-    {
-      "term": "gonzalo",
-      "count": 2
-    },
-    {
-      "term": "cámara",
-      "count": 2
-    },
-    {
-      "term": "diego",
-      "count": 2
-    },
-    {
-      "term": "santilli",
+      "term": "iruya",
       "count": 2
     }
   ],
