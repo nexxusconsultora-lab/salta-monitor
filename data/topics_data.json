@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-24T15:24:18.754556+00:00",
+  "generated_at": "2026-11-25T00:02:20.185345+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 604,
+      "total_mentions": 607,
       "sentiment_breakdown": {
         "positivo": 42,
         "negativo": 53,
-        "neutral": 509
+        "neutral": 512
       },
       "sentiment_by_day": {
         "2026-11-24": {
-          "total": 2,
+          "total": 5,
           "score_sum": 0
         },
         "2026-03-04": {
@@ -368,11 +368,11 @@
         },
         {
           "term": "intransigente",
-          "count": 52
+          "count": 53
         },
         {
           "term": "tribuno",
-          "count": 50
+          "count": 51
         },
         {
           "term": "informate",
@@ -380,18 +380,18 @@
         },
         {
           "term": "elintra",
-          "count": 25
-        },
-        {
-          "term": "pasa",
           "count": 23
         },
         {
-          "term": "milei",
+          "term": "pasa",
+          "count": 22
+        },
+        {
+          "term": "diputados",
           "count": 14
         },
         {
-          "term": "papa",
+          "term": "milei",
           "count": 14
         }
       ],
@@ -498,6 +498,27 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Sesiones extraordinarias: el Gobierno Nacional convocará al Congreso para diciembre - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1RfZHZwb01OV05NdjFfMF9HQzZ6a25wUFVHa1pMZEdFWHpjMHg0MnpLcXhSYUV5cUswVjZBMlIzUG5EeGg2UDExRVN0VUN5REt6T25Ldm9xTE4xdnNSMHo5MDEyZFhNUEpHT2JCUmpXUUFxaFY4THRldUtjZkJtREl2OVRiT2p6UVVNYmt0ZmxlcGxTMVZYNnFELXhMOEsxS18zaDVJeXBjRHREd3owTw?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 24 Nov 2026 23:35:15 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Gobierno presentará un proyecto de presupuesto de $5,2 billones para Salta - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRzhYNU1IZXFxMTgyUUk3djdjYlFEbm00eGdoa1daaFd3X2JJbGxmbUlDNWZQa3B1RGRTamEtMVAzaFpIRkJxV1VqV3A4b2I5V2l4cUJXYXBqaGYzS2lLeUt2aGc0MGI2b1dkMXhQeFFVeVVUc1ZjWTFxZk53Z04zbHZsdGJkUERPQkY2SzlZUktQY2Vxc2dkVzREQXZzNnBoU2ZVMnVUMmpHaklKYV9DdE8yUWlPVzVyb0pQR2xFSmoySDNUazJYcDBlVkFMWVpaREcxTFZKVHTSAd4BQVVfeXFMTkotMmRaWUdiSEJtank0U1BHM04xTjhrVXNwejFiNXlibGdpT1V1a2NoMmJybm5tUklfSGVSX3lUYWZYdGRQTVZHSnA1djlkVGt4WVgzVEh4Q19YQy1YMkNDRElDZFpIc1dYREt6Z0ZGbXhzWXY3elpUTk9FbjUxWHBneDVUWXdlR0RMLU5xYktCcy0zenZPUy1GTktPbmZuYnE2Z3NlaWxvWWlZMDY2R3pqdG1GTDF0SHlrSlN6WHVtMVhYZEhOaWRNYTFHZFlfVzh5QVhoRjNzd3FXQmJR?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 24 Nov 2026 18:05:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Con el Presupuesto 2027 en la agenda, la Cámara de Diputados convocó una sesión para el jueves 26 - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRGR2aFlGNHE0UXhMWGxwUk5CelpMSVBoWWhoTG94MjZGb0JhU1U1Sm9jejJWdmlRR3VMaVN0end6eEl1a1Y1SzZGdHc1QlRrTEpCUG9sUGlzSG4zMWxDUXZrcHVSNF9fSE9YMUlveWNRem1zd1BlcE5lSndzOUhhbTU0c192UWh6bExIVFdjWjdWTnFnM1ZIOEZFZkE0bWdBWTFld1BESHM?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 24 Nov 2026 23:13:51 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "El Gobierno y una semana clave en el Congreso, con eje en el Presupuesto y la reforma electoral - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWERxUnBENGVDOF95ZlpmTjA1bmpuZ0VrZEFyVlZyblFRaE9EZVg3UEhqcExOck5yQ0xfR21QdUVfMk51TFRNUXJHa1pLNEZ0Nm1TMFVOX3ZhQ3BaTXN4TzJvUUhxVHdCZnU5cTBtMHRMdDlveVF6WTlsUDdJampDamFIUmluUURibzJrUmtqMlpUS3JjcVRYLXdUcVREY1pMckl1WGZzQ3RyaWZsb2pXa0Q3TkJ1RVpEeTZSXzdZZWhxczQ0akdzdEVNZE9ndEdPcmVkWWVqQ2Rod0FtVDQ0UnBB?oc=5",
@@ -686,27 +707,6 @@
           "source": "Informate Salta",
           "date": "Thu, 19 Nov 2026 00:00:00 GMT",
           "sentiment_label": "neutral"
-        },
-        {
-          "title": "VIDEOS. Sin clases, pero de pie: la escuela de barrio Tráfico que sostiene a la comunidad wichí tras el temporal en Embarcación - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaHdrQU5BYlZGRXlYNDVXVVNyTVdhWE0tSTBEMVR1S002cXVLbmxwMi1uTmdKWDlpclh6M21KYXBTMzlrU1J0eHl6ZHBfcWlyMGdxclVwTVdBNTFReklCODZCWENQUjNvRFUyN2hfY1dESUV2Snc0aWRnamdRdnFyS2NaMjFHY0hELTVSME1UbXcyNzlBV3BxZzNiNFJwYndwZXRPaV9pbXByTlVKMHRvakc2VUpHREFuTk9nS3dMLWR4UGRpMk1hMkxtLXlFbl9lRjJlTUpCY2VmQVY4MnVTM0FoanBFVjAzbmNPYkdKc2VoMmhaaVFwR19CQmhWR09WS3labDhvaUNCelRt?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 18 Nov 2026 20:22:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "VIDEOS. ¡Triunfazo de Gimnasia y Tiro en Caballito!: venció a Ferro 1 a 0 y avanza en el reducido de la Primer - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcm9WZWRFMHljWEx1cTVPVmdTRS1JMzJHVUFURXpudlY1OHYzOENFdGg5dFk2S0Q2TGJzUDZHQjFnRlVNMkxteHp3bHR1ZlpkbVZ3YWZmTzhnUU1ycFF3RFdmZ09PbXh1djVkUUJBNGZ5LVoyeVhIaS1tbjQ4RWhPVkJORU1jTG8zUW1laUd3SWZnbGtjbFZ1VTBvNDFpT0ZWbkNPNTBRV2RuUFJFdGpINGRLamNtU25jcTU1Y1d3U29XZkln0gHKAUFVX3lxTFBQNzZPczhkbDlaTko5WnN5ZkRZOXVLVDlHaXJ2X3E4cFdLcEliVDZvRkw5UWZHc1h1QlBZN1BTRWJFRmZZX01QU1pRQ0kyYUZvclRFa19YdXNEdTYzem1FWFhYN0d5NFY5cm1YRXI0UDVTUjJKTVF4TWZXWW0zZ2F6Uk90VzdGdFZtdURRakFXMXJJS2VEaGtLRjFTT0JKeXN2NzJ4U0pXTjZVb2ozNDFWc3k0OWVicDNGYTdDeU53Y2Fhd002Uk9wUnc?oc=5",
-          "source": "El Tribuno",
-          "date": "Sun, 15 Nov 2026 23:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "River Plate presentará el presupuesto 2027 este jueves en el Estadio Monumental: las cifras récord de inversión - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRzVPMjFmaGcwYjAwUzhvXzhVcm1oS0dMRTdfQ3hLZWRWdHE4NG1DdENidGRtRDBwU044NXN3dEp4Zk9RME1wNHJJcVhaUElXNW9rVnhSNjc0MFdWSVYyUmhLWFZtdjF4SWVDN1p3cjRtWk5NYWRKd2ZpbExHOG9YeDlkbTNkM1l4bTcxSFp1emQ5RDJNYXNBSVd0NFNYNlprd3Z1MFM4X21WYlphcmZqaWd2RS1Sa21Rc3UwSGhDaXJDQQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 19 Nov 2026 11:30:12 GMT",
-          "sentiment_label": "positivo"
         }
       ]
     },
