@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-11-25T00:02:20.185345+00:00",
+  "generated_at": "2026-11-25T18:45:49.570401+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 607,
+      "total_mentions": 613,
       "sentiment_breakdown": {
         "positivo": 42,
         "negativo": 53,
-        "neutral": 512
+        "neutral": 518
       },
       "sentiment_by_day": {
         "2026-11-24": {
-          "total": 5,
+          "total": 8,
+          "score_sum": 0
+        },
+        "2026-11-25": {
+          "total": 3,
           "score_sum": 0
         },
         "2026-03-04": {
@@ -364,11 +368,11 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 57
+          "count": 56
         },
         {
           "term": "intransigente",
-          "count": 53
+          "count": 54
         },
         {
           "term": "tribuno",
@@ -376,22 +380,22 @@
         },
         {
           "term": "informate",
-          "count": 37
-        },
-        {
-          "term": "elintra",
-          "count": 23
+          "count": 36
         },
         {
           "term": "pasa",
+          "count": 23
+        },
+        {
+          "term": "elintra",
           "count": 22
         },
         {
           "term": "diputados",
-          "count": 14
+          "count": 16
         },
         {
-          "term": "milei",
+          "term": "papa",
           "count": 14
         }
       ],
@@ -498,6 +502,48 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Salta: darán $24.000 mensuales a 4.000 chicos para actividades deportivas y educativas - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjlfdnRpRGtXTG1oazJFMENUQUwwS0RGUGR1Q1NEWDNfTVhQUFpBeGh5YkN6R3JhaWE0UGd6Qk9GeDNGTm9EQ1BfZjRwOWdaeXJjM1F0VkgtQXBkdUlQdFZOQ2xaMFJtRmZEbWx0OXhCck5Gc1NFSkdLZkptS1FlQ1BQRGFSeGxIR00tNDFtSkwzbVFMX0lPVDZJb1VPTnZKRTRwTlFmUVBFZXQwUHh1TjVzWTRBME1tUWdsU3Jpd2JLRGotQVJFa3FmQVpOTWM?oc=5",
+          "source": "El Tribuno",
+          "date": "Tue, 24 Nov 2026 21:03:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Axel Kicillof advirtió que se perdieron más de 400 mil empleos formales desde 2023 - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZKckpKTmIyUG9ZS3JaVTVBdlA0a1hnYlYxSURrTG4xaFF2bXV1b0RPQkRSWGltdTEzMW5uRGJ6N1ktQ2xfaklKQVhOUV9Nd3pXMDVwRFhJQ19Ccjl3ZnBEZGFkdHhpQzE4dVRybU1RbjNxSzZ1d19meU1YdE5TYW9heGl1V1VNaFZlUFVmWXJDS3JkN1ZKcTNIR0haakdvNExuV0ZBUTlEUQ?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 24 Nov 2026 22:47:09 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Homenaje a Santucho: la UBA decidió suspender el evento - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWl2dFBWeXF4bHAzRzc3VFB6RDBLVnNEYmpPRnoxQXptQlRRbnhJakdNbFNSVXE0YWxlbHlGMlBjZ2xHWjJXeGlrOExlZi1acjduYUhUdmdMOFdtbDFIMzJ5Yy1nTUNIUWlGUGlVT0xQekdjMFdLdEtkejVkZXI1endwZWlRT0Z4OERSY0E0Zw?oc=5",
+          "source": "El Intransigente",
+          "date": "Wed, 25 Nov 2026 00:28:23 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Diputados busca aprobar el Presupuesto con lo justo - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOajhHNF9VTjFTdUxrS3VvQUFQY3ROLTQxUU9uVmxfdEJNM2NwNkhLcmdoZEIzNkIyWG1OdG92U2JBZTFXcWpJNTkyMl9qN1lYRktCekhPOG1rZU0zN1pTaGxvUG54MGJIaDlvYlUzQ2RmaWcyQTJqakNhOEFBcFdTZzBCZGdQTDVIT3lBeUNKUzZIUTNQLUdBb29lMU54T3ZyZHJPOXBHOEjSAa4BQVVfeXFMUFNFNWRXWjg1eXZSQlgtaUpSWEJwVzFOVWhLQjVuVUE1R0pYRWc3Um1FRUJvVi1GSDl6TC1xZGtMOHM3d1kyZjRPYkd2YzVTWkw4WXZzUTZNN09DZG83QUZDUFR0d2gyRURRME5vR3FGVlJyUkVzQm52VnBSU19jeXpPWnBadThzdl9kRlJqM0NMVUNFSk80MjBtT05Eak12WFRfWmQzcHAtUUQzaXhR?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 25 Nov 2026 05:04:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Gobierno llamará a sesiones extraordinarias en el Congreso hasta fin de año - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcExReTBpNDl4OXNlYWtDazdnbkxrbW5ubzlPMkhyVjdsWklSMHZ2Wi1adEZKMm9NMWNlemlkTTJYQU1NY0p2bmZxTE1ZeW5IOGttQjlWUnFzWGZibVJobUJLdkdOYlA4NlE5TGJGNWFfWE1GOVBLYU9mMkw4bHRCd1ZEQjhCVmUzNEZRNjZ0MUhKY09OQWktRlZic2dFemN1OGFqT0FxRWxNbThJY2xNUWpyUERlN2haNXpqZXh2Zkp2X1l0UlRieEdzZ1VWbEMxUGF2T0ZSdTNHSHZJOUQzVNIB7wFBVV95cUxQWDBWS0dPWE16UHl1cGlKTGlzMnBBWVExRHR2YnZVbWRaS082Uk8tRkhENlM4SlQ5VHo4ZUpKSy0yaklpWGJsc252eXh2ZUlUQ3MtMEQyWmlGU2d2aDVhYXpGUkNOWTZPVkFodHN6NlNKWDIxRFpCNDFCUHpzLVBMY0xoVjFrUjQtQXVCNk95OXNXQ1E3WjlZR0JTYmVMdEt6ZXZtSXhpQ1lBSDhaNWRNQ2loS2RVVG9nNTJOSGtkT04ybFFGNlFuVUVUVFdsNUVEWi1TQ0xLcXhUWEs3TDNhM0ZhM1A2ZHBhSTczY1pRdw?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 24 Nov 2026 20:30:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Convocaron a Diputados nacionales a debatir el Presupuesto 2027 y la reforma del BCRA - Que Pasa Salta",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0FCVXVTb3ZhS3dfUnppSm4tVnhaVjlXS0VCSXpuaU9vb3U4cjFBNEpodF81elVaQkJQMWtiTG82ODRHZVJYY2htZnQwLXhwSjgweG00Y01ucWg0T3NNV2ItSGl5RjNWbENTRV9GY3U2UUFRNGloVWVFdHdNZTYwSVV5eVBMd21Kc0NVYjNDb1RiaUZ0UE42V3hzTkZ0ckthVktYMdIBpAFBVV95cUxQM0FCVXVTb3ZhS3dfUnppSm4tVnhaVjlXS0VCSXpuaU9vb3U4cjFBNEpodF81elVaQkJQMWtiTG82ODRHZVJYY2htZnQwLXhwSjgweG00Y01ucWg0T3NNV2ItSGl5RjNWbENTRV9GY3U2UUFRNGloVWVFdHdNZTYwSVV5eVBMd21Kc0NVYjNDb1RiaUZ0UE42V3hzTkZ0ckthVktYMQ?oc=5",
+          "source": "Que Pasa Salta",
+          "date": "Wed, 25 Nov 2026 00:35:23 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Sesiones extraordinarias: el Gobierno Nacional convocará al Congreso para diciembre - El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1RfZHZwb01OV05NdjFfMF9HQzZ6a25wUFVHa1pMZEdFWHpjMHg0MnpLcXhSYUV5cUswVjZBMlIzUG5EeGg2UDExRVN0VUN5REt6T25Ldm9xTE4xdnNSMHo5MDEyZFhNUEpHT2JCUmpXUUFxaFY4THRldUtjZkJtREl2OVRiT2p6UVVNYmt0ZmxlcGxTMVZYNnFELXhMOEsxS18zaDVJeXBjRHREd3owTw?oc=5",
@@ -664,48 +710,6 @@
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEluMXZ2TlFmd1B3dnc0dlVXZnFpakFWaU1jcDZPTEtWdjlzZnJsMC1Za2cwNVRyT012a0FHSkFReW5ZRkpUYmNMLXRNTkRUSXF4TW5ZUkZqMnZFMGJqcFA4TWUtLTRvWVQ2d1R4dDhTREZFX004QmFWZFo2WUI0Q0ZRWlU4NkpsazM3YjZqNzJTaXNkbFY4MGxsRDZscDhrVVdTUm05UmQ2UlRGVjBHeEoweFdMV2FVNC1qaUdlQno5SEFEemp3dlRpZzBtZnBY0gHfAUFVX3lxTFBwcFlyVnRqY0V5MDFEVWtpTldhTzB1VndkNTRweVhkMElmcU8wWEdBUTZkbDNhSkhRRUc2V0JfNW1EeGM5VFIwcHBXa2VmTGFlZG1Eemc3V2gxM1lCSHJpRE9KTndtYlo4ZkxRNVY0V1BsVWUteTd0RkR6R0dycmtOMTdKRTBzLThTSUhFQ3FfcXNyazIwaUNPMVFSTGdnY184aF93ZXRZOWF2ZGJEOHl5cE1RZ2Z5R2RwTWt6RU0xUTZPR3BJdGpWVVV1dmxvUkM4cEp6NUItUjdIZ3JRYTg?oc=5",
           "source": "Informate Salta",
           "date": "Mon, 16 Nov 2026 20:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Provincia auxiliará a los municipios para que puedan pagar el aguinaldo de diciembre - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMmkzakNWUl9USE5TaUl5UTU4Mno5c000ZUFBU19HUzVXXzNNb0ZWMExrQUlrcHJ3bjBvNzA0SUZqYWdSVUwwY0ZwTWJHM0U2WldubG56MXY3ckx5U3I0VHlnS0k3YTRrNDFaVU5venNpZ19IdzVieU9LQUJhVWdySXA0ZXQyODJKUUJuR2NtUmdobWFHVWhZQi1FaGowcnpTT2FUcDJHcTc1TFdLcTkzdG1JYXNlcHN0TWg3aDFSUC1CUUdXd3NES3VUNEtkR1dNWk9Qc2RzVm1BaXVMS1ByUVV4TdIB8gFBVV95cUxPQzFEOXRtTkNMVGx6cGxXU2dmQTB2bFpESGRDamJHMm5sd0wySTRza3JhMG5zZzJBMlVQNkp0RWE4eVBHTXF5RTB2all0Z19RMVZVOXpmOU1kX20tc3pRWWdvelRLOGNnU3Bmdl9OUWxGbl9xZW5kUnE2NXpLUVhoSGFacElrWGhxVkpOR1hoRVgwMmVxMkh6WGtCdEEySmZoNmtsMXE1dnVWR05la1lsSlhZNW1NVmpjM2N1NTB0ZGJVaEtEMklpLVlobEdqS1oxMGtZeTRYYWpVa3ZWUFR4djRqZDZFMXBEM2VYUG9BUjd0QQ?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 19 Nov 2026 15:45:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno acelera la negociación por las PASO - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ0lZbDk0aEp2RUNoR2g1T05fNUE0Xzk2NkxTMWo5ejRnb25OMEZEUmk3TGp1eFc1aXhFbjlyY1h4RmNPbzZvWkMxWTREWHdNLW9iMUMtZThiM1Q5bFVXZ1VTYkJ3RHJ0WXdCTTVWMXU0RDlfLXRKNmlPYl9LdnVTTjFXNG1mR1l3OFJ1MklhdXE5UkQzZ3VLeDlnRHJpX2tDRlRV0gGoAUFVX3lxTE9la2VIeE1oT3ZuMEJXZDBMbGQyMmFQMV9SM2N3V3h0a3Zsc1dfbDR1N3pPOFVSOUJXWW1pU1p4eUZEdzZtREpPWV9iTU9FeFBXQTlVd0xha1I1SXR2Q3E3MXhDR2lVNndNLTlGQU5pVHRyOGlTVnp5SDZrejhGajBwU1BSTUtyMDJ4cDRya1JHaFVCV19FSmJFb2swYm12bHZ4bTFjT2Q2Ng?oc=5",
-          "source": "El Tribuno",
-          "date": "Fri, 13 Nov 2026 04:49:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Las provincias recibieron un 70% menos de fondos discrecionales durante octubre - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNEJyVjdCbkhhb1h3bUktaEE0alQ3OWxiaTNwMFlNdHcwRTJyXzZiTkhONDZfeUpQb1VxYWpQT0oteWM2TkFIOEdpQVZaY1VxM0tHa1pJR05yTUU3ZENCbnVZZDl3Tk1vUHg5bUJZaFRZVGd3aXl3SVlEVVBLNVBoU1MxNG9NNDlCRnJsTDROc0QzNkNGQ1pIejNxRVpJRnlPWmhBQ0VYX2k0RHBzeUxPMHo4Tnp4T0h0QXJQRlZyMkhfbnQtYXR4MnZ1UldyVVBzY3g2QmlCbERkOGh10gHrAUFVX3lxTFBxVzJ5dWx5RDV5bGE0UlJNWmlHcnBYM1FQWWVWbVdPc0hHbzNENnZoUHdTVDhxMk02cmNwM0VadlZCbnc4bVlIQUEtT0dUSGtReDRmX1B1VnJLVzFyeHBBTjI5Q0J3MFJDWEJYTmVZeFpNUWJELTZ0X1lmMDVmSzdta2kxR3dtNXpzb1F3aENTcXhiWjRlSHZGMzdJeV9xRlR0Wl9yYldKR2tMUG1XdWJlcXdGU3NrVWx1M2FpR29YLWdFN0R2LW9tWGJIMHBWdGp6bEYxTEJsQTdXQTJSQUhwaE9mWFhyM21rRTA?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 19 Nov 2026 14:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "“Un día para celebrar”: Mujeres y diversidades del Valle Calchaquíes tendrán ecoviviendas - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQemlpMUF5eV9CZGRNTmxQb0JEUEx0c29PTjlFbUltcXlya1dMWGt1bEZmdk03WjJ4bE1xcVd5Ql9WMkNrZ0lIanhCbWR3ZEhUQWtISDU1VXg2Y085NEh6c2dycWlucnkxMEhxUU9qbU1YS2hqVVpGc1NyOVFaSDh2WmU1ZnAxUk9iaUxObGt6TnRXZlNQMDZ1b01fQ0h4cFY5bGFudi1kSmNkU0VmSDRlX3ppOGh3MkY5dkczemFNb1dHaEdyTUlNS0Q2akRBMndNb3ltbGVpb243Sk1ncnFoWEI0RVhjeGtoM2fSAfgBQVVfeXFMTncwRVZhZG81Z3R0QkxBNEh5V3VoSjljQWRldTRNN1RnTnNjNmxsVm1HWlp2cmE1WUo1N24tQW9Wb3haZUJhR0hWbWk2V01MNEViOEtUTWZxaXBOSUY3S0dYdnFfTmJ6Rnl3VmlqLWVtNmdUaEV6QkpGN2p0UkRIcnJXbU52RWNDSVpzR3o1Y0lFVlhhT2dONklLRjVnckd0TEhkTE03aVQxUXNMQl96WTU2SkFCRE5wUzVTcjNSbWF1Yms0ZkJuZXRPbUJzajU4bHhwQ0FTVnY5ZW9YRDRWZjAzc1VTaVZ1aUd1aXZPRnlRdjV0MlBNOE0?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 19 Nov 2026 21:00:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Presupuesto 2027: Dib Ashur confirmó cuándo enviarán a la Legislatura el proyecto - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbDRySEhSMXhpQ3BURHZmS3pUTkVRam1felBkNEVxaWF2LUxmaGNuX1FsaExFcU14VWttSm53Nk9qZEppdmh4WXRmbTRPUVB0MUpROXBqcWt4NUJiOHJwSEdVZW9nNkx2XzBrbmFfbzlPVlBFX3VRdEVselZwUHR2ZENfZG55bEZqSXI0QjlENzZqLTR4ekJwbVA1SVEweVoyN2RTVE1US0ljVFJZcndjTVpCUHFkWmxlX1RlcTY1SVE4bVVMUkJqczEtN2JNb1RVQUZlUTl1MzVsYU96bWlwakI0VE5KZEVBNVdwcm130gHuAUFVX3lxTE9sNHJISFIxeGlDcFREdmZLelRORVFqbV96UGQ0RXFpYXYtTGZoY25fUWxoTEVxTXhVa21Kbnc2T2pkSml2aHhZdGZtNE9RUHQxSlE5cGpxa3g1QmI4cnBIR1Vlb2c2THZfMGtuYV9vOU9WUEVfdVF0RWx6VnBQdHZkQ19kbnlsRmpJcjRCOUQ3NmotNHh6QnBtUDVJUTB5WjI3ZFNUTVRLSWNUUllyd2NNWkJQcWRabGVfVGVxNjVJUThtVUxSQmpzMS03Yk1vVFVBRmVROXUzNWxhT3ptaXBqQjRUTkpkRUE1V3BybXc?oc=5",
-          "source": "Informate Salta",
-          "date": "Tue, 17 Nov 2026 12:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027: todo listo para ser enviado a la Legislatura, concluyeron las mesas de diálogo - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNd3QzejhKUk9FSzJwNmROTHgxYUFJMm9MMmpYZ3psRFQ1U2VHOEZfbVA3OXlMM3lyMlB0dDVnSEFQSHg4dnkxSlBEbVF2TlNNekMzXzYzSmg4ZF9sdzk5QTd5bHFhdnk5ZWhFbTRQclFac0ZHdG5ySEtzMFV3SFduLTZ3SE1JTy0xaHlzUTNmSEJSZkgxd05CVTdWcW1mUTBjUzY3SWRpa1dWMGVEN1ZIUkJGS2NfQno3aDlZaE11VUtvY0pjdldiNWRDdGFWWG92YXl1WWJjVEN2cGt2ZjJXelVuVkd5YlNBbTJIWXhuVkphUmg5cVc3VEFjOHJJREdZUWfSAYICQVVfeXFMTXd0M3o4SlJPRUsycDZkTkx4MWFBSTJvTDJqWGd6bERUNVNlRzhGX21QNzl5TDN5cjJQdHQ1Z0hBUEh4OHZ5MUpQRG1Rdk5TTXpDM182M0poOGRfbHc5OUE3eWxxYXZ5OWVoRW00UHJRWnNGR3RuckhLczBVd0hXbi02d0hNSU8tMWh5c1EzZkhCUmZIMXdOQlU3VnFtZlEwY1M2N0lkaWtXVjBlRDdWSFJCRktjX0J6N2g5WWhNdVVLb2NKY3ZXYjVkQ3RhVlhvdmF5dVliY1RDdnBrdmYyV3pVblZHeWJTQW0ySFl4blZKYVJoOXFXN1RBYzhySURHWVFn?oc=5",
-          "source": "Informate Salta",
-          "date": "Thu, 19 Nov 2026 00:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
