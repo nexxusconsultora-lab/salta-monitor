@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-11-25T18:45:49.570401+00:00",
+  "generated_at": "2026-11-26T02:00:38.208238+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 613,
+      "total_mentions": 616,
       "sentiment_breakdown": {
         "positivo": 42,
-        "negativo": 53,
-        "neutral": 518
+        "negativo": 54,
+        "neutral": 520
       },
       "sentiment_by_day": {
         "2026-11-24": {
-          "total": 8,
+          "total": 10,
+          "score_sum": -4
+        },
+        "2022-02-12": {
+          "total": 1,
           "score_sum": 0
         },
         "2026-11-25": {
@@ -367,12 +371,12 @@
       },
       "top_topics": [
         {
-          "term": "presupuesto",
-          "count": 56
+          "term": "intransigente",
+          "count": 55
         },
         {
-          "term": "intransigente",
-          "count": 54
+          "term": "presupuesto",
+          "count": 55
         },
         {
           "term": "tribuno",
@@ -384,18 +388,18 @@
         },
         {
           "term": "pasa",
-          "count": 23
+          "count": 22
         },
         {
           "term": "elintra",
-          "count": 22
+          "count": 21
         },
         {
           "term": "diputados",
           "count": 16
         },
         {
-          "term": "papa",
+          "term": "milei",
           "count": 14
         }
       ],
@@ -502,6 +506,27 @@
         }
       ],
       "recent_articles": [
+        {
+          "title": "Ricardo Quintela acusó a Javier Milei de agredir a los argentinos y criticó la recesión - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1pfSks5QWxXemxXWVRLRmxRbE9WaFlyN3A1cFMxcE1BWU80RUpEeXlVN2wtSGhFQUR0NkJUNE1WbEItc09HSFhaVHFQT0E0RTFHSWV1eEwwR0NWcEJXdjhYYmlKckhuem1MSzhVRzVBVkQ4WUwyTUFRMDQwaXprNVdGSmNjcWZ4OVFGcGNlYXdEMTdyQ1NLMFZ1NThTUUJMampXOHdNUzVkZTNJajZxVA?oc=5",
+          "source": "El Intransigente",
+          "date": "Tue, 24 Nov 2026 21:24:27 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "El Tribuno - noviembre 25, 2026 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SbTJzNjlMX0t3WUg1N1BQb3hWS3NFYnZHSmNnR0VSbDJJR2hNSjZncUtRZnR4OXdoZFNlOFY3NHdrdzZLNWhj?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 12 Feb 2022 22:42:56 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Vouchers de $24.000 para chicos de Salta: quiénes pueden acceder y dónde inscribirse - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNjRDVnFfcHF4b1I4S3ZYQV93YVllYUppNFVrS2pyQ2h4cmRzM2RPMTUtNkx1WHhkUDc2V2JnT1EwNXQ0YU9yeWxrUks1VmNUQ0swOUh6VVNBaHpNTHl6QmYtMWYzNFRPM1lna2dZYVd3Yl9INFplNk0ycGpzZE1GbXJCZjVwZld2Vnl3Tlg4R0NpUVA3eFBnbndsSTR0RWV2OHp0TjFvOF9YRGpobmtZZDhnLTZaRG9wb255LXRsZWg2MjU4bEhFUktwV3d5NkswcjRVaHR4N1IwZ3c2eE1HLUJUVdIB8gFBVV95cUxOTmNfck84S3o5UVRNb1ZfUDNpOVpnTGpNRXZEQk9fcXJzMVJkbE8xbGFiVGFHN1Vya050TmNSRlhKYmIyN1JtVDVyR19yQkdpdE5TZmVTVTNNSlVYaFFFb3c4VFdYbTJheHhDaGhoY0JQUEtyV3FBY3ZTd2EzaWtEdzBSOGpCT3l0WWhRWm1yTEJjWWFqS2xlUUgwY2d0S3pJR0lEeTh4RnhNWEdKbzEzNTQwMG0xdnR0VHhZY0pMeWdONE9CUGMxYXZHdzdxamlsLWhTWEJMd0dRbmhoRVlpand0YTJGY3IwS05VOE5XMldKZw?oc=5",
+          "source": "Informate Salta",
+          "date": "Tue, 24 Nov 2026 22:00:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Salta: darán $24.000 mensuales a 4.000 chicos para actividades deportivas y educativas - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjlfdnRpRGtXTG1oazJFMENUQUwwS0RGUGR1Q1NEWDNfTVhQUFpBeGh5YkN6R3JhaWE0UGd6Qk9GeDNGTm9EQ1BfZjRwOWdaeXJjM1F0VkgtQXBkdUlQdFZOQ2xaMFJtRmZEbWx0OXhCck5Gc1NFSkdLZkptS1FlQ1BQRGFSeGxIR00tNDFtSkwzbVFMX0lPVDZJb1VPTnZKRTRwTlFmUVBFZXQwUHh1TjVzWTRBME1tUWdsU3Jpd2JLRGotQVJFa3FmQVpOTWM?oc=5",
@@ -689,27 +714,6 @@
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTM4dzIyM2t0dThBdFk3c3ZJck5MUVJvcFppSXlqX1VvcUZRLTRWeHhubUJjQVZGVmZhdVc2VTdXVDBaXzlMZzhVNmFBeElQemJ3cXVuQ21sX0l3emxsWWloa2Z6VnVFLTh1OHdxRDI4SkJPcXRkR3VFMWZYQUNhZGdFRkRQVG9pMUFXZ2NWbzhncnpPcC1mSkFWTEdZeXp4WVNvSWhHMFdRMkxoUm5RZGppRXFiTXY2ek5teDFQQlM5Z0h5b2JJVXFDUURkV1lpcU1kdUwzRnRlb1Q2aXlia3ZhONIB8gFBVV95cUxNMXNKN1M1VWhNZnZPcm5tRE1fNlVHaGFQYkMyUGRZaWswOS10cG5saml4UGxNeEtaMjRUejBxaEYwV3pSN1hseHhycW1zWHZOdDN0dWdoSEp0T1NELVNCQks2MUVCZWFHUnIzQVJPdUZicm1nTU9WX0Y5UU05VjdlS3V5QUxnZTNJc0R1Q29tQTRoQ0Ywajg4M0JYeEdNUWxnTncxaXBldGlhVEJNOEpReVd0Y2hfWWNrVUlILXdldm9JRGRxS3hZWG9zYmc2c0hsX0tGcWJkVVhsYkVlUXdsSXduYVpQeUJuOU80RlJzRDVsdw?oc=5",
           "source": "Informate Salta",
           "date": "Wed, 18 Nov 2026 15:45:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El número que anticipa pocas obras nacionales: menos de $2 de cada $100 irán a inversión - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS1ZwRXJfcEY0M3FPR2xyQjJIUlpVSThlbVp1d0Zpc3MyS3VKRmRoVjc0ZWJNbGVfSmdfVVFzQTlxLWdsSURBT1pLRXhaVHBsQXpkMmJsbFkwSWd2MGh1Y2Rsa2h6ZGJoWVhjSnZDOEN3YklCNllTdEdWMTgySlBOTTFyVTI4T1ktS0o1WVRkU1RhQdIBkgFBVV95cUxNS1ZwRXJfcEY0M3FPR2xyQjJIUlpVSThlbVp1d0Zpc3MyS3VKRmRoVjc0ZWJNbGVfSmdfVVFzQTlxLWdsSURBT1pLRXhaVHBsQXpkMmJsbFkwSWd2MGh1Y2Rsa2h6ZGJoWVhjSnZDOEN3YklCNllTdEdWMTgySlBOTTFyVTI4T1ktS0o1WVRkU1RhQQ?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Sat, 19 Sep 2026 07:00:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Confirmaron la condena a Alperovich por abuso sexual, pero le redujeron la pena - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQjQ3YzZlNkdXQ1VCNU8yZ21FZV9ydjhhNlY2RnRMeUl0cGU0TGktcDJzaGFqNTJ1bHZfOG91bkRWYkZzNl9YYWVPczFPNWRrbFhEWC1paGNxWFA4SWFUVlJfaXY4dHViZEozZGNHcU1HSHgzSmFnWUd2enZ5bV91eWlKdTduUzZGcW5rZ0dXTFhmanI5Nzk1M0VxeDczeWcwZmRYUFhKNzhtMUJSYlh5eEhyLVZFelpVNC13MmdDWnpLWFp1a3lZRnZyajZZSTdpU2pJc9IB1AFBVV95cUxNQjQ3YzZlNkdXQ1VCNU8yZ21FZV9ydjhhNlY2RnRMeUl0cGU0TGktcDJzaGFqNTJ1bHZfOG91bkRWYkZzNl9YYWVPczFPNWRrbFhEWC1paGNxWFA4SWFUVlJfaXY4dHViZEozZGNHcU1HSHgzSmFnWUd2enZ5bV91eWlKdTduUzZGcW5rZ0dXTFhmanI5Nzk1M0VxeDczeWcwZmRYUFhKNzhtMUJSYlh5eEhyLVZFelpVNC13MmdDWnpLWFp1a3lZRnZyajZZSTdpU2pJcw?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 18 Nov 2026 22:19:00 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "Economía anunció un nuevo superávit en las cuentas públicas en octubre - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEluMXZ2TlFmd1B3dnc0dlVXZnFpakFWaU1jcDZPTEtWdjlzZnJsMC1Za2cwNVRyT012a0FHSkFReW5ZRkpUYmNMLXRNTkRUSXF4TW5ZUkZqMnZFMGJqcFA4TWUtLTRvWVQ2d1R4dDhTREZFX004QmFWZFo2WUI0Q0ZRWlU4NkpsazM3YjZqNzJTaXNkbFY4MGxsRDZscDhrVVdTUm05UmQ2UlRGVjBHeEoweFdMV2FVNC1qaUdlQno5SEFEemp3dlRpZzBtZnBY0gHfAUFVX3lxTFBwcFlyVnRqY0V5MDFEVWtpTldhTzB1VndkNTRweVhkMElmcU8wWEdBUTZkbDNhSkhRRUc2V0JfNW1EeGM5VFIwcHBXa2VmTGFlZG1Eemc3V2gxM1lCSHJpRE9KTndtYlo4ZkxRNVY0V1BsVWUteTd0RkR6R0dycmtOMTdKRTBzLThTSUhFQ3FfcXNyazIwaUNPMVFSTGdnY184aF93ZXRZOWF2ZGJEOHl5cE1RZ2Z5R2RwTWt6RU0xUTZPR3BJdGpWVVV1dmxvUkM4cEp6NUItUjdIZ3JRYTg?oc=5",
-          "source": "Informate Salta",
-          "date": "Mon, 16 Nov 2026 20:00:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
