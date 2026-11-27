@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-11-27T02:39:39.707250+00:00",
+  "generated_at": "2026-11-27T11:28:21.370885+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 635,
+      "total_mentions": 650,
       "sentiment_breakdown": {
-        "positivo": 46,
-        "negativo": 55,
-        "neutral": 534
+        "positivo": 49,
+        "negativo": 57,
+        "neutral": 544
       },
       "sentiment_by_day": {
+        "2026-11-27": {
+          "total": 12,
+          "score_sum": 4
+        },
         "2026-11-26": {
-          "total": 16,
-          "score_sum": 6
+          "total": 18,
+          "score_sum": 4
+        },
+        "2026-11-25": {
+          "total": 5,
+          "score_sum": 0
         },
         "2026-11-19": {
           "total": 10,
           "score_sum": 6
-        },
-        "2026-11-25": {
-          "total": 4,
-          "score_sum": 0
         },
         "2026-11-21": {
           "total": 4,
@@ -376,35 +380,35 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 65
+          "count": 70
         },
         {
           "term": "tribuno",
-          "count": 59
+          "count": 67
         },
         {
           "term": "intransigente",
-          "count": 58
+          "count": 64
         },
         {
           "term": "informate",
           "count": 38
         },
         {
-          "term": "elintra",
+          "term": "diputados",
           "count": 22
+        },
+        {
+          "term": "elintra",
+          "count": 21
         },
         {
           "term": "pasa",
           "count": 20
         },
         {
-          "term": "diputados",
-          "count": 19
-        },
-        {
           "term": "milei",
-          "count": 16
+          "count": 15
         }
       ],
       "politicians_involved": [
@@ -418,6 +422,18 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Es un garca",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVVPNWgzRk8wWHlNT3B2TTI2SV82c1dCa3JEYXkxb296Q2FSeVROcWNEVUJydEU0VnUzeElKUGVrV0ZlMEotUHBweTd0RTI4SFdROWg5cl9RdndmVHRXMkw1NWhXcFoxOVNTaWdreTZQXzE3dzVQSGJleU9GUGUwc2lPVldrU2htT3J6cXlSZFI0aGh2RnB3TUtGdG5QVHVhekRPS09tN2hrbEFTNm85QlVkQVZrXy1HRFVB?oc=5",
+          "date": "Fri, 27 Nov 2026 03:42:33 GMT"
+        },
+        {
+          "quote": "Hablan de soberanía, pero las decisiones se toman en EE.UU.",
+          "source": "El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVFRrak4zbHI2ZnlUZlhKS1E0Y3hvS3BfZGZ6cFBfd255cDNmQV9tbkxLWXF2YXZGS2lsN294SUF6QzcyUEl0N3BsaGlHTVhDT0J3VTJhS3Bsekt5V1hGbHlEa0xZRDh0X3pqVVhwMVVnVzhoZjY2MUtFWlZEUmlWdjl1RFRMTk9UaDB5NXVieHdkX0lKY0JiU2dMRG14dVo5UTVHaHRSeGs0SmFnenV3V1FDUEkzM1AtV3pzb2J3VlV4dw?oc=5",
+          "date": "Fri, 27 Nov 2026 04:31:33 GMT"
+        },
         {
           "quote": "Se terminó con más de 90 años de estafa",
           "source": "El Tribuno",
@@ -495,21 +511,114 @@
           "source": "Que Pasa Salta",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTFJKbWJhMVEtbW1paTg3dWNhSUxrUDdjTXNyQWttQmtnUkloMEZ2NmRRUTdhYjdJdWhSSm9ncEN5SDlBbkZURGdBQ00wanJ0QlBOYjd5dWRlQnJEWGFfM2FDeDZoMnEwdDJrS3pmY3pQa0ZWV1VFWHNobHNaRkU2a1NHR1E1VzFFdFJoNGI2WDBqUdIBkgFBVV95cUxNTFJKbWJhMVEtbW1paTg3dWNhSUxrUDdjTXNyQWttQmtnUkloMEZ2NmRRUTdhYjdJdWhSSm9ncEN5SDlBbkZURGdBQ00wanJ0QlBOYjd5dWRlQnJEWGFfM2FDeDZoMnEwdDJrS3pmY3pQa0ZWV1VFWHNobHNaRkU2a1NHR1E1VzFFdFJoNGI2WDBqUQ?oc=5",
           "date": "Fri, 06 Nov 2026 17:48:49 GMT"
-        },
-        {
-          "quote": "Cruzó un límite",
-          "source": "El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjdoTHE2ZUFYdENWLTdoN1hSd0p3WWxXaHRtckhINTAxQlpfRHREWUk3RVpqOUNPZnNPOXl3a3UtRFFRTVZCOTFIU3I1OVliQVZndEZvWWhDU1VvQVdRZ0hQb1pVOHRJeGJyTlpwTUVqTU1fTE9TRkNqLUJ1ZHR6LTRFdE9BWkpzOTFqS2p0MzFKeFEyMFJIV3Q1MTZ0NHpDRThVQ2ZB0gGrAUFVX3lxTE9adUZYSklua3M2N05hcmMxUXdpckdIdkdzVUttLXhBTU1xU3V1eXR1WS1pSlJQQ2V6ZXpwS2VtOHJNcUxsNW1KaUdvTkFNVTU0bEgxR0tsS1c3ODZoZVBPVl9iaGo5WU1mXzBEMkdNR0NKZDRBZ0ZHSDlueXoyWXhpTTk1RzJwLVpsQjczVUx6MEI4ZGNpTktsUlBRcUVpN0FqS0tDSC02SXNtWQ?oc=5",
-          "date": "Fri, 06 Nov 2026 04:34:00 GMT"
-        },
-        {
-          "quote": "En el AMBA están todos los privilegios",
-          "source": "Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWEp3MUJaVVFfV3I0OFliY0NWWDFDbmNtRGlELVVHSzV5TElKODJ3SzZNemVKMTFfTXNGUXVkQnFhaHBvS2F6eDhIOGh1LW9NU3pTa3RkdFBLbzNVa21NVzM2WTJkTWh2YWxlaTlkamJBSjkwbzhYZDhJU3RZYmV1QW55NWJ3WnhMQzVLSGNxR0w4dzA0SmFkdW16X1lQQVBpWG11MWdyc1VzV3dqOWFYVlJzWXpqWWFkYWIyQnI0U3dBQ1I2SFVKeEtIWnNqU1lzdzMyZnlMR2dFd2h4QXNj0gHuAUFVX3lxTFB2Sjc2V1pXZXV3bUZLaEQ1X0ZrcVhWeHBHZlFLV0plNlM0SFhDZS1UanoyczVjMmRfb1pCeC1TUFNNa1dhd1hpbTNiTHhmdUlGaWlwdC1TOTNJcEVWdGxUbHdLVi16UjFhNWlmckhQaGhtSy01TllFd0o4WTlQRW1FZjZxV295QWVldk1PLWpjNW9rQ19vZ3c0YVhGUXRfR1RLeGtrV28xSERMczN4X19wSS1PY2d6ajY0UlZDMnNpVkdsN2RFYXJtc29XQkJGMGdwSndmS1BYeXNjVkRkMmlERTM5UkE5OU1oSUNKMEE?oc=5",
-          "date": "Wed, 04 Nov 2026 15:45:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "El Senado de la Nación aprobó por unanimidad la Ley de Ludopatía con 72 votos a favor - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR01pVHlXX0NobmYzMjZoVWUxSTQ5U0pEemotcE1ZVi1XdVVYZzFtLXg2TktsdUdxSWRWT1AtekFBS21Vb0owaERpUTczU3A0emtDVWNILVZsaEZBdjhESHNWWTRSRmZ3U2Q2RE90WnZMdlJEWUZxT0d5VXY4RGZEaEdtdlg1LVo0TEVCUEZDQTRXbzZLRldzS3pnYnByaHpXOVE?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 27 Nov 2026 02:32:53 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Hasta cuándo se puede viajar gratis con el Pase Libre Estudiantil de SAETA - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0JWUDg1UDRtaDM0SlhZMy00VHBMbl9uRW5GdmxJT09YMnJFeGEtNlVPOC1xemtpdFZhaWM3VFdvempSOWM3aWFGQnRKMjkxWWhlXzJ1cGstOE05d0w3eE8zMGY4QVNUd0JQOWgzTm5TTnJDbF9kaUd0b3dLTEZXWkRTdXdYN29PbTVCamZUaWJDRUpVSW1IXzN0ak1yZTI3WXE2RkxPTklyNmIyUTcwSXV5Tjd5YWNyZGs2OXFFVXNoQdIBxwFBVV95cUxQQXhNRUItRDVpbXFvUzlONUJfcEJCUUZ4M241cjM1blJndUROV1lLRHY0bmtoeS1LR3IxMUsyUkRnX21nVV96X3hZVlBlSnhUQ1pRRzNwbTRHNjhGbE82bmI3a1FiS1dvalRtdy1EeVVIeUJiUUFJbUJsUUxOaEtMbzV0cU5FUkM2RE5hbHR1MVFGODlXb1dMVF95UGR6UnF0bXROczM2Q3VUTFdkRDhZYmhjMHhkZWFQbkFLS01PNXNLV3I3dHpJ?oc=5",
+          "source": "El Tribuno",
+          "date": "Thu, 26 Nov 2026 16:08:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Piden que Recursos Hídricos controle desvíos pluviales - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa1REVzU3TEQzaEJCZ293UW9EbXFkYzJYS2dWUlFPUTI4a0ppM3dZTWhnb282Z0YwcmdweG1QRWRUWVRicjllM3VaMEczemRaT1JfN25fT0VYYjNkTUg5VGZmdkwwRnJ4RXl3ZzVkYWdaMll0QXBRZ2psZTd1anRVNGJZMWlzNkF5ZjJad1QyTVB0RW1lRmprTkJ1OU11UTNPbWxpdHJn0gGrAUFVX3lxTE9mZUR1eHdLclFyMEhFbk9GcjhZYS1SLUE4Rl83azBmUkJwNVFyV255M1BMQ2dOM3o3WW9qVGlJOTQ3aFgwdXE2Q0F4VDJyTXRxLUhHT09HNWFUbDJKa3Ftbmg2UXJ2WlI5R2xtR3gyR0laMDk3SnRqNEtIWGgxWEpYNHB3MlZpc3F0M3JXZUhGdGZsdGcwWTNLakpoZWJIa1RYMjBVWmtyLW91VQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 05:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Un policía federal fue esencial para traficar 204 kg de cocaína - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSnFtMEdBLVJIMEhVVVVYWDFtR2hPTF9NTms3eFk5QllxZU9SOUFlbXJJR01idG1SUUp4bDZuN3VaU2lCcUlCamdOem41NFB1LVZOTGdpMDhjVkFjTGZOeG5NWkVDYWlId1NSSzJvbGVCYjJSMDE4Ymp3UUlTT0tiWDAyeGVvYUIwbC1fSF9NaU1SbnRrWmpWbEtiSFBWZGFiNEYwNFRDcDNRU1RsYmx4V2ZyelhLamhy0gG-AUFVX3lxTE1WX1RyRWYtOWwtZjBwQV9rNktOS0g1MHVGYzBRSmt6UlNnS2liRXd0ekhuWWE2akpmV1JjQ29TakljT2hGcFdRbDNHY3hpYXhZdGFCS3dYaTdnekt0REdhcHpqQ0VibUVlNy1HNGxPcWJ5dXA0MFhxMFZLYk5LelNpYldqS3BvNnd3N3Vob2tBLU5TR0c4N1VoRmx6V20yczhRcG16Z0lQalZvTDAxb3ljYWtIbFFYQVdQMFlNdmc?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 05:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Habilitan otra Consultoría en Rivadavia - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTk9OZ1VsMFNmejdncTlaWGM3emlnRHkzWEY4RzBrOGxybnFHNEw2MUtlbmczMjF6Vk1ock5TQ0R1dHBiZThjb083bWFvOTdGVmQyZ0p2SDdkVTFyeVozYlE1cThJTXRPSkpORS11bTB1WDNXU1hVTnJleTNnR2ttR1FNUWV2NE14dTdlUmpIaVowMkE1Rk1VZNIBngFBVV95cUxNWWpjV0ZxZEFwSnBDOWZrV01neTdaWV8ycXpMNjB2ZFJuQ0FEcHVVTnIwdFRKRjNGeFduS2k5S0M2VTN0WTQxaERDeFVoLXByVVh2bTNDWVU4ejM4NDd3bjZ2cXVpLVI3UV8yeXBIY2xPNmZKZVdQZzJ1c2ZzWUFqLWdTblMteEVRWEM2dmR5OC0zWXFNVTlVVTljcHN1UQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 05:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "El Banco Central envió 1.000 lingotes de oro a Inglaterra - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNam9obWlvUkMtV1VjTDNjODYxZlk4WlNIT2Z6OWU0TjMwbnVLamZUR0pUY1NYekxOMWZZWDE2Zzd4Sl9XSzVCUlhTOW1vcHIzTmw2Y3Z1UjJoREl4M2p2MFVsTk5MVURkemhsdTBrd2lLRmZCS2tIeE1UZzVtZmtvRXIwYmliYm1IVlFJOWlWZmE0Y1B5OEQ2NW5MTjBCU1FyaWRSZWFYaHd4UDVpS2ZnRNIBtgFBVV95cUxNSjNvLXQ3ZlFrN09uVTY1MUh6Tkg1QnlLSGNVUExtMFF5MDhpeDM4OVFKc29YZ1ZCM3hONVE5UEY4c1V0dFRJYWZ3alQ2c2QwbnVnZTNvOUJGVU04R0xldEh3VWkxREQyR3Yybkd1UzNkZU9NSWJFM3BxcWl0SGZ3bzZyOGRMWDRkYU12aUVzOFJsc2ZiMFA5TGZfbmVSY2tqQ2k3ZmkyWGllVlFnM3hudXU3QXA0Zw?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 05:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Los tres senadores por Salta votaron a favor de la reforma electoral en el Congreso - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTTBONUtrQ0o3T0diRnRNdFU2LXdWMjBneUNSLTVSdXREbHQ1aFJwUGFpalBqS2toWTMtdTUxbGFuSF85QzhGWU5hNTQ4eXRDZ2dVZldhQ2NJSnctb0YzalRjMzdITlo2MEF3WnRfRjJmMHJ6NTBha2VCbi1ETGFtTjFiRFJlUEdXZktTbUtFdUhSUDBsdVlsRVpiWUtWSkNlSjhXUU5QMU9aWWpSWlA2eHJOc2NsbTFhTmdadVpiMVp2U3BBdUZGQU9kOHMxZ9IB0wFBVV95cUxQYnBNZjFialBtdzJLdUMwX2FCTDJJTTNkSy1TaFpEbU5JQXhOV04ta0NKaGlwRUFrdm1ERXRHejgtUzhKNnZreW1NWnFRUEVDekRXTm1VdGhiMno4T0NPcFh3bWRXamRkRFMxYjM5N1hmOXZVNkpKMWUzM3JPeTdaQVlybkRWVEZkb2w5SmJScVlhUWx4MWctVy1rRXN0Y1I2YnM3N3ZXbEVwbF9RRnFNWWlfVkVvTjBjeEIxeHpxR0dWLTVhU0lOZHJIRDBCcEpoTkFF?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 03:39:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Salta Basket celebró sus 500 partidos con una fiesta - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc2ctZ2RwOXNDek1meW45Ul9MVWktbjVodVZZR19lWThtTWUzaUx1bWFCRFpVQUdGb2lLZGpQOWhOSHZYeF9OaUloaHc1aDVrZGRlNThfZk5ackJDRVlRclB3dmFMUGhhX0JSNWdJVFJ1X1l6ZkFWb3BVTEY2Y0NPa09WemloVDVBWUVuZlQ5Q25ucDJmUE4zaWJLbjVrX0llaHN6T1U5aV_SAa4BQVVfeXFMTWF3ZTBXcnp2VE55R29td3JDTmtsOTYzLXR4WV9GMWdEVkxqdklwN1piZVZPYVZQNVBQSmxMTDdKazVIVklxWlRTRG1OUEVBTUVQWGlWNTlCcUdlX1l5T3ZMUmw4SzVYM24zalQyMDFnUHFmVG1qaV9ONXY0bTZfbWR1NXRIZ3BhVjdGU1hQeEdrUlh6UGFIUS1MYlNKNm5FbklxN0lLWENXODJCVTdR?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 10:57:00 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Buena etapa maratón para Luciano Benavides: se define el Mundial y todavia sueña - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbDJENllzUGlQc0Y5T18yS0JhR0Fwd0FPem5FWWNBdlZaZDN6cVlaLUJoQ005Y195bTlBM3dfUXFfUHREUWtvRDdCOGRSMG9BLXAtemhRdXFBcHhqektmNlpiMzNtUjVhMnVZblpPMGhESHNRdVFfeWdsSDMzN1BFQ3ZlTVRXaGxSZWQ0aVd5aVlGUXhLOTRJNlpIbl9oMEIyemZMUERTM3lIcklnOTZYM2ZGOEhINlM3ekotYzJkV0F3SXN5al9sODBMaEo?oc=5",
+          "source": "El Tribuno",
+          "date": "Wed, 25 Nov 2026 21:04:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Paro universitario: la UBA reclamó nuevamente aplicar la Ley de Financiamiento Universitario - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb3NjMWdPeUw1TVRSSi1YRDhxaXlUckkwbzQ1ejRRZmZZUDBqdFF3bDYxRUpqX2k2M1FaWW5FaktmeXVwQTNnWHdsYTk5X3NmNFdRWjZaZE5KWVNSMUFxbkltVTllZVhfNFd3QlZFNWRPNkUzYzhBOVpSZUU1UWdSOEJwYUZMMGhZc0VHZ195MldWWGhySE9uc08zTDNiU2dMUVlqVkcyc2VOYlFDbG5XbjJYUy0waWlaV3RIbEd3NA?oc=5",
+          "source": "El Intransigente",
+          "date": "Thu, 26 Nov 2026 00:37:44 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Juan Grabois apuntó contra Luis Caputo durante el debate por el Presupuesto 2027: \"Es un garca\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVVPNWgzRk8wWHlNT3B2TTI2SV82c1dCa3JEYXkxb296Q2FSeVROcWNEVUJydEU0VnUzeElKUGVrV0ZlMEotUHBweTd0RTI4SFdROWg5cl9RdndmVHRXMkw1NWhXcFoxOVNTaWdreTZQXzE3dzVQSGJleU9GUGUwc2lPVldrU2htT3J6cXlSZFI0aGh2RnB3TUtGdG5QVHVhekRPS09tN2hrbEFTNm85QlVkQVZrXy1HRFVB?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 27 Nov 2026 03:42:33 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Myriam Bregman criticó el Presupuesto 2027: \"Hablan de soberanía, pero las decisiones se toman en EE.UU.\" - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVFRrak4zbHI2ZnlUZlhKS1E0Y3hvS3BfZGZ6cFBfd255cDNmQV9tbkxLWXF2YXZGS2lsN294SUF6QzcyUEl0N3BsaGlHTVhDT0J3VTJhS3Bsekt5V1hGbHlEa0xZRDh0X3pqVVhwMVVnVzhoZjY2MUtFWlZEUmlWdjl1RFRMTk9UaDB5NXVieHdkX0lKY0JiU2dMRG14dVo5UTVHaHRSeGs0SmFnenV3V1FDUEkzM1AtV3pzb2J3VlV4dw?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 27 Nov 2026 04:31:33 GMT",
+          "sentiment_label": "negativo"
+        },
+        {
+          "title": "Silvana Giudici anticipó una votación contundente del Presupuesto 2027 en Diputados - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWctbnJpNmk3cnNyNG1lYUR0MkY0dGsyekZnUTVuVVNPYS1leWVjLXEtMC1RRUU1em9HeVBvMC01SWhSX2tjTmJVNFkydUx0dWtKbHJNaUVhMWpsS29FMFlWY1lxWkNVYU1VMmpXV012ZUVVcVFnY2RYSGpYeVVYR1o2Tzd3NnJhOW55ajh5WEtneUE2RG5VNk5KQzl6TC1NRTRGR0paeWdDWTdNQzJ0bTFB?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 27 Nov 2026 05:35:44 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto 2027: la Cámara de Diputados aprobó el proyecto en general con 137 votos - El Intransigente",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGt3N1lXVUJuSDBJLTdnVkJmcGRBLVR5Vkc0V2pONTVPN2N0WHRkMmVkTmVoTVdSbjJzM3I2d3FsUEVsYWU3QlFqdkZubDZqTkRQTU0xZW9BQzRoWlVtMkJZWVc3VFUxeUdLSW1oZTBvdVN5Mlh3LURvUmJXTWtRWDlJTkgwaTlJdngwX3A2OTBUMHdJVTBrUm1jX3IycXVVajFVaFR5cmwxZW8?oc=5",
+          "source": "El Intransigente",
+          "date": "Fri, 27 Nov 2026 07:23:32 GMT",
+          "sentiment_label": "positivo"
+        },
+        {
+          "title": "Con cruces, Diputados se encaminaba a dar media sanción al Presupuesto 2027 - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWlhtYnBYMjh6OXhNalBRSE93X3c0S2ZWNlRROE56cWNpdUVhblRRYmEwOUZKQldtTG9IWkdkSHBLZWZlZWF5TUoxMWgwY21lY0JkVkpEa05LaEt3U2RsQ2ZiZVRVZW1Ma0MyejdSakg2cGZkdDNXRWlNbEZqMFAtMGZIUUxSNU5tZE5MNWU0eFRhV2p0MmpaNGh0Ylg5SGZJamVYUllzWkFqQVlXVk9qUnpnTnVVY1d1R01pendoQ25YUU9OeVdHbtIBzgFBVV95cUxPdFpIQUJYSGU1THZNaHlVWk9BV3d0bnBRYk51d1FmSHhwbDFPZkloRkdaTDltdzlhMXdoUDVZWk56WmlZWUdSOWNaR19YZzhqUU9kRTZlcmVzX1RzNWhFVVZjbjdwWFhiOWEzU1hHVTVIX1ZMbWJxTllXRFJDOWFQTGJfYW9lMDJwSWJpVFJQel90U3JzNXg5MHQyTjRUYUNOc0xaQzFvWWN1c2trUDNwSUxXbVJUUVIxRDJJVE9ZVEQ0YlliZzlIQzZqMUxoUQ?oc=5",
+          "source": "El Tribuno",
+          "date": "Fri, 27 Nov 2026 05:02:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Presupuesto 2027 avanza en Diputados con fuerte debate sobre las cuentas públicas - Elintra.com.ar",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRkwxWW1yZUktMmR3TzNhQ0xwdWdHbWR6ZnV5RndkcVhSZU5wc1Y5aGJ2ZHlVV3QzcFNRMk9LSVpmYzJtZGZ1WW9OSTBSa1pBWDhJVjJ0eWYxYlpLa3pfY1QtUG9OMHRLZUpxcEdvclVpMEtLZ2xNMERDbHZ5d0dRRHFLMzg3cktLSGpNN2NZNURYeUdYZ0ttSXZyZ3BoendQOVVOZHJpQUY?oc=5",
@@ -613,111 +722,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOC1fZTJTV3NNa0p6STEwUGhlejlsOU1mVGRHR1dueHd5by1IdHVXZDlCM2dYbFBqLThUVGJTQ1VhQVB5WHdVZlFJRnB3RDNwWVZjdDVSdXFId2hERFYybnJMT0tYQ2pKcF9VU3RTVWl2YktJR1c3TnhiZU90M0k5RXptTFRRWDI2ZG9MMzd5ckNvMmZLVjJNUDd6UU9uaUNkQnNN?oc=5",
           "source": "El Intransigente",
           "date": "Thu, 26 Nov 2026 17:00:55 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Diputados aprobó la reforma de la Carta Orgánica del Banco central y avanza el Presupuesto 2027 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMVJ2SjRRaGJvekFSM1g2bEZpZlhfV1d0NUM2T0RIckVUQ2NrN1JTS2k2ZGJlVU83SzlqZ2JSR2MteXU0NDY1aGxqeUZQZ21kWlBra0ZIOUFKQU53Wkt1bmxhRTNpQUQyZl9VVldpSnA3SGZDYVQzcDk5SmVBcC1EQkE2R0RLaG5IVDAyYVF3Z1Y1NGRlTGw1ZGdDVjlnU0dDVm5RX0xwd3RhWnFoUkNXckxNOEZMYU93LUVvTkFoblhITGNEMl9KWGEtZ0lQaUNNWE14alhzMGlSbmwxR0V5VWNmTF9od9IB6wFBVV95cUxOdHl1bkxMWUM5MW1EUjNXb1ZfOGU1VTI0SjAwaEdjeVFlS3cxOHBuYXhFbk1fX005eUdKeFlZa0VwZk9kbEdRZFdlY21PckZzYlVXMFBiZk11U25wdXN2YVRYdnFVT19ub0RybTE2ZXl3WFcyMFBfQXVUdGFTNHFHZUktYUJVWTVyWXZYOExFYXplZlVTVWp1Q2FBMkFITGctOTQyN0ZmLU5yM2ltaDRmdUJpNXZjNEFMMkVBT19zRWUtSndSaEZVQlduajNpOThKOTF2MzBNOV91QmZmR1J4enFCZFBBUzg2U1Nj?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 26 Nov 2026 18:23:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "Discapacidad en Argentina: un informe reveló las fallas del Estado que generan alarma - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdDJNSlE2MW5xVFZUWXRHZzNLLTBmYTFRNWNzTjZRNFA3S2QyUW9Kb0l4NnMyRkFSYVVzTkFRUjdDeWpFZDg4czBwUjM4RW1HY29ncHlxX2xzRFEyWnE0M3lTODZ0cFR0cFZ0V19PRXVxbUxULTkxUkxBdW5sLW9iaVBCZ1JKZFNXTTFmamNzRW93T2h6SmtFcnIzZXVrMjlMVUtlOEpzNGo1UQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Sat, 21 Nov 2026 15:42:18 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto: la Rosada apura acuerdos - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHRNQzIzV01SdHM1NE9JVF9HcS1RU01kNW1XYnJnZkM0aTBJTTVQaXJSVFUyZGtsR3EyV0lyeWxRcTJVVzFvcjgyYVhnX05xdmd3ODJHeDAyaTdYS3JRbFIyMFRCcXFJNmxsY3A5Mk55Ym9Ya1NDTWoyWmNNNVFkbXdrRWMtVkEtd3FoS2Q2TFRqUzhl0gGaAUFVX3lxTE0zY01seDQwU0N6dWxVc00yR0NmVldvc3NvNUhvZmdFendHVXF2dWRQSW1Da0NOUERhSE5wbFU5cnI4RW1lRmNOMDJQQnpjYnRTWVpjSWNWUjFGdTF0amlON2FUMHRZTVZNNnRHeFVXUHhtbFVFVlR3TXk3azR5T0JLMVNXWDViRkN4MER3ZFE0ZUZmeUhKaXNPdUE?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 26 Nov 2026 04:37:00 GMT",
-          "sentiment_label": "positivo"
-        },
-        {
-          "title": "La Cámara de Diputados sesionará con el Presupuesto 2027 como eje y una agenda amplia - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVEtjLUllRE9QLU9tUUpaRVBwR19JLVVwNTBzb01JVzl6ZXRPM3N1QXlvQWkzQmVjSnVKTWV0emxEMTVCTFQ3ak1Oa1IxVEtYVElFZWRreHJHZTdVWDA2eUtSRXhTQXpTSGgtRGl3bV9kNUJ6dUY4T3BGZTZxQk5fWWRlU0RRaV9TWmM3ZGdjOFN4OVhULXpDYmpmR1Q3cG9IZThIOFA2VGhfdw?oc=5",
-          "source": "El Intransigente",
-          "date": "Thu, 26 Nov 2026 03:29:05 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Ricardo Quintela acusó a Javier Milei de agredir a los argentinos y criticó la recesión - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1pfSks5QWxXemxXWVRLRmxRbE9WaFlyN3A1cFMxcE1BWU80RUpEeXlVN2wtSGhFQUR0NkJUNE1WbEItc09HSFhaVHFQT0E0RTFHSWV1eEwwR0NWcEJXdjhYYmlKckhuem1MSzhVRzVBVkQ4WUwyTUFRMDQwaXprNVdGSmNjcWZ4OVFGcGNlYXdEMTdyQ1NLMFZ1NThTUUJMampXOHdNUzVkZTNJajZxVA?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 24 Nov 2026 21:24:27 GMT",
-          "sentiment_label": "negativo"
-        },
-        {
-          "title": "El Tribuno - noviembre 25, 2026 - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SbTJzNjlMX0t3WUg1N1BQb3hWS3NFYnZHSmNnR0VSbDJJR2hNSjZncUtRZnR4OXdoZFNlOFY3NHdrdzZLNWhj?oc=5",
-          "source": "El Tribuno",
-          "date": "Sat, 12 Feb 2022 22:42:56 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Vouchers de $24.000 para chicos de Salta: quiénes pueden acceder y dónde inscribirse - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNjRDVnFfcHF4b1I4S3ZYQV93YVllYUppNFVrS2pyQ2h4cmRzM2RPMTUtNkx1WHhkUDc2V2JnT1EwNXQ0YU9yeWxrUks1VmNUQ0swOUh6VVNBaHpNTHl6QmYtMWYzNFRPM1lna2dZYVd3Yl9INFplNk0ycGpzZE1GbXJCZjVwZld2Vnl3Tlg4R0NpUVA3eFBnbndsSTR0RWV2OHp0TjFvOF9YRGpobmtZZDhnLTZaRG9wb255LXRsZWg2MjU4bEhFUktwV3d5NkswcjRVaHR4N1IwZ3c2eE1HLUJUVdIB8gFBVV95cUxOTmNfck84S3o5UVRNb1ZfUDNpOVpnTGpNRXZEQk9fcXJzMVJkbE8xbGFiVGFHN1Vya050TmNSRlhKYmIyN1JtVDVyR19yQkdpdE5TZmVTVTNNSlVYaFFFb3c4VFdYbTJheHhDaGhoY0JQUEtyV3FBY3ZTd2EzaWtEdzBSOGpCT3l0WWhRWm1yTEJjWWFqS2xlUUgwY2d0S3pJR0lEeTh4RnhNWEdKbzEzNTQwMG0xdnR0VHhZY0pMeWdONE9CUGMxYXZHdzdxamlsLWhTWEJMd0dRbmhoRVlpand0YTJGY3IwS05VOE5XMldKZw?oc=5",
-          "source": "Informate Salta",
-          "date": "Tue, 24 Nov 2026 22:00:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Salta: darán $24.000 mensuales a 4.000 chicos para actividades deportivas y educativas - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjlfdnRpRGtXTG1oazJFMENUQUwwS0RGUGR1Q1NEWDNfTVhQUFpBeGh5YkN6R3JhaWE0UGd6Qk9GeDNGTm9EQ1BfZjRwOWdaeXJjM1F0VkgtQXBkdUlQdFZOQ2xaMFJtRmZEbWx0OXhCck5Gc1NFSkdLZkptS1FlQ1BQRGFSeGxIR00tNDFtSkwzbVFMX0lPVDZJb1VPTnZKRTRwTlFmUVBFZXQwUHh1TjVzWTRBME1tUWdsU3Jpd2JLRGotQVJFa3FmQVpOTWM?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 24 Nov 2026 21:03:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Axel Kicillof advirtió que se perdieron más de 400 mil empleos formales desde 2023 - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZKckpKTmIyUG9ZS3JaVTVBdlA0a1hnYlYxSURrTG4xaFF2bXV1b0RPQkRSWGltdTEzMW5uRGJ6N1ktQ2xfaklKQVhOUV9Nd3pXMDVwRFhJQ19Ccjl3ZnBEZGFkdHhpQzE4dVRybU1RbjNxSzZ1d19meU1YdE5TYW9heGl1V1VNaFZlUFVmWXJDS3JkN1ZKcTNIR0haakdvNExuV0ZBUTlEUQ?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 24 Nov 2026 22:47:09 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Homenaje a Santucho: la UBA decidió suspender el evento - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWl2dFBWeXF4bHAzRzc3VFB6RDBLVnNEYmpPRnoxQXptQlRRbnhJakdNbFNSVXE0YWxlbHlGMlBjZ2xHWjJXeGlrOExlZi1acjduYUhUdmdMOFdtbDFIMzJ5Yy1nTUNIUWlGUGlVT0xQekdjMFdLdEtkejVkZXI1endwZWlRT0Z4OERSY0E0Zw?oc=5",
-          "source": "El Intransigente",
-          "date": "Wed, 25 Nov 2026 00:28:23 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Diputados busca aprobar el Presupuesto con lo justo - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOajhHNF9VTjFTdUxrS3VvQUFQY3ROLTQxUU9uVmxfdEJNM2NwNkhLcmdoZEIzNkIyWG1OdG92U2JBZTFXcWpJNTkyMl9qN1lYRktCekhPOG1rZU0zN1pTaGxvUG54MGJIaDlvYlUzQ2RmaWcyQTJqakNhOEFBcFdTZzBCZGdQTDVIT3lBeUNKUzZIUTNQLUdBb29lMU54T3ZyZHJPOXBHOEjSAa4BQVVfeXFMUFNFNWRXWjg1eXZSQlgtaUpSWEJwVzFOVWhLQjVuVUE1R0pYRWc3Um1FRUJvVi1GSDl6TC1xZGtMOHM3d1kyZjRPYkd2YzVTWkw4WXZzUTZNN09DZG83QUZDUFR0d2gyRURRME5vR3FGVlJyUkVzQm52VnBSU19jeXpPWnBadThzdl9kRlJqM0NMVUNFSk80MjBtT05Eak12WFRfWmQzcHAtUUQzaXhR?oc=5",
-          "source": "El Tribuno",
-          "date": "Wed, 25 Nov 2026 05:04:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno llamará a sesiones extraordinarias en el Congreso hasta fin de año - Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcExReTBpNDl4OXNlYWtDazdnbkxrbW5ubzlPMkhyVjdsWklSMHZ2Wi1adEZKMm9NMWNlemlkTTJYQU1NY0p2bmZxTE1ZeW5IOGttQjlWUnFzWGZibVJobUJLdkdOYlA4NlE5TGJGNWFfWE1GOVBLYU9mMkw4bHRCd1ZEQjhCVmUzNEZRNjZ0MUhKY09OQWktRlZic2dFemN1OGFqT0FxRWxNbThJY2xNUWpyUERlN2haNXpqZXh2Zkp2X1l0UlRieEdzZ1VWbEMxUGF2T0ZSdTNHSHZJOUQzVNIB7wFBVV95cUxQWDBWS0dPWE16UHl1cGlKTGlzMnBBWVExRHR2YnZVbWRaS082Uk8tRkhENlM4SlQ5VHo4ZUpKSy0yaklpWGJsc252eXh2ZUlUQ3MtMEQyWmlGU2d2aDVhYXpGUkNOWTZPVkFodHN6NlNKWDIxRFpCNDFCUHpzLVBMY0xoVjFrUjQtQXVCNk95OXNXQ1E3WjlZR0JTYmVMdEt6ZXZtSXhpQ1lBSDhaNWRNQ2loS2RVVG9nNTJOSGtkT04ybFFGNlFuVUVUVFdsNUVEWi1TQ0xLcXhUWEs3TDNhM0ZhM1A2ZHBhSTczY1pRdw?oc=5",
-          "source": "Informate Salta",
-          "date": "Tue, 24 Nov 2026 20:30:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Convocaron a Diputados nacionales a debatir el Presupuesto 2027 y la reforma del BCRA - Que Pasa Salta",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0FCVXVTb3ZhS3dfUnppSm4tVnhaVjlXS0VCSXpuaU9vb3U4cjFBNEpodF81elVaQkJQMWtiTG82ODRHZVJYY2htZnQwLXhwSjgweG00Y01ucWg0T3NNV2ItSGl5RjNWbENTRV9GY3U2UUFRNGloVWVFdHdNZTYwSVV5eVBMd21Kc0NVYjNDb1RiaUZ0UE42V3hzTkZ0ckthVktYMdIBpAFBVV95cUxQM0FCVXVTb3ZhS3dfUnppSm4tVnhaVjlXS0VCSXpuaU9vb3U4cjFBNEpodF81elVaQkJQMWtiTG82ODRHZVJYY2htZnQwLXhwSjgweG00Y01ucWg0T3NNV2ItSGl5RjNWbENTRV9GY3U2UUFRNGloVWVFdHdNZTYwSVV5eVBMd21Kc0NVYjNDb1RiaUZ0UE42V3hzTkZ0ckthVktYMQ?oc=5",
-          "source": "Que Pasa Salta",
-          "date": "Wed, 25 Nov 2026 00:35:23 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Sesiones extraordinarias: el Gobierno Nacional convocará al Congreso para diciembre - El Intransigente",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1RfZHZwb01OV05NdjFfMF9HQzZ6a25wUFVHa1pMZEdFWHpjMHg0MnpLcXhSYUV5cUswVjZBMlIzUG5EeGg2UDExRVN0VUN5REt6T25Ldm9xTE4xdnNSMHo5MDEyZFhNUEpHT2JCUmpXUUFxaFY4THRldUtjZkJtREl2OVRiT2p6UVVNYmt0ZmxlcGxTMVZYNnFELXhMOEsxS18zaDVJeXBjRHREd3owTw?oc=5",
-          "source": "El Intransigente",
-          "date": "Tue, 24 Nov 2026 23:35:15 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "El Gobierno presentará un proyecto de presupuesto de $5,2 billones para Salta - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRzhYNU1IZXFxMTgyUUk3djdjYlFEbm00eGdoa1daaFd3X2JJbGxmbUlDNWZQa3B1RGRTamEtMVAzaFpIRkJxV1VqV3A4b2I5V2l4cUJXYXBqaGYzS2lLeUt2aGc0MGI2b1dkMXhQeFFVeVVUc1ZjWTFxZk53Z04zbHZsdGJkUERPQkY2SzlZUktQY2Vxc2dkVzREQXZzNnBoU2ZVMnVUMmpHaklKYV9DdE8yUWlPVzVyb0pQR2xFSmoySDNUazJYcDBlVkFMWVpaREcxTFZKVHTSAd4BQVVfeXFMTkotMmRaWUdiSEJtank0U1BHM04xTjhrVXNwejFiNXlibGdpT1V1a2NoMmJybm5tUklfSGVSX3lUYWZYdGRQTVZHSnA1djlkVGt4WVgzVEh4Q19YQy1YMkNDRElDZFpIc1dYREt6Z0ZGbXhzWXY3elpUTk9FbjUxWHBneDVUWXdlR0RMLU5xYktCcy0zenZPUy1GTktPbmZuYnE2Z3NlaWxvWWlZMDY2R3pqdG1GTDF0SHlrSlN6WHVtMVhYZEhOaWRNYTFHZFlfVzh5QVhoRjNzd3FXQmJR?oc=5",
-          "source": "El Tribuno",
-          "date": "Tue, 24 Nov 2026 18:05:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
