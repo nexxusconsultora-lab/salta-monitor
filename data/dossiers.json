@@ -3,15 +3,19 @@
     "id": "gustavo-saenz",
     "name": "Gustavo Sáenz",
     "role": "Gobernador de Salta",
-    "total_mentions": 502,
+    "total_mentions": 504,
     "sentiment_breakdown": {
       "positivo": 148,
-      "negativo": 95,
-      "neutral": 259
+      "negativo": 96,
+      "neutral": 260
     },
     "sentiment_by_day": {
+      "2026-11-26": {
+        "total": 6,
+        "score_sum": 5
+      },
       "2026-11-27": {
-        "total": 3,
+        "total": 4,
         "score_sum": 6
       },
       "2026-09-18": {
@@ -29,10 +33,6 @@
       "2025-07-04": {
         "total": 1,
         "score_sum": 0
-      },
-      "2026-11-26": {
-        "total": 5,
-        "score_sum": 7
       },
       "2024-11-01": {
         "total": 1,
@@ -542,22 +542,22 @@
     "top_topics": [
       {
         "term": "sáenz",
-        "count": 37
+        "count": 36
       },
       {
         "term": "gustavo",
-        "count": 13
+        "count": 11
       },
       {
         "term": "tribuno",
-        "count": 9
-      },
-      {
-        "term": "argentina",
-        "count": 7
+        "count": 8
       },
       {
         "term": "gobernador",
+        "count": 6
+      },
+      {
+        "term": "argentina",
         "count": 6
       },
       {
@@ -569,7 +569,7 @@
         "count": 5
       },
       {
-        "term": "nuevo",
+        "term": "rosario",
         "count": 4
       }
     ],
@@ -674,6 +674,20 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Sáenz sigue con reclamos a Milei, pero sus legisladores vuelven a garantizarle los votos - Página|12",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMnZLaVRQZFV0d3kyVWFITVJjRS1VY1FjRVhUbVYteWNIQ18zU1BBdnJlMVR4T0pKQmpicTAyemF1WDRGbWVRUUpRRUVidXcxUFM0Z1d2ekNXQ2xmcTZjcy1PdkZ2WjJzU216UFI4OU1XR2x5MHp5NXVldTB0ZFFqVzluZHE4aE81MUJ0WmQwX3AxY1FMNHo5Z0kxYzE4OGMxUmZYRk9CakdJaG9XVG1vZnFlTFFPUnBDU3gybExzQWtoZk5aM0E?oc=5",
+        "source": "Página|12",
+        "date": "Thu, 26 Nov 2026 23:46:00 GMT",
+        "sentiment_label": "negativo"
+      },
+      {
+        "title": "Pablo Kosiner advierte que una eventual reelección de Sáenz llegaría a la Corte Suprema",
+        "link": "https://elintra.com.ar/2026/11/27/salta-pablo-kosiner-advierte-eventual-reeleccion-saenz-llegaria-corte-suprema/",
+        "source": "El Intra",
+        "date": "Fri, 27 Nov 2026 17:10:00 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Más de 100 chicos de comunidades originarias tuvieron su viaje de egresados",
         "link": "https://informatesalta.com.ar/sociedad/mas-de-100-chicos-de-comunidades-originarias-tuvieron-su-viaje-de-egresados_a6b09cc51c34cf90c9cf02893",
@@ -869,20 +883,6 @@
         "source": "El Tribuno",
         "date": "Wed, 19 Mar 2025 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz y la danza de nombres para definir la vicegobernación en mayo",
-        "link": "https://elintra.com.ar/2026/11/23/gustavo-saenz-danza-nombres-definir-vicegobernacion-mayo/",
-        "source": "El Intra",
-        "date": "Mon, 23 Nov 2026 18:21:00 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gustavo Sáenz se reunirá con Diego Santilli: PASO y el Presupuesto 2027 estarán en la agenda - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcUFOYkdrSDEycXpObWE5QnFmSFB4T3ZubkJhQmVBMm9Cd2FRZENHN3YwSWdNZ2plbzFhbEcwaDBUQWRidTBtNXlDLXUwN2I3ZU5ERXFkU3pld3QxblAzM2xRRTUwZ2ZSNDVKaTdwejZqMmVhblZ1RGJNaXViTHp6MUh4S3pkNmxwNEs1M2lZTmhfTk1iRFRYVFF2SFNVSTRGalA5WjF6MlI0MUl0dWtlUFNlZHAxUDVWMUJmNUtsWHJEaUdxUzY2OW1NTTFHb2VBa1BLb3pkMNIB3AFBVV95cUxQeVl4WW9lS05Yb3pJMXQ1YkZUTWpKcjBvME5nd0tTdVZFbVBnNGxaNy1LMnd6S3pGSzd2N3FVSkNsWnJBZGFCTHBlX0hMRVNtaEZKUEhXRFd0VFh3bjVyRjkzZk56d0JJSzRER1V2U0VZUHJycmlVWHVmcDlaSWxuLTJXYlFGa0diM2paYWF2UHJ2TFlySXNybEVDM01UUUg0cldfLVQtaGplOEdyelJZY3cxaklfOVZLcXZ3Y0ROLVBZR2tQQmZFS19rdDdNR0RjNUtrdUhoY2VqOUhr?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -1043,11 +1043,11 @@
     "id": "sen-gonzalo-caro-davalos",
     "name": "Gonzalo Caro Dávalos",
     "role": "Senador/a provincial por Cerrillos",
-    "total_mentions": 26,
+    "total_mentions": 19,
     "sentiment_breakdown": {
       "positivo": 4,
-      "negativo": 2,
-      "neutral": 20
+      "negativo": 1,
+      "neutral": 14
     },
     "sentiment_by_day": {
       "2026-11-26": {
@@ -1115,30 +1115,6 @@
         "score_sum": 0
       },
       "2021-12-16": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2026-04-07": {
-        "total": 2,
-        "score_sum": 0
-      },
-      "2011-11-11": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2013-05-08": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2013-11-13": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "2026-04-14": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "2023-05-14": {
         "total": 1,
         "score_sum": 0
       }
@@ -1285,55 +1261,6 @@
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbFRMTmNjZFU4UkhJMzdLblUwcU9zaHFacXRWYUxqUXlaQnpFVHNwUFQxd3J2ZlRIdURBQWVXNUtReHlHVE8tcExzV2Raa1VBaDl0RFBpWU5lZnFWLUI2QnZWbUs4ZVBzODY5SnRvOF9DNGV4bFAxT2dMUS1nZVJfcHQwSGdZNExBQl9FY0dJWEF6elBYczNpLWlqb3p1cE9BZ2Z5T05ZZTB0alZaYkQ2REpsY1RDYllib2c?oc=5",
         "source": "Gobierno de la Provincia de Salta, Argentina",
         "date": "Thu, 16 Dec 2021 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Tensión en La Merced: legisladores pidieron la intervención del municipio tras la muerte del niño Tomás - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT1E0V2MwLTRlX01VTGZJcUFnWkUtWXJqVUpoN1ZXZmtCSXE1aXJ2Ykw0R0dRdUhBNUhDZUt3UFZsQ3FWbEM5T2VtTWk5V0VwRzVVZHZkZ3pvOTU2aGJmOGlHY0tXZjFTMDhIZGdUQWtMcUppM2dtSDBnQmItcldEWWpObDhQYjkyY3ZUdWxPVmtoeGI0QjNpTXVpWjJkMkl2SzV1MEtmakROSTh1cTR6U1dTaWszWG9lWmJlVjg4NHdaQjI5LXN1WEppZ2xTQjhGVGl6ZWt1cUpNSnlTVW5QbWR3?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 07 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Obituario - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxRnc5RmpHRTREeTJsdVhSMDhINHMtei0xYXhUbkN4UlVjSVZPaWpNQmZXNE4yUnBRMm9DVklqeVBxNzdhREhydnZRcnBpcWtjM0NfY1FKRGY1enB2SmxIdzJkVTg2SXdvUGNV0gFwQVVfeXFMTTh1NEdFRE45SGEzU3Q5aHd1TFZJRmZNUGd0LTFzS2JpZXhMc3ZyVFVLVkpCUlRPaUtJYXBDeGtPN0lHVDdnd1NyeUJ4QlVQTEo2QTdWa1U5N09FMFpOSGI1Nm5ZenRnUG9wTUVuM1Zscw?oc=5",
-        "source": "El Tribuno",
-        "date": "Fri, 11 Nov 2011 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Obituarios - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DeUZwYU1RUjd2T0VOS2U4Ml84OXlJQ0tsYTRDeTc3ZnZmTTdCamoyUFlmS3NpakplR0l3aTlCdEFxWWtQVGNnZm5FMHYyc3NkS1c1VGdScGhjVXNGeUE0SERGMF8wVjVM0gFuQVVfeXFMTTBOQ2lCTGNqVjlCWVZWWkdpUUJfQ0tkY0g4am5CQzR2VlhfSWluaTZJX0NINWxXR202YXhueEpNNlJGanJuV2Y4RVpJYXNvemNMcXA5Z2JjV3NCZmowMVVlZkF6a1RQUk1HczNFQkE?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 08 May 2013 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Obituario - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yS3VUMGNCY2daaHhFaDBCREVra2w4UzQ3TUxyejhIcVItM0dual9BWVdNci1tRUlLNVd3U0NRZzFmTUhPdkR2elJ2WS04eEt4dkxEQklwb3AyWmV1UTZoaWRfOGFWQW93ZUE?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 13 Nov 2013 08:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Una tragedia que conmociona y suma tensión en la región - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLUZCTDVmVFhLMFZrdURKZ1VHX1NqUDNaemo1WDQ0ejBQVEJLNkFzdVpaSWRDcUNRcTBuZTV4VmVMYzFjM0RBQ1p3bm8tQ3Q1MDlRZGhtRm8wTTBLTmt3UXVqNDRpb2hKb0lkYzk3MEpFQ0tMdXpKdkZXcERRV2p3cFd2TGVhLW1JbzZhQy0zV1NfQTU3MHJyV3FmRUhyQ0cweE90R1l3ckdveGc?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 07 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Los padres de Tomás fueron recibidos por legisladores y exigieron renuncias en La Merced - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUmVoSXZCTlE1SWJqOURHSjZOWmdXY3EyTlhtZ1JrTkpGTHZPZFhsMlpoRWZvR0ltblBVSVI4VzFocGdPQjlVZ0VUUkJOblMyNjM3Yk5jaEM2dC1tQldTOFNkYlNJVm5HNDJIeXNyblVWN05YMzQ1d1RNZ1ZHbjFFQlhaRW4yaXMtOW14WUtmUVB0cWFhTDZWbjkyaG10SkZMZ3BBMG5GS1VDSEk3ZUlla2ljSTJtWTNxNWdFeW5fVW9LdGNsSGNIcTZCR2pwbEYzbDhCeEw3NTVLUm8?oc=5",
-        "source": "El Tribuno",
-        "date": "Tue, 14 Apr 2026 07:00:00 GMT",
-        "sentiment_label": "negativo"
-      },
-      {
-        "title": "Cerrillos: Borelli venció a Yolanda Vega y es el nuevo intendente - informatesalta.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbnBpdmxiRWVEYzJaam1hVzlGenNMall2cWxLbm9GZFkwNTdsX0ZJbXpaQWhEdmJCY09NWEVZeURkbzNXOVNFZDlLLUhORnZvbkc5QTkwemhxYUE3VnNPby1TUTE2eHBWLWc3ODd1ZG4tX2hRcUlhYlBKRXo0M3lEWkx0RGJiRTNpbWVXcU9laEtXeElPQ2xrSlJMVDliV3o3QnhJRGtSTGN5eWRMWDl6MkE2anRyajJuMm5leUJFZmtnMlpEOGpvdjQ2enrSAdsBQVVfeXFMT2hmbzdnWlo3NXZTZWpneExfamZZNFVrLXFhNG1mbUNmMHc0TkpwUHdhTlRYT0NqNlFIdHhwTlB5WVJvczFDWkM2T1JWdTlQQURxZU1YVWV6a1diOFB5OWZITHVjR3hUMF9qYkJQYkozXzhWMnJ4blNMOHQxLUFuZE8wQno1WVZlS0FiM1ZoM0JuMDRnc1RWblY4U20tb21yVjh1dDVhTnVsMG5kdW5nX3hEaW51Vm9sbzRFSGFfX0dISElOWjVGVnpybVJKZEJhWjhDSGdiY3pGVHJ3?oc=5",
-        "source": "informatesalta.com.ar",
-        "date": "Sun, 14 May 2023 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -10269,15 +10196,15 @@
     "top_topics": [
       {
         "term": "mónica",
-        "count": 5
+        "count": 3
       },
       {
         "term": "juárez",
-        "count": 5
+        "count": 3
       },
       {
         "term": "alzheimer",
-        "count": 3
+        "count": 2
       },
       {
         "term": "impulsada",
@@ -10289,10 +10216,6 @@
       },
       {
         "term": "line",
-        "count": 2
-      },
-      {
-        "term": "elintra",
         "count": 2
       }
     ],
@@ -14868,16 +14791,7 @@
         "score_sum": 0
       }
     },
-    "top_topics": [
-      {
-        "term": "rogelio",
-        "count": 2
-      },
-      {
-        "term": "segundo",
-        "count": 2
-      }
-    ],
+    "top_topics": [],
     "quotes": [],
     "legal_mentions": [
       {
@@ -17844,13 +17758,17 @@
     "id": "concejal-jose-garcia-alcazar",
     "name": "José García Alcázar",
     "role": "Concejal/a de la Ciudad de Salta",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 2,
       "negativo": 13,
-      "neutral": 30
+      "neutral": 31
     },
     "sentiment_by_day": {
+      "2024-12-10": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-11-27": {
         "total": 1,
         "score_sum": 4
@@ -18008,8 +17926,27 @@
         "score_sum": 0
       }
     },
-    "top_topics": [],
+    "top_topics": [
+      {
+        "term": "concejal",
+        "count": 2
+      },
+      {
+        "term": "josé",
+        "count": 2
+      },
+      {
+        "term": "garcía",
+        "count": 2
+      }
+    ],
     "quotes": [
+      {
+        "quote": "Dicen por ahí",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOZVBwR2w5aFhqT2psTXppYXFvSnQ4ZkhtYjl0bHNXNGxoR0JDcXFrbWhna0N6dnI0RmNLdHBKZHF0aWlSak5SMlp1T2pBV29SamdIcmFPRGp1b3pxMWQ5VUxCYlI1Zkd1RmNOa3d1YWtWQ3hwdFRsMEh6MEowMXBCQjQ3c1RWVnd4WWpHYWFVd0FCaDRPdnNUb2dyWnBXamRYWWJHdjVsRHZ5eXI4TnRSMWNiMnA1aUdBRF9PaHdETndlVmZLdEJVM2twS1psZEsxNGh0OHBlTXNXT0I5NWhYNHRsc0VrdUZ1cV9ZbG5jMDBKNG1tYjJ1SVZ3dGZxLUNTS3Y4bDJtS3lWdnM4LWl2RmlaOVZtTzg0V2gwQzVDd2dReWxf?oc=5",
+        "date": "Tue, 10 Dec 2024 08:00:00 GMT"
+      },
       {
         "quote": "Me dijo que me va a bajar los dientes",
         "source": "Informate Salta",
@@ -18122,6 +18059,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "\"Dicen por ahí\": la ex de Sáenz encontró el amor, el concejal que levanta suspiros, efecto rebote para José García y el retiro chic en Jujuy con representantes de Salta - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOZVBwR2w5aFhqT2psTXppYXFvSnQ4ZkhtYjl0bHNXNGxoR0JDcXFrbWhna0N6dnI0RmNLdHBKZHF0aWlSak5SMlp1T2pBV29SamdIcmFPRGp1b3pxMWQ5VUxCYlI1Zkd1RmNOa3d1YWtWQ3hwdFRsMEh6MEowMXBCQjQ3c1RWVnd4WWpHYWFVd0FCaDRPdnNUb2dyWnBXamRYWWJHdjVsRHZ5eXI4TnRSMWNiMnA1aUdBRF9PaHdETndlVmZLdEJVM2twS1psZEsxNGh0OHBlTXNXT0I5NWhYNHRsc0VrdUZ1cV9ZbG5jMDBKNG1tYjJ1SVZ3dGZxLUNTS3Y4bDJtS3lWdnM4LWl2RmlaOVZtTzg0V2gwQzVDd2dReWxf?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Tue, 10 Dec 2024 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Buscan extender el horario de boliches y llevar las multas por fiestas clandestinas hasta los $24 millones",
         "link": "https://informatesalta.com.ar/sociedad/buscan-extender-el-horario-de-boliches-y-llevar-las-multas-por-fiestas-clandestinas-hasta-los--24-millones_a6b09ad86c34cf90c9cedb0f4",
@@ -18324,13 +18268,6 @@
         "source": "El Tribuno",
         "date": "Thu, 15 May 2025 07:00:00 GMT",
         "sentiment_label": "negativo"
-      },
-      {
-        "title": "\"Amigos son los huev@s y se golpean entre ellos\": el nuevo exabrupto de José García en el Concejo - saltacomparativa.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNR19FOGRMaXByOUNJMUlPc2VFLXJmRk5Nc0c3dmk3R0RRalNhZjkwV3hVdzcxSFdmeFlzSVh0anM4WDlwMVZEUUJNTmtod1doUFpmNnQ1eEpibFdrR0VLdmdqNnluM2tNcW1VaXp6OE11UVhGZEtlQlpibmFGQlJnTVJGcDVoSmFsb2Q5dk5odDRPWUp5bmhQQWM3Mkp4MFRaUFUtX1FhV0FEX1E2aW5iaFg4WExtNnAtdmk0bW5SYmd5OEp3SHRzVG5NTlpPZ2FQSHRjNzc4MjFhMkQtZGo4d0hfdEpuUlA3TUJQNUM4RERZRXZ0SkVsMGRB?oc=5",
-        "source": "saltacomparativa.com.ar",
-        "date": "Thu, 15 May 2025 07:00:00 GMT",
-        "sentiment_label": "neutral"
       }
     ]
   },
@@ -19061,11 +18998,11 @@
     "top_topics": [
       {
         "term": "malvina",
-        "count": 3
+        "count": 2
       },
       {
         "term": "gareca",
-        "count": 3
+        "count": 2
       },
       {
         "term": "discapacidad",
@@ -19073,10 +19010,6 @@
       },
       {
         "term": "elintra",
-        "count": 2
-      },
-      {
-        "term": "concejal",
         "count": 2
       }
     ],
@@ -21138,11 +21071,11 @@
     "top_topics": [
       {
         "term": "darío",
-        "count": 3
+        "count": 2
       },
       {
         "term": "madile",
-        "count": 3
+        "count": 2
       },
       {
         "term": "voces",
@@ -23395,11 +23328,11 @@
     "top_topics": [
       {
         "term": "flavia",
-        "count": 5
+        "count": 4
       },
       {
         "term": "royón",
-        "count": 5
+        "count": 4
       },
       {
         "term": "senadores",
@@ -23419,10 +23352,6 @@
       },
       {
         "term": "sáenz",
-        "count": 2
-      },
-      {
-        "term": "voto",
         "count": 2
       }
     ],
@@ -24232,11 +24161,11 @@
     "top_topics": [
       {
         "term": "emilia",
-        "count": 9
+        "count": 8
       },
       {
         "term": "orozco",
-        "count": 9
+        "count": 8
       },
       {
         "term": "elintra",
@@ -24610,15 +24539,15 @@
     "id": "snac-gonzalo-guzman-coraita",
     "name": "Gonzalo Guzmán Coraita",
     "role": "Senador/a nacional por Salta",
-    "total_mentions": 45,
+    "total_mentions": 46,
     "sentiment_breakdown": {
       "positivo": 7,
       "negativo": 5,
-      "neutral": 33
+      "neutral": 34
     },
     "sentiment_by_day": {
       "2026-11-27": {
-        "total": 1,
+        "total": 2,
         "score_sum": 1
       },
       "2026-11-26": {
@@ -24772,19 +24701,23 @@
     },
     "top_topics": [
       {
+        "term": "reforma",
+        "count": 3
+      },
+      {
+        "term": "electoral",
+        "count": 3
+      },
+      {
+        "term": "guzmán",
+        "count": 2
+      },
+      {
         "term": "senadores",
         "count": 2
       },
       {
         "term": "votaron",
-        "count": 2
-      },
-      {
-        "term": "reforma",
-        "count": 2
-      },
-      {
-        "term": "electoral",
         "count": 2
       }
     ],
@@ -24877,6 +24810,13 @@
       }
     ],
     "recent_articles": [
+      {
+        "title": "Orozco, Guzmán Coraita y Royón avalaron una reforma electoral que condiciona a Salta",
+        "link": "https://elintra.com.ar/2026/11/27/ficha-limpia-orozco-guzman-coraita-royon-avalaron-reforma-electoral-condiciona-salta/",
+        "source": "El Intra",
+        "date": "Fri, 27 Nov 2026 20:59:40 +0000",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Los tres senadores por Salta votaron a favor de la reforma electoral en el Congreso",
         "link": "https://www.eltribuno.com/salta/2026-11-27-0-39-0-los-tres-senadores-por-salta-votaron-a-favor-de-la-reforma-electoral-en-el-congreso",
@@ -25079,13 +25019,6 @@
         "source": "Elintra.com.ar",
         "date": "Mon, 10 Aug 2026 07:00:00 GMT",
         "sentiment_label": "neutral"
-      },
-      {
-        "title": "Senadores salteños despidieron al libertario Carlos Pagotto",
-        "link": "https://informatesalta.com.ar/sociedad/senadores-saltenos-despidieron-al-libertario-carlos-pagotto_a6abc259448f74caaff152524",
-        "source": "Informate Salta",
-        "date": "Tue, 29 Sep 2026 22:00:00 GMT",
-        "sentiment_label": "positivo"
       }
     ]
   },
@@ -26153,18 +26086,14 @@
     "top_topics": [
       {
         "term": "carlos",
-        "count": 5
+        "count": 4
       },
       {
         "term": "zapata",
-        "count": 5
+        "count": 4
       },
       {
         "term": "elintra",
-        "count": 2
-      },
-      {
-        "term": "informate",
         "count": 2
       }
     ],
@@ -26491,13 +26420,17 @@
     "id": "dnac-bernardo-biella",
     "name": "Bernardo Biella",
     "role": "Diputado/a nacional por Salta",
-    "total_mentions": 50,
+    "total_mentions": 51,
     "sentiment_breakdown": {
-      "positivo": 10,
+      "positivo": 11,
       "negativo": 8,
       "neutral": 32
     },
     "sentiment_by_day": {
+      "2026-11-27": {
+        "total": 1,
+        "score_sum": 4
+      },
       "2024-05-29": {
         "total": 1,
         "score_sum": 0
@@ -26675,9 +26608,19 @@
       {
         "term": "bernardo",
         "count": 4
+      },
+      {
+        "term": "será",
+        "count": 2
       }
     ],
     "quotes": [
+      {
+        "quote": "no será más el tren fantasma",
+        "source": "Informate Salta",
+        "link": "https://informatesalta.com.ar/legislativa/biella-sobre-el-ramal-c-14-y-c-15---no-sera-mas-el-tren-fantasma-_a6b09ec09c34cf90c9cf2ba5d",
+        "date": "Fri, 27 Nov 2026 23:00:00 GMT"
+      },
       {
         "quote": "Le modificamos 18 de los 23 artículos",
         "source": "Informate Salta",
@@ -26761,16 +26704,17 @@
         "source": "Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVzAyUmMwWjZCeGtYamRrUlFoQzk4bHg4bUpaLVg0cDF0RnZMMmpFVTlKXy1Cc3drUDd1YXlUMUE5NzN5X05oN3ZRd2gtX202akZROFhCQTVPdV9TTDFCUXhjbUM3QWVJbnlIUmZxcFQ5ZzZTYVNNV2JURnlPLXFOMFBwbkNaRkZRZHpwSTA5YV8wRXI3Y1hFeVlraXBrNTZNYWc?oc=5",
         "date": "Tue, 15 Sep 2026 15:20:10 GMT"
-      },
-      {
-        "quote": "Es muy mezquino para Salta",
-        "source": "Elintra.com.ar",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YamJ1SHJGdUNNV29lT2REbF9XY0dWNEQzTmdhS19WaXFBd3VGWTg1RWZkdHZxa0FycG0waVZDX0VjQnY4RWNlbmZlWHRsY3lFM1VZRFRfMG9UNzZ1Sno2UnhjN0k5ZDdobjFKenViOXRSdw?oc=5",
-        "date": "Thu, 17 Sep 2026 23:18:37 GMT"
       }
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Biella sobre el Ramal C-14 y C-15: “no será más el tren fantasma”",
+        "link": "https://informatesalta.com.ar/legislativa/biella-sobre-el-ramal-c-14-y-c-15---no-sera-mas-el-tren-fantasma-_a6b09ec09c34cf90c9cf2ba5d",
+        "source": "Informate Salta",
+        "date": "Fri, 27 Nov 2026 23:00:00 GMT",
+        "sentiment_label": "positivo"
+      },
       {
         "title": "Bernardo Biella dijo que no habrá prestaciones médicas del PAMI para el interior de la provincia - Salta 4400",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZnpuUDZESVl6SjhuQ1NoajA3eGwwWENuR2xKQ0d2ZWF1cmZON3RqakFjQUxSVktZVXVZZjh4UTVTQWt3MFhwRFFiNEpvZGI3RmRGWExFTzhwX1hpajY1VnV3bzJpd1ozREl2QnBueFRwSHJESGpPd3ViU2FIelQ4LTRTOFNrZTQ1eWppeEhUeV9sOTF4QjJMUm5DRmpnVUdBY2tUSV9ENHBCQkdHYnFOUDNMWnhVQTltU2xScU9hOW1VSHp5dTZvOU5oWG1TNFotZ1RjVGdR0gHbAUFVX3lxTFBVZndzS3haZXQ3QXBQQ0RuOC1KU0RBOW52TVZwS2FVa2VzNzRLWUQzT2l0YWlXazB1Y2d1M25pN3FsNDRwTVQwckU3bDYyTUh4RFNTYS1QeUcyZVFBVkcxUnJPdEdYV2diNEpub3VfRC1aZU9DM3h1dkRnSzlEYk5XMmZsOGhJNFluWTRrc3VZZ0xodVFkdDhWc1lPLWF6YldLclRmbkpUdFcwYXFnVFdnY3haT1AxQUFEN2o3OS1DNklrcDBwQTBnU1k4a2ZfbTNpOVJCU1pTVWJrbw?oc=5",
@@ -26972,13 +26916,6 @@
         "link": "https://elintra.com.ar/2026/10/15/no-hubo-quorum-en-diputados-yolanda-vega-fue-una-de-las-ausentes-junto-a-lla-salta/",
         "source": "El Intra",
         "date": "Thu, 15 Oct 2026 20:06:37 +0000",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Bernardo Biella, protagonista de medio siglo de la vida política y cultural de Salta - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV3dSdGxOOW9mNVBJb1lYN2NCSms0ZkpDcnQ4RXV6T0VSQXJUR2ZNaFdBZ09jNVlaSzFzRWxwQ0VhelkyZVBTOVN2ek9QSlVQOUNmQVdYSFNWV2VZLURac2x6RWNJZlZqeHB2SEVMWlI3QlZ0SWxLN3hzNE1PT0U4ZjJsNEJvVzBJMjlFZDk4UElwSzB2cVB5dFkxTE5rVnZDUzc4bXF0MXBoRk4xcnZORndFdEZPdzZ5TVM5UklrTHdaWlhkNDNkeG52cw?oc=5",
-        "source": "El Tribuno",
-        "date": "Sat, 27 Aug 2016 07:00:00 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -28541,13 +28478,17 @@
     "id": "dip-gaston-guillermo-galindez",
     "name": "Gastón Guillermo Galíndez",
     "role": "Diputado/a provincial por Capital",
-    "total_mentions": 34,
+    "total_mentions": 35,
     "sentiment_breakdown": {
       "positivo": 6,
       "negativo": 3,
-      "neutral": 25
+      "neutral": 26
     },
     "sentiment_by_day": {
+      "2024-04-17": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2026-03-05": {
         "total": 1,
         "score_sum": 0
@@ -28684,18 +28625,20 @@
     "top_topics": [
       {
         "term": "gastón",
-        "count": 2
+        "count": 3
       },
       {
         "term": "galíndez",
-        "count": 2
-      },
-      {
-        "term": "diputados",
-        "count": 2
+        "count": 3
       }
     ],
     "quotes": [
+      {
+        "quote": "Permitirá volcarlos en el sector productivo",
+        "source": "Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTk9xeW1rcHYwUndHLUFOd0FTR21lZ1lvLXUtQnBPc29xVUpXR2NEdDhvTWVrYVVPYkE3eFpkcHRidWFNYjZRMURHV2JsbVVxd19oWkIxTFJOaWpNY2ZqN0h0Y0JGVlhId1YwVXY2Qm5Xem5wM3U4Z00tZE1jVDhpWVBDNGpuREZsQ3pBOURhY1hkRy1oZ21OLUJpZzI3bkxKNlJXYnRudlU3MUJxTHlsc0ZTaGNpcXl6UjhMV0luYS1KUmppZW1LRlNBRVNkQVUyN0xua2tONVR3RWc1?oc=5",
+        "date": "Wed, 17 Apr 2024 07:00:00 GMT"
+      },
       {
         "quote": "Es el plan A, el B y hasta el Z",
         "source": "Informate Salta",
@@ -28753,6 +28696,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Gastón Galíndez justificó el pedido de crédito del Gobierno local: “Permitirá volcarlos en el sector productivo” - Elintra.com.ar",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTk9xeW1rcHYwUndHLUFOd0FTR21lZ1lvLXUtQnBPc29xVUpXR2NEdDhvTWVrYVVPYkE3eFpkcHRidWFNYjZRMURHV2JsbVVxd19oWkIxTFJOaWpNY2ZqN0h0Y0JGVlhId1YwVXY2Qm5Xem5wM3U4Z00tZE1jVDhpWVBDNGpuREZsQ3pBOURhY1hkRy1oZ21OLUJpZzI3bkxKNlJXYnRudlU3MUJxTHlsc0ZTaGNpcXl6UjhMV0luYS1KUmppZW1LRlNBRVNkQVUyN0xua2tONVR3RWc1?oc=5",
+        "source": "Elintra.com.ar",
+        "date": "Wed, 17 Apr 2024 07:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "Frida Fonseca y Gastón Galíndez juran como consejeros diputados en el Consejo de la Magistratura - Iruya.com",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRXJ3eUs2WElSeXVybW1jLWR0bjQ2SzlJQzFMeDRfd1FvMnJmd2pOYktndFdoSnVndXFxVDFpb19wRUJZemdDTll5ai1XVTN1MjNLWU00WXV5dFNWT3hZMFhLNU9mcWtxSlNVQVV4VDM1eG5xOWJBYnRWY29qWnVoVDRHQmNOcFFaUXRLYlFOR2dSb210bVJSRE82QklGcURBZ2JIQlBjeG8tNzJIQ1VSelBlY3NoODFQRFpKUXlneGEtWlE2S0RSdUdrZGs3amd5ZHJGZ1JSamR1NkhjOEFoQw?oc=5",
@@ -28954,13 +28904,6 @@
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ3pPdGhTcy1CUHRrTXp6eG1iTHJHODQtYnd1UTI0WHgwX3Z1SENBVGRZWjhIc2VKYVI4alFCN3hpQ2dQcklldzdDNTNkeUxSR05Ib3FieERfaXVncEY4QnhjNjNXRlRwWVhMd2Z3dzJVTVJpTlR5cFNRTmFZaHEyZkRuWWFILXBBcVlqYkFpNDd3akZlSUJSRDQyNXBnLUNQdUp4RWd1a1U3dzlwRlV4Q1VpONIBqwFBVV95cUxOaTJTSmdXWllRZTUxdWpYUUFHWEV0bHVmVUNfOXpGbC1NM1JGNzh0NFRlYmhsVTRyRU1ONDJPOG9nOTEwNk9zSjhEOGtLUUtmYmZrSy02N1FLdXJ4M0lnaUJLSF9ocTBhemZaazB2UHZrNW9xLUxad2FiSmRrT09CVWQ0RnZBQ1NnWmR3NXoxRG03WExRV0t4a0lFTy01MlExdFliTzBJVk1FZnc?oc=5",
         "source": "Aries On Line",
         "date": "Fri, 31 Jul 2026 07:00:00 GMT",
-        "sentiment_label": "neutral"
-      },
-      {
-        "title": "Gastón Galíndez - El Tribuno",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CanJieVBBMUthWFE1UTV2NGNCbVNrVS01U0l0RC1RdmFTYkt4WTFsekhnOXFHTFJVU3N0ODJFNGtmOUtsTlJXb1hNbEduXzFCMWdmTlVJbkJWQQ?oc=5",
-        "source": "El Tribuno",
-        "date": "Wed, 08 May 2024 01:00:45 GMT",
         "sentiment_label": "neutral"
       }
     ]
@@ -32061,22 +32004,10 @@
     "top_topics": [
       {
         "term": "camacho",
-        "count": 7
+        "count": 5
       },
       {
         "term": "sergio",
-        "count": 3
-      },
-      {
-        "term": "sáenz",
-        "count": 3
-      },
-      {
-        "term": "pero",
-        "count": 3
-      },
-      {
-        "term": "nuevo",
         "count": 3
       },
       {
@@ -32085,10 +32016,6 @@
       },
       {
         "term": "elintra",
-        "count": 2
-      },
-      {
-        "term": "mandato",
         "count": 2
       }
     ],
@@ -36589,13 +36516,17 @@
     "id": "eje-ana-paula-benavides",
     "name": "Ana Paula Benavides",
     "role": "Subsecretaria de Vocería y Comunicación",
-    "total_mentions": 25,
+    "total_mentions": 26,
     "sentiment_breakdown": {
       "positivo": 0,
       "negativo": 3,
-      "neutral": 22
+      "neutral": 23
     },
     "sentiment_by_day": {
+      "2025-12-16": {
+        "total": 1,
+        "score_sum": 0
+      },
       "2022-12-30": {
         "total": 1,
         "score_sum": 0
@@ -36688,11 +36619,11 @@
     "top_topics": [
       {
         "term": "paula",
-        "count": 2
+        "count": 3
       },
       {
         "term": "benavides",
-        "count": 2
+        "count": 3
       },
       {
         "term": "elintra",
@@ -36757,6 +36688,13 @@
     ],
     "legal_mentions": [],
     "recent_articles": [
+      {
+        "title": "Paula Benavides fue designada como nueva vocera del Gobierno de Salta - Aries On Line",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWVZOa2UyaHA3V3NaR1Q0TGM3SEVSd01IWkkxdUxVck9HT29UWEtkcmFpU3FCM3hQbWZLdWptSTFMajV1RThGdWNqbGNNMk5OTFllTllkZkZENlZOazI5aHRIYWJLeENWOFhKVXlrRlhIemc2eGJta3Uxdl9ITEwwSFJrR0ZMdWF4eWlvcG1DMXo3SkY1X2tKWnQwLW9PbC1xaTBFbWFXMHRzcW9Da2JtNEtRY9IBqwFBVV95cUxNcFdiZHZrSzdmUERNRWxuY1lvUTJlSXNSbWVvWmdzYnZTR3F5czBVNVh2NzRmV1BEZURvNTRlZzlaSkFPa2NycWVBUWlJak9QdVZ2QmYySk9ORWVaNmMzQjVEQnhvV0VSbk9fek9lZHVlZGJmdVdveGFnZnJRbTZkNVd1N1Y3UXd2OFhmZ2pNODVMUHJfRXl2V0E1UXZhdDdKSW9TNFR4a0JGaFU?oc=5",
+        "source": "Aries On Line",
+        "date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "sentiment_label": "neutral"
+      },
       {
         "title": "“Descansa querida Elsita”: la emotiva despedida de Paula Benavides a la madre de Felipe Biella - Elintra.com.ar",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSmdmWDJNRmFhaWtGTEpXMVFiQTZmQ0lpRklVcnNkbmNFOVF1M3l0WDFHa3hiWm9oenJSZ3g3YWNnRnFMUWVRMkotZmRRYVRTdUhvaWhXaEFaY3dyVHZKUWtlZEpZNnV4MFMxdUVuZGdVV2hRQWY0RDdOQVVvcV9qZzdnU1Fxa21hZTNCUUk1d09EaUNvTHc2dFVlYUp4d3YwT3J0WTlybUEtU24zSWZQb1NkaHZRdjNaaExIRVhVOUV3NHJI?oc=5",

@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-27T20:14:51.499982+00:00",
+  "generated_at": "2026-11-28T02:48:05.172619+00:00",
   "by_politician": {
+    "gustavo-saenz": {
+      "total": 504,
+      "positivo": 148,
+      "negativo": 96,
+      "neutral": 260,
+      "score_sum": 184
+    },
+    "eje-ana-paula-benavides": {
+      "total": 26,
+      "positivo": 0,
+      "negativo": 3,
+      "neutral": 23,
+      "score_sum": -13
+    },
+    "dip-gaston-guillermo-galindez": {
+      "total": 35,
+      "positivo": 6,
+      "negativo": 3,
+      "neutral": 26,
+      "score_sum": 12
+    },
+    "concejal-jose-garcia-alcazar": {
+      "total": 46,
+      "positivo": 2,
+      "negativo": 13,
+      "neutral": 31,
+      "score_sum": -26
+    },
+    "dnac-bernardo-biella": {
+      "total": 51,
+      "positivo": 11,
+      "negativo": 8,
+      "neutral": 32,
+      "score_sum": 6
+    },
+    "snac-gonzalo-guzman-coraita": {
+      "total": 46,
+      "positivo": 7,
+      "negativo": 5,
+      "neutral": 34,
+      "score_sum": 4
+    },
     "dip-sergio-mauricio-lopez": {
       "total": 16,
       "positivo": 2,
@@ -14,20 +56,6 @@
       "negativo": 26,
       "neutral": 100,
       "score_sum": -32
-    },
-    "gustavo-saenz": {
-      "total": 502,
-      "positivo": 148,
-      "negativo": 95,
-      "neutral": 259,
-      "score_sum": 186
-    },
-    "concejal-jose-garcia-alcazar": {
-      "total": 45,
-      "positivo": 2,
-      "negativo": 13,
-      "neutral": 30,
-      "score_sum": -26
     },
     "eje-sergio-camacho": {
       "total": 46,
@@ -120,13 +148,6 @@
       "neutral": 47,
       "score_sum": -28
     },
-    "snac-gonzalo-guzman-coraita": {
-      "total": 45,
-      "positivo": 7,
-      "negativo": 5,
-      "neutral": 33,
-      "score_sum": 4
-    },
     "snac-flavia-royon": {
       "total": 142,
       "positivo": 17,
@@ -155,13 +176,6 @@
       "neutral": 67,
       "score_sum": 56
     },
-    "dnac-bernardo-biella": {
-      "total": 50,
-      "positivo": 10,
-      "negativo": 8,
-      "neutral": 32,
-      "score_sum": 2
-    },
     "sen-edgardo-guaymas": {
       "total": 6,
       "positivo": 1,
@@ -170,11 +184,11 @@
       "score_sum": 1
     },
     "sen-gonzalo-caro-davalos": {
-      "total": 26,
+      "total": 19,
       "positivo": 4,
-      "negativo": 2,
-      "neutral": 20,
-      "score_sum": 11
+      "negativo": 1,
+      "neutral": 14,
+      "score_sum": 13
     },
     "dnac-yolanda-vega": {
       "total": 24,
@@ -253,13 +267,6 @@
       "neutral": 36,
       "score_sum": -11
     },
-    "eje-ana-paula-benavides": {
-      "total": 25,
-      "positivo": 0,
-      "negativo": 3,
-      "neutral": 22,
-      "score_sum": -13
-    },
     "sen-roque-cornejo-avellaneda": {
       "total": 84,
       "positivo": 11,
@@ -287,13 +294,6 @@
       "negativo": 9,
       "neutral": 48,
       "score_sum": -20
-    },
-    "dip-gaston-guillermo-galindez": {
-      "total": 34,
-      "positivo": 6,
-      "negativo": 3,
-      "neutral": 25,
-      "score_sum": 12
     },
     "dip-omar-exeni-arminana": {
       "total": 46,
@@ -948,14 +948,118 @@
     }
   },
   "by_day": {
+    "2026-11-26": {
+      "gustavo-saenz": {
+        "total": 6,
+        "score_sum": 5
+      },
+      "eje-federico-mangione": {
+        "total": 3,
+        "score_sum": 2
+      },
+      "sen-edgardo-guaymas": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-gonzalo-caro-davalos": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "snac-emilia-orozco": {
+        "total": 2,
+        "score_sum": 3
+      },
+      "snac-flavia-royon": {
+        "total": 1,
+        "score_sum": 3
+      },
+      "dip-sergio-mauricio-lopez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-manuela-arancibia": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "sen-juan-cruz-cura": {
+        "total": 1,
+        "score_sum": 2
+      },
+      "concejal-agustina-alvarez-eichele": {
+        "total": 1,
+        "score_sum": -1
+      }
+    },
+    "2025-12-16": {
+      "eje-ana-paula-benavides": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-ignacio-jarsun": {
+        "total": 3,
+        "score_sum": 0
+      },
+      "dip-griselda-edith-galleguillos": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "eje-gustavo-carrizo": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dnac-yolanda-vega": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-gustavo-orlando-orozco": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-roque-cornejo-avellaneda": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
+    "2024-04-17": {
+      "dip-gaston-guillermo-galindez": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "dip-patricia-del-carmen-hucena": {
+        "total": 1,
+        "score_sum": 0
+      },
+      "sen-mashur-lapad": {
+        "total": 1,
+        "score_sum": 2
+      }
+    },
+    "2024-12-10": {
+      "concejal-jose-garcia-alcazar": {
+        "total": 1,
+        "score_sum": 0
+      }
+    },
     "2026-11-27": {
+      "dnac-bernardo-biella": {
+        "total": 1,
+        "score_sum": 4
+      },
+      "gustavo-saenz": {
+        "total": 4,
+        "score_sum": 6
+      },
+      "snac-gonzalo-guzman-coraita": {
+        "total": 2,
+        "score_sum": 1
+      },
       "dip-sergio-mauricio-lopez": {
         "total": 1,
         "score_sum": -2
-      },
-      "gustavo-saenz": {
-        "total": 3,
-        "score_sum": 6
       },
       "concejal-jose-garcia-alcazar": {
         "total": 1,
@@ -988,10 +1092,6 @@
       "eje-cristina-fiore": {
         "total": 1,
         "score_sum": 0
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 1
       },
       "snac-flavia-royon": {
         "total": 1,
@@ -1478,52 +1578,6 @@
       "snac-flavia-royon": {
         "total": 1,
         "score_sum": -2
-      }
-    },
-    "2026-11-26": {
-      "eje-federico-mangione": {
-        "total": 3,
-        "score_sum": 2
-      },
-      "sen-edgardo-guaymas": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 4
-      },
-      "snac-gonzalo-guzman-coraita": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "snac-emilia-orozco": {
-        "total": 2,
-        "score_sum": 3
-      },
-      "snac-flavia-royon": {
-        "total": 1,
-        "score_sum": 3
-      },
-      "gustavo-saenz": {
-        "total": 5,
-        "score_sum": 7
-      },
-      "dip-sergio-mauricio-lopez": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-manuela-arancibia": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "sen-juan-cruz-cura": {
-        "total": 1,
-        "score_sum": 2
-      },
-      "concejal-agustina-alvarez-eichele": {
-        "total": 1,
-        "score_sum": -1
       }
     },
     "2026-07-09": {
@@ -3472,32 +3526,6 @@
         "score_sum": 4
       }
     },
-    "2025-12-16": {
-      "eje-ignacio-jarsun": {
-        "total": 3,
-        "score_sum": 0
-      },
-      "dip-griselda-edith-galleguillos": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "eje-gustavo-carrizo": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dnac-yolanda-vega": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "dip-gustavo-orlando-orozco": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-roque-cornejo-avellaneda": {
-        "total": 1,
-        "score_sum": 0
-      }
-    },
     "2024-07-05": {
       "concejal-ines-bennassar": {
         "total": 1,
@@ -4974,10 +5002,6 @@
         "score_sum": 0
       },
       "sen-manuel-pailler": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
       }
@@ -10960,10 +10984,6 @@
       "sen-walter-cruz": {
         "total": 1,
         "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 2,
-        "score_sum": 0
       }
     },
     "2019-07-06": {
@@ -12372,16 +12392,6 @@
       "dip-guillermo-mario-durand-cornejo": {
         "total": 1,
         "score_sum": 0
-      }
-    },
-    "2024-04-17": {
-      "dip-patricia-del-carmen-hucena": {
-        "total": 1,
-        "score_sum": 0
-      },
-      "sen-mashur-lapad": {
-        "total": 1,
-        "score_sum": 2
       }
     },
     "2025-08-08": {
@@ -15106,10 +15116,6 @@
       "dip-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2013-05-08": {
@@ -15120,28 +15126,16 @@
       "sen-carlos-guitian": {
         "total": 1,
         "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2013-11-13": {
       "dip-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": 0
-      },
-      "sen-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": 0
       }
     },
     "2026-04-14": {
       "dip-gonzalo-caro-davalos": {
-        "total": 1,
-        "score_sum": -2
-      },
-      "sen-gonzalo-caro-davalos": {
         "total": 1,
         "score_sum": -2
       }
@@ -19626,7 +19620,27 @@
     },
     {
       "term": "orozco",
-      "count": 9
+      "count": 10
+    },
+    {
+      "term": "elintra",
+      "count": 8
+    },
+    {
+      "term": "electoral",
+      "count": 7
+    },
+    {
+      "term": "aries",
+      "count": 6
+    },
+    {
+      "term": "line",
+      "count": 6
+    },
+    {
+      "term": "reforma",
+      "count": 6
     },
     {
       "term": "sergio",
@@ -19638,34 +19652,10 @@
     },
     {
       "term": "argentina",
-      "count": 6
-    },
-    {
-      "term": "elintra",
-      "count": 6
-    },
-    {
-      "term": "gobernador",
-      "count": 6
+      "count": 5
     },
     {
       "term": "nación",
-      "count": 6
-    },
-    {
-      "term": "electoral",
-      "count": 6
-    },
-    {
-      "term": "lópez",
-      "count": 5
-    },
-    {
-      "term": "aries",
-      "count": 5
-    },
-    {
-      "term": "line",
       "count": 5
     },
     {
@@ -19677,8 +19667,12 @@
       "count": 5
     },
     {
-      "term": "reforma",
-      "count": 5
+      "term": "diputados",
+      "count": 4
+    },
+    {
+      "term": "lópez",
+      "count": 4
     }
   ],
   "comentions": [
