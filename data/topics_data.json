@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-11-28T02:48:06.133806+00:00",
+  "generated_at": "2026-11-28T10:59:34.775737+00:00",
   "topics": {
     "presupuesto-2027": {
       "id": "presupuesto-2027",
       "name": "Presupuesto 2027",
       "role": "",
-      "total_mentions": 662,
+      "total_mentions": 665,
       "sentiment_breakdown": {
         "positivo": 50,
         "negativo": 60,
-        "neutral": 552
+        "neutral": 555
       },
       "sentiment_by_day": {
+        "2026-11-28": {
+          "total": 2,
+          "score_sum": 0
+        },
         "2026-11-27": {
-          "total": 23,
+          "total": 24,
           "score_sum": 0
         },
         "2026-11-26": {
@@ -380,11 +384,11 @@
       "top_topics": [
         {
           "term": "presupuesto",
-          "count": 77
+          "count": 79
         },
         {
           "term": "tribuno",
-          "count": 69
+          "count": 71
         },
         {
           "term": "intransigente",
@@ -392,7 +396,7 @@
         },
         {
           "term": "informate",
-          "count": 41
+          "count": 42
         },
         {
           "term": "pasa",
@@ -408,7 +412,7 @@
         },
         {
           "term": "milei",
-          "count": 16
+          "count": 17
         }
       ],
       "politicians_involved": [
@@ -422,6 +426,12 @@
         }
       ],
       "quotes": [
+        {
+          "quote": "Se están incorporando al presupuesto 2027, 90 millones de dólares para el ramal C15",
+          "source": "Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNmdKV1draU85SGlQQng1NGp6V1BYSE14dDFrV0pKQ3VucklwYzVhUXNxYlJNV3lzZV9ZbnZtYUxraU5GU1RJNjRrWWR2ZEpIZzdYdEptSEFNVmJRZHREZUdUWnJMWW04V3hhcFJmSEpMQWdPS1B2OUxydWlsRkQ0NEFiU0hJLTFsQnlhNEQ1NUdQUUU4Vno4ZFd3dEdjdm05MGFVZEZFd2dMd2JYVVE5S3dEcWlNUnNEMDBfYkVQZm5SYkNTRmQ4YmFHbDBScFVYQWF0VlBJWFZ0NEplMGhERUxpN0fSAfMBQVVfeXFMTnh5YnpzdlpWclFGR2ZiY1lqMW9zWVlTcW1WVHpGWk05RXRfeElfUzZkSGNYQzZiZWk0NXBpNm41Wm1jM0EyOThHWEZpWWg3UGIzQUFIVENxTE9SZ0h1WEFHYmx2ZHdoRnNWREluM09mc1B0VWpSRmVSMmdoOURiQmdzeVBnbi1USU5KSUNhOGpwdmNHVkNuYVFpN1RkMTZ0Um1kRmhBRW12OUtBbFIwaV9UUHpYTWpGZENWd2tLdUNMV2ViWW9JdTlMcWFVR1poOUp1Ul9uR2dwemU3R2pteVQzeU5rczROQmU4MmVnbW1DeHpV?oc=5",
+          "date": "Fri, 27 Nov 2026 14:15:00 GMT"
+        },
         {
           "quote": "Se están incorporando al presupuesto 2027, 90 millones de dólares para el ramal C15",
           "source": "Informate Salta",
@@ -505,15 +515,30 @@
           "source": "El Intransigente",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMEc4Snk5bmtRbjlNQjJZVjJ1eGZoakNhV3lycmY2eUZpNVlxYWxmMHRTeDlEWEh1TlpJUG93a1ZuUXFLUkRKYU4zUUhBU0cwY0lHRkpweWVQMUExc2lNaGk5d2tta1prQ1hRRGZLcE5yMUdqU3ZNYTF0dHNQckQzd1V6TjVVbzlfVkZGSFp3WnJSQy1LQkY4cXVrR2ZxVnZkQWdvT0RFSWJFRXlWTTdoVw?oc=5",
           "date": "Wed, 11 Nov 2026 00:00:10 GMT"
-        },
-        {
-          "quote": "Las necesidades son muchas y los recursos no son infinitos",
-          "source": "Informate Salta",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdHRTdmpkdDhXV2xqb25DMzRVMnlQWER5Z2UtbUxNWHQyVlVtaFVLVlJWeGc0Um1ONUFRdVdscUYwZDNsTDItQUpJZTJMbUlValRld1VEQWdIbHJXZ3czQnhScDFuUTd1WGQ2dmRld0VrcHNFSC1KRzNMZFpLN2FQR0tIQVF6Wk1MWUtaOF9jdnQ0R0Y3d3k1aXVSRWJrNERoU2NzeGJCYVM5UUxYaUMxS3prQzV4R0JVVmIyU1dHSVktTl82ZkNtNFZsZDZPejRWLXVZeU1OT1k4V2JCWmc4NHVJUGp2UkxRZy1sM0gtRUJwQdIBgAJBVV95cUxQdDJRUmVuMV9nak1SX3RLTHRKMVZselhYZnROUFFnaXhtdUFrU3g4eVdBeGZtbU1pMkN3Tk5VWTJIVnhWeEtCR0E2V1ZvSXljdnZfWjRqRlQxTThocnRETk9URFcza2JaVGlyM25IWE93Skh3R3UyUzQ5Wm5Xck9NcnB6TlhsYkxRT3M4TzFIU1ltTTdwLXJlNXI0ejVGVnNsZ1RjeHV5YlFrbHZZdjNGRmJCYXlFQnEyazNEMHJlRG1NZTNyZGFja0ExLVdzSV9HbDdzTFR4TEV3bEJJOUE4LWtmMDR0V0NwNzVyY1Rvc3diblNxX08zT0xtVDBzNklu?oc=5",
-          "date": "Wed, 04 Nov 2026 17:30:00 GMT"
         }
       ],
       "recent_articles": [
+        {
+          "title": "Milei fijó prioridades para extraordinarias - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQem02MnBOSlRwRDZ5V3NDMFA5ajhjMWJqYmNseXIxOVRoejQ5V1Ewc1VGUmNmVk5yeThCek9QZFNUaUg0RTMzc2JBSUJ3MmdMMHRqV1JjVVREN3NUQUxIS3FES2ExajlONGYySEszZ0Vka0ZUZVR4VmxNMDlaTXVRWU5WM3haZnRjQ21WMmpyQU9qMVhZTmFaOXNjY05YQdIBowFBVV95cUxQV2NQX0owSm1tWXFVLVkyUEtoZ1k4ck1vRHNJaUtBajBpZ1JUdF9HNkJ1QTFpcWhBYmFUZEg3b0oxMzJaMnJnaTJLQ0tuTWxWdzJKN0VOeWllR0I5VTNtZ3UxUFZDcjd1NzlFeFNlU2lYTVdxbTNHLWpfOEVVR0I2djZYU2lKTWhMTXZiLUdoMUtPOVlEd1pPQ2tLNkRRMnhReGpJ?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 28 Nov 2026 05:16:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "Presupuesto: la puja por fondos universitarios sigue abierta - El Tribuno",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUGppb09ncjhoczFYY3cwdkNjakQzTGFXN1UzVnhKbV9rb0lJMHFXcEt3MWo2REpoWHlLR1lSUHZuMVptNmloSFI1TmhoaG56TnZ4czBvQlVhcjNIRkF3QzZCUkNNNGNSRHdJVEcta2F2bzBMYlNnUDBZOTR4cGNSaGcyQ2hNZ3hBZ1pNRFZYQ09LNm54a25jOHM3blU1QmlKY256bkYtaFVQOWQ4UE9nbE5BY9IBuAFBVV95cUxPc1AwT1ZGaG1iQk1tQ0pmazU0a3R0RnlPdVVtVEFNbTZ5ZFlxNlZqSnMwRGlYQXJfWGdmcjd3X3VZdGZsY2dxTFZ6R3lsUDZjVlh5aFlsOWZ1UUJkNXpOV08xUjhiTU5RcVd6RVZEdEk0WWV0Nl90TXRyWlgxTU9zOFhFeWQ0aG1OVWx2Q3RMTlBBZkVnaktoWnZXWVhybWZiNnN0bURGODVsX0xVT3hsVWRhWTdvWGsz?oc=5",
+          "source": "El Tribuno",
+          "date": "Sat, 28 Nov 2026 05:16:00 GMT",
+          "sentiment_label": "neutral"
+        },
+        {
+          "title": "“Se están incorporando al presupuesto 2027, 90 millones de dólares para el ramal C15” - Informate Salta",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNmdKV1draU85SGlQQng1NGp6V1BYSE14dDFrV0pKQ3VucklwYzVhUXNxYlJNV3lzZV9ZbnZtYUxraU5GU1RJNjRrWWR2ZEpIZzdYdEptSEFNVmJRZHREZUdUWnJMWW04V3hhcFJmSEpMQWdPS1B2OUxydWlsRkQ0NEFiU0hJLTFsQnlhNEQ1NUdQUUU4Vno4ZFd3dEdjdm05MGFVZEZFd2dMd2JYVVE5S3dEcWlNUnNEMDBfYkVQZm5SYkNTRmQ4YmFHbDBScFVYQWF0VlBJWFZ0NEplMGhERUxpN0fSAfMBQVVfeXFMTnh5YnpzdlpWclFGR2ZiY1lqMW9zWVlTcW1WVHpGWk05RXRfeElfUzZkSGNYQzZiZWk0NXBpNm41Wm1jM0EyOThHWEZpWWg3UGIzQUFIVENxTE9SZ0h1WEFHYmx2ZHdoRnNWREluM09mc1B0VWpSRmVSMmdoOURiQmdzeVBnbi1USU5KSUNhOGpwdmNHVkNuYVFpN1RkMTZ0Um1kRmhBRW12OUtBbFIwaV9UUHpYTWpGZENWd2tLdUNMV2ViWW9JdTlMcWFVR1poOUp1Ul9uR2dwemU3R2pteVQzeU5rczROQmU4MmVnbW1DeHpV?oc=5",
+          "source": "Informate Salta",
+          "date": "Fri, 27 Nov 2026 14:15:00 GMT",
+          "sentiment_label": "neutral"
+        },
         {
           "title": "Para Novaro, la suspensión de las PASO le da aire político a Milei, pero no debilita al peronismo - El Tribuno",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaFAzNG9PeS1hd1J2d2REc0RzSU9RZFZlMGN5Q2tqZ2JtTnJWOG1BdHk4NDZ3YzQ0Zk1tZnZKZDhUS3hBVEQ4M2diT1pTUmpCZ1hDWHZDd000T1VlRV9xbkdJNDY5bHg1RzRtUzdBNTdYYmFIUFloTU04eThJSlVpRFVEWGo1YWRXOXZIWk9idTB2Sk0tc05DMEo5eWhXdGVlcnJVWFZfYmpTQnFlNHVtSkxjeDl4Tm4xRFY0SkJMeEltbHgzSWpKcmtBUVd6emprcWxrLWpLS0ZUNFRfa2VN?oc=5",
@@ -701,27 +726,6 @@
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWlhtYnBYMjh6OXhNalBRSE93X3c0S2ZWNlRROE56cWNpdUVhblRRYmEwOUZKQldtTG9IWkdkSHBLZWZlZWF5TUoxMWgwY21lY0JkVkpEa05LaEt3U2RsQ2ZiZVRVZW1Ma0MyejdSakg2cGZkdDNXRWlNbEZqMFAtMGZIUUxSNU5tZE5MNWU0eFRhV2p0MmpaNGh0Ylg5SGZJamVYUllzWkFqQVlXVk9qUnpnTnVVY1d1R01pendoQ25YUU9OeVdHbtIBzgFBVV95cUxPdFpIQUJYSGU1THZNaHlVWk9BV3d0bnBRYk51d1FmSHhwbDFPZkloRkdaTDltdzlhMXdoUDVZWk56WmlZWUdSOWNaR19YZzhqUU9kRTZlcmVzX1RzNWhFVVZjbjdwWFhiOWEzU1hHVTVIX1ZMbWJxTllXRFJDOWFQTGJfYW9lMDJwSWJpVFJQel90U3JzNXg5MHQyTjRUYUNOc0xaQzFvWWN1c2trUDNwSUxXbVJUUVIxRDJJVE9ZVEQ0YlliZzlIQzZqMUxoUQ?oc=5",
           "source": "El Tribuno",
           "date": "Fri, 27 Nov 2026 05:02:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Presupuesto 2027 avanza en Diputados con fuerte debate sobre las cuentas públicas - Elintra.com.ar",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRkwxWW1yZUktMmR3TzNhQ0xwdWdHbWR6ZnV5RndkcVhSZU5wc1Y5aGJ2ZHlVV3QzcFNRMk9LSVpmYzJtZGZ1WW9OSTBSa1pBWDhJVjJ0eWYxYlpLa3pfY1QtUG9OMHRLZUpxcEdvclVpMEtLZ2xNMERDbHZ5d0dRRHFLMzg3cktLSGpNN2NZNURYeUdYZ0ttSXZyZ3BoendQOVVOZHJpQUY?oc=5",
-          "source": "Elintra.com.ar",
-          "date": "Thu, 26 Nov 2026 20:49:40 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Tormentas fuertes, granizo y ráfagas: rige alerta amarilla para Salta y Jujuy - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ1RZakYtVnFVbjNBeHg4Rmpnay1hajhYdVJNbkdiTDEybl9mR0FsbE9aQTAtcWcwQ25qQVNIOU5TN0ExUlN5dm9xZXJvR3ZUOWJpNmRzZmZnazZqbU5FX1JNemMyam5CNEIxYmg4M0VqejVleDJtdmNsWVkwbjZUajI1bFhFNlFMRVk4WmlXOGRNeFVxOXU3QlUzeUxiUjR6MU0wcmh5ZzhnanRMbUVJZ1lQZmZNQ3FGak1HZ3V1aTFqMG_SAcgBQVVfeXFMTm5nc1ZtZjF5dXRlbFRrOWRIZGlDS2hCZlNIUUFWWFYwR3p0a1plWGllZlhtYnRwdmdPX3JWdlhQaGE0bWlUOWc4bHVsZ0FZTy01NVo3S0J6blh3YWJzMWxfNlRlYi1CQ1VJSVNRVHVPeTJRemN3SzBmN2ZkNUd3c0lhMXlxV1dNaXYzNjdlOFhJY0FuazdPQmduQUFKUGtyT0dvVWM3UWRDRWNjenRMNXhOblhUUGxyUlJLLVNPdG1YTXI4M3huTTA?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 26 Nov 2026 11:51:00 GMT",
-          "sentiment_label": "neutral"
-        },
-        {
-          "title": "Los cambios más importantes de la reforma de la Carta Orgánica del BCRA - El Tribuno",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRFdYSmRQTGNpU1ZXOWRJYkQtTmFMdlkzWG9QeWVFZkFqLWZmOTd5Rlc0ZnZJTklPaFNqb2RhaTV5alJsT2x3dFdGcl8ta0JudTB6YXRpcXpEdUFSUFJqVHRVX0cxZllDSDRndGlxaFFvNnc3NFFNN2RuWFFraC03MjVLWWlnQ2lCZmxic1lBaUxEUEpqLTRxUWZtV0VfM0tQX1pNUVhDQjlzMzJZNVdKWHZMYm42U09UTEJ6ZDFhYnRWVDZpWVHSAcsBQVVfeXFMT3hmYTA5M1BzWGUxLW83RF8yRVlLWFl1RjlHblh2cUlNTjRqV2dOT0VEbnNQZFo0R25xY183SmF1Y0E2QTh2aUhRQkpYekxnMXhMTFl4YXF6UFY0U2NiUEo5ZUxlRkZRYUVMcDFJX0V3Z3BiZ3FwSEdoazJyWEQyTTV1SG5jWGpnaFNOZFJlTnVpeVZzYUd1RXNuNEw3Y3liNDdZMG12U09WM2s0VldoaUFvMm1TbjlEaWdEUDREdEpLaloxUVdNY1dKSEE?oc=5",
-          "source": "El Tribuno",
-          "date": "Thu, 26 Nov 2026 20:22:00 GMT",
           "sentiment_label": "neutral"
         }
       ]
